@@ -20,8 +20,8 @@ class CustomFooter extends HTMLElement {
         <div class="footer-container">
           <div>
             <div class="footer-logo">
-              <img src="./assets/logo.png" alt="Koretex System" style="height:28px;width:auto;display:block" />
-              <span>Koretex System</span>
+              <img src="./assets/logo.png" alt="Kortex System" style="height:28px;width:auto;display:block" />
+              <span>Kortex System</span>
             </div>
             <p style="color:rgba(255,255,255,.85);margin:.6rem 0 .2rem">KI-gestützte Automatisierung für den deutschen Mittelstand.</p>
           </div>
@@ -48,8 +48,8 @@ class CustomFooter extends HTMLElement {
           </div>
         </div>
         <div class="copyright">
-          <img src="./assets/logo.png" alt="Koretex System Logo" />
-          <p style="margin:0">&copy; ${new Date().getFullYear()} Koretex System. Alle Rechte vorbehalten.</p>
+          <img src="./assets/logo.png" alt="Kortex System Logo" />
+          <p style="margin:0">&copy; ${new Date().getFullYear()} Kortex System. Alle Rechte vorbehalten.</p>
         </div>
       </footer>
     `;

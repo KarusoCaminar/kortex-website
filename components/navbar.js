@@ -41,8 +41,8 @@ class CustomNavbar extends HTMLElement {
       <nav role="navigation" aria-label="Hauptnavigation">
         <div class="nav-container">
           <a href="index.html" class="logo" aria-label="Zur Startseite">
-            <img src="./assets/logo.png" alt="Koretex System Logo">
-            <span>Koretex System</span>
+            <img src="./assets/logo.png" alt="Kortex System Logo">
+            <span>Kortex System</span>
           </a>
 
           <ul class="nav-links" role="menubar">

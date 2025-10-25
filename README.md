@@ -1,5 +1,5 @@
 ---
-title: Koretex Systems
+title: Kortex Systems
 emoji: 🐠
 colorFrom: yellow
 colorTo: green

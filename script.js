@@ -1,4 +1,4 @@
-// script.js - Koretex System (Finale Logik: Formular-Handling und Animation)
+// script.js - Kortex System (Finale Logik: Formular-Handling und Animation)
 
 document.addEventListener('DOMContentLoaded', () => {
 
