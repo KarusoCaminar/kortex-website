@@ -20,7 +20,7 @@ class CustomFooter extends HTMLElement {
         <div class="footer-container">
           <div>
             <div class="footer-logo">
-              <span aria-hidden="true">${this._svgCpu()}</span>
+              <img src="./assets/logo.png" alt="Koretex System" style="height:28px;width:auto;display:block" />
               <span>Koretex System</span>
             </div>
             <p style="color:rgba(255,255,255,.85);margin:.6rem 0 .2rem">KI-gestützte Automatisierung für den deutschen Mittelstand.</p>
