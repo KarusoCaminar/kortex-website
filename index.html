@@ -27,7 +27,7 @@
         <p class="lead">Koretex System entwickelt praktikable, datenschutzbewusste KI-Lösungen für den deutschen Mittelstand — schnell, sicher, messbar.</p>
         
         <div style="display:flex;gap:0.9rem;flex-wrap:wrap">
-          <a href="#pruefen" class="btn btn-primary">Kostenlose Prüfung</a>
+          <a href="#kontakt" class="btn btn-primary">Kostenlose Prüfung</a>
           <a href="produkte.html" class="btn btn-ghost">Mehr erfahren</a>
         </div>
         
@@ -58,7 +58,7 @@
       
       <form action="/api/contact" method="post" style="display:grid;gap:0.9rem">
         <label class="sr-only" for="process">Prozessbeschreibung</label>
-        <textarea id="process" name="process" rows="4" placeholder="Welchen Prozess möchten Sie automatisieren? (z. B. Rechnungsprüfung, Eingangsbestätigung, Datentransfer)" required></textarea>
+        <textarea id="process" name="process" rows="4" placeholder="Beschreiben Sie kurz Ihren Prozess (z.B. Rechnungsprüfung, Datentransfer)..." required></textarea>
         <div style="display:flex;gap:.6rem;flex-wrap:wrap">
           <input type="email" name="email" placeholder="E-Mail" required style="padding:.6rem;border-radius:10px;border:1px solid #E6EEF8;min-width:220px">
           <input type="text" name="firma" placeholder="Firma (optional)" style="padding:.6rem;border-radius:10px;border:1px solid #E6EEF8;min-width:220px">
@@ -111,6 +111,25 @@
       </div>
     </section>
   </main>
+  
+  <!-- Kontakt-Bereich -->
+  <section id="kontakt" class="container" style="padding: 3rem 1rem; max-width: 900px;">
+    <div class="question-widget">
+      <h2 style="margin:0 0 .8rem;font-size:1.5rem;font-weight:700;color:var(--primary-dark);text-align:center;">Direkter Kontakt</h2>
+      <p style="margin:0 0 1rem;color:rgba(30,41,59,.72);text-align:center;">Beschreiben Sie uns Ihren Automatisierungsbedarf – wir melden uns innerhalb von 24 Stunden.</p>
+      
+      <form action="/api/contact" method="post" style="display:grid;gap:0.9rem">
+        <label class="sr-only" for="process-kontakt">Prozessbeschreibung</label>
+        <textarea id="process-kontakt" name="process" rows="4" placeholder="Beschreiben Sie kurz Ihren Prozess (z.B. Rechnungsprüfung, Datentransfer)..." required></textarea>
+        <div style="display:flex;gap:.6rem;flex-wrap:wrap">
+          <input type="email" name="email" placeholder="E-Mail" required style="padding:.6rem;border-radius:10px;border:1px solid #E6EEF8;min-width:220px">
+          <input type="text" name="firma" placeholder="Firma (optional)" style="padding:.6rem;border-radius:10px;border:1px solid #E6EEF8;min-width:220px">
+          <button type="submit" class="btn btn-primary">Anfrage senden</button>
+        </div>
+        <small style="color:rgba(30,41,59,.6)">Oder direkt per E-Mail: <a href="mailto:info@koretex-system.de" style="color:var(--primary);font-weight:600">info@koretex-system.de</a></small>
+      </form>
+    </div>
+  </section>
   
   <custom-footer></custom-footer>
   

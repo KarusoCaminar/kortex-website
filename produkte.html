@@ -52,7 +52,7 @@
               </li>
             </ul>
 
-            <a href="index.html#pruefen" class="text-primary" style="font-weight:600;text-decoration:none">Mehr erfahren <span aria-hidden="true">→</span></a>
+            <a href="#kontakt" class="text-primary" style="font-weight:600;text-decoration:none">Mehr erfahren <span aria-hidden="true">→</span></a>
           </div>
         </article>
 
@@ -74,7 +74,7 @@
               <li style="display:flex;gap:.6rem;align-items:flex-start"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" style="flex:0 0 16px;margin-top:3px"><path d="M20 6L9 17l-5-5" stroke="var(--primary)" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Echtzeit-Analysen</span></li>
             </ul>
 
-            <a href="index.html#pruefen" class="text-primary" style="font-weight:600;text-decoration:none">Mehr erfahren <span aria-hidden="true">→</span></a>
+            <a href="#kontakt" class="text-primary" style="font-weight:600;text-decoration:none">Mehr erfahren <span aria-hidden="true">→</span></a>
           </div>
         </article>
 
@@ -96,7 +96,7 @@
               <li style="display:flex;gap:.6rem;align-items:flex-start"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" style="flex:0 0 16px;margin-top:3px"><path d="M20 6L9 17l-5-5" stroke="var(--primary)" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Echtzeit-Monitoring</span></li>
             </ul>
 
-            <a href="index.html#pruefen" class="text-primary" style="font-weight:600;text-decoration:none">Mehr erfahren <span aria-hidden="true">→</span></a>
+            <a href="#kontakt" class="text-primary" style="font-weight:600;text-decoration:none">Mehr erfahren <span aria-hidden="true">→</span></a>
           </div>
         </article>
       </div>
@@ -105,9 +105,28 @@
     <section class="cta-products" role="region" aria-label="Call to action">
       <h2 style="margin:0 0 .5rem;font-weight:800;font-size:1.25rem;color:#fff">Welcher Prozess kostet Sie zu viel Zeit?</h2>
       <p style="margin:0 0 1rem;color:rgba(255,255,255,.9)">In 15 Minuten zeigen wir Ihnen das Automatisierungspotenzial – kostenfrei und unverbindlich.</p>
-      <a href="index.html#pruefen" class="btn btn-primary" style="background:#fff; color:var(--primary-dark); padding: 0.8rem 1.5rem; text-decoration:none">Jetzt Potenzial prüfen lassen</a>
+      <a href="#kontakt" class="btn btn-primary" style="background:#fff; color:var(--primary-dark); padding: 0.8rem 1.5rem; text-decoration:none">Jetzt Potenzial prüfen lassen</a>
     </section>
   </main>
+
+  <!-- Kontakt-Bereich -->
+  <section id="kontakt" class="container" style="padding: 3rem 1rem; max-width: 900px;">
+    <div class="question-widget">
+      <h2 style="margin:0 0 .8rem;font-size:1.5rem;font-weight:700;color:var(--primary-dark);text-align:center;">Direkter Kontakt</h2>
+      <p style="margin:0 0 1rem;color:rgba(30,41,59,.72);text-align:center;">Beschreiben Sie uns Ihren Automatisierungsbedarf – wir melden uns innerhalb von 24 Stunden.</p>
+      
+      <form action="/api/contact" method="post" style="display:grid;gap:0.9rem">
+        <label class="sr-only" for="process-kontakt">Prozessbeschreibung</label>
+        <textarea id="process-kontakt" name="process" rows="4" placeholder="Beschreiben Sie kurz Ihren Prozess (z.B. Rechnungsprüfung, Datentransfer)..." required></textarea>
+        <div style="display:flex;gap:.6rem;flex-wrap:wrap">
+          <input type="email" name="email" placeholder="E-Mail" required style="padding:.6rem;border-radius:10px;border:1px solid #E6EEF8;min-width:220px">
+          <input type="text" name="firma" placeholder="Firma (optional)" style="padding:.6rem;border-radius:10px;border:1px solid #E6EEF8;min-width:220px">
+          <button type="submit" class="btn btn-primary">Anfrage senden</button>
+        </div>
+        <small style="color:rgba(30,41,59,.6)">Oder direkt per E-Mail: <a href="mailto:info@koretex-system.de" style="color:var(--primary);font-weight:600">info@koretex-system.de</a></small>
+      </form>
+    </div>
+  </section>
 
   <custom-footer></custom-footer>
 
