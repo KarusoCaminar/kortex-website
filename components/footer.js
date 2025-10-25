@@ -13,7 +13,8 @@ class CustomFooter extends HTMLElement {
         .footer-links a:hover{color:#fff}
         .newsletter input{padding:.5rem;border-radius:6px;border:1px solid rgba(255,255,255,.08);background:transparent;color:#fff}
         .newsletter button{background:var(--p);color:#fff;padding:.55rem;border-radius:6px;border:0;font-weight:600;cursor:pointer}
-        .copyright{margin-top:1rem;padding-top:1rem;border-top:1px solid rgba(255,255,255,.06);text-align:center;color:rgba(255,255,255,.75);font-size:.9rem}
+        .copyright{margin-top:1rem;padding-top:1rem;border-top:1px solid rgba(255,255,255,.06);text-align:center;color:rgba(255,255,255,.75);font-size:.9rem;display:flex;align-items:center;justify-content:center;gap:.6rem;flex-wrap:wrap}
+        .copyright img{height:24px;width:auto;opacity:0.9}
       </style>
       <footer>
         <div class="footer-container">
@@ -47,7 +48,8 @@ class CustomFooter extends HTMLElement {
           </div>
         </div>
         <div class="copyright">
-          <p>&copy; ${new Date().getFullYear()} Koretex System. Alle Rechte vorbehalten.</p>
+          <img src="./assets/logo.png" alt="Koretex System Logo" />
+          <p style="margin:0">&copy; ${new Date().getFullYear()} Koretex System. Alle Rechte vorbehalten.</p>
         </div>
       </footer>
     `;
