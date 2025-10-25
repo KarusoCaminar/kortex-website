@@ -15,7 +15,6 @@ class CustomFooter extends HTMLElement {
         .newsletter button{background:var(--p);color:#fff;padding:.55rem;border-radius:6px;border:0;font-weight:600;cursor:pointer}
         .copyright{margin-top:1rem;padding-top:1rem;border-top:1px solid rgba(255,255,255,.06);text-align:center;color:rgba(255,255,255,.75);font-size:.9rem}
       </style>
-
       <footer>
         <div class="footer-container">
           <div>
@@ -25,25 +24,22 @@ class CustomFooter extends HTMLElement {
             </div>
             <p style="color:rgba(255,255,255,.85);margin:.6rem 0 .2rem">KI-gestützte Automatisierung für den deutschen Mittelstand.</p>
           </div>
-
           <div class="footer-links" aria-labelledby="prod-heading">
             <h3 id="prod-heading">Produkte</h3>
             <ul>
-              <li><a href="/produkte/ki-kundensupport.html">KI-Kundensupport</a></li>
-              <li><a href="/produkte/datenverarbeitung.html">Datenverarbeitung</a></li>
-              <li><a href="/produkte/prozessautomatisierung.html">Prozessautomatisierung</a></li>
+              <li><a href="produkte.html#ki-kundensupport">KI-Kundensupport</a></li>
+              <li><a href="produkte.html#datenverarbeitung">Datenverarbeitung</a></li>
+              <li><a href="produkte.html#prozessautomatisierung">Prozessautomatisierung</a></li>
             </ul>
           </div>
-
           <div class="footer-links" aria-labelledby="company-heading">
             <h3 id="company-heading">Unternehmen</h3>
             <ul>
-              <li><a href="/ueber-uns.html">Über uns</a></li>
-              <li><a href="/karriere.html">Karriere</a></li>
-              <li><a href="/blog.html">Blog</a></li>
+              <li><a href="ueber-uns.html">Über uns</a></li>
+              <li><a href="karriere.html">Karriere</a></li>
+              <li><a href="blog.html">Blog</a></li>
             </ul>
           </div>
-
           <div class="newsletter" aria-labelledby="newsletter-heading">
             <h3 id="newsletter-heading">Newsletter</h3>
             <p style="color:rgba(255,255,255,.85);margin:0 0 .6rem">Bleiben Sie auf dem Laufenden.</p>
@@ -51,14 +47,12 @@ class CustomFooter extends HTMLElement {
             <button type="button">Anmelden</button>
           </div>
         </div>
-
         <div class="copyright">
           <p>&copy; ${new Date().getFullYear()} Koretex System GmbH. Alle Rechte vorbehalten.</p>
         </div>
       </footer>
     `;
   }
-
   // small inline svg for footer logo (no dependency on feather inside shadow)
   _svgCpu(){
     return `<svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false">
