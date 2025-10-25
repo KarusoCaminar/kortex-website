@@ -36,19 +36,18 @@ class CustomFooter extends HTMLElement {
             <h3 id="company-heading">Unternehmen</h3>
             <ul>
               <li><a href="ueber-uns.html">Über uns</a></li>
-              <li><a href="karriere.html">Karriere</a></li>
-              <li><a href="blog.html">Blog</a></li>
             </ul>
           </div>
-          <div class="newsletter" aria-labelledby="newsletter-heading">
-            <h3 id="newsletter-heading">Newsletter</h3>
-            <p style="color:rgba(255,255,255,.85);margin:0 0 .6rem">Bleiben Sie auf dem Laufenden.</p>
-            <input type="email" placeholder="Ihre E-Mail-Adresse" aria-label="E-Mail für Newsletter">
-            <button type="button">Anmelden</button>
+          <div class="footer-links" aria-labelledby="legal-heading">
+            <h3 id="legal-heading">Rechtliches</h3>
+            <ul>
+              <li><a href="impressum.html">Impressum</a></li>
+              <li><a href="datenschutz.html">Datenschutz</a></li>
+            </ul>
           </div>
         </div>
         <div class="copyright">
-          <p>&copy; ${new Date().getFullYear()} Koretex System GmbH. Alle Rechte vorbehalten.</p>
+          <p>&copy; ${new Date().getFullYear()} Koretex System. Alle Rechte vorbehalten.</p>
         </div>
       </footer>
     `;

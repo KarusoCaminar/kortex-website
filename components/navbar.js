@@ -51,7 +51,7 @@ class CustomNavbar extends HTMLElement {
             <li class="nav-link" role="none"><a role="menuitem" href="preise.html">Preise</a></li>
             <li class="nav-link" role="none"><a role="menuitem" href="ueber-uns.html">Über uns</a></li>
             <li class="nav-link" role="none"><a role="menuitem" href="faq.html">FAQ</a></li>
-            <li class="nav-link" role="none"><a role="menuitem" href="demo.html" class="cta-button">Kostenlose Prüfung</a></li>
+            <li class="nav-link" role="none"><a role="menuitem" href="index.html#pruefen" class="cta-button">Kostenlose Prüfung</a></li>
           </ul>
 
           <button class="mobile-menu-button" aria-label="Menü öffnen" aria-expanded="false" aria-controls="mobile-menu">
