@@ -67,8 +67,14 @@ body{
 .lead{font-size:1.0625rem;color:var(--muted);margin-bottom:1.25rem}
 
 /* question widget */
-.question-widget{max-width:900px;margin:2.5rem auto;padding:1.25rem;border-radius:12px;background:#f1f5f9;box-shadow:0 6px 18px rgba(16,24,40,.06)}
-textarea{width:100%;border:1px solid #e6eef8;padding:.9rem;border-radius:10px;font-family:inherit;resize:vertical}
+.question-widget{max-width:900px;margin:2.5rem auto;padding:2rem;border-radius:14px;background:linear-gradient(90deg,var(--primary),var(--secondary));box-shadow:0 12px 32px rgba(3,78,162,.18);color:#fff}
+.question-widget h2{color:#fff !important}
+.question-widget p{color:rgba(255,255,255,.9) !important}
+.question-widget small{color:rgba(255,255,255,.85) !important}
+.question-widget a{color:#fff !important;font-weight:700}
+textarea{width:100%;border:1px solid rgba(255,255,255,.3);padding:.9rem;border-radius:10px;font-family:inherit;resize:vertical;background:rgba(255,255,255,.95);color:var(--text)}
+.question-widget input[type="email"],
+.question-widget input[type="text"]{background:rgba(255,255,255,.95) !important;border:1px solid rgba(255,255,255,.3) !important;color:var(--text)}
 
 /* Benefits grid */
 .grid-3{display:grid;gap:1rem}
