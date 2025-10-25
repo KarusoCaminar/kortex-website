@@ -40,18 +40,18 @@ class CustomNavbar extends HTMLElement {
 
       <nav role="navigation" aria-label="Hauptnavigation">
         <div class="nav-container">
-          <a href="/" class="logo" aria-label="Zur Startseite">
-            <img src="/assets/logo.png" alt="Koretex System Logo">
+          <a href="index.html" class="logo" aria-label="Zur Startseite">
+            <img src="./assets/logo.png" alt="Koretex System Logo">
             <span>Koretex System</span>
           </a>
 
           <ul class="nav-links" role="menubar">
-            <li class="nav-link" role="none"><a role="menuitem" href="/">Start</a></li>
-            <li class="nav-link" role="none"><a role="menuitem" href="/produkte.html">Produkte</a></li>
-            <li class="nav-link" role="none"><a role="menuitem" href="/preise.html">Preise</a></li>
-            <li class="nav-link" role="none"><a role="menuitem" href="/ueber-uns.html">Über uns</a></li>
-            <li class="nav-link" role="none"><a role="menuitem" href="/faq.html">FAQ</a></li>
-            <li class="nav-link" role="none"><a role="menuitem" href="/demo.html" class="cta-button">Kostenlose Prüfung</a></li>
+            <li class="nav-link" role="none"><a role="menuitem" href="index.html">Start</a></li>
+            <li class="nav-link" role="none"><a role="menuitem" href="produkte.html">Produkte</a></li>
+            <li class="nav-link" role="none"><a role="menuitem" href="preise.html">Preise</a></li>
+            <li class="nav-link" role="none"><a role="menuitem" href="ueber-uns.html">Über uns</a></li>
+            <li class="nav-link" role="none"><a role="menuitem" href="faq.html">FAQ</a></li>
+            <li class="nav-link" role="none"><a role="menuitem" href="demo.html" class="cta-button">Kostenlose Prüfung</a></li>
           </ul>
 
           <button class="mobile-menu-button" aria-label="Menü öffnen" aria-expanded="false" aria-controls="mobile-menu">
@@ -61,12 +61,13 @@ class CustomNavbar extends HTMLElement {
       </nav>
     `;
 
-    // Replace icons inside shadowRoot (Feather doesn't auto-scan shadow DOM)
+    // Rest des Codes bleibt unverändert
     const replaceIcons = () => {
       const icons = this.shadowRoot.querySelectorAll('[data-feather]');
       icons.forEach(el => {
         try {
           const name = el.getAttribute('data-feather');
+          // WICHTIG: window.feather muss in script.js geladen sein, damit das funktioniert
           if (window.feather && feather.icons && feather.icons[name]) {
             el.outerHTML = feather.icons[name].toSvg({ width: 18, height: 18 });
           }
