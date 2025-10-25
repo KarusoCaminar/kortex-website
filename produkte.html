@@ -5,25 +5,25 @@
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Produkte – Koretex System</title>
   <meta name="description" content="Unsere KI-gestützten Automatisierungslösungen für den deutschen Mittelstand." />
-  <link rel="stylesheet" href="/style.css">
+  
+  <link rel="stylesheet" href="style.css"> 
+  
   <script src="https://unpkg.com/feather-icons"></script>
 </head>
 <body>
 
-  <!-- Custom Navbar (Web Component) -->
   <custom-navbar></custom-navbar>
 
   <main class="container" style="padding:3.5rem 0">
     <section aria-labelledby="products-heading" style="margin-bottom:2.5rem">
-      <h1 id="products-heading" style="font-size:2rem;font-weight:800;color:var(--primary-dark);text-align:center;margin-bottom:.75rem">Unsere Lösungen</h1>
-      <p style="max-width:900px;margin:0 auto 1.5rem;color:var(--muted);text-align:center">
+      <h1 id="products-heading" class="h1" style="text-align:center;margin-bottom:.75rem">Unsere Lösungen</h1>
+      <p class="lead" style="max-width:900px;margin:0 auto 1.5rem;text-align:center">
         Maßgeschneiderte Automatisierung für Ihre spezifischen Herausforderungen — praxisorientiert, DSGVO-konform, messbar.
       </p>
 
       <div class="grid-3" style="gap:1.25rem;margin-top:1.5rem">
-        <!-- Produkt 1 -->
-        <article class="product-card" aria-labelledby="p1-title">
-          <img src="/assets/products/ki-kundensupport.jpg" alt="KI-Kundensupport" class="product-image" style="border-radius:10px;object-fit:cover">
+        <article class="product-card animate-on-scroll" aria-labelledby="p1-title">
+          <img src="./assets/products/produkt1.jpg" alt="KI-Kundensupport" class="product-image" style="border-radius:10px;object-fit:cover">
           <div style="padding-top:0.9rem">
             <div class="product-meta" style="gap:.9rem">
               <div class="product-badge" aria-hidden="true">
@@ -49,13 +49,12 @@
               </li>
             </ul>
 
-            <a href="/produkte/ki-kundensupport.html" class="text-primary" style="font-weight:600;text-decoration:none">Mehr erfahren <span aria-hidden="true">→</span></a>
+            <a href="index.html#pruefen" class="text-primary" style="font-weight:600;text-decoration:none">Mehr erfahren <span aria-hidden="true">→</span></a>
           </div>
         </article>
 
-        <!-- Produkt 2 -->
-        <article class="product-card" aria-labelledby="p2-title">
-          <img src="/assets/products/datenverarbeitung.jpg" alt="Datenverarbeitung" class="product-image" style="border-radius:10px;object-fit:cover">
+        <article class="product-card animate-on-scroll" aria-labelledby="p2-title">
+          <img src="./assets/products/produkt2.jpg" alt="Datenverarbeitung" class="product-image" style="border-radius:10px;object-fit:cover">
           <div style="padding-top:0.9rem">
             <div class="product-meta" style="gap:.9rem">
               <div class="product-badge" aria-hidden="true">
@@ -72,13 +71,12 @@
               <li style="display:flex;gap:.6rem;align-items:flex-start"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" style="flex:0 0 16px;margin-top:3px"><path d="M20 6L9 17l-5-5" stroke="var(--primary)" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Echtzeit-Analysen</span></li>
             </ul>
 
-            <a href="/produkte/datenverarbeitung.html" class="text-primary" style="font-weight:600;text-decoration:none">Mehr erfahren <span aria-hidden="true">→</span></a>
+            <a href="index.html#pruefen" class="text-primary" style="font-weight:600;text-decoration:none">Mehr erfahren <span aria-hidden="true">→</span></a>
           </div>
         </article>
 
-        <!-- Produkt 3 -->
-        <article class="product-card" aria-labelledby="p3-title">
-          <img src="/assets/products/prozessautomatisierung.jpg" alt="Prozessautomatisierung" class="product-image" style="border-radius:10px;object-fit:cover">
+        <article class="product-card animate-on-scroll" aria-labelledby="p3-title">
+           <img src="./assets/products/produkt3.jpg" alt="Prozessautomatisierung" class="product-image" style="border-radius:10px;object-fit:cover">
           <div style="padding-top:0.9rem">
             <div class="product-meta" style="gap:.9rem">
               <div class="product-badge" aria-hidden="true">
@@ -95,26 +93,24 @@
               <li style="display:flex;gap:.6rem;align-items:flex-start"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" style="flex:0 0 16px;margin-top:3px"><path d="M20 6L9 17l-5-5" stroke="var(--primary)" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Echtzeit-Monitoring</span></li>
             </ul>
 
-            <a href="/produkte/prozessautomatisierung.html" class="text-primary" style="font-weight:600;text-decoration:none">Mehr erfahren <span aria-hidden="true">→</span></a>
+            <a href="index.html#pruefen" class="text-primary" style="font-weight:600;text-decoration:none">Mehr erfahren <span aria-hidden="true">→</span></a>
           </div>
         </article>
       </div>
     </section>
 
-    <!-- CTA Section -->
     <section class="cta-products" role="region" aria-label="Call to action">
       <h2 style="margin:0 0 .5rem;font-weight:800;font-size:1.25rem;color:#fff">Bereit für die Automatisierung?</h2>
       <p style="margin:0 0 1rem;color:rgba(255,255,255,.9)">Lassen Sie uns gemeinsam herausfinden, wie wir Ihren Betrieb optimieren können.</p>
-      <a href="/demo.html" class="btn btn-primary" style="text-decoration:none">Kostenlose Prozessanalyse</a>
+      <a href="index.html#pruefen" class="btn btn-primary" style="background:#fff; color:var(--primary-dark); padding: 0.8rem 1.5rem; text-decoration:none">Kostenlose Prozessanalyse</a>
     </section>
   </main>
 
-  <!-- Custom Footer -->
   <custom-footer></custom-footer>
 
-  <script src="/components/navbar.js"></script>
-  <script src="/components/footer.js"></script>
-  <script src="/script.js"></script>
-  <script>feather.replace();</script>
+  <script src="components/navbar.js"></script>
+  <script src="components/footer.js"></script>
+  <script src="script.js"></script>
+  
 </body>
 </html>
