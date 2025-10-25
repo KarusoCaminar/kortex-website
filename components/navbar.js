@@ -27,8 +27,8 @@ class CustomNavbar extends HTMLElement {
         .nav-links{display:flex;gap:1.25rem;align-items:center;margin:0;padding:0;list-style:none}
         .nav-link a{color:rgba(31,41,55,.85);text-decoration:none;font-weight:500;padding:.5rem 0;transition:color .16s}
         .nav-link a:hover{color:var(--p)}
-        .cta-button{background:var(--p);color:white !important;padding:.5rem 1rem;border-radius:8px;font-weight:600;text-decoration:none}
-        .cta-button:hover{background:var(--p-dark);color:white !important}
+        .cta-button{background:linear-gradient(135deg, var(--p) 0%, #6A1B9A 100%);color:white !important;padding:.65rem 1.25rem;border-radius:10px;font-weight:600;text-decoration:none;box-shadow:0 4px 12px rgba(3,78,162,.18);transition:all .2s ease}
+        .cta-button:hover{background:linear-gradient(135deg, #09182F 0%, #220835 100%);color:white !important;transform:translateY(-1px);box-shadow:0 6px 16px rgba(3,78,162,.25)}
         .mobile-menu-button{display:none;background:none;border:0;cursor:pointer;padding:.4rem;border-radius:6px}
         .mobile-menu-button:focus{outline:2px solid rgba(3,78,162,.12)}
         @media (max-width:768px){
