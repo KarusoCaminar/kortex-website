@@ -8,90 +8,29 @@
   <meta property="og:title" content="Koretex System – Prozessautomatisierung" />
   <meta property="og:description" content="KI-gestützte Automatisierungslösungen für deutsche Mittelständler" />
   <meta property="og:image" content="assets/og-hero.png" />
+  
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
-  <script src="https://cdn.tailwindcss.com"></script>
-  <script src="https://unpkg.com/feather-icons"></script>
-
-  <style>
-    :root{
-      --primary:#034EA2;      /* Vivid Blue */
-      --primary-dark:#09182F; /* Midnight Blue */
-      --secondary:#6A1B9A;    /* Royal Violet */
-      --secondary-dark:#220835;
-      --bg:#F8FAFC;
-      --text:#1E293B;
-    }
-    html,body{height:100%}
-    body{
-      font-family:"Inter",system-ui,-apple-system,Segoe UI,Roboto,"Helvetica Neue",Arial;
-      background:var(--bg);
-      color:var(--text);
-      -webkit-font-smoothing:antialiased;
-      -moz-osx-font-smoothing:grayscale;
-      line-height:1.45;
-    }
-
-    /* Utility replacements (small subset) */
-    .container{max-width:1200px;margin-left:auto;margin-right:auto;padding:0 1rem}
-    header{display:flex;align-items:center;justify-content:space-between;padding:1rem 0}
-    .nav-links{display:flex;gap:1.25rem;align-items:center}
-    a.logo{display:flex;align-items:center;gap:.6rem;font-weight:700;color:var(--primary-dark);text-decoration:none}
-    .btn {display:inline-block;padding:.65rem 1.05rem;border-radius:8px;font-weight:600;text-decoration:none}
-    .btn-primary{background:var(--primary);color:#fff}
-    .btn-primary:hover{background:var(--primary-dark)}
-    .btn-ghost{border:1px solid rgba(30,41,59,.08);background:#fff;color:var(--text)}
-    /* Hero */
-    .hero{display:grid;grid-template-columns:1fr;gap:2.5rem;padding:3.5rem 0}
-    @media(min-width:900px){ .hero{grid-template-columns:1fr 1fr;align-items:center;padding:4.5rem 0} }
-    .h1{font-size:2rem;font-weight:800;color:var(--primary-dark);margin:0 0 1rem}
-    @media(min-width:900px){ .h1{font-size:3.25rem} }
-    .lead{font-size:1.0625rem;color:rgba(30,41,59,.72);margin-bottom:1.25rem}
-    .card{background:#fff;border-radius:12px;padding:1.25rem;box-shadow:0 6px 18px rgba(16,24,40,.06)}
-    /* Question widget */
-    .question-widget{max-width:900px;margin:2.5rem auto;padding:1.25rem;border-radius:12px;background:#fff;box-shadow:0 6px 18px rgba(16,24,40,.06)}
-    textarea{width:100%;border:1px solid #e6eef8;padding:.9rem;border-radius:10px;font-family:inherit;resize:vertical}
-    /* Benefits */
-    .grid-3{display:grid;gap:1rem}
-    @media(min-width:900px){ .grid-3{grid-template-columns:repeat(3,1fr)} }
-    .benefit{background:#fff;padding:1.25rem;border-radius:12px;box-shadow:0 4px 12px rgba(16,24,40,.04)}
-    .icon{width:48px;height:48px;border-radius:8px;display:flex;align-items:center;justify-content:center;background:linear-gradient(180deg,var(--primary),var(--secondary));color:#fff}
-    /* Footer */
-    footer{margin-top:3rem;padding:2rem 0;color:rgba(30,41,59,.7)}
-    /* gradient text helper */
-    .gradient-text{background:linear-gradient(90deg,var(--primary),var(--secondary));-webkit-background-clip:text;-webkit-text-fill-color:transparent}
-  </style>
+  
+  <link rel="stylesheet" href="style.css"> 
+  
+  <script src="https://unpkg.com/feather-icons"></script>  
 </head>
 <body>
-
-  <header class="container">
-    <a href="/" class="logo">
-      <img src="assets/logo.png" alt="Koretex System Logo" style="height:40px;width:auto;display:block">
-      <span style="font-size:1.05rem">Koretex System</span>
-    </a>
-
-    <nav class="nav-links" aria-label="Hauptnavigation">
-      <a href="#start" class="text-sm">Start</a>
-      <a href="#produkte" class="text-sm">Produkte</a>
-      <a href="#preise" class="text-sm">Preise</a>
-      <a href="#ueber-uns" class="text-sm">Über uns</a>
-      <a href="#faq" class="text-sm">FAQ</a>
-      <a href="#pruefen" class="btn btn-primary" style="margin-left:8px">Kostenlose Prüfung</a>
-    </nav>
-  </header>
-
+  
+  <custom-navbar></custom-navbar>
+  
   <main class="container" id="start">
-    <!-- HERO -->
     <section class="hero" aria-labelledby="hero-heading">
       <div>
         <h1 id="hero-heading" class="h1 gradient-text">Manuelle Prozesse automatisieren. Zeit & Kosten sparen.</h1>
         <p class="lead">Koretex System entwickelt praktikable, datenschutzbewusste KI-Lösungen für den deutschen Mittelstand — schnell, sicher, messbar.</p>
-
+        
         <div style="display:flex;gap:0.9rem;flex-wrap:wrap">
           <a href="#pruefen" class="btn btn-primary">Kostenlose Prüfung</a>
-          <a href="#produkte" class="btn btn-ghost">Mehr erfahren</a>
+          <a href="produkte.html" class="btn btn-ghost">Mehr erfahren</a>
         </div>
-
+        
         <ul style="margin-top:1.5rem;list-style:none;padding:0;display:flex;gap:1rem;flex-wrap:wrap">
           <li style="display:flex;align-items:center;gap:.6rem">
             <span style="width:10px;height:10px;border-radius:50%;background:var(--primary)"></span>
@@ -107,19 +46,17 @@
           </li>
         </ul>
       </div>
-
+      
       <div>
-        <!-- Hero image: Austauschbar gegen deutsches Foto -->
-        <img src="assets/hero.jpg" alt="Ingenieur prüft Automatisierungslösung" style="width:100%;border-radius:12px;box-shadow:0 18px 40px rgba(16,24,40,.08)">
+        <img src="./assets/products/produkt1.jpg" alt="KI-gestützte Prozessanalyse" class="animate-on-scroll" style="width:100%;border-radius:12px;box-shadow:0 18px 40px rgba(16,24,40,.08)">
       </div>
     </section>
-
-    <!-- Frage-Widget -->
+    
     <section id="pruefen" class="question-widget" aria-labelledby="pruefen-h">
       <h2 id="pruefen-h" style="margin:0 0 .8rem;font-size:1.5rem;font-weight:700;color:var(--primary-dark)">Können wir Ihren Prozess automatisieren?</h2>
       <p style="margin:0 0 1rem;color:rgba(30,41,59,.72)">Beschreiben Sie kurz den Prozess — wir prüfen kostenfrei, ob und wie wir ihn automatisieren können.</p>
-
-      <form action="/api/contact" method="post" onsubmit="handleContact(event)" style="display:grid;gap:0.9rem">
+      
+      <form action="/api/contact" method="post" style="display:grid;gap:0.9rem">
         <label class="sr-only" for="process">Prozessbeschreibung</label>
         <textarea id="process" name="process" rows="4" placeholder="Welchen Prozess möchten Sie automatisieren? (z. B. Rechnungsprüfung, Eingangsbestätigung, Datentransfer)" required></textarea>
         <div style="display:flex;gap:.6rem;flex-wrap:wrap">
@@ -130,12 +67,11 @@
         <small style="color:rgba(30,41,59,.6)">Wir behandeln Ihre Daten vertraulich. DSGVO-konform.</small>
       </form>
     </section>
-
-    <!-- Benefits -->
+    
     <section id="vorteile" style="padding:2.5rem 0">
       <h2 style="text-align:center;font-size:1.75rem;font-weight:800;margin-bottom:1rem;color:var(--primary-dark)">Ihre Vorteile</h2>
       <div class="grid-3">
-        <div class="benefit">
+        <div class="benefit animate-on-scroll">
           <div style="display:flex;gap:1rem;align-items:flex-start">
             <div class="icon" aria-hidden="true"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M12 6v6l4 2" stroke="white" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
             <div>
@@ -144,7 +80,7 @@
             </div>
           </div>
         </div>
-        <div class="benefit">
+        <div class="benefit animate-on-scroll">
           <div style="display:flex;gap:1rem;align-items:flex-start">
             <div class="icon" aria-hidden="true"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M12 6v6l4 2" stroke="white" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
             <div>
@@ -153,7 +89,7 @@
             </div>
           </div>
         </div>
-        <div class="benefit">
+        <div class="benefit animate-on-scroll">
           <div style="display:flex;gap:1rem;align-items:flex-start">
             <div class="icon" aria-hidden="true"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M12 6v6l4 2" stroke="white" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
             <div>
@@ -164,70 +100,23 @@
         </div>
       </div>
     </section>
-
-    <!-- Demo Platzhalter -->
+    
     <section id="demo" style="padding:2.5rem 0">
       <h2 style="text-align:center;font-size:1.75rem;font-weight:800;margin-bottom:1rem;color:var(--primary-dark)">Live-Demo</h2>
       <div class="card" style="display:flex;flex-direction:column;align-items:center;gap:1rem">
         <p style="color:rgba(30,41,59,.68);margin:0">Kleines Demo-Tool: Prozess-Simulation. Öffnet in neuem Tab.</p>
-
-        <!-- IFRAME: Replit Demo einfügen oder Button zum externen Demo -->
-        <!-- Beispiel: <iframe src="https://cortex-demo.replit.app" style="width:100%;height:420px;border-radius:10px;border:0"></iframe> -->
         <div style="width:100%;max-width:980px;height:420px;border-radius:10px;background:#f1f5f9;display:flex;align-items:center;justify-content:center">
           <a href="https://cortex-demo.replit.app" target="_blank" rel="noopener" class="btn btn-primary">Demo in neuem Tab öffnen</a>
         </div>
       </div>
     </section>
-
   </main>
+  
+  <custom-footer></custom-footer>
+  
+  <script src="./components/navbar.js"></script>
+  <script src="./components/footer.js"></script>
+  <script src="script.js"></script>
 
-  <footer>
-    <div class="container" style="display:flex;justify-content:space-between;align-items:flex-start;gap:2rem;flex-wrap:wrap">
-      <div style="max-width:420px">
-        <strong>Koretex System</strong>
-        <p style="margin:.5rem 0;color:rgba(30,41,59,.66)">KI-gestützte Automatisierungslösungen für den deutschen Mittelstand.</p>
-        <small style="color:rgba(30,41,59,.6)">© <span id="year"></span> Koretex System — Alle Rechte vorbehalten</small>
-      </div>
-
-      <div style="display:flex;gap:2rem;flex-wrap:wrap">
-        <div>
-          <h4 style="margin:0 0 .5rem;font-weight:700">Links</h4>
-          <nav style="display:flex;flex-direction:column;gap:.4rem">
-            <a href="#produkte">Produkte</a>
-            <a href="#preise">Preise</a>
-            <a href="#faq">FAQ</a>
-          </nav>
-        </div>
-
-        <div>
-          <h4 style="margin:0 0 .5rem;font-weight:700">Kontakt</h4>
-          <p style="margin:0;color:rgba(30,41,59,.66)">kontakt@koretex.de</p>
-        </div>
-      </div>
-    </div>
-  </footer>
-
-  <script>
-    // small helpers
-    document.getElementById('year').textContent = new Date().getFullYear();
-
-    // feather icons
-    feather.replace();
-
-    // form handler (placeholder)
-    function handleContact(e){
-      e.preventDefault();
-      const f = e.target;
-      const data = {
-        email: f.email.value,
-        firma: f.firma.value,
-        process: f.process.value
-      };
-      // Minimal: sende an eigenes backend / Replit / Vertex endpoint
-      console.log('Kontakt request', data);
-      alert('Danke — wir prüfen Ihren Prozess. Wir melden uns per E-Mail.');
-      f.reset();
-    }
-  </script>
 </body>
 </html>
