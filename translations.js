@@ -11,6 +11,11 @@ const translations = {
     'nav.faq': 'FAQ',
     'nav.cta': 'Kostenlose Prüfung',
     
+    // Product Names (for footer)
+    'product1.title': 'KI-Kundensupport',
+    'product2.title': 'Datenverarbeitung',
+    'product3.title': 'Prozessautomatisierung',
+    
     // Hero
     'hero.title': 'Manuelle Prozesse automatisieren. Zeit & Kosten sparen.',
     'hero.subtitle': 'Kortex System entwickelt praktikable, datenschutzbewusste KI-Lösungen für den deutschen Mittelstand — schnell, sicher, messbar.',
@@ -168,6 +173,11 @@ const translations = {
     'nav.ueberuns': 'About Us',
     'nav.faq': 'FAQ',
     'nav.cta': 'Free Assessment',
+    
+    // Product Names (for footer)
+    'product1.title': 'AI Customer Support',
+    'product2.title': 'Data Processing',
+    'product3.title': 'Process Automation',
     
     // Hero
     'hero.title': 'Automate Manual Processes. Save Time & Money.',
