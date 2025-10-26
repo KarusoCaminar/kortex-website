@@ -63,6 +63,15 @@
         element.setAttribute('placeholder', translation);
       }
     });
+    
+    // Aria-Label-Attribute
+    document.querySelectorAll('[data-i18n-aria-label]').forEach(element => {
+      const key = element.getAttribute('data-i18n-aria-label');
+      const translation = t(key);
+      if (translation) {
+        element.setAttribute('aria-label', translation);
+      }
+    });
   }
 
   // Aktuelle Sprache abrufen

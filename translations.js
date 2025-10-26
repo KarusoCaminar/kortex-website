@@ -163,6 +163,18 @@ const translations = {
     'form.sending': 'Senden...',
     'form.success': 'Danke — Ihre Anfrage wurde übermittelt. Wir melden uns per E-Mail.',
     'form.error': 'Es gab einen Fehler beim Absenden. Bitte versuchen Sie es später erneut.',
+    
+    // Demo Panel
+    'demo.panel.title': 'Live Demo: KI-Automatisierung in Aktion',
+    'demo.panel.videoTitle': 'n8n Workflow-Automatisierung',
+    'demo.panel.videoDescription': 'Sehen Sie in 20 Sekunden, wie n8n Workflows automatisiert werden.',
+    'demo.panel.ctaTitle': 'Jetzt selbst ausprobieren:',
+    'demo.panel.cta1.title': 'Visitenkarten-Extraktion',
+    'demo.panel.cta1.desc': 'Automatische Kontakterfassung mit GPT-4o',
+    'demo.panel.cta2.title': 'Rechnungs-Datenextraktion',
+    'demo.panel.cta2.desc': 'KI-gestützte Rechnungsverarbeitung',
+    'demo.panel.close': 'Demo-Fenster schließen',
+    'demo.panel.collapse': 'Einklappen',
   },
   
   en: {
@@ -326,6 +338,18 @@ const translations = {
     'form.sending': 'Sending...',
     'form.success': 'Thank you — Your request has been submitted. We will contact you by email.',
     'form.error': 'There was an error submitting. Please try again later.',
+    
+    // Demo Panel
+    'demo.panel.title': 'Live Demo: AI Automation in Action',
+    'demo.panel.videoTitle': 'n8n Workflow Automation',
+    'demo.panel.videoDescription': 'See in 20 seconds how n8n automates workflows.',
+    'demo.panel.ctaTitle': 'Try it yourself:',
+    'demo.panel.cta1.title': 'Business Card Extraction',
+    'demo.panel.cta1.desc': 'Automated contact capture with GPT-4o',
+    'demo.panel.cta2.title': 'Invoice Data Extraction',
+    'demo.panel.cta2.desc': 'AI-powered invoice processing',
+    'demo.panel.close': 'Close demo window',
+    'demo.panel.collapse': 'Collapse',
   }
 };
 

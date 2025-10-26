@@ -12,7 +12,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
   
-  <link rel="stylesheet" href="style.css"> 
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="assets/css/demo-panel.css">
   
   <script src="https://unpkg.com/feather-icons"></script>
   <script src="translations.js"></script>
@@ -105,10 +106,52 @@
     
     <section id="demo" style="padding:2.5rem 0">
       <h2 style="text-align:center;font-size:1.75rem;font-weight:800;margin-bottom:1rem;color:var(--primary-dark)" data-i18n="demo.title">Live-Demo</h2>
-      <div class="card" style="display:flex;flex-direction:column;align-items:center;gap:1rem">
-        <p style="color:rgba(30,41,59,.68);margin:0" data-i18n="demo.text">Kleines Demo-Tool: Prozess-Simulation. Öffnet in neuem Tab.</p>
-        <div style="width:100%;max-width:980px;height:420px;border-radius:10px;background:#f1f5f9;display:flex;align-items:center;justify-content:center">
-          <a href="https://cortex-demo.replit.app" target="_blank" rel="noopener" class="btn btn-primary" data-i18n="demo.button">Demo in neuem Tab öffnen</a>
+      <div class="card">
+        <p style="color:rgba(30,41,59,.68);margin:0 0 1.5rem;text-align:center" data-i18n="demo.panel.videoDescription">Sehen Sie, wie einfach Prozessautomatisierung mit modernen Tools funktioniert.</p>
+        
+        <!-- Demo Grid: Video + CTAs -->
+        <div class="demo-grid">
+          <!-- Video Section -->
+          <div class="demo-video-container">
+            <div class="video-wrapper video-autoplay" 
+                 data-video-id="RpjQTGKm-ok" 
+                 data-start="0" 
+                 data-end="20"
+                 data-autoplay="true"
+                 data-loop="true"
+                 data-muted="true"
+                 data-quality="hd1080">
+              <!-- Video wird automatisch geladen und abgespielt -->
+            </div>
+            <p style="margin-top:0.75rem;font-size:0.9rem;color:rgba(30,41,59,.7)">
+              <strong data-i18n="demo.panel.videoTitle">n8n Workflow-Automatisierung</strong>
+            </p>
+          </div>
+          
+          <!-- CTA Section -->
+          <div class="demo-cta-container">
+            <h3 style="margin:0 0 1rem;font-size:1.15rem;font-weight:700;color:var(--primary-dark)" data-i18n="demo.panel.ctaTitle">Jetzt selbst ausprobieren:</h3>
+            
+            <a href="https://n8n.io/workflows/6840-extract-contacts-from-business-cards-to-google-sheets-with-gpt4o/" 
+               target="_blank" 
+               rel="noopener noreferrer"
+               class="demo-cta-card"
+               aria-label="Try business card extraction workflow">
+              <strong data-i18n="demo.panel.cta1.title">Visitenkarten-Extraktion</strong>
+              <span data-i18n="demo.panel.cta1.desc">Automatische Kontakterfassung mit GPT-4o</span>
+              <span class="arrow">→</span>
+            </a>
+            
+            <a href="https://n8n.io/workflows/2463-ai-agent-invoice-data-extraction-chatgpt/" 
+               target="_blank" 
+               rel="noopener noreferrer"
+               class="demo-cta-card"
+               aria-label="Try invoice extraction workflow">
+              <strong data-i18n="demo.panel.cta2.title">Rechnungs-Datenextraktion</strong>
+              <span data-i18n="demo.panel.cta2.desc">KI-gestützte Rechnungsverarbeitung</span>
+              <span class="arrow">→</span>
+            </a>
+          </div>
         </div>
       </div>
     </section>
@@ -119,6 +162,7 @@
   <script src="./components/navbar.js"></script>
   <script src="./components/footer.js"></script>
   <script src="script.js"></script>
+  <script src="assets/js/demo-panel.js"></script>
   
 </body>
 </html>
