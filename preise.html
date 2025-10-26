@@ -13,7 +13,9 @@
   
   <link rel="stylesheet" href="style.css"> 
   
-  <script src="https://unpkg.com/feather-icons"></script>  
+  <script src="https://unpkg.com/feather-icons"></script>
+  <script src="translations.js"></script>
+  <script src="i18n.js"></script>
 </head>
 <body>
   
@@ -21,21 +23,21 @@
   
   <main class="container" style="padding:3rem 0;max-width:900px">
     <div style="text-align:center">
-      <h1 class="h1" style="margin-bottom:2.5rem">Individuelle Preise für individuelle Lösungen</h1>
+      <h1 class="h1" style="margin-bottom:2.5rem" data-i18n="pricing.title">Individuelle Preise für individuelle Lösungen</h1>
       
-      <p class="lead" style="text-align:left;margin-bottom:2rem">
+      <p class="lead" style="text-align:left;margin-bottom:2rem" data-i18n="pricing.text1">
         Wir bieten bewusst keine Standardpakete an. Jede KI-Lösung wird exakt auf Ihren Anwendungsfall zugeschnitten – von der Prozessanalyse bis zur Integration. Nur so erreichen wir maximale Effizienzsteigerungen und nachhaltige Kosteneinsparungen.
       </p>
       
-      <p style="text-align:left;margin-bottom:3rem;color:rgba(30,41,59,.72)">
+      <p style="text-align:left;margin-bottom:3rem;color:rgba(30,41,59,.72)" data-i18n="pricing.text2">
         Durch moderne Low-Code-Plattformen (n8n, Make) und bewährte KI-APIs (OpenAI, Google) realisieren wir kosteneffiziente Lösungen – ohne Kompromisse bei Qualität und Datenschutz. Ihre Investition sichern wir durch klare Service-Levels und persönliche Betreuung ab.
       </p>
       
       <div style="background:var(--card-bg);border-radius:12px;padding:2rem;box-shadow:0 6px 18px rgba(16,24,40,.06);text-align:center;margin-bottom:3rem">
-        <a href="#kontakt" class="btn btn-primary" style="font-size:1.05rem;padding:.75rem 1.5rem">
+        <a href="#kontakt" class="btn btn-primary" style="font-size:1.05rem;padding:.75rem 1.5rem" data-i18n="pricing.cta">
           Kostenlose & Unverbindliche Prozessanalyse anfragen
         </a>
-        <p style="margin:1rem 0 0;color:rgba(30,41,59,.68);font-size:.95rem">
+        <p style="margin:1rem 0 0;color:rgba(30,41,59,.68);font-size:.95rem" data-i18n="pricing.guarantee">
           Wir finden garantiert die passende Lösung für Ihr Budget.
         </p>
       </div>
@@ -45,18 +47,19 @@
   <!-- Kontakt-Bereich -->
   <section id="kontakt" class="container" style="padding: 3rem 1rem; max-width: 900px;">
     <div class="question-widget">
-      <h2 style="margin:0 0 .8rem;font-size:1.5rem;font-weight:700;color:var(--primary-dark);text-align:center;">Direkter Kontakt</h2>
-      <p style="margin:0 0 1rem;color:rgba(30,41,59,.72);text-align:center;">Beschreiben Sie uns Ihren Automatisierungsbedarf – wir melden uns innerhalb von 24 Stunden.</p>
+      <h2 style="margin:0 0 .8rem;font-size:1.5rem;font-weight:700;color:var(--primary-dark);text-align:center;" data-i18n="contact.title">Direkter Kontakt</h2>
+      <p style="margin:0 0 .5rem;color:rgba(30,41,59,.72);text-align:center;" data-i18n="contact.subtitle">Beschreiben Sie uns Ihren Automatisierungsbedarf – wir melden uns innerhalb von 24 Stunden.</p>
+      <p style="margin:0 0 1rem;color:rgba(255,255,255,.88);font-size:.9rem;font-style:italic;text-align:center;" data-i18n="contact.language-hint">Sie können uns gerne auf Deutsch oder Englisch schreiben.</p>
       
       <form action="/api/contact" method="post" style="display:grid;gap:0.9rem">
         <label class="sr-only" for="process-kontakt">Prozessbeschreibung</label>
-        <textarea id="process-kontakt" name="process" rows="4" placeholder="Beschreiben Sie kurz Ihren Prozess (z.B. Rechnungsprüfung, Datentransfer)..." required></textarea>
+        <textarea id="process-kontakt" name="process" rows="4" data-i18n-placeholder="check.placeholder" placeholder="Beschreiben Sie kurz Ihren Prozess (z.B. Rechnungsprüfung, Datentransfer)..." required></textarea>
         <div style="display:flex;gap:.6rem;flex-wrap:wrap">
-          <input type="email" name="email" placeholder="E-Mail" required style="padding:.6rem;border-radius:10px;border:1px solid #E6EEF8;min-width:220px">
-          <input type="text" name="firma" placeholder="Firma (optional)" style="padding:.6rem;border-radius:10px;border:1px solid #E6EEF8;min-width:220px">
-          <button type="submit" class="btn btn-primary">Anfrage senden</button>
+          <input type="email" name="email" data-i18n-placeholder="check.email" placeholder="E-Mail" required style="padding:.6rem;border-radius:10px;border:1px solid #E6EEF8;min-width:220px">
+          <input type="text" name="firma" data-i18n-placeholder="check.firma" placeholder="Firma (optional)" style="padding:.6rem;border-radius:10px;border:1px solid #E6EEF8;min-width:220px">
+          <button type="submit" class="btn btn-primary" data-i18n="contact.button">Anfrage senden</button>
         </div>
-        <small style="color:rgba(30,41,59,.6)">Oder direkt per E-Mail: <a href="mailto:info@kortex-system.com" style="color:var(--primary);font-weight:600">info@kortex-system.com</a></small>
+        <small style="color:rgba(30,41,59,.6)"><span data-i18n="contact.email">Oder direkt per E-Mail:</span> <a href="mailto:info@kortex-system.com" style="color:var(--primary);font-weight:600">info@kortex-system.com</a></small>
       </form>
     </div>
   </section>

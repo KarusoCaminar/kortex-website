@@ -23,36 +23,54 @@ class CustomFooter extends HTMLElement {
               <img src="./assets/logo.png" alt="Kortex System" style="height:28px;width:auto;display:block" />
               <span>Kortex System</span>
             </div>
-            <p style="color:rgba(255,255,255,.85);margin:.6rem 0 .2rem">KI-gestützte Automatisierung für den deutschen Mittelstand.</p>
+            <p style="color:rgba(255,255,255,.85);margin:.6rem 0 .2rem" data-i18n-footer="footer.tagline">KI-gestützte Automatisierung für den deutschen Mittelstand.</p>
           </div>
           <div class="footer-links" aria-labelledby="prod-heading">
-            <h3 id="prod-heading">Produkte</h3>
+            <h3 id="prod-heading" data-i18n-footer="footer.products">Produkte</h3>
             <ul>
-              <li><a href="produkte.html#ki-kundensupport">KI-Kundensupport</a></li>
-              <li><a href="produkte.html#datenverarbeitung">Datenverarbeitung</a></li>
-              <li><a href="produkte.html#prozessautomatisierung">Prozessautomatisierung</a></li>
+              <li><a href="produkte.html#ki-kundensupport" data-i18n-footer="product1.title">KI-Kundensupport</a></li>
+              <li><a href="produkte.html#datenverarbeitung" data-i18n-footer="product2.title">Datenverarbeitung</a></li>
+              <li><a href="produkte.html#prozessautomatisierung" data-i18n-footer="product3.title">Prozessautomatisierung</a></li>
             </ul>
           </div>
           <div class="footer-links" aria-labelledby="company-heading">
-            <h3 id="company-heading">Unternehmen</h3>
+            <h3 id="company-heading" data-i18n-footer="footer.company">Unternehmen</h3>
             <ul>
-              <li><a href="ueber-uns.html">Über uns</a></li>
+              <li><a href="ueber-uns.html" data-i18n-footer="nav.ueberuns">Über uns</a></li>
             </ul>
           </div>
           <div class="footer-links" aria-labelledby="legal-heading">
-            <h3 id="legal-heading">Rechtliches</h3>
+            <h3 id="legal-heading" data-i18n-footer="footer.legal">Rechtliches</h3>
             <ul>
-              <li><a href="impressum.html">Impressum</a></li>
-              <li><a href="datenschutz.html">Datenschutz</a></li>
+              <li><a href="impressum.html" data-i18n-footer="footer.impressum">Impressum</a></li>
+              <li><a href="datenschutz.html" data-i18n-footer="footer.datenschutz">Datenschutz</a></li>
             </ul>
           </div>
         </div>
         <div class="copyright">
           <img src="./assets/logo.png" alt="Kortex System Logo" />
-          <p style="margin:0">&copy; ${new Date().getFullYear()} Kortex System. Alle Rechte vorbehalten.</p>
+          <p style="margin:0">&copy; ${new Date().getFullYear()} Kortex System. <span data-i18n-footer="footer.copyright">Alle Rechte vorbehalten.</span></p>
         </div>
       </footer>
     `;
+    
+    // Listen to language change events and update footer translations
+    window.addEventListener('languagechange', () => {
+      this.updateFooterTranslations();
+    });
+    
+    // Initial translation update
+    setTimeout(() => this.updateFooterTranslations(), 100);
+  }
+  
+  updateFooterTranslations() {
+    if (!window.i18n) return;
+    
+    const footerElements = this.shadowRoot.querySelectorAll('[data-i18n-footer]');
+    footerElements.forEach(element => {
+      const key = element.getAttribute('data-i18n-footer');
+      element.textContent = window.i18n.t(key);
+    });
   }
   // small inline svg for footer logo (no dependency on feather inside shadow)
   _svgCpu(){

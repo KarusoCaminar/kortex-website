@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', () => {
       const originalText = submitBtn ? submitBtn.textContent : null;
       if(submitBtn) {
           submitBtn.disabled = true;
-          submitBtn.textContent = 'Senden...';
+          submitBtn.textContent = window.i18n ? window.i18n.t('form.sending') : 'Senden...';
       }
 
       const formData = new FormData(form);
@@ -37,13 +37,13 @@ document.addEventListener('DOMContentLoaded', () => {
           throw new Error(err || 'Serverfehler');
         }
 
-        alert('Danke — Ihre Anfrage wurde übermittelt. Wir melden uns per E-Mail.');
+        alert(window.i18n ? window.i18n.t('form.success') : 'Danke — Ihre Anfrage wurde übermittelt. Wir melden uns per E-Mail.');
         form.reset();
         
       } catch(err) {
         console.error('Contact submit error', err);
         // Da der Fehler fast immer ein fehlendes Backend ist, wird hier die Fehlermeldung ausgelöst.
-        alert('Es gab einen Fehler beim Absenden. Bitte versuchen Sie es später erneut.');
+        alert(window.i18n ? window.i18n.t('form.error') : 'Es gab einen Fehler beim Absenden. Bitte versuchen Sie es später erneut.');
         
       } finally {
         if(submitBtn){
