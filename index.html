@@ -60,6 +60,8 @@
       <p style="margin:0 0 1rem;color:rgba(30,41,59,.72)" data-i18n="check.subtitle">Beschreiben Sie kurz Ihren Prozess – wir prüfen kostenfrei das Automatisierungspotenzial und zeigen Ihnen konkrete Einsparmöglichkeiten.</p>
       
       <form action="/api/contact" method="post" style="display:grid;gap:0.9rem">
+        <input type="hidden" name="formType" value="startseite-prozess-check">
+        <input type="hidden" name="formLocation" value="Startseite - Prozess-Check">
         <label class="sr-only" for="process">Prozessbeschreibung</label>
         <textarea id="process" name="process" rows="4" data-i18n-placeholder="check.placeholder" placeholder="Beschreiben Sie kurz Ihren Prozess (z.B. Rechnungsprüfung, Datentransfer)..." required></textarea>
         <div style="display:flex;gap:.6rem;flex-wrap:wrap">

@@ -24,10 +24,10 @@ document.addEventListener('DOMContentLoaded', () => {
       formData.forEach((v,k) => payload[k] = v);
 
       try {
-        // Use Formspree for form submission (replace with your Formspree endpoint)
-        const formspreeEndpoint = 'https://formspree.io/f/YOUR_FORM_ID'; // REPLACE WITH YOUR FORMSPREE ID
+        // n8n Webhook Integration - Unbegrenzte Submissions + KI + E-Mail
+        const n8nWebhookUrl = 'https://n8n2.kortex-system.de/webhook/016e0a41-9748-47c9-8ca9-debc40463598'; 
         
-        const res = await fetch(formspreeEndpoint, {
+        const res = await fetch(n8nWebhookUrl, {
           method: 'POST',
           headers: {'Content-Type':'application/json', 'Accept': 'application/json'},
           body: JSON.stringify(payload)

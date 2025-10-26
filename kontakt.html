@@ -31,6 +31,8 @@
     <section id="kontakt" style="max-width: 900px; margin: 0 auto;">
       <div class="question-widget">
         <form action="/api/contact" method="post" style="display:grid;gap:0.9rem">
+          <input type="hidden" name="formType" value="kontaktseite-direkter-kontakt">
+          <input type="hidden" name="formLocation" value="Kontaktseite - Direkter Kontakt">
           <label class="sr-only" for="process-kontakt">Prozessbeschreibung</label>
           <textarea id="process-kontakt" name="process" rows="6" data-i18n-placeholder="check.placeholder" placeholder="Beschreiben Sie kurz Ihren Prozess (z.B. Rechnungsprüfung, Datentransfer)..." required></textarea>
           <div style="display:flex;gap:.6rem;flex-wrap:wrap">
