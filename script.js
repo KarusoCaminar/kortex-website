@@ -24,11 +24,12 @@ document.addEventListener('DOMContentLoaded', () => {
       formData.forEach((v,k) => payload[k] = v);
 
       try {
-        // ACHTUNG: Dieser Fetch-Aufruf führt auf statischen Spaces ohne Backend zu einem Fehler (404).
-        // Wir lassen ihn, da Sie die robuste Logik wünschen.
-        const res = await fetch('/api/contact', {
+        // Use Formspree for form submission (replace with your Formspree endpoint)
+        const formspreeEndpoint = 'https://formspree.io/f/YOUR_FORM_ID'; // REPLACE WITH YOUR FORMSPREE ID
+        
+        const res = await fetch(formspreeEndpoint, {
           method: 'POST',
-          headers: {'Content-Type':'application/json'},
+          headers: {'Content-Type':'application/json', 'Accept': 'application/json'},
           body: JSON.stringify(payload)
         });
 
@@ -42,8 +43,7 @@ document.addEventListener('DOMContentLoaded', () => {
         
       } catch(err) {
         console.error('Contact submit error', err);
-        // Da der Fehler fast immer ein fehlendes Backend ist, wird hier die Fehlermeldung ausgelöst.
-        alert('Es gab einen Fehler beim Absenden. Bitte versuchen Sie es später erneut.');
+        alert('Es gab einen Fehler beim Absenden. Bitte versuchen Sie es später erneut oder kontaktieren Sie uns direkt: info@kortex-system.com');
         
       } finally {
         if(submitBtn){
