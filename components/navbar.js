@@ -31,10 +31,18 @@ class CustomNavbar extends HTMLElement {
         .cta-button:hover{background:linear-gradient(135deg, #09182F 0%, #220835 100%);color:white !important;transform:translateY(-1px);box-shadow:0 6px 16px rgba(3,78,162,.25)}
         .mobile-menu-button{display:none;background:none;border:0;cursor:pointer;padding:.4rem;border-radius:6px}
         .mobile-menu-button:focus{outline:2px solid rgba(3,78,162,.12)}
+        
+        /* Language Switcher */
+        .lang-switcher{display:flex;gap:0.5rem;align-items:center;margin-left:1rem}
+        .lang-btn{background:none;border:2px solid transparent;cursor:pointer;padding:0.25rem 0.4rem;border-radius:6px;font-size:1.5rem;transition:all .2s;line-height:1}
+        .lang-btn:hover{border-color:var(--p);transform:scale(1.1)}
+        .lang-btn.active{border-color:var(--p);background:rgba(3,78,162,.08)}
+        
         @media (max-width:768px){
           .nav-links{display:none;position:absolute;left:0;right:0;top:64px;background:white;flex-direction:column;padding:1rem;border-top:1px solid rgba(0,0,0,.04)}
           .nav-links.open{display:flex}
           .mobile-menu-button{display:block}
+          .lang-switcher{margin-left:0.5rem}
         }
       </style>
 
@@ -46,17 +54,23 @@ class CustomNavbar extends HTMLElement {
           </a>
 
           <ul class="nav-links" role="menubar">
-            <li class="nav-link" role="none"><a role="menuitem" href="index.html">Start</a></li>
-            <li class="nav-link" role="none"><a role="menuitem" href="produkte.html">Produkte</a></li>
-            <li class="nav-link" role="none"><a role="menuitem" href="preise.html">Preise</a></li>
-            <li class="nav-link" role="none"><a role="menuitem" href="ueber-uns.html">Über uns</a></li>
-            <li class="nav-link" role="none"><a role="menuitem" href="faq.html">FAQ</a></li>
-            <li class="nav-link" role="none"><a role="menuitem" href="index.html#kontakt" class="cta-button">Kostenlose Prüfung</a></li>
+            <li class="nav-link" role="none"><a role="menuitem" href="index.html" data-i18n="nav.start">Start</a></li>
+            <li class="nav-link" role="none"><a role="menuitem" href="produkte.html" data-i18n="nav.produkte">Produkte</a></li>
+            <li class="nav-link" role="none"><a role="menuitem" href="preise.html" data-i18n="nav.preise">Preise</a></li>
+            <li class="nav-link" role="none"><a role="menuitem" href="ueber-uns.html" data-i18n="nav.ueberuns">Über uns</a></li>
+            <li class="nav-link" role="none"><a role="menuitem" href="faq.html" data-i18n="nav.faq">FAQ</a></li>
+            <li class="nav-link" role="none"><a role="menuitem" href="kontakt.html" class="cta-button" data-i18n="nav.cta">Kostenlose Prüfung</a></li>
           </ul>
 
-          <button class="mobile-menu-button" aria-label="Menü öffnen" aria-expanded="false" aria-controls="mobile-menu">
-            <span class="menu-icon" data-feather="menu"></span>
-          </button>
+          <div style="display:flex;align-items:center">
+            <div class="lang-switcher">
+              <button class="lang-btn lang-de" aria-label="Deutsch" title="Deutsch">🇩🇪</button>
+              <button class="lang-btn lang-en" aria-label="English" title="English">🇬🇧</button>
+            </div>
+            <button class="mobile-menu-button" aria-label="Menü öffnen" aria-expanded="false" aria-controls="mobile-menu">
+              <span class="menu-icon" data-feather="menu"></span>
+            </button>
+          </div>
         </div>
       </nav>
     `;
@@ -93,6 +107,50 @@ class CustomNavbar extends HTMLElement {
         btn.setAttribute('aria-expanded', 'false');
       }
     });
+    
+    // Update Nav Translations
+    const updateNavTranslations = () => {
+      if (!window.i18n) return;
+      this.shadowRoot.querySelectorAll('[data-i18n]').forEach(el => {
+        const key = el.getAttribute('data-i18n');
+        const translation = window.i18n.t(key);
+        if (translation) el.textContent = translation;
+      });
+    };
+    
+    // Language Switcher
+    const langDE = this.shadowRoot.querySelector('.lang-de');
+    const langEN = this.shadowRoot.querySelector('.lang-en');
+    
+    const updateActiveLang = () => {
+      const currentLang = window.i18n ? window.i18n.getCurrentLanguage() : 'de';
+      langDE.classList.toggle('active', currentLang === 'de');
+      langEN.classList.toggle('active', currentLang === 'en');
+      updateNavTranslations();
+    };
+    
+    langDE.addEventListener('click', () => {
+      if (window.i18n) {
+        window.i18n.setLanguage('de');
+        updateActiveLang();
+      }
+    });
+    
+    langEN.addEventListener('click', () => {
+      if (window.i18n) {
+        window.i18n.setLanguage('en');
+        updateActiveLang();
+      }
+    });
+    
+    // Initial update
+    setTimeout(() => {
+      updateActiveLang();
+      updateNavTranslations();
+    }, 100);
+    
+    // Listen to language changes
+    window.addEventListener('languagechange', updateActiveLang);
   }
 }
 customElements.define('custom-navbar', CustomNavbar);

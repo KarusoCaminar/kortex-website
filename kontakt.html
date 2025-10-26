@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Kontakt – Kortex System</title>
+  <meta name="description" content="Kontaktieren Sie Kortex System für eine kostenlose Prozessanalyse." />
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="style.css"> 
+  
+  <script src="https://unpkg.com/feather-icons"></script>
+  <script src="translations.js"></script>
+  <script src="i18n.js"></script>
+</head>
+<body>
+  
+  <custom-navbar></custom-navbar>
+  
+  <main class="container" style="padding:3rem 0;max-width:900px">
+    <section style="text-align: center; margin-bottom: 2rem;">
+      <h1 style="font-size: 2.5rem; font-weight: 800; color: var(--primary-dark); margin-bottom: 1rem;" data-i18n="contact.title">Direkter Kontakt</h1>
+      <p class="lead" style="max-width: 800px; margin: 0 auto; color: var(--muted);" data-i18n="contact.subtitle">
+        Beschreiben Sie uns Ihren Automatisierungsbedarf – wir melden uns innerhalb von 24 Stunden.
+      </p>
+    </section>
+
+    <!-- Kontakt-Formular -->
+    <section id="kontakt" style="max-width: 900px; margin: 0 auto;">
+      <div class="question-widget">
+        <form action="/api/contact" method="post" style="display:grid;gap:0.9rem">
+          <label class="sr-only" for="process-kontakt">Prozessbeschreibung</label>
+          <textarea id="process-kontakt" name="process" rows="6" data-i18n-placeholder="check.placeholder" placeholder="Beschreiben Sie kurz Ihren Prozess (z.B. Rechnungsprüfung, Datentransfer)..." required></textarea>
+          <div style="display:flex;gap:.6rem;flex-wrap:wrap">
+            <input type="email" name="email" data-i18n-placeholder="check.email" placeholder="E-Mail" required style="padding:.6rem;border-radius:10px;border:1px solid #E6EEF8;min-width:220px">
+            <input type="text" name="firma" data-i18n-placeholder="check.firma" placeholder="Firma (optional)" style="padding:.6rem;border-radius:10px;border:1px solid #E6EEF8;min-width:220px">
+            <button type="submit" class="btn btn-primary" data-i18n="contact.button">Anfrage senden</button>
+          </div>
+          <small style="color:rgba(30,41,59,.6)"><span data-i18n="contact.email">Oder direkt per E-Mail:</span> <a href="mailto:info@kortex-system.com" style="color:var(--primary);font-weight:600">info@kortex-system.com</a></small>
+        </form>
+      </div>
+    </section>
+  </main>
+  
+  <custom-footer></custom-footer>
+  
+  <script src="./components/navbar.js"></script>
+  <script src="./components/footer.js"></script>
+  <script src="script.js"></script>
+  
+</body>
+</html>
+
