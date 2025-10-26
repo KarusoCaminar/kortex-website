@@ -31,44 +31,10 @@ class CustomNavbar extends HTMLElement {
         .cta-button:hover{background:linear-gradient(135deg, #09182F 0%, #220835 100%);color:white !important;transform:translateY(-1px);box-shadow:0 6px 16px rgba(3,78,162,.25)}
         .mobile-menu-button{display:none;background:none;border:0;cursor:pointer;padding:.4rem;border-radius:6px}
         .mobile-menu-button:focus{outline:2px solid rgba(3,78,162,.12)}
-        
-        /* Language Switcher Styles */
-        .language-switcher{
-          display:flex;
-          gap:0.5rem;
-          align-items:center;
-          margin-left:0.5rem;
-        }
-        .lang-button{
-          background:none;
-          border:2px solid transparent;
-          cursor:pointer;
-          padding:0.25rem;
-          border-radius:6px;
-          transition:all .2s ease;
-          display:flex;
-          align-items:center;
-          justify-content:center;
-          width:36px;
-          height:36px;
-        }
-        .lang-button:hover{
-          border-color:var(--p);
-          transform:scale(1.05);
-        }
-        .lang-button.active{
-          border-color:var(--p);
-          background:rgba(3,78,162,.08);
-        }
-        .lang-button:focus{
-          outline:2px solid rgba(3,78,162,.3);
-        }
-        
         @media (max-width:768px){
           .nav-links{display:none;position:absolute;left:0;right:0;top:64px;background:white;flex-direction:column;padding:1rem;border-top:1px solid rgba(0,0,0,.04)}
           .nav-links.open{display:flex}
           .mobile-menu-button{display:block}
-          .language-switcher{margin-left:0.25rem}
         }
       </style>
 
@@ -80,28 +46,17 @@ class CustomNavbar extends HTMLElement {
           </a>
 
           <ul class="nav-links" role="menubar">
-            <li class="nav-link" role="none"><a role="menuitem" href="index.html" data-i18n-nav="nav.start">Start</a></li>
-            <li class="nav-link" role="none"><a role="menuitem" href="produkte.html" data-i18n-nav="nav.produkte">Produkte</a></li>
-            <li class="nav-link" role="none"><a role="menuitem" href="preise.html" data-i18n-nav="nav.preise">Preise</a></li>
-            <li class="nav-link" role="none"><a role="menuitem" href="ueber-uns.html" data-i18n-nav="nav.ueberuns">Über uns</a></li>
-            <li class="nav-link" role="none"><a role="menuitem" href="faq.html" data-i18n-nav="nav.faq">FAQ</a></li>
-            <li class="nav-link" role="none"><a role="menuitem" href="index.html#kontakt" class="cta-button" data-i18n-nav="nav.cta">Kostenlose Prüfung</a></li>
+            <li class="nav-link" role="none"><a role="menuitem" href="index.html">Start</a></li>
+            <li class="nav-link" role="none"><a role="menuitem" href="produkte.html">Produkte</a></li>
+            <li class="nav-link" role="none"><a role="menuitem" href="preise.html">Preise</a></li>
+            <li class="nav-link" role="none"><a role="menuitem" href="ueber-uns.html">Über uns</a></li>
+            <li class="nav-link" role="none"><a role="menuitem" href="faq.html">FAQ</a></li>
+            <li class="nav-link" role="none"><a role="menuitem" href="index.html#kontakt" class="cta-button">Kostenlose Prüfung</a></li>
           </ul>
 
-          <div style="display:flex;align-items:center;gap:0.5rem">
-            <div class="language-switcher">
-              <button class="lang-button lang-de" aria-label="Deutsch" title="Deutsch">
-                🇩🇪
-              </button>
-              <button class="lang-button lang-en" aria-label="English" title="English">
-                🇬🇧
-              </button>
-            </div>
-
-            <button class="mobile-menu-button" aria-label="Menü öffnen" aria-expanded="false" aria-controls="mobile-menu">
-              <span class="menu-icon" data-feather="menu"></span>
-            </button>
-          </div>
+          <button class="mobile-menu-button" aria-label="Menü öffnen" aria-expanded="false" aria-controls="mobile-menu">
+            <span class="menu-icon" data-feather="menu"></span>
+          </button>
         </div>
       </nav>
     `;
@@ -136,60 +91,6 @@ class CustomNavbar extends HTMLElement {
       if (!this.contains(target) && links.classList.contains('open')) {
         links.classList.remove('open');
         btn.setAttribute('aria-expanded', 'false');
-      }
-    });
-    
-    // Language Switcher Functionality
-    const langButtonDE = this.shadowRoot.querySelector('.lang-de');
-    const langButtonEN = this.shadowRoot.querySelector('.lang-en');
-    
-    // Funktion zum Aktualisieren der aktiven Sprach-Buttons
-    const updateActiveLanguage = (lang) => {
-      if (lang === 'de') {
-        langButtonDE.classList.add('active');
-        langButtonEN.classList.remove('active');
-      } else {
-        langButtonEN.classList.add('active');
-        langButtonDE.classList.remove('active');
-      }
-      
-      // Navigation-Links aktualisieren
-      this.updateNavTranslations(lang);
-    };
-    
-    // Initiale Sprache setzen
-    if (window.i18n) {
-      updateActiveLanguage(window.i18n.getCurrentLanguage());
-    }
-    
-    // Event-Listener für Sprachumschaltung
-    langButtonDE.addEventListener('click', () => {
-      if (window.i18n) {
-        window.i18n.setLanguage('de');
-        updateActiveLanguage('de');
-      }
-    });
-    
-    langButtonEN.addEventListener('click', () => {
-      if (window.i18n) {
-        window.i18n.setLanguage('en');
-        updateActiveLanguage('en');
-      }
-    });
-    
-    // Listen to language change events from outside
-    window.addEventListener('languagechange', (e) => {
-      updateActiveLanguage(e.detail.language);
-    });
-  }
-  
-  // Methode zum Aktualisieren der Navigation-Übersetzungen
-  updateNavTranslations(lang) {
-    const navLinks = this.shadowRoot.querySelectorAll('[data-i18n-nav]');
-    navLinks.forEach(link => {
-      const key = link.getAttribute('data-i18n-nav');
-      if (window.i18n) {
-        link.textContent = window.i18n.t(key, lang);
       }
     });
   }
