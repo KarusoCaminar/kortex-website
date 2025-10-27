@@ -16,7 +16,9 @@ document.addEventListener('DOMContentLoaded', () => {
       const originalText = submitBtn ? submitBtn.textContent : null;
       if(submitBtn) {
           submitBtn.disabled = true;
-          submitBtn.textContent = 'Senden...';
+          // Dynamische Sprache für "Senden..."
+          const currentLang = window.i18n ? window.i18n.getCurrentLanguage() : 'de';
+          submitBtn.textContent = currentLang === 'en' ? 'Sending...' : 'Senden...';
       }
 
       const formData = new FormData(form);
@@ -38,12 +40,22 @@ document.addEventListener('DOMContentLoaded', () => {
           throw new Error(err || 'Serverfehler');
         }
 
-        alert('Danke — Ihre Anfrage wurde übermittelt. Wir melden uns per E-Mail.');
+        // Dynamische Sprache für Erfolgs-Nachricht
+        const currentLang = window.i18n ? window.i18n.getCurrentLanguage() : 'de';
+        const successMsg = currentLang === 'en' 
+          ? 'Thank you — Your request has been submitted. We will contact you by email.'
+          : 'Danke — Ihre Anfrage wurde übermittelt. Wir melden uns per E-Mail.';
+        alert(successMsg);
         form.reset();
         
       } catch(err) {
         console.error('Contact submit error', err);
-        alert('Es gab einen Fehler beim Absenden. Bitte versuchen Sie es später erneut oder kontaktieren Sie uns direkt: info@kortex-system.com');
+        // Dynamische Sprache für Fehler-Nachricht
+        const currentLang = window.i18n ? window.i18n.getCurrentLanguage() : 'de';
+        const errorMsg = currentLang === 'en'
+          ? 'There was an error submitting. Please try again later or contact us directly: info@kortex-system.com'
+          : 'Es gab einen Fehler beim Absenden. Bitte versuchen Sie es später erneut oder kontaktieren Sie uns direkt: info@kortex-system.com';
+        alert(errorMsg);
         
       } finally {
         if(submitBtn){
