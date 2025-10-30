@@ -530,6 +530,7 @@
           
           // Verwende Screenshot (workflow-demo.png ist vorhanden)
           const mediaUrl = workflowScreenshotUrl;
+          console.log('🖼️ Lade Workflow-Demo-Bild:', mediaUrl);
           
           iframe.srcdoc = `
             <html>
@@ -570,6 +571,7 @@
                     min-height: 0;
                     padding: 1rem;
                     overflow: auto;
+                    background: rgba(0, 0, 0, 0.2);
                   }
                   .media-container img,
                   .media-container video {
@@ -580,6 +582,10 @@
                     border-radius: 12px;
                     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
                     object-fit: contain;
+                  }
+                  .media-container img {
+                    display: block;
+                    margin: 0 auto;
                   }
                   .info-text {
                     text-align: center;
@@ -602,7 +608,8 @@
                          <source src="${mediaUrl}" type="video/mp4">
                          Your browser does not support the video tag.
                        </video>`
-                    : `<img src="${mediaUrl}" alt="n8n Workflow Demo" style="max-width: 100%; max-height: 100%; width: auto; height: auto; border-radius: 12px; box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3); object-fit: contain;" onerror="this.parentElement.innerHTML='<p style=\\'color:#94a3b8;\\'>Workflow läuft im Hintergrund. Ergebnisse erscheinen automatisch in der Tabelle.</p>'">`
+                    : `<img src="${mediaUrl}" alt="n8n Workflow Demo" style="max-width: 100%; max-height: 100%; width: auto; height: auto; border-radius: 12px; box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3); object-fit: contain; display: block;" onload="console.log('✅ Bild geladen:', '${mediaUrl}');" onerror="console.error('❌ Bild konnte nicht geladen werden:', '${mediaUrl}'); this.parentElement.innerHTML='<p style=\\'color:#ef4444;\\'>⚠️ Workflow-Demo-Bild konnte nicht geladen werden. Die Extraktion läuft trotzdem im Hintergrund.</p><p style=\\'color:#94a3b8;\\'>Ergebnisse erscheinen automatisch in der Tabelle.</p>';">
+                       </img>`
                   }
                 </div>
                 <div class="info-text">
