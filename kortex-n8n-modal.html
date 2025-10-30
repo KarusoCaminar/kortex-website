@@ -48,8 +48,8 @@
     /* Demo Cards Grid */
     .demo-grid {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
-      gap: 2rem;
+      grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+      gap: 3rem;
       margin-top: 3rem;
     }
     
@@ -157,41 +157,6 @@
     
     .demo-card:hover .arrow-icon {
       transform: translateX(8px);
-    }
-    
-    /* Status Badge */
-    .status-badge {
-      display: inline-block;
-      padding: 6px 12px;
-      border-radius: 20px;
-      font-size: 0.75rem;
-      font-weight: 600;
-      text-transform: uppercase;
-      margin-bottom: 1rem;
-    }
-    
-    .status-badge.live {
-      background: rgba(34, 197, 94, 0.2);
-      color: #4ade80;
-    }
-    
-    .status-badge.beta {
-      background: rgba(251, 191, 36, 0.2);
-      color: #fbbf24;
-    }
-    
-    /* Alert Box */
-    .alert-box {
-      background: rgba(59, 130, 246, 0.1);
-      border: 1px solid rgba(59, 130, 246, 0.3);
-      border-radius: 12px;
-      padding: 1.5rem;
-      margin-bottom: 3rem;
-      color: #93c5fd;
-    }
-    
-    .alert-box strong {
-      color: #60a5fa;
     }
     
     /* ===== MODAL STYLES ===== */
@@ -348,11 +313,6 @@
       <p class="subtitle">Intelligente Automatisierung für Ihr Business</p>
     </header>
 
-    <div class="alert-box">
-      <strong>ℹ️ Setup:</strong> Füge deine n8n-Workflow-URL ein (Zeile 361) und aktiviere in n8n: 
-      <strong>"Continue Workflow after Webhook Response"</strong> für Workflow-Visualisierung.
-      Die URL wird automatisch mit <code>?modal=true&visualize=true</code> erweitert.
-    </div>
 
     <!-- Demo Cards Grid -->
     <div class="demo-grid">
@@ -364,17 +324,14 @@
          data-title="Visitenkarten Demo – Sample 1"
          data-sample-image="https://karusocaminar.github.io/kortex-website/samples/bc-1.jpg">
         <div class="demo-card">
-          <span class="status-badge beta">Beta</span>
-          <div style="display: flex; gap: 1rem; align-items: center; margin-bottom: 1rem;">
+          <div style="text-align: center; margin-bottom: 1.5rem;">
             <img src="https://karusocaminar.github.io/kortex-website/samples/bc-1.jpg" 
                  alt="Visitenkarte 1" 
-                 style="width: 80px; height: 50px; object-fit: cover; border-radius: 8px; border: 2px solid rgba(148, 163, 184, 0.3);"
+                 style="width: 100%; max-width: 600px; height: auto; object-fit: contain; border-radius: 12px; border: 2px solid rgba(148, 163, 184, 0.3); box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2); background: rgba(255, 255, 255, 0.05);"
                  onerror="this.style.display='none'">
-            <div style="flex: 1;">
-              <h3>Business Card – Sample 1</h3>
-              <p style="font-size: 0.85rem; color: #94a3b8; margin: 0;">Oliver Krause - Datenschutzbeauftragter</p>
-            </div>
           </div>
+          <h3 style="margin-bottom: 0.5rem;">Business Card – Sample 1</h3>
+          <p style="font-size: 0.95rem; color: #94a3b8; margin: 0 0 1rem 0;">Oliver Krause - Datenschutzbeauftragter</p>
           <p style="font-size: 0.9rem;">Klicke auf diese Demo-Visitenkarte → KI extrahiert automatisch Name, Firma, E-Mail, Telefon → Ergebnis erscheint in der Tabelle.</p>
           
           <div class="demo-tags">
@@ -394,17 +351,14 @@
          data-title="Visitenkarten Demo – Sample 2"
          data-sample-image="https://karusocaminar.github.io/kortex-website/samples/bc-2.jpg">
         <div class="demo-card">
-          <span class="status-badge beta">Beta</span>
-          <div style="display: flex; gap: 1rem; align-items: center; margin-bottom: 1rem;">
+          <div style="text-align: center; margin-bottom: 1.5rem;">
             <img src="https://karusocaminar.github.io/kortex-website/samples/bc-2.jpg" 
                  alt="Visitenkarte 2" 
-                 style="width: 80px; height: 50px; object-fit: cover; border-radius: 8px; border: 2px solid rgba(148, 163, 184, 0.3);"
+                 style="width: 100%; max-width: 600px; height: auto; object-fit: contain; border-radius: 12px; border: 2px solid rgba(148, 163, 184, 0.3); box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2); background: rgba(255, 255, 255, 0.05);"
                  onerror="this.style.display='none'">
-            <div style="flex: 1;">
-              <h3>Business Card – Sample 2</h3>
-              <p style="font-size: 0.85rem; color: #94a3b8; margin: 0;">Gabi Graßnick - Bestattungen Graßnick</p>
-            </div>
           </div>
+          <h3 style="margin-bottom: 0.5rem;">Business Card – Sample 2</h3>
+          <p style="font-size: 0.95rem; color: #94a3b8; margin: 0 0 1rem 0;">Gabi Graßnick - Bestattungen Graßnick</p>
           <p style="font-size: 0.9rem;">Klicke auf diese Demo-Visitenkarte → KI extrahiert automatisch Name, Firma, E-Mail, Telefon → Ergebnis erscheint in der Tabelle.</p>
           
           <div class="demo-tags">
@@ -422,7 +376,6 @@
          data-workflow-url="https://n8n2.kortex-system.de/webhook/business-card-extraction" 
          data-title="Eigene Visitenkarte hochladen">
         <div class="demo-card">
-          <span class="status-badge live">Live</span>
           <span class="demo-icon">🪪</span>
           <h3>Eigene Visitenkarte hochladen</h3>
           <p>Öffnet das n8n-Formular. Datei wählen → KI extrahiert → Ergebnis erscheint in der Tabelle unten.</p>
