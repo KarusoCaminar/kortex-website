@@ -422,8 +422,9 @@
     <!-- Results Section -->
     <div style="margin-top: 3rem; background: rgba(15, 23, 42, 0.6); border: 1px solid rgba(148, 163, 184, 0.2); border-radius: 16px;">
       <div style="display: flex; justify-content: space-between; align-items: center; padding: 1rem 1.25rem; border-bottom: 1px solid rgba(148, 163, 184, 0.2);">
-        <div style="font-weight: 600;">Extrahierte Kontaktdaten</div>
+        <div style="font-weight: 600;">Extrahierte Kontaktdaten <span id="results-count" style="font-weight: normal; color: #94a3b8; font-size: 0.9em; margin-left: 0.5rem;">(0)</span></div>
         <div style="display: flex; gap: 0.5rem;">
+          <button id="btn-clear-results" style="background:#ef4444;color:white;border:none;padding:10px 14px;border-radius:8px;cursor:pointer;font-size:0.9rem;" title="Alle Daten löschen">🗑️ Löschen</button>
           <button id="btn-download-csv" style="background:#1e40af;color:white;border:none;padding:10px 14px;border-radius:8px;cursor:pointer;">CSV herunterladen</button>
           <button id="btn-download-json" style="background:#0f766e;color:white;border:none;padding:10px 14px;border-radius:8px;cursor:pointer;">JSON herunterladen</button>
         </div>
@@ -777,6 +778,23 @@
       // Download Buttons
       document.getElementById('btn-download-csv')?.addEventListener('click', downloadCSV);
       document.getElementById('btn-download-json')?.addEventListener('click', downloadJSON);
+      
+      // Clear Button
+      document.getElementById('btn-clear-results')?.addEventListener('click', () => {
+        if (extractedResults.length > 0 && confirm('Möchten Sie wirklich alle extrahierten Kontaktdaten löschen?')) {
+          clearAllResults();
+        }
+      });
+      
+      // Automatisches Löschen alle 1 Stunde (3600 Sekunden = 3600000 Millisekunden)
+      setInterval(() => {
+        if (extractedResults.length > 0) {
+          console.log('🕐 Automatisches Löschen: Alle Daten werden nach 1 Stunde bereinigt');
+          clearAllResults(false); // Keine Bestätigung beim automatischen Löschen
+        }
+      }, 3600000); // 1 Stunde = 3600000 ms
+      
+      console.log('✅ Automatisches Löschen aktiviert: Alle 1 Stunde');
     });
     
     // ========================================
@@ -788,12 +806,20 @@
 
     function renderResults() {
       const tbody = document.getElementById('results-tbody');
+      const countElement = document.getElementById('results-count');
+      
       if (!tbody) return;
+      
+      // Update count
+      if (countElement) {
+        countElement.textContent = `(${extractedResults.length})`;
+      }
+      
       if (extractedResults.length === 0) {
         tbody.innerHTML = '<tr><td colspan="6" style="padding:16px; color:#94a3b8;">Noch keine Ergebnisse. Starte eine Demo oben.</td></tr>';
         return;
       }
-      tbody.innerHTML = extractedResults.map(r => `
+      tbody.innerHTML = extractedResults.map((r, index) => `
         <tr>
           <td style="padding:12px 16px; border-top: 1px solid rgba(148,163,184,0.15);">${escapeHtml(r.name || '')}</td>
           <td style="padding:12px 16px; border-top: 1px solid rgba(148,163,184,0.15);">${escapeHtml(r.company || '')}</td>
@@ -803,6 +829,27 @@
           <td style="padding:12px 16px; border-top: 1px solid rgba(148,163,184,0.15);">${new Date(r.timestamp).toLocaleString()}</td>
         </tr>
       `).join('');
+    }
+    
+    function clearAllResults(showConfirm = true) {
+      extractedResults.length = 0; // Array leeren
+      renderResults();
+      console.log('🗑️ Alle Kontaktdaten wurden gelöscht');
+      
+      // Optional: Toast-Benachrichtigung (falls gewünscht)
+      if (showConfirm) {
+        // Kurze visuelle Bestätigung
+        const btn = document.getElementById('btn-clear-results');
+        if (btn) {
+          const originalText = btn.textContent;
+          btn.textContent = '✅ Gelöscht!';
+          btn.style.background = '#22c55e';
+          setTimeout(() => {
+            btn.textContent = originalText;
+            btn.style.background = '#ef4444';
+          }, 2000);
+        }
+      }
     }
 
     function escapeHtml(s) {
