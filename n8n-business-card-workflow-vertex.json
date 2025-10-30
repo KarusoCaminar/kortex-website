@@ -150,33 +150,6 @@
     },
     {
       "parameters": {
-        "authentication": "predefinedCredentialType",
-        "nodeCredentialType": "googleApi",
-        "projectId": "={{ $env.GOOGLE_CLOUD_PROJECT_ID }}",
-        "location": "us-central1",
-        "model": "gemini-1.5-pro",
-        "operation": "generateContent",
-        "options": {
-          "maxOutputTokens": 2048,
-          "temperature": 0.3
-        },
-        "content": "={{ JSON.stringify([{\n  \"parts\": [\n    {\n      \"text\": \"Extrahiere alle Kontaktdaten aus dieser Visitenkarte und gib sie als strukturiertes JSON zurück. \\n\\nErforderliche Felder:\\n- name: Vollständiger Name\\n- company: Firma/Unternehmen\\n- email: E-Mail-Adresse\\n- phone: Haupttelefonnummer (Mobil bevorzugt)\\n- phone_office: Bürotelefonnummer (optional)\\n- address: Straße und Hausnummer\\n- city: Postleitzahl und Stadt\\n- website: Website-URL (optional)\\n- job_title: Berufsbezeichnung/Position (optional)\\n\\nGib NUR valides JSON zurück, kein zusätzlicher Text, kein Markdown-Formatting.\\n\\nBeispiel-Format:\\n{\\\"name\\\": \\\"Max Mustermann\\\", \\\"company\\\": \\\"Beispiel GmbH\\\", \\\"email\\\": \\\"max@beispiel.de\\\", \\\"phone\\\": \\\"+49 123 456789\\\", \\\"address\\\": \\\"Musterstraße 1\\\", \\\"city\\\": \\\"12345 Musterstadt\\\"}\"\n    },\n    {\n      \"inline_data\": {\n        \"mime_type\": $json.mimeType,\n        \"data\": $json.imageBase64\n      }\n    }\n  ]\n}]) }}"
-      },
-      "id": "vertex-ai-gemini",
-      "name": "Vertex AI Gemini",
-      "type": "@n8n/n8n-nodes-langchain.languageModel",
-      "typeVersion": 1,
-      "position": [1560, 300],
-      "notes": "⚠️ WICHTIG: Aktiviere Google API Credentials in n8n Settings!",
-      "credentials": {
-        "googleApi": {
-          "id": "YOUR_GOOGLE_API_CREDENTIALS_ID",
-          "name": "Google Cloud API"
-        }
-      }
-    },
-    {
-      "parameters": {
         "promptType": "define",
         "text": "={{ `Extrahiere alle Kontaktdaten aus dieser Visitenkarte und gib sie als strukturiertes JSON zurück.\\n\\nErforderliche Felder:\\n- name: Vollständiger Name\\n- company: Firma/Unternehmen\\n- email: E-Mail-Adresse\\n- phone: Haupttelefonnummer (Mobil bevorzugt)\\n- phone_office: Bürotelefonnummer (optional)\\n- address: Straße und Hausnummer\\n- city: Postleitzahl und Stadt\\n- website: Website-URL (optional)\\n- job_title: Berufsbezeichnung/Position (optional)\\n\\nGib NUR valides JSON zurück, kein zusätzlicher Text, kein Markdown-Formatting.\\n\\nBeispiel-Format:\\n{\\\"name\\\": \\\"Max Mustermann\\\", \\\"company\\\": \\\"Beispiel GmbH\\\", \\\"email\\\": \\\"max@beispiel.de\\\", \\\"phone\\\": \\\"+49 123 456789\\\", \\\"address\\\": \\\"Musterstraße 1\\\", \\\"city\\\": \\\"12345 Musterstadt\\\"}` }}",
         "options": {
@@ -341,14 +314,14 @@
       "main": [
         [
           {
-            "node": "Parse Vertex AI Response",
+            "node": "Parse AI Agent Response",
             "type": "main",
             "index": 0
           }
         ]
       ]
     },
-    "Parse Vertex AI Response": {
+    "Parse AI Agent Response": {
       "main": [
         [
           {
