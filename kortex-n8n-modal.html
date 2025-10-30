@@ -519,7 +519,7 @@
         
         // Zeige Workflow-Visualisierung
         if (responseData.executionUrl) {
-          // Option 1: Falls n8n eine Execution-URL zurückgibt, lade diese (Live-Visualisierung)
+          // Option 1: Falls n8n eine Execution-URL zurückgibt, lade diese (Workflow-Visualisierung)
           iframe.src = responseData.executionUrl;
           loading.style.display = 'none';
         } else {
@@ -594,7 +594,7 @@
               <body>
                 <div class="header">
                   <h2>✅ Workflow erfolgreich gestartet</h2>
-                  <p class="subtitle">Live-Visualisierung des n8n Workflows</p>
+                  <p class="subtitle">Workflow-Visualisierung</p>
                 </div>
                 <div class="media-container">
                   ${mediaUrl.endsWith('.mp4') || mediaUrl.endsWith('.webm') || mediaUrl.endsWith('.mov')
