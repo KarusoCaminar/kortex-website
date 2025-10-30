@@ -31,73 +31,183 @@
       transition: transform 0.3s ease;
     }
     
-    /* KI Tools News Feed Styles */
-    .ai-news-feed {
-      background: linear-gradient(135deg, rgba(3, 78, 162, 0.05) 0%, rgba(30, 64, 175, 0.03) 100%);
-      border: 1px solid rgba(3, 78, 162, 0.2);
+    /* KI Tools News Feed Styles - Floating Panel */
+    .ai-news-panel {
+      position: fixed;
+      top: 50%;
+      right: 20px;
+      transform: translateY(-50%);
+      width: 360px;
+      max-height: 80vh;
+      background: white;
       border-radius: 16px;
-      padding: 2rem;
-      margin: 3rem auto;
-      max-width: 1000px;
+      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15), 0 8px 24px rgba(3, 78, 162, 0.1);
+      border: 1px solid rgba(3, 78, 162, 0.1);
+      z-index: 1000;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+      transition: all 0.3s ease;
     }
     
-    .ai-news-feed h2 {
-      font-size: 1.75rem;
-      font-weight: 800;
-      color: var(--primary-dark);
-      margin-bottom: 1rem;
+    .ai-news-panel:hover {
+      box-shadow: 0 24px 72px rgba(0, 0, 0, 0.2), 0 12px 32px rgba(3, 78, 162, 0.15);
+      transform: translateY(-50%) translateX(-4px);
+    }
+    
+    .ai-news-panel-header {
+      background: linear-gradient(135deg, #034EA2 0%, #1e40af 100%);
+      color: white;
+      padding: 1rem 1.25rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    }
+    
+    .ai-news-panel-header h3 {
+      font-size: 1rem;
+      font-weight: 700;
+      margin: 0;
       display: flex;
       align-items: center;
       gap: 0.5rem;
     }
     
+    .ai-news-panel-toggle {
+      background: rgba(255, 255, 255, 0.2);
+      border: none;
+      color: white;
+      width: 28px;
+      height: 28px;
+      border-radius: 6px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: background 0.2s;
+      font-size: 1.2rem;
+      line-height: 1;
+    }
+    
+    .ai-news-panel-toggle:hover {
+      background: rgba(255, 255, 255, 0.3);
+    }
+    
+    .ai-news-panel-content {
+      overflow-y: auto;
+      padding: 1rem;
+      flex: 1;
+    }
+    
+    .ai-news-panel-content::-webkit-scrollbar {
+      width: 6px;
+    }
+    
+    .ai-news-panel-content::-webkit-scrollbar-track {
+      background: #f1f5f9;
+      border-radius: 3px;
+    }
+    
+    .ai-news-panel-content::-webkit-scrollbar-thumb {
+      background: #cbd5e1;
+      border-radius: 3px;
+    }
+    
+    .ai-news-panel-content::-webkit-scrollbar-thumb:hover {
+      background: #94a3b8;
+    }
+    
     .ai-news-item {
-      background: white;
-      border-radius: 12px;
-      padding: 1.25rem;
-      margin-bottom: 1rem;
-      border-left: 4px solid var(--primary);
-      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
-      transition: all 0.3s ease;
+      background: linear-gradient(135deg, rgba(3, 78, 162, 0.03) 0%, rgba(30, 64, 175, 0.02) 100%);
+      border-radius: 10px;
+      padding: 0.9rem;
+      margin-bottom: 0.75rem;
+      border-left: 3px solid var(--primary);
+      transition: all 0.2s ease;
+      cursor: pointer;
     }
     
     .ai-news-item:hover {
-      box-shadow: 0 4px 16px rgba(3, 78, 162, 0.15);
-      transform: translateX(4px);
+      background: linear-gradient(135deg, rgba(3, 78, 162, 0.08) 0%, rgba(30, 64, 175, 0.05) 100%);
+      transform: translateX(2px);
+      box-shadow: 0 2px 8px rgba(3, 78, 162, 0.1);
     }
     
-    .ai-news-item h3 {
-      font-size: 1.1rem;
+    .ai-news-item h4 {
+      font-size: 0.9rem;
       font-weight: 700;
       color: var(--primary-dark);
-      margin: 0 0 0.5rem 0;
+      margin: 0 0 0.4rem 0;
+      line-height: 1.4;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
     }
     
     .ai-news-item p {
-      color: rgba(30, 41, 59, 0.7);
-      margin: 0.5rem 0;
-      line-height: 1.6;
+      color: rgba(30, 41, 59, 0.65);
+      margin: 0.4rem 0;
+      line-height: 1.5;
+      font-size: 0.8rem;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
     }
     
     .ai-news-item .meta {
       display: flex;
       align-items: center;
-      gap: 1rem;
-      margin-top: 0.75rem;
-      font-size: 0.85rem;
-      color: rgba(30, 41, 59, 0.6);
+      gap: 0.75rem;
+      margin-top: 0.6rem;
+      font-size: 0.75rem;
+      color: rgba(30, 41, 59, 0.55);
+      flex-wrap: wrap;
+    }
+    
+    .ai-news-item .meta a {
+      color: var(--primary);
+      text-decoration: none;
+      font-weight: 500;
+      margin-left: auto;
+    }
+    
+    .ai-news-item .meta a:hover {
+      text-decoration: underline;
     }
     
     .ai-news-loading {
       text-align: center;
-      padding: 2rem;
+      padding: 2rem 1rem;
       color: rgba(30, 41, 59, 0.6);
+      font-size: 0.85rem;
     }
     
     .ai-news-error {
       text-align: center;
-      padding: 2rem;
+      padding: 2rem 1rem;
       color: #ef4444;
+      font-size: 0.85rem;
+    }
+    
+    .ai-news-panel.collapsed {
+      width: 60px;
+    }
+    
+    .ai-news-panel.collapsed .ai-news-panel-content {
+      display: none;
+    }
+    
+    .ai-news-panel.collapsed .ai-news-panel-header h3 {
+      display: none;
+    }
+    
+    @media (max-width: 768px) {
+      .ai-news-panel {
+        display: none; /* Auf Mobilgeräten verstecken */
+      }
     }
   </style>
   
@@ -238,18 +348,25 @@
       
     </div>
     
-    <!-- KI Tools News Feed Section -->
-    <section class="ai-news-feed">
-      <h2>
+  </main>
+  
+  <!-- KI Tools News Feed - Floating Panel (Rechts) -->
+  <div id="ai-news-panel" class="ai-news-panel">
+    <div class="ai-news-panel-header">
+      <h3>
         <span>🤖</span>
-        Aktuelle KI-Entwicklungen & Tools
-      </h2>
+        KI-News
+      </h3>
+      <button class="ai-news-panel-toggle" id="ai-news-toggle" aria-label="Panel ein/ausklappen">
+        →
+      </button>
+    </div>
+    <div class="ai-news-panel-content">
       <div id="ai-news-container" class="ai-news-loading">
         Lade aktuelle KI-News...
       </div>
-    </section>
-    
-  </main>
+    </div>
+  </div>
   
   <custom-footer></custom-footer>
   
@@ -273,13 +390,13 @@
         
         if (newsData && newsData.length > 0) {
           container.innerHTML = newsData.map(item => `
-            <div class="ai-news-item">
-              <h3>${escapeHtml(item.title)}</h3>
-              <p>${escapeHtml(item.description || item.summary || '')}</p>
+            <div class="ai-news-item" onclick="window.open('${item.link || '#'}', '_blank')">
+              <h4>${escapeHtml(item.title)}</h4>
+              <p>${escapeHtml((item.description || item.summary || '').substring(0, 120))}${(item.description || item.summary || '').length > 120 ? '...' : ''}</p>
               <div class="meta">
                 <span>📅 ${formatDate(item.date || item.pubDate || new Date())}</span>
                 ${item.source ? `<span>📰 ${escapeHtml(item.source)}</span>` : ''}
-                ${item.link ? `<a href="${item.link}" target="_blank" rel="noopener noreferrer" style="color: var(--primary); text-decoration: none; margin-left: auto;">→ Mehr lesen</a>` : ''}
+                ${item.link ? `<a href="${item.link}" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation();">→</a>` : ''}
               </div>
             </div>
           `).join('');
@@ -348,32 +465,32 @@
     }
     
     function getDemoAINews() {
-      return `
-        <div class="ai-news-item">
-          <h3>Gemini 2.5 Flash: Google's neues Multimodal-Modell</h3>
+          return `
+        <div class="ai-news-item" onclick="window.open('https://deepmind.google/technologies/gemini/', '_blank')">
+          <h4>Gemini 2.5 Flash: Google's neues Multimodal-Modell</h4>
           <p>Google hat kürzlich Gemini 2.5 Flash veröffentlicht – ein schnelles und effizientes KI-Modell für Text, Bilder und Audio-Verarbeitung.</p>
           <div class="meta">
             <span>📅 Heute</span>
             <span>📰 Google AI</span>
-            <a href="https://deepmind.google/technologies/gemini/" target="_blank" rel="noopener noreferrer" style="color: var(--primary); text-decoration: none; margin-left: auto;">→ Mehr lesen</a>
+            <a href="https://deepmind.google/technologies/gemini/" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation();">→</a>
           </div>
         </div>
-        <div class="ai-news-item">
-          <h3>OpenAI GPT-4o: Omnimodal-Modell verfügbar</h3>
+        <div class="ai-news-item" onclick="window.open('https://openai.com/gpt-4o', '_blank')">
+          <h4>OpenAI GPT-4o: Omnimodal-Modell verfügbar</h4>
           <p>OpenAI's GPT-4o kombiniert Text, Vision und Audio in einem einzigen Modell, was neue Möglichkeiten für automatisierte Prozesse eröffnet.</p>
           <div class="meta">
             <span>📅 Diese Woche</span>
             <span>📰 OpenAI</span>
-            <a href="https://openai.com/gpt-4o" target="_blank" rel="noopener noreferrer" style="color: var(--primary); text-decoration: none; margin-left: auto;">→ Mehr lesen</a>
+            <a href="https://openai.com/gpt-4o" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation();">→</a>
           </div>
         </div>
-        <div class="ai-news-item">
-          <h3>n8n Workflow-Automatisierung: Neue Features</h3>
+        <div class="ai-news-item" onclick="window.open('https://n8n.io/blog', '_blank')">
+          <h4>n8n Workflow-Automatisierung: Neue Features</h4>
           <p>Die Workflow-Automatisierungsplattform n8n hat neue AI-Agent-Integrationen hinzugefügt, die KI direkt in Automatisierungsworkflows einbinden.</p>
           <div class="meta">
             <span>📅 Diese Woche</span>
             <span>📰 n8n Blog</span>
-            <a href="https://n8n.io/blog" target="_blank" rel="noopener noreferrer" style="color: var(--primary); text-decoration: none; margin-left: auto;">→ Mehr lesen</a>
+            <a href="https://n8n.io/blog" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation();">→</a>
           </div>
         </div>
       `;
@@ -401,8 +518,22 @@
       return d.toLocaleDateString('de-DE', { day: '2-digit', month: '2-digit', year: 'numeric' });
     }
     
+    // Toggle Panel Collapse
+    function setupPanelToggle() {
+      const toggleBtn = document.getElementById('ai-news-toggle');
+      const panel = document.getElementById('ai-news-panel');
+      
+      toggleBtn?.addEventListener('click', (e) => {
+        e.stopPropagation();
+        panel?.classList.toggle('collapsed');
+        const icon = toggleBtn.textContent;
+        toggleBtn.textContent = icon === '→' ? '←' : '→';
+      });
+    }
+    
     // Load news on page load
     document.addEventListener('DOMContentLoaded', () => {
+      setupPanelToggle();
       loadAINews();
       // Refresh every 30 minutes
       setInterval(loadAINews, 30 * 60 * 1000);
