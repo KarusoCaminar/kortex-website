@@ -45,7 +45,7 @@
 
 ### Schritt 3: Production URL in Website einfügen
 
-1. Öffne: `C:\Users\Moritz\Desktop\koretex-projekt\koretex-website\kortex-n8n-modal.html`
+1. Öffne: `C:\Users\Moritz\Desktop\kortex-projekt\kortex-website\kortex-n8n-modal.html`
 
 2. **Suche nach (3x):**
    ```html
@@ -94,14 +94,14 @@
 ### Schritt 6: Sample-URLs prüfen
 
 1. **"Lade Sample 1"** Node:
-   - URL sollte sein: `https://karusocaminar.github.io/koretex-website/samples/bc-1.jpg`
+   - URL sollte sein: `https://karusocaminar.github.io/kortex-website/samples/bc-1.jpg`
    - (Oder deine eigene URL, wo die Bilder liegen)
 
 2. **"Lade Sample 2"** Node:
-   - URL sollte sein: `https://karusocaminar.github.io/koretex-website/samples/bc-2.jpg`
+   - URL sollte sein: `https://karusocaminar.github.io/kortex-website/samples/bc-2.jpg`
 
 3. Falls Bilder noch nicht hochgeladen:
-   - Lade sie in dein `koretex-website` GitHub Repo hoch
+   - Lade sie in dein `kortex-website` GitHub Repo hoch
    - Unter: `samples/bc-1.jpg` und `samples/bc-2.jpg`
 
 ---
@@ -109,7 +109,7 @@
 ### Schritt 7: Testen
 
 1. **Website testen:**
-   - Öffne: `https://karusocaminar.github.io/koretex-website/index.html`
+   - Öffne: `https://karusocaminar.github.io/kortex-website/index.html`
    - Klicke auf **"Visitenkarten-Extraktion"**
    - Modal sollte sich öffnen
 

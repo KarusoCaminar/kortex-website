@@ -1,0 +1,82 @@
+{
+  "name": "Kortex Kontaktformular Outlook",
+  "nodes": [
+    {
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "016e0a41-9748-47c9-8ca9-debc40463598",
+        "responseMode": "onReceived",
+        "options": {
+          "responseHeaders": {
+            "entries": [
+              {
+                "name": "Access-Control-Allow-Origin",
+                "value": "*"
+              },
+              {
+                "name": "Access-Control-Allow-Methods",
+                "value": "POST, OPTIONS, GET"
+              },
+              {
+                "name": "Access-Control-Allow-Headers",
+                "value": "Content-Type, Accept"
+              },
+              {
+                "name": "Content-Type",
+                "value": "application/json"
+              }
+            ]
+          }
+        }
+      },
+      "name": "Webhook",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2,
+      "position": [250, 300],
+      "webhookId": "016e0a41-9748-47c9-8ca9-debc40463598"
+    },
+    {
+      "parameters": {
+        "resource": "message",
+        "operation": "send",
+        "subject": "={{$json.body.formLocation}} - Neue Kontaktanfrage",
+        "bodyContent": "html",
+        "bodyContentHtml": "=<h2>📬 Neue Kontaktanfrage</h2><p><strong>📍 Quelle:</strong> {{$json.body.formLocation}}</p><p><strong>📧 Von:</strong> {{$json.body.email}}</p><p><strong>🏢 Firma:</strong> {{$json.body.firma}}</p><hr><h3>💬 Prozessbeschreibung:</h3><div style=\"background: #f5f5f5; padding: 15px; border-radius: 5px;\">{{$json.body.process}}</div><hr><p style=\"color: #666; font-size: 12px;\">Diese E-Mail wurde automatisch über das Kortex-Kontaktformular versendet.</p>",
+        "toRecipients": "info@kortex-system.com, moritz.heinelt@gmail.com",
+        "options": {}
+      },
+      "name": "Outlook Send",
+      "type": "n8n-nodes-base.microsoftOutlook",
+      "typeVersion": 2,
+      "position": [500, 300],
+      "credentials": {
+        "microsoftOutlookOAuth2Api": {
+          "id": "DEINE_OUTLOOK_CREDENTIAL_ID",
+          "name": "Microsoft Outlook account"
+        }
+      }
+    }
+  ],
+  "connections": {
+    "Webhook": {
+      "main": [
+        [
+          {
+            "node": "Outlook Send",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "pinData": {},
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "staticData": null,
+  "tags": [],
+  "triggerCount": 1,
+  "updatedAt": "2025-10-26T00:00:00.000Z",
+  "versionId": "1"
+}

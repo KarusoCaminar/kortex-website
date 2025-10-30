@@ -129,11 +129,11 @@ Zurück im **"AI Agent"** Node Panel:
 ## 📥 Schritt 4: Sample-URLs anpassen
 
 1. **"Lade Sample 1"** Node:
-   - URL: `https://karusocaminar.github.io/koretex-website/samples/bc-1.jpg`
+   - URL: `https://karusocaminar.github.io/kortex-website/samples/bc-1.jpg`
    - (Oder deine eigene URL)
 
 2. **"Lade Sample 2"** Node:
-   - URL: `https://karusocaminar.github.io/koretex-website/samples/bc-2.jpg`
+   - URL: `https://karusocaminar.github.io/kortex-website/samples/bc-2.jpg`
 
 ---
 

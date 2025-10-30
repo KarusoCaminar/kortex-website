@@ -144,7 +144,7 @@ Dann öffne: http://localhost:8000
 ## 📁 Dateistruktur
 
 ```
-koretex-website/
+kortex-website/
 ├── assets/
 │   ├── css/
 │   │   └── demo-panel.css       # Demo-Panel Styles
@@ -208,7 +208,7 @@ en: {
 
 ## 🔗 Live-Website
 
-https://karusocaminar.github.io/koretex-website/
+https://karusocaminar.github.io/kortex-website/
 
 ---
 
