@@ -497,12 +497,12 @@
           loading.style.display = 'none';
         } else {
           // Option 2: Zeige Video/Screenshot des Workflows als Demo
-          // Hier kannst du ein Video oder Screenshot einfügen
-          const workflowVideoUrl = 'https://karusocaminar.github.io/kortex-website/assets/workflow-demo.mp4'; // Video URL
+          // Video oder Screenshot des n8n Workflows
+          const workflowVideoUrl = 'https://karusocaminar.github.io/kortex-website/assets/workflow-demo.mp4'; // Video URL (falls vorhanden)
           const workflowScreenshotUrl = 'https://karusocaminar.github.io/kortex-website/assets/workflow-demo.png'; // Screenshot URL
           
-          // Verwende Video falls verfügbar, sonst Screenshot
-          const mediaUrl = workflowVideoUrl;
+          // Verwende Screenshot (workflow-demo.png ist vorhanden)
+          const mediaUrl = workflowScreenshotUrl;
           
           iframe.srcdoc = `
             <html>
@@ -562,12 +562,12 @@
                   <p class="subtitle">Live-Visualisierung des n8n Workflows</p>
                 </div>
                 <div class="media-container">
-                  ${mediaUrl.endsWith('.mp4') || mediaUrl.endsWith('.webm') 
-                    ? `<video autoplay loop muted playsinline style="width: 100%; max-height: 80vh;">
+                  ${mediaUrl.endsWith('.mp4') || mediaUrl.endsWith('.webm') || mediaUrl.endsWith('.mov')
+                    ? `<video autoplay loop muted playsinline style="width: 100%; max-height: 80vh; border-radius: 12px; box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);">
                          <source src="${mediaUrl}" type="video/mp4">
-                         <img src="${workflowScreenshotUrl}" alt="Workflow Demo" style="width: 100%; max-height: 80vh;" onerror="this.style.display='none'; this.parentElement.innerHTML='<p style=\\'color:#94a3b8;\\'>Workflow läuft im Hintergrund. Ergebnisse erscheinen automatisch in der Tabelle.</p>'">
+                         Your browser does not support the video tag.
                        </video>`
-                    : `<img src="${workflowScreenshotUrl}" alt="Workflow Demo" style="width: 100%; max-height: 80vh;" onerror="this.parentElement.innerHTML='<p style=\\'color:#94a3b8;\\'>Workflow läuft im Hintergrund. Ergebnisse erscheinen automatisch in der Tabelle.</p>'">`
+                    : `<img src="${mediaUrl}" alt="n8n Workflow Demo" style="width: 100%; max-height: 80vh; border-radius: 12px; box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3); object-fit: contain;" onerror="this.parentElement.innerHTML='<p style=\\'color:#94a3b8;\\'>Workflow läuft im Hintergrund. Ergebnisse erscheinen automatisch in der Tabelle.</p>'">`
                   }
                 </div>
                 <div class="info-text">
