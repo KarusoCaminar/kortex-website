@@ -11,6 +11,96 @@
   
   <link rel="stylesheet" href="style.css"> 
   
+  <style>
+    /* 3D Logo Rotation Animation */
+    @keyframes rotate3d {
+      0% { transform: rotateY(0deg) rotateX(0deg); }
+      25% { transform: rotateY(90deg) rotateX(10deg); }
+      50% { transform: rotateY(180deg) rotateX(0deg); }
+      75% { transform: rotateY(270deg) rotateX(-10deg); }
+      100% { transform: rotateY(360deg) rotateX(0deg); }
+    }
+    
+    #logo-3d-container {
+      display: inline-block;
+    }
+    
+    #logo-3d:hover {
+      animation-play-state: paused;
+      transform: scale(1.1);
+      transition: transform 0.3s ease;
+    }
+    
+    /* KI Tools News Feed Styles */
+    .ai-news-feed {
+      background: linear-gradient(135deg, rgba(3, 78, 162, 0.05) 0%, rgba(30, 64, 175, 0.03) 100%);
+      border: 1px solid rgba(3, 78, 162, 0.2);
+      border-radius: 16px;
+      padding: 2rem;
+      margin: 3rem auto;
+      max-width: 1000px;
+    }
+    
+    .ai-news-feed h2 {
+      font-size: 1.75rem;
+      font-weight: 800;
+      color: var(--primary-dark);
+      margin-bottom: 1rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    
+    .ai-news-item {
+      background: white;
+      border-radius: 12px;
+      padding: 1.25rem;
+      margin-bottom: 1rem;
+      border-left: 4px solid var(--primary);
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+      transition: all 0.3s ease;
+    }
+    
+    .ai-news-item:hover {
+      box-shadow: 0 4px 16px rgba(3, 78, 162, 0.15);
+      transform: translateX(4px);
+    }
+    
+    .ai-news-item h3 {
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: var(--primary-dark);
+      margin: 0 0 0.5rem 0;
+    }
+    
+    .ai-news-item p {
+      color: rgba(30, 41, 59, 0.7);
+      margin: 0.5rem 0;
+      line-height: 1.6;
+    }
+    
+    .ai-news-item .meta {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      margin-top: 0.75rem;
+      font-size: 0.85rem;
+      color: rgba(30, 41, 59, 0.6);
+    }
+    
+    .ai-news-loading {
+      text-align: center;
+      padding: 2rem;
+      color: rgba(30, 41, 59, 0.6);
+    }
+    
+    .ai-news-error {
+      text-align: center;
+      padding: 2rem;
+      color: #ef4444;
+    }
+  </style>
+  
   <script src="https://unpkg.com/feather-icons"></script>
   <script src="translations.js"></script>
   <script src="i18n.js"></script>
@@ -23,7 +113,20 @@
     
     <!-- Hauptüberschrift -->
     <section style="text-align: center; margin-bottom: 2rem;">
-      <h1 style="font-size: 2.5rem; font-weight: 800; color: var(--primary-dark); margin-bottom: 1rem;" data-i18n="faq.title">Häufig gestellte Fragen (FAQ)</h1>
+      <div style="display: flex; align-items: center; justify-content: center; gap: 2rem; margin-bottom: 1.5rem; flex-wrap: wrap;">
+        <h1 style="font-size: 2.5rem; font-weight: 800; color: var(--primary-dark); margin: 0;" data-i18n="faq.title">Häufig gestellte Fragen (FAQ)</h1>
+        <!-- 3D Rotating Logo Animation -->
+        <div id="logo-3d-container" style="width: 80px; height: 80px; position: relative; perspective: 1000px;">
+          <div id="logo-3d" style="width: 100%; height: 100%; transform-style: preserve-3d; animation: rotate3d 8s linear infinite;">
+            <img 
+              src="./assets/logo.png" 
+              alt="Kortex Logo" 
+              style="width: 100%; height: 100%; object-fit: contain; filter: drop-shadow(0 8px 16px rgba(3, 78, 162, 0.3));"
+              onerror="this.style.display='none'; this.parentElement.innerHTML='<div style=\\'width:100%;height:100%;border-radius:16px;background:linear-gradient(135deg, #034EA2 0%, #1e40af 100%);display:flex;align-items:center;justify-content:center;color:white;font-size:2rem;font-weight:bold;\\'>K</div>'"
+            />
+          </div>
+        </div>
+      </div>
       <p class="lead" style="max-width: 800px; margin: 0 auto; color: var(--muted);" data-i18n="faq.subtitle">
         Hier beantworten wir die wichtigsten Fragen zur KI-Einführung im Mittelstand – von Kosten über Datenschutz bis zur praktischen Umsetzung.
       </p>
@@ -135,6 +238,17 @@
       
     </div>
     
+    <!-- KI Tools News Feed Section -->
+    <section class="ai-news-feed">
+      <h2>
+        <span>🤖</span>
+        Aktuelle KI-Entwicklungen & Tools
+      </h2>
+      <div id="ai-news-container" class="ai-news-loading">
+        Lade aktuelle KI-News...
+      </div>
+    </section>
+    
   </main>
   
   <custom-footer></custom-footer>
@@ -142,6 +256,158 @@
   <script src="./components/navbar.js"></script>
   <script src="./components/footer.js"></script>
   <script src="script.js"></script>
+  
+  <script>
+    // KI Tools News Feed - Fetch from RSS or API
+    async function loadAINews() {
+      const container = document.getElementById('ai-news-container');
+      
+      try {
+        // Option 1: RSS Feed von The Verge AI News
+        // Option 2: Reddit API für r/MachineLearning
+        // Option 3: Hacker News API
+        // Option 4: Twitter/X API (komplexer)
+        
+        // Wir nutzen einen RSS-to-JSON Proxy Service oder Reddit API
+        const newsData = await fetchAINewsFromMultipleSources();
+        
+        if (newsData && newsData.length > 0) {
+          container.innerHTML = newsData.map(item => `
+            <div class="ai-news-item">
+              <h3>${escapeHtml(item.title)}</h3>
+              <p>${escapeHtml(item.description || item.summary || '')}</p>
+              <div class="meta">
+                <span>📅 ${formatDate(item.date || item.pubDate || new Date())}</span>
+                ${item.source ? `<span>📰 ${escapeHtml(item.source)}</span>` : ''}
+                ${item.link ? `<a href="${item.link}" target="_blank" rel="noopener noreferrer" style="color: var(--primary); text-decoration: none; margin-left: auto;">→ Mehr lesen</a>` : ''}
+              </div>
+            </div>
+          `).join('');
+        } else {
+          // Fallback: Demo-Daten
+          container.innerHTML = getDemoAINews();
+        }
+      } catch (error) {
+        console.error('Fehler beim Laden der KI-News:', error);
+        container.className = 'ai-news-error';
+        container.innerHTML = '⚠️ News konnten nicht geladen werden. Bitte versuchen Sie es später erneut.';
+      }
+    }
+    
+    async function fetchAINewsFromMultipleSources() {
+      const news = [];
+      
+      try {
+        // Versuche Reddit API (r/MachineLearning, r/artificial)
+        const redditResponse = await fetch('https://www.reddit.com/r/MachineLearning/hot.json?limit=5');
+        if (redditResponse.ok) {
+          const redditData = await redditResponse.json();
+          const redditPosts = redditData.data.children.slice(0, 3).map(post => ({
+            title: post.data.title,
+            description: post.data.selftext.substring(0, 200) + '...',
+            date: new Date(post.data.created_utc * 1000),
+            link: `https://reddit.com${post.data.permalink}`,
+            source: 'Reddit r/MachineLearning'
+          }));
+          news.push(...redditPosts);
+        }
+      } catch (e) {
+        console.warn('Reddit API Fehler:', e);
+      }
+      
+      try {
+        // Versuche Hacker News API
+        const hnResponse = await fetch('https://hacker-news.firebaseio.com/v0/topstories.json');
+        if (hnResponse.ok) {
+          const storyIds = await hnResponse.json();
+          const topStories = await Promise.all(
+            storyIds.slice(0, 3).map(async id => {
+              const storyResponse = await fetch(`https://hacker-news.firebaseio.com/v0/item/${id}.json`);
+              if (storyResponse.ok) {
+                const story = await storyResponse.json();
+                if (story.title && (story.title.toLowerCase().includes('ai') || story.title.toLowerCase().includes('machine learning') || story.title.toLowerCase().includes('llm'))) {
+                  return {
+                    title: story.title,
+                    description: story.url ? `Link: ${story.url}` : 'Hacker News Story',
+                    date: new Date(story.time * 1000),
+                    link: story.url || `https://news.ycombinator.com/item?id=${id}`,
+                    source: 'Hacker News'
+                  };
+                }
+              }
+              return null;
+            })
+          );
+          news.push(...topStories.filter(s => s !== null));
+        }
+      } catch (e) {
+        console.warn('Hacker News API Fehler:', e);
+      }
+      
+      return news.slice(0, 5); // Maximal 5 News
+    }
+    
+    function getDemoAINews() {
+      return `
+        <div class="ai-news-item">
+          <h3>Gemini 2.5 Flash: Google's neues Multimodal-Modell</h3>
+          <p>Google hat kürzlich Gemini 2.5 Flash veröffentlicht – ein schnelles und effizientes KI-Modell für Text, Bilder und Audio-Verarbeitung.</p>
+          <div class="meta">
+            <span>📅 Heute</span>
+            <span>📰 Google AI</span>
+            <a href="https://deepmind.google/technologies/gemini/" target="_blank" rel="noopener noreferrer" style="color: var(--primary); text-decoration: none; margin-left: auto;">→ Mehr lesen</a>
+          </div>
+        </div>
+        <div class="ai-news-item">
+          <h3>OpenAI GPT-4o: Omnimodal-Modell verfügbar</h3>
+          <p>OpenAI's GPT-4o kombiniert Text, Vision und Audio in einem einzigen Modell, was neue Möglichkeiten für automatisierte Prozesse eröffnet.</p>
+          <div class="meta">
+            <span>📅 Diese Woche</span>
+            <span>📰 OpenAI</span>
+            <a href="https://openai.com/gpt-4o" target="_blank" rel="noopener noreferrer" style="color: var(--primary); text-decoration: none; margin-left: auto;">→ Mehr lesen</a>
+          </div>
+        </div>
+        <div class="ai-news-item">
+          <h3>n8n Workflow-Automatisierung: Neue Features</h3>
+          <p>Die Workflow-Automatisierungsplattform n8n hat neue AI-Agent-Integrationen hinzugefügt, die KI direkt in Automatisierungsworkflows einbinden.</p>
+          <div class="meta">
+            <span>📅 Diese Woche</span>
+            <span>📰 n8n Blog</span>
+            <a href="https://n8n.io/blog" target="_blank" rel="noopener noreferrer" style="color: var(--primary); text-decoration: none; margin-left: auto;">→ Mehr lesen</a>
+          </div>
+        </div>
+      `;
+    }
+    
+    function escapeHtml(text) {
+      if (!text) return '';
+      const div = document.createElement('div');
+      div.textContent = text;
+      return div.innerHTML;
+    }
+    
+    function formatDate(date) {
+      if (!date) return 'Unbekannt';
+      const d = new Date(date);
+      const now = new Date();
+      const diffMs = now - d;
+      const diffMins = Math.floor(diffMs / 60000);
+      const diffHours = Math.floor(diffMs / 3600000);
+      const diffDays = Math.floor(diffMs / 86400000);
+      
+      if (diffMins < 60) return `vor ${diffMins} Min`;
+      if (diffHours < 24) return `vor ${diffHours} Std`;
+      if (diffDays < 7) return `vor ${diffDays} Tag${diffDays > 1 ? 'en' : ''}`;
+      return d.toLocaleDateString('de-DE', { day: '2-digit', month: '2-digit', year: 'numeric' });
+    }
+    
+    // Load news on page load
+    document.addEventListener('DOMContentLoaded', () => {
+      loadAINews();
+      // Refresh every 30 minutes
+      setInterval(loadAINews, 30 * 60 * 1000);
+    });
+  </script>
   
 </body>
 </html>
