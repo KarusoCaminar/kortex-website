@@ -185,7 +185,8 @@
     },
     {
       "parameters": {
-        "jsCode": "// Formatiere Daten für die Website\nconst data = $json;\nreturn [{\n  json: {\n    type: 'business-card-processed',\n    payload: {\n      name: data.name || '',\n      company: data.company || '',\n      email: data.email || '',\n      phone: data.phone || '',\n      phone_office: data.phone_office || '',\n      address: data.address || '',\n      city: data.city || '',\n      website: data.website || '',\n      job_title: data.job_title || '',\n      source: data.source || 'Upload',\n      sample: data.sample || '',\n      timestamp: data.timestamp || new Date().toISOString()\n    }\n  }\n}];"
+        "mode": "runOnceForEachItem",
+        "jsCode": "// Formatiere Daten für die Website\nconst data = $json;\nreturn {\n  json: {\n    type: 'business-card-processed',\n    payload: {\n      name: data.name || '',\n      company: data.company || '',\n      email: data.email || '',\n      phone: data.phone || '',\n      phone_office: data.phone_office || '',\n      address: data.address || '',\n      city: data.city || '',\n      website: data.website || '',\n      job_title: data.job_title || '',\n      source: data.source || 'Upload',\n      sample: data.sample || '',\n      timestamp: data.timestamp || new Date().toISOString()\n    }\n  }\n};"
       },
       "id": "format-response",
       "name": "Formatiere für Website",
