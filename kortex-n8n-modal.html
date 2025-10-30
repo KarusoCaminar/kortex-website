@@ -371,7 +371,34 @@
         </div>
       </a>
       
-      <!-- Card 3: Eigene Visitenkarte hochladen (n8n Form) -->
+      <!-- Card 3: Business Card Extraction (n8n) – Sample 3 -->
+      <a href="#" class="demo-card-link" 
+         data-workflow-url="https://n8n2.kortex-system.de/webhook/business-card-extraction" 
+         data-params="sample=3"
+         data-title="Visitenkarten Demo – Sample 3"
+         data-sample-image="https://karusocaminar.github.io/kortex-website/samples/bc-3.jpg">
+        <div class="demo-card">
+          <div style="text-align: center; margin-bottom: 1.5rem;">
+            <img src="https://karusocaminar.github.io/kortex-website/samples/bc-3.jpg" 
+                 alt="Visitenkarte 3" 
+                 style="width: 100%; max-width: 600px; height: auto; object-fit: contain; border-radius: 12px; border: 2px solid rgba(148, 163, 184, 0.3); box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2); background: rgba(255, 255, 255, 0.05);"
+                 onerror="this.style.display='none'">
+          </div>
+          <h3 style="margin-bottom: 0.5rem;">Business Card – Sample 3</h3>
+          <p style="font-size: 0.95rem; color: #94a3b8; margin: 0 0 1rem 0;">Klicke auf diese Demo-Visitenkarte → KI extrahiert automatisch alle Kontaktdaten</p>
+          <p style="font-size: 0.9rem;">Klicke auf diese Demo-Visitenkarte → KI extrahiert automatisch Name, Firma, E-Mail, Telefon → Ergebnis erscheint in der Tabelle.</p>
+          
+          <div class="demo-tags">
+            <span class="tag">⚡ 5 Sek/Karte</span>
+            <span class="tag success">✅ 95% Genauigkeit</span>
+            <span class="tag">🔗 n8n-Powered</span>
+          </div>
+          
+          <span class="arrow-icon">→</span>
+        </div>
+      </a>
+      
+      <!-- Card 4: Eigene Visitenkarte hochladen (n8n Form) -->
       <a href="#" class="demo-card-link" 
          data-workflow-url="https://n8n2.kortex-system.de/webhook/business-card-extraction" 
          data-title="Eigene Visitenkarte hochladen">
@@ -675,7 +702,7 @@
           const workflowTitle = link.getAttribute('data-title');
           const sampleParam = link.getAttribute('data-params');
           
-          // Demo-Daten für Sample 1/2 sofort einfügen (für "Wow"-Effekt)
+          // Demo-Daten für Sample 1/2/3 sofort einfügen (für "Wow"-Effekt)
           if (sampleParam === 'sample=1') {
             extractedResults.unshift({
               name: 'Oliver Krause',
@@ -693,6 +720,18 @@
               email: 'info@bestattungen-grassnick.de',
               phone: '0157-76 59 33 86',
               source: 'Sample 2',
+              timestamp: new Date().toISOString()
+            });
+            renderResults();
+          } else if (sampleParam === 'sample=3') {
+            // Sample 3 - Daten werden vom Workflow extrahiert
+            // Für Demo-Effekt: Hier können Demo-Daten eingefügt werden, falls bekannt
+            extractedResults.unshift({
+              name: 'KI-Extraktion läuft...',
+              company: '',
+              email: '',
+              phone: '',
+              source: 'Sample 3',
               timestamp: new Date().toISOString()
             });
             renderResults();
