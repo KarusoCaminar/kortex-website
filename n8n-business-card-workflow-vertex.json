@@ -6,7 +6,8 @@
         "path": "business-card-extraction",
         "options": {
           "responseCode": 200,
-          "responseMode": "lastNode"
+          "responseMode": "lastNode",
+          "continueOnFail": false
         },
         "binaryPropertyName": "file"
       },
@@ -129,7 +130,8 @@
     },
     {
       "parameters": {
-        "jsCode": "// Setze Sample-Nummer für nachfolgende Verarbeitung\nconst sample = $json.query?.sample || '';\nreturn [{\n  json: {\n    sample: sample,\n    source: sample ? `Sample ${sample}` : 'Upload'\n  },\n  binary: $binary\n}];"
+        "mode": "runOnceForEachItem",
+        "jsCode": "// Setze Sample-Nummer für nachfolgende Verarbeitung\nconst sample = $json.query?.sample || '';\nreturn {\n  json: {\n    sample: sample,\n    source: sample ? `Sample ${sample}` : 'Upload'\n  },\n  binary: $binary\n};"
       },
       "id": "set-sample-info",
       "name": "Setze Sample-Info",
@@ -139,14 +141,15 @@
     },
     {
       "parameters": {
-        "jsCode": "// Konvertiere Binary zu Base64 für Vertex AI\nconst binary = $binary?.data;\nconst binaryData = binary?.data || binary;\n\nif (!binaryData) {\n  throw new Error('Kein Binary-Daten gefunden!');\n}\n\n// Base64 Encoding\nconst base64 = Buffer.from(binaryData).toString('base64');\nconst mimeType = binary?.mimeType || 'image/jpeg';\n\nreturn [{\n  json: {\n    sample: $json.sample || '',\n    source: $json.source || 'Upload',\n    imageBase64: base64,\n    mimeType: mimeType\n  }\n}];"
+        "mode": "runOnceForEachItem",
+        "jsCode": "// Konvertiere Binary zu Base64 für Vertex AI\n// Prüfe ob Binary-Daten vorhanden sind\nif (!$binary || !$binary.data) {\n  throw new Error('Kein Binary-Daten gefunden! Stelle sicher, dass ein Bild hochgeladen wurde oder ein Sample geladen wurde.');\n}\n\nconst binary = $binary.data;\nconst binaryData = binary.data || binary;\n\nif (!binaryData) {\n  throw new Error('Kein Binary-Daten gefunden!');\n}\n\n// Base64 Encoding\nconst base64 = Buffer.from(binaryData).toString('base64');\nconst mimeType = binary.mimeType || 'image/jpeg';\n\nreturn {\n  json: {\n    sample: $json.sample || '',\n    source: $json.source || 'Upload',\n    imageBase64: base64,\n    mimeType: mimeType\n  }\n};"
       },
       "id": "convert-to-base64",
       "name": "Konvertiere zu Base64",
       "type": "n8n-nodes-base.code",
       "typeVersion": 2,
       "position": [1340, 300],
-      "notes": "Konvertiert das Bild zu Base64 für Vertex AI Gemini API"
+      "notes": "Konvertiert das Bild zu Base64 für Vertex AI Gemini API. Mode muss 'Run Once for Each Item' sein damit $binary verfügbar ist."
     },
     {
       "parameters": {

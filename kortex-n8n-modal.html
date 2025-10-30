@@ -446,7 +446,7 @@
     // MODAL FUNCTIONS
     // ========================================
     
-    function openWorkflowModal(workflowUrl, workflowTitle) {
+    async function openWorkflowModal(workflowUrl, workflowTitle) {
       const modal = document.getElementById('workflow-modal');
       const iframe = document.getElementById('workflow-iframe');
       const loading = document.getElementById('loading-indicator');
@@ -457,36 +457,119 @@
         return;
       }
       
-      // WICHTIG: URL-Parameter hinzufügen für Workflow-Visualisierung
-      // modal=true: Zeigt das Formular im Modal-Modus
-      // visualize=true: Zeigt den laufenden Workflow an (Execution Data)
-      // Zusätzliche optionale Query-Parameter aus data-params (z.B. sample=1)
-      const activeLink = document.querySelector(`.demo-card-link[data-title="${workflowTitle}"]`);
-      const extraParams = activeLink?.getAttribute('data-params') || '';
-      const withViz = workflowUrl.includes('?') 
-        ? `${workflowUrl}&modal=true&visualize=true`
-        : `${workflowUrl}?modal=true&visualize=true`;
-      const finalUrl = extraParams
-        ? (withViz.includes('?') ? `${withViz}&${extraParams}` : `${withViz}?${extraParams}`)
-        : withViz;
-      
-      // Show modal
+      // Zeige Modal sofort
       modal.classList.add('active');
       document.body.style.overflow = 'hidden';
-      
-      // Reset loading indicator
       loading.style.display = 'block';
       
-      // Load iframe with visualization parameters
-      iframe.src = finalUrl;
-      
-      // Hide loading indicator once iframe loads
-      iframe.onload = () => {
-        loading.style.display = 'none';
-      };
+      try {
+        // Hole extra Params (z.B. sample=1)
+        const activeLink = document.querySelector(`.demo-card-link[data-title="${workflowTitle}"]`);
+        const extraParams = activeLink?.getAttribute('data-params') || '';
+        
+        // Baue Webhook-URL mit Parametern
+        const webhookUrl = extraParams
+          ? `${workflowUrl}${workflowUrl.includes('?') ? '&' : '?'}${extraParams}`
+          : workflowUrl;
+        
+        console.log('🚀 Triggere Workflow:', webhookUrl);
+        
+        // Triggere Workflow im Hintergrund
+        // Für Samples: GET Request, für Upload: POST mit FormData
+        const method = extraParams ? 'GET' : 'POST';
+        const fetchOptions = {
+          method: method,
+          headers: method === 'POST' ? {} : {},
+        };
+        
+        const response = await fetch(webhookUrl, fetchOptions);
+        
+        const responseData = await response.json();
+        console.log('✅ Workflow gestartet:', responseData);
+        
+        // Zeige Erfolgs-Meldung kurz
+        loading.textContent = '✅ Workflow läuft...';
+        
+        // Optional: Falls n8n eine Execution-URL zurückgibt, lade diese
+        if (responseData.executionUrl) {
+          iframe.src = responseData.executionUrl;
+        } else if (responseData.message && responseData.message.includes('started')) {
+          // Fallback: Zeige Info-Meldung statt leeren iframe
+          iframe.srcdoc = `
+            <html>
+              <head>
+                <style>
+                  body {
+                    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    height: 100vh;
+                    margin: 0;
+                    background: linear-gradient(135deg, #0a1628 0%, #09182F 100%);
+                    color: white;
+                  }
+                  .container {
+                    text-align: center;
+                    padding: 2rem;
+                  }
+                  h2 { margin: 0 0 1rem; }
+                  p { color: #94a3b8; }
+                </style>
+              </head>
+              <body>
+                <div class="container">
+                  <h2>✅ Workflow erfolgreich gestartet</h2>
+                  <p>Die Extraktion läuft im Hintergrund. Ergebnisse erscheinen automatisch in der Tabelle.</p>
+                </div>
+              </body>
+            </html>
+          `;
+        }
+        
+        // Verstecke Loading nach 2 Sekunden
+        setTimeout(() => {
+          loading.style.display = 'none';
+        }, 2000);
+        
+      } catch (error) {
+        console.error('❌ Fehler beim Triggern des Workflows:', error);
+        loading.textContent = '⚠️ Fehler beim Starten des Workflows';
+        
+        // Zeige Fehler-Meldung
+        iframe.srcdoc = `
+          <html>
+            <head>
+              <style>
+                body {
+                  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                  height: 100vh;
+                  margin: 0;
+                  background: linear-gradient(135deg, #0a1628 0%, #09182F 100%);
+                  color: white;
+                }
+                .container {
+                  text-align: center;
+                  padding: 2rem;
+                }
+                h2 { margin: 0 0 1rem; color: #ef4444; }
+                p { color: #94a3b8; }
+              </style>
+            </head>
+            <body>
+              <div class="container">
+                <h2>⚠️ Fehler</h2>
+                <p>${error.message}</p>
+              </div>
+            </body>
+          </html>
+        `;
+      }
       
       // Analytics (optional)
-      console.log('🚀 Workflow geöffnet:', workflowTitle);
       if (typeof gtag !== 'undefined') {
         gtag('event', 'workflow_opened', {
           'event_category': 'engagement',
@@ -526,7 +609,7 @@
       const links = document.querySelectorAll('.demo-card-link');
       
       links.forEach(link => {
-        link.addEventListener('click', (e) => {
+        link.addEventListener('click', async (e) => {
           e.preventDefault();
           
           const workflowUrl = link.getAttribute('data-workflow-url');
@@ -556,7 +639,13 @@
             renderResults();
           }
           
-          openWorkflowModal(workflowUrl, workflowTitle);
+          // Öffne Modal und triggere Workflow
+          await openWorkflowModal(workflowUrl, workflowTitle);
+          
+          // Schließe Modal nach 3 Sekunden automatisch
+          setTimeout(() => {
+            closeWorkflowModal();
+          }, 3000);
         });
       });
       
