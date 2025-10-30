@@ -498,9 +498,10 @@
       const iframe = document.getElementById('workflow-iframe');
       const loading = document.getElementById('loading-indicator');
       
-      // Validierung
-      if (!workflowUrl || workflowUrl.includes('business-card-extraction')) {
-        // URL ist konfiguriert
+      // Validierung - prüfe ob URL konfiguriert ist
+      if (!workflowUrl) {
+        alert('⚠️ Workflow-URL ist nicht konfiguriert!');
+        return;
       }
       
       // WICHTIG: URL-Parameter hinzufügen für Workflow-Visualisierung
