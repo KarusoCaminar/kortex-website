@@ -578,6 +578,92 @@
   <!-- JavaScript for Modal Handling -->
   <script>
     // ========================================
+    // HELPER FUNCTIONS (müssen VOR openWorkflowModal sein!)
+    // ========================================
+    
+    // Helper-Funktion für Loading-States mit Progress-Balken
+    function updateLoadingState(loadingElement, stage, progress) {
+      const stages = {
+        'start': { text: '🔄 KI-Extraktion startet...', stage: 'Vorbereitung' },
+        'processing': { text: '⚙️ KI analysiert Visitenkarte...', stage: 'Verarbeitung' },
+        'waiting': { text: '⏳ Warte auf Ergebnisse...', stage: 'Warten' },
+        'finalizing': { text: '✨ Extrahiere Kontaktdaten...', stage: 'Finalisierung' }
+      };
+      
+      const stageInfo = stages[stage] || stages['processing'];
+      
+      loadingElement.innerHTML = `
+        <div class="loading-content">
+          <div class="spinner"></div>
+          <p class="loading-text">${stageInfo.text}</p>
+          <div class="loading-stage">${stageInfo.stage}</div>
+          <div class="progress-bar-container">
+            <div class="progress-bar" style="width: ${progress}%"></div>
+          </div>
+        </div>
+      `;
+    }
+    
+    // Helper-Funktion für Success-Indicator
+    function showSuccessIndicator(loadingElement, message) {
+      loadingElement.innerHTML = `
+        <div class="success-indicator">
+          <div class="success-content">
+            <div class="success-icon">✓</div>
+            <p class="success-text">${message}</p>
+            <p class="success-message">Schließe automatisch...</p>
+          </div>
+        </div>
+      `;
+    }
+    
+    // Funktion zum Scrollen zur Tabelle
+    function scrollToResults() {
+      // Versuche verschiedene Selektoren für die Results-Section
+      const resultsSection = document.getElementById('results-section') || 
+                             document.querySelector('[id*="results"]') ||
+                             document.querySelector('.results-container') ||
+                             document.querySelector('#results-table')?.closest('div') ||
+                             document.querySelector('table#results-table')?.closest('div');
+      
+      if (resultsSection) {
+        // Smooth Scroll mit Offset für bessere Sichtbarkeit
+        setTimeout(() => {
+          resultsSection.scrollIntoView({ 
+            behavior: 'smooth', 
+            block: 'start' 
+          });
+          
+          // Optional: Highlight-Animation für die Tabelle
+          const resultsTable = document.getElementById('results-table');
+          if (resultsTable) {
+            resultsTable.style.transition = 'box-shadow 0.3s ease';
+            resultsTable.style.boxShadow = '0 0 20px rgba(34, 197, 94, 0.5)';
+            setTimeout(() => {
+              resultsTable.style.boxShadow = '';
+            }, 2000);
+          }
+        }, 100);
+      } else {
+        // Fallback: Scrolle einfach zur Tabelle
+        const resultsTable = document.getElementById('results-table');
+        if (resultsTable) {
+          setTimeout(() => {
+            resultsTable.scrollIntoView({ 
+              behavior: 'smooth', 
+              block: 'start' 
+            });
+            resultsTable.style.transition = 'box-shadow 0.3s ease';
+            resultsTable.style.boxShadow = '0 0 20px rgba(34, 197, 94, 0.5)';
+            setTimeout(() => {
+              resultsTable.style.boxShadow = '';
+            }, 2000);
+          }, 100);
+        }
+      }
+    }
+    
+    // ========================================
     // MODAL FUNCTIONS
     // ========================================
     
