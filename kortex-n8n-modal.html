@@ -905,6 +905,12 @@
           
           // Update Loading-State bei Erfolg
           loading.style.display = 'none';
+          
+          // Auto-Close Modal nach 2 Sekunden wenn Daten erfolgreich extrahiert wurden
+          setTimeout(() => {
+            closeWorkflowModal();
+            console.log('✅ Modal automatisch geschlossen nach erfolgreicher Extraktion');
+          }, 2000);
         }
         
         // Wenn Response ein Array ist (n8n kann Arrays zurückgeben)
@@ -929,6 +935,12 @@
           renderResults();
           console.log(`✅ Array-Daten in Tabelle eingefügt: ${responseData.length} Einträge`);
           loading.style.display = 'none';
+          
+          // Auto-Close Modal nach 2 Sekunden wenn Daten erfolgreich extrahiert wurden
+          setTimeout(() => {
+            closeWorkflowModal();
+            console.log('✅ Modal automatisch geschlossen nach erfolgreicher Array-Extraktion');
+          }, 2000);
         }
         
         // Falls keine Daten kamen, aber auch keine "Workflow was started" Message
