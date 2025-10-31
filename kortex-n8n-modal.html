@@ -769,11 +769,41 @@
           workflowTitle,
           linkTitle: activeLink?.getAttribute('data-title'),
           linkParams: activeLink?.getAttribute('data-params'),
-          isClickedLink: activeLink === clickedLink
+          isClickedLink: activeLink === clickedLink,
+          clickedLinkParams: clickedLink?.getAttribute('data-params'),
+          clickedLinkTitle: clickedLink?.getAttribute('data-title')
         });
         
-        const extraParams = activeLink?.getAttribute('data-params') || '';
+        // KRITISCH: Prüfe ob activeLink korrekt ist
+        if (!activeLink && !uploadFile) {
+          console.error('❌ KRITISCH: activeLink ist null!');
+          console.error('📋 clickedLink:', clickedLink);
+          console.error('📋 workflowTitle:', workflowTitle);
+        }
+        
+        // KRITISCH: extraParams aus activeLink ODER clickedLink lesen!
+        let extraParams = activeLink?.getAttribute('data-params') || '';
+        
+        // FALLBACK: Wenn extraParams leer ist, verwende clickedLink direkt!
+        if (!extraParams && clickedLink && !uploadFile) {
+          const clickedParams = clickedLink.getAttribute('data-params') || '';
+          console.warn('⚠️ FALLBACK: extraParams war leer, verwende clickedLink.data-params:', clickedParams);
+          if (clickedParams) {
+            extraParams = clickedParams;
+            console.log('✅ FALLBACK: extraParams gesetzt auf:', extraParams);
+          }
+        }
+        
         console.log('📋 Extra Params:', extraParams);
+        
+        // KRITISCH: Prüfe ob extraParams wirklich vorhanden sind!
+        if (!extraParams && !uploadFile) {
+          console.error('❌ KRITISCH: extraParams ist IMMER NOCH leer!');
+          console.error('📋 activeLink:', activeLink);
+          console.error('📋 clickedLink:', clickedLink);
+          console.error('📋 activeLink?.getAttribute("data-params"):', activeLink?.getAttribute('data-params'));
+          console.error('📋 clickedLink?.getAttribute("data-params"):', clickedLink?.getAttribute('data-params'));
+        }
         
         // WICHTIG: Prüfe ob extraParams korrekt sind
         if (!extraParams && !uploadFile) {
@@ -790,10 +820,28 @@
         console.log('📝 Sample Parameter:', sampleParam);
         
         // Baue Webhook-URL mit Parametern
+        // KRITISCH: Prüfe ob extraParams wirklich vorhanden sind!
+        if (!extraParams && !uploadFile) {
+          console.error('❌ KRITISCH: extraParams ist leer! Workflow wird OHNE sample-Parameter gestartet!');
+          console.error('📋 activeLink:', activeLink);
+          console.error('📋 clickedLink:', clickedLink);
+          console.error('📋 workflowTitle:', workflowTitle);
+          console.error('📋 extraParams:', extraParams);
+          alert('⚠️ KRITISCH: Sample-Parameter fehlt! Workflow wird nicht korrekt funktionieren. Bitte Seite neu laden und erneut versuchen.');
+        }
+        
         const webhookUrl = extraParams
           ? `${workflowUrl}${workflowUrl.includes('?') ? '&' : '?'}${extraParams}`
           : workflowUrl;
         console.log('🌐 Final Webhook URL:', webhookUrl);
+        
+        // KRITISCH: Prüfe ob webhookUrl den sample-Parameter enthält!
+        if (!webhookUrl.includes('sample=') && !uploadFile) {
+          console.error('❌ KRITISCH: Webhook-URL enthält KEINEN sample-Parameter!');
+          console.error('🌐 webhookUrl:', webhookUrl);
+          console.error('📋 extraParams:', extraParams);
+          alert('⚠️ KRITISCH: Webhook-URL enthält keinen sample-Parameter! Workflow wird nicht korrekt funktionieren.');
+        }
         
         // Detailliertes Logging starten
         const logTimestamp = new Date().toISOString();
