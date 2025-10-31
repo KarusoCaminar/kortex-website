@@ -495,7 +495,15 @@
       
       try {
         // Hole extra Params (z.B. sample=1)
-        const activeLink = document.querySelector(`.demo-card-link[data-title="${workflowTitle}"]`);
+        // Suche nach Link mit data-title ODER falls workflowTitle speziell für Upload
+        let activeLink = document.querySelector(`.demo-card-link[data-title="${workflowTitle}"]`);
+        
+        // Falls kein Link gefunden (z.B. bei Upload), versuche alternativen Selector
+        if (!activeLink && workflowTitle === 'Eigene Visitenkarte hochladen') {
+          // Für Upload gibt es keinen data-title, aber wir haben kein sample-Parameter
+          activeLink = null;
+        }
+        
         const extraParams = activeLink?.getAttribute('data-params') || '';
         
         // Baue Webhook-URL mit Parametern
@@ -830,6 +838,11 @@
           }
           
           // Öffne Modal und triggere Workflow
+          if (!workflowUrl) {
+            console.error('❌ Workflow-URL nicht gefunden für:', workflowTitle);
+            alert('⚠️ Workflow-URL ist nicht konfiguriert! Bitte prüfe die data-workflow-url Attribute.');
+            return;
+          }
           await openWorkflowModal(workflowUrl, workflowTitle);
           
           // Schließe Modal nach 5 Sekunden automatisch (länger damit Video/Screenshot sichtbar ist)
