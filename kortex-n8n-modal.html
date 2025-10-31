@@ -1483,6 +1483,25 @@
             timestamp: p.timestamp || new Date().toISOString()
           });
         renderResults();
+        
+        console.log('✅ Daten via PostMessage in Tabelle eingefügt:', {
+          name: p.name || '(leer)',
+          company: p.company || '(leer)',
+          email: p.email || '(leer)',
+          source: p.source || (p.sample ? `Sample ${p.sample}` : 'Upload')
+        });
+        
+        // Verstecke Loading-Indicator wenn Daten erfolgreich extrahiert wurden
+        const loading = document.getElementById('loading-indicator');
+        if (loading) {
+          loading.style.display = 'none';
+        }
+        
+        // Auto-Close Modal nach 2 Sekunden
+        setTimeout(() => {
+          closeWorkflowModal();
+          console.log('✅ Modal automatisch geschlossen nach PostMessage-Extraktion');
+        }, 2000);
       }
 
       if (event.data.type === 'workflow-complete') {
