@@ -251,6 +251,17 @@
       transform: translate(-50%, -50%);
       text-align: center;
       z-index: 10000;
+      width: 90%;
+      max-width: 400px;
+    }
+    
+    .loading-content {
+      background: rgba(15, 23, 42, 0.95);
+      backdrop-filter: blur(10px);
+      border-radius: 16px;
+      padding: 2rem;
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+      border: 1px solid rgba(148, 163, 184, 0.1);
     }
     
     .spinner {
@@ -260,7 +271,7 @@
       width: 60px;
       height: 60px;
       animation: spin 1s linear infinite;
-      margin: 0 auto 1rem;
+      margin: 0 auto 1.5rem;
     }
     
     @keyframes spin {
@@ -272,6 +283,100 @@
       color: #60a5fa;
       font-size: 1.1rem;
       font-weight: 500;
+      margin-bottom: 1rem;
+    }
+    
+    .progress-bar-container {
+      width: 100%;
+      height: 8px;
+      background: rgba(148, 163, 184, 0.1);
+      border-radius: 4px;
+      overflow: hidden;
+      margin-top: 1rem;
+    }
+    
+    .progress-bar {
+      height: 100%;
+      background: linear-gradient(90deg, #60a5fa 0%, #a78bfa 100%);
+      border-radius: 4px;
+      width: 0%;
+      transition: width 0.3s ease;
+      animation: progressPulse 2s ease-in-out infinite;
+    }
+    
+    @keyframes progressPulse {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.7; }
+    }
+    
+    .loading-stage {
+      color: #94a3b8;
+      font-size: 0.9rem;
+      margin-top: 0.5rem;
+      min-height: 1.2rem;
+    }
+    
+    .success-indicator {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      z-index: 10000;
+      width: 90%;
+      max-width: 400px;
+      animation: successSlideIn 0.4s ease;
+    }
+    
+    .success-content {
+      background: rgba(34, 197, 94, 0.15);
+      backdrop-filter: blur(10px);
+      border-radius: 16px;
+      padding: 2rem;
+      box-shadow: 0 8px 32px rgba(34, 197, 94, 0.3);
+      border: 2px solid rgba(34, 197, 94, 0.5);
+    }
+    
+    .success-icon {
+      width: 80px;
+      height: 80px;
+      margin: 0 auto 1rem;
+      border-radius: 50%;
+      background: #22c55e;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 2.5rem;
+      animation: successScale 0.5s ease;
+    }
+    
+    @keyframes successScale {
+      0% { transform: scale(0); }
+      50% { transform: scale(1.1); }
+      100% { transform: scale(1); }
+    }
+    
+    @keyframes successSlideIn {
+      from {
+        transform: translate(-50%, -50%) scale(0.8);
+        opacity: 0;
+      }
+      to {
+        transform: translate(-50%, -50%) scale(1);
+        opacity: 1;
+      }
+    }
+    
+    .success-text {
+      color: #22c55e;
+      font-size: 1.2rem;
+      font-weight: 600;
+      margin-bottom: 0.5rem;
+    }
+    
+    .success-message {
+      color: #94a3b8;
+      font-size: 0.95rem;
     }
     
     /* Responsive */
@@ -487,11 +592,13 @@
         return;
       }
       
-      // Zeige Modal sofort
+      // Zeige Modal sofort mit Smooth Animation
       modal.classList.add('active');
       document.body.style.overflow = 'hidden';
+      
+      // Zeige Loading-Indicator mit Progress-Balken
       loading.style.display = 'block';
-      loading.innerHTML = '<div class="spinner"></div><p class="loading-text">🔄 KI-Extraktion startet...</p>';
+      updateLoadingState(loading, 'start', 0);
       
       try {
         // Hole extra Params (z.B. sample=1)
@@ -953,6 +1060,10 @@
                 source: p.source || (p.sample ? `Sample ${p.sample}` : 'Upload'),
                 timestamp: p.timestamp || new Date().toISOString()
               });
+            
+            // Zeige Success-Indicator
+            showSuccessIndicator(loading, 'Daten erfolgreich extrahiert!');
+            
             renderResults();
             console.log('✅ Objekt-Daten in Tabelle eingefügt:', {
               name: p.name || '(leer)',
@@ -961,14 +1072,12 @@
               source: p.source || (p.sample ? `Sample ${p.sample}` : 'Upload')
             });
             
-            // Update Loading-State bei Erfolg
-            loading.style.display = 'none';
-            
-            // Auto-Close Modal nach 2 Sekunden
+            // Auto-Close Modal nach 1.5 Sekunden und scrollen zur Tabelle
             setTimeout(() => {
               closeWorkflowModal();
+              scrollToResults();
               console.log('✅ Modal automatisch geschlossen nach erfolgreicher Extraktion');
-            }, 2000);
+            }, 1500);
             dataProcessed = true;
           }
         }
@@ -1514,6 +1623,12 @@
             source: p.source || (p.sample ? `Sample ${p.sample}` : 'Upload'),
             timestamp: p.timestamp || new Date().toISOString()
           });
+        // Zeige Success-Indicator
+        const loading = document.getElementById('loading-indicator');
+        if (loading) {
+          showSuccessIndicator(loading, 'Daten erfolgreich extrahiert!');
+        }
+        
         renderResults();
         
         console.log('✅ Daten via PostMessage in Tabelle eingefügt:', {
@@ -1523,31 +1638,29 @@
           source: p.source || (p.sample ? `Sample ${p.sample}` : 'Upload')
         });
         
-        // Verstecke Loading-Indicator wenn Daten erfolgreich extrahiert wurden
-        const loading = document.getElementById('loading-indicator');
-        if (loading) {
-          loading.style.display = 'none';
-        }
-        
-        // Auto-Close Modal nach 2 Sekunden
+        // Auto-Close Modal nach 1.5 Sekunden und scrollen zur Tabelle
         setTimeout(() => {
           closeWorkflowModal();
+          scrollToResults();
           console.log('✅ Modal automatisch geschlossen nach PostMessage-Extraktion');
-        }, 2000);
+        }, 1500);
       }
 
       if (event.data.type === 'workflow-complete') {
         console.log('✅ Workflow abgeschlossen');
-        // Verstecke Loading-Indicator wenn Workflow abgeschlossen ist
+        
+        // Zeige Success-Indicator
         const loading = document.getElementById('loading-indicator');
         if (loading) {
-          loading.style.display = 'none';
+          showSuccessIndicator(loading, 'Workflow erfolgreich abgeschlossen!');
         }
-        // Auto-Close Modal nach 2 Sekunden wenn Workflow abgeschlossen ist
+        
+        // Auto-Close Modal nach 1.5 Sekunden und scrollen zur Tabelle
         setTimeout(() => {
           closeWorkflowModal();
+          scrollToResults();
           console.log('✅ Modal automatisch geschlossen nach Workflow-Completion');
-        }, 2000);
+        }, 1500);
       }
       
       if (event.data.type === 'close-requested') {
