@@ -458,9 +458,8 @@
   <div id="workflow-modal">
     <div id="workflow-iframe-container">
       <button id="workflow-close-btn" aria-label="Schließen">&times;</button>
-      <div class="loading-indicator" id="loading-indicator">
-        <div class="spinner"></div>
-        <p class="loading-text">Workflow wird geladen...</p>
+      <div class="loading-indicator" id="loading-indicator" style="display: none;">
+        <!-- Loading wird per JavaScript gesetzt -->
       </div>
       <iframe 
         id="workflow-iframe"
@@ -896,16 +895,15 @@
         
         console.groupEnd(); // Workflow-Log-Gruppe schließen
         
-        // Update Loading-State wenn Response kommt
-        loading.innerHTML = '<div class="spinner"></div><p class="loading-text">✅ Workflow gestartet - Extraktion läuft...</p>';
-        
         // Zeige Workflow-Visualisierung (Loading-State statt statischem Demo-Bild)
         if (responseData.executionUrl) {
           // Option 1: Falls n8n eine Execution-URL zurückgibt, lade diese (echte Workflow-Visualisierung)
           iframe.src = responseData.executionUrl;
-          loading.style.display = 'none';
+          loading.style.display = 'none'; // Verstecke Loading-Indicator wenn Iframe geladen wird
         } else {
-          // Option 2: Zeige Loading-State mit Spinner statt statischem Demo-Bild
+          // Option 2: Zeige Loading-State mit Spinner im Iframe statt statischem Demo-Bild
+          // WICHTIG: Verstecke Loading-Indicator über Iframe, da Spinner im Iframe ist
+          loading.style.display = 'none';
           iframe.srcdoc = `
             <html>
               <head>
@@ -968,14 +966,9 @@
             </html>
           `;
           
-          // Verstecke Loading nach Workflow abgeschlossen (wird durch Response-Handling aktualisiert)
-          // Loading bleibt sichtbar bis echte Response kommt
+          // Loading-Indicator ist bereits versteckt (oben auf 'none' gesetzt)
+          // Spinner im Iframe ist jetzt sichtbar - nur EIN Spinner wird angezeigt
         }
-        
-        // Verstecke Loading-Indicator nach kurzer Zeit (Workflow läuft im Hintergrund)
-        setTimeout(() => {
-          loading.style.display = 'none';
-        }, 2000);
         
         } catch (error) {
           const errorTimestamp = new Date().toISOString();
