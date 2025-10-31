@@ -879,13 +879,24 @@
           // KEIN RETURN - lass den Code weiterlaufen, falls später doch Daten kommen
         }
         
-        // Verarbeite Response-Daten direkt (für Upload oder wenn Daten sofort zurückkommen)
-        // Prüfe sowohl normale als auch verschachtelte Struktur
-        const responseType = actualResponseData.type || responseData.type;
-        const responsePayload = actualResponseData.payload || responseData.payload;
+        // WICHTIG: n8n gibt die Response oft als Array zurück: [{type: 'business-card-processed', payload: {...}}]
+        // ZUERST Array prüfen, DANN Objekt prüfen
+        let dataProcessed = false;
         
-        if (responseType === 'business-card-processed' && responsePayload) {
-          const p = responsePayload;
+        // Wenn Response ein Array ist (n8n gibt oft Arrays zurück)
+        if (Array.isArray(responseData) && responseData.length > 0) {
+          console.log('📦 Array-Response erkannt:', responseData.length, 'Elemente');
+          responseData.forEach((item, index) => {
+            // Prüfe auf verschachtelte Struktur (item.json) oder direkte Struktur (item)
+            const itemData = item.json || item;
+            console.log(`📋 Array-Item ${index}:`, itemData);
+            
+            // Prüfe ob Item die richtige Struktur hat
+            const itemType = itemData.type;
+            const itemPayload = itemData.payload;
+            
+            if (itemType === 'business-card-processed' && itemPayload) {
+              const p = itemPayload;
           extractedResults.unshift({
             name: p.name || '',
             company: p.company || '',
@@ -896,31 +907,42 @@
             source: p.source || (p.sample ? `Sample ${p.sample}` : 'Upload'),
             timestamp: p.timestamp || new Date().toISOString()
           });
-          renderResults();
-          console.log('✅ Daten in Tabelle eingefügt:', {
-            name: p.name || '(leer)',
-            company: p.company || '(leer)',
-            email: p.email || '(leer)',
-            source: p.source || (p.sample ? `Sample ${p.sample}` : 'Upload')
+              dataProcessed = true;
+              console.log(`✅ Array-Item ${index} verarbeitet:`, {
+                name: p.name || '(leer)',
+                company: p.company || '(leer)',
+                email: p.email || '(leer)'
+              });
+            } else {
+              console.warn(`⚠️ Array-Item ${index} hat nicht die erwartete Struktur:`, {
+                type: itemType,
+                hasPayload: !!itemPayload,
+                itemData: itemData
+              });
+            }
           });
           
-          // Update Loading-State bei Erfolg
-          loading.style.display = 'none';
-          
-          // Auto-Close Modal nach 2 Sekunden wenn Daten erfolgreich extrahiert wurden
-          setTimeout(() => {
-            closeWorkflowModal();
-            console.log('✅ Modal automatisch geschlossen nach erfolgreicher Extraktion');
-          }, 2000);
+          if (dataProcessed) {
+          renderResults();
+            console.log(`✅ Array-Daten erfolgreich in Tabelle eingefügt: ${responseData.length} Einträge`);
+            loading.style.display = 'none';
+            
+            // Auto-Close Modal nach 2 Sekunden
+            setTimeout(() => {
+              closeWorkflowModal();
+              console.log('✅ Modal automatisch geschlossen nach erfolgreicher Array-Extraktion');
+            }, 2000);
+          }
         }
         
-        // Wenn Response ein Array ist (n8n kann Arrays zurückgeben)
-        if (Array.isArray(responseData) && responseData.length > 0) {
-          responseData.forEach(item => {
-            // Prüfe auch hier auf verschachtelte Struktur
-            const itemData = item.json || item;
-            if (itemData.type === 'business-card-processed' && itemData.payload) {
-              const p = itemData.payload;
+        // Wenn Response KEIN Array ist, prüfe als Objekt (für Upload oder direkte Responses)
+        if (!dataProcessed && !Array.isArray(responseData)) {
+          // Prüfe sowohl normale als auch verschachtelte Struktur
+          const responseType = actualResponseData.type || responseData.type;
+          const responsePayload = actualResponseData.payload || responseData.payload;
+          
+          if (responseType === 'business-card-processed' && responsePayload) {
+            const p = responsePayload;
               extractedResults.unshift({
                 name: p.name || '',
                 company: p.company || '',
@@ -931,17 +953,24 @@
                 source: p.source || (p.sample ? `Sample ${p.sample}` : 'Upload'),
                 timestamp: p.timestamp || new Date().toISOString()
               });
-            }
-          });
-          renderResults();
-          console.log(`✅ Array-Daten in Tabelle eingefügt: ${responseData.length} Einträge`);
-          loading.style.display = 'none';
-          
-          // Auto-Close Modal nach 2 Sekunden wenn Daten erfolgreich extrahiert wurden
-          setTimeout(() => {
-            closeWorkflowModal();
-            console.log('✅ Modal automatisch geschlossen nach erfolgreicher Array-Extraktion');
-          }, 2000);
+            renderResults();
+            console.log('✅ Objekt-Daten in Tabelle eingefügt:', {
+              name: p.name || '(leer)',
+              company: p.company || '(leer)',
+              email: p.email || '(leer)',
+              source: p.source || (p.sample ? `Sample ${p.sample}` : 'Upload')
+            });
+            
+            // Update Loading-State bei Erfolg
+            loading.style.display = 'none';
+            
+            // Auto-Close Modal nach 2 Sekunden
+            setTimeout(() => {
+              closeWorkflowModal();
+              console.log('✅ Modal automatisch geschlossen nach erfolgreicher Extraktion');
+            }, 2000);
+            dataProcessed = true;
+          }
         }
         
         // Falls keine Daten kamen, aber auch keine "Workflow was started" Message
@@ -1093,7 +1122,7 @@
           // Statisches Workflow-Screenshot wird jetzt im Iframe angezeigt
         }
         
-        } catch (error) {
+      } catch (error) {
           const errorTimestamp = new Date().toISOString();
           const errorDetails = {
             message: error.message || 'Unbekannter Fehler',
@@ -1121,7 +1150,7 @@
           
           console.group('❌ Workflow Fehler');
           console.error('⏰ Zeitstempel:', errorTimestamp);
-          console.error('❌ Fehler beim Triggern des Workflows:', error);
+        console.error('❌ Fehler beim Triggern des Workflows:', error);
           console.error('📋 Fehler Details:', errorDetails);
           console.groupEnd();
           
