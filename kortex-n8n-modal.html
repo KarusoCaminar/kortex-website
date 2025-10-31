@@ -757,8 +757,9 @@
         }
         
         // Prüfe ob Workflow nur gestartet wurde (asynchron)
+        // WICHTIG: Bei "Workflow was started" müssen wir auf die finale Response vom "Respond to Webhook" Node warten
         if (actualResponseData.message && actualResponseData.message.includes('Workflow was started')) {
-          console.log('⚠️ Workflow läuft asynchron - warte auf finale Antwort...');
+          console.log('⚠️ Workflow läuft asynchron - starte Polling für finale Response...');
           
           // Zeige statisches Workflow-Screenshot UND Loading-Indicator (Workflow läuft noch!)
           loading.style.display = 'block';
