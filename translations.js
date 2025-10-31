@@ -212,6 +212,14 @@ const translations = {
     'modal.workflow.started': '✅ Workflow erfolgreich gestartet',
     'modal.workflow.visualization': 'Workflow-Visualisierung',
     'modal.workflow.background': 'Die Extraktion läuft im Hintergrund. Ergebnisse erscheinen automatisch in der Tabelle.',
+    
+    // News Feed Panel
+    'news.panel.title': 'KI-News',
+    'news.panel.toggle': 'Panel ein/ausklappen',
+    'news.panel.loading': 'Lade aktuelle KI-News...',
+    'news.panel.error': '⚠️ News konnten nicht geladen werden. Bitte versuchen Sie es später erneut.',
+    'news.item.readMore': '→',
+    'news.date.unknown': 'Unbekannt',
   },
   
   en: {
@@ -424,6 +432,14 @@ const translations = {
     'modal.workflow.started': '✅ Workflow Successfully Started',
     'modal.workflow.visualization': 'Workflow Visualization',
     'modal.workflow.background': 'Extraction is running in the background. Results will appear automatically in the table.',
+    
+    // News Feed Panel
+    'news.panel.title': 'AI News',
+    'news.panel.toggle': 'Toggle panel',
+    'news.panel.loading': 'Loading current AI news...',
+    'news.panel.error': '⚠️ News could not be loaded. Please try again later.',
+    'news.item.readMore': '→',
+    'news.date.unknown': 'Unknown',
   }
 };
 

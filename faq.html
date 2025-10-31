@@ -355,14 +355,14 @@
     <div class="ai-news-panel-header">
       <h3>
         <span>🤖</span>
-        KI-News
+        <span data-i18n="news.panel.title">KI-News</span>
       </h3>
-      <button class="ai-news-panel-toggle" id="ai-news-toggle" aria-label="Panel ein/ausklappen">
+      <button class="ai-news-panel-toggle" id="ai-news-toggle" data-i18n-aria-label="news.panel.toggle" aria-label="Panel ein/ausklappen">
         →
       </button>
     </div>
     <div class="ai-news-panel-content">
-      <div id="ai-news-container" class="ai-news-loading">
+      <div id="ai-news-container" class="ai-news-loading" data-i18n="news.panel.loading">
         Lade aktuelle KI-News...
       </div>
     </div>
@@ -389,6 +389,7 @@
         const newsData = await fetchAINewsFromMultipleSources();
         
         if (newsData && newsData.length > 0) {
+          const readMoreText = window.i18n?.t('news.item.readMore') || '→';
           container.innerHTML = newsData.map(item => `
             <div class="ai-news-item" onclick="window.open('${item.link || '#'}', '_blank')">
               <h4>${escapeHtml(item.title)}</h4>
@@ -396,7 +397,7 @@
               <div class="meta">
                 <span>📅 ${formatDate(item.date || item.pubDate || new Date())}</span>
                 ${item.source ? `<span>📰 ${escapeHtml(item.source)}</span>` : ''}
-                ${item.link ? `<a href="${item.link}" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation();">→</a>` : ''}
+                ${item.link ? `<a href="${item.link}" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation();">${readMoreText}</a>` : ''}
               </div>
             </div>
           `).join('');
@@ -407,7 +408,8 @@
       } catch (error) {
         console.error('Fehler beim Laden der KI-News:', error);
         container.className = 'ai-news-error';
-        container.innerHTML = '⚠️ News konnten nicht geladen werden. Bitte versuchen Sie es später erneut.';
+        const errorText = window.i18n?.t('news.panel.error') || '⚠️ News konnten nicht geladen werden. Bitte versuchen Sie es später erneut.';
+        container.innerHTML = errorText;
       }
     }
     
@@ -465,35 +467,70 @@
     }
     
     function getDemoAINews() {
-          return `
-        <div class="ai-news-item" onclick="window.open('https://deepmind.google/technologies/gemini/', '_blank')">
-          <h4>Gemini 2.5 Flash: Google's neues Multimodal-Modell</h4>
-          <p>Google hat kürzlich Gemini 2.5 Flash veröffentlicht – ein schnelles und effizientes KI-Modell für Text, Bilder und Audio-Verarbeitung.</p>
-          <div class="meta">
-            <span>📅 Heute</span>
-            <span>📰 Google AI</span>
-            <a href="https://deepmind.google/technologies/gemini/" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation();">→</a>
+      const lang = window.i18n?.getCurrentLanguage() || 'de';
+      const readMoreText = window.i18n?.t('news.item.readMore') || '→';
+      
+      if (lang === 'en') {
+        return `
+          <div class="ai-news-item" onclick="window.open('https://deepmind.google/technologies/gemini/', '_blank')">
+            <h4>Gemini 2.5 Flash: Google's New Multimodal Model</h4>
+            <p>Google recently released Gemini 2.5 Flash – a fast and efficient AI model for text, images, and audio processing.</p>
+            <div class="meta">
+              <span>📅 Today</span>
+              <span>📰 Google AI</span>
+              <a href="https://deepmind.google/technologies/gemini/" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation();">${readMoreText}</a>
+            </div>
           </div>
-        </div>
-        <div class="ai-news-item" onclick="window.open('https://openai.com/gpt-4o', '_blank')">
-          <h4>OpenAI GPT-4o: Omnimodal-Modell verfügbar</h4>
-          <p>OpenAI's GPT-4o kombiniert Text, Vision und Audio in einem einzigen Modell, was neue Möglichkeiten für automatisierte Prozesse eröffnet.</p>
-          <div class="meta">
-            <span>📅 Diese Woche</span>
-            <span>📰 OpenAI</span>
-            <a href="https://openai.com/gpt-4o" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation();">→</a>
+          <div class="ai-news-item" onclick="window.open('https://openai.com/gpt-4o', '_blank')">
+            <h4>OpenAI GPT-4o: Omnimodal Model Available</h4>
+            <p>OpenAI's GPT-4o combines text, vision, and audio in a single model, opening new possibilities for automated processes.</p>
+            <div class="meta">
+              <span>📅 This Week</span>
+              <span>📰 OpenAI</span>
+              <a href="https://openai.com/gpt-4o" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation();">${readMoreText}</a>
+            </div>
           </div>
-        </div>
-        <div class="ai-news-item" onclick="window.open('https://n8n.io/blog', '_blank')">
-          <h4>n8n Workflow-Automatisierung: Neue Features</h4>
-          <p>Die Workflow-Automatisierungsplattform n8n hat neue AI-Agent-Integrationen hinzugefügt, die KI direkt in Automatisierungsworkflows einbinden.</p>
-          <div class="meta">
-            <span>📅 Diese Woche</span>
-            <span>📰 n8n Blog</span>
-            <a href="https://n8n.io/blog" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation();">→</a>
+          <div class="ai-news-item" onclick="window.open('https://n8n.io/blog', '_blank')">
+            <h4>n8n Workflow Automation: New Features</h4>
+            <p>The workflow automation platform n8n has added new AI Agent integrations that directly embed AI into automation workflows.</p>
+            <div class="meta">
+              <span>📅 This Week</span>
+              <span>📰 n8n Blog</span>
+              <a href="https://n8n.io/blog" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation();">${readMoreText}</a>
+            </div>
           </div>
-        </div>
-      `;
+        `;
+      } else {
+        return `
+          <div class="ai-news-item" onclick="window.open('https://deepmind.google/technologies/gemini/', '_blank')">
+            <h4>Gemini 2.5 Flash: Google's neues Multimodal-Modell</h4>
+            <p>Google hat kürzlich Gemini 2.5 Flash veröffentlicht – ein schnelles und effizientes KI-Modell für Text, Bilder und Audio-Verarbeitung.</p>
+            <div class="meta">
+              <span>📅 Heute</span>
+              <span>📰 Google AI</span>
+              <a href="https://deepmind.google/technologies/gemini/" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation();">${readMoreText}</a>
+            </div>
+          </div>
+          <div class="ai-news-item" onclick="window.open('https://openai.com/gpt-4o', '_blank')">
+            <h4>OpenAI GPT-4o: Omnimodal-Modell verfügbar</h4>
+            <p>OpenAI's GPT-4o kombiniert Text, Vision und Audio in einem einzigen Modell, was neue Möglichkeiten für automatisierte Prozesse eröffnet.</p>
+            <div class="meta">
+              <span>📅 Diese Woche</span>
+              <span>📰 OpenAI</span>
+              <a href="https://openai.com/gpt-4o" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation();">${readMoreText}</a>
+            </div>
+          </div>
+          <div class="ai-news-item" onclick="window.open('https://n8n.io/blog', '_blank')">
+            <h4>n8n Workflow-Automatisierung: Neue Features</h4>
+            <p>Die Workflow-Automatisierungsplattform n8n hat neue AI-Agent-Integrationen hinzugefügt, die KI direkt in Automatisierungsworkflows einbinden.</p>
+            <div class="meta">
+              <span>📅 Diese Woche</span>
+              <span>📰 n8n Blog</span>
+              <a href="https://n8n.io/blog" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation();">${readMoreText}</a>
+            </div>
+          </div>
+        `;
+      }
     }
     
     function escapeHtml(text) {
@@ -504,7 +541,7 @@
     }
     
     function formatDate(date) {
-      if (!date) return 'Unbekannt';
+      if (!date) return window.i18n?.t('news.date.unknown') || 'Unbekannt';
       const d = new Date(date);
       const now = new Date();
       const diffMs = now - d;
@@ -512,10 +549,19 @@
       const diffHours = Math.floor(diffMs / 3600000);
       const diffDays = Math.floor(diffMs / 86400000);
       
-      if (diffMins < 60) return `vor ${diffMins} Min`;
-      if (diffHours < 24) return `vor ${diffHours} Std`;
-      if (diffDays < 7) return `vor ${diffDays} Tag${diffDays > 1 ? 'en' : ''}`;
-      return d.toLocaleDateString('de-DE', { day: '2-digit', month: '2-digit', year: 'numeric' });
+      const lang = window.i18n?.getCurrentLanguage() || 'de';
+      
+      if (lang === 'en') {
+        if (diffMins < 60) return `${diffMins} min ago`;
+        if (diffHours < 24) return `${diffHours} hrs ago`;
+        if (diffDays < 7) return `${diffDays} day${diffDays > 1 ? 's' : ''} ago`;
+        return d.toLocaleDateString('en-US', { day: '2-digit', month: '2-digit', year: 'numeric' });
+      } else {
+        if (diffMins < 60) return `vor ${diffMins} Min`;
+        if (diffHours < 24) return `vor ${diffHours} Std`;
+        if (diffDays < 7) return `vor ${diffDays} Tag${diffDays > 1 ? 'en' : ''}`;
+        return d.toLocaleDateString('de-DE', { day: '2-digit', month: '2-digit', year: 'numeric' });
+      }
     }
     
     // Toggle Panel Collapse
@@ -537,6 +583,11 @@
       loadAINews();
       // Refresh every 30 minutes
       setInterval(loadAINews, 30 * 60 * 1000);
+      
+      // Reload news when language changes
+      window.addEventListener('languagechange', () => {
+        loadAINews();
+      });
     });
   </script>
   
