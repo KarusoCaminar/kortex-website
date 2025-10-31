@@ -647,13 +647,20 @@
           
           // Detaillierte Fehlermeldung
           let errorMessage = 'Failed to fetch';
+          const isUpload = method === 'POST' && fetchOptions.body instanceof FormData;
+          
           if (fetchError.message) {
             errorMessage = fetchError.message;
             // Prüfe ob es ein Timeout ist
             if (fetchError.message.includes('Timeout')) {
               errorMessage = `⏱️ Timeout: Der n8n Workflow hat nach ${TIMEOUT_MS / 1000} Sekunden nicht geantwortet.\n\nMögliche Ursachen:\n1. n8n Server ist überlastet\n2. Workflow ist zu komplex und braucht länger\n3. n8n Server ist offline\n4. Netzwerkprobleme\n\nBitte versuchen Sie es erneut oder prüfen Sie den n8n Server.`;
             }
-          } else if (fetchError.name === 'TypeError' && fetchError.message && fetchError.message.includes('Failed to fetch')) {
+          } 
+          
+          // Spezielle Fehlermeldung für Upload-Probleme
+          if (isUpload && (fetchError.name === 'TypeError' || fetchError.message?.includes('Failed to fetch'))) {
+            errorMessage = `❌ Upload-Fehler: Die Datei konnte nicht an den n8n Server gesendet werden.\n\nMögliche Ursachen:\n1. n8n Webhook akzeptiert keine Datei-Uploads\n2. CORS-Fehler (Cross-Origin Request Blocked)\n3. n8n Server ist offline oder nicht erreichbar\n4. Netzwerk-Problem\n5. Datei ist zu groß (max. 10 MB)\n\nBitte prüfen Sie:\n- n8n Workflow ist aktiviert\n- Webhook-URL: ${webhookUrl}\n- Browser-Konsole für weitere Details\n\nTipp: Öffnen Sie die Browser-Konsole (F12) für detaillierte Fehlerinformationen.`;
+          } else if (!isUpload && fetchError.name === 'TypeError' && fetchError.message && fetchError.message.includes('Failed to fetch')) {
             errorMessage = 'CORS-Fehler oder Netzwerk-Problem. Prüfe ob n8n Webhook erreichbar ist.\n\nMögliche Lösungen:\n1. n8n Workflow ist nicht aktiviert\n2. Webhook-URL ist falsch\n3. CORS ist nicht konfiguriert\n4. n8n Server ist offline';
           }
           
