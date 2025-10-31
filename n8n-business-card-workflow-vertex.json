@@ -17,7 +17,7 @@
       "position": [240, 300],
       "webhookId": "business-card-extraction",
       "continueOnFail": false,
-      "notes": "Form Trigger für Demo. Lädt Datei hoch oder nutzt sample=1/2 Parameter."
+      "notes": "Form Trigger für Demo. Lädt Datei hoch oder nutzt sample=1/2/3 Parameter."
     },
     {
       "parameters": {
@@ -93,42 +93,6 @@
     },
     {
       "parameters": {
-        "url": "https://karusocaminar.github.io/kortex-website/samples/bc-1.jpg",
-        "options": {
-          "response": {
-            "response": {
-              "responseFormat": "file"
-            }
-          }
-        }
-      },
-      "id": "load-sample-1",
-      "name": "Lade Sample 1",
-      "type": "n8n-nodes-base.httpRequest",
-      "typeVersion": 4.1,
-      "position": [900, 180],
-      "notes": "Lädt Demo-Visitenkarte 1 (Oliver Krause). Passe die URL an deine tatsächliche Datei an!"
-    },
-    {
-      "parameters": {
-        "url": "https://karusocaminar.github.io/kortex-website/samples/bc-2.jpg",
-        "options": {
-          "response": {
-            "response": {
-              "responseFormat": "file"
-            }
-          }
-        }
-      },
-      "id": "load-sample-2",
-      "name": "Lade Sample 2",
-      "type": "n8n-nodes-base.httpRequest",
-      "typeVersion": 4.1,
-      "position": [900, 420],
-      "notes": "Lädt Demo-Visitenkarte 2 (Gabi Graßnick). Passe die URL an deine tatsächliche Datei an!"
-    },
-    {
-      "parameters": {
         "conditions": {
           "options": {
             "caseSensitive": true,
@@ -153,6 +117,42 @@
     },
     {
       "parameters": {
+        "url": "https://karusocaminar.github.io/kortex-website/samples/bc-1.jpg",
+        "options": {
+          "response": {
+            "response": {
+              "responseFormat": "file"
+            }
+          }
+        }
+      },
+      "id": "load-sample-1",
+      "name": "Lade Sample 1",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.1,
+      "position": [900, 180],
+      "notes": "Lädt Demo-Visitenkarte 1 (Oliver Krause)."
+    },
+    {
+      "parameters": {
+        "url": "https://karusocaminar.github.io/kortex-website/samples/bc-2.jpg",
+        "options": {
+          "response": {
+            "response": {
+              "responseFormat": "file"
+            }
+          }
+        }
+      },
+      "id": "load-sample-2",
+      "name": "Lade Sample 2",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.1,
+      "position": [900, 420],
+      "notes": "Lädt Demo-Visitenkarte 2 (Gabi Graßnick)."
+    },
+    {
+      "parameters": {
         "url": "https://karusocaminar.github.io/kortex-website/samples/bc-3.jpg",
         "options": {
           "response": {
@@ -167,7 +167,7 @@
       "type": "n8n-nodes-base.httpRequest",
       "typeVersion": 4.1,
       "position": [900, 660],
-      "notes": "Lädt Demo-Visitenkarte 3 (Mariana Anderson). Passe die URL an deine tatsächliche Datei an!"
+      "notes": "Lädt Demo-Visitenkarte 3 (Mariana Anderson)."
     },
     {
       "parameters": {
@@ -182,6 +182,18 @@
     },
     {
       "parameters": {
+        "mode": "runOnceForEachItem",
+        "jsCode": "// Konvertiere Binary zu Base64 für Vertex AI\n// Stelle sicher, dass Binary-Daten aus dem vorherigen Node verfügbar sind ($binary)\nlet binaryData = $binary;\n\n// Überprüfe und hole den Key der Binary-Daten\nconst binaryKeys = Object.keys(binaryData || {});\nif (binaryKeys.length === 0) {\n  throw new Error('Keine Binary-Daten für die Base64-Konvertierung gefunden.');\n}\nconst binaryFile = binaryData[binaryKeys[0]]; // Nimm den ersten Binary-Key\n\nif (!binaryFile || !binaryFile.data) {\n  throw new Error('Ungültiges Binary-Daten-Format.');\n}\n\nconst rawData = binaryFile.data; // Die Rohdaten (Buffer)\nconst mimeType = binaryFile.mimeType || 'image/jpeg';\n\n// Base64 Encoding: Buffer zu String\nlet base64;\ntry {\n  // In n8n ist rawData oft schon ein Base64-String oder ein Buffer, den man einfach konvertieren kann\n  if (typeof rawData === 'string') {\n    base64 = rawData; // Wenn es bereits ein String (Base64) ist\n  } else {\n    // Konvertiere Buffer/Uint8Array zu Base64-String\n    const buffer = Buffer.isBuffer(rawData) ? rawData : Buffer.from(rawData);\n    base64 = buffer.toString('base64');\n  }\n} catch (error) {\n  console.error('Fehler bei Base64-Konvertierung:', error);\n  throw new Error(`Base64-Konvertierung fehlgeschlagen: ${error.message}`);\n}\n\n// Rückgabe für den AI Agent\nreturn {\n  json: {\n    // Füge die JSON-Daten aus dem vorherigen Knoten hinzu\n    ...$json,\n    imageBase64: base64,\n    mimeType: mimeType\n  },\n  // Wichtig: Binary-Daten entfernen, da sie für den nächsten Knoten nicht benötigt werden\n  binary: {}\n};"
+      },
+      "id": "convert-to-base64",
+      "name": "Konvertiere zu Base64",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [1340, 300],
+      "notes": "Konvertiert das Bild zu Base64 für Vertex AI Gemini API."
+    },
+    {
+      "parameters": {
         "promptType": "define",
         "text": "={{ `Extrahiere alle Kontaktdaten aus dieser Visitenkarte und gib sie als strukturiertes JSON zurück.\\n\\nErforderliche Felder:\\n- name: Vollständiger Name\\n- company: Firma/Unternehmen\\n- email: E-Mail-Adresse\\n- phone: Haupttelefonnummer (Mobil bevorzugt)\\n- phone_office: Bürotelefonnummer (optional)\\n- address: Straße und Hausnummer\\n- city: Postleitzahl und Stadt\\n- website: Website-URL (optional)\\n- job_title: Berufsbezeichnung/Position (optional)\\n\\nGib NUR valides JSON zurück, kein zusätzlicher Text, kein Markdown-Formatting.\\n\\nBeispiel-Format:\\n{\\\"name\\\": \\\"Max Mustermann\\\", \\\"company\\\": \\\"Beispiel GmbH\\\", \\\"email\\\": \\\"max@beispiel.de\\\", \\\"phone\\\": \\\"+49 123 456789\\\", \\\"address\\\": \\\"Musterstraße 1\\\", \\\"city\\\": \\\"12345 Musterstadt\\\"}` }}",
         "options": {
@@ -191,8 +203,8 @@
           "attachments": [
             {
               "name": "business-card",
-              "data": "={{ $binary.data?.data || $binary.file?.data || $binary.data || $binary.file || $binary }}",
-              "mimeType": "={{ $binary.data?.mimeType || $binary.file?.mimeType || $binary.data?.mimeType || $binary.file?.mimeType || 'image/jpeg' }}"
+              "data": "={{ $json.imageBase64 }}",
+              "mimeType": "={{ $json.mimeType }}"
             }
           ]
         }
@@ -206,7 +218,7 @@
     },
     {
       "parameters": {
-        "jsCode": "// Parse AI Agent Response (Vertex AI Gemini)\nconst response = $json;\nconst source = $('Setze Sample-Info').item.json.source || 'Upload';\nconst sample = $('Setze Sample-Info').item.json.sample || '';\n\n// AI Agent Response Struktur kann variieren:\n// Option 1: Direkt JSON Response\n// Option 2: Text mit JSON\n// Option 3: Strukturierte Response mit output/chatOutput\n\nlet extractedData = {};\nlet responseText = '';\n\ntry {\n  // Versuche verschiedene Response-Strukturen\n  if (response.output) {\n    responseText = response.output;\n  } else if (response.chatOutput) {\n    responseText = response.chatOutput;\n  } else if (response.text) {\n    responseText = response.text;\n  } else if (response.message) {\n    responseText = response.message;\n  } else if (response.candidates?.[0]?.content?.parts?.[0]?.text) {\n    // Vertex AI native Format\n    responseText = response.candidates[0].content.parts[0].text;\n  } else if (typeof response === 'string') {\n    responseText = response;\n  } else if (typeof response === 'object' && response.name) {\n    // Bereits strukturiertes JSON\n    extractedData = response;\n  }\n  \n  // Extrahiere JSON aus Text (falls zusätzlicher Text vorhanden)\n  if (responseText) {\n    const jsonMatch = responseText.match(/\\{[\\s\\S]*\\}/);\n    const jsonString = jsonMatch ? jsonMatch[0] : responseText;\n    extractedData = JSON.parse(jsonString);\n  }\n} catch (error) {\n  // Fallback: Versuche direkt zu parsen\n  if (typeof response === 'object' && !response.candidates) {\n    extractedData = response;\n  } else {\n    console.error('Fehler beim Parsen der AI Agent Response:', error);\n    console.error('Response:', JSON.stringify(response, null, 2));\n    extractedData = {};\n  }\n}\n\n// Füge Metadaten hinzu\nreturn [{\n  json: {\n    name: extractedData.name || '',\n    company: extractedData.company || '',\n    email: extractedData.email || '',\n    phone: extractedData.phone || extractedData.phone_mobile || '',\n    phone_office: extractedData.phone_office || extractedData.phone_büro || '',\n    address: extractedData.address || '',\n    city: extractedData.city || '',\n    website: extractedData.website || extractedData.www || '',\n    job_title: extractedData.job_title || extractedData.position || '',\n    source: source,\n    sample: sample,\n    timestamp: new Date().toISOString()\n  }\n}];"
+        "jsCode": "// Parse AI Agent Response (Vertex AI Gemini)\nconst response = $json;\nconst source = $('Setze Sample-Info').item.json.source || 'Upload';\nconst sample = $('Setze Sample-Info').item.json.sample || '';\n\n// AI Agent Response Struktur kann variieren:\n// Option 1: Direkt JSON Response\n// Option 2: Text mit JSON\n\nlet extractedData = {};\nlet responseText = '';\n\ntry {\n  // Versuche verschiedene Response-Strukturen\n  if (response.output) {\n    responseText = response.output;\n  } else if (response.chatOutput) {\n    responseText = response.chatOutput;\n  } else if (response.text) {\n    responseText = response.text;\n  } else if (response.message) {\n    responseText = response.message;\n  } else if (response.candidates?.[0]?.content?.parts?.[0]?.text) {\n    // Vertex AI native Format\n    responseText = response.candidates[0].content.parts[0].text;\n  } else if (typeof response === 'string') {\n    responseText = response;\n  } else if (typeof response === 'object' && response.name) {\n    // Bereits strukturiertes JSON\n    extractedData = response;\n  }\n  \n  // Extrahiere JSON aus Text (falls zusätzlicher Text vorhanden)\n  if (responseText) {\n    const jsonMatch = responseText.match(/\\{[\\s\\S]*\\}/);\n    const jsonString = jsonMatch ? jsonMatch[0] : responseText;\n    extractedData = JSON.parse(jsonString);\n  }\n} catch (error) {\n  // Fallback: Versuche direkt zu parsen\n  if (typeof response === 'object' && !response.candidates) {\n    extractedData = response;\n  } else {\n    console.error('Fehler beim Parsen der AI Agent Response:', error);\n    console.error('Response:', JSON.stringify(response, null, 2));\n    extractedData = {};\n  }\n}\n\n// Füge Metadaten hinzu\nreturn [{\n  json: {\n    name: extractedData.name || '',\n    company: extractedData.company || '',\n    email: extractedData.email || '',\n    phone: extractedData.phone || extractedData.phone_mobile || '',\n    phone_office: extractedData.phone_office || extractedData.phone_büro || '',\n    address: extractedData.address || '',\n    city: extractedData.city || '',\n    website: extractedData.website || extractedData.www || '',\n    job_title: extractedData.job_title || extractedData.position || '',\n    source: source,\n    sample: sample,\n    timestamp: new Date().toISOString()\n  }\n}];"
       },
       "id": "parse-vertex-response",
       "name": "Parse AI Agent Response",
@@ -354,6 +366,17 @@
       "main": [
         [
           {
+            "node": "Konvertiere zu Base64",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Konvertiere zu Base64": {
+      "main": [
+        [
+          {
             "node": "AI Agent - Vertex AI",
             "type": "main",
             "index": 0
@@ -395,7 +418,7 @@
       ]
     }
   },
-  image.png "pinData": {},
+  "pinData": {},
   "settings": {
     "executionOrder": "v1"
   },
@@ -405,4 +428,3 @@
   "updatedAt": "2025-01-27T12:00:00.000Z",
   "versionId": "1"
 }
-
