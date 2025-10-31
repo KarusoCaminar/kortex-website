@@ -477,7 +477,7 @@
     // MODAL FUNCTIONS
     // ========================================
     
-    async function openWorkflowModal(workflowUrl, workflowTitle) {
+    async function openWorkflowModal(workflowUrl, workflowTitle, uploadFile = null) {
       const modal = document.getElementById('workflow-modal');
       const iframe = document.getElementById('workflow-iframe');
       const loading = document.getElementById('loading-indicator');
@@ -512,16 +512,25 @@
           method: method,
         };
         
-        // Für Upload: Füge File Input hinzu (falls vorhanden)
+        // Für Upload: Füge File hinzu (entweder als Parameter oder vom File Input)
         if (method === 'POST') {
-          // Prüfe ob ein File Input existiert und ein File ausgewählt wurde
-          const fileInput = document.getElementById('business-card-upload-input');
-          if (fileInput && fileInput.files && fileInput.files.length > 0) {
+          let fileToUpload = uploadFile;
+          
+          // Falls kein File als Parameter übergeben wurde, prüfe File Input
+          if (!fileToUpload) {
+            const fileInput = document.getElementById('business-card-upload-input');
+            if (fileInput && fileInput.files && fileInput.files.length > 0) {
+              fileToUpload = fileInput.files[0];
+            }
+          }
+          
+          if (fileToUpload) {
             const formData = new FormData();
-            formData.append('file', fileInput.files[0]);
+            formData.append('file', fileToUpload);
             fetchOptions.body = formData;
             // FormData setzt Content-Type automatisch (mit boundary)
             fetchOptions.headers = {};
+            console.log('📎 Sende File:', fileToUpload.name, fileToUpload.size, 'bytes');
           } else {
             // Kein File - normaler POST ohne Body
             fetchOptions.headers = {
@@ -852,13 +861,16 @@
           
           const workflowUrl = 'https://n8n2.kortex-system.de/webhook/business-card-extraction';
           
-          // Öffne Modal
-          await openWorkflowModal(workflowUrl, 'Eigene Visitenkarte hochladen');
+          // Öffne Modal und übergebe File direkt
+          await openWorkflowModal(workflowUrl, 'Eigene Visitenkarte hochladen', file);
           
           // Schließe Modal nach 5 Sekunden
           setTimeout(() => {
             closeWorkflowModal();
           }, 5000);
+          
+          // Reset File Input nach Upload
+          fileInput.value = '';
         });
       }
       
