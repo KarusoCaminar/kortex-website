@@ -182,18 +182,6 @@
     },
     {
       "parameters": {
-        "mode": "runOnceForEachItem",
-        "jsCode": "// Konvertiere Binary zu Base64 für Vertex AI\n// Stelle sicher, dass Binary-Daten aus dem vorherigen Node verfügbar sind ($binary)\nlet binaryData = $binary;\n\n// Überprüfe und hole den Key der Binary-Daten\nconst binaryKeys = Object.keys(binaryData || {});\nif (binaryKeys.length === 0) {\n  throw new Error('Keine Binary-Daten für die Base64-Konvertierung gefunden.');\n}\nconst binaryFile = binaryData[binaryKeys[0]]; // Nimm den ersten Binary-Key\n\nif (!binaryFile || !binaryFile.data) {\n  throw new Error('Ungültiges Binary-Daten-Format.');\n}\n\nconst rawData = binaryFile.data; // Die Rohdaten (Buffer)\nconst mimeType = binaryFile.mimeType || 'image/jpeg';\n\n// Base64 Encoding: Buffer zu String\nlet base64;\ntry {\n  // In n8n ist rawData oft schon ein Base64-String oder ein Buffer, den man einfach konvertieren kann\n  if (typeof rawData === 'string') {\n    base64 = rawData; // Wenn es bereits ein String (Base64) ist\n  } else {\n    // Konvertiere Buffer/Uint8Array zu Base64-String\n    const buffer = Buffer.isBuffer(rawData) ? rawData : Buffer.from(rawData);\n    base64 = buffer.toString('base64');\n  }\n} catch (error) {\n  console.error('Fehler bei Base64-Konvertierung:', error);\n  throw new Error(`Base64-Konvertierung fehlgeschlagen: ${error.message}`);\n}\n\n// Rückgabe für den AI Agent\nreturn {\n  json: {\n    // Füge die JSON-Daten aus dem vorherigen Knoten hinzu\n    ...$json,\n    imageBase64: base64,\n    mimeType: mimeType\n  },\n  // Wichtig: Binary-Daten entfernen, da sie für den nächsten Knoten nicht benötigt werden\n  binary: {}\n};"
-      },
-      "id": "convert-to-base64",
-      "name": "Konvertiere zu Base64",
-      "type": "n8n-nodes-base.code",
-      "typeVersion": 2,
-      "position": [1340, 300],
-      "notes": "Konvertiert das Bild zu Base64 für Vertex AI Gemini API."
-    },
-    {
-      "parameters": {
         "promptType": "define",
         "text": "={{ `Extrahiere alle Kontaktdaten aus dieser Visitenkarte und gib sie als strukturiertes JSON zurück.\\n\\nErforderliche Felder:\\n- name: Vollständiger Name\\n- company: Firma/Unternehmen\\n- email: E-Mail-Adresse\\n- phone: Haupttelefonnummer (Mobil bevorzugt)\\n- phone_office: Bürotelefonnummer (optional)\\n- address: Straße und Hausnummer\\n- city: Postleitzahl und Stadt\\n- website: Website-URL (optional)\\n- job_title: Berufsbezeichnung/Position (optional)\\n\\nGib NUR valides JSON zurück, kein zusätzlicher Text, kein Markdown-Formatting.\\n\\nBeispiel-Format:\\n{\\\"name\\\": \\\"Max Mustermann\\\", \\\"company\\\": \\\"Beispiel GmbH\\\", \\\"email\\\": \\\"max@beispiel.de\\\", \\\"phone\\\": \\\"+49 123 456789\\\", \\\"address\\\": \\\"Musterstraße 1\\\", \\\"city\\\": \\\"12345 Musterstadt\\\"}` }}",
         "options": {
@@ -203,8 +191,8 @@
           "attachments": [
             {
               "name": "business-card",
-              "data": "={{ $json.imageBase64 }}",
-              "mimeType": "={{ $json.mimeType }}"
+              "data": "={{ $binary.data || $binary.file || $binary }}",
+              "mimeType": "={{ $binary.data?.mimeType || $binary.file?.mimeType || $binary.mimeType || 'image/jpeg' }}"
             }
           ]
         }
@@ -213,8 +201,8 @@
       "name": "AI Agent - Vertex AI",
       "type": "@n8n/n8n-nodes-langchain.agent",
       "typeVersion": 2.2,
-      "position": [1560, 300],
-      "notes": "⚠️ WICHTIG: Konfiguriere unter 'Chat Model' → Google Vertex AI Gemini mit deinen Credentials!"
+      "position": [1340, 300],
+      "notes": "⚠️ WICHTIG: Konfiguriere unter 'Chat Model' → Google Vertex AI Gemini mit deinen Credentials! Der AI Agent Node verarbeitet Binary-Daten direkt - KEIN Base64 nötig!"
     },
     {
       "parameters": {
@@ -224,7 +212,7 @@
       "name": "Parse AI Agent Response",
       "type": "n8n-nodes-base.code",
       "typeVersion": 2,
-      "position": [1780, 300],
+      "position": [1560, 300],
       "notes": "Parst die Vertex AI Gemini Response und extrahiert strukturierte Kontaktdaten"
     },
     {
@@ -236,7 +224,7 @@
       "name": "Formatiere für Website",
       "type": "n8n-nodes-base.code",
       "typeVersion": 2,
-      "position": [2000, 300]
+      "position": [1780, 300]
     },
     {
       "parameters": {
@@ -248,7 +236,7 @@
       "name": "Antwort an Website",
       "type": "n8n-nodes-base.respondToWebhook",
       "typeVersion": 1,
-      "position": [2220, 300],
+      "position": [2000, 300],
       "notes": "Sendet Ergebnisse zurück an die Website. Die Website empfängt die Daten via postMessage."
     }
   ],
@@ -363,17 +351,6 @@
       ]
     },
     "Setze Sample-Info": {
-      "main": [
-        [
-          {
-            "node": "Konvertiere zu Base64",
-            "type": "main",
-            "index": 0
-          }
-        ]
-      ]
-    },
-    "Konvertiere zu Base64": {
       "main": [
         [
           {
