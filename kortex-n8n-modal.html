@@ -709,7 +709,30 @@
         
         // Hole extra Params (z.B. sample=1)
         // WICHTIG: Suche nach Link mit data-title - muss GENAU passen!
+        // FALLBACK: Wenn kein exakter Match, suche nach allen Links und finde den passenden
         let activeLink = document.querySelector(`.demo-card-link[data-title="${workflowTitle}"]`);
+        
+        // FALLBACK: Wenn kein Link gefunden, versuche ähnliche Titel
+        if (!activeLink && workflowTitle) {
+          console.warn('⚠️ Kein exakter Link gefunden für:', workflowTitle);
+          
+          // Suche alle Links und finde den mit ähnlichem Titel
+          const allLinks = document.querySelectorAll('.demo-card-link');
+          for (const link of allLinks) {
+            const linkTitle = link.getAttribute('data-title') || '';
+            // Prüfe ob Titel ähnlich ist (z.B. "Visitenkarten Demo – Sample 1" vs "Visitenkarten Demo – Sample 1")
+            if (linkTitle.includes(workflowTitle) || workflowTitle.includes(linkTitle)) {
+              activeLink = link;
+              console.log('✅ Ähnlicher Link gefunden:', {
+                workflowTitle,
+                linkTitle,
+                params: link.getAttribute('data-params')
+              });
+              break;
+            }
+          }
+        }
+        
         console.log('🔍 Gefundener Link:', {
           found: !!activeLink,
           workflowTitle,
@@ -724,22 +747,38 @@
           console.log('📤 Upload-Modus: kein sample-Parameter');
         }
         
-        // WICHTIG: Falls kein Link gefunden, versuche mit data-params zu suchen
+        // WICHTIG: Falls immer noch kein Link gefunden, liste alle Links auf
         if (!activeLink && !uploadFile) {
-          console.warn('⚠️ Kein Link gefunden für:', workflowTitle);
-          console.warn('🔍 Versuche alle Links zu finden...');
+          console.error('❌ KRITISCH: Kein Link gefunden für:', workflowTitle);
+          console.error('🔍 Alle verfügbaren Links:');
           const allLinks = document.querySelectorAll('.demo-card-link');
           allLinks.forEach((link, index) => {
-            console.log(`Link ${index}:`, {
+            console.error(`Link ${index}:`, {
               title: link.getAttribute('data-title'),
               params: link.getAttribute('data-params'),
               url: link.getAttribute('data-workflow-url')
             });
           });
+          // FALLBACK: Nimm den ersten Link als Notfall-Lösung (sollte nicht passieren!)
+          if (allLinks.length > 0) {
+            activeLink = allLinks[0];
+            console.warn('⚠️ FALLBACK: Verwende ersten Link:', {
+              title: activeLink.getAttribute('data-title'),
+              params: activeLink.getAttribute('data-params')
+            });
+          }
         }
         
         const extraParams = activeLink?.getAttribute('data-params') || '';
         console.log('📋 Extra Params:', extraParams);
+        
+        // WICHTIG: Prüfe ob extraParams korrekt sind
+        if (!extraParams && !uploadFile) {
+          console.error('❌ KRITISCH: Keine extraParams gefunden!');
+          console.error('📋 workflowTitle:', workflowTitle);
+          console.error('📋 activeLink:', activeLink);
+          console.error('📋 activeLink.data-params:', activeLink?.getAttribute('data-params'));
+        }
         
         // Extrahiere sample-Parameter (z.B. "sample=1" -> "1")
         const sampleParam = extraParams.includes('sample=') 
