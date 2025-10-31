@@ -1030,15 +1030,18 @@
           });
           
           if (dataProcessed) {
-          renderResults();
-            console.log(`✅ Array-Daten erfolgreich in Tabelle eingefügt: ${responseData.length} Einträge`);
-            loading.style.display = 'none';
+            // Zeige Success-Indicator
+            showSuccessIndicator(loading, 'Daten erfolgreich extrahiert!');
             
-            // Auto-Close Modal nach 2 Sekunden
+            renderResults();
+            console.log(`✅ Array-Daten erfolgreich in Tabelle eingefügt: ${responseData.length} Einträge`);
+            
+            // Auto-Close Modal nach 1.5 Sekunden und scrollen zur Tabelle
             setTimeout(() => {
               closeWorkflowModal();
+              scrollToResults();
               console.log('✅ Modal automatisch geschlossen nach erfolgreicher Array-Extraktion');
-            }, 2000);
+            }, 1500);
           }
         }
         
