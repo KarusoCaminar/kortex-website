@@ -547,13 +547,53 @@
           }
         }
         
-        const response = await fetch(webhookUrl, fetchOptions);
+        console.log('🌐 Sende Request:', {
+          method: fetchOptions.method,
+          url: webhookUrl,
+          hasBody: !!fetchOptions.body,
+          headers: fetchOptions.headers
+        });
         
-        if (!response.ok) {
-          throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+        let response;
+        try {
+          response = await fetch(webhookUrl, fetchOptions);
+        } catch (fetchError) {
+          console.error('❌ Fetch Fehler:', fetchError);
+          
+          // Detaillierte Fehlermeldung
+          let errorMessage = 'Failed to fetch';
+          if (fetchError.message) {
+            errorMessage = fetchError.message;
+          } else if (fetchError.name === 'TypeError' && fetchError.message.includes('Failed to fetch')) {
+            errorMessage = 'CORS-Fehler oder Netzwerk-Problem. Prüfe ob n8n Webhook erreichbar ist.';
+          }
+          
+          throw new Error(errorMessage);
         }
         
-        const responseData = await response.json();
+        console.log('✅ Response erhalten:', {
+          status: response.status,
+          statusText: response.statusText,
+          ok: response.ok,
+          headers: Object.fromEntries(response.headers.entries())
+        });
+        
+        if (!response.ok) {
+          const errorText = await response.text().catch(() => 'Keine Details');
+          console.error('❌ HTTP Fehler:', {
+            status: response.status,
+            statusText: response.statusText,
+            body: errorText
+          });
+          throw new Error(`HTTP ${response.status}: ${response.statusText}\n${errorText}`);
+        }
+        
+        const responseData = await response.json().catch(async () => {
+          // Falls keine JSON-Response, versuche Text
+          const text = await response.text();
+          console.warn('⚠️ Keine JSON-Response, erhalten:', text);
+          return { message: text };
+        });
         console.log('✅ Workflow Response:', responseData);
         
         // Verarbeite Response-Daten direkt (für Upload oder wenn Daten sofort zurückkommen)
