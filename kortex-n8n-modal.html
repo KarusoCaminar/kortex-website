@@ -1511,10 +1511,11 @@
         if (loading) {
           loading.style.display = 'none';
         }
-        // Auto-close modal after completion (wenn Daten erfolgreich extrahiert wurden)
+        // Auto-Close Modal nach 2 Sekunden wenn Workflow abgeschlossen ist
         setTimeout(() => {
           closeWorkflowModal();
-        }, 3000);
+          console.log('✅ Modal automatisch geschlossen nach Workflow-Completion');
+        }, 2000);
       }
       
       if (event.data.type === 'close-requested') {
