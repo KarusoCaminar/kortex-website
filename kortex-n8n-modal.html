@@ -829,12 +829,14 @@
           });
         }
         
-        // Update Loading mit Timeout-Info
-        loading.innerHTML = `<div class="spinner"></div><p class="loading-text">🔄 KI-Extraktion startet... (Timeout: ${TIMEOUT_MS / 1000}s)</p>`;
+        // Update Loading mit Timeout-Info (Progress-Balken anzeigen)
+        updateLoadingState(loading, 'processing', 30);
         
         let response;
         try {
+          console.log('🚀 Starte fetch zu:', webhookUrl);
           response = await fetchWithTimeout(webhookUrl, fetchOptions, TIMEOUT_MS);
+          console.log('✅ Response erhalten:', response.status, response.statusText);
         } catch (fetchError) {
           console.error('❌ Fetch Fehler:', fetchError);
           
