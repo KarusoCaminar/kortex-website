@@ -167,33 +167,75 @@
       }
     }
     
-    /* Mobile: Unten fixiert, immer sichtbar */
+    /* Mobile: Diskret an der Seite, ausblendbar */
     @media (max-width: 768px) {
       .ai-news-panel {
         position: fixed;
-        bottom: 0;
-        right: 0;
-        left: 0;
-        width: 100%;
-        max-width: 100%;
-        max-height: 50vh;
-        border-radius: 16px 16px 0 0;
-        border-left: none;
-        border-right: none;
-        border-bottom: none;
-        box-shadow: 0 -8px 32px rgba(0, 0, 0, 0.2);
+        bottom: 16px;
+        right: 16px;
+        left: auto;
+        width: 320px;
+        max-width: calc(100vw - 32px);
+        max-height: 60vh;
+        border-radius: 16px;
+        border: 1px solid rgba(3, 78, 162, 0.1);
+        box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+        transform: translateY(0);
+        transition: all 0.3s ease;
+        z-index: 999;
+      }
+      
+      /* Minimiert: Nur Button sichtbar */
+      .ai-news-panel.collapsed {
+        width: 56px;
+        height: 56px;
+        border-radius: 28px;
+        overflow: visible;
+      }
+      
+      .ai-news-panel.collapsed .ai-news-panel-content {
+        display: none;
+      }
+      
+      .ai-news-panel.collapsed .ai-news-panel-header {
+        padding: 0;
+        border-radius: 28px;
+        width: 56px;
+        height: 56px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      
+      .ai-news-panel.collapsed .ai-news-panel-header h3 {
+        font-size: 1.5rem;
+      }
+      
+      .ai-news-panel.collapsed .ai-news-panel-header h3 span:not(:first-child) {
+        display: none;
+      }
+      
+      /* Expandiert: Vollständiges Panel */
+      .ai-news-panel:not(.collapsed) {
+        width: 320px;
+        max-width: calc(100vw - 32px);
       }
       
       .ai-news-panel-header {
         padding: 0.85rem 1rem;
+        cursor: pointer;
+        user-select: none;
       }
       
       .ai-news-panel-header h3 {
         font-size: 0.9rem;
+        margin: 0;
       }
       
       .ai-news-panel-content {
         padding: 0.85rem;
+        max-height: calc(60vh - 60px);
+        overflow-y: auto;
       }
       
       .ai-news-item {
@@ -241,8 +283,15 @@
     const panel = document.createElement('div');
     panel.id = 'ai-news-panel';
     panel.className = 'ai-news-panel';
+    
+    // Auf Mobile standardmäßig minimiert
+    const isMobile = window.innerWidth <= 768;
+    if (isMobile) {
+      panel.classList.add('collapsed');
+    }
+    
     panel.innerHTML = `
-      <div class="ai-news-panel-header">
+      <div class="ai-news-panel-header" id="ai-news-toggle">
         <h3>
           <span>🤖</span>
           <span data-i18n="news.panel.title">KI-News</span>
@@ -256,6 +305,53 @@
     `;
     
     document.body.appendChild(panel);
+    
+    // Toggle-Funktionalität für Mobile
+    setupMobileToggle();
+    
+    // Bei Resize prüfen
+    window.addEventListener('resize', () => {
+      const isMobileNow = window.innerWidth <= 768;
+      if (isMobileNow && !panel.classList.contains('collapsed')) {
+        // Auf Mobile, wenn nicht explizit geöffnet, minimieren
+        // (nur wenn vorher Desktop war)
+        if (window.innerWidth <= 768) {
+          // panel.classList.add('collapsed');
+        }
+      }
+    });
+  }
+  
+  // Mobile Toggle-Funktionalität
+  function setupMobileToggle() {
+    const toggleBtn = document.getElementById('ai-news-toggle');
+    const panel = document.getElementById('ai-news-panel');
+    
+    if (!toggleBtn || !panel) return;
+    
+    toggleBtn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      const isMobile = window.innerWidth <= 768;
+      
+      if (isMobile) {
+        // Auf Mobile: Toggle collapsed state
+        panel.classList.toggle('collapsed');
+        
+        // Wenn geöffnet wird, News laden falls noch nicht geladen
+        if (!panel.classList.contains('collapsed')) {
+          loadAINews();
+        }
+      }
+    });
+    
+    // Klick außerhalb schließt auf Mobile
+    if (window.innerWidth <= 768) {
+      document.addEventListener('click', (e) => {
+        if (!panel.contains(e.target) && !panel.classList.contains('collapsed')) {
+          panel.classList.add('collapsed');
+        }
+      });
+    }
   }
   
   // Load AI News
