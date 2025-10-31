@@ -130,7 +130,7 @@
     {
       "parameters": {
         "mode": "runOnceForEachItem",
-        "jsCode": "// Setze Sample-Nummer für nachfolgende Verarbeitung\nconst sample = $json.query?.sample || '';\nreturn {\n  json: {\n    sample: sample,\n    source: sample ? `Sample ${sample}` : 'Upload'\n  },\n  binary: $binary\n};"
+        "jsCode": "// Setze Sample-Nummer für nachfolgende Verarbeitung\n// WICHTIG: Binary-Daten explizit weitergeben!\nconst sample = $json.query?.sample || '';\n\n// Stelle sicher, dass Binary-Daten korrekt weitergegeben werden\nlet binaryData = $binary;\n\n// Falls Binary leer ist, versuche vom vorherigen Node zu holen\nif (!binaryData || (typeof binaryData === 'object' && Object.keys(binaryData || {}).length === 0)) {\n  // Für Sample-Loads: Binary sollte vom HTTP Request Node kommen\n  try {\n    const prevNode = $('Lade Sample 1') || $('Lade Sample 2') || $('Business Card Upload');\n    if (prevNode && prevNode.binary) {\n      binaryData = prevNode.binary;\n    } else if (prevNode && prevNode.item && prevNode.item.binary) {\n      binaryData = prevNode.item.binary;\n    }\n  } catch (e) {\n    // Ignoriere Fehler\n  }\n}\n\nreturn {\n  json: {\n    sample: sample,\n    source: sample ? `Sample ${sample}` : 'Upload'\n  },\n  // Binary explizit weitergeben - n8n benötigt dies manchmal explizit\n  binary: binaryData || $binary\n};"
       },
       "id": "set-sample-info",
       "name": "Setze Sample-Info",
