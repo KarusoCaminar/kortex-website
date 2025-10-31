@@ -788,6 +788,13 @@
       // Click handlers for demo cards
       const links = document.querySelectorAll('.demo-card-link');
       
+      console.log('📋 Gefundene Demo-Cards:', links.length);
+      links.forEach((link, index) => {
+        const url = link.getAttribute('data-workflow-url');
+        const title = link.getAttribute('data-title');
+        console.log(`Card ${index + 1}:`, { url, title, hasUrl: !!url });
+      });
+      
       links.forEach(link => {
         link.addEventListener('click', async (e) => {
           e.preventDefault();
@@ -795,6 +802,8 @@
           const workflowUrl = link.getAttribute('data-workflow-url');
           const workflowTitle = link.getAttribute('data-title');
           const sampleParam = link.getAttribute('data-params');
+          
+          console.log('🔍 Click auf Card:', { workflowUrl, workflowTitle, sampleParam });
           
           // Demo-Daten für Sample 1/2/3 sofort einfügen (für "Wow"-Effekt)
           if (sampleParam === 'sample=1') {
