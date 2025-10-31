@@ -129,8 +129,50 @@
     },
     {
       "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict"
+          },
+          "string": [
+            {
+              "value1": "={{$json.query.sample}}",
+              "value2": "3",
+              "operation": "equals"
+            }
+          ]
+        },
+        "combineOperation": "any"
+      },
+      "id": "check-sample-3",
+      "name": "Sample 3?",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2,
+      "position": [680, 660]
+    },
+    {
+      "parameters": {
+        "url": "https://karusocaminar.github.io/kortex-website/samples/bc-3.jpg",
+        "options": {
+          "response": {
+            "response": {
+              "responseFormat": "file"
+            }
+          }
+        }
+      },
+      "id": "load-sample-3",
+      "name": "Lade Sample 3",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.1,
+      "position": [900, 660],
+      "notes": "Lädt Demo-Visitenkarte 3 (Mariana Anderson). Passe die URL an deine tatsächliche Datei an!"
+    },
+    {
+      "parameters": {
         "mode": "runOnceForEachItem",
-        "jsCode": "// Setze Sample-Nummer für nachfolgende Verarbeitung\n// WICHTIG: Binary-Daten explizit weitergeben!\nconst sample = $json.query?.sample || '';\n\n// Stelle sicher, dass Binary-Daten korrekt weitergegeben werden\nlet binaryData = $binary;\n\n// Falls Binary leer ist, versuche vom vorherigen Node zu holen\nif (!binaryData || (typeof binaryData === 'object' && Object.keys(binaryData || {}).length === 0)) {\n  // Für Sample-Loads: Binary sollte vom HTTP Request Node kommen\n  try {\n    const prevNode = $('Lade Sample 1') || $('Lade Sample 2') || $('Business Card Upload');\n    if (prevNode && prevNode.binary) {\n      binaryData = prevNode.binary;\n    } else if (prevNode && prevNode.item && prevNode.item.binary) {\n      binaryData = prevNode.item.binary;\n    }\n  } catch (e) {\n    // Ignoriere Fehler\n  }\n}\n\nreturn {\n  json: {\n    sample: sample,\n    source: sample ? `Sample ${sample}` : 'Upload'\n  },\n  // Binary explizit weitergeben - n8n benötigt dies manchmal explizit\n  binary: binaryData || $binary\n};"
+        "jsCode": "// Setze Sample-Nummer für nachfolgende Verarbeitung\n// WICHTIG: Binary-Daten explizit weitergeben!\nconst sample = $json.query?.sample || '';\n\n// Stelle sicher, dass Binary-Daten korrekt weitergegeben werden\nlet binaryData = $binary;\n\n// Falls Binary leer ist, versuche vom vorherigen Node zu holen\nif (!binaryData || (typeof binaryData === 'object' && Object.keys(binaryData || {}).length === 0)) {\n  // Für Sample-Loads: Binary sollte vom HTTP Request Node kommen\n  try {\n    const prevNode = $('Lade Sample 1') || $('Lade Sample 2') || $('Lade Sample 3') || $('Business Card Upload');\n    if (prevNode && prevNode.binary) {\n      binaryData = prevNode.binary;\n    } else if (prevNode && prevNode.item && prevNode.item.binary) {\n      binaryData = prevNode.item.binary;\n    }\n  } catch (e) {\n    // Ignoriere Fehler\n  }\n}\n\nreturn {\n  json: {\n    sample: sample,\n    source: sample ? `Sample ${sample}` : 'Upload'\n  },\n  // Binary explizit weitergeben - n8n benötigt dies manchmal explizit\n  binary: binaryData || $binary\n};"
       },
       "id": "set-sample-info",
       "name": "Setze Sample-Info",
@@ -149,8 +191,8 @@
           "attachments": [
             {
               "name": "business-card",
-              "data": "={{ $binary.data || $binary.file || $binary }}",
-              "mimeType": "={{ $binary.data?.mimeType || $binary.file?.mimeType || 'image/jpeg' }}"
+              "data": "={{ $binary.data?.data || $binary.file?.data || $binary.data || $binary.file || $binary }}",
+              "mimeType": "={{ $binary.data?.mimeType || $binary.file?.mimeType || $binary.data?.mimeType || $binary.file?.mimeType || 'image/jpeg' }}"
             }
           ]
         }
@@ -254,6 +296,24 @@
             "type": "main",
             "index": 0
           }
+        ],
+        [
+          {
+            "node": "Sample 3?",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Sample 3?": {
+      "main": [
+        [
+          {
+            "node": "Lade Sample 3",
+            "type": "main",
+            "index": 0
+          }
         ]
       ]
     },
@@ -269,6 +329,17 @@
       ]
     },
     "Lade Sample 2": {
+      "main": [
+        [
+          {
+            "node": "Setze Sample-Info",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Lade Sample 3": {
       "main": [
         [
           {
@@ -324,7 +395,7 @@
       ]
     }
   },
-  "pinData": {},
+  image.png "pinData": {},
   "settings": {
     "executionOrder": "v1"
   },

@@ -402,13 +402,11 @@
       </a>
       
       <!-- Card 4: Eigene Visitenkarte hochladen (n8n Form) -->
-      <a href="#" class="demo-card-link" 
-         data-workflow-url="https://n8n2.kortex-system.de/webhook/business-card-extraction" 
-         data-title="Eigene Visitenkarte hochladen">
+      <label for="business-card-upload-input" class="demo-card-link" style="cursor: pointer;">
         <div class="demo-card">
           <span class="demo-icon">🪪</span>
           <h3 data-i18n="modal.card4.title">Eigene Visitenkarte hochladen</h3>
-          <p data-i18n="modal.card4.description">Öffnet das n8n-Formular. Datei wählen → KI extrahiert → Ergebnis erscheint in der Tabelle unten.</p>
+          <p data-i18n="modal.card4.description">Klicke hier → Wähle deine Visitenkarte → KI extrahiert → Ergebnis erscheint in der Tabelle unten.</p>
           
           <div class="demo-tags">
             <span class="tag" data-i18n="modal.tag.gdpr">🔒 DSGVO</span>
@@ -418,7 +416,8 @@
           
           <span class="arrow-icon">→</span>
         </div>
-      </a>
+      </label>
+      <input type="file" id="business-card-upload-input" accept="image/jpeg,image/png,image/jpg" style="display: none;">
       
     </div>
 
@@ -440,13 +439,14 @@
               <th style="padding: 12px 16px; border-bottom: 1px solid rgba(148,163,184,0.2);" data-i18n="modal.table.company">Firma</th>
               <th style="padding: 12px 16px; border-bottom: 1px solid rgba(148,163,184,0.2);" data-i18n="modal.table.email">E-Mail</th>
               <th style="padding: 12px 16px; border-bottom: 1px solid rgba(148,163,184,0.2);" data-i18n="modal.table.phone">Telefon</th>
+              <th style="padding: 12px 16px; border-bottom: 1px solid rgba(148,163,184,0.2);" data-i18n="modal.table.address">Adresse</th>
               <th style="padding: 12px 16px; border-bottom: 1px solid rgba(148,163,184,0.2);" data-i18n="modal.table.source">Quelle</th>
               <th style="padding: 12px 16px; border-bottom: 1px solid rgba(148,163,184,0.2);" data-i18n="modal.table.time">Zeit</th>
             </tr>
           </thead>
           <tbody id="results-tbody">
             <tr>
-              <td colspan="6" style="padding:16px; color:#94a3b8;" data-i18n="modal.results.empty">Noch keine Ergebnisse. Starte eine Demo oben.</td>
+              <td colspan="7" style="padding:16px; color:#94a3b8;" data-i18n="modal.results.empty">Noch keine Ergebnisse. Starte eine Demo oben.</td>
             </tr>
           </tbody>
         </table>
@@ -508,15 +508,74 @@
         // Triggere Workflow im Hintergrund
         // Für Samples: GET Request, für Upload: POST mit FormData
         const method = extraParams ? 'GET' : 'POST';
-        const fetchOptions = {
+        let fetchOptions = {
           method: method,
-          headers: method === 'POST' ? {} : {},
         };
+        
+        // Für Upload: Füge File Input hinzu (falls vorhanden)
+        if (method === 'POST') {
+          // Prüfe ob ein File Input existiert und ein File ausgewählt wurde
+          const fileInput = document.getElementById('business-card-upload-input');
+          if (fileInput && fileInput.files && fileInput.files.length > 0) {
+            const formData = new FormData();
+            formData.append('file', fileInput.files[0]);
+            fetchOptions.body = formData;
+            // FormData setzt Content-Type automatisch (mit boundary)
+            fetchOptions.headers = {};
+          } else {
+            // Kein File - normaler POST ohne Body
+            fetchOptions.headers = {
+              'Content-Type': 'application/json'
+            };
+          }
+        }
         
         const response = await fetch(webhookUrl, fetchOptions);
         
+        if (!response.ok) {
+          throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+        }
+        
         const responseData = await response.json();
-        console.log('✅ Workflow gestartet:', responseData);
+        console.log('✅ Workflow Response:', responseData);
+        
+        // Verarbeite Response-Daten direkt (für Upload oder wenn Daten sofort zurückkommen)
+        if (responseData.type === 'business-card-processed' && responseData.payload) {
+          const p = responseData.payload;
+          extractedResults.unshift({
+            name: p.name || '',
+            company: p.company || '',
+            email: p.email || '',
+            phone: p.phone || '',
+            address: p.address || '',
+            city: p.city || '',
+            source: p.source || (p.sample ? `Sample ${p.sample}` : 'Upload'),
+            timestamp: p.timestamp || new Date().toISOString()
+          });
+          renderResults();
+          console.log('✅ Daten in Tabelle eingefügt');
+        }
+        
+        // Wenn Response ein Array ist (n8n kann Arrays zurückgeben)
+        if (Array.isArray(responseData) && responseData.length > 0) {
+          responseData.forEach(item => {
+            if (item.type === 'business-card-processed' && item.payload) {
+              const p = item.payload;
+              extractedResults.unshift({
+                name: p.name || '',
+                company: p.company || '',
+                email: p.email || '',
+                phone: p.phone || '',
+                address: p.address || '',
+                city: p.city || '',
+                source: p.source || (p.sample ? `Sample ${p.sample}` : 'Upload'),
+                timestamp: p.timestamp || new Date().toISOString()
+              });
+            }
+          });
+          renderResults();
+          console.log('✅ Array-Daten in Tabelle eingefügt');
+        }
         
         // Zeige Erfolgs-Meldung kurz
         loading.textContent = '✅ Workflow läuft...';
@@ -636,6 +695,10 @@
         console.error('❌ Fehler beim Triggern des Workflows:', error);
         loading.textContent = '⚠️ Fehler beim Starten des Workflows';
         
+        // Detaillierte Fehleranzeige
+        const errorMessage = error.message || 'Unbekannter Fehler';
+        console.error('Fehler-Details:', errorMessage);
+        
         // Zeige Fehler-Meldung
         iframe.srcdoc = `
           <html>
@@ -723,6 +786,8 @@
               company: 'DSBOK / eDSB Oliver Krause',
               email: 'ok@dsbok.de',
               phone: '0160/538 47 27',
+              address: '',
+              city: '',
               source: 'Sample 1',
               timestamp: new Date().toISOString()
             });
@@ -733,6 +798,8 @@
               company: 'Bestattungen Graßnick',
               email: 'info@bestattungen-grassnick.de',
               phone: '0157-76 59 33 86',
+              address: '',
+              city: '',
               source: 'Sample 2',
               timestamp: new Date().toISOString()
             });
@@ -745,6 +812,8 @@
               company: '',
               email: '',
               phone: '',
+              address: '',
+              city: '',
               source: 'Sample 3',
               timestamp: new Date().toISOString()
             });
@@ -760,6 +829,38 @@
           }, 5000);
         });
       });
+      
+      // File Input Handler für Upload
+      const fileInput = document.getElementById('business-card-upload-input');
+      if (fileInput) {
+        fileInput.addEventListener('change', async (e) => {
+          const file = e.target.files?.[0];
+          if (!file) return;
+          
+          // Validiere Datei
+          if (!file.type.startsWith('image/')) {
+            alert('⚠️ Bitte laden Sie nur Bilddateien (JPG, PNG) hoch!');
+            fileInput.value = '';
+            return;
+          }
+          
+          if (file.size > 10 * 1024 * 1024) {
+            alert('⚠️ Die Datei ist zu groß (max. 10 MB)!');
+            fileInput.value = '';
+            return;
+          }
+          
+          const workflowUrl = 'https://n8n2.kortex-system.de/webhook/business-card-extraction';
+          
+          // Öffne Modal
+          await openWorkflowModal(workflowUrl, 'Eigene Visitenkarte hochladen');
+          
+          // Schließe Modal nach 5 Sekunden
+          setTimeout(() => {
+            closeWorkflowModal();
+          }, 5000);
+        });
+      }
       
       // Close button
       document.getElementById('workflow-close-btn').addEventListener('click', closeWorkflowModal);
@@ -831,19 +932,23 @@
       
       if (extractedResults.length === 0) {
         const emptyText = window.i18n?.t('modal.results.empty') || 'Noch keine Ergebnisse. Starte eine Demo oben.';
-        tbody.innerHTML = `<tr><td colspan="6" style="padding:16px; color:#94a3b8;">${emptyText}</td></tr>`;
+        tbody.innerHTML = `<tr><td colspan="7" style="padding:16px; color:#94a3b8;">${emptyText}</td></tr>`;
         return;
       }
-      tbody.innerHTML = extractedResults.map((r, index) => `
+      tbody.innerHTML = extractedResults.map((r, index) => {
+        const address = (r.address || '') + (r.city ? (r.address ? ', ' : '') + r.city : '');
+        return `
         <tr>
           <td style="padding:12px 16px; border-top: 1px solid rgba(148,163,184,0.15);">${escapeHtml(r.name || '')}</td>
           <td style="padding:12px 16px; border-top: 1px solid rgba(148,163,184,0.15);">${escapeHtml(r.company || '')}</td>
           <td style="padding:12px 16px; border-top: 1px solid rgba(148,163,184,0.15);">${escapeHtml(r.email || '')}</td>
           <td style="padding:12px 16px; border-top: 1px solid rgba(148,163,184,0.15);">${escapeHtml(r.phone || '')}</td>
+          <td style="padding:12px 16px; border-top: 1px solid rgba(148,163,184,0.15);">${escapeHtml(address || '')}</td>
           <td style="padding:12px 16px; border-top: 1px solid rgba(148,163,184,0.15);">${escapeHtml(r.source || '')}</td>
           <td style="padding:12px 16px; border-top: 1px solid rgba(148,163,184,0.15);">${new Date(r.timestamp).toLocaleString()}</td>
         </tr>
-      `).join('');
+      `;
+      }).join('');
     }
     
     function clearAllResults(showConfirm = true) {
@@ -871,9 +976,9 @@
       return String(s).replace(/[&<>"]+/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
     }
 
-    function downloadCSV() {
+      function downloadCSV() {
       if (extractedResults.length === 0) return;
-      const headers = ['name','company','email','phone','source','timestamp'];
+      const headers = ['name','company','email','phone','address','city','source','timestamp'];
       const csv = [headers.join(',')].concat(
         extractedResults.map(r => headers.map(h => {
           const val = r[h] != null ? String(r[h]) : '';
@@ -924,14 +1029,16 @@
       // Handle different event types
       if (event.data?.type === 'business-card-processed') {
         const p = event.data.payload || {};
-        extractedResults.unshift({
-          name: p.name || '',
-          company: p.company || '',
-          email: p.email || '',
-          phone: p.phone || '',
-          source: p.source || (p.sample ? `Sample ${p.sample}` : 'Upload'),
-          timestamp: p.timestamp || Date.now()
-        });
+          extractedResults.unshift({
+            name: p.name || '',
+            company: p.company || '',
+            email: p.email || '',
+            phone: p.phone || '',
+            address: p.address || '',
+            city: p.city || '',
+            source: p.source || (p.sample ? `Sample ${p.sample}` : 'Upload'),
+            timestamp: p.timestamp || new Date().toISOString()
+          });
         renderResults();
       }
 
