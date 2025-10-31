@@ -746,8 +746,18 @@
         console.log('✅ Workflow Response:', responseData);
         console.log('📊 Response Struktur:', responseStructure);
         
+        // WICHTIG: n8n kann verschachtelte JSON-Strukturen zurückgeben
+        // Prüfe ob Response verschachtelt ist (responseData.json.type statt responseData.type)
+        let actualResponseData = responseData;
+        if (responseData.json && typeof responseData.json === 'object') {
+          // n8n gibt manchmal { json: { type: ..., payload: ... } } zurück
+          actualResponseData = responseData.json;
+          console.log('📦 Verschachtelte Response erkannt, nutze responseData.json');
+          console.log('📊 Tatsächliche Response:', actualResponseData);
+        }
+        
         // Prüfe ob Workflow nur gestartet wurde (asynchron)
-        if (responseData.message && responseData.message.includes('Workflow was started')) {
+        if (actualResponseData.message && actualResponseData.message.includes('Workflow was started')) {
           console.log('⚠️ Workflow läuft asynchron - warte auf finale Antwort...');
           
           // Zeige statisches Workflow-Screenshot UND Loading-Indicator (Workflow läuft noch!)
@@ -869,8 +879,12 @@
         }
         
         // Verarbeite Response-Daten direkt (für Upload oder wenn Daten sofort zurückkommen)
-        if (responseData.type === 'business-card-processed' && responseData.payload) {
-          const p = responseData.payload;
+        // Prüfe sowohl normale als auch verschachtelte Struktur
+        const responseType = actualResponseData.type || responseData.type;
+        const responsePayload = actualResponseData.payload || responseData.payload;
+        
+        if (responseType === 'business-card-processed' && responsePayload) {
+          const p = responsePayload;
           extractedResults.unshift({
             name: p.name || '',
             company: p.company || '',
@@ -896,8 +910,10 @@
         // Wenn Response ein Array ist (n8n kann Arrays zurückgeben)
         if (Array.isArray(responseData) && responseData.length > 0) {
           responseData.forEach(item => {
-            if (item.type === 'business-card-processed' && item.payload) {
-              const p = item.payload;
+            // Prüfe auch hier auf verschachtelte Struktur
+            const itemData = item.json || item;
+            if (itemData.type === 'business-card-processed' && itemData.payload) {
+              const p = itemData.payload;
               extractedResults.unshift({
                 name: p.name || '',
                 company: p.company || '',
@@ -916,9 +932,49 @@
         }
         
         // Falls keine Daten kamen, aber auch keine "Workflow was started" Message
-        if (!responseData.type && !responseData.message && !Array.isArray(responseData)) {
+        const hasType = actualResponseData.type || responseData.type;
+        const hasMessage = actualResponseData.message || responseData.message;
+        const isArray = Array.isArray(responseData);
+        
+        if (!hasType && !hasMessage && !isArray) {
           console.warn('⚠️ Unerwartete Response-Struktur:', responseData);
-          loading.innerHTML = '<div class="spinner" style="border-top-color: #fbbf24;"></div><p class="loading-text" style="color: #fbbf24;">⚠️ Unerwartete Response-Struktur - prüfe Logs</p>';
+          console.warn('📋 Vollständige Response-Struktur:', {
+            keys: Object.keys(responseData),
+            type: responseData.type,
+            actualType: actualResponseData.type,
+            hasJson: !!responseData.json,
+            structure: JSON.stringify(responseData, null, 2)
+          });
+          loading.innerHTML = '<div class="spinner" style="border-top-color: #fbbf24;"></div><p class="loading-text" style="color: #fbbf24;">⚠️ Unerwartete Response-Struktur - prüfe Logs (F12)</p>';
+          
+          // Zeige auch die Response-Struktur im Iframe für Debugging
+          iframe.srcdoc = `
+            <html>
+              <head>
+                <style>
+                  body {
+                    font-family: monospace;
+                    background: #1e293b;
+                    color: #e2e8f0;
+                    padding: 2rem;
+                    font-size: 0.9rem;
+                  }
+                  pre {
+                    background: #0a1628;
+                    padding: 1rem;
+                    border-radius: 8px;
+                    overflow: auto;
+                    white-space: pre-wrap;
+                  }
+                </style>
+              </head>
+              <body>
+                <h2 style="color: #fbbf24;">⚠️ Unerwartete Response-Struktur</h2>
+                <p>Bitte prüfen Sie die Browser-Konsole (F12) für Details.</p>
+                <pre>${JSON.stringify(responseData, null, 2)}</pre>
+              </body>
+            </html>
+          `;
         }
         
         console.groupEnd(); // Workflow-Log-Gruppe schließen
