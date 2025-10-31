@@ -799,6 +799,11 @@
         link.addEventListener('click', async (e) => {
           e.preventDefault();
           
+          // Skip Upload Label - wird separat behandelt
+          if (link.tagName === 'LABEL' && link.getAttribute('for') === 'business-card-upload-input') {
+            return; // Lass den File Input Handler das übernehmen
+          }
+          
           const workflowUrl = link.getAttribute('data-workflow-url');
           const workflowTitle = link.getAttribute('data-title');
           const sampleParam = link.getAttribute('data-params');
@@ -863,6 +868,19 @@
       
       // File Input Handler für Upload
       const fileInput = document.getElementById('business-card-upload-input');
+      const uploadLabel = document.querySelector('label[for="business-card-upload-input"]');
+      
+      // Verhindere dass Label-Click den normalen Card-Handler auslöst
+      if (uploadLabel) {
+        uploadLabel.addEventListener('click', (e) => {
+          // Nur File Input öffnen, kein Workflow triggern
+          if (e.target === uploadLabel || e.target.closest('.demo-card')) {
+            // Lass den File Input den Dialog öffnen
+            return;
+          }
+        });
+      }
+      
       if (fileInput) {
         fileInput.addEventListener('change', async (e) => {
           const file = e.target.files?.[0];
@@ -882,6 +900,7 @@
           }
           
           const workflowUrl = 'https://n8n2.kortex-system.de/webhook/business-card-extraction';
+          console.log('📤 Upload gestartet:', { workflowUrl, fileName: file.name, fileSize: file.size });
           
           // Öffne Modal und übergebe File direkt
           await openWorkflowModal(workflowUrl, 'Eigene Visitenkarte hochladen', file);
