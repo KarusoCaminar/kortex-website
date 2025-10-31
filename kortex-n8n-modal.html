@@ -1084,11 +1084,17 @@
             </head>
             <body>
               <div class="container">
-                <h2>⚠️ Fehler</h2>
-                <p>${error.message || 'Unbekannter Fehler'}</p>
+                <h2>⚠️ ${error.message?.includes('Upload') ? 'Upload-Fehler' : 'Fehler'}</h2>
+                <p style="white-space: pre-line; line-height: 1.6;">${error.message || 'Unbekannter Fehler'}</p>
                 <p style="font-size: 0.9rem; color: #64748b; margin-top: 1rem;">
-                  Bitte prüfen Sie die Browser-Konsole für weitere Details oder öffnen Sie <a href="view-logs.html" style="color: #3b82f6;">view-logs.html</a> für eine Übersicht.
+                  Bitte prüfen Sie:
                 </p>
+                <ul style="font-size: 0.85rem; color: #94a3b8; text-align: left; margin: 0.5rem 0; padding-left: 1.5rem;">
+                  <li>Browser-Konsole (F12) für weitere Details</li>
+                  <li><a href="view-logs.html" style="color: #3b82f6;">view-logs.html</a> für Logs</li>
+                  <li>n8n Workflow ist aktiviert</li>
+                  <li>Webhook-URL ist korrekt</li>
+                </ul>
               </div>
             </body>
           </html>
