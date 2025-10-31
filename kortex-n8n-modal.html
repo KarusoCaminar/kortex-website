@@ -750,8 +750,9 @@
         if (responseData.message && responseData.message.includes('Workflow was started')) {
           console.log('⚠️ Workflow läuft asynchron - warte auf finale Antwort...');
           
-          // Zeige statisches Workflow-Screenshot wenn Workflow erfolgreich gestartet wurde
-          loading.style.display = 'none';
+          // Zeige statisches Workflow-Screenshot UND Loading-Indicator (Workflow läuft noch!)
+          loading.style.display = 'block';
+          loading.innerHTML = '<div class="spinner"></div><p class="loading-text">⏳ Workflow läuft... warte auf Ergebnisse</p>';
           iframe.srcdoc = `
             <html>
               <head>
@@ -1418,8 +1419,15 @@
 
       if (event.data.type === 'workflow-complete') {
         console.log('✅ Workflow abgeschlossen');
-        // Optional: Auto-close modal after completion
-        // setTimeout(() => closeWorkflowModal(), 2000);
+        // Verstecke Loading-Indicator wenn Workflow abgeschlossen ist
+        const loading = document.getElementById('loading-indicator');
+        if (loading) {
+          loading.style.display = 'none';
+        }
+        // Auto-close modal after completion (wenn Daten erfolgreich extrahiert wurden)
+        setTimeout(() => {
+          closeWorkflowModal();
+        }, 3000);
       }
       
       if (event.data.type === 'close-requested') {
