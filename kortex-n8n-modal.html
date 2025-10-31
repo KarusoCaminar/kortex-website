@@ -507,6 +507,11 @@
         
         const extraParams = activeLink?.getAttribute('data-params') || '';
         
+        // Extrahiere sample-Parameter (z.B. "sample=1" -> "1")
+        const sampleParam = extraParams.includes('sample=') 
+          ? extraParams.split('sample=')[1]?.split('&')[0] || null
+          : null;
+        
         // Baue Webhook-URL mit Parametern
         const webhookUrl = extraParams
           ? `${workflowUrl}${workflowUrl.includes('?') ? '&' : '?'}${extraParams}`
@@ -610,9 +615,34 @@
         // Performance-Tracking
         const requestStartTime = performance.now();
         
+        // TIMEOUT: 30 Sekunden für n8n Workflow
+        const TIMEOUT_MS = 30000; // 30 Sekunden
+        
+        // Helper-Funktion für Timeout
+        function fetchWithTimeout(url, options, timeoutMs) {
+          return new Promise((resolve, reject) => {
+            const timeoutId = setTimeout(() => {
+              reject(new Error(`Timeout: Der Workflow hat nach ${timeoutMs / 1000} Sekunden nicht geantwortet. Bitte prüfen Sie den n8n Server oder versuchen Sie es erneut.`));
+            }, timeoutMs);
+            
+            fetch(url, options)
+              .then(response => {
+                clearTimeout(timeoutId);
+                resolve(response);
+              })
+              .catch(error => {
+                clearTimeout(timeoutId);
+                reject(error);
+              });
+          });
+        }
+        
+        // Update Loading mit Timeout-Info
+        loading.innerHTML = `<div class="spinner"></div><p class="loading-text">🔄 KI-Extraktion startet... (Timeout: ${TIMEOUT_MS / 1000}s)</p>`;
+        
         let response;
         try {
-          response = await fetch(webhookUrl, fetchOptions);
+          response = await fetchWithTimeout(webhookUrl, fetchOptions, TIMEOUT_MS);
         } catch (fetchError) {
           console.error('❌ Fetch Fehler:', fetchError);
           
@@ -620,7 +650,11 @@
           let errorMessage = 'Failed to fetch';
           if (fetchError.message) {
             errorMessage = fetchError.message;
-          } else if (fetchError.name === 'TypeError' && fetchError.message.includes('Failed to fetch')) {
+            // Prüfe ob es ein Timeout ist
+            if (fetchError.message.includes('Timeout')) {
+              errorMessage = `⏱️ Timeout: Der n8n Workflow hat nach ${TIMEOUT_MS / 1000} Sekunden nicht geantwortet.\n\nMögliche Ursachen:\n1. n8n Server ist überlastet\n2. Workflow ist zu komplex und braucht länger\n3. n8n Server ist offline\n4. Netzwerkprobleme\n\nBitte versuchen Sie es erneut oder prüfen Sie den n8n Server.`;
+            }
+          } else if (fetchError.name === 'TypeError' && fetchError.message && fetchError.message.includes('Failed to fetch')) {
             errorMessage = 'CORS-Fehler oder Netzwerk-Problem. Prüfe ob n8n Webhook erreichbar ist.\n\nMögliche Lösungen:\n1. n8n Workflow ist nicht aktiviert\n2. Webhook-URL ist falsch\n3. CORS ist nicht konfiguriert\n4. n8n Server ist offline';
           }
           
@@ -629,8 +663,12 @@
             workflowUrl: webhookUrl,
             method: fetchOptions.method,
             hasBody: !!fetchOptions.body,
-            error: fetchError
+            error: fetchError,
+            timeout: TIMEOUT_MS
           });
+          
+          // Update Loading mit Fehler
+          loading.innerHTML = `<div class="spinner" style="border-top-color: #ef4444;"></div><p class="loading-text" style="color: #ef4444;">❌ Fehler: ${errorMessage.split('\n')[0]}</p>`;
           
           throw new Error(errorMessage);
         }
@@ -860,9 +898,11 @@
           console.error('📋 Fehler Details:', errorDetails);
           console.groupEnd();
           
-          loading.innerHTML = '<p style="color: #ef4444;">⚠️ Fehler beim Starten des Workflows</p>';
+          // Zeige Fehler-Meldung im Loading-Indicator
+          const errorMsg = error.message || 'Unbekannter Fehler';
+          loading.innerHTML = `<div class="spinner" style="border-top-color: #ef4444;"></div><p class="loading-text" style="color: #ef4444;">❌ ${errorMsg.split('\n')[0]}</p>`;
         
-        // Zeige Fehler-Meldung
+        // Zeige Fehler-Meldung im Iframe
         iframe.srcdoc = `
           <html>
             <head>
