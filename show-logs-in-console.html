@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zeige Logs in Console</title>
+  <style>
+    body {
+      font-family: monospace;
+      background: #0a1628;
+      color: #e2e8f0;
+      padding: 2rem;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    pre {
+      background: #1e293b;
+      padding: 1rem;
+      border-radius: 8px;
+      overflow-x: auto;
+      border: 1px solid #334155;
+    }
+    button {
+      padding: 0.75rem 1.5rem;
+      background: #3b82f6;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 1rem;
+      margin: 0.5rem;
+    }
+    button:hover {
+      background: #2563eb;
+    }
+    .error {
+      color: #ef4444;
+    }
+    .success {
+      color: #22c55e;
+    }
+  </style>
+</head>
+<body>
+  <h1>📊 Workflow Logs - Für AI-Assistenten</h1>
+  
+  <div>
+    <button onclick="showLogs()">🔍 Zeige alle Logs</button>
+    <button onclick="showLastRun()">👁️ Letzter Run</button>
+    <button onclick="showErrors()">❌ Zeige alle Fehler</button>
+    <button onclick="copyLogs()">📋 Logs kopieren</button>
+  </div>
+  
+  <div id="output"></div>
+  
+  <script src="get-last-logs.js"></script>
+  <script>
+    function showLogs() {
+      const logs = JSON.parse(localStorage.getItem('workflowLogs') || '[]');
+      const output = document.getElementById('output');
+      
+      if (logs.length === 0) {
+        output.innerHTML = '<p>Keine Logs gefunden. Triggere einen Workflow auf der Website.</p>';
+        return;
+      }
+      
+      output.innerHTML = `<pre>${JSON.stringify(logs, null, 2)}</pre>`;
+      console.log('📊 Alle Logs:', logs);
+    }
+    
+    function showLastRun() {
+      const lastRun = JSON.parse(localStorage.getItem('workflowLogs') || '[]')[0];
+      const output = document.getElementById('output');
+      
+      if (!lastRun) {
+        output.innerHTML = '<p>Kein letzter Run gefunden.</p>';
+        return;
+      }
+      
+      let html = '<h2>Letzter Run:</h2>';
+      html += `<p><strong>ID:</strong> ${lastRun.id}</p>`;
+      html += `<p><strong>Status:</strong> <span class="${lastRun.status === 'error' ? 'error' : 'success'}">${lastRun.status}</span></p>`;
+      html += `<p><strong>Zeitstempel:</strong> ${lastRun.timestamp}</p>`;
+      html += `<p><strong>Sample:</strong> ${lastRun.sampleParam || 'Upload'}</p>`;
+      html += `<p><strong>URL:</strong> ${lastRun.workflowUrl}</p>`;
+      
+      if (lastRun.errors && lastRun.errors.length > 0) {
+        html += '<h3 class="error">❌ Fehler:</h3>';
+        lastRun.errors.forEach((error, index) => {
+          html += `<div style="background: rgba(239, 68, 68, 0.1); padding: 1rem; margin: 0.5rem 0; border-radius: 6px;">`;
+          html += `<p><strong>Fehler ${index + 1}:</strong></p>`;
+          html += `<p>Typ: ${error.type || 'unknown'}</p>`;
+          html += `<p>Nachricht: ${error.message || 'Keine Nachricht'}</p>`;
+          if (error.status) html += `<p>HTTP Status: ${error.status}</p>`;
+          if (error.body) html += `<p>Body: ${error.body}</p>`;
+          if (error.stack) html += `<pre style="font-size: 0.8rem;">${error.stack}</pre>`;
+          html += `</div>`;
+        });
+      }
+      
+      html += '<h3>Events:</h3>';
+      html += `<pre>${JSON.stringify(lastRun.events || [], null, 2)}</pre>`;
+      
+      html += '<h3>Response:</h3>';
+      html += `<pre>${JSON.stringify(lastRun.response || {}, null, 2)}</pre>`;
+      
+      output.innerHTML = html;
+      
+      console.log('👁️ Letzter Run:', lastRun);
+    }
+    
+    function showErrors() {
+      const logs = JSON.parse(localStorage.getItem('workflowLogs') || '[]');
+      const output = document.getElementById('output');
+      
+      const allErrors = [];
+      logs.forEach(log => {
+        if (log.errors && log.errors.length > 0) {
+          log.errors.forEach(error => {
+            allErrors.push({
+              logId: log.id,
+              timestamp: log.timestamp,
+              sampleParam: log.sampleParam,
+              workflowUrl: log.workflowUrl,
+              error: error
+            });
+          });
+        }
+      });
+      
+      if (allErrors.length === 0) {
+        output.innerHTML = '<p class="success">✅ Keine Fehler gefunden!</p>';
+        console.log('✅ Keine Fehler gefunden');
+        return;
+      }
+      
+      let html = `<h2 class="error">❌ Gefundene Fehler: ${allErrors.length}</h2>`;
+      
+      allErrors.forEach((item, index) => {
+        html += `<div style="background: rgba(239, 68, 68, 0.1); padding: 1rem; margin: 1rem 0; border-radius: 6px; border-left: 4px solid #ef4444;">`;
+        html += `<p><strong>Fehler ${index + 1}:</strong></p>`;
+        html += `<p>Log-ID: ${item.logId}</p>`;
+        html += `<p>Zeitstempel: ${item.timestamp}</p>`;
+        html += `<p>Sample: ${item.sampleParam}</p>`;
+        html += `<p>URL: ${item.workflowUrl}</p>`;
+        html += `<p>Typ: ${item.error.type || 'unknown'}</p>`;
+        html += `<p>Nachricht: ${item.error.message || 'Keine Nachricht'}</p>`;
+        if (item.error.status) html += `<p>HTTP Status: ${item.error.status}</p>`;
+        if (item.error.body) html += `<p>Body: <pre style="font-size: 0.8rem;">${item.error.body}</pre></p>`;
+        if (item.error.stack) html += `<p>Stack: <pre style="font-size: 0.8rem;">${item.error.stack}</pre></p>`;
+        html += `</div>`;
+      });
+      
+      output.innerHTML = html;
+      
+      console.log('❌ Alle Fehler:', allErrors);
+    }
+    
+    function copyLogs() {
+      const logs = JSON.parse(localStorage.getItem('workflowLogs') || '[]');
+      const jsonStr = JSON.stringify(logs, null, 2);
+      
+      navigator.clipboard.writeText(jsonStr).then(() => {
+        alert('✅ Logs wurden in Clipboard kopiert! Du kannst sie jetzt direkt hier einfügen.');
+        document.getElementById('output').innerHTML = `<p class="success">✅ Logs kopiert! Füge sie hier ein:</p><textarea style="width: 100%; height: 300px; font-family: monospace; background: #1e293b; color: #e2e8f0; padding: 1rem; border-radius: 6px;">${jsonStr}</textarea>`;
+      }).catch(err => {
+        console.error('Fehler beim Kopieren:', err);
+        document.getElementById('output').innerHTML = `<p class="error">Fehler beim Kopieren. Hier sind die Logs:</p><pre>${jsonStr}</pre>`;
+      });
+    }
+    
+    // Auto-zeige letzter Run beim Laden
+    window.addEventListener('load', () => {
+      showLastRun();
+    });
+  </script>
+</body>
+</html>
+

@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Workflow-Test - Kortex System</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: linear-gradient(135deg, #0a1628 0%, #09182F 100%);
+      color: white;
+      padding: 2rem;
+      min-height: 100vh;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    h1 {
+      margin-bottom: 2rem;
+      font-size: 2rem;
+    }
+    .test-section {
+      background: rgba(15, 23, 42, 0.8);
+      border: 1px solid rgba(148, 163, 184, 0.2);
+      border-radius: 12px;
+      padding: 1.5rem;
+      margin-bottom: 1.5rem;
+    }
+    .test-section h2 {
+      margin-bottom: 1rem;
+      color: #60a5fa;
+    }
+    .test-button {
+      background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%);
+      color: white;
+      border: none;
+      padding: 0.75rem 1.5rem;
+      border-radius: 8px;
+      cursor: pointer;
+      font-weight: 600;
+      margin-right: 0.5rem;
+      margin-bottom: 0.5rem;
+    }
+    .test-button:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(59, 130, 246, 0.4);
+    }
+    .test-button:disabled {
+      opacity: 0.5;
+      cursor: not-allowed;
+    }
+    .result {
+      margin-top: 1rem;
+      padding: 1rem;
+      border-radius: 8px;
+      font-family: 'Courier New', monospace;
+      font-size: 0.9rem;
+      white-space: pre-wrap;
+      word-wrap: break-word;
+      max-height: 300px;
+      overflow-y: auto;
+    }
+    .result.success {
+      background: rgba(34, 197, 94, 0.2);
+      border: 1px solid rgba(34, 197, 94, 0.4);
+      color: #4ade80;
+    }
+    .result.error {
+      background: rgba(239, 68, 68, 0.2);
+      border: 1px solid rgba(239, 68, 68, 0.4);
+      color: #f87171;
+    }
+    .result.info {
+      background: rgba(59, 130, 246, 0.2);
+      border: 1px solid rgba(59, 130, 246, 0.4);
+      color: #60a5fa;
+    }
+    .status {
+      display: inline-block;
+      padding: 0.25rem 0.5rem;
+      border-radius: 4px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      margin-left: 0.5rem;
+    }
+    .status.pending {
+      background: rgba(251, 191, 36, 0.2);
+      color: #fbbf24;
+    }
+    .status.success {
+      background: rgba(34, 197, 94, 0.2);
+      color: #4ade80;
+    }
+    .status.error {
+      background: rgba(239, 68, 68, 0.2);
+      color: #f87171;
+    }
+    .url-input {
+      width: 100%;
+      padding: 0.5rem;
+      border-radius: 6px;
+      border: 1px solid rgba(148, 163, 184, 0.3);
+      background: rgba(15, 23, 42, 0.6);
+      color: white;
+      font-family: 'Courier New', monospace;
+      font-size: 0.9rem;
+      margin-bottom: 0.5rem;
+    }
+    .url-input:focus {
+      outline: none;
+      border-color: #60a5fa;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>🔍 Workflow-Test-Tool</h1>
+    <p style="margin-bottom: 2rem; color: #94a3b8; font-size: 1.1rem;">
+      Testet alle Workflows und zeigt detaillierte Fehlermeldungen.<br>
+      <strong>URL:</strong> <code style="background: rgba(0,0,0,0.3); padding: 0.2rem 0.4rem; border-radius: 4px;">https://karusocaminar.github.io/kortex-website/test-workflows.html</code>
+    </p>
+    
+    <!-- Domain Test -->
+    <div class="test-section">
+      <h2>1. Domain-Redirect Test</h2>
+      <p style="margin-bottom: 1rem; color: #94a3b8;">Prüft ob GitHub Pages korrekt lädt ohne Redirect</p>
+      <button class="test-button" onclick="testDomain()">Test GitHub Pages URL</button>
+      <span id="domain-status" class="status pending">Nicht getestet</span>
+      <div id="domain-result" class="result" style="display: none;"></div>
+    </div>
+    
+    <!-- Business Card Workflow Test -->
+    <div class="test-section">
+      <h2>2. Visitenkarten-Workflow Test</h2>
+      <p style="margin-bottom: 1rem; color: #94a3b8;">Testet n8n Business Card Extraction Webhook</p>
+      <input type="text" 
+             id="business-card-url" 
+             class="url-input" 
+             placeholder="https://n8n2.kortex-system.de/webhook/business-card-extraction"
+             value="https://n8n2.kortex-system.de/webhook/business-card-extraction">
+      <button class="test-button" onclick="testBusinessCardWorkflow()">Test Workflow (GET mit sample=1)</button>
+      <button class="test-button" onclick="testBusinessCardWorkflowWithFile()">Test Workflow (POST mit File)</button>
+      <span id="business-card-status" class="status pending">Nicht getestet</span>
+      <div id="business-card-result" class="result" style="display: none;"></div>
+    </div>
+    
+    <!-- Invoice Workflow Test -->
+    <div class="test-section">
+      <h2>3. Rechnungs-Extraktions-Workflow Test</h2>
+      <p style="margin-bottom: 1rem; color: #94a3b8;">Testet Render.com Invoice Extraction App</p>
+      <input type="text" 
+             id="invoice-url" 
+             class="url-input" 
+             placeholder="https://koretex-invoice-db.onrender.com"
+             value="https://koretex-invoice-db.onrender.com">
+      <button class="test-button" onclick="testInvoiceWorkflow()">Test Invoice App</button>
+      <span id="invoice-status" class="status pending">Nicht getestet</span>
+      <div id="invoice-result" class="result" style="display: none;"></div>
+    </div>
+    
+    <!-- CORS Test -->
+    <div class="test-section">
+      <h2>4. CORS-Test</h2>
+      <p style="margin-bottom: 1rem; color: #94a3b8;">Prüft ob CORS-Header korrekt gesetzt sind</p>
+      <button class="test-button" onclick="testCORS()">Test CORS Headers</button>
+      <span id="cors-status" class="status pending">Nicht getestet</span>
+      <div id="cors-result" class="result" style="display: none;"></div>
+    </div>
+  </div>
+  
+  <script>
+    async function testDomain() {
+      const statusEl = document.getElementById('domain-status');
+      const resultEl = document.getElementById('domain-result');
+      
+      statusEl.textContent = 'Teste...';
+      statusEl.className = 'status pending';
+      resultEl.style.display = 'block';
+      resultEl.className = 'result info';
+      resultEl.textContent = 'Teste GitHub Pages URL...\n';
+      
+      try {
+        const url = window.location.origin;
+        resultEl.textContent += `Aktuelle URL: ${url}\n`;
+        resultEl.textContent += `Erwartete URL sollte enthalten: karusocaminar.github.io\n`;
+        
+        if (url.includes('kortex-system.de')) {
+          resultEl.className = 'result error';
+          resultEl.textContent += '\n❌ FEHLER: Redirect auf kortex-system.de erkannt!\n';
+          resultEl.textContent += 'Lösung:\n';
+          resultEl.textContent += '1. Browser-Cache löschen (Ctrl+Shift+Delete)\n';
+          resultEl.textContent += '2. DNS-Cache leeren: ipconfig /flushdns\n';
+          resultEl.textContent += '3. Inkognito-Modus testen\n';
+          statusEl.textContent = 'Fehler: Redirect erkannt';
+          statusEl.className = 'status error';
+        } else if (url.includes('github.io')) {
+          resultEl.className = 'result success';
+          resultEl.textContent += '\n✅ OK: GitHub Pages URL erkannt!\n';
+          resultEl.textContent += 'Domain-Redirect funktioniert korrekt.';
+          statusEl.textContent = 'OK';
+          statusEl.className = 'status success';
+        } else {
+          resultEl.className = 'result info';
+          resultEl.textContent += '\n⚠️ Lokaler Test (nicht auf GitHub Pages)';
+          statusEl.textContent = 'Info';
+          statusEl.className = 'status info';
+        }
+      } catch (error) {
+        resultEl.className = 'result error';
+        resultEl.textContent += `\n❌ Fehler: ${error.message}`;
+        statusEl.textContent = 'Fehler';
+        statusEl.className = 'status error';
+      }
+    }
+    
+    async function testBusinessCardWorkflow() {
+      const statusEl = document.getElementById('business-card-status');
+      const resultEl = document.getElementById('business-card-result');
+      const url = document.getElementById('business-card-url').value;
+      
+      statusEl.textContent = 'Teste...';
+      statusEl.className = 'status pending';
+      resultEl.style.display = 'block';
+      resultEl.className = 'result info';
+      resultEl.textContent = `Teste Workflow: ${url}?sample=1\n\n`;
+      
+      try {
+        const testUrl = `${url}?sample=1`;
+        resultEl.textContent += `Request: GET ${testUrl}\n`;
+        resultEl.textContent += `Headers: {}\n\n`;
+        
+        const startTime = Date.now();
+        const response = await fetch(testUrl, {
+          method: 'GET',
+          headers: {
+            'Accept': 'application/json'
+          }
+        });
+        const endTime = Date.now();
+        const duration = endTime - startTime;
+        
+        resultEl.textContent += `Response: ${response.status} ${response.statusText}\n`;
+        resultEl.textContent += `Dauer: ${duration}ms\n\n`;
+        
+        // CORS Headers prüfen
+        const corsHeader = response.headers.get('access-control-allow-origin');
+        resultEl.textContent += `CORS Header: ${corsHeader || 'NICHT GESETZT'}\n`;
+        
+        if (response.ok) {
+          const data = await response.json().catch(() => response.text());
+          resultEl.className = 'result success';
+          resultEl.textContent += `\n✅ OK: Workflow antwortet!\n\n`;
+          resultEl.textContent += `Response Data:\n${JSON.stringify(data, null, 2)}`;
+          statusEl.textContent = 'OK';
+          statusEl.className = 'status success';
+        } else {
+          const errorText = await response.text();
+          resultEl.className = 'result error';
+          resultEl.textContent += `\n❌ FEHLER: HTTP ${response.status}\n\n`;
+          resultEl.textContent += `Response:\n${errorText}`;
+          
+          if (response.status === 404) {
+            resultEl.textContent += '\n\nMögliche Ursachen:\n';
+            resultEl.textContent += '1. Workflow ist nicht aktiviert\n';
+            resultEl.textContent += '2. Webhook-URL ist falsch\n';
+            resultEl.textContent += '3. n8n Server ist offline\n';
+          }
+          
+          statusEl.textContent = `Fehler: ${response.status}`;
+          statusEl.className = 'status error';
+        }
+      } catch (error) {
+        resultEl.className = 'result error';
+        resultEl.textContent += `\n❌ FEHLER: ${error.message}\n\n`;
+        
+        if (error.message.includes('Failed to fetch') || error.message.includes('NetworkError')) {
+          resultEl.textContent += 'Mögliche Ursachen:\n';
+          resultEl.textContent += '1. CORS-Fehler (n8n blockiert Anfrage)\n';
+          resultEl.textContent += '2. n8n Server ist nicht erreichbar\n';
+          resultEl.textContent += '3. Netzwerk-Problem\n';
+        }
+        
+        statusEl.textContent = 'Fehler';
+        statusEl.className = 'status error';
+      }
+    }
+    
+    async function testBusinessCardWorkflowWithFile() {
+      const statusEl = document.getElementById('business-card-status');
+      const resultEl = document.getElementById('business-card-result');
+      const url = document.getElementById('business-card-url').value;
+      
+      statusEl.textContent = 'Teste...';
+      statusEl.className = 'status pending';
+      resultEl.style.display = 'block';
+      resultEl.className = 'result info';
+      resultEl.textContent = `Teste Workflow mit File-Upload: ${url}\n\n`;
+      
+      // Erstelle einen Test-File (dummy)
+      const testFile = new Blob(['Test Business Card'], { type: 'text/plain' });
+      const formData = new FormData();
+      formData.append('file', testFile, 'test-card.txt');
+      
+      try {
+        resultEl.textContent += `Request: POST ${url}\n`;
+        resultEl.textContent += `Content-Type: multipart/form-data\n`;
+        resultEl.textContent += `File: test-card.txt\n\n`;
+        
+        const startTime = Date.now();
+        const response = await fetch(url, {
+          method: 'POST',
+          body: formData
+        });
+        const endTime = Date.now();
+        const duration = endTime - startTime;
+        
+        resultEl.textContent += `Response: ${response.status} ${response.statusText}\n`;
+        resultEl.textContent += `Dauer: ${duration}ms\n\n`;
+        
+        if (response.ok) {
+          const data = await response.json().catch(() => response.text());
+          resultEl.className = 'result success';
+          resultEl.textContent += `\n✅ OK: File-Upload funktioniert!\n\n`;
+          resultEl.textContent += `Response Data:\n${JSON.stringify(data, null, 2)}`;
+          statusEl.textContent = 'OK';
+          statusEl.className = 'status success';
+        } else {
+          const errorText = await response.text();
+          resultEl.className = 'result error';
+          resultEl.textContent += `\n❌ FEHLER: HTTP ${response.status}\n\n`;
+          resultEl.textContent += `Response:\n${errorText}`;
+          statusEl.textContent = `Fehler: ${response.status}`;
+          statusEl.className = 'status error';
+        }
+      } catch (error) {
+        resultEl.className = 'result error';
+        resultEl.textContent += `\n❌ FEHLER: ${error.message}\n\n`;
+        statusEl.textContent = 'Fehler';
+        statusEl.className = 'status error';
+      }
+    }
+    
+    async function testInvoiceWorkflow() {
+      const statusEl = document.getElementById('invoice-status');
+      const resultEl = document.getElementById('invoice-result');
+      const url = document.getElementById('invoice-url').value;
+      
+      statusEl.textContent = 'Teste...';
+      statusEl.className = 'status pending';
+      resultEl.style.display = 'block';
+      resultEl.className = 'result info';
+      resultEl.textContent = `Teste Invoice App: ${url}\n\n`;
+      
+      try {
+        resultEl.textContent += `Request: GET ${url}\n\n`;
+        
+        const startTime = Date.now();
+        const response = await fetch(url, {
+          method: 'GET',
+          headers: {
+            'Accept': 'text/html,application/json'
+          }
+        });
+        const endTime = Date.now();
+        const duration = endTime - startTime;
+        
+        resultEl.textContent += `Response: ${response.status} ${response.statusText}\n`;
+        resultEl.textContent += `Dauer: ${duration}ms\n`;
+        
+        if (duration > 30000) {
+          resultEl.textContent += `\n⚠️ LANGE LAUFZEIT: ${(duration/1000).toFixed(1)}s\n`;
+          resultEl.textContent += 'Render.com App könnte "geschlafen" haben (Cold Start)\n';
+        }
+        
+        if (response.ok) {
+          const text = await response.text();
+          resultEl.className = 'result success';
+          resultEl.textContent += `\n✅ OK: Invoice App ist erreichbar!\n\n`;
+          resultEl.textContent += `Response Preview:\n${text.substring(0, 500)}...`;
+          statusEl.textContent = 'OK';
+          statusEl.className = 'status success';
+        } else {
+          const errorText = await response.text();
+          resultEl.className = 'result error';
+          resultEl.textContent += `\n❌ FEHLER: HTTP ${response.status}\n\n`;
+          resultEl.textContent += `Response:\n${errorText.substring(0, 500)}`;
+          
+          if (response.status === 404) {
+            resultEl.textContent += '\n\nMögliche Ursachen:\n';
+            resultEl.textContent += '1. Render.com App URL ist falsch\n';
+            resultEl.textContent += '2. App wurde gelöscht oder umbenannt\n';
+          }
+          
+          statusEl.textContent = `Fehler: ${response.status}`;
+          statusEl.className = 'status error';
+        }
+      } catch (error) {
+        resultEl.className = 'result error';
+        resultEl.textContent += `\n❌ FEHLER: ${error.message}\n\n`;
+        
+        if (error.message.includes('Failed to fetch')) {
+          resultEl.textContent += 'Mögliche Ursachen:\n';
+          resultEl.textContent += '1. Render.com App ist offline\n';
+          resultEl.textContent += '2. App "schläft" (Cold Start dauert 30-60s)\n';
+          resultEl.textContent += '3. Netzwerk-Problem\n';
+        }
+        
+        statusEl.textContent = 'Fehler';
+        statusEl.className = 'status error';
+      }
+    }
+    
+    async function testCORS() {
+      const statusEl = document.getElementById('cors-status');
+      const resultEl = document.getElementById('cors-result');
+      
+      statusEl.textContent = 'Teste...';
+      statusEl.className = 'status pending';
+      resultEl.style.display = 'block';
+      resultEl.className = 'result info';
+      resultEl.textContent = 'Teste CORS-Header für alle Workflows...\n\n';
+      
+      const urls = [
+        'https://n8n2.kortex-system.de/webhook/business-card-extraction',
+        'https://koretex-invoice-db.onrender.com'
+      ];
+      
+      for (const url of urls) {
+        try {
+          resultEl.textContent += `Teste: ${url}\n`;
+          
+          const response = await fetch(url, {
+            method: 'OPTIONS',
+            headers: {
+              'Origin': window.location.origin,
+              'Access-Control-Request-Method': 'POST'
+            }
+          });
+          
+          const corsOrigin = response.headers.get('access-control-allow-origin');
+          const corsMethods = response.headers.get('access-control-allow-methods');
+          const corsHeaders = response.headers.get('access-control-allow-headers');
+          
+          resultEl.textContent += `  CORS Origin: ${corsOrigin || '❌ NICHT GESETZT'}\n`;
+          resultEl.textContent += `  CORS Methods: ${corsMethods || '❌ NICHT GESETZT'}\n`;
+          resultEl.textContent += `  CORS Headers: ${corsHeaders || '❌ NICHT GESETZT'}\n`;
+          
+          if (corsOrigin === '*' || corsOrigin === window.location.origin) {
+            resultEl.textContent += `  ✅ CORS OK\n\n`;
+          } else {
+            resultEl.textContent += `  ❌ CORS PROBLEM: ${corsOrigin || 'Fehlend'}\n\n`;
+          }
+        } catch (error) {
+          resultEl.textContent += `  ❌ Fehler: ${error.message}\n\n`;
+        }
+      }
+      
+      resultEl.className = 'result info';
+      statusEl.textContent = 'Abgeschlossen';
+      statusEl.className = 'status info';
+    }
+    
+    // Auto-test Domain beim Laden
+    window.addEventListener('load', () => {
+      setTimeout(testDomain, 500);
+    });
+  </script>
+</body>
+</html>
+

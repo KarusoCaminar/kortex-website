@@ -492,6 +492,7 @@
       modal.classList.add('active');
       document.body.style.overflow = 'hidden';
       loading.style.display = 'block';
+      loading.innerHTML = '<div class="spinner"></div><p class="loading-text">🔄 KI-Extraktion startet...</p>';
       
       try {
         // Hole extra Params (z.B. sample=1)
@@ -511,7 +512,55 @@
           ? `${workflowUrl}${workflowUrl.includes('?') ? '&' : '?'}${extraParams}`
           : workflowUrl;
         
-        console.log('🚀 Triggere Workflow:', webhookUrl);
+        // Detailliertes Logging starten
+        const logTimestamp = new Date().toISOString();
+        const logId = `workflow-${Date.now()}-${Math.random().toString(36).substr(2, 9)}`;
+        
+        // Log-Objekt für persistente Speicherung
+        const workflowLog = {
+          id: logId,
+          timestamp: logTimestamp,
+          workflowUrl: webhookUrl,
+          sampleParam: sampleParam || 'Upload',
+          workflowTitle: workflowTitle,
+          method: extraParams ? 'GET' : 'POST',
+          status: 'started',
+          events: [],
+          errors: [],
+          response: null,
+          duration: null
+        };
+        
+        // Speichere Log in localStorage
+        const storedLogs = JSON.parse(localStorage.getItem('workflowLogs') || '[]');
+        storedLogs.unshift(workflowLog);
+        // Behalte nur die letzten 50 Logs
+        if (storedLogs.length > 50) {
+          storedLogs.pop();
+        }
+        localStorage.setItem('workflowLogs', JSON.stringify(storedLogs));
+        
+        console.group(`🚀 Workflow gestartet [${logId}]`);
+        console.log('⏰ Zeitstempel:', logTimestamp);
+        console.log('🌐 Webhook URL:', webhookUrl);
+        console.log('📝 Sample Parameter:', sampleParam || 'Upload');
+        console.log('📋 Workflow Titel:', workflowTitle);
+        
+        // Helper-Funktion zum Hinzufügen von Log-Events
+        function addLogEvent(type, data) {
+          workflowLog.events.push({
+            type: type,
+            timestamp: new Date().toISOString(),
+            data: data
+          });
+          // Update in localStorage
+          const logs = JSON.parse(localStorage.getItem('workflowLogs') || '[]');
+          const logIndex = logs.findIndex(l => l.id === logId);
+          if (logIndex !== -1) {
+            logs[logIndex] = workflowLog;
+            localStorage.setItem('workflowLogs', JSON.stringify(logs));
+          }
+        }
         
         // Triggere Workflow im Hintergrund
         // Für Samples: GET Request, für Upload: POST mit FormData
@@ -547,12 +596,19 @@
           }
         }
         
-        console.log('🌐 Sende Request:', {
+        const requestData = {
           method: fetchOptions.method,
           url: webhookUrl,
           hasBody: !!fetchOptions.body,
-          headers: fetchOptions.headers
-        });
+          headers: fetchOptions.headers,
+          bodyType: fetchOptions.body ? (fetchOptions.body instanceof FormData ? 'FormData' : 'JSON') : 'none'
+        };
+        addLogEvent('request', requestData);
+        
+        console.log('🌐 Sende Request:', requestData);
+        
+        // Performance-Tracking
+        const requestStartTime = performance.now();
         
         let response;
         try {
@@ -565,26 +621,56 @@
           if (fetchError.message) {
             errorMessage = fetchError.message;
           } else if (fetchError.name === 'TypeError' && fetchError.message.includes('Failed to fetch')) {
-            errorMessage = 'CORS-Fehler oder Netzwerk-Problem. Prüfe ob n8n Webhook erreichbar ist.';
+            errorMessage = 'CORS-Fehler oder Netzwerk-Problem. Prüfe ob n8n Webhook erreichbar ist.\n\nMögliche Lösungen:\n1. n8n Workflow ist nicht aktiviert\n2. Webhook-URL ist falsch\n3. CORS ist nicht konfiguriert\n4. n8n Server ist offline';
           }
+          
+          // Zeige detaillierte Fehlerinformationen
+          console.error('🔍 Debug Info:', {
+            workflowUrl: webhookUrl,
+            method: fetchOptions.method,
+            hasBody: !!fetchOptions.body,
+            error: fetchError
+          });
           
           throw new Error(errorMessage);
         }
         
-        console.log('✅ Response erhalten:', {
+        const requestDuration = (performance.now() - requestStartTime).toFixed(2);
+        workflowLog.duration = `${requestDuration}ms`;
+        
+        const responseData_log = {
           status: response.status,
           statusText: response.statusText,
           ok: response.ok,
-          headers: Object.fromEntries(response.headers.entries())
-        });
+          headers: Object.fromEntries(response.headers.entries()),
+          duration: `${requestDuration}ms`,
+          timestamp: new Date().toISOString()
+        };
+        addLogEvent('response', responseData_log);
+        
+        console.log('✅ Response erhalten:', responseData_log);
         
         if (!response.ok) {
           const errorText = await response.text().catch(() => 'Keine Details');
-          console.error('❌ HTTP Fehler:', {
+          const errorData = {
             status: response.status,
             statusText: response.statusText,
-            body: errorText
-          });
+            body: errorText,
+            type: 'http_error'
+          };
+          workflowLog.errors.push(errorData);
+          workflowLog.status = 'error';
+          addLogEvent('error', errorData);
+          
+          // Update in localStorage
+          const logs = JSON.parse(localStorage.getItem('workflowLogs') || '[]');
+          const logIndex = logs.findIndex(l => l.id === logId);
+          if (logIndex !== -1) {
+            logs[logIndex] = workflowLog;
+            localStorage.setItem('workflowLogs', JSON.stringify(logs));
+          }
+          
+          console.error('❌ HTTP Fehler:', errorData);
           throw new Error(`HTTP ${response.status}: ${response.statusText}\n${errorText}`);
         }
         
@@ -594,7 +680,27 @@
           console.warn('⚠️ Keine JSON-Response, erhalten:', text);
           return { message: text };
         });
+        workflowLog.response = responseData;
+        workflowLog.status = 'success';
+        
+        const responseStructure = {
+          type: responseData.type || 'unknown',
+          hasPayload: !!responseData.payload,
+          isArray: Array.isArray(responseData),
+          keys: Object.keys(responseData)
+        };
+        addLogEvent('response_parsed', responseStructure);
+        
+        // Update in localStorage
+        const logs = JSON.parse(localStorage.getItem('workflowLogs') || '[]');
+        const logIndex = logs.findIndex(l => l.id === logId);
+        if (logIndex !== -1) {
+          logs[logIndex] = workflowLog;
+          localStorage.setItem('workflowLogs', JSON.stringify(logs));
+        }
+        
         console.log('✅ Workflow Response:', responseData);
+        console.log('📊 Response Struktur:', responseStructure);
         
         // Verarbeite Response-Daten direkt (für Upload oder wenn Daten sofort zurückkommen)
         if (responseData.type === 'business-card-processed' && responseData.payload) {
@@ -610,7 +716,12 @@
             timestamp: p.timestamp || new Date().toISOString()
           });
           renderResults();
-          console.log('✅ Daten in Tabelle eingefügt');
+          console.log('✅ Daten in Tabelle eingefügt:', {
+            name: p.name || '(leer)',
+            company: p.company || '(leer)',
+            email: p.email || '(leer)',
+            source: p.source || (p.sample ? `Sample ${p.sample}` : 'Upload')
+          });
         }
         
         // Wenn Response ein Array ist (n8n kann Arrays zurückgeben)
@@ -631,27 +742,21 @@
             }
           });
           renderResults();
-          console.log('✅ Array-Daten in Tabelle eingefügt');
+          console.log(`✅ Array-Daten in Tabelle eingefügt: ${responseData.length} Einträge`);
         }
         
-        // Zeige Erfolgs-Meldung kurz
-        loading.textContent = '✅ Workflow läuft...';
+        console.groupEnd(); // Workflow-Log-Gruppe schließen
         
-        // Zeige Workflow-Visualisierung
+        // Update Loading-State wenn Response kommt
+        loading.innerHTML = '<div class="spinner"></div><p class="loading-text">✅ Workflow gestartet - Extraktion läuft...</p>';
+        
+        // Zeige Workflow-Visualisierung (Loading-State statt statischem Demo-Bild)
         if (responseData.executionUrl) {
-          // Option 1: Falls n8n eine Execution-URL zurückgibt, lade diese (Workflow-Visualisierung)
+          // Option 1: Falls n8n eine Execution-URL zurückgibt, lade diese (echte Workflow-Visualisierung)
           iframe.src = responseData.executionUrl;
           loading.style.display = 'none';
         } else {
-          // Option 2: Zeige Video/Screenshot des Workflows als Demo
-          // Video oder Screenshot des n8n Workflows
-          const workflowVideoUrl = 'https://karusocaminar.github.io/kortex-website/assets/workflow-demo.mp4'; // Video URL (falls vorhanden)
-          const workflowScreenshotUrl = 'https://karusocaminar.github.io/kortex-website/assets/workflow-demo.png'; // Screenshot URL
-          
-          // Verwende Screenshot (workflow-demo.png ist vorhanden)
-          const mediaUrl = workflowScreenshotUrl;
-          console.log('🖼️ Lade Workflow-Demo-Bild:', mediaUrl);
-          
+          // Option 2: Zeige Loading-State mit Spinner statt statischem Demo-Bild
           iframe.srcdoc = `
             <html>
               <head>
@@ -665,96 +770,97 @@
                     color: white;
                     display: flex;
                     flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
                     height: 100vh;
                     overflow: hidden;
                   }
-                  .header {
-                    text-align: center;
-                    padding: 1rem 1rem 0.5rem;
-                    flex-shrink: 0;
-                  }
-                  h2 { 
-                    margin: 0 0 0.75rem; 
-                    font-size: 2rem;
-                    line-height: 1.2;
-                    font-weight: 700;
-                  }
-                  .subtitle { 
-                    color: #cbd5e1; 
-                    font-size: 1.2rem;
-                    margin: 0;
-                    font-weight: 500;
-                  }
-                  .media-container {
-                    flex: 1;
+                  .spinner-container {
                     display: flex;
+                    flex-direction: column;
                     align-items: center;
                     justify-content: center;
-                    width: 100%;
-                    min-height: 0;
-                    padding: 1rem;
-                    overflow: auto;
-                    background: rgba(0, 0, 0, 0.2);
+                    gap: 1.5rem;
                   }
-                  .media-container img,
-                  .media-container video {
-                    max-width: 100%;
-                    max-height: 100%;
-                    width: auto;
-                    height: auto;
-                    border-radius: 12px;
-                    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
-                    object-fit: contain;
+                  .spinner {
+                    width: 60px;
+                    height: 60px;
+                    border: 4px solid rgba(255, 255, 255, 0.1);
+                    border-top-color: #3b82f6;
+                    border-radius: 50%;
+                    animation: spin 1s linear infinite;
                   }
-                  .media-container img {
-                    display: block;
-                    margin: 0 auto;
+                  @keyframes spin {
+                    to { transform: rotate(360deg); }
+                  }
+                  .loading-text {
+                    font-size: 1.2rem;
+                    color: #cbd5e1;
+                    font-weight: 500;
+                    text-align: center;
                   }
                   .info-text {
-                    text-align: center;
-                    padding: 0.75rem 1rem 1rem;
+                    font-size: 0.9rem;
                     color: #94a3b8;
-                    font-size: 0.8rem;
-                    flex-shrink: 0;
-                    margin: 0;
+                    text-align: center;
+                    margin-top: 1rem;
                   }
                 </style>
               </head>
               <body>
-                <div class="header">
-                  <h2 data-i18n="modal.workflow.started">✅ Workflow erfolgreich gestartet</h2>
-                  <p class="subtitle" data-i18n="modal.workflow.visualization">Workflow-Visualisierung</p>
-                </div>
-                <div class="media-container">
-                  ${mediaUrl.endsWith('.mp4') || mediaUrl.endsWith('.webm') || mediaUrl.endsWith('.mov')
-                    ? `<video autoplay loop muted playsinline style="max-width: 100%; max-height: 100%; width: auto; height: auto; border-radius: 12px; box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);">
-                         <source src="${mediaUrl}" type="video/mp4">
-                         Your browser does not support the video tag.
-                       </video>`
-                    : `<img src="${mediaUrl}" alt="n8n Workflow Demo" style="max-width: 100%; max-height: 100%; width: auto; height: auto; border-radius: 12px; box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3); object-fit: contain; display: block;" onload="console.log('✅ Bild geladen:', '${mediaUrl}');" onerror="console.error('❌ Bild konnte nicht geladen werden:', '${mediaUrl}'); this.parentElement.innerHTML='<p style=\\'color:#ef4444;\\'>⚠️ Workflow-Demo-Bild konnte nicht geladen werden. Die Extraktion läuft trotzdem im Hintergrund.</p><p style=\\'color:#94a3b8;\\'>Ergebnisse erscheinen automatisch in der Tabelle.</p>';">
-                       </img>`
-                  }
-                </div>
-                <div class="info-text" data-i18n="modal.workflow.background">
-                  Die Extraktion läuft im Hintergrund. Ergebnisse erscheinen automatisch in der Tabelle.
+                <div class="spinner-container">
+                  <div class="spinner"></div>
+                  <div class="loading-text" data-i18n="modal.workflow.extracting">KI extrahiert Kontaktdaten...</div>
+                  <div class="info-text" data-i18n="modal.workflow.background">
+                    Die Extraktion läuft im Hintergrund. Ergebnisse erscheinen automatisch in der Tabelle.
+                  </div>
                 </div>
               </body>
             </html>
           `;
           
-          // Verstecke Loading nach 1 Sekunde
-          setTimeout(() => {
-            loading.style.display = 'none';
-          }, 1000);
+          // Verstecke Loading nach Workflow abgeschlossen (wird durch Response-Handling aktualisiert)
+          // Loading bleibt sichtbar bis echte Response kommt
         }
         
-      } catch (error) {
-        console.error('❌ Fehler beim Triggern des Workflows:', error);
-        loading.textContent = '⚠️ Fehler beim Starten des Workflows';
+        // Verstecke Loading-Indicator nach kurzer Zeit (Workflow läuft im Hintergrund)
+        setTimeout(() => {
+          loading.style.display = 'none';
+        }, 2000);
         
-        // Detaillierte Fehleranzeige
-        const errorMessage = error.message || 'Unbekannter Fehler';
-        console.error('Fehler-Details:', errorMessage);
+        } catch (error) {
+          const errorTimestamp = new Date().toISOString();
+          const errorDetails = {
+            message: error.message || 'Unbekannter Fehler',
+            name: error.name || 'Error',
+            stack: error.stack || 'Kein Stack-Trace',
+            workflowUrl: webhookUrl,
+            sampleParam: sampleParam || 'Upload',
+            type: 'exception',
+            timestamp: errorTimestamp
+          };
+          
+          // Speichere Fehler in Log
+          if (typeof workflowLog !== 'undefined') {
+            workflowLog.errors.push(errorDetails);
+            workflowLog.status = 'error';
+            
+            // Update in localStorage
+            const logs = JSON.parse(localStorage.getItem('workflowLogs') || '[]');
+            const logIndex = logs.findIndex(l => l.id === logId);
+            if (logIndex !== -1) {
+              logs[logIndex] = workflowLog;
+              localStorage.setItem('workflowLogs', JSON.stringify(logs));
+            }
+          }
+          
+          console.group('❌ Workflow Fehler');
+          console.error('⏰ Zeitstempel:', errorTimestamp);
+          console.error('❌ Fehler beim Triggern des Workflows:', error);
+          console.error('📋 Fehler Details:', errorDetails);
+          console.groupEnd();
+          
+          loading.innerHTML = '<p style="color: #ef4444;">⚠️ Fehler beim Starten des Workflows</p>';
         
         // Zeige Fehler-Meldung
         iframe.srcdoc = `
@@ -850,47 +956,7 @@
           
           console.log('🔍 Click auf Card:', { workflowUrl, workflowTitle, sampleParam });
           
-          // Demo-Daten für Sample 1/2/3 sofort einfügen (für "Wow"-Effekt)
-          if (sampleParam === 'sample=1') {
-            extractedResults.unshift({
-              name: 'Oliver Krause',
-              company: 'DSBOK / eDSB Oliver Krause',
-              email: 'ok@dsbok.de',
-              phone: '0160/538 47 27',
-              address: '',
-              city: '',
-              source: 'Sample 1',
-              timestamp: new Date().toISOString()
-            });
-            renderResults();
-          } else if (sampleParam === 'sample=2') {
-            extractedResults.unshift({
-              name: 'Gabi Graßnick',
-              company: 'Bestattungen Graßnick',
-              email: 'info@bestattungen-grassnick.de',
-              phone: '0157-76 59 33 86',
-              address: '',
-              city: '',
-              source: 'Sample 2',
-              timestamp: new Date().toISOString()
-            });
-            renderResults();
-          } else if (sampleParam === 'sample=3') {
-            // Sample 3 - Daten werden vom Workflow extrahiert
-            // Für Demo-Effekt: Hier können Demo-Daten eingefügt werden, falls bekannt
-            extractedResults.unshift({
-              name: 'KI-Extraktion läuft...',
-              company: '',
-              email: '',
-              phone: '',
-              address: '',
-              city: '',
-              source: 'Sample 3',
-              timestamp: new Date().toISOString()
-            });
-            renderResults();
-          }
-          
+          // KEINE Demo-Daten mehr - nur echte AI-Responses werden angezeigt
           // Öffne Modal und triggere Workflow
           if (!workflowUrl) {
             console.error('❌ Workflow-URL nicht gefunden für:', workflowTitle);
@@ -899,10 +965,8 @@
           }
           await openWorkflowModal(workflowUrl, workflowTitle);
           
-          // Schließe Modal nach 5 Sekunden automatisch (länger damit Video/Screenshot sichtbar ist)
-          setTimeout(() => {
-            closeWorkflowModal();
-          }, 5000);
+          // Modal bleibt offen - Ergebnisse erscheinen automatisch in der Tabelle
+          // Nutzer kann Modal manuell schließen oder es bleibt offen bis Results kommen
         });
       });
       
@@ -910,21 +974,34 @@
       const fileInput = document.getElementById('business-card-upload-input');
       const uploadLabel = document.querySelector('label[for="business-card-upload-input"]');
       
-      // Verhindere dass Label-Click den normalen Card-Handler auslöst
+      // File Input Handler für Upload
+      // WICHTIG: Label-Click muss File Input triggern!
       if (uploadLabel) {
         uploadLabel.addEventListener('click', (e) => {
-          // Nur File Input öffnen, kein Workflow triggern
+          e.preventDefault();
+          e.stopPropagation();
+          
+          // Verhindere dass Label-Click den normalen Card-Handler auslöst
           if (e.target === uploadLabel || e.target.closest('.demo-card')) {
-            // Lass den File Input den Dialog öffnen
-            return;
+            // Öffne File Input Dialog
+            if (fileInput) {
+              fileInput.click();
+            }
+            return false;
           }
         });
       }
       
       if (fileInput) {
+        // Stelle sicher, dass File Input sichtbar ist für Screen Reader
+        fileInput.setAttribute('aria-label', 'Visitenkarte hochladen');
+        
         fileInput.addEventListener('change', async (e) => {
           const file = e.target.files?.[0];
-          if (!file) return;
+          if (!file) {
+            console.log('⚠️ Keine Datei ausgewählt');
+            return;
+          }
           
           // Validiere Datei
           if (!file.type.startsWith('image/')) {
@@ -945,10 +1022,8 @@
           // Öffne Modal und übergebe File direkt
           await openWorkflowModal(workflowUrl, 'Eigene Visitenkarte hochladen', file);
           
-          // Schließe Modal nach 5 Sekunden
-          setTimeout(() => {
-            closeWorkflowModal();
-          }, 5000);
+          // Modal bleibt offen - Ergebnisse erscheinen automatisch in der Tabelle
+          // Nutzer kann Modal manuell schließen oder es bleibt offen bis Results kommen
           
           // Reset File Input nach Upload
           fileInput.value = '';

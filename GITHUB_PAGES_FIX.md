@@ -61,3 +61,4 @@ Nach den Änderungen sollte:
 - ✅ Keine Redirects zu Hostinger mehr auftreten
 - ✅ Die "Visit page" Button im GitHub Repository zur korrekten GitHub Pages URL führen
 
+

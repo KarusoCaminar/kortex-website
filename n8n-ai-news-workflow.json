@@ -1,0 +1,217 @@
+{
+  "name": "AI News Aggregator - Kortex System",
+  "nodes": [
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "field": "hours",
+              "hoursInterval": 2
+            }
+          ]
+        }
+      },
+      "id": "cron-trigger",
+      "name": "Alle 2 Stunden",
+      "type": "n8n-nodes-base.cron",
+      "typeVersion": 1,
+      "position": [240, 300],
+      "notes": "Trigger alle 2 Stunden für aktuelle AI-News"
+    },
+    {
+      "parameters": {
+        "url": "https://ai.googleblog.com/feeds/posts/default",
+        "options": {
+          "response": {
+            "response": {
+              "responseFormat": "xml"
+            }
+          }
+        }
+      },
+      "id": "google-ai-rss",
+      "name": "Google AI Blog RSS",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.1,
+      "position": [460, 200],
+      "notes": "Lädt Google AI Blog RSS Feed"
+    },
+    {
+      "parameters": {
+        "url": "https://blog.n8n.io/rss.xml",
+        "options": {
+          "response": {
+            "response": {
+              "responseFormat": "xml"
+            }
+          }
+        }
+      },
+      "id": "n8n-blog-rss",
+      "name": "n8n Blog RSS",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.1,
+      "position": [460, 300],
+      "notes": "Lädt n8n Blog RSS Feed"
+    },
+    {
+      "parameters": {
+        "url": "https://openai.com/blog/rss.xml",
+        "options": {
+          "response": {
+            "response": {
+              "responseFormat": "xml"
+            }
+          }
+        }
+      },
+      "id": "openai-blog-rss",
+      "name": "OpenAI Blog RSS",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.1,
+      "position": [460, 400],
+      "notes": "Lädt OpenAI Blog RSS Feed"
+    },
+    {
+      "parameters": {
+        "jsCode": "// Parse RSS Feeds und sammle AI-News\nconst items = [];\n\n// Funktion zum Parsen von RSS XML\nfunction parseRSS(xmlString, source) {\n  const parser = new DOMParser();\n  const xmlDoc = parser.parseFromString(xmlString, 'text/xml');\n  const rssItems = xmlDoc.querySelectorAll('item');\n  \n  const parsed = [];\n  rssItems.forEach((item, index) => {\n    if (index < 5) { // Nur erste 5 Einträge\n      const title = item.querySelector('title')?.textContent || '';\n      const description = item.querySelector('description')?.textContent?.replace(/<[^>]*>/g, '') || '';\n      const link = item.querySelector('link')?.textContent || '';\n      const pubDate = item.querySelector('pubDate')?.textContent || '';\n      \n      // Filtere nur relevante AI-News\n      const titleLower = title.toLowerCase();\n      const descLower = description.toLowerCase();\n      \n      if (titleLower.includes('ai') || \n          titleLower.includes('machine learning') || \n          titleLower.includes('llm') || \n          titleLower.includes('gemini') || \n          titleLower.includes('gpt') || \n          titleLower.includes('claude') || \n          titleLower.includes('automation') ||\n          titleLower.includes('workflow') ||\n          descLower.includes('artificial intelligence')) {\n        \n        // Bestimme Kategorie\n        let category = 'große-modelle';\n        if (titleLower.includes('workflow') || titleLower.includes('n8n') || titleLower.includes('automation')) {\n          category = 'workflow-tools';\n        } else if (titleLower.includes('sales') || titleLower.includes('hubspot') || titleLower.includes('crm')) {\n          category = 'sales-tools';\n        }\n        \n        parsed.push({\n          title: title,\n          description: description.substring(0, 150),\n          link: link,\n          date: new Date(pubDate).toISOString(),\n          source: source,\n          category: category,\n          language: 'en'\n        });\n      }\n    }\n  });\n  \n  return parsed;\n}\n\n// Parse alle RSS Feeds\nconst googleData = $('Google AI Blog RSS').item?.json || {};\nconst n8nData = $('n8n Blog RSS').item?.json || {};\nconst openaiData = $('OpenAI Blog RSS').item?.json || {};\n\n// Versuche RSS XML zu parsen\nif (googleData.body || googleData.data) {\n  const xml = googleData.body || googleData.data || '';\n  items.push(...parseRSS(xml, 'Google AI'));\n}\n\nif (n8nData.body || n8nData.data) {\n  const xml = n8nData.body || n8nData.data || '';\n  items.push(...parseRSS(xml, 'n8n Blog'));\n}\n\nif (openaiData.body || openaiData.data) {\n  const xml = openaiData.body || openaiData.data || '';\n  items.push(...parseRSS(xml, 'OpenAI'));\n}\n\n// KI-Tools News (statisch, kann später durch APIs erweitert werden)\nconst aitoolsNews = [\n  {\n    title: 'Fireflies AI: Meeting Transcription & Analysis',\n    description: 'Fireflies AI automates meeting recordings and extracts key points for sales and project teams.',\n    link: 'https://fireflies.ai',\n    date: new Date().toISOString(),\n    source: 'Fireflies AI',\n    category: 'sales-tools',\n    language: 'en'\n  },\n  {\n    title: 'HubSpot AI: Automated Lead Scoring',\n    description: 'HubSpot AI automatically scores leads and prioritizes the best sales opportunities.',\n    link: 'https://www.hubspot.com/products/ai',\n    date: new Date(Date.now() - 24 * 60 * 60 * 1000).toISOString(),\n    source: 'HubSpot AI',\n    category: 'sales-tools',\n    language: 'en'\n  },\n  {\n    title: 'Gemini 2.5 Flash: AI for SMEs',\n    description: 'Google\\'s Gemini 2.5 Flash enables fast and cost-effective AI processing for SMEs.',\n    link: 'https://deepmind.google/technologies/gemini/',\n    date: new Date(Date.now() - 2 * 24 * 60 * 60 * 1000).toISOString(),\n    source: 'Google AI',\n    category: 'große-modelle',\n    language: 'en'\n  }\n];\n\nitems.push(...aitoolsNews);\n\n// Entferne Duplikate\nconst uniqueItems = items.filter((item, index, self) => \n  index === self.findIndex(t => t.link === item.link)\n);\n\n// Sortiere nach Datum\nconst sortedItems = uniqueItems.sort((a, b) => new Date(b.date) - new Date(a.date));\n\n// Limitiere auf 10 News\nreturn sortedItems.slice(0, 10).map(item => ({ json: item }));"
+      },
+      "id": "parse-rss",
+      "name": "Parse RSS & Filter",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [680, 300],
+      "notes": "Parst RSS Feeds und filtert nach relevanten AI-News"
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "add-german-translations",
+              "name": "de_title",
+              "value": "={{ $json.title }}",
+              "type": "string"
+            },
+            {
+              "id": "add-german-translations-2",
+              "name": "de_description",
+              "value": "={{ $json.description }}",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "id": "add-translations",
+      "name": "Füge Übersetzungen hinzu",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.3,
+      "position": [900, 300],
+      "notes": "Fügt deutsche Übersetzungen hinzu (optional, kann mit AI Agent erweitert werden)"
+    },
+    {
+      "parameters": {
+        "url": "={{ $env.WEBHOOK_URL || 'https://your-domain.com/api/ai-news' }}",
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={{ JSON.stringify($json) }}",
+        "options": {}
+      },
+      "id": "webhook-call",
+      "name": "Sende an Website",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.1,
+      "position": [1120, 300],
+      "notes": "Sendet News an Website-API (optional)"
+    }
+  ],
+  "connections": {
+    "Alle 2 Stunden": {
+      "main": [
+        [
+          {
+            "node": "Google AI Blog RSS",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "n8n Blog RSS",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "OpenAI Blog RSS",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Google AI Blog RSS": {
+      "main": [
+        [
+          {
+            "node": "Parse RSS & Filter",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "n8n Blog RSS": {
+      "main": [
+        [
+          {
+            "node": "Parse RSS & Filter",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "OpenAI Blog RSS": {
+      "main": [
+        [
+          {
+            "node": "Parse RSS & Filter",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Parse RSS & Filter": {
+      "main": [
+        [
+          {
+            "node": "Füge Übersetzungen hinzu",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Füge Übersetzungen hinzu": {
+      "main": [
+        [
+          {
+            "node": "Sende an Website",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "pinData": {},
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "staticData": null,
+  "tags": [],
+  "triggerCount": 0,
+  "versionId": "1"
+}
+

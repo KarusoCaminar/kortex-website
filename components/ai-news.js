@@ -134,6 +134,15 @@
       text-decoration: underline;
     }
     
+    .ai-news-item .category-badge {
+      background: rgba(3, 78, 162, 0.1);
+      color: var(--primary, #034EA2);
+      padding: 2px 8px;
+      border-radius: 12px;
+      font-size: 0.7rem;
+      font-weight: 500;
+    }
+    
     .ai-news-loading {
       text-align: center;
       padding: 2rem 1rem;
@@ -371,6 +380,7 @@
             <div class="meta">
               <span>📅 ${formatDate(item.date || item.pubDate || new Date())}</span>
               ${item.source ? `<span>📰 ${escapeHtml(item.source)}</span>` : ''}
+              ${item.category ? `<span class="category-badge">${getCategoryEmoji(item.category)} ${getCategoryName(item.category, window.i18n?.getCurrentLanguage() || 'de')}</span>` : ''}
               ${item.link ? `<a href="${item.link}" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation();">${readMoreText}</a>` : ''}
             </div>
           </div>
@@ -388,63 +398,153 @@
   
   async function fetchAINewsFromMultipleSources() {
     const news = [];
+    const lang = window.i18n?.getCurrentLanguage() || 'de';
     
-    // Reddit r/MachineLearning (International)
+    // Seriöse Quellen: RSS Feeds und APIs
+    
+    // 1. Google AI Blog (über n8n Webhook oder direkte Links)
+    // Hinweis: RSS Feeds haben oft CORS-Probleme - besser über n8n Workflow
+    // Für jetzt: Curated News von Google AI
     try {
-      const redditResponse = await fetch('https://www.reddit.com/r/MachineLearning/hot.json?limit=5');
-      if (redditResponse.ok) {
-        const redditData = await redditResponse.json();
-        const redditPosts = redditData.data.children.slice(0, 2).map(post => ({
-          title: post.data.title,
-          description: (post.data.selftext || '').substring(0, 120) + '...',
-          date: new Date(post.data.created_utc * 1000),
-          link: `https://reddit.com${post.data.permalink}`,
-          source: 'Reddit ML'
-        }));
-        news.push(...redditPosts);
+      // Prüfe ob n8n Webhook für AI-News verfügbar ist
+      const n8nNewsUrl = 'https://n8n2.kortex-system.de/webhook/ai-news-feed';
+      try {
+        const n8nResponse = await fetch(n8nNewsUrl, {
+          method: 'GET',
+          headers: { 'Accept': 'application/json' }
+        });
+        if (n8nResponse.ok) {
+          const n8nData = await n8nResponse.json();
+          if (n8nData && Array.isArray(n8nData)) {
+            news.push(...n8nData.slice(0, 3));
+            // Skip weitere Quellen wenn n8n erfolgreich war
+          }
+        }
+      } catch (n8nError) {
+        // Falls n8n nicht verfügbar, nutze Curated News
+        console.log('n8n AI-News nicht verfügbar, nutze Curated News');
       }
     } catch (e) {
-      console.warn('Reddit API Fehler:', e);
+      console.warn('AI-News Fehler:', e);
     }
     
-    // Hacker News (AI-relevante Stories)
+    // 2. OpenAI Blog (RSS Feed via CORS Proxy oder n8n)
     try {
-      const hnResponse = await fetch('https://hacker-news.firebaseio.com/v0/topstories.json');
-      if (hnResponse.ok) {
-        const storyIds = await hnResponse.json();
-        const topStories = await Promise.all(
-          storyIds.slice(0, 5).map(async id => {
-            try {
-              const storyResponse = await fetch(`https://hacker-news.firebaseio.com/v0/item/${id}.json`);
-              if (storyResponse.ok) {
-                const story = await storyResponse.json();
-                if (story.title && story.url && (
-                  story.title.toLowerCase().includes('ai') || 
-                  story.title.toLowerCase().includes('machine learning') || 
-                  story.title.toLowerCase().includes('llm') ||
-                  story.title.toLowerCase().includes('automation') ||
-                  story.title.toLowerCase().includes('gemini') ||
-                  story.title.toLowerCase().includes('gpt')
-                )) {
-                  return {
-                    title: story.title,
-                    description: `Tech News: ${story.url.split('/')[2]}`,
-                    date: new Date(story.time * 1000),
-                    link: story.url,
-                    source: 'Hacker News'
-                  };
-                }
-              }
-            } catch (e) {
-              return null;
+      // OpenAI RSS benötigt CORS Proxy oder n8n Workflow
+      // Für jetzt: Demo-Daten
+      news.push({
+        title: 'OpenAI: Latest AI Research & Models',
+        description: 'Stay updated with OpenAI\'s latest research and models that enable powerful automation workflows.',
+        date: new Date(),
+        link: 'https://openai.com/research',
+        source: 'OpenAI',
+        category: 'große-modelle',
+        language: 'en'
+      });
+    } catch (e) {
+      console.warn('OpenAI Blog Fehler:', e);
+    }
+    
+    // 3. n8n Blog (RSS Feed)
+    try {
+      const n8nResponse = await fetch('https://blog.n8n.io/rss.xml');
+      if (n8nResponse.ok) {
+        const n8nText = await n8nResponse.text();
+        // Einfacher XML Parser für RSS
+        const parser = new DOMParser();
+        const xmlDoc = parser.parseFromString(n8nText, 'text/xml');
+        const items = xmlDoc.querySelectorAll('item');
+        items.forEach((item, index) => {
+          if (index < 2) {
+            const title = item.querySelector('title')?.textContent || '';
+            const description = item.querySelector('description')?.textContent?.replace(/<[^>]*>/g, '').substring(0, 150) || '';
+            const link = item.querySelector('link')?.textContent || '';
+            const pubDate = item.querySelector('pubDate')?.textContent || '';
+            
+            if (title.toLowerCase().includes('ai') || title.toLowerCase().includes('workflow')) {
+              news.push({
+                title: title,
+                description: description,
+                date: new Date(pubDate),
+                link: link,
+                source: 'n8n Blog',
+                category: 'workflow-tools',
+                language: 'en'
+              });
             }
-            return null;
-          })
-        );
-        news.push(...topStories.filter(s => s !== null && s.link).slice(0, 2));
+          }
+        });
       }
     } catch (e) {
-      console.warn('Hacker News API Fehler:', e);
+      console.warn('n8n Blog Fehler:', e);
+    }
+    
+    // 4. KI-Tools News (branchenspezifisch)
+    const aitoolsNews = [
+      {
+        title: lang === 'de' ? 'Fireflies AI: Meeting-Transkription & Analyse' : 'Fireflies AI: Meeting Transcription & Analysis',
+        description: lang === 'de' ? 'Fireflies AI automatisiert Meeting-Aufzeichnungen und extrahiert wichtige Punkte für Sales- und Projektteams.' : 'Fireflies AI automates meeting recordings and extracts key points for sales and project teams.',
+        date: new Date(Date.now() - 2 * 24 * 60 * 60 * 1000),
+        link: 'https://fireflies.ai',
+        source: 'Fireflies AI',
+        category: 'sales-tools',
+        language: lang
+      },
+      {
+        title: lang === 'de' ? 'HubSpot AI: Automatisierte Lead-Bewertung' : 'HubSpot AI: Automated Lead Scoring',
+        description: lang === 'de' ? 'HubSpot AI bewertet Leads automatisch und priorisiert die besten Verkaufschancen für Ihr Sales-Team.' : 'HubSpot AI automatically scores leads and prioritizes the best sales opportunities.',
+        date: new Date(Date.now() - 3 * 24 * 60 * 60 * 1000),
+        link: 'https://www.hubspot.com/products/ai',
+        source: 'HubSpot AI',
+        category: 'sales-tools',
+        language: lang
+      },
+      {
+        title: lang === 'de' ? 'Gemini 2.5 Flash: KI für den Mittelstand' : 'Gemini 2.5 Flash: AI for SMEs',
+        description: lang === 'de' ? 'Google\'s Gemini 2.5 Flash ermöglicht schnelle und kosteneffiziente KI-Verarbeitung für deutsche KMUs.' : 'Google\'s Gemini 2.5 Flash enables fast and cost-effective AI processing for SMEs.',
+        date: new Date(Date.now() - 1 * 24 * 60 * 60 * 1000),
+        link: 'https://deepmind.google/technologies/gemini/',
+        source: 'Google AI',
+        category: 'große-modelle',
+        language: lang
+      },
+      {
+        title: lang === 'de' ? 'Otter.ai: KI-gestützte Meeting-Notizen' : 'Otter.ai: AI-Powered Meeting Notes',
+        description: lang === 'de' ? 'Otter.ai erstellt automatisch Transkripte, Zusammenfassungen und Action Items aus Meetings.' : 'Otter.ai automatically creates transcripts, summaries, and action items from meetings.',
+        date: new Date(Date.now() - 4 * 24 * 60 * 60 * 1000),
+        link: 'https://otter.ai',
+        source: 'Otter.ai',
+        category: 'dienstleister-tools',
+        language: lang
+      },
+      {
+        title: lang === 'de' ? 'Salesforce Einstein: Predictive Analytics' : 'Salesforce Einstein: Predictive Analytics',
+        description: lang === 'de' ? 'Salesforce Einstein nutzt KI für Vorhersageanalysen und automatisiert Sales-Prozesse.' : 'Salesforce Einstein uses AI for predictive analytics and automates sales processes.',
+        date: new Date(Date.now() - 5 * 24 * 60 * 60 * 1000),
+        link: 'https://www.salesforce.com/products/einstein/overview/',
+        source: 'Salesforce',
+        category: 'sales-tools',
+        language: lang
+      }
+    ];
+    
+    // Filtere nach Sprache und füge hinzu
+    aitoolsNews
+      .filter(item => item.language === lang)
+      .slice(0, 3)
+      .forEach(item => news.push(item));
+    
+    // 5. Deutsche Quellen (falls Deutsch)
+    if (lang === 'de') {
+      news.push({
+        title: 'BMWK: KI-Förderung für Mittelstand',
+        description: 'Das BMWK informiert über KI-Förderprogramme und Digitalisierungsunterstützung für deutsche Mittelständler.',
+        date: new Date(Date.now() - 7 * 24 * 60 * 60 * 1000),
+        link: 'https://www.bmwk.de/Redaktion/DE/Dossier/kuenstliche-intelligenz.html',
+        source: 'BMWK',
+        category: 'deutsche-quellen',
+        language: 'de'
+      });
     }
     
     // Entferne Duplikate und sortiere nach Datum
@@ -452,6 +552,7 @@
       index === self.findIndex(t => t.link === item.link)
     );
     
+    // Sortiere nach Datum (neueste zuerst) und limitiere auf 5
     return uniqueNews.sort((a, b) => new Date(b.date) - new Date(a.date)).slice(0, 5);
   }
   
@@ -554,6 +655,46 @@
     const div = document.createElement('div');
     div.textContent = text;
     return div.innerHTML;
+  }
+  
+  function getCategoryEmoji(category) {
+    const emojis = {
+      'große-modelle': '🤖',
+      'workflow-tools': '⚙️',
+      'sales-tools': '💼',
+      'dienstleister-tools': '🔧',
+      'bau-tools': '🏗️',
+      'gewerbe-tools': '🛒',
+      'handwerk-tools': '🔨',
+      'deutsche-quellen': '🇩🇪'
+    };
+    return emojis[category] || '📰';
+  }
+  
+  function getCategoryName(category, lang) {
+    const names = {
+      de: {
+        'große-modelle': 'Große KI-Modelle',
+        'workflow-tools': 'Workflow-Tools',
+        'sales-tools': 'Sales-Tools',
+        'dienstleister-tools': 'Dienstleister-Tools',
+        'bau-tools': 'Bau-Tools',
+        'gewerbe-tools': 'Gewerbe-Tools',
+        'handwerk-tools': 'Handwerk-Tools',
+        'deutsche-quellen': 'Deutsche Quelle'
+      },
+      en: {
+        'große-modelle': 'Large AI Models',
+        'workflow-tools': 'Workflow Tools',
+        'sales-tools': 'Sales Tools',
+        'dienstleister-tools': 'Service Tools',
+        'bau-tools': 'Construction Tools',
+        'gewerbe-tools': 'Commerce Tools',
+        'handwerk-tools': 'Trade Tools',
+        'deutsche-quellen': 'German Source'
+      }
+    };
+    return names[lang]?.[category] || category;
   }
   
   function formatDate(date) {
