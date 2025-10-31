@@ -740,6 +740,107 @@
         console.log('✅ Workflow Response:', responseData);
         console.log('📊 Response Struktur:', responseStructure);
         
+        // Prüfe ob Workflow nur gestartet wurde (asynchron)
+        if (responseData.message && responseData.message.includes('Workflow was started')) {
+          console.log('⚠️ Workflow läuft asynchron - warte auf finale Antwort...');
+          loading.innerHTML = `<div class="spinner"></div><p class="loading-text">⏳ Workflow läuft... warte auf Ergebnisse (max. 30s)</p>`;
+          
+          // Polling: Warte auf finale Antwort (n8n gibt Daten später zurück)
+          // Hinweis: Der Workflow sollte über "Respond to Webhook" die Daten zurückgeben
+          // Falls das nicht funktioniert, müssen wir auf eine andere Lösung warten
+          
+          // Zeige Info-Meldung
+          iframe.srcdoc = `
+            <html>
+              <head>
+                <style>
+                  * { box-sizing: border-box; }
+                  body {
+                    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+                    margin: 0;
+                    padding: 1rem;
+                    background: linear-gradient(135deg, #0a1628 0%, #09182F 100%);
+                    color: white;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    height: 100vh;
+                    overflow: hidden;
+                  }
+                  .spinner-container {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    gap: 1.5rem;
+                  }
+                  .spinner {
+                    width: 60px;
+                    height: 60px;
+                    border: 4px solid rgba(255, 255, 255, 0.1);
+                    border-top-color: #3b82f6;
+                    border-radius: 50%;
+                    animation: spin 1s linear infinite;
+                  }
+                  @keyframes spin {
+                    to { transform: rotate(360deg); }
+                  }
+                  .loading-text {
+                    font-size: 1.2rem;
+                    color: #cbd5e1;
+                    font-weight: 500;
+                    text-align: center;
+                  }
+                  .info-text {
+                    font-size: 0.9rem;
+                    color: #94a3b8;
+                    text-align: center;
+                    margin-top: 1rem;
+                  }
+                  .warning {
+                    color: #fbbf24;
+                    font-size: 0.85rem;
+                    margin-top: 0.5rem;
+                  }
+                </style>
+              </head>
+              <body>
+                <div class="spinner-container">
+                  <div class="spinner"></div>
+                  <div class="loading-text">KI extrahiert Kontaktdaten...</div>
+                  <div class="info-text">
+                    Die Extraktion läuft im Hintergrund. Ergebnisse erscheinen automatisch in der Tabelle.
+                  </div>
+                  <div class="warning">
+                    ⚠️ Workflow antwortet asynchron - prüfe n8n Execution Logs falls keine Ergebnisse kommen
+                  </div>
+                </div>
+              </body>
+            </html>
+          `;
+          
+          // WICHTIG: Der Workflow sollte die Daten über "Respond to Webhook" zurückgeben
+          // Falls das nicht funktioniert, müssen wir die n8n Workflow-Konfiguration prüfen
+          console.warn('⚠️ Workflow antwortet asynchron. Prüfe n8n Workflow-Konfiguration:');
+          console.warn('1. Webhook Node sollte "responseMode: lastNode" haben');
+          console.warn('2. "Respond to Webhook" Node sollte am Ende des Workflows sein');
+          console.warn('3. "Respond to Webhook" Node sollte die extrahierten Daten zurückgeben');
+          
+          // Update Loading-State
+          loading.style.display = 'block';
+          loading.innerHTML = '<div class="spinner"></div><p class="loading-text">⏳ Warte auf Workflow-Abschluss...</p>';
+          
+          // Logge Warnung
+          addLogEvent('warning', {
+            message: 'Workflow läuft asynchron',
+            response: responseData,
+            note: 'Erwarte finale Antwort vom Workflow'
+          });
+          
+          // KEIN RETURN - lass den Code weiterlaufen, falls später doch Daten kommen
+        }
+        
         // Verarbeite Response-Daten direkt (für Upload oder wenn Daten sofort zurückkommen)
         if (responseData.type === 'business-card-processed' && responseData.payload) {
           const p = responseData.payload;
@@ -760,6 +861,9 @@
             email: p.email || '(leer)',
             source: p.source || (p.sample ? `Sample ${p.sample}` : 'Upload')
           });
+          
+          // Update Loading-State bei Erfolg
+          loading.style.display = 'none';
         }
         
         // Wenn Response ein Array ist (n8n kann Arrays zurückgeben)
@@ -781,6 +885,13 @@
           });
           renderResults();
           console.log(`✅ Array-Daten in Tabelle eingefügt: ${responseData.length} Einträge`);
+          loading.style.display = 'none';
+        }
+        
+        // Falls keine Daten kamen, aber auch keine "Workflow was started" Message
+        if (!responseData.type && !responseData.message && !Array.isArray(responseData)) {
+          console.warn('⚠️ Unerwartete Response-Struktur:', responseData);
+          loading.innerHTML = '<div class="spinner" style="border-top-color: #fbbf24;"></div><p class="loading-text" style="color: #fbbf24;">⚠️ Unerwartete Response-Struktur - prüfe Logs</p>';
         }
         
         console.groupEnd(); // Workflow-Log-Gruppe schließen
@@ -928,7 +1039,10 @@
             <body>
               <div class="container">
                 <h2>⚠️ Fehler</h2>
-                <p>${error.message}</p>
+                <p>${error.message || 'Unbekannter Fehler'}</p>
+                <p style="font-size: 0.9rem; color: #64748b; margin-top: 1rem;">
+                  Bitte prüfen Sie die Browser-Konsole für weitere Details oder öffnen Sie <a href="view-logs.html" style="color: #3b82f6;">view-logs.html</a> für eine Übersicht.
+                </p>
               </div>
             </body>
           </html>
