@@ -1459,12 +1459,14 @@
       const allowedOrigins = [
         'https://koretex-invoice-db.onrender.com',
         'https://n8n.kortex.de',
+        'https://n8n2.kortex-system.de',
         'http://localhost:5000'
       ];
       
       // Check if message is from an allowed origin
       const isAllowed = allowedOrigins.some(origin => event.origin.includes(origin));
       if (!isAllowed) {
+        console.warn('⚠️ PostMessage von nicht erlaubter Origin:', event.origin);
         return;
       }
       
