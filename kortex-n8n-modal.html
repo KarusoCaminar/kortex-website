@@ -954,11 +954,13 @@
         // Prüfe ob Workflow nur gestartet wurde (asynchron)
         // WICHTIG: Bei "Workflow was started" müssen wir auf die finale Response vom "Respond to Webhook" Node warten
         if (actualResponseData.message && actualResponseData.message.includes('Workflow was started')) {
-          console.log('⚠️ Workflow läuft asynchron - starte Polling für finale Response...');
+          console.error('⚠️ Workflow läuft asynchron - ABER: Response sollte final sein!');
+          console.error('🔧 Problem: n8n Webhook Node ist NICHT auf "lastNode" eingestellt!');
+          console.error('📋 Response:', actualResponseData);
           
           // Zeige statisches Workflow-Screenshot UND Loading-Indicator (Workflow läuft noch!)
           loading.style.display = 'block';
-          loading.innerHTML = '<div class="spinner"></div><p class="loading-text">⏳ Workflow läuft... warte auf Ergebnisse</p>';
+          updateLoadingState(loading, 'waiting', 60);
           iframe.srcdoc = `
             <html>
               <head>
