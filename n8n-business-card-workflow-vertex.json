@@ -6,8 +6,7 @@
         "path": "business-card-extraction",
         "options": {
           "responseCode": 200,
-          "responseMode": "lastNode",
-          "continueOnFail": false
+          "responseMode": "lastNode"
         },
         "binaryPropertyName": "file"
       },
@@ -142,7 +141,7 @@
     {
       "parameters": {
         "mode": "runOnceForEachItem",
-        "jsCode": "// Konvertiere Binary zu Base64 für Vertex AI\n// Prüfe ob Binary-Daten vorhanden sind\nif (!$binary || !$binary.data) {\n  throw new Error('Kein Binary-Daten gefunden! Stelle sicher, dass ein Bild hochgeladen wurde oder ein Sample geladen wurde.');\n}\n\nconst binary = $binary.data;\nconst binaryData = binary.data || binary;\n\nif (!binaryData) {\n  throw new Error('Kein Binary-Daten gefunden!');\n}\n\n// Base64 Encoding\nconst base64 = Buffer.from(binaryData).toString('base64');\nconst mimeType = binary.mimeType || 'image/jpeg';\n\nreturn {\n  json: {\n    sample: $json.sample || '',\n    source: $json.source || 'Upload',\n    imageBase64: base64,\n    mimeType: mimeType\n  }\n};"
+        "jsCode": "// Konvertiere Binary zu Base64 für Vertex AI\n// Prüfe ob Binary-Daten vorhanden sind\n// In n8n: Binary-Feld heißt 'file' (wie im Webhook definiert)\n\nlet binaryData = null;\nlet mimeType = 'image/jpeg';\n\n// Versuche verschiedene Möglichkeiten für Binary-Daten-Zugriff\nif ($binary && $binary.file) {\n  // Standard: $binary.file (wenn binaryPropertyName='file')\n  binaryData = $binary.file.data;\n  mimeType = $binary.file.mimeType || 'image/jpeg';\n} else if ($binary && $binary.data) {\n  // Fallback: $binary.data\n  binaryData = $binary.data.data || $binary.data;\n  mimeType = $binary.data.mimeType || 'image/jpeg';\n} else if ($binary && typeof $binary === 'object') {\n  // Fallback: Erstes Binary-Feld finden\n  const binaryKeys = Object.keys($binary);\n  if (binaryKeys.length > 0) {\n    const firstKey = binaryKeys[0];\n    binaryData = $binary[firstKey].data;\n    mimeType = $binary[firstKey].mimeType || 'image/jpeg';\n  }\n}\n\n// Prüfe ob Binary-Daten vorhanden sind\nif (!binaryData) {\n  throw new Error('Kein Binary-Daten gefunden! Stelle sicher, dass ein Bild hochgeladen wurde oder ein Sample geladen wurde. Prüfe auch ob der Webhook binaryPropertyName=\\\"file\\\" korrekt gesetzt ist.');\n}\n\n// Base64 Encoding\n// Buffer sollte in n8n verfügbar sein\nlet base64;\ntry {\n  // Versuche Buffer (Node.js)\n  if (typeof Buffer !== 'undefined') {\n    base64 = Buffer.from(binaryData, 'binary').toString('base64');\n  } else {\n    // Fallback: Binary-Daten sind möglicherweise schon Base64\n    if (typeof binaryData === 'string') {\n      // Wenn es schon Base64 ist, nimm es direkt\n      base64 = binaryData.replace(/^data:.*?;base64,/, '');\n    } else {\n      // Konvertiere Array/Uint8Array zu Base64\n      const bytes = new Uint8Array(binaryData);\n      const binString = Array.from(bytes, byte => String.fromCharCode(byte)).join('');\n      base64 = btoa(binString);\n    }\n  }\n} catch (error) {\n  console.error('Fehler bei Base64-Konvertierung:', error);\n  throw new Error(`Base64-Konvertierung fehlgeschlagen: ${error.message}`);\n}\n\n// Validiere Base64\nif (!base64 || base64.length === 0) {\n  throw new Error('Base64-Konvertierung hat leeren String erzeugt!');\n}\n\nreturn {\n  json: {\n    sample: $json.sample || '',\n    source: $json.source || 'Upload',\n    imageBase64: base64,\n    mimeType: mimeType\n  }\n};"
       },
       "id": "convert-to-base64",
       "name": "Konvertiere zu Base64",
