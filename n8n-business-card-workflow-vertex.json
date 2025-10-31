@@ -256,14 +256,14 @@
       "main": [
         [
           {
-            "node": "Setze Sample-Info",
+            "node": "Sample 1?",
             "type": "main",
             "index": 0
           }
         ],
         [
           {
-            "node": "Sample 1?",
+            "node": "Setze Sample-Info",
             "type": "main",
             "index": 0
           }
