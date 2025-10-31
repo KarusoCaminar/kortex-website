@@ -292,33 +292,6 @@
   
   async function fetchAINewsFromMultipleSources() {
     const news = [];
-    const lang = window.i18n?.getCurrentLanguage() || 'de';
-    
-    // Deutsche KMU-relevante Quellen
-    if (lang === 'de') {
-      // Google AI Blog (Deutschland-relevante News)
-      try {
-        const googleAIResponse = await fetch('https://www.googleapis.com/blogger/v3/blogs/10861780/posts?key=AIzaSyBZ6wMKMFQ-PQ5MmQgIqW_a7c5lWV0_YOo&maxResults=5');
-        if (googleAIResponse.ok) {
-          const googleData = await googleAIResponse.json();
-          if (googleData.items) {
-            googleData.items.slice(0, 2).forEach(post => {
-              if (post.title && (post.title.toLowerCase().includes('ki') || post.title.toLowerCase().includes('ai') || post.title.toLowerCase().includes('gemini'))) {
-                news.push({
-                  title: post.title,
-                  description: post.content.substring(0, 150).replace(/<[^>]*>/g, '') + '...',
-                  date: new Date(post.published),
-                  link: post.url,
-                  source: 'Google AI'
-                });
-              }
-            });
-          }
-        }
-      } catch (e) {
-        console.warn('Google AI Blog Fehler:', e);
-      }
-    }
     
     // Reddit r/MachineLearning (International)
     try {
