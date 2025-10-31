@@ -683,7 +683,7 @@
     // MODAL FUNCTIONS
     // ========================================
     
-    async function openWorkflowModal(workflowUrl, workflowTitle, uploadFile = null) {
+    async function openWorkflowModal(workflowUrl, workflowTitle, uploadFile = null, clickedLink = null) {
       const modal = document.getElementById('workflow-modal');
       const iframe = document.getElementById('workflow-iframe');
       const loading = document.getElementById('loading-indicator');
@@ -705,40 +705,38 @@
       
       try {
         // DEBUG: Log workflowTitle um zu sehen was übergeben wird
-        console.log('🔍 openWorkflowModal aufgerufen:', { workflowUrl, workflowTitle, uploadFile: !!uploadFile });
+        console.log('🔍 openWorkflowModal aufgerufen:', { workflowUrl, workflowTitle, uploadFile: !!uploadFile, clickedLink: !!clickedLink });
         
-        // Hole extra Params (z.B. sample=1)
-        // WICHTIG: Suche nach Link mit data-title - muss GENAU passen!
-        // FALLBACK: Wenn kein exakter Match, suche nach allen Links und finde den passenden
-        let activeLink = document.querySelector(`.demo-card-link[data-title="${workflowTitle}"]`);
+        // FIX: Wenn Link direkt übergeben wurde, nutze ihn direkt!
+        // Das verhindert den FALLBACK der immer Sample 1 nimmt
+        let activeLink = clickedLink;
         
-        // FALLBACK: Wenn kein Link gefunden, versuche ähnliche Titel
+        // Nur wenn kein Link übergeben wurde, suche nach Titel
         if (!activeLink && workflowTitle) {
-          console.warn('⚠️ Kein exakter Link gefunden für:', workflowTitle);
+          // Suche nach exaktem Match
+          activeLink = document.querySelector(`.demo-card-link[data-title="${workflowTitle}"]`);
           
-          // Suche alle Links und finde den mit ähnlichem Titel
-          const allLinks = document.querySelectorAll('.demo-card-link');
-          for (const link of allLinks) {
-            const linkTitle = link.getAttribute('data-title') || '';
-            // Prüfe ob Titel ähnlich ist (z.B. "Visitenkarten Demo – Sample 1" vs "Visitenkarten Demo – Sample 1")
-            if (linkTitle.includes(workflowTitle) || workflowTitle.includes(linkTitle)) {
-              activeLink = link;
-              console.log('✅ Ähnlicher Link gefunden:', {
-                workflowTitle,
-                linkTitle,
-                params: link.getAttribute('data-params')
-              });
-              break;
+          // FALLBACK: Wenn kein exakter Link gefunden, versuche ähnliche Titel
+          if (!activeLink) {
+            console.warn('⚠️ Kein exakter Link gefunden für:', workflowTitle);
+            
+            // Suche alle Links und finde den mit ähnlichem Titel
+            const allLinks = document.querySelectorAll('.demo-card-link');
+            for (const link of allLinks) {
+              const linkTitle = link.getAttribute('data-title') || '';
+              // Prüfe ob Titel ähnlich ist (z.B. "Visitenkarten Demo – Sample 1" vs "Visitenkarten Demo – Sample 1")
+              if (linkTitle.includes(workflowTitle) || workflowTitle.includes(linkTitle)) {
+                activeLink = link;
+                console.log('✅ Ähnlicher Link gefunden:', {
+                  workflowTitle,
+                  linkTitle,
+                  params: link.getAttribute('data-params')
+                });
+                break;
+              }
             }
           }
         }
-        
-        console.log('🔍 Gefundener Link:', {
-          found: !!activeLink,
-          workflowTitle,
-          linkTitle: activeLink?.getAttribute('data-title'),
-          linkParams: activeLink?.getAttribute('data-params')
-        });
         
         // Falls kein Link gefunden (z.B. bei Upload), versuche alternativen Selector
         if (!activeLink && workflowTitle === 'Eigene Visitenkarte hochladen') {
@@ -747,7 +745,8 @@
           console.log('📤 Upload-Modus: kein sample-Parameter');
         }
         
-        // WICHTIG: Falls immer noch kein Link gefunden, liste alle Links auf
+        // WICHTIG: Falls immer noch kein Link gefunden, FEHLER melden
+        // ENTFERNT: FALLBACK der immer Sample 1 nimmt - das war das Problem!
         if (!activeLink && !uploadFile) {
           console.error('❌ KRITISCH: Kein Link gefunden für:', workflowTitle);
           console.error('🔍 Alle verfügbaren Links:');
@@ -759,15 +758,19 @@
               url: link.getAttribute('data-workflow-url')
             });
           });
-          // FALLBACK: Nimm den ersten Link als Notfall-Lösung (sollte nicht passieren!)
-          if (allLinks.length > 0) {
-            activeLink = allLinks[0];
-            console.warn('⚠️ FALLBACK: Verwende ersten Link:', {
-              title: activeLink.getAttribute('data-title'),
-              params: activeLink.getAttribute('data-params')
-            });
-          }
+          // KEIN FALLBACK MEHR - Fehler wird gemeldet, aber Workflow läuft nicht mit falschen Daten
+          alert('⚠️ Fehler: Konnte den korrekten Link nicht finden. Bitte Seite neu laden und erneut versuchen.');
+          closeWorkflowModal();
+          return;
         }
+        
+        console.log('🔍 Gefundener Link:', {
+          found: !!activeLink,
+          workflowTitle,
+          linkTitle: activeLink?.getAttribute('data-title'),
+          linkParams: activeLink?.getAttribute('data-params'),
+          isClickedLink: activeLink === clickedLink
+        });
         
         const extraParams = activeLink?.getAttribute('data-params') || '';
         console.log('📋 Extra Params:', extraParams);
@@ -1600,10 +1603,10 @@
             return;
           }
           
-          // WICHTIG: Übergebe den GEFUNDENEN Link als Parameter, damit wir die richtigen data-params haben
+          // FIX: Übergebe den Link DIREKT, nicht nur workflowTitle!
           // Das verhindert dass immer nur Sample 1 verwendet wird
-          console.log('✅ Öffne Modal mit:', { workflowUrl, workflowTitle, sampleParam });
-          await openWorkflowModal(workflowUrl, workflowTitle);
+          console.log('✅ Öffne Modal mit:', { workflowUrl, workflowTitle, sampleParam, linkElement: link });
+          await openWorkflowModal(workflowUrl, workflowTitle, null, link);
           
           // Modal bleibt offen - Ergebnisse erscheinen automatisch in der Tabelle
           // Nutzer kann Modal manuell schließen oder es bleibt offen bis Results kommen
