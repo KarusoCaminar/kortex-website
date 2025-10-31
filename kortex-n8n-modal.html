@@ -1073,6 +1073,16 @@
             note: 'Erwarte finale Antwort vom Workflow'
           });
           
+          // FALLBACK: Wenn "Workflow was started" kommt und keine finalen Daten, schließe Modal nach 5 Sekunden
+          console.warn('⏱️ Fallback: Schließe Modal nach 5 Sekunden, da nur "Workflow was started" kam');
+          setTimeout(() => {
+            if (!dataProcessed) {
+              closeWorkflowModal();
+              console.warn('⚠️ Modal geschlossen - keine finalen Daten vom Workflow erhalten');
+              alert('⚠️ Der n8n Workflow hat nur "Workflow was started" zurückgegeben, aber keine finalen Daten.\n\nBitte prüfe:\n1. n8n Webhook Node → "Response Mode" = "lastNode"\n2. "Respond to Webhook" Node → Muss am Ende des Workflows sein\n3. n8n Execution Logs → Prüfe ob "Respond to Webhook" ausgeführt wurde');
+            }
+          }, 5000);
+          
           // KEIN RETURN - lass den Code weiterlaufen, falls später doch Daten kommen
         }
         
@@ -1176,12 +1186,14 @@
         }
         
         // Falls keine Daten kamen, aber auch keine "Workflow was started" Message
-        const hasType = actualResponseData.type || responseData.type;
-        const hasMessage = actualResponseData.message || responseData.message;
-        const isArray = Array.isArray(responseData);
-        
-        if (!hasType && !hasMessage && !isArray) {
-          console.warn('⚠️ Unerwartete Response-Struktur:', responseData);
+        // UND: Daten wurden NICHT verarbeitet
+        if (!dataProcessed) {
+          const hasType = actualResponseData.type || responseData.type;
+          const hasMessage = actualResponseData.message || responseData.message;
+          const isArray = Array.isArray(responseData);
+          
+          if (!hasType && !hasMessage && !isArray) {
+            console.warn('⚠️ Unerwartete Response-Struktur:', responseData);
           console.warn('📋 Vollständige Response-Struktur:', {
             keys: Object.keys(responseData),
             type: responseData.type,
@@ -1189,7 +1201,34 @@
             hasJson: !!responseData.json,
             structure: JSON.stringify(responseData, null, 2)
           });
-          loading.innerHTML = '<div class="spinner" style="border-top-color: #fbbf24;"></div><p class="loading-text" style="color: #fbbf24;">⚠️ Unerwartete Response-Struktur - prüfe Logs (F12)</p>';
+            updateLoadingState(loading, 'waiting', 80);
+            
+            // FALLBACK: Schließe Modal nach 5 Sekunden wenn keine Daten kamen
+            console.warn('⏱️ Fallback: Schließe Modal nach 5 Sekunden, da keine Daten verarbeitet wurden');
+            setTimeout(() => {
+              if (!dataProcessed) {
+                closeWorkflowModal();
+                console.warn('⚠️ Modal geschlossen - keine Daten verarbeitet');
+                alert('⚠️ Der n8n Workflow hat keine erwarteten Daten zurückgegeben.\n\nBitte prüfe:\n1. Browser-Konsole (F12) für Details\n2. n8n Execution Logs\n3. Webhook-URL ist korrekt\n4. Workflow ist aktiviert');
+              }
+            }, 5000);
+          } else {
+            // Response-Struktur war OK, aber keine Daten verarbeitet
+            console.warn('⚠️ Response-Struktur OK, aber keine Daten verarbeitet:', {
+              hasType,
+              hasMessage,
+              isArray,
+              responseData
+            });
+            
+            // FALLBACK: Schließe Modal nach 5 Sekunden
+            setTimeout(() => {
+              if (!dataProcessed) {
+                closeWorkflowModal();
+                console.warn('⚠️ Modal geschlossen - Response-Struktur OK, aber keine Daten verarbeitet');
+              }
+            }, 5000);
+          }
           
           // Zeige auch die Response-Struktur im Iframe für Debugging
           iframe.srcdoc = `
