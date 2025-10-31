@@ -253,15 +253,30 @@
       z-index: 10000;
       width: 90%;
       max-width: 400px;
+      /* Verhindere weißes Bild beim Laden */
+      background: transparent;
     }
     
     .loading-content {
-      background: rgba(15, 23, 42, 0.95);
-      backdrop-filter: blur(10px);
-      border-radius: 16px;
-      padding: 2rem;
-      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
-      border: 1px solid rgba(148, 163, 184, 0.1);
+      background: rgba(15, 23, 42, 0.98);
+      backdrop-filter: blur(20px);
+      border-radius: 20px;
+      padding: 2.5rem;
+      box-shadow: 0 12px 48px rgba(0, 0, 0, 0.6), 0 0 0 1px rgba(148, 163, 184, 0.2);
+      border: 2px solid rgba(96, 165, 250, 0.3);
+      /* Smooth Animation */
+      animation: loadingFadeIn 0.3s ease;
+    }
+    
+    @keyframes loadingFadeIn {
+      from {
+        opacity: 0;
+        transform: scale(0.9);
+      }
+      to {
+        opacity: 1;
+        transform: scale(1);
+      }
     }
     
     .spinner {
@@ -678,36 +693,64 @@
         return;
       }
       
-      // Zeige Modal sofort mit Smooth Animation
+      // Zeige Modal sofort mit Smooth Animation - VERHINDERE weißes Bild
+      modal.style.display = 'flex';
       modal.classList.add('active');
       document.body.style.overflow = 'hidden';
       
-      // Zeige Loading-Indicator mit Progress-Balken
+      // Zeige Loading-Indicator SOFORT (verhindert weißes Bild)
       loading.style.display = 'block';
       updateLoadingState(loading, 'start', 0);
       
       try {
+        // DEBUG: Log workflowTitle um zu sehen was übergeben wird
+        console.log('🔍 openWorkflowModal aufgerufen:', { workflowUrl, workflowTitle, uploadFile: !!uploadFile });
+        
         // Hole extra Params (z.B. sample=1)
-        // Suche nach Link mit data-title ODER falls workflowTitle speziell für Upload
+        // WICHTIG: Suche nach Link mit data-title - muss GENAU passen!
         let activeLink = document.querySelector(`.demo-card-link[data-title="${workflowTitle}"]`);
+        console.log('🔍 Gefundener Link:', {
+          found: !!activeLink,
+          workflowTitle,
+          linkTitle: activeLink?.getAttribute('data-title'),
+          linkParams: activeLink?.getAttribute('data-params')
+        });
         
         // Falls kein Link gefunden (z.B. bei Upload), versuche alternativen Selector
         if (!activeLink && workflowTitle === 'Eigene Visitenkarte hochladen') {
           // Für Upload gibt es keinen data-title, aber wir haben kein sample-Parameter
           activeLink = null;
+          console.log('📤 Upload-Modus: kein sample-Parameter');
+        }
+        
+        // WICHTIG: Falls kein Link gefunden, versuche mit data-params zu suchen
+        if (!activeLink && !uploadFile) {
+          console.warn('⚠️ Kein Link gefunden für:', workflowTitle);
+          console.warn('🔍 Versuche alle Links zu finden...');
+          const allLinks = document.querySelectorAll('.demo-card-link');
+          allLinks.forEach((link, index) => {
+            console.log(`Link ${index}:`, {
+              title: link.getAttribute('data-title'),
+              params: link.getAttribute('data-params'),
+              url: link.getAttribute('data-workflow-url')
+            });
+          });
         }
         
         const extraParams = activeLink?.getAttribute('data-params') || '';
+        console.log('📋 Extra Params:', extraParams);
         
         // Extrahiere sample-Parameter (z.B. "sample=1" -> "1")
         const sampleParam = extraParams.includes('sample=') 
           ? extraParams.split('sample=')[1]?.split('&')[0] || null
           : null;
+        console.log('📝 Sample Parameter:', sampleParam);
         
         // Baue Webhook-URL mit Parametern
         const webhookUrl = extraParams
           ? `${workflowUrl}${workflowUrl.includes('?') ? '&' : '?'}${extraParams}`
           : workflowUrl;
+        console.log('🌐 Final Webhook URL:', webhookUrl);
         
         // Detailliertes Logging starten
         const logTimestamp = new Date().toISOString();
@@ -1133,7 +1176,7 @@
             // Zeige Success-Indicator
             showSuccessIndicator(loading, 'Daten erfolgreich extrahiert!');
             
-            renderResults();
+          renderResults();
             console.log(`✅ Array-Daten erfolgreich in Tabelle eingefügt: ${responseData.length} Einträge`);
             
             // Auto-Close Modal nach 1.5 Sekunden und scrollen zur Tabelle
@@ -1500,7 +1543,14 @@
           const workflowTitle = link.getAttribute('data-title');
           const sampleParam = link.getAttribute('data-params');
           
-          console.log('🔍 Click auf Card:', { workflowUrl, workflowTitle, sampleParam });
+          console.log('🔍 Click auf Card:', { 
+            workflowUrl, 
+            workflowTitle, 
+            sampleParam,
+            linkElement: link,
+            hasDataTitle: link.hasAttribute('data-title'),
+            hasDataParams: link.hasAttribute('data-params')
+          });
           
           // KEINE Demo-Daten mehr - nur echte AI-Responses werden angezeigt
           // Öffne Modal und triggere Workflow
@@ -1509,6 +1559,10 @@
             alert('⚠️ Workflow-URL ist nicht konfiguriert! Bitte prüfe die data-workflow-url Attribute.');
             return;
           }
+          
+          // WICHTIG: Übergebe den GEFUNDENEN Link als Parameter, damit wir die richtigen data-params haben
+          // Das verhindert dass immer nur Sample 1 verwendet wird
+          console.log('✅ Öffne Modal mit:', { workflowUrl, workflowTitle, sampleParam });
           await openWorkflowModal(workflowUrl, workflowTitle);
           
           // Modal bleibt offen - Ergebnisse erscheinen automatisch in der Tabelle
