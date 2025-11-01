@@ -1,5 +1,5 @@
 {
-  "name": "Business Card Extraction - WITH DEBUG",
+  "name": "Business Card Extraction - WITH DEBUG (FIXED)",
   "nodes": [
     {
       "parameters": {
@@ -265,7 +265,7 @@
       "main": [[{"node": "AI Agent - Vertex AI", "type": "main", "index": 0}]]
     },
     "Structured Output Parser": {
-      "ai_outputParser": [[{"node": "AI Agent - Vertex AI", "type": "ai_outputParser", "index": 0}]]
+      "ai_outputParser": [[{"node": "Google Vertex Chat Model", "type": "ai_outputParser", "index": 0}]]
     },
     "AI Agent - Vertex AI": {
       "main": [[{"node": "🔍 Debug: AI Agent", "type": "main", "index": 0}]]
