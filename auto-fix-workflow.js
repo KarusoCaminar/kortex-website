@@ -299,9 +299,23 @@ return output;`;
 
 /**
  * Wendet alle automatischen Fixes an
+ * WICHTIG: Behält alle Debug-Nodes aus DEBUG.json bei!
  */
 function applyAutomaticFixes(workflow) {
     console.log('\n🔧 Wende automatische Fixes an...\n');
+    
+    // WICHTIG: Prüfe ob Debug-Nodes vorhanden sind, wenn nicht: Fehler!
+    const debugNodes = workflow.nodes.filter(n => 
+        n.name && (n.name.includes('🔍 Debug') || n.name.includes('💾 Save Debug') || n.name.includes('Debug Aggregator'))
+    );
+    
+    if (debugNodes.length === 0) {
+        console.warn('⚠️  WARNUNG: Keine Debug-Nodes im Workflow gefunden!');
+        console.warn('   Stelle sicher, dass DEBUG.json als Basis verwendet wird.');
+    } else {
+        console.log(`✅ ${debugNodes.length} Debug-Nodes gefunden: ${debugNodes.map(n => n.name).join(', ')}`);
+        console.log('   Debug-Nodes werden BEIBEHALTEN!\n');
+    }
     
     const fixes = {
         setzeSampleInfo: false,
@@ -318,6 +332,16 @@ function applyAutomaticFixes(workflow) {
     // Fix 3: Transform Output Node
     fixes.transformOutput = fixTransformOutputNode(workflow);
     
+    // Prüfe ob Debug-Nodes noch vorhanden sind nach den Fixes
+    const debugNodesAfter = workflow.nodes.filter(n => 
+        n.name && (n.name.includes('🔍 Debug') || n.name.includes('💾 Save Debug') || n.name.includes('Debug Aggregator'))
+    );
+    
+    if (debugNodes.length > 0 && debugNodesAfter.length < debugNodes.length) {
+        console.error('❌ FEHLER: Debug-Nodes wurden versehentlich entfernt!');
+        console.error(`   Vorher: ${debugNodes.length}, Nachher: ${debugNodesAfter.length}`);
+    }
+    
     return fixes;
 }
 
@@ -328,15 +352,40 @@ function main() {
     try {
         console.log('🔧 Starte automatische Workflow-Fixes...\n');
         
-        // Lade Workflow
-        const workflow = loadWorkflow();
+        // Lade Workflow (immer DEBUG.json verwenden!)
+        const workflow = loadWorkflow(false); // false = immer DEBUG.json laden
         
-        // Wende Fixes an
+        // WICHTIG: Stelle sicher, dass DEBUG.json als Basis verwendet wird
+        const debugNodeCount = workflow.nodes.filter(n => 
+            n.name && (n.name.includes('🔍 Debug') || n.name.includes('💾 Save Debug') || n.name.includes('Debug Aggregator'))
+        ).length;
+        
+        if (debugNodeCount === 0) {
+            console.error('❌ FEHLER: Workflow enthält keine Debug-Nodes!');
+            console.error('   Stelle sicher, dass n8n-business-card-workflow-vertex-DEBUG.json existiert und Debug-Nodes enthält.');
+            process.exit(1);
+        }
+        
+        console.log(`✅ Workflow geladen: ${workflow.nodes.length} Nodes, ${debugNodeCount} Debug-Nodes`);
+        
+        // Wende Fixes an (Debug-Nodes bleiben erhalten!)
         const fixes = applyAutomaticFixes(workflow);
+        
+        // Prüfe nochmal ob Debug-Nodes erhalten geblieben sind
+        const debugNodesAfterFixes = workflow.nodes.filter(n => 
+            n.name && (n.name.includes('🔍 Debug') || n.name.includes('💾 Save Debug') || n.name.includes('Debug Aggregator'))
+        ).length;
+        
+        if (debugNodesAfterFixes < debugNodeCount) {
+            console.error(`❌ FEHLER: Debug-Nodes verloren! Vorher: ${debugNodeCount}, Nachher: ${debugNodesAfterFixes}`);
+            console.error('   Workflow wird NICHT gespeichert!');
+            process.exit(1);
+        }
         
         // Speichere korrigierten Workflow
         fs.writeFileSync(WORKFLOW_FIXED_FILE, JSON.stringify(workflow, null, 2));
         console.log(`\n💾 Korrigierter Workflow gespeichert: ${WORKFLOW_FIXED_FILE}`);
+        console.log(`   ✅ ${debugNodesAfterFixes} Debug-Nodes erhalten geblieben!`);
         
         // Zeige Zusammenfassung
         console.log('\n📈 Fix-Zusammenfassung:');
