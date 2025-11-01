@@ -1,0 +1,36 @@
+<!-- Website-Integration: Speichert Debug-Daten als workflow-debug.json -->
+<script>
+async function saveDebugData(debugResponse) {
+    try {
+        // Debug-Daten extrahieren
+        const debugData = {
+            timestamp: new Date().toISOString(),
+            debugSummary: debugResponse.debugSummary || null,
+            debugData: debugResponse.debugData || [],
+            result: debugResponse.result || null
+        };
+
+        // Als JSON speichern (für Cursor-KI)
+        // In Produktion: Via API-Endpoint speichern
+        console.log('📊 Debug-Daten:', JSON.stringify(debugData, null, 2));
+        
+        // Für lokale Entwicklung: Download-Link erstellen
+        const blob = new Blob([JSON.stringify(debugData, null, 2)], { type: 'application/json' });
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = 'workflow-debug.json';
+        a.click();
+        URL.revokeObjectURL(url);
+        
+        return true;
+    } catch (error) {
+        console.error('❌ Fehler beim Speichern der Debug-Daten:', error);
+        return false;
+    }
+}
+
+// Beispiel: Wenn n8n Response empfangen wird
+// saveDebugData(n8nResponse);
+</script>
+
