@@ -59,7 +59,7 @@
       "id": "12da61f1-9a21-43e6-876d-2aaac089e409",
       "name": "Business Card Upload",
       "type": "n8n-nodes-base.webhook",
-      "typeVersion": 1,
+      "typeVersion": 2,
       "position": [448, 1664],
       "webhookId": "business-card-extraction"
     },
