@@ -1262,6 +1262,13 @@
                 company: p.company || '(leer)',
                 email: p.email || '(leer)'
               });
+            } else if (itemType === 'error') {
+              // Fehler-Response behandeln
+              console.error(`❌ Fehler in Array-Item ${index}:`, itemData);
+              const errorMsg = itemData.message || itemData.error || 'Unbekannter Fehler';
+              loading.innerHTML = `<div class="spinner" style="border-top-color: #ef4444;"></div><p class="loading-text" style="color: #ef4444;">❌ Fehler: ${errorMsg}</p>`;
+              alert(`⚠️ Fehler beim Verarbeiten: ${errorMsg}`);
+              dataProcessed = true; // Fehler wurde behandelt
             } else {
               console.warn(`⚠️ Array-Item ${index} hat nicht die erwartete Struktur:`, {
                 type: itemType,
@@ -1324,6 +1331,13 @@
               console.log('✅ Modal automatisch geschlossen nach erfolgreicher Extraktion');
             }, 1500);
             dataProcessed = true;
+          } else if (responseType === 'error') {
+            // Fehler-Response behandeln
+            console.error('❌ Fehler-Response erhalten:', actualResponseData);
+            const errorMsg = actualResponseData.message || actualResponseData.error || 'Unbekannter Fehler';
+            loading.innerHTML = `<div class="spinner" style="border-top-color: #ef4444;"></div><p class="loading-text" style="color: #ef4444;">❌ Fehler: ${errorMsg}</p>`;
+            alert(`⚠️ Fehler beim Verarbeiten: ${errorMsg}\n\nBitte prüfe n8n Execution Logs für Details.`);
+            dataProcessed = true; // Fehler wurde behandelt
           }
         }
         
