@@ -232,44 +232,72 @@ function fixBinaryMissing(workflowJson, nodeId) {
 
     const currentCode = node.parameters.jsCode || '';
     
-    // Prüfe ob Fallback bereits vorhanden
-    if (currentCode.includes('$(\'Lade Sample 1\').binary') || 
-        currentCode.includes('$(\'Business Card Upload\').binary')) {
+    // Prüfe ob erweiterter Fallback bereits vorhanden
+    if (currentCode.includes('possibleNodes') && currentCode.includes('Lade Sample 1') && currentCode.includes('Lade Sample 2')) {
         return false; // Fix bereits vorhanden
     }
 
-    // Füge erweiterten Fallback hinzu
-    const enhancedCode = currentCode.replace(
-        /\/\/ 4\. Fallback: \$binary\nif \(!binaryData && \$binary\) \{\n    binaryData = \$binary;\n\}/,
-        `// 4. Fallback: $binary
-if (!binaryData && $binary) {
-    binaryData = $binary;
-}
-
+    // Erweiterter Fallback Code
+    const enhancedFallback = `
 // 5. Erweiterter Fallback: Direkt von vorherigen Nodes
 if (!binaryData) {
     try {
         // Versuche alle möglichen Binary-Quellen
         const possibleNodes = ['Lade Sample 1', 'Lade Sample 2', 'Lade Sample 3', 'Business Card Upload'];
         for (const nodeName of possibleNodes) {
-            const sourceNode = $(nodeName);
-            if (sourceNode?.binary) {
-                binaryData = sourceNode.binary;
-                break;
-            } else if (sourceNode?.item?.binary) {
-                binaryData = sourceNode.item.binary;
-                break;
+            try {
+                const sourceNode = $(nodeName);
+                if (sourceNode?.binary) {
+                    binaryData = sourceNode.binary;
+                    break;
+                } else if (sourceNode?.item?.binary) {
+                    binaryData = sourceNode.item.binary;
+                    break;
+                } else if (sourceNode?.item?.binary?.data) {
+                    binaryData = sourceNode.item.binary;
+                    break;
+                } else if (sourceNode?.item?.binary?.file) {
+                    binaryData = { data: sourceNode.item.binary.file };
+                    break;
+                }
+            } catch (e) {
+                // Node existiert nicht oder ist nicht verfügbar, überspringe
+                continue;
             }
         }
     } catch (e) {
-        console.error('Fehler beim Erweiterte Binary-Suche:', e);
+        console.error('Fehler beim erweiterten Binary-Fallback:', e);
     }
-}`
-    );
+}`;
 
-    if (enhancedCode !== currentCode) {
-        node.parameters.jsCode = enhancedCode;
-        return true;
+    // Füge Fallback nach dem letzten Fallback hinzu
+    if (currentCode.includes('// 4. Fallback: $binary')) {
+        // Ersetze den letzten Fallback Block
+        const enhancedCode = currentCode.replace(
+            /\/\/ 4\. Fallback: \$binary\nif \(!binaryData && \$binary\) \{\n    binaryData = \$binary;\n\}/,
+            `// 4. Fallback: $binary
+if (!binaryData && $binary) {
+    binaryData = $binary;
+}${enhancedFallback}`
+        );
+        
+        if (enhancedCode !== currentCode) {
+            node.parameters.jsCode = enhancedCode;
+            return true;
+        }
+    } else {
+        // Füge komplett neuen Fallback hinzu (vor dem return)
+        const enhancedCode = currentCode.replace(
+            /\/\/ KRITISCH: Wenn KEINE Binary-Daten → RETURN \[\]/,
+            `${enhancedFallback}
+
+// KRITISCH: Wenn KEINE Binary-Daten → RETURN []`
+        );
+        
+        if (enhancedCode !== currentCode) {
+            node.parameters.jsCode = enhancedCode;
+            return true;
+        }
     }
 
     return false;
