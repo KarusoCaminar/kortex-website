@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Automatisches Test-System - Browser-Version</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #0a1628 0%, #09182F 100%);
+            color: #e2e8f0;
+            padding: 2rem;
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        h1 {
+            color: #60a5fa;
+            margin-bottom: 1rem;
+            font-size: 2rem;
+        }
+        
+        .controls {
+            display: flex;
+            gap: 1rem;
+            margin-bottom: 2rem;
+            flex-wrap: wrap;
+        }
+        
+        button {
+            background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%);
+            color: white;
+            border: none;
+            padding: 0.75rem 1.5rem;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 1rem;
+            font-weight: 500;
+            transition: transform 0.2s, opacity 0.2s;
+        }
+        
+        button:hover {
+            transform: translateY(-2px);
+            opacity: 0.9;
+        }
+        
+        button:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+        
+        .test-results {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 8px;
+            padding: 1rem;
+            margin-top: 2rem;
+        }
+        
+        .test-item {
+            background: rgba(0, 0, 0, 0.2);
+            border-left: 4px solid #3b82f6;
+            border-radius: 4px;
+            padding: 1rem;
+            margin-bottom: 1rem;
+        }
+        
+        .test-item.success {
+            border-left-color: #10b981;
+        }
+        
+        .test-item.error {
+            border-left-color: #ef4444;
+        }
+        
+        .test-item.loading {
+            border-left-color: #f59e0b;
+        }
+        
+        pre {
+            background: rgba(0, 0, 0, 0.3);
+            border-radius: 4px;
+            padding: 0.75rem;
+            margin-top: 0.5rem;
+            overflow-x: auto;
+            font-size: 0.75rem;
+            color: #94a3b8;
+        }
+        
+        .summary {
+            background: rgba(59, 130, 246, 0.1);
+            border: 1px solid rgba(59, 130, 246, 0.3);
+            border-radius: 8px;
+            padding: 1rem;
+            margin-bottom: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🚀 Automatisches Test-System (Browser-Version)</h1>
+        
+        <div class="summary">
+            <p><strong>Info:</strong> Dieses Tool testet automatisch alle 3 Samples und zeigt die Ergebnisse.</p>
+            <p>Webhook URL: <code id="webhook-url">https://n8n2.kortex-system.de/webhook/business-card-extraction</code></p>
+        </div>
+        
+        <div class="controls">
+            <button onclick="testAllSamples()" id="test-btn">🧪 Alle Samples testen</button>
+            <button onclick="exportResults()" id="export-btn" disabled>💾 Ergebnisse exportieren</button>
+            <button onclick="clearResults()">🗑️ Ergebnisse löschen</button>
+        </div>
+        
+        <div class="test-results" id="test-results">
+            <p style="color: #94a3b8; text-align: center; padding: 2rem;">Klicke auf "🧪 Alle Samples testen" um zu starten</p>
+        </div>
+    </div>
+    
+    <script>
+        const WEBHOOK_URL = 'https://n8n2.kortex-system.de/webhook/business-card-extraction';
+        let testResults = [];
+        
+        async function testSample(sampleNumber) {
+            const url = `${WEBHOOK_URL}?sample=${sampleNumber}`;
+            
+            const startTime = Date.now();
+            
+            try {
+                const response = await fetch(url, {
+                    method: 'GET',
+                    headers: {
+                        'Accept': 'application/json'
+                    },
+                    signal: AbortSignal.timeout(60000) // 60 Sekunden Timeout
+                });
+                
+                const duration = Date.now() - startTime;
+                const data = await response.json();
+                
+                return {
+                    success: response.ok,
+                    statusCode: response.status,
+                    sample: sampleNumber,
+                    response: data,
+                    duration: duration,
+                    timestamp: new Date().toISOString()
+                };
+                
+            } catch (error) {
+                const duration = Date.now() - startTime;
+                
+                return {
+                    success: false,
+                    sample: sampleNumber,
+                    error: error.message || 'Unknown error',
+                    duration: duration,
+                    timestamp: new Date().toISOString()
+                };
+            }
+        }
+        
+        function analyzeResponse(result) {
+            const analysis = {
+                sample: result.sample,
+                success: result.success,
+                statusCode: result.statusCode,
+                hasError: false,
+                errorType: null,
+                hasAIOutput: false,
+                issues: []
+            };
+            
+            if (result.statusCode >= 500) {
+                analysis.hasError = true;
+                analysis.errorType = 'server_error';
+                analysis.issues.push(`Server Error: ${result.statusCode}`);
+            } else if (result.statusCode >= 400) {
+                analysis.hasError = true;
+                analysis.errorType = 'client_error';
+                analysis.issues.push(`Client Error: ${result.statusCode}`);
+            }
+            
+            if (result.response) {
+                const response = result.response;
+                
+                if (Array.isArray(response)) {
+                    response.forEach((item, index) => {
+                        const itemData = item.json || item;
+                        const itemType = itemData.type || itemData.error;
+                        
+                        if (itemType === 'error' || itemData.error) {
+                            analysis.hasError = true;
+                            analysis.errorType = 'workflow_error';
+                            analysis.issues.push(`Array Item ${index}: ${itemData.message || itemData.error}`);
+                        }
+                        
+                        if (itemType === 'business-card-processed' && itemData.payload) {
+                            analysis.hasAIOutput = true;
+                        }
+                    });
+                } else if (typeof response === 'object') {
+                    const responseType = response.type || response.error;
+                    
+                    if (responseType === 'error' || response.error) {
+                        analysis.hasError = true;
+                        analysis.errorType = 'workflow_error';
+                        analysis.issues.push(response.message || response.error);
+                    }
+                    
+                    if (responseType === 'business-card-processed' && response.payload) {
+                        analysis.hasAIOutput = true;
+                    }
+                    
+                    if (response.output) {
+                        analysis.hasAIOutput = true;
+                    }
+                }
+            }
+            
+            return analysis;
+        }
+        
+        async function testAllSamples() {
+            const btn = document.getElementById('test-btn');
+            const resultsContainer = document.getElementById('test-results');
+            const exportBtn = document.getElementById('export-btn');
+            
+            btn.disabled = true;
+            btn.textContent = '🔄 Teste...';
+            resultsContainer.innerHTML = '<p style="color: #94a3b8; text-align: center; padding: 2rem;">Teste alle Samples...</p>';
+            
+            testResults = [];
+            
+            const samples = ['1', '2', '3'];
+            
+            for (const sample of samples) {
+                resultsContainer.innerHTML += `<div class="test-item loading"><strong>📋 Teste Sample ${sample}...</strong></div>`;
+                
+                const result = await testSample(sample);
+                const analysis = analyzeResponse(result);
+                
+                testResults.push({
+                    test: `Sample ${sample}`,
+                    result: result,
+                    analysis: analysis
+                });
+                
+                // Update UI
+                const lastItem = resultsContainer.lastElementChild;
+                lastItem.className = `test-item ${analysis.hasError ? 'error' : (analysis.hasAIOutput ? 'success' : 'loading')}`;
+                
+                let status = '';
+                if (analysis.hasError) {
+                    status = `❌ Fehler: ${analysis.errorType || analysis.issues[0] || 'Unknown error'}`;
+                } else if (analysis.hasAIOutput) {
+                    status = '✅ Erfolg: AI-Output vorhanden';
+                } else {
+                    status = '⚠️ Warnung: Kein AI-Output';
+                }
+                
+                lastItem.innerHTML = `
+                    <strong>📋 Sample ${sample}</strong> - ${status}
+                    <p style="margin-top: 0.5rem; font-size: 0.875rem; color: #cbd5e1;">
+                        Dauer: ${result.duration}ms | Status: ${result.statusCode || 'N/A'}
+                    </p>
+                    ${analysis.issues.length > 0 ? `<pre>${JSON.stringify(analysis.issues, null, 2)}</pre>` : ''}
+                    ${result.response ? `<details style="margin-top: 0.5rem;"><summary style="cursor: pointer; color: #60a5fa;">Response anzeigen</summary><pre>${JSON.stringify(result.response, null, 2)}</pre></details>` : ''}
+                `;
+                
+                // Warte 2 Sekunden zwischen Tests
+                await new Promise(resolve => setTimeout(resolve, 2000));
+            }
+            
+            // Zusammenfassung
+            const successful = testResults.filter(r => r.analysis.success && !r.analysis.hasError).length;
+            const failed = testResults.filter(r => r.analysis.hasError).length;
+            const withOutput = testResults.filter(r => r.analysis.hasAIOutput).length;
+            
+            resultsContainer.innerHTML = `
+                <div class="summary" style="margin-bottom: 1rem;">
+                    <h3 style="margin-bottom: 0.5rem;">📈 Zusammenfassung:</h3>
+                    <p>Gesamt: ${testResults.length} Tests</p>
+                    <p>✅ Erfolgreich: ${successful}</p>
+                    <p>❌ Fehler: ${failed}</p>
+                    <p>🤖 Mit AI-Output: ${withOutput}</p>
+                </div>
+            ` + resultsContainer.innerHTML;
+            
+            btn.disabled = false;
+            btn.textContent = '🧪 Alle Samples testen';
+            exportBtn.disabled = false;
+        }
+        
+        function exportResults() {
+            if (testResults.length === 0) {
+                alert('Keine Ergebnisse zum Exportieren');
+                return;
+            }
+            
+            const dataStr = JSON.stringify(testResults, null, 2);
+            const dataBlob = new Blob([dataStr], { type: 'application/json' });
+            const url = URL.createObjectURL(dataBlob);
+            const link = document.createElement('a');
+            link.href = url;
+            link.download = `test-results-${new Date().toISOString().split('T')[0]}.json`;
+            link.click();
+            URL.revokeObjectURL(url);
+        }
+        
+        function clearResults() {
+            testResults = [];
+            document.getElementById('test-results').innerHTML = '<p style="color: #94a3b8; text-align: center; padding: 2rem;">Klicke auf "🧪 Alle Samples testen" um zu starten</p>';
+            document.getElementById('export-btn').disabled = true;
+        }
+    </script>
+</body>
+</html>
+
