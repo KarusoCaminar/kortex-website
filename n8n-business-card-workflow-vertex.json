@@ -29,7 +29,7 @@
           },
           "string": [
             {
-              "value1": "={{$json.query.sample}}",
+              "value1": "={{String($json.query.sample)}}",
               "value2": "",
               "operation": "notEmpty"
             }
@@ -53,7 +53,7 @@
           },
           "string": [
             {
-              "value1": "={{$json.query.sample}}",
+              "value1": "={{String($json.query.sample)}}",
               "value2": "1",
               "operation": "equals"
             }
@@ -77,7 +77,7 @@
           },
           "string": [
             {
-              "value1": "={{$json.query.sample}}",
+              "value1": "={{String($json.query.sample)}}",
               "value2": "2",
               "operation": "equals"
             }
@@ -101,7 +101,7 @@
           },
           "string": [
             {
-              "value1": "={{$json.query.sample}}",
+              "value1": "={{String($json.query.sample)}}",
               "value2": "3",
               "operation": "equals"
             }
