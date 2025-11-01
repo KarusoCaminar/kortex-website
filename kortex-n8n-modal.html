@@ -834,10 +834,11 @@
         
         // Baue Webhook-URL mit Parametern
         // extraParams sollte jetzt IMMER vorhanden sein (wurde oben geprüft)
-        const webhookUrl = extraParams
+        // WICHTIG: let verwenden, da webhookUrl später überschrieben wird (ohne Query-Parameter)
+        let webhookUrl = extraParams
           ? `${workflowUrl}${workflowUrl.includes('?') ? '&' : '?'}${extraParams}`
           : workflowUrl;
-        console.log('🌐 Final Webhook URL:', webhookUrl);
+        console.log('🌐 Final Webhook URL (initial):', webhookUrl);
         
         // KRITISCH: Finale Prüfung - webhookUrl MUSS sample-Parameter enthalten!
         if (!webhookUrl.includes('sample=') && !uploadFile) {
