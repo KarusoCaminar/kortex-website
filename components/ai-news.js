@@ -415,9 +415,22 @@
         });
         if (n8nResponse.ok) {
           const n8nData = await n8nResponse.json();
-          if (n8nData && Array.isArray(n8nData)) {
-            news.push(...n8nData.slice(0, 3));
-            // Skip weitere Quellen wenn n8n erfolgreich war
+          if (n8nData && Array.isArray(n8nData) && n8nData.length > 0) {
+            // Prüfe jedes Item und füge nur valide, aktuelle Nachrichten hinzu
+            const maxAge = 30 * 24 * 60 * 60 * 1000; // 30 Tage
+            const now = Date.now();
+            const validNews = n8nData.filter(item => {
+              if (!item.date && !item.pubDate) return false;
+              const itemDate = new Date(item.date || item.pubDate).getTime();
+              const age = now - itemDate;
+              return age <= maxAge && item.title && item.link;
+            });
+            news.push(...validNews.slice(0, 5));
+            // Wenn n8n genug News liefert (3+), markiere das für spätere Quellen
+            if (validNews.length >= 3) {
+              // Setze Flag, damit statische Quellen übersprungen werden
+              // (wird später in der Funktion geprüft)
+            }
           }
         }
       } catch (n8nError) {
@@ -479,63 +492,66 @@
       console.warn('n8n Blog Fehler:', e);
     }
     
-    // 4. KI-Tools News (branchenspezifisch)
-    const aitoolsNews = [
-      {
-        title: lang === 'de' ? 'Fireflies AI: Meeting-Transkription & Analyse' : 'Fireflies AI: Meeting Transcription & Analysis',
-        description: lang === 'de' ? 'Fireflies AI automatisiert Meeting-Aufzeichnungen und extrahiert wichtige Punkte für Sales- und Projektteams.' : 'Fireflies AI automates meeting recordings and extracts key points for sales and project teams.',
-        date: new Date(Date.now() - 2 * 24 * 60 * 60 * 1000),
-        link: 'https://fireflies.ai',
-        source: 'Fireflies AI',
-        category: 'sales-tools',
-        language: lang
-      },
-      {
-        title: lang === 'de' ? 'HubSpot AI: Automatisierte Lead-Bewertung' : 'HubSpot AI: Automated Lead Scoring',
-        description: lang === 'de' ? 'HubSpot AI bewertet Leads automatisch und priorisiert die besten Verkaufschancen für Ihr Sales-Team.' : 'HubSpot AI automatically scores leads and prioritizes the best sales opportunities.',
-        date: new Date(Date.now() - 3 * 24 * 60 * 60 * 1000),
-        link: 'https://www.hubspot.com/products/ai',
-        source: 'HubSpot AI',
-        category: 'sales-tools',
-        language: lang
-      },
-      {
-        title: lang === 'de' ? 'Gemini 2.5 Flash: KI für den Mittelstand' : 'Gemini 2.5 Flash: AI for SMEs',
-        description: lang === 'de' ? 'Google\'s Gemini 2.5 Flash ermöglicht schnelle und kosteneffiziente KI-Verarbeitung für deutsche KMUs.' : 'Google\'s Gemini 2.5 Flash enables fast and cost-effective AI processing for SMEs.',
-        date: new Date(Date.now() - 1 * 24 * 60 * 60 * 1000),
-        link: 'https://deepmind.google/technologies/gemini/',
-        source: 'Google AI',
-        category: 'große-modelle',
-        language: lang
-      },
-      {
-        title: lang === 'de' ? 'Otter.ai: KI-gestützte Meeting-Notizen' : 'Otter.ai: AI-Powered Meeting Notes',
-        description: lang === 'de' ? 'Otter.ai erstellt automatisch Transkripte, Zusammenfassungen und Action Items aus Meetings.' : 'Otter.ai automatically creates transcripts, summaries, and action items from meetings.',
-        date: new Date(Date.now() - 4 * 24 * 60 * 60 * 1000),
-        link: 'https://otter.ai',
-        source: 'Otter.ai',
-        category: 'dienstleister-tools',
-        language: lang
-      },
-      {
-        title: lang === 'de' ? 'Salesforce Einstein: Predictive Analytics' : 'Salesforce Einstein: Predictive Analytics',
-        description: lang === 'de' ? 'Salesforce Einstein nutzt KI für Vorhersageanalysen und automatisiert Sales-Prozesse.' : 'Salesforce Einstein uses AI for predictive analytics and automates sales processes.',
-        date: new Date(Date.now() - 5 * 24 * 60 * 60 * 1000),
-        link: 'https://www.salesforce.com/products/einstein/overview/',
-        source: 'Salesforce',
-        category: 'sales-tools',
-        language: lang
-      }
-    ];
+    // 4. KI-Tools News (branchenspezifisch) - nur als Fallback wenn keine echten News vorhanden
+    // Nur hinzufügen wenn weniger als 3 echte Nachrichten vorhanden sind
+    if (news.length < 3) {
+      const aitoolsNews = [
+        {
+          title: lang === 'de' ? 'Fireflies AI: Meeting-Transkription & Analyse' : 'Fireflies AI: Meeting Transcription & Analysis',
+          description: lang === 'de' ? 'Fireflies AI automatisiert Meeting-Aufzeichnungen und extrahiert wichtige Punkte für Sales- und Projektteams.' : 'Fireflies AI automates meeting recordings and extracts key points for sales and project teams.',
+          date: new Date(Date.now() - 2 * 24 * 60 * 60 * 1000),
+          link: 'https://fireflies.ai',
+          source: 'Fireflies AI',
+          category: 'sales-tools',
+          language: lang
+        },
+        {
+          title: lang === 'de' ? 'HubSpot AI: Automatisierte Lead-Bewertung' : 'HubSpot AI: Automated Lead Scoring',
+          description: lang === 'de' ? 'HubSpot AI bewertet Leads automatisch und priorisiert die besten Verkaufschancen für Ihr Sales-Team.' : 'HubSpot AI automatically scores leads and prioritizes the best sales opportunities.',
+          date: new Date(Date.now() - 3 * 24 * 60 * 60 * 1000),
+          link: 'https://www.hubspot.com/products/ai',
+          source: 'HubSpot AI',
+          category: 'sales-tools',
+          language: lang
+        },
+        {
+          title: lang === 'de' ? 'Gemini 2.5 Flash: KI für den Mittelstand' : 'Gemini 2.5 Flash: AI for SMEs',
+          description: lang === 'de' ? 'Google\'s Gemini 2.5 Flash ermöglicht schnelle und kosteneffiziente KI-Verarbeitung für deutsche KMUs.' : 'Google\'s Gemini 2.5 Flash enables fast and cost-effective AI processing for SMEs.',
+          date: new Date(Date.now() - 1 * 24 * 60 * 60 * 1000),
+          link: 'https://deepmind.google/technologies/gemini/',
+          source: 'Google AI',
+          category: 'große-modelle',
+          language: lang
+        },
+        {
+          title: lang === 'de' ? 'Otter.ai: KI-gestützte Meeting-Notizen' : 'Otter.ai: AI-Powered Meeting Notes',
+          description: lang === 'de' ? 'Otter.ai erstellt automatisch Transkripte, Zusammenfassungen und Action Items aus Meetings.' : 'Otter.ai automatically creates transcripts, summaries, and action items from meetings.',
+          date: new Date(Date.now() - 4 * 24 * 60 * 60 * 1000),
+          link: 'https://otter.ai',
+          source: 'Otter.ai',
+          category: 'dienstleister-tools',
+          language: lang
+        },
+        {
+          title: lang === 'de' ? 'Salesforce Einstein: Predictive Analytics' : 'Salesforce Einstein: Predictive Analytics',
+          description: lang === 'de' ? 'Salesforce Einstein nutzt KI für Vorhersageanalysen und automatisiert Sales-Prozesse.' : 'Salesforce Einstein uses AI for predictive analytics and automates sales processes.',
+          date: new Date(Date.now() - 5 * 24 * 60 * 60 * 1000),
+          link: 'https://www.salesforce.com/products/einstein/overview/',
+          source: 'Salesforce',
+          category: 'sales-tools',
+          language: lang
+        }
+      ];
+      
+      // Filtere nach Sprache und füge hinzu (nur bis wir 5 Nachrichten haben)
+      aitoolsNews
+        .filter(item => item.language === lang)
+        .slice(0, Math.max(0, 5 - news.length))
+        .forEach(item => news.push(item));
+    }
     
-    // Filtere nach Sprache und füge hinzu
-    aitoolsNews
-      .filter(item => item.language === lang)
-      .slice(0, 3)
-      .forEach(item => news.push(item));
-    
-    // 5. Deutsche Quellen (falls Deutsch)
-    if (lang === 'de') {
+    // 5. Deutsche Quellen (falls Deutsch) - nur als letzter Fallback
+    if (lang === 'de' && news.length < 5) {
       news.push({
         title: 'BMWK: KI-Förderung für Mittelstand',
         description: 'Das BMWK informiert über KI-Förderprogramme und Digitalisierungsunterstützung für deutsche Mittelständler.',
@@ -547,13 +563,22 @@
       });
     }
     
-    // Entferne Duplikate und sortiere nach Datum
+    // Entferne Duplikate
     const uniqueNews = news.filter((item, index, self) => 
       index === self.findIndex(t => t.link === item.link)
     );
     
+    // Filtere alte Nachrichten heraus (max. 30 Tage alt)
+    const maxAge = 30 * 24 * 60 * 60 * 1000; // 30 Tage in Millisekunden
+    const now = Date.now();
+    const recentNews = uniqueNews.filter(item => {
+      const itemDate = new Date(item.date || item.pubDate || new Date()).getTime();
+      const age = now - itemDate;
+      return age <= maxAge; // Nur Nachrichten, die max. 30 Tage alt sind
+    });
+    
     // Sortiere nach Datum (neueste zuerst) und limitiere auf 5
-    return uniqueNews.sort((a, b) => new Date(b.date) - new Date(a.date)).slice(0, 5);
+    return recentNews.sort((a, b) => new Date(b.date || b.pubDate || new Date()) - new Date(a.date || a.pubDate || new Date())).slice(0, 5);
   }
   
   function getDemoAINews() {
