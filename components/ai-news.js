@@ -492,32 +492,40 @@
     const lang = window.i18n?.getCurrentLanguage() || 'de';
     const maxAge = 30 * 24 * 60 * 60 * 1000; // 30 Tage
     
-    // RSS Feed Quellen (mit CORS-freundlichen Feeds oder CORS Proxy)
+    // RSS Feed Quellen
+    // HINWEIS: Viele RSS-Feeds haben CORS-Probleme und können nicht direkt geladen werden
+    // Lösung: n8n Webhook aktivieren (umgeht CORS) oder CORS-Proxy verwenden
     const rssFeeds = [
       {
         url: 'https://blog.n8n.io/rss.xml',
         source: 'n8n Blog',
-        category: 'workflow-tools'
+        category: 'workflow-tools',
+        corsFriendly: true // n8n Blog erlaubt CORS
       },
+      // Diese Feeds haben oft CORS-Probleme - werden über n8n Webhook geladen wenn aktiviert
       {
         url: 'https://ai.googleblog.com/feeds/posts/default',
         source: 'Google AI',
-        category: 'große-modelle'
+        category: 'große-modelle',
+        corsFriendly: false
       },
       {
         url: 'https://openai.com/blog/rss.xml',
         source: 'OpenAI',
-        category: 'große-modelle'
+        category: 'große-modelle',
+        corsFriendly: false
       },
       {
         url: 'https://www.anthropic.com/news/rss.xml',
         source: 'Anthropic',
-        category: 'große-modelle'
+        category: 'große-modelle',
+        corsFriendly: false
       },
       {
         url: 'https://huggingface.co/blog/rss.xml',
         source: 'Hugging Face',
-        category: 'große-modelle'
+        category: 'große-modelle',
+        corsFriendly: false
       }
     ];
     
@@ -530,44 +538,71 @@
       });
     }
     
-    // Lade alle RSS Feeds parallel
-    const feedPromises = rssFeeds.map(async (feed) => {
-      try {
-        const response = await fetch(feed.url, {
-          method: 'GET',
-          headers: { 'Accept': 'application/rss+xml, application/xml, text/xml' }
-        });
-        
-        if (response.ok) {
-          const xmlText = await response.text();
-          const feedNews = parseRSSFeed(xmlText, feed.source, 3); // Max 3 News pro Feed
-          
-          // Filtere nach Alter
-          const now = Date.now();
-          const recentNews = feedNews.filter(item => {
-            const itemDate = new Date(item.date).getTime();
-            const age = now - itemDate;
-            return age <= maxAge && age >= 0; // Nur aktuelle News (nicht in der Zukunft)
+    // Lade RSS Feeds parallel
+    // WICHTIG: Nur CORS-freundliche Feeds werden direkt geladen
+    // Andere Feeds werden über n8n Webhook geladen (falls aktiviert)
+    const feedPromises = rssFeeds
+      .filter(feed => feed.corsFriendly === true) // Nur CORS-freundliche Feeds direkt laden
+      .map(async (feed) => {
+        try {
+          const response = await fetch(feed.url, {
+            method: 'GET',
+            headers: { 'Accept': 'application/rss+xml, application/xml, text/xml' },
+            mode: 'cors'
           });
           
-          return recentNews;
+          if (response.ok) {
+            const xmlText = await response.text();
+            const feedNews = parseRSSFeed(xmlText, feed.source, 3);
+            
+            // Filtere nach Alter
+            const now = Date.now();
+            const recentNews = feedNews.filter(item => {
+              const itemDate = new Date(item.date).getTime();
+              const age = now - itemDate;
+              return age <= maxAge && age >= 0;
+            });
+            
+            if (recentNews.length > 0) {
+              console.log(`✅ ${feed.source}: ${recentNews.length} News geladen`);
+            }
+            
+            return recentNews;
+          } else {
+            console.warn(`⚠️ ${feed.source}: HTTP ${response.status}`);
+          }
+        } catch (e) {
+          if (e.message && e.message.includes('CORS')) {
+            console.warn(`⚠️ ${feed.source}: CORS-Fehler - nutze n8n Webhook für diesen Feed`);
+          } else {
+            console.warn(`⚠️ Fehler beim Laden von ${feed.source}:`, e.message || e);
+          }
         }
-      } catch (e) {
-        console.warn(`Fehler beim Laden von ${feed.source}:`, e);
         return [];
-      }
-      return [];
-    });
+      });
     
     // Warte auf alle RSS-Feed Requests
     const feedResults = await Promise.allSettled(feedPromises);
     
-    // Sammle alle News
-    feedResults.forEach((result) => {
-      if (result.status === 'fulfilled' && Array.isArray(result.value)) {
+    // Sammle alle News und zähle Erfolge
+    let loadedFeeds = 0;
+    const corsFriendlyFeeds = rssFeeds.filter(f => f.corsFriendly === true);
+    feedResults.forEach((result, index) => {
+      if (result.status === 'fulfilled' && Array.isArray(result.value) && result.value.length > 0) {
         news.push(...result.value);
+        loadedFeeds++;
+      } else if (result.status === 'rejected') {
+        console.warn(`❌ ${corsFriendlyFeeds[index]?.source || 'Unbekannter Feed'}: Request fehlgeschlagen`);
       }
     });
+    
+    console.log(`📊 RSS-Feeds geladen: ${loadedFeeds}/${corsFriendlyFeeds.length} direkt, ${news.length} Nachrichten gesammelt`);
+    
+    // Hinweis für CORS-blockierte Feeds
+    const blockedFeeds = rssFeeds.filter(f => f.corsFriendly === false);
+    if (blockedFeeds.length > 0) {
+      console.log(`ℹ️ ${blockedFeeds.length} Feeds benötigen n8n Webhook (CORS-Probleme): ${blockedFeeds.map(f => f.source).join(', ')}`);
+    }
     
     // Prüfe optional n8n Webhook (falls aktiviert)
     try {
@@ -596,7 +631,9 @@
     
     // 4. KI-Tools News (branchenspezifisch) - nur als Fallback wenn keine echten News vorhanden
     // Nur hinzufügen wenn weniger als 3 echte Nachrichten vorhanden sind
+    // WICHTIG: Diese News werden NUR angezeigt wenn RSS-Feeds nicht laden (CORS-Probleme)
     if (news.length < 3) {
+      console.log(`⚠️ Nur ${news.length} echte News - füge Fallback-News hinzu`);
       const aitoolsNews = [
         {
           title: lang === 'de' ? 'Fireflies AI: Meeting-Transkription & Analyse' : 'Fireflies AI: Meeting Transcription & Analysis',
