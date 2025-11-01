@@ -23,6 +23,15 @@
       }
     },
     {
+      "parameters": {},
+      "id": "manual-trigger",
+      "name": "Manual Trigger (Test)",
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [224, 1664],
+      "notes": "Manueller Trigger für Tests in n8n. Klicke auf 'Execute Workflow' und füge Test-Daten hinzu."
+    },
+    {
       "parameters": {
         "path": "business-card-extraction",
         "responseMode": "lastNode",
@@ -47,7 +56,8 @@
       "name": "Route to Sample",
       "type": "n8n-nodes-base.code",
       "typeVersion": 2,
-      "position": [672, 1664]
+      "position": [672, 1664],
+      "notes": "Für Tests: Nach 'Manual Trigger' die Test-Daten hinzufügen. Format: { \"query\": { \"sample\": \"1\" } }"
     },
     {
       "parameters": {
@@ -196,6 +206,17 @@
   ],
   "pinData": {},
   "connections": {
+    "Manual Trigger (Test)": {
+      "main": [
+        [
+          {
+            "node": "Route to Sample",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
     "Google Vertex Chat Model": {
       "ai_languageModel": [
         [
