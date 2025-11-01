@@ -157,7 +157,8 @@
         "options": {
           "systemMessage": "You are a smart assistant that extracts business contact information from business card images. Your role is to analyze the image, extract relevant details such as full name, job title, company name, phone number, email address, website, office address, and city. Verify data plausibility and complete missing information when possible. Return clean, structured JSON data.",
           "hasOutputParser": true,
-          "automaticallyPassthroughBinaryImages": true
+          "automaticallyPassthroughBinaryImages": true,
+          "requireSpecificOutputFormat": true
         }
       },
       "id": "9eac79e0-e6b6-4b71-ad88-6365e29b73b3",
@@ -265,7 +266,7 @@
       "main": [[{"node": "AI Agent - Vertex AI", "type": "main", "index": 0}]]
     },
     "Structured Output Parser": {
-      "ai_outputParser": [[{"node": "Google Vertex Chat Model", "type": "ai_outputParser", "index": 0}]]
+      "ai_outputParser": [[{"node": "AI Agent - Vertex AI", "type": "ai_outputParser", "index": 0}]]
     },
     "AI Agent - Vertex AI": {
       "main": [[{"node": "🔍 Debug: AI Agent", "type": "main", "index": 0}]]
