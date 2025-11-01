@@ -688,6 +688,10 @@
       const iframe = document.getElementById('workflow-iframe');
       const loading = document.getElementById('loading-indicator');
       
+      // Variablen für Error-Handling initialisieren
+      let webhookUrl = workflowUrl; // Initialwert
+      let sampleParam = null; // Initialwert
+      
       // Validierung - prüfe ob URL konfiguriert ist
       if (!workflowUrl) {
         alert('⚠️ Workflow-URL ist nicht konfiguriert!');
@@ -1507,8 +1511,8 @@
             message: error.message || 'Unbekannter Fehler',
             name: error.name || 'Error',
             stack: error.stack || 'Kein Stack-Trace',
-            workflowUrl: webhookUrl,
-            sampleParam: sampleParam || 'Upload',
+            workflowUrl: typeof webhookUrl !== 'undefined' ? webhookUrl : (workflowUrl || 'unbekannt'),
+            sampleParam: typeof sampleParam !== 'undefined' ? (sampleParam || 'Upload') : 'unbekannt',
             type: 'exception',
             timestamp: errorTimestamp
           };
