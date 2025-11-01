@@ -363,28 +363,52 @@
     }
   }
   
-  // Load AI News
+  // Load AI News (mit Caching für bessere Performance)
   async function loadAINews() {
     const container = document.getElementById('ai-news-container');
     if (!container) return;
     
+    // Prüfe Cache (5 Minuten)
+    const cacheKey = 'ai-news-cache';
+    const cacheTime = 5 * 60 * 1000; // 5 Minuten
+    const cached = localStorage.getItem(cacheKey);
+    const now = Date.now();
+    
+    if (cached) {
+      try {
+        const cacheData = JSON.parse(cached);
+        if (now - cacheData.timestamp < cacheTime && cacheData.news && cacheData.news.length > 0) {
+          // Verwende gecachte News
+          displayNews(cacheData.news, container);
+          // Lade im Hintergrund neue News
+          fetchAndCacheNews(container);
+          return;
+        }
+      } catch (e) {
+        console.warn('Fehler beim Laden aus Cache:', e);
+      }
+    }
+    
+    // Lade neue News
+    await fetchAndCacheNews(container);
+  }
+  
+  // Lade News und cache sie
+  async function fetchAndCacheNews(container) {
     try {
       const newsData = await fetchAINewsFromMultipleSources();
       
+      // Cache die News
       if (newsData && newsData.length > 0) {
-        const readMoreText = window.i18n?.t('news.item.readMore') || '→';
-        container.innerHTML = newsData.map(item => `
-          <div class="ai-news-item" onclick="window.open('${item.link || '#'}', '_blank')">
-            <h4>${escapeHtml(item.title)}</h4>
-            <p>${escapeHtml((item.description || item.summary || '').substring(0, 120))}${(item.description || item.summary || '').length > 120 ? '...' : ''}</p>
-            <div class="meta">
-              <span>📅 ${formatDate(item.date || item.pubDate || new Date())}</span>
-              ${item.source ? `<span>📰 ${escapeHtml(item.source)}</span>` : ''}
-              ${item.category ? `<span class="category-badge">${getCategoryEmoji(item.category)} ${getCategoryName(item.category, window.i18n?.getCurrentLanguage() || 'de')}</span>` : ''}
-              ${item.link ? `<a href="${item.link}" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation();">${readMoreText}</a>` : ''}
-            </div>
-          </div>
-        `).join('');
+        const cacheData = {
+          news: newsData,
+          timestamp: Date.now()
+        };
+        localStorage.setItem('ai-news-cache', JSON.stringify(cacheData));
+      }
+      
+      if (newsData && newsData.length > 0) {
+        displayNews(newsData, container);
       } else {
         container.innerHTML = getDemoAINews();
       }
@@ -396,100 +420,178 @@
     }
   }
   
+  // Zeige News an
+  function displayNews(newsData, container) {
+    const readMoreText = window.i18n?.t('news.item.readMore') || '→';
+    container.className = 'ai-news-panel-content';
+    container.innerHTML = newsData.map(item => `
+      <div class="ai-news-item" onclick="window.open('${item.link || '#'}', '_blank')">
+        <h4>${escapeHtml(item.title)}</h4>
+        <p>${escapeHtml((item.description || item.summary || '').substring(0, 120))}${(item.description || item.summary || '').length > 120 ? '...' : ''}</p>
+        <div class="meta">
+          <span>📅 ${formatDate(item.date || item.pubDate || new Date())}</span>
+          ${item.source ? `<span>📰 ${escapeHtml(item.source)}</span>` : ''}
+          ${item.category ? `<span class="category-badge">${getCategoryEmoji(item.category)} ${getCategoryName(item.category, window.i18n?.getCurrentLanguage() || 'de')}</span>` : ''}
+          ${item.link ? `<a href="${item.link}" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation();">${readMoreText}</a>` : ''}
+        </div>
+      </div>
+    `).join('');
+  }
+  
+  // RSS Feed Parser Funktion
+  function parseRSSFeed(xmlText, source, maxItems = 5) {
+    const news = [];
+    try {
+      const parser = new DOMParser();
+      const xmlDoc = parser.parseFromString(xmlText, 'text/xml');
+      const items = xmlDoc.querySelectorAll('item');
+      
+      items.forEach((item, index) => {
+        if (index < maxItems) {
+          const title = item.querySelector('title')?.textContent?.trim() || '';
+          const description = item.querySelector('description')?.textContent?.replace(/<[^>]*>/g, '').trim().substring(0, 200) || '';
+          const link = item.querySelector('link')?.textContent?.trim() || '';
+          const pubDate = item.querySelector('pubDate')?.textContent?.trim() || '';
+          
+          // Filtere nur relevante AI-News
+          const titleLower = title.toLowerCase();
+          const descLower = description.toLowerCase();
+          
+          const aiKeywords = ['ai', 'artificial intelligence', 'machine learning', 'llm', 'gemini', 'gpt', 'claude', 'automation', 'workflow', 'neural', 'deep learning'];
+          const isRelevant = aiKeywords.some(keyword => titleLower.includes(keyword) || descLower.includes(keyword));
+          
+          if (isRelevant && title && link) {
+            // Bestimme Kategorie
+            let category = 'große-modelle';
+            if (titleLower.includes('workflow') || titleLower.includes('n8n') || titleLower.includes('automation')) {
+              category = 'workflow-tools';
+            } else if (titleLower.includes('sales') || titleLower.includes('hubspot') || titleLower.includes('crm')) {
+              category = 'sales-tools';
+            }
+            
+            news.push({
+              title: title,
+              description: description,
+              date: pubDate ? new Date(pubDate) : new Date(),
+              link: link,
+              source: source,
+              category: category,
+              language: 'en'
+            });
+          }
+        }
+      });
+    } catch (e) {
+      console.warn(`Fehler beim Parsen von ${source}:`, e);
+    }
+    return news;
+  }
+  
   async function fetchAINewsFromMultipleSources() {
     const news = [];
     const lang = window.i18n?.getCurrentLanguage() || 'de';
+    const maxAge = 30 * 24 * 60 * 60 * 1000; // 30 Tage
     
-    // Seriöse Quellen: RSS Feeds und APIs
-    
-    // 1. Google AI Blog (über n8n Webhook oder direkte Links)
-    // Hinweis: RSS Feeds haben oft CORS-Probleme - besser über n8n Workflow
-    // Für jetzt: Curated News von Google AI
-    try {
-      // Prüfe ob n8n Webhook für AI-News verfügbar ist
-      const n8nNewsUrl = 'https://n8n2.kortex-system.de/webhook/ai-news-feed';
-      try {
-        const n8nResponse = await fetch(n8nNewsUrl, {
-          method: 'GET',
-          headers: { 'Accept': 'application/json' }
-        });
-        if (n8nResponse.ok) {
-          const n8nData = await n8nResponse.json();
-          if (n8nData && Array.isArray(n8nData) && n8nData.length > 0) {
-            // Prüfe jedes Item und füge nur valide, aktuelle Nachrichten hinzu
-            const maxAge = 30 * 24 * 60 * 60 * 1000; // 30 Tage
-            const now = Date.now();
-            const validNews = n8nData.filter(item => {
-              if (!item.date && !item.pubDate) return false;
-              const itemDate = new Date(item.date || item.pubDate).getTime();
-              const age = now - itemDate;
-              return age <= maxAge && item.title && item.link;
-            });
-            news.push(...validNews.slice(0, 5));
-            // Wenn n8n genug News liefert (3+), markiere das für spätere Quellen
-            if (validNews.length >= 3) {
-              // Setze Flag, damit statische Quellen übersprungen werden
-              // (wird später in der Funktion geprüft)
-            }
-          }
-        }
-      } catch (n8nError) {
-        // Falls n8n nicht verfügbar, nutze Curated News
-        console.log('n8n AI-News nicht verfügbar, nutze Curated News');
-      }
-    } catch (e) {
-      console.warn('AI-News Fehler:', e);
-    }
-    
-    // 2. OpenAI Blog (RSS Feed via CORS Proxy oder n8n)
-    try {
-      // OpenAI RSS benötigt CORS Proxy oder n8n Workflow
-      // Für jetzt: Demo-Daten
-      news.push({
-        title: 'OpenAI: Latest AI Research & Models',
-        description: 'Stay updated with OpenAI\'s latest research and models that enable powerful automation workflows.',
-        date: new Date(),
-        link: 'https://openai.com/research',
+    // RSS Feed Quellen (mit CORS-freundlichen Feeds oder CORS Proxy)
+    const rssFeeds = [
+      {
+        url: 'https://blog.n8n.io/rss.xml',
+        source: 'n8n Blog',
+        category: 'workflow-tools'
+      },
+      {
+        url: 'https://ai.googleblog.com/feeds/posts/default',
+        source: 'Google AI',
+        category: 'große-modelle'
+      },
+      {
+        url: 'https://openai.com/blog/rss.xml',
         source: 'OpenAI',
-        category: 'große-modelle',
-        language: 'en'
+        category: 'große-modelle'
+      },
+      {
+        url: 'https://www.anthropic.com/news/rss.xml',
+        source: 'Anthropic',
+        category: 'große-modelle'
+      },
+      {
+        url: 'https://huggingface.co/blog/rss.xml',
+        source: 'Hugging Face',
+        category: 'große-modelle'
+      }
+    ];
+    
+    // Deutsche Quellen (falls Deutsch)
+    if (lang === 'de') {
+      rssFeeds.push({
+        url: 'https://the-decoder.de/feed/',
+        source: 'The Decoder',
+        category: 'deutsche-quellen'
       });
-    } catch (e) {
-      console.warn('OpenAI Blog Fehler:', e);
     }
     
-    // 3. n8n Blog (RSS Feed)
-    try {
-      const n8nResponse = await fetch('https://blog.n8n.io/rss.xml');
-      if (n8nResponse.ok) {
-        const n8nText = await n8nResponse.text();
-        // Einfacher XML Parser für RSS
-        const parser = new DOMParser();
-        const xmlDoc = parser.parseFromString(n8nText, 'text/xml');
-        const items = xmlDoc.querySelectorAll('item');
-        items.forEach((item, index) => {
-          if (index < 2) {
-            const title = item.querySelector('title')?.textContent || '';
-            const description = item.querySelector('description')?.textContent?.replace(/<[^>]*>/g, '').substring(0, 150) || '';
-            const link = item.querySelector('link')?.textContent || '';
-            const pubDate = item.querySelector('pubDate')?.textContent || '';
-            
-            if (title.toLowerCase().includes('ai') || title.toLowerCase().includes('workflow')) {
-              news.push({
-                title: title,
-                description: description,
-                date: new Date(pubDate),
-                link: link,
-                source: 'n8n Blog',
-                category: 'workflow-tools',
-                language: 'en'
-              });
-            }
-          }
+    // Lade alle RSS Feeds parallel
+    const feedPromises = rssFeeds.map(async (feed) => {
+      try {
+        const response = await fetch(feed.url, {
+          method: 'GET',
+          headers: { 'Accept': 'application/rss+xml, application/xml, text/xml' }
         });
+        
+        if (response.ok) {
+          const xmlText = await response.text();
+          const feedNews = parseRSSFeed(xmlText, feed.source, 3); // Max 3 News pro Feed
+          
+          // Filtere nach Alter
+          const now = Date.now();
+          const recentNews = feedNews.filter(item => {
+            const itemDate = new Date(item.date).getTime();
+            const age = now - itemDate;
+            return age <= maxAge && age >= 0; // Nur aktuelle News (nicht in der Zukunft)
+          });
+          
+          return recentNews;
+        }
+      } catch (e) {
+        console.warn(`Fehler beim Laden von ${feed.source}:`, e);
+        return [];
       }
-    } catch (e) {
-      console.warn('n8n Blog Fehler:', e);
+      return [];
+    });
+    
+    // Warte auf alle RSS-Feed Requests
+    const feedResults = await Promise.allSettled(feedPromises);
+    
+    // Sammle alle News
+    feedResults.forEach((result) => {
+      if (result.status === 'fulfilled' && Array.isArray(result.value)) {
+        news.push(...result.value);
+      }
+    });
+    
+    // Prüfe optional n8n Webhook (falls aktiviert)
+    try {
+      const n8nNewsUrl = 'https://n8n2.kortex-system.de/webhook/ai-news-feed';
+      const n8nResponse = await fetch(n8nNewsUrl, {
+        method: 'GET',
+        headers: { 'Accept': 'application/json' }
+      });
+      if (n8nResponse.ok) {
+        const n8nData = await n8nResponse.json();
+        if (n8nData && Array.isArray(n8nData) && n8nData.length > 0) {
+          const now = Date.now();
+          const validNews = n8nData.filter(item => {
+            if (!item.date && !item.pubDate) return false;
+            const itemDate = new Date(item.date || item.pubDate).getTime();
+            const age = now - itemDate;
+            return age <= maxAge && age >= 0 && item.title && item.link;
+          });
+          news.push(...validNews.slice(0, 5));
+        }
+      }
+    } catch (n8nError) {
+      // n8n Webhook optional - ignoriere Fehler
+      console.log('n8n AI-News Webhook nicht verfügbar (optional)');
     }
     
     // 4. KI-Tools News (branchenspezifisch) - nur als Fallback wenn keine echten News vorhanden
@@ -563,22 +665,28 @@
       });
     }
     
-    // Entferne Duplikate
+    // Entferne Duplikate (nach Link)
     const uniqueNews = news.filter((item, index, self) => 
       index === self.findIndex(t => t.link === item.link)
     );
     
     // Filtere alte Nachrichten heraus (max. 30 Tage alt)
-    const maxAge = 30 * 24 * 60 * 60 * 1000; // 30 Tage in Millisekunden
+    const maxAgeFinal = 30 * 24 * 60 * 60 * 1000; // 30 Tage in Millisekunden
     const now = Date.now();
     const recentNews = uniqueNews.filter(item => {
       const itemDate = new Date(item.date || item.pubDate || new Date()).getTime();
       const age = now - itemDate;
-      return age <= maxAge; // Nur Nachrichten, die max. 30 Tage alt sind
+      return age <= maxAgeFinal && age >= 0; // Nur aktuelle News (nicht in der Zukunft)
     });
     
     // Sortiere nach Datum (neueste zuerst) und limitiere auf 5
-    return recentNews.sort((a, b) => new Date(b.date || b.pubDate || new Date()) - new Date(a.date || a.pubDate || new Date())).slice(0, 5);
+    const sortedNews = recentNews.sort((a, b) => {
+      const dateA = new Date(a.date || a.pubDate || new Date()).getTime();
+      const dateB = new Date(b.date || b.pubDate || new Date()).getTime();
+      return dateB - dateA; // Neueste zuerst
+    }).slice(0, 5);
+    
+    return sortedNews;
   }
   
   function getDemoAINews() {
@@ -752,8 +860,12 @@
     createAIPanel();
     loadAINews();
     
-    // Refresh every 30 minutes
-    setInterval(loadAINews, 30 * 60 * 1000);
+    // Refresh every 10 minutes (für aktuelle News)
+    setInterval(() => {
+      // Lösche Cache und lade neue News
+      localStorage.removeItem('ai-news-cache');
+      loadAINews();
+    }, 10 * 60 * 1000);
     
     // Reload news when language changes
     window.addEventListener('languagechange', () => {
