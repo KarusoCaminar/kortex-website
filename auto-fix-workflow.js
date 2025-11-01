@@ -11,15 +11,17 @@ const WORKFLOW_FIXED_FILE = path.join(__dirname, 'n8n-business-card-workflow-ver
 const ANALYSIS_REPORT_FILE = path.join(__dirname, 'analysis-report.json');
 
 /**
- * Liest Workflow JSON
+ * Liest Workflow JSON (auch von FIXED wenn vorhanden)
  */
-function loadWorkflow() {
-    if (!fs.existsSync(WORKFLOW_DEBUG_FILE)) {
-        throw new Error(`Workflow-Datei nicht gefunden: ${WORKFLOW_DEBUG_FILE}`);
+function loadWorkflow(useFixed = false) {
+    const filePath = useFixed && fs.existsSync(WORKFLOW_FIXED_FILE) ? WORKFLOW_FIXED_FILE : WORKFLOW_DEBUG_FILE;
+    
+    if (!fs.existsSync(filePath)) {
+        throw new Error(`Workflow-Datei nicht gefunden: ${filePath}`);
     }
     
-    console.log(`📖 Lade Workflow: ${WORKFLOW_DEBUG_FILE}`);
-    const workflow = JSON.parse(fs.readFileSync(WORKFLOW_DEBUG_FILE, 'utf8'));
+    console.log(`📖 Lade Workflow: ${filePath}`);
+    const workflow = JSON.parse(fs.readFileSync(filePath, 'utf8'));
     return workflow;
 }
 
@@ -371,6 +373,7 @@ if (require.main === module) {
 }
 
 module.exports = {
+    loadWorkflow,
     fixSetzeSampleInfoNode,
     fixConnections,
     fixTransformOutputNode,
