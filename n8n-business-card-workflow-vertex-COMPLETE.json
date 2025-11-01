@@ -3,20 +3,45 @@
   "nodes": [
     {
       "parameters": {
-        "path": "business-card-extraction",
-        "options": {
-          "responseCode": 200,
-          "responseMode": "lastNode"
+        "projectId": {
+          "__rl": true,
+          "value": "koretex-zugang",
+          "mode": "id"
         },
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.lmChatGoogleVertex",
+      "typeVersion": 1,
+      "position": [
+        1536,
+        1904
+      ],
+      "id": "72ed7f7b-7d6-4ed2-b679-373842949ee7",
+      "name": "Google Vertex Chat Model",
+      "credentials": {
+        "googleApi": {
+          "id": "gJXT6UPYPUx6TpMl",
+          "name": "Google Service Account Moritz"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "path": "business-card-extraction",
+        "responseMode": "lastNode",
+        "options": {},
         "binaryPropertyName": "file"
       },
-      "id": "webhook-form",
+      "id": "12da61f1-9a21-43e6-876d-2aaac089e409",
       "name": "Business Card Upload",
       "type": "n8n-nodes-base.webhook",
       "typeVersion": 1,
-      "position": [240, 300],
+      "position": [
+        448,
+        1664
+      ],
       "webhookId": "business-card-extraction",
-      "continueOnFail": false,
+      "notesInFlow": false,
       "notes": "Form Trigger für Demo. Lädt Datei hoch oder nutzt sample=1/2/3 Parameter."
     },
     {
@@ -25,23 +50,33 @@
           "options": {
             "caseSensitive": true,
             "leftValue": "",
-            "typeValidation": "strict"
+            "typeValidation": "strict",
+            "version": 1
           },
-          "string": [
+          "conditions": [
             {
-              "value1": "={{String($json.query.sample)}}",
-              "value2": "",
-              "operation": "notEmpty"
+              "id": "9283215e-b7ce-49fe-879d-0eefdb2ba41e",
+              "leftValue": "={{String($json.query.sample)}}",
+              "rightValue": "",
+              "operator": {
+                "type": "string",
+                "operation": "notEmpty",
+                "name": "filter.operator.notEmpty"
+              }
             }
-          ]
+          ],
+          "combinator": "and"
         },
-        "combineOperation": "any"
+        "options": {}
       },
-      "id": "check-sample",
+      "id": "77695917-ca49-445f-8bc5-8d94428d9e09",
       "name": "Ist Sample?",
       "type": "n8n-nodes-base.if",
       "typeVersion": 2,
-      "position": [460, 300]
+      "position": [
+        672,
+        1664
+      ]
     },
     {
       "parameters": {
@@ -49,23 +84,33 @@
           "options": {
             "caseSensitive": true,
             "leftValue": "",
-            "typeValidation": "strict"
+            "typeValidation": "strict",
+            "version": 1
           },
-          "string": [
+          "conditions": [
             {
-              "value1": "={{String($json.query.sample)}}",
-              "value2": "1",
-              "operation": "equals"
+              "id": "3bba7778-59de-4b78-a054-4674ba0b2438",
+              "leftValue": "={{String($json.query.sample)}}",
+              "rightValue": "1",
+              "operator": {
+                "type": "string",
+                "operation": "equals",
+                "name": "filter.operator.equals"
+              }
             }
-          ]
+          ],
+          "combinator": "and"
         },
-        "combineOperation": "any"
+        "options": {}
       },
-      "id": "check-sample-1",
+      "id": "ee5bfd58-fa09-4d40-9723-cfe3d2e256aa",
       "name": "Sample 1?",
       "type": "n8n-nodes-base.if",
       "typeVersion": 2,
-      "position": [680, 180]
+      "position": [
+        880,
+        1536
+      ]
     },
     {
       "parameters": {
@@ -73,23 +118,33 @@
           "options": {
             "caseSensitive": true,
             "leftValue": "",
-            "typeValidation": "strict"
+            "typeValidation": "strict",
+            "version": 1
           },
-          "string": [
+          "conditions": [
             {
-              "value1": "={{String($json.query.sample)}}",
-              "value2": "2",
-              "operation": "equals"
+              "id": "ee8f42c2-253f-474c-a3f9-868906a57390",
+              "leftValue": "={{String($json.query.sample)}}",
+              "rightValue": "2",
+              "operator": {
+                "type": "string",
+                "operation": "equals",
+                "name": "filter.operator.equals"
+              }
             }
-          ]
+          ],
+          "combinator": "and"
         },
-        "combineOperation": "any"
+        "options": {}
       },
-      "id": "check-sample-2",
+      "id": "1a32701a-48f6-4b52-a1fd-8b2298402665",
       "name": "Sample 2?",
       "type": "n8n-nodes-base.if",
       "typeVersion": 2,
-      "position": [680, 420]
+      "position": [
+        880,
+        1776
+      ]
     },
     {
       "parameters": {
@@ -97,23 +152,33 @@
           "options": {
             "caseSensitive": true,
             "leftValue": "",
-            "typeValidation": "strict"
+            "typeValidation": "strict",
+            "version": 1
           },
-          "string": [
+          "conditions": [
             {
-              "value1": "={{String($json.query.sample)}}",
-              "value2": "3",
-              "operation": "equals"
+              "id": "5479d246-c283-4286-b903-4e312a617d95",
+              "leftValue": "={{String($json.query.sample)}}",
+              "rightValue": "3",
+              "operator": {
+                "type": "string",
+                "operation": "equals",
+                "name": "filter.operator.equals"
+              }
             }
-          ]
+          ],
+          "combinator": "and"
         },
-        "combineOperation": "any"
+        "options": {}
       },
-      "id": "check-sample-3",
+      "id": "7334c0d1-a739-4337-8c26-8aa9033fea61",
       "name": "Sample 3?",
       "type": "n8n-nodes-base.if",
       "typeVersion": 2,
-      "position": [680, 660]
+      "position": [
+        880,
+        2016
+      ]
     },
     {
       "parameters": {
@@ -126,11 +191,14 @@
           }
         }
       },
-      "id": "load-sample-1",
+      "id": "a0afa3cd-255e-4f7c-941b-316d6941e547",
       "name": "Lade Sample 1",
       "type": "n8n-nodes-base.httpRequest",
       "typeVersion": 4.1,
-      "position": [900, 180],
+      "position": [
+        1104,
+        1536
+      ],
       "notes": "Lädt Demo-Visitenkarte 1 (Oliver Krause)."
     },
     {
@@ -144,11 +212,14 @@
           }
         }
       },
-      "id": "load-sample-2",
+      "id": "8078e8e0-1405-48bd-be22-1bc6ba3b473c",
       "name": "Lade Sample 2",
       "type": "n8n-nodes-base.httpRequest",
       "typeVersion": 4.1,
-      "position": [900, 420],
+      "position": [
+        1104,
+        1776
+      ],
       "notes": "Lädt Demo-Visitenkarte 2 (Gabi Graßnick)."
     },
     {
@@ -162,11 +233,14 @@
           }
         }
       },
-      "id": "load-sample-3",
+      "id": "e892bed9-5973-4ebf-bffc-9c85571e2eda",
       "name": "Lade Sample 3",
       "type": "n8n-nodes-base.httpRequest",
       "typeVersion": 4.1,
-      "position": [900, 660],
+      "position": [
+        1104,
+        2016
+      ],
       "notes": "Lädt Demo-Visitenkarte 3 (Mariana Anderson)."
     },
     {
@@ -174,11 +248,14 @@
         "mode": "runOnceForEachItem",
         "jsCode": "// --- Code für Setze Sample-Info (FINAL - CRASH-PROOF) ---\n\nconst sample = String($json.query?.sample || '').trim();\n\nlet binaryData = null;\n\n// 1. $binary vom aktuellen Item\nif ($binary && typeof $binary === 'object') {\n    const keys = Object.keys($binary);\n    if (keys.length > 0) {\n        binaryData = $binary;\n    }\n}\n\n// 2. Sample: Binary von \"Lade Sample X\" Node\nif (!binaryData && sample) {\n    try {\n        const nodeName = sample === '1' ? 'Lade Sample 1' : sample === '2' ? 'Lade Sample 2' : 'Lade Sample 3';\n        const node = $(nodeName);\n        \n        if (node?.binary) binaryData = node.binary;\n        else if (node?.item?.binary) binaryData = node.item.binary;\n        else if (node?.item?.binary?.data) binaryData = node.item.binary;\n        else if (node?.item?.binary?.file) binaryData = { data: node.item.binary.file };\n    } catch (e) {\n        console.error('Fehler beim Holen von Lade Sample:', e);\n    }\n}\n\n// 3. Upload: Binary vom Webhook\nif (!binaryData && !sample) {\n    try {\n        const webhook = $('Business Card Upload');\n        if (webhook?.binary) binaryData = webhook.binary;\n        else if (webhook?.item?.binary) binaryData = webhook.item.binary;\n        else if (webhook?.item?.binary?.data) binaryData = webhook.item.binary;\n        else if (webhook?.item?.binary?.file) binaryData = { data: webhook.item.binary.file };\n    } catch (e) {\n        console.error('Fehler beim Holen vom Webhook:', e);\n    }\n}\n\n// 4. Fallback: $binary\nif (!binaryData && $binary) {\n    binaryData = $binary;\n}\n\n// KRITISCH: Wenn KEINE Binary-Daten → RETURN [] statt Error (verhindert 500 Error!)\nif (!binaryData || (typeof binaryData === 'object' && Object.keys(binaryData).length === 0)) {\n    console.error('Binary-Daten fehlen für Sample:', sample || 'Upload');\n    // RETURN [] statt Error werfen - verhindert 500 Error!\n    return [];\n}\n\n// RETURN: Item mit Binary\nreturn [{\n    json: {\n        ...$json,\n        sample: sample,\n        source: sample ? `Sample ${sample}` : 'Upload'\n    },\n    binary: binaryData\n}];"
       },
-      "id": "set-sample-info",
+      "id": "16562d02-ccfb-488a-93ea-25fe823df0da",
       "name": "Setze Sample-Info",
       "type": "n8n-nodes-base.code",
       "typeVersion": 2,
-      "position": [1120, 300]
+      "position": [
+        1328,
+        1664
+      ]
     },
     {
       "parameters": {
@@ -189,22 +266,28 @@
           "automaticallyPassthroughBinaryImages": true
         }
       },
-      "id": "ai-agent-vertex",
+      "id": "9eac79e0-e6b6-4b71-ad88-6365e29b73b3",
       "name": "AI Agent - Vertex AI",
       "type": "@n8n/n8n-nodes-langchain.agent",
       "typeVersion": 2.2,
-      "position": [1340, 300],
+      "position": [
+        1552,
+        1664
+      ],
       "notes": "⚠️ WICHTIG: Konfiguriere unter 'Chat Model' → Google Vertex AI Gemini mit deinen Credentials! Der AI Agent Node verarbeitet Binary-Daten direkt - KEIN Base64 nötig!"
     },
     {
       "parameters": {
         "jsCode": "// Parse AI Agent Response (Vertex AI Gemini)\n\n// Detailliertes Logging\nconsole.log('🔍 [Parse AI Agent Response] Starte Parsing');\nconsole.log('⏰ Zeitstempel:', new Date().toISOString());\nconsole.log('📋 Input Response:', JSON.stringify($json, null, 2));\n\nconst response = $json;\nconst source = $('Setze Sample-Info').item.json.source || 'Upload';\nconst sample = $('Setze Sample-Info').item.json.sample || '';\n\nconsole.log('📝 Metadaten:', { source, sample });\n\n// AI Agent Response Struktur kann variieren:\n// Option 1: Direkt JSON Response\n// Option 2: Text mit JSON\n\nlet extractedData = {};\nlet responseText = '';\n\ntry {\n  // Versuche verschiedene Response-Strukturen\n  if (response.output) {\n    responseText = response.output;\n  } else if (response.chatOutput) {\n    responseText = response.chatOutput;\n  } else if (response.text) {\n    responseText = response.text;\n  } else if (response.message) {\n    responseText = response.message;\n  } else if (response.candidates?.[0]?.content?.parts?.[0]?.text) {\n    // Vertex AI native Format\n    responseText = response.candidates[0].content.parts[0].text;\n  } else if (typeof response === 'string') {\n    responseText = response;\n  } else if (typeof response === 'object' && response.name) {\n    // Bereits strukturiertes JSON\n    extractedData = response;\n  }\n  \n  // Extrahiere JSON aus Text (falls zusätzlicher Text vorhanden)\n  if (responseText) {\n    const jsonMatch = responseText.match(/\\{[\\s\\S]*\\}/);\n    const jsonString = jsonMatch ? jsonMatch[0] : responseText;\n    extractedData = JSON.parse(jsonString);\n  }\n} catch (error) {\n  // Fallback: Versuche direkt zu parsen\n  if (typeof response === 'object' && !response.candidates) {\n    extractedData = response;\n  } else {\n    console.error('Fehler beim Parsen der AI Agent Response:', error);\n    console.error('Response:', JSON.stringify(response, null, 2));\n    extractedData = {};\n  }\n}\n\n// Füge Metadaten hinzu\nconst extractedResult = {\n  json: {\n    name: extractedData.name || '',\n    company: extractedData.company || '',\n    email: extractedData.email || '',\n    phone: extractedData.phone || extractedData.phone_mobile || '',\n    phone_office: extractedData.phone_office || extractedData.phone_büro || '',\n    address: extractedData.address || '',\n    city: extractedData.city || '',\n    website: extractedData.website || extractedData.www || '',\n    job_title: extractedData.job_title || extractedData.position || '',\n    verification_status: extractedData.verification_status || 'unverified',\n    confidence_score: extractedData.confidence_score !== undefined ? extractedData.confidence_score : 0.5,\n    source: source,\n    sample: sample,\n    timestamp: new Date().toISOString()\n  }\n};\n\nconsole.log('✅ [Parse AI Agent Response] Extrahiert:', {\n  name: extractedResult.json.name || '(leer)',\n  company: extractedResult.json.company || '(leer)',\n  email: extractedResult.json.email || '(leer)',\n  verification_status: extractedResult.json.verification_status,\n  confidence_score: extractedResult.json.confidence_score\n});\n\nreturn [extractedResult];"
       },
-      "id": "parse-vertex-response",
+      "id": "03f11110-dfe6-4719-9c22-2eecf9f0d7be",
       "name": "Parse AI Agent Response",
       "type": "n8n-nodes-base.code",
       "typeVersion": 2,
-      "position": [1560, 300],
+      "position": [
+        1760,
+        1664
+      ],
       "notes": "Parst die Vertex AI Gemini Response und extrahiert strukturierte Kontaktdaten"
     },
     {
@@ -212,11 +295,14 @@
         "mode": "runOnceForEachItem",
         "jsCode": "// Formatiere Daten für die Website\nconst data = $json;\nreturn {\n  json: {\n    type: 'business-card-processed',\n    payload: {\n      name: data.name || '',\n      company: data.company || '',\n      email: data.email || '',\n      phone: data.phone || '',\n      phone_office: data.phone_office || '',\n      address: data.address || '',\n      city: data.city || '',\n      website: data.website || '',\n      job_title: data.job_title || '',\n      verification_status: data.verification_status || 'unverified',\n      confidence_score: data.confidence_score !== undefined ? data.confidence_score : 0.5,\n      source: data.source || 'Upload',\n      sample: data.sample || '',\n      timestamp: data.timestamp || new Date().toISOString()\n    }\n  }\n};"
       },
-      "id": "format-response",
+      "id": "9ee768fe-1f71-453c-88be-c2e300d0c004",
       "name": "Formatiere für Website",
       "type": "n8n-nodes-base.code",
       "typeVersion": 2,
-      "position": [1780, 300]
+      "position": [
+        1984,
+        1664
+      ]
     },
     {
       "parameters": {
@@ -224,15 +310,30 @@
         "responseBody": "={{$json}}",
         "options": {}
       },
-      "id": "respond-to-webhook",
+      "id": "ed3af303-e020-4a2d-a219-475cac685f44",
       "name": "Antwort an Website",
       "type": "n8n-nodes-base.respondToWebhook",
       "typeVersion": 1,
-      "position": [2000, 300],
+      "position": [
+        2208,
+        1664
+      ],
       "notes": "Sendet Ergebnisse zurück an die Website. Die Website empfängt die Daten via postMessage."
     }
   ],
+  "pinData": {},
   "connections": {
+    "Google Vertex Chat Model": {
+      "ai_languageModel": [
+        [
+          {
+            "node": "AI Agent - Vertex AI",
+            "type": "ai_languageModel",
+            "index": 0
+          }
+        ]
+      ]
+    },
     "Business Card Upload": {
       "main": [
         [
@@ -387,13 +488,16 @@
       ]
     }
   },
-  "pinData": {},
+  "active": true,
   "settings": {
     "executionOrder": "v1"
   },
-  "staticData": null,
-  "tags": [],
-  "triggerCount": 0,
-  "updatedAt": "2025-01-27T12:00:00.000Z",
-  "versionId": "1"
+  "versionId": "bac47785-09c6-4874-a2b7-07e344161508",
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "1268d95745fc1c71df26afc09ddd8e6477a2faab952c5e36a37f4654b44d882a"
+  },
+  "id": "JkdKPm27OWy93nU5",
+  "tags": []
 }
+
