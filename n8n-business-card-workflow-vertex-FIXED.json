@@ -319,7 +319,7 @@
       "ai_outputParser": [
         [
           {
-            "node": "AI Agent - Vertex AI",
+            "node": "Google Vertex Chat Model",
             "type": "ai_outputParser",
             "index": 0
           }
