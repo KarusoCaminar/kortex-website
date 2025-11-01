@@ -204,30 +204,18 @@
         "url": "http://localhost:3000/debug/save",
         "method": "POST",
         "sendBody": true,
-        "bodyParameters": {
-          "parameters": [
-            {
-              "name": "debugSummary",
-              "value": "={{$json.debugSummary}}"
-            },
-            {
-              "name": "debugData",
-              "value": "={{$json.debugData}}"
-            },
-            {
-              "name": "result",
-              "value": "={{$json}}"
-            }
-          ]
-        },
-        "options": {}
+        "specifyBody": "json",
+        "jsonBody": "={{JSON.stringify($json)}}",
+        "options": {
+          "timeout": 5000
+        }
       },
       "id": "save-debug-data",
       "name": "💾 Save Debug Data",
       "type": "n8n-nodes-base.httpRequest",
       "typeVersion": 4.1,
       "position": [1904, 1800],
-      "notes": "Sendet Debug-Daten automatisch an lokalen Debug-Server (http://localhost:3000/debug/save). Kann deaktiviert werden wenn Server nicht läuft."
+      "notes": "Sendet Debug-Daten automatisch an lokalen Debug-Server (http://localhost:3000/debug/save). Kann deaktiviert werden wenn Server nicht läuft. Error-Handling: Wenn Server nicht läuft, wird Fehler ignoriert (Workflow läuft weiter)."
     },
     {
       "parameters": {
