@@ -33,9 +33,27 @@
     },
     {
       "parameters": {
+        "httpMethod": "POST",
         "path": "business-card-extraction",
         "responseMode": "lastNode",
-        "options": {},
+        "options": {
+          "responseHeaders": {
+            "entries": [
+              {
+                "name": "Access-Control-Allow-Origin",
+                "value": "*"
+              },
+              {
+                "name": "Access-Control-Allow-Methods",
+                "value": "POST, OPTIONS"
+              },
+              {
+                "name": "Access-Control-Allow-Headers",
+                "value": "Content-Type, Accept"
+              }
+            ]
+          }
+        },
         "binaryPropertyName": "file"
       },
       "id": "12da61f1-9a21-43e6-876d-2aaac089e409",
