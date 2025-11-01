@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Console Errors Extractor</title>
+    <style>
+        body {
+            font-family: monospace;
+            background: #1a1a1a;
+            color: #e0e0e0;
+            padding: 2rem;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+        h1 { color: #60a5fa; }
+        .error { color: #ef4444; background: rgba(239, 68, 68, 0.1); padding: 1rem; border-left: 4px solid #ef4444; margin: 1rem 0; }
+        .info { color: #60a5fa; background: rgba(96, 165, 250, 0.1); padding: 1rem; border-left: 4px solid #60a5fa; margin: 1rem 0; }
+        pre { background: #2a2a2a; padding: 1rem; border-radius: 4px; overflow-x: auto; }
+        button { background: #3b82f6; color: white; border: none; padding: 0.75rem 1.5rem; border-radius: 4px; cursor: pointer; margin: 0.5rem 0.5rem 0.5rem 0; }
+        button:hover { background: #2563eb; }
+    </style>
+</head>
+<body>
+    <h1>🔍 Console Errors Extractor</h1>
+    
+    <div class="info">
+        <p><strong>Anleitung:</strong></p>
+        <ol>
+            <li>Öffne die Kortex-Website: <code>https://karusocaminar.github.io/kortex-website/</code></li>
+            <li>Öffne die Browser-Konsole (F12)</li>
+            <li>Klicke auf eine Visitenkarte (Sample 1/2/3)</li>
+            <li>Kopiere ALLE Fehler aus der Konsole (Strg+A im Console Tab, Strg+C)</li>
+            <li>Füge die Fehler hier unten ein und klicke "Analysieren"</li>
+        </ol>
+    </div>
+    
+    <textarea id="console-input" placeholder="Füge hier die Fehler aus der Browser-Konsole ein..." style="width: 100%; min-height: 200px; background: #2a2a2a; color: #e0e0e0; padding: 1rem; border: 1px solid #444; border-radius: 4px; font-family: monospace; font-size: 0.875rem;"></textarea>
+    
+    <div style="margin: 1rem 0;">
+        <button onclick="analyzeErrors()">🔍 Fehler analysieren</button>
+        <button onclick="copyAnalysis()">📋 Analyse kopieren</button>
+        <button onclick="exportAnalysis()">💾 Als JSON exportieren</button>
+    </div>
+    
+    <div id="analysis-results"></div>
+    
+    <script>
+        let currentAnalysis = null;
+        
+        function analyzeErrors() {
+            const input = document.getElementById('console-input').value;
+            if (!input.trim()) {
+                alert('Bitte füge Fehler aus der Konsole ein!');
+                return;
+            }
+            
+            const analysis = {
+                timestamp: new Date().toISOString(),
+                errors: [],
+                httpErrors: [],
+                workflowErrors: [],
+                issues: [],
+                recommendations: []
+            };
+            
+            // Suche nach HTTP-Fehlern (500, 404, etc.)
+            const httpErrorRegex = /HTTP (\d{3}):/g;
+            let match;
+            while ((match = httpErrorRegex.exec(input)) !== null) {
+                const statusCode = parseInt(match[1]);
+                analysis.httpErrors.push({
+                    statusCode: statusCode,
+                    is500: statusCode === 500,
+                    context: extractContext(input, match.index)
+                });
+            }
+            
+            // Suche nach 500-Fehlern
+            if (input.includes('500') || input.includes('Internal Server Error')) {
+                analysis.httpErrors.push({
+                    statusCode: 500,
+                    is500: true,
+                    message: '500 Internal Server Error erkannt',
+                    context: extractContext(input, input.indexOf('500') || input.indexOf('Internal Server Error'))
+                });
+            }
+            
+            // Suche nach "Binary-Daten fehlen"
+            if (input.includes('Binary-Daten fehlen') || input.includes('Binary-Daten')) {
+                analysis.workflowErrors.push({
+                    type: 'binary-missing',
+                    message: 'Binary-Daten fehlen',
+                    node: 'Setze Sample-Info',
+                    fix: 'Prüfe ob "Lade Sample X" Node Binary-Daten zurückgibt'
+                });
+                analysis.issues.push({
+                    severity: 'critical',
+                    issue: 'Binary-Daten fehlen im Workflow',
+                    location: 'Setze Sample-Info Node',
+                    fix: 'Prüfe "Lade Sample X" Nodes - geben diese Binary-Daten zurück?'
+                });
+            }
+            
+            // Suche nach "No item to return was found"
+            if (input.includes('No item to return') || input.includes('no item to return')) {
+                analysis.workflowErrors.push({
+                    type: 'no-item-return',
+                    message: 'No item to return was found',
+                    node: 'Setze Sample-Info',
+                    fix: 'Code gibt [] zurück statt Error-Response'
+                });
+                analysis.issues.push({
+                    severity: 'critical',
+                    issue: 'Setze Sample-Info gibt [] zurück',
+                    location: 'Setze Sample-Info Node',
+                    fix: 'Sollte Error-Response zurückgeben statt []'
+                });
+            }
+            
+            // Suche nach Fehler-Responses (type: error)
+            if (input.includes('type: \'error\'') || input.includes('type: "error"')) {
+                analysis.workflowErrors.push({
+                    type: 'error-response',
+                    message: 'Error-Response vom Workflow erhalten',
+                    fix: 'Workflow sendet Error-Response - prüfe n8n Execution Logs'
+                });
+            }
+            
+            // Suche nach CORS-Fehlern
+            if (input.includes('CORS') || input.includes('cors') || input.includes('Cross-Origin')) {
+                analysis.errors.push({
+                    type: 'cors',
+                    message: 'CORS-Fehler erkannt',
+                    fix: 'n8n Server muss CORS für karusocaminar.github.io erlauben'
+                });
+            }
+            
+            // Suche nach Timeout-Fehlern
+            if (input.includes('timeout') || input.includes('Timeout')) {
+                analysis.errors.push({
+                    type: 'timeout',
+                    message: 'Timeout-Fehler erkannt',
+                    fix: 'Workflow läuft zu lange - prüfe n8n Server-Logs'
+                });
+            }
+            
+            // Suche nach "Failed to fetch"
+            if (input.includes('Failed to fetch') || input.includes('failed to fetch')) {
+                analysis.errors.push({
+                    type: 'fetch-failed',
+                    message: 'Fetch-Fehler erkannt',
+                    fix: 'n8n Server ist nicht erreichbar oder Workflow ist nicht aktiviert'
+                });
+            }
+            
+            // Generiere Empfehlungen
+            if (analysis.httpErrors.some(e => e.is500)) {
+                analysis.recommendations.push('500-Fehler: Prüfe n8n Execution Logs - welcher Node schlägt fehl?');
+                analysis.recommendations.push('500-Fehler: Prüfe ob "Lade Sample X" Nodes Binary-Daten zurückgeben');
+                analysis.recommendations.push('500-Fehler: Prüfe "Setze Sample-Info" Node - sendet dieser Error-Response statt []?');
+            }
+            
+            if (analysis.workflowErrors.some(e => e.type === 'binary-missing')) {
+                analysis.recommendations.push('Binary-Daten: Prüfe "Lade Sample X" Nodes - ist responseFormat: "file" gesetzt?');
+                analysis.recommendations.push('Binary-Daten: Prüfe in n8n Execution - hat "Lade Sample X" Output Binary-Daten?');
+            }
+            
+            currentAnalysis = analysis;
+            displayAnalysis(analysis);
+        }
+        
+        function extractContext(text, index) {
+            const start = Math.max(0, index - 200);
+            const end = Math.min(text.length, index + 200);
+            return text.substring(start, end).trim();
+        }
+        
+        function displayAnalysis(analysis) {
+            const resultsDiv = document.getElementById('analysis-results');
+            
+            let html = '<h2>📊 Analyse-Ergebnisse</h2>';
+            
+            // HTTP-Fehler
+            if (analysis.httpErrors.length > 0) {
+                html += '<div class="error"><h3>❌ HTTP-Fehler:</h3>';
+                analysis.httpErrors.forEach(err => {
+                    html += `<p><strong>Status ${err.statusCode}:</strong> ${err.is500 ? '🔴 500-Fehler!' : 'Warnung'}</p>`;
+                    if (err.context) {
+                        html += `<details><summary>Kontext anzeigen</summary><pre>${err.context}</pre></details>`;
+                    }
+                });
+                html += '</div>';
+            }
+            
+            // Workflow-Fehler
+            if (analysis.workflowErrors.length > 0) {
+                html += '<div class="error"><h3>❌ Workflow-Fehler:</h3>';
+                analysis.workflowErrors.forEach(err => {
+                    html += `<p><strong>${err.type}:</strong> ${err.message}</p>`;
+                    html += `<p><strong>Node:</strong> ${err.node || 'Unbekannt'}</p>`;
+                    html += `<p><strong>Fix:</strong> ${err.fix}</p><br>`;
+                });
+                html += '</div>';
+            }
+            
+            // Issues
+            if (analysis.issues.length > 0) {
+                html += '<div class="error"><h3>⚠️ Gefundene Probleme:</h3>';
+                analysis.issues.forEach((issue, index) => {
+                    html += `<p><strong>${index + 1}. ${issue.issue}</strong></p>`;
+                    html += `<p>Location: ${issue.location}</p>`;
+                    html += `<p>Fix: ${issue.fix}</p><br>`;
+                });
+                html += '</div>';
+            }
+            
+            // Empfehlungen
+            if (analysis.recommendations.length > 0) {
+                html += '<div class="info"><h3>💡 Empfehlungen:</h3><ul>';
+                analysis.recommendations.forEach(rec => {
+                    html += `<li>${rec}</li>`;
+                });
+                html += '</ul></div>';
+            }
+            
+            if (analysis.httpErrors.length === 0 && analysis.workflowErrors.length === 0) {
+                html += '<div class="info"><p>✅ Keine offensichtlichen Fehler gefunden. Prüfe die vollständige Console-Ausgabe.</p></div>';
+            }
+            
+            // Zeige vollständige Analyse
+            html += '<div class="info"><h3>📋 Vollständige Analyse (JSON):</h3><pre id="json-output">' + JSON.stringify(analysis, null, 2) + '</pre></div>';
+            
+            resultsDiv.innerHTML = html;
+        }
+        
+        function copyAnalysis() {
+            if (!currentAnalysis) {
+                alert('Bitte führe erst eine Analyse durch!');
+                return;
+            }
+            
+            const jsonOutput = document.getElementById('json-output');
+            if (jsonOutput) {
+                jsonOutput.select();
+                document.execCommand('copy');
+                alert('✅ Analyse in Zwischenablage kopiert!');
+            }
+        }
+        
+        function exportAnalysis() {
+            if (!currentAnalysis) {
+                alert('Bitte führe erst eine Analyse durch!');
+                return;
+            }
+            
+            const dataStr = JSON.stringify(currentAnalysis, null, 2);
+            const dataBlob = new Blob([dataStr], { type: 'application/json' });
+            const url = URL.createObjectURL(dataBlob);
+            const link = document.createElement('a');
+            link.href = url;
+            link.download = `console-analysis-${new Date().toISOString().split('T')[0]}.json`;
+            link.click();
+            URL.revokeObjectURL(url);
+        }
+    </script>
+</body>
+</html>
+
