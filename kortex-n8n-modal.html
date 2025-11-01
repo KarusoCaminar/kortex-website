@@ -598,7 +598,59 @@
     // ========================================
     
     // Helper-Funktion für Loading-States mit Progress-Balken
-    function updateLoadingState(loadingElement, stage, progress) {
+      function showErrorState(loadingElement, errorMessage, errorDetails = null) {
+        // Parse error message to extract main message and details
+        let mainMessage = errorMessage;
+        let statusCode = null;
+        let errorType = 'Fehler';
+        
+        // Extract HTTP status codes
+        const httpMatch = errorMessage.match(/HTTP\s+(\d+):\s*(.+)/);
+        if (httpMatch) {
+          statusCode = httpMatch[1];
+          const statusText = httpMatch[2];
+          mainMessage = statusText;
+          
+          if (statusCode === '500') {
+            errorType = 'Server-Fehler';
+            mainMessage = 'Der Server konnte die Anfrage nicht verarbeiten. Bitte versuchen Sie es später erneut.';
+          } else if (statusCode === '404') {
+            errorType = 'Nicht gefunden';
+            mainMessage = 'Die angeforderte Ressource wurde nicht gefunden.';
+          } else if (statusCode === '503') {
+            errorType = 'Service nicht verfügbar';
+            mainMessage = 'Der Service ist derzeit nicht verfügbar. Bitte versuchen Sie es später erneut.';
+          }
+        }
+        
+        // Extract other common error patterns
+        if (errorMessage.includes('Timeout')) {
+          errorType = 'Zeitüberschreitung';
+          mainMessage = 'Die Anfrage hat zu lange gedauert. Bitte versuchen Sie es erneut.';
+        } else if (errorMessage.includes('Failed to fetch') || errorMessage.includes('NetworkError')) {
+          errorType = 'Verbindungsfehler';
+          mainMessage = 'Verbindung zum Server fehlgeschlagen. Bitte prüfen Sie Ihre Internetverbindung.';
+        } else if (errorMessage.includes('CORS')) {
+          errorType = 'Verbindungsfehler';
+          mainMessage = 'Verbindung zum Server wurde blockiert. Bitte prüfen Sie die n8n Konfiguration.';
+        }
+        
+        // Build error HTML
+        loadingElement.innerHTML = `
+          <div class="loading-content error-state">
+            <div class="error-icon">
+              <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+              </svg>
+            </div>
+            <h3 class="error-title">${errorType}</h3>
+            <p class="error-message">${mainMessage}</p>
+            ${errorDetails ? `<div class="error-details">${errorDetails}</div>` : ''}
+          </div>
+        `;
+      }
+      
+      function updateLoadingState(loadingElement, stage, progress) {
       const stages = {
         'start': { text: '🔄 KI-Extraktion startet...', stage: 'Vorbereitung' },
         'processing': { text: '⚙️ KI analysiert Visitenkarte...', stage: 'Verarbeitung' },
@@ -903,7 +955,7 @@
         // Für POST: Entweder File-Upload oder Sample-JSON
         if (method === 'POST') {
           let fileToUpload = uploadFile;
-
+          
           // Falls kein File als Parameter übergeben wurde, prüfe File Input
           if (!fileToUpload) {
             const fileInput = document.getElementById('business-card-upload-input');
@@ -911,7 +963,7 @@
               fileToUpload = fileInput.files[0];
             }
           }
-
+          
           if (fileToUpload) {
             // FALL 1: Datei-Upload
             const formData = new FormData();
@@ -1021,8 +1073,8 @@
             timeout: TIMEOUT_MS
           });
           
-          // Update Loading mit Fehler
-          loading.innerHTML = `<div class="spinner" style="border-top-color: #ef4444;"></div><p class="loading-text" style="color: #ef4444;">❌ Fehler: ${errorMessage.split('\n')[0]}</p>`;
+          // Zeige Fehler-State
+          showErrorState(loading, errorMessage, 'Bitte versuchen Sie es erneut oder kontaktieren Sie den Support.');
           
           throw new Error(errorMessage);
         }
@@ -1277,8 +1329,8 @@
               // Fehler-Response behandeln
               console.error(`❌ Fehler in Array-Item ${index}:`, itemData);
               const errorMsg = itemData.message || itemData.error || 'Unbekannter Fehler';
-              loading.innerHTML = `<div class="spinner" style="border-top-color: #ef4444;"></div><p class="loading-text" style="color: #ef4444;">❌ Fehler: ${errorMsg}</p>`;
-              alert(`⚠️ Fehler beim Verarbeiten: ${errorMsg}`);
+              showErrorState(loading, errorMsg, 'Bitte prüfen Sie die n8n Execution Logs für weitere Details.');
+              iframe.style.display = 'none';
               dataProcessed = true; // Fehler wurde behandelt
             } else {
               console.warn(`⚠️ Array-Item ${index} hat nicht die erwartete Struktur:`, {
@@ -1346,8 +1398,8 @@
             // Fehler-Response behandeln
             console.error('❌ Fehler-Response erhalten:', actualResponseData);
             const errorMsg = actualResponseData.message || actualResponseData.error || 'Unbekannter Fehler';
-            loading.innerHTML = `<div class="spinner" style="border-top-color: #ef4444;"></div><p class="loading-text" style="color: #ef4444;">❌ Fehler: ${errorMsg}</p>`;
-            alert(`⚠️ Fehler beim Verarbeiten: ${errorMsg}\n\nBitte prüfe n8n Execution Logs für Details.`);
+            showErrorState(loading, errorMsg, 'Bitte prüfen Sie die n8n Execution Logs für weitere Details.');
+            iframe.style.display = 'none';
             dataProcessed = true; // Fehler wurde behandelt
           }
         }
@@ -1562,50 +1614,13 @@
           console.error('📋 Fehler Details:', errorDetails);
           console.groupEnd();
           
-          // Zeige Fehler-Meldung im Loading-Indicator
+          // Zeige Fehler-State im Loading-Indicator
           const errorMsg = error.message || 'Unbekannter Fehler';
-          loading.innerHTML = `<div class="spinner" style="border-top-color: #ef4444;"></div><p class="loading-text" style="color: #ef4444;">❌ ${errorMsg.split('\n')[0]}</p>`;
-        
-        // Zeige Fehler-Meldung im Iframe
-        iframe.srcdoc = `
-          <html>
-            <head>
-              <style>
-                body {
-                  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-                  display: flex;
-                  align-items: center;
-                  justify-content: center;
-                  height: 100vh;
-                  margin: 0;
-                  background: linear-gradient(135deg, #0a1628 0%, #09182F 100%);
-                  color: white;
-                }
-                .container {
-                  text-align: center;
-                  padding: 2rem;
-                }
-                h2 { margin: 0 0 1rem; color: #ef4444; }
-                p { color: #94a3b8; }
-              </style>
-            </head>
-            <body>
-              <div class="container">
-                <h2>⚠️ ${error.message?.includes('Upload') ? 'Upload-Fehler' : 'Fehler'}</h2>
-                <p style="white-space: pre-line; line-height: 1.6;">${error.message || 'Unbekannter Fehler'}</p>
-                <p style="font-size: 0.9rem; color: #64748b; margin-top: 1rem;">
-                  Bitte prüfen Sie:
-                </p>
-                <ul style="font-size: 0.85rem; color: #94a3b8; text-align: left; margin: 0.5rem 0; padding-left: 1.5rem;">
-                  <li>Browser-Konsole (F12) für weitere Details</li>
-                  <li>Browser Console (F12) für detaillierte Logs</li>
-                  <li>n8n Workflow ist aktiviert</li>
-                  <li>Webhook-URL ist korrekt</li>
-                </ul>
-              </div>
-            </body>
-          </html>
-        `;
+          const errorHelpText = 'Tipp: Öffnen Sie die Browser-Konsole (F12) für detaillierte Fehlerinformationen.';
+          showErrorState(loading, errorMsg, errorHelpText);
+          
+          // Verstecke Iframe bei Fehler
+          iframe.style.display = 'none';
       }
       
       // Analytics (optional)
@@ -1620,19 +1635,19 @@
     
     function closeWorkflowModal() {
       try {
-        const modal = document.getElementById('workflow-modal');
+      const modal = document.getElementById('workflow-modal');
         if (!modal) {
           console.error('❌ Modal nicht gefunden!');
           return;
         }
         
-        const iframe = document.getElementById('workflow-iframe');
-        
+      const iframe = document.getElementById('workflow-iframe');
+      
         // Modal schließen - SICHERSTELLEN dass es funktioniert
-        modal.classList.remove('active');
+      modal.classList.remove('active');
         modal.style.display = 'none';
-        document.body.style.overflow = '';
-        
+      document.body.style.overflow = '';
+      
         // Loading-Indicator verstecken
         const loading = document.getElementById('loading-indicator');
         if (loading) {
@@ -1647,12 +1662,12 @@
         }
         
         console.log('✅ Modal geschlossen');
-        
-        // Analytics (optional)
-        if (typeof gtag !== 'undefined') {
-          gtag('event', 'workflow_closed', {
-            'event_category': 'engagement'
-          });
+      
+      // Analytics (optional)
+      if (typeof gtag !== 'undefined') {
+        gtag('event', 'workflow_closed', {
+          'event_category': 'engagement'
+        });
         }
       } catch (e) {
         console.error('❌ Fehler beim Schließen des Modals:', e);
@@ -1797,7 +1812,7 @@
         if (e.key === 'Escape' || e.keyCode === 27) {
           const modal = document.getElementById('workflow-modal');
           if (modal && modal.classList.contains('active')) {
-            closeWorkflowModal();
+          closeWorkflowModal();
           }
         }
       });
@@ -1806,10 +1821,10 @@
       const modal = document.getElementById('workflow-modal');
       if (modal) {
         modal.addEventListener('click', (e) => {
-          if (e.target.id === 'workflow-modal') {
-            closeWorkflowModal();
-          }
-        });
+        if (e.target.id === 'workflow-modal') {
+          closeWorkflowModal();
+        }
+      });
       }
       
       console.log('✅ Kortex n8n Modal Integration geladen');
