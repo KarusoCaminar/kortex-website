@@ -50,13 +50,13 @@
           "options": {
             "caseSensitive": true,
             "leftValue": "",
-            "typeValidation": "strict",
+            "typeValidation": "loose",
             "version": 1
           },
           "conditions": [
             {
               "id": "9283215e-b7ce-49fe-879d-0eefdb2ba41e",
-              "leftValue": "={{String($json.query.sample)}}",
+              "leftValue": "={{$json.query.sample}}",
               "rightValue": "",
               "operator": {
                 "type": "string",
@@ -84,14 +84,14 @@
           "options": {
             "caseSensitive": true,
             "leftValue": "",
-            "typeValidation": "strict",
+            "typeValidation": "loose",
             "version": 1
           },
           "conditions": [
             {
               "id": "3bba7778-59de-4b78-a054-4674ba0b2438",
-              "leftValue": "={{String($json.query.sample)}}",
-              "rightValue": "1",
+              "leftValue": "={{$json.query.sample}}",
+              "rightValue": "={{ \"1\" }}",
               "operator": {
                 "type": "string",
                 "operation": "equals",
@@ -118,14 +118,14 @@
           "options": {
             "caseSensitive": true,
             "leftValue": "",
-            "typeValidation": "strict",
+            "typeValidation": "loose",
             "version": 1
           },
           "conditions": [
             {
               "id": "ee8f42c2-253f-474c-a3f9-868906a57390",
-              "leftValue": "={{String($json.query.sample)}}",
-              "rightValue": "2",
+              "leftValue": "={{$json.query.sample}}",
+              "rightValue": "={{ \"2\" }}",
               "operator": {
                 "type": "string",
                 "operation": "equals",
@@ -152,14 +152,14 @@
           "options": {
             "caseSensitive": true,
             "leftValue": "",
-            "typeValidation": "strict",
+            "typeValidation": "loose",
             "version": 1
           },
           "conditions": [
             {
               "id": "5479d246-c283-4286-b903-4e312a617d95",
-              "leftValue": "={{String($json.query.sample)}}",
-              "rightValue": "3",
+              "leftValue": "={{$json.query.sample}}",
+              "rightValue": "={{ \"3\" }}",
               "operator": {
                 "type": "string",
                 "operation": "equals",
