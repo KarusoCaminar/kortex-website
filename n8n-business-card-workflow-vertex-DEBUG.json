@@ -191,7 +191,7 @@
     {
       "parameters": {
         "mode": "runOnceForAllItems",
-        "jsCode": "// Debug Aggregator - Sammelt alle Debug-Daten\nconst allItems = $input.all();\nconst debugData = [];\n\nfor (const item of allItems) {\n    if (item.json._debug) {\n        debugData.push(item.json._debug);\n    }\n}\n\n// Erstelle HTML-Debug-Output\nlet html = `<!DOCTYPE html><html><head><title>Debug Output</title><style>body{font-family:monospace;padding:20px;background:#f5f5f5;}h1{color:#333;}h2{color:#666;margin-top:20px;border-bottom:2px solid #ddd;padding-bottom:5px;}.error{background:#fee;border-left:4px solid #f00;padding:10px;margin:10px 0;}.success{background:#efe;border-left:4px solid #0f0;padding:10px;margin:10px 0;}pre{background:#fff;padding:15px;border-radius:5px;overflow-x:auto;border:1px solid #ddd;}</style></head><body><h1>🔍 Debug Output - Business Card Extraction</h1>`;\n\nif (debugData.length === 0) {\n    html += `<div class=\"error\"><strong>⚠️ Keine Debug-Daten gefunden!</strong></div>`;\n} else {\n    debugData.forEach((debug, index) => {\n        const hasErrors = !debug.hasBinary && debug.debugNode === 'Setze Sample-Info' || !debug.hasOutput && debug.debugNode === 'AI Agent - Vertex AI';\n        html += `<div class=\"${hasErrors ? 'error' : 'success'}\">`;\n        html += `<h2>${index + 1}. ${debug.debugNode} - ${debug.timestamp}</h2>`;\n        html += `<h3>Input:</h3><pre>${JSON.stringify(debug.input, null, 2)}</pre>`;\n        html += `<h3>Output:</h3><pre>${JSON.stringify(debug.output, null, 2)}</pre>`;\n        if (debug.hasBinary !== undefined) {\n            html += `<p><strong>Has Binary:</strong> ${debug.hasBinary ? '✅' : '❌'}</p>`;\n        }\n        if (debug.binaryInfo) {\n            html += `<p><strong>Binary Info:</strong> ${JSON.stringify(debug.binaryInfo, null, 2)}</p>`;\n        }\n        if (debug.hasOutput !== undefined) {\n            html += `<p><strong>Has Output:</strong> ${debug.hasOutput ? '✅' : '❌'}</p>`;\n        }\n        html += `</div>`;\n    });\n}\n\nhtml += `</body></html>`;\n\nreturn [{\n    json: {\n        debugSummary: {\n            totalDebugNodes: debugData.length,\n            nodes: debugData.map(d => d.debugNode),\n            hasErrors: debugData.some(d => (!d.hasBinary && d.debugNode === 'Setze Sample-Info') || (!d.hasOutput && d.debugNode === 'AI Agent - Vertex AI')),\n            timestamp: new Date().toISOString()\n        },\n        debugData: debugData\n    },\n    binary: {\n        data: Buffer.from(html).toString('base64'),\n        mimeType: 'text/html',\n        fileName: 'debug-output.html'\n    }\n}];"
+        "jsCode": "// Debug Aggregator - Sammelt alle Debug-Daten\nconst allItems = $input.all();\nconst debugData = [];\n\nfor (const item of allItems) {\n    if (item.json._debug) {\n        debugData.push(item.json._debug);\n    }\n}\n\n// Erstelle HTML-Debug-Output\nlet html = `<!DOCTYPE html><html><head><title>Debug Output</title><style>body{font-family:monospace;padding:20px;background:#f5f5f5;}h1{color:#333;}h2{color:#666;margin-top:20px;border-bottom:2px solid #ddd;padding-bottom:5px;}.error{background:#fee;border-left:4px solid #f00;padding:10px;margin:10px 0;}.success{background:#efe;border-left:4px solid #0f0;padding:10px;margin:10px 0;}pre{background:#fff;padding:15px;border-radius:5px;overflow-x:auto;border:1px solid #ddd;}</style></head><body><h1>🔍 Debug Output - Business Card Extraction</h1>`;\n\nif (debugData.length === 0) {\n    html += `<div class=\"error\"><strong>⚠️ Keine Debug-Daten gefunden!</strong></div>`;\n} else {\n    debugData.forEach((debug, index) => {\n        const hasErrors = !debug.hasBinary && debug.debugNode === 'Setze Sample-Info' || !debug.hasOutput && debug.debugNode === 'AI Agent - Vertex AI';\n        html += `<div class=\"${hasErrors ? 'error' : 'success'}\">`;\n        html += `<h2>${index + 1}. ${debug.debugNode} - ${debug.timestamp}</h2>`;\n        html += `<h3>Input:</h3><pre>${JSON.stringify(debug.input, null, 2)}</pre>`;\n        html += `<h3>Output:</h3><pre>${JSON.stringify(debug.output, null, 2)}</pre>`;\n        if (debug.hasBinary !== undefined) {\n            html += `<p><strong>Has Binary:</strong> ${debug.hasBinary ? '✅' : '❌'}</p>`;\n        }\n        if (debug.binaryInfo) {\n            html += `<p><strong>Binary Info:</strong> ${JSON.stringify(debug.binaryInfo, null, 2)}</p>`;\n        }\n        if (debug.hasOutput !== undefined) {\n            html += `<p><strong>Has Output:</strong> ${debug.hasOutput ? '✅' : '❌'}</p>`;\n        }\n        html += `</div>`;\n    });\n}\n\nhtml += `</body></html>`;\n\n// Debug-Summary für automatisches Speichern\nconst debugSummary = {\n    totalDebugNodes: debugData.length,\n    nodes: debugData.map(d => d.debugNode),\n    hasErrors: debugData.some(d => (!d.hasBinary && d.debugNode === 'Setze Sample-Info') || (!d.hasOutput && d.debugNode === 'AI Agent - Vertex AI')),\n    timestamp: new Date().toISOString()\n};\n\nreturn [{\n    json: {\n        debugSummary: debugSummary,\n        debugData: debugData\n    },\n    binary: {\n        data: Buffer.from(html).toString('base64'),\n        mimeType: 'text/html',\n        fileName: 'debug-output.html'\n    }\n}];"
       },
       "id": "debug-aggregator",
       "name": "🔍 Debug Aggregator",
@@ -201,15 +201,46 @@
     },
     {
       "parameters": {
+        "url": "http://localhost:3000/debug/save",
+        "method": "POST",
+        "sendBody": true,
+        "bodyParameters": {
+          "parameters": [
+            {
+              "name": "debugSummary",
+              "value": "={{$json.debugSummary}}"
+            },
+            {
+              "name": "debugData",
+              "value": "={{$json.debugData}}"
+            },
+            {
+              "name": "result",
+              "value": "={{$json}}"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "id": "save-debug-data",
+      "name": "💾 Save Debug Data",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.1,
+      "position": [1904, 1800],
+      "notes": "Sendet Debug-Daten automatisch an lokalen Debug-Server (http://localhost:3000/debug/save). Kann deaktiviert werden wenn Server nicht läuft."
+    },
+    {
+      "parameters": {
         "respondWith": "json",
-        "responseBody": "={{$json}}",
+        "responseBody": "={{JSON.stringify($json, null, 2)}}",
         "options": {}
       },
       "id": "ed3af303-e020-4a2d-a219-475cac685f44",
       "name": "Antwort an Website",
       "type": "n8n-nodes-base.respondToWebhook",
       "typeVersion": 1,
-      "position": [2016, 1664]
+      "position": [2016, 1664],
+      "notes": "Sendet Debug-Daten + Ergebnis zurück. Website sollte debugSummary und debugData als workflow-debug.json speichern."
     }
   ],
   "connections": {
@@ -258,6 +289,14 @@
       "main": [[{"node": "🔍 Debug Aggregator", "type": "main", "index": 0}]]
     },
     "🔍 Debug Aggregator": {
+      "main": [
+        [
+          {"node": "💾 Save Debug Data", "type": "main", "index": 0},
+          {"node": "Antwort an Website", "type": "main", "index": 0}
+        ]
+      ]
+    },
+    "💾 Save Debug Data": {
       "main": [[{"node": "Antwort an Website", "type": "main", "index": 0}]]
     }
   },
