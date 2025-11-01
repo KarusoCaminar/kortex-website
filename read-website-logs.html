@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Logs Reader - Kortex Workflow</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #0a1628 0%, #09182F 100%);
+            color: #e2e8f0;
+            padding: 2rem;
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        h1 {
+            color: #60a5fa;
+            margin-bottom: 1rem;
+            font-size: 2rem;
+        }
+        
+        .info {
+            background: rgba(59, 130, 246, 0.1);
+            border: 1px solid rgba(59, 130, 246, 0.3);
+            border-radius: 8px;
+            padding: 1rem;
+            margin-bottom: 2rem;
+        }
+        
+        .controls {
+            display: flex;
+            gap: 1rem;
+            margin-bottom: 2rem;
+            flex-wrap: wrap;
+        }
+        
+        button {
+            background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%);
+            color: white;
+            border: none;
+            padding: 0.75rem 1.5rem;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 1rem;
+            font-weight: 500;
+            transition: transform 0.2s, opacity 0.2s;
+        }
+        
+        button:hover {
+            transform: translateY(-2px);
+            opacity: 0.9;
+        }
+        
+        button:active {
+            transform: translateY(0);
+        }
+        
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            margin-bottom: 2rem;
+        }
+        
+        .stat-card {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 8px;
+            padding: 1rem;
+        }
+        
+        .stat-label {
+            color: #94a3b8;
+            font-size: 0.875rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        .stat-value {
+            color: #60a5fa;
+            font-size: 1.5rem;
+            font-weight: 700;
+        }
+        
+        .logs-container {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 8px;
+            padding: 1rem;
+            max-height: 600px;
+            overflow-y: auto;
+        }
+        
+        .log-entry {
+            background: rgba(0, 0, 0, 0.2);
+            border-left: 4px solid #3b82f6;
+            border-radius: 4px;
+            padding: 1rem;
+            margin-bottom: 1rem;
+        }
+        
+        .log-entry.error {
+            border-left-color: #ef4444;
+        }
+        
+        .log-entry.success {
+            border-left-color: #10b981;
+        }
+        
+        .log-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 0.5rem;
+        }
+        
+        .log-id {
+            font-family: monospace;
+            color: #94a3b8;
+            font-size: 0.875rem;
+        }
+        
+        .log-status {
+            padding: 0.25rem 0.75rem;
+            border-radius: 4px;
+            font-size: 0.875rem;
+            font-weight: 500;
+        }
+        
+        .log-status.error {
+            background: rgba(239, 68, 68, 0.2);
+            color: #fca5a5;
+        }
+        
+        .log-status.success {
+            background: rgba(16, 185, 129, 0.2);
+            color: #6ee7b7;
+        }
+        
+        .log-status.started {
+            background: rgba(59, 130, 246, 0.2);
+            color: #93c5fd;
+        }
+        
+        .log-details {
+            margin-top: 0.5rem;
+            font-size: 0.875rem;
+            color: #cbd5e1;
+        }
+        
+        .log-details strong {
+            color: #e2e8f0;
+        }
+        
+        pre {
+            background: rgba(0, 0, 0, 0.3);
+            border-radius: 4px;
+            padding: 0.75rem;
+            margin-top: 0.5rem;
+            overflow-x: auto;
+            font-size: 0.75rem;
+            color: #94a3b8;
+        }
+        
+        .empty {
+            text-align: center;
+            padding: 3rem;
+            color: #94a3b8;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🔍 Website Logs Reader</h1>
+        
+        <div class="info">
+            <p><strong>Info:</strong> Diese Seite liest die Logs aus dem localStorage der Website.</p>
+            <p>Öffne diese Seite auf derselben Domain wie die Kortex-Website, um die Logs zu sehen.</p>
+        </div>
+        
+        <div class="controls">
+            <button onclick="loadLogs()">📥 Logs laden</button>
+            <button onclick="exportLogs()">💾 Als JSON exportieren</button>
+            <button onclick="clearLogs()">🗑️ Logs löschen</button>
+            <button onclick="copyToClipboard()">📋 In Zwischenablage kopieren</button>
+        </div>
+        
+        <div class="stats" id="stats"></div>
+        
+        <div class="logs-container">
+            <div id="logs-container">
+                <div class="empty">Klicke auf "📥 Logs laden" um die Logs zu laden</div>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        let currentLogs = [];
+        
+        function loadLogs() {
+            try {
+                const logsJson = localStorage.getItem('workflowLogs');
+                currentLogs = logsJson ? JSON.parse(logsJson) : [];
+                
+                updateStats();
+                renderLogs();
+                
+                console.log('✅ Logs geladen:', currentLogs.length);
+            } catch (error) {
+                console.error('❌ Fehler beim Laden der Logs:', error);
+                alert('Fehler beim Laden der Logs: ' + error.message);
+            }
+        }
+        
+        function updateStats() {
+            const stats = {
+                total: currentLogs.length,
+                errors: currentLogs.filter(log => log.status === 'error').length,
+                success: currentLogs.filter(log => log.status === 'success').length,
+                started: currentLogs.filter(log => log.status === 'started').length
+            };
+            
+            document.getElementById('stats').innerHTML = `
+                <div class="stat-card">
+                    <div class="stat-label">Gesamt</div>
+                    <div class="stat-value">${stats.total}</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-label">Erfolgreich</div>
+                    <div class="stat-value" style="color: #10b981;">${stats.success}</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-label">Fehler</div>
+                    <div class="stat-value" style="color: #ef4444;">${stats.errors}</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-label">Gestartet</div>
+                    <div class="stat-value" style="color: #3b82f6;">${stats.started}</div>
+                </div>
+            `;
+        }
+        
+        function renderLogs() {
+            const container = document.getElementById('logs-container');
+            
+            if (currentLogs.length === 0) {
+                container.innerHTML = '<div class="empty">Keine Logs gefunden</div>';
+                return;
+            }
+            
+            container.innerHTML = currentLogs.map(log => {
+                const hasErrors = log.errors && log.errors.length > 0;
+                const entryClass = log.status === 'error' || hasErrors ? 'error' : (log.status === 'success' ? 'success' : '');
+                
+                return `
+                    <div class="log-entry ${entryClass}">
+                        <div class="log-header">
+                            <div>
+                                <strong>${log.workflowTitle || 'Unbekannt'}</strong>
+                                <span class="log-id">${log.id}</span>
+                            </div>
+                            <span class="log-status ${log.status || 'started'}">${log.status || 'started'}</span>
+                        </div>
+                        <div class="log-details">
+                            <p><strong>Zeitstempel:</strong> ${new Date(log.timestamp).toLocaleString('de-DE')}</p>
+                            <p><strong>Webhook URL:</strong> ${log.workflowUrl}</p>
+                            <p><strong>Sample Parameter:</strong> ${log.sampleParam || 'Upload'}</p>
+                            <p><strong>Methode:</strong> ${log.method}</p>
+                            ${log.duration ? `<p><strong>Dauer:</strong> ${log.duration}</p>` : ''}
+                            ${hasErrors ? `<p><strong style="color: #ef4444;">Fehler:</strong> ${log.errors.length} Fehler gefunden</p>` : ''}
+                            ${log.response ? `<p><strong>Response vorhanden:</strong> ✅</p>` : ''}
+                            ${log.events && log.events.length > 0 ? `<p><strong>Events:</strong> ${log.events.length}</p>` : ''}
+                        </div>
+                        ${hasErrors ? `
+                            <details>
+                                <summary style="cursor: pointer; margin-top: 0.5rem; color: #ef4444;">Fehler-Details anzeigen</summary>
+                                <pre>${JSON.stringify(log.errors, null, 2)}</pre>
+                            </details>
+                        ` : ''}
+                        ${log.response ? `
+                            <details>
+                                <summary style="cursor: pointer; margin-top: 0.5rem; color: #60a5fa;">Response anzeigen</summary>
+                                <pre>${JSON.stringify(log.response, null, 2)}</pre>
+                            </details>
+                        ` : ''}
+                        ${log.events && log.events.length > 0 ? `
+                            <details>
+                                <summary style="cursor: pointer; margin-top: 0.5rem; color: #10b981;">Events anzeigen</summary>
+                                <pre>${JSON.stringify(log.events, null, 2)}</pre>
+                            </details>
+                        ` : ''}
+                    </div>
+                `;
+            }).join('');
+        }
+        
+        function exportLogs() {
+            if (currentLogs.length === 0) {
+                alert('Keine Logs zum Exportieren');
+                return;
+            }
+            
+            const dataStr = JSON.stringify(currentLogs, null, 2);
+            const dataBlob = new Blob([dataStr], { type: 'application/json' });
+            const url = URL.createObjectURL(dataBlob);
+            const link = document.createElement('a');
+            link.href = url;
+            link.download = `website-logs-${new Date().toISOString().split('T')[0]}.json`;
+            link.click();
+            URL.revokeObjectURL(url);
+            
+            console.log('✅ Logs exportiert');
+        }
+        
+        function clearLogs() {
+            if (!confirm('Möchtest du wirklich alle Logs löschen?')) {
+                return;
+            }
+            
+            localStorage.removeItem('workflowLogs');
+            currentLogs = [];
+            updateStats();
+            renderLogs();
+            
+            console.log('✅ Logs gelöscht');
+        }
+        
+        function copyToClipboard() {
+            if (currentLogs.length === 0) {
+                alert('Keine Logs zum Kopieren');
+                return;
+            }
+            
+            const dataStr = JSON.stringify(currentLogs, null, 2);
+            navigator.clipboard.writeText(dataStr).then(() => {
+                alert('✅ Logs in Zwischenablage kopiert');
+            }).catch(err => {
+                console.error('Fehler beim Kopieren:', err);
+                alert('Fehler beim Kopieren: ' + err.message);
+            });
+        }
+        
+        // Auto-Laden beim Start
+        window.addEventListener('load', () => {
+            loadLogs();
+        });
+    </script>
+</body>
+</html>
+
