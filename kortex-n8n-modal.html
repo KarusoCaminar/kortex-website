@@ -862,7 +862,7 @@
           workflowUrl: webhookUrl,
           sampleParam: sampleParam || 'Upload',
           workflowTitle: workflowTitle,
-          method: extraParams ? 'GET' : 'POST',
+          method: 'POST', // IMMER POST VERWENDEN
           status: 'started',
           events: [],
           errors: [],
@@ -902,16 +902,16 @@
         }
         
         // Triggere Workflow im Hintergrund
-        // Für Samples: GET Request, für Upload: POST mit FormData
-        const method = extraParams ? 'GET' : 'POST';
+        // IMMER POST verwenden (für Samples und Upload)
+        const method = 'POST'; // IMMER POST VERWENDEN
         let fetchOptions = {
           method: method,
         };
         
-        // Für Upload: Füge File hinzu (entweder als Parameter oder vom File Input)
+        // Für POST: Entweder File-Upload oder Sample-JSON
         if (method === 'POST') {
           let fileToUpload = uploadFile;
-          
+
           // Falls kein File als Parameter übergeben wurde, prüfe File Input
           if (!fileToUpload) {
             const fileInput = document.getElementById('business-card-upload-input');
@@ -919,16 +919,35 @@
               fileToUpload = fileInput.files[0];
             }
           }
-          
+
           if (fileToUpload) {
+            // FALL 1: Datei-Upload
             const formData = new FormData();
             formData.append('file', fileToUpload);
             fetchOptions.body = formData;
-            // FormData setzt Content-Type automatisch (mit boundary)
-            fetchOptions.headers = {};
+            fetchOptions.headers = {}; // FormData setzt Content-Type
             console.log('📎 Sende File:', fileToUpload.name, fileToUpload.size, 'bytes');
+
+            // WICHTIG: Webhook URL für Upload darf KEINE extraParams haben
+            webhookUrl = workflowUrl;
+
+          } else if (extraParams) {
+            // FALL 2: Sample-Demo (JSON senden)
+            fetchOptions.body = JSON.stringify({
+              "query": {
+                "sample": sampleParam
+              }
+            });
+            fetchOptions.headers = {
+              'Content-Type': 'application/json'
+            };
+            console.log('📝 Sende Sample JSON:', fetchOptions.body);
+
+            // WICHTIG: Webhook URL für Sample darf KEINE extraParams haben
+            webhookUrl = workflowUrl;
+
           } else {
-            // Kein File - normaler POST ohne Body
+            // Fall 3: Normaler POST ohne Body (sollte nicht vorkommen)
             fetchOptions.headers = {
               'Content-Type': 'application/json'
             };
