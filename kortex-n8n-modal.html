@@ -782,35 +782,44 @@
         }
         
         // KRITISCH: extraParams aus activeLink ODER clickedLink lesen!
-        let extraParams = activeLink?.getAttribute('data-params') || '';
+        // PRIORITÄT 1: clickedLink (direkt geklickt)
+        // PRIORITÄT 2: activeLink (gefunden durch Suche)
+        let extraParams = '';
         
-        // FALLBACK: Wenn extraParams leer ist, verwende clickedLink direkt!
-        if (!extraParams && clickedLink && !uploadFile) {
-          const clickedParams = clickedLink.getAttribute('data-params') || '';
-          console.warn('⚠️ FALLBACK: extraParams war leer, verwende clickedLink.data-params:', clickedParams);
-          if (clickedParams) {
-            extraParams = clickedParams;
-            console.log('✅ FALLBACK: extraParams gesetzt auf:', extraParams);
-          }
+        if (clickedLink && !uploadFile) {
+          // PRIORITÄT 1: clickedLink hat immer Vorrang!
+          extraParams = clickedLink.getAttribute('data-params') || '';
+          console.log('✅ Extra Params aus clickedLink:', extraParams);
+        } else if (activeLink && !uploadFile) {
+          // PRIORITÄT 2: activeLink als Fallback
+          extraParams = activeLink.getAttribute('data-params') || '';
+          console.log('✅ Extra Params aus activeLink:', extraParams);
         }
         
-        console.log('📋 Extra Params:', extraParams);
-        
-        // KRITISCH: Prüfe ob extraParams wirklich vorhanden sind!
+        // KRITISCH: Wenn extraParams leer ist, WORKFLOW STOPPEN!
         if (!extraParams && !uploadFile) {
-          console.error('❌ KRITISCH: extraParams ist IMMER NOCH leer!');
+          console.error('❌ KRITISCH: extraParams ist leer! Workflow wird GESTOPPT!');
           console.error('📋 activeLink:', activeLink);
           console.error('📋 clickedLink:', clickedLink);
           console.error('📋 activeLink?.getAttribute("data-params"):', activeLink?.getAttribute('data-params'));
           console.error('📋 clickedLink?.getAttribute("data-params"):', clickedLink?.getAttribute('data-params'));
+          console.error('📋 workflowTitle:', workflowTitle);
+          
+          alert('⚠️ KRITISCH: Sample-Parameter fehlt!\n\nDer Workflow kann nicht gestartet werden, da kein sample-Parameter gefunden wurde.\n\nBitte:\n1. Seite neu laden\n2. Erneut versuchen\n\nWenn das Problem weiterhin besteht, kontaktieren Sie den Support.');
+          closeWorkflowModal();
+          return; // WORKFLOW STOPPEN - kein leerer Parameter wird gesendet!
         }
         
-        // WICHTIG: Prüfe ob extraParams korrekt sind
-        if (!extraParams && !uploadFile) {
-          console.error('❌ KRITISCH: Keine extraParams gefunden!');
-          console.error('📋 workflowTitle:', workflowTitle);
-          console.error('📋 activeLink:', activeLink);
-          console.error('📋 activeLink.data-params:', activeLink?.getAttribute('data-params'));
+        console.log('📋 Extra Params (final):', extraParams);
+        
+        // KRITISCH: Prüfe ob extraParams den sample-Parameter enthält!
+        if (!extraParams.includes('sample=') && !uploadFile) {
+          console.error('❌ KRITISCH: extraParams enthält KEINEN sample-Parameter!');
+          console.error('📋 extraParams:', extraParams);
+          
+          alert('⚠️ KRITISCH: Sample-Parameter fehlt in extraParams!\n\nDer Workflow kann nicht gestartet werden.\n\nBitte Seite neu laden und erneut versuchen.');
+          closeWorkflowModal();
+          return; // WORKFLOW STOPPEN - kein leerer Parameter wird gesendet!
         }
         
         // Extrahiere sample-Parameter (z.B. "sample=1" -> "1")
@@ -820,27 +829,22 @@
         console.log('📝 Sample Parameter:', sampleParam);
         
         // Baue Webhook-URL mit Parametern
-        // KRITISCH: Prüfe ob extraParams wirklich vorhanden sind!
-        if (!extraParams && !uploadFile) {
-          console.error('❌ KRITISCH: extraParams ist leer! Workflow wird OHNE sample-Parameter gestartet!');
-          console.error('📋 activeLink:', activeLink);
-          console.error('📋 clickedLink:', clickedLink);
-          console.error('📋 workflowTitle:', workflowTitle);
-          console.error('📋 extraParams:', extraParams);
-          alert('⚠️ KRITISCH: Sample-Parameter fehlt! Workflow wird nicht korrekt funktionieren. Bitte Seite neu laden und erneut versuchen.');
-        }
-        
+        // extraParams sollte jetzt IMMER vorhanden sein (wurde oben geprüft)
         const webhookUrl = extraParams
           ? `${workflowUrl}${workflowUrl.includes('?') ? '&' : '?'}${extraParams}`
           : workflowUrl;
         console.log('🌐 Final Webhook URL:', webhookUrl);
         
-        // KRITISCH: Prüfe ob webhookUrl den sample-Parameter enthält!
+        // KRITISCH: Finale Prüfung - webhookUrl MUSS sample-Parameter enthalten!
         if (!webhookUrl.includes('sample=') && !uploadFile) {
           console.error('❌ KRITISCH: Webhook-URL enthält KEINEN sample-Parameter!');
           console.error('🌐 webhookUrl:', webhookUrl);
           console.error('📋 extraParams:', extraParams);
-          alert('⚠️ KRITISCH: Webhook-URL enthält keinen sample-Parameter! Workflow wird nicht korrekt funktionieren.');
+          console.error('📋 workflowUrl:', workflowUrl);
+          
+          alert('⚠️ KRITISCH: Webhook-URL enthält keinen sample-Parameter!\n\nDer Workflow kann nicht gestartet werden.\n\nBitte Seite neu laden und erneut versuchen.');
+          closeWorkflowModal();
+          return; // WORKFLOW STOPPEN - kein leerer Parameter wird gesendet!
         }
         
         // Detailliertes Logging starten
