@@ -840,17 +840,8 @@
           : workflowUrl;
         console.log('🌐 Final Webhook URL (initial):', webhookUrl);
         
-        // KRITISCH: Finale Prüfung - webhookUrl MUSS sample-Parameter enthalten!
-        if (!webhookUrl.includes('sample=') && !uploadFile) {
-          console.error('❌ KRITISCH: Webhook-URL enthält KEINEN sample-Parameter!');
-          console.error('🌐 webhookUrl:', webhookUrl);
-          console.error('📋 extraParams:', extraParams);
-          console.error('📋 workflowUrl:', workflowUrl);
-          
-          alert('⚠️ KRITISCH: Webhook-URL enthält keinen sample-Parameter!\n\nDer Workflow kann nicht gestartet werden.\n\nBitte Seite neu laden und erneut versuchen.');
-          closeWorkflowModal();
-          return; // WORKFLOW STOPPEN - kein leerer Parameter wird gesendet!
-        }
+        // HINWEIS: Die Webhook-URL wird später auf workflowUrl gesetzt (ohne Query-Parameter),
+        // da wir POST mit JSON-Body verwenden. Die URL-Prüfung ist daher nicht mehr nötig.
         
         // Detailliertes Logging starten
         const logTimestamp = new Date().toISOString();
