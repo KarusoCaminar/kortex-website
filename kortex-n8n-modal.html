@@ -1594,23 +1594,49 @@
     }
     
     function closeWorkflowModal() {
-      const modal = document.getElementById('workflow-modal');
-      const iframe = document.getElementById('workflow-iframe');
-      
-      modal.classList.remove('active');
-      document.body.style.overflow = '';
-      
-      // Optional: Clear iframe after closing (saves memory)
-      // Uncomment if you want to reload workflow each time
-      // setTimeout(() => {
-      //   iframe.src = '';
-      // }, 300);
-      
-      // Analytics (optional)
-      if (typeof gtag !== 'undefined') {
-        gtag('event', 'workflow_closed', {
-          'event_category': 'engagement'
-        });
+      try {
+        const modal = document.getElementById('workflow-modal');
+        if (!modal) {
+          console.error('❌ Modal nicht gefunden!');
+          return;
+        }
+        
+        const iframe = document.getElementById('workflow-iframe');
+        
+        // Modal schließen - SICHERSTELLEN dass es funktioniert
+        modal.classList.remove('active');
+        modal.style.display = 'none';
+        document.body.style.overflow = '';
+        
+        // Loading-Indicator verstecken
+        const loading = document.getElementById('loading-indicator');
+        if (loading) {
+          loading.style.display = 'none';
+        }
+        
+        // Iframe zurücksetzen (optional - spart Memory)
+        if (iframe) {
+          setTimeout(() => {
+            iframe.src = '';
+          }, 300);
+        }
+        
+        console.log('✅ Modal geschlossen');
+        
+        // Analytics (optional)
+        if (typeof gtag !== 'undefined') {
+          gtag('event', 'workflow_closed', {
+            'event_category': 'engagement'
+          });
+        }
+      } catch (e) {
+        console.error('❌ Fehler beim Schließen des Modals:', e);
+        // Fallback: Modal mit CSS verstecken
+        const modal = document.getElementById('workflow-modal');
+        if (modal) {
+          modal.style.display = 'none';
+          document.body.style.overflow = '';
+        }
       }
     }
     
@@ -1729,22 +1755,37 @@
         });
       }
       
-      // Close button
-      document.getElementById('workflow-close-btn').addEventListener('click', closeWorkflowModal);
+      // Close button - SICHERSTELLEN dass es funktioniert
+      const closeBtn = document.getElementById('workflow-close-btn');
+      if (closeBtn) {
+        closeBtn.addEventListener('click', (e) => {
+          e.preventDefault();
+          e.stopPropagation();
+          closeWorkflowModal();
+        });
+      } else {
+        console.error('❌ Close-Button nicht gefunden!');
+      }
       
-      // Close on ESC key
+      // Close on ESC key - GLOBAL (funktioniert immer)
       document.addEventListener('keydown', (e) => {
-        if (e.key === 'Escape') {
-          closeWorkflowModal();
+        if (e.key === 'Escape' || e.keyCode === 27) {
+          const modal = document.getElementById('workflow-modal');
+          if (modal && modal.classList.contains('active')) {
+            closeWorkflowModal();
+          }
         }
       });
       
-      // Close on background click
-      document.getElementById('workflow-modal').addEventListener('click', (e) => {
-        if (e.target.id === 'workflow-modal') {
-          closeWorkflowModal();
-        }
-      });
+      // Close on background click - SICHERSTELLEN dass es funktioniert
+      const modal = document.getElementById('workflow-modal');
+      if (modal) {
+        modal.addEventListener('click', (e) => {
+          if (e.target.id === 'workflow-modal') {
+            closeWorkflowModal();
+          }
+        });
+      }
       
       console.log('✅ Kortex n8n Modal Integration geladen');
       console.log('📊 Gefundene Demo-Cards:', links.length);
