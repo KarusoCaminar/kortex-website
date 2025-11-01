@@ -205,16 +205,31 @@ Du benötigst eine Google Service Account JSON-Datei mit folgenden Informationen
 
 ✅ **Erwartetes Ergebnis:** Response Mode ist auf "Respond When Last Node Finishes" eingestellt.
 
-### Schritt 5.3: Binary Property Name prüfen
+### Schritt 5.3: Binary Property Name prüfen (Property Name)
 
-1. **Settings Tab öffnen:** Klicke auf den **"Settings"** Tab
+⚠️ **WICHTIG:** In neueren n8n Versionen heißt die Einstellung **"Property Name"** (nicht "Binary Property Name") und befindet sich im **"Options"** Dropdown!
 
-2. **Binary Property Name prüfen:**
-   - **Binary Property Name:** Sollte `file` sein
+1. **Parameters Tab öffnen:** Stelle sicher, dass du im **"Parameters"** Tab bist
+
+2. **Options Dropdown öffnen:**
+   - Scroll nach unten zu **"Options"** Sektion
+   - Klicke auf **"Add option"** Button oder erweitere das Dropdown
+
+3. **Property Name finden und prüfen:**
+   - Im Options Dropdown findest du **"Property Name"** (dies ist die Binary Property Name Einstellung!)
+   - Falls noch nicht hinzugefügt: Klicke auf **"Property Name"** um es hinzuzufügen
+   - **Property Name Wert:** Sollte `file` sein
    - Falls leer oder anders:
      - **Ändere zu:** `file`
 
-✅ **Erwartetes Ergebnis:** Binary Property Name ist `file`.
+4. **Falls "Property Name" nicht im Dropdown:**
+   - ✅ **Das ist auch OK!** n8n verwendet automatisch `file` als Standard
+   - Die JSON-Datei hat bereits `"binaryPropertyName": "file"` konfiguriert
+   - **Du musst NICHTS ändern!** Der Workflow funktioniert so wie er ist
+
+✅ **Erwartetes Ergebnis:** Property Name (Binary Property Name) ist `file`.
+
+💡 **Hinweis:** Diese Einstellung ist wichtig für POST-Requests mit File-Uploads. Sie legt fest, unter welchem Namen die hochgeladene Datei im n8n Workflow verfügbar ist (z.B. `$binary.file`).
 
 ### Schritt 5.4: Path prüfen
 
