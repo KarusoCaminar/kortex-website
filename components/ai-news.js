@@ -571,34 +571,41 @@
     // HINWEIS: Viele RSS-Feeds haben CORS-Probleme und können nicht direkt geladen werden
     // Lösung: n8n Webhook aktivieren (umgeht CORS) oder CORS-Proxy verwenden
     const rssFeeds = [
+      // Diese Feeds haben oft CORS-Probleme - werden über n8n Webhook geladen
+      // URLs müssen mit n8n Workflow synchronisiert sein
       {
-        url: 'https://blog.n8n.io/rss.xml',
-        source: 'n8n Blog',
-        category: 'workflow-tools',
-        corsFriendly: true // n8n Blog erlaubt CORS
-      },
-      // Diese Feeds haben oft CORS-Probleme - werden über n8n Webhook geladen wenn aktiviert
-      {
-        url: 'https://ai.googleblog.com/feeds/posts/default',
+        url: 'https://research.google/blog/rss/',
         source: 'Google AI',
         category: 'große-modelle',
         corsFriendly: false
       },
       {
-        url: 'https://openai.com/blog/rss.xml',
+        url: 'https://www.reddit.com/r/n8n.rss',
+        source: 'n8n Blog',
+        category: 'workflow-tools',
+        corsFriendly: false
+      },
+      {
+        url: 'https://openai.com/news/rss.xml',
         source: 'OpenAI',
         category: 'große-modelle',
         corsFriendly: false
       },
       {
-        url: 'https://www.anthropic.com/news/rss.xml',
+        url: 'https://www.reddit.com/r/AnthropicAI.rss',
         source: 'Anthropic',
         category: 'große-modelle',
         corsFriendly: false
       },
       {
-        url: 'https://huggingface.co/blog/rss.xml',
+        url: 'https://huggingface.co/blog/feed.xml',
         source: 'Hugging Face',
+        category: 'große-modelle',
+        corsFriendly: false
+      },
+      {
+        url: 'https://techcrunch.com/tag/artificial-intelligence/feed/',
+        source: 'TechCrunch AI',
         category: 'große-modelle',
         corsFriendly: false
       }
