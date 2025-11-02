@@ -206,6 +206,41 @@ en: {
 - Touch-optimiert
 - Focus Trap für Accessibility
 
+## 📰 AI News Feed
+
+Die Website verfügt über einen automatischen AI-Newsfeed, der aktuelle Nachrichten von verschiedenen Quellen sammelt:
+
+### Aktivierte Quellen:
+- **Google AI** (RSS Feed Read)
+- **OpenAI** (RSS Feed Read)
+- **The Decoder** (Deutsche AI-News, RSS Feed Read)
+- **TechCrunch AI** (RSS Feed Read)
+- **n8n Blog** (HTTP Request - falls RSS blockiert)
+- **Anthropic** (HTTP Request - falls RSS blockiert)
+- **Hugging Face** (HTTP Request - falls RSS blockiert)
+
+### n8n Workflow Integration
+
+Der Newsfeed verwendet einen n8n Workflow zur Aggregation:
+- **Production URL:** `https://n8n2.kortex-system.de/webhook/ai-news-feed`
+- **Workflow:** `n8n-ai-news-workflow.json`
+- **Features:**
+  - Automatisches Parsing von RSS und Atom Feeds
+  - Filterung nach AI-relevanten Themen
+  - Kategorisierung (KMU-Relevanz, Industrie 4.0, etc.)
+  - Entfernung von Duplikaten
+  - Sortierung nach Datum (neueste zuerst)
+  - Limit: 15 News-Items
+  - Max. Alter: 30 Tage
+
+### Newsfeed-Komponente
+
+Der Newsfeed ist in `components/ai-news.js` implementiert:
+- Lädt News automatisch beim Seitenaufruf
+- Caching im LocalStorage (5 Minuten)
+- Auto-Refresh alle 10 Minuten
+- Fallback auf statische News bei Fehlern
+
 ## 🔗 Live-Website
 
 https://karusocaminar.github.io/kortex-website/
