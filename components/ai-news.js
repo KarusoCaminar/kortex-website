@@ -566,217 +566,152 @@
     const news = [];
     const lang = window.i18n?.getCurrentLanguage() || 'de';
     const maxAge = 30 * 24 * 60 * 60 * 1000; // 30 Tage
+    const fallbackTimeout = 12 * 60 * 60 * 1000; // 12 Stunden - Fallback wenn n8n länger als 12h keine Daten hat
     
-    // RSS Feed Quellen
-    // HINWEIS: Viele RSS-Feeds haben CORS-Probleme und können nicht direkt geladen werden
-    // Lösung: n8n Webhook aktivieren (umgeht CORS) oder CORS-Proxy verwenden
-    const rssFeeds = [
-      // Diese Feeds haben oft CORS-Probleme - werden über n8n Webhook geladen
-      // URLs müssen mit n8n Workflow synchronisiert sein
-      {
-        url: 'https://research.google/blog/rss/',
-        source: 'Google AI',
-        category: 'große-modelle',
-        corsFriendly: false
-      },
-      {
-        url: 'https://www.reddit.com/r/n8n.rss',
-        source: 'n8n Blog',
-        category: 'workflow-tools',
-        corsFriendly: false
-      },
-      {
-        url: 'https://openai.com/news/rss.xml',
-        source: 'OpenAI',
-        category: 'große-modelle',
-        corsFriendly: false
-      },
-      {
-        url: 'https://www.reddit.com/r/AnthropicAI.rss',
-        source: 'Anthropic',
-        category: 'große-modelle',
-        corsFriendly: false
-      },
-      {
-        url: 'https://huggingface.co/blog/feed.xml',
-        source: 'Hugging Face',
-        category: 'große-modelle',
-        corsFriendly: false
-      },
-      {
-        url: 'https://techcrunch.com/tag/artificial-intelligence/feed/',
-        source: 'TechCrunch AI',
-        category: 'große-modelle',
-        corsFriendly: false
-      }
-    ];
-    
-    // Deutsche Quellen (falls Deutsch)
-    if (lang === 'de') {
-      rssFeeds.push(
-        {
-          url: 'https://the-decoder.de/feed/',
-          source: 'The Decoder',
-          category: 'deutsche-quellen',
-          corsFriendly: false // Muss über n8n Webhook geladen werden
-        },
-        {
-          url: 'https://www.bmwk.de/SiteGlobals/Functions/RSSFeed/RSSFeed_KI.xml',
-          source: 'BMWK KI-News',
-          category: 'deutsche-quellen',
-          corsFriendly: false
-        },
-        {
-          url: 'https://www.digitale-technologien.de/DE/Service/RSS/rss.xml',
-          source: 'Mittelstand Digital',
-          category: 'deutsche-quellen',
-          corsFriendly: false
-        }
-      );
-    }
-    
-    // Lade RSS Feeds parallel
-    // WICHTIG: Nur CORS-freundliche Feeds werden direkt geladen
-    // Andere Feeds werden über n8n Webhook geladen (falls aktiviert)
-    const feedPromises = rssFeeds
-      .filter(feed => feed.corsFriendly === true) // Nur CORS-freundliche Feeds direkt laden
-      .map(async (feed) => {
-        try {
-          const response = await fetch(feed.url, {
-            method: 'GET',
-            headers: { 'Accept': 'application/rss+xml, application/xml, text/xml' },
-            mode: 'cors'
-          });
-          
-          if (response.ok) {
-            const xmlText = await response.text();
-            const feedNews = parseRSSFeed(xmlText, feed.source, 3);
-            
-            // Filtere nach Alter
-            const now = Date.now();
-            const recentNews = feedNews.filter(item => {
-              const itemDate = new Date(item.date).getTime();
-              const age = now - itemDate;
-              return age <= maxAge && age >= 0;
-            });
-            
-            if (recentNews.length > 0) {
-              console.log(`✅ ${feed.source}: ${recentNews.length} News geladen`);
-            }
-            
-            return recentNews;
-          } else {
-            console.warn(`⚠️ ${feed.source}: HTTP ${response.status}`);
-              }
-            } catch (e) {
-          if (e.message && e.message.includes('CORS')) {
-            console.warn(`⚠️ ${feed.source}: CORS-Fehler - nutze n8n Webhook für diesen Feed`);
-          } else {
-            console.warn(`⚠️ Fehler beim Laden von ${feed.source}:`, e.message || e);
-          }
-        }
-        return [];
-      });
-    
-    // Warte auf alle RSS-Feed Requests
-    const feedResults = await Promise.allSettled(feedPromises);
-    
-    // Sammle alle News und zähle Erfolge
-    let loadedFeeds = 0;
-    const corsFriendlyFeeds = rssFeeds.filter(f => f.corsFriendly === true);
-    feedResults.forEach((result, index) => {
-      if (result.status === 'fulfilled' && Array.isArray(result.value) && result.value.length > 0) {
-        news.push(...result.value);
-        loadedFeeds++;
-      } else if (result.status === 'rejected') {
-        console.warn(`❌ ${corsFriendlyFeeds[index]?.source || 'Unbekannter Feed'}: Request fehlgeschlagen`);
-      }
-    });
-    
-    console.log(`📊 RSS-Feeds geladen: ${loadedFeeds}/${corsFriendlyFeeds.length} direkt, ${news.length} Nachrichten gesammelt`);
-    
-    // Hinweis für CORS-blockierte Feeds
-    const blockedFeeds = rssFeeds.filter(f => f.corsFriendly === false);
-    if (blockedFeeds.length > 0) {
-      console.log(`ℹ️ ${blockedFeeds.length} Feeds benötigen n8n Webhook (CORS-Probleme): ${blockedFeeds.map(f => f.source).join(', ')}`);
-    }
-    
-    // Prüfe n8n Webhook (PRIORITÄT - Hauptquelle für aktuelle News)
+    // ===== SCHRITT 1: n8n Webhook (PRIORITÄT) =====
+    // n8n Workflow ist die Hauptquelle - wird zuerst versucht
+    let n8nSuccess = false;
     try {
       const n8nNewsUrl = 'https://n8n2.kortex-system.de/webhook/ai-news-feed';
-      console.log('🔄 Lade n8n AI-News...', n8nNewsUrl);
+      console.log('🔄 [PRIORITÄT] Lade n8n AI-News...', n8nNewsUrl);
+      
       const n8nResponse = await fetch(n8nNewsUrl, {
         method: 'GET',
         headers: { 'Accept': 'application/json' },
-        cache: 'no-cache'
+        cache: 'no-cache',
+        signal: AbortSignal.timeout(10000) // 10 Sekunden Timeout
       });
       
       console.log('📡 n8n Response Status:', n8nResponse.status, n8nResponse.statusText);
-      console.log('📡 n8n Response Headers:', Object.fromEntries(n8nResponse.headers.entries()));
       
       if (n8nResponse.ok) {
         const responseText = await n8nResponse.text();
         console.log('📋 n8n Response Text (roh):', responseText.substring(0, 200));
         
         if (!responseText || responseText.trim().length === 0) {
-          console.error('❌ n8n Response ist LEER - Workflow gibt keine Daten zurück');
-          throw new Error('n8n Response ist leer');
-        }
-        
-        let n8nData;
-        try {
-          n8nData = JSON.parse(responseText);
-        } catch (parseError) {
-          console.error('❌ n8n Response ist kein gültiges JSON:', parseError.message);
-          console.error('📋 Response Text:', responseText);
-          throw parseError;
-        }
-        
-        console.log('✅ n8n Response geparst:', n8nData?.length || 'kein Array', 'Items');
-        
-        if (n8nData && Array.isArray(n8nData) && n8nData.length > 0) {
-          const now = Date.now();
-          const validNews = n8nData
-            .filter(item => {
-              if (!item.title || !item.link) return false;
-              if (!item.date && !item.pubDate) return false;
-              const itemDate = new Date(item.date || item.pubDate).getTime();
-              const age = now - itemDate;
-              return age <= maxAge && age >= 0;
-            })
-            .map(item => ({
-              title: item.title.trim(),
-              description: item.description || '',
-              link: item.link.trim(),
-              date: item.date || item.pubDate || new Date().toISOString(),
-              source: item.source || 'n8n Feed',
-              category: item.category || 'ai-news',
-              language: item.language || lang
-            }));
-          
-          // n8n-Daten haben PRIORITÄT - füge sie am Anfang hinzu
-          if (validNews.length > 0) {
-            console.log(`✅ ${validNews.length} gültige n8n-News gefunden und hinzugefügt`);
-            news.unshift(...validNews);
-          } else {
-            console.warn('⚠️ n8n-News gefunden, aber keine sind gültig (zu alt oder fehlende Felder)');
-          }
+          console.warn('⚠️ n8n Response ist LEER - Workflow gibt keine Daten zurück, nutze Fallback');
         } else {
-          console.warn('⚠️ n8n Response ist kein Array oder leer:', typeof n8nData, n8nData);
+          let n8nData;
+          try {
+            n8nData = JSON.parse(responseText);
+          } catch (parseError) {
+            console.warn('⚠️ n8n Response ist kein gültiges JSON:', parseError.message);
+            console.warn('📋 Nutze Fallback RSS-Feeds');
+          }
+          
+          if (n8nData && Array.isArray(n8nData) && n8nData.length > 0) {
+            const now = Date.now();
+            const validNews = n8nData
+              .filter(item => {
+                if (!item.title || !item.link) return false;
+                if (!item.date && !item.pubDate) return false;
+                const itemDate = new Date(item.date || item.pubDate).getTime();
+                const age = now - itemDate;
+                return age <= maxAge && age >= 0;
+              })
+              .map(item => ({
+                title: item.title.trim(),
+                description: item.description || '',
+                link: item.link.trim(),
+                date: item.date || item.pubDate || new Date().toISOString(),
+                source: item.source || 'n8n Feed',
+                category: item.category || 'ai-news',
+                language: item.language || lang
+              }));
+            
+            if (validNews.length >= 3) {
+              // n8n liefert genug News (> 3) - verwende diese und überspringe Fallback
+              console.log(`✅ n8n erfolgreich: ${validNews.length} gültige News gefunden - nutze n8n Daten`);
+              news.push(...validNews);
+              n8nSuccess = true;
+            } else if (validNews.length > 0) {
+              // n8n liefert zu wenige News (< 3) - nutze Fallback zusätzlich
+              console.log(`⚠️ n8n liefert nur ${validNews.length} News (< 3) - nutze zusätzlich Fallback RSS-Feeds`);
+              news.push(...validNews);
+              // Weiter zu Fallback
+            } else {
+              console.warn('⚠️ n8n Response hat keine gültigen News - nutze Fallback RSS-Feeds');
+            }
+          } else {
+            console.warn('⚠️ n8n Response ist kein Array oder leer - nutze Fallback RSS-Feeds');
+          }
         }
       } else {
         const errorText = await n8nResponse.text().catch(() => '');
-        console.error(`❌ n8n Response nicht OK: ${n8nResponse.status} ${n8nResponse.statusText}`);
-        console.error('📋 Error Response:', errorText.substring(0, 200));
+        console.warn(`⚠️ n8n Response nicht OK (${n8nResponse.status}): ${n8nResponse.statusText} - nutze Fallback RSS-Feeds`);
       }
     } catch (n8nError) {
-      console.error('❌ n8n AI-News Webhook Fehler:', n8nError.message);
-      console.error('📋 Stack:', n8nError.stack);
+      // Timeout, Network Error, etc. - nutze Fallback
+      console.warn('⚠️ n8n Webhook Fehler:', n8nError.message, '- nutze Fallback RSS-Feeds');
     }
     
-    // 4. KI-Tools News (branchenspezifisch) - nur als Fallback wenn keine echten News vorhanden
+    // ===== SCHRITT 2: RSS-Feed Fallback (nur wenn n8n fehlschlägt oder zu wenige News liefert) =====
+    // RSS-Feeds werden NUR als Fallback geladen wenn:
+    // - n8n fehlschlägt (n8nSuccess === false)
+    // - n8n zu wenige News liefert (< 3 News)
+    if (!n8nSuccess || news.length < 3) {
+      console.log('🔄 [FALLBACK] Lade direkte RSS-Feeds (nur bei n8n Fehler oder zu wenigen News)');
+      
+      // RSS Feed Quellen für Fallback
+      // HINWEIS: Diese werden nur geladen wenn n8n nicht verfügbar ist
+      // RSS Feed Quellen definieren (nur für Fallback)
+      const rssFeeds = [
+        {
+          url: 'https://blog.n8n.io/rss.xml',
+          source: 'n8n Blog',
+          category: 'workflow-tools',
+          corsFriendly: true // Einziger CORS-freundlicher Feed
+        }
+        // Alle anderen Feeds haben CORS-Probleme und sollten über n8n geladen werden
+        // Diese sind nur als letzter Fallback definiert
+      ];
+      
+      // Versuche CORS-freundliche Feeds direkt zu laden
+      const feedPromises = rssFeeds
+        .filter(feed => feed.corsFriendly === true)
+        .map(async (feed) => {
+          try {
+            const response = await fetch(feed.url, {
+              method: 'GET',
+              headers: { 'Accept': 'application/rss+xml, application/xml, text/xml' },
+              mode: 'cors',
+              signal: AbortSignal.timeout(5000) // 5 Sekunden Timeout
+            });
+            
+            if (response.ok) {
+              const xmlText = await response.text();
+              const feedNews = parseRSSFeed(xmlText, feed.source, 5);
+              
+              const now = Date.now();
+              const recentNews = feedNews.filter(item => {
+                const itemDate = new Date(item.date).getTime();
+                const age = now - itemDate;
+                return age <= maxAge && age >= 0;
+              });
+              
+              if (recentNews.length > 0) {
+                console.log(`✅ [FALLBACK] ${feed.source}: ${recentNews.length} News geladen`);
+              }
+              
+              return recentNews;
+            }
+          } catch (e) {
+            console.warn(`⚠️ [FALLBACK] Fehler beim Laden von ${feed.source}:`, e.message);
+          }
+          return [];
+        });
+      
+      const feedResults = await Promise.allSettled(feedPromises);
+      feedResults.forEach((result) => {
+        if (result.status === 'fulfilled' && Array.isArray(result.value) && result.value.length > 0) {
+          news.push(...result.value);
+        }
+      });
+    }
+    
+    // ===== SCHRITT 3: Statische Fallback-News (nur wenn keine echten News vorhanden) =====
     // Nur hinzufügen wenn weniger als 3 echte Nachrichten vorhanden sind
-    // WICHTIG: Diese News werden NUR angezeigt wenn RSS-Feeds nicht laden (CORS-Probleme)
+    // WICHTIG: Diese News werden NUR angezeigt wenn sowohl n8n als auch RSS-Feeds fehlschlagen
     if (news.length < 3) {
       console.log(`⚠️ Nur ${news.length} echte News gefunden - füge Fallback-News hinzu (n8n-Daten könnten fehlen)`);
       const aitoolsNews = [
