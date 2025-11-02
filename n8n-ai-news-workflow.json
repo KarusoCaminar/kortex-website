@@ -198,20 +198,6 @@
     },
     {
       "parameters": {
-        "jsCode": "// *** Code Node: Dupliziert News für DE und EN (Übersetzung erfolgt clientseitig) ***\n// Mode: Run Once for All Items\n// Erstellt für jede News eine DE und EN Version\n\nconst items = $input.all();\nconst translatedItems = [];\n\n// Für jede News: Erstelle DE und EN Version (Original-Text wird beibehalten, Übersetzung erfolgt clientseitig)\nfor (const item of items) {\n  const article = item.json;\n  \n  if (!article.title || !article.link) continue;\n  \n  const originalLang = article.language || 'en';\n  const originalTitle = article.title.trim();\n  const originalDesc = (article.description || '').trim();\n  \n  // Original-Version beibehalten\n  translatedItems.push({\n    ...article,\n    title: originalTitle,\n    description: originalDesc,\n    language: originalLang\n  });\n  \n  // Wenn News auf Deutsch ist, erstelle zusätzlich EN Version (gleicher Text, wird clientseitig übersetzt)\n  if (originalLang === 'de') {\n    translatedItems.push({\n      ...article,\n      title: originalTitle,\n      description: originalDesc,\n      language: 'en',\n      needsTranslation: true,\n      originalLanguage: 'de'\n    });\n  } \n  // Wenn News auf Englisch ist, erstelle zusätzlich DE Version (gleicher Text, wird clientseitig übersetzt)\n  else if (originalLang === 'en') {\n    translatedItems.push({\n      ...article,\n      title: originalTitle,\n      description: originalDesc,\n      language: 'de',\n      needsTranslation: true,\n      originalLanguage: 'en'\n    });\n  }\n}\n\nconsole.log('🌐 Duplizierte Items (DE+EN):', translatedItems.length);\n\nreturn translatedItems.map(item => ({ json: item }));"
-      },
-      "id": "t1a2b3c4-d5e6-f7g8-h9i0-j1k2l3m4n5o6",
-      "name": "Translate News",
-      "type": "n8n-nodes-base.code",
-      "typeVersion": 2,
-      "position": [
-        640,
-        176
-      ],
-      "notes": "Erstellt für jede News eine deutsche und englische Version mit Übersetzung"
-    },
-    {
-      "parameters": {
         "respondWith": "json",
         "responseBody": "={{ $input.all().map(item => item.json) }}",
         "options": {}
@@ -443,17 +429,6 @@
       ]
     },
     "Parse RSS & Filter": {
-      "main": [
-        [
-          {
-            "node": "Translate News",
-            "type": "main",
-            "index": 0
-          }
-        ]
-      ]
-    },
-    "Translate News": {
       "main": [
         [
           {

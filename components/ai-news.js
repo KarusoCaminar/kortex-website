@@ -631,20 +631,14 @@
                 const age = now - itemDate;
                 return age <= maxAge && age >= 0;
               })
-              .filter(item => {
-                // Filtere nach aktueller Sprache: nur News in der gewählten Sprache anzeigen
-                return item.language === lang;
-              })
               .map(async item => {
-                // Wenn Übersetzung benötigt wird, übersetze clientseitig
-                if (item.needsTranslation && item.originalLanguage) {
+                const itemLang = item.language || 'en';
+                
+                // Wenn News nicht in der gewählten Sprache ist, übersetze automatisch
+                if (itemLang !== lang && item.title) {
                   try {
-                    const sourceLang = item.originalLanguage;
-                    const targetLang = lang;
-                    
-                    // Übersetze mit Google Translate API (kostenlos)
-                    const titleTranslated = await translateText(item.title, sourceLang, targetLang);
-                    const descTranslated = await translateText(item.description || '', sourceLang, targetLang);
+                    const titleTranslated = await translateText(item.title, itemLang, lang);
+                    const descTranslated = await translateText(item.description || '', itemLang, lang);
                     
                     return {
                       title: titleTranslated || item.title.trim(),
@@ -657,9 +651,11 @@
                     };
                   } catch (e) {
                     console.warn('⚠️ Übersetzungsfehler:', e.message);
+                    // Fallback: Original-Text verwenden
                   }
                 }
                 
+                // Wenn bereits in der richtigen Sprache oder Übersetzung fehlgeschlagen
                 return {
                   title: item.title.trim(),
                   description: item.description || '',
@@ -667,7 +663,7 @@
                   date: item.date || item.pubDate || new Date().toISOString(),
                   source: item.source || 'n8n Feed',
                   category: item.category || 'ai-news',
-                  language: item.language || lang
+                  language: itemLang === lang ? lang : itemLang
                 };
               });
             
@@ -676,7 +672,7 @@
             
             if (translatedNews.length >= 3) {
               // n8n liefert genug News (> 3) - verwende diese und überspringe Fallback
-              console.log(`✅ n8n erfolgreich: ${translatedNews.length} gültige News gefunden (${lang}) - nutze n8n Daten`);
+              console.log(`✅ n8n erfolgreich: ${translatedNews.length} gültige News gefunden und übersetzt (${lang}) - nutze n8n Daten`);
               news.push(...translatedNews);
               n8nSuccess = true;
             } else if (translatedNews.length > 0) {
@@ -685,7 +681,7 @@
               news.push(...translatedNews);
               // Weiter zu Fallback
             } else {
-              console.warn(`⚠️ n8n Response hat keine gültigen News für Sprache ${lang} - nutze Fallback RSS-Feeds`);
+              console.warn(`⚠️ n8n Response hat keine gültigen News - nutze Fallback RSS-Feeds`);
             }
           } else {
             console.warn('⚠️ n8n Response ist kein Array oder leer - nutze Fallback RSS-Feeds');
