@@ -1078,9 +1078,11 @@
       loadAINews();
     }, 10 * 60 * 1000);
     
-    // Reload news when language changes
+    // Reload news when language changes (mit Cache-Löschung für neue Übersetzung)
     window.addEventListener('languagechange', () => {
-      loadAINews();
+      console.log('🌐 Sprache geändert - lade News neu mit Übersetzung...');
+      localStorage.removeItem('ai-news-cache'); // Cache löschen für neue Übersetzung
+      loadAINews(true); // Force refresh
     });
     
     // Update translations when i18n is ready
