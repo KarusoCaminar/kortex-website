@@ -274,7 +274,7 @@
     {
       "parameters": {
         "respondWith": "json",
-        "responseBody": "={{ $json }}",
+        "responseBody": "={{ $input.all().map(item => item.json) }}",
         "options": {}
       },
       "id": "b652a424-e949-4579-b04e-e7aa73b5b135",
