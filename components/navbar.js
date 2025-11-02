@@ -76,16 +76,12 @@ class CustomNavbar extends HTMLElement {
                 </svg>
               </button>
               <button class="lang-btn lang-en" aria-label="English" title="English">
-                <svg class="flag-icon" viewBox="0 0 5 3" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet">
-                  <rect width="5" height="3" fill="#012169"/>
-                  <rect x="2.1" width="0.8" height="3" fill="#FFFFFF"/>
-                  <rect y="1.1" width="5" height="0.8" fill="#FFFFFF"/>
-                  <rect x="2.25" width="0.5" height="3" fill="#C8102E"/>
-                  <rect y="1.25" width="5" height="0.5" fill="#C8102E"/>
-                  <rect x="0" y="0" width="1.5" height="1.5" fill="#C8102E"/>
-                  <rect x="3.5" y="0" width="1.5" height="1.5" fill="#C8102E"/>
-                  <rect x="0" y="1.5" width="1.5" height="1.5" fill="#C8102E"/>
-                  <rect x="3.5" y="1.5" width="1.5" height="1.5" fill="#C8102E"/>
+                <svg class="flag-icon" viewBox="0 0 60 30" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet">
+                  <rect width="60" height="30" fill="#012169"/>
+                  <path d="M30 0v30M0 15h60" stroke="#fff" stroke-width="6"/>
+                  <path d="M30 0v30M0 15h60" stroke="#c8102e" stroke-width="4"/>
+                  <path d="M0 0l60 30M60 0L0 30" stroke="#fff" stroke-width="4"/>
+                  <path d="M0 0l60 30M60 0L0 30" stroke="#c8102e" stroke-width="2.5"/>
                 </svg>
               </button>
             </div>
