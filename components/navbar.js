@@ -36,7 +36,7 @@ class CustomNavbar extends HTMLElement {
         .nav-right{display:flex;align-items:center;gap:1rem}
         .lang-switcher{display:flex !important;gap:0.5rem;align-items:center;background:rgba(0,0,0,.04);padding:0.25rem;border-radius:8px}
         .lang-btn{background:transparent;border:2px solid transparent;cursor:pointer;padding:0.4rem 0.6rem;border-radius:6px;font-weight:normal;transition:all .2s;line-height:1;display:inline-flex !important;visibility:visible !important;align-items:center;justify-content:center;min-width:44px;height:36px}
-        .lang-btn .flag-icon{font-size:1.5rem;line-height:1;display:block;font-family:system-ui,-apple-system,sans-serif}
+        .lang-btn .flag-icon{font-size:1.5rem;line-height:1;display:block;font-family:"Segoe UI Emoji","Apple Color Emoji","Noto Color Emoji","Twemoji Mozilla","EmojiOne Color","EmojiOne","Noto Emoji",system-ui,-apple-system,sans-serif;font-style:normal;font-variant-emoji:emoji}
         .lang-btn:hover{border-color:var(--p);background:rgba(3,78,162,.08);transform:scale(1.1)}
         .lang-btn.active{border-color:rgba(0,0,0,.2);background:rgba(0,0,0,.1);box-shadow:inset 0 1px 2px rgba(0,0,0,.1)}
         
