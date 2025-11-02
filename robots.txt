@@ -1,0 +1,18 @@
+User-agent: *
+Allow: /
+Allow: /visitenkarten-ki-extraktion.html
+Allow: /index.html
+Allow: /produkte.html
+Allow: /kontakt.html
+Allow: /ueber-uns.html
+Allow: /preise.html
+Allow: /faq.html
+Allow: /datenschutz.html
+Allow: /impressum.html
+
+# Disallow old URLs
+Disallow: /kortex-n8n-modal.html
+
+# Sitemap
+Sitemap: https://www.kortex-system.com/sitemap.xml
+
