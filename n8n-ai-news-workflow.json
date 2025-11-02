@@ -168,39 +168,6 @@
     },
     {
       "parameters": {
-        "conditions": {
-          "options": {
-            "caseSensitive": true,
-            "leftValue": "",
-            "typeValidation": "strict"
-          },
-          "conditions": [
-            {
-              "id": "trigger-check",
-              "leftValue": "={{ $trigger.node.type }}",
-              "rightValue": "n8n-nodes-base.webhook",
-              "operator": {
-                "type": "string",
-                "operation": "equals"
-              }
-            }
-          ],
-          "combinator": "and"
-        },
-        "options": {}
-      },
-      "id": "30c659e7-2264-4eb2-a587-a8d4884c37b4",
-      "name": "IF - Trigger Check",
-      "type": "n8n-nodes-base.if",
-      "typeVersion": 2,
-      "position": [
-        640,
-        176
-      ],
-      "notes": "Prüft ob Workflow per Webhook gestartet wurde"
-    },
-    {
-      "parameters": {
         "respondWith": "json",
         "responseBody": "={{ $input.all().map(item => item.json) }}",
         "options": {}
@@ -403,23 +370,10 @@
       "main": [
         [
           {
-            "node": "IF - Trigger Check",
-            "type": "main",
-            "index": 0
-          }
-        ]
-      ]
-    },
-    "IF - Trigger Check": {
-      "main": [
-        [
-          {
             "node": "Respond to Webhook",
             "type": "main",
             "index": 0
-          }
-        ],
-        [
+          },
           {
             "node": "NoOp - Cron Trigger",
             "type": "main",
@@ -427,6 +381,12 @@
           }
         ]
       ]
+    },
+    "Respond to Webhook": {
+      "main": []
+    },
+    "NoOp - Cron Trigger": {
+      "main": []
     }
   },
   "active": true,
