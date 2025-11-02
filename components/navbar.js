@@ -76,24 +76,16 @@ class CustomNavbar extends HTMLElement {
                 </svg>
               </button>
               <button class="lang-btn lang-en" aria-label="English" title="English">
-                <svg class="flag-icon" viewBox="0 0 60 30" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet">
-                  <!-- Union Jack - Saubere, einfache Version -->
-                  <rect width="60" height="30" fill="#012169"/>
-                  <!-- Weiße Diagonalen (St. Andrew's Cross) -->
-                  <path d="M0,0 L60,30 M60,0 L0,30" stroke="#FFFFFF" stroke-width="4"/>
-                  <!-- Rote Diagonalen (St. Patrick's Saltire) -->
-                  <path d="M0,0 L60,30 M60,0 L0,30" stroke="#C8102E" stroke-width="2.5"/>
-                  <!-- Weißes Kreuz (St. George's Cross) -->
-                  <rect x="27" width="6" height="30" fill="#FFFFFF"/>
-                  <rect y="13.5" width="60" height="3" fill="#FFFFFF"/>
-                  <!-- Rotes Kreuz -->
-                  <rect x="28.5" width="3" height="30" fill="#C8102E"/>
-                  <rect y="14.25" width="60" height="1.5" fill="#C8102E"/>
-                  <!-- Rote Diagonale in Ecken (vereinfacht) -->
-                  <path d="M0,0 L20,10 M20,0 L0,10" stroke="#C8102E" stroke-width="1.5" stroke-linecap="round"/>
-                  <path d="M40,0 L60,10 M60,0 L40,10" stroke="#C8102E" stroke-width="1.5" stroke-linecap="round"/>
-                  <path d="M0,20 L20,30 M20,20 L0,30" stroke="#C8102E" stroke-width="1.5" stroke-linecap="round"/>
-                  <path d="M40,20 L60,30 M60,20 L40,30" stroke="#C8102E" stroke-width="1.5" stroke-linecap="round"/>
+                <svg class="flag-icon" viewBox="0 0 5 3" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet">
+                  <rect width="5" height="3" fill="#012169"/>
+                  <rect x="2.1" width="0.8" height="3" fill="#FFFFFF"/>
+                  <rect y="1.1" width="5" height="0.8" fill="#FFFFFF"/>
+                  <rect x="2.25" width="0.5" height="3" fill="#C8102E"/>
+                  <rect y="1.25" width="5" height="0.5" fill="#C8102E"/>
+                  <rect x="0" y="0" width="1.5" height="1.5" fill="#C8102E"/>
+                  <rect x="3.5" y="0" width="1.5" height="1.5" fill="#C8102E"/>
+                  <rect x="0" y="1.5" width="1.5" height="1.5" fill="#C8102E"/>
+                  <rect x="3.5" y="1.5" width="1.5" height="1.5" fill="#C8102E"/>
                 </svg>
               </button>
             </div>
