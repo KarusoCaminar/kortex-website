@@ -2,6 +2,22 @@
 
 document.addEventListener('DOMContentLoaded', () => {
 
+  // Rechnungsdatenextraktion: Sprache als Query-Parameter hinzufügen
+  const invoiceLink = document.querySelector('a[href*="koretex-invoice-db.onrender.com"]');
+  if (invoiceLink) {
+    invoiceLink.addEventListener('click', (e) => {
+      // Aktuelle Sprache abrufen
+      const currentLang = window.i18n?.getCurrentLanguage() || 'de';
+      
+      // URL mit Sprach-Parameter erweitern
+      const url = new URL(invoiceLink.href);
+      url.searchParams.set('lang', currentLang);
+      invoiceLink.href = url.toString();
+      
+      console.log('📋 Rechnungsdatenextraktion geöffnet mit Sprache:', currentLang, url.toString());
+    });
+  }
+
   // Formular Handling: Bindet den 'submit'-Listener an alle Formulare
   const contactForms = document.querySelectorAll('.contact-form, form[action="/api/contact"], form');
   

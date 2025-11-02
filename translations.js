@@ -214,6 +214,49 @@ const translations = {
     'modal.workflow.started': '✅ Workflow erfolgreich gestartet',
     'modal.workflow.visualization': 'Workflow-Visualisierung',
     'modal.workflow.background': 'Die Extraktion läuft im Hintergrund. Ergebnisse erscheinen automatisch in der Tabelle.',
+    'modal.workflow.async': 'Workflow antwortet asynchron - prüfe n8n Execution Logs falls keine Ergebnisse kommen',
+    
+    // Loading States
+    'modal.loading.start': '🔄 KI-Extraktion startet...',
+    'modal.loading.processing': '⚙️ KI analysiert Visitenkarte...',
+    'modal.loading.waiting': '⏳ Warte auf Ergebnisse...',
+    'modal.loading.finalizing': '✨ Extrahiere Kontaktdaten...',
+    'modal.loading.stage.preparation': 'Vorbereitung',
+    'modal.loading.stage.processing': 'Verarbeitung',
+    'modal.loading.stage.waiting': 'Warten',
+    'modal.loading.stage.finalizing': 'Finalisierung',
+    
+    // Error Messages
+    'modal.error.general': 'Fehler',
+    'modal.error.server': 'Server-Fehler',
+    'modal.error.notFound': 'Nicht gefunden',
+    'modal.error.timeout': 'Zeitüberschreitung',
+    'modal.error.connection': 'Verbindungsfehler',
+    'modal.error.cors': 'Verbindungsfehler',
+    'modal.error.serverMessage': 'Der Server konnte die Anfrage nicht verarbeiten. Bitte versuchen Sie es später erneut.',
+    'modal.error.notFoundMessage': 'Die angeforderte Ressource wurde nicht gefunden.',
+    'modal.error.timeoutMessage': 'Die Anfrage hat zu lange gedauert. Bitte versuchen Sie es erneut.',
+    'modal.error.connectionMessage': 'Verbindung zum Server fehlgeschlagen. Bitte prüfen Sie Ihre Internetverbindung.',
+    'modal.error.corsMessage': 'Verbindung zum Server wurde blockiert. Bitte prüfen Sie die n8n Konfiguration.',
+    'modal.error.serviceUnavailable': 'Service nicht verfügbar',
+    'modal.error.serviceUnavailableMessage': 'Der Service ist derzeit nicht verfügbar. Bitte versuchen Sie es später erneut.',
+    
+    // Success Messages
+    'modal.success.extracted': 'Daten erfolgreich extrahiert!',
+    'modal.success.closing': 'Schließe automatisch...',
+    
+    // Upload Messages
+    'modal.upload.label': 'Visitenkarte hochladen',
+    'modal.upload.imageOnly': '⚠️ Bitte laden Sie nur Bilddateien (JPG, PNG) hoch!',
+    'modal.upload.fileTooLarge': '⚠️ Die Datei ist zu groß (max. 10 MB)!',
+    'modal.upload.ownCard': 'Eigene Visitenkarte hochladen',
+    
+    // Other Messages
+    'modal.close': 'Schließen',
+    'modal.error.linkNotFound': '⚠️ Fehler: Konnte den korrekten Link nicht finden. Bitte Seite neu laden und erneut versuchen.',
+    'modal.error.sampleMissing': '⚠️ KRITISCH: Sample-Parameter fehlt!\n\nDer Workflow kann nicht gestartet werden, da kein sample-Parameter gefunden wurde.\n\nBitte:\n1. Seite neu laden\n2. Erneut versuchen\n\nWenn das Problem weiterhin besteht, kontaktieren Sie den Support.',
+    'modal.error.sampleMissingExtra': '⚠️ KRITISCH: Sample-Parameter fehlt in extraParams!\n\nDer Workflow kann nicht gestartet werden.\n\nBitte Seite neu laden und erneut versuchen.',
+    'modal.error.screenshotError': '⚠️ Screenshot konnte nicht geladen werden',
     
     // News Feed Panel
     'news.panel.title': 'KI-News',
@@ -435,6 +478,49 @@ const translations = {
     'modal.workflow.started': '✅ Workflow Successfully Started',
     'modal.workflow.visualization': 'Workflow Visualization',
     'modal.workflow.background': 'Extraction is running in the background. Results will appear automatically in the table.',
+    'modal.workflow.async': 'Workflow responds asynchronously - check n8n Execution Logs if no results appear',
+    
+    // Loading States
+    'modal.loading.start': '🔄 AI extraction starting...',
+    'modal.loading.processing': '⚙️ AI analyzing business card...',
+    'modal.loading.waiting': '⏳ Waiting for results...',
+    'modal.loading.finalizing': '✨ Extracting contact data...',
+    'modal.loading.stage.preparation': 'Preparation',
+    'modal.loading.stage.processing': 'Processing',
+    'modal.loading.stage.waiting': 'Waiting',
+    'modal.loading.stage.finalizing': 'Finalizing',
+    
+    // Error Messages
+    'modal.error.general': 'Error',
+    'modal.error.server': 'Server Error',
+    'modal.error.notFound': 'Not Found',
+    'modal.error.timeout': 'Timeout',
+    'modal.error.connection': 'Connection Error',
+    'modal.error.cors': 'Connection Error',
+    'modal.error.serverMessage': 'The server could not process the request. Please try again later.',
+    'modal.error.notFoundMessage': 'The requested resource was not found.',
+    'modal.error.timeoutMessage': 'The request took too long. Please try again.',
+    'modal.error.connectionMessage': 'Connection to server failed. Please check your internet connection.',
+    'modal.error.corsMessage': 'Connection to server was blocked. Please check the n8n configuration.',
+    'modal.error.serviceUnavailable': 'Service Unavailable',
+    'modal.error.serviceUnavailableMessage': 'The service is currently unavailable. Please try again later.',
+    
+    // Success Messages
+    'modal.success.extracted': 'Data successfully extracted!',
+    'modal.success.closing': 'Closing automatically...',
+    
+    // Upload Messages
+    'modal.upload.label': 'Upload business card',
+    'modal.upload.imageOnly': '⚠️ Please upload only image files (JPG, PNG)!',
+    'modal.upload.fileTooLarge': '⚠️ The file is too large (max. 10 MB)!',
+    'modal.upload.ownCard': 'Upload Your Own Business Card',
+    
+    // Other Messages
+    'modal.close': 'Close',
+    'modal.error.linkNotFound': '⚠️ Error: Could not find the correct link. Please reload the page and try again.',
+    'modal.error.sampleMissing': '⚠️ CRITICAL: Sample parameter missing!\n\nThe workflow cannot be started because no sample parameter was found.\n\nPlease:\n1. Reload the page\n2. Try again\n\nIf the problem persists, contact support.',
+    'modal.error.sampleMissingExtra': '⚠️ CRITICAL: Sample parameter missing in extraParams!\n\nThe workflow cannot be started.\n\nPlease reload the page and try again.',
+    'modal.error.screenshotError': '⚠️ Screenshot could not be loaded',
     
     // News Feed Panel
     'news.panel.title': 'AI News',

@@ -1,0 +1,11 @@
+
+# Invoice Extractor
+invoice-extractor/node_modules/
+invoice-extractor/dist/
+invoice-extractor/.env
+invoice-extractor/.env.local
+invoice-extractor/client/node_modules/
+invoice-extractor/server/node_modules/
+invoice-extractor/build/
+invoice-extractor/.next/
+

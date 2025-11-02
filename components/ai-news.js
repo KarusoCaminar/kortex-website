@@ -334,10 +334,22 @@
     panel.innerHTML = `
       <div class="ai-news-panel-header" id="ai-news-toggle">
         <h3>
-          <span>🤖</span>
+          <span class="ai-icon-robot">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <rect x="3" y="7" width="18" height="14" rx="2"/>
+              <path d="M7 7V5a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v2"/>
+              <circle cx="9" cy="14" r="1"/>
+              <circle cx="15" cy="14" r="1"/>
+              <path d="M9 11h6"/>
+            </svg>
+          </span>
           <span data-i18n="news.panel.title">KI-News</span>
         </h3>
-        <button class="ai-news-refresh-btn" id="ai-news-refresh" title="Aktualisieren" aria-label="News aktualisieren">🔄</button>
+        <button class="ai-news-refresh-btn" id="ai-news-refresh" title="Aktualisieren" aria-label="News aktualisieren">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M21.5 2v6h-6M2.5 22v-6h6M2 11.5a10 10 0 0 1 18.8-4.3M22 12.5a10 10 0 0 1-18.8 4.2"/>
+          </svg>
+        </button>
       </div>
       <div class="ai-news-panel-content">
         <div id="ai-news-container" class="ai-news-loading" data-i18n="news.panel.loading">
@@ -454,7 +466,13 @@
   async function fetchAndCacheNews(container) {
     try {
       // Zeige Loading-Indikator
-      container.innerHTML = '<div class="ai-news-loading">🔄 Lade aktuelle AI-News...</div>';
+      const loadingText = window.i18n?.t('news.panel.loading') || 'Lade aktuelle AI-News...';
+      container.innerHTML = `<div class="ai-news-loading">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="display: inline-block; vertical-align: middle; margin-right: 0.5rem; animation: spin 1s linear infinite;">
+          <path d="M21.5 2v6h-6M2.5 22v-6h6M2 11.5a10 10 0 0 1 18.8-4.3M22 12.5a10 10 0 0 1-18.8 4.2"/>
+        </svg>
+        ${loadingText}
+      </div>`;
       
       const newsData = await fetchAINewsFromMultipleSources();
       
@@ -492,9 +510,23 @@
         <h4>${escapeHtml(item.title)}</h4>
         <p>${escapeHtml((item.description || item.summary || '').substring(0, 120))}${(item.description || item.summary || '').length > 120 ? '...' : ''}</p>
         <div class="meta">
-          <span>📅 ${formatDate(item.date || item.pubDate || new Date())}</span>
-          ${item.source ? `<span>📰 ${escapeHtml(item.source)}</span>` : ''}
-          ${item.category ? `<span class="category-badge">${getCategoryEmoji(item.category)} ${getCategoryName(item.category, window.i18n?.getCurrentLanguage() || 'de')}</span>` : ''}
+          <span style="display: inline-flex; align-items: center; gap: 0.25rem;">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="opacity: 0.7;">
+              <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+              <line x1="16" y1="2" x2="16" y2="6"/>
+              <line x1="8" y1="2" x2="8" y2="6"/>
+              <line x1="3" y1="10" x2="21" y2="10"/>
+            </svg>
+            ${formatDate(item.date || item.pubDate || new Date())}
+          </span>
+          ${item.source ? `<span style="display: inline-flex; align-items: center; gap: 0.25rem;">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="opacity: 0.7;">
+              <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/>
+              <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/>
+            </svg>
+            ${escapeHtml(item.source)}
+          </span>` : ''}
+          ${item.category ? `<span class="category-badge" style="display: inline-flex; align-items: center; gap: 0.35rem;">${getCategoryEmoji(item.category)} ${getCategoryName(item.category, window.i18n?.getCurrentLanguage() || 'de')}</span>` : ''}
           ${item.link ? `<a href="${item.link}" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation();">${readMoreText}</a>` : ''}
         </div>
       </div>
@@ -671,18 +703,30 @@
             // Warte auf alle Übersetzungen
             const translatedNews = await Promise.all(validNews);
             
-            if (translatedNews.length >= 3) {
+            // Filtere leere/null News heraus
+            const validTranslatedNews = translatedNews.filter(item => item && item.title && item.link);
+            
+            console.log(`📊 [DEBUG] n8n News Status:`, {
+              total: n8nData.length,
+              valid: validNews.length,
+              translated: translatedNews.length,
+              validAfterTranslation: validTranslatedNews.length,
+              lang: lang,
+              n8nSuccess: validTranslatedNews.length >= 3
+            });
+            
+            if (validTranslatedNews.length >= 3) {
               // n8n liefert genug News (> 3) - verwende diese und überspringe Fallback
-              console.log(`✅ n8n erfolgreich: ${translatedNews.length} gültige News gefunden und übersetzt (${lang}) - nutze n8n Daten`);
-              news.push(...translatedNews);
+              console.log(`✅ n8n erfolgreich: ${validTranslatedNews.length} gültige News gefunden und übersetzt (${lang}) - nutze NUR n8n Daten, kein Fallback`);
+              news.push(...validTranslatedNews);
               n8nSuccess = true;
-            } else if (translatedNews.length > 0) {
+            } else if (validTranslatedNews.length > 0) {
               // n8n liefert zu wenige News (< 3) - nutze Fallback zusätzlich
-              console.log(`⚠️ n8n liefert nur ${translatedNews.length} News (< 3) (${lang}) - nutze zusätzlich Fallback RSS-Feeds`);
-              news.push(...translatedNews);
+              console.log(`⚠️ n8n liefert nur ${validTranslatedNews.length} News (< 3) (${lang}) - nutze zusätzlich Fallback RSS-Feeds`);
+              news.push(...validTranslatedNews);
               // Weiter zu Fallback
             } else {
-              console.warn(`⚠️ n8n Response hat keine gültigen News - nutze Fallback RSS-Feeds`);
+              console.warn(`⚠️ n8n Response hat keine gültigen News nach Übersetzung - nutze Fallback RSS-Feeds`);
             }
           } else {
             console.warn('⚠️ n8n Response ist kein Array oder leer - nutze Fallback RSS-Feeds');
@@ -786,8 +830,16 @@
     // ===== SCHRITT 3: Statische Fallback-News (nur wenn keine echten News vorhanden) =====
     // Nur hinzufügen wenn weniger als 3 echte Nachrichten vorhanden sind
     // WICHTIG: Diese News werden NUR angezeigt wenn sowohl n8n als auch RSS-Feeds fehlschlagen
+    console.log(`📊 [DEBUG] Final News Count vor Fallback:`, {
+      total: news.length,
+      n8nSuccess: n8nSuccess,
+      lang: lang,
+      willAddFallback: news.length < 3
+    });
+    
     if (news.length < 3) {
-      console.log(`⚠️ Nur ${news.length} echte News gefunden - füge Fallback-News hinzu (n8n-Daten könnten fehlen)`);
+      console.warn(`⚠️ Nur ${news.length} echte News gefunden (< 3) - füge Fallback-News hinzu`);
+      console.warn(`📋 [DEBUG] n8n Success: ${n8nSuccess}, News Count: ${news.length}`);
       const aitoolsNews = [
         {
           title: lang === 'de' ? 'Fireflies AI: Meeting-Transkription & Analyse' : 'Fireflies AI: Meeting Transcription & Analysis',
@@ -843,8 +895,15 @@
         .forEach(item => news.push(item));
     }
     
+    console.log(`📊 [DEBUG] Final News Count nach statischem Fallback:`, {
+      total: news.length,
+      lang: lang,
+      beforeKmu: news.length
+    });
+    
     // 5. Deutsche KMU-relevante Quellen (falls Deutsch) - nur als Fallback wenn zu wenige News
     if (lang === 'de' && news.length < 5) {
+      console.log(`📋 [DEBUG] Füge deutsche KMU-News hinzu (aktuell ${news.length} News)`);
       const deutscheKmuNews = [
         {
           title: 'BMWK: KI-Förderung für Mittelstand',
@@ -892,6 +951,18 @@
       return dateB - dateA; // Neueste zuerst
     }).slice(0, 5);
     
+    console.log(`📊 [DEBUG] Final News für Anzeige:`, {
+      count: sortedNews.length,
+      sources: sortedNews.map(n => ({ 
+        title: n.title?.substring(0, 50) || '(kein Titel)', 
+        source: n.source || '(keine Quelle)', 
+        category: n.category || '(keine Kategorie)',
+        lang: n.language || '(keine Sprache)'
+      })),
+      lang: lang,
+      n8nSuccess: n8nSuccess
+    });
+    
     return sortedNews;
   }
   
@@ -905,8 +976,22 @@
           <h4>Gemini 2.5 Flash: Google's New Multimodal Model</h4>
           <p>Google's Gemini 2.5 Flash offers fast and efficient AI processing for text, images, and audio – perfect for business automation.</p>
           <div class="meta">
-            <span>📅 Latest</span>
-            <span>📰 Google AI</span>
+            <span style="display: inline-flex; align-items: center; gap: 0.25rem;">
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="opacity: 0.7;">
+                <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+                <line x1="16" y1="2" x2="16" y2="6"/>
+                <line x1="8" y1="2" x2="8" y2="6"/>
+                <line x1="3" y1="10" x2="21" y2="10"/>
+              </svg>
+              Latest
+            </span>
+            <span style="display: inline-flex; align-items: center; gap: 0.25rem;">
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="opacity: 0.7;">
+                <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/>
+                <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/>
+              </svg>
+              Google AI
+            </span>
             <a href="https://deepmind.google/technologies/gemini/" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation();">${readMoreText}</a>
           </div>
         </div>
@@ -914,8 +999,22 @@
           <h4>OpenAI: Latest AI Research & Models</h4>
           <p>Stay updated with OpenAI's latest research and models that enable powerful automation workflows for businesses.</p>
           <div class="meta">
-            <span>📅 Latest</span>
-            <span>📰 OpenAI</span>
+            <span style="display: inline-flex; align-items: center; gap: 0.25rem;">
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="opacity: 0.7;">
+                <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+                <line x1="16" y1="2" x2="16" y2="6"/>
+                <line x1="8" y1="2" x2="8" y2="6"/>
+                <line x1="3" y1="10" x2="21" y2="10"/>
+              </svg>
+              Latest
+            </span>
+            <span style="display: inline-flex; align-items: center; gap: 0.25rem;">
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="opacity: 0.7;">
+                <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/>
+                <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/>
+              </svg>
+              OpenAI
+            </span>
             <a href="https://openai.com/research" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation();">${readMoreText}</a>
           </div>
         </div>
@@ -923,8 +1022,22 @@
           <h4>n8n Workflow Automation: AI Agents</h4>
           <p>The workflow automation platform n8n integrates AI Agents directly into automation workflows for intelligent process automation.</p>
           <div class="meta">
-            <span>📅 Latest</span>
-            <span>📰 n8n Blog</span>
+            <span style="display: inline-flex; align-items: center; gap: 0.25rem;">
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="opacity: 0.7;">
+                <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+                <line x1="16" y1="2" x2="16" y2="6"/>
+                <line x1="8" y1="2" x2="8" y2="6"/>
+                <line x1="3" y1="10" x2="21" y2="10"/>
+              </svg>
+              Latest
+            </span>
+            <span style="display: inline-flex; align-items: center; gap: 0.25rem;">
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="opacity: 0.7;">
+                <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/>
+                <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/>
+              </svg>
+              n8n Blog
+            </span>
             <a href="https://n8n.io/blog" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation();">${readMoreText}</a>
           </div>
         </div>
@@ -932,8 +1045,22 @@
           <h4>Google Cloud AI: Enterprise Solutions</h4>
           <p>Google Cloud AI solutions help businesses automate processes and leverage AI for competitive advantage.</p>
           <div class="meta">
-            <span>📅 Latest</span>
-            <span>📰 Google Cloud</span>
+            <span style="display: inline-flex; align-items: center; gap: 0.25rem;">
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="opacity: 0.7;">
+                <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+                <line x1="16" y1="2" x2="16" y2="6"/>
+                <line x1="8" y1="2" x2="8" y2="6"/>
+                <line x1="3" y1="10" x2="21" y2="10"/>
+              </svg>
+              Latest
+            </span>
+            <span style="display: inline-flex; align-items: center; gap: 0.25rem;">
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="opacity: 0.7;">
+                <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/>
+                <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/>
+              </svg>
+              Google Cloud
+            </span>
             <a href="https://cloud.google.com/blog/products/ai-machine-learning" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation();">${readMoreText}</a>
           </div>
         </div>
@@ -944,8 +1071,22 @@
           <h4>Gemini 2.5 Flash: KI für den Mittelstand</h4>
           <p>Google's Gemini 2.5 Flash ermöglicht schnelle und kosteneffiziente KI-Verarbeitung für Text, Bilder und Audio – ideal für KMU-Automatisierung.</p>
           <div class="meta">
-            <span>📅 Aktuell</span>
-            <span>📰 Google AI</span>
+            <span style="display: inline-flex; align-items: center; gap: 0.25rem;">
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="opacity: 0.7;">
+                <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+                <line x1="16" y1="2" x2="16" y2="6"/>
+                <line x1="8" y1="2" x2="8" y2="6"/>
+                <line x1="3" y1="10" x2="21" y2="10"/>
+              </svg>
+              Aktuell
+            </span>
+            <span style="display: inline-flex; align-items: center; gap: 0.25rem;">
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="opacity: 0.7;">
+                <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/>
+                <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/>
+              </svg>
+              Google AI
+            </span>
             <a href="https://deepmind.google/technologies/gemini/" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation();">${readMoreText}</a>
           </div>
         </div>
@@ -953,8 +1094,22 @@
           <h4>KI-Förderung für Mittelstand</h4>
           <p>Das BMWK informiert über KI-Förderprogramme und Digitalisierungsunterstützung speziell für deutsche Mittelständler.</p>
           <div class="meta">
-            <span>📅 Aktuell</span>
-            <span>📰 BMWK</span>
+            <span style="display: inline-flex; align-items: center; gap: 0.25rem;">
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="opacity: 0.7;">
+                <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+                <line x1="16" y1="2" x2="16" y2="6"/>
+                <line x1="8" y1="2" x2="8" y2="6"/>
+                <line x1="3" y1="10" x2="21" y2="10"/>
+              </svg>
+              Aktuell
+            </span>
+            <span style="display: inline-flex; align-items: center; gap: 0.25rem;">
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="opacity: 0.7;">
+                <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/>
+                <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/>
+              </svg>
+              BMWK
+            </span>
             <a href="https://www.bmwk.de/Redaktion/DE/Dossier/kuenstliche-intelligenz.html" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation();">${readMoreText}</a>
           </div>
         </div>
@@ -962,8 +1117,22 @@
           <h4>n8n: Workflow-Automatisierung mit KI</h4>
           <p>Die Workflow-Plattform n8n integriert KI-Agenten direkt in Automatisierungsworkflows – perfekt für deutsche KMUs.</p>
           <div class="meta">
-            <span>📅 Aktuell</span>
-            <span>📰 n8n Blog</span>
+            <span style="display: inline-flex; align-items: center; gap: 0.25rem;">
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="opacity: 0.7;">
+                <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+                <line x1="16" y1="2" x2="16" y2="6"/>
+                <line x1="8" y1="2" x2="8" y2="6"/>
+                <line x1="3" y1="10" x2="21" y2="10"/>
+              </svg>
+              Aktuell
+            </span>
+            <span style="display: inline-flex; align-items: center; gap: 0.25rem;">
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="opacity: 0.7;">
+                <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/>
+                <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/>
+              </svg>
+              n8n Blog
+            </span>
             <a href="https://n8n.io/blog" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation();">${readMoreText}</a>
           </div>
         </div>
@@ -971,8 +1140,22 @@
           <h4>Google Cloud AI: Enterprise-Lösungen</h4>
           <p>Google Cloud AI hilft Unternehmen bei der Automatisierung von Prozessen und dem Einsatz von KI für Wettbewerbsvorteile.</p>
           <div class="meta">
-            <span>📅 Aktuell</span>
-            <span>📰 Google Cloud</span>
+            <span style="display: inline-flex; align-items: center; gap: 0.25rem;">
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="opacity: 0.7;">
+                <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+                <line x1="16" y1="2" x2="16" y2="6"/>
+                <line x1="8" y1="2" x2="8" y2="6"/>
+                <line x1="3" y1="10" x2="21" y2="10"/>
+              </svg>
+              Aktuell
+            </span>
+            <span style="display: inline-flex; align-items: center; gap: 0.25rem;">
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="opacity: 0.7;">
+                <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/>
+                <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/>
+              </svg>
+              Google Cloud
+            </span>
             <a href="https://cloud.google.com/blog/products/ai-machine-learning" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation();">${readMoreText}</a>
           </div>
         </div>
@@ -980,8 +1163,22 @@
           <h4>BMWi: KI-Strategie Deutschland</h4>
           <p>Die Bundesregierung fördert den KI-Einsatz im Mittelstand mit konkreten Programmen und Fördermitteln.</p>
           <div class="meta">
-            <span>📅 Aktuell</span>
-            <span>📰 BMWi</span>
+            <span style="display: inline-flex; align-items: center; gap: 0.25rem;">
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="opacity: 0.7;">
+                <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+                <line x1="16" y1="2" x2="16" y2="6"/>
+                <line x1="8" y1="2" x2="8" y2="6"/>
+                <line x1="3" y1="10" x2="21" y2="10"/>
+              </svg>
+              Aktuell
+            </span>
+            <span style="display: inline-flex; align-items: center; gap: 0.25rem;">
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="opacity: 0.7;">
+                <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/>
+                <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/>
+              </svg>
+              BMWi
+            </span>
             <a href="https://www.bmwi.de/Redaktion/DE/Artikel/Digitale-Welt/kuenstliche-intelligenz.html" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation();">${readMoreText}</a>
           </div>
         </div>
@@ -997,19 +1194,20 @@
   }
   
   function getCategoryEmoji(category) {
-    const emojis = {
-      'große-modelle': '🤖',
-      'workflow-tools': '⚙️',
-      'sales-tools': '💼',
-      'dienstleister-tools': '🔧',
-      'bau-tools': '🏗️',
-      'gewerbe-tools': '🛒',
-      'handwerk-tools': '🔨',
-      'deutsche-quellen': '🇩🇪',
-      'kmu-relevanz': '🏢',
-      'industrie-4.0': '🏭'
+    // SVG Icons statt Emojis für cleaner Design
+    const iconMap = {
+      'große-modelle': '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="7" width="18" height="14" rx="2"/><path d="M7 7V5a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v2"/><circle cx="9" cy="14" r="1"/><circle cx="15" cy="14" r="1"/><path d="M9 11h6"/></svg>',
+      'workflow-tools': '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>',
+      'sales-tools': '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 7h-9"/><path d="M14 17H5"/><circle cx="17" cy="17" r="3"/><circle cx="7" cy="7" r="3"/></svg>',
+      'dienstleister-tools': '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>',
+      'bau-tools': '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>',
+      'gewerbe-tools': '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>',
+      'handwerk-tools': '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>',
+      'deutsche-quellen': '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M8 12h8M12 8v8"/></svg>',
+      'kmu-relevanz': '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>',
+      'industrie-4.0': '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>'
     };
-    return emojis[category] || '📰';
+    return iconMap[category] || '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>';
   }
   
   function getCategoryName(category, lang) {

@@ -481,6 +481,78 @@
         height: 40px;
         font-size: 24px;
       }
+      
+      /* Mobile: Results Table -> Card Layout */
+      #results-table {
+        display: block;
+        width: 100%;
+      }
+      
+      #results-table thead {
+        display: none;
+      }
+      
+      #results-table tbody {
+        display: block;
+      }
+      
+      #results-table tbody tr {
+        display: block;
+        margin-bottom: 1rem;
+        background: rgba(15, 23, 42, 0.8);
+        border: 1px solid rgba(148, 163, 184, 0.2);
+        border-radius: 12px;
+        padding: 1rem;
+        padding-bottom: 0.5rem;
+      }
+      
+      #results-table tbody td {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding: 0.75rem 0;
+        border: none;
+        border-bottom: 1px solid rgba(148, 163, 184, 0.1);
+        font-size: 14px;
+      }
+      
+      #results-table tbody td:last-child {
+        border-bottom: none;
+      }
+      
+      #results-table tbody td::before {
+        content: attr(data-label);
+        font-weight: 600;
+        color: #60a5fa;
+        margin-right: 1rem;
+        min-width: 100px;
+        font-size: 14px;
+      }
+      
+      /* Results header buttons on mobile */
+      @media (max-width: 768px) {
+        /* Results header - buttons stacked */
+        .results-header-buttons {
+          display: flex !important;
+          flex-direction: column !important;
+          gap: 0.75rem !important;
+          width: 100% !important;
+        }
+        
+        .results-header-buttons button {
+          width: 100% !important;
+          font-size: 14px !important;
+          padding: 12px 16px !important;
+        }
+        
+        /* Results header container */
+        .results-header-container {
+          flex-direction: column !important;
+          align-items: flex-start !important;
+          gap: 1rem !important;
+          padding: 1rem !important;
+        }
+      }
     }
   </style>
 </head>
@@ -598,9 +670,9 @@
 
     <!-- Results Section -->
     <div style="margin-top: 3rem; background: rgba(15, 23, 42, 0.6); border: 1px solid rgba(148, 163, 184, 0.2); border-radius: 16px;">
-      <div style="display: flex; justify-content: space-between; align-items: center; padding: 1rem 1.25rem; border-bottom: 1px solid rgba(148, 163, 184, 0.2);">
+      <div class="results-header-container" style="display: flex; justify-content: space-between; align-items: center; padding: 1rem 1.25rem; border-bottom: 1px solid rgba(148, 163, 184, 0.2);">
         <div style="font-weight: 600;" data-i18n="modal.results.title">Extrahierte Kontaktdaten <span id="results-count" style="font-weight: normal; color: #94a3b8; font-size: 0.9em; margin-left: 0.5rem;">(0)</span></div>
-        <div style="display: flex; gap: 0.5rem;">
+        <div class="results-header-buttons" style="display: flex; gap: 0.5rem;">
           <button id="btn-clear-results" style="background:#ef4444;color:white;border:none;padding:10px 14px;border-radius:8px;cursor:pointer;font-size:0.9rem;" data-i18n="modal.results.clear" data-i18n-aria-label="modal.results.clear">🗑️ Löschen</button>
           <button id="btn-download-csv" style="background:#1e40af;color:white;border:none;padding:10px 14px;border-radius:8px;cursor:pointer;" data-i18n="modal.results.downloadCsv">CSV herunterladen</button>
           <button id="btn-download-json" style="background:#0f766e;color:white;border:none;padding:10px 14px;border-radius:8px;cursor:pointer;" data-i18n="modal.results.downloadJson">JSON herunterladen</button>
@@ -633,7 +705,7 @@
   <!-- Workflow Modal -->
   <div id="workflow-modal">
     <div id="workflow-iframe-container">
-      <button id="workflow-close-btn" aria-label="Schließen">&times;</button>
+      <button id="workflow-close-btn" data-i18n-aria-label="modal.close" aria-label="Schließen">&times;</button>
       <div class="loading-indicator" id="loading-indicator" style="display: none;">
         <!-- Loading wird per JavaScript gesetzt -->
       </div>
@@ -654,10 +726,12 @@
     
     // Helper-Funktion für Loading-States mit Progress-Balken
       function showErrorState(loadingElement, errorMessage, errorDetails = null) {
+        const lang = window.i18n?.getCurrentLanguage() || 'de';
+        
         // Parse error message to extract main message and details
         let mainMessage = errorMessage;
         let statusCode = null;
-        let errorType = 'Fehler';
+        let errorType = window.i18n?.t('modal.error.general') || 'Fehler';
         
         // Extract HTTP status codes
         const httpMatch = errorMessage.match(/HTTP\s+(\d+):\s*(.+)/);
@@ -667,27 +741,27 @@
           mainMessage = statusText;
           
           if (statusCode === '500') {
-            errorType = 'Server-Fehler';
-            mainMessage = 'Der Server konnte die Anfrage nicht verarbeiten. Bitte versuchen Sie es später erneut.';
+            errorType = window.i18n?.t('modal.error.server') || 'Server-Fehler';
+            mainMessage = window.i18n?.t('modal.error.serverMessage') || 'Der Server konnte die Anfrage nicht verarbeiten. Bitte versuchen Sie es später erneut.';
           } else if (statusCode === '404') {
-            errorType = 'Nicht gefunden';
-            mainMessage = 'Die angeforderte Ressource wurde nicht gefunden.';
+            errorType = window.i18n?.t('modal.error.notFound') || 'Nicht gefunden';
+            mainMessage = window.i18n?.t('modal.error.notFoundMessage') || 'Die angeforderte Ressource wurde nicht gefunden.';
           } else if (statusCode === '503') {
-            errorType = 'Service nicht verfügbar';
-            mainMessage = 'Der Service ist derzeit nicht verfügbar. Bitte versuchen Sie es später erneut.';
+            errorType = window.i18n?.t('modal.error.serviceUnavailable') || 'Service nicht verfügbar';
+            mainMessage = window.i18n?.t('modal.error.serviceUnavailableMessage') || 'Der Service ist derzeit nicht verfügbar. Bitte versuchen Sie es später erneut.';
           }
         }
         
         // Extract other common error patterns
         if (errorMessage.includes('Timeout')) {
-          errorType = 'Zeitüberschreitung';
-          mainMessage = 'Die Anfrage hat zu lange gedauert. Bitte versuchen Sie es erneut.';
+          errorType = window.i18n?.t('modal.error.timeout') || 'Zeitüberschreitung';
+          mainMessage = window.i18n?.t('modal.error.timeoutMessage') || 'Die Anfrage hat zu lange gedauert. Bitte versuchen Sie es erneut.';
         } else if (errorMessage.includes('Failed to fetch') || errorMessage.includes('NetworkError')) {
-          errorType = 'Verbindungsfehler';
-          mainMessage = 'Verbindung zum Server fehlgeschlagen. Bitte prüfen Sie Ihre Internetverbindung.';
+          errorType = window.i18n?.t('modal.error.connection') || 'Verbindungsfehler';
+          mainMessage = window.i18n?.t('modal.error.connectionMessage') || 'Verbindung zum Server fehlgeschlagen. Bitte prüfen Sie Ihre Internetverbindung.';
         } else if (errorMessage.includes('CORS')) {
-          errorType = 'Verbindungsfehler';
-          mainMessage = 'Verbindung zum Server wurde blockiert. Bitte prüfen Sie die n8n Konfiguration.';
+          errorType = window.i18n?.t('modal.error.cors') || 'Verbindungsfehler';
+          mainMessage = window.i18n?.t('modal.error.corsMessage') || 'Verbindung zum Server wurde blockiert. Bitte prüfen Sie die n8n Konfiguration.';
         }
         
         // Build error HTML
@@ -706,11 +780,24 @@
       }
       
       function updateLoadingState(loadingElement, stage, progress) {
+      const lang = window.i18n?.getCurrentLanguage() || 'de';
       const stages = {
-        'start': { text: '🔄 KI-Extraktion startet...', stage: 'Vorbereitung' },
-        'processing': { text: '⚙️ KI analysiert Visitenkarte...', stage: 'Verarbeitung' },
-        'waiting': { text: '⏳ Warte auf Ergebnisse...', stage: 'Warten' },
-        'finalizing': { text: '✨ Extrahiere Kontaktdaten...', stage: 'Finalisierung' }
+        'start': { 
+          text: window.i18n?.t('modal.loading.start') || '🔄 KI-Extraktion startet...', 
+          stage: window.i18n?.t('modal.loading.stage.preparation') || 'Vorbereitung' 
+        },
+        'processing': { 
+          text: window.i18n?.t('modal.loading.processing') || '⚙️ KI analysiert Visitenkarte...', 
+          stage: window.i18n?.t('modal.loading.stage.processing') || 'Verarbeitung' 
+        },
+        'waiting': { 
+          text: window.i18n?.t('modal.loading.waiting') || '⏳ Warte auf Ergebnisse...', 
+          stage: window.i18n?.t('modal.loading.stage.waiting') || 'Warten' 
+        },
+        'finalizing': { 
+          text: window.i18n?.t('modal.loading.finalizing') || '✨ Extrahiere Kontaktdaten...', 
+          stage: window.i18n?.t('modal.loading.stage.finalizing') || 'Finalisierung' 
+        }
       };
       
       const stageInfo = stages[stage] || stages['processing'];
@@ -728,13 +815,17 @@
     }
     
     // Helper-Funktion für Success-Indicator
-    function showSuccessIndicator(loadingElement, message) {
+    function showSuccessIndicator(loadingElement, message = null) {
+      const lang = window.i18n?.getCurrentLanguage() || 'de';
+      const successMessage = message || (window.i18n?.t('modal.success.extracted') || 'Daten erfolgreich extrahiert!');
+      const closingMessage = window.i18n?.t('modal.success.closing') || 'Schließe automatisch...';
+      
       loadingElement.innerHTML = `
         <div class="success-indicator">
           <div class="success-content">
             <div class="success-icon">✓</div>
-            <p class="success-text">${message}</p>
-            <p class="success-message">Schließe automatisch...</p>
+            <p class="success-text">${successMessage}</p>
+            <p class="success-message">${closingMessage}</p>
           </div>
         </div>
       `;
@@ -850,7 +941,8 @@
         }
         
         // Falls kein Link gefunden (z.B. bei Upload), versuche alternativen Selector
-        if (!activeLink && workflowTitle === 'Eigene Visitenkarte hochladen') {
+        const ownCardTitleCheck = window.i18n?.t('modal.upload.ownCard') || 'Eigene Visitenkarte hochladen';
+        if (!activeLink && workflowTitle === ownCardTitleCheck) {
           // Für Upload gibt es keinen data-title, aber wir haben kein sample-Parameter
           activeLink = null;
           console.log('📤 Upload-Modus: kein sample-Parameter');
@@ -870,7 +962,8 @@
             });
           });
           // KEIN FALLBACK MEHR - Fehler wird gemeldet, aber Workflow läuft nicht mit falschen Daten
-          alert('⚠️ Fehler: Konnte den korrekten Link nicht finden. Bitte Seite neu laden und erneut versuchen.');
+          const linkNotFoundMsg = window.i18n?.t('modal.error.linkNotFound') || '⚠️ Fehler: Konnte den korrekten Link nicht finden. Bitte Seite neu laden und erneut versuchen.';
+          alert(linkNotFoundMsg);
           closeWorkflowModal();
           return;
         }
@@ -916,7 +1009,8 @@
           console.error('📋 clickedLink?.getAttribute("data-params"):', clickedLink?.getAttribute('data-params'));
           console.error('📋 workflowTitle:', workflowTitle);
           
-          alert('⚠️ KRITISCH: Sample-Parameter fehlt!\n\nDer Workflow kann nicht gestartet werden, da kein sample-Parameter gefunden wurde.\n\nBitte:\n1. Seite neu laden\n2. Erneut versuchen\n\nWenn das Problem weiterhin besteht, kontaktieren Sie den Support.');
+          const sampleMissingMsg = window.i18n?.t('modal.error.sampleMissing') || '⚠️ KRITISCH: Sample-Parameter fehlt!\n\nDer Workflow kann nicht gestartet werden, da kein sample-Parameter gefunden wurde.\n\nBitte:\n1. Seite neu laden\n2. Erneut versuchen\n\nWenn das Problem weiterhin besteht, kontaktieren Sie den Support.';
+          alert(sampleMissingMsg);
           closeWorkflowModal();
           return; // WORKFLOW STOPPEN - kein leerer Parameter wird gesendet!
         }
@@ -928,7 +1022,8 @@
           console.error('❌ KRITISCH: extraParams enthält KEINEN sample-Parameter!');
           console.error('📋 extraParams:', extraParams);
           
-          alert('⚠️ KRITISCH: Sample-Parameter fehlt in extraParams!\n\nDer Workflow kann nicht gestartet werden.\n\nBitte Seite neu laden und erneut versuchen.');
+          const sampleMissingExtraMsg = window.i18n?.t('modal.error.sampleMissingExtra') || '⚠️ KRITISCH: Sample-Parameter fehlt in extraParams!\n\nDer Workflow kann nicht gestartet werden.\n\nBitte Seite neu laden und erneut versuchen.';
+          alert(sampleMissingExtraMsg);
           closeWorkflowModal();
           return; // WORKFLOW STOPPEN - kein leerer Parameter wird gesendet!
         }
@@ -945,7 +1040,7 @@
         let webhookUrl = extraParams
           ? `${workflowUrl}${workflowUrl.includes('?') ? '&' : '?'}${extraParams}`
           : workflowUrl;
-        console.log('🌐 Final Webhook URL (initial):', webhookUrl);
+        console.log('🌐 Final Webhook URL:', webhookUrl);
         
         // HINWEIS: Die Webhook-URL wird später auf workflowUrl gesetzt (ohne Query-Parameter),
         // da wir POST mit JSON-Body verwenden. Die URL-Prüfung ist daher nicht mehr nötig.
@@ -1313,12 +1408,12 @@
                   <img src="assets/workflow-demo.png" 
                        alt="n8n Workflow Visualisierung" 
                        style="display: block;"
-                       onerror="this.style.display='none'; this.parentElement.innerHTML='<div style=\\'color: #94a3b8; text-align: center;\\'>⚠️ Screenshot konnte nicht geladen werden</div>';">
+                       onerror="this.style.display='none'; const screenshotError = window.i18n?.t('modal.error.screenshotError') || '⚠️ Screenshot konnte nicht geladen werden'; this.parentElement.innerHTML='<div style=\\'color: #94a3b8; text-align: center;\\'>' + screenshotError + '</div>';">
                 </div>
                 <div class="info-text" data-i18n="modal.workflow.background">
-                  Die Extraktion läuft im Hintergrund. Ergebnisse erscheinen automatisch in der Tabelle.
+                  ${window.i18n?.t('modal.workflow.background') || 'Die Extraktion läuft im Hintergrund. Ergebnisse erscheinen automatisch in der Tabelle.'}
                   <div class="warning">
-                    ⚠️ Workflow antwortet asynchron - prüfe n8n Execution Logs falls keine Ergebnisse kommen
+                    ${window.i18n?.t('modal.workflow.async') || '⚠️ Workflow antwortet asynchron - prüfe n8n Execution Logs falls keine Ergebnisse kommen'}
                   </div>
                 </div>
               </body>
@@ -1405,7 +1500,7 @@
           
           if (dataProcessed) {
             // Zeige Success-Indicator
-            showSuccessIndicator(loading, 'Daten erfolgreich extrahiert!');
+            showSuccessIndicator(loading);
             
           renderResults();
             console.log(`✅ Array-Daten erfolgreich in Tabelle eingefügt: ${responseData.length} Einträge`);
@@ -1440,7 +1535,7 @@
               });
             
             // Zeige Success-Indicator
-            showSuccessIndicator(loading, 'Daten erfolgreich extrahiert!');
+            showSuccessIndicator(loading);
             
             renderResults();
             console.log('✅ Objekt-Daten in Tabelle eingefügt:', {
@@ -1632,10 +1727,10 @@
                   <img src="assets/workflow-demo.png" 
                        alt="n8n Workflow Visualisierung" 
                        style="display: block;"
-                       onerror="this.style.display='none'; this.parentElement.innerHTML='<div style=\\'color: #94a3b8; text-align: center;\\'>⚠️ Screenshot konnte nicht geladen werden</div>';">
+                       onerror="this.style.display='none'; const screenshotError = window.i18n?.t('modal.error.screenshotError') || '⚠️ Screenshot konnte nicht geladen werden'; this.parentElement.innerHTML='<div style=\\'color: #94a3b8; text-align: center;\\'>' + screenshotError + '</div>';">
                 </div>
                 <div class="info-text" data-i18n="modal.workflow.background">
-                  Die Extraktion läuft im Hintergrund. Ergebnisse erscheinen automatisch in der Tabelle.
+                  ${window.i18n?.t('modal.workflow.background') || 'Die Extraktion läuft im Hintergrund. Ergebnisse erscheinen automatisch in der Tabelle.'}
                 </div>
               </body>
             </html>
@@ -1822,7 +1917,8 @@
       
       if (fileInput) {
         // Stelle sicher, dass File Input sichtbar ist für Screen Reader
-        fileInput.setAttribute('aria-label', 'Visitenkarte hochladen');
+        const uploadLabelText = window.i18n?.t('modal.upload.label') || 'Visitenkarte hochladen';
+        fileInput.setAttribute('aria-label', uploadLabelText);
         
         fileInput.addEventListener('change', async (e) => {
           const file = e.target.files?.[0];
@@ -1833,13 +1929,15 @@
           
           // Validiere Datei
           if (!file.type.startsWith('image/')) {
-            alert('⚠️ Bitte laden Sie nur Bilddateien (JPG, PNG) hoch!');
+            const imageOnlyMsg = window.i18n?.t('modal.upload.imageOnly') || '⚠️ Bitte laden Sie nur Bilddateien (JPG, PNG) hoch!';
+            alert(imageOnlyMsg);
             fileInput.value = '';
             return;
           }
           
           if (file.size > 10 * 1024 * 1024) {
-            alert('⚠️ Die Datei ist zu groß (max. 10 MB)!');
+            const fileTooLargeMsg = window.i18n?.t('modal.upload.fileTooLarge') || '⚠️ Die Datei ist zu groß (max. 10 MB)!';
+            alert(fileTooLargeMsg);
             fileInput.value = '';
             return;
           }
@@ -1848,7 +1946,8 @@
           console.log('📤 Upload gestartet:', { workflowUrl, fileName: file.name, fileSize: file.size });
           
           // Öffne Modal und übergebe File direkt
-          await openWorkflowModal(workflowUrl, 'Eigene Visitenkarte hochladen', file);
+          const ownCardTitle = window.i18n?.t('modal.upload.ownCard') || 'Eigene Visitenkarte hochladen';
+          await openWorkflowModal(workflowUrl, ownCardTitle, file);
           
           // Modal bleibt offen - Ergebnisse erscheinen automatisch in der Tabelle
           // Nutzer kann Modal manuell schließen oder es bleibt offen bis Results kommen
@@ -1946,20 +2045,30 @@
         tbody.innerHTML = `<tr><td colspan="8" style="padding:16px; color:#94a3b8;">${emptyText}</td></tr>`;
         return;
       }
+      const lang = window.i18n?.getCurrentLanguage() || 'de';
+      const nameLabel = window.i18n?.t('modal.table.name') || 'Name';
+      const companyLabel = window.i18n?.t('modal.table.company') || 'Firma';
+      const emailLabel = window.i18n?.t('modal.table.email') || 'E-Mail';
+      const phoneLabel = window.i18n?.t('modal.table.phone') || 'Telefon';
+      const addressLabel = window.i18n?.t('modal.table.address') || 'Adresse';
+      const websiteLabel = window.i18n?.t('modal.table.website') || 'Website';
+      const sourceLabel = window.i18n?.t('modal.table.source') || 'Quelle';
+      const timeLabel = window.i18n?.t('modal.table.time') || 'Zeit';
+      
       tbody.innerHTML = extractedResults.map((r, index) => {
         const address = (r.address || '') + (r.city ? (r.address ? ', ' : '') + r.city : '');
         const website = r.website || r.url || '';
         const websiteLink = website ? (website.startsWith('http') ? website : `https://${website}`) : '';
         return `
         <tr>
-          <td style="padding:12px 16px; border-top: 1px solid rgba(148,163,184,0.15);">${escapeHtml(r.name || '')}</td>
-          <td style="padding:12px 16px; border-top: 1px solid rgba(148,163,184,0.15);">${escapeHtml(r.company || '')}</td>
-          <td style="padding:12px 16px; border-top: 1px solid rgba(148,163,184,0.15);">${escapeHtml(r.email || '')}</td>
-          <td style="padding:12px 16px; border-top: 1px solid rgba(148,163,184,0.15);">${escapeHtml(r.phone || '')}</td>
-          <td style="padding:12px 16px; border-top: 1px solid rgba(148,163,184,0.15);">${escapeHtml(address || '')}</td>
-          <td style="padding:12px 16px; border-top: 1px solid rgba(148,163,184,0.15);">${websiteLink ? `<a href="${escapeHtml(websiteLink)}" target="_blank" rel="noopener noreferrer" style="color: #60a5fa; text-decoration: none;">${escapeHtml(website)}</a>` : ''}</td>
-          <td style="padding:12px 16px; border-top: 1px solid rgba(148,163,184,0.15);">${escapeHtml(r.source || '')}</td>
-          <td style="padding:12px 16px; border-top: 1px solid rgba(148,163,184,0.15);">${new Date(r.timestamp).toLocaleString()}</td>
+          <td data-label="${nameLabel}" style="padding:12px 16px; border-top: 1px solid rgba(148,163,184,0.15);">${escapeHtml(r.name || '')}</td>
+          <td data-label="${companyLabel}" style="padding:12px 16px; border-top: 1px solid rgba(148,163,184,0.15);">${escapeHtml(r.company || '')}</td>
+          <td data-label="${emailLabel}" style="padding:12px 16px; border-top: 1px solid rgba(148,163,184,0.15);">${escapeHtml(r.email || '')}</td>
+          <td data-label="${phoneLabel}" style="padding:12px 16px; border-top: 1px solid rgba(148,163,184,0.15);">${escapeHtml(r.phone || '')}</td>
+          <td data-label="${addressLabel}" style="padding:12px 16px; border-top: 1px solid rgba(148,163,184,0.15);">${escapeHtml(address || '')}</td>
+          <td data-label="${websiteLabel}" style="padding:12px 16px; border-top: 1px solid rgba(148,163,184,0.15);">${websiteLink ? `<a href="${escapeHtml(websiteLink)}" target="_blank" rel="noopener noreferrer" style="color: #60a5fa; text-decoration: none;">${escapeHtml(website)}</a>` : ''}</td>
+          <td data-label="${sourceLabel}" style="padding:12px 16px; border-top: 1px solid rgba(148,163,184,0.15);">${escapeHtml(r.source || '')}</td>
+          <td data-label="${timeLabel}" style="padding:12px 16px; border-top: 1px solid rgba(148,163,184,0.15);">${new Date(r.timestamp).toLocaleString()}</td>
         </tr>
       `;
       }).join('');
@@ -2105,7 +2214,7 @@
         // Zeige Success-Indicator
         const loading = document.getElementById('loading-indicator');
         if (loading) {
-          showSuccessIndicator(loading, 'Workflow erfolgreich abgeschlossen!');
+          showSuccessIndicator(loading);
         }
         
         // Auto-Close Modal nach 1.5 Sekunden und scrollen zur Tabelle

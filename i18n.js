@@ -7,8 +7,30 @@
   const DEFAULT_LANG = 'de';
   const STORAGE_KEY = 'kortex_language';
 
-  // Aktuelle Sprache aus LocalStorage oder Default
-  let currentLanguage = localStorage.getItem(STORAGE_KEY) || DEFAULT_LANG;
+  // Sprache aus URL-Query-Parameter (höchste Priorität)
+  function getLanguageFromURL() {
+    const urlParams = new URLSearchParams(window.location.search);
+    const langParam = urlParams.get('lang');
+    if (langParam === 'en' || langParam === 'de') {
+      return langParam;
+    }
+    return null;
+  }
+
+  // Aktuelle Sprache initialisieren
+  // PRIORITÄT: URL Query-Parameter > LocalStorage > Default
+  let currentLanguage;
+  
+  // Prüfe URL-Parameter zuerst (höchste Priorität)
+  const urlLang = getLanguageFromURL();
+  if (urlLang) {
+    // URL-Parameter hat Priorität - setze und speichere in localStorage
+    currentLanguage = urlLang;
+    localStorage.setItem(STORAGE_KEY, urlLang);
+  } else {
+    // Falls kein URL-Parameter: LocalStorage oder Default
+    currentLanguage = localStorage.getItem(STORAGE_KEY) || DEFAULT_LANG;
+  }
 
   // Übersetzungsfunktion mit Fallback
   function t(key, lang = currentLanguage) {
