@@ -33,8 +33,9 @@ class CustomNavbar extends HTMLElement {
         .mobile-menu-button:focus{outline:2px solid rgba(3,78,162,.12)}
         
         /* Language Switcher */
-        .lang-switcher{display:flex;gap:0.5rem;align-items:center;margin-left:1rem}
-        .lang-btn{background:none;border:2px solid transparent;cursor:pointer;padding:0.25rem 0.4rem;border-radius:6px;font-size:1.5rem;transition:all .2s;line-height:1}
+        .nav-right{display:flex;align-items:center;gap:1rem}
+        .lang-switcher{display:flex !important;gap:0.5rem;align-items:center}
+        .lang-btn{background:none;border:2px solid transparent;cursor:pointer;padding:0.25rem 0.4rem;border-radius:6px;font-size:1.5rem;transition:all .2s;line-height:1;display:inline-block !important;visibility:visible !important}
         .lang-btn:hover{border-color:var(--p);transform:scale(1.1)}
         .lang-btn.active{border-color:var(--p);background:rgba(3,78,162,.08)}
         
@@ -42,7 +43,8 @@ class CustomNavbar extends HTMLElement {
           .nav-links{display:none;position:absolute;left:0;right:0;top:64px;background:white;flex-direction:column;padding:1rem;border-top:1px solid rgba(0,0,0,.04)}
           .nav-links.open{display:flex}
           .mobile-menu-button{display:block}
-          .lang-switcher{margin-left:0.5rem}
+          .lang-switcher{display:flex !important;gap:0.5rem}
+          .nav-right{gap:0.5rem}
         }
       </style>
 
@@ -62,7 +64,7 @@ class CustomNavbar extends HTMLElement {
             <li class="nav-link" role="none"><a role="menuitem" href="kontakt.html" class="cta-button" data-i18n="nav.cta">Kostenlose Prüfung</a></li>
           </ul>
 
-          <div style="display:flex;align-items:center">
+          <div class="nav-right">
             <div class="lang-switcher">
               <button class="lang-btn lang-de" aria-label="Deutsch" title="Deutsch">🇩🇪</button>
               <button class="lang-btn lang-en" aria-label="English" title="English">🇬🇧</button>
