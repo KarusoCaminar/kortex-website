@@ -34,10 +34,10 @@ class CustomNavbar extends HTMLElement {
         
         /* Language Switcher */
         .nav-right{display:flex;align-items:center;gap:1rem}
-        .lang-switcher{display:flex !important;gap:0.5rem;align-items:center}
-        .lang-btn{background:none;border:2px solid transparent;cursor:pointer;padding:0.25rem 0.4rem;border-radius:6px;font-size:1.5rem;transition:all .2s;line-height:1;display:inline-block !important;visibility:visible !important}
-        .lang-btn:hover{border-color:var(--p);transform:scale(1.1)}
-        .lang-btn.active{border-color:var(--p);background:rgba(3,78,162,.08)}
+        .lang-switcher{display:flex !important;gap:0.5rem;align-items:center;background:rgba(0,0,0,.04);padding:0.25rem;border-radius:8px}
+        .lang-btn{background:transparent;border:2px solid transparent;cursor:pointer;padding:0.4rem 0.75rem;border-radius:6px;font-size:0.875rem;font-weight:600;transition:all .2s;line-height:1;display:inline-block !important;visibility:visible !important;color:rgba(31,41,55,.7);min-width:40px;text-align:center}
+        .lang-btn:hover{border-color:var(--p);background:rgba(3,78,162,.05);color:var(--p)}
+        .lang-btn.active{border-color:rgba(0,0,0,.15);background:rgba(0,0,0,.08);color:rgba(31,41,55,.9);font-weight:700}
         
         @media (max-width:768px){
           .nav-links{display:none;position:absolute;left:0;right:0;top:64px;background:white;flex-direction:column;padding:1rem;border-top:1px solid rgba(0,0,0,.04)}
@@ -66,8 +66,8 @@ class CustomNavbar extends HTMLElement {
 
           <div class="nav-right">
             <div class="lang-switcher">
-              <button class="lang-btn lang-de" aria-label="Deutsch" title="Deutsch">🇩🇪</button>
-              <button class="lang-btn lang-en" aria-label="English" title="English">🇬🇧</button>
+              <button class="lang-btn lang-de" aria-label="Deutsch" title="Deutsch">DE</button>
+              <button class="lang-btn lang-en" aria-label="English" title="English">GB</button>
             </div>
             <button class="mobile-menu-button" aria-label="Menü öffnen" aria-expanded="false" aria-controls="mobile-menu">
               <span class="menu-icon" data-feather="menu"></span>
