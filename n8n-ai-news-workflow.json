@@ -158,7 +158,9 @@
             }
           ]
         },
-        "options": {}
+        "options": {
+          "keepOnlySet": false
+        }
       },
       "id": "034d5a80-6e18-4ddc-a04a-1e1d4a33eaa4",
       "name": "Set - Google AI",
@@ -188,7 +190,9 @@
             }
           ]
         },
-        "options": {}
+        "options": {
+          "keepOnlySet": false
+        }
       },
       "id": "d6edc9dd-c2d5-4f28-92a8-ec5cc3e05cbc",
       "name": "Set - n8n Blog",
@@ -218,7 +222,9 @@
             }
           ]
         },
-        "options": {}
+        "options": {
+          "keepOnlySet": false
+        }
       },
       "id": "0fb052d2-6ef0-4eb9-a4f1-0ee19649afa6",
       "name": "Set - OpenAI",
@@ -248,7 +254,9 @@
             }
           ]
         },
-        "options": {}
+        "options": {
+          "keepOnlySet": false
+        }
       },
       "id": "7e6a55e7-476e-442d-b861-743f31faefe5",
       "name": "Set - Anthropic",
@@ -278,7 +286,9 @@
             }
           ]
         },
-        "options": {}
+        "options": {
+          "keepOnlySet": false
+        }
       },
       "id": "f146926d-ae8e-4c69-a30a-85935a3d10e2",
       "name": "Set - Hugging Face",
@@ -308,7 +318,9 @@
             }
           ]
         },
-        "options": {}
+        "options": {
+          "keepOnlySet": false
+        }
       },
       "id": "3f488302-b473-40b3-9bd9-675019f58c5e",
       "name": "Set - The Decoder",
@@ -338,7 +350,9 @@
             }
           ]
         },
-        "options": {}
+        "options": {
+          "keepOnlySet": false
+        }
       },
       "id": "56748cc6-1391-4d85-bec7-0a88125390b7",
       "name": "Set - TechCrunch AI",

@@ -36,7 +36,7 @@ class CustomNavbar extends HTMLElement {
         .nav-right{display:flex;align-items:center;gap:1rem}
         .lang-switcher{display:flex !important;gap:0.5rem;align-items:center;background:rgba(0,0,0,.04);padding:0.25rem;border-radius:8px}
         .lang-btn{background:transparent;border:2px solid transparent;cursor:pointer;padding:0.4rem 0.6rem;border-radius:6px;font-weight:normal;transition:all .2s;line-height:1;display:inline-flex !important;visibility:visible !important;align-items:center;justify-content:center;min-width:44px;height:36px}
-        .lang-btn .flag-icon{font-size:1.5rem;line-height:1;display:block;font-family:"Segoe UI Emoji","Apple Color Emoji","Noto Color Emoji","Twemoji Mozilla","EmojiOne Color","EmojiOne","Noto Emoji",system-ui,-apple-system,sans-serif;font-style:normal;font-variant-emoji:emoji}
+        .lang-btn .flag-icon{width:24px;height:16px;display:block;flex-shrink:0}
         .lang-btn:hover{border-color:var(--p);background:rgba(3,78,162,.08);transform:scale(1.1)}
         .lang-btn.active{border-color:rgba(0,0,0,.2);background:rgba(0,0,0,.1);box-shadow:inset 0 1px 2px rgba(0,0,0,.1)}
         
@@ -67,8 +67,22 @@ class CustomNavbar extends HTMLElement {
 
           <div class="nav-right">
             <div class="lang-switcher">
-              <button class="lang-btn lang-de" aria-label="Deutsch" title="Deutsch"><span class="flag-icon">🇩🇪</span></button>
-              <button class="lang-btn lang-en" aria-label="English" title="English"><span class="flag-icon">🇬🇧</span></button>
+              <button class="lang-btn lang-de" aria-label="Deutsch" title="Deutsch">
+                <svg class="flag-icon" viewBox="0 0 3 2" xmlns="http://www.w3.org/2000/svg">
+                  <rect width="3" height="2" fill="#000000"/>
+                  <rect y="0.67" width="3" height="0.67" fill="#DD0000"/>
+                  <rect y="1.33" width="3" height="0.67" fill="#FFCE00"/>
+                </svg>
+              </button>
+              <button class="lang-btn lang-en" aria-label="English" title="English">
+                <svg class="flag-icon" viewBox="0 0 60 30" xmlns="http://www.w3.org/2000/svg">
+                  <rect width="60" height="30" fill="#012169"/>
+                  <path d="M0,0 L60,30 M60,0 L0,30" stroke="#FFFFFF" stroke-width="3"/>
+                  <path d="M0,0 L60,30 M60,0 L0,30" stroke="#C8102E" stroke-width="2"/>
+                  <path d="M30,0 L30,30 M0,15 L60,15" stroke="#FFFFFF" stroke-width="4"/>
+                  <path d="M30,0 L30,30 M0,15 L60,15" stroke="#C8102E" stroke-width="2.5"/>
+                </svg>
+              </button>
             </div>
             <button class="mobile-menu-button" aria-label="Menü öffnen" aria-expanded="false" aria-controls="mobile-menu">
               <span class="menu-icon" data-feather="menu"></span>
