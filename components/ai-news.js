@@ -234,11 +234,42 @@
         padding: 0.85rem 1rem;
         cursor: pointer;
         user-select: none;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 0.5rem;
       }
       
       .ai-news-panel-header h3 {
         font-size: 0.9rem;
         margin: 0;
+        flex: 1;
+      }
+      
+      .ai-news-refresh-btn {
+        background: transparent;
+        border: none;
+        cursor: pointer;
+        padding: 0.25rem 0.5rem;
+        border-radius: 6px;
+        font-size: 1rem;
+        transition: all 0.2s;
+        opacity: 0.6;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-width: 28px;
+        height: 28px;
+      }
+      
+      .ai-news-refresh-btn:hover {
+        opacity: 1;
+        background: rgba(3, 78, 162, 0.1);
+        transform: rotate(180deg);
+      }
+      
+      .ai-news-refresh-btn:active {
+        transform: rotate(360deg);
       }
       
       .ai-news-panel-content {
@@ -305,6 +336,7 @@
           <span>🤖</span>
           <span data-i18n="news.panel.title">KI-News</span>
         </h3>
+        <button class="ai-news-refresh-btn" id="ai-news-refresh" title="Aktualisieren" aria-label="News aktualisieren">🔄</button>
       </div>
       <div class="ai-news-panel-content">
         <div id="ai-news-container" class="ai-news-loading" data-i18n="news.panel.loading">
@@ -317,6 +349,16 @@
     
     // Toggle-Funktionalität für Mobile
     setupMobileToggle();
+    
+    // Refresh-Button Funktionalität
+    const refreshBtn = document.getElementById('ai-news-refresh');
+    if (refreshBtn) {
+      refreshBtn.addEventListener('click', (e) => {
+        e.stopPropagation(); // Verhindere Toggle beim Klick auf Refresh
+        console.log('🔄 Manueller Refresh gestartet...');
+        loadAINews(true); // Force refresh - löscht Cache
+      });
+    }
     
     // Bei Resize prüfen
     window.addEventListener('resize', () => {
@@ -703,7 +745,7 @@
     // Nur hinzufügen wenn weniger als 3 echte Nachrichten vorhanden sind
     // WICHTIG: Diese News werden NUR angezeigt wenn RSS-Feeds nicht laden (CORS-Probleme)
     if (news.length < 3) {
-      console.log(`⚠️ Nur ${news.length} echte News - füge Fallback-News hinzu`);
+      console.log(`⚠️ Nur ${news.length} echte News gefunden - füge Fallback-News hinzu (n8n-Daten könnten fehlen)`);
       const aitoolsNews = [
         {
           title: lang === 'de' ? 'Fireflies AI: Meeting-Transkription & Analyse' : 'Fireflies AI: Meeting Transcription & Analysis',
