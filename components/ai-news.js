@@ -500,6 +500,28 @@
     `).join('');
   }
   
+  // Übersetzungsfunktion (Google Translate API - kostenlos)
+  async function translateText(text, sourceLang, targetLang) {
+    if (!text || text.length === 0 || sourceLang === targetLang) return text;
+    
+    try {
+      // Google Translate API (kostenlos für kleine Volumen)
+      const url = `https://translate.googleapis.com/translate_a/single?client=gtx&sl=${sourceLang}&tl=${targetLang}&dt=t&q=${encodeURIComponent(text)}`;
+      
+      const response = await fetch(url);
+      if (response.ok) {
+        const data = await response.json();
+        if (data && data[0] && data[0][0]) {
+          return data[0].map(item => item[0]).join('');
+        }
+      }
+    } catch (e) {
+      console.warn('⚠️ Übersetzungsfehler:', e.message);
+    }
+    
+    return text; // Fallback: Original-Text
+  }
+  
   // RSS Feed Parser Funktion
   function parseRSSFeed(xmlText, source, maxItems = 5) {
     const news = [];
@@ -609,28 +631,61 @@
                 const age = now - itemDate;
                 return age <= maxAge && age >= 0;
               })
-              .map(item => ({
-                title: item.title.trim(),
-                description: item.description || '',
-                link: item.link.trim(),
-                date: item.date || item.pubDate || new Date().toISOString(),
-                source: item.source || 'n8n Feed',
-                category: item.category || 'ai-news',
-                language: item.language || lang
-              }));
+              .filter(item => {
+                // Filtere nach aktueller Sprache: nur News in der gewählten Sprache anzeigen
+                return item.language === lang;
+              })
+              .map(async item => {
+                // Wenn Übersetzung benötigt wird, übersetze clientseitig
+                if (item.needsTranslation && item.originalLanguage) {
+                  try {
+                    const sourceLang = item.originalLanguage;
+                    const targetLang = lang;
+                    
+                    // Übersetze mit Google Translate API (kostenlos)
+                    const titleTranslated = await translateText(item.title, sourceLang, targetLang);
+                    const descTranslated = await translateText(item.description || '', sourceLang, targetLang);
+                    
+                    return {
+                      title: titleTranslated || item.title.trim(),
+                      description: descTranslated || (item.description || ''),
+                      link: item.link.trim(),
+                      date: item.date || item.pubDate || new Date().toISOString(),
+                      source: item.source || 'n8n Feed',
+                      category: item.category || 'ai-news',
+                      language: lang
+                    };
+                  } catch (e) {
+                    console.warn('⚠️ Übersetzungsfehler:', e.message);
+                  }
+                }
+                
+                return {
+                  title: item.title.trim(),
+                  description: item.description || '',
+                  link: item.link.trim(),
+                  date: item.date || item.pubDate || new Date().toISOString(),
+                  source: item.source || 'n8n Feed',
+                  category: item.category || 'ai-news',
+                  language: item.language || lang
+                };
+              });
             
-            if (validNews.length >= 3) {
+            // Warte auf alle Übersetzungen
+            const translatedNews = await Promise.all(validNews);
+            
+            if (translatedNews.length >= 3) {
               // n8n liefert genug News (> 3) - verwende diese und überspringe Fallback
-              console.log(`✅ n8n erfolgreich: ${validNews.length} gültige News gefunden - nutze n8n Daten`);
-              news.push(...validNews);
+              console.log(`✅ n8n erfolgreich: ${translatedNews.length} gültige News gefunden (${lang}) - nutze n8n Daten`);
+              news.push(...translatedNews);
               n8nSuccess = true;
-            } else if (validNews.length > 0) {
+            } else if (translatedNews.length > 0) {
               // n8n liefert zu wenige News (< 3) - nutze Fallback zusätzlich
-              console.log(`⚠️ n8n liefert nur ${validNews.length} News (< 3) - nutze zusätzlich Fallback RSS-Feeds`);
-              news.push(...validNews);
+              console.log(`⚠️ n8n liefert nur ${translatedNews.length} News (< 3) (${lang}) - nutze zusätzlich Fallback RSS-Feeds`);
+              news.push(...translatedNews);
               // Weiter zu Fallback
             } else {
-              console.warn('⚠️ n8n Response hat keine gültigen News - nutze Fallback RSS-Feeds');
+              console.warn(`⚠️ n8n Response hat keine gültigen News für Sprache ${lang} - nutze Fallback RSS-Feeds`);
             }
           } else {
             console.warn('⚠️ n8n Response ist kein Array oder leer - nutze Fallback RSS-Feeds');
@@ -688,11 +743,34 @@
                 return age <= maxAge && age >= 0;
               });
               
-              if (recentNews.length > 0) {
-                console.log(`✅ [FALLBACK] ${feed.source}: ${recentNews.length} News geladen`);
+              // Übersetze RSS Fallback News nach aktueller Sprache
+              const translatedFeedNews = await Promise.all(recentNews.map(async item => {
+                const itemLang = item.language || 'en';
+                if (itemLang !== lang && item.title) {
+                  try {
+                    const titleTranslated = await translateText(item.title, itemLang, lang);
+                    const descTranslated = await translateText(item.description || '', itemLang, lang);
+                    return {
+                      ...item,
+                      title: titleTranslated || item.title,
+                      description: descTranslated || item.description || '',
+                      language: lang
+                    };
+                  } catch (e) {
+                    console.warn('⚠️ Übersetzungsfehler für RSS Feed:', e.message);
+                  }
+                }
+                return {
+                  ...item,
+                  language: itemLang === lang ? lang : itemLang
+                };
+              }));
+              
+              if (translatedFeedNews.length > 0) {
+                console.log(`✅ [FALLBACK] ${feed.source}: ${translatedFeedNews.length} News geladen und übersetzt (${lang})`);
               }
               
-              return recentNews;
+              return translatedFeedNews;
             }
           } catch (e) {
             console.warn(`⚠️ [FALLBACK] Fehler beim Laden von ${feed.source}:`, e.message);
