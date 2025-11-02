@@ -198,21 +198,6 @@
       "notes": "NEU: Stabiler Feed Hasso-Plattner-Institut (Digitalisierung)"
     },
     {
-      "parameters": {
-        "url": "https://feeds.rss.com/ki-im-mittelstand",
-        "options": {}
-      },
-      "id": "ki-mittelstand-1234-5678-9abc-def123456789",
-      "name": "RSS Feed Read - KI im Mittelstand",
-      "type": "n8n-nodes-base.rssFeedRead",
-      "typeVersion": 1,
-      "position": [
-        -160,
-        992
-      ],
-      "notes": "NEU: Stabiler Podcast-Feed (Fokus KMU)"
-    },
-    {
       "parameters": {},
       "id": "600e110d-95e4-4998-9a58-7835cc4a7210",
       "name": "Merge All Feeds",
@@ -343,11 +328,6 @@
             "node": "RSS Feed Read - HPI Neuland",
             "type": "main",
             "index": 0
-          },
-          {
-            "node": "RSS Feed Read - KI im Mittelstand",
-            "type": "main",
-            "index": 0
           }
         ]
       ]
@@ -392,11 +372,6 @@
           },
           {
             "node": "RSS Feed Read - HPI Neuland",
-            "type": "main",
-            "index": 0
-          },
-          {
-            "node": "RSS Feed Read - KI im Mittelstand",
             "type": "main",
             "index": 0
           }
@@ -481,17 +456,6 @@
       ]
     },
     "RSS Feed Read - HPI Neuland": {
-      "main": [
-        [
-          {
-            "node": "Merge All Feeds",
-            "type": "main",
-            "index": 0
-          }
-        ]
-      ]
-    },
-    "RSS Feed Read - KI im Mittelstand": {
       "main": [
         [
           {
