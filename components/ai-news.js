@@ -457,16 +457,29 @@
           const titleLower = title.toLowerCase();
           const descLower = description.toLowerCase();
           
-          const aiKeywords = ['ai', 'artificial intelligence', 'machine learning', 'llm', 'gemini', 'gpt', 'claude', 'automation', 'workflow', 'neural', 'deep learning'];
+          // Erweiterte Keywords für AI, KMU und Branchenrelevanz
+          const aiKeywords = [
+            'ai', 'artificial intelligence', 'machine learning', 'llm', 'gemini', 'gpt', 'claude', 
+            'automation', 'workflow', 'neural', 'deep learning', 'ki', 'kuenstliche intelligenz',
+            'mittelstand', 'kmu', 'sme', 'digitalisierung', 'industrie 4.0', 'prozessautomatisierung',
+            'rpa', 'robot process automation', 'chatbot', 'assistenzsystem', 'assistenzsysteme',
+            'datenanalyse', 'predictive analytics', 'computer vision', 'nlp', 'natural language processing'
+          ];
           const isRelevant = aiKeywords.some(keyword => titleLower.includes(keyword) || descLower.includes(keyword));
           
           if (isRelevant && title && link) {
-            // Bestimme Kategorie
+            // Bestimme Kategorie (erweitert für KMU und Branchen)
             let category = 'große-modelle';
-            if (titleLower.includes('workflow') || titleLower.includes('n8n') || titleLower.includes('automation')) {
+            if (titleLower.includes('workflow') || titleLower.includes('n8n') || titleLower.includes('automation') || titleLower.includes('prozessautomatisierung')) {
               category = 'workflow-tools';
-            } else if (titleLower.includes('sales') || titleLower.includes('hubspot') || titleLower.includes('crm')) {
+            } else if (titleLower.includes('sales') || titleLower.includes('hubspot') || titleLower.includes('crm') || titleLower.includes('vertrieb')) {
               category = 'sales-tools';
+            } else if (titleLower.includes('mittelstand') || titleLower.includes('kmu') || titleLower.includes('sme') || titleLower.includes('unternehmen')) {
+              category = 'kmu-relevanz';
+            } else if (titleLower.includes('industrie') || titleLower.includes('produktion') || titleLower.includes('manufacturing')) {
+              category = 'industrie-4.0';
+            } else if (titleLower.includes('dienstleistung') || titleLower.includes('service') || titleLower.includes('beratung')) {
+              category = 'dienstleister-tools';
             }
             
             news.push({
@@ -531,11 +544,26 @@
     
     // Deutsche Quellen (falls Deutsch)
     if (lang === 'de') {
-      rssFeeds.push({
-        url: 'https://the-decoder.de/feed/',
-        source: 'The Decoder',
-        category: 'deutsche-quellen'
-      });
+      rssFeeds.push(
+        {
+          url: 'https://the-decoder.de/feed/',
+          source: 'The Decoder',
+          category: 'deutsche-quellen',
+          corsFriendly: false // Muss über n8n Webhook geladen werden
+        },
+        {
+          url: 'https://www.bmwk.de/SiteGlobals/Functions/RSSFeed/RSSFeed_KI.xml',
+          source: 'BMWK KI-News',
+          category: 'deutsche-quellen',
+          corsFriendly: false
+        },
+        {
+          url: 'https://www.digitale-technologien.de/DE/Service/RSS/rss.xml',
+          source: 'Mittelstand Digital',
+          category: 'deutsche-quellen',
+          corsFriendly: false
+        }
+      );
     }
     
     // Lade RSS Feeds parallel
@@ -689,17 +717,32 @@
         .forEach(item => news.push(item));
     }
     
-    // 5. Deutsche Quellen (falls Deutsch) - nur als letzter Fallback
+    // 5. Deutsche KMU-relevante Quellen (falls Deutsch) - nur als Fallback wenn zu wenige News
     if (lang === 'de' && news.length < 5) {
-      news.push({
-        title: 'BMWK: KI-Förderung für Mittelstand',
-        description: 'Das BMWK informiert über KI-Förderprogramme und Digitalisierungsunterstützung für deutsche Mittelständler.',
-        date: new Date(Date.now() - 7 * 24 * 60 * 60 * 1000),
-        link: 'https://www.bmwk.de/Redaktion/DE/Dossier/kuenstliche-intelligenz.html',
-        source: 'BMWK',
-        category: 'deutsche-quellen',
-        language: 'de'
-      });
+      const deutscheKmuNews = [
+        {
+          title: 'BMWK: KI-Förderung für Mittelstand',
+          description: 'Das BMWK informiert über KI-Förderprogramme und Digitalisierungsunterstützung für deutsche Mittelständler.',
+          date: new Date(Date.now() - 7 * 24 * 60 * 60 * 1000),
+          link: 'https://www.bmwk.de/Redaktion/DE/Dossier/kuenstliche-intelligenz.html',
+          source: 'BMWK',
+          category: 'kmu-relevanz',
+          language: 'de'
+        },
+        {
+          title: 'Mittelstand Digital: KI in der Produktion',
+          description: 'Wie KMUs KI für Prozessautomatisierung und Effizienzsteigerung in der Produktion einsetzen können.',
+          date: new Date(Date.now() - 10 * 24 * 60 * 60 * 1000),
+          link: 'https://www.digitale-technologien.de',
+          source: 'Mittelstand Digital',
+          category: 'industrie-4.0',
+          language: 'de'
+        }
+      ];
+      
+      deutscheKmuNews
+        .slice(0, Math.max(0, 5 - news.length))
+        .forEach(item => news.push(item));
     }
     
     // Entferne Duplikate (nach Link)
@@ -836,7 +879,9 @@
       'bau-tools': '🏗️',
       'gewerbe-tools': '🛒',
       'handwerk-tools': '🔨',
-      'deutsche-quellen': '🇩🇪'
+      'deutsche-quellen': '🇩🇪',
+      'kmu-relevanz': '🏢',
+      'industrie-4.0': '🏭'
     };
     return emojis[category] || '📰';
   }
@@ -851,7 +896,9 @@
         'bau-tools': 'Bau-Tools',
         'gewerbe-tools': 'Gewerbe-Tools',
         'handwerk-tools': 'Handwerk-Tools',
-        'deutsche-quellen': 'Deutsche Quelle'
+        'deutsche-quellen': 'Deutsche Quelle',
+        'kmu-relevanz': 'KMU-relevant',
+        'industrie-4.0': 'Industrie 4.0'
       },
       en: {
         'große-modelle': 'Large AI Models',
@@ -861,7 +908,9 @@
         'bau-tools': 'Construction Tools',
         'gewerbe-tools': 'Commerce Tools',
         'handwerk-tools': 'Trade Tools',
-        'deutsche-quellen': 'German Source'
+        'deutsche-quellen': 'German Source',
+        'kmu-relevanz': 'SME-relevant',
+        'industrie-4.0': 'Industry 4.0'
       }
     };
     return names[lang]?.[category] || category;
