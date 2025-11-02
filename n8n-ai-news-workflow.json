@@ -27,6 +27,7 @@
         "httpMethod": "GET",
         "path": "ai-news-feed",
         "responseMode": "responseNode",
+        "responseNode": "b652a424-e949-4579-b04e-e7aa73b5b135",
         "options": {
           "responseCode": 200
         }
@@ -234,8 +235,8 @@
           "conditions": [
             {
               "id": "trigger-check",
-              "leftValue": "={{ $trigger.node.type }}",
-              "rightValue": "n8n-nodes-base.webhook",
+              "leftValue": "={{ $trigger.node.id }}",
+              "rightValue": "ad017024-cad5-418b-b9d3-01694ef4d7c6",
               "operator": {
                 "type": "string",
                 "operation": "equals"
@@ -254,7 +255,7 @@
         640,
         176
       ],
-      "notes": "Prüft ob Workflow per Webhook gestartet wurde"
+      "notes": "Prüft ob Workflow per Webhook gestartet wurde - nutzt $trigger.node.id für zuverlässige Erkennung"
     },
     {
       "parameters": {
