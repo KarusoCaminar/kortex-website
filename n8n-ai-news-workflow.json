@@ -143,32 +143,36 @@
     {
       "parameters": {
         "url": "https://www.bmwk.de/Redaktion/DE/Textsammlungen/RSS/feed-rss-pressemitteilungen.xml",
-        "options": {}
+        "options": {
+          "response": {}
+        }
       },
       "id": "a1b2c3d4-5e6f-7890-abcd-ef1234567890",
-      "name": "RSS Feed Read - BMWK Pressemitteilungen",
-      "type": "n8n-nodes-base.rssFeedRead",
-      "typeVersion": 1,
+      "name": "HTTP Req - BMWK Pressemitteilungen",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.1,
       "position": [
         -160,
         832
       ],
-      "notes": "Lädt BMWK Pressemitteilungen RSS Feed (enthält KI/Digitalisierung für KMU)"
+      "notes": "Lädt BMWK Pressemitteilungen RSS Feed als HTTP Request (enthält KI/Digitalisierung für KMU)"
     },
     {
       "parameters": {
         "url": "https://www.bmwk.de/Redaktion/DE/Textsammlungen/RSS/feed-rss-digitale-welt.xml",
-        "options": {}
+        "options": {
+          "response": {}
+        }
       },
       "id": "b2c3d4e5-6f78-9012-bcde-f23456789012",
-      "name": "RSS Feed Read - BMWK Digitale Welt",
-      "type": "n8n-nodes-base.rssFeedRead",
-      "typeVersion": 1,
+      "name": "HTTP Req - BMWK Digitale Welt",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.1,
       "position": [
         -160,
         992
       ],
-      "notes": "Lädt BMWK Digitale Welt RSS Feed (Digitalisierung & KI für KMU)"
+      "notes": "Lädt BMWK Digitale Welt RSS Feed als HTTP Request (Digitalisierung & KI für KMU)"
     },
     {
       "parameters": {},
@@ -265,12 +269,12 @@
             "index": 0
           },
           {
-            "node": "RSS Feed Read - BMWK Pressemitteilungen",
+            "node": "HTTP Req - BMWK Pressemitteilungen",
             "type": "main",
             "index": 0
           },
           {
-            "node": "RSS Feed Read - BMWK Digitale Welt",
+            "node": "HTTP Req - BMWK Digitale Welt",
             "type": "main",
             "index": 0
           }
@@ -316,12 +320,12 @@
             "index": 0
           },
           {
-            "node": "RSS Feed Read - BMWK Pressemitteilungen",
+            "node": "HTTP Req - BMWK Pressemitteilungen",
             "type": "main",
             "index": 0
           },
           {
-            "node": "RSS Feed Read - BMWK Digitale Welt",
+            "node": "HTTP Req - BMWK Digitale Welt",
             "type": "main",
             "index": 0
           }
@@ -405,7 +409,7 @@
         ]
       ]
     },
-    "RSS Feed Read - BMWK Pressemitteilungen": {
+    "HTTP Req - BMWK Pressemitteilungen": {
       "main": [
         [
           {
@@ -416,7 +420,7 @@
         ]
       ]
     },
-    "RSS Feed Read - BMWK Digitale Welt": {
+    "HTTP Req - BMWK Digitale Welt": {
       "main": [
         [
           {
