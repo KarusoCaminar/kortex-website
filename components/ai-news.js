@@ -247,29 +247,30 @@
       }
       
       .ai-news-refresh-btn {
-        background: transparent;
+        background: linear-gradient(135deg, #6A1B9A 0%, #8B2FC7 100%);
         border: none;
         cursor: pointer;
-        padding: 0.25rem 0.5rem;
-        border-radius: 6px;
+        padding: 0.35rem 0.6rem;
+        border-radius: 8px;
         font-size: 1rem;
-        transition: all 0.2s;
-        opacity: 0.6;
+        transition: all 0.2s ease;
+        color: white;
         display: flex;
         align-items: center;
         justify-content: center;
-        min-width: 28px;
-        height: 28px;
+        min-width: 32px;
+        height: 32px;
+        box-shadow: 0 2px 8px rgba(106, 27, 154, 0.2);
       }
       
       .ai-news-refresh-btn:hover {
-        opacity: 1;
-        background: rgba(3, 78, 162, 0.1);
-        transform: rotate(180deg);
+        background: linear-gradient(135deg, #8B2FC7 0%, #6A1B9A 100%);
+        transform: rotate(180deg) scale(1.05);
+        box-shadow: 0 4px 12px rgba(106, 27, 154, 0.3);
       }
       
       .ai-news-refresh-btn:active {
-        transform: rotate(360deg);
+        transform: rotate(360deg) scale(0.95);
       }
       
       .ai-news-panel-content {

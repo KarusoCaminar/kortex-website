@@ -76,20 +76,20 @@ class CustomNavbar extends HTMLElement {
                 </svg>
               </button>
               <button class="lang-btn lang-en" aria-label="English" title="English">
-                <svg class="flag-icon" viewBox="0 0 120 60" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet">
-                  <rect width="120" height="60" fill="#012169"/>
-                  <path d="M0,0 L120,60 M120,0 L0,60" stroke="#FFFFFF" stroke-width="8" stroke-linecap="round"/>
-                  <path d="M0,0 L120,60 M120,0 L0,60" stroke="#C8102E" stroke-width="5" stroke-linecap="round"/>
-                  <path d="M60,0 L60,60 M0,30 L120,30" stroke="#FFFFFF" stroke-width="10" stroke-linecap="round"/>
-                  <path d="M60,0 L60,60 M0,30 L120,30" stroke="#C8102E" stroke-width="6" stroke-linecap="round"/>
-                  <path d="M0,0 L40,20 M40,0 L0,20" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
-                  <path d="M0,0 L40,20 M40,0 L0,20" stroke="#C8102E" stroke-width="2" stroke-linecap="round"/>
-                  <path d="M80,0 L120,20 M120,0 L80,20" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
-                  <path d="M80,0 L120,20 M120,0 L80,20" stroke="#C8102E" stroke-width="2" stroke-linecap="round"/>
-                  <path d="M0,40 L40,60 M40,40 L0,60" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
-                  <path d="M0,40 L40,60 M40,40 L0,60" stroke="#C8102E" stroke-width="2" stroke-linecap="round"/>
-                  <path d="M80,40 L120,60 M120,40 L80,60" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
-                  <path d="M80,40 L120,60 M120,40 L80,60" stroke="#C8102E" stroke-width="2" stroke-linecap="round"/>
+                <svg class="flag-icon" viewBox="0 0 60 30" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet">
+                  <rect width="60" height="30" fill="#012169"/>
+                  <rect width="60" height="3.75" fill="#FFFFFF"/>
+                  <rect y="6.75" width="60" height="3.75" fill="#C8102E"/>
+                  <rect y="13.5" width="60" height="3.75" fill="#FFFFFF"/>
+                  <rect y="20.25" width="60" height="3.75" fill="#C8102E"/>
+                  <rect width="9" height="30" fill="#FFFFFF"/>
+                  <rect x="25.5" width="9" height="30" fill="#FFFFFF"/>
+                  <rect width="6" height="30" fill="#C8102E"/>
+                  <rect x="27" width="6" height="30" fill="#C8102E"/>
+                  <rect width="60" height="9" fill="#FFFFFF"/>
+                  <rect y="10.5" width="60" height="9" fill="#C8102E"/>
+                  <rect width="60" height="6" fill="#FFFFFF"/>
+                  <rect y="12" width="60" height="6" fill="#C8102E"/>
                 </svg>
               </button>
             </div>
