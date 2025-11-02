@@ -21,21 +21,35 @@
     },
     {
       "parameters": {
-        "url": "https://ai.googleblog.com/feeds/posts/default",
+        "path": "ai-news-feed",
+        "responseMode": "responseNode",
+        "options": {}
+      },
+      "id": "webhook",
+      "name": "AI News Webhook",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2,
+      "position": [240, 500],
+      "webhookId": "ai-news-feed"
+    },
+    {
+      "parameters": {
+        "url": "https://deepmind.google/discover/feed/",
         "options": {
           "response": {
             "response": {
               "responseFormat": "xml"
             }
-          }
+          },
+          "neverError": true
         }
       },
-      "id": "google-ai-rss",
-      "name": "Google AI Blog RSS",
+      "id": "google-deepmind-rss",
+      "name": "Google DeepMind RSS",
       "type": "n8n-nodes-base.httpRequest",
       "typeVersion": 4.1,
       "position": [460, 200],
-      "notes": "Lädt Google AI Blog RSS Feed"
+      "notes": "Lädt Google DeepMind Blog RSS Feed"
     },
     {
       "parameters": {
@@ -45,7 +59,8 @@
             "response": {
               "responseFormat": "xml"
             }
-          }
+          },
+          "neverError": true
         }
       },
       "id": "n8n-blog-rss",
@@ -63,7 +78,8 @@
             "response": {
               "responseFormat": "xml"
             }
-          }
+          },
+          "neverError": true
         }
       },
       "id": "openai-blog-rss",
@@ -75,56 +91,103 @@
     },
     {
       "parameters": {
-        "jsCode": "// Parse RSS Feeds und sammle AI-News\nconst items = [];\n\n// Funktion zum Parsen von RSS XML\nfunction parseRSS(xmlString, source) {\n  const parser = new DOMParser();\n  const xmlDoc = parser.parseFromString(xmlString, 'text/xml');\n  const rssItems = xmlDoc.querySelectorAll('item');\n  \n  const parsed = [];\n  rssItems.forEach((item, index) => {\n    if (index < 5) { // Nur erste 5 Einträge\n      const title = item.querySelector('title')?.textContent || '';\n      const description = item.querySelector('description')?.textContent?.replace(/<[^>]*>/g, '') || '';\n      const link = item.querySelector('link')?.textContent || '';\n      const pubDate = item.querySelector('pubDate')?.textContent || '';\n      \n      // Filtere nur relevante AI-News\n      const titleLower = title.toLowerCase();\n      const descLower = description.toLowerCase();\n      \n      if (titleLower.includes('ai') || \n          titleLower.includes('machine learning') || \n          titleLower.includes('llm') || \n          titleLower.includes('gemini') || \n          titleLower.includes('gpt') || \n          titleLower.includes('claude') || \n          titleLower.includes('automation') ||\n          titleLower.includes('workflow') ||\n          descLower.includes('artificial intelligence')) {\n        \n        // Bestimme Kategorie\n        let category = 'große-modelle';\n        if (titleLower.includes('workflow') || titleLower.includes('n8n') || titleLower.includes('automation')) {\n          category = 'workflow-tools';\n        } else if (titleLower.includes('sales') || titleLower.includes('hubspot') || titleLower.includes('crm')) {\n          category = 'sales-tools';\n        }\n        \n        parsed.push({\n          title: title,\n          description: description.substring(0, 150),\n          link: link,\n          date: new Date(pubDate).toISOString(),\n          source: source,\n          category: category,\n          language: 'en'\n        });\n      }\n    }\n  });\n  \n  return parsed;\n}\n\n// Parse alle RSS Feeds\nconst googleData = $('Google AI Blog RSS').item?.json || {};\nconst n8nData = $('n8n Blog RSS').item?.json || {};\nconst openaiData = $('OpenAI Blog RSS').item?.json || {};\n\n// Versuche RSS XML zu parsen\nif (googleData.body || googleData.data) {\n  const xml = googleData.body || googleData.data || '';\n  items.push(...parseRSS(xml, 'Google AI'));\n}\n\nif (n8nData.body || n8nData.data) {\n  const xml = n8nData.body || n8nData.data || '';\n  items.push(...parseRSS(xml, 'n8n Blog'));\n}\n\nif (openaiData.body || openaiData.data) {\n  const xml = openaiData.body || openaiData.data || '';\n  items.push(...parseRSS(xml, 'OpenAI'));\n}\n\n// KI-Tools News (statisch, kann später durch APIs erweitert werden)\nconst aitoolsNews = [\n  {\n    title: 'Fireflies AI: Meeting Transcription & Analysis',\n    description: 'Fireflies AI automates meeting recordings and extracts key points for sales and project teams.',\n    link: 'https://fireflies.ai',\n    date: new Date().toISOString(),\n    source: 'Fireflies AI',\n    category: 'sales-tools',\n    language: 'en'\n  },\n  {\n    title: 'HubSpot AI: Automated Lead Scoring',\n    description: 'HubSpot AI automatically scores leads and prioritizes the best sales opportunities.',\n    link: 'https://www.hubspot.com/products/ai',\n    date: new Date(Date.now() - 24 * 60 * 60 * 1000).toISOString(),\n    source: 'HubSpot AI',\n    category: 'sales-tools',\n    language: 'en'\n  },\n  {\n    title: 'Gemini 2.5 Flash: AI for SMEs',\n    description: 'Google\\'s Gemini 2.5 Flash enables fast and cost-effective AI processing for SMEs.',\n    link: 'https://deepmind.google/technologies/gemini/',\n    date: new Date(Date.now() - 2 * 24 * 60 * 60 * 1000).toISOString(),\n    source: 'Google AI',\n    category: 'große-modelle',\n    language: 'en'\n  }\n];\n\nitems.push(...aitoolsNews);\n\n// Entferne Duplikate\nconst uniqueItems = items.filter((item, index, self) => \n  index === self.findIndex(t => t.link === item.link)\n);\n\n// Sortiere nach Datum\nconst sortedItems = uniqueItems.sort((a, b) => new Date(b.date) - new Date(a.date));\n\n// Limitiere auf 10 News\nreturn sortedItems.slice(0, 10).map(item => ({ json: item }));"
+        "url": "https://www.anthropic.com/news/rss.xml",
+        "options": {
+          "response": {
+            "response": {
+              "responseFormat": "xml"
+            }
+          },
+          "neverError": true
+        }
+      },
+      "id": "anthropic-news-rss",
+      "name": "Anthropic News RSS",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.1,
+      "position": [460, 500],
+      "notes": "Lädt Anthropic News RSS Feed"
+    },
+    {
+      "parameters": {
+        "url": "https://huggingface.co/blog/rss.xml",
+        "options": {
+          "response": {
+            "response": {
+              "responseFormat": "xml"
+            }
+          },
+          "neverError": true
+        }
+      },
+      "id": "huggingface-blog-rss",
+      "name": "Hugging Face Blog RSS",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.1,
+      "position": [460, 600],
+      "notes": "Lädt Hugging Face Blog RSS Feed"
+    },
+    {
+      "parameters": {
+        "url": "https://the-decoder.de/feed/",
+        "options": {
+          "response": {
+            "response": {
+              "responseFormat": "xml"
+            }
+          },
+          "neverError": true
+        }
+      },
+      "id": "the-decoder-rss",
+      "name": "The Decoder (DE) RSS",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.1,
+      "position": [460, 700],
+      "notes": "Lädt The Decoder RSS Feed (Deutsche AI-News)"
+    },
+    {
+      "parameters": {
+        "url": "https://techcrunch.com/tag/artificial-intelligence/feed/",
+        "options": {
+          "response": {
+            "response": {
+              "responseFormat": "xml"
+            }
+          },
+          "neverError": true
+        }
+      },
+      "id": "techcrunch-ai-rss",
+      "name": "TechCrunch AI RSS",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.1,
+      "position": [460, 800],
+      "notes": "Lädt TechCrunch AI RSS Feed"
+    },
+    {
+      "parameters": {
+        "jsCode": "// Parse RSS Feeds und sammle AI-News\nconst items = [];\nconst maxAge = 30 * 24 * 60 * 60 * 1000; // 30 Tage\nconst now = Date.now();\n\n// Funktion zum Parsen von RSS XML\nfunction parseRSS(xmlString, source) {\n  if (!xmlString || typeof xmlString !== 'string') return [];\n  \n  try {\n    const parser = new DOMParser();\n    const xmlDoc = parser.parseFromString(xmlString, 'text/xml');\n    const rssItems = xmlDoc.querySelectorAll('item');\n    \n    const parsed = [];\n    rssItems.forEach((item, index) => {\n      if (index < 5) { // Nur erste 5 Einträge pro Feed\n        const title = (item.querySelector('title')?.textContent || '').trim();\n        const description = (item.querySelector('description')?.textContent?.replace(/<[^>]*>/g, '') || '').trim().substring(0, 200);\n        const link = (item.querySelector('link')?.textContent || '').trim();\n        const pubDate = item.querySelector('pubDate')?.textContent || item.querySelector('date')?.textContent || '';\n        \n        if (!title || !link) return;\n        \n        // Filtere nur relevante AI-News\n        const titleLower = title.toLowerCase();\n        const descLower = description.toLowerCase();\n        \n        // Erweiterte Keywords für AI, KMU und Branchenrelevanz\n        const aiKeywords = [\n          'ai', 'artificial intelligence', 'machine learning', 'llm', 'gemini', 'gpt', 'claude', \n          'automation', 'workflow', 'neural', 'deep learning', 'ki', 'kuenstliche intelligenz',\n          'mittelstand', 'kmu', 'sme', 'digitalisierung', 'industrie 4.0', 'prozessautomatisierung',\n          'rpa', 'robot process automation', 'chatbot', 'assistenzsystem', 'assistenzsysteme',\n          'datenanalyse', 'predictive analytics', 'computer vision', 'nlp', 'natural language processing'\n        ];\n        \n        const isRelevant = aiKeywords.some(keyword => titleLower.includes(keyword) || descLower.includes(keyword));\n        \n        if (isRelevant) {\n          // Bestimme Kategorie\n          let category = 'große-modelle';\n          if (titleLower.includes('workflow') || titleLower.includes('n8n') || titleLower.includes('automation') || titleLower.includes('prozessautomatisierung')) {\n            category = 'workflow-tools';\n          } else if (titleLower.includes('sales') || titleLower.includes('hubspot') || titleLower.includes('crm') || titleLower.includes('vertrieb')) {\n            category = 'sales-tools';\n          } else if (titleLower.includes('mittelstand') || titleLower.includes('kmu') || titleLower.includes('sme') || titleLower.includes('unternehmen')) {\n            category = 'kmu-relevanz';\n          } else if (titleLower.includes('industrie') || titleLower.includes('produktion') || titleLower.includes('manufacturing')) {\n            category = 'industrie-4.0';\n          } else if (titleLower.includes('dienstleistung') || titleLower.includes('service') || titleLower.includes('beratung')) {\n            category = 'dienstleister-tools';\n          }\n          \n          const itemDate = pubDate ? new Date(pubDate) : new Date();\n          const age = now - itemDate.getTime();\n          \n          // Nur News der letzten 30 Tage\n          if (age <= maxAge && age >= 0) {\n            parsed.push({\n              title: title,\n              description: description,\n              link: link,\n              date: itemDate.toISOString(),\n              source: source,\n              category: category,\n              language: source.includes('Decoder') ? 'de' : 'en'\n            });\n          }\n        }\n      }\n    });\n    \n    return parsed;\n  } catch (e) {\n    console.warn(`Fehler beim Parsen von ${source}:`, e.message || e);\n    return [];\n  }\n}\n\n// Parse alle RSS Feeds (mit Fehlerbehandlung)\nconst feeds = [\n  { name: 'Google DeepMind RSS', source: 'Google DeepMind' },\n  { name: 'n8n Blog RSS', source: 'n8n Blog' },\n  { name: 'OpenAI Blog RSS', source: 'OpenAI' },\n  { name: 'Anthropic News RSS', source: 'Anthropic' },\n  { name: 'Hugging Face Blog RSS', source: 'Hugging Face' },\n  { name: 'The Decoder (DE) RSS', source: 'The Decoder' },\n  { name: 'TechCrunch AI RSS', source: 'TechCrunch AI' }\n];\n\nfeeds.forEach(feed => {\n  try {\n    const feedData = $input.all().find(item => {\n      const nodeName = item.json._nodeName || '';\n      return nodeName.includes(feed.name.replace(' RSS', ''));\n    });\n    \n    if (feedData && (feedData.json.body || feedData.json.data || feedData.json.response)) {\n      const xml = feedData.json.body || feedData.json.data || feedData.json.response || '';\n      if (xml && typeof xml === 'string' && xml.includes('<')) {\n        const parsed = parseRSS(xml, feed.source);\n        items.push(...parsed);\n      }\n    }\n  } catch (e) {\n    console.warn(`Fehler beim Laden von ${feed.source}:`, e.message || e);\n  }\n});\n\n// Alternative: Versuche auch direkt die Nodes zu lesen\nconst nodeData = {\n  'Google DeepMind RSS': $('Google DeepMind RSS'),\n  'n8n Blog RSS': $('n8n Blog RSS'),\n  'OpenAI Blog RSS': $('OpenAI Blog RSS'),\n  'Anthropic News RSS': $('Anthropic News RSS'),\n  'Hugging Face Blog RSS': $('Hugging Face Blog RSS'),\n  'The Decoder (DE) RSS': $('The Decoder (DE) RSS'),\n  'TechCrunch AI RSS': $('TechCrunch AI RSS')\n};\n\nObject.keys(nodeData).forEach(nodeName => {\n  try {\n    const node = nodeData[nodeName];\n    if (node && node.item) {\n      const item = node.item.json;\n      const xml = item.body || item.data || item.response || '';\n      if (xml && typeof xml === 'string' && xml.includes('<')) {\n        const sourceName = nodeName.replace(' RSS', '');\n        const parsed = parseRSS(xml, sourceName);\n        items.push(...parsed);\n      }\n    }\n  } catch (e) {\n    // Ignoriere Fehler für einzelne Feeds\n  }\n});\n\n// Entferne Duplikate (nach Link)\nconst uniqueItems = items.filter((item, index, self) => \n  index === self.findIndex(t => t.link === item.link)\n);\n\n// Sortiere nach Datum (neueste zuerst) und limitiere auf 15 News\nconst sortedItems = uniqueItems.sort((a, b) => new Date(b.date) - new Date(a.date)).slice(0, 15);\n\nreturn sortedItems.map(item => ({ json: item }));"
       },
       "id": "parse-rss",
       "name": "Parse RSS & Filter",
       "type": "n8n-nodes-base.code",
       "typeVersion": 2,
-      "position": [680, 300],
+      "position": [680, 500],
       "notes": "Parst RSS Feeds und filtert nach relevanten AI-News"
     },
     {
       "parameters": {
-        "assignments": {
-          "assignments": [
-            {
-              "id": "add-german-translations",
-              "name": "de_title",
-              "value": "={{ $json.title }}",
-              "type": "string"
-            },
-            {
-              "id": "add-german-translations-2",
-              "name": "de_description",
-              "value": "={{ $json.description }}",
-              "type": "string"
-            }
-          ]
-        },
+        "respondWith": "json",
+        "responseBody": "={{ $json }}",
         "options": {}
       },
-      "id": "add-translations",
-      "name": "Füge Übersetzungen hinzu",
-      "type": "n8n-nodes-base.set",
-      "typeVersion": 3.3,
-      "position": [900, 300],
-      "notes": "Fügt deutsche Übersetzungen hinzu (optional, kann mit AI Agent erweitert werden)"
-    },
-    {
-      "parameters": {
-        "url": "={{ $env.WEBHOOK_URL || 'https://your-domain.com/api/ai-news' }}",
-        "sendBody": true,
-        "specifyBody": "json",
-        "jsonBody": "={{ JSON.stringify($json) }}",
-        "options": {}
-      },
-      "id": "webhook-call",
-      "name": "Sende an Website",
-      "type": "n8n-nodes-base.httpRequest",
-      "typeVersion": 4.1,
-      "position": [1120, 300],
-      "notes": "Sendet News an Website-API (optional)"
+      "id": "respond-webhook",
+      "name": "Respond to Webhook",
+      "type": "n8n-nodes-base.respondToWebhook",
+      "typeVersion": 1,
+      "position": [900, 500],
+      "notes": "Gibt News als JSON zurück für Website"
     }
   ],
   "connections": {
@@ -132,7 +195,7 @@
       "main": [
         [
           {
-            "node": "Google AI Blog RSS",
+            "node": "Google DeepMind RSS",
             "type": "main",
             "index": 0
           },
@@ -145,11 +208,72 @@
             "node": "OpenAI Blog RSS",
             "type": "main",
             "index": 0
+          },
+          {
+            "node": "Anthropic News RSS",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "Hugging Face Blog RSS",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "The Decoder (DE) RSS",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "TechCrunch AI RSS",
+            "type": "main",
+            "index": 0
           }
         ]
       ]
     },
-    "Google AI Blog RSS": {
+    "AI News Webhook": {
+      "main": [
+        [
+          {
+            "node": "Google DeepMind RSS",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "n8n Blog RSS",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "OpenAI Blog RSS",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "Anthropic News RSS",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "Hugging Face Blog RSS",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "The Decoder (DE) RSS",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "TechCrunch AI RSS",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Google DeepMind RSS": {
       "main": [
         [
           {
@@ -182,22 +306,55 @@
         ]
       ]
     },
-    "Parse RSS & Filter": {
+    "Anthropic News RSS": {
       "main": [
         [
           {
-            "node": "Füge Übersetzungen hinzu",
+            "node": "Parse RSS & Filter",
             "type": "main",
             "index": 0
           }
         ]
       ]
     },
-    "Füge Übersetzungen hinzu": {
+    "Hugging Face Blog RSS": {
       "main": [
         [
           {
-            "node": "Sende an Website",
+            "node": "Parse RSS & Filter",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "The Decoder (DE) RSS": {
+      "main": [
+        [
+          {
+            "node": "Parse RSS & Filter",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "TechCrunch AI RSS": {
+      "main": [
+        [
+          {
+            "node": "Parse RSS & Filter",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Parse RSS & Filter": {
+      "main": [
+        [
+          {
+            "node": "Respond to Webhook",
             "type": "main",
             "index": 0
           }
@@ -214,4 +371,3 @@
   "triggerCount": 0,
   "versionId": "1"
 }
-
