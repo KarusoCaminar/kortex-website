@@ -16,7 +16,7 @@
     {
       "parameters": {
         "path": "ai-news-feed",
-        "responseMode": "responseNode",
+        "responseMode": "lastNode",
         "options": {}
       },
       "id": "ad017024-cad5-418b-b9d3-01694ef4d7c6",
