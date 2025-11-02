@@ -703,9 +703,30 @@
         headers: { 'Accept': 'application/json' },
         cache: 'no-cache'
       });
+      
+      console.log('📡 n8n Response Status:', n8nResponse.status, n8nResponse.statusText);
+      console.log('📡 n8n Response Headers:', Object.fromEntries(n8nResponse.headers.entries()));
+      
       if (n8nResponse.ok) {
-        const n8nData = await n8nResponse.json();
-        console.log('✅ n8n Response erhalten:', n8nData?.length || 0, 'Items');
+        const responseText = await n8nResponse.text();
+        console.log('📋 n8n Response Text (roh):', responseText.substring(0, 200));
+        
+        if (!responseText || responseText.trim().length === 0) {
+          console.error('❌ n8n Response ist LEER - Workflow gibt keine Daten zurück');
+          throw new Error('n8n Response ist leer');
+        }
+        
+        let n8nData;
+        try {
+          n8nData = JSON.parse(responseText);
+        } catch (parseError) {
+          console.error('❌ n8n Response ist kein gültiges JSON:', parseError.message);
+          console.error('📋 Response Text:', responseText);
+          throw parseError;
+        }
+        
+        console.log('✅ n8n Response geparst:', n8nData?.length || 'kein Array', 'Items');
+        
         if (n8nData && Array.isArray(n8nData) && n8nData.length > 0) {
           const now = Date.now();
           const validNews = n8nData
@@ -728,17 +749,22 @@
           
           // n8n-Daten haben PRIORITÄT - füge sie am Anfang hinzu
           if (validNews.length > 0) {
-            console.log(`✅ ${validNews.length} gültige n8n-News gefunden`);
+            console.log(`✅ ${validNews.length} gültige n8n-News gefunden und hinzugefügt`);
             news.unshift(...validNews);
+          } else {
+            console.warn('⚠️ n8n-News gefunden, aber keine sind gültig (zu alt oder fehlende Felder)');
           }
         } else {
-          console.warn('⚠️ n8n Response leer oder kein Array');
+          console.warn('⚠️ n8n Response ist kein Array oder leer:', typeof n8nData, n8nData);
         }
       } else {
-        console.warn(`⚠️ n8n Response nicht OK: ${n8nResponse.status} ${n8nResponse.statusText}`);
+        const errorText = await n8nResponse.text().catch(() => '');
+        console.error(`❌ n8n Response nicht OK: ${n8nResponse.status} ${n8nResponse.statusText}`);
+        console.error('📋 Error Response:', errorText.substring(0, 200));
       }
     } catch (n8nError) {
-      console.warn('⚠️ n8n AI-News Webhook Fehler:', n8nError.message);
+      console.error('❌ n8n AI-News Webhook Fehler:', n8nError.message);
+      console.error('📋 Stack:', n8nError.stack);
     }
     
     // 4. KI-Tools News (branchenspezifisch) - nur als Fallback wenn keine echten News vorhanden
