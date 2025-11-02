@@ -364,28 +364,36 @@
   }
   
   // Load AI News (mit Caching für bessere Performance)
-  async function loadAINews() {
+  async function loadAINews(forceRefresh = false) {
     const container = document.getElementById('ai-news-container');
     if (!container) return;
     
-    // Prüfe Cache (5 Minuten)
-    const cacheKey = 'ai-news-cache';
-    const cacheTime = 5 * 60 * 1000; // 5 Minuten
-    const cached = localStorage.getItem(cacheKey);
-    const now = Date.now();
+    // Wenn manuelles Refresh: Cache löschen
+    if (forceRefresh) {
+      localStorage.removeItem('ai-news-cache');
+      console.log('🔄 Manuelles Refresh - Cache gelöscht');
+    }
     
-    if (cached) {
-      try {
-        const cacheData = JSON.parse(cached);
-        if (now - cacheData.timestamp < cacheTime && cacheData.news && cacheData.news.length > 0) {
-          // Verwende gecachte News
-          displayNews(cacheData.news, container);
-          // Lade im Hintergrund neue News
-          fetchAndCacheNews(container);
-          return;
+    // Prüfe Cache (5 Minuten) - nur wenn kein forceRefresh
+    if (!forceRefresh) {
+      const cacheKey = 'ai-news-cache';
+      const cacheTime = 5 * 60 * 1000; // 5 Minuten
+      const cached = localStorage.getItem(cacheKey);
+      const now = Date.now();
+      
+      if (cached) {
+        try {
+          const cacheData = JSON.parse(cached);
+          if (now - cacheData.timestamp < cacheTime && cacheData.news && cacheData.news.length > 0) {
+            // Verwende gecachte News
+            displayNews(cacheData.news, container);
+            // Lade im Hintergrund neue News
+            fetchAndCacheNews(container);
+            return;
+          }
+        } catch (e) {
+          console.warn('Fehler beim Laden aus Cache:', e);
         }
-      } catch (e) {
-        console.warn('Fehler beim Laden aus Cache:', e);
       }
     }
     
@@ -393,9 +401,18 @@
     await fetchAndCacheNews(container);
   }
   
+  // Manuelles Aktualisieren (public API)
+  window.refreshAINews = function() {
+    console.log('🔄 Manuelles Aktualisieren des AI-Newsfeeds...');
+    loadAINews(true);
+  };
+  
   // Lade News und cache sie
   async function fetchAndCacheNews(container) {
     try {
+      // Zeige Loading-Indikator
+      container.innerHTML = '<div class="ai-news-loading">🔄 Lade aktuelle AI-News...</div>';
+      
       const newsData = await fetchAINewsFromMultipleSources();
       
       // Cache die News
@@ -405,6 +422,9 @@
           timestamp: Date.now()
         };
         localStorage.setItem('ai-news-cache', JSON.stringify(cacheData));
+        console.log(`✅ ${newsData.length} News geladen und gecacht`);
+      } else {
+        console.warn('⚠️ Keine News-Daten erhalten');
       }
       
       if (newsData && newsData.length > 0) {
@@ -598,8 +618,8 @@
             return recentNews;
           } else {
             console.warn(`⚠️ ${feed.source}: HTTP ${response.status}`);
-          }
-        } catch (e) {
+              }
+            } catch (e) {
           if (e.message && e.message.includes('CORS')) {
             console.warn(`⚠️ ${feed.source}: CORS-Fehler - nutze n8n Webhook für diesen Feed`);
           } else {
@@ -632,29 +652,51 @@
       console.log(`ℹ️ ${blockedFeeds.length} Feeds benötigen n8n Webhook (CORS-Probleme): ${blockedFeeds.map(f => f.source).join(', ')}`);
     }
     
-    // Prüfe optional n8n Webhook (falls aktiviert)
+    // Prüfe n8n Webhook (PRIORITÄT - Hauptquelle für aktuelle News)
     try {
       const n8nNewsUrl = 'https://n8n2.kortex-system.de/webhook/ai-news-feed';
+      console.log('🔄 Lade n8n AI-News...', n8nNewsUrl);
       const n8nResponse = await fetch(n8nNewsUrl, {
         method: 'GET',
-        headers: { 'Accept': 'application/json' }
+        headers: { 'Accept': 'application/json' },
+        cache: 'no-cache'
       });
       if (n8nResponse.ok) {
         const n8nData = await n8nResponse.json();
+        console.log('✅ n8n Response erhalten:', n8nData?.length || 0, 'Items');
         if (n8nData && Array.isArray(n8nData) && n8nData.length > 0) {
           const now = Date.now();
-          const validNews = n8nData.filter(item => {
-            if (!item.date && !item.pubDate) return false;
-            const itemDate = new Date(item.date || item.pubDate).getTime();
-            const age = now - itemDate;
-            return age <= maxAge && age >= 0 && item.title && item.link;
-          });
-          news.push(...validNews.slice(0, 5));
+          const validNews = n8nData
+            .filter(item => {
+              if (!item.title || !item.link) return false;
+              if (!item.date && !item.pubDate) return false;
+              const itemDate = new Date(item.date || item.pubDate).getTime();
+              const age = now - itemDate;
+              return age <= maxAge && age >= 0;
+            })
+            .map(item => ({
+              title: item.title.trim(),
+              description: item.description || '',
+              link: item.link.trim(),
+              date: item.date || item.pubDate || new Date().toISOString(),
+              source: item.source || 'n8n Feed',
+              category: item.category || 'ai-news',
+              language: item.language || lang
+            }));
+          
+          // n8n-Daten haben PRIORITÄT - füge sie am Anfang hinzu
+          if (validNews.length > 0) {
+            console.log(`✅ ${validNews.length} gültige n8n-News gefunden`);
+            news.unshift(...validNews);
+          }
+        } else {
+          console.warn('⚠️ n8n Response leer oder kein Array');
         }
+      } else {
+        console.warn(`⚠️ n8n Response nicht OK: ${n8nResponse.status} ${n8nResponse.statusText}`);
       }
     } catch (n8nError) {
-      // n8n Webhook optional - ignoriere Fehler
-      console.log('n8n AI-News Webhook nicht verfügbar (optional)');
+      console.warn('⚠️ n8n AI-News Webhook Fehler:', n8nError.message);
     }
     
     // 4. KI-Tools News (branchenspezifisch) - nur als Fallback wenn keine echten News vorhanden
