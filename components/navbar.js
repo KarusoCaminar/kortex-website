@@ -36,11 +36,12 @@ class CustomNavbar extends HTMLElement {
         .nav-right{display:flex;align-items:center;gap:1rem}
         .lang-switcher{display:flex !important;gap:0.5rem;align-items:center;background:rgba(0,0,0,.04);padding:0.25rem;border-radius:8px}
         .lang-btn{background:transparent;border:2px solid transparent;cursor:pointer;padding:0.4rem 0.6rem;border-radius:6px;font-weight:normal;transition:all .2s;line-height:1;display:inline-flex !important;visibility:visible !important;align-items:center;justify-content:center;min-width:44px;height:36px}
-        .lang-btn .flag-icon{width:24px;height:16px;display:block;flex-shrink:0}
+        .lang-btn .flag-icon{width:28px;height:18px;display:block;flex-shrink:0;border-radius:2px;overflow:hidden;box-shadow:0 1px 2px rgba(0,0,0,0.1)}
         .lang-btn:hover{border-color:var(--p);background:rgba(3,78,162,.08);transform:scale(1.1)}
         .lang-btn.active{border-color:rgba(0,0,0,.2);background:rgba(0,0,0,.1);box-shadow:inset 0 1px 2px rgba(0,0,0,.1)}
         
         @media (max-width:768px){
+          .lang-btn .flag-icon{width:26px;height:16px}
           .nav-links{display:none;position:absolute;left:0;right:0;top:64px;background:white;flex-direction:column;padding:1rem;border-top:1px solid rgba(0,0,0,.04)}
           .nav-links.open{display:flex}
           .mobile-menu-button{display:block}
@@ -68,19 +69,19 @@ class CustomNavbar extends HTMLElement {
           <div class="nav-right">
             <div class="lang-switcher">
               <button class="lang-btn lang-de" aria-label="Deutsch" title="Deutsch">
-                <svg class="flag-icon" viewBox="0 0 3 2" xmlns="http://www.w3.org/2000/svg">
-                  <rect width="3" height="2" fill="#000000"/>
-                  <rect y="0.67" width="3" height="0.67" fill="#DD0000"/>
-                  <rect y="1.33" width="3" height="0.67" fill="#FFCE00"/>
+                <svg class="flag-icon" viewBox="0 0 5 3" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet">
+                  <rect width="5" height="3" fill="#000000"/>
+                  <rect y="1" width="5" height="1" fill="#DD0000"/>
+                  <rect y="2" width="5" height="1" fill="#FFCE00"/>
                 </svg>
               </button>
               <button class="lang-btn lang-en" aria-label="English" title="English">
-                <svg class="flag-icon" viewBox="0 0 60 30" xmlns="http://www.w3.org/2000/svg">
+                <svg class="flag-icon" viewBox="0 0 60 30" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet">
                   <rect width="60" height="30" fill="#012169"/>
-                  <path d="M0,0 L60,30 M60,0 L0,30" stroke="#FFFFFF" stroke-width="3"/>
-                  <path d="M0,0 L60,30 M60,0 L0,30" stroke="#C8102E" stroke-width="2"/>
-                  <path d="M30,0 L30,30 M0,15 L60,15" stroke="#FFFFFF" stroke-width="4"/>
-                  <path d="M30,0 L30,30 M0,15 L60,15" stroke="#C8102E" stroke-width="2.5"/>
+                  <path d="M0,0 L60,30 M60,0 L0,30" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+                  <path d="M0,0 L60,30 M60,0 L0,30" stroke="#C8102E" stroke-width="2" stroke-linecap="round"/>
+                  <path d="M30,0 L30,30 M0,15 L60,15" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round"/>
+                  <path d="M30,0 L30,30 M0,15 L60,15" stroke="#C8102E" stroke-width="2.5" stroke-linecap="round"/>
                 </svg>
               </button>
             </div>
