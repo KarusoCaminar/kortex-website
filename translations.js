@@ -208,6 +208,7 @@ const translations = {
     'modal.table.email': 'E-Mail',
     'modal.table.phone': 'Telefon',
     'modal.table.address': 'Adresse',
+    'modal.table.website': 'Website',
     'modal.table.source': 'Quelle',
     'modal.table.time': 'Zeit',
     'modal.workflow.started': '✅ Workflow erfolgreich gestartet',

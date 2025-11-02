@@ -247,13 +247,13 @@
     
     .loading-indicator {
       position: absolute;
-      top: 50%;
+      bottom: 30px;
       left: 50%;
-      transform: translate(-50%, -50%);
+      transform: translateX(-50%);
       text-align: center;
       z-index: 10000;
       width: 90%;
-      max-width: 400px;
+      max-width: 500px;
       /* Verhindere weißes Bild beim Laden */
       background: transparent;
     }
@@ -388,13 +388,13 @@
     
     .success-indicator {
       position: absolute;
-      top: 50%;
+      bottom: 30px;
       left: 50%;
-      transform: translate(-50%, -50%);
+      transform: translateX(-50%);
       text-align: center;
       z-index: 10000;
       width: 90%;
-      max-width: 400px;
+      max-width: 500px;
       animation: successSlideIn 0.4s ease;
     }
     
@@ -428,11 +428,11 @@
     
     @keyframes successSlideIn {
       from {
-        transform: translate(-50%, -50%) scale(0.8);
+        transform: translateX(-50%) scale(0.8);
         opacity: 0;
       }
       to {
-        transform: translate(-50%, -50%) scale(1);
+        transform: translateX(-50%) scale(1);
         opacity: 1;
       }
     }
@@ -615,13 +615,14 @@
               <th style="padding: 12px 16px; border-bottom: 1px solid rgba(148,163,184,0.2);" data-i18n="modal.table.email">E-Mail</th>
               <th style="padding: 12px 16px; border-bottom: 1px solid rgba(148,163,184,0.2);" data-i18n="modal.table.phone">Telefon</th>
               <th style="padding: 12px 16px; border-bottom: 1px solid rgba(148,163,184,0.2);" data-i18n="modal.table.address">Adresse</th>
+              <th style="padding: 12px 16px; border-bottom: 1px solid rgba(148,163,184,0.2);" data-i18n="modal.table.website">Website</th>
               <th style="padding: 12px 16px; border-bottom: 1px solid rgba(148,163,184,0.2);" data-i18n="modal.table.source">Quelle</th>
               <th style="padding: 12px 16px; border-bottom: 1px solid rgba(148,163,184,0.2);" data-i18n="modal.table.time">Zeit</th>
             </tr>
           </thead>
           <tbody id="results-tbody">
             <tr>
-              <td colspan="7" style="padding:16px; color:#94a3b8;" data-i18n="modal.results.empty">Noch keine Ergebnisse. Starte eine Demo oben.</td>
+              <td colspan="8" style="padding:16px; color:#94a3b8;" data-i18n="modal.results.empty">Noch keine Ergebnisse. Starte eine Demo oben.</td>
             </tr>
           </tbody>
         </table>
@@ -1376,6 +1377,7 @@
             phone: p.phone || '',
             address: p.address || '',
             city: p.city || '',
+            website: p.website || p.url || '',
             source: p.source || (p.sample ? `Sample ${p.sample}` : 'Upload'),
             timestamp: p.timestamp || new Date().toISOString()
           });
@@ -1432,6 +1434,7 @@
                 phone: p.phone || '',
                 address: p.address || '',
                 city: p.city || '',
+                website: p.website || p.url || '',
                 source: p.source || (p.sample ? `Sample ${p.sample}` : 'Upload'),
                 timestamp: p.timestamp || new Date().toISOString()
               });
@@ -1940,11 +1943,13 @@
       
       if (extractedResults.length === 0) {
         const emptyText = window.i18n?.t('modal.results.empty') || 'Noch keine Ergebnisse. Starte eine Demo oben.';
-        tbody.innerHTML = `<tr><td colspan="7" style="padding:16px; color:#94a3b8;">${emptyText}</td></tr>`;
+        tbody.innerHTML = `<tr><td colspan="8" style="padding:16px; color:#94a3b8;">${emptyText}</td></tr>`;
         return;
       }
       tbody.innerHTML = extractedResults.map((r, index) => {
         const address = (r.address || '') + (r.city ? (r.address ? ', ' : '') + r.city : '');
+        const website = r.website || r.url || '';
+        const websiteLink = website ? (website.startsWith('http') ? website : `https://${website}`) : '';
         return `
         <tr>
           <td style="padding:12px 16px; border-top: 1px solid rgba(148,163,184,0.15);">${escapeHtml(r.name || '')}</td>
@@ -1952,6 +1957,7 @@
           <td style="padding:12px 16px; border-top: 1px solid rgba(148,163,184,0.15);">${escapeHtml(r.email || '')}</td>
           <td style="padding:12px 16px; border-top: 1px solid rgba(148,163,184,0.15);">${escapeHtml(r.phone || '')}</td>
           <td style="padding:12px 16px; border-top: 1px solid rgba(148,163,184,0.15);">${escapeHtml(address || '')}</td>
+          <td style="padding:12px 16px; border-top: 1px solid rgba(148,163,184,0.15);">${websiteLink ? `<a href="${escapeHtml(websiteLink)}" target="_blank" rel="noopener noreferrer" style="color: #60a5fa; text-decoration: none;">${escapeHtml(website)}</a>` : ''}</td>
           <td style="padding:12px 16px; border-top: 1px solid rgba(148,163,184,0.15);">${escapeHtml(r.source || '')}</td>
           <td style="padding:12px 16px; border-top: 1px solid rgba(148,163,184,0.15);">${new Date(r.timestamp).toLocaleString()}</td>
         </tr>
@@ -1986,19 +1992,39 @@
 
       function downloadCSV() {
       if (extractedResults.length === 0) return;
-      const headers = ['name','company','email','phone','address','city','source','timestamp'];
-      const csv = [headers.join(',')].concat(
-        extractedResults.map(r => headers.map(h => {
-          const val = r[h] != null ? String(r[h]) : '';
-          // Quote and escape
-          return '"' + val.replace(/"/g, '""') + '"';
-        }).join(','))
-      ).join('\n');
+      const headers = ['Name','Firma','E-Mail','Telefon','Adresse','Website','Quelle','Zeitstempel'];
+      const csvRows = [headers.map(h => `"${h.replace(/"/g, '""')}"`).join(',')];
+      
+      extractedResults.forEach(r => {
+        const address = (r.address || '') + (r.city ? (r.address ? ', ' : '') + r.city : '');
+        const website = r.website || r.url || '';
+        const timestamp = r.timestamp ? new Date(r.timestamp).toLocaleString('de-DE') : '';
+        
+        const row = [
+          r.name || '',
+          r.company || '',
+          r.email || '',
+          r.phone || '',
+          address,
+          website,
+          r.source || '',
+          timestamp
+        ];
+        
+        csvRows.push(row.map(cell => {
+          const val = String(cell || '').replace(/"/g, '""');
+          return `"${val}"`;
+        }).join(','));
+      });
+      
+      // UTF-8 BOM für korrekte Darstellung in Excel
+      const BOM = '\uFEFF';
+      const csv = BOM + csvRows.join('\n');
       const blob = new Blob([csv], { type: 'text/csv;charset=utf-8;' });
       const url = URL.createObjectURL(blob);
       const a = document.createElement('a');
       a.href = url;
-      a.download = 'business-cards.csv';
+      a.download = 'visitenkarten-export.csv';
       document.body.appendChild(a);
       a.click();
       document.body.removeChild(a);
@@ -2046,6 +2072,7 @@
             phone: p.phone || '',
             address: p.address || '',
             city: p.city || '',
+            website: p.website || p.url || '',
             source: p.source || (p.sample ? `Sample ${p.sample}` : 'Upload'),
             timestamp: p.timestamp || new Date().toISOString()
           });
