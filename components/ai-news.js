@@ -654,7 +654,6 @@
       
       // RSS Feed Quellen für Fallback
       // HINWEIS: Diese werden nur geladen wenn n8n nicht verfügbar ist
-      // RSS Feed Quellen definieren (nur für Fallback)
       const rssFeeds = [
         {
           url: 'https://blog.n8n.io/rss.xml',
