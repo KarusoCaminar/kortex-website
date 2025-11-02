@@ -26,11 +26,10 @@
       "parameters": {
         "httpMethod": "GET",
         "path": "ai-news-feed",
-        "responseMode": "responseNode",
+        "responseMode": "lastNode",
         "options": {
           "responseCode": 200
-        },
-        "responseNode": "b652a424-e949-4579-b04e-e7aa73b5b135"
+        }
       },
       "id": "ad017024-cad5-418b-b9d3-01694ef4d7c6",
       "name": "AI News Webhook",
