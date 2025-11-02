@@ -26,7 +26,7 @@
       "parameters": {
         "httpMethod": "GET",
         "path": "ai-news-feed",
-        "responseMode": "lastNode",
+        "responseMode": "responseNode",
         "options": {
           "responseCode": 200
         }
@@ -240,8 +240,41 @@
     },
     {
       "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict"
+          },
+          "conditions": [
+            {
+              "id": "trigger-check",
+              "leftValue": "={{ $trigger.node.type }}",
+              "rightValue": "n8n-nodes-base.webhook",
+              "operator": {
+                "type": "string",
+                "operation": "equals"
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "id": "if-trigger-check-1234-5678-9abc-def123456789",
+      "name": "IF - Trigger Check",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2,
+      "position": [
+        640,
+        176
+      ],
+      "notes": "Prüft ob Workflow per Webhook gestartet wurde"
+    },
+    {
+      "parameters": {
         "respondWith": "json",
-        "responseBody": "={{ $input.all().map(item => item.json) }}",
+        "responseBody": "={{ $json }}",
         "options": {}
       },
       "id": "b652a424-e949-4579-b04e-e7aa73b5b135",
@@ -249,10 +282,10 @@
       "type": "n8n-nodes-base.respondToWebhook",
       "typeVersion": 1,
       "position": [
-        1056,
+        864,
         64
       ],
-      "notes": "Gibt News als JSON Array zurück für Website (nur bei Webhook-Trigger)"
+      "notes": "Gibt News als JSON zurück für Website (nur bei Webhook-Trigger)"
     },
     {
       "parameters": {},
@@ -484,10 +517,23 @@
       "main": [
         [
           {
+            "node": "IF - Trigger Check",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "IF - Trigger Check": {
+      "main": [
+        [
+          {
             "node": "Respond to Webhook",
             "type": "main",
             "index": 0
-          },
+          }
+        ],
+        [
           {
             "node": "NoOp - Cron Trigger",
             "type": "main",
