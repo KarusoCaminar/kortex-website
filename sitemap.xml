@@ -7,7 +7,7 @@
   <!-- Startseite -->
   <url>
     <loc>https://www.kortex-system.com/</loc>
-    <lastmod>2025-01-02</lastmod>
+    <lastmod>2025-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
@@ -15,15 +15,15 @@
   <!-- Visitenkarten-Extraktion (neue SEO-optimierte Seite) -->
   <url>
     <loc>https://www.kortex-system.com/visitenkarten-ki-extraktion.html</loc>
-    <lastmod>2025-01-02</lastmod>
+    <lastmod>2025-11-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
   </url>
   
   <!-- Produkte -->
   <url>
     <loc>https://www.kortex-system.com/produkte.html</loc>
-    <lastmod>2025-01-02</lastmod>
+    <lastmod>2025-11-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -31,49 +31,49 @@
   <!-- Über uns -->
   <url>
     <loc>https://www.kortex-system.com/ueber-uns.html</loc>
-    <lastmod>2025-01-02</lastmod>
+    <lastmod>2025-11-03</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
   </url>
   
   <!-- Preise -->
   <url>
     <loc>https://www.kortex-system.com/preise.html</loc>
-    <lastmod>2025-01-02</lastmod>
+    <lastmod>2025-11-03</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
   </url>
   
   <!-- FAQ -->
   <url>
     <loc>https://www.kortex-system.com/faq.html</loc>
-    <lastmod>2025-01-02</lastmod>
+    <lastmod>2025-11-03</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.8</priority>
   </url>
   
   <!-- Kontakt -->
   <url>
     <loc>https://www.kortex-system.com/kontakt.html</loc>
-    <lastmod>2025-01-02</lastmod>
+    <lastmod>2025-11-03</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
   </url>
   
   <!-- Datenschutz -->
   <url>
     <loc>https://www.kortex-system.com/datenschutz.html</loc>
-    <lastmod>2025-01-02</lastmod>
+    <lastmod>2025-11-03</lastmod>
     <changefreq>yearly</changefreq>
-    <priority>0.3</priority>
+    <priority>0.8</priority>
   </url>
   
   <!-- Impressum -->
   <url>
     <loc>https://www.kortex-system.com/impressum.html</loc>
-    <lastmod>2025-01-02</lastmod>
+    <lastmod>2025-11-03</lastmod>
     <changefreq>yearly</changefreq>
-    <priority>0.3</priority>
+    <priority>0.8</priority>
   </url>
   
 </urlset>
