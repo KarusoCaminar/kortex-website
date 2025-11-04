@@ -429,22 +429,30 @@
       console.log('🔄 Manuelles Refresh - Cache gelöscht');
     }
     
-    // Prüfe Cache (5 Minuten) - nur wenn kein forceRefresh
+    // Prüfe Cache (2 Minuten) - nur wenn kein forceRefresh
     if (!forceRefresh) {
       const cacheKey = 'ai-news-cache';
-      const cacheTime = 5 * 60 * 1000; // 5 Minuten
+      const cacheTime = 2 * 60 * 1000; // 2 Minuten (reduziert für frischere News)
       const cached = localStorage.getItem(cacheKey);
       const now = Date.now();
       
       if (cached) {
         try {
           const cacheData = JSON.parse(cached);
-          if (now - cacheData.timestamp < cacheTime && cacheData.news && cacheData.news.length > 0) {
+          const cacheAge = now - cacheData.timestamp;
+          const cacheAgeMinutes = Math.floor(cacheAge / (60 * 1000));
+          console.log(`📦 Cache gefunden: ${cacheAgeMinutes} Minuten alt (Max: ${cacheTime / (60 * 1000)} Min)`);
+          console.log(`📦 Cache-Quelle: ${cacheData.source || 'unknown'}`);
+          
+          if (cacheAge < cacheTime && cacheData.news && cacheData.news.length > 0) {
             // Verwende gecachte News
+            console.log(`✅ Nutze gecachte News (${cacheData.news.length} Artikel, ${cacheAgeMinutes} Min alt)`);
             displayNews(cacheData.news, container);
             // Lade im Hintergrund neue News
             fetchAndCacheNews(container);
             return;
+          } else {
+            console.log(`⚠️ Cache abgelaufen (${cacheAgeMinutes} Min > ${cacheTime / (60 * 1000)} Min) - lade frische News`);
           }
         } catch (e) {
           console.warn('Fehler beim Laden aus Cache:', e);
@@ -480,10 +488,12 @@
       if (newsData && newsData.length > 0) {
         const cacheData = {
           news: newsData,
-          timestamp: Date.now()
+          timestamp: Date.now(),
+          source: newsData[0]?.source || 'unknown' // Speichere Quelle für Debugging
         };
         localStorage.setItem('ai-news-cache', JSON.stringify(cacheData));
-        console.log(`✅ ${newsData.length} News geladen und gecacht`);
+        console.log(`✅ ${newsData.length} News geladen und gecacht (Quelle: ${cacheData.source})`);
+        console.log(`📅 Cache-Timestamp: ${new Date(cacheData.timestamp).toLocaleString()}`);
       } else {
         console.warn('⚠️ Keine News-Daten erhalten');
       }
@@ -494,7 +504,12 @@
         container.innerHTML = getDemoAINews();
       }
     } catch (error) {
-      console.error('Fehler beim Laden der KI-News:', error);
+      console.error('❌ Fehler beim Laden der KI-News:', error);
+      console.error('📋 Fehler-Details:', {
+        message: error.message,
+        stack: error.stack,
+        timestamp: new Date().toISOString()
+      });
       container.className = 'ai-news-error';
       const errorText = window.i18n?.t('news.panel.error') || '⚠️ News konnten nicht geladen werden. Bitte versuchen Sie es später erneut.';
       container.innerHTML = errorText;
@@ -642,6 +657,7 @@
       if (n8nResponse.ok) {
         const responseText = await n8nResponse.text();
         console.log('📋 n8n Response Text (roh):', responseText.substring(0, 200));
+        console.log('📋 n8n Response Länge:', responseText.length, 'Zeichen');
         
         if (!responseText || responseText.trim().length === 0) {
           console.warn('⚠️ n8n Response ist LEER - Workflow gibt keine Daten zurück, nutze Fallback');
@@ -712,7 +728,13 @@
               translated: translatedNews.length,
               validAfterTranslation: validTranslatedNews.length,
               lang: lang,
-              n8nSuccess: validTranslatedNews.length >= 3
+              n8nSuccess: validTranslatedNews.length >= 3,
+              sampleDates: validTranslatedNews.slice(0, 3).map(n => ({
+                title: n.title?.substring(0, 40) || '(kein Titel)',
+                date: n.date || n.pubDate || '(kein Datum)',
+                age: n.date || n.pubDate ? Math.floor((Date.now() - new Date(n.date || n.pubDate).getTime()) / (24 * 60 * 60 * 1000)) + ' Tage alt' : 'unbekannt',
+                source: n.source || '(keine Quelle)'
+              }))
             });
             
             if (validTranslatedNews.length >= 3) {
@@ -741,12 +763,106 @@
       console.warn('⚠️ n8n Webhook Fehler:', n8nError.message, '- nutze Fallback RSS-Feeds');
     }
     
-    // ===== SCHRITT 2: RSS-Feed Fallback (nur wenn n8n fehlschlägt oder zu wenige News liefert) =====
-    // RSS-Feeds werden NUR als Fallback geladen wenn:
+    // ===== SCHRITT 2: GitHub Fallback (n8n_news.json) - nur wenn n8n fehlschlägt oder zu wenige News liefert =====
+    // GitHub Fallback wird NUR geladen wenn:
     // - n8n fehlschlägt (n8nSuccess === false)
     // - n8n zu wenige News liefert (< 3 News)
     if (!n8nSuccess || news.length < 3) {
-      console.log('🔄 [FALLBACK] Lade direkte RSS-Feeds (nur bei n8n Fehler oder zu wenigen News)');
+      console.log('🔄 [FALLBACK] Versuche n8n_news.json aus GitHub Repo zu laden...');
+      
+      try {
+        // Lade n8n_news.json aus GitHub Repo (wird vom n8n Cron-Workflow geschrieben)
+        const githubNewsUrl = 'https://raw.githubusercontent.com/KarusoCaminar/kortex-website/main/n8n_news.json';
+        const githubResponse = await fetch(githubNewsUrl, {
+          method: 'GET',
+          headers: { 'Accept': 'application/json' },
+          cache: 'no-cache',
+          signal: AbortSignal.timeout(5000) // 5 Sekunden Timeout
+        });
+        
+        if (githubResponse.ok) {
+          const githubData = await githubResponse.json();
+          
+          if (githubData && githubData.news && Array.isArray(githubData.news) && githubData.news.length > 0) {
+            const now = Date.now();
+            const validGithubNews = githubData.news
+              .filter(item => {
+                if (!item.title || !item.link) return false;
+                if (!item.date && !item.pubDate) return false;
+                const itemDate = new Date(item.date || item.pubDate).getTime();
+                const age = now - itemDate;
+                return age <= maxAge && age >= 0;
+              })
+              .map(async item => {
+                const itemLang = item.language || 'en';
+                
+                // Wenn News nicht in der gewählten Sprache ist, übersetze automatisch
+                if (itemLang !== lang && item.title) {
+                  try {
+                    const titleTranslated = await translateText(item.title, itemLang, lang);
+                    const descTranslated = await translateText(item.description || '', itemLang, lang);
+                    
+                    return {
+                      title: titleTranslated || item.title.trim(),
+                      description: descTranslated || (item.description || ''),
+                      link: item.link.trim(),
+                      date: item.date || item.pubDate || new Date().toISOString(),
+                      source: item.source || 'GitHub Fallback',
+                      category: item.category || 'ai-news',
+                      language: lang
+                    };
+                  } catch (e) {
+                    console.warn('⚠️ Übersetzungsfehler:', e.message);
+                  }
+                }
+                
+                return {
+                  title: item.title.trim(),
+                  description: item.description || '',
+                  link: item.link.trim(),
+                  date: item.date || item.pubDate || new Date().toISOString(),
+                  source: item.source || 'GitHub Fallback',
+                  category: item.category || 'ai-news',
+                  language: itemLang === lang ? lang : itemLang
+                };
+              });
+            
+            const translatedGithubNews = await Promise.all(validGithubNews);
+            const validTranslatedGithubNews = translatedGithubNews.filter(item => item && item.title && item.link);
+            
+            if (validTranslatedGithubNews.length > 0) {
+              console.log(`✅ [FALLBACK] GitHub n8n_news.json: ${validTranslatedGithubNews.length} News geladen und übersetzt (${lang})`);
+              news.push(...validTranslatedGithubNews);
+              
+              // Wenn wir genug News haben (>= 3), überspringe RSS-Fallbacks
+              if (news.length >= 3) {
+                console.log(`✅ Genug News von GitHub Fallback (${news.length}) - überspringe RSS-Feeds`);
+                // Weiter zu Schritt 3 (statischer Fallback)
+              } else {
+                // Weiter zu RSS-Feeds
+                console.log(`⚠️ Nur ${news.length} News von GitHub Fallback (< 3) - lade zusätzlich RSS-Feeds`);
+              }
+            } else {
+              console.warn('⚠️ [FALLBACK] GitHub n8n_news.json hat keine gültigen News - lade RSS-Feeds');
+            }
+          } else {
+            console.warn('⚠️ [FALLBACK] GitHub n8n_news.json hat keine News-Daten - lade RSS-Feeds');
+          }
+        } else {
+          console.warn(`⚠️ [FALLBACK] GitHub n8n_news.json nicht verfügbar (${githubResponse.status}) - lade RSS-Feeds`);
+          // Weiter zu RSS-Feeds
+        }
+      } catch (githubError) {
+        console.warn('⚠️ [FALLBACK] GitHub n8n_news.json Fehler:', githubError.message, '- lade RSS-Feeds');
+      }
+    }
+    
+    // ===== SCHRITT 2b: RSS-Feed Fallback (nur wenn n8n und GitHub fehlschlagen oder zu wenige News liefern) =====
+    // RSS-Feeds werden NUR als Fallback geladen wenn:
+    // - n8n fehlschlägt (n8nSuccess === false)
+    // - GitHub Fallback fehlschlägt oder zu wenige News liefert (< 3 News)
+    if (!n8nSuccess || news.length < 3) {
+      console.log('🔄 [FALLBACK] Lade direkte RSS-Feeds (nur bei n8n/GitHub Fehler oder zu wenigen News)');
       
       // RSS Feed Quellen für Fallback
       // HINWEIS: Diese werden nur geladen wenn n8n nicht verfügbar ist
@@ -898,7 +1014,13 @@
     console.log(`📊 [DEBUG] Final News Count nach statischem Fallback:`, {
       total: news.length,
       lang: lang,
-      beforeKmu: news.length
+      beforeKmu: news.length,
+      newsDates: news.map(n => ({
+        title: n.title?.substring(0, 40) || '(kein Titel)',
+        date: n.date || n.pubDate || '(kein Datum)',
+        age: n.date || n.pubDate ? Math.floor((Date.now() - new Date(n.date || n.pubDate).getTime()) / (24 * 60 * 60 * 1000)) + ' Tage' : 'unbekannt',
+        source: n.source || '(keine Quelle)'
+      }))
     });
     
     // 5. Deutsche KMU-relevante Quellen (falls Deutsch) - nur als Fallback wenn zu wenige News
@@ -957,10 +1079,13 @@
         title: n.title?.substring(0, 50) || '(kein Titel)', 
         source: n.source || '(keine Quelle)', 
         category: n.category || '(keine Kategorie)',
-        lang: n.language || '(keine Sprache)'
+        lang: n.language || '(keine Sprache)',
+        date: n.date || n.pubDate || '(kein Datum)',
+        age: n.date || n.pubDate ? Math.floor((Date.now() - new Date(n.date || n.pubDate).getTime()) / (24 * 60 * 60 * 1000)) + ' Tage alt' : 'unbekannt'
       })),
       lang: lang,
-      n8nSuccess: n8nSuccess
+      n8nSuccess: n8nSuccess,
+      cacheUsed: !forceRefresh && localStorage.getItem('ai-news-cache') ? 'JA (aus Cache)' : 'NEIN (frisch geladen)'
     });
     
     return sortedNews;
