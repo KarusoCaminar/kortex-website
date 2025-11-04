@@ -449,7 +449,7 @@
             console.log(`✅ Nutze gecachte News (${cacheData.news.length} Artikel, ${cacheAgeMinutes} Min alt)`);
             displayNews(cacheData.news, container);
             // Lade im Hintergrund neue News
-            fetchAndCacheNews(container);
+            fetchAndCacheNews(container, false);
             return;
           } else {
             console.log(`⚠️ Cache abgelaufen (${cacheAgeMinutes} Min > ${cacheTime / (60 * 1000)} Min) - lade frische News`);
@@ -461,7 +461,7 @@
     }
     
     // Lade neue News
-    await fetchAndCacheNews(container);
+    await fetchAndCacheNews(container, forceRefresh);
   }
   
   // Manuelles Aktualisieren (public API)
@@ -471,7 +471,7 @@
   };
   
   // Lade News und cache sie
-  async function fetchAndCacheNews(container) {
+  async function fetchAndCacheNews(container, forceRefresh = false) {
     try {
       // Zeige Loading-Indikator
       const loadingText = window.i18n?.t('news.panel.loading') || 'Lade aktuelle AI-News...';
@@ -482,7 +482,7 @@
         ${loadingText}
       </div>`;
       
-      const newsData = await fetchAINewsFromMultipleSources();
+      const newsData = await fetchAINewsFromMultipleSources(forceRefresh);
       
       // Cache die News
       if (newsData && newsData.length > 0) {
@@ -632,18 +632,16 @@
     return news;
   }
   
-  async function fetchAINewsFromMultipleSources() {
+  async function fetchAINewsFromMultipleSources(forceRefresh = false) {
     const news = [];
     const lang = window.i18n?.getCurrentLanguage() || 'de';
     const maxAge = 30 * 24 * 60 * 60 * 1000; // 30 Tage
     
-    // ===== EINZIGE QUELLE: GitHub n8n_news.json =====
-    // GitHub n8n_news.json wird vom n8n Cron-Workflow regelmäßig aktualisiert
-    // Diese Datei ist die einzige Quelle - keine Webhooks oder RSS-Feeds mehr
+    // ===== SCHRITT 1: GitHub n8n_news.json (Primärquelle) =====
     let githubSuccess = false;
     try {
       const githubNewsUrl = 'https://raw.githubusercontent.com/KarusoCaminar/kortex-website/main/n8n_news.json';
-      console.log('🔄 [HAUPTQUELLE] Lade n8n_news.json aus GitHub Repo...', githubNewsUrl);
+      console.log('🔄 [SCHRITT 1] Lade n8n_news.json aus GitHub Repo...', githubNewsUrl);
       
       const githubResponse = await fetch(githubNewsUrl, {
         method: 'GET',
@@ -653,7 +651,10 @@
       });
       
       if (githubResponse.ok) {
-        const githubData = await githubResponse.json();
+        // Robusteres JSON-Parsing: Entferne führendes "=" falls vorhanden (n8n Format-Problem)
+        const responseText = await githubResponse.text();
+        const cleanedText = responseText.trim().replace(/^=+/, '');
+        const githubData = JSON.parse(cleanedText);
         
         if (githubData && githubData.news && Array.isArray(githubData.news) && githubData.news.length > 0) {
           const now = Date.now();
@@ -703,20 +704,128 @@
           const validTranslatedGithubNews = translatedGithubNews.filter(item => item && item.title && item.link);
           
           if (validTranslatedGithubNews.length > 0) {
-            console.log(`✅ [HAUPTQUELLE] GitHub n8n_news.json: ${validTranslatedGithubNews.length} News geladen und übersetzt (${lang})`);
+            console.log(`✅ [SCHRITT 1] GitHub n8n_news.json: ${validTranslatedGithubNews.length} News geladen und übersetzt (${lang})`);
             news.push(...validTranslatedGithubNews);
             githubSuccess = true;
           } else {
-            console.warn('⚠️ [HAUPTQUELLE] GitHub n8n_news.json hat keine gültigen News');
+            console.warn('⚠️ [SCHRITT 1] GitHub n8n_news.json hat keine gültigen News');
           }
         } else {
-          console.warn('⚠️ [HAUPTQUELLE] GitHub n8n_news.json hat keine News-Daten');
+          console.warn('⚠️ [SCHRITT 1] GitHub n8n_news.json hat keine News-Daten');
         }
       } else {
-        console.warn(`⚠️ [HAUPTQUELLE] GitHub n8n_news.json nicht verfügbar (${githubResponse.status})`);
+        console.warn(`⚠️ [SCHRITT 1] GitHub n8n_news.json nicht verfügbar (${githubResponse.status})`);
       }
     } catch (githubError) {
-      console.warn('⚠️ [HAUPTQUELLE] GitHub n8n_news.json Fehler:', githubError.message);
+      console.warn('⚠️ [SCHRITT 1] GitHub n8n_news.json Fehler:', githubError.message);
+    }
+    
+    // ===== SCHRITT 2: n8n Webhook (Fallback wenn GitHub leer) =====
+    if (!githubSuccess || news.length < 3) {
+      try {
+        const webhookUrl = 'https://n8n2.kortex-system.de/webhook/ai-news-feed';
+        console.log('🔄 [SCHRITT 2] Lade News vom n8n Webhook...', webhookUrl);
+        
+        const webhookResponse = await fetch(webhookUrl, {
+          method: 'GET',
+          headers: { 'Accept': 'application/json' },
+          cache: 'no-cache',
+          signal: AbortSignal.timeout(8000) // 8 Sekunden Timeout für Webhook
+        });
+        
+        if (webhookResponse.ok) {
+          const webhookData = await webhookResponse.json();
+          
+          if (webhookData && Array.isArray(webhookData) && webhookData.length > 0) {
+            const now = Date.now();
+            const validWebhookNews = webhookData
+              .filter(item => {
+                if (!item.title || !item.link) return false;
+                if (!item.date && !item.pubDate) return false;
+                const itemDate = new Date(item.date || item.pubDate).getTime();
+                const age = now - itemDate;
+                return age <= maxAge && age >= 0;
+              })
+              .map(async item => {
+                const itemLang = item.language || 'en';
+                
+                if (itemLang !== lang && item.title) {
+                  try {
+                    const titleTranslated = await translateText(item.title, itemLang, lang);
+                    const descTranslated = await translateText(item.description || '', itemLang, lang);
+                    
+                    return {
+                      title: titleTranslated || item.title.trim(),
+                      description: descTranslated || (item.description || ''),
+                      link: item.link.trim(),
+                      date: item.date || item.pubDate || new Date().toISOString(),
+                      source: item.source || 'n8n Webhook',
+                      category: item.category || 'ai-news',
+                      language: lang
+                    };
+                  } catch (e) {
+                    console.warn('⚠️ Übersetzungsfehler:', e.message);
+                  }
+                }
+                
+                return {
+                  title: item.title.trim(),
+                  description: item.description || '',
+                  link: item.link.trim(),
+                  date: item.date || item.pubDate || new Date().toISOString(),
+                  source: item.source || 'n8n Webhook',
+                  category: item.category || 'ai-news',
+                  language: itemLang === lang ? lang : itemLang
+                };
+              });
+            
+            const translatedWebhookNews = await Promise.all(validWebhookNews);
+            const validTranslatedWebhookNews = translatedWebhookNews.filter(item => item && item.title && item.link);
+            
+            if (validTranslatedWebhookNews.length > 0) {
+              console.log(`✅ [SCHRITT 2] n8n Webhook: ${validTranslatedWebhookNews.length} News geladen (${lang})`);
+              news.push(...validTranslatedWebhookNews);
+            }
+          }
+        }
+      } catch (webhookError) {
+        console.warn('⚠️ [SCHRITT 2] n8n Webhook Fehler:', webhookError.message);
+      }
+    }
+    
+    // ===== SCHRITT 3: RSS-Feed Fallback (nur wenn zu wenige News) =====
+    if (news.length < 3) {
+      console.log('🔄 [SCHRITT 3] Zu wenige News - lade RSS-Feeds als Fallback...');
+      const rssFeeds = [
+        { url: 'https://research.google/blog/rss/', source: 'Google AI' },
+        { url: 'https://openai.com/news/rss.xml', source: 'OpenAI' },
+        { url: 'https://the-decoder.de/feed/', source: 'The Decoder' }
+      ];
+      
+      for (const feed of rssFeeds) {
+        try {
+          const rssResponse = await fetch(feed.url, {
+            method: 'GET',
+            cache: 'no-cache',
+            signal: AbortSignal.timeout(5000)
+          });
+          
+          if (rssResponse.ok) {
+            const rssText = await rssResponse.text();
+            const rssNews = parseRSSFeed(rssText, feed.source);
+            
+            if (rssNews.length > 0) {
+              news.push(...rssNews);
+              console.log(`✅ [SCHRITT 3] RSS Feed ${feed.source}: ${rssNews.length} News geladen`);
+            }
+          }
+        } catch (rssError) {
+          console.warn(`⚠️ [SCHRITT 3] RSS Feed ${feed.source} Fehler:`, rssError.message);
+        }
+        
+        // Stoppe wenn genug News vorhanden
+        if (news.length >= 5) break;
+      }
     }
     
     // ===== STATISCHER FALLBACK: Statische Fallback-News (nur wenn keine echten News vorhanden) =====
