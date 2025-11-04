@@ -1,4 +1,105 @@
 {
-  "lastUpdated": "2025-11-04T09:48:02.515Z",
-  "news": []
+  "lastUpdated": "2025-11-04T09:48:03.604Z",
+  "news": [
+    {
+      "title": "Gesucht: News-Redakteur (w/m/d) für Künstliche Intelligenz",
+      "description": "Wir suchen einen erfahrenen News-Redakteur (m/w/d) mit Fokus auf Künstliche Intelligenz, der sich täglich mit dem Thema auseinandersetzt und sein Handwerk sicher beherrscht.\nDer Artikel Gesucht: News-",
+      "link": "https://the-decoder.de/gesucht-news-redakteur-w-m-d-fuer-kuenstliche-intelligenz/",
+      "date": "2025-11-03T20:22:03.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de",
+      "triggerType": "unknown"
+    },
+    {
+      "title": "OpenAI und Amazon Web Services (AWS) kündigen 38-Milliarden-Dollar-Kooperation an",
+      "description": "OpenAI nutzt künftig die Infrastruktur von Amazon Web Services (AWS), um seine KI-Modelle zu betreiben und weiterzuentwickeln. Die Partnerschaft hat ein Volumen von 38 Milliarden US-Dollar und läuft ü",
+      "link": "https://the-decoder.de/openai-und-amazon-web-services-aws-kuendigen-38-milliarden-dollar-kooperation-an/",
+      "date": "2025-11-03T19:55:10.000Z",
+      "source": "The Decoder",
+      "category": "dienstleister-tools",
+      "language": "de",
+      "triggerType": "unknown"
+    },
+    {
+      "title": "Huxley-Gödel Machine: KI-Agent verbessert sich selbst durch Code-Optimierung",
+      "description": "Ein Forschungsteam der King Abdullah University of Science and Technology (KAUST) hat mit der \"Huxley-Gödel Machine\" (HGM) ein System entwickelt, das Prinzipien der Selbstverbesserung in Softwareagent",
+      "link": "https://the-decoder.de/huxley-goedel-machine-ki-agent-verbessert-sich-selbst-durch-code-optimierung/",
+      "date": "2025-11-03T15:49:43.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de",
+      "triggerType": "unknown"
+    },
+    {
+      "title": "OpenAIs und Microsofts AGI-Theater steckt voller Widersprüche",
+      "description": "Vergangene Woche haben Microsoft und OpenAI angekündigt, selbst festlegen zu wollen, wann sogenannte AGI (Artificial General Intelligence) erreicht ist, und anschließend ein Expertengremium einzuberuf",
+      "link": "https://the-decoder.de/das-agi-gekluengel-von-microsoft-und-openai-ist-wasser-auf-die-muehlen-der-ki-hype-kritiker/",
+      "date": "2025-11-03T14:30:36.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de",
+      "triggerType": "unknown"
+    },
+    {
+      "title": "Udio-Nutzer verärgert über Universal-Deal: KI-Songs dürfen nicht mehr exportiert werden",
+      "description": "Das KI-Musik-Start-up Udio hat kürzlich eine Einigung mit der Universal Music Group erzielt - doch die Nutzer sind über die daraus resultierenden, teilweise starken Einschränkungen verärgert.\nDer Arti",
+      "link": "https://the-decoder.de/udio-nutzer-veraergert-ueber-universal-deal-ki-songs-duerfen-nicht-mehr-exportiert-werden/",
+      "date": "2025-11-03T11:08:17.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de",
+      "triggerType": "unknown"
+    },
+    {
+      "title": "OpenAI-Chef Altman kontert Finanz-Kritiker: \"Umsatz liegt deutlich über 13 Milliarden\"",
+      "description": "OpenAI steht unter Druck: 13 Milliarden Dollar Umsatz, aber Verpflichtungen in Billionenhöhe. CEO Sam Altman reagiert ungehalten auf die kritische Nachfrage eines Investors und schlägt vor, dieser kön",
+      "link": "https://the-decoder.de/openai-chef-altman-kontert-finanz-kritiker-umsatz-liegt-deutlich-ueber-13-milliarden/",
+      "date": "2025-11-02T16:32:57.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de",
+      "triggerType": "unknown"
+    },
+    {
+      "title": "OpenAIs Atlas-Browser hebelt NYT-Sperre mit Content-Tricks aus",
+      "description": "OpenAIs neuer Browser \"Atlas\" liefert trotz Sperren Inhalte zu Artikeln von Medien wie der New York Times oder PCMag, aber ohne sie direkt zu zitieren. Stattdessen greift die KI auf (lizenzierte) Alte",
+      "link": "https://the-decoder.de/openais-atlas-browser-hebelt-nyt-sperre-mit-content-tricks-aus/",
+      "date": "2025-11-02T14:59:27.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de",
+      "triggerType": "unknown"
+    },
+    {
+      "title": "Studie: Selbstreferenz triggert Bewusstseinsbehauptungen in großen Sprachmodellen",
+      "description": "Große Sprachmodelle wie GPT oder Claude machen gelegentlich Aussagen, die Bewusstsein oder subjektives Erleben suggerieren. Ein Forschungsteam hat nun untersucht, unter welchen Bedingungen dieses Verh",
+      "link": "https://the-decoder.de/studie-selbstreferenz-triggert-bewusstseinsbehauptungen-in-grossen-sprachmodellen/",
+      "date": "2025-11-02T10:57:32.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de",
+      "triggerType": "unknown"
+    },
+    {
+      "title": "Skyfall-GS verwandelt Satellitenbilder in begehbare 3D-Städte",
+      "description": "Forschende haben eine KI-Methode entwickelt, die aus normalen Satellitenbildern begehbare 3D-Städte generiert. Das System namens Skyfall-GS soll erstmals immersive Stadtmodelle nur aus Luftaufnahmen e",
+      "link": "https://the-decoder.de/skyfall-gs-verwandelt-satellitenbilder-in-begehbare-3d-staedte/",
+      "date": "2025-11-02T08:41:15.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de",
+      "triggerType": "unknown"
+    },
+    {
+      "title": "KI-Text-Detektor Pangram erkennt laut Studie Maschinentexte fast perfekt",
+      "description": "Eine Untersuchung der University of Chicago offenbart erhebliche Leistungsunterschiede zwischen kommerziellen KI-Erkennungstools. Während ein Detektor nahezu perfekte Ergebnisse erzielt, zeigen andere",
+      "link": "https://the-decoder.de/ki-text-detektor-pangram-erkennt-laut-studie-maschinentexte-fast-perfekt/",
+      "date": "2025-11-02T08:13:32.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de",
+      "triggerType": "unknown"
+    }
+  ]
 }
