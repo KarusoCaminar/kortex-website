@@ -636,11 +636,10 @@
     const news = [];
     const lang = window.i18n?.getCurrentLanguage() || 'de';
     const maxAge = 30 * 24 * 60 * 60 * 1000; // 30 Tage
-    const fallbackTimeout = 12 * 60 * 60 * 1000; // 12 Stunden - Fallback wenn n8n länger als 12h keine Daten hat
     
-    // ===== SCHRITT 1: GitHub n8n_news.json (HAUPTQUELLE) =====
-    // GitHub n8n_news.json wird vom n8n Cron-Workflow alle 2 Stunden aktualisiert
-    // Diese Datei ist die Hauptquelle, da sie zuverlässig funktioniert
+    // ===== EINZIGE QUELLE: GitHub n8n_news.json =====
+    // GitHub n8n_news.json wird vom n8n Cron-Workflow regelmäßig aktualisiert
+    // Diese Datei ist die einzige Quelle - keine Webhooks oder RSS-Feeds mehr
     let githubSuccess = false;
     try {
       const githubNewsUrl = 'https://raw.githubusercontent.com/KarusoCaminar/kortex-website/main/n8n_news.json';
@@ -707,217 +706,32 @@
             console.log(`✅ [HAUPTQUELLE] GitHub n8n_news.json: ${validTranslatedGithubNews.length} News geladen und übersetzt (${lang})`);
             news.push(...validTranslatedGithubNews);
             githubSuccess = true;
-            
-            if (validTranslatedGithubNews.length >= 3) {
-              console.log(`✅ Genug News von GitHub (${validTranslatedGithubNews.length}) - nutze als Hauptquelle`);
-              // Weiter zu Schritt 2 (n8n Webhook als zusätzliche Quelle, optional)
-            } else {
-              console.log(`⚠️ Nur ${validTranslatedGithubNews.length} News von GitHub (< 3) - lade zusätzlich n8n Webhook`);
-            }
           } else {
-            console.warn('⚠️ [HAUPTQUELLE] GitHub n8n_news.json hat keine gültigen News - lade n8n Webhook');
+            console.warn('⚠️ [HAUPTQUELLE] GitHub n8n_news.json hat keine gültigen News');
           }
         } else {
-          console.warn('⚠️ [HAUPTQUELLE] GitHub n8n_news.json hat keine News-Daten - lade n8n Webhook');
+          console.warn('⚠️ [HAUPTQUELLE] GitHub n8n_news.json hat keine News-Daten');
         }
       } else {
-        console.warn(`⚠️ [HAUPTQUELLE] GitHub n8n_news.json nicht verfügbar (${githubResponse.status}) - lade n8n Webhook`);
+        console.warn(`⚠️ [HAUPTQUELLE] GitHub n8n_news.json nicht verfügbar (${githubResponse.status})`);
       }
     } catch (githubError) {
-      console.warn('⚠️ [HAUPTQUELLE] GitHub n8n_news.json Fehler:', githubError.message, '- lade n8n Webhook');
+      console.warn('⚠️ [HAUPTQUELLE] GitHub n8n_news.json Fehler:', githubError.message);
     }
     
-    // ===== SCHRITT 2: n8n Webhook (ZUSÄTZLICHE QUELLE) - nur wenn GitHub zu wenige News liefert =====
-    // n8n Webhook wird als zusätzliche Quelle geladen wenn:
-    // - GitHub zu wenige News liefert (< 3 News)
-    // Oder optional: Parallel laden für frischere News
-    let n8nSuccess = false;
-    if (!githubSuccess || news.length < 3) {
-      try {
-        const n8nNewsUrl = 'https://n8n2.kortex-system.de/webhook/ai-news-feed';
-        console.log('🔄 [ZUSÄTZLICH] Lade n8n Webhook...', n8nNewsUrl);
-        
-        const n8nResponse = await fetch(n8nNewsUrl, {
-          method: 'GET',
-          headers: { 'Accept': 'application/json' },
-          cache: 'no-cache',
-          signal: AbortSignal.timeout(5000) // 5 Sekunden Timeout
-        });
-        
-        console.log('📡 n8n Response Status:', n8nResponse.status, n8nResponse.statusText);
-        
-        if (n8nResponse.ok) {
-          const responseText = await n8nResponse.text();
-          
-          if (!responseText || responseText.trim().length === 0) {
-            console.warn('⚠️ n8n Response ist LEER - nutze nur GitHub News');
-          } else {
-            let n8nData;
-            try {
-              n8nData = JSON.parse(responseText);
-            } catch (parseError) {
-              console.warn('⚠️ n8n Response ist kein gültiges JSON:', parseError.message);
-            }
-            
-            if (n8nData && Array.isArray(n8nData) && n8nData.length > 0) {
-              const now = Date.now();
-              const validNews = n8nData
-                .filter(item => {
-                  if (!item.title || !item.link) return false;
-                  if (!item.date && !item.pubDate) return false;
-                  const itemDate = new Date(item.date || item.pubDate).getTime();
-                  const age = now - itemDate;
-                  return age <= maxAge && age >= 0;
-                })
-                .map(async item => {
-                  const itemLang = item.language || 'en';
-                  
-                  if (itemLang !== lang && item.title) {
-                    try {
-                      const titleTranslated = await translateText(item.title, itemLang, lang);
-                      const descTranslated = await translateText(item.description || '', itemLang, lang);
-                      
-                      return {
-                        title: titleTranslated || item.title.trim(),
-                        description: descTranslated || (item.description || ''),
-                        link: item.link.trim(),
-                        date: item.date || item.pubDate || new Date().toISOString(),
-                        source: item.source || 'n8n Webhook',
-                        category: item.category || 'ai-news',
-                        language: lang
-                      };
-                    } catch (e) {
-                      console.warn('⚠️ Übersetzungsfehler:', e.message);
-                    }
-                  }
-                  
-                  return {
-                    title: item.title.trim(),
-                    description: item.description || '',
-                    link: item.link.trim(),
-                    date: item.date || item.pubDate || new Date().toISOString(),
-                    source: item.source || 'n8n Webhook',
-                    category: item.category || 'ai-news',
-                    language: itemLang === lang ? lang : itemLang
-                  };
-                });
-              
-              const translatedNews = await Promise.all(validNews);
-              const validTranslatedNews = translatedNews.filter(item => item && item.title && item.link);
-              
-              if (validTranslatedNews.length > 0) {
-                console.log(`✅ [ZUSÄTZLICH] n8n Webhook: ${validTranslatedNews.length} News geladen (${lang})`);
-                news.push(...validTranslatedNews);
-                n8nSuccess = true;
-              }
-            }
-          }
-        }
-      } catch (n8nError) {
-        console.warn('⚠️ n8n Webhook Fehler:', n8nError.message, '- nutze nur GitHub News');
-      }
-    }
-    
-    // ===== SCHRITT 3: RSS-Feed Fallback (nur wenn GitHub und n8n zu wenige News liefern) =====
-    // RSS-Feeds werden NUR als Fallback geladen wenn:
-    // - GitHub zu wenige News liefert (< 3 News)
-    // - n8n Webhook fehlschlägt oder zu wenige News liefert
-    if (!githubSuccess || news.length < 3) {
-      console.log('🔄 [FALLBACK] Lade direkte RSS-Feeds (nur bei GitHub/n8n Fehler oder zu wenigen News)');
-      
-      // RSS Feed Quellen für Fallback
-      // HINWEIS: Diese werden nur geladen wenn n8n nicht verfügbar ist
-      const rssFeeds = [
-        {
-          url: 'https://blog.n8n.io/rss.xml',
-          source: 'n8n Blog',
-          category: 'workflow-tools',
-          corsFriendly: true // Einziger CORS-freundlicher Feed
-        }
-        // Alle anderen Feeds haben CORS-Probleme und sollten über n8n geladen werden
-        // Diese sind nur als letzter Fallback definiert
-      ];
-      
-      // Versuche CORS-freundliche Feeds direkt zu laden
-      const feedPromises = rssFeeds
-        .filter(feed => feed.corsFriendly === true)
-        .map(async (feed) => {
-          try {
-            const response = await fetch(feed.url, {
-              method: 'GET',
-              headers: { 'Accept': 'application/rss+xml, application/xml, text/xml' },
-              mode: 'cors',
-              signal: AbortSignal.timeout(5000) // 5 Sekunden Timeout
-            });
-            
-            if (response.ok) {
-              const xmlText = await response.text();
-              const feedNews = parseRSSFeed(xmlText, feed.source, 5);
-              
-              const now = Date.now();
-              const recentNews = feedNews.filter(item => {
-                const itemDate = new Date(item.date).getTime();
-                const age = now - itemDate;
-                return age <= maxAge && age >= 0;
-              });
-              
-              // Übersetze RSS Fallback News nach aktueller Sprache
-              const translatedFeedNews = await Promise.all(recentNews.map(async item => {
-                const itemLang = item.language || 'en';
-                if (itemLang !== lang && item.title) {
-                  try {
-                    const titleTranslated = await translateText(item.title, itemLang, lang);
-                    const descTranslated = await translateText(item.description || '', itemLang, lang);
-                    return {
-                      ...item,
-                      title: titleTranslated || item.title,
-                      description: descTranslated || item.description || '',
-                      language: lang
-                    };
-                  } catch (e) {
-                    console.warn('⚠️ Übersetzungsfehler für RSS Feed:', e.message);
-                  }
-                }
-                return {
-                  ...item,
-                  language: itemLang === lang ? lang : itemLang
-                };
-              }));
-              
-              if (translatedFeedNews.length > 0) {
-                console.log(`✅ [FALLBACK] ${feed.source}: ${translatedFeedNews.length} News geladen und übersetzt (${lang})`);
-              }
-              
-              return translatedFeedNews;
-            }
-          } catch (e) {
-            console.warn(`⚠️ [FALLBACK] Fehler beim Laden von ${feed.source}:`, e.message);
-          }
-          return [];
-        });
-      
-      const feedResults = await Promise.allSettled(feedPromises);
-      feedResults.forEach((result) => {
-        if (result.status === 'fulfilled' && Array.isArray(result.value) && result.value.length > 0) {
-          news.push(...result.value);
-        }
-      });
-    }
-    
-    // ===== SCHRITT 4: Statische Fallback-News (nur wenn keine echten News vorhanden) =====
+    // ===== STATISCHER FALLBACK: Statische Fallback-News (nur wenn keine echten News vorhanden) =====
     // Nur hinzufügen wenn weniger als 3 echte Nachrichten vorhanden sind
-    // WICHTIG: Diese News werden NUR angezeigt wenn GitHub, n8n und RSS-Feeds fehlschlagen
+    // WICHTIG: Diese News werden NUR angezeigt wenn GitHub n8n_news.json fehlschlägt
     console.log(`📊 [DEBUG] Final News Count vor Fallback:`, {
       total: news.length,
       githubSuccess: githubSuccess,
-      n8nSuccess: n8nSuccess,
       lang: lang,
       willAddFallback: news.length < 3
     });
     
     if (news.length < 3) {
       console.warn(`⚠️ Nur ${news.length} echte News gefunden (< 3) - füge Fallback-News hinzu`);
-      console.warn(`📋 [DEBUG] GitHub Success: ${githubSuccess}, n8n Success: ${n8nSuccess}, News Count: ${news.length}`);
+      console.warn(`📋 [DEBUG] GitHub Success: ${githubSuccess}, News Count: ${news.length}`);
       const aitoolsNews = [
         {
           title: lang === 'de' ? 'Fireflies AI: Meeting-Transkription & Analyse' : 'Fireflies AI: Meeting Transcription & Analysis',
@@ -1047,7 +861,6 @@
       })),
       lang: lang,
       githubSuccess: githubSuccess,
-      n8nSuccess: n8nSuccess,
       cacheUsed: !forceRefresh && localStorage.getItem('ai-news-cache') ? 'JA (aus Cache)' : 'NEIN (frisch geladen)'
     });
     

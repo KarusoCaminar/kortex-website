@@ -5,8 +5,6 @@ import { storage } from "./storage";
 import { extractInvoiceData, validateGermanVatId } from "./gemini-vertex";
 import type { InsertInvoice } from "@shared/schema";
 import pdfParse from "pdf-parse";
-import { db } from "./db";
-import { sql } from "drizzle-orm";
 
 const upload = multer({
   storage: multer.memoryStorage(),
@@ -136,13 +134,9 @@ export async function registerRoutes(app: Express): Promise<Server> {
     }
   });
 
-  // Upload and process invoice
+  // Upload and process invoice (SYNCHRONOUS - waits for complete processing)
   app.post("/api/invoices/upload", upload.single("file"), async (req, res) => {
     try {
-      // Clean up old invoices before uploading new one
-      const twentyFourHoursAgo = new Date(Date.now() - 24 * 60 * 60 * 1000);
-      await db.execute(sql`DELETE FROM invoices WHERE created_at < ${twentyFourHoursAgo}`);
-      
       if (!req.file) {
         return res.status(400).send("Keine Datei hochgeladen");
       }
@@ -172,63 +166,63 @@ export async function registerRoutes(app: Express): Promise<Server> {
 
       const invoice = await storage.createInvoice(invoiceData);
 
-      // Process extraction asynchronously
-      setImmediate(async () => {
-        try {
-          // Extract data using Vertex AI Gemini 2.5 Flash
-          const extractedData = await extractInvoiceData(fileData, file.mimetype);
+      try {
+        // Extract data using Vertex AI Gemini 2.5 Flash (SYNCHRONOUS - waits for completion)
+        const extractedData = await extractInvoiceData(fileData, file.mimetype);
 
-          // Validate German VAT ID if present
-          let vatValidated = null;
-          if (extractedData.supplierVatId) {
-            vatValidated = validateGermanVatId(extractedData.supplierVatId) ? "valid" : "invalid";
-          }
-
-          // Update invoice with extracted data
-          await storage.updateInvoice(invoice.id, {
-            status: "completed",
-            invoiceNumber: extractedData.invoiceNumber || null,
-            invoiceDate: extractedData.invoiceDate || null,
-            supplierName: extractedData.supplierName || null,
-            supplierAddress: extractedData.supplierAddress || null,
-            supplierVatId: extractedData.supplierVatId || null,
-            subtotal: extractedData.subtotal || null,
-            vatRate: extractedData.vatRate || null,
-            vatAmount: extractedData.vatAmount || null,
-            totalAmount: extractedData.totalAmount || null,
-            lineItems: extractedData.lineItems || null,
-            vatValidated: vatValidated,
-          });
-
-          console.log(`Invoice ${invoice.id} processed successfully`);
-        } catch (error) {
-          console.error(`Error processing invoice ${invoice.id}:`, error);
-          
-          // Provide user-friendly error messages
-          let userMessage = "Unbekannter Fehler bei der Verarbeitung";
-          if (error instanceof Error) {
-            if (error.message.includes("quota") || error.message.includes("limit")) {
-              userMessage = "API-Limit erreicht. Bitte versuchen Sie es später erneut.";
-            } else if (error.message.includes("credentials") || error.message.includes("authentication")) {
-              userMessage = "Authentifizierung fehlgeschlagen. Bitte kontaktieren Sie den Support.";
-            } else if (error.message.includes("timeout")) {
-              userMessage = "Zeitüberschreitung. Bitte versuchen Sie es erneut.";
-            } else if (error.message.includes("network") || error.message.includes("ECONNREFUSED")) {
-              userMessage = "Netzwerkfehler. Bitte überprüfen Sie Ihre Verbindung.";
-            } else {
-              userMessage = `Verarbeitung fehlgeschlagen: ${error.message}`;
-            }
-          }
-          
-          await storage.updateInvoice(invoice.id, {
-            status: "error",
-            errorMessage: userMessage,
-          });
+        // Validate German VAT ID if present
+        let vatValidated = null;
+        if (extractedData.supplierVatId) {
+          vatValidated = validateGermanVatId(extractedData.supplierVatId) ? "valid" : "invalid";
         }
-      });
 
-      // Return immediately with processing status
-      res.json(invoice);
+        // Update invoice with extracted data (SYNCHRONOUS)
+        const updatedInvoice = await storage.updateInvoice(invoice.id, {
+          status: "completed",
+          invoiceNumber: extractedData.invoiceNumber || null,
+          invoiceDate: extractedData.invoiceDate || null,
+          supplierName: extractedData.supplierName || null,
+          supplierAddress: extractedData.supplierAddress || null,
+          supplierVatId: extractedData.supplierVatId || null,
+          subtotal: extractedData.subtotal || null,
+          vatRate: extractedData.vatRate || null,
+          vatAmount: extractedData.vatAmount || null,
+          totalAmount: extractedData.totalAmount || null,
+          lineItems: extractedData.lineItems || null,
+          vatValidated: vatValidated,
+        });
+
+        console.log(`Invoice ${invoice.id} processed successfully`);
+        
+        // Return final invoice with completed status
+        res.json(updatedInvoice || invoice);
+      } catch (error) {
+        console.error(`Error processing invoice ${invoice.id}:`, error);
+        
+        // Provide user-friendly error messages
+        let userMessage = "Unbekannter Fehler bei der Verarbeitung";
+        if (error instanceof Error) {
+          if (error.message.includes("quota") || error.message.includes("limit")) {
+            userMessage = "API-Limit erreicht. Bitte versuchen Sie es später erneut.";
+          } else if (error.message.includes("credentials") || error.message.includes("authentication")) {
+            userMessage = "Authentifizierung fehlgeschlagen. Bitte kontaktieren Sie den Support.";
+          } else if (error.message.includes("timeout")) {
+            userMessage = "Zeitüberschreitung. Bitte versuchen Sie es erneut.";
+          } else if (error.message.includes("network") || error.message.includes("ECONNREFUSED")) {
+            userMessage = "Netzwerkfehler. Bitte überprüfen Sie Ihre Verbindung.";
+          } else {
+            userMessage = `Verarbeitung fehlgeschlagen: ${error.message}`;
+          }
+        }
+        
+        const errorInvoice = await storage.updateInvoice(invoice.id, {
+          status: "error",
+          errorMessage: userMessage,
+        });
+
+        // Return error invoice
+        res.json(errorInvoice || invoice);
+      }
     } catch (error) {
       console.error("Error uploading invoice:", error);
       res.status(500).send(error instanceof Error ? error.message : "Fehler beim Hochladen");

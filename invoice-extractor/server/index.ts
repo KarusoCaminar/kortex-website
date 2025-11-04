@@ -1,56 +1,19 @@
 import express, { type Request, Response, NextFunction } from "express";
 import { registerRoutes } from "./routes";
 import { setupVite, serveStatic, log } from "./vite";
-import { db } from "./db";
-import { sql } from "drizzle-orm";
 
 const app = express();
 
-// Auto-initialize database tables on startup
-async function initializeDatabase() {
-  try {
-    log("🔄 Checking database connection...");
-    await db.execute(sql`SELECT 1`);
-    log("✅ Database connected successfully");
-    
-    // Run migrations automatically
-    log("🔄 Running database migrations...");
-    const { execSync } = await import('child_process');
-    execSync('npm run db:push', { stdio: 'inherit' });
-    log("✅ Database migrations completed");
-    
-    // Clean up old invoices (older than 24 hours)
-    await cleanupOldInvoices();
-  } catch (error) {
-    log(`⚠️ Database initialization warning: ${error}`);
-    log("⚠️ Continuing startup, but database may need manual setup");
-  }
-}
-
-// Delete invoices older than 24 hours
-async function cleanupOldInvoices() {
-  try {
-    log("🔄 Cleaning up old invoices...");
-    const twentyFourHoursAgo = new Date(Date.now() - 24 * 60 * 60 * 1000);
-    const result = await db.execute(sql`
-      DELETE FROM invoices 
-      WHERE created_at < ${twentyFourHoursAgo}
-    `);
-    log(`✅ Cleaned up old invoices (${result.rowCount || 0} deleted)`);
-  } catch (error) {
-    log(`⚠️ Cleanup warning: ${error}`);
-  }
-}
-
-// Auto-delete all invoices every hour (for privacy)
+// Auto-delete all invoices every 30 minutes (for privacy)
+// This removes user-uploaded invoices but keeps the 4 demo invoices
 async function setupAutoDeleteJob() {
   const { storage } = await import("./storage");
   
-  // Run every hour (3600000 ms) - NOT on startup
+  // Run every 30 minutes - removes user-uploaded invoices, keeps demo invoices
   setInterval(async () => {
     try {
       const deletedCount = await storage.deleteAllInvoices();
-      log(`🗑️ Auto-delete (30min): Deleted all invoices (${deletedCount} invoices removed)`);
+      log(`🗑️ Auto-delete (30min): Deleted user-uploaded invoices (${deletedCount} invoices removed, 4 demo invoices preserved)`);
     } catch (error) {
       log(`⚠️ Auto-delete error: ${error}`);
     }
@@ -126,11 +89,10 @@ app.use((req, res, next) => {
 });
 
 (async () => {
-  // Initialize database first
-  await initializeDatabase();
-  
-  // Setup auto-delete job (every hour)
+  // Setup auto-delete job (every 30 minutes)
   await setupAutoDeleteJob();
+  
+  log("✅ In-Memory Storage initialized with 4 demo invoices");
   
   const server = await registerRoutes(app);
 
