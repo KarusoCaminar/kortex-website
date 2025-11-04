@@ -1,14 +1,4 @@
 ={
-  "lastUpdated": "2025-11-04T21:53:27.677Z",
-  "news": [
-    {
-      "title": "Introducing IndQA",
-      "description": "OpenAI introduces IndQA, a new benchmark for evaluating AI systems in Indian languages. Built with domain experts, IndQA tests cultural understanding and reasoning across 12 languages and 10 knowledge",
-      "link": "https://openai.com/index/introducing-indqa",
-      "date": "2025-11-03T22:30:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    }
-  ]
+  "lastUpdated": "2025-11-04T21:53:29.082Z",
+  "news": []
 }
