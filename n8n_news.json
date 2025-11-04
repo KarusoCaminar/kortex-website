@@ -1,4 +1,95 @@
 ={
-  "lastUpdated": "2025-11-04T20:32:57.617Z",
-  "news": []
+  "lastUpdated": "2025-11-04T20:32:58.925Z",
+  "news": [
+    {
+      "title": "OpenAI launcht Sora-App für Android: KI-Videos mit Sound und eigenen Charakteren",
+      "description": "OpenAI bringt mit Sora 2 ein neues KI-Modell zur Video- mit Audiogenerierung auf den Markt. Jetzt gibt's auch eine Android-App.\nDer Artikel OpenAI launcht Sora-App für Android: KI-Videos mit Sound und",
+      "link": "https://the-decoder.de/openai-launcht-sora-app-fuer-android-ki-videos-mit-sound-und-eigenen-charakteren/",
+      "date": "2025-11-04T20:07:42.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Telekom-KI-Cloud steigert KI-Rechenleistung in Deutschland angeblich um 50 Prozent",
+      "description": "Die Deutsche Telekom und Nvidia starten in München die Industrial AI Cloud, eine der größten KI-Infrastrukturen Europas.\nDer Artikel Telekom-KI-Cloud steigert KI-Rechenleistung in Deutschland angeblic",
+      "link": "https://the-decoder.de/telekom-ki-cloud-steigert-ki-rechenleistung-in-deutschland-angeblich-um-50-prozent/",
+      "date": "2025-11-04T19:39:25.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Arxiv verschärft Regeln für CS-Paper wegen Flut von KI-generierten Inhalten",
+      "description": "Die Preprint-Plattform Arxiv kämpft mit einer Flut an Übersichtsartikeln, die oft von KI generiert werden. Für die Kategorie Informatik gilt daher ab sofort eine neue, strengere Moderationspraxis.\nDer",
+      "link": "https://the-decoder.de/arxiv-verschaerft-regeln-fuer-cs-paper-wegen-flut-von-ki-generierten-inhalten/",
+      "date": "2025-11-04T14:20:59.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Microsoft investiert fast 8 Milliarden Dollar in KI- und Cloud-Infrastruktur in den Emiraten",
+      "description": "Microsoft baut seine Präsenz im Nahen Osten weiter aus. Bis 2029 will der Konzern Milliarden in Rechenzentren, Chips und Fachkräfte in den Vereinigten Arabischen Emiraten investieren – trotz geopoliti",
+      "link": "https://the-decoder.de/microsoft-investiert-fast-8-milliarden-dollar-in-ki-und-cloud-infrastruktur-in-den-emiraten/",
+      "date": "2025-11-04T13:16:14.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Coca-Cola setzt bei Weihnachtswerbung auch dieses Jahr wieder auf KI",
+      "description": "Coca-Cola nutzt in diesem Jahr erneut künstliche Intelligenz für seine weltweiten Weihnachtswerbespots „Holidays Are Coming“.\nDer Artikel Coca-Cola setzt bei Weihnachtswerbung auch dieses Jahr wieder",
+      "link": "https://the-decoder.de/coca-cola-setzt-bei-weihnachtswerbung-auch-dieses-jahr-wieder-auf-ki/",
+      "date": "2025-11-04T13:12:00.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Trump-Regierung torpediert Nvidias Pläne für KI-Chip-Exporte nach China",
+      "description": "Kurz vor einem Treffen zwischen US-Präsident Trump und Chinas Staatschef Xi Jinping verhinderten hochrangige Berater eine mögliche Lockerung der Exportbeschränkungen für Nvidias neueste KI-Chips. CEO",
+      "link": "https://the-decoder.de/trump-regierung-torpediert-nvidias-plaene-fuer-ki-chip-exporte-nach-china/",
+      "date": "2025-11-04T11:58:11.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "OpenAI widerspricht: ChatGPT gibt weiterhin rechtliche und medizinische Tipps",
+      "description": "Bei LinkedIn und Co. geht derzeit das Gerücht um, ChatGPT dürfe keine medizinischen oder rechtlichen Tipps mehr geben.\nDer Artikel OpenAI widerspricht: ChatGPT gibt weiterhin rechtliche und medizinisc",
+      "link": "https://the-decoder.de/openai-widerspricht-chatgpt-gibt-weiterhin-rechtliche-und-medizinische-tipps/",
+      "date": "2025-11-04T11:12:14.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Gesucht: News-Redakteur (w/m/d) für Künstliche Intelligenz",
+      "description": "Wir suchen einen erfahrenen News-Redakteur (m/w/d) mit Fokus auf Künstliche Intelligenz, der sich täglich mit dem Thema auseinandersetzt und sein Handwerk sicher beherrscht.\nDer Artikel Gesucht: News-",
+      "link": "https://the-decoder.de/gesucht-news-redakteur-w-m-d-fuer-kuenstliche-intelligenz/",
+      "date": "2025-11-03T20:22:03.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "OpenAI und Amazon Web Services (AWS) kündigen 38-Milliarden-Dollar-Kooperation an",
+      "description": "OpenAI nutzt künftig die Infrastruktur von Amazon Web Services (AWS), um seine KI-Modelle zu betreiben und weiterzuentwickeln. Die Partnerschaft hat ein Volumen von 38 Milliarden US-Dollar und läuft ü",
+      "link": "https://the-decoder.de/openai-und-amazon-web-services-aws-kuendigen-38-milliarden-dollar-kooperation-an/",
+      "date": "2025-11-03T19:55:10.000Z",
+      "source": "The Decoder",
+      "category": "dienstleister-tools",
+      "language": "de"
+    },
+    {
+      "title": "Huxley-Gödel Machine: KI-Agent verbessert sich selbst durch Code-Optimierung",
+      "description": "Ein Forschungsteam der King Abdullah University of Science and Technology (KAUST) hat mit der \"Huxley-Gödel Machine\" (HGM) ein System entwickelt, das Prinzipien der Selbstverbesserung in Softwareagent",
+      "link": "https://the-decoder.de/huxley-goedel-machine-ki-agent-verbessert-sich-selbst-durch-code-optimierung/",
+      "date": "2025-11-03T15:49:43.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    }
+  ]
 }
