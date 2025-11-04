@@ -275,7 +275,7 @@
     },
     {
       "parameters": {
-        "jsCode": "// Format for GitHub: Konvertiere News-Array zu n8n_news.json Format\nconst items = $input.all();\nconst news = items.map(item => item.json).filter(item => \n  item.title && \n  item.title !== 'Keine relevanten News gefunden.' && \n  item.link && \n  item.link !== ''\n);\n\n// Erstelle JSON-String für GitHub\nconst jsonData = {\n  lastUpdated: new Date().toISOString(),\n  news: news\n};\n\n// Gib als JSON-String zurück (für GitHub Node)\nreturn [{\n  json: {\n    content: JSON.stringify(jsonData, null, 2)\n  }\n}];"
+        "jsCode": "// Format for GitHub: Konvertiere News-Array zu n8n_news.json Format\nconst items = $input.all();\nconst news = items.map(item => item.json).filter(item => \n  item.title && \n  item.title !== 'Keine relevanten News gefunden.' && \n  item.link && \n  item.link !== ''\n);\n\n// Erstelle JSON-String für GitHub\nconst jsonData = {\n  lastUpdated: new Date().toISOString(),\n  news: news\n};\n\n// Gib als JSON-String zurück (für GitHub Node - OHNE führendes =)\nconst jsonString = JSON.stringify(jsonData, null, 2);\nreturn [{\n  json: {\n    content: jsonString\n  }\n}];"
       },
       "id": "format-github-1234-5678-9abc-def123456789",
       "name": "Format for GitHub",
@@ -293,7 +293,7 @@
         "file": {
           "filePath": "n8n_news.json"
         },
-        "content": "={{ $json.content }}",
+        "content": "{{ $json.content }}",
         "options": {
           "commitMessage": "docs: [AUTOMATED] Update AI news feed"
         }
