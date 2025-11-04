@@ -1,4 +1,113 @@
 ={
-  "lastUpdated": "2025-11-04T20:54:09.278Z",
-  "news": []
+  "lastUpdated": "2025-11-04T21:02:52.441Z",
+  "news": [
+    {
+      "title": "Exploring a space-based, scalable AI infrastructure system design",
+      "description": "General Science",
+      "link": "https://research.google/blog/exploring-a-space-based-scalable-ai-infrastructure-system-design/",
+      "date": "2025-11-04T16:58:00.000Z",
+      "source": "Google AI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
+      "title": "Accelerating the magic cycle of research breakthroughs and real-world applications",
+      "description": "Climate & Sustainability",
+      "link": "https://research.google/blog/accelerating-the-magic-cycle-of-research-breakthroughs-and-real-world-applications/",
+      "date": "2025-10-31T07:40:00.000Z",
+      "source": "Google AI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
+      "title": "Toward provably private insights into AI use",
+      "description": "Generative AI",
+      "link": "https://research.google/blog/toward-provably-private-insights-into-ai-use/",
+      "date": "2025-10-30T10:56:00.000Z",
+      "source": "Google AI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
+      "title": "StreetReaderAI: Towards making street view accessible via context-aware multimodal AI",
+      "description": "Generative AI",
+      "link": "https://research.google/blog/streetreaderai-towards-making-street-view-accessible-via-context-aware-multimodal-ai/",
+      "date": "2025-10-29T16:38:00.000Z",
+      "source": "Google AI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
+      "title": "How we are building the personal health coach",
+      "description": "Generative AI",
+      "link": "https://research.google/blog/how-we-are-building-the-personal-health-coach/",
+      "date": "2025-10-27T22:36:00.000Z",
+      "source": "Google AI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
+      "title": "Google Earth AI: Unlocking geospatial insights with foundation models and cross-modal reasoning",
+      "description": "Climate & Sustainability",
+      "link": "https://research.google/blog/google-earth-ai-unlocking-geospatial-insights-with-foundation-models-and-cross-modal-reasoning/",
+      "date": "2025-10-23T08:08:00.000Z",
+      "source": "Google AI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
+      "title": "A picture's worth a thousand (private) words: Hierarchical generation of coherent synthetic photo albums",
+      "description": "Generative AI",
+      "link": "https://research.google/blog/a-pictures-worth-a-thousand-private-words-hierarchical-generation-of-coherent-synthetic-photo-albums/",
+      "date": "2025-10-20T21:54:00.000Z",
+      "source": "Google AI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
+      "title": "Teaching Gemini to spot exploding stars with just a few examples",
+      "description": "General Science",
+      "link": "https://research.google/blog/teaching-gemini-to-spot-exploding-stars-with-just-a-few-examples/",
+      "date": "2025-10-20T09:19:00.000Z",
+      "source": "Google AI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
+      "title": "Solving virtual machine puzzles: How AI is optimizing cloud computing",
+      "description": "Algorithms & Theory",
+      "link": "https://research.google/blog/solving-virtual-machine-puzzles-how-ai-is-optimizing-cloud-computing/",
+      "date": "2025-10-17T17:56:35.000Z",
+      "source": "Google AI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
+      "title": "Using AI to identify genetic variants in tumors with DeepSomatic",
+      "description": "General Science",
+      "link": "https://research.google/blog/using-ai-to-identify-genetic-variants-in-tumors-with-deepsomatic/",
+      "date": "2025-10-16T16:33:00.000Z",
+      "source": "Google AI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
+      "title": "Coral NPU: A full-stack platform for Edge AI",
+      "description": "Generative AI",
+      "link": "https://research.google/blog/coral-npu-a-full-stack-platform-for-edge-ai/",
+      "date": "2025-10-15T13:07:00.000Z",
+      "source": "Google AI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
+      "title": "XR Blocks: Accelerating AI + XR innovation",
+      "description": "Generative AI",
+      "link": "https://research.google/blog/xr-blocks-accelerating-ai-xr-innovation/",
+      "date": "2025-10-09T09:56:00.000Z",
+      "source": "Google AI",
+      "category": "große-modelle",
+      "language": "en"
+    }
+  ]
 }
