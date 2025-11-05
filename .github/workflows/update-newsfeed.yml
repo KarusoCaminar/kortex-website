@@ -11,6 +11,9 @@ on:
     paths:
       - '.github/workflows/update-newsfeed.yml'
 
+permissions:
+  contents: write
+
 jobs:
   update-newsfeed:
     runs-on: ubuntu-latest
