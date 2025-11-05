@@ -36,6 +36,13 @@ export default function History() {
         credentials: "include",
       });
       
+      // Check if response is JSON before parsing
+      const contentType = res.headers.get("content-type");
+      if (!contentType || !contentType.includes("application/json")) {
+        const text = await res.text();
+        throw new Error(`Server returned ${res.status}: ${text.substring(0, 100)}`);
+      }
+      
       const data = await res.json();
       if (!res.ok) {
         throw new Error(data.message || data.error || "Fehler beim Löschen");
@@ -54,12 +61,15 @@ export default function History() {
     },
     onError: (error: any) => {
       const errorMessage = error.message || t("history.deleteErrorDescription");
-      // Check if it's a demo invoice error
-      if (errorMessage.includes("Demo-Rechnung") || errorMessage.includes("DEMO_INVOICE")) {
+      // Check if it's a demo invoice error (403 or specific error)
+      if (errorMessage.includes("Demo-Rechnung") || 
+          errorMessage.includes("DEMO_INVOICE") || 
+          errorMessage.includes("403") ||
+          errorMessage.includes("Forbidden")) {
         toast({
-          title: t("history.deleteError"),
-          description: "Demo-Rechnungen können nicht gelöscht werden. Sie werden automatisch wiederhergestellt.",
-          variant: "destructive",
+          title: "Demo-Rechnung",
+          description: "Demo-Rechnungen können nicht gelöscht werden. Sie dienen nur zur Demonstration.",
+          variant: "default", // Less alarming for demo invoices
         });
       } else {
         toast({
@@ -243,9 +253,16 @@ export default function History() {
                   <div className="flex-1 min-w-0">
                     <div className="flex items-start justify-between gap-4 mb-3">
                       <div>
-                        <h3 className="font-semibold text-base md:text-lg mb-1 truncate" data-testid={`text-invoice-number-${invoice.id}`}>
-                          {invoice.invoiceNumber || invoice.fileName}
-                        </h3>
+                        <div className="flex items-center gap-2 mb-1">
+                          <h3 className="font-semibold text-base md:text-lg truncate" data-testid={`text-invoice-number-${invoice.id}`}>
+                            {invoice.invoiceNumber || invoice.fileName}
+                          </h3>
+                          {invoice.id.startsWith("demo-") && (
+                            <Badge variant="outline" className="text-xs">
+                              Demo
+                            </Badge>
+                          )}
+                        </div>
                         {invoice.supplierName && (
                           <p className="text-sm text-muted-foreground">
                             {invoice.supplierName}

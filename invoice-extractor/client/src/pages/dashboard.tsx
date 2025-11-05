@@ -30,14 +30,19 @@ export default function Dashboard() {
     queryKey: ["/api/invoices"],
   });
 
+  // Filter out demo invoices for stats (only count user-uploaded invoices)
+  const userInvoices = invoices.filter((inv) => !inv.id.startsWith("demo-"));
+  const demoInvoices = invoices.filter((inv) => inv.id.startsWith("demo-"));
+
   const stats = {
-    total: invoices.length,
-    completed: invoices.filter((inv) => inv.status === "completed").length,
-    processing: invoices.filter((inv) => inv.status === "processing").length,
-    errors: invoices.filter((inv) => inv.status === "error").length,
+    total: userInvoices.length,
+    completed: userInvoices.filter((inv) => inv.status === "completed").length,
+    processing: userInvoices.filter((inv) => inv.status === "processing").length,
+    errors: userInvoices.filter((inv) => inv.status === "error").length,
   };
 
-  const totalAmount = invoices
+  // Only calculate total amount from user invoices (not demo invoices)
+  const totalAmount = userInvoices
     .filter((inv) => inv.totalAmount && inv.status === "completed")
     .reduce((sum, inv) => sum + parseFloat(inv.totalAmount || "0"), 0);
 
@@ -78,6 +83,14 @@ export default function Dashboard() {
         method: "DELETE",
         credentials: "include",
       });
+      
+      // Check if response is JSON before parsing
+      const contentType = res.headers.get("content-type");
+      if (!contentType || !contentType.includes("application/json")) {
+        const text = await res.text();
+        throw new Error(`Server returned ${res.status}: ${text.substring(0, 100)}`);
+      }
+      
       const data = await res.json();
       if (!res.ok) {
         throw new Error(data.message || data.error || "Fehler beim Löschen");
@@ -116,13 +129,13 @@ export default function Dashboard() {
           </p>
         </div>
         <div className="flex gap-2">
-          {stats.total === 0 && (
+          {stats.total === 0 && userInvoices.length === 0 && (
             <Button onClick={() => setLocation("/")} className="w-full sm:w-auto">
               <UploadIcon className="h-4 w-4 mr-2" />
               {t("upload.title")}
             </Button>
           )}
-          {stats.total > 0 && (
+          {userInvoices.length > 0 && (
             <AlertDialog>
               <AlertDialogTrigger asChild>
                 <Button variant="destructive" size="sm" className="w-full sm:w-auto">
@@ -210,7 +223,7 @@ export default function Dashboard() {
         </Card>
       )}
 
-      {stats.total === 0 && !isLoading && (
+      {stats.total === 0 && userInvoices.length === 0 && !isLoading && (
         <Card className="border-dashed border-2">
           <CardContent className="flex flex-col items-center justify-center py-8 md:py-12 px-4">
             <div className="p-4 rounded-full bg-primary/10 mb-4">
