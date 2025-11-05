@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-11-05T18:32:55.535Z",
+  "lastUpdated": "2025-11-05T20:26:49.351Z",
   "news": [
+    {
+      "title": "Gerichtsurteil: KI-Bildgenerator \"Stable Diffusion\" ist keine \"rechtsverletzende Kopie\"",
+      "description": "Der High Court in London hat die zentrale Urheberrechtsklage von Getty Images gegen Stability AI abgewiesen. Interessant ist das Urteil insbesondere wegen der klaren Feststellung zur sekundären Urhebe",
+      "link": "https://the-decoder.de/gerichtsurteil-ki-bildgenerator-stable-diffusion-ist-keine-rechtsverletzende-kopie/",
+      "date": "2025-11-05T19:25:13.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "KI-Rechenzentren könnten bald so viel Strom verbrauchen wie ein Drittel aller US-Haushalte",
       "description": "Laut Barclays sollen KI-Rechenzentren großer Tech-Konzerne wie OpenAI, Meta und Amazon bis zu 46 Gigawatt Leistung benötigen. Das sei genug Strom für rund 44 Millionen US-Haushalte - oder etwa ein Dri",
@@ -96,15 +105,6 @@
       "description": "Kurz vor einem Treffen zwischen US-Präsident Trump und Chinas Staatschef Xi Jinping verhinderten hochrangige Berater eine mögliche Lockerung der Exportbeschränkungen für Nvidias neueste KI-Chips. CEO",
       "link": "https://the-decoder.de/trump-regierung-torpediert-nvidias-plaene-fuer-ki-chip-exporte-nach-china/",
       "date": "2025-11-04T11:58:11.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "OpenAI widerspricht: ChatGPT gibt weiterhin rechtliche und medizinische Tipps",
-      "description": "Bei LinkedIn und Co. geht derzeit das Gerücht um, ChatGPT dürfe keine medizinischen oder rechtlichen Tipps mehr geben.\nDer Artikel OpenAI widerspricht: ChatGPT gibt weiterhin rechtliche und medizinisc",
-      "link": "https://the-decoder.de/openai-widerspricht-chatgpt-gibt-weiterhin-rechtliche-und-medizinische-tipps/",
-      "date": "2025-11-04T11:12:14.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
