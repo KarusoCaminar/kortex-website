@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-11-05T16:30:20.032Z",
+  "lastUpdated": "2025-11-05T18:32:55.535Z",
   "news": [
     {
       "title": "KI-Rechenzentren könnten bald so viel Strom verbrauchen wie ein Drittel aller US-Haushalte",
@@ -9,6 +9,15 @@
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
+    },
+    {
+      "title": "Forecasting the future of forests with AI: From counting losses to predicting risk",
+      "description": "Climate & Sustainability",
+      "link": "https://research.google/blog/forecasting-the-future-of-forests-with-ai-from-counting-losses-to-predicting-risk/",
+      "date": "2025-11-05T15:41:00.000Z",
+      "source": "Google AI",
+      "category": "große-modelle",
+      "language": "en"
     },
     {
       "title": "Amazons Klage gegen Perplexity könnte die Zukunft des KI-Shoppings prägen",
@@ -124,15 +133,6 @@
       "link": "https://openai.com/index/aws-and-openai-partnership",
       "date": "2025-11-03T06:00:00.000Z",
       "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "Accelerating the magic cycle of research breakthroughs and real-world applications",
-      "description": "Climate & Sustainability",
-      "link": "https://research.google/blog/accelerating-the-magic-cycle-of-research-breakthroughs-and-real-world-applications/",
-      "date": "2025-10-31T07:40:00.000Z",
-      "source": "Google AI",
       "category": "große-modelle",
       "language": "en"
     }
