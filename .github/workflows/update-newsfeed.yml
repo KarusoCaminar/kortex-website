@@ -1,0 +1,215 @@
+name: Update AI News Feed
+
+on:
+  schedule:
+    # Runs every 2 hours
+    - cron: '0 */2 * * *'
+  workflow_dispatch: # Manual trigger
+  push:
+    branches:
+      - main
+    paths:
+      - '.github/workflows/update-newsfeed.yml'
+
+jobs:
+  update-newsfeed:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Setup RSS Parser
+        run: |
+          echo "Preparing RSS parser..."
+
+      - name: Parse and Filter News
+        id: parse-news
+        run: |
+          # Create package.json for dependencies
+          cat > /tmp/package.json << 'PKGEOF'
+          {
+            "name": "rss-parser",
+            "version": "1.0.0",
+            "dependencies": {
+              "rss-parser": "^3.13.0"
+            }
+          }
+          PKGEOF
+          
+          # Create parser script
+          cat > /tmp/parse-news.js << 'EOF'
+          const Parser = require('rss-parser');
+          const fs = require('fs');
+          
+          const parser = new Parser();
+          const maxAge = 30 * 24 * 60 * 60 * 1000; // 30 days
+          const now = Date.now();
+          
+          const aiKeywords = [
+            'ai', 'artificial intelligence', 'machine learning', 'llm', 'gemini', 'gpt', 'claude',
+            'automation', 'workflow', 'neural', 'deep learning', 'ki', 'kuenstliche intelligenz',
+            'mittelstand', 'kmu', 'sme', 'digitalisierung', 'industrie 4.0', 'prozessautomatisierung',
+            'rpa', 'robot process automation', 'chatbot', 'assistenzsystem', 'assistenzsysteme',
+            'datenanalyse', 'predictive analytics', 'computer vision', 'nlp', 'natural language processing'
+          ];
+          
+          const feedUrls = [
+            { url: 'https://research.google/blog/rss/', source: 'Google AI', language: 'en' },
+            { url: 'https://openai.com/news/rss.xml', source: 'OpenAI', language: 'en' },
+            { url: 'https://the-decoder.de/feed/', source: 'The Decoder', language: 'de' },
+            { url: 'https://techcrunch.com/tag/artificial-intelligence/feed/', source: 'TechCrunch AI', language: 'en' }
+          ];
+          
+          function detectSource(url) {
+            if (!url) return { source: 'Unknown', language: 'en' };
+            const urlLower = url.toLowerCase();
+            if (urlLower.includes('research.google') || urlLower.includes('deepmind.google')) {
+              return { source: 'Google AI', language: 'en' };
+            }
+            if (urlLower.includes('openai.com')) {
+              return { source: 'OpenAI', language: 'en' };
+            }
+            if (urlLower.includes('the-decoder.de')) {
+              return { source: 'The Decoder', language: 'de' };
+            }
+            if (urlLower.includes('techcrunch.com')) {
+              return { source: 'TechCrunch AI', language: 'en' };
+            }
+            return { source: 'Unknown', language: 'en' };
+          }
+          
+          function getCategory(title, description) {
+            const titleLower = title.toLowerCase();
+            const descLower = (description || '').toLowerCase();
+            
+            if (titleLower.includes('workflow') || titleLower.includes('n8n') || titleLower.includes('automation')) {
+              return 'workflow-tools';
+            }
+            if (titleLower.includes('sales') || titleLower.includes('hubspot') || titleLower.includes('crm')) {
+              return 'sales-tools';
+            }
+            if (titleLower.includes('mittelstand') || titleLower.includes('kmu') || titleLower.includes('sme')) {
+              return 'kmu-relevanz';
+            }
+            if (titleLower.includes('industrie') || titleLower.includes('produktion')) {
+              return 'industrie-4.0';
+            }
+            return 'große-modelle';
+          }
+          
+          async function parseFeed(url, sourceName, language) {
+            try {
+              const feed = await parser.parseURL(url);
+              const articles = [];
+              
+              for (const item of feed.items || []) {
+                const title = item.title || '';
+                const link = item.link || '';
+                const description = (item.contentSnippet || item.content || '').replace(/<[^>]*>/g, '').substring(0, 200);
+                const pubDate = item.pubDate || item.isoDate || new Date().toISOString();
+                
+                if (!title || !link) continue;
+                
+                const titleLower = title.toLowerCase();
+                const descLower = description.toLowerCase();
+                const isRelevant = aiKeywords.some(keyword => 
+                  titleLower.includes(keyword) || descLower.includes(keyword)
+                );
+                
+                if (!isRelevant) continue;
+                
+                const itemDate = new Date(pubDate).getTime();
+                const age = now - itemDate;
+                
+                if (age <= maxAge && age >= 0) {
+                  const { source, language: detectedLang } = detectSource(link);
+                  articles.push({
+                    title: title.trim(),
+                    description: description.trim(),
+                    link: link.trim(),
+                    date: new Date(pubDate).toISOString(),
+                    source: source || sourceName,
+                    category: getCategory(title, description),
+                    language: detectedLang || language
+                  });
+                }
+              }
+              
+              return articles;
+            } catch (error) {
+              console.error(`Error parsing ${url}:`, error.message);
+              return [];
+            }
+          }
+          
+          async function main() {
+            const allArticles = [];
+            
+            for (const feed of feedUrls) {
+              const articles = await parseFeed(feed.url, feed.source, feed.language);
+              allArticles.push(...articles);
+            }
+            
+            // Remove duplicates by link
+            const uniqueArticles = allArticles.filter((item, index, self) =>
+              index === self.findIndex(t => t.link === item.link)
+            );
+            
+            // Sort by date (newest first) and limit to 15
+            const sortedArticles = uniqueArticles
+              .sort((a, b) => new Date(b.date) - new Date(a.date))
+              .slice(0, 15);
+            
+            const output = {
+              lastUpdated: new Date().toISOString(),
+              news: sortedArticles
+            };
+            
+            fs.writeFileSync('/tmp/news-output.json', JSON.stringify(output, null, 2));
+            console.log(`✅ Parsed ${sortedArticles.length} news articles`);
+          }
+          
+          main().catch(console.error);
+          EOF
+          
+          # Install dependencies
+          cd /tmp && npm install --silent
+          
+          # Run parser
+          node /tmp/parse-news.js
+
+      - name: Update n8n_news.json
+        run: |
+          if [ -f /tmp/news-output.json ]; then
+            cp /tmp/news-output.json n8n_news.json
+            echo "✅ Updated n8n_news.json"
+            cat n8n_news.json | head -20
+          else
+            echo "❌ Failed to generate news output"
+            exit 1
+          fi
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          git add n8n_news.json
+          
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "docs: [AUTOMATED] Update AI news feed via GitHub Actions"
+            git push
+            echo "✅ Changes committed and pushed"
+          fi
+
