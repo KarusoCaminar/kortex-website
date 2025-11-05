@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: kortex-invoice-extractor
+    env: node
+    buildCommand: npm install && npm run build
+    startCommand: npm start
+    envVars:
+      - key: GOOGLE_CLOUD_CREDENTIALS
+        sync: false
+      - key: GOOGLE_CLOUD_LOCATION
+        value: us-central1
+      - key: ALLOWED_ORIGINS
+        value: https://www.kortex-system.com,https://kortex-system.com,https://karusocaminar.github.io
+    healthCheckPath: /healthz
+
