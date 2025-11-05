@@ -67,27 +67,67 @@ jobs:
           ];
           
           const feedUrls = [
+            // Internationale Quellen
             { url: 'https://research.google/blog/rss/', source: 'Google AI', language: 'en' },
             { url: 'https://openai.com/news/rss.xml', source: 'OpenAI', language: 'en' },
+            { url: 'https://techcrunch.com/tag/artificial-intelligence/feed/', source: 'TechCrunch AI', language: 'en' },
+            
+            // Deutsche KI-News
             { url: 'https://the-decoder.de/feed/', source: 'The Decoder', language: 'de' },
-            { url: 'https://techcrunch.com/tag/artificial-intelligence/feed/', source: 'TechCrunch AI', language: 'en' }
+            { url: 'https://www.bmwk.de/Redaktion/DE/AtomFeed/KI', source: 'BMWK - KI-Strategie', language: 'de' },
+            { url: 'https://www.bmbf.de/SharedDocs/rss/DE/atom.xml', source: 'BMBF - Forschung', language: 'de' },
+            { url: 'https://www.mittelstand-digital.de/MD/Redaktion/DE/Feed/atom.xml', source: 'Mittelstand-Digital', language: 'de' },
+            { url: 'https://www.digitale-technologien.de/DT/Redaktion/DE/Feed/atom.xml', source: 'Digitale Technologien', language: 'de' },
+            
+            // Hessen-spezifische Quellen
+            { url: 'https://wirtschaft.hessen.de/rss.xml', source: 'Hessisches Wirtschaftsministerium', language: 'de' },
+            
+            // Deutsche KI-Firmen & Blogs
+            { url: 'https://www.ki-strategie-deutschland.de/feed/', source: 'KI-Strategie Deutschland', language: 'de' },
+            { url: 'https://www.industrie-4-0-portal.de/feed/', source: 'Industrie 4.0 Portal', language: 'de' }
           ];
           
           function detectSource(url) {
             if (!url) return { source: 'Unknown', language: 'en' };
             const urlLower = url.toLowerCase();
+            
+            // Internationale Quellen
             if (urlLower.includes('research.google') || urlLower.includes('deepmind.google')) {
               return { source: 'Google AI', language: 'en' };
             }
             if (urlLower.includes('openai.com')) {
               return { source: 'OpenAI', language: 'en' };
             }
-            if (urlLower.includes('the-decoder.de')) {
-              return { source: 'The Decoder', language: 'de' };
-            }
             if (urlLower.includes('techcrunch.com')) {
               return { source: 'TechCrunch AI', language: 'en' };
             }
+            
+            // Deutsche Quellen
+            if (urlLower.includes('the-decoder.de')) {
+              return { source: 'The Decoder', language: 'de' };
+            }
+            if (urlLower.includes('bmwk.de') || urlLower.includes('bmwi.de')) {
+              return { source: 'BMWK - KI-Strategie', language: 'de' };
+            }
+            if (urlLower.includes('bmbf.de')) {
+              return { source: 'BMBF - Forschung', language: 'de' };
+            }
+            if (urlLower.includes('mittelstand-digital.de')) {
+              return { source: 'Mittelstand-Digital', language: 'de' };
+            }
+            if (urlLower.includes('digitale-technologien.de')) {
+              return { source: 'Digitale Technologien', language: 'de' };
+            }
+            if (urlLower.includes('wirtschaft.hessen.de') || urlLower.includes('hessen.de')) {
+              return { source: 'Hessisches Wirtschaftsministerium', language: 'de' };
+            }
+            if (urlLower.includes('ki-strategie-deutschland.de')) {
+              return { source: 'KI-Strategie Deutschland', language: 'de' };
+            }
+            if (urlLower.includes('industrie-4-0-portal.de')) {
+              return { source: 'Industrie 4.0 Portal', language: 'de' };
+            }
+            
             return { source: 'Unknown', language: 'en' };
           }
           
@@ -125,7 +165,17 @@ jobs:
                 
                 const titleLower = title.toLowerCase();
                 const descLower = description.toLowerCase();
-                const isRelevant = aiKeywords.some(keyword => 
+                
+                // Deutsche Quellen (KMU-Fokus) sind immer relevant
+                const isKMUSource = sourceName.includes('Mittelstand') ||
+                                    sourceName.includes('BMWK') ||
+                                    sourceName.includes('BMBF') ||
+                                    sourceName.includes('Hessen') ||
+                                    sourceName.includes('Industrie 4.0') ||
+                                    sourceName.includes('KI-Strategie') ||
+                                    sourceName.includes('Digitale Technologien');
+                
+                const isRelevant = isKMUSource || aiKeywords.some(keyword => 
                   titleLower.includes(keyword) || descLower.includes(keyword)
                 );
                 
