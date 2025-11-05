@@ -20,14 +20,19 @@ export default function History() {
   const hasProcessingInvoices = (invoices: Invoice[]) => 
     invoices.some(inv => inv.status === 'processing');
   
-  const { data: invoices = [], isLoading } = useQuery<Invoice[]>({
+  const { data: allInvoices = [], isLoading } = useQuery<Invoice[]>({
     queryKey: ["/api/invoices"],
     refetchInterval: (query) => {
       const data = query.state.data as Invoice[] | undefined;
+      // Filter out demo invoices for refetch check
+      const userInvoices = (data || []).filter((inv) => !inv.id.startsWith("demo-"));
       // Auto-refresh every 3 seconds if there are processing invoices
-      return data && hasProcessingInvoices(data) ? 3000 : false;
+      return userInvoices && hasProcessingInvoices(userInvoices) ? 3000 : false;
     },
   });
+
+  // Filter out demo invoices - only show user-uploaded invoices in history
+  const invoices = allInvoices.filter((inv) => !inv.id.startsWith("demo-"));
 
   const deleteMutation = useMutation({
     mutationFn: async (id: string) => {
