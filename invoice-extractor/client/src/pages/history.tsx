@@ -31,21 +31,43 @@ export default function History() {
 
   const deleteMutation = useMutation({
     mutationFn: async (id: string) => {
-      await apiRequest("DELETE", `/api/invoices/${id}`);
+      const res = await fetch(`/api/invoices/${id}`, {
+        method: "DELETE",
+        credentials: "include",
+      });
+      
+      const data = await res.json();
+      if (!res.ok) {
+        throw new Error(data.message || data.error || "Fehler beim Löschen");
+      }
+      return data;
     },
-    onSuccess: () => {
+    onSuccess: async () => {
+      // Immediately refetch to update the UI
+      await queryClient.refetchQueries({ queryKey: ["/api/invoices"] });
+      // Also invalidate to ensure cache is cleared
       queryClient.invalidateQueries({ queryKey: ["/api/invoices"] });
       toast({
         title: t("history.deleted"),
         description: t("history.deletedDescription"),
       });
     },
-    onError: () => {
-      toast({
-        title: t("history.deleteError"),
-        description: t("history.deleteErrorDescription"),
-        variant: "destructive",
-      });
+    onError: (error: any) => {
+      const errorMessage = error.message || t("history.deleteErrorDescription");
+      // Check if it's a demo invoice error
+      if (errorMessage.includes("Demo-Rechnung") || errorMessage.includes("DEMO_INVOICE")) {
+        toast({
+          title: t("history.deleteError"),
+          description: "Demo-Rechnungen können nicht gelöscht werden. Sie werden automatisch wiederhergestellt.",
+          variant: "destructive",
+        });
+      } else {
+        toast({
+          title: t("history.deleteError"),
+          description: errorMessage,
+          variant: "destructive",
+        });
+      }
     },
   });
 

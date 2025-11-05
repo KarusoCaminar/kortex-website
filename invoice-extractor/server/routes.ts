@@ -232,14 +232,33 @@ export async function registerRoutes(app: Express): Promise<Server> {
   // Delete invoice
   app.delete("/api/invoices/:id", async (req, res) => {
     try {
-      const deleted = await storage.deleteInvoice(req.params.id);
+      const id = req.params.id;
+      
+      // Check if it's a demo invoice
+      if (id.startsWith("demo-")) {
+        return res.status(403).json({ 
+          success: false, 
+          error: "DEMO_INVOICE",
+          message: "Demo-Rechnungen können nicht gelöscht werden"
+        });
+      }
+      
+      const deleted = await storage.deleteInvoice(id);
       if (!deleted) {
-        return res.status(404).send("Rechnung nicht gefunden");
+        return res.status(404).json({ 
+          success: false, 
+          error: "NOT_FOUND",
+          message: "Rechnung nicht gefunden" 
+        });
       }
       res.json({ success: true });
     } catch (error) {
       console.error("Error deleting invoice:", error);
-      res.status(500).send("Fehler beim Löschen der Rechnung");
+      res.status(500).json({ 
+        success: false, 
+        error: "SERVER_ERROR",
+        message: "Fehler beim Löschen der Rechnung" 
+      });
     }
   });
 

@@ -4,20 +4,20 @@ import { setupVite, serveStatic, log } from "./vite";
 
 const app = express();
 
-// Auto-delete all invoices every 30 minutes (for privacy)
+// Auto-delete all invoices every 10 minutes (for privacy)
 // This removes user-uploaded invoices but keeps the 4 demo invoices
 async function setupAutoDeleteJob() {
   const { storage } = await import("./storage");
   
-  // Run every 30 minutes - removes user-uploaded invoices, keeps demo invoices
+  // Run every 10 minutes - removes user-uploaded invoices, keeps demo invoices
   setInterval(async () => {
     try {
       const deletedCount = await storage.deleteAllInvoices();
-      log(`🗑️ Auto-delete (30min): Deleted user-uploaded invoices (${deletedCount} invoices removed, 4 demo invoices preserved)`);
+      log(`🗑️ Auto-delete (10min): Deleted user-uploaded invoices (${deletedCount} invoices removed, 4 demo invoices preserved)`);
     } catch (error) {
       log(`⚠️ Auto-delete error: ${error}`);
     }
-  }, 30 * 60 * 1000); // 30 minutes = 1800000 ms
+  }, 10 * 60 * 1000); // 10 minutes = 600000 ms
 }
 
 // CORS Configuration for iframe embedding
@@ -89,7 +89,7 @@ app.use((req, res, next) => {
 });
 
 (async () => {
-  // Setup auto-delete job (every 30 minutes)
+  // Setup auto-delete job (every 10 minutes)
   await setupAutoDeleteJob();
   
   log("✅ In-Memory Storage initialized with 4 demo invoices");

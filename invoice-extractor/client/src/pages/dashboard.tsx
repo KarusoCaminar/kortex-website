@@ -74,10 +74,20 @@ export default function Dashboard() {
 
   const deleteAllMutation = useMutation({
     mutationFn: async () => {
-      const res = await apiRequest("DELETE", "/api/invoices");
-      return res.json();
+      const res = await fetch("/api/invoices", {
+        method: "DELETE",
+        credentials: "include",
+      });
+      const data = await res.json();
+      if (!res.ok) {
+        throw new Error(data.message || data.error || "Fehler beim Löschen");
+      }
+      return data;
     },
-    onSuccess: (data: any) => {
+    onSuccess: async (data: any) => {
+      // Immediately refetch to update the UI
+      await queryClient.refetchQueries({ queryKey: ["/api/invoices"] });
+      // Also invalidate to ensure cache is cleared
       queryClient.invalidateQueries({ queryKey: ["/api/invoices"] });
       toast({
         title: t("dashboard.deleteSuccess"),
