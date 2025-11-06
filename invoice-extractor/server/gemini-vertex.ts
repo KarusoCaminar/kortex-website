@@ -201,238 +201,25 @@ Example of correct output format:
       throw new Error("KI-Modell hat keinen Text zurückgegeben");
     }
     
-    // Extract JSON from response (remove markdown code blocks if present)
+    // Clean response text (remove markdown code blocks if present)
     let jsonText = textResponse.trim();
-    
-    // Remove markdown code blocks (both ```json and ```)
     jsonText = jsonText.replace(/^```(?:json)?\s*/gm, "").replace(/```\s*$/gm, "");
     
-    // Helper function to extract JSON using balanced brace matching
-    function extractJSON(text: string): string | null {
-      const firstBrace = text.indexOf('{');
-      if (firstBrace === -1) return null;
-      
-      let depth = 0;
-      let lastBrace = -1;
-      let inString = false;
-      let escapeNext = false;
-      
-      for (let i = firstBrace; i < text.length; i++) {
-        const char = text[i];
-        
-        // Handle escape sequences
-        if (escapeNext) {
-          escapeNext = false;
-          continue;
-        }
-        
-        if (char === '\\') {
-          escapeNext = true;
-          continue;
-        }
-        
-        // Track string boundaries
-        if (char === '"') {
-          inString = !inString;
-          continue;
-        }
-        
-        // Only count braces outside of strings
-        if (!inString) {
-          if (char === '{') {
-            depth++;
-          } else if (char === '}') {
-            depth--;
-            if (depth === 0) {
-              lastBrace = i;
-              break;
-            }
-          }
-        }
-      }
-      
-      if (lastBrace !== -1 && depth === 0) {
-        return text.substring(firstBrace, lastBrace + 1);
-      }
-      
-      return null;
-    }
-    
-    // Try to extract JSON using balanced brace matching
-    let extractedJson = extractJSON(jsonText);
-    
-    // Check for truncated response - handles cases where JSON is cut off mid-string
-    // Example: ends with "description (without closing quote)
-    const quoteCount = (jsonText.match(/"/g) || []).length;
-    const hasIncompleteString = quoteCount % 2 !== 0;
-    const lastLine = jsonText.trim().split('\n').pop() || '';
-    const endsWithIncompleteProperty = /:\s*"[^"]*$/.test(lastLine);
-    
-    if (hasIncompleteString || endsWithIncompleteProperty) {
-      console.warn(`⚠️ Detected truncated response (incomplete string at end). Quote count: ${quoteCount}, Last line: ${lastLine.substring(0, 50)}...`);
-      const firstBrace = jsonText.indexOf('{');
-      if (firstBrace !== -1) {
-        let incompleteJson = jsonText.substring(firstBrace);
-        
-        // Close the incomplete string property
-        // Pattern: "description": "text (without closing quote)
-        if (endsWithIncompleteProperty || incompleteJson.match(/:\s*"[^"]*$/)) {
-          // Close the incomplete string - find last :" and add closing quote
-          incompleteJson = incompleteJson.replace(/:\s*"([^"]*)$/, ': "$1"');
-        } else if (hasIncompleteString) {
-          // Just add closing quote if quote count is odd
-          incompleteJson = incompleteJson.trim() + '"';
-        }
-        
-        // Check if we're inside lineItems array
-        const isInLineItems = incompleteJson.includes('"lineItems"') && 
-                             incompleteJson.lastIndexOf('"lineItems"') > incompleteJson.lastIndexOf(']');
-        
-        // Count open structures
-        const openBraces = (incompleteJson.match(/\{/g) || []).length;
-        const closeBraces = (incompleteJson.match(/\}/g) || []).length;
-        const openBrackets = (incompleteJson.match(/\[/g) || []).length;
-        const closeBrackets = (incompleteJson.match(/\]/g) || []).length;
-        
-        // If inside lineItems and array is not closed, close it
-        if (isInLineItems && openBrackets > closeBrackets) {
-          // Make sure property ends properly before closing array
-          if (!incompleteJson.trim().endsWith(',') && !incompleteJson.trim().endsWith(']')) {
-            incompleteJson = incompleteJson.trim() + '\n]';
-          }
-        }
-        
-        // Close remaining arrays
-        for (let i = 0; i < openBrackets - closeBrackets; i++) {
-          incompleteJson = incompleteJson.trim() + '\n]';
-        }
-        
-        // Close objects
-        for (let i = 0; i < openBraces - closeBraces; i++) {
-          incompleteJson = incompleteJson.trim() + '\n}';
-        }
-        
-        extractedJson = incompleteJson;
-        console.log(`🔧 Fixed truncated JSON: closed ${openBraces - closeBraces} objects, ${openBrackets - closeBrackets} arrays`);
-      }
-    }
-    
-    // If extraction still failed, try alternative methods
-    if (!extractedJson) {
-      console.warn("Balanced brace extraction failed, trying alternative methods...");
-      
-      // Method 1: Try to find JSON between first { and last }
-      const firstBraceAlt = jsonText.indexOf('{');
-      const lastBraceAlt = jsonText.lastIndexOf('}');
-      if (firstBraceAlt !== -1 && lastBraceAlt !== -1 && lastBraceAlt > firstBraceAlt) {
-        extractedJson = jsonText.substring(firstBraceAlt, lastBraceAlt + 1);
-        console.log("Using alternative extraction method (first { to last })");
-      }
-      
-      // Method 2: Try regex to find JSON object
-      if (!extractedJson) {
-        const jsonMatch = jsonText.match(/\{[\s\S]*\}/);
-        if (jsonMatch && jsonMatch[0]) {
-          extractedJson = jsonMatch[0];
-          console.log("Using regex extraction method");
-        }
-      }
-    }
-    
-    if (!extractedJson) {
-      console.error("Could not extract JSON from response");
-      console.error("Response text:", textResponse.substring(0, 500)); // Log first 500 chars
-      throw new Error("KI-Antwort enthält kein gültiges JSON. Bitte versuchen Sie es erneut.");
-    }
-    
-    // Clean extracted JSON
-    extractedJson = extractedJson.trim();
-    
-    // Helper function to fix incomplete JSON strings
-    function fixIncompleteJson(json: string): string {
-      // Fix incomplete strings at the end
-      // Look for patterns like: "description (without closing quote)
-      const incompleteStringPattern = /:\s*"([^"]*)$/m;
-      const match = json.match(incompleteStringPattern);
-      
-      if (match && !match[0].endsWith('"')) {
-        // Close the incomplete string
-        json = json.replace(incompleteStringPattern, ': "$1"');
-      }
-      
-      return json;
-    }
-    
-    // Try to parse the JSON
+    // Parse JSON directly - responseMimeType: "application/json" should guarantee valid JSON
     try {
-      const extractedData = JSON.parse(extractedJson) as ExtractedInvoiceData;
-      console.log(`✅ Successfully extracted invoice data: ${extractedData.invoiceNumber || 'N/A'}, ${extractedData.lineItems?.length || 0} line items`);
-      return extractedData;
-    } catch (parseError) {
-      // If parsing fails, try to fix common issues
-      console.warn("Initial JSON parse failed, attempting to fix common issues...");
+      const extractedData = JSON.parse(jsonText) as ExtractedInvoiceData;
       
-      let fixedJson = extractedJson;
-      
-      // Fix 1: Fix incomplete strings
-      fixedJson = fixIncompleteJson(fixedJson);
-      
-      // Fix 2: Remove trailing commas
-      fixedJson = fixedJson.replace(/,(\s*[}\]])/g, '$1');
-      
-      // Fix 3: Try to close unclosed strings in properties
-      fixedJson = fixedJson.replace(/:\s*"([^"]*)$/gm, (match, content) => {
-        if (!match.endsWith('"')) {
-          return `: "${content}"`;
-        }
-        return match;
+      console.log(`✅ Successfully extracted invoice data:`, {
+        invoiceNumber: extractedData.invoiceNumber || 'N/A',
+        supplierName: extractedData.supplierName || 'N/A',
+        totalAmount: extractedData.totalAmount || 'N/A'
       });
       
-      // Try parsing again after fixes
-      try {
-        const extractedData = JSON.parse(fixedJson) as ExtractedInvoiceData;
-        console.log("Successfully parsed after fixing common issues");
-        return extractedData;
-      } catch (secondParseError) {
-        // Last attempt: Try to extract partial data from what we have
-        console.warn(`⚠️ JSON parsing failed after fixes (${secondParseError instanceof Error ? secondParseError.message : 'unknown error'}), attempting partial extraction...`);
-        try {
-          // Try to parse with a fallback: close all open structures
-          let recoveryJson = fixedJson;
-          
-          // Count and close all open structures
-          const openBracesCount = (recoveryJson.match(/\{/g) || []).length;
-          const closeBracesCount = (recoveryJson.match(/\}/g) || []).length;
-          const openBracketsCount = (recoveryJson.match(/\[/g) || []).length;
-          const closeBracketsCount = (recoveryJson.match(/\]/g) || []).length;
-          
-          // Close incomplete strings
-          const quoteCount = (recoveryJson.match(/"/g) || []).length;
-          if (quoteCount % 2 !== 0) {
-            recoveryJson = recoveryJson.trim() + '"';
-          }
-          
-          // Close arrays
-          for (let i = 0; i < openBracketsCount - closeBracketsCount; i++) {
-            recoveryJson = recoveryJson.trim() + ']';
-          }
-          
-          // Close objects
-          for (let i = 0; i < openBracesCount - closeBracesCount; i++) {
-            recoveryJson = recoveryJson.trim() + '}';
-          }
-          
-          const extractedData = JSON.parse(recoveryJson) as ExtractedInvoiceData;
-          console.log("Successfully parsed after recovery attempt");
-          return extractedData;
-        } catch (recoveryError) {
-          console.error("All JSON parsing attempts failed");
-          console.error("Original response text (first 1000 chars):", textResponse.substring(0, 1000));
-          console.error("Cleaned JSON text:", extractedJson.substring(0, 500));
-          console.error("Fixed JSON text:", fixedJson.substring(0, 500));
-          throw new Error("Konnte extrahierte Daten nicht als JSON parsen. Die KI-Antwort war möglicherweise abgeschnitten oder fehlerhaft formatiert.");
-        }
-      }
+      return extractedData;
+    } catch (parseError) {
+      console.error("❌ JSON parsing failed:", parseError);
+      console.error("Raw response from AI (first 1000 chars):", jsonText.substring(0, 1000));
+      throw new Error(`KI-Antwort war kein gültiges JSON: ${parseError instanceof Error ? parseError.message : String(parseError)}`);
     }
   } catch (error) {
     console.error("Error extracting invoice data:", error);

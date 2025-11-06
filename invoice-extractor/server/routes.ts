@@ -127,6 +127,88 @@ export async function registerRoutes(app: Express): Promise<Server> {
       if (!invoice) {
         return res.status(404).send("Rechnung nicht gefunden");
       }
+
+      // LAZY PROCESSING: Wenn Status "processing" ist, starte die KI-Extraktion jetzt
+      if (invoice.status === "processing") {
+        console.log(`⏳ Invoice ${invoice.id} is processing, attempting extraction...`);
+        
+        try {
+          const extractedData = await extractInvoiceData(invoice.fileData, invoice.fileType);
+
+          // Validate that extraction was successful - check if we got at least SOME data
+          const hasAnyData = extractedData.invoiceNumber || 
+                            extractedData.supplierName || 
+                            extractedData.totalAmount || 
+                            extractedData.subtotal ||
+                            (extractedData.lineItems && extractedData.lineItems.length > 0);
+          
+          if (!hasAnyData) {
+            console.warn(`⚠️ Invoice ${invoice.id}: AI extraction returned no data - all fields are null/empty`);
+            throw new Error("KI-Extraktion war nicht erfolgreich: Keine Rechnungsdaten konnten aus dem Dokument extrahiert werden. Bitte stellen Sie sicher, dass die Datei eine gültige, lesbare Rechnung ist.");
+          }
+
+          // Validate German VAT ID if present
+          let vatValidated = null;
+          if (extractedData.supplierVatId) {
+            vatValidated = validateGermanVatId(extractedData.supplierVatId) ? "valid" : "invalid";
+          }
+
+          // Update invoice with extracted data
+          const updatedInvoice = await storage.updateInvoice(invoice.id, {
+            status: "completed",
+            invoiceNumber: extractedData.invoiceNumber || null,
+            invoiceDate: extractedData.invoiceDate || null,
+            supplierName: extractedData.supplierName || null,
+            supplierAddress: extractedData.supplierAddress || null,
+            supplierVatId: extractedData.supplierVatId || null,
+            subtotal: extractedData.subtotal || null,
+            vatRate: extractedData.vatRate || null,
+            vatAmount: extractedData.vatAmount || null,
+            totalAmount: extractedData.totalAmount || null,
+            lineItems: extractedData.lineItems || null,
+            vatValidated: vatValidated,
+          });
+
+          console.log(`✅ Invoice ${invoice.id} processed successfully:`, {
+            invoiceNumber: extractedData.invoiceNumber,
+            supplierName: extractedData.supplierName,
+            totalAmount: extractedData.totalAmount,
+            lineItemsCount: extractedData.lineItems?.length || 0
+          });
+          
+          // Return final invoice with completed status
+          return res.json(updatedInvoice || invoice);
+
+        } catch (error) {
+          console.error(`❌ Error processing invoice ${invoice.id}:`, error);
+          
+          // Provide user-friendly error messages
+          let userMessage = "Unbekannter Fehler bei der Verarbeitung";
+          if (error instanceof Error) {
+            if (error.message.includes("quota") || error.message.includes("limit")) {
+              userMessage = "API-Limit erreicht. Bitte versuchen Sie es später erneut.";
+            } else if (error.message.includes("credentials") || error.message.includes("authentication")) {
+              userMessage = "Authentifizierung fehlgeschlagen. Bitte kontaktieren Sie den Support.";
+            } else if (error.message.includes("timeout")) {
+              userMessage = "Zeitüberschreitung. Bitte versuchen Sie es erneut.";
+            } else if (error.message.includes("network") || error.message.includes("ECONNREFUSED")) {
+              userMessage = "Netzwerkfehler. Bitte überprüfen Sie Ihre Verbindung.";
+            } else {
+              userMessage = `Verarbeitung fehlgeschlagen: ${error.message}`;
+            }
+          }
+          
+          const errorInvoice = await storage.updateInvoice(invoice.id, {
+            status: "error",
+            errorMessage: userMessage,
+          });
+
+          // Return error invoice
+          return res.json(errorInvoice || invoice);
+        }
+      }
+
+      // Wenn Status nicht "processing" war (z.B. schon completed/error), sende ihn einfach
       res.json(invoice);
     } catch (error) {
       console.error("Error fetching invoice:", error);
@@ -166,80 +248,11 @@ export async function registerRoutes(app: Express): Promise<Server> {
 
       const invoice = await storage.createInvoice(invoiceData);
 
-      try {
-        // Extract data using Vertex AI Gemini 2.5 Flash (SYNCHRONOUS - waits for completion)
-        const extractedData = await extractInvoiceData(fileData, file.mimetype);
-
-        // Validate that extraction was successful - check if we got at least SOME data
-        const hasAnyData = extractedData.invoiceNumber || 
-                          extractedData.supplierName || 
-                          extractedData.totalAmount || 
-                          extractedData.subtotal ||
-                          (extractedData.lineItems && extractedData.lineItems.length > 0);
-        
-        if (!hasAnyData) {
-          console.warn(`⚠️ Invoice ${invoice.id}: AI extraction returned no data - all fields are null/empty`);
-          throw new Error("KI-Extraktion war nicht erfolgreich: Keine Rechnungsdaten konnten aus dem Dokument extrahiert werden. Bitte stellen Sie sicher, dass die Datei eine gültige, lesbare Rechnung ist.");
-        }
-
-        // Validate German VAT ID if present
-        let vatValidated = null;
-        if (extractedData.supplierVatId) {
-          vatValidated = validateGermanVatId(extractedData.supplierVatId) ? "valid" : "invalid";
-        }
-
-        // Update invoice with extracted data (SYNCHRONOUS)
-        const updatedInvoice = await storage.updateInvoice(invoice.id, {
-          status: "completed",
-          invoiceNumber: extractedData.invoiceNumber || null,
-          invoiceDate: extractedData.invoiceDate || null,
-          supplierName: extractedData.supplierName || null,
-          supplierAddress: extractedData.supplierAddress || null,
-          supplierVatId: extractedData.supplierVatId || null,
-          subtotal: extractedData.subtotal || null,
-          vatRate: extractedData.vatRate || null,
-          vatAmount: extractedData.vatAmount || null,
-          totalAmount: extractedData.totalAmount || null,
-          lineItems: extractedData.lineItems || null,
-          vatValidated: vatValidated,
-        });
-
-        console.log(`✅ Invoice ${invoice.id} processed successfully:`, {
-          invoiceNumber: extractedData.invoiceNumber,
-          supplierName: extractedData.supplierName,
-          totalAmount: extractedData.totalAmount,
-          lineItemsCount: extractedData.lineItems?.length || 0
-        });
-        
-        // Return final invoice with completed status
-        res.json(updatedInvoice || invoice);
-      } catch (error) {
-        console.error(`Error processing invoice ${invoice.id}:`, error);
-        
-        // Provide user-friendly error messages
-        let userMessage = "Unbekannter Fehler bei der Verarbeitung";
-        if (error instanceof Error) {
-          if (error.message.includes("quota") || error.message.includes("limit")) {
-            userMessage = "API-Limit erreicht. Bitte versuchen Sie es später erneut.";
-          } else if (error.message.includes("credentials") || error.message.includes("authentication")) {
-            userMessage = "Authentifizierung fehlgeschlagen. Bitte kontaktieren Sie den Support.";
-          } else if (error.message.includes("timeout")) {
-            userMessage = "Zeitüberschreitung. Bitte versuchen Sie es erneut.";
-          } else if (error.message.includes("network") || error.message.includes("ECONNREFUSED")) {
-            userMessage = "Netzwerkfehler. Bitte überprüfen Sie Ihre Verbindung.";
-          } else {
-            userMessage = `Verarbeitung fehlgeschlagen: ${error.message}`;
-          }
-        }
-        
-        const errorInvoice = await storage.updateInvoice(invoice.id, {
-          status: "error",
-          errorMessage: userMessage,
-        });
-
-        // Return error invoice
-        res.json(errorInvoice || invoice);
-      }
+      // SOFORT ANTWORTEN - keine KI-Verarbeitung hier!
+      // Die KI-Extraktion wird asynchron beim ersten Polling (GET /api/invoices/:id) durchgeführt
+      console.log(`📤 Invoice ${invoice.id} uploaded, status: processing (will be processed on first poll)`);
+      
+      res.json(invoice);
     } catch (error) {
       console.error("Error uploading invoice:", error);
       res.status(500).send(error instanceof Error ? error.message : "Fehler beim Hochladen");
