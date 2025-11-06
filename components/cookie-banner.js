@@ -304,22 +304,14 @@
       console.log('✅ Analytics-Cookies aktiviert');
     }
     
-    // Marketing (Facebook Pixel, YouTube Videos, etc.)
+    // Marketing (Facebook Pixel, etc.)
     if (consent.categories.marketing) {
-      // YouTube Videos können jetzt geladen werden
-      // Der DemoVideoController wartet auf dieses Event
-      console.log('✅ Marketing-Cookies aktiviert - YouTube-Videos können geladen werden');
-      
-      // Trigger video loading if demo controller exists
-      if (window.demoVideoController) {
-        window.demoVideoController.loadYouTubeAPI();
-        setTimeout(() => {
-          window.demoVideoController.loadAutoplayVideos();
-        }, 500);
-      }
-      
       // Facebook Pixel wird automatisch geladen, wenn facebook-pixel.js eingebunden ist
+      console.log('✅ Marketing-Cookies aktiviert');
     }
+    
+    // YouTube Videos werden immer geladen, unabhängig von Cookie-Einstellungen
+    // (nur Info-Meldung wird angezeigt, wenn Marketing-Cookies nicht akzeptiert wurden)
   }
 
   // Create cookie banner HTML
