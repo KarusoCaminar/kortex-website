@@ -85,16 +85,29 @@
       margin-bottom: 1.5rem;
     }
     
-    /* Invoice App Container */
+    /* Invoice App Container - Nahtlos integriert */
     .invoice-app-container {
       width: 100%;
       max-width: 1400px;
       margin: 0 auto 4rem;
-      background: rgba(15, 23, 42, 0.6);
-      border: 1px solid rgba(148, 163, 184, 0.2);
-      border-radius: 16px;
+      background: transparent;
+      border: none;
+      border-radius: 0;
       overflow: hidden;
-      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+      box-shadow: none;
+      position: relative;
+    }
+    
+    .invoice-app-container::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: linear-gradient(135deg, #0a1628 0%, #09182F 100%);
+      z-index: -1;
+      border-radius: 16px;
     }
     
     .invoice-app-container iframe {
@@ -102,6 +115,10 @@
       height: 900px;
       border: none;
       display: block;
+      background: transparent;
+      /* Nahtlose Integration - kein sichtbarer Rahmen */
+      border-radius: 16px;
+      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.2);
     }
     
     /* Content Sections */
