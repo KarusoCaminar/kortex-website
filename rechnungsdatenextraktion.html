@@ -445,6 +445,47 @@
       min-height: 600px;
     }
     
+    .pdf-loading-indicator {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: #ffffff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      z-index: 10;
+      transition: opacity 0.3s ease;
+    }
+    
+    .pdf-loading-indicator.hidden {
+      opacity: 0;
+      pointer-events: none;
+      z-index: -1;
+    }
+    
+    .pdf-loading-spinner {
+      width: 40px;
+      height: 40px;
+      border: 4px solid rgba(96, 165, 250, 0.2);
+      border-top-color: #60a5fa;
+      border-radius: 50%;
+      animation: spin 1s linear infinite;
+      margin-bottom: 1rem;
+    }
+    
+    @keyframes spin {
+      to { transform: rotate(360deg); }
+    }
+    
+    .pdf-loading-indicator p {
+      color: #64748b;
+      font-size: 0.9rem;
+      margin: 0;
+    }
+    
     .pdf-object {
       display: block;
       width: 100%;
@@ -452,6 +493,12 @@
       border: none;
       margin: 0;
       padding: 0;
+      opacity: 0;
+      transition: opacity 0.3s ease;
+    }
+    
+    .pdf-object.loaded {
+      opacity: 1;
     }
     
     .pdf-iframe {
@@ -461,6 +508,23 @@
       border: none;
       margin: 0;
       padding: 0;
+    }
+    
+    /* If object tag not supported, show iframe */
+    @supports not (object-fit: contain) {
+      .pdf-object {
+        display: none;
+      }
+      
+      .pdf-iframe {
+        display: block;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+      }
+      
+      .pdf-iframe.loaded {
+        opacity: 1;
+      }
     }
     
     .pdf-fallback {
@@ -1956,9 +2020,13 @@
                   : invoice.fileType === 'application/pdf'
                   ? `
                     <div class="pdf-preview-container">
-                      <!-- PDF Viewer - clean, no toolbar, scrollable for multiple pages -->
-                      <object data="${escapeHtml(invoice.fileData)}#toolbar=0&navpanes=0&scrollbar=1&view=Fit" type="application/pdf" class="invoice-preview pdf-object" title="Rechnungsvorschau">
-                        <iframe src="${escapeHtml(invoice.fileData)}#toolbar=0&navpanes=0&scrollbar=1&view=Fit" class="invoice-preview pdf-iframe" title="Rechnungsvorschau"></iframe>
+                      <!-- PDF Viewer - optimized for fast loading -->
+                      <div class="pdf-loading-indicator" id="pdf-loading-${invoice.id}">
+                        <div class="pdf-loading-spinner"></div>
+                        <p>PDF wird geladen...</p>
+                      </div>
+                      <object data="${escapeHtml(invoice.fileData)}#toolbar=0&navpanes=0&scrollbar=1&view=Fit&zoom=page-fit" type="application/pdf" class="invoice-preview pdf-object" title="Rechnungsvorschau" loading="eager">
+                        <iframe src="${escapeHtml(invoice.fileData)}#toolbar=0&navpanes=0&scrollbar=1&view=Fit&zoom=page-fit" class="invoice-preview pdf-iframe" title="Rechnungsvorschau" loading="eager"></iframe>
                       </object>
                       <!-- Fallback: Direct link to PDF -->
                       <div class="pdf-fallback">
