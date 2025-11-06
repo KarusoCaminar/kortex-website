@@ -170,6 +170,18 @@ export async function registerRoutes(app: Express): Promise<Server> {
         // Extract data using Vertex AI Gemini 2.5 Flash (SYNCHRONOUS - waits for completion)
         const extractedData = await extractInvoiceData(fileData, file.mimetype);
 
+        // Validate that extraction was successful - check if we got at least SOME data
+        const hasAnyData = extractedData.invoiceNumber || 
+                          extractedData.supplierName || 
+                          extractedData.totalAmount || 
+                          extractedData.subtotal ||
+                          (extractedData.lineItems && extractedData.lineItems.length > 0);
+        
+        if (!hasAnyData) {
+          console.warn(`⚠️ Invoice ${invoice.id}: AI extraction returned no data - all fields are null/empty`);
+          throw new Error("KI-Extraktion war nicht erfolgreich: Keine Rechnungsdaten konnten aus dem Dokument extrahiert werden. Bitte stellen Sie sicher, dass die Datei eine gültige, lesbare Rechnung ist.");
+        }
+
         // Validate German VAT ID if present
         let vatValidated = null;
         if (extractedData.supplierVatId) {
@@ -192,7 +204,12 @@ export async function registerRoutes(app: Express): Promise<Server> {
           vatValidated: vatValidated,
         });
 
-        console.log(`Invoice ${invoice.id} processed successfully`);
+        console.log(`✅ Invoice ${invoice.id} processed successfully:`, {
+          invoiceNumber: extractedData.invoiceNumber,
+          supplierName: extractedData.supplierName,
+          totalAmount: extractedData.totalAmount,
+          lineItemsCount: extractedData.lineItems?.length || 0
+        });
         
         // Return final invoice with completed status
         res.json(updatedInvoice || invoice);
