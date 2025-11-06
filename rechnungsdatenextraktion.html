@@ -357,7 +357,7 @@
     
     .invoice-detail-grid {
       display: grid;
-      grid-template-columns: 2fr 1fr;
+      grid-template-columns: 1fr 2fr;
       gap: 2rem;
       margin-top: 2rem;
     }
@@ -401,19 +401,16 @@
       aspect-ratio: 210 / 297;
     }
     
-    .invoice-preview iframe {
+    .invoice-preview iframe,
+    .invoice-preview object {
       width: 100%;
-      max-width: 700px;
-      /* DIN A4 Verhältnis: Höhe = Breite * 1.414 (210mm x 297mm) */
-      aspect-ratio: 210 / 297;
-      height: auto;
-      min-height: 400px;
-      max-height: 90vh;
+      height: 100%;
+      min-height: 600px;
+      max-height: none;
       border: none;
       border-radius: 8px;
       display: block;
-      margin: 0 auto;
-      /* PDF so anzeigen, dass die ganze Seite sichtbar ist (view=Fit) */
+      /* PDF mit Toolbar und Scrollbar für mehrseitige Dokumente */
     }
     
     .invoice-preview-wrapper {
@@ -428,15 +425,27 @@
     
     .pdf-preview-container {
       width: 100%;
+      height: 100%;
       position: relative;
+      display: flex;
+      flex-direction: column;
+      min-height: 600px;
     }
     
     .pdf-object {
       display: block;
+      width: 100%;
+      height: 100%;
+      flex: 1;
+      min-height: 600px;
     }
     
     .pdf-iframe {
       display: none;
+      width: 100%;
+      height: 100%;
+      flex: 1;
+      min-height: 600px;
     }
     
     .pdf-fallback {
@@ -664,19 +673,19 @@
         gap: 1.5rem;
       }
       
-      .invoice-preview iframe {
-        max-width: 100%;
-        width: 100%;
-        max-width: 600px;
-        aspect-ratio: 210 / 297;
-        height: auto;
-        max-height: 80vh;
-        min-height: 350px;
+      .invoice-preview iframe,
+      .invoice-preview object {
+        min-height: 500px;
+        height: 70vh;
       }
       
       .invoice-preview img {
         max-width: 100%;
         max-height: 70vh;
+      }
+      
+      .pdf-preview-container {
+        min-height: 500px;
       }
     }
     
@@ -716,14 +725,20 @@
         max-height: 60vh;
       }
       
-      .invoice-preview iframe {
-        max-width: 100%;
+      .invoice-preview iframe,
+      .invoice-preview object {
         width: 100%;
-        max-width: 500px;
-        aspect-ratio: 210 / 297;
-        height: auto;
-        max-height: 70vh;
-        min-height: 300px;
+        height: 60vh;
+        min-height: 400px;
+      }
+      
+      .pdf-preview-container {
+        min-height: 400px;
+      }
+      
+      .pdf-object,
+      .pdf-iframe {
+        min-height: 400px;
       }
       
       .invoice-line-items th,
@@ -777,14 +792,20 @@
         padding: 0.75rem;
       }
       
-      .invoice-preview iframe {
-        max-width: 100%;
+      .invoice-preview iframe,
+      .invoice-preview object {
         width: 100%;
-        max-width: 400px;
-        aspect-ratio: 210 / 297;
-        height: auto;
-        max-height: 60vh;
-        min-height: 250px;
+        height: 50vh;
+        min-height: 300px;
+      }
+      
+      .pdf-preview-container {
+        min-height: 300px;
+      }
+      
+      .pdf-object,
+      .pdf-iframe {
+        min-height: 300px;
       }
       
       .invoice-preview img {
@@ -1813,65 +1834,7 @@
         <p style="color: #94a3b8; margin-bottom: 2rem;">${escapeHtml(invoice.fileName)}</p>
         
         <div class="invoice-detail-grid">
-          <!-- Left Column: Preview & Line Items -->
-          <div>
-            <!-- Invoice Preview -->
-            <div class="invoice-detail-card">
-              <h3>Rechnungsvorschau</h3>
-              <div class="invoice-preview-wrapper">
-                ${invoice.fileType && invoice.fileType.startsWith('image/') 
-                  ? `<img src="${escapeHtml(invoice.fileData)}" alt="${escapeHtml(invoice.fileName)}" class="invoice-preview">`
-                  : invoice.fileType === 'application/pdf'
-                  ? `
-                    <div class="pdf-preview-container">
-                      <!-- Mobile: Use object tag for better compatibility -->
-                      <object data="${escapeHtml(invoice.fileData)}#toolbar=0&view=Fit" type="application/pdf" class="invoice-preview pdf-object" title="Rechnungsvorschau">
-                        <iframe src="${escapeHtml(invoice.fileData)}#toolbar=0&view=Fit" class="invoice-preview pdf-iframe" title="Rechnungsvorschau"></iframe>
-                      </object>
-                      <!-- Fallback: Direct link to PDF -->
-                      <div class="pdf-fallback">
-                        <a href="${escapeHtml(invoice.fileData)}" target="_blank" class="pdf-link-btn">
-                          📄 PDF öffnen
-                        </a>
-                      </div>
-                    </div>
-                  `
-                  : `<div style="padding: 3rem; text-align: center; color: #94a3b8;">Vorschau nicht verfügbar</div>`
-                }
-              </div>
-            </div>
-            
-            <!-- Line Items -->
-            ${invoice.lineItems && invoice.lineItems.length > 0 ? `
-            <div class="invoice-detail-card" style="margin-top: 1.5rem;">
-              <h3>Rechnungspositionen</h3>
-              <div class="invoice-line-items-container">
-                <table class="invoice-line-items">
-                  <thead>
-                    <tr>
-                      <th>Beschreibung</th>
-                      <th style="text-align: right;">Menge</th>
-                      <th style="text-align: right;">Einzelpreis</th>
-                      <th style="text-align: right;">Gesamt</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    ${invoice.lineItems.map(item => `
-                      <tr>
-                        <td>${escapeHtml(item.description || '-')}</td>
-                        <td style="text-align: right;">${escapeHtml(String(item.quantity || '-'))}</td>
-                        <td style="text-align: right;">${escapeHtml(item.unitPrice || '-')}</td>
-                        <td style="text-align: right; font-weight: 600;">${escapeHtml(item.total || '-')}</td>
-                      </tr>
-                    `).join('')}
-                  </tbody>
-                </table>
-              </div>
-            </div>
-            ` : ''}
-          </div>
-          
-          <!-- Right Column: Invoice Info & Financial Summary -->
+          <!-- Left Column: Invoice Info, Financial Summary & Line Items -->
           <div>
             <!-- Invoice Information -->
             <div class="invoice-detail-card">
@@ -1941,12 +1904,70 @@
               ` : ''}
             </div>
             
+            <!-- Line Items -->
+            ${invoice.lineItems && invoice.lineItems.length > 0 ? `
+            <div class="invoice-detail-card" style="margin-top: 1.5rem;">
+              <h3>Rechnungspositionen</h3>
+              <div class="invoice-line-items-container">
+                <table class="invoice-line-items">
+                  <thead>
+                    <tr>
+                      <th>Beschreibung</th>
+                      <th style="text-align: right;">Menge</th>
+                      <th style="text-align: right;">Einzelpreis</th>
+                      <th style="text-align: right;">Gesamt</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    ${invoice.lineItems.map(item => `
+                      <tr>
+                        <td>${escapeHtml(item.description || '-')}</td>
+                        <td style="text-align: right;">${escapeHtml(String(item.quantity || '-'))}</td>
+                        <td style="text-align: right;">${escapeHtml(item.unitPrice || '-')}</td>
+                        <td style="text-align: right; font-weight: 600;">${escapeHtml(item.total || '-')}</td>
+                      </tr>
+                    `).join('')}
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            ` : ''}
+            
             ${invoice.status === 'error' && invoice.errorMessage ? `
             <div class="invoice-detail-card" style="margin-top: 1.5rem; border-color: rgba(239, 68, 68, 0.5); background: rgba(239, 68, 68, 0.1);">
               <h3 style="color: #f87171;">Fehler</h3>
               <p style="color: #f87171;">${escapeHtml(invoice.errorMessage)}</p>
             </div>
             ` : ''}
+          </div>
+          
+          <!-- Right Column: PDF Preview -->
+          <div>
+            <!-- Invoice Preview -->
+            <div class="invoice-detail-card" style="height: 100%; display: flex; flex-direction: column;">
+              <h3>Rechnungsvorschau</h3>
+              <div class="invoice-preview-wrapper" style="flex: 1; display: flex; flex-direction: column; min-height: 0;">
+                ${invoice.fileType && invoice.fileType.startsWith('image/') 
+                  ? `<img src="${escapeHtml(invoice.fileData)}" alt="${escapeHtml(invoice.fileName)}" class="invoice-preview">`
+                  : invoice.fileType === 'application/pdf'
+                  ? `
+                    <div class="pdf-preview-container" style="flex: 1; display: flex; flex-direction: column; min-height: 0;">
+                      <!-- PDF Viewer - entire page visible, scrollable for multiple pages -->
+                      <object data="${escapeHtml(invoice.fileData)}#toolbar=1&view=FitH&scrollbar=1" type="application/pdf" class="invoice-preview pdf-object" title="Rechnungsvorschau" style="flex: 1; min-height: 0;">
+                        <iframe src="${escapeHtml(invoice.fileData)}#toolbar=1&view=FitH&scrollbar=1" class="invoice-preview pdf-iframe" title="Rechnungsvorschau" style="flex: 1; min-height: 0;"></iframe>
+                      </object>
+                      <!-- Fallback: Direct link to PDF -->
+                      <div class="pdf-fallback">
+                        <a href="${escapeHtml(invoice.fileData)}" target="_blank" class="pdf-link-btn">
+                          📄 PDF öffnen
+                        </a>
+                      </div>
+                    </div>
+                  `
+                  : `<div style="padding: 3rem; text-align: center; color: #94a3b8;">Vorschau nicht verfügbar</div>`
+                }
+              </div>
+            </div>
           </div>
         </div>
       `;
