@@ -709,19 +709,20 @@
         gap: 1.5rem;
       }
       
-      .invoice-preview iframe,
-      .invoice-preview object {
+      .invoice-preview-card {
         min-height: 500px;
-        height: 70vh;
+        height: auto;
+        max-height: 80vh;
+      }
+      
+      .pdf-preview-container {
+        min-height: 500px;
+        max-height: calc(80vh - 100px);
       }
       
       .invoice-preview img {
         max-width: 100%;
         max-height: 70vh;
-      }
-      
-      .pdf-preview-container {
-        min-height: 500px;
       }
     }
     
