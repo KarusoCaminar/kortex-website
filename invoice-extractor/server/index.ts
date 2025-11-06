@@ -27,23 +27,43 @@ const allowedOrigins = process.env.ALLOWED_ORIGINS
   ? process.env.ALLOWED_ORIGINS.split(',').map(origin => origin.trim())
   : [];
 
+// Default allowed origins (kortex-system.com domains)
+const defaultAllowedOrigins = [
+  'https://www.kortex-system.com',
+  'https://kortex-system.com',
+  'http://localhost:8000',
+  'http://localhost:3000',
+  'http://127.0.0.1:8000',
+  'http://127.0.0.1:3000'
+];
+
+// Combine environment origins with defaults
+const allAllowedOrigins = [...new Set([...defaultAllowedOrigins, ...allowedOrigins])];
+
 app.use((req, res, next) => {
   const origin = req.headers.origin;
   
-  // Allow requests from configured origins or in development mode
-  if (origin && (allowedOrigins.includes(origin) || allowedOrigins.includes('*') || app.get('env') === 'development')) {
+  // Allow requests from configured origins, default kortex-system.com domains, wildcard, or in development mode
+  if (origin && (
+    allAllowedOrigins.includes(origin) || 
+    allowedOrigins.includes('*') || 
+    app.get('env') === 'development' ||
+    origin.includes('kortex-system.com') // Fallback: allow any kortex-system.com subdomain
+  )) {
     res.setHeader('Access-Control-Allow-Origin', origin);
     res.setHeader('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE, OPTIONS');
     res.setHeader('Access-Control-Allow-Headers', 'Content-Type, Authorization');
     res.setHeader('Access-Control-Allow-Credentials', 'true');
+    res.setHeader('Access-Control-Max-Age', '86400'); // Cache preflight for 24 hours
   }
   
   // Handle preflight
   if (req.method === 'OPTIONS') {
     res.sendStatus(200);
-  } else {
-    next();
+    return;
   }
+  
+  next();
 });
 
 declare module 'http' {
