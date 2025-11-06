@@ -1385,6 +1385,14 @@
         
         const invoice = await response.json();
         console.log('✅ Invoice uploaded and processed:', invoice);
+        console.log('📊 Invoice status:', invoice.status);
+        console.log('📊 Invoice data:', {
+          invoiceNumber: invoice.invoiceNumber,
+          invoiceDate: invoice.invoiceDate,
+          supplierName: invoice.supplierName,
+          totalAmount: invoice.totalAmount,
+          errorMessage: invoice.errorMessage
+        });
         
         // Store full invoice details
         invoiceDetails.set(invoice.id, invoice);
@@ -1405,8 +1413,16 @@
         renderResults();
         scrollToResults();
         
+        // Check if there's an error
+        if (invoice.status === 'error') {
+          console.error('❌ Invoice processing failed:', invoice.errorMessage);
+          alert(`Fehler bei der Verarbeitung: ${invoice.errorMessage || 'Unbekannter Fehler'}`);
+          return invoice;
+        }
+        
         // If invoice is completed immediately, show detail view automatically
         if (invoice.status === 'completed') {
+          console.log('✅ Invoice completed immediately');
           // Small delay to let the UI update first
           setTimeout(() => {
             showInvoiceDetail(invoice.id);
@@ -1415,6 +1431,7 @@
         
         // If status is processing, poll for completion
         if (invoice.status === 'processing') {
+          console.log('⏳ Invoice is processing, starting polling...');
           pollInvoiceStatus(invoice.id);
         }
         
@@ -1449,20 +1466,29 @@
     
     // Poll invoice status until completed
     async function pollInvoiceStatus(invoiceId) {
-      const maxAttempts = 30; // 30 seconds max
+      const maxAttempts = 60; // 60 seconds max (KI-Extraktion kann länger dauern)
       let attempts = 0;
       
       const poll = async () => {
         try {
+          attempts++;
+          console.log(`🔄 Polling invoice status (attempt ${attempts}/${maxAttempts}):`, invoiceId);
+          
           const response = await fetch(`${API_BASE_URL}/api/invoices/${invoiceId}`, {
             credentials: 'include'
           });
           
           if (!response.ok) {
-            throw new Error('Failed to fetch invoice status');
+            throw new Error(`Failed to fetch invoice status: ${response.status} ${response.statusText}`);
           }
           
           const invoice = await response.json();
+          console.log(`📊 Invoice status update (attempt ${attempts}):`, {
+            status: invoice.status,
+            invoiceNumber: invoice.invoiceNumber,
+            supplierName: invoice.supplierName,
+            errorMessage: invoice.errorMessage
+          });
           
           // Store full invoice details
           invoiceDetails.set(invoice.id, invoice);
@@ -1470,6 +1496,8 @@
           // Update invoice in extractedInvoices
           const index = extractedInvoices.findIndex(inv => inv.id === invoiceId);
           if (index !== -1) {
+            const oldStatus = extractedInvoices[index].status;
+            
             extractedInvoices[index] = {
               id: invoice.id,
               invoiceNumber: invoice.invoiceNumber || '',
@@ -1483,23 +1511,49 @@
             };
             renderResults();
             
+            // Check for errors
+            if (invoice.status === 'error') {
+              console.error('❌ Invoice processing failed:', invoice.errorMessage);
+              alert(`Fehler bei der Verarbeitung: ${invoice.errorMessage || 'Unbekannter Fehler'}`);
+              return; // Stop polling
+            }
+            
             // If invoice just completed (status changed from processing to completed), show detail view
-            const wasProcessing = extractedInvoices[index]?.status === 'processing';
-            if (invoice.status === 'completed' && wasProcessing) {
+            if (invoice.status === 'completed' && oldStatus === 'processing') {
+              console.log('✅ Invoice completed! Showing detail view...');
               // Show detail view when invoice completes
               setTimeout(() => {
                 showInvoiceDetail(invoice.id);
               }, 500);
+              return; // Stop polling
             }
           }
           
-          // Continue polling if still processing
+          // Continue polling if still processing and not exceeded max attempts
           if (invoice.status === 'processing' && attempts < maxAttempts) {
-            attempts++;
             setTimeout(poll, 1000); // Poll every second
+          } else if (attempts >= maxAttempts) {
+            console.warn('⚠️ Max polling attempts reached. Invoice may still be processing.');
+            alert('Die Verarbeitung dauert länger als erwartet. Bitte laden Sie die Seite neu, um den Status zu prüfen.');
           }
         } catch (error) {
           console.error('❌ Error polling invoice status:', error);
+          console.error('Error details:', {
+            message: error.message,
+            name: error.name,
+            invoiceId: invoiceId,
+            attempt: attempts
+          });
+          
+          // Only stop polling after 3 consecutive errors
+          if (attempts >= 3) {
+            console.error('❌ Too many polling errors. Stopping.');
+            alert('Fehler beim Abrufen des Verarbeitungsstatus. Bitte laden Sie die Seite neu.');
+            return;
+          }
+          
+          // Retry after error
+          setTimeout(poll, 2000); // Wait 2 seconds before retry
         }
       };
       
