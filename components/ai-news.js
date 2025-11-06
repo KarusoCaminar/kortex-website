@@ -209,6 +209,7 @@
       
       .ai-news-panel.collapsed .ai-news-panel-header {
         padding: 0;
+        margin: 0;
         border-radius: 30px;
         width: 60px;
         height: 60px;
@@ -217,9 +218,21 @@
         justify-content: center;
         background: linear-gradient(135deg, #034EA2 0%, #1e40af 100%);
         border: none;
+        position: relative;
       }
       
       /* Verstecke Text und Refresh-Button wenn collapsed */
+      .ai-news-panel.collapsed .ai-news-panel-header h3 {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+        position: relative;
+      }
+      
       .ai-news-panel.collapsed .ai-news-panel-header h3 span:not(.ai-icon-robot) {
         display: none;
       }
@@ -228,17 +241,28 @@
         display: none;
       }
       
-      /* AI Icon größer und zentriert wenn collapsed */
+      /* AI Icon exakt zentriert wenn collapsed */
       .ai-news-panel.collapsed .ai-icon-robot {
         display: flex;
         align-items: center;
         justify-content: center;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
       }
       
       .ai-news-panel.collapsed .ai-icon-robot svg {
         width: 28px;
         height: 28px;
         stroke-width: 2.5;
+        display: block;
+        margin: 0;
+        padding: 0;
       }
       
       /* Expandiert: Vollständiges Panel */
