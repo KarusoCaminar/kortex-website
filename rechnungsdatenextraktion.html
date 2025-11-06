@@ -369,15 +369,31 @@
       padding: 1.5rem;
     }
     
-    .invoice-detail-card:has(.pdf-preview-container) {
+    .invoice-preview-card {
       height: calc(100vh - 200px);
       min-height: 600px;
+      overflow: hidden;
+    }
+    
+    .invoice-preview-header {
+      border-bottom: 1px solid rgba(148, 163, 184, 0.2);
+      background: rgba(15, 23, 42, 0.95);
     }
     
     .invoice-detail-card h3 {
       font-size: 1.25rem;
       margin-bottom: 1rem;
       color: #60a5fa;
+    }
+    
+    .image-preview-container {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      background: transparent;
+      border-radius: 8px;
+      overflow: hidden;
     }
     
     .invoice-preview {
@@ -427,7 +443,6 @@
       justify-content: flex-start;
       align-items: stretch;
       overflow: hidden;
-      border-radius: 8px;
       flex: 1;
       min-height: 0;
     }
@@ -440,7 +455,11 @@
       flex-direction: column;
       flex: 1;
       min-height: 600px;
+      background: #ffffff;
+      border-radius: 8px;
       overflow: hidden;
+      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+      border: 1px solid rgba(148, 163, 184, 0.2);
     }
     
     .pdf-object {
@@ -450,6 +469,8 @@
       flex: 1;
       min-height: 600px;
       border: none;
+      margin: 0;
+      padding: 0;
     }
     
     .pdf-iframe {
@@ -459,6 +480,8 @@
       flex: 1;
       min-height: 600px;
       border: none;
+      margin: 0;
+      padding: 0;
     }
     
     .pdf-fallback {
@@ -738,15 +761,14 @@
         max-height: 60vh;
       }
       
-      .invoice-preview iframe,
-      .invoice-preview object {
-        width: 100%;
-        height: 60vh;
+      .invoice-preview-card {
         min-height: 400px;
+        max-height: 70vh;
       }
       
       .pdf-preview-container {
         min-height: 400px;
+        max-height: calc(70vh - 100px);
       }
       
       .pdf-object,
@@ -805,15 +827,14 @@
         padding: 0.75rem;
       }
       
-      .invoice-preview iframe,
-      .invoice-preview object {
-        width: 100%;
-        height: 50vh;
+      .invoice-preview-card {
         min-height: 300px;
+        max-height: 60vh;
       }
       
       .pdf-preview-container {
         min-height: 300px;
+        max-height: calc(60vh - 80px);
       }
       
       .pdf-object,
@@ -1957,17 +1978,19 @@
           <!-- Right Column: PDF Preview -->
           <div>
             <!-- Invoice Preview -->
-            <div class="invoice-detail-card" style="height: 100%; display: flex; flex-direction: column;">
-              <h3>Rechnungsvorschau</h3>
-              <div class="invoice-preview-wrapper" style="flex: 1; display: flex; flex-direction: column; min-height: 0;">
+            <div class="invoice-detail-card invoice-preview-card" style="height: 100%; display: flex; flex-direction: column; padding: 0;">
+              <div class="invoice-preview-header">
+                <h3 style="margin: 0; padding: 1.5rem 1.5rem 1rem 1.5rem;">Rechnungsvorschau</h3>
+              </div>
+              <div class="invoice-preview-wrapper" style="flex: 1; display: flex; flex-direction: column; min-height: 0; padding: 0 1.5rem 1.5rem 1.5rem;">
                 ${invoice.fileType && invoice.fileType.startsWith('image/') 
-                  ? `<img src="${escapeHtml(invoice.fileData)}" alt="${escapeHtml(invoice.fileName)}" class="invoice-preview">`
+                  ? `<div class="image-preview-container"><img src="${escapeHtml(invoice.fileData)}" alt="${escapeHtml(invoice.fileName)}" class="invoice-preview"></div>`
                   : invoice.fileType === 'application/pdf'
                   ? `
-                    <div class="pdf-preview-container" style="flex: 1; display: flex; flex-direction: column; min-height: 0;">
-                      <!-- PDF Viewer - entire page visible, scrollable for multiple pages -->
-                      <object data="${escapeHtml(invoice.fileData)}#toolbar=1&view=Fit&scrollbar=1&zoom=page-fit" type="application/pdf" class="invoice-preview pdf-object" title="Rechnungsvorschau" style="flex: 1; min-height: 0;">
-                        <iframe src="${escapeHtml(invoice.fileData)}#toolbar=1&view=Fit&scrollbar=1&zoom=page-fit" class="invoice-preview pdf-iframe" title="Rechnungsvorschau" style="flex: 1; min-height: 0;"></iframe>
+                    <div class="pdf-preview-container">
+                      <!-- PDF Viewer - clean, no toolbar, scrollable for multiple pages -->
+                      <object data="${escapeHtml(invoice.fileData)}#toolbar=0&navpanes=0&scrollbar=1&view=Fit" type="application/pdf" class="invoice-preview pdf-object" title="Rechnungsvorschau">
+                        <iframe src="${escapeHtml(invoice.fileData)}#toolbar=0&navpanes=0&scrollbar=1&view=Fit" class="invoice-preview pdf-iframe" title="Rechnungsvorschau"></iframe>
                       </object>
                       <!-- Fallback: Direct link to PDF -->
                       <div class="pdf-fallback">
