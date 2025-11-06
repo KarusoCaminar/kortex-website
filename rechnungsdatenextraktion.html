@@ -150,6 +150,7 @@
     .demo-card img {
       width: 100%;
       max-width: 100%;
+      max-height: 200px;
       height: auto;
       object-fit: contain;
       border-radius: 12px;
@@ -157,6 +158,11 @@
       box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
       background: rgba(255, 255, 255, 0.05);
       margin-bottom: 1rem;
+      cursor: pointer;
+    }
+    
+    .demo-card iframe {
+      pointer-events: none; /* Verhindere Interaktion mit iframe - nur Klick auf Card zählt */
     }
     
     .demo-card h3 {
@@ -535,7 +541,8 @@
         <div class="demo-card">
           <img src="https://koretex-invoice-db.onrender.com/samples/rechnung-1.jpg" 
                alt="Demo Rechnung 1 - Deutsche Rechnung (JPG)"
-               onerror="this.style.display='none'">
+               style="max-height: 200px; object-fit: contain;"
+               onerror="this.onerror=null; this.src='data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgZmlsbD0iIzMzMzMzMyIvPjx0ZXh0IHg9IjUwJSIgeT0iNTAlIiBmb250LWZhbWlseT0iQXJpYWwiIGZvbnQtc2l6ZT0iMTQiIGZpbGw9IiNmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGR5PSIuM2VtIj5JbWFnZSBub3QgYXZhaWxhYmxlPC90ZXh0Pjwvc3ZnPg=='; console.error('❌ Failed to load image:', this.src);">
           <h3>Rechnungsvorlage 1</h3>
           <p>Klicke auf diese Demo-Rechnung → KI extrahiert automatisch Rechnungsnummer, Datum, Betrag, USt-IdNr. → Ergebnis erscheint in der Tabelle.</p>
           <div class="demo-tags">
@@ -552,7 +559,8 @@
         <div class="demo-card">
           <img src="https://koretex-invoice-db.onrender.com/samples/rechnung-2.jpg" 
                alt="Demo Rechnung 2 - Deutsche Rechnung (JPG)"
-               onerror="this.style.display='none'">
+               style="max-height: 200px; object-fit: contain;"
+               onerror="this.onerror=null; this.src='data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgZmlsbD0iIzMzMzMzMyIvPjx0ZXh0IHg9IjUwJSIgeT0iNTAlIiBmb250LWZhbWlseT0iQXJpYWwiIGZvbnQtc2l6ZT0iMTQiIGZpbGw9IiNmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGR5PSIuM2VtIj5JbWFnZSBub3QgYXZhaWxhYmxlPC90ZXh0Pjwvc3ZnPg=='; console.error('❌ Failed to load image:', this.src);">
           <h3>Rechnungsvorlage 2</h3>
           <p>Klicke auf diese Demo-Rechnung → KI extrahiert automatisch alle Rechnungsdaten → Ergebnis erscheint in der Tabelle.</p>
           <div class="demo-tags">
@@ -567,9 +575,13 @@
       <!-- Demo Invoice 3 -->
       <a href="#" class="demo-card-link" data-invoice-sample="3">
         <div class="demo-card">
-          <div style="text-align: center; padding: 2rem; background: rgba(96, 165, 250, 0.1); border-radius: 12px; margin-bottom: 1rem;">
-            <span style="font-size: 3rem;">📄</span>
-            <p style="margin-top: 0.5rem; color: #60a5fa; font-weight: 600;">PDF Rechnung</p>
+          <div style="text-align: center; padding: 2rem; background: rgba(96, 165, 250, 0.1); border-radius: 12px; margin-bottom: 1rem; min-height: 200px; display: flex; flex-direction: column; align-items: center; justify-content: center;">
+            <iframe 
+              src="https://koretex-invoice-db.onrender.com/samples/rechnung-3.pdf#toolbar=0&view=FitH" 
+              style="width: 100%; height: 180px; border: 2px solid rgba(148, 163, 184, 0.3); border-radius: 8px; background: white;"
+              onerror="this.style.display='none'; this.parentElement.innerHTML='<span style=\'font-size: 3rem;\'>📄</span><p style=\'margin-top: 0.5rem; color: #60a5fa; font-weight: 600;\'>PDF Rechnung</p>';">
+            </iframe>
+            <p style="margin-top: 0.5rem; color: #60a5fa; font-weight: 600; font-size: 0.9rem;">PDF Rechnung</p>
           </div>
           <h3>Rechnung Vorlage 1 (ENG)</h3>
           <p>Klicke auf diese Demo-Rechnung → KI extrahiert automatisch alle Rechnungsdaten aus PDF → Ergebnis erscheint in der Tabelle.</p>
@@ -585,9 +597,13 @@
       <!-- Demo Invoice 4 -->
       <a href="#" class="demo-card-link" data-invoice-sample="4">
         <div class="demo-card">
-          <div style="text-align: center; padding: 2rem; background: rgba(96, 165, 250, 0.1); border-radius: 12px; margin-bottom: 1rem;">
-            <span style="font-size: 3rem;">📄</span>
-            <p style="margin-top: 0.5rem; color: #60a5fa; font-weight: 600;">PDF Rechnung</p>
+          <div style="text-align: center; padding: 2rem; background: rgba(96, 165, 250, 0.1); border-radius: 12px; margin-bottom: 1rem; min-height: 200px; display: flex; flex-direction: column; align-items: center; justify-content: center;">
+            <iframe 
+              src="https://koretex-invoice-db.onrender.com/samples/rechnung-4.pdf#toolbar=0&view=FitH" 
+              style="width: 100%; height: 180px; border: 2px solid rgba(148, 163, 184, 0.3); border-radius: 8px; background: white;"
+              onerror="this.style.display='none'; this.parentElement.innerHTML='<span style=\'font-size: 3rem;\'>📄</span><p style=\'margin-top: 0.5rem; color: #60a5fa; font-weight: 600;\'>PDF Rechnung</p>';">
+            </iframe>
+            <p style="margin-top: 0.5rem; color: #60a5fa; font-weight: 600; font-size: 0.9rem;">PDF Rechnung</p>
           </div>
           <h3>Rechnung Vorlage 2 (DE)</h3>
           <p>Klicke auf diese Demo-Rechnung → KI extrahiert automatisch alle Rechnungsdaten aus PDF → Ergebnis erscheint in der Tabelle.</p>
@@ -934,26 +950,46 @@
       const sample = sampleInvoices[sampleId];
       if (!sample) {
         console.error('❌ Sample invoice not found:', sampleId);
+        alert('❌ Demo-Rechnung nicht gefunden. Bitte versuchen Sie es erneut.');
         return;
       }
       
+      console.log('📥 Loading sample invoice:', sample.name, 'from', `${API_BASE_URL}${sample.url}`);
       showLoading();
       
       try {
-        // Fetch the sample file
-        const response = await fetch(`${API_BASE_URL}${sample.url}`);
+        // Fetch the sample file from the API
+        const sampleUrl = `${API_BASE_URL}${sample.url}`;
+        console.log('🌐 Fetching from:', sampleUrl);
+        
+        const response = await fetch(sampleUrl, {
+          method: 'GET',
+          credentials: 'include'
+        });
+        
         if (!response.ok) {
-          throw new Error('Failed to fetch sample invoice');
+          const errorText = await response.text();
+          console.error('❌ Fetch failed:', response.status, response.statusText, errorText);
+          throw new Error(`Fehler beim Laden der Demo-Rechnung (${response.status}): ${response.statusText}`);
         }
         
         const blob = await response.blob();
-        const file = new File([blob], sample.name, { type: sample.type });
+        console.log('✅ Sample file loaded:', blob.size, 'bytes', blob.type);
+        
+        // Validate blob type
+        if (!blob.type || (!blob.type.startsWith('image/') && blob.type !== 'application/pdf')) {
+          console.warn('⚠️ Unexpected blob type:', blob.type, '- proceeding anyway');
+        }
+        
+        const file = new File([blob], sample.name, { type: sample.type || blob.type });
+        console.log('📄 Created file object:', file.name, file.type, file.size);
         
         // Upload the sample file
         await uploadInvoice(file);
       } catch (error) {
         console.error('❌ Error loading sample invoice:', error);
-        alert('Fehler beim Laden der Demo-Rechnung: ' + error.message);
+        const errorMessage = error.message || 'Unbekannter Fehler';
+        alert(`Fehler beim Laden der Demo-Rechnung: ${errorMessage}\n\nBitte stellen Sie sicher, dass die Invoice-Extractor API erreichbar ist.`);
         hideLoading();
       }
     }
@@ -1088,21 +1124,42 @@
     
     // Event Listeners
     document.addEventListener('DOMContentLoaded', () => {
-      // Demo invoice cards
+      // Demo invoice cards - WICHTIG: Verhindere dass iframe-Clicks den Link triggern
       document.querySelectorAll('.demo-card-link[data-invoice-sample]').forEach(link => {
         link.addEventListener('click', async (e) => {
+          // Verhindere Klick wenn auf iframe geklickt wurde
+          if (e.target.tagName === 'IFRAME' || e.target.closest('iframe')) {
+            e.stopPropagation();
+            return;
+          }
+          
           e.preventDefault();
           const sampleId = parseInt(link.getAttribute('data-invoice-sample'));
+          console.log('📋 Loading sample invoice:', sampleId);
           await loadSampleInvoice(sampleId);
         });
       });
+      
+      // Upload label - verhindere dass Label-Click den Card-Link triggert
+      const uploadLabel = document.querySelector('label[for="invoice-upload-input"]');
+      if (uploadLabel) {
+        uploadLabel.addEventListener('click', (e) => {
+          e.stopPropagation();
+          // File input wird automatisch geöffnet durch label[for]
+        }, { capture: true });
+      }
       
       // Upload input
       const uploadInput = document.getElementById('invoice-upload-input');
       if (uploadInput) {
         uploadInput.addEventListener('change', async (e) => {
           const file = e.target.files?.[0];
-          if (!file) return;
+          if (!file) {
+            console.log('⚠️ Keine Datei ausgewählt');
+            return;
+          }
+          
+          console.log('📤 File selected:', file.name, file.type, file.size);
           
           // Validate file type
           const allowedTypes = ['image/jpeg', 'image/png', 'image/jpg', 'application/pdf'];
@@ -1119,37 +1176,80 @@
             return;
           }
           
-          await uploadInvoice(file);
-          uploadInput.value = '';
+          try {
+            await uploadInvoice(file);
+          } catch (error) {
+            console.error('❌ Upload error:', error);
+          } finally {
+            uploadInput.value = '';
+          }
         });
       }
       
       // Clear button
-      document.getElementById('btn-clear-results')?.addEventListener('click', clearAllResults);
+      const clearBtn = document.getElementById('btn-clear-results');
+      if (clearBtn) {
+        clearBtn.addEventListener('click', (e) => {
+          e.preventDefault();
+          clearAllResults();
+        });
+      }
       
       // Download buttons
-      document.getElementById('btn-download-csv')?.addEventListener('click', downloadCSV);
-      document.getElementById('btn-download-json')?.addEventListener('click', downloadJSON);
+      const csvBtn = document.getElementById('btn-download-csv');
+      if (csvBtn) {
+        csvBtn.addEventListener('click', (e) => {
+          e.preventDefault();
+          downloadCSV();
+        });
+      }
+      
+      const jsonBtn = document.getElementById('btn-download-json');
+      if (jsonBtn) {
+        jsonBtn.addEventListener('click', (e) => {
+          e.preventDefault();
+          downloadJSON();
+        });
+      }
       
       // Load existing invoices on page load
+      console.log('📋 Loading existing invoices...');
       loadExistingInvoices();
+      
+      console.log('✅ Invoice extraction page initialized');
     });
     
     // Load existing invoices from API
     async function loadExistingInvoices() {
       try {
+        console.log('📋 Fetching existing invoices from:', `${API_BASE_URL}/api/invoices`);
         const response = await fetch(`${API_BASE_URL}/api/invoices`, {
-          credentials: 'include'
+          method: 'GET',
+          credentials: 'include',
+          headers: {
+            'Accept': 'application/json'
+          }
         });
         
         if (!response.ok) {
-          throw new Error('Failed to fetch invoices');
+          const errorText = await response.text();
+          console.error('❌ Failed to fetch invoices:', response.status, response.statusText, errorText);
+          // Don't show error to user - just log it
+          return;
+        }
+        
+        const contentType = response.headers.get('content-type');
+        if (!contentType || !contentType.includes('application/json')) {
+          console.warn('⚠️ Unexpected content type:', contentType);
         }
         
         const invoices = await response.json();
+        console.log('✅ Loaded invoices:', invoices.length);
         
         // Filter out demo invoices and add to extractedInvoices
-        const userInvoices = invoices.filter(inv => !inv.id.startsWith('demo-'));
+        const userInvoices = invoices.filter(inv => !inv.id || !inv.id.startsWith('demo-'));
+        console.log('📊 User invoices (excluding demos):', userInvoices.length);
+        
         extractedInvoices.length = 0;
         extractedInvoices.push(...userInvoices.map(inv => ({
           id: inv.id,
@@ -1159,13 +1259,22 @@
           supplierVatId: inv.supplierVatId || '',
           totalAmount: inv.totalAmount || '',
           status: inv.status || 'processing',
-          createdAt: inv.createdAt || new Date().toISOString(),
+          createdAt: inv.createdAt || inv.created_at || new Date().toISOString(),
           source: 'Upload'
         })));
         
         renderResults();
+        
+        // Poll for any processing invoices
+        userInvoices.forEach(inv => {
+          if (inv.status === 'processing') {
+            console.log('⏳ Polling status for processing invoice:', inv.id);
+            pollInvoiceStatus(inv.id);
+          }
+        });
       } catch (error) {
         console.error('❌ Error loading existing invoices:', error);
+        // Don't show error to user on page load - just log it
       }
     }
   </script>
