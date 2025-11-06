@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-11-06T16:30:38.901Z",
+  "lastUpdated": "2025-11-06T18:34:13.162Z",
   "news": [
+    {
+      "title": "Google bringt Gemini Deep Reseach für eigene Daten",
+      "description": "Googles KI-Funktion Gemini Deep Research kann nun auch Inhalte aus Gmail, Drive und Chat in ihre Recherchen einbeziehen.\nDer Artikel Google bringt Gemini Deep Reseach für eigene Daten erschien zuerst",
+      "link": "https://the-decoder.de/google-bringt-gemini-deep-reseach-fuer-eigene-daten/",
+      "date": "2025-11-06T16:54:07.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Snap integriert KI-Suche von Perplexity für 400 Millionen Dollar in Snapchat",
       "description": "Snap hat eine Partnerschaft im Wert von 400 Millionen US-Dollar mit Perplexity AI geschlossen, um dessen KI-Suchmaschine ab 2026 standardmäßig in Snapchat zu integrieren.\nDer Artikel Snap integriert K",
@@ -29,6 +38,15 @@
       "language": "de"
     },
     {
+      "title": "From Pilot to Practice: How BBVA Is Scaling AI Across the Organization",
+      "description": "BBVA is reimagining how employees work with ChatGPT Enterprise, embedding AI into everyday operations. The bank has saved hours per week per employee, created 20,000+ Custom GPTs, and achieved up to 8",
+      "link": "https://openai.com/index/bbva-2025",
+      "date": "2025-11-06T09:30:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
       "title": "Apple will Googles Gemini-Modell für eine Milliarde Dollar jährlich in Siri integrieren",
       "description": "Apple plant laut Bloomberg den Einsatz von Googles Gemini-Modell zur Aufwertung seines Sprachassistenten Siri, die Verhandlungen sollen kurz vor einem Abschluss stehen.\nDer Artikel Apple will Googles",
       "link": "https://the-decoder.de/apple-will-googles-gemini-modell-fuer-eine-milliarde-dollar-jaehrlich-in-siri-integrieren/",
@@ -36,6 +54,24 @@
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
+    },
+    {
+      "title": "AI progress and recommendations",
+      "description": "AI is advancing fast. We have the chance to shape its progress—toward discovery, safety, and a better future for everyone.",
+      "link": "https://openai.com/index/ai-progress-and-recommendations",
+      "date": "2025-11-06T00:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
+      "title": "Introducing the Teen Safety Blueprint",
+      "description": "Discover OpenAI’s Teen Safety Blueprint—a roadmap for building AI responsibly with safeguards, age-appropriate design, and collaboration to protect and empower young people online.",
+      "link": "https://openai.com/index/introducing-the-teen-safety-blueprint",
+      "date": "2025-11-06T00:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
     },
     {
       "title": "How CRED is tapping AI to deliver premium customer experiences",
@@ -96,42 +132,6 @@
       "description": "More than 1 million business customers around the world now use OpenAI. Across healthcare, life sciences, financial services, and more, ChatGPT and our APIs are driving a new era of intelligent, AI-po",
       "link": "https://openai.com/index/1-million-businesses-putting-ai-to-work",
       "date": "2025-11-05T05:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "OpenAI launcht Sora-App für Android: KI-Videos mit Sound und eigenen Charakteren",
-      "description": "OpenAI bringt mit Sora 2 ein neues KI-Modell zur Video- mit Audiogenerierung auf den Markt. Jetzt gibt's auch eine Android-App.\nDer Artikel OpenAI launcht Sora-App für Android: KI-Videos mit Sound und",
-      "link": "https://the-decoder.de/openai-launcht-sora-app-fuer-android-ki-videos-mit-sound-und-eigenen-charakteren/",
-      "date": "2025-11-04T20:07:42.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Telekom-KI-Cloud steigert KI-Rechenleistung in Deutschland angeblich um 50 Prozent",
-      "description": "Die Deutsche Telekom und Nvidia starten in München die Industrial AI Cloud, eine der größten KI-Infrastrukturen Europas.\nDer Artikel Telekom-KI-Cloud steigert KI-Rechenleistung in Deutschland angeblic",
-      "link": "https://the-decoder.de/telekom-ki-cloud-steigert-ki-rechenleistung-in-deutschland-angeblich-um-50-prozent/",
-      "date": "2025-11-04T19:39:25.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Exploring a space-based, scalable AI infrastructure system design",
-      "description": "General Science",
-      "link": "https://research.google/blog/exploring-a-space-based-scalable-ai-infrastructure-system-design/",
-      "date": "2025-11-04T16:58:00.000Z",
-      "source": "Google AI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "Brazil’s AI moment is here",
-      "description": "Brazil is now one of the most engaged countries in the world when it comes to AI. From classrooms to farms and small businesses, Brazilians are using OpenAI products to learn, create, and drive innova",
-      "link": "https://openai.com/global-affairs/brazil-ai-moment-is-here",
-      "date": "2025-11-04T10:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
