@@ -2,250 +2,212 @@
 
 KI-gestützte Automatisierungslösungen für den deutschen Mittelstand.
 
-## 🌍 Mehrsprachigkeit
+## 🚀 Features
 
-Die Website unterstützt Deutsch (DE) und Englisch (EN) mit Sprachumschaltung über Flaggen-Buttons oben rechts.
+- **Mehrsprachig**: Deutsch und Englisch mit Sprachumschaltung
+- **DSGVO-konform**: Cookie-Banner mit vollständiger Cookie-Liste
+- **Analytics**: Google Analytics 4 Integration (optional)
+- **Live-Demo**: YouTube-Video-Integration mit Autoplay
+- **AI News Feed**: Automatisch aktualisierter News-Feed via GitHub Actions
+- **Invoice Extractor**: KI-gestützte Rechnungsdatenextraktion (separate App)
 
-### Sprache ändern
-- Klicke auf 🇩🇪 für Deutsch
-- Klicke auf 🇬🇧 für Englisch
-- Die Sprachpräferenz wird im LocalStorage gespeichert
+## 📁 Projektstruktur
 
-## 🎬 Live Demo Section
-
-### Übersicht
-Ein integrierter Demo-Bereich im "Live-Demo" Section mit **AUTOPLAY VIDEO**:
-- **🔥 Autoplay**: Video startet automatisch - keine Klicks nötig!
-- **🔄 Endlos-Loop**: Läuft die ersten 20 Sekunden in Endlosschleife 🔁
-- **🔇 Muted**: Stumm (perfekt für kurzen Loop ohne Ablenkung)
-- **🎥 1080p HD**: Hochauflösende Qualität
-- **⚡ Schnell**: Nur 20 Sekunden - zeigt dynamische Workflows
-- **📱 Responsive**: Grid-Layout (Desktop) → Stack (Mobile)
-- **🎨 Professionell**: Sieht aus wie eingebettete Premium-Werbung
-
-### Aktuelles Video
-
-**Video:** n8n in 100 Seconds (Fireship)  
-**YouTube ID:** `RpjQTGKm-ok`  
-**Clip:** 0:00 - 0:20 (erste 20 Sekunden in Loop)  
-**Mode:** Autoplay + **Endlos-Loop** 🔄 + Muted 🔇  
-**Qualität:** 1080p (HD)  
-**Zeigt:** Schnelle, dynamische Workflow-Automatisierung  
-**Quelle:** [Offizielles n8n YouTube](https://youtu.be/RpjQTGKm-ok)
-
-### Video-Einstellungen ändern
-
-#### Video-ID und Timestamps bearbeiten
-In `index.html` unter `<section id="demo">`:
-
-```html
-<div class="video-wrapper video-autoplay" 
-     data-video-id="RpjQTGKm-ok" 
-     data-start="0" 
-     data-end="20"
-     data-autoplay="true"
-     data-loop="true"
-     data-muted="true"
-     data-quality="hd1080">
-```
-
-**Parameter:**
-- `data-video-id`: YouTube Video ID (z.B. `RpjQTGKm-ok`)
-- `data-start`: Start-Timestamp in Sekunden (z.B. `0` = Anfang)
-- `data-end`: End-Timestamp in Sekunden (z.B. `20` = 20 Sekunden)
-- `data-autoplay`: `"true"` = Video startet automatisch beim Laden
-- `data-loop`: `"true"` = Video läuft in Endlosschleife 🔄
-- `data-muted`: `"true"` = Stumm 🔇 | `"false"` = MIT TON 🔊
-- `data-quality`: `"hd1080"` = 1080p HD | `"hd720"` = 720p | `"large"` = 480p
-- `class="video-autoplay"`: CSS-Klasse für eingebetteten Look
-
-**Empfohlene Alternative Videos (alle offiziell von n8n):**
-```html
-<!-- Option 1: n8n in 100 Sekunden (ultra-kurz, dynamisch) -->
-<div class="video-wrapper" 
-     data-video-id="RpjQTGKm-ok" 
-     data-start="5" 
-     data-end="45">
-
-<!-- Option 2: Invoice Extraction Demo (konkreter Use Case) -->
-<div class="video-wrapper" 
-     data-video-id="8FsvuGeWxEQ" 
-     data-start="90" 
-     data-end="120">
-
-<!-- Option 3: 10 n8n Workflows Showcase -->
-<div class="video-wrapper" 
-     data-video-id="PhVTDydFGo0" 
-     data-start="10" 
-     data-end="50">
-```
-
-#### Video-Thumbnail ändern
-Das Thumbnail wird automatisch von YouTube geladen:
-```html
-<img src="https://img.youtube.com/vi/JIaxjH2CoKo/maxresdefault.jpg">
-```
-
-Ändere `JIaxjH2CoKo` zur neuen Video-ID.
-
-### CTA-Links ändern
-
-#### Business Card Extraction (CTA 1)
-```html
-<a href="https://n8n.io/workflows/6840-extract-contacts-from-business-cards-to-google-sheets-with-gpt4o/">
-```
-
-#### Invoice Data Extraction (CTA 2)
-```html
-<a href="https://n8n.io/workflows/2463-ai-agent-invoice-data-extraction-chatgpt/">
-```
-
-**Weitere n8n Templates:**
-- [n8n Workflow Library](https://n8n.io/workflows/)
-- Suche nach "AI", "extraction", "automation"
-
-### Texte übersetzen
-
-Alle Demo-Panel-Texte sind mehrsprachig in `translations.js`:
-
-```javascript
-// Deutsch (de)
-'demo.panel.title': 'Live Demo: KI-Automatisierung in Aktion',
-'demo.panel.videoTitle': '10 n8n Workflows zur Automatisierung',
-'demo.panel.cta1.title': 'Visitenkarten-Extraktion',
-
-// Englisch (en)
-'demo.panel.title': 'Live Demo: AI Automation in Action',
-'demo.panel.videoTitle': '10 n8n Workflows for Automation',
-'demo.panel.cta1.title': 'Business Card Extraction',
-```
-
-### Features
-
-✅ **🔥 Autoplay**: Video startet automatisch - wie Promo-Werbung  
-✅ **🔄 Endlos-Loop**: Läuft 20 Sekunden in Schleife (0 → 20 → 0 🔁)  
-✅ **🔇 Muted**: Stumm für nicht-ablenkenden Loop  
-✅ **🎥 1080p HD**: Hochauflösende Qualität für perfekte Darstellung  
-✅ **⚡ Schnell**: Zeigt die besten 20 Sekunden - dynamisch!  
-✅ **📱 Responsive Design**: Grid-Layout (Desktop) → Stack-Layout (Mobile)  
-✅ **♿ Accessibility**: ARIA-Labels, Keyboard-Navigation  
-✅ **🌍 Mehrsprachig**: DE/EN Übersetzungen für alle Texte  
-✅ **💼 Professionell**: Offizielles n8n Video eingebettet  
-
-
-## 🚀 Lokaler Server
-
-```bash
-python -m http.server 8000
-```
-
-Dann öffne: http://localhost:8000
-
-## 📁 Dateistruktur
+### Haupt-Website
 
 ```
-kortex-website/
-├── assets/
-│   ├── css/
-│   │   └── demo-panel.css       # Demo-Panel Styles
-│   ├── js/
-│   │   └── demo-panel.js        # Demo-Panel Controller
-│   ├── logo.png
-│   ├── products/
-│   └── team/
-├── components/
-│   ├── navbar.js                # Navigation mit Sprachumschaltung
-│   └── footer.js                # Footer mit Übersetzungen
-├── translations.js              # Alle DE/EN Übersetzungen
-├── i18n.js                      # Sprachumschaltungs-Logik
-├── style.css                    # Haupt-Styles
-├── index.html                   # Startseite mit Demo-Panel
-├── produkte.html
-├── preise.html
-├── ueber-uns.html
-├── kontakt.html
-├── faq.html
-└── README.md
+├── index.html                 # Startseite
+├── produkte.html              # Produktseite
+├── kontakt.html               # Kontaktseite
+├── faq.html                   # FAQ-Seite
+├── ueber-uns.html            # Über uns
+├── preise.html               # Preise
+├── datenschutz.html          # Datenschutzerklärung (mit Cookie-Liste)
+├── impressum.html            # Impressum
+├── style.css                 # Haupt-Stylesheet
+├── script.js                 # Haupt-JavaScript
+├── translations.js           # Übersetzungen (DE/EN)
+├── i18n.js                   # Internationalisierung
+├── analytics-dashboard.html  # Analytics Dashboard
+└── components/
+    ├── navbar.js             # Navigation-Komponente
+    ├── footer.js             # Footer-Komponente
+    ├── cookie-banner.js      # Cookie-Banner (DSGVO-konform)
+    ├── analytics.js          # Google Analytics Integration
+    ├── facebook-pixel.js     # Facebook Pixel (optional)
+    └── ai-news.js            # AI News Feed Komponente
 ```
 
-## 🎨 Farben & Branding
+### Invoice Extractor App
 
-```css
---primary: #034EA2
---primary-dark: #09182F
+Separate React/TypeScript-Anwendung für Rechnungsdatenextraktion:
+
+```
+invoice-extractor/
+├── client/                   # React Frontend
+├── server/                   # Express Backend
+├── shared/                   # Shared Types
+├── render.yaml              # Render Deployment Config
+└── README.md                # Detaillierte Dokumentation
 ```
 
-## 📝 Neue Übersetzungen hinzufügen
+### Assets
 
-1. **Translation Key in `translations.js` hinzufügen:**
-```javascript
-de: {
-  'mein.neuer.key': 'Deutscher Text',
-}
-en: {
-  'mein.neuer.key': 'English Text',
-}
+```
+assets/
+├── css/
+│   └── demo-panel.css       # Demo-Panel Styles
+├── js/
+│   └── demo-panel.js        # YouTube Video Controller
+├── products/                # Produktbilder
+└── team/                    # Team-Fotos
 ```
 
-2. **HTML markieren:**
-```html
-<p data-i18n="mein.neuer.key">Deutscher Text</p>
+### Konfiguration
+
+```
+├── .github/
+│   └── workflows/
+│       └── update-newsfeed.yml  # GitHub Actions für News-Feed
+├── n8n_news.json            # News-Feed Daten (wird automatisch aktualisiert)
+├── robots.txt               # SEO Robots
+└── sitemap.xml              # SEO Sitemap
 ```
 
-3. **Fertig!** Die Übersetzung wird automatisch angewendet.
+## 🛠️ Setup
 
-## 📸 Screenshots
+### Lokale Entwicklung
 
-### Desktop
-- Demo-Panel am unteren Rand (360px Höhe)
-- YouTube-Video links, CTAs rechts
-- Collapse-Button zum Einklappen
+1. **Repository klonen:**
+   ```bash
+   git clone https://github.com/your-username/kortex-website.git
+   cd kortex-website
+   ```
 
-### Mobile
-- Vollbild-Modal
-- Touch-optimiert
-- Focus Trap für Accessibility
+2. **Website öffnen:**
+   - Einfach `index.html` im Browser öffnen
+   - Oder lokalen Server starten:
+     ```bash
+     python -m http.server 8000
+     # Oder
+     npx serve .
+     ```
+
+3. **Invoice Extractor (optional):**
+   ```bash
+   cd invoice-extractor
+   npm install
+   npm run dev
+   ```
+
+## 📊 Analytics Setup
+
+### Google Analytics 4
+
+1. Erstellen Sie ein GA4-Konto auf [analytics.google.com](https://analytics.google.com)
+2. Kopieren Sie Ihre Measurement ID (Format: `G-XXXXXXXXXX`)
+3. Öffnen Sie `components/analytics.js`
+4. Ersetzen Sie `G-XXXXXXXXXX` mit Ihrer Measurement ID
+5. Analytics wird automatisch geladen, wenn Analytics-Cookies akzeptiert werden
+
+**Dashboard:** `analytics-dashboard.html` bietet einen Überblick und Anleitungen.
+
+### Facebook Pixel (Optional)
+
+1. Erstellen Sie einen Pixel im [Facebook Events Manager](https://business.facebook.com/events_manager)
+2. Kopieren Sie Ihre Pixel ID
+3. Öffnen Sie `components/facebook-pixel.js`
+4. Ersetzen Sie `YOUR_PIXEL_ID` mit Ihrer Pixel ID
+5. Aktivieren Sie das Script in `index.html` (entfernen Sie die Kommentare)
+
+## 🍪 Cookie-Banner
+
+Der Cookie-Banner ist DSGVO/TTDSG-konform implementiert:
+
+- **Notwendige Cookies**: Automatisch aktiv (können nicht deaktiviert werden)
+- **Analytics-Cookies**: Nur mit Einwilligung (Google Analytics)
+- **Marketing-Cookies**: Nur mit Einwilligung (Facebook Pixel, YouTube)
+
+**Vollständige Cookie-Liste:** Siehe `datenschutz.html` → "Vollständige Cookie-Liste"
 
 ## 📰 AI News Feed
 
-Die Website verfügt über einen automatischen AI-Newsfeed, der aktuelle Nachrichten von verschiedenen Quellen sammelt:
+Der News-Feed wird automatisch alle 6 Stunden via GitHub Actions aktualisiert:
 
-### Aktivierte Quellen:
-- **Google AI** (RSS Feed Read)
-- **OpenAI** (RSS Feed Read)
-- **The Decoder** (Deutsche AI-News, RSS Feed Read)
-- **TechCrunch AI** (RSS Feed Read)
-- **n8n Blog** (HTTP Request - falls RSS blockiert)
-- **Anthropic** (HTTP Request - falls RSS blockiert)
-- **Hugging Face** (HTTP Request - falls RSS blockiert)
+- **Workflow:** `.github/workflows/update-newsfeed.yml`
+- **Daten:** `n8n_news.json`
+- **Quellen:** Deutsche und internationale KI-News-RSS-Feeds
 
-### n8n Workflow Integration
+## 🎬 Live Demo
 
-Der Newsfeed verwendet einen n8n Workflow zur Aggregation:
-- **Production URL:** `https://n8n2.kortex-system.de/webhook/ai-news-feed`
-- **Workflow:** `n8n-ai-news-workflow.json`
-- **Features:**
-  - Automatisches Parsing von RSS und Atom Feeds
-  - Filterung nach AI-relevanten Themen
-  - Kategorisierung (KMU-Relevanz, Industrie 4.0, etc.)
-  - Entfernung von Duplikaten
-  - Sortierung nach Datum (neueste zuerst)
-  - Limit: 15 News-Items
-  - Max. Alter: 30 Tage
+Die Live-Demo-Section zeigt automatisch ein YouTube-Video:
 
-### Newsfeed-Komponente
+- **Autoplay**: Startet automatisch
+- **Loop**: Erste 20 Sekunden in Endlosschleife
+- **Muted**: Stumm für bessere UX
+- **Cookie-geschützt**: Wird nur geladen, wenn Marketing-Cookies akzeptiert werden
 
-Der Newsfeed ist in `components/ai-news.js` implementiert:
-- Lädt News automatisch beim Seitenaufruf
-- Caching im LocalStorage (5 Minuten)
-- Auto-Refresh alle 10 Minuten
-- Fallback auf statische News bei Fehlern
+**Video ändern:** Bearbeiten Sie `index.html` → `<section id="demo">`
 
-## 🔗 Live-Website
+## 🌐 Deployment
 
-https://karusocaminar.github.io/kortex-website/
+### GitHub Pages
 
----
+1. Repository auf GitHub pushen
+2. Settings → Pages aktivieren
+3. Branch `main` auswählen
+4. Website ist unter `https://your-username.github.io/kortex-website` verfügbar
 
-**Entwickelt von Kortex System**  
-© 2025 Alle Rechte vorbehalten.
+### Custom Domain
+
+1. `CNAME`-Datei mit Ihrer Domain erstellen
+2. DNS-Einträge bei Ihrem Domain-Provider konfigurieren
+3. GitHub Pages Settings → Custom domain eintragen
+
+### Invoice Extractor auf Render
+
+Siehe `invoice-extractor/README.md` für detaillierte Anleitung.
+
+## 📝 Wichtige Dateien
+
+### HTML-Seiten
+- `index.html` - Startseite mit Hero, Features, Demo
+- `produkte.html` - Produktübersicht
+- `kontakt.html` - Kontaktformular (n8n Webhook)
+- `faq.html` - Häufige Fragen
+- `datenschutz.html` - Datenschutzerklärung mit Cookie-Liste
+- `impressum.html` - Impressum
+
+### JavaScript-Komponenten
+- `components/cookie-banner.js` - Cookie-Banner (DSGVO-konform)
+- `components/analytics.js` - Google Analytics Integration
+- `components/ai-news.js` - News-Feed Komponente
+- `script.js` - Haupt-JavaScript (Formulare, Events)
+- `i18n.js` - Internationalisierung
+
+### Styles
+- `style.css` - Haupt-Stylesheet
+- `assets/css/demo-panel.css` - Demo-Panel Styles
+
+### Konfiguration
+- `translations.js` - Übersetzungen (DE/EN)
+- `.github/workflows/update-newsfeed.yml` - GitHub Actions Workflow
+- `n8n_news.json` - News-Feed Daten (automatisch aktualisiert)
+
+## 🔒 Datenschutz
+
+- **Cookie-Banner**: DSGVO/TTDSG-konform
+- **Cookie-Liste**: Vollständig dokumentiert in `datenschutz.html`
+- **Analytics**: Nur mit Einwilligung
+- **Marketing**: Nur mit Einwilligung
+- **IP-Anonymisierung**: Aktiviert in Google Analytics
+
+## 📞 Support
+
+Bei Fragen oder Problemen:
+- **E-Mail**: info@kortex-system.com
+- **Website**: https://www.kortex-system.com
+
+## 📄 Lizenz
+
+Alle Rechte vorbehalten. © 2025 Kortex System

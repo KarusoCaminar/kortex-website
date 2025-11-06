@@ -26,17 +26,63 @@ class DemoVideoController {
   }
 
   init() {
-    // Load YouTube IFrame API
-    this.loadYouTubeAPI();
-
     // Setup event listeners
     this.setupEventListeners();
     
-    // Auto-load videos marked for autoplay
-    setTimeout(() => this.loadAutoplayVideos(), 1000);
+    // Check cookie consent before loading videos
+    this.checkConsentAndLoad();
+  }
+  
+  checkConsentAndLoad() {
+    // Check if cookie consent is given (YouTube videos need consent due to tracking)
+    const hasConsent = window.CookieBanner && window.CookieBanner.hasConsent('marketing');
+    
+    // If no consent system exists or consent is given, load videos
+    if (!window.CookieBanner || hasConsent) {
+      this.loadYouTubeAPI();
+      setTimeout(() => this.loadAutoplayVideos(), 1000);
+    } else {
+      // Wait for consent event
+      window.addEventListener('cookieConsent', (e) => {
+        if (e.detail && e.detail.categories && e.detail.categories.marketing) {
+          this.loadYouTubeAPI();
+          setTimeout(() => this.loadAutoplayVideos(), 500);
+        }
+      });
+      
+      // Show placeholder message if videos can't be loaded
+      this.showConsentPlaceholder();
+    }
+  }
+  
+  showConsentPlaceholder() {
+    this.videoWrappers.forEach((wrapper) => {
+      if (wrapper.dataset.autoplay === 'true') {
+        const placeholder = document.createElement('div');
+        placeholder.className = 'video-consent-placeholder';
+        placeholder.style.cssText = 'padding: 2rem; text-align: center; background: #f8f9fa; border-radius: 8px; color: rgba(30, 41, 59, 0.7);';
+        placeholder.innerHTML = `
+          <p style="margin: 0; font-size: 0.9rem;">
+            ${window.i18n?.getCurrentLanguage() === 'en' 
+              ? 'Please accept cookies to view this video.' 
+              : 'Bitte akzeptieren Sie Cookies, um dieses Video anzuzeigen.'}
+          </p>
+        `;
+        wrapper.appendChild(placeholder);
+      }
+    });
   }
   
   loadAutoplayVideos() {
+    // Remove consent placeholders
+    this.videoWrappers.forEach((wrapper) => {
+      const placeholder = wrapper.querySelector('.video-consent-placeholder');
+      if (placeholder) {
+        placeholder.remove();
+      }
+    });
+    
+    // Load autoplay videos
     this.videoWrappers.forEach((wrapper) => {
       if (wrapper.dataset.autoplay === 'true') {
         this.createAutoplayVideo(wrapper);
@@ -157,6 +203,15 @@ class DemoVideoController {
 
   handleVideoClick(e, wrapper) {
     e.preventDefault();
+
+    // Check consent before loading video
+    const hasConsent = !window.CookieBanner || window.CookieBanner.hasConsent('marketing');
+    if (!hasConsent) {
+      alert(window.i18n?.getCurrentLanguage() === 'en' 
+        ? 'Please accept marketing cookies to view this video.' 
+        : 'Bitte akzeptieren Sie Marketing-Cookies, um dieses Video anzuzeigen.');
+      return;
+    }
 
     // If already has iframe, return
     if (wrapper.querySelector('iframe')) return;

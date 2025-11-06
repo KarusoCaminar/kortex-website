@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Analytics Dashboard - Kortex System</title>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="style.css">
+  
+  <style>
+    .dashboard-container {
+      max-width: 1400px;
+      margin: 0 auto;
+      padding: 2rem;
+    }
+    
+    .dashboard-header {
+      margin-bottom: 2rem;
+      padding-bottom: 1rem;
+      border-bottom: 2px solid var(--primary, #034EA2);
+    }
+    
+    .dashboard-header h1 {
+      font-size: 2rem;
+      font-weight: 800;
+      color: var(--primary-dark, #09182F);
+      margin: 0 0 0.5rem 0;
+    }
+    
+    .dashboard-header p {
+      color: rgba(30, 41, 59, 0.7);
+      margin: 0;
+    }
+    
+    .dashboard-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 1.5rem;
+      margin-bottom: 2rem;
+    }
+    
+    .dashboard-card {
+      background: white;
+      border: 1px solid rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+      padding: 1.5rem;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    }
+    
+    .dashboard-card h2 {
+      font-size: 1.25rem;
+      font-weight: 700;
+      color: var(--primary-dark, #09182F);
+      margin: 0 0 1rem 0;
+    }
+    
+    .dashboard-card p {
+      color: rgba(30, 41, 59, 0.7);
+      margin: 0;
+      line-height: 1.6;
+    }
+    
+    .dashboard-card a {
+      color: var(--primary, #034EA2);
+      text-decoration: none;
+      font-weight: 600;
+    }
+    
+    .dashboard-card a:hover {
+      text-decoration: underline;
+    }
+    
+    .ga-embed {
+      width: 100%;
+      height: 600px;
+      border: 1px solid rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+      margin-top: 1rem;
+    }
+    
+    .setup-instructions {
+      background: #f8f9fa;
+      border-left: 4px solid var(--primary, #034EA2);
+      padding: 1.5rem;
+      border-radius: 4px;
+      margin-bottom: 2rem;
+    }
+    
+    .setup-instructions h2 {
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: var(--primary-dark, #09182F);
+      margin: 0 0 1rem 0;
+    }
+    
+    .setup-instructions ol {
+      margin: 0;
+      padding-left: 1.5rem;
+    }
+    
+    .setup-instructions li {
+      margin-bottom: 0.75rem;
+      line-height: 1.6;
+    }
+    
+    .setup-instructions code {
+      background: white;
+      padding: 0.2rem 0.4rem;
+      border-radius: 4px;
+      font-family: 'Courier New', monospace;
+      font-size: 0.9em;
+    }
+    
+    .warning-box {
+      background: #fff3cd;
+      border: 1px solid #ffc107;
+      border-radius: 8px;
+      padding: 1rem;
+      margin: 1rem 0;
+    }
+    
+    .warning-box strong {
+      color: #856404;
+    }
+    
+    .info-box {
+      background: #d1ecf1;
+      border: 1px solid #0c5460;
+      border-radius: 8px;
+      padding: 1rem;
+      margin: 1rem 0;
+    }
+    
+    .info-box strong {
+      color: #0c5460;
+    }
+  </style>
+</head>
+<body>
+  <custom-navbar></custom-navbar>
+  
+  <main class="dashboard-container">
+    <div class="dashboard-header">
+      <h1>📊 Analytics Dashboard</h1>
+      <p>Überblick über Ihre Website-Analysen und Statistiken</p>
+    </div>
+    
+    <div class="setup-instructions">
+      <h2>🚀 Google Analytics 4 Setup</h2>
+      <ol>
+        <li>
+          <strong>Google Analytics Konto erstellen:</strong>
+          <ul>
+            <li>Gehen Sie zu <a href="https://analytics.google.com" target="_blank">analytics.google.com</a></li>
+            <li>Erstellen Sie ein neues Konto (oder verwenden Sie ein bestehendes)</li>
+            <li>Erstellen Sie eine neue Property für Ihre Website</li>
+            <li>Wählen Sie "Web" als Plattform</li>
+          </ul>
+        </li>
+        <li>
+          <strong>Measurement ID finden:</strong>
+          <ul>
+            <li>Gehen Sie zu: Admin (⚙️) > Data Streams > Web Stream</li>
+            <li>Kopieren Sie Ihre Measurement ID (Format: G-XXXXXXXXXX)</li>
+          </ul>
+        </li>
+        <li>
+          <strong>Measurement ID eintragen:</strong>
+          <ul>
+            <li>Öffnen Sie <code>components/analytics.js</code></li>
+            <li>Ersetzen Sie <code>G-XXXXXXXXXX</code> mit Ihrer Measurement ID</li>
+            <li>Speichern Sie die Datei</li>
+          </ul>
+        </li>
+        <li>
+          <strong>Analytics Script einbinden:</strong>
+          <ul>
+            <li>Fügen Sie <code>&lt;script src="./components/analytics.js"&gt;&lt;/script&gt;</code> zu allen HTML-Seiten hinzu</li>
+            <li>Platzieren Sie es VOR dem schließenden <code>&lt;/body&gt;</code> Tag</li>
+          </ul>
+        </li>
+        <li>
+          <strong>Testen:</strong>
+          <ul>
+            <li>Besuchen Sie Ihre Website</li>
+            <li>Akzeptieren Sie Analytics-Cookies im Cookie-Banner</li>
+            <li>Prüfen Sie in Google Analytics > Realtime, ob Besuche erkannt werden</li>
+          </ul>
+        </li>
+      </ol>
+    </div>
+    
+    <div class="warning-box">
+      <strong>⚠️ Wichtig:</strong> Diese Seite zeigt nur einen Überblick. Für detaillierte Analysen loggen Sie sich direkt in Google Analytics ein.
+    </div>
+    
+    <div class="dashboard-grid">
+      <div class="dashboard-card">
+        <h2>📈 Google Analytics Dashboard</h2>
+        <p>Direkter Zugriff auf Ihr Google Analytics Dashboard mit allen Statistiken, Berichten und Analysen.</p>
+        <a href="https://analytics.google.com" target="_blank">→ Zu Google Analytics öffnen</a>
+      </div>
+      
+      <div class="dashboard-card">
+        <h2>📧 Wöchentliche E-Mail-Berichte einrichten</h2>
+        <p>Automatische E-Mail-Berichte mit den wichtigsten Kennzahlen Ihrer Website.</p>
+        <ol style="margin-top: 1rem; padding-left: 1.5rem; font-size: 0.9rem;">
+          <li>Gehen Sie zu Google Analytics</li>
+          <li>Klicken Sie auf "Berichte" (Reports)</li>
+          <li>Wählen Sie einen Bericht aus (z.B. "Zusammenfassung")</li>
+          <li>Klicken Sie auf "Teilen" (Share) > "E-Mail"</li>
+          <li>Wählen Sie "Wöchentlich" als Häufigkeit</li>
+          <li>Geben Sie Ihre E-Mail-Adresse ein</li>
+          <li>Klicken Sie auf "Senden"</li>
+        </ol>
+      </div>
+      
+      <div class="dashboard-card">
+        <h2>🎯 Wichtige Metriken</h2>
+        <p>Diese Kennzahlen sollten Sie regelmäßig überwachen:</p>
+        <ul style="margin-top: 1rem; padding-left: 1.5rem; font-size: 0.9rem;">
+          <li><strong>Besucher:</strong> Anzahl der Website-Besucher</li>
+          <li><strong>Seitenaufrufe:</strong> Anzahl der besuchten Seiten</li>
+          <li><strong>Verweildauer:</strong> Durchschnittliche Zeit auf der Website</li>
+          <li><strong>Absprungrate:</strong> Prozent der Besucher, die nur eine Seite besuchen</li>
+          <li><strong>Conversion-Rate:</strong> Prozent der Besucher, die eine Aktion durchführen</li>
+          <li><strong>Traffic-Quellen:</strong> Woher kommen Ihre Besucher?</li>
+        </ul>
+      </div>
+      
+      <div class="dashboard-card">
+        <h2>📱 Mobile vs. Desktop</h2>
+        <p>Überwachen Sie, wie viele Besucher von mobilen Geräten vs. Desktop kommen.</p>
+        <p style="margin-top: 1rem; font-size: 0.9rem;">
+          In Google Analytics: Berichte > Zielgruppe > Technologie > Browser & Geräte
+        </p>
+      </div>
+      
+      <div class="dashboard-card">
+        <h2>🔍 Top-Seiten</h2>
+        <p>Finden Sie heraus, welche Seiten am beliebtesten sind.</p>
+        <p style="margin-top: 1rem; font-size: 0.9rem;">
+          In Google Analytics: Berichte > Engagement > Seiten und Bildschirme
+        </p>
+      </div>
+      
+      <div class="dashboard-card">
+        <h2>🌍 Geografische Verteilung</h2>
+        <p>Sehen Sie, aus welchen Ländern/Städten Ihre Besucher kommen.</p>
+        <p style="margin-top: 1rem; font-size: 0.9rem;">
+          In Google Analytics: Berichte > Zielgruppe > Demografische Daten > Übersicht
+        </p>
+      </div>
+    </div>
+    
+    <div class="info-box">
+      <strong>💡 Tipp:</strong> Für detaillierte Analysen und benutzerdefinierte Dashboards loggen Sie sich direkt in Google Analytics ein. Die wöchentlichen E-Mail-Berichte geben Ihnen einen schnellen Überblick über die wichtigsten Kennzahlen.
+    </div>
+    
+    <div class="dashboard-card" style="margin-top: 2rem;">
+      <h2>🔗 Schnellzugriff</h2>
+      <div style="display: flex; gap: 1rem; flex-wrap: wrap; margin-top: 1rem;">
+        <a href="https://analytics.google.com" target="_blank" class="btn btn-primary">Google Analytics öffnen</a>
+        <a href="index.html" class="btn btn-secondary">Zurück zur Startseite</a>
+      </div>
+    </div>
+  </main>
+  
+  <custom-footer></custom-footer>
+  
+  <script src="./components/navbar.js"></script>
+  <script src="./components/footer.js"></script>
+</body>
+</html>
+

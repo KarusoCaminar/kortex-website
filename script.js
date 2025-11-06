@@ -60,6 +60,24 @@ document.addEventListener('DOMContentLoaded', () => {
           throw new Error(err || 'Serverfehler');
         }
 
+        // Analytics: Track form submission
+        const formName = form.getAttribute('data-form-name') || 'Contact Form';
+        const formLocation = window.location.pathname;
+        
+        // Track Google Analytics
+        if (window.trackFormSubmission) {
+          window.trackFormSubmission(formName, {
+            form_location: formLocation
+          });
+        }
+        
+        // Track Facebook Pixel
+        if (window.trackFacebookFormSubmission) {
+          window.trackFacebookFormSubmission(formName, {
+            content_name: formLocation
+          });
+        }
+        
         // Dynamische Sprache für Erfolgs-Nachricht
         const currentLang = window.i18n ? window.i18n.getCurrentLanguage() : 'de';
         const successMsg = currentLang === 'en' 
