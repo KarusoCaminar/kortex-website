@@ -403,16 +403,17 @@
     
     .invoice-preview iframe {
       width: 100%;
-      max-width: 800px;
-      /* DIN A4 Verhältnis: Höhe = Breite * 1.414 */
-      height: calc(100vw * 1.414);
-      max-height: calc(800px * 1.414);
+      max-width: 700px;
+      /* DIN A4 Verhältnis: Höhe = Breite * 1.414 (210mm x 297mm) */
+      aspect-ratio: 210 / 297;
+      height: auto;
       min-height: 400px;
+      max-height: 90vh;
       border: none;
       border-radius: 8px;
       display: block;
       margin: 0 auto;
-      /* PDF so anzeigen, dass die ganze Seite sichtbar ist */
+      /* PDF so anzeigen, dass die ganze Seite sichtbar ist (view=Fit) */
     }
     
     .invoice-preview-wrapper {
@@ -606,9 +607,12 @@
       
       .invoice-preview iframe {
         max-width: 100%;
-        height: calc(100vw * 1.414);
-        max-height: calc(700px * 1.414);
-        min-height: 400px;
+        width: 100%;
+        max-width: 600px;
+        aspect-ratio: 210 / 297;
+        height: auto;
+        max-height: 80vh;
+        min-height: 350px;
       }
       
       .invoice-preview img {
@@ -656,9 +660,11 @@
       .invoice-preview iframe {
         max-width: 100%;
         width: 100%;
-        height: calc(100vw * 1.414);
-        max-height: calc(600px * 1.414);
-        min-height: 350px;
+        max-width: 500px;
+        aspect-ratio: 210 / 297;
+        height: auto;
+        max-height: 70vh;
+        min-height: 300px;
       }
       
       .invoice-line-items th,
@@ -715,9 +721,11 @@
       .invoice-preview iframe {
         max-width: 100%;
         width: 100%;
-        height: calc(100vw * 1.414);
-        max-height: calc(500px * 1.414);
-        min-height: 300px;
+        max-width: 400px;
+        aspect-ratio: 210 / 297;
+        height: auto;
+        max-height: 60vh;
+        min-height: 250px;
       }
       
       .invoice-preview img {
