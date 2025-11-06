@@ -40,6 +40,7 @@ const defaultAllowedOrigins = [
 // Combine environment origins with defaults
 const allAllowedOrigins = [...new Set([...defaultAllowedOrigins, ...allowedOrigins])];
 
+// CORS Middleware - MUST be before all other routes including static files
 app.use((req, res, next) => {
   const origin = req.headers.origin;
   
@@ -55,6 +56,11 @@ app.use((req, res, next) => {
     res.setHeader('Access-Control-Allow-Headers', 'Content-Type, Authorization');
     res.setHeader('Access-Control-Allow-Credentials', 'true');
     res.setHeader('Access-Control-Max-Age', '86400'); // Cache preflight for 24 hours
+    
+    // Also set CORS for static files (samples, images, PDFs)
+    if (req.path.startsWith('/samples/') || req.path.startsWith('/public/')) {
+      res.setHeader('Access-Control-Allow-Origin', origin);
+    }
   }
   
   // Handle preflight

@@ -426,6 +426,65 @@
       border-radius: 8px;
     }
     
+    .pdf-preview-container {
+      width: 100%;
+      position: relative;
+    }
+    
+    .pdf-object {
+      display: block;
+    }
+    
+    .pdf-iframe {
+      display: none;
+    }
+    
+    .pdf-fallback {
+      display: none;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 1rem;
+    }
+    
+    .pdf-link-btn {
+      display: inline-block;
+      padding: 0.75rem 1.5rem;
+      background: rgba(96, 165, 250, 0.2);
+      border: 2px solid rgba(96, 165, 250, 0.5);
+      border-radius: 8px;
+      color: #60a5fa;
+      text-decoration: none;
+      font-weight: 600;
+      transition: all 0.2s ease;
+    }
+    
+    .pdf-link-btn:hover {
+      background: rgba(96, 165, 250, 0.3);
+      border-color: rgba(96, 165, 250, 0.7);
+    }
+    
+    /* If object tag not supported, show iframe */
+    @supports not (object-fit: contain) {
+      .pdf-object {
+        display: none;
+      }
+      .pdf-iframe {
+        display: block;
+      }
+    }
+    
+    /* Mobile: Show fallback link */
+    @media (max-width: 768px) {
+      .pdf-object,
+      .pdf-iframe {
+        min-height: 400px;
+      }
+      
+      .pdf-fallback {
+        display: block;
+      }
+    }
+    
     .invoice-line-items-container {
       width: 100%;
       overflow-x: auto;
@@ -1662,7 +1721,20 @@
                 ${invoice.fileType && invoice.fileType.startsWith('image/') 
                   ? `<img src="${escapeHtml(invoice.fileData)}" alt="${escapeHtml(invoice.fileName)}" class="invoice-preview">`
                   : invoice.fileType === 'application/pdf'
-                  ? `<iframe src="${escapeHtml(invoice.fileData)}#toolbar=0&view=Fit" class="invoice-preview" title="Rechnungsvorschau"></iframe>`
+                  ? `
+                    <div class="pdf-preview-container">
+                      <!-- Mobile: Use object tag for better compatibility -->
+                      <object data="${escapeHtml(invoice.fileData)}#toolbar=0&view=Fit" type="application/pdf" class="invoice-preview pdf-object" title="Rechnungsvorschau">
+                        <iframe src="${escapeHtml(invoice.fileData)}#toolbar=0&view=Fit" class="invoice-preview pdf-iframe" title="Rechnungsvorschau"></iframe>
+                      </object>
+                      <!-- Fallback: Direct link to PDF -->
+                      <div class="pdf-fallback">
+                        <a href="${escapeHtml(invoice.fileData)}" target="_blank" class="pdf-link-btn">
+                          📄 PDF öffnen
+                        </a>
+                      </div>
+                    </div>
+                  `
                   : `<div style="padding: 3rem; text-align: center; color: #94a3b8;">Vorschau nicht verfügbar</div>`
                 }
               </div>
