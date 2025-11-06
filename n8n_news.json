@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-11-06T20:25:49.412Z",
+  "lastUpdated": "2025-11-06T22:21:42.791Z",
   "news": [
+    {
+      "title": "Googles KI-Chips TPU v7 jetzt allgemein verfügbar",
+      "description": "Google Cloud kündigt die allgemeine Verfügbarkeit seiner siebten TPU-Generation Ironwood für das Training und die Ausführung großer KI-Modelle an.\nDer Artikel Googles KI-Chips TPU v7 jetzt allgemein v",
+      "link": "https://the-decoder.de/googles-ki-chips-tpu-v7-jetzt-allgemein-verfuegbar/",
+      "date": "2025-11-06T21:04:16.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Sam Altman verteidigt OpenAIs 1,4-Billionen-Wette nach Bubble-Kritik",
       "description": "OpenAI plant Investitionen in Billionenhöhe für die Recheninfrastruktur – und das bei vergleichsweise geringen 20 Milliarden ARR. OpenAI-CEO Sam Altman rechtfertigt diese Pläne in einem langen Beitrag",
@@ -126,15 +135,6 @@
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
-    },
-    {
-      "title": "How Chime is redefining marketing through AI",
-      "description": "Vineet Mehra, Chief Marketing Officer at Chime, shares how AI is reshaping marketing into an agent-driven discipline. He explains why CMOs who champion AI literacy and thoughtful adoption will lead in",
-      "link": "https://openai.com/index/chime-vineet-mehra",
-      "date": "2025-11-05T15:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
     }
   ]
 }
