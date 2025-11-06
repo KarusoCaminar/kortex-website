@@ -1,6 +1,33 @@
 {
-  "lastUpdated": "2025-11-06T10:26:35.646Z",
+  "lastUpdated": "2025-11-06T12:47:32.217Z",
   "news": [
+    {
+      "title": "Snap integriert KI-Suche von Perplexity für 400 Millionen Dollar in Snapchat",
+      "description": "Snap hat eine Partnerschaft im Wert von 400 Millionen US-Dollar mit Perplexity AI geschlossen, um dessen KI-Suchmaschine ab 2026 standardmäßig in Snapchat zu integrieren.\nDer Artikel Snap integriert K",
+      "link": "https://the-decoder.de/snap-integriert-ki-suche-von-perplexity-fuer-400-millionen-dollar-in-snapchat/",
+      "date": "2025-11-06T11:51:36.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "KI-Ring von Sandbar verspricht Sprachnotizen ohne ständiges Mithören",
+      "description": "Ein weiteres Start-up versucht sich an KI-Hardware. Diesmal ist es ein KI-Ring als Sprachinterface für den Alltag.\nDer Artikel KI-Ring von Sandbar verspricht Sprachnotizen ohne ständiges Mithören ersc",
+      "link": "https://the-decoder.de/ki-ring-von-sandbar-verspricht-sprachnotizen-ohne-staendiges-mithoeren/",
+      "date": "2025-11-06T11:44:51.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "OpenAI erzielt Rekordwachstum, aber kein Börsengang in Sicht",
+      "description": "OpenAI erreicht mehr als eine Million Unternehmenskunden, verliert jedoch weiter Geld in großem Stil. CFO Sarah Friar schließt einen Börsengang vorerst aus.\nDer Artikel OpenAI erzielt Rekordwachstum,",
+      "link": "https://the-decoder.de/openai-erzielt-rekordwachstum-aber-kein-boersengang-in-sicht/",
+      "date": "2025-11-06T10:50:01.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Apple will Googles Gemini-Modell für eine Milliarde Dollar jährlich in Siri integrieren",
       "description": "Apple plant laut Bloomberg den Einsatz von Googles Gemini-Modell zur Aufwertung seines Sprachassistenten Siri, die Verhandlungen sollen kurz vor einem Abschluss stehen.\nDer Artikel Apple will Googles",
@@ -99,33 +126,6 @@
       "source": "Google AI",
       "category": "große-modelle",
       "language": "en"
-    },
-    {
-      "title": "Arxiv verschärft Regeln für CS-Paper wegen Flut von KI-generierten Inhalten",
-      "description": "Die Preprint-Plattform Arxiv kämpft mit einer Flut an Übersichtsartikeln, die oft von KI generiert werden. Für die Kategorie Informatik gilt daher ab sofort eine neue, strengere Moderationspraxis.\nDer",
-      "link": "https://the-decoder.de/arxiv-verschaerft-regeln-fuer-cs-paper-wegen-flut-von-ki-generierten-inhalten/",
-      "date": "2025-11-04T14:20:59.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Microsoft investiert fast 8 Milliarden Dollar in KI- und Cloud-Infrastruktur in den Emiraten",
-      "description": "Microsoft baut seine Präsenz im Nahen Osten weiter aus. Bis 2029 will der Konzern Milliarden in Rechenzentren, Chips und Fachkräfte in den Vereinigten Arabischen Emiraten investieren – trotz geopoliti",
-      "link": "https://the-decoder.de/microsoft-investiert-fast-8-milliarden-dollar-in-ki-und-cloud-infrastruktur-in-den-emiraten/",
-      "date": "2025-11-04T13:16:14.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Coca-Cola setzt bei Weihnachtswerbung auch dieses Jahr wieder auf KI",
-      "description": "Coca-Cola nutzt in diesem Jahr erneut künstliche Intelligenz für seine weltweiten Weihnachtswerbespots „Holidays Are Coming“.\nDer Artikel Coca-Cola setzt bei Weihnachtswerbung auch dieses Jahr wieder",
-      "link": "https://the-decoder.de/coca-cola-setzt-bei-weihnachtswerbung-auch-dieses-jahr-wieder-auf-ki/",
-      "date": "2025-11-04T13:12:00.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
     },
     {
       "title": "Brazil’s AI moment is here",
