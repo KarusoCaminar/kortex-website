@@ -1421,7 +1421,26 @@
         return invoice;
       } catch (error) {
         console.error('❌ Error uploading invoice:', error);
-        alert('Fehler beim Hochladen der Rechnung: ' + error.message);
+        console.error('Error details:', {
+          message: error.message,
+          name: error.name,
+          stack: error.stack
+        });
+        
+        let userMessage = 'Fehler beim Hochladen der Rechnung: ' + (error.message || 'Unbekannter Fehler');
+        
+        // More specific error messages
+        if (error.message.includes('CORS') || error.message.includes('Failed to fetch')) {
+          userMessage = 'Netzwerk-Fehler: Die API ist nicht erreichbar. Bitte versuchen Sie es später erneut.';
+        } else if (error.message.includes('400')) {
+          userMessage = 'Ungültige Datei: Bitte stellen Sie sicher, dass die Datei ein gültiges JPG, PNG oder PDF ist.';
+        } else if (error.message.includes('413')) {
+          userMessage = 'Datei zu groß: Die Datei überschreitet das Maximum von 10 MB.';
+        } else if (error.message.includes('500')) {
+          userMessage = 'Server-Fehler: Die Verarbeitung ist fehlgeschlagen. Bitte versuchen Sie es später erneut.';
+        }
+        
+        alert(userMessage);
         throw error;
       } finally {
         hideLoading();
@@ -1518,15 +1537,36 @@
         const blob = await response.blob();
         console.log('✅ Sample file loaded:', blob.size, 'bytes', blob.type);
         
-        // Validate blob type
-        if (!blob.type || (!blob.type.startsWith('image/') && blob.type !== 'application/pdf')) {
-          console.warn('⚠️ Unexpected blob type:', blob.type, '- proceeding anyway');
+        // Validate blob type and size
+        if (blob.size === 0) {
+          throw new Error('Die Datei ist leer (0 bytes). Bitte versuchen Sie es später erneut.');
         }
         
-        const file = new File([blob], sample.name, { type: sample.type || blob.type });
-        console.log('📄 Created file object:', file.name, file.type, file.size);
+        if (blob.size > 10 * 1024 * 1024) {
+          throw new Error(`Die Datei ist zu groß (${(blob.size / 1024 / 1024).toFixed(2)} MB). Maximum: 10 MB.`);
+        }
+        
+        // Validate blob type
+        const expectedType = sample.type;
+        const actualType = blob.type;
+        
+        // For images, blob.type might be empty, so use the expected type
+        const finalType = actualType || expectedType;
+        
+        if (!finalType || (!finalType.startsWith('image/') && finalType !== 'application/pdf')) {
+          console.warn('⚠️ Unexpected blob type:', actualType, 'expected:', expectedType, '- using expected type');
+        }
+        
+        const file = new File([blob], sample.name, { type: finalType });
+        console.log('📄 Created file object:', file.name, file.type, file.size, 'bytes');
+        
+        // Validate file object
+        if (!file || file.size === 0) {
+          throw new Error('Fehler beim Erstellen der Datei. Bitte versuchen Sie es erneut.');
+        }
         
         // Upload the sample file
+        console.log('📤 Uploading sample file to API...');
         await uploadInvoice(file);
       } catch (error) {
         console.error('❌ Error loading sample invoice:', error);
