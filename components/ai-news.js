@@ -157,11 +157,11 @@
       font-size: 0.85rem;
     }
     
-    /* Desktop: Rechts positioniert */
+    /* Desktop: Rechts positioniert - weiter nach rechts verschoben */
     @media (min-width: 769px) {
       .ai-news-panel {
         top: 50%;
-        right: 20px;
+        right: 10px;
         bottom: auto;
         transform: translateY(-50%);
         max-width: 360px;
