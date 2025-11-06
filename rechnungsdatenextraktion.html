@@ -369,6 +369,11 @@
       padding: 1.5rem;
     }
     
+    .invoice-detail-card:has(.pdf-preview-container) {
+      height: calc(100vh - 200px);
+      min-height: 600px;
+    }
+    
     .invoice-detail-card h3 {
       font-size: 1.25rem;
       margin-bottom: 1rem;
@@ -1953,8 +1958,8 @@
                   ? `
                     <div class="pdf-preview-container" style="flex: 1; display: flex; flex-direction: column; min-height: 0;">
                       <!-- PDF Viewer - entire page visible, scrollable for multiple pages -->
-                      <object data="${escapeHtml(invoice.fileData)}#toolbar=1&view=FitH&scrollbar=1" type="application/pdf" class="invoice-preview pdf-object" title="Rechnungsvorschau" style="flex: 1; min-height: 0;">
-                        <iframe src="${escapeHtml(invoice.fileData)}#toolbar=1&view=FitH&scrollbar=1" class="invoice-preview pdf-iframe" title="Rechnungsvorschau" style="flex: 1; min-height: 0;"></iframe>
+                      <object data="${escapeHtml(invoice.fileData)}#toolbar=1&view=Fit&scrollbar=1&zoom=page-fit" type="application/pdf" class="invoice-preview pdf-object" title="Rechnungsvorschau" style="flex: 1; min-height: 0;">
+                        <iframe src="${escapeHtml(invoice.fileData)}#toolbar=1&view=Fit&scrollbar=1&zoom=page-fit" class="invoice-preview pdf-iframe" title="Rechnungsvorschau" style="flex: 1; min-height: 0;"></iframe>
                       </object>
                       <!-- Fallback: Direct link to PDF -->
                       <div class="pdf-fallback">
