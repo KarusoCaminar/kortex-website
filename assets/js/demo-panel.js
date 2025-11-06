@@ -34,93 +34,10 @@ class DemoVideoController {
   }
   
   checkConsentAndLoad() {
-    // Videos werden immer geladen - keine Cookie-Prüfung mehr
-    // Zeige einfach eine Bestätigungsmeldung, wenn Marketing-Cookies nicht akzeptiert wurden
-    const hasMarketingConsent = window.CookieBanner && window.CookieBanner.hasConsent('marketing');
-    
-    if (!hasMarketingConsent && window.CookieBanner) {
-      // Zeige Info-Meldung, aber lade Video trotzdem
-      this.showVideoInfoMessage();
-    }
-    
-    // Lade Videos immer, unabhängig von Cookie-Einstellungen
+    // Videos werden immer geladen - keine Cookie-Prüfung, kein Modal
+    // YouTube-Hinweise sind im Cookie-Banner integriert
     this.loadYouTubeAPI();
     setTimeout(() => this.loadAutoplayVideos(), 1000);
-  }
-  
-  showVideoInfoMessage() {
-    // Zeige eine einmalige Info-Meldung über YouTube-Cookies
-    const messageShown = sessionStorage.getItem('youtube-video-info-shown');
-    if (messageShown) {
-      return; // Bereits angezeigt in dieser Session
-    }
-    
-    const lang = window.i18n?.getCurrentLanguage() || 'de';
-    const message = lang === 'en' 
-      ? 'This video is provided by YouTube. By playing it, you accept YouTube\'s privacy policy and terms of service.'
-      : 'Dieses Video wird von YouTube bereitgestellt. Durch das Abspielen akzeptieren Sie die Datenschutzrichtlinie und Nutzungsbedingungen von YouTube.';
-    
-    // Erstelle Modal-Dialog
-    const modal = document.createElement('div');
-    modal.style.cssText = `
-      position: fixed;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      background: rgba(0, 0, 0, 0.5);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      z-index: 10001;
-    `;
-    
-    const dialog = document.createElement('div');
-    dialog.style.cssText = `
-      background: white;
-      padding: 2rem;
-      border-radius: 8px;
-      max-width: 500px;
-      margin: 1rem;
-      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
-    `;
-    
-    dialog.innerHTML = `
-      <p style="margin: 0 0 1.5rem 0; color: rgba(30, 41, 59, 0.8); line-height: 1.6;">
-        ${message}
-      </p>
-      <button id="youtube-video-ok-btn" style="
-        background: var(--primary, #034EA2);
-        color: white;
-        border: none;
-        padding: 0.75rem 2rem;
-        border-radius: 8px;
-        font-size: 1rem;
-        font-weight: 600;
-        cursor: pointer;
-        width: 100%;
-      ">
-        ${lang === 'en' ? 'OK' : 'OK'}
-      </button>
-    `;
-    
-    modal.appendChild(dialog);
-    document.body.appendChild(modal);
-    
-    // OK-Button Handler
-    const okBtn = document.getElementById('youtube-video-ok-btn');
-    okBtn.addEventListener('click', () => {
-      sessionStorage.setItem('youtube-video-info-shown', 'true');
-      modal.remove();
-    });
-    
-    // Schließen bei Klick außerhalb
-    modal.addEventListener('click', (e) => {
-      if (e.target === modal) {
-        sessionStorage.setItem('youtube-video-info-shown', 'true');
-        modal.remove();
-      }
-    });
   }
   
   loadAutoplayVideos() {

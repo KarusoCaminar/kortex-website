@@ -40,8 +40,8 @@
         en: 'Marketing Cookies'
       },
       description: {
-        de: 'Diese Cookies werden verwendet, um Besuchern auf anderen Websites relevante Werbung und Marketingkampagnen anzuzeigen.',
-        en: 'These cookies are used to show visitors relevant advertisements and marketing campaigns on other websites.'
+        de: 'Diese Cookies werden verwendet, um Besuchern auf anderen Websites relevante Werbung und Marketingkampagnen anzuzeigen. Hinweis: YouTube-Videos werden auf dieser Website eingebunden und können auch ohne Marketing-Cookies abgespielt werden. Durch das Abspielen akzeptieren Sie die Datenschutzrichtlinie und Nutzungsbedingungen von YouTube.',
+        en: 'These cookies are used to show visitors relevant advertisements and marketing campaigns on other websites. Note: YouTube videos are embedded on this website and can be played even without marketing cookies. By playing them, you accept YouTube\'s privacy policy and terms of service.'
       },
       required: false,
       enabled: false
@@ -349,8 +349,8 @@
           <h3>${lang === 'de' ? 'Cookie-Einstellungen' : 'Cookie Settings'}</h3>
           <p>
             ${lang === 'de' 
-              ? 'Wir verwenden Cookies, um Ihnen die bestmögliche Erfahrung auf unserer Website zu bieten. Einige Cookies sind für den Betrieb der Website erforderlich, während andere uns helfen, diese Website und die Nutzererfahrung zu verbessern (Tracking-Cookies). Sie können selbst entscheiden, ob Sie die Cookies zulassen möchten. Bitte beachten Sie, dass bei einer Ablehnung womöglich nicht mehr alle Funktionalitäten der Website zur Verfügung stehen.'
-              : 'We use cookies to provide you with the best possible experience on our website. Some cookies are necessary for the operation of the website, while others help us improve this website and the user experience (tracking cookies). You can decide for yourself whether you want to allow the cookies. Please note that if you reject them, not all functionalities of the website may be available.'}
+              ? 'Wir verwenden Cookies, um Ihnen die bestmögliche Erfahrung auf unserer Website zu bieten. Einige Cookies sind für den Betrieb der Website erforderlich, während andere uns helfen, diese Website und die Nutzererfahrung zu verbessern (Tracking-Cookies). Sie können selbst entscheiden, ob Sie die Cookies zulassen möchten. Bitte beachten Sie, dass bei einer Ablehnung womöglich nicht mehr alle Funktionalitäten der Website zur Verfügung stehen. <strong>Hinweis:</strong> YouTube-Videos werden auf dieser Website eingebunden und können auch ohne Marketing-Cookies abgespielt werden. Durch das Abspielen akzeptieren Sie die Datenschutzrichtlinie und Nutzungsbedingungen von YouTube.'
+              : 'We use cookies to provide you with the best possible experience on our website. Some cookies are necessary for the operation of the website, while others help us improve this website and the user experience (tracking cookies). You can decide for yourself whether you want to allow the cookies. Please note that if you reject them, not all functionalities of the website may be available. <strong>Note:</strong> YouTube videos are embedded on this website and can be played even without marketing cookies. By playing them, you accept YouTube\'s privacy policy and terms of service.'}
             <a href="datenschutz.html" class="cookie-banner-link" target="_blank">
               ${lang === 'de' ? 'Mehr erfahren' : 'Learn more'}
             </a>
