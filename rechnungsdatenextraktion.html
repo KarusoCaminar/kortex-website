@@ -2048,6 +2048,58 @@
       modal.classList.add('active');
       document.body.style.overflow = 'hidden';
       
+      // Optimize PDF loading - hide loading indicator when PDF is ready
+      setTimeout(() => {
+        const pdfObject = body.querySelector('.pdf-object');
+        const pdfIframe = body.querySelector('.pdf-iframe');
+        const loadingIndicator = body.querySelector('.pdf-loading-indicator');
+        
+        if (pdfObject || pdfIframe) {
+          const element = pdfObject || pdfIframe;
+          
+          // Try to detect when PDF is loaded
+          const handleLoad = () => {
+            if (element) {
+              element.classList.add('loaded');
+              element.style.opacity = '1';
+            }
+            if (loadingIndicator) {
+              setTimeout(() => {
+                loadingIndicator.classList.add('hidden');
+              }, 300);
+            }
+          };
+          
+          // For iframe - listen to load event
+          if (pdfIframe) {
+            pdfIframe.addEventListener('load', handleLoad, { once: true });
+            // Fallback: hide after 2 seconds even if load event doesn't fire
+            setTimeout(handleLoad, 2000);
+          }
+          
+          // For object tag - more difficult to detect, use timeout
+          if (pdfObject && !pdfIframe) {
+            // Try to detect if object loaded by checking if it has content
+            const checkLoaded = () => {
+              try {
+                // If we can access the object, it's likely loaded
+                if (pdfObject.contentDocument || pdfObject.contentWindow) {
+                  handleLoad();
+                } else {
+                  setTimeout(checkLoaded, 200);
+                }
+              } catch (e) {
+                // Cross-origin or not ready yet, use timeout fallback
+                setTimeout(handleLoad, 1500);
+              }
+            };
+            checkLoaded();
+            // Fallback timeout
+            setTimeout(handleLoad, 2000);
+          }
+        }
+      }, 100);
+      
       // Scroll to top of modal
       modal.scrollTop = 0;
     }
