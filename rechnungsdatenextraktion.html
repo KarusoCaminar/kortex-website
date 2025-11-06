@@ -377,34 +377,72 @@
     
     .invoice-preview {
       max-width: 100%;
+      width: 100%;
       border-radius: 8px;
       border: 2px solid rgba(148, 163, 184, 0.2);
       margin-bottom: 1rem;
+      background: #fff;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    }
+    
+    .invoice-preview img {
+      width: 100%;
+      height: auto;
+      max-height: 90vh;
+      object-fit: contain;
+      display: block;
+      border-radius: 8px;
     }
     
     .invoice-preview iframe {
       width: 100%;
-      min-height: 600px;
+      min-height: 800px;
+      height: 85vh;
+      max-height: 1200px;
       border: none;
       border-radius: 8px;
+      display: block;
+    }
+    
+    .invoice-preview-wrapper {
+      position: relative;
+      width: 100%;
+      overflow: hidden;
+      border-radius: 8px;
+    }
+    
+    .invoice-line-items-container {
+      width: 100%;
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+      margin-top: 1rem;
+      border-radius: 8px;
+      border: 1px solid rgba(148, 163, 184, 0.2);
     }
     
     .invoice-line-items {
       width: 100%;
+      min-width: 600px;
       border-collapse: collapse;
-      margin-top: 1rem;
+      margin: 0;
     }
     
     .invoice-line-items thead {
-      background: rgba(148, 163, 184, 0.15);
+      background: rgba(96, 165, 250, 0.15);
+      position: sticky;
+      top: 0;
+      z-index: 10;
     }
     
     .invoice-line-items th {
-      padding: 12px;
+      padding: 14px 16px;
       text-align: left;
-      border-bottom: 1px solid rgba(148, 163, 184, 0.2);
-      color: #cbd5e1;
-      font-weight: 600;
+      border-bottom: 2px solid rgba(96, 165, 250, 0.3);
+      color: #e2e8f0;
+      font-weight: 700;
+      font-size: 0.9rem;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
     }
     
     .invoice-line-items th:last-child,
@@ -413,35 +451,67 @@
     }
     
     .invoice-line-items td {
-      padding: 12px;
+      padding: 14px 16px;
       border-bottom: 1px solid rgba(148, 163, 184, 0.1);
       color: #cbd5e1;
+      font-size: 0.95rem;
+    }
+    
+    .invoice-line-items tbody tr {
+      transition: background-color 0.2s ease;
+    }
+    
+    .invoice-line-items tbody tr:hover {
+      background: rgba(96, 165, 250, 0.05);
     }
     
     .invoice-line-items tr:last-child td {
       border-bottom: none;
     }
     
+    .invoice-line-items td:first-child {
+      font-weight: 500;
+      color: #e2e8f0;
+    }
+    
+    .invoice-line-items td:last-child {
+      font-weight: 600;
+      color: #60a5fa;
+    }
+    
     .invoice-info-item {
-      margin-bottom: 1rem;
-      padding-bottom: 1rem;
-      border-bottom: 1px solid rgba(148, 163, 184, 0.1);
+      margin-bottom: 1.25rem;
+      padding-bottom: 1.25rem;
+      border-bottom: 1px solid rgba(148, 163, 184, 0.15);
     }
     
     .invoice-info-item:last-child {
       border-bottom: none;
+      margin-bottom: 0;
+      padding-bottom: 0;
     }
     
     .invoice-info-label {
-      font-size: 0.85rem;
+      font-size: 0.8rem;
       color: #94a3b8;
-      margin-bottom: 0.25rem;
+      margin-bottom: 0.5rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
     }
     
     .invoice-info-value {
-      font-size: 1rem;
-      color: #fff;
+      font-size: 1.05rem;
+      color: #e2e8f0;
       font-weight: 500;
+      line-height: 1.6;
+    }
+    
+    .invoice-info-value.vat-value {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 0.5rem;
     }
     
     .vat-badge {
@@ -482,33 +552,155 @@
     .financial-item {
       display: flex;
       justify-content: space-between;
-      margin-bottom: 0.75rem;
+      align-items: center;
+      margin-bottom: 1rem;
+      padding: 0.75rem 0;
       color: #cbd5e1;
+      font-size: 1rem;
+    }
+    
+    .financial-item span:first-child {
+      font-weight: 500;
+    }
+    
+    .financial-item span:last-child {
+      font-weight: 600;
+      font-family: 'Courier New', monospace;
     }
     
     .financial-total {
-      font-size: 1.5rem;
-      font-weight: bold;
+      font-size: 1.75rem;
+      font-weight: 800;
       color: #60a5fa;
+      padding-top: 1rem;
+      margin-top: 0.5rem;
+    }
+    
+    .financial-total span:first-child {
+      font-size: 1.25rem;
+    }
+    
+    .financial-total span:last-child {
+      font-size: 1.75rem;
     }
     
     @media (max-width: 1024px) {
       .invoice-detail-grid {
         grid-template-columns: 1fr;
+        gap: 1.5rem;
+      }
+      
+      .invoice-preview iframe {
+        min-height: 700px;
+        height: 75vh;
       }
     }
     
     @media (max-width: 768px) {
       .invoice-detail-modal {
-        padding: 1rem;
+        padding: 0.5rem;
       }
       
       .invoice-detail-content {
-        padding: 1.5rem;
+        padding: 1rem;
+        border-radius: 12px;
+      }
+      
+      .invoice-detail-close {
+        width: 36px;
+        height: 36px;
+        font-size: 1.25rem;
+        top: 0.75rem;
+        right: 0.75rem;
+      }
+      
+      .invoice-detail-card h3 {
+        font-size: 1.1rem;
+        margin-bottom: 0.75rem;
+      }
+      
+      .invoice-detail-card {
+        padding: 1rem;
+      }
+      
+      .invoice-preview {
+        margin-bottom: 0.75rem;
+      }
+      
+      .invoice-preview img {
+        max-height: 70vh;
       }
       
       .invoice-preview iframe {
-        min-height: 400px;
+        min-height: 600px;
+        height: 70vh;
+        max-height: none;
+      }
+      
+      .invoice-line-items th,
+      .invoice-line-items td {
+        padding: 10px 12px;
+        font-size: 0.85rem;
+      }
+      
+      .invoice-line-items th {
+        font-size: 0.75rem;
+      }
+      
+      .invoice-info-label {
+        font-size: 0.75rem;
+      }
+      
+      .invoice-info-value {
+        font-size: 0.95rem;
+      }
+      
+      .financial-item {
+        font-size: 0.9rem;
+      }
+      
+      .financial-total {
+        font-size: 1.5rem;
+      }
+      
+      .financial-total span:first-child {
+        font-size: 1.1rem;
+      }
+      
+      .financial-total span:last-child {
+        font-size: 1.5rem;
+      }
+      
+      .vat-badge {
+        font-size: 0.75rem;
+        padding: 0.2rem 0.6rem;
+      }
+    }
+    
+    @media (max-width: 480px) {
+      .invoice-detail-modal {
+        padding: 0;
+      }
+      
+      .invoice-detail-content {
+        border-radius: 0;
+        min-height: 100vh;
+        padding: 0.75rem;
+      }
+      
+      .invoice-preview iframe {
+        min-height: 500px;
+        height: 65vh;
+      }
+      
+      .invoice-line-items {
+        min-width: 500px;
+      }
+      
+      .invoice-line-items th,
+      .invoice-line-items td {
+        padding: 8px 10px;
+        font-size: 0.8rem;
       }
     }
     
@@ -1426,38 +1618,42 @@
             <!-- Invoice Preview -->
             <div class="invoice-detail-card">
               <h3>Rechnungsvorschau</h3>
-              ${invoice.fileType && invoice.fileType.startsWith('image/') 
-                ? `<img src="${escapeHtml(invoice.fileData)}" alt="${escapeHtml(invoice.fileName)}" class="invoice-preview">`
-                : invoice.fileType === 'application/pdf'
-                ? `<iframe src="${escapeHtml(invoice.fileData)}#toolbar=0&view=FitH" class="invoice-preview"></iframe>`
-                : `<div style="padding: 3rem; text-align: center; color: #94a3b8;">Vorschau nicht verfügbar</div>`
-              }
+              <div class="invoice-preview-wrapper">
+                ${invoice.fileType && invoice.fileType.startsWith('image/') 
+                  ? `<img src="${escapeHtml(invoice.fileData)}" alt="${escapeHtml(invoice.fileName)}" class="invoice-preview">`
+                  : invoice.fileType === 'application/pdf'
+                  ? `<iframe src="${escapeHtml(invoice.fileData)}#toolbar=0&view=FitH" class="invoice-preview" title="Rechnungsvorschau"></iframe>`
+                  : `<div style="padding: 3rem; text-align: center; color: #94a3b8;">Vorschau nicht verfügbar</div>`
+                }
+              </div>
             </div>
             
             <!-- Line Items -->
             ${invoice.lineItems && invoice.lineItems.length > 0 ? `
             <div class="invoice-detail-card" style="margin-top: 1.5rem;">
               <h3>Rechnungspositionen</h3>
-              <table class="invoice-line-items">
-                <thead>
-                  <tr>
-                    <th>Beschreibung</th>
-                    <th style="text-align: right;">Menge</th>
-                    <th style="text-align: right;">Einzelpreis</th>
-                    <th style="text-align: right;">Gesamt</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  ${invoice.lineItems.map(item => `
+              <div class="invoice-line-items-container">
+                <table class="invoice-line-items">
+                  <thead>
                     <tr>
-                      <td>${escapeHtml(item.description || '-')}</td>
-                      <td style="text-align: right;">${escapeHtml(String(item.quantity || '-'))}</td>
-                      <td style="text-align: right;">${escapeHtml(item.unitPrice || '-')}</td>
-                      <td style="text-align: right; font-weight: 600;">${escapeHtml(item.total || '-')}</td>
+                      <th>Beschreibung</th>
+                      <th style="text-align: right;">Menge</th>
+                      <th style="text-align: right;">Einzelpreis</th>
+                      <th style="text-align: right;">Gesamt</th>
                     </tr>
-                  `).join('')}
-                </tbody>
-              </table>
+                  </thead>
+                  <tbody>
+                    ${invoice.lineItems.map(item => `
+                      <tr>
+                        <td>${escapeHtml(item.description || '-')}</td>
+                        <td style="text-align: right;">${escapeHtml(String(item.quantity || '-'))}</td>
+                        <td style="text-align: right;">${escapeHtml(item.unitPrice || '-')}</td>
+                        <td style="text-align: right; font-weight: 600;">${escapeHtml(item.total || '-')}</td>
+                      </tr>
+                    `).join('')}
+                  </tbody>
+                </table>
+              </div>
             </div>
             ` : ''}
           </div>
@@ -1494,8 +1690,8 @@
               ${invoice.supplierVatId ? `
                 <div class="invoice-info-item">
                   <div class="invoice-info-label">USt-IdNr.</div>
-                  <div class="invoice-info-value" style="font-family: monospace; display: inline-flex; align-items: center;">
-                    ${escapeHtml(invoice.supplierVatId)}
+                  <div class="invoice-info-value vat-value" style="font-family: 'Courier New', monospace;">
+                    <span>${escapeHtml(invoice.supplierVatId)}</span>
                     ${invoice.vatValidated === 'valid' 
                       ? '<span class="vat-badge valid">✅ Gültig</span>'
                       : invoice.vatValidated === 'invalid'
