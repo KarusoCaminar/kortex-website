@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-11-05T22:21:31.810Z",
+  "lastUpdated": "2025-11-06T01:48:32.045Z",
   "news": [
+    {
+      "title": "How CRED is tapping AI to deliver premium customer experiences",
+      "description": "CRED is transforming premium customer experiences in India with OpenAI. Using GPT-powered tools, the company is improving support accuracy, reducing response times, and boosting customer satisfaction.",
+      "link": "https://openai.com/index/cred-swamy-seetharaman",
+      "date": "2025-11-05T21:30:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
     {
       "title": "Gerichtsurteil: KI-Bildgenerator \"Stable Diffusion\" ist keine \"rechtsverletzende Kopie\"",
       "description": "Der High Court in London hat die zentrale Urheberrechtsklage von Getty Images gegen Stability AI abgewiesen. Interessant ist das Urteil insbesondere wegen der klaren Feststellung zur sekundären Urhebe",
@@ -36,6 +45,15 @@
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
+    },
+    {
+      "title": "How Chime is redefining marketing through AI",
+      "description": "Vineet Mehra, Chief Marketing Officer at Chime, shares how AI is reshaping marketing into an agent-driven discipline. He explains why CMOs who champion AI literacy and thoughtful adoption will lead in",
+      "link": "https://openai.com/index/chime-vineet-mehra",
+      "date": "2025-11-05T15:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
     },
     {
       "title": "1 million business customers putting AI to work",
@@ -114,24 +132,6 @@
       "description": "Brazil is now one of the most engaged countries in the world when it comes to AI. From classrooms to farms and small businesses, Brazilians are using OpenAI products to learn, create, and drive innova",
       "link": "https://openai.com/global-affairs/brazil-ai-moment-is-here",
       "date": "2025-11-04T10:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "Introducing IndQA",
-      "description": "OpenAI introduces IndQA, a new benchmark for evaluating AI systems in Indian languages. Built with domain experts, IndQA tests cultural understanding and reasoning across 12 languages and 10 knowledge",
-      "link": "https://openai.com/index/introducing-indqa",
-      "date": "2025-11-03T22:30:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "AWS and OpenAI announce multi-year strategic partnership",
-      "description": "OpenAI and AWS have entered a multi-year, $38 billion partnership to scale advanced AI workloads. AWS will provide world-class infrastructure and compute capacity to power OpenAI’s next generation of",
-      "link": "https://openai.com/index/aws-and-openai-partnership",
-      "date": "2025-11-03T06:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
