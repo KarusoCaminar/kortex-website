@@ -73,7 +73,12 @@
       const key = element.getAttribute('data-i18n');
       const translation = t(key);
       if (translation) {
-        element.textContent = translation;
+        // Check if translation contains HTML tags
+        if (translation.includes('<')) {
+          element.innerHTML = translation;
+        } else {
+          element.textContent = translation;
+        }
       }
     });
     
