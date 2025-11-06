@@ -176,30 +176,31 @@
       }
     }
     
-    /* Mobile: Diskret an der Seite, ausblendbar */
+    /* Mobile: Clean Button Design */
     @media (max-width: 768px) {
       .ai-news-panel {
         position: fixed;
-        bottom: 16px;
-        right: 16px;
+        bottom: 20px;
+        right: 20px;
         left: auto;
         width: 320px;
-        max-width: calc(100vw - 32px);
-        max-height: 60vh;
+        max-width: calc(100vw - 40px);
+        max-height: 70vh;
         border-radius: 16px;
         border: 1px solid rgba(3, 78, 162, 0.1);
         box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
         transform: translateY(0);
-        transition: all 0.3s ease;
+        transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
         z-index: 999;
       }
       
-      /* Minimiert: Nur Button sichtbar */
+      /* Minimiert: Clean Button - nur AI News Icon */
       .ai-news-panel.collapsed {
-        width: 56px;
-        height: 56px;
-        border-radius: 28px;
-        overflow: visible;
+        width: 60px;
+        height: 60px;
+        border-radius: 30px;
+        overflow: hidden;
+        box-shadow: 0 4px 20px rgba(3, 78, 162, 0.25), 0 2px 8px rgba(0, 0, 0, 0.15);
       }
       
       .ai-news-panel.collapsed .ai-news-panel-content {
@@ -208,49 +209,80 @@
       
       .ai-news-panel.collapsed .ai-news-panel-header {
         padding: 0;
-        border-radius: 28px;
-        width: 56px;
-        height: 56px;
+        border-radius: 30px;
+        width: 60px;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: linear-gradient(135deg, #034EA2 0%, #1e40af 100%);
+        border: none;
+      }
+      
+      /* Verstecke Text und Refresh-Button wenn collapsed */
+      .ai-news-panel.collapsed .ai-news-panel-header h3 span:not(.ai-icon-robot) {
+        display: none;
+      }
+      
+      .ai-news-panel.collapsed .ai-news-refresh-btn {
+        display: none;
+      }
+      
+      /* AI Icon größer und zentriert wenn collapsed */
+      .ai-news-panel.collapsed .ai-icon-robot {
         display: flex;
         align-items: center;
         justify-content: center;
       }
       
-      .ai-news-panel.collapsed .ai-news-panel-header h3 {
-        font-size: 1.5rem;
-      }
-      
-      .ai-news-panel.collapsed .ai-news-panel-header h3 span:not(:first-child) {
-        display: none;
+      .ai-news-panel.collapsed .ai-icon-robot svg {
+        width: 28px;
+        height: 28px;
+        stroke-width: 2.5;
       }
       
       /* Expandiert: Vollständiges Panel */
       .ai-news-panel:not(.collapsed) {
         width: 320px;
-        max-width: calc(100vw - 32px);
+        max-width: calc(100vw - 40px);
+        box-shadow: 0 12px 48px rgba(0, 0, 0, 0.25), 0 4px 16px rgba(3, 78, 162, 0.15);
       }
       
       .ai-news-panel-header {
-        padding: 0.85rem 1rem;
+        padding: 1rem;
         cursor: pointer;
         user-select: none;
         display: flex;
         justify-content: space-between;
         align-items: center;
-        gap: 0.5rem;
+        gap: 0.75rem;
+        min-height: 56px;
       }
       
       .ai-news-panel-header h3 {
-        font-size: 0.9rem;
+        font-size: 0.95rem;
         margin: 0;
         flex: 1;
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
       }
       
+      .ai-news-panel-header h3 .ai-icon-robot {
+        flex-shrink: 0;
+      }
+      
+      .ai-news-panel-header h3 .ai-icon-robot svg {
+        width: 20px;
+        height: 20px;
+      }
+      
+      /* Refresh Button - nur sichtbar wenn Panel geöffnet */
       .ai-news-refresh-btn {
-        background: linear-gradient(135deg, #6A1B9A 0%, #8B2FC7 100%);
-        border: none;
+        background: rgba(255, 255, 255, 0.2);
+        border: 1px solid rgba(255, 255, 255, 0.3);
         cursor: pointer;
-        padding: 0.35rem 0.6rem;
+        padding: 0.4rem;
         border-radius: 8px;
         font-size: 1rem;
         transition: all 0.2s ease;
@@ -258,15 +290,14 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        min-width: 32px;
-        height: 32px;
-        box-shadow: 0 2px 8px rgba(106, 27, 154, 0.2);
+        min-width: 36px;
+        height: 36px;
+        flex-shrink: 0;
       }
       
       .ai-news-refresh-btn:hover {
-        background: linear-gradient(135deg, #8B2FC7 0%, #6A1B9A 100%);
-        transform: rotate(180deg) scale(1.05);
-        box-shadow: 0 4px 12px rgba(106, 27, 154, 0.3);
+        background: rgba(255, 255, 255, 0.3);
+        transform: rotate(180deg);
       }
       
       .ai-news-refresh-btn:active {
@@ -274,26 +305,30 @@
       }
       
       .ai-news-panel-content {
-        padding: 0.85rem;
-        max-height: calc(60vh - 60px);
+        padding: 1rem;
+        max-height: calc(70vh - 80px);
         overflow-y: auto;
+        -webkit-overflow-scrolling: touch;
       }
       
       .ai-news-item {
-        padding: 0.75rem;
-        margin-bottom: 0.6rem;
+        padding: 0.85rem;
+        margin-bottom: 0.75rem;
       }
       
       .ai-news-item h4 {
-        font-size: 0.85rem;
+        font-size: 0.9rem;
+        line-height: 1.4;
       }
       
       .ai-news-item p {
-        font-size: 0.75rem;
+        font-size: 0.8rem;
+        line-height: 1.5;
       }
       
       .ai-news-item .meta {
-        font-size: 0.7rem;
+        font-size: 0.75rem;
+        margin-top: 0.75rem;
       }
     }
     
@@ -335,8 +370,8 @@
       <div class="ai-news-panel-header" id="ai-news-toggle">
         <h3>
           <span class="ai-icon-robot">
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <rect x="3" y="7" width="18" height="14" rx="2"/>
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="3" y="7" width="18" height="14" rx="2" ry="2"/>
               <path d="M7 7V5a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v2"/>
               <circle cx="9" cy="14" r="1"/>
               <circle cx="15" cy="14" r="1"/>
@@ -346,7 +381,7 @@
           <span data-i18n="news.panel.title">KI-News</span>
         </h3>
         <button class="ai-news-refresh-btn" id="ai-news-refresh" title="Aktualisieren" aria-label="News aktualisieren">
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
             <path d="M21.5 2v6h-6M2.5 22v-6h6M2 11.5a10 10 0 0 1 18.8-4.3M22 12.5a10 10 0 0 1-18.8 4.2"/>
           </svg>
         </button>

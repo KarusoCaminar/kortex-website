@@ -102,4 +102,46 @@ footer{margin-top:3rem;padding:2rem 0;color:rgba(30,41,59,.7)}
   .hero-text { text-align:center } 
   .product-card img{height:160px}
   .container{padding:0 0.75rem}
+  
+  /* Mobile Typography */
+  .h1 {
+    font-size: 1.75rem;
+    line-height: 1.2;
+  }
+  
+  .lead {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+  
+  /* Mobile Buttons */
+  .btn {
+    padding: 0.75rem 1.25rem;
+    font-size: 0.95rem;
+    width: 100%;
+    justify-content: center;
+  }
+  
+  /* Mobile Forms */
+  textarea, input[type="email"], input[type="text"] {
+    font-size: 16px; /* Verhindert Zoom auf iOS */
+    padding: 0.85rem;
+  }
+  
+  /* Mobile Cards */
+  .card, .benefit, .question-widget, .product-card {
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Mobile Hero */
+  .hero {
+    padding: 2rem 0;
+    gap: 2rem;
+  }
+  
+  /* Mobile Grid */
+  .grid-3 {
+    gap: 1.5rem;
+  }
 }
