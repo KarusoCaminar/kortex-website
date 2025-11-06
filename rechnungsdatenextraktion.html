@@ -1531,7 +1531,14 @@
       } catch (error) {
         console.error('❌ Error loading sample invoice:', error);
         const errorMessage = error.message || 'Unbekannter Fehler';
-        alert(`Fehler beim Laden der Demo-Rechnung: ${errorMessage}\n\nBitte stellen Sie sicher, dass die Invoice-Extractor API erreichbar ist.`);
+        const errorName = error.name || '';
+        
+        // Check if it's a CORS error or network error
+        if (errorMessage.includes('CORS') || errorMessage.includes('Failed to fetch') || errorName === 'TypeError' || errorMessage.includes('ERR_FAILED')) {
+          alert(`Fehler beim Laden der Demo-Rechnung: Die API ist momentan nicht erreichbar (CORS/Netzwerk-Fehler).\n\nBitte versuchen Sie es später erneut.\n\nTipp: Stellen Sie sicher, dass die Invoice-Extractor API auf Render läuft.`);
+        } else {
+          alert(`Fehler beim Laden der Demo-Rechnung: ${errorMessage}\n\nBitte stellen Sie sicher, dass die Invoice-Extractor API erreichbar ist.`);
+        }
         hideLoading();
       }
     }
