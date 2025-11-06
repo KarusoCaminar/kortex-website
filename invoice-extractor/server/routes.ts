@@ -216,7 +216,8 @@ export async function registerRoutes(app: Express): Promise<Server> {
     }
   });
 
-  // Upload and process invoice (SYNCHRONOUS - waits for complete processing)
+  // Upload invoice (ASYNCHRONOUS - returns immediately with "processing" status)
+  // Processing happens lazily when GET /api/invoices/:id is called
   app.post("/api/invoices/upload", upload.single("file"), async (req, res) => {
     try {
       if (!req.file) {
