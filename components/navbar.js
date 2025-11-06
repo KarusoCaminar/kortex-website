@@ -23,7 +23,7 @@ class CustomNavbar extends HTMLElement {
           gap:1rem;
         }
         .logo{font-size:1.05rem;font-weight:700;color:#fff;text-decoration:none;display:flex;align-items:center;gap:.6rem}
-        .logo img{height:36px;width:auto;display:block;filter: brightness(0) invert(1);}
+        .logo img{height:36px;width:auto;display:block;border-radius:6px;padding:2px;background:rgba(255,255,255,0.2);border:2px solid rgba(255,255,255,0.3);}
         .nav-links{display:flex;gap:1.25rem;align-items:center;margin:0;padding:0;list-style:none}
         .nav-link a{color:rgba(255,255,255,.95);text-decoration:none;font-weight:500;padding:.5rem 0;transition:all .16s}
         .nav-link a:hover{color:#fff;text-shadow:0 1px 2px rgba(0,0,0,.1)}
