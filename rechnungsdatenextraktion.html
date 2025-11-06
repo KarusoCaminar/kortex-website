@@ -1114,9 +1114,12 @@
         renderResults();
         scrollToResults();
         
-        // If invoice is completed, show detail view
+        // If invoice is completed immediately, show detail view automatically
         if (invoice.status === 'completed') {
-          showInvoiceDetail(invoice.id);
+          // Small delay to let the UI update first
+          setTimeout(() => {
+            showInvoiceDetail(invoice.id);
+          }, 500);
         }
         
         // If status is processing, poll for completion
@@ -1170,9 +1173,13 @@
             };
             renderResults();
             
-            // If invoice is completed, show detail view
-            if (invoice.status === 'completed') {
-              showInvoiceDetail(invoice.id);
+            // If invoice just completed (status changed from processing to completed), show detail view
+            const wasProcessing = extractedInvoices[index]?.status === 'processing';
+            if (invoice.status === 'completed' && wasProcessing) {
+              // Show detail view when invoice completes
+              setTimeout(() => {
+                showInvoiceDetail(invoice.id);
+              }, 500);
             }
           }
           
