@@ -47,7 +47,7 @@
     
     header {
       text-align: center;
-      margin-bottom: 4rem;
+      margin-bottom: 3rem;
     }
     
     h1 {
@@ -65,13 +65,55 @@
       margin-bottom: 1rem;
     }
     
+    /* Short Intro Section */
+    .intro-section {
+      max-width: 900px;
+      margin: 0 auto 3rem;
+      text-align: center;
+    }
+    
+    .intro-section h2 {
+      font-size: 1.8rem;
+      margin-bottom: 1rem;
+      color: #60a5fa;
+    }
+    
+    .intro-section p {
+      font-size: 1.1rem;
+      line-height: 1.8;
+      color: #cbd5e1;
+      margin-bottom: 1.5rem;
+    }
+    
+    /* Invoice App Container */
+    .invoice-app-container {
+      width: 100%;
+      max-width: 1400px;
+      margin: 0 auto 4rem;
+      background: rgba(15, 23, 42, 0.6);
+      border: 1px solid rgba(148, 163, 184, 0.2);
+      border-radius: 16px;
+      overflow: hidden;
+      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+    }
+    
+    .invoice-app-container iframe {
+      width: 100%;
+      height: 900px;
+      border: none;
+      display: block;
+    }
+    
     /* Content Sections */
     .content-section {
       background: rgba(15, 23, 42, 0.6);
       border: 1px solid rgba(148, 163, 184, 0.2);
       border-radius: 16px;
-      padding: 3rem;
-      margin-bottom: 3rem;
+      padding: 2.5rem;
+      margin-bottom: 2rem;
+      max-width: 900px;
+      margin-left: auto;
+      margin-right: auto;
     }
     
     .content-section h2 {
@@ -94,43 +136,19 @@
       margin-bottom: 1.5rem;
     }
     
-    .content-section ul {
-      list-style: none;
-      padding-left: 0;
-      margin-bottom: 1.5rem;
-    }
-    
-    .content-section li {
-      font-size: 1.1rem;
-      line-height: 1.8;
-      color: #cbd5e1;
-      margin-bottom: 1rem;
-      padding-left: 2rem;
-      position: relative;
-    }
-    
-    .content-section li::before {
-      content: '✓';
-      position: absolute;
-      left: 0;
-      color: #4ade80;
-      font-weight: bold;
-      font-size: 1.3rem;
-    }
-    
     /* Stats Grid */
     .stats-grid {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 2rem;
-      margin: 3rem 0;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1.5rem;
+      margin: 2rem 0;
     }
     
     .stat-card {
       background: rgba(15, 23, 42, 0.8);
       border: 1px solid rgba(148, 163, 184, 0.2);
       border-radius: 12px;
-      padding: 2rem;
+      padding: 1.5rem;
       text-align: center;
     }
     
@@ -146,49 +164,19 @@
       color: #94a3b8;
     }
     
-    /* CTA Section */
-    .cta-section {
-      background: linear-gradient(135deg, rgba(59, 130, 246, 0.2) 0%, rgba(147, 51, 234, 0.2) 100%);
-      border: 2px solid rgba(96, 165, 250, 0.3);
-      border-radius: 16px;
-      padding: 3rem;
-      text-align: center;
-      margin: 4rem 0;
-    }
-    
-    .cta-button {
-      display: inline-block;
-      background: linear-gradient(135deg, #3b82f6 0%, #9333ea 100%);
-      color: white;
-      padding: 1rem 3rem;
-      border-radius: 12px;
-      font-size: 1.2rem;
-      font-weight: 600;
-      text-decoration: none;
-      margin-top: 2rem;
-      transition: all 0.3s ease;
-      border: none;
-      cursor: pointer;
-    }
-    
-    .cta-button:hover {
-      transform: translateY(-4px);
-      box-shadow: 0 20px 40px rgba(59, 130, 246, 0.4);
-    }
-    
     /* Integration Cards */
     .integration-grid {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-      gap: 1.5rem;
-      margin: 2rem 0;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 1rem;
+      margin: 1.5rem 0;
     }
     
     .integration-card {
       background: rgba(15, 23, 42, 0.8);
       border: 1px solid rgba(148, 163, 184, 0.2);
       border-radius: 12px;
-      padding: 1.5rem;
+      padding: 1.25rem;
       text-align: center;
       transition: all 0.3s ease;
     }
@@ -201,12 +189,65 @@
     .integration-card h4 {
       color: #60a5fa;
       margin-bottom: 0.5rem;
+      font-size: 1rem;
     }
     
     .integration-card p {
-      font-size: 0.9rem;
+      font-size: 0.85rem;
       color: #94a3b8;
       margin: 0;
+    }
+    
+    /* FAQ Section */
+    .faq-section {
+      max-width: 900px;
+      margin: 4rem auto 3rem;
+    }
+    
+    .faq-section h2 {
+      font-size: 2rem;
+      margin-bottom: 2rem;
+      text-align: center;
+      color: #60a5fa;
+    }
+    
+    .faq-item {
+      background: rgba(15, 23, 42, 0.6);
+      padding: 1.5rem;
+      border-radius: 12px;
+      border: 1px solid rgba(148, 163, 184, 0.2);
+      cursor: pointer;
+      margin-bottom: 1rem;
+    }
+    
+    .faq-item summary {
+      font-size: 1.3rem;
+      font-weight: 600;
+      color: #60a5fa;
+      margin-bottom: 1rem;
+      cursor: pointer;
+      list-style: none;
+    }
+    
+    .faq-item summary::-webkit-details-marker {
+      display: none;
+    }
+    
+    .faq-item summary::before {
+      content: '+ ';
+      margin-right: 0.5rem;
+      font-weight: bold;
+    }
+    
+    .faq-item[open] summary::before {
+      content: '− ';
+    }
+    
+    .faq-item p {
+      font-size: 1.1rem;
+      line-height: 1.8;
+      color: #cbd5e1;
+      margin-top: 1rem;
     }
     
     /* Responsive */
@@ -222,6 +263,10 @@
       .content-section h2 {
         font-size: 1.5rem;
       }
+      
+      .invoice-app-container iframe {
+        height: 700px;
+      }
     }
   </style>
 </head>
@@ -234,40 +279,48 @@
       <p class="subtitle">Intelligente Automatisierung für Ihr Business</p>
     </header>
     
-    <!-- Problem Section -->
-    <div class="content-section">
+    <!-- Short Intro -->
+    <div class="intro-section">
       <h2>Das Problem: Zeitverschwendung bei manueller Rechnungsverarbeitung</h2>
       <p>
-        Jeden Monat stapeln sich Rechnungen auf dem Schreibtisch – von Lieferanten, Dienstleistern oder Geschäftspartnern. Die manuelle Erfassung in Buchhaltungssysteme kostet wertvolle Arbeitszeit: Pro Rechnung benötigen Sie durchschnittlich 10-15 Minuten für Dateneingabe, Validierung und Archivierung. Bei 100 Rechnungen pro Monat bedeutet das <strong>über 20 Stunden reine Verwaltungszeit</strong> – Zeit, die für Ihr Kerngeschäft verloren geht.
+        Jeden Monat stapeln sich Rechnungen auf dem Schreibtisch. Die manuelle Erfassung in Buchhaltungssysteme kostet wertvolle Arbeitszeit: Pro Rechnung benötigen Sie durchschnittlich 10-15 Minuten. Bei 100 Rechnungen pro Monat bedeutet das <strong>über 20 Stunden reine Verwaltungszeit</strong>.
       </p>
       <p>
-        Unsere KI-basierte Lösung automatisiert diesen Prozess vollständig: Mit <strong>Gemini 2.5 Flash</strong> und einem flexiblen <strong>n8n Workflow</strong> extrahieren wir alle Rechnungsdaten automatisch – Rechnungsnummer, Datum, Betrag, USt-IdNr., Lieferant und mehr. Das Ergebnis: Aus 10-15 Minuten pro Rechnung werden <strong>30 Sekunden</strong>. Ihre Mitarbeiter gewinnen monatlich bis zu 20 Arbeitsstunden zurück.
+        Unsere KI-basierte Lösung automatisiert diesen Prozess vollständig: Mit <strong>Gemini 2.5 Flash</strong> und einem flexiblen <strong>n8n Workflow</strong> extrahieren wir alle Rechnungsdaten automatisch – Rechnungsnummer, Datum, Betrag, USt-IdNr., Lieferant und mehr. Das Ergebnis: Aus 10-15 Minuten pro Rechnung werden <strong>30 Sekunden</strong>.
       </p>
+    </div>
+    
+    <!-- Invoice App iframe -->
+    <div class="invoice-app-container">
+      <iframe 
+        src="https://koretex-invoice-db.onrender.com"
+        title="Rechnungsdatenextraktion Demo"
+        allow="camera; microphone; clipboard-write"
+        sandbox="allow-same-origin allow-scripts allow-forms allow-popups allow-modals"
+      ></iframe>
     </div>
     
     <!-- Stats Section -->
-    <div class="stats-grid">
-      <div class="stat-card">
-        <div class="stat-value">93%</div>
-        <div class="stat-label">Zeitersparnis</div>
-      </div>
-      <div class="stat-card">
-        <div class="stat-value">95%</div>
-        <div class="stat-label">Erkennungsgenauigkeit</div>
-      </div>
-      <div class="stat-card">
-        <div class="stat-value">20h</div>
-        <div class="stat-label">Gewonnene Stunden/Monat</div>
-      </div>
-      <div class="stat-card">
-        <div class="stat-value">30s</div>
-        <div class="stat-label">Pro Rechnung</div>
-      </div>
-    </div>
-    
-    <!-- Benefits Section -->
     <div class="content-section">
       <h2>Messbare Ergebnisse & ROI</h2>
+      <div class="stats-grid">
+        <div class="stat-card">
+          <div class="stat-value">93%</div>
+          <div class="stat-label">Zeitersparnis</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-value">95%</div>
+          <div class="stat-label">Erkennungsgenauigkeit</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-value">20h</div>
+          <div class="stat-label">Gewonnene Stunden/Monat</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-value">30s</div>
+          <div class="stat-label">Pro Rechnung</div>
+        </div>
+      </div>
       
       <h3>Zeitersparnis</h3>
       <p>
@@ -282,11 +335,6 @@
       <h3>Kostenreduktion</h3>
       <p>
         Bei einem Stundensatz von 50€ sparen Sie <strong>monatlich bis zu 1.000€ Verwaltungskosten</strong>. Die Amortisation erfolgt bereits im ersten Monat.
-      </p>
-      
-      <h3>Datenqualität & Integration</h3>
-      <p>
-        Die Datenqualität wird durch mehrstufige Validierungsprozesse garantiert. Alle extrahierten Rechnungsdaten werden automatisch auf Vollständigkeit und Korrektheit geprüft – von USt-IdNr. bis Betragsvalidierung. Exportmöglichkeiten in <strong>CSV und JSON</strong> ermöglichen nahtlose Integration in bestehende Buchhaltungssysteme wie DATEV, Lexware oder SAP.
       </p>
     </div>
     
@@ -323,16 +371,20 @@
           <p>API-Anbindung möglich</p>
         </div>
       </div>
+      
+      <p>
+        Exportmöglichkeiten in <strong>CSV und JSON</strong> ermöglichen nahtlose Integration in bestehende Buchhaltungssysteme wie DATEV, Lexware oder SAP. Die Datenqualität wird durch mehrstufige Validierungsprozesse garantiert.
+      </p>
     </div>
     
     <!-- DSGVO Section -->
     <div class="content-section">
       <h2>DSGVO-Konformität: Datenverarbeitung nach europäischen Standards</h2>
       <p>
-        Alle Server befinden sich in Deutschland oder der EU, sodass die Datenverarbeitung vollständig den Anforderungen der <strong>DSGVO (Datenschutz-Grundverordnung)</strong> entspricht. Nach erfolgreicher Extraktion werden die hochgeladenen Rechnungen automatisch nach 10 Minuten gelöscht – keine dauerhafte Speicherung von personenbezogenen Daten. Die extrahierten Rechnungsdaten werden ausschließlich in Ihrer Kontrolle gespeichert und können jederzeit gelöscht werden.
+        Alle Server befinden sich in Deutschland oder der EU, sodass die Datenverarbeitung vollständig den Anforderungen der <strong>DSGVO (Datenschutz-Grundverordnung)</strong> entspricht. Nach erfolgreicher Extraktion werden die hochgeladenen Rechnungen automatisch nach 10 Minuten gelöscht – keine dauerhafte Speicherung von personenbezogenen Daten.
       </p>
       <p>
-        Der n8n Workflow kann optional als <strong>Self-Hosted-Lösung</strong> in Ihrer eigenen Infrastruktur betrieben werden, falls zusätzliche Sicherheitsanforderungen bestehen. Dies bietet maximale Kontrolle über den gesamten Datenverarbeitungsprozess und ermöglicht die Integration in unternehmensinterne Compliance-Richtlinien.
+        Der n8n Workflow kann optional als <strong>Self-Hosted-Lösung</strong> in Ihrer eigenen Infrastruktur betrieben werden, falls zusätzliche Sicherheitsanforderungen bestehen.
       </p>
     </div>
     
@@ -340,49 +392,48 @@
     <div class="content-section">
       <h2>Technologie: Warum n8n & Gemini 2.5 Flash?</h2>
       <p>
-        <strong>n8n</strong> ist die ideale Basis für diesen Workflow: Die Open-Source-Automatisierungsplattform bietet maximale Flexibilität für individuelle Anpassungen und kann als Self-Hosted-Lösung in Ihrer eigenen IT-Infrastruktur betrieben werden. Für die Texterkennung nutzen wir <strong>Google Gemini 2.5 Flash</strong> – ein modernes KI-Modell, das hohe Erkennungsgenauigkeit mit schneller Verarbeitung kombiniert. Die Kombination ermöglicht eine zuverlässige, skalierbare und kosteneffiziente Automatisierungslösung.
+        <strong>n8n</strong> ist die ideale Basis für diesen Workflow: Die Open-Source-Automatisierungsplattform bietet maximale Flexibilität für individuelle Anpassungen und kann als Self-Hosted-Lösung in Ihrer eigenen IT-Infrastruktur betrieben werden. Für die Texterkennung nutzen wir <strong>Google Gemini 2.5 Flash</strong> – ein modernes KI-Modell, das hohe Erkennungsgenauigkeit mit schneller Verarbeitung kombiniert.
       </p>
-    </div>
-    
-    <!-- CTA Section -->
-    <div class="cta-section">
-      <h2 style="margin-bottom: 1rem; color: white;">Live-Demo: Rechnungsdatenextraktion jetzt testen</h2>
-      <p style="font-size: 1.1rem; color: #cbd5e1; margin-bottom: 2rem;">
-        Laden Sie eine Rechnung hoch und sehen Sie, wie die KI automatisch alle Daten extrahiert – in nur 30 Sekunden.
-      </p>
-      <a href="https://koretex-invoice-db.onrender.com" target="_blank" rel="noopener noreferrer" class="cta-button">
-        🚀 Jetzt kostenlos testen
-      </a>
     </div>
     
     <!-- FAQ Section -->
-    <div class="content-section">
+    <div class="faq-section">
       <h2>Häufige Fragen (FAQ)</h2>
       
-      <h3>Welche KI-Modelle werden für die Rechnungsdatenextraktion genutzt?</h3>
-      <p>
-        Wir nutzen <strong>Google Gemini 2.5 Flash</strong> über die Vertex AI API. Dieses moderne KI-Modell kombiniert hohe Erkennungsgenauigkeit (95%) mit schneller Verarbeitung. Die Texterkennung erfolgt vollständig automatisch – von gedruckten Rechnungen bis hin zu gescannten PDFs.
-      </p>
+      <details class="faq-item">
+        <summary>Welche KI-Modelle werden für die Rechnungsdatenextraktion genutzt?</summary>
+        <p>
+          Wir nutzen <strong>Google Gemini 2.5 Flash</strong> über die Vertex AI API. Dieses moderne KI-Modell kombiniert hohe Erkennungsgenauigkeit (95%) mit schneller Verarbeitung. Die Texterkennung erfolgt vollständig automatisch – von gedruckten Rechnungen bis hin zu gescannten PDFs.
+        </p>
+      </details>
       
-      <h3>Wie wird der n8n-Workflow in unsere bestehende IT (z.B. Buchhaltung) integriert?</h3>
-      <p>
-        Der n8n Workflow kann über verschiedene Wege integriert werden: <strong>Webhook-Integration</strong> für direkten Datentransfer, <strong>CSV/JSON-Export</strong> für manuellen Import in Buchhaltungssysteme wie DATEV, Lexware oder SAP, oder <strong>REST-API-Anbindung</strong> für vollautomatische Synchronisation. Unsere Lösung passt sich flexibel an Ihre bestehende IT-Infrastruktur an.
-      </p>
+      <details class="faq-item">
+        <summary>Wie wird der n8n-Workflow in unsere bestehende IT (z.B. Buchhaltung) integriert?</summary>
+        <p>
+          Der n8n Workflow kann über verschiedene Wege integriert werden: <strong>Webhook-Integration</strong> für direkten Datentransfer, <strong>CSV/JSON-Export</strong> für manuellen Import in Buchhaltungssysteme wie DATEV, Lexware oder SAP, oder <strong>REST-API-Anbindung</strong> für vollautomatische Synchronisation. Unsere Lösung passt sich flexibel an Ihre bestehende IT-Infrastruktur an.
+        </p>
+      </details>
       
-      <h3>Ist die Erkennungsgenauigkeit von 95% garantiert?</h3>
-      <p>
-        Die <strong>95% Erkennungsgenauigkeit</strong> basiert auf durchschnittlichen Werten bei guter Bildqualität (mindestens 300 DPI, klar lesbare Schrift). Bei optimalen Bedingungen erreichen wir bis zu 98% Genauigkeit. Bei verschwommenen Bildern oder schlechter Scan-Qualität kann die Genauigkeit geringer ausfallen. Alle extrahierten Daten werden automatisch validiert (USt-IdNr., Beträge, Rechnungsnummern) um Fehlerquoten zu minimieren.
-      </p>
+      <details class="faq-item">
+        <summary>Ist die Erkennungsgenauigkeit von 95% garantiert?</summary>
+        <p>
+          Die <strong>95% Erkennungsgenauigkeit</strong> basiert auf durchschnittlichen Werten bei guter Bildqualität (mindestens 300 DPI, klar lesbare Schrift). Bei optimalen Bedingungen erreichen wir bis zu 98% Genauigkeit. Bei verschwommenen Bildern oder schlechter Scan-Qualität kann die Genauigkeit geringer ausfallen. Alle extrahierten Daten werden automatisch validiert (USt-IdNr., Beträge, Rechnungsnummern) um Fehlerquoten zu minimieren.
+        </p>
+      </details>
       
-      <h3>Welche Datenformate (CSV, JSON) werden unterstützt?</h3>
-      <p>
-        Wir unterstützen <strong>CSV-Export</strong> (kompatibel mit Excel, Google Sheets, alle Buchhaltungssysteme) und <strong>JSON-Export</strong> für programmatische Integration. Der CSV-Export enthält alle Felder (Rechnungsnummer, Datum, Betrag, USt-IdNr., Lieferant, etc.) und kann direkt in Ihre Buchhaltungssysteme importiert werden. JSON-Format ermöglicht flexible Weiterverarbeitung über APIs oder automatisierte Workflows.
-      </p>
+      <details class="faq-item">
+        <summary>Welche Datenformate (CSV, JSON) werden unterstützt?</summary>
+        <p>
+          Wir unterstützen <strong>CSV-Export</strong> (kompatibel mit Excel, Google Sheets, alle Buchhaltungssysteme) und <strong>JSON-Export</strong> für programmatische Integration. Der CSV-Export enthält alle Felder (Rechnungsnummer, Datum, Betrag, USt-IdNr., Lieferant, etc.) und kann direkt in Ihre Buchhaltungssysteme importiert werden.
+        </p>
+      </details>
       
-      <h3>Wie lange dauert die Verarbeitung einer Rechnung?</h3>
-      <p>
-        Die Verarbeitung einer einzelnen Rechnung dauert durchschnittlich <strong>30 Sekunden</strong> – von Upload bis zu vollständig extrahierten Rechnungsdaten. Dies umfasst Bild-Upload, KI-Analyse, Datenextraktion und Validierung. Im Vergleich zur manuellen Erfassung (durchschnittlich 10-15 Minuten pro Rechnung) sparen Sie <strong>93% der Zeit</strong>. Bei Batch-Verarbeitung mehrerer Rechnungen kann die Verarbeitung parallelisiert werden, was weitere Zeitersparnis ermöglicht.
-      </p>
+      <details class="faq-item">
+        <summary>Wie lange dauert die Verarbeitung einer Rechnung?</summary>
+        <p>
+          Die Verarbeitung einer einzelnen Rechnung dauert durchschnittlich <strong>30 Sekunden</strong> – von Upload bis zu vollständig extrahierten Rechnungsdaten. Dies umfasst Bild-Upload, KI-Analyse, Datenextraktion und Validierung. Im Vergleich zur manuellen Erfassung (durchschnittlich 10-15 Minuten pro Rechnung) sparen Sie <strong>93% der Zeit</strong>.
+        </p>
+      </details>
     </div>
   </div>
   
@@ -394,4 +445,3 @@
   <script src="script.js"></script>
 </body>
 </html>
-
