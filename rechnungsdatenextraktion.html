@@ -24,6 +24,8 @@
   
   <script src="translations.js"></script>
   <script src="i18n.js"></script>
+  <!-- PDF.js for robust PDF thumbnail generation -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
   <style>
     * {
       margin: 0;
@@ -622,19 +624,59 @@
       }
     }
     
-    /* Demo PDF Preview Styles */
+    /* Demo PDF Preview Styles - Thumbnail based */
     .demo-pdf-preview {
       position: relative;
       width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 200px;
     }
     
-    .demo-pdf-iframe {
-      -ms-overflow-style: none;
-      scrollbar-width: none;
+    .demo-pdf-thumbnail {
+      width: 100%;
+      max-width: 100%;
+      height: auto;
+      max-height: 180px;
+      border: 2px solid rgba(148, 163, 184, 0.3);
+      border-radius: 8px;
+      background: white;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      object-fit: contain;
+      display: block;
     }
     
-    .demo-pdf-iframe::-webkit-scrollbar {
+    .demo-pdf-thumbnail.loading {
+      opacity: 0.5;
+    }
+    
+    .demo-pdf-thumbnail.error {
       display: none;
+    }
+    
+    .demo-pdf-placeholder {
+      width: 100%;
+      min-height: 180px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background: rgba(255, 255, 255, 0.1);
+      border: 2px dashed rgba(148, 163, 184, 0.3);
+      border-radius: 8px;
+      color: #60a5fa;
+    }
+    
+    .demo-pdf-placeholder-icon {
+      font-size: 3rem;
+      margin-bottom: 0.5rem;
+    }
+    
+    .demo-pdf-placeholder-text {
+      font-size: 0.9rem;
+      font-weight: 600;
     }
     
     /* Mobile: Show fallback link */
@@ -655,9 +697,8 @@
         padding: 1.5rem;
       }
       
-      .demo-pdf-iframe {
-        height: 250px !important;
-        min-height: 250px !important;
+      .demo-pdf-thumbnail {
+        max-height: 250px;
       }
     }
     
@@ -1286,15 +1327,17 @@
       <!-- Demo Invoice 3 -->
       <a href="#" class="demo-card-link" data-invoice-sample="3">
         <div class="demo-card">
-          <div class="demo-pdf-preview" style="text-align: center; padding: 2rem; background: rgba(96, 165, 250, 0.1); border-radius: 12px; margin-bottom: 1rem; min-height: 200px; display: flex; flex-direction: column; align-items: center; justify-content: center;">
-            <iframe 
-              src="https://koretex-invoice-db.onrender.com/samples/rechnung-3.pdf#toolbar=0&navpanes=0&scrollbar=0&view=Fit" 
-              class="demo-pdf-iframe"
-              style="width: 100%; height: 180px; min-height: 180px; border: 2px solid rgba(148, 163, 184, 0.3); border-radius: 8px; background: white; overflow: hidden;"
-              scrolling="no"
-              onerror="this.style.display='none'; this.parentElement.innerHTML='<span style=\'font-size: 3rem;\'>📄</span><p style=\'margin-top: 0.5rem; color: #60a5fa; font-weight: 600;\'>PDF Rechnung</p>';">
-            </iframe>
-            <p style="margin-top: 0.5rem; color: #60a5fa; font-weight: 600; font-size: 0.9rem;">PDF Rechnung</p>
+          <div class="demo-pdf-preview" style="text-align: center; padding: 2rem; background: rgba(96, 165, 250, 0.1); border-radius: 12px; margin-bottom: 1rem;">
+            <img 
+              id="pdf-thumbnail-3"
+              class="demo-pdf-thumbnail loading"
+              alt="PDF Rechnung Thumbnail"
+              data-pdf-url="https://koretex-invoice-db.onrender.com/samples/rechnung-3.pdf"
+              onerror="this.classList.add('error'); this.nextElementSibling.style.display='flex';">
+            <div class="demo-pdf-placeholder" style="display: none;">
+              <div class="demo-pdf-placeholder-icon">📄</div>
+              <div class="demo-pdf-placeholder-text">PDF Rechnung</div>
+            </div>
           </div>
           <h3>Rechnung Vorlage 1 (ENG)</h3>
           <p>Klicke auf diese Demo-Rechnung → KI extrahiert automatisch alle Rechnungsdaten aus PDF → Ergebnis erscheint in der Tabelle.</p>
@@ -1310,15 +1353,17 @@
       <!-- Demo Invoice 4 -->
       <a href="#" class="demo-card-link" data-invoice-sample="4">
         <div class="demo-card">
-          <div class="demo-pdf-preview" style="text-align: center; padding: 2rem; background: rgba(96, 165, 250, 0.1); border-radius: 12px; margin-bottom: 1rem; min-height: 200px; display: flex; flex-direction: column; align-items: center; justify-content: center;">
-            <iframe 
-              src="https://koretex-invoice-db.onrender.com/samples/rechnung-4.pdf#toolbar=0&navpanes=0&scrollbar=0&view=Fit" 
-              class="demo-pdf-iframe"
-              style="width: 100%; height: 180px; min-height: 180px; border: 2px solid rgba(148, 163, 184, 0.3); border-radius: 8px; background: white; overflow: hidden;"
-              scrolling="no"
-              onerror="this.style.display='none'; this.parentElement.innerHTML='<span style=\'font-size: 3rem;\'>📄</span><p style=\'margin-top: 0.5rem; color: #60a5fa; font-weight: 600;\'>PDF Rechnung</p>';">
-            </iframe>
-            <p style="margin-top: 0.5rem; color: #60a5fa; font-weight: 600; font-size: 0.9rem;">PDF Rechnung</p>
+          <div class="demo-pdf-preview" style="text-align: center; padding: 2rem; background: rgba(96, 165, 250, 0.1); border-radius: 12px; margin-bottom: 1rem;">
+            <img 
+              id="pdf-thumbnail-4"
+              class="demo-pdf-thumbnail loading"
+              alt="PDF Rechnung Thumbnail"
+              data-pdf-url="https://koretex-invoice-db.onrender.com/samples/rechnung-4.pdf"
+              onerror="this.classList.add('error'); this.nextElementSibling.style.display='flex';">
+            <div class="demo-pdf-placeholder" style="display: none;">
+              <div class="demo-pdf-placeholder-icon">📄</div>
+              <div class="demo-pdf-placeholder-text">PDF Rechnung</div>
+            </div>
           </div>
           <h3>Rechnung Vorlage 2 (DE)</h3>
           <p>Klicke auf diese Demo-Rechnung → KI extrahiert automatisch alle Rechnungsdaten aus PDF → Ergebnis erscheint in der Tabelle.</p>
@@ -2285,17 +2330,132 @@
       }
     });
     
+    // PDF.js Configuration
+    if (typeof pdfjsLib !== 'undefined') {
+      pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js';
+    }
+    
+    // Generate PDF Thumbnail from PDF URL
+    async function generatePDFThumbnail(pdfUrl, imgElementId, maxHeight = 180) {
+      try {
+        // Check if PDF.js is available
+        if (typeof pdfjsLib === 'undefined') {
+          console.warn('PDF.js not loaded, using fallback');
+          const imgElement = document.getElementById(imgElementId);
+          if (imgElement) {
+            imgElement.classList.add('error');
+            const placeholder = imgElement.nextElementSibling;
+            if (placeholder && placeholder.classList.contains('demo-pdf-placeholder')) {
+              placeholder.style.display = 'flex';
+            }
+          }
+          return false;
+        }
+        
+        const imgElement = document.getElementById(imgElementId);
+        if (!imgElement) return false;
+        
+        // Load PDF
+        const loadingTask = pdfjsLib.getDocument({
+          url: pdfUrl,
+          withCredentials: false
+        });
+        
+        const pdf = await loadingTask.promise;
+        
+        // Get first page
+        const page = await pdf.getPage(1);
+        
+        // Calculate scale to fit maxHeight
+        const viewport = page.getViewport({ scale: 1.0 });
+        const scale = maxHeight / viewport.height;
+        const scaledViewport = page.getViewport({ scale: scale });
+        
+        // Create canvas
+        const canvas = document.createElement('canvas');
+        const context = canvas.getContext('2d');
+        canvas.height = scaledViewport.height;
+        canvas.width = scaledViewport.width;
+        
+        // Render PDF page to canvas
+        const renderContext = {
+          canvasContext: context,
+          viewport: scaledViewport
+        };
+        
+        await page.render(renderContext).promise;
+        
+        // Convert canvas to image and set as thumbnail
+        const imageDataUrl = canvas.toDataURL('image/png');
+        imgElement.src = imageDataUrl;
+        imgElement.classList.remove('loading');
+        imgElement.style.display = 'block';
+        
+        return true;
+      } catch (error) {
+        console.error('Error generating PDF thumbnail:', error);
+        const imgElement = document.getElementById(imgElementId);
+        if (imgElement) {
+          imgElement.classList.add('error');
+          imgElement.style.display = 'none';
+          // Show placeholder
+          const placeholder = imgElement.nextElementSibling;
+          if (placeholder && placeholder.classList.contains('demo-pdf-placeholder')) {
+            placeholder.style.display = 'flex';
+          }
+        }
+        return false;
+      }
+    }
+    
+    // Load PDF thumbnails when page loads
+    function loadPDFThumbnails() {
+      // Generate thumbnail for rechnung-3.pdf
+      const thumbnail3 = document.getElementById('pdf-thumbnail-3');
+      if (thumbnail3 && thumbnail3.dataset.pdfUrl) {
+        generatePDFThumbnail(thumbnail3.dataset.pdfUrl, 'pdf-thumbnail-3', 180);
+      }
+      
+      // Generate thumbnail for rechnung-4.pdf
+      const thumbnail4 = document.getElementById('pdf-thumbnail-4');
+      if (thumbnail4 && thumbnail4.dataset.pdfUrl) {
+        generatePDFThumbnail(thumbnail4.dataset.pdfUrl, 'pdf-thumbnail-4', 180);
+      }
+    }
+    
     // Event Listeners
     document.addEventListener('DOMContentLoaded', () => {
-      // Demo invoice cards - WICHTIG: Verhindere dass iframe-Clicks den Link triggern
+      // Load PDF thumbnails
+      if (typeof pdfjsLib !== 'undefined') {
+        // Wait a bit for PDF.js to fully initialize
+        setTimeout(loadPDFThumbnails, 500);
+      } else {
+        // Retry if PDF.js loads later
+        let retries = 0;
+        const checkPDFJS = setInterval(() => {
+          retries++;
+          if (typeof pdfjsLib !== 'undefined') {
+            clearInterval(checkPDFJS);
+            pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js';
+            loadPDFThumbnails();
+          } else if (retries > 10) {
+            clearInterval(checkPDFJS);
+            console.warn('PDF.js failed to load, thumbnails will not be generated');
+            // Show placeholders for all thumbnails
+            document.querySelectorAll('.demo-pdf-thumbnail').forEach(img => {
+              img.classList.add('error');
+              const placeholder = img.nextElementSibling;
+              if (placeholder && placeholder.classList.contains('demo-pdf-placeholder')) {
+                placeholder.style.display = 'flex';
+              }
+            });
+          }
+        }, 500);
+      }
+      
+      // Demo invoice cards
       document.querySelectorAll('.demo-card-link[data-invoice-sample]').forEach(link => {
         link.addEventListener('click', async (e) => {
-          // Verhindere Klick wenn auf iframe geklickt wurde
-          if (e.target.tagName === 'IFRAME' || e.target.closest('iframe')) {
-            e.stopPropagation();
-            return;
-          }
-          
           e.preventDefault();
           const sampleId = parseInt(link.getAttribute('data-invoice-sample'));
           console.log('📋 Loading sample invoice:', sampleId);
