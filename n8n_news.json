@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-11-07T08:30:36.562Z",
+  "lastUpdated": "2025-11-07T10:25:08.571Z",
   "news": [
+    {
+      "title": "US-Regierung blockiert Nvidias China-Chip, CEO warnt vor chinesischer KI-Dominanz",
+      "description": "Die US-Regierung will den Verkauf eines neuen, abgespeckten KI-Chips von Nvidia nach China unterbinden. CEO Jensen Huang reagiert mit einer scharfen Warnung: China werde das KI-Rennen dank geringerer",
+      "link": "https://the-decoder.de/us-regierung-blockiert-nvidias-china-chip-ceo-warnt-vor-chinesischer-ki-dominanz/",
+      "date": "2025-11-07T09:17:35.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Googles KI-Chips TPU v7 jetzt allgemein verfügbar",
       "description": "Google Cloud kündigt die allgemeine Verfügbarkeit seiner siebten TPU-Generation Ironwood für das Training und die Ausführung großer KI-Modelle an.\nDer Artikel Googles KI-Chips TPU v7 jetzt allgemein v",
@@ -126,15 +135,6 @@
       "source": "Google AI",
       "category": "große-modelle",
       "language": "en"
-    },
-    {
-      "title": "Amazons Klage gegen Perplexity könnte die Zukunft des KI-Shoppings prägen",
-      "description": "Amazon zieht gegen das KI-Start-up Perplexity vor Gericht. Dessen Browser-Agent „Comet“ soll unerlaubt Einkäufe auf Amazon im Namen von Nutzern getätigt haben – ein Streit, der Grundsatzfragen zum Ein",
-      "link": "https://the-decoder.de/amazons-klage-gegen-perplexity-koennte-die-zukunft-des-ki-shoppings-praegen/",
-      "date": "2025-11-05T15:36:43.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
     }
   ]
 }
