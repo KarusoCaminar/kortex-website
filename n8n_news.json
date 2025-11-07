@@ -1,6 +1,33 @@
 {
-  "lastUpdated": "2025-11-07T16:25:29.952Z",
+  "lastUpdated": "2025-11-07T18:31:42.630Z",
   "news": [
+    {
+      "title": "Moonshot AI stellt Kimi K2 Thinking als \"bestes Open-Source-Thinking-Modell\" vor",
+      "description": "Das chinesische KI-Unternehmen Moonshot AI hat mit Kimi K2 Thinking ein neues Open-Source-Sprachmodell vorgestellt, das nach eigenen Angaben das „beste Open-Source-Thinking-Modell“ sein soll. Beeindru",
+      "link": "https://the-decoder.de/moonshot-ai-stellt-kimi-k2-thinking-als-bestes-open-source-thinking-modell-vor/",
+      "date": "2025-11-07T17:44:20.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "KI PRO Webinar | KI im Büro: Excel, Präsentationen und E-Mails mit KI erstellen",
+      "description": "KI-Werkzeuge wie ChatGPT und Copilot wollen unseren Büroalltag verändern: Aufgaben, die früher Stunden in Anspruch nahmen, sollen heute in wenigen Minuten erledigt werden können.\nDer Artikel KI PRO We",
+      "link": "https://the-decoder.de/ki-pro-webinar-ki-im-buero-excel-praesentationen-und-e-mails-mit-ki-erstellen/",
+      "date": "2025-11-07T17:28:55.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Sechs KI-Pioniere sprechen über KI-Durchbrüche und überhöhte Erwartungen",
+      "description": "KI-Elefantenrunde bei der Verleihung des Queen Elizabeth Prize 2025: Sechs führende Köpfe der KI-Forschung – Bill Dally, Yoshua Bengio, Fei-Fei Li, Yann LeCun, Jeff Hinton und Nvidia-CEO Jensen Huang",
+      "link": "https://the-decoder.de/sechs-ki-pioniere-sprechen-ueber-ki-durchbrueche-und-ueberhoehte-erwartungen/",
+      "date": "2025-11-07T16:54:52.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Nvidia will das Datenproblem in der Robotik in ein Rechenproblem verwandeln",
       "description": "Nvidia setzt auf synthetische Daten, um die größte Hürde der Robotik zu überwinden: den Mangel an Trainingsdaten.\nDer Artikel Nvidia will das Datenproblem in der Robotik in ein Rechenproblem verwandel",
@@ -29,6 +56,15 @@
       "language": "de"
     },
     {
+      "title": "Notion’s rebuild for agentic AI: How GPT‑5 helped unlock autonomous workflows",
+      "description": "Discover how Notion rebuilt its AI architecture with GPT-5 to create autonomous agents that reason, act, and adapt across workflows. Learn how this shift unlocked smarter, faster, and more flexible pr",
+      "link": "https://openai.com/index/notion",
+      "date": "2025-11-07T10:00:00.000Z",
+      "source": "OpenAI",
+      "category": "workflow-tools",
+      "language": "en"
+    },
+    {
       "title": "US-Regierung blockiert Nvidias China-Chip, CEO warnt vor chinesischer KI-Dominanz",
       "description": "Die US-Regierung will den Verkauf eines neuen, abgespeckten KI-Chips von Nvidia nach China unterbinden. CEO Jensen Huang reagiert mit einer scharfen Warnung: China werde das KI-Rennen dank geringerer",
       "link": "https://the-decoder.de/us-regierung-blockiert-nvidias-china-chip-ceo-warnt-vor-chinesischer-ki-dominanz/",
@@ -51,42 +87,6 @@
       "description": "OpenAI plant Investitionen in Billionenhöhe für die Recheninfrastruktur – und das bei vergleichsweise geringen 20 Milliarden ARR. OpenAI-CEO Sam Altman rechtfertigt diese Pläne in einem langen Beitrag",
       "link": "https://the-decoder.de/sam-altman-verteidigt-openais-14-billionen-wette-nach-bubble-kritik/",
       "date": "2025-11-06T20:19:30.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Google bringt Gemini Deep Reseach für eigene Daten",
-      "description": "Googles KI-Funktion Gemini Deep Research kann nun auch Inhalte aus Gmail, Drive und Chat in ihre Recherchen einbeziehen.\nDer Artikel Google bringt Gemini Deep Reseach für eigene Daten erschien zuerst",
-      "link": "https://the-decoder.de/google-bringt-gemini-deep-reseach-fuer-eigene-daten/",
-      "date": "2025-11-06T16:54:07.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Snap integriert KI-Suche von Perplexity für 400 Millionen Dollar in Snapchat",
-      "description": "Snap hat eine Partnerschaft im Wert von 400 Millionen US-Dollar mit Perplexity AI geschlossen, um dessen KI-Suchmaschine ab 2026 standardmäßig in Snapchat zu integrieren.\nDer Artikel Snap integriert K",
-      "link": "https://the-decoder.de/snap-integriert-ki-suche-von-perplexity-fuer-400-millionen-dollar-in-snapchat/",
-      "date": "2025-11-06T11:51:36.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "KI-Ring von Sandbar verspricht Sprachnotizen ohne ständiges Mithören",
-      "description": "Ein weiteres Start-up versucht sich an KI-Hardware. Diesmal ist es ein KI-Ring als Sprachinterface für den Alltag.\nDer Artikel KI-Ring von Sandbar verspricht Sprachnotizen ohne ständiges Mithören ersc",
-      "link": "https://the-decoder.de/ki-ring-von-sandbar-verspricht-sprachnotizen-ohne-staendiges-mithoeren/",
-      "date": "2025-11-06T11:44:51.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "OpenAI erzielt Rekordwachstum, aber kein Börsengang in Sicht",
-      "description": "OpenAI erreicht mehr als eine Million Unternehmenskunden, verliert jedoch weiter Geld in großem Stil. CFO Sarah Friar schließt einen Börsengang vorerst aus.\nDer Artikel OpenAI erzielt Rekordwachstum,",
-      "link": "https://the-decoder.de/openai-erzielt-rekordwachstum-aber-kein-boersengang-in-sicht/",
-      "date": "2025-11-06T10:50:01.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
