@@ -1,9 +1,18 @@
 {
-  "lastUpdated": "2025-11-07T12:45:39.029Z",
+  "lastUpdated": "2025-11-07T14:22:13.963Z",
   "news": [
     {
+      "title": "Nvidia will das Datenproblem in der Robotik in ein Rechenproblem verwandeln",
+      "description": "Nvidia setzt auf synthetische Daten, um die größte Hürde der Robotik zu überwinden: den Mangel an Trainingsdaten.\nDer Artikel Nvidia will das Datenproblem in der Robotik in ein Rechenproblem verwandel",
+      "link": "https://the-decoder.de/nvidia-will-das-datenproblem-in-der-robotik-in-ein-rechenproblem-verwandeln/",
+      "date": "2025-11-07T13:02:18.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
       "title": "\"Teen Safety Blueprint\": OpenAI führt Jugendschutz-Regeln ein",
-      "description": "OpenAI will mit einem „Teen Safety Blueprint“ festlegen, wie KI-Systeme Jugendliche besser schützen sollen. Die neuen Regeln kommen, nachdem ChatGPT in mehreren Fällen psychisch belastete Nutzer nicht",
+      "description": "OpenAI will mit einem \"Teen Safety Blueprint\" festlegen, wie KI-Systeme Jugendliche besser schützen sollen. Die neuen Regeln kommen, nachdem ChatGPT in mehreren Fällen psychisch belastete Nutzer nicht",
       "link": "https://the-decoder.de/teen-safety-blueprint-openai-fuehrt-jugendschutz-regeln-ein/",
       "date": "2025-11-07T11:52:06.000Z",
       "source": "The Decoder",
@@ -90,15 +99,6 @@
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
-    },
-    {
-      "title": "Apple will Googles Gemini-Modell für eine Milliarde Dollar jährlich in Siri integrieren",
-      "description": "Apple plant laut Bloomberg den Einsatz von Googles Gemini-Modell zur Aufwertung seines Sprachassistenten Siri, die Verhandlungen sollen kurz vor einem Abschluss stehen.\nDer Artikel Apple will Googles",
-      "link": "https://the-decoder.de/apple-will-googles-gemini-modell-fuer-eine-milliarde-dollar-jaehrlich-in-siri-integrieren/",
-      "date": "2025-11-06T09:24:51.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
     },
     {
       "title": "Introducing the Teen Safety Blueprint",
