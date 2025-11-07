@@ -24,8 +24,8 @@
   
   <script src="translations.js"></script>
   <script src="i18n.js"></script>
-  <!-- PDF.js for robust PDF thumbnail generation -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+  <!-- PDF.js for robust PDF thumbnail generation - Load early for faster initialization -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js" defer></script>
   <style>
     * {
       margin: 0;
@@ -1359,6 +1359,8 @@
               class="demo-pdf-thumbnail loading"
               alt="PDF Rechnung Thumbnail"
               data-pdf-url="https://koretex-invoice-db.onrender.com/samples/rechnung-4.pdf"
+              loading="eager"
+              decoding="async"
               onerror="this.classList.add('error'); this.nextElementSibling.style.display='flex';">
             <div class="demo-pdf-placeholder" style="display: none;">
               <div class="demo-pdf-placeholder-icon">📄</div>
@@ -2330,35 +2332,93 @@
       }
     });
     
-    // PDF.js Configuration
+    // PDF.js Configuration - Initialize immediately
     if (typeof pdfjsLib !== 'undefined') {
       pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js';
     }
     
-    // Generate PDF Thumbnail from PDF URL
+    // Thumbnail Cache - Store generated thumbnails in localStorage for instant loading
+    const THUMBNAIL_CACHE_PREFIX = 'pdf_thumbnail_';
+    const THUMBNAIL_CACHE_VERSION = '1.0'; // Increment to invalidate cache
+    
+    // Get cached thumbnail
+    function getCachedThumbnail(pdfUrl) {
+      try {
+        const cacheKey = THUMBNAIL_CACHE_PREFIX + btoa(pdfUrl).replace(/[^a-zA-Z0-9]/g, '');
+        const cached = localStorage.getItem(cacheKey);
+        if (cached) {
+          const data = JSON.parse(cached);
+          if (data.version === THUMBNAIL_CACHE_VERSION && data.thumbnail) {
+            return data.thumbnail;
+          }
+        }
+      } catch (e) {
+        console.warn('Error reading thumbnail cache:', e);
+      }
+      return null;
+    }
+    
+    // Cache thumbnail
+    function cacheThumbnail(pdfUrl, thumbnailDataUrl) {
+      try {
+        const cacheKey = THUMBNAIL_CACHE_PREFIX + btoa(pdfUrl).replace(/[^a-zA-Z0-9]/g, '');
+        localStorage.setItem(cacheKey, JSON.stringify({
+          version: THUMBNAIL_CACHE_VERSION,
+          thumbnail: thumbnailDataUrl,
+          timestamp: Date.now()
+        }));
+      } catch (e) {
+        console.warn('Error caching thumbnail (storage full?):', e);
+        // Try to clear old cache entries
+        try {
+          const keys = Object.keys(localStorage);
+          keys.filter(k => k.startsWith(THUMBNAIL_CACHE_PREFIX)).forEach(k => {
+            const data = JSON.parse(localStorage.getItem(k));
+            if (data && Date.now() - data.timestamp > 7 * 24 * 60 * 60 * 1000) { // 7 days
+              localStorage.removeItem(k);
+            }
+          });
+        } catch (e2) {
+          // Ignore cleanup errors
+        }
+      }
+    }
+    
+    // Generate PDF Thumbnail from PDF URL with caching
     async function generatePDFThumbnail(pdfUrl, imgElementId, maxHeight = 180) {
+      const imgElement = document.getElementById(imgElementId);
+      if (!imgElement) return false;
+      
+      // Check cache first - INSTANT LOADING
+      const cachedThumbnail = getCachedThumbnail(pdfUrl);
+      if (cachedThumbnail) {
+        imgElement.src = cachedThumbnail;
+        imgElement.classList.remove('loading');
+        imgElement.style.display = 'block';
+        return true;
+      }
+      
+      // If not cached, generate it
       try {
         // Check if PDF.js is available
         if (typeof pdfjsLib === 'undefined') {
           console.warn('PDF.js not loaded, using fallback');
-          const imgElement = document.getElementById(imgElementId);
-          if (imgElement) {
-            imgElement.classList.add('error');
-            const placeholder = imgElement.nextElementSibling;
-            if (placeholder && placeholder.classList.contains('demo-pdf-placeholder')) {
-              placeholder.style.display = 'flex';
-            }
+          imgElement.classList.add('error');
+          const placeholder = imgElement.nextElementSibling;
+          if (placeholder && placeholder.classList.contains('demo-pdf-placeholder')) {
+            placeholder.style.display = 'flex';
           }
           return false;
         }
         
-        const imgElement = document.getElementById(imgElementId);
-        if (!imgElement) return false;
-        
-        // Load PDF
+        // Load PDF with optimized settings
         const loadingTask = pdfjsLib.getDocument({
           url: pdfUrl,
-          withCredentials: false
+          withCredentials: false,
+          disableAutoFetch: false,
+          disableStream: false,
+          disableRange: false,
+          verbosity: 0 // No console spam
         });
         
         const pdf = await loadingTask.promise;
@@ -2377,7 +2437,7 @@
         canvas.height = scaledViewport.height;
         canvas.width = scaledViewport.width;
         
-        // Render PDF page to canvas
+        // Render PDF page to canvas with optimized settings
         const renderContext = {
           canvasContext: context,
           viewport: scaledViewport
@@ -2385,8 +2445,13 @@
         
         await page.render(renderContext).promise;
         
-        // Convert canvas to image and set as thumbnail
-        const imageDataUrl = canvas.toDataURL('image/png');
+        // Convert canvas to image (use JPEG for smaller size, faster loading)
+        const imageDataUrl = canvas.toDataURL('image/jpeg', 0.85);
+        
+        // Cache the thumbnail for next time
+        cacheThumbnail(pdfUrl, imageDataUrl);
+        
+        // Set thumbnail immediately
         imgElement.src = imageDataUrl;
         imgElement.classList.remove('loading');
         imgElement.style.display = 'block';
@@ -2394,65 +2459,99 @@
         return true;
       } catch (error) {
         console.error('Error generating PDF thumbnail:', error);
-        const imgElement = document.getElementById(imgElementId);
-        if (imgElement) {
-          imgElement.classList.add('error');
-          imgElement.style.display = 'none';
-          // Show placeholder
-          const placeholder = imgElement.nextElementSibling;
-          if (placeholder && placeholder.classList.contains('demo-pdf-placeholder')) {
-            placeholder.style.display = 'flex';
-          }
+        imgElement.classList.add('error');
+        imgElement.style.display = 'none';
+        // Show placeholder
+        const placeholder = imgElement.nextElementSibling;
+        if (placeholder && placeholder.classList.contains('demo-pdf-placeholder')) {
+          placeholder.style.display = 'flex';
         }
         return false;
       }
     }
     
-    // Load PDF thumbnails when page loads
+    // Load PDF thumbnails - optimized for speed
     function loadPDFThumbnails() {
-      // Generate thumbnail for rechnung-3.pdf
+      // Load thumbnails in parallel for faster loading
       const thumbnail3 = document.getElementById('pdf-thumbnail-3');
+      const thumbnail4 = document.getElementById('pdf-thumbnail-4');
+      
+      const promises = [];
+      
       if (thumbnail3 && thumbnail3.dataset.pdfUrl) {
-        generatePDFThumbnail(thumbnail3.dataset.pdfUrl, 'pdf-thumbnail-3', 180);
+        promises.push(generatePDFThumbnail(thumbnail3.dataset.pdfUrl, 'pdf-thumbnail-3', 180));
       }
       
-      // Generate thumbnail for rechnung-4.pdf
-      const thumbnail4 = document.getElementById('pdf-thumbnail-4');
       if (thumbnail4 && thumbnail4.dataset.pdfUrl) {
-        generatePDFThumbnail(thumbnail4.dataset.pdfUrl, 'pdf-thumbnail-4', 180);
+        promises.push(generatePDFThumbnail(thumbnail4.dataset.pdfUrl, 'pdf-thumbnail-4', 180));
+      }
+      
+      // Don't wait for all, let them load in parallel
+      Promise.all(promises).catch(err => {
+        console.error('Error loading PDF thumbnails:', err);
+      });
+    }
+    
+    // Initialize PDF.js worker as soon as possible (before DOMContentLoaded)
+    function initializePDFJS() {
+      if (typeof pdfjsLib !== 'undefined') {
+        pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js';
+        return true;
+      }
+      return false;
+    }
+    
+    // Try to initialize immediately if PDF.js is already loaded
+    if (document.readyState === 'loading') {
+      // Script is loading, wait for it
+      document.addEventListener('DOMContentLoaded', () => {
+        if (initializePDFJS()) {
+          // Load thumbnails immediately if cached (instant), otherwise generate
+          loadPDFThumbnails();
+        } else {
+          // Retry if PDF.js loads later
+          let retries = 0;
+          const checkPDFJS = setInterval(() => {
+            retries++;
+            if (initializePDFJS()) {
+              clearInterval(checkPDFJS);
+              loadPDFThumbnails();
+            } else if (retries > 20) { // Increased retries for slower connections
+              clearInterval(checkPDFJS);
+              console.warn('PDF.js failed to load, thumbnails will not be generated');
+              // Show placeholders for all thumbnails
+              document.querySelectorAll('.demo-pdf-thumbnail').forEach(img => {
+                img.classList.add('error');
+                const placeholder = img.nextElementSibling;
+                if (placeholder && placeholder.classList.contains('demo-pdf-placeholder')) {
+                  placeholder.style.display = 'flex';
+                }
+              });
+            }
+          }, 100); // Check more frequently
+        }
+      });
+    } else {
+      // DOM already loaded, initialize immediately
+      if (initializePDFJS()) {
+        loadPDFThumbnails();
+      } else {
+        // Retry
+        let retries = 0;
+        const checkPDFJS = setInterval(() => {
+          retries++;
+          if (initializePDFJS()) {
+            clearInterval(checkPDFJS);
+            loadPDFThumbnails();
+          } else if (retries > 20) {
+            clearInterval(checkPDFJS);
+          }
+        }, 100);
       }
     }
     
     // Event Listeners
     document.addEventListener('DOMContentLoaded', () => {
-      // Load PDF thumbnails
-      if (typeof pdfjsLib !== 'undefined') {
-        // Wait a bit for PDF.js to fully initialize
-        setTimeout(loadPDFThumbnails, 500);
-      } else {
-        // Retry if PDF.js loads later
-        let retries = 0;
-        const checkPDFJS = setInterval(() => {
-          retries++;
-          if (typeof pdfjsLib !== 'undefined') {
-            clearInterval(checkPDFJS);
-            pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js';
-            loadPDFThumbnails();
-          } else if (retries > 10) {
-            clearInterval(checkPDFJS);
-            console.warn('PDF.js failed to load, thumbnails will not be generated');
-            // Show placeholders for all thumbnails
-            document.querySelectorAll('.demo-pdf-thumbnail').forEach(img => {
-              img.classList.add('error');
-              const placeholder = img.nextElementSibling;
-              if (placeholder && placeholder.classList.contains('demo-pdf-placeholder')) {
-                placeholder.style.display = 'flex';
-              }
-            });
-          }
-        }, 500);
-      }
-      
       // Demo invoice cards
       document.querySelectorAll('.demo-card-link[data-invoice-sample]').forEach(link => {
         link.addEventListener('click', async (e) => {
