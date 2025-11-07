@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-11-07T18:31:42.630Z",
+  "lastUpdated": "2025-11-07T20:22:38.523Z",
   "news": [
+    {
+      "title": "Gemini-KI mit eigenen Daten: Google veröffentlicht \"File Search Tool\"",
+      "description": "Google erweitert die Gemini-API um ein Tool zur Dateisuche. Damit lassen sich eigene Dokumente inklusive Quellenangaben direkt in KI-Antworten einbinden.\nDer Artikel Gemini-KI mit eigenen Daten: Googl",
+      "link": "https://the-decoder.de/gemini-ki-mit-eigenen-daten-google-veroeffentlicht-file-search-tool/",
+      "date": "2025-11-07T19:41:35.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Moonshot AI stellt Kimi K2 Thinking als \"bestes Open-Source-Thinking-Modell\" vor",
       "description": "Das chinesische KI-Unternehmen Moonshot AI hat mit Kimi K2 Thinking ein neues Open-Source-Sprachmodell vorgestellt, das nach eigenen Angaben das „beste Open-Source-Thinking-Modell“ sein soll. Beeindru",
@@ -78,15 +87,6 @@
       "description": "Google Cloud kündigt die allgemeine Verfügbarkeit seiner siebten TPU-Generation Ironwood für das Training und die Ausführung großer KI-Modelle an.\nDer Artikel Googles KI-Chips TPU v7 jetzt allgemein v",
       "link": "https://the-decoder.de/googles-ki-chips-tpu-v7-jetzt-allgemein-verfuegbar/",
       "date": "2025-11-06T21:04:16.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Sam Altman verteidigt OpenAIs 1,4-Billionen-Wette nach Bubble-Kritik",
-      "description": "OpenAI plant Investitionen in Billionenhöhe für die Recheninfrastruktur – und das bei vergleichsweise geringen 20 Milliarden ARR. OpenAI-CEO Sam Altman rechtfertigt diese Pläne in einem langen Beitrag",
-      "link": "https://the-decoder.de/sam-altman-verteidigt-openais-14-billionen-wette-nach-bubble-kritik/",
-      "date": "2025-11-06T20:19:30.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
