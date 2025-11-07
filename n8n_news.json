@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2025-11-07T10:25:08.571Z",
+  "lastUpdated": "2025-11-07T12:45:39.029Z",
   "news": [
+    {
+      "title": "\"Teen Safety Blueprint\": OpenAI führt Jugendschutz-Regeln ein",
+      "description": "OpenAI will mit einem „Teen Safety Blueprint“ festlegen, wie KI-Systeme Jugendliche besser schützen sollen. Die neuen Regeln kommen, nachdem ChatGPT in mehreren Fällen psychisch belastete Nutzer nicht",
+      "link": "https://the-decoder.de/teen-safety-blueprint-openai-fuehrt-jugendschutz-regeln-ein/",
+      "date": "2025-11-07T11:52:06.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Meta startet KI-Video-Feed \"Vibes\" in Europa",
+      "description": "Meta startet in Europa den KI-Video-Feed „Vibes“ in der Meta-AI-App.\nDer Artikel Meta startet KI-Video-Feed \"Vibes\" in Europa erschien zuerst auf The Decoder.",
+      "link": "https://the-decoder.de/meta-startet-ki-video-feed-vibes-in-europa/",
+      "date": "2025-11-07T10:56:03.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "US-Regierung blockiert Nvidias China-Chip, CEO warnt vor chinesischer KI-Dominanz",
       "description": "Die US-Regierung will den Verkauf eines neuen, abgespeckten KI-Chips von Nvidia nach China unterbinden. CEO Jensen Huang reagiert mit einer scharfen Warnung: China werde das KI-Rennen dank geringerer",
@@ -108,24 +126,6 @@
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
-    },
-    {
-      "title": "Gerichtsurteil: KI-Bildgenerator \"Stable Diffusion\" ist keine \"rechtsverletzende Kopie\"",
-      "description": "Der High Court in London hat die zentrale Urheberrechtsklage von Getty Images gegen Stability AI abgewiesen. Interessant ist das Urteil insbesondere wegen der klaren Feststellung zur sekundären Urhebe",
-      "link": "https://the-decoder.de/gerichtsurteil-ki-bildgenerator-stable-diffusion-ist-keine-rechtsverletzende-kopie/",
-      "date": "2025-11-05T19:25:13.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "KI-Rechenzentren könnten bald so viel Strom verbrauchen wie ein Drittel aller US-Haushalte",
-      "description": "Laut Barclays sollen KI-Rechenzentren großer Tech-Konzerne wie OpenAI, Meta und Amazon bis zu 46 Gigawatt Leistung benötigen. Das sei genug Strom für rund 44 Millionen US-Haushalte - oder etwa ein Dri",
-      "link": "https://the-decoder.de/ki-rechenzentren-koennten-bald-so-viel-strom-verbrauchen-wie-ein-drittel-aller-us-haushalte/",
-      "date": "2025-11-05T15:53:12.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
     },
     {
       "title": "Forecasting the future of forests with AI: From counting losses to predicting risk",
