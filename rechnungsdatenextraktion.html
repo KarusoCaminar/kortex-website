@@ -372,7 +372,8 @@
     .invoice-preview-card {
       display: flex;
       flex-direction: column;
-      height: auto;
+      height: 100%;
+      min-height: 600px;
       max-height: calc(100vh - 150px);
       overflow: hidden;
       padding: 0;
@@ -430,6 +431,7 @@
       align-items: stretch;
       flex: 1;
       min-height: 0;
+      overflow: hidden;
     }
     
     .pdf-preview-container {
@@ -442,7 +444,24 @@
       border: 1px solid rgba(148, 163, 184, 0.2);
       /* DIN A4 Aspect Ratio: 210mm x 297mm = 1:1.414 */
       aspect-ratio: 210 / 297;
-      min-height: 600px;
+      height: 100%;
+      max-height: calc(100vh - 250px);
+      /* Hide scrollbars */
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+    }
+    
+    .pdf-preview-container::-webkit-scrollbar {
+      display: none;
+    }
+    
+    .pdf-preview-container * {
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+    }
+    
+    .pdf-preview-container *::-webkit-scrollbar {
+      display: none;
     }
     
     .pdf-loading-indicator {
@@ -561,6 +580,21 @@
       }
     }
     
+    /* Demo PDF Preview Styles */
+    .demo-pdf-preview {
+      position: relative;
+      width: 100%;
+    }
+    
+    .demo-pdf-iframe {
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+    }
+    
+    .demo-pdf-iframe::-webkit-scrollbar {
+      display: none;
+    }
+    
     /* Mobile: Show fallback link */
     @media (max-width: 768px) {
       .pdf-object,
@@ -572,6 +606,17 @@
       /* .pdf-fallback {
         display: block;
       } */
+      
+      /* Demo PDF Preview - größere Höhe auf Mobile */
+      .demo-pdf-preview {
+        min-height: 250px;
+        padding: 1.5rem;
+      }
+      
+      .demo-pdf-iframe {
+        height: 250px !important;
+        min-height: 250px !important;
+      }
     }
     
     .invoice-line-items-container {
@@ -755,13 +800,14 @@
       
       .invoice-preview-card {
         min-height: 500px;
-        height: auto;
+        height: 100%;
         max-height: 80vh;
       }
       
       .pdf-preview-container {
-        min-height: 500px;
+        height: 100%;
         max-height: calc(80vh - 100px);
+        aspect-ratio: 210 / 297;
       }
       
       .invoice-preview img {
@@ -807,12 +853,28 @@
       }
       
       .invoice-preview-card {
+        min-height: 400px;
         max-height: 75vh;
+        height: auto;
+      }
+      
+      .invoice-preview-wrapper {
+        padding: 1rem;
       }
       
       .pdf-preview-container {
-        min-height: 400px;
+        height: 60vh;
+        max-height: calc(100vh - 150px);
         aspect-ratio: 210 / 297;
+        min-height: 400px;
+        width: 100%;
+      }
+      
+      /* Ensure PDF is visible on mobile */
+      .pdf-object,
+      .pdf-iframe {
+        width: 100% !important;
+        height: 100% !important;
       }
       
       .invoice-line-items th,
@@ -1171,10 +1233,11 @@
       <!-- Demo Invoice 3 -->
       <a href="#" class="demo-card-link" data-invoice-sample="3">
         <div class="demo-card">
-          <div style="text-align: center; padding: 2rem; background: rgba(96, 165, 250, 0.1); border-radius: 12px; margin-bottom: 1rem; min-height: 200px; display: flex; flex-direction: column; align-items: center; justify-content: center;">
+          <div class="demo-pdf-preview" style="text-align: center; padding: 2rem; background: rgba(96, 165, 250, 0.1); border-radius: 12px; margin-bottom: 1rem; min-height: 200px; display: flex; flex-direction: column; align-items: center; justify-content: center;">
             <iframe 
-              src="https://koretex-invoice-db.onrender.com/samples/rechnung-3.pdf#toolbar=0&view=FitH" 
-              style="width: 100%; height: 180px; border: 2px solid rgba(148, 163, 184, 0.3); border-radius: 8px; background: white;"
+              src="https://koretex-invoice-db.onrender.com/samples/rechnung-3.pdf#toolbar=0&navpanes=0&scrollbar=0&view=FitH" 
+              class="demo-pdf-iframe"
+              style="width: 100%; height: 180px; min-height: 180px; border: 2px solid rgba(148, 163, 184, 0.3); border-radius: 8px; background: white;"
               onerror="this.style.display='none'; this.parentElement.innerHTML='<span style=\'font-size: 3rem;\'>📄</span><p style=\'margin-top: 0.5rem; color: #60a5fa; font-weight: 600;\'>PDF Rechnung</p>';">
             </iframe>
             <p style="margin-top: 0.5rem; color: #60a5fa; font-weight: 600; font-size: 0.9rem;">PDF Rechnung</p>
@@ -1193,10 +1256,11 @@
       <!-- Demo Invoice 4 -->
       <a href="#" class="demo-card-link" data-invoice-sample="4">
         <div class="demo-card">
-          <div style="text-align: center; padding: 2rem; background: rgba(96, 165, 250, 0.1); border-radius: 12px; margin-bottom: 1rem; min-height: 200px; display: flex; flex-direction: column; align-items: center; justify-content: center;">
+          <div class="demo-pdf-preview" style="text-align: center; padding: 2rem; background: rgba(96, 165, 250, 0.1); border-radius: 12px; margin-bottom: 1rem; min-height: 200px; display: flex; flex-direction: column; align-items: center; justify-content: center;">
             <iframe 
-              src="https://koretex-invoice-db.onrender.com/samples/rechnung-4.pdf#toolbar=0&view=FitH" 
-              style="width: 100%; height: 180px; border: 2px solid rgba(148, 163, 184, 0.3); border-radius: 8px; background: white;"
+              src="https://koretex-invoice-db.onrender.com/samples/rechnung-4.pdf#toolbar=0&navpanes=0&scrollbar=0&view=FitH" 
+              class="demo-pdf-iframe"
+              style="width: 100%; height: 180px; min-height: 180px; border: 2px solid rgba(148, 163, 184, 0.3); border-radius: 8px; background: white;"
               onerror="this.style.display='none'; this.parentElement.innerHTML='<span style=\'font-size: 3rem;\'>📄</span><p style=\'margin-top: 0.5rem; color: #60a5fa; font-weight: 600;\'>PDF Rechnung</p>';">
             </iframe>
             <p style="margin-top: 0.5rem; color: #60a5fa; font-weight: 600; font-size: 0.9rem;">PDF Rechnung</p>
@@ -2026,8 +2090,8 @@
                         <div class="pdf-loading-spinner"></div>
                         <p>PDF wird geladen...</p>
                       </div>
-                      <object data="${escapeHtml(invoice.fileData)}#toolbar=0&navpanes=0&scrollbar=1&view=Fit&zoom=page-fit" type="application/pdf" class="invoice-preview pdf-object" title="Rechnungsvorschau" loading="eager">
-                        <iframe src="${escapeHtml(invoice.fileData)}#toolbar=0&navpanes=0&scrollbar=1&view=Fit&zoom=page-fit" class="invoice-preview pdf-iframe" title="Rechnungsvorschau" loading="eager"></iframe>
+                      <object data="${escapeHtml(invoice.fileData)}#toolbar=0&navpanes=0&scrollbar=0&view=FitV&zoom=page-width" type="application/pdf" class="invoice-preview pdf-object" title="Rechnungsvorschau" loading="eager">
+                        <iframe src="${escapeHtml(invoice.fileData)}#toolbar=0&navpanes=0&scrollbar=0&view=FitV&zoom=page-width" class="invoice-preview pdf-iframe" title="Rechnungsvorschau" loading="eager"></iframe>
                       </object>
                       <!-- Fallback: Direct link to PDF -->
                       <div class="pdf-fallback">
