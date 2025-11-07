@@ -439,29 +439,51 @@
       position: relative;
       background: #ffffff;
       border-radius: 8px;
-      overflow: hidden;
+      overflow: hidden !important;
       box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
       border: 1px solid rgba(148, 163, 184, 0.2);
       /* DIN A4 Aspect Ratio: 210mm x 297mm = 1:1.414 */
       aspect-ratio: 210 / 297;
       height: 100%;
       max-height: calc(100vh - 250px);
-      /* Hide scrollbars */
-      -ms-overflow-style: none;
-      scrollbar-width: none;
+      /* Completely hide all scrollbars */
+      -ms-overflow-style: none !important;
+      scrollbar-width: none !important;
     }
     
     .pdf-preview-container::-webkit-scrollbar {
-      display: none;
+      display: none !important;
+      width: 0 !important;
+      height: 0 !important;
     }
     
     .pdf-preview-container * {
-      -ms-overflow-style: none;
-      scrollbar-width: none;
+      -ms-overflow-style: none !important;
+      scrollbar-width: none !important;
+      overflow: hidden !important;
     }
     
     .pdf-preview-container *::-webkit-scrollbar {
-      display: none;
+      display: none !important;
+      width: 0 !important;
+      height: 0 !important;
+    }
+    
+    /* Hide scrollbars in embedded PDF viewers */
+    .pdf-preview-container embed,
+    .pdf-preview-container iframe,
+    .pdf-preview-container object {
+      overflow: hidden !important;
+      -ms-overflow-style: none !important;
+      scrollbar-width: none !important;
+    }
+    
+    .pdf-preview-container embed::-webkit-scrollbar,
+    .pdf-preview-container iframe::-webkit-scrollbar,
+    .pdf-preview-container object::-webkit-scrollbar {
+      display: none !important;
+      width: 0 !important;
+      height: 0 !important;
     }
     
     .pdf-loading-indicator {
@@ -514,6 +536,16 @@
       padding: 0;
       opacity: 0;
       transition: opacity 0.3s ease;
+      overflow: hidden !important;
+      /* Force hide scrollbars in PDF viewer */
+      -ms-overflow-style: none !important;
+      scrollbar-width: none !important;
+    }
+    
+    .pdf-object::-webkit-scrollbar {
+      display: none !important;
+      width: 0 !important;
+      height: 0 !important;
     }
     
     .pdf-object.loaded {
@@ -527,6 +559,16 @@
       border: none;
       margin: 0;
       padding: 0;
+      overflow: hidden !important;
+      /* Force hide scrollbars in PDF viewer */
+      -ms-overflow-style: none !important;
+      scrollbar-width: none !important;
+    }
+    
+    .pdf-iframe::-webkit-scrollbar {
+      display: none !important;
+      width: 0 !important;
+      height: 0 !important;
     }
     
     /* If object tag not supported, show iframe */
@@ -868,6 +910,7 @@
         aspect-ratio: 210 / 297;
         min-height: 400px;
         width: 100%;
+        overflow: hidden !important;
       }
       
       /* Ensure PDF is visible on mobile */
@@ -875,6 +918,16 @@
       .pdf-iframe {
         width: 100% !important;
         height: 100% !important;
+        overflow: hidden !important;
+        -ms-overflow-style: none !important;
+        scrollbar-width: none !important;
+      }
+      
+      .pdf-object::-webkit-scrollbar,
+      .pdf-iframe::-webkit-scrollbar {
+        display: none !important;
+        width: 0 !important;
+        height: 0 !important;
       }
       
       .invoice-line-items th,
@@ -1235,9 +1288,10 @@
         <div class="demo-card">
           <div class="demo-pdf-preview" style="text-align: center; padding: 2rem; background: rgba(96, 165, 250, 0.1); border-radius: 12px; margin-bottom: 1rem; min-height: 200px; display: flex; flex-direction: column; align-items: center; justify-content: center;">
             <iframe 
-              src="https://koretex-invoice-db.onrender.com/samples/rechnung-3.pdf#toolbar=0&navpanes=0&scrollbar=0&view=FitH" 
+              src="https://koretex-invoice-db.onrender.com/samples/rechnung-3.pdf#toolbar=0&navpanes=0&scrollbar=0&view=Fit" 
               class="demo-pdf-iframe"
-              style="width: 100%; height: 180px; min-height: 180px; border: 2px solid rgba(148, 163, 184, 0.3); border-radius: 8px; background: white;"
+              style="width: 100%; height: 180px; min-height: 180px; border: 2px solid rgba(148, 163, 184, 0.3); border-radius: 8px; background: white; overflow: hidden;"
+              scrolling="no"
               onerror="this.style.display='none'; this.parentElement.innerHTML='<span style=\'font-size: 3rem;\'>📄</span><p style=\'margin-top: 0.5rem; color: #60a5fa; font-weight: 600;\'>PDF Rechnung</p>';">
             </iframe>
             <p style="margin-top: 0.5rem; color: #60a5fa; font-weight: 600; font-size: 0.9rem;">PDF Rechnung</p>
@@ -1258,9 +1312,10 @@
         <div class="demo-card">
           <div class="demo-pdf-preview" style="text-align: center; padding: 2rem; background: rgba(96, 165, 250, 0.1); border-radius: 12px; margin-bottom: 1rem; min-height: 200px; display: flex; flex-direction: column; align-items: center; justify-content: center;">
             <iframe 
-              src="https://koretex-invoice-db.onrender.com/samples/rechnung-4.pdf#toolbar=0&navpanes=0&scrollbar=0&view=FitH" 
+              src="https://koretex-invoice-db.onrender.com/samples/rechnung-4.pdf#toolbar=0&navpanes=0&scrollbar=0&view=Fit" 
               class="demo-pdf-iframe"
-              style="width: 100%; height: 180px; min-height: 180px; border: 2px solid rgba(148, 163, 184, 0.3); border-radius: 8px; background: white;"
+              style="width: 100%; height: 180px; min-height: 180px; border: 2px solid rgba(148, 163, 184, 0.3); border-radius: 8px; background: white; overflow: hidden;"
+              scrolling="no"
               onerror="this.style.display='none'; this.parentElement.innerHTML='<span style=\'font-size: 3rem;\'>📄</span><p style=\'margin-top: 0.5rem; color: #60a5fa; font-weight: 600;\'>PDF Rechnung</p>';">
             </iframe>
             <p style="margin-top: 0.5rem; color: #60a5fa; font-weight: 600; font-size: 0.9rem;">PDF Rechnung</p>
@@ -2090,8 +2145,8 @@
                         <div class="pdf-loading-spinner"></div>
                         <p>PDF wird geladen...</p>
                       </div>
-                      <object data="${escapeHtml(invoice.fileData)}#toolbar=0&navpanes=0&scrollbar=0&view=FitV&zoom=page-width" type="application/pdf" class="invoice-preview pdf-object" title="Rechnungsvorschau" loading="eager">
-                        <iframe src="${escapeHtml(invoice.fileData)}#toolbar=0&navpanes=0&scrollbar=0&view=FitV&zoom=page-width" class="invoice-preview pdf-iframe" title="Rechnungsvorschau" loading="eager"></iframe>
+                      <object data="${escapeHtml(invoice.fileData)}#toolbar=0&navpanes=0&scrollbar=0&view=Fit" type="application/pdf" class="invoice-preview pdf-object" title="Rechnungsvorschau" loading="eager">
+                        <iframe src="${escapeHtml(invoice.fileData)}#toolbar=0&navpanes=0&scrollbar=0&view=Fit" class="invoice-preview pdf-iframe" title="Rechnungsvorschau" loading="eager" scrolling="no"></iframe>
                       </object>
                       <!-- Fallback: Direct link to PDF -->
                       <div class="pdf-fallback">
@@ -2113,11 +2168,38 @@
       modal.classList.add('active');
       document.body.style.overflow = 'hidden';
       
-      // Optimize PDF loading - hide loading indicator when PDF is ready
+      // Optimize PDF loading - hide loading indicator and scrollbars when PDF is ready
       setTimeout(() => {
         const pdfObject = body.querySelector('.pdf-object');
         const pdfIframe = body.querySelector('.pdf-iframe');
         const loadingIndicator = body.querySelector('.pdf-loading-indicator');
+        const pdfContainer = body.querySelector('.pdf-preview-container');
+        
+        // Function to hide scrollbars forcefully
+        const hideScrollbars = () => {
+          if (pdfObject) {
+            pdfObject.style.overflow = 'hidden';
+            pdfObject.setAttribute('style', pdfObject.getAttribute('style') + '; overflow: hidden !important;');
+          }
+          if (pdfIframe) {
+            pdfIframe.style.overflow = 'hidden';
+            pdfIframe.setAttribute('scrolling', 'no');
+            pdfIframe.setAttribute('style', pdfIframe.getAttribute('style') + '; overflow: hidden !important;');
+          }
+          if (pdfContainer) {
+            pdfContainer.style.overflow = 'hidden';
+            // Try to hide scrollbars in embedded content
+            try {
+              if (pdfIframe && pdfIframe.contentDocument) {
+                const iframeDoc = pdfIframe.contentDocument;
+                iframeDoc.body.style.overflow = 'hidden';
+                iframeDoc.documentElement.style.overflow = 'hidden';
+              }
+            } catch (e) {
+              // Cross-origin, can't access iframe content
+            }
+          }
+        };
         
         if (pdfObject || pdfIframe) {
           const element = pdfObject || pdfIframe;
@@ -2128,12 +2210,22 @@
               element.classList.add('loaded');
               element.style.opacity = '1';
             }
+            
+            // Hide scrollbars after PDF loads
+            hideScrollbars();
+            
+            // Continue trying to hide scrollbars (PDF viewers sometimes add them later)
+            setInterval(hideScrollbars, 500);
+            
             if (loadingIndicator) {
               setTimeout(() => {
                 loadingIndicator.classList.add('hidden');
               }, 300);
             }
           };
+          
+          // Hide scrollbars immediately
+          hideScrollbars();
           
           // For iframe - listen to load event
           if (pdfIframe) {
