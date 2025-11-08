@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-11-08T16:25:30.380Z",
+  "lastUpdated": "2025-11-08T18:29:21.312Z",
   "news": [
+    {
+      "title": "Der „Charakter“ von GPT-4o kommt nicht zurück, weil er zufällig entstanden ist",
+      "description": "Ein als \"Roon\" auf X bekannter OpenAI-Entwickler erklärt, warum der \"Charakter\" eines LLMs nicht reproduzierbar ist.\nDer Artikel Der „Charakter“ von GPT-4o kommt nicht zurück, weil er zufällig entstan",
+      "link": "https://the-decoder.de/der-charakter-von-gpt-4o-kommt-nicht-zurueck-weil-er-zufaellig-entstanden-ist/",
+      "date": "2025-11-08T17:54:31.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Studie deckt massive Schwächen in KI-Benchmarks auf",
       "description": "Ein internationales Forschungsteam hat die Validität von Large-Language-Model-Benchmarks systematisch untersucht und dabei erhebliche Mängel aufgedeckt. Die Analyse von 445 Benchmark-Artikeln aus führ",
@@ -60,15 +69,6 @@
       "description": "KI-Elefantenrunde bei der Verleihung des Queen Elizabeth Prize 2025: Sechs führende Köpfe der KI-Forschung – Bill Dally, Yoshua Bengio, Fei-Fei Li, Yann LeCun, Jeff Hinton und Nvidia-CEO Jensen Huang",
       "link": "https://the-decoder.de/sechs-ki-pioniere-sprechen-ueber-ki-durchbrueche-und-ueberhoehte-erwartungen/",
       "date": "2025-11-07T16:54:52.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Nvidia will das Datenproblem in der Robotik in ein Rechenproblem verwandeln",
-      "description": "Nvidia setzt auf synthetische Daten, um die größte Hürde der Robotik zu überwinden: den Mangel an Trainingsdaten.\nDer Artikel Nvidia will das Datenproblem in der Robotik in ein Rechenproblem verwandel",
-      "link": "https://the-decoder.de/nvidia-will-das-datenproblem-in-der-robotik-in-ein-rechenproblem-verwandeln/",
-      "date": "2025-11-07T13:02:18.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
