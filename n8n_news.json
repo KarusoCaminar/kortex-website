@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-11-08T18:29:21.312Z",
+  "lastUpdated": "2025-11-08T20:21:33.057Z",
   "news": [
+    {
+      "title": "Tech-Konzerne nehmen für KI-Ausbau Rekordschulden auf",
+      "description": "Technologiekonzerne wie Google, Meta, Microsoft und Amazon geben aktuell enorme Summen für den Ausbau ihrer KI-Infrastruktur aus. Die Bank of England warnt: „Das ist ein sich schnell entwickelndes The",
+      "link": "https://the-decoder.de/tech-konzerne-nehmen-fuer-ki-ausbau-rekordschulden-auf/",
+      "date": "2025-11-08T19:56:08.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Der „Charakter“ von GPT-4o kommt nicht zurück, weil er zufällig entstanden ist",
       "description": "Ein als \"Roon\" auf X bekannter OpenAI-Entwickler erklärt, warum der \"Charakter\" eines LLMs nicht reproduzierbar ist.\nDer Artikel Der „Charakter“ von GPT-4o kommt nicht zurück, weil er zufällig entstan",
@@ -60,15 +69,6 @@
       "description": "KI-Werkzeuge wie ChatGPT und Copilot wollen unseren Büroalltag verändern: Aufgaben, die früher Stunden in Anspruch nahmen, sollen heute in wenigen Minuten erledigt werden können.\nDer Artikel KI PRO We",
       "link": "https://the-decoder.de/ki-pro-webinar-ki-im-buero-excel-praesentationen-und-e-mails-mit-ki-erstellen/",
       "date": "2025-11-07T17:28:55.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Sechs KI-Pioniere sprechen über KI-Durchbrüche und überhöhte Erwartungen",
-      "description": "KI-Elefantenrunde bei der Verleihung des Queen Elizabeth Prize 2025: Sechs führende Köpfe der KI-Forschung – Bill Dally, Yoshua Bengio, Fei-Fei Li, Yann LeCun, Jeff Hinton und Nvidia-CEO Jensen Huang",
-      "link": "https://the-decoder.de/sechs-ki-pioniere-sprechen-ueber-ki-durchbrueche-und-ueberhoehte-erwartungen/",
-      "date": "2025-11-07T16:54:52.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
