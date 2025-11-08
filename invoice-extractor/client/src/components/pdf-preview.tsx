@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { Document, Page, pdfjs } from 'react-pdf';
 import { FileText, ChevronLeft, ChevronRight, ZoomIn, ZoomOut } from 'lucide-react';
 import { Button } from '@/components/ui/button';
@@ -19,6 +19,18 @@ export function PDFPreview({ fileData, fileName, className = '' }: PDFPreviewPro
   const [pageNumber, setPageNumber] = useState<number>(1);
   const [scale, setScale] = useState<number>(1.0);
   const [error, setError] = useState<boolean>(false);
+  const [containerWidth, setContainerWidth] = useState<number>(800);
+
+  useEffect(() => {
+    if (typeof window === 'undefined') return;
+    
+    const updateWidth = () => {
+      setContainerWidth(Math.min(window.innerWidth - 80, 800));
+    };
+    updateWidth();
+    window.addEventListener('resize', updateWidth);
+    return () => window.removeEventListener('resize', updateWidth);
+  }, []);
 
   function onDocumentLoadSuccess({ numPages }: { numPages: number }) {
     setNumPages(numPages);
@@ -66,7 +78,7 @@ export function PDFPreview({ fileData, fileName, className = '' }: PDFPreviewPro
   }
 
   return (
-    <div className={`space-y-4 ${className}`}>
+    <div className={`space-y-4 w-full max-w-full ${className}`}>
       <div className="flex items-center justify-between gap-2 flex-wrap">
         <div className="flex items-center gap-2">
           <Button
@@ -78,7 +90,7 @@ export function PDFPreview({ fileData, fileName, className = '' }: PDFPreviewPro
           >
             <ChevronLeft className="h-4 w-4" />
           </Button>
-          <span className="text-sm text-muted-foreground">
+          <span className="text-xs md:text-sm text-muted-foreground whitespace-nowrap">
             Seite {pageNumber} von {numPages || '...'}
           </span>
           <Button
@@ -102,7 +114,7 @@ export function PDFPreview({ fileData, fileName, className = '' }: PDFPreviewPro
           >
             <ZoomOut className="h-4 w-4" />
           </Button>
-          <span className="text-sm text-muted-foreground w-16 text-center">
+          <span className="text-xs md:text-sm text-muted-foreground w-12 md:w-16 text-center">
             {Math.round(scale * 100)}%
           </span>
           <Button
@@ -117,26 +129,29 @@ export function PDFPreview({ fileData, fileName, className = '' }: PDFPreviewPro
         </div>
       </div>
 
-      <div className="border rounded-lg overflow-auto bg-muted/30">
-        <div className="flex justify-center p-4">
-          <Document
-            file={fileData}
-            onLoadSuccess={onDocumentLoadSuccess}
-            onLoadError={onDocumentLoadError}
-            loading={
-              <div className="flex items-center justify-center h-96">
-                <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-primary"></div>
-              </div>
-            }
-          >
-            <Page
-              pageNumber={pageNumber}
-              scale={scale}
-              renderTextLayer={true}
-              renderAnnotationLayer={true}
-              className="shadow-lg"
-            />
-          </Document>
+      <div className="border rounded-lg overflow-x-auto overflow-y-auto bg-muted/30 max-w-full" style={{ maxWidth: '100%', WebkitOverflowScrolling: 'touch' }}>
+        <div className="flex justify-center p-2 md:p-4 min-w-0">
+          <div className="max-w-full overflow-hidden">
+            <Document
+              file={fileData}
+              onLoadSuccess={onDocumentLoadSuccess}
+              onLoadError={onDocumentLoadError}
+              loading={
+                <div className="flex items-center justify-center h-96">
+                  <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-primary"></div>
+                </div>
+              }
+            >
+              <Page
+                pageNumber={pageNumber}
+                scale={scale}
+                renderTextLayer={true}
+                renderAnnotationLayer={true}
+                className="shadow-lg max-w-full"
+                width={containerWidth}
+              />
+            </Document>
+          </div>
         </div>
       </div>
     </div>
