@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-11-08T08:26:51.664Z",
+  "lastUpdated": "2025-11-08T10:20:53.897Z",
   "news": [
+    {
+      "title": "OpenAI und die KI-Blase: Kritik an CEO Sam Altman wird lauter",
+      "description": "OpenAI plant Recheninfrastruktur im Billionenbereich, bei bislang \"nur\" rund 20 Milliarden US‑Dollar Jahresumsatz. Diese Diskrepanz und die Forderung nach staatlicher Beteiligung an der KI‑Infrastrukt",
+      "link": "https://the-decoder.de/openai-und-die-ki-blase-kritik-an-ceo-sam-altman-wird-lauter/",
+      "date": "2025-11-08T10:01:30.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Gemini-KI mit eigenen Daten: Google veröffentlicht \"File Search Tool\"",
       "description": "Google erweitert die Gemini-API um ein Tool zur Dateisuche. Damit lassen sich eigene Dokumente inklusive Quellenangaben direkt in KI-Antworten einbinden.\nDer Artikel Gemini-KI mit eigenen Daten: Googl",
@@ -87,15 +96,6 @@
       "description": "Die US-Regierung will den Verkauf eines neuen, abgespeckten KI-Chips von Nvidia nach China unterbinden. CEO Jensen Huang reagiert mit einer scharfen Warnung: China werde das KI-Rennen dank geringerer",
       "link": "https://the-decoder.de/us-regierung-blockiert-nvidias-china-chip-ceo-warnt-vor-chinesischer-ki-dominanz/",
       "date": "2025-11-07T09:17:35.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Googles KI-Chips TPU v7 jetzt allgemein verfügbar",
-      "description": "Google Cloud kündigt die allgemeine Verfügbarkeit seiner siebten TPU-Generation Ironwood für das Training und die Ausführung großer KI-Modelle an.\nDer Artikel Googles KI-Chips TPU v7 jetzt allgemein v",
-      "link": "https://the-decoder.de/googles-ki-chips-tpu-v7-jetzt-allgemein-verfuegbar/",
-      "date": "2025-11-06T21:04:16.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
