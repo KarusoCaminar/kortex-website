@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2025-11-08T10:20:53.897Z",
+  "lastUpdated": "2025-11-08T12:41:14.536Z",
   "news": [
+    {
+      "title": "Studie deckt massive Schwächen in KI-Benchmarks auf",
+      "description": "Ein internationales Forschungsteam hat die Validität von Large-Language-Model-Benchmarks systematisch untersucht und dabei erhebliche Mängel aufgedeckt. Die Analyse von 445 Benchmark-Artikeln aus führ",
+      "link": "https://the-decoder.de/studie-deckt-massive-schwaechen-in-ki-benchmarks-auf/",
+      "date": "2025-11-08T12:02:29.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "KI-System JanusCoder: Ein Modell für Text, Code und visuelle Ausgaben",
+      "description": "Ein internationales Forschungsteam hat mit JanusCoder eine neue Generation von KI-Modellen vorgestellt, die Code-Generierung und visuelle Ausgaben in einem einheitlichen System vereinen. Die Modelle s",
+      "link": "https://the-decoder.de/januscoder-soll-nicht-nur-funktional-sondern-auch-optisch-ansprechend-coden/",
+      "date": "2025-11-08T11:21:54.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "OpenAI und die KI-Blase: Kritik an CEO Sam Altman wird lauter",
       "description": "OpenAI plant Recheninfrastruktur im Billionenbereich, bei bislang \"nur\" rund 20 Milliarden US‑Dollar Jahresumsatz. Diese Diskrepanz und die Forderung nach staatlicher Beteiligung an der KI‑Infrastrukt",
@@ -56,15 +74,6 @@
       "language": "de"
     },
     {
-      "title": "\"Teen Safety Blueprint\": OpenAI führt Jugendschutz-Regeln ein",
-      "description": "OpenAI will mit einem \"Teen Safety Blueprint\" festlegen, wie KI-Systeme Jugendliche besser schützen sollen. Die neuen Regeln kommen, nachdem ChatGPT in mehreren Fällen psychisch belastete Nutzer nicht",
-      "link": "https://the-decoder.de/teen-safety-blueprint-openai-fuehrt-jugendschutz-regeln-ein/",
-      "date": "2025-11-07T11:52:06.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "Understanding prompt injections: a frontier security challenge",
       "description": "Prompt injections are a frontier security challenge for AI systems. Learn how these attacks work and how OpenAI is advancing research, training models, and building safeguards for users.",
       "link": "https://openai.com/index/prompt-injections",
@@ -74,15 +83,6 @@
       "language": "en"
     },
     {
-      "title": "Meta startet KI-Video-Feed \"Vibes\" in Europa",
-      "description": "Meta startet in Europa den KI-Video-Feed „Vibes“ in der Meta-AI-App.\nDer Artikel Meta startet KI-Video-Feed \"Vibes\" in Europa erschien zuerst auf The Decoder.",
-      "link": "https://the-decoder.de/meta-startet-ki-video-feed-vibes-in-europa/",
-      "date": "2025-11-07T10:56:03.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "Notion’s rebuild for agentic AI: How GPT‑5 helped unlock autonomous workflows",
       "description": "Discover how Notion rebuilt its AI architecture with GPT-5 to create autonomous agents that reason, act, and adapt across workflows. Learn how this shift unlocked smarter, faster, and more flexible pr",
       "link": "https://openai.com/index/notion",
@@ -90,15 +90,6 @@
       "source": "OpenAI",
       "category": "workflow-tools",
       "language": "en"
-    },
-    {
-      "title": "US-Regierung blockiert Nvidias China-Chip, CEO warnt vor chinesischer KI-Dominanz",
-      "description": "Die US-Regierung will den Verkauf eines neuen, abgespeckten KI-Chips von Nvidia nach China unterbinden. CEO Jensen Huang reagiert mit einer scharfen Warnung: China werde das KI-Rennen dank geringerer",
-      "link": "https://the-decoder.de/us-regierung-blockiert-nvidias-china-chip-ceo-warnt-vor-chinesischer-ki-dominanz/",
-      "date": "2025-11-07T09:17:35.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
     },
     {
       "title": "From Pilot to Practice: How BBVA Is Scaling AI Across the Organization",
@@ -133,6 +124,15 @@
       "link": "https://openai.com/index/cred-swamy-seetharaman",
       "date": "2025-11-05T21:30:00.000Z",
       "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
+      "title": "Forecasting the future of forests with AI: From counting losses to predicting risk",
+      "description": "Climate & Sustainability",
+      "link": "https://research.google/blog/forecasting-the-future-of-forests-with-ai-from-counting-losses-to-predicting-risk/",
+      "date": "2025-11-05T15:41:00.000Z",
+      "source": "Google AI",
       "category": "große-modelle",
       "language": "en"
     }
