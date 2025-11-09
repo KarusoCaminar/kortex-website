@@ -1,6 +1,33 @@
 {
-  "lastUpdated": "2025-11-09T10:20:27.928Z",
+  "lastUpdated": "2025-11-09T12:40:55.697Z",
   "news": [
+    {
+      "title": "Münchner Studio sieht Filmbranche durch neue KI-Tools im Wandel",
+      "description": "Storybook Studios arbeitet an der Schnittstelle zwischen traditioneller Filmproduktion und KI-Innovation. Ihre Erfahrungen verdeutlichen: KI kann ein Werkzeug für kreatives Schaffen sein, mit ganz neu",
+      "link": "https://the-decoder.de/muenchner-studio-sieht-filmbranche-durch-neue-ki-tools-im-wandel/",
+      "date": "2025-11-09T12:15:19.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "OpenAI: Öffentlichkeit unterschätzt KI-Fortschritt massiv",
+      "description": "Laut OpenAI sind eure Aufgaben zu banal, um den KI-Fortschritt noch zu bemerken.\nDer Artikel OpenAI: Öffentlichkeit unterschätzt KI-Fortschritt massiv erschien zuerst auf The Decoder.",
+      "link": "https://the-decoder.de/openai-oeffentlichkeit-unterschaetzt-ki-fortschritt-massiv/",
+      "date": "2025-11-09T11:43:47.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Ein Kinderbuch zeigt das Dilemma der kommerziellen Nutzung von KI-Bild-Generatoren",
+      "description": "Der Unternehmer Niels Hoven veröffentlichte ein Alphabetbuch mit fast 1000 KI-Illustrationen – aus seiner Sicht zu aufwendig für menschliche Künstler.\nDer Artikel Ein Kinderbuch zeigt das Dilemma der",
+      "link": "https://the-decoder.de/ein-kinderbuch-zeigt-das-dilemma-der-kommerziellen-nutzung-von-ki-bild-generatoren-47101-2/",
+      "date": "2025-11-09T11:13:12.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "KI-generierte OP-Videos: Optisch überzeugend, medizinisch katastrophal",
       "description": "Forschende haben Googles neueste Video-KI Veo 3 mit chirurgischen Aufnahmen getestet – und eine deutliche Kluft zwischen optischer Brillanz und medizinischem Verständnis festgestellt. Das System erzeu",
@@ -56,33 +83,6 @@
       "language": "de"
     },
     {
-      "title": "Gemini-KI mit eigenen Daten: Google veröffentlicht \"File Search Tool\"",
-      "description": "Google erweitert die Gemini-API um ein Tool zur Dateisuche. Damit lassen sich eigene Dokumente inklusive Quellenangaben direkt in KI-Antworten einbinden.\nDer Artikel Gemini-KI mit eigenen Daten: Googl",
-      "link": "https://the-decoder.de/gemini-ki-mit-eigenen-daten-google-veroeffentlicht-file-search-tool/",
-      "date": "2025-11-07T19:41:35.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Moonshot AI stellt Kimi K2 Thinking als \"bestes Open-Source-Thinking-Modell\" vor",
-      "description": "Das chinesische KI-Unternehmen Moonshot AI hat mit Kimi K2 Thinking ein neues Open-Source-Sprachmodell vorgestellt, das nach eigenen Angaben das „beste Open-Source-Thinking-Modell“ sein soll. Beeindru",
-      "link": "https://the-decoder.de/moonshot-ai-stellt-kimi-k2-thinking-als-bestes-open-source-thinking-modell-vor/",
-      "date": "2025-11-07T17:44:20.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "KI PRO Webinar | KI im Büro: Excel, Präsentationen und E-Mails mit KI erstellen",
-      "description": "KI-Werkzeuge wie ChatGPT und Copilot wollen unseren Büroalltag verändern: Aufgaben, die früher Stunden in Anspruch nahmen, sollen heute in wenigen Minuten erledigt werden können.\nDer Artikel KI PRO We",
-      "link": "https://the-decoder.de/ki-pro-webinar-ki-im-buero-excel-praesentationen-und-e-mails-mit-ki-erstellen/",
-      "date": "2025-11-07T17:28:55.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "Understanding prompt injections: a frontier security challenge",
       "description": "Prompt injections are a frontier security challenge for AI systems. Learn how these attacks work and how OpenAI is advancing research, training models, and building safeguards for users.",
       "link": "https://openai.com/index/prompt-injections",
@@ -110,18 +110,18 @@
       "language": "en"
     },
     {
-      "title": "AI progress and recommendations",
-      "description": "AI is advancing fast. We have the chance to shape its progress—toward discovery, safety, and a better future for everyone.",
-      "link": "https://openai.com/index/ai-progress-and-recommendations",
+      "title": "Introducing the Teen Safety Blueprint",
+      "description": "Discover OpenAI’s Teen Safety Blueprint—a roadmap for building AI responsibly with safeguards, age-appropriate design, and collaboration to protect and empower young people online.",
+      "link": "https://openai.com/index/introducing-the-teen-safety-blueprint",
       "date": "2025-11-06T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
     },
     {
-      "title": "Introducing the Teen Safety Blueprint",
-      "description": "Discover OpenAI’s Teen Safety Blueprint—a roadmap for building AI responsibly with safeguards, age-appropriate design, and collaboration to protect and empower young people online.",
-      "link": "https://openai.com/index/introducing-the-teen-safety-blueprint",
+      "title": "AI progress and recommendations",
+      "description": "AI is advancing fast. We have the chance to shape its progress—toward discovery, safety, and a better future for everyone.",
+      "link": "https://openai.com/index/ai-progress-and-recommendations",
       "date": "2025-11-06T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
