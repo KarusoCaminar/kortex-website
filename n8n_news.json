@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-11-09T16:24:55.606Z",
+  "lastUpdated": "2025-11-09T18:28:17.513Z",
   "news": [
+    {
+      "title": "Inception meldet sich mit neuem KI-Modell zurück",
+      "description": "Inception lebt. Das KI-Start-up, dessen Belegschaft CEO Mustafa Suleyman einst an Microsoft verkauft hat, bekommt 50 Millionen US-Dollar für die Entwicklung diffusionsbasierter Sprachmodelle.\nDer Arti",
+      "link": "https://the-decoder.de/inception-meldet-sich-mit-neuem-ki-modell-zurueck/",
+      "date": "2025-11-09T18:08:52.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "ChatGPTs API und Web-Version nutzen laut Studie völlig verschiedene Quellen",
       "description": "Eine aktuelle Studie zeigt deutliche Unterschiede in ChatGPTs Nachrichtenempfehlungen: Während die API überwiegend auf enzyklopädische Inhalte verweist, bevorzugt das Web-Interface lizenzierte Medien",
@@ -78,15 +87,6 @@
       "description": "Ein internationales Forschungsteam hat die Validität von Large-Language-Model-Benchmarks systematisch untersucht und dabei erhebliche Mängel aufgedeckt. Die Analyse von 445 Benchmark-Artikeln aus führ",
       "link": "https://the-decoder.de/studie-deckt-massive-schwaechen-in-ki-benchmarks-auf/",
       "date": "2025-11-08T12:02:29.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "KI-System JanusCoder: Ein Modell für Text, Code und visuelle Ausgaben",
-      "description": "Ein internationales Forschungsteam hat mit JanusCoder eine neue Generation von KI-Modellen vorgestellt, die Code-Generierung und visuelle Ausgaben in einem einheitlichen System vereinen. Die Modelle s",
-      "link": "https://the-decoder.de/januscoder-soll-nicht-nur-funktional-sondern-auch-optisch-ansprechend-coden/",
-      "date": "2025-11-08T11:21:54.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
