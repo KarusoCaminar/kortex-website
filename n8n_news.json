@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-11-09T08:25:39.908Z",
+  "lastUpdated": "2025-11-09T10:20:27.928Z",
   "news": [
+    {
+      "title": "KI-generierte OP-Videos: Optisch überzeugend, medizinisch katastrophal",
+      "description": "Forschende haben Googles neueste Video-KI Veo 3 mit chirurgischen Aufnahmen getestet – und eine deutliche Kluft zwischen optischer Brillanz und medizinischem Verständnis festgestellt. Das System erzeu",
+      "link": "https://the-decoder.de/ki-generierte-op-videos-optisch-ueberzeugend-medizinisch-katastrophal/",
+      "date": "2025-11-09T09:50:28.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Tech-Konzerne nehmen für KI-Ausbau Rekordschulden auf",
       "description": "Technologiekonzerne wie Google, Meta, Microsoft und Amazon geben aktuell enorme Summen für den Ausbau ihrer KI-Infrastruktur aus. Die Bank of England warnt: „Das ist ein sich schnell entwickelndes The",
@@ -124,15 +133,6 @@
       "link": "https://openai.com/index/cred-swamy-seetharaman",
       "date": "2025-11-05T21:30:00.000Z",
       "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "Forecasting the future of forests with AI: From counting losses to predicting risk",
-      "description": "Climate & Sustainability",
-      "link": "https://research.google/blog/forecasting-the-future-of-forests-with-ai-from-counting-losses-to-predicting-risk/",
-      "date": "2025-11-05T15:41:00.000Z",
-      "source": "Google AI",
       "category": "große-modelle",
       "language": "en"
     }
