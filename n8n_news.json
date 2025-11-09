@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-11-09T12:40:55.697Z",
+  "lastUpdated": "2025-11-09T14:17:49.336Z",
   "news": [
+    {
+      "title": "OpenAI-Konkurrent Anthropic plant Umsatzwachstum von 4,7 auf 70 Milliarden Dollar bis 2028",
+      "description": "Anthropic plant ein beispielloses Umsatzwachstum: Von 4,7 Milliarden Dollar im Jahr 2025 soll der Umsatz bis 2028 auf 70 Milliarden steigen. Möglich machen sollen das eine stark verbesserte Bruttomarg",
+      "link": "https://the-decoder.de/openai-konkurrent-anthropic-plant-umsatzwachstum-von-47-auf-70-milliarden-dollar-bis-2028/",
+      "date": "2025-11-09T13:29:40.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Münchner Studio sieht Filmbranche durch neue KI-Tools im Wandel",
       "description": "Storybook Studios arbeitet an der Schnittstelle zwischen traditioneller Filmproduktion und KI-Innovation. Ihre Erfahrungen verdeutlichen: KI kann ein Werkzeug für kreatives Schaffen sein, mit ganz neu",
@@ -69,15 +78,6 @@
       "description": "Ein internationales Forschungsteam hat mit JanusCoder eine neue Generation von KI-Modellen vorgestellt, die Code-Generierung und visuelle Ausgaben in einem einheitlichen System vereinen. Die Modelle s",
       "link": "https://the-decoder.de/januscoder-soll-nicht-nur-funktional-sondern-auch-optisch-ansprechend-coden/",
       "date": "2025-11-08T11:21:54.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "OpenAI und die KI-Blase: Kritik an CEO Sam Altman wird lauter",
-      "description": "OpenAI plant Recheninfrastruktur im Billionenbereich, bei bislang \"nur\" rund 20 Milliarden US‑Dollar Jahresumsatz. Diese Diskrepanz und die Forderung nach staatlicher Beteiligung an der KI‑Infrastrukt",
-      "link": "https://the-decoder.de/openai-und-die-ki-blase-kritik-an-ceo-sam-altman-wird-lauter/",
-      "date": "2025-11-08T10:01:30.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
