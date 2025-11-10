@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-11-10T16:30:42.646Z",
+  "lastUpdated": "2025-11-10T18:32:33.915Z",
   "news": [
+    {
+      "title": "10/10-KI-Gedichte sind möglich, aber sie werden Menschen nicht interessieren",
+      "description": "OpenAI-CEO Sam Altman sagt, dass KI eines Tages Gedichte schreiben kann, die eine 10 von 10 erreichen. Dennoch werde das die Menschen kaum bewegen.\nDer Artikel 10/10-KI-Gedichte sind möglich, aber sie",
+      "link": "https://the-decoder.de/10-10-ki-gedichte-sind-moeglich-aber-sie-werden-menschen-nicht-interessieren/",
+      "date": "2025-11-10T18:04:06.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Free ChatGPT for transitioning U.S. servicemembers and veterans",
       "description": "OpenAI is offering U.S. servicemembers and veterans within 12 months of retirement or separation a free year of ChatGPT Plus to support their transition to civilian life. The tools can help with resum",
@@ -87,15 +96,6 @@
       "description": "Ein als \"Roon\" auf X bekannter OpenAI-Entwickler erklärt, warum der \"Charakter\" eines LLMs nicht reproduzierbar ist.\nDer Artikel Der „Charakter“ von GPT-4o kommt nicht zurück, weil er zufällig entstan",
       "link": "https://the-decoder.de/der-charakter-von-gpt-4o-kommt-nicht-zurueck-weil-er-zufaellig-entstanden-ist/",
       "date": "2025-11-08T17:54:31.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Studie deckt massive Schwächen in KI-Benchmarks auf",
-      "description": "Ein internationales Forschungsteam hat die Validität von Large-Language-Model-Benchmarks systematisch untersucht und dabei erhebliche Mängel aufgedeckt. Die Analyse von 445 Benchmark-Artikeln aus führ",
-      "link": "https://the-decoder.de/studie-deckt-massive-schwaechen-in-ki-benchmarks-auf/",
-      "date": "2025-11-08T12:02:29.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
