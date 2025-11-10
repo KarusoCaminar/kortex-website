@@ -42,7 +42,7 @@
         "subject": "={{$json.body.formLocation}} - Neue Kontaktanfrage",
         "bodyContent": "html",
         "bodyContentHtml": "=<h2>📬 Neue Kontaktanfrage</h2><p><strong>📍 Quelle:</strong> {{$json.body.formLocation}}</p><p><strong>📧 Von:</strong> {{$json.body.email}}</p><p><strong>🏢 Firma:</strong> {{$json.body.firma}}</p><hr><h3>💬 Prozessbeschreibung:</h3><div style=\"background: #f5f5f5; padding: 15px; border-radius: 5px;\">{{$json.body.process}}</div><hr><p style=\"color: #666; font-size: 12px;\">Diese E-Mail wurde automatisch über das Kortex-Kontaktformular versendet.</p>",
-        "toRecipients": "info@kortex-system.com, moritz.heinelt@gmail.com",
+        "toRecipients": "info@kortex-system.com",
         "options": {}
       },
       "name": "Outlook Send",
