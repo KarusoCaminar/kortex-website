@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2025-11-10T18:32:33.915Z",
+  "lastUpdated": "2025-11-10T20:27:16.356Z",
   "news": [
+    {
+      "title": "Metas neues KI-System versteht und transkribiert gesprochene Sprache in mehr als 1.600 Sprachen",
+      "description": "Laut Metas Forschungsabteilung Fundamental AI Research (FAIR) soll Omnilingual ASR gesprochene Sprache in über 1.600 Sprachen transkribieren können, darunter 500 seltene Sprachen. Es kann sich neue Sp",
+      "link": "https://the-decoder.de/metas-neues-ki-system-versteht-und-transkribiert-gesprochene-sprache-in-mehr-als-1-600-sprachen/",
+      "date": "2025-11-10T19:58:43.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "BSI warnt: Selbst führende KI-Anbieter scheitern beim Schutz vor Prompt-Attacken",
+      "description": "Selbst führende Anbieter sind laut dem Bundesamt für Sicherheit in der Informationstechnik (BSI) nicht zuverlässig gegen sogenannte Evasion-Angriffe auf KI-Sprachmodelle geschützt.\nDer Artikel BSI war",
+      "link": "https://the-decoder.de/bsi-warnt-selbst-fuehrende-ki-anbieter-scheitern-beim-schutz-vor-prompt-attacken/",
+      "date": "2025-11-10T18:37:31.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "10/10-KI-Gedichte sind möglich, aber sie werden Menschen nicht interessieren",
       "description": "OpenAI-CEO Sam Altman sagt, dass KI eines Tages Gedichte schreiben kann, die eine 10 von 10 erreichen. Dennoch werde das die Menschen kaum bewegen.\nDer Artikel 10/10-KI-Gedichte sind möglich, aber sie",
@@ -78,24 +96,6 @@
       "description": "Forschende haben Googles neueste Video-KI Veo 3 mit chirurgischen Aufnahmen getestet – und eine deutliche Kluft zwischen optischer Brillanz und medizinischem Verständnis festgestellt. Das System erzeu",
       "link": "https://the-decoder.de/ki-generierte-op-videos-optisch-ueberzeugend-medizinisch-katastrophal/",
       "date": "2025-11-09T09:50:28.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Tech-Konzerne nehmen für KI-Ausbau Rekordschulden auf",
-      "description": "Technologiekonzerne wie Google, Meta, Microsoft und Amazon geben aktuell enorme Summen für den Ausbau ihrer KI-Infrastruktur aus. Die Bank of England warnt: „Das ist ein sich schnell entwickelndes The",
-      "link": "https://the-decoder.de/tech-konzerne-nehmen-fuer-ki-ausbau-rekordschulden-auf/",
-      "date": "2025-11-08T19:56:08.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Der „Charakter“ von GPT-4o kommt nicht zurück, weil er zufällig entstanden ist",
-      "description": "Ein als \"Roon\" auf X bekannter OpenAI-Entwickler erklärt, warum der \"Charakter\" eines LLMs nicht reproduzierbar ist.\nDer Artikel Der „Charakter“ von GPT-4o kommt nicht zurück, weil er zufällig entstan",
-      "link": "https://the-decoder.de/der-charakter-von-gpt-4o-kommt-nicht-zurueck-weil-er-zufaellig-entstanden-ist/",
-      "date": "2025-11-08T17:54:31.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
