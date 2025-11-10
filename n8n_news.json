@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-11-10T20:27:16.356Z",
+  "lastUpdated": "2025-11-10T22:22:22.650Z",
   "news": [
+    {
+      "title": "Wikipedia fordert faire Lizenzierung ihrer Inhalte von KI-Unternehmen",
+      "description": "Die Wikipedia positioniert sich im KI-Zeitalter als unverzichtbare Grundlage für verlässliches Wissen im Netz.\nDer Artikel Wikipedia fordert faire Lizenzierung ihrer Inhalte von KI-Unternehmen erschie",
+      "link": "https://the-decoder.de/wikipedia-fordert-faire-lizenzierung-ihrer-inhalte-von-ki-unternehmen/",
+      "date": "2025-11-10T20:39:38.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Metas neues KI-System versteht und transkribiert gesprochene Sprache in mehr als 1.600 Sprachen",
       "description": "Laut Metas Forschungsabteilung Fundamental AI Research (FAIR) soll Omnilingual ASR gesprochene Sprache in über 1.600 Sprachen transkribieren können, darunter 500 seltene Sprachen. Es kann sich neue Sp",
@@ -87,15 +96,6 @@
       "description": "Der Unternehmer Niels Hoven veröffentlichte ein Alphabetbuch mit fast 1000 KI-Illustrationen – aus seiner Sicht zu aufwendig für menschliche Künstler.\nDer Artikel Ein Kinderbuch zeigt das Dilemma der",
       "link": "https://the-decoder.de/ein-kinderbuch-zeigt-das-dilemma-der-kommerziellen-nutzung-von-ki-bild-generatoren-47101-2/",
       "date": "2025-11-09T11:13:12.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "KI-generierte OP-Videos: Optisch überzeugend, medizinisch katastrophal",
-      "description": "Forschende haben Googles neueste Video-KI Veo 3 mit chirurgischen Aufnahmen getestet – und eine deutliche Kluft zwischen optischer Brillanz und medizinischem Verständnis festgestellt. Das System erzeu",
-      "link": "https://the-decoder.de/ki-generierte-op-videos-optisch-ueberzeugend-medizinisch-katastrophal/",
-      "date": "2025-11-09T09:50:28.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
