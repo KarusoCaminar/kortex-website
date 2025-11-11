@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-11-11T20:24:59.955Z",
+  "lastUpdated": "2025-11-11T22:21:48.936Z",
   "news": [
     {
       "title": "Das KI-Copyright-Dilemma geht weiter: Zwei Gerichte, zwei völlig gegensätzliche Urteile",
@@ -83,15 +83,6 @@
       "language": "en"
     },
     {
-      "title": "Inception erhält 50 Millionen US-Dollar für Diffusion-Sprachmodelle",
-      "description": "Inception lebt. Das KI-Start-up, dessen Belegschaft CEO Mustafa Suleyman einst an Microsoft verkauft hat, bekommt 50 Millionen US-Dollar für die Entwicklung diffusionsbasierter Sprachmodelle.\nDer Arti",
-      "link": "https://the-decoder.de/inception-meldet-sich-mit-neuem-ki-modell-zurueck/",
-      "date": "2025-11-09T18:08:52.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "Understanding prompt injections: a frontier security challenge",
       "description": "Prompt injections are a frontier security challenge for AI systems. Learn how these attacks work and how OpenAI is advancing research, training models, and building safeguards for users.",
       "link": "https://openai.com/index/prompt-injections",
@@ -132,6 +123,15 @@
       "description": "AI is advancing fast. We have the chance to shape its progress—toward discovery, safety, and a better future for everyone.",
       "link": "https://openai.com/index/ai-progress-and-recommendations",
       "date": "2025-11-06T00:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
+      "title": "How CRED is tapping AI to deliver premium customer experiences",
+      "description": "CRED is transforming premium customer experiences in India with OpenAI. Using GPT-powered tools, the company is improving support accuracy, reducing response times, and boosting customer satisfaction.",
+      "link": "https://openai.com/index/cred-swamy-seetharaman",
+      "date": "2025-11-05T21:30:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
