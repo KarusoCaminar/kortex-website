@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-11-11T14:23:49.733Z",
+  "lastUpdated": "2025-11-11T16:29:32.390Z",
   "news": [
+    {
+      "title": "Yann LeCun verlässt Meta: KI-Vordenker plant eigenes Start-up",
+      "description": "Es ist vollbracht: Yann LeCun verlässt Meta. Der Schritt kommt nicht überraschend – er hatte sich seit Monaten angedeutet. Der zunehmend Trump‑nahe Zuckerberg‑Konzern, der dem LLM‑Hype hinterherläuft,",
+      "link": "https://the-decoder.de/yann-lecun-verlaesst-meta-ki-vordenker-plant-eigenes-start-up/",
+      "date": "2025-11-11T14:44:44.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Räumliche Intelligenz ist KIs nächste große Grenze, sagt KI-Pionierin Fei-Fei Li",
       "description": "KI-Pionierin Fei-Fei Li sieht räumliche Intelligenz als den nächsten großen Durchbruch: Nur mit einem echten Verständnis für Raum, Bewegung und physikalische Zusammenhänge könnten Maschinen zu kreativ",
@@ -87,15 +96,6 @@
       "description": "Anthropic plant ein beispielloses Umsatzwachstum: Von 4,7 Milliarden Dollar im Jahr 2025 soll der Umsatz bis 2028 auf 70 Milliarden steigen. Möglich machen sollen das eine stark verbesserte Bruttomarg",
       "link": "https://the-decoder.de/openai-konkurrent-anthropic-plant-umsatzwachstum-von-47-auf-70-milliarden-dollar-bis-2028/",
       "date": "2025-11-09T13:29:40.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Münchner Studio sieht Filmbranche durch neue KI-Tools im Wandel",
-      "description": "Storybook Studios arbeitet an der Schnittstelle zwischen traditioneller Filmproduktion und KI-Innovation. Ihre Erfahrungen verdeutlichen: KI kann ein Werkzeug für kreatives Schaffen sein, mit ganz neu",
-      "link": "https://the-decoder.de/muenchner-studio-sieht-filmbranche-durch-neue-ki-tools-im-wandel/",
-      "date": "2025-11-09T12:15:19.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
