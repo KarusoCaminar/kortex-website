@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-11-11T12:47:37.785Z",
+  "lastUpdated": "2025-11-11T14:23:49.733Z",
   "news": [
+    {
+      "title": "Räumliche Intelligenz ist KIs nächste große Grenze, sagt KI-Pionierin Fei-Fei Li",
+      "description": "KI-Pionierin Fei-Fei Li sieht räumliche Intelligenz als den nächsten großen Durchbruch: Nur mit einem echten Verständnis für Raum, Bewegung und physikalische Zusammenhänge könnten Maschinen zu kreativ",
+      "link": "https://the-decoder.de/raeumliche-intelligenz-ist-kis-naechste-grosse-grenze-sagt-ki-pionierin-fei-fei-li/",
+      "date": "2025-11-11T13:10:53.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "KI für Präsentationen: Gamma erhält 70 Millionen US-Dollar",
       "description": "Gamma, ein KI-Startup für automatisierte Präsentationen, hat 68 Millionen Dollar eingesammelt und wird nun mit 2,1 Milliarden Dollar bewertet.\nDer Artikel KI für Präsentationen: Gamma erhält 70 Millio",
@@ -87,15 +96,6 @@
       "description": "Storybook Studios arbeitet an der Schnittstelle zwischen traditioneller Filmproduktion und KI-Innovation. Ihre Erfahrungen verdeutlichen: KI kann ein Werkzeug für kreatives Schaffen sein, mit ganz neu",
       "link": "https://the-decoder.de/muenchner-studio-sieht-filmbranche-durch-neue-ki-tools-im-wandel/",
       "date": "2025-11-09T12:15:19.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "OpenAI: Öffentlichkeit unterschätzt KI-Fortschritt massiv",
-      "description": "Laut OpenAI sind eure Aufgaben zu banal, um den KI-Fortschritt noch zu bemerken.\nDer Artikel OpenAI: Öffentlichkeit unterschätzt KI-Fortschritt massiv erschien zuerst auf The Decoder.",
-      "link": "https://the-decoder.de/openai-oeffentlichkeit-unterschaetzt-ki-fortschritt-massiv/",
-      "date": "2025-11-09T11:43:47.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
