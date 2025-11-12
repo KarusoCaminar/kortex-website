@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2025-11-12T10:26:27.801Z",
+  "lastUpdated": "2025-11-12T12:49:17.761Z",
   "news": [
+    {
+      "title": "Neue Prüfpflicht: UK plant Tests gegen KI-generierte Missbrauchsdarstellungen",
+      "description": "Das Vereinigte Königreich will Unternehmen und Kinderschutzorganisationen erlauben, KI-Modelle vor ihrer Veröffentlichung darauf zu prüfen, ob sie Darstellungen sexuellen Kindesmissbrauchs (CSAM) erze",
+      "link": "https://the-decoder.de/neue-pruefpflicht-uk-plant-tests-gegen-ki-generierte-missbrauchsdarstellungen/",
+      "date": "2025-11-12T12:17:49.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "KI-Forscher zeigen, dass Sprachmodelle urheberrechtlich geschützte Bücher auswendig können",
+      "description": "Ein neues Forschungspapier zeigt, dass große Sprachmodelle Textstellen aus bekannten Büchern fast wortwörtlich wiedergeben können. Die Methode könnte eine hohe Relevanz für kommende Copyright-Verfahre",
+      "link": "https://the-decoder.de/ki-forscher-zeigen-dass-sprachmodelle-urheberrechtlich-geschuetzte-buecher-auswendig-koennen/",
+      "date": "2025-11-12T11:27:11.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Das KI-Copyright-Dilemma geht weiter: Zwei Gerichte, zwei völlig gegensätzliche Urteile",
       "description": "KI und Copyright, es bleibt kompliziert. Nur wenige Tage nach einem britischen Urteil zieht das Landgericht München den entgegengesetzten Schluss: Während der High Court in London KI-Modelle wie Stabl",
@@ -51,24 +69,6 @@
       "description": "Laut Metas Forschungsabteilung Fundamental AI Research (FAIR) soll Omnilingual ASR gesprochene Sprache in über 1.600 Sprachen transkribieren können, darunter 500 seltene Sprachen. Es kann sich neue Sp",
       "link": "https://the-decoder.de/metas-neues-ki-system-versteht-und-transkribiert-gesprochene-sprache-in-mehr-als-1-600-sprachen/",
       "date": "2025-11-10T19:58:43.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "BSI warnt: Selbst führende KI-Anbieter scheitern beim Schutz vor Prompt-Attacken",
-      "description": "Selbst führende Anbieter sind laut dem Bundesamt für Sicherheit in der Informationstechnik (BSI) nicht zuverlässig gegen sogenannte Evasion-Angriffe auf KI-Sprachmodelle geschützt.\nDer Artikel BSI war",
-      "link": "https://the-decoder.de/bsi-warnt-selbst-fuehrende-ki-anbieter-scheitern-beim-schutz-vor-prompt-attacken/",
-      "date": "2025-11-10T18:37:31.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "10/10-KI-Gedichte sind möglich, aber sie werden Menschen nicht interessieren",
-      "description": "OpenAI-CEO Sam Altman sagt, dass KI eines Tages Gedichte schreiben kann, die eine 10 von 10 erreichen. Dennoch werde das die Menschen kaum bewegen.\nDer Artikel 10/10-KI-Gedichte sind möglich, aber sie",
-      "link": "https://the-decoder.de/10-10-ki-gedichte-sind-moeglich-aber-sie-werden-menschen-nicht-interessieren/",
-      "date": "2025-11-10T18:04:06.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
