@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2025-11-12T14:24:21.805Z",
+  "lastUpdated": "2025-11-12T16:30:59.516Z",
   "news": [
+    {
+      "title": "New York Times fordert von OpenAI Millionen private ChatGPT-Chats",
+      "description": "Die New York Times fordert von OpenAI die Herausgabe von 20 Millionen privaten ChatGPT-Unterhaltungen.\nDer Artikel New York Times fordert von OpenAI Millionen private ChatGPT-Chats erschien zuerst auf",
+      "link": "https://the-decoder.de/new-york-times-fordert-von-openai-millionen-private-chatgpt-chats/",
+      "date": "2025-11-12T15:01:54.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "\"The Big Short\"-Investor Burry warnt: Die nächste Blase platzt im KI-Chipmarkt",
+      "description": "Warnungen vor einer Blase bei KI-Chips werden lauter, angetrieben durch die kurze Lebensdauer der Hardware und riskante Finanzierungen. Gleichzeitig zeigen neue Investitionen und optimistische Prognos",
+      "link": "https://the-decoder.de/the-big-short-investor-burry-warnt-die-naechste-blase-platzt-im-ki-chipmarkt/",
+      "date": "2025-11-12T14:26:33.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Google startet Private AI Compute für sichere Verarbeitung von Nutzerdaten in der Cloud",
       "description": "Google führt mit Private AI Compute eine Cloud-Technik ein, die Nutzerdaten bei der Arbeit mit KI-Anwendungen schützen soll.\nDer Artikel Google startet Private AI Compute für sichere Verarbeitung von",
@@ -65,24 +83,6 @@
       "language": "de"
     },
     {
-      "title": "KI für Präsentationen: Gamma erhält 70 Millionen US-Dollar",
-      "description": "Gamma, ein KI-Startup für automatisierte Präsentationen, hat 68 Millionen Dollar eingesammelt und wird nun mit 2,1 Milliarden Dollar bewertet.\nDer Artikel KI für Präsentationen: Gamma erhält 70 Millio",
-      "link": "https://the-decoder.de/ki-fuer-praesentationen-gamma-erhaelt-70-millionen-us-dollar/",
-      "date": "2025-11-11T12:43:51.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Wikipedia fordert faire Lizenzierung ihrer Inhalte von KI-Unternehmen",
-      "description": "Die Wikipedia positioniert sich im KI-Zeitalter als unverzichtbare Grundlage für verlässliches Wissen im Netz.\nDer Artikel Wikipedia fordert faire Lizenzierung ihrer Inhalte von KI-Unternehmen erschie",
-      "link": "https://the-decoder.de/wikipedia-fordert-faire-lizenzierung-ihrer-inhalte-von-ki-unternehmen/",
-      "date": "2025-11-10T20:39:38.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "Free ChatGPT for transitioning U.S. servicemembers and veterans",
       "description": "OpenAI is offering U.S. servicemembers and veterans within 12 months of retirement or separation a free year of ChatGPT Plus to support their transition to civilian life. The tools can help with resum",
       "link": "https://openai.com/index/chatgpt-for-veterans",
@@ -119,18 +119,18 @@
       "language": "en"
     },
     {
-      "title": "Introducing the Teen Safety Blueprint",
-      "description": "Discover OpenAI’s Teen Safety Blueprint—a roadmap for building AI responsibly with safeguards, age-appropriate design, and collaboration to protect and empower young people online.",
-      "link": "https://openai.com/index/introducing-the-teen-safety-blueprint",
+      "title": "AI progress and recommendations",
+      "description": "AI is advancing fast. We have the chance to shape its progress—toward discovery, safety, and a better future for everyone.",
+      "link": "https://openai.com/index/ai-progress-and-recommendations",
       "date": "2025-11-06T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
     },
     {
-      "title": "AI progress and recommendations",
-      "description": "AI is advancing fast. We have the chance to shape its progress—toward discovery, safety, and a better future for everyone.",
-      "link": "https://openai.com/index/ai-progress-and-recommendations",
+      "title": "Introducing the Teen Safety Blueprint",
+      "description": "Discover OpenAI’s Teen Safety Blueprint—a roadmap for building AI responsibly with safeguards, age-appropriate design, and collaboration to protect and empower young people online.",
+      "link": "https://openai.com/index/introducing-the-teen-safety-blueprint",
       "date": "2025-11-06T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
