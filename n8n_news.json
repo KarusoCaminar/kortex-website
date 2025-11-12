@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-11-12T12:49:17.761Z",
+  "lastUpdated": "2025-11-12T14:24:21.805Z",
   "news": [
+    {
+      "title": "Google startet Private AI Compute für sichere Verarbeitung von Nutzerdaten in der Cloud",
+      "description": "Google führt mit Private AI Compute eine Cloud-Technik ein, die Nutzerdaten bei der Arbeit mit KI-Anwendungen schützen soll.\nDer Artikel Google startet Private AI Compute für sichere Verarbeitung von",
+      "link": "https://the-decoder.de/google-startet-private-ai-compute-fuer-sichere-verarbeitung-von-nutzerdaten-in-der-cloud/",
+      "date": "2025-11-12T13:00:54.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Neue Prüfpflicht: UK plant Tests gegen KI-generierte Missbrauchsdarstellungen",
       "description": "Das Vereinigte Königreich will Unternehmen und Kinderschutzorganisationen erlauben, KI-Modelle vor ihrer Veröffentlichung darauf zu prüfen, ob sie Darstellungen sexuellen Kindesmissbrauchs (CSAM) erze",
@@ -18,6 +27,15 @@
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
+    },
+    {
+      "title": "Fighting the New York Times’ invasion of user privacy",
+      "description": "OpenAI is fighting the New York Times’ demand for 20 million private ChatGPT conversations and accelerating new security and privacy protections to protect your data.",
+      "link": "https://openai.com/index/fighting-nyt-user-privacy-invasion",
+      "date": "2025-11-12T06:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
     },
     {
       "title": "Das KI-Copyright-Dilemma geht weiter: Zwei Gerichte, zwei völlig gegensätzliche Urteile",
@@ -65,15 +83,6 @@
       "language": "de"
     },
     {
-      "title": "Metas neues KI-System versteht und transkribiert gesprochene Sprache in mehr als 1.600 Sprachen",
-      "description": "Laut Metas Forschungsabteilung Fundamental AI Research (FAIR) soll Omnilingual ASR gesprochene Sprache in über 1.600 Sprachen transkribieren können, darunter 500 seltene Sprachen. Es kann sich neue Sp",
-      "link": "https://the-decoder.de/metas-neues-ki-system-versteht-und-transkribiert-gesprochene-sprache-in-mehr-als-1-600-sprachen/",
-      "date": "2025-11-10T19:58:43.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "Free ChatGPT for transitioning U.S. servicemembers and veterans",
       "description": "OpenAI is offering U.S. servicemembers and veterans within 12 months of retirement or separation a free year of ChatGPT Plus to support their transition to civilian life. The tools can help with resum",
       "link": "https://openai.com/index/chatgpt-for-veterans",
@@ -110,15 +119,6 @@
       "language": "en"
     },
     {
-      "title": "AI progress and recommendations",
-      "description": "AI is advancing fast. We have the chance to shape its progress—toward discovery, safety, and a better future for everyone.",
-      "link": "https://openai.com/index/ai-progress-and-recommendations",
-      "date": "2025-11-06T00:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
       "title": "Introducing the Teen Safety Blueprint",
       "description": "Discover OpenAI’s Teen Safety Blueprint—a roadmap for building AI responsibly with safeguards, age-appropriate design, and collaboration to protect and empower young people online.",
       "link": "https://openai.com/index/introducing-the-teen-safety-blueprint",
@@ -128,10 +128,10 @@
       "language": "en"
     },
     {
-      "title": "How CRED is tapping AI to deliver premium customer experiences",
-      "description": "CRED is transforming premium customer experiences in India with OpenAI. Using GPT-powered tools, the company is improving support accuracy, reducing response times, and boosting customer satisfaction.",
-      "link": "https://openai.com/index/cred-swamy-seetharaman",
-      "date": "2025-11-05T21:30:00.000Z",
+      "title": "AI progress and recommendations",
+      "description": "AI is advancing fast. We have the chance to shape its progress—toward discovery, safety, and a better future for everyone.",
+      "link": "https://openai.com/index/ai-progress-and-recommendations",
+      "date": "2025-11-06T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
