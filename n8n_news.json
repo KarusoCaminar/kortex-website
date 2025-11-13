@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-11-13T12:49:57.804Z",
+  "lastUpdated": "2025-11-13T14:22:00.394Z",
   "news": [
+    {
+      "title": "Deepmind-Studie will Maschinenblick und menschliche Wahrnehmung aufeinander abstimmen",
+      "description": "Ein Forschungsteam von Google DeepMind, deutschen Partnern und Anthropic hat eine Methode vorgestellt, mit der KI-Modelle menschliche Urteilsmuster in der visuellen Wahrnehmung besser nachvollziehen s",
+      "link": "https://the-decoder.de/deepmind-studie-will-maschinenblick-und-menschliche-wahrnehmung-aufeinander-abstimmen/",
+      "date": "2025-11-13T13:21:37.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Google veröffentlicht verbesserte Version von Gemini Live",
       "description": "Gemini Live hat sein bisher größtes Update erhalten. Laut Google ist die Sprach-KI nun schneller, ausdrucksstärker und kann mit verschiedenen Akzenten sprechen.\nDer Artikel Google veröffentlicht verbe",
@@ -87,15 +96,6 @@
       "description": "Das Vereinigte Königreich will Unternehmen und Kinderschutzorganisationen erlauben, KI-Modelle vor ihrer Veröffentlichung darauf zu prüfen, ob sie Darstellungen sexuellen Kindesmissbrauchs (CSAM) erze",
       "link": "https://the-decoder.de/neue-pruefpflicht-uk-plant-tests-gegen-ki-generierte-missbrauchsdarstellungen/",
       "date": "2025-11-12T12:17:49.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "KI-Forscher zeigen, dass Sprachmodelle urheberrechtlich geschützte Bücher auswendig können",
-      "description": "Ein neues Forschungspapier zeigt, dass große Sprachmodelle Textstellen aus bekannten Büchern fast wortwörtlich wiedergeben können. Die Methode könnte eine hohe Relevanz für kommende Copyright-Verfahre",
-      "link": "https://the-decoder.de/ki-forscher-zeigen-dass-sprachmodelle-urheberrechtlich-geschuetzte-buecher-auswendig-koennen/",
-      "date": "2025-11-12T11:27:11.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
