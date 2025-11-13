@@ -1,6 +1,33 @@
 {
-  "lastUpdated": "2025-11-13T18:32:42.613Z",
+  "lastUpdated": "2025-11-13T20:26:22.115Z",
   "news": [
+    {
+      "title": "GPT‑5.1 startet in der API mit neuem Modus und besserer Code‑Performance",
+      "description": "OpenAI bringt GPT‑5.1 in die API mit neuen Developer‑Tools und verbessertem Prompt‑Caching. Die Sicherheitskarte zeigt ein gemischtes Bild: Fortschritte beim Datenschutz und Jailbreak‑Schutz, aber Rüc",
+      "link": "https://the-decoder.de/gpt%e2%80%915-1-startet-in-der-api-mit-neuem-modus-und-besserer-code%e2%80%91performance/",
+      "date": "2025-11-13T19:35:39.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Separating natural forests from other tree cover with AI for deforestation-free supply chains",
+      "description": "Climate & Sustainability",
+      "link": "https://research.google/blog/separating-natural-forests-from-other-tree-cover-with-ai-for-deforestation-free-supply-chains/",
+      "date": "2025-11-13T19:04:07.000Z",
+      "source": "Google AI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
+      "title": "Microsoft-Chef warnt: KI-Rechenpower zu Dumpingpreisen ist kein Zukunftsmodell",
+      "description": "Microsoft-CEO Satya Nadella grenzt sich klar von Oracle ab: Statt auf wenige große KI-Kunden zu setzen, soll Microsoft zur Plattform für viele werden – mit Office als Infrastruktur für KI-Agenten. Gle",
+      "link": "https://the-decoder.de/microsoft-chef-warnt-ki-rechenpower-zu-dumpingpreisen-ist-kein-zukunftsmodell/",
+      "date": "2025-11-13T18:43:20.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Deepmind zeigt selbstlernende Agenten in Computerspielen und KI-generierten 3D-Welten",
       "description": "SIMA 2 kann Aufgaben in 3D-Welten verstehen, planen, ausführen und daraus lernen. Der Agent soll sich ohne weitere menschliche Hilfe verbessern und überträgt Erlerntes auf neue Spiele.\nDer Artikel Dee",
@@ -43,6 +70,15 @@
       "link": "https://research.google/blog/a-new-quantum-toolkit-for-optimization/",
       "date": "2025-11-13T07:27:00.000Z",
       "source": "Google AI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
+      "title": "Introducing GPT-5.1 for developers",
+      "description": "GPT-5.1 is now available in the API, bringing faster adaptive reasoning, extended prompt caching, improved coding performance, and new apply_patch and shell tools.",
+      "link": "https://openai.com/index/gpt-5-1-for-developers",
+      "date": "2025-11-13T00:00:00.000Z",
+      "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
     },
@@ -92,46 +128,10 @@
       "language": "en"
     },
     {
-      "title": "New York Times fordert von OpenAI Millionen private ChatGPT-Chats",
-      "description": "Die New York Times fordert von OpenAI die Herausgabe von 20 Millionen privaten ChatGPT-Unterhaltungen.\nDer Artikel New York Times fordert von OpenAI Millionen private ChatGPT-Chats erschien zuerst auf",
-      "link": "https://the-decoder.de/new-york-times-fordert-von-openai-millionen-private-chatgpt-chats/",
-      "date": "2025-11-12T15:01:54.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "\"The Big Short\"-Investor Burry warnt: Die nächste Blase platzt im KI-Chipmarkt",
-      "description": "Warnungen vor einer Blase bei KI-Chips werden lauter, angetrieben durch die kurze Lebensdauer der Hardware und riskante Finanzierungen. Gleichzeitig zeigen neue Investitionen und optimistische Prognos",
-      "link": "https://the-decoder.de/the-big-short-investor-burry-warnt-die-naechste-blase-platzt-im-ki-chipmarkt/",
-      "date": "2025-11-12T14:26:33.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "Neuro drives national retail wins with ChatGPT Business",
       "description": "Neuro uses ChatGPT Business to scale nationwide with fewer than seventy employees. From drafting contracts to uncovering insights in customer data, the team saves time, cuts costs, and turns ideas int",
       "link": "https://openai.com/index/neurogum",
       "date": "2025-11-12T11:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "Fighting the New York Times’ invasion of user privacy",
-      "description": "OpenAI is fighting the New York Times’ demand for 20 million private ChatGPT conversations and accelerating new security and privacy protections to protect your data.",
-      "link": "https://openai.com/index/fighting-nyt-user-privacy-invasion",
-      "date": "2025-11-12T06:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "GPT-5.1 Instant and GPT-5.1 Thinking System Card Addendum",
-      "description": "This GPT-5 system card addendum provides updated safety metrics for GPT-5.1 Instant and Thinking, including new evaluations for mental health and emotional reliance.",
-      "link": "https://openai.com/index/gpt-5-system-card-addendum-gpt-5-1",
-      "date": "2025-11-12T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
