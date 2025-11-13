@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-11-13T10:26:12.953Z",
+  "lastUpdated": "2025-11-13T12:49:57.804Z",
   "news": [
+    {
+      "title": "Google veröffentlicht verbesserte Version von Gemini Live",
+      "description": "Gemini Live hat sein bisher größtes Update erhalten. Laut Google ist die Sprach-KI nun schneller, ausdrucksstärker und kann mit verschiedenen Akzenten sprechen.\nDer Artikel Google veröffentlicht verbe",
+      "link": "https://the-decoder.de/google-veroeffentlicht-verbesserte-version-von-gemini-live/",
+      "date": "2025-11-13T11:42:55.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "OpenAI bringt GPT-5.1: ChatGPT soll flexibler, empathischer und gründlicher werden",
       "description": "Mit GPT-5.1 aktualisiert OpenAI seine Sprachmodelle in ChatGPT. Die neuen Varianten sollen schneller, verständlicher und persönlicher reagieren und sich dabei besser an Ton und Stil der Nutzer anpasse",
@@ -123,15 +132,6 @@
       "description": "We’re upgrading the GPT-5 series with warmer, more capable models and new ways to customize ChatGPT’s tone and style. GPT-5.1 starts rolling out today to paid users.",
       "link": "https://openai.com/index/gpt-5-1",
       "date": "2025-11-12T00:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "Free ChatGPT for transitioning U.S. servicemembers and veterans",
-      "description": "OpenAI is offering U.S. servicemembers and veterans within 12 months of retirement or separation a free year of ChatGPT Plus to support their transition to civilian life. The tools can help with resum",
-      "link": "https://openai.com/index/chatgpt-for-veterans",
-      "date": "2025-11-10T02:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
