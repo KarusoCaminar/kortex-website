@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-11-13T14:22:00.394Z",
+  "lastUpdated": "2025-11-13T16:28:25.205Z",
   "news": [
+    {
+      "title": "Deepmind zeigt selbstlernende Agenten in Computerspielen und KI-generierten 3D-Welten",
+      "description": "SIMA 2 kann Aufgaben in 3D-Welten verstehen, planen, ausführen und daraus lernen. Der Agent soll sich ohne weitere menschliche Hilfe verbessern und überträgt Erlerntes auf neue Spiele.\nDer Artikel Dee",
+      "link": "https://the-decoder.de/deepmind-zeigt-selbstlernende-agenten-in-computerspielen-und-ki-generierten-3d-welten/",
+      "date": "2025-11-13T14:59:38.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Deepmind-Studie will Maschinenblick und menschliche Wahrnehmung aufeinander abstimmen",
       "description": "Ein Forschungsteam von Google DeepMind, deutschen Partnern und Anthropic hat eine Methode vorgestellt, mit der KI-Modelle menschliche Urteilsmuster in der visuellen Wahrnehmung besser nachvollziehen s",
@@ -87,15 +96,6 @@
       "description": "Google führt mit Private AI Compute eine Cloud-Technik ein, die Nutzerdaten bei der Arbeit mit KI-Anwendungen schützen soll.\nDer Artikel Google startet Private AI Compute für sichere Verarbeitung von",
       "link": "https://the-decoder.de/google-startet-private-ai-compute-fuer-sichere-verarbeitung-von-nutzerdaten-in-der-cloud/",
       "date": "2025-11-12T13:00:54.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Neue Prüfpflicht: UK plant Tests gegen KI-generierte Missbrauchsdarstellungen",
-      "description": "Das Vereinigte Königreich will Unternehmen und Kinderschutzorganisationen erlauben, KI-Modelle vor ihrer Veröffentlichung darauf zu prüfen, ob sie Darstellungen sexuellen Kindesmissbrauchs (CSAM) erze",
-      "link": "https://the-decoder.de/neue-pruefpflicht-uk-plant-tests-gegen-ki-generierte-missbrauchsdarstellungen/",
-      "date": "2025-11-12T12:17:49.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
