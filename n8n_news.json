@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-11-13T16:28:25.205Z",
+  "lastUpdated": "2025-11-13T18:32:42.613Z",
   "news": [
     {
       "title": "Deepmind zeigt selbstlernende Agenten in Computerspielen und KI-generierten 3D-Welten",
@@ -27,6 +27,24 @@
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
+    },
+    {
+      "title": "Understanding neural networks through sparse circuits",
+      "description": "OpenAI is exploring mechanistic interpretability to understand how neural networks reason. Our new sparse model approach could make AI systems more transparent and support safer, more reliable behavio",
+      "link": "https://openai.com/index/understanding-neural-networks-through-sparse-circuits",
+      "date": "2025-11-13T10:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
+      "title": "A new quantum toolkit for optimization",
+      "description": "Algorithms & Theory",
+      "link": "https://research.google/blog/a-new-quantum-toolkit-for-optimization/",
+      "date": "2025-11-13T07:27:00.000Z",
+      "source": "Google AI",
+      "category": "große-modelle",
+      "language": "en"
     },
     {
       "title": "OpenAI bringt GPT-5.1: ChatGPT soll flexibler, empathischer und gründlicher werden",
@@ -92,15 +110,6 @@
       "language": "de"
     },
     {
-      "title": "Google startet Private AI Compute für sichere Verarbeitung von Nutzerdaten in der Cloud",
-      "description": "Google führt mit Private AI Compute eine Cloud-Technik ein, die Nutzerdaten bei der Arbeit mit KI-Anwendungen schützen soll.\nDer Artikel Google startet Private AI Compute für sichere Verarbeitung von",
-      "link": "https://the-decoder.de/google-startet-private-ai-compute-fuer-sichere-verarbeitung-von-nutzerdaten-in-der-cloud/",
-      "date": "2025-11-12T13:00:54.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "Neuro drives national retail wins with ChatGPT Business",
       "description": "Neuro uses ChatGPT Business to scale nationwide with fewer than seventy employees. From drafting contracts to uncovering insights in customer data, the team saves time, cuts costs, and turns ideas int",
       "link": "https://openai.com/index/neurogum",
@@ -122,15 +131,6 @@
       "title": "GPT-5.1 Instant and GPT-5.1 Thinking System Card Addendum",
       "description": "This GPT-5 system card addendum provides updated safety metrics for GPT-5.1 Instant and Thinking, including new evaluations for mental health and emotional reliance.",
       "link": "https://openai.com/index/gpt-5-system-card-addendum-gpt-5-1",
-      "date": "2025-11-12T00:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "GPT-5.1: A smarter, more conversational ChatGPT",
-      "description": "We’re upgrading the GPT-5 series with warmer, more capable models and new ways to customize ChatGPT’s tone and style. GPT-5.1 starts rolling out today to paid users.",
-      "link": "https://openai.com/index/gpt-5-1",
       "date": "2025-11-12T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
