@@ -1,6 +1,42 @@
 {
-  "lastUpdated": "2025-11-14T10:25:49.383Z",
+  "lastUpdated": "2025-11-14T12:46:49.964Z",
   "news": [
+    {
+      "title": "OpenAI testet Gruppen-Chats in ChatGPT",
+      "description": "OpenAI testet in Japan, Südkorea, Taiwan und Neuseeland eine Gruppenchat-Funktion in ChatGPT.\nDer Artikel OpenAI testet Gruppen-Chats in ChatGPT erschien zuerst auf The Decoder.",
+      "link": "https://the-decoder.de/openai-testet-gruppen-chats-in-chatgpt/",
+      "date": "2025-11-14T12:09:51.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Cursor verdreifacht seinen Wert beinahe innerhalb von fünf Monaten",
+      "description": "Das US-Start-up Anysphere, das den beliebten KI-Code-Editor Cursor entwickelt, hat eine Series-D-Finanzierungsrunde über 2,3 Milliarden Dollar abgeschlossen.\nDer Artikel Cursor verdreifacht seinen Wer",
+      "link": "https://the-decoder.de/cursor-verdreifacht-beinahe-seinen-wert-innerhalb-von-fuenf-monaten/",
+      "date": "2025-11-14T11:56:18.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Gain AI Act: Tech-Giganten wollen bevorzugten Zugang zu Chips sichern",
+      "description": "Laut dem Wall Street Journal unterstützen Amazon, Microsoft und das KI-Start-up Anthropic ein US-Gesetz, das Nvidias Chip-Exporte nach China weiter begrenzen würde.\nDer Artikel Gain AI Act: Tech-Gigan",
+      "link": "https://the-decoder.de/gain-ai-act-tech-giganten-wollen-bevorzugten-zugang-zu-chips-sichern/",
+      "date": "2025-11-14T11:03:06.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Introducing OpenAI for Ireland",
+      "description": "OpenAI launches OpenAI for Ireland, partnering with the Irish Government, Dogpatch Labs and Patch to help SMEs, founders and young builders use AI to innovate, boost productivity and build the next ge",
+      "link": "https://openai.com/index/openai-for-ireland",
+      "date": "2025-11-14T04:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
     {
       "title": "GPT‑5.1 startet in der API mit neuem Modus und besserer Code‑Performance",
       "description": "OpenAI bringt GPT‑5.1 in die API mit neuen Developer‑Tools und verbessertem Prompt‑Caching. Die Sicherheitskarte zeigt ein gemischtes Bild: Fortschritte beim Datenschutz und Jailbreak‑Schutz, aber Rüc",
@@ -83,15 +119,6 @@
       "language": "en"
     },
     {
-      "title": "Introducing GPT-5.1 for developers",
-      "description": "GPT-5.1 is now available in the API, bringing faster adaptive reasoning, extended prompt caching, improved coding performance, and new apply_patch and shell tools.",
-      "link": "https://openai.com/index/gpt-5-1-for-developers",
-      "date": "2025-11-13T00:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
       "title": "Piloting group chats in ChatGPT",
       "description": "We’re piloting group chats in ChatGPT to make collaboration simple. Bring others—and ChatGPT—into one shared conversation to plan, brainstorm, and create together.",
       "link": "https://openai.com/index/group-chats-in-chatgpt",
@@ -101,40 +128,13 @@
       "language": "en"
     },
     {
-      "title": "OpenAI bringt GPT-5.1: ChatGPT soll flexibler, empathischer und gründlicher werden",
-      "description": "Mit GPT-5.1 aktualisiert OpenAI seine Sprachmodelle in ChatGPT. Die neuen Varianten sollen schneller, verständlicher und persönlicher reagieren und sich dabei besser an Ton und Stil der Nutzer anpasse",
-      "link": "https://the-decoder.de/openai-bringt-gpt-5-1-chatgpt-soll-flexibler-empathischer-und-gruendlicher-werden/",
-      "date": "2025-11-12T19:59:12.000Z",
-      "source": "The Decoder",
+      "title": "Introducing GPT-5.1 for developers",
+      "description": "GPT-5.1 is now available in the API, bringing faster adaptive reasoning, extended prompt caching, improved coding performance, and new apply_patch and shell tools.",
+      "link": "https://openai.com/index/gpt-5-1-for-developers",
+      "date": "2025-11-13T00:00:00.000Z",
+      "source": "OpenAI",
       "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Claude-Entwickler Anthropic investiert 50 Milliarden US-Dollar in US-KI-Rechenzentren",
-      "description": "OpenAI-Konkurrent Anthropic will 50 Milliarden US-Dollar in amerikanische KI-Infrastruktur pumpen. Geplant ist der Bau eigener Rechenzentren in Texas und New York, weitere Standorte sollen folgen.\nDer",
-      "link": "https://the-decoder.de/claude-entwickler-anthropic-investiert-50-milliarden-us-dollar-in-us-ki-rechenzentren/",
-      "date": "2025-11-12T19:12:33.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Elevenlabs startet Online-Marktplatz für berühmte KI-Stimmen",
-      "description": "Elevenlabs startet einen Online-Marktplatz für KI-nachgebaute Stimmen berühmter Personen wie John Wayne, Judy Garland oder Mickey Rooney.\nDer Artikel Elevenlabs startet Online-Marktplatz für berühmte",
-      "link": "https://the-decoder.de/elevenlabs-startet-online-marktplatz-fuer-beruehmte-ki-stimmen/",
-      "date": "2025-11-12T18:49:02.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Baidus neues ERNIE-Modell bearbeitet Bilder während des Denkprozesses",
-      "description": "Baidu hat mit ERNIE-4.5-VL-28B-A3B-Thinking ein Reasoning-Model veröffentlicht, das Bilder während des Denkprozesses ver- und bearbeiten kann, etwa einzoomen, um Text besser lesen zu können.\nDer Artik",
-      "link": "https://the-decoder.de/baidus-neues-ernie-modell-bearbeitet-bilder-waehrend-des-denkprozesses/",
-      "date": "2025-11-12T18:05:12.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
+      "language": "en"
     }
   ]
 }
