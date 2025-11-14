@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2025-11-14T12:46:49.964Z",
+  "lastUpdated": "2025-11-14T14:22:29.199Z",
   "news": [
+    {
+      "title": "heise KI PRO Webinar | KI-Guidelines im Unternehmen",
+      "description": "Der Einsatz generativer KI in Unternehmen wirft rechtliche und ethische Fragen auf. Dieses Webinar erläutert, ob und warum KI-Guidelines notwendig sind, um Vertrauen und Akzeptanz zu sichern, Schäden",
+      "link": "https://the-decoder.de/heise-ki-pro-webinar-ki-guidelines-im-unternehmen/",
+      "date": "2025-11-14T13:47:16.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Anthropic deckt erste weitgehend KI-gesteuerte Spionagekampagne auf",
+      "description": "Eine von Anthropic aufgedeckte Spionagekampagne nutzte das KI-Modell Claude in bisher ungekanntem Ausmaß zur Automatisierung von Angriffen. Laut dem Unternehmen markiert das einen Wendepunkt in der Cy",
+      "link": "https://the-decoder.de/anthropic-deckt-erste-weitgehend-ki-gesteuerte-spionagekampagne-auf/",
+      "date": "2025-11-14T13:24:02.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "OpenAI testet Gruppen-Chats in ChatGPT",
       "description": "OpenAI testet in Japan, Südkorea, Taiwan und Neuseeland eine Gruppenchat-Funktion in ChatGPT.\nDer Artikel OpenAI testet Gruppen-Chats in ChatGPT erschien zuerst auf The Decoder.",
@@ -83,15 +101,6 @@
       "language": "de"
     },
     {
-      "title": "Google veröffentlicht verbesserte Version von Gemini Live",
-      "description": "Gemini Live hat sein bisher größtes Update erhalten. Laut Google ist die Sprach-KI nun schneller, ausdrucksstärker und kann mit verschiedenen Akzenten sprechen.\nDer Artikel Google veröffentlicht verbe",
-      "link": "https://the-decoder.de/google-veroeffentlicht-verbesserte-version-von-gemini-live/",
-      "date": "2025-11-13T11:42:55.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "Understanding neural networks through sparse circuits",
       "description": "OpenAI is exploring mechanistic interpretability to understand how neural networks reason. Our new sparse model approach could make AI systems more transparent and support safer, more reliable behavio",
       "link": "https://openai.com/index/understanding-neural-networks-through-sparse-circuits",
@@ -110,9 +119,9 @@
       "language": "en"
     },
     {
-      "title": "How Philips Is scaling AI literacy across 70,000 employees",
-      "description": "Philips is scaling AI literacy with ChatGPT Enterprise, training 70,000 employees to use AI responsibly and improve healthcare outcomes worldwide.",
-      "link": "https://openai.com/index/philips",
+      "title": "Introducing GPT-5.1 for developers",
+      "description": "GPT-5.1 is now available in the API, bringing faster adaptive reasoning, extended prompt caching, improved coding performance, and new apply_patch and shell tools.",
+      "link": "https://openai.com/index/gpt-5-1-for-developers",
       "date": "2025-11-13T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
@@ -122,15 +131,6 @@
       "title": "Piloting group chats in ChatGPT",
       "description": "We’re piloting group chats in ChatGPT to make collaboration simple. Bring others—and ChatGPT—into one shared conversation to plan, brainstorm, and create together.",
       "link": "https://openai.com/index/group-chats-in-chatgpt",
-      "date": "2025-11-13T00:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "Introducing GPT-5.1 for developers",
-      "description": "GPT-5.1 is now available in the API, bringing faster adaptive reasoning, extended prompt caching, improved coding performance, and new apply_patch and shell tools.",
-      "link": "https://openai.com/index/gpt-5-1-for-developers",
       "date": "2025-11-13T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
