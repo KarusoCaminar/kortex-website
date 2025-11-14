@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2025-11-14T16:29:22.175Z",
+  "lastUpdated": "2025-11-14T18:32:30.099Z",
   "news": [
+    {
+      "title": "Linkedin startet generative KI-Suche für Personen",
+      "description": "LinkedIn startet in den USA eine neue KI-gestützte Suche für Premium-Mitglieder.\nDer Artikel Linkedin startet generative KI-Suche für Personen erschien zuerst auf The Decoder.",
+      "link": "https://the-decoder.de/linkedin-startet-generative-ki-suche-fuer-personen/",
+      "date": "2025-11-14T17:03:34.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "KI auf Abruf: Mozilla will Firefox ein \"KI-Fenster\" spendieren",
+      "description": "Firefox testet ein neues KI-Feature namens „AI Window“, das Nutzerinnen und Nutzern erlaubt, auf Wunsch mit einem KI-Assistenten im Browser zu interagieren.\nDer Artikel KI auf Abruf: Mozilla will Fire",
+      "link": "https://the-decoder.de/ki-auf-abruf-mozilla-will-firefox-ein-ki-fenster-spendieren/",
+      "date": "2025-11-14T16:41:20.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "heise KI PRO Webinar | KI-Guidelines im Unternehmen",
       "description": "Der Einsatz generativer KI in Unternehmen wirft rechtliche und ethische Fragen auf. Dieses Webinar erläutert, ob und warum KI-Guidelines notwendig sind, um Vertrauen und Akzeptanz zu sichern, Schäden",
@@ -78,24 +96,6 @@
       "description": "Microsoft-CEO Satya Nadella grenzt sich klar von Oracle ab: Statt auf wenige große KI-Kunden zu setzen, soll Microsoft zur Plattform für viele werden – mit Office als Infrastruktur für KI-Agenten. Gle",
       "link": "https://the-decoder.de/microsoft-chef-warnt-ki-rechenpower-zu-dumpingpreisen-ist-kein-zukunftsmodell/",
       "date": "2025-11-13T18:43:20.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Deepmind zeigt selbstlernende Agenten in Computerspielen und KI-generierten 3D-Welten",
-      "description": "SIMA 2 kann Aufgaben in 3D-Welten verstehen, planen, ausführen und daraus lernen. Der Agent soll sich ohne weitere menschliche Hilfe verbessern und überträgt Erlerntes auf neue Spiele.\nDer Artikel Dee",
-      "link": "https://the-decoder.de/deepmind-zeigt-selbstlernende-agenten-in-computerspielen-und-ki-generierten-3d-welten/",
-      "date": "2025-11-13T14:59:38.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Deepmind-Studie will Maschinenblick und menschliche Wahrnehmung aufeinander abstimmen",
-      "description": "Ein Forschungsteam von Google DeepMind, deutschen Partnern und Anthropic hat eine Methode vorgestellt, mit der KI-Modelle menschliche Urteilsmuster in der visuellen Wahrnehmung besser nachvollziehen s",
-      "link": "https://the-decoder.de/deepmind-studie-will-maschinenblick-und-menschliche-wahrnehmung-aufeinander-abstimmen/",
-      "date": "2025-11-13T13:21:37.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
