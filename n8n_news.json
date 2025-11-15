@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2025-11-15T14:19:16.783Z",
+  "lastUpdated": "2025-11-15T16:25:02.965Z",
   "news": [
+    {
+      "title": "KI-Pionier Yann LeCun: Anthropic schürt KI-Ängste für eigene Zwecke",
+      "description": "Der KI-Forscher Yann LeCun wirft Anthropic politische Korruption vor.\nDer Artikel KI-Pionier Yann LeCun: Anthropic schürt KI-Ängste für eigene Zwecke erschien zuerst auf The Decoder.",
+      "link": "https://the-decoder.de/ki-pionier-yann-lecun-anthropic-schuert-ki-aengste-fuer-eigene-zwecke/",
+      "date": "2025-11-15T15:14:15.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Anthropic bringt Chatbot Claude mehr konservative Sichtweisen bei",
+      "description": "Anthropic hat ein Werkzeug veröffentlicht, um politische Ausgewogenheit im KI-Chatbot Claude zu messen.\nDer Artikel Anthropic bringt Chatbot Claude mehr konservative Sichtweisen bei erschien zuerst au",
+      "link": "https://the-decoder.de/anthropic-bringt-chatbot-claude-mehr-konservative-sichtweisen-bei/",
+      "date": "2025-11-15T14:25:16.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "OpenAI veröffentlicht Prompting‑Guide für neues GPT‑5.1‑Modell",
       "description": "OpenAIs neues 5.1‑Modell soll besonders präzise auf Nutzereingaben reagieren. Ein umfangreicher Prompting‑Guide zeigt, wie Entwickler das System steuern können. OpenAI gibt unter anderem Prompt-Tipps,",
@@ -60,24 +78,6 @@
       "description": "Eine von Anthropic aufgedeckte Spionagekampagne nutzte das KI-Modell Claude in bisher ungekanntem Ausmaß zur Automatisierung von Angriffen. Laut dem Unternehmen markiert das einen Wendepunkt in der Cy",
       "link": "https://the-decoder.de/anthropic-deckt-erste-weitgehend-ki-gesteuerte-spionagekampagne-auf/",
       "date": "2025-11-14T13:24:02.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "OpenAI testet Gruppen-Chats in ChatGPT",
-      "description": "OpenAI testet in Japan, Südkorea, Taiwan und Neuseeland eine Gruppenchat-Funktion in ChatGPT.\nDer Artikel OpenAI testet Gruppen-Chats in ChatGPT erschien zuerst auf The Decoder.",
-      "link": "https://the-decoder.de/openai-testet-gruppen-chats-in-chatgpt/",
-      "date": "2025-11-14T12:09:51.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Cursor verdreifacht seinen Wert beinahe innerhalb von fünf Monaten",
-      "description": "Das US-Start-up Anysphere, das den beliebten KI-Code-Editor Cursor entwickelt, hat eine Series-D-Finanzierungsrunde über 2,3 Milliarden Dollar abgeschlossen.\nDer Artikel Cursor verdreifacht seinen Wer",
-      "link": "https://the-decoder.de/cursor-verdreifacht-beinahe-seinen-wert-innerhalb-von-fuenf-monaten/",
-      "date": "2025-11-14T11:56:18.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
