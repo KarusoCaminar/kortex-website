@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-11-15T18:28:45.976Z",
+  "lastUpdated": "2025-11-15T20:22:23.887Z",
   "news": [
     {
       "title": "KI-Pionier Yann LeCun: Anthropic schürt KI-Ängste für eigene Zwecke",
@@ -128,9 +128,9 @@
       "language": "en"
     },
     {
-      "title": "Piloting group chats in ChatGPT",
-      "description": "We’re piloting group chats in ChatGPT to make collaboration simple. Bring others—and ChatGPT—into one shared conversation to plan, brainstorm, and create together.",
-      "link": "https://openai.com/index/group-chats-in-chatgpt",
+      "title": "How Philips Is scaling AI literacy across 70,000 employees",
+      "description": "Philips is scaling AI literacy with ChatGPT Enterprise, training 70,000 employees to use AI responsibly and improve healthcare outcomes worldwide.",
+      "link": "https://openai.com/index/philips",
       "date": "2025-11-13T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
