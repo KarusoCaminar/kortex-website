@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-11-15T12:41:14.427Z",
+  "lastUpdated": "2025-11-15T14:19:16.783Z",
   "news": [
+    {
+      "title": "OpenAI veröffentlicht Prompting‑Guide für neues GPT‑5.1‑Modell",
+      "description": "OpenAIs neues 5.1‑Modell soll besonders präzise auf Nutzereingaben reagieren. Ein umfangreicher Prompting‑Guide zeigt, wie Entwickler das System steuern können. OpenAI gibt unter anderem Prompt-Tipps,",
+      "link": "https://the-decoder.de/openai-veroeffentlicht-prompting-guide-fuer-neues-gpt-5-1-modell/",
+      "date": "2025-11-15T13:35:56.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "OpenAIs Reddit-Fragerunde zu GPT-5.1 war ein absolutes Karma-Massaker",
       "description": "Eigentlich wollte OpenAI mit KI‑Fans bei Reddit über neue Modelle diskutieren. Doch das AMA kippte schnell in eine Welle aus Kritik an Modellpolitik und Sicherheitsvorgaben. Wahrscheinlich meldete sic",
@@ -11,7 +20,7 @@
       "language": "de"
     },
     {
-      "title": "Forschende träumen von lebenslangem KI-Gedächtnis: Vom Context Engineering zum Semantischen Betriebssystem",
+      "title": "Forschende entwerfen lebenslanges KI-Gedächtnis: Vom Context Engineering zum semantischen Betriebssystem",
       "description": "Forschende fordern in einem Paper ein grundlegend neues System für künstliche Intelligenz. Ein \"Semantic Operating System\" soll Kontext über Jahrzehnte hinweg verwalten können. Das System soll ähnlich",
       "link": "https://the-decoder.de/forschende-traeumen-von-lebenslangem-ki-gedaechtnis-vom-context-engineering-zum-semantischen-betriebssystem/",
       "date": "2025-11-15T09:11:10.000Z",
@@ -69,15 +78,6 @@
       "description": "Das US-Start-up Anysphere, das den beliebten KI-Code-Editor Cursor entwickelt, hat eine Series-D-Finanzierungsrunde über 2,3 Milliarden Dollar abgeschlossen.\nDer Artikel Cursor verdreifacht seinen Wer",
       "link": "https://the-decoder.de/cursor-verdreifacht-beinahe-seinen-wert-innerhalb-von-fuenf-monaten/",
       "date": "2025-11-14T11:56:18.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Gain AI Act: Tech-Giganten wollen bevorzugten Zugang zu Chips sichern",
-      "description": "Laut dem Wall Street Journal unterstützen Amazon, Microsoft und das KI-Start-up Anthropic ein US-Gesetz, das Nvidias Chip-Exporte nach China weiter begrenzen würde.\nDer Artikel Gain AI Act: Tech-Gigan",
-      "link": "https://the-decoder.de/gain-ai-act-tech-giganten-wollen-bevorzugten-zugang-zu-chips-sichern/",
-      "date": "2025-11-14T11:03:06.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
