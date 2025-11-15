@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-11-15T10:21:36.166Z",
+  "lastUpdated": "2025-11-15T12:41:14.427Z",
   "news": [
+    {
+      "title": "OpenAIs Reddit-Fragerunde zu GPT-5.1 war ein absolutes Karma-Massaker",
+      "description": "Eigentlich wollte OpenAI mit KI‑Fans bei Reddit über neue Modelle diskutieren. Doch das AMA kippte schnell in eine Welle aus Kritik an Modellpolitik und Sicherheitsvorgaben. Wahrscheinlich meldete sic",
+      "link": "https://the-decoder.de/openais-reddit-fragerunde-zu-gpt-5-1-war-ein-absolutes-karma-massaker/",
+      "date": "2025-11-15T12:11:32.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Forschende träumen von lebenslangem KI-Gedächtnis: Vom Context Engineering zum Semantischen Betriebssystem",
       "description": "Forschende fordern in einem Paper ein grundlegend neues System für künstliche Intelligenz. Ein \"Semantic Operating System\" soll Kontext über Jahrzehnte hinweg verwalten können. Das System soll ähnlich",
@@ -81,15 +90,6 @@
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
-    },
-    {
-      "title": "GPT‑5.1 startet in der API mit neuem Modus und besserer Code‑Performance",
-      "description": "OpenAI bringt GPT‑5.1 in die API mit neuen Developer‑Tools und verbessertem Prompt‑Caching. Die Sicherheitskarte zeigt ein gemischtes Bild: Fortschritte beim Datenschutz und Jailbreak‑Schutz, aber Rüc",
-      "link": "https://the-decoder.de/gpt%e2%80%915-1-startet-in-der-api-mit-neuem-modus-und-besserer-code%e2%80%91performance/",
-      "date": "2025-11-13T19:35:39.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
     },
     {
       "title": "Separating natural forests from other tree cover with AI for deforestation-free supply chains",
