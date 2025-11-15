@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-11-15T08:26:40.031Z",
+  "lastUpdated": "2025-11-15T10:21:36.166Z",
   "news": [
+    {
+      "title": "Forschende träumen von lebenslangem KI-Gedächtnis: Vom Context Engineering zum Semantischen Betriebssystem",
+      "description": "Forschende fordern in einem Paper ein grundlegend neues System für künstliche Intelligenz. Ein \"Semantic Operating System\" soll Kontext über Jahrzehnte hinweg verwalten können. Das System soll ähnlich",
+      "link": "https://the-decoder.de/forschende-traeumen-von-lebenslangem-ki-gedaechtnis-vom-context-engineering-zum-semantischen-betriebssystem/",
+      "date": "2025-11-15T09:11:10.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Linkedin startet generative KI-Suche für Personen",
       "description": "LinkedIn startet in den USA eine neue KI-gestützte Suche für Premium-Mitglieder.\nDer Artikel Linkedin startet generative KI-Suche für Personen erschien zuerst auf The Decoder.",
@@ -90,15 +99,6 @@
       "source": "Google AI",
       "category": "große-modelle",
       "language": "en"
-    },
-    {
-      "title": "Microsoft-Chef warnt: KI-Rechenpower zu Dumpingpreisen ist kein Zukunftsmodell",
-      "description": "Microsoft-CEO Satya Nadella grenzt sich klar von Oracle ab: Statt auf wenige große KI-Kunden zu setzen, soll Microsoft zur Plattform für viele werden – mit Office als Infrastruktur für KI-Agenten. Gle",
-      "link": "https://the-decoder.de/microsoft-chef-warnt-ki-rechenpower-zu-dumpingpreisen-ist-kein-zukunftsmodell/",
-      "date": "2025-11-13T18:43:20.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
     },
     {
       "title": "Understanding neural networks through sparse circuits",
