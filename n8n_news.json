@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-11-16T10:21:39.860Z",
+  "lastUpdated": "2025-11-16T12:40:48.123Z",
   "news": [
+    {
+      "title": "Finanz-Leak: Allein die Bereitstellung von KI-Modellen frisst angeblich OpenAIs Umsatz auf",
+      "description": "Laut Techcrunch und dem Blogger Ed Zitron zeigen neue interne Unterlagen, wie viel Geld zwischen OpenAI und Microsoft fließt. Demnach sind allein die Kosten für die Bereitstellung der Modelle, die sog",
+      "link": "https://the-decoder.de/finanz-leak-allein-die-bereitstellung-von-ki-modellen-frisst-angeblich-openais-umsatz-auf/",
+      "date": "2025-11-16T11:56:27.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "KI-Modell DeepEyesV2 nutzt Werkzeuge statt Wissen - und schlägt größere Konkurrenz",
       "description": "DeepEyesV2 ist ein multimodales KI-Modell, das Bilder analysiert, Code ausführt und das Web durchsucht. Statt mit purem Wissen schlägt DeepEyesV2 größere Modelle mit intelligenter Werkzeugnutzung. Das",
@@ -65,24 +74,6 @@
       "language": "de"
     },
     {
-      "title": "KI auf Abruf: Mozilla will Firefox ein \"KI-Fenster\" spendieren",
-      "description": "Firefox testet ein neues KI-Feature namens „AI Window“, das Nutzerinnen und Nutzern erlaubt, auf Wunsch mit einem KI-Assistenten im Browser zu interagieren.\nDer Artikel KI auf Abruf: Mozilla will Fire",
-      "link": "https://the-decoder.de/ki-auf-abruf-mozilla-will-firefox-ein-ki-fenster-spendieren/",
-      "date": "2025-11-14T16:41:20.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "heise KI PRO Webinar | KI-Guidelines im Unternehmen",
-      "description": "Der Einsatz generativer KI in Unternehmen wirft rechtliche und ethische Fragen auf. Dieses Webinar erläutert, ob und warum KI-Guidelines notwendig sind, um Vertrauen und Akzeptanz zu sichern, Schäden",
-      "link": "https://the-decoder.de/heise-ki-pro-webinar-ki-guidelines-im-unternehmen/",
-      "date": "2025-11-14T13:47:16.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "Introducing OpenAI for Ireland",
       "description": "OpenAI launches OpenAI for Ireland, partnering with the Irish Government, Dogpatch Labs and Patch to help SMEs, founders and young builders use AI to innovate, boost productivity and build the next ge",
       "link": "https://openai.com/index/openai-for-ireland",
@@ -131,6 +122,15 @@
       "title": "How Philips Is scaling AI literacy across 70,000 employees",
       "description": "Philips is scaling AI literacy with ChatGPT Enterprise, training 70,000 employees to use AI responsibly and improve healthcare outcomes worldwide.",
       "link": "https://openai.com/index/philips",
+      "date": "2025-11-13T00:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
+      "title": "Piloting group chats in ChatGPT",
+      "description": "We’re piloting group chats in ChatGPT to make collaboration simple. Bring others—and ChatGPT—into one shared conversation to plan, brainstorm, and create together.",
+      "link": "https://openai.com/index/group-chats-in-chatgpt",
       "date": "2025-11-13T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
