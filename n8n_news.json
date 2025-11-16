@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-11-16T12:40:48.123Z",
+  "lastUpdated": "2025-11-16T14:18:57.047Z",
   "news": [
     {
       "title": "Finanz-Leak: Allein die Bereitstellung von KI-Modellen frisst angeblich OpenAIs Umsatz auf",
@@ -110,9 +110,9 @@
       "language": "en"
     },
     {
-      "title": "Introducing GPT-5.1 for developers",
-      "description": "GPT-5.1 is now available in the API, bringing faster adaptive reasoning, extended prompt caching, improved coding performance, and new apply_patch and shell tools.",
-      "link": "https://openai.com/index/gpt-5-1-for-developers",
+      "title": "Piloting group chats in ChatGPT",
+      "description": "We’re piloting group chats in ChatGPT to make collaboration simple. Bring others—and ChatGPT—into one shared conversation to plan, brainstorm, and create together.",
+      "link": "https://openai.com/index/group-chats-in-chatgpt",
       "date": "2025-11-13T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
@@ -128,9 +128,9 @@
       "language": "en"
     },
     {
-      "title": "Piloting group chats in ChatGPT",
-      "description": "We’re piloting group chats in ChatGPT to make collaboration simple. Bring others—and ChatGPT—into one shared conversation to plan, brainstorm, and create together.",
-      "link": "https://openai.com/index/group-chats-in-chatgpt",
+      "title": "Introducing GPT-5.1 for developers",
+      "description": "GPT-5.1 is now available in the API, bringing faster adaptive reasoning, extended prompt caching, improved coding performance, and new apply_patch and shell tools.",
+      "link": "https://openai.com/index/gpt-5-1-for-developers",
       "date": "2025-11-13T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
