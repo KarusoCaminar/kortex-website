@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-11-16T08:27:48.140Z",
+  "lastUpdated": "2025-11-16T10:21:39.860Z",
   "news": [
+    {
+      "title": "KI-Modell DeepEyesV2 nutzt Werkzeuge statt Wissen - und schlägt größere Konkurrenz",
+      "description": "DeepEyesV2 ist ein multimodales KI-Modell, das Bilder analysiert, Code ausführt und das Web durchsucht. Statt mit purem Wissen schlägt DeepEyesV2 größere Modelle mit intelligenter Werkzeugnutzung. Das",
+      "link": "https://the-decoder.de/ki-modell-deepeyesv2-nutzt-werkzeuge-statt-wissen-und-schlaegt-groessere-konkurrenz/",
+      "date": "2025-11-16T09:08:08.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "KI-Pionier Yann LeCun: Anthropic schürt KI-Ängste für eigene Zwecke",
       "description": "Der KI-Forscher Yann LeCun wirft Anthropic politische Korruption vor.\nDer Artikel KI-Pionier Yann LeCun: Anthropic schürt KI-Ängste für eigene Zwecke erschien zuerst auf The Decoder.",
@@ -69,15 +78,6 @@
       "description": "Der Einsatz generativer KI in Unternehmen wirft rechtliche und ethische Fragen auf. Dieses Webinar erläutert, ob und warum KI-Guidelines notwendig sind, um Vertrauen und Akzeptanz zu sichern, Schäden",
       "link": "https://the-decoder.de/heise-ki-pro-webinar-ki-guidelines-im-unternehmen/",
       "date": "2025-11-14T13:47:16.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Anthropic deckt erste weitgehend KI-gesteuerte Spionagekampagne auf",
-      "description": "Eine von Anthropic aufgedeckte Spionagekampagne nutzte das KI-Modell Claude in bisher ungekanntem Ausmaß zur Automatisierung von Angriffen. Laut dem Unternehmen markiert das einen Wendepunkt in der Cy",
-      "link": "https://the-decoder.de/anthropic-deckt-erste-weitgehend-ki-gesteuerte-spionagekampagne-auf/",
-      "date": "2025-11-14T13:24:02.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
