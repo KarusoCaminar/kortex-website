@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-11-16T14:18:57.047Z",
+  "lastUpdated": "2025-11-16T16:25:20.853Z",
   "news": [
+    {
+      "title": "Google rüstet Gemini-App mit neuer Mehrbild-Steuerung für KI-Videos auf",
+      "description": "Google aktualisiert die Gemini-App mit Veo 3.1 und einer neuen Funktion: Nutzer können jetzt mehrere Referenzbilder pro Video-Input hochladen.\nDer Artikel Google rüstet Gemini-App mit neuer Mehrbild-S",
+      "link": "https://the-decoder.de/google-ruestet-gemini-app-mit-neuer-mehrbild-steuerung-fuer-ki-videos-auf/",
+      "date": "2025-11-16T14:53:37.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Finanz-Leak: Allein die Bereitstellung von KI-Modellen frisst angeblich OpenAIs Umsatz auf",
       "description": "Laut Techcrunch und dem Blogger Ed Zitron zeigen neue interne Unterlagen, wie viel Geld zwischen OpenAI und Microsoft fließt. Demnach sind allein die Kosten für die Bereitstellung der Modelle, die sog",
@@ -60,15 +69,6 @@
       "description": "Forschende fordern in einem Paper ein grundlegend neues System für künstliche Intelligenz. Ein \"Semantic Operating System\" soll Kontext über Jahrzehnte hinweg verwalten können. Das System soll ähnlich",
       "link": "https://the-decoder.de/forschende-traeumen-von-lebenslangem-ki-gedaechtnis-vom-context-engineering-zum-semantischen-betriebssystem/",
       "date": "2025-11-15T09:11:10.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Linkedin startet generative KI-Suche für Personen",
-      "description": "LinkedIn startet in den USA eine neue KI-gestützte Suche für Premium-Mitglieder.\nDer Artikel Linkedin startet generative KI-Suche für Personen erschien zuerst auf The Decoder.",
-      "link": "https://the-decoder.de/linkedin-startet-generative-ki-suche-fuer-personen/",
-      "date": "2025-11-14T17:03:34.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
