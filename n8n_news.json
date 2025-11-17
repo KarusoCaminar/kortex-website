@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-11-17T10:26:47.843Z",
+  "lastUpdated": "2025-11-17T12:48:22.196Z",
   "news": [
+    {
+      "title": "Jeff Bezos startet milliardenschweres KI-Projekt für Maschinenbau und Raumfahrt",
+      "description": "Jeff Bezos steigt erstmals seit seinem Abschied von Amazon wieder operativ in ein Unternehmen ein. Mit seinem neuen KI-Start-up Project Prometheus will er Milliarden in Technologien investieren, die p",
+      "link": "https://the-decoder.de/jeff-bezos-startet-milliardenschweres-ki-projekt-fuer-maschinenbau-und-raumfahrt/",
+      "date": "2025-11-17T12:14:29.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Google rüstet Gemini-App mit neuer Mehrbild-Steuerung für KI-Videos auf",
       "description": "Google aktualisiert die Gemini-App mit Veo 3.1 und einer neuen Funktion: Nutzer können jetzt mehrere Referenzbilder pro Video-Input hochladen.\nDer Artikel Google rüstet Gemini-App mit neuer Mehrbild-S",
@@ -122,15 +131,6 @@
       "title": "How Philips Is scaling AI literacy across 70,000 employees",
       "description": "Philips is scaling AI literacy with ChatGPT Enterprise, training 70,000 employees to use AI responsibly and improve healthcare outcomes worldwide.",
       "link": "https://openai.com/index/philips",
-      "date": "2025-11-13T00:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "Introducing GPT-5.1 for developers",
-      "description": "GPT-5.1 is now available in the API, bringing faster adaptive reasoning, extended prompt caching, improved coding performance, and new apply_patch and shell tools.",
-      "link": "https://openai.com/index/gpt-5-1-for-developers",
       "date": "2025-11-13T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
