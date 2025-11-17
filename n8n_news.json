@@ -1,13 +1,13 @@
 {
-  "lastUpdated": "2025-11-17T16:31:35.058Z",
+  "lastUpdated": "2025-11-17T18:32:44.027Z",
   "news": [
     {
-      "title": "LeJEPA von Meta ersetzt aufwändige KI-Trainingsmethoden mit nur 50 Zeilen Code",
-      "description": "Yann LeCun und Randall Balestriero von Meta stellen mit LeJEPA ein neues Lernverfahren vor. Es soll selbstüberwachtes Lernen ohne komplizierte Tricks ermöglichen.\nDer Artikel LeJEPA von Meta ersetzt a",
-      "link": "https://the-decoder.de/lejepa-von-meta-ersetzt-aufwaendige-ki-trainingsmethoden-mit-nur-50-zeilen-code/",
-      "date": "2025-11-17T15:06:45.000Z",
+      "title": "OpenAI-Forscher enthüllt Details zu neuem KI-Modell mit möglichem Leistungssprung",
+      "description": "OpenAI-Forscher Jerry Tworek hat Details zu OpenAIs neuem KI-Modell geteilt, das einen größeren Leistungssprung bringen könnte, zumindest in einigen Bereichen. Viel dreht sich um die Frage der General",
+      "link": "https://the-decoder.de/openai-forscher-enthuellt-details-zu-neuem-ki-modell-mit-moeglichem-leistungssprung/",
+      "date": "2025-11-17T18:12:58.000Z",
       "source": "The Decoder",
-      "category": "kmu-relevanz",
+      "category": "große-modelle",
       "language": "de"
     },
     {
@@ -18,6 +18,15 @@
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
+    },
+    {
+      "title": "OpenAI named Emerging Leader in Generative AI",
+      "description": "OpenAI has been named an Emerging Leader in Gartner’s 2025 Innovation Guide for Generative AI Model Providers. The recognition reflects our enterprise momentum, with over 1 million companies building",
+      "link": "https://openai.com/index/gartner-2025-emerging-leader",
+      "date": "2025-11-17T10:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
     },
     {
       "title": "Google rüstet Gemini-App mit neuer Mehrbild-Steuerung für KI-Videos auf",
@@ -74,15 +83,6 @@
       "language": "de"
     },
     {
-      "title": "OpenAIs Reddit-Fragerunde zu GPT-5.1 war ein absolutes Karma-Massaker",
-      "description": "Eigentlich wollte OpenAI mit KI‑Fans bei Reddit über neue Modelle diskutieren. Doch das AMA kippte schnell in eine Welle aus Kritik an Modellpolitik und Sicherheitsvorgaben. Wahrscheinlich meldete sic",
-      "link": "https://the-decoder.de/openais-reddit-fragerunde-zu-gpt-5-1-war-ein-absolutes-karma-massaker/",
-      "date": "2025-11-15T12:11:32.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "Introducing OpenAI for Ireland",
       "description": "OpenAI launches OpenAI for Ireland, partnering with the Irish Government, Dogpatch Labs and Patch to help SMEs, founders and young builders use AI to innovate, boost productivity and build the next ge",
       "link": "https://openai.com/index/openai-for-ireland",
@@ -119,18 +119,18 @@
       "language": "en"
     },
     {
-      "title": "Piloting group chats in ChatGPT",
-      "description": "We’re piloting group chats in ChatGPT to make collaboration simple. Bring others—and ChatGPT—into one shared conversation to plan, brainstorm, and create together.",
-      "link": "https://openai.com/index/group-chats-in-chatgpt",
+      "title": "Introducing GPT-5.1 for developers",
+      "description": "GPT-5.1 is now available in the API, bringing faster adaptive reasoning, extended prompt caching, improved coding performance, and new apply_patch and shell tools.",
+      "link": "https://openai.com/index/gpt-5-1-for-developers",
       "date": "2025-11-13T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
     },
     {
-      "title": "How Philips Is scaling AI literacy across 70,000 employees",
-      "description": "Philips is scaling AI literacy with ChatGPT Enterprise, training 70,000 employees to use AI responsibly and improve healthcare outcomes worldwide.",
-      "link": "https://openai.com/index/philips",
+      "title": "Piloting group chats in ChatGPT",
+      "description": "We’re piloting group chats in ChatGPT to make collaboration simple. Bring others—and ChatGPT—into one shared conversation to plan, brainstorm, and create together.",
+      "link": "https://openai.com/index/group-chats-in-chatgpt",
       "date": "2025-11-13T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
