@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-11-18T12:48:31.287Z",
+  "lastUpdated": "2025-11-18T14:23:34.178Z",
   "news": [
     {
       "title": "Ex-OpenAI-CTO Mira Murati plant fünf Milliarden Dollar Kapitalrunde für Thinking Machines Lab",
@@ -36,6 +36,15 @@
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
+    },
+    {
+      "title": "Intuit and OpenAI join forces on new AI-powered experiences",
+      "description": "OpenAI and Intuit have entered a $100M+ multi-year partnership to launch Intuit app experiences in ChatGPT and expand Intuit’s use of OpenAI’s frontier models to power personalized financial tools.",
+      "link": "https://openai.com/index/intuit-partnership",
+      "date": "2025-11-18T05:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
     },
     {
       "title": "Google Deepmind präsentiert Wetter-KI der nächsten Generation",
@@ -78,15 +87,6 @@
       "description": "Google aktualisiert die Gemini-App mit Veo 3.1 und einer neuen Funktion: Nutzer können jetzt mehrere Referenzbilder pro Video-Input hochladen.\nDer Artikel Google rüstet Gemini-App mit neuer Mehrbild-S",
       "link": "https://the-decoder.de/google-ruestet-gemini-app-mit-neuer-mehrbild-steuerung-fuer-ki-videos-auf/",
       "date": "2025-11-16T14:53:37.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Finanz-Leak: Allein die Bereitstellung von KI-Modellen frisst angeblich OpenAIs Umsatz auf",
-      "description": "Laut Techcrunch und dem Blogger Ed Zitron zeigen neue interne Unterlagen, wie viel Geld zwischen OpenAI und Microsoft fließt. Demnach sind allein die Kosten für die Bereitstellung der Modelle, die sog",
-      "link": "https://the-decoder.de/finanz-leak-allein-die-bereitstellung-von-ki-modellen-frisst-angeblich-openais-umsatz-auf/",
-      "date": "2025-11-16T11:56:27.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
