@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-11-18T16:32:19.800Z",
+  "lastUpdated": "2025-11-18T18:34:07.791Z",
   "news": [
+    {
+      "title": "Gemini 3: Googles neues KI-Flaggschiff übertrifft Konkurrenz in nahezu allen Benchmarks",
+      "description": "Google hat mit Gemini 3 sein neues Modell vorgestellt. Neben dem neuen Basismodell Gemini 3 Pro gibt es einen leistungsfähigeren \"Deep Think\"-Modus und mit Google Antigravity eine neue Plattform für d",
+      "link": "https://the-decoder.de/gemini-3-googles-neues-ki-flaggschiff-uebertrifft-konkurrenz-in-nahezu-allen-benchmarks/",
+      "date": "2025-11-18T16:57:53.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Generative UI: A rich, custom, visual interactive user experience for any prompt",
       "description": "Generative AI",
@@ -69,15 +78,6 @@
       "description": "OpenAI-Forscher Jerry Tworek hat Details zu OpenAIs neuem KI-Modell geteilt, das einen größeren Leistungssprung bringen könnte, zumindest in einigen Bereichen. Viel dreht sich um die Frage der General",
       "link": "https://the-decoder.de/openai-forscher-enthuellt-details-zu-neuem-ki-modell-mit-moeglichem-leistungssprung/",
       "date": "2025-11-17T18:12:58.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Jeff Bezos startet milliardenschweres KI-Projekt für Maschinenbau und Raumfahrt",
-      "description": "Jeff Bezos steigt erstmals seit seinem Abschied von Amazon wieder operativ in ein Unternehmen ein. Mit seinem neuen KI-Start-up Project Prometheus will er Milliarden in Technologien investieren, die p",
-      "link": "https://the-decoder.de/jeff-bezos-startet-milliardenschweres-ki-projekt-fuer-maschinenbau-und-raumfahrt/",
-      "date": "2025-11-17T12:14:29.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
