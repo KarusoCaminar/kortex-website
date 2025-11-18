@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2025-11-18T10:26:47.759Z",
+  "lastUpdated": "2025-11-18T12:48:31.287Z",
   "news": [
+    {
+      "title": "Ex-OpenAI-CTO Mira Murati plant fünf Milliarden Dollar Kapitalrunde für Thinking Machines Lab",
+      "description": "Thinking Machines Lab, gegründet von der früheren OpenAI-Technikchefin Mira Murati, will laut The Information bis zu fünf Milliarden US-Dollar neues Kapital aufnehmen.\nDer Artikel Ex-OpenAI-CTO Mira M",
+      "link": "https://the-decoder.de/ex-openai-cto-mira-murati-plant-fuenf-milliarden-dollar-kapitalrunde-fuer-thinking-machines-lab/",
+      "date": "2025-11-18T12:33:37.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Arm und Nvidia schließen Partnerschaft für KI-Chips mit NVLink Fusion",
+      "description": "Arm und Nvidia arbeiten künftig enger zusammen.\nDer Artikel Arm und Nvidia schließen Partnerschaft für KI-Chips mit NVLink Fusion erschien zuerst auf The Decoder.",
+      "link": "https://the-decoder.de/arm-und-nvidia-schliessen-partnerschaft-fuer-ki-chips-mit-nvlink-fusion/",
+      "date": "2025-11-18T12:01:03.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "xAIs neues Grok 4.1 führt Empathie-Benchmark an, könnte aber zum Ja-Sager werden",
       "description": "xAI hat Grok 4.1 vorgestellt, ein KI-Modell, das in puncto Kreativität und emotionaler Intelligenz neue Maßstäbe setzen soll. Ein begleitender Sicherheitsbericht des Unternehmens zeigt jedoch, dass di",
@@ -74,15 +92,6 @@
       "language": "de"
     },
     {
-      "title": "KI-Modell DeepEyesV2 nutzt Werkzeuge statt Wissen - und schlägt größere Konkurrenz",
-      "description": "DeepEyesV2 ist ein multimodales KI-Modell, das Bilder analysiert, Code ausführt und das Web durchsucht. Statt mit purem Wissen schlägt DeepEyesV2 größere Modelle mit intelligenter Werkzeugnutzung. Das",
-      "link": "https://the-decoder.de/ki-modell-deepeyesv2-nutzt-werkzeuge-statt-wissen-und-schlaegt-groessere-konkurrenz/",
-      "date": "2025-11-16T09:08:08.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "Introducing OpenAI for Ireland",
       "description": "OpenAI launches OpenAI for Ireland, partnering with the Irish Government, Dogpatch Labs and Patch to help SMEs, founders and young builders use AI to innovate, boost productivity and build the next ge",
       "link": "https://openai.com/index/openai-for-ireland",
@@ -122,15 +131,6 @@
       "title": "Introducing GPT-5.1 for developers",
       "description": "GPT-5.1 is now available in the API, bringing faster adaptive reasoning, extended prompt caching, improved coding performance, and new apply_patch and shell tools.",
       "link": "https://openai.com/index/gpt-5-1-for-developers",
-      "date": "2025-11-13T00:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "How Philips Is scaling AI literacy across 70,000 employees",
-      "description": "Philips is scaling AI literacy with ChatGPT Enterprise, training 70,000 employees to use AI responsibly and improve healthcare outcomes worldwide.",
-      "link": "https://openai.com/index/philips",
       "date": "2025-11-13T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
