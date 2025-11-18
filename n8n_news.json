@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-11-18T14:23:34.178Z",
+  "lastUpdated": "2025-11-18T16:32:19.800Z",
   "news": [
+    {
+      "title": "Generative UI: A rich, custom, visual interactive user experience for any prompt",
+      "description": "Generative AI",
+      "link": "https://research.google/blog/generative-ui-a-rich-custom-visual-interactive-user-experience-for-any-prompt/",
+      "date": "2025-11-18T16:00:00.000Z",
+      "source": "Google AI",
+      "category": "große-modelle",
+      "language": "en"
+    },
     {
       "title": "Ex-OpenAI-CTO Mira Murati plant fünf Milliarden Dollar Kapitalrunde für Thinking Machines Lab",
       "description": "Thinking Machines Lab, gegründet von der früheren OpenAI-Technikchefin Mira Murati, will laut The Information bis zu fünf Milliarden US-Dollar neues Kapital aufnehmen.\nDer Artikel Ex-OpenAI-CTO Mira M",
@@ -81,15 +90,6 @@
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
-    },
-    {
-      "title": "Google rüstet Gemini-App mit neuer Mehrbild-Steuerung für KI-Videos auf",
-      "description": "Google aktualisiert die Gemini-App mit Veo 3.1 und einer neuen Funktion: Nutzer können jetzt mehrere Referenzbilder pro Video-Input hochladen.\nDer Artikel Google rüstet Gemini-App mit neuer Mehrbild-S",
-      "link": "https://the-decoder.de/google-ruestet-gemini-app-mit-neuer-mehrbild-steuerung-fuer-ki-videos-auf/",
-      "date": "2025-11-16T14:53:37.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
     },
     {
       "title": "Introducing OpenAI for Ireland",
