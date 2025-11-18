@@ -244,6 +244,7 @@
       display: flex;
       gap: 0.5rem;
       flex-wrap: wrap;
+      align-items: center;
     }
     
     .results-header-buttons button {
@@ -255,6 +256,8 @@
       cursor: pointer;
       font-size: 0.9rem;
       transition: all 0.2s ease;
+      flex: 0 1 auto; /* prevent buttons from stretching unexpectedly */
+      min-width: 120px;
     }
     
     .results-header-buttons button:hover {
@@ -308,30 +311,35 @@
     
     /* Invoice Detail Modal */
     .invoice-detail-modal {
+      /* hidden by default; when active we use flex to center and let content scroll internally */
       display: none;
       position: fixed;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
+      inset: 0;
       background: rgba(0, 0, 0, 0.8);
-      z-index: 1000;
+      z-index: 99999; /* ensure it sits above other UI (navbar, drawers) */
       overflow-y: auto;
-      padding: 2rem;
+      padding: 1rem; /* small outer padding so content doesn't touch screen edges on mobile */
+      -webkit-overflow-scrolling: touch;
     }
-    
+
     .invoice-detail-modal.active {
-      display: block;
+      display: flex;
+      align-items: flex-start; /* let content start at top so long content can scroll */
+      justify-content: center;
     }
-    
+
     .invoice-detail-content {
-      max-width: 1400px;
+      width: 100%;
+      max-width: 920px; /* keep modal comfortably narrow on phones/tablets */
       margin: 0 auto;
       background: linear-gradient(135deg, #0a1628 0%, #09182F 100%);
-      border-radius: 16px;
-      padding: 2rem;
+      border-radius: 12px;
+      padding: 1.25rem;
       position: relative;
       border: 1px solid rgba(148, 163, 184, 0.2);
+      box-shadow: 0 12px 36px rgba(0,0,0,0.6);
+      max-height: calc(100vh - 40px);
+      overflow: auto; /* scroll inside modal rather than the whole page when content overflows */
     }
     
     .invoice-detail-close {
@@ -375,7 +383,7 @@
       display: flex;
       flex-direction: column;
       height: 100%;
-      min-height: 600px;
+      min-height: 300px; /* reduce default min-height so preview fits better on mobile */
       max-height: calc(100vh - 150px);
       overflow: hidden;
       padding: 0;
@@ -441,34 +449,26 @@
       position: relative;
       background: #ffffff;
       border-radius: 8px;
-      overflow: hidden !important;
       box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
       border: 1px solid rgba(148, 163, 184, 0.2);
-      /* DIN A4 Aspect Ratio: 210mm x 297mm = 1:1.414 */
+      /* keep a reasonable aspect on large screens but allow flexibility on mobile */
       aspect-ratio: 210 / 297;
       height: 100%;
       max-height: calc(100vh - 250px);
-      /* Completely hide all scrollbars */
-      -ms-overflow-style: none !important;
-      scrollbar-width: none !important;
+      overflow: auto;
+      -webkit-overflow-scrolling: touch;
     }
-    
+
     .pdf-preview-container::-webkit-scrollbar {
-      display: none !important;
-      width: 0 !important;
-      height: 0 !important;
+      height: 8px;
+      width: 8px;
     }
-    
+
+    /* Do not forcibly hide child overflow (browsers/PDF viewers need to render). */
     .pdf-preview-container * {
-      -ms-overflow-style: none !important;
-      scrollbar-width: none !important;
-      overflow: hidden !important;
-    }
-    
-    .pdf-preview-container *::-webkit-scrollbar {
-      display: none !important;
-      width: 0 !important;
-      height: 0 !important;
+      -ms-overflow-style: auto;
+      scrollbar-width: auto;
+      overflow: visible;
     }
     
     /* Hide scrollbars in embedded PDF viewers */
@@ -936,8 +936,8 @@
       }
       
       .invoice-preview-card {
-        min-height: 400px;
-        max-height: 75vh;
+        min-height: 260px;
+        max-height: 72vh;
         height: auto;
       }
       
@@ -946,22 +946,22 @@
       }
       
       .pdf-preview-container {
-        height: 60vh;
-        max-height: calc(100vh - 150px);
-        aspect-ratio: 210 / 297;
-        min-height: 400px;
+        /* On mobile avoid forcing very large heights and aspect ratios; allow vertical shrink */
+        height: auto;
+        max-height: calc(70vh - 40px);
+        aspect-ratio: auto;
+        min-height: 200px;
         width: 100%;
-        overflow: hidden !important;
+        overflow: auto;
       }
       
-      /* Ensure PDF is visible on mobile */
+      /* Ensure PDF is visible on mobile - let the object/iframe size naturally inside the container */
       .pdf-object,
       .pdf-iframe {
         width: 100% !important;
-        height: 100% !important;
-        overflow: hidden !important;
-        -ms-overflow-style: none !important;
-        scrollbar-width: none !important;
+        height: auto !important;
+        max-height: 100%;
+        overflow: visible !important;
       }
       
       .pdf-object::-webkit-scrollbar,
@@ -1037,7 +1037,7 @@
       }
       
       .invoice-line-items {
-        min-width: 500px;
+        min-width: 100%; /* better adapt to small screens; let horizontal scroll appear only when needed */
       }
       
       .invoice-line-items th,
