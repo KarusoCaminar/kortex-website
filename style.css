@@ -107,6 +107,8 @@ footer{margin-top:3rem;padding:2rem 0;color:rgba(30,41,59,.7)}
   .h1 {
     font-size: 1.75rem;
     line-height: 1.2;
+    overflow-wrap: break-word;
+    white-space: normal;
   }
   
   .lead {

@@ -9,6 +9,7 @@ Allow: /preise.html
 Allow: /faq.html
 Allow: /datenschutz.html
 Allow: /impressum.html
+Allow: /rechnungsdatenextraktion.html
 
 # Disallow old URLs
 Disallow: /kortex-n8n-modal.html
