@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2025-11-19T12:49:09.554Z",
+  "lastUpdated": "2025-11-19T14:22:58.411Z",
   "news": [
+    {
+      "title": "Musks xAI verhandelt über 15 Milliarden Dollar bei 230 Milliarden Bewertung",
+      "description": "Elon Musks KI-Firma xAI führt laut Wall Street Journal fortgeschrittene Gespräche über eine Finanzierung von 15 Milliarden Dollar.\nDer Artikel Musks xAI verhandelt über 15 Milliarden Dollar bei 230 Mi",
+      "link": "https://the-decoder.de/musks-xai-verhandelt-ueber-15-milliarden-dollar-bei-230-milliarden-bewertung/",
+      "date": "2025-11-19T13:36:12.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Larry Summers verlässt OpenAI-Aufsichtsrat nach Enthüllung seiner E-Mails mit Jeffrey Epstein",
+      "description": "Larry Summers ist nach der Veröffentlichung seiner E-Mails mit Jeffrey Epstein aus dem Aufsichtsrat von OpenAI zurückgetreten.\nDer Artikel Larry Summers verlässt OpenAI-Aufsichtsrat nach Enthüllung se",
+      "link": "https://the-decoder.de/larry-summers-verlaesst-openai-aufsichtsrat-nach-enthuellung-seiner-e-mails-mit-jeffrey-epstein/",
+      "date": "2025-11-19T13:08:49.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Neuer Benchmark entlarvt große Wissenslücken bei KI-Modellen – nur vier schaffen positive Bewertung",
       "description": "Ein neuer Benchmark von Artificial Analysis zeigt erschreckende Schwächen bei der faktischen Zuverlässigkeit von KI-Modellen auf. Von 40 getesteten Modellen erreichen nur vier einen positiven Score, G",
@@ -74,15 +92,6 @@
       "language": "de"
     },
     {
-      "title": "Cloudflare übernimmt Replicate mit deren 50.000 KI-Modellen",
-      "description": "Cloudflare übernimmt Replicate und erweitert damit seinen KI-Modellkatalog auf über 50.000 Modelle.\nDer Artikel Cloudflare übernimmt Replicate mit deren 50.000 KI-Modellen erschien zuerst auf The Deco",
-      "link": "https://the-decoder.de/cloudflare-uebernimmt-replicate-mit-deren-50-000-ki-modellen/",
-      "date": "2025-11-18T09:50:59.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "Intuit and OpenAI join forces on new AI-powered experiences",
       "description": "OpenAI and Intuit have entered a $100M+ multi-year partnership to launch Intuit app experiences in ChatGPT and expand Intuit’s use of OpenAI’s frontier models to power personalized financial tools.",
       "link": "https://openai.com/index/intuit-partnership",
@@ -90,15 +99,6 @@
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
-    },
-    {
-      "title": "Google Deepmind präsentiert Wetter-KI der nächsten Generation",
-      "description": "Google Deepmind hat WeatherNext 2 vorgestellt, das laut Unternehmen bei 99,9 Prozent aller meteorologischen Variablen und Vorhersagezeiträume besser abschneidet als das Vorgängermodell.\nDer Artikel Go",
-      "link": "https://the-decoder.de/google-deepmind-praesentiert-wetter-ki-der-naechsten-generation/",
-      "date": "2025-11-17T19:44:26.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
     },
     {
       "title": "OpenAI named Emerging Leader in Generative AI",
