@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-11-19T14:22:58.411Z",
+  "lastUpdated": "2025-11-19T16:31:05.461Z",
   "news": [
+    {
+      "title": "Deepmind-Chef Hassabis: Weltmodelle sind die Zukunft, aber die KI-Blase ist real",
+      "description": "Mit Gemini 3 Pro will Google die KI-Führung zurückerobern. Doch Deepmind-CEO Demis Hassabis blickt bereits auf die nächste, teure Stufe der KI-Entwicklung, warnt vor einer Blase im Privatmarkt und erk",
+      "link": "https://the-decoder.de/deepmind-chef-hassabis-weltmodelle-sind-die-zukunft-aber-die-ki-blase-ist-real/",
+      "date": "2025-11-19T15:01:08.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Musks xAI verhandelt über 15 Milliarden Dollar bei 230 Milliarden Bewertung",
       "description": "Elon Musks KI-Firma xAI führt laut Wall Street Journal fortgeschrittene Gespräche über eine Finanzierung von 15 Milliarden Dollar.\nDer Artikel Musks xAI verhandelt über 15 Milliarden Dollar bei 230 Mi",
@@ -78,15 +87,6 @@
       "description": "Arm und Nvidia arbeiten künftig enger zusammen.\nDer Artikel Arm und Nvidia schließen Partnerschaft für KI-Chips mit NVLink Fusion erschien zuerst auf The Decoder.",
       "link": "https://the-decoder.de/arm-und-nvidia-schliessen-partnerschaft-fuer-ki-chips-mit-nvlink-fusion/",
       "date": "2025-11-18T12:01:03.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "xAIs neues Grok 4.1 führt Empathie-Benchmark an, könnte aber zum Ja-Sager werden",
-      "description": "xAI hat Grok 4.1 vorgestellt, ein KI-Modell, das in puncto Kreativität und emotionaler Intelligenz neue Maßstäbe setzen soll. Ein begleitender Sicherheitsbericht des Unternehmens zeigt jedoch, dass di",
-      "link": "https://the-decoder.de/xais-neues-grok-4-1-fuehrt-empathie-benchmark-an-koennte-aber-zum-ja-sager-werden/",
-      "date": "2025-11-18T10:16:01.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
