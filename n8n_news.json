@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-11-19T18:34:12.774Z",
+  "lastUpdated": "2025-11-19T20:22:46.396Z",
   "news": [
+    {
+      "title": "OpenAIs neues Code-Modell GPT-5.1-Codex-Max soll länger als einen Tag an einer Aufgabe arbeiten",
+      "description": "Das Geschäftspotenzial bei der Automatisierung von Programmieraufgaben ist riesig, das Innovationstempo entsprechend hoch. Nur einen Tag nach Google mit Gemini 3 zieht OpenAI mit \"GPT-5.1-Codex-Max\" n",
+      "link": "https://the-decoder.de/openais-neues-code-modell-gpt-5-1-codex-max-soll-laenger-als-einen-tag-an-einer-aufgabe-arbeiten/",
+      "date": "2025-11-19T19:30:58.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Deepmind-Chef Hassabis: Weltmodelle sind die Zukunft, aber die KI-Blase ist real",
       "description": "Mit Gemini 3 Pro will Google die KI-Führung zurückerobern. Doch Deepmind-CEO Demis Hassabis blickt bereits auf die nächste, teure Stufe der KI-Entwicklung, warnt vor einer Blase im Privatmarkt und erk",
@@ -38,6 +47,15 @@
       "language": "de"
     },
     {
+      "title": "Strengthening our safety ecosystem with external testing",
+      "description": "OpenAI works with independent experts to evaluate frontier AI systems. Third-party testing strengthens safety, validates safeguards, and increases transparency in how we assess model capabilities and",
+      "link": "https://openai.com/index/strengthening-safety-with-external-testing",
+      "date": "2025-11-19T12:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
       "title": "Agent 365: Microsoft startet Verwaltungsplattform für KI-Agenten",
       "description": "Microsoft hat Agent 365 vorgestellt, eine Plattform zur Verwaltung von KI-Agenten in Unternehmen.\nDer Artikel Agent 365: Microsoft startet Verwaltungsplattform für KI-Agenten erschien zuerst auf The D",
       "link": "https://the-decoder.de/agent-365-microsoft-startet-verwaltungsplattform-fuer-ki-agenten/",
@@ -47,19 +65,19 @@
       "language": "de"
     },
     {
-      "title": "OpenAI and Target team up on new AI-powered experiences",
-      "description": "OpenAI and Target are partnering to bring a new Target app to ChatGPT, offering personalized shopping and faster checkout. Target will also expand its use of ChatGPT Enterprise to boost productivity a",
-      "link": "https://openai.com/index/target-partnership",
-      "date": "2025-11-19T06:00:00.000Z",
+      "title": "How evals drive the next chapter in AI for businesses",
+      "description": "Learn how evals help businesses define, measure, and improve AI performance—reducing risk, boosting productivity, and driving strategic advantage.",
+      "link": "https://openai.com/index/evals-drive-next-chapter-of-ai",
+      "date": "2025-11-19T11:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
     },
     {
-      "title": "Building more with GPT-5.1-Codex-Max",
-      "description": "Introducing GPT-5.1-Codex-Max, a faster, more intelligent agentic coding model for Codex. The model is designed for long-running, project-scale work with enhanced reasoning and token efficiency.",
-      "link": "https://openai.com/index/gpt-5-1-codex-max",
-      "date": "2025-11-19T00:00:00.000Z",
+      "title": "OpenAI and Target team up on new AI-powered experiences",
+      "description": "OpenAI and Target are partnering to bring a new Target app to ChatGPT, offering personalized shopping and faster checkout. Target will also expand its use of ChatGPT Enterprise to boost productivity a",
+      "link": "https://openai.com/index/target-partnership",
+      "date": "2025-11-19T06:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
@@ -92,6 +110,15 @@
       "language": "en"
     },
     {
+      "title": "Building more with GPT-5.1-Codex-Max",
+      "description": "Introducing GPT-5.1-Codex-Max, a faster, more intelligent agentic coding model for Codex. The model is designed for long-running, project-scale work with enhanced reasoning and token efficiency.",
+      "link": "https://openai.com/index/gpt-5-1-codex-max",
+      "date": "2025-11-19T00:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
       "title": "Gemini 3: Googles neues KI-Flaggschiff übertrifft Konkurrenz in nahezu allen Benchmarks",
       "description": "Google hat mit Gemini 3 sein neues Modell vorgestellt. Neben dem neuen Basismodell Gemini 3 Pro gibt es einen leistungsfähigeren \"Deep Think\"-Modus und mit Google Antigravity eine neue Plattform für d",
       "link": "https://the-decoder.de/gemini-3-googles-neues-ki-flaggschiff-uebertrifft-konkurrenz-in-nahezu-allen-benchmarks/",
@@ -106,33 +133,6 @@
       "link": "https://research.google/blog/generative-ui-a-rich-custom-visual-interactive-user-experience-for-any-prompt/",
       "date": "2025-11-18T16:00:00.000Z",
       "source": "Google AI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "Ex-OpenAI-CTO Mira Murati plant fünf Milliarden Dollar Kapitalrunde für Thinking Machines Lab",
-      "description": "Thinking Machines Lab, gegründet von der früheren OpenAI-Technikchefin Mira Murati, will laut The Information bis zu fünf Milliarden US-Dollar neues Kapital aufnehmen.\nDer Artikel Ex-OpenAI-CTO Mira M",
-      "link": "https://the-decoder.de/ex-openai-cto-mira-murati-plant-fuenf-milliarden-dollar-kapitalrunde-fuer-thinking-machines-lab/",
-      "date": "2025-11-18T12:33:37.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Arm und Nvidia schließen Partnerschaft für KI-Chips mit NVLink Fusion",
-      "description": "Arm und Nvidia arbeiten künftig enger zusammen.\nDer Artikel Arm und Nvidia schließen Partnerschaft für KI-Chips mit NVLink Fusion erschien zuerst auf The Decoder.",
-      "link": "https://the-decoder.de/arm-und-nvidia-schliessen-partnerschaft-fuer-ki-chips-mit-nvlink-fusion/",
-      "date": "2025-11-18T12:01:03.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Intuit and OpenAI join forces on new AI-powered experiences",
-      "description": "OpenAI and Intuit have entered a $100M+ multi-year partnership to launch Intuit app experiences in ChatGPT and expand Intuit’s use of OpenAI’s frontier models to power personalized financial tools.",
-      "link": "https://openai.com/index/intuit-partnership",
-      "date": "2025-11-18T05:00:00.000Z",
-      "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
     }
