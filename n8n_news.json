@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2025-11-20T16:30:30.563Z",
+  "lastUpdated": "2025-11-20T18:33:59.673Z",
   "news": [
+    {
+      "title": "OpenAI rollt neue ChatGPT-Gruppen-Chats weltweit aus",
+      "description": "OpenAI testet in Japan, Südkorea, Taiwan und Neuseeland eine Gruppenchat-Funktion in ChatGPT.\nDer Artikel OpenAI rollt neue ChatGPT-Gruppen-Chats weltweit aus erschien zuerst auf The Decoder.",
+      "link": "https://the-decoder.de/openai-rollt-neue-chatgpt-gruppen-chats-weltweit-aus/",
+      "date": "2025-11-20T18:14:51.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "\"Nano Banana Pro\": Googles neues Bildmodell bietet beeindruckende Prompt-Präzision",
+      "description": "Google aktualisiert sein Bildmodell auf \"Nano Banana Pro\" a. k. a. \"Gemini 3 Pro Image\". Das neue System soll komplexe Szenen logisch konsistent aufbauen, Text oft fehlerfrei darstellen und Echtzeitda",
+      "link": "https://the-decoder.de/nano-banana-pro-googles-neues-bildmodell-bietet-beeindruckende-prompt-praezision/",
+      "date": "2025-11-20T17:14:09.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Komplett offenes Sprachmodell OLMo 3 soll zu Reasoning-Modellen aufschließen",
       "description": "Das Allen Institute for AI (Ai2) präsentiert mit OLMo 3 eine neue Generation vollständig offener KI-Modelle. Das erste offene 32B-Thinking-Modell soll Reasoning-Prozesse nachvollziehbar machen und dab",
@@ -65,6 +83,15 @@
       "language": "en"
     },
     {
+      "title": "Early experiments in accelerating science with GPT-5",
+      "description": "OpenAI introduces the first research cases showing how GPT-5 accelerates scientific progress across math, physics, biology, and computer science. Explore how AI and researchers collaborate to generate",
+      "link": "https://openai.com/index/accelerating-science-gpt-5",
+      "date": "2025-11-20T00:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
       "title": "OpenAIs neues Code-Modell GPT-5.1-Codex-Max soll länger als einen Tag an einer Aufgabe arbeiten",
       "description": "Das Geschäftspotenzial bei der Automatisierung von Programmieraufgaben ist riesig, das Innovationstempo entsprechend hoch. Nur einen Tag nach Google mit Gemini 3 zieht OpenAI mit \"GPT-5.1-Codex-Max\" n",
       "link": "https://the-decoder.de/openais-neues-code-modell-gpt-5-1-codex-max-soll-laenger-als-einen-tag-an-einer-aufgabe-arbeiten/",
@@ -78,24 +105,6 @@
       "description": "Mit Gemini 3 Pro will Google die KI-Führung zurückerobern. Doch Deepmind-CEO Demis Hassabis blickt bereits auf die nächste, teure Stufe der KI-Entwicklung, warnt vor einer Blase im Privatmarkt und erk",
       "link": "https://the-decoder.de/deepmind-chef-hassabis-weltmodelle-sind-die-zukunft-aber-die-ki-blase-ist-real/",
       "date": "2025-11-19T15:01:08.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Musks xAI verhandelt über 15 Milliarden Dollar bei 230 Milliarden Bewertung",
-      "description": "Elon Musks KI-Firma xAI führt laut Wall Street Journal fortgeschrittene Gespräche über eine Finanzierung von 15 Milliarden Dollar.\nDer Artikel Musks xAI verhandelt über 15 Milliarden Dollar bei 230 Mi",
-      "link": "https://the-decoder.de/musks-xai-verhandelt-ueber-15-milliarden-dollar-bei-230-milliarden-bewertung/",
-      "date": "2025-11-19T13:36:12.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Larry Summers verlässt OpenAI-Aufsichtsrat nach Enthüllung seiner E-Mails mit Jeffrey Epstein",
-      "description": "Larry Summers ist nach der Veröffentlichung seiner E-Mails mit Jeffrey Epstein aus dem Aufsichtsrat von OpenAI zurückgetreten.\nDer Artikel Larry Summers verlässt OpenAI-Aufsichtsrat nach Enthüllung se",
-      "link": "https://the-decoder.de/larry-summers-verlaesst-openai-aufsichtsrat-nach-enthuellung-seiner-e-mails-mit-jeffrey-epstein/",
-      "date": "2025-11-19T13:08:49.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
@@ -123,15 +132,6 @@
       "description": "OpenAI and Target are partnering to bring a new Target app to ChatGPT, offering personalized shopping and faster checkout. Target will also expand its use of ChatGPT Enterprise to boost productivity a",
       "link": "https://openai.com/index/target-partnership",
       "date": "2025-11-19T06:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "Building more with GPT-5.1-Codex-Max",
-      "description": "Introducing GPT-5.1-Codex-Max, a faster, more intelligent agentic coding model for Codex. The model is designed for long-running, project-scale work with enhanced reasoning and token efficiency.",
-      "link": "https://openai.com/index/gpt-5-1-codex-max",
-      "date": "2025-11-19T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
