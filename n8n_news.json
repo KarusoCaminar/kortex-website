@@ -1,6 +1,33 @@
 {
-  "lastUpdated": "2025-11-20T10:25:22.612Z",
+  "lastUpdated": "2025-11-20T12:47:12.904Z",
   "news": [
+    {
+      "title": "Yann LeCun verlässt Meta und gründet eigenes KI-Start-up",
+      "description": "Nach zwölf Jahren bei Meta kündigt Yann LeCun seinen Abschied an. Der Turing-Preisträger will mit einem neuen Start-up die Grenzen der heutigen KI-Modelle überwinden – und Meta bleibt als Partner bete",
+      "link": "https://the-decoder.de/yann-lecun-verlaesst-meta-und-gruendet-eigenes-ki-start-up/",
+      "date": "2025-11-20T11:57:00.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Gemini soll das Android für Roboter werden, Deepmind holt Boston Dynamics CTO",
+      "description": "Google Deepmind will sein KI-Modell Gemini zu einer universellen Steuerungsplattform für Roboter ausbauen. Mit dem ehemaligen CTO von Boston Dynamics holt sich das Unternehmen nun entscheidendes Hardw",
+      "link": "https://the-decoder.de/gemini-soll-das-android-fuer-roboter-werden-deepmind-holt-boston-dynamics-cto/",
+      "date": "2025-11-20T11:12:48.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Trump will erneut Bundesstaaten KI-Gesetze verbieten, diesmal per Dekret",
+      "description": "US-Präsident Donald Trump bereitet eine neue Anordnung vor, die den Bundesstaaten in den USA weitgehend untersagen würde, eigene Gesetze zur Regulierung künstlicher Intelligenz (KI) zu erlassen.\nDer A",
+      "link": "https://the-decoder.de/trump-will-erneut-bundesstaaten-ki-gesetze-verbieten-diesmal-per-dekret/",
+      "date": "2025-11-20T10:32:39.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Adobe und Qualcomm entwickeln mit Humain KI-Werkzeuge für arabische Inhalte",
       "description": "Adobe, Qualcomm und Humain haben eine Partnerschaft angekündigt, um KI-Werkzeuge für arabische Inhalte und den Nahen Osten zu entwickeln.\nDer Artikel Adobe und Qualcomm entwickeln mit Humain KI-Werkze",
@@ -87,33 +114,6 @@
       "description": "OpenAI and Target are partnering to bring a new Target app to ChatGPT, offering personalized shopping and faster checkout. Target will also expand its use of ChatGPT Enterprise to boost productivity a",
       "link": "https://openai.com/index/target-partnership",
       "date": "2025-11-19T06:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "Teacher Access Terms",
-      "description": "Teacher Access Terms outline how verified educators may use ChatGPT for Teachers, covering eligibility, account management, and data privacy requirements.",
-      "link": "https://openai.com/policies/education-terms",
-      "date": "2025-11-19T00:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "A free version of ChatGPT built for teachers",
-      "description": "ChatGPT for Teachers is a secure workspace with education‑grade privacy and admin controls. Free for verified U.S. K–12 educators through June 2027.",
-      "link": "https://openai.com/index/chatgpt-for-teachers",
-      "date": "2025-11-19T00:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "GPT-5.1-Codex-Max System Card",
-      "description": "This system card outlines the comprehensive safety measures implemented for GPT‑5.1-CodexMax. It details both model-level mitigations, such as specialized safety training for harmful tasks and prompt",
-      "link": "https://openai.com/index/gpt-5-1-codex-max-system-card",
-      "date": "2025-11-19T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
