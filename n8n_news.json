@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2025-11-20T14:23:36.872Z",
+  "lastUpdated": "2025-11-20T16:30:30.563Z",
   "news": [
+    {
+      "title": "Komplett offenes Sprachmodell OLMo 3 soll zu Reasoning-Modellen aufschließen",
+      "description": "Das Allen Institute for AI (Ai2) präsentiert mit OLMo 3 eine neue Generation vollständig offener KI-Modelle. Das erste offene 32B-Thinking-Modell soll Reasoning-Prozesse nachvollziehbar machen und dab",
+      "link": "https://the-decoder.de/komplett-offenes-sprachmodell-olmo-3-soll-zu-reasoning-modellen-aufschliessen/",
+      "date": "2025-11-20T15:30:12.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Das \"beste Open-Weight-LLM eines US-Unternehmens\" ist ein Deepseek-Finetune",
+      "description": "Das nach eigener Aussage \"beste Open-Weight-LLM eines US-Unternehmens\" ist ein Deepseek-Finetune.\nDer Artikel Das \"beste Open-Weight-LLM eines US-Unternehmens\" ist ein Deepseek-Finetune erschien zuers",
+      "link": "https://the-decoder.de/das-beste-open-weight-llm-eines-us-unternehmens-ist-ein-deepseek-finetune/",
+      "date": "2025-11-20T14:53:15.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Yann LeCun verlässt Meta und gründet eigenes KI-Start-up",
       "description": "Nach zwölf Jahren bei Meta kündigt Yann LeCun seinen Abschied an. Der Turing-Preisträger will mit einem neuen Start-up die Grenzen der heutigen KI-Modelle überwinden – und Meta bleibt als Partner bete",
@@ -38,7 +56,7 @@
       "language": "de"
     },
     {
-      "title": "Helping 1,000 Main Street businesses build with AI",
+      "title": "Helping 1,000 small businesses build with AI",
       "description": "OpenAI is partnering with DoorDash, SCORE, and local organizations to help 1,000 small businesses build with AI. The Small Business AI Jam gives Main Street business owners hands-on tools and training",
       "link": "https://openai.com/index/small-business-ai-jam",
       "date": "2025-11-20T06:00:00.000Z",
@@ -83,15 +101,6 @@
       "language": "de"
     },
     {
-      "title": "Neuer Benchmark entlarvt große Wissenslücken bei KI-Modellen – nur vier schaffen positive Bewertung",
-      "description": "Ein neuer Benchmark von Artificial Analysis zeigt erschreckende Schwächen bei der faktischen Zuverlässigkeit von KI-Modellen auf. Von 40 getesteten Modellen erreichen nur vier einen positiven Score, G",
-      "link": "https://the-decoder.de/neuer-benchmark-entlarvt-grosse-wissensluecken-bei-ki-modellen-nur-vier-schaffen-positive-bewertung/",
-      "date": "2025-11-19T12:11:04.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "Strengthening our safety ecosystem with external testing",
       "description": "OpenAI works with independent experts to evaluate frontier AI systems. Third-party testing strengthens safety, validates safeguards, and increases transparency in how we assess model capabilities and",
       "link": "https://openai.com/index/strengthening-safety-with-external-testing",
@@ -99,15 +108,6 @@
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
-    },
-    {
-      "title": "Agent 365: Microsoft startet Verwaltungsplattform für KI-Agenten",
-      "description": "Microsoft hat Agent 365 vorgestellt, eine Plattform zur Verwaltung von KI-Agenten in Unternehmen.\nDer Artikel Agent 365: Microsoft startet Verwaltungsplattform für KI-Agenten erschien zuerst auf The D",
-      "link": "https://the-decoder.de/agent-365-microsoft-startet-verwaltungsplattform-fuer-ki-agenten/",
-      "date": "2025-11-19T11:02:36.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
     },
     {
       "title": "How evals drive the next chapter in AI for businesses",
@@ -128,9 +128,9 @@
       "language": "en"
     },
     {
-      "title": "GPT-5.1-Codex-Max System Card",
-      "description": "This system card outlines the comprehensive safety measures implemented for GPT‑5.1-CodexMax. It details both model-level mitigations, such as specialized safety training for harmful tasks and prompt",
-      "link": "https://openai.com/index/gpt-5-1-codex-max-system-card",
+      "title": "Building more with GPT-5.1-Codex-Max",
+      "description": "Introducing GPT-5.1-Codex-Max, a faster, more intelligent agentic coding model for Codex. The model is designed for long-running, project-scale work with enhanced reasoning and token efficiency.",
+      "link": "https://openai.com/index/gpt-5-1-codex-max",
       "date": "2025-11-19T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
