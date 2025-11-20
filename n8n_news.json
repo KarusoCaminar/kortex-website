@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-11-20T18:33:59.673Z",
+  "lastUpdated": "2025-11-20T20:26:38.607Z",
   "news": [
+    {
+      "title": "OpenAI startet \"ChatGPT for Teachers\" - Gratis-KI für den Unterricht",
+      "description": "OpenAI veröffentlicht mit \"ChatGPT for Teachers\" eine kostenlose Version seines KI-Chatbots für verifizierte K-12-Lehrkräfte in den USA.\nDer Artikel OpenAI startet \"ChatGPT for Teachers\" - Gratis-KI f",
+      "link": "https://the-decoder.de/openai-startet-chatgpt-for-teachers-gratis-ki-fuer-den-unterricht/",
+      "date": "2025-11-20T19:06:37.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "OpenAI rollt neue ChatGPT-Gruppen-Chats weltweit aus",
       "description": "OpenAI testet in Japan, Südkorea, Taiwan und Neuseeland eine Gruppenchat-Funktion in ChatGPT.\nDer Artikel OpenAI rollt neue ChatGPT-Gruppen-Chats weltweit aus erschien zuerst auf The Decoder.",
@@ -96,15 +105,6 @@
       "description": "Das Geschäftspotenzial bei der Automatisierung von Programmieraufgaben ist riesig, das Innovationstempo entsprechend hoch. Nur einen Tag nach Google mit Gemini 3 zieht OpenAI mit \"GPT-5.1-Codex-Max\" n",
       "link": "https://the-decoder.de/openais-neues-code-modell-gpt-5-1-codex-max-soll-laenger-als-einen-tag-an-einer-aufgabe-arbeiten/",
       "date": "2025-11-19T19:30:58.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Deepmind-Chef Hassabis: Weltmodelle sind die Zukunft, aber die KI-Blase ist real",
-      "description": "Mit Gemini 3 Pro will Google die KI-Führung zurückerobern. Doch Deepmind-CEO Demis Hassabis blickt bereits auf die nächste, teure Stufe der KI-Entwicklung, warnt vor einer Blase im Privatmarkt und erk",
-      "link": "https://the-decoder.de/deepmind-chef-hassabis-weltmodelle-sind-die-zukunft-aber-die-ki-blase-ist-real/",
-      "date": "2025-11-19T15:01:08.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
