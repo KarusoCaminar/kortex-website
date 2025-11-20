@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-11-20T03:12:17.399Z",
+  "lastUpdated": "2025-11-20T04:26:34.529Z",
   "news": [
     {
       "title": "OpenAIs neues Code-Modell GPT-5.1-Codex-Max soll länger als einen Tag an einer Aufgabe arbeiten",
@@ -83,6 +83,15 @@
       "language": "en"
     },
     {
+      "title": "Teacher Access Terms",
+      "description": "Teacher Access Terms outline how verified educators may use ChatGPT for Teachers, covering eligibility, account management, and data privacy requirements.",
+      "link": "https://openai.com/policies/education-terms",
+      "date": "2025-11-19T00:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
       "title": "A free version of ChatGPT built for teachers",
       "description": "ChatGPT for Teachers is a secure workspace with education‑grade privacy and admin controls. Free for verified U.S. K–12 educators through June 2027.",
       "link": "https://openai.com/index/chatgpt-for-teachers",
@@ -101,27 +110,18 @@
       "language": "en"
     },
     {
-      "title": "How Scania is accelerating work with AI across its global workforce",
-      "description": "Description: Global manufacturer Scania is scaling AI with ChatGPT Enterprise. With team-based onboarding and strong guardrails, AI is boosting productivity, quality, and innovation.",
-      "link": "https://openai.com/index/scania",
-      "date": "2025-11-19T00:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "Teacher Access Terms",
-      "description": "Teacher Access Terms outline how verified educators may use ChatGPT for Teachers, covering eligibility, account management, and data privacy requirements.",
-      "link": "https://openai.com/policies/education-terms",
-      "date": "2025-11-19T00:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
       "title": "Building more with GPT-5.1-Codex-Max",
       "description": "Introducing GPT-5.1-Codex-Max, a faster, more intelligent agentic coding model for Codex. The model is designed for long-running, project-scale work with enhanced reasoning and token efficiency.",
       "link": "https://openai.com/index/gpt-5-1-codex-max",
+      "date": "2025-11-19T00:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
+      "title": "How Scania is accelerating work with AI across its global workforce",
+      "description": "Description: Global manufacturer Scania is scaling AI with ChatGPT Enterprise. With team-based onboarding and strong guardrails, AI is boosting productivity, quality, and innovation.",
+      "link": "https://openai.com/index/scania",
       "date": "2025-11-19T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
