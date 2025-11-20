@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-11-20T08:31:58.025Z",
+  "lastUpdated": "2025-11-20T10:25:22.612Z",
   "news": [
+    {
+      "title": "Adobe und Qualcomm entwickeln mit Humain KI-Werkzeuge für arabische Inhalte",
+      "description": "Adobe, Qualcomm und Humain haben eine Partnerschaft angekündigt, um KI-Werkzeuge für arabische Inhalte und den Nahen Osten zu entwickeln.\nDer Artikel Adobe und Qualcomm entwickeln mit Humain KI-Werkze",
+      "link": "https://the-decoder.de/adobe-und-qualcomm-entwickeln-mit-humain-ki-werkzeuge-fuer-arabische-inhalte/",
+      "date": "2025-11-20T10:15:01.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "OpenAIs neues Code-Modell GPT-5.1-Codex-Max soll länger als einen Tag an einer Aufgabe arbeiten",
       "description": "Das Geschäftspotenzial bei der Automatisierung von Programmieraufgaben ist riesig, das Innovationstempo entsprechend hoch. Nur einen Tag nach Google mit Gemini 3 zieht OpenAI mit \"GPT-5.1-Codex-Max\" n",
@@ -126,15 +135,6 @@
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
-    },
-    {
-      "title": "Gemini 3: Googles neues KI-Flaggschiff übertrifft Konkurrenz in nahezu allen Benchmarks",
-      "description": "Google hat mit Gemini 3 sein neues Modell vorgestellt. Neben dem neuen Basismodell Gemini 3 Pro gibt es einen leistungsfähigeren \"Deep Think\"-Modus und mit Google Antigravity eine neue Plattform für d",
-      "link": "https://the-decoder.de/gemini-3-googles-neues-ki-flaggschiff-uebertrifft-konkurrenz-in-nahezu-allen-benchmarks/",
-      "date": "2025-11-18T16:57:53.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
     }
   ]
 }
