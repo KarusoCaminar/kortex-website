@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2025-11-21T14:22:10.981Z",
+  "lastUpdated": "2025-11-21T16:28:23.262Z",
   "news": [
+    {
+      "title": "Reducing EV range anxiety: How a simple AI model predicts port availability",
+      "description": "Algorithms & Theory",
+      "link": "https://research.google/blog/reducing-ev-range-anxiety-how-a-simple-ai-model-predicts-port-availability/",
+      "date": "2025-11-21T16:27:32.000Z",
+      "source": "Google AI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
+      "title": "OpenAI unter Druck: Neues KI-Modell \"Shallotpeat\" soll Googles Vorsprung aufholen",
+      "description": "OpenAI steht unter Druck: Ein internes Memo zeigt, wie Sam Altman auf Googles Vorsprung mit Gemini 3 reagiert – und mit welchem neuen Modell OpenAI gegensteuern will.\nDer Artikel OpenAI unter Druck: N",
+      "link": "https://the-decoder.de/openai-unter-druck-neues-ki-modell-shallotpeat-soll-googles-vorsprung-aufholen/",
+      "date": "2025-11-21T14:37:02.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "OpenAI-Bericht will zeigen, wie GPT-5 Forschern heute schon Stunden an Arbeit spart",
       "description": "OpenAI präsentiert mit \"GPT‑5 Science Acceleration\" eine Sammlung von Erfolgsgeschichten, in denen das eigene Modell bei Forschung hilft. Abseits des Fortschrittsnarrativs bietet das Papier vor allem",
@@ -92,15 +110,6 @@
       "language": "de"
     },
     {
-      "title": "Adobe und Qualcomm entwickeln mit Humain KI-Werkzeuge für arabische Inhalte",
-      "description": "Adobe, Qualcomm und Humain haben eine Partnerschaft angekündigt, um KI-Werkzeuge für arabische Inhalte und den Nahen Osten zu entwickeln.\nDer Artikel Adobe und Qualcomm entwickeln mit Humain KI-Werkze",
-      "link": "https://the-decoder.de/adobe-und-qualcomm-entwickeln-mit-humain-ki-werkzeuge-fuer-arabische-inhalte/",
-      "date": "2025-11-20T10:15:01.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "Helping 1,000 small businesses build with AI",
       "description": "OpenAI is partnering with DoorDash, SCORE, and local organizations to help 1,000 small businesses build with AI. The Small Business AI Jam gives Main Street business owners hands-on tools and training",
       "link": "https://openai.com/index/small-business-ai-jam",
@@ -123,15 +132,6 @@
       "description": "OpenAI works with independent experts to evaluate frontier AI systems. Third-party testing strengthens safety, validates safeguards, and increases transparency in how we assess model capabilities and",
       "link": "https://openai.com/index/strengthening-safety-with-external-testing",
       "date": "2025-11-19T12:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "How evals drive the next chapter in AI for businesses",
-      "description": "Learn how evals help businesses define, measure, and improve AI performance—reducing risk, boosting productivity, and driving strategic advantage.",
-      "link": "https://openai.com/index/evals-drive-next-chapter-of-ai",
-      "date": "2025-11-19T11:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
