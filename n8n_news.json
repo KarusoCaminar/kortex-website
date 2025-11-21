@@ -1,11 +1,20 @@
 {
-  "lastUpdated": "2025-11-21T16:28:23.262Z",
+  "lastUpdated": "2025-11-21T18:29:43.648Z",
   "news": [
+    {
+      "title": "Metas neues KI-Modell SAM 3 verbindet Sprache und Vision flexibler als zuvor",
+      "description": "Meta veröffentlicht die dritte Generation seines \"Segment Anything Model\". SAM 3 soll Bilder und Videos gleichermaßen verstehen und setzt auf eine neue Trainingsmethode, die menschliche und künstliche",
+      "link": "https://the-decoder.de/metas-neues-ki-modell-sam-3-verbindet-sprache-und-vision-flexibler-als-zuvor/",
+      "date": "2025-11-21T17:19:26.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Reducing EV range anxiety: How a simple AI model predicts port availability",
       "description": "Algorithms & Theory",
       "link": "https://research.google/blog/reducing-ev-range-anxiety-how-a-simple-ai-model-predicts-port-availability/",
-      "date": "2025-11-21T16:27:32.000Z",
+      "date": "2025-11-21T16:27:00.000Z",
       "source": "Google AI",
       "category": "große-modelle",
       "language": "en"
@@ -96,15 +105,6 @@
       "description": "Google Deepmind will sein KI-Modell Gemini zu einer universellen Steuerungsplattform für Roboter ausbauen. Mit dem ehemaligen CTO von Boston Dynamics holt sich das Unternehmen nun entscheidendes Hardw",
       "link": "https://the-decoder.de/gemini-soll-das-android-fuer-roboter-werden-deepmind-holt-boston-dynamics-cto/",
       "date": "2025-11-20T11:12:48.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Trump will erneut Bundesstaaten KI-Gesetze verbieten, diesmal per Dekret",
-      "description": "US-Präsident Donald Trump bereitet eine neue Anordnung vor, die den Bundesstaaten in den USA weitgehend untersagen würde, eigene Gesetze zur Regulierung künstlicher Intelligenz (KI) zu erlassen.\nDer A",
-      "link": "https://the-decoder.de/trump-will-erneut-bundesstaaten-ki-gesetze-verbieten-diesmal-per-dekret/",
-      "date": "2025-11-20T10:32:39.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
