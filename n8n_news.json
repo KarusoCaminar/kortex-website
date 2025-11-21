@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-11-21T12:45:46.635Z",
+  "lastUpdated": "2025-11-21T14:22:10.981Z",
   "news": [
+    {
+      "title": "OpenAI-Bericht will zeigen, wie GPT-5 Forschern heute schon Stunden an Arbeit spart",
+      "description": "OpenAI präsentiert mit \"GPT‑5 Science Acceleration\" eine Sammlung von Erfolgsgeschichten, in denen das eigene Modell bei Forschung hilft. Abseits des Fortschrittsnarrativs bietet das Papier vor allem",
+      "link": "https://the-decoder.de/openai-bericht-will-zeigen-wie-gpt-5-forschern-heute-schon-stunden-an-arbeit-spart/",
+      "date": "2025-11-21T12:56:24.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "OpenAI startet \"ChatGPT for Teachers\" - Gratis-KI für den Unterricht",
       "description": "OpenAI veröffentlicht mit \"ChatGPT for Teachers\" eine kostenlose Version seines KI-Chatbots für verifizierte K-12-Lehrkräfte in den USA.\nDer Artikel OpenAI startet \"ChatGPT for Teachers\" - Gratis-KI f",
@@ -108,15 +117,6 @@
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
-    },
-    {
-      "title": "OpenAIs neues Code-Modell GPT-5.1-Codex-Max soll länger als einen Tag an einer Aufgabe arbeiten",
-      "description": "Das Geschäftspotenzial bei der Automatisierung von Programmieraufgaben ist riesig, das Innovationstempo entsprechend hoch. Nur einen Tag nach Google mit Gemini 3 zieht OpenAI mit \"GPT-5.1-Codex-Max\" n",
-      "link": "https://the-decoder.de/openais-neues-code-modell-gpt-5-1-codex-max-soll-laenger-als-einen-tag-an-einer-aufgabe-arbeiten/",
-      "date": "2025-11-19T19:30:58.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
     },
     {
       "title": "Strengthening our safety ecosystem with external testing",
