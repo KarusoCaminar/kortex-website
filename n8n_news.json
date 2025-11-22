@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2025-11-22T10:21:41.960Z",
+  "lastUpdated": "2025-11-22T12:40:22.281Z",
   "news": [
+    {
+      "title": "Ideen für generative KI-Nutzung: Claude zeigt vielseitige Anwendungen für Alltag und Beruf",
+      "description": "Wer noch nach Anwendungsszenarien für generative KI sucht, kann einige Tipps bei Claude finden.\nDer Artikel Ideen für generative KI-Nutzung: Claude zeigt vielseitige Anwendungen für Alltag und Beruf e",
+      "link": "https://the-decoder.de/ideen-fuer-generative-ki-nutzung-claude-zeigt-vielseitige-anwendungen-fuer-alltag-und-beruf/",
+      "date": "2025-11-22T12:17:01.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Nvidia-Chef: \"Im Grunde halten wir den Planeten zusammen\"",
+      "description": "Nvidia sitzt in der Falle: Liefert der Konzern starke Zahlen, gilt das als Beweis einer wachsenden KI-Blase. Fällt der Börsenbericht schwächer aus, droht der Kollaps der Weltwirtschaft. Das jedenfalls",
+      "link": "https://the-decoder.de/nvidia-chef-im-grunde-halten-wir-den-planeten-zusammen/",
+      "date": "2025-11-22T11:09:37.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Forscher basteln an Webseiten für KI-Agenten",
       "description": "Forscher der TU Darmstadt haben mit VOIX ein Framework entwickelt, das Websites um zwei neue HTML‑Elemente erweitert. Dadurch können KI‑Agenten direkt erkennen, welche Aktionen möglich sind, statt müh",
@@ -83,15 +101,6 @@
       "language": "de"
     },
     {
-      "title": "Das \"beste Open-Weight-LLM eines US-Unternehmens\" ist ein Deepseek-Finetune",
-      "description": "Das nach eigener Aussage \"beste Open-Weight-LLM eines US-Unternehmens\" ist ein Deepseek-Finetune.\nDer Artikel Das \"beste Open-Weight-LLM eines US-Unternehmens\" ist ein Deepseek-Finetune erschien zuers",
-      "link": "https://the-decoder.de/das-beste-open-weight-llm-eines-us-unternehmens-ist-ein-deepseek-finetune/",
-      "date": "2025-11-20T14:53:15.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "OpenAI and Foxconn collaborate to strengthen U.S. manufacturing across the AI supply chain",
       "description": "OpenAI and Foxconn are collaborating to design and manufacture next-generation AI infrastructure hardware in the U.S. The partnership will develop multiple generations of data-center systems, strength",
       "link": "https://openai.com/index/openai-and-foxconn-collaborate",
@@ -99,15 +108,6 @@
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
-    },
-    {
-      "title": "Yann LeCun verlässt Meta und gründet eigenes KI-Start-up",
-      "description": "Nach zwölf Jahren bei Meta kündigt Yann LeCun seinen Abschied an. Der Turing-Preisträger will mit einem neuen Start-up die Grenzen der heutigen KI-Modelle überwinden – und Meta bleibt als Partner bete",
-      "link": "https://the-decoder.de/yann-lecun-verlaesst-meta-und-gruendet-eigenes-ki-start-up/",
-      "date": "2025-11-20T11:57:00.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
     },
     {
       "title": "Helping 1,000 small businesses build with AI",
