@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-11-22T16:26:09.507Z",
+  "lastUpdated": "2025-11-22T18:30:08.542Z",
   "news": [
+    {
+      "title": "Neues Lernmodell von Google soll katastrophales Vergessen in KI-Systemen stoppen",
+      "description": "Google Research hat ein neues Lernparadigma namens \"Nested Learning\" entwickelt, das KI-Modelle als verschachtelte Optimierungsprobleme betrachtet. Der Ansatz soll das Problem des katastrophalen Verge",
+      "link": "https://the-decoder.de/neues-lernmodell-von-google-soll-katastrophales-vergessen-in-ki-systemen-stoppen/",
+      "date": "2025-11-22T16:32:39.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Google will KI-Leistung in vier bis fünf Jahren um den Faktor 1000 steigern",
       "description": "Google muss seine KI-Infrastruktur schneller ausbauen als je zuvor. Interne Unterlagen zeigen: Der Konzern will die Leistung in wenigen Jahren um den Faktor 1000 steigern, und das bei ähnlichen Kosten",
@@ -87,15 +96,6 @@
       "description": "OpenAI testet in Japan, Südkorea, Taiwan und Neuseeland eine Gruppenchat-Funktion in ChatGPT.\nDer Artikel OpenAI rollt neue ChatGPT-Gruppen-Chats weltweit aus erschien zuerst auf The Decoder.",
       "link": "https://the-decoder.de/openai-rollt-neue-chatgpt-gruppen-chats-weltweit-aus/",
       "date": "2025-11-20T18:14:51.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "\"Nano Banana Pro\": Googles neues Bildmodell bietet beeindruckende Prompt-Präzision",
-      "description": "Google aktualisiert sein Bildmodell auf \"Nano Banana Pro\" a. k. a. \"Gemini 3 Pro Image\". Das neue System soll komplexe Szenen logisch konsistent aufbauen, Text oft fehlerfrei darstellen und Echtzeitda",
-      "link": "https://the-decoder.de/nano-banana-pro-googles-neues-bildmodell-bietet-beeindruckende-prompt-praezision/",
-      "date": "2025-11-20T17:14:09.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
