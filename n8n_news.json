@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-11-22T12:40:22.281Z",
+  "lastUpdated": "2025-11-22T14:18:57.781Z",
   "news": [
+    {
+      "title": "Google will KI-Leistung in vier bis fünf Jahren um den Faktor 1000 steigern",
+      "description": "Google muss seine KI-Infrastruktur schneller ausbauen als je zuvor. Interne Unterlagen zeigen: Der Konzern will die Leistung in wenigen Jahren um den Faktor 1000 steigern, und das bei ähnlichen Kosten",
+      "link": "https://the-decoder.de/google-will-ki-leistung-in-vier-bis-fuenf-jahren-um-den-faktor-1000-steigern/",
+      "date": "2025-11-22T13:15:50.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Ideen für generative KI-Nutzung: Claude zeigt vielseitige Anwendungen für Alltag und Beruf",
       "description": "Wer noch nach Anwendungsszenarien für generative KI sucht, kann einige Tipps bei Claude finden.\nDer Artikel Ideen für generative KI-Nutzung: Claude zeigt vielseitige Anwendungen für Alltag und Beruf e",
@@ -87,15 +96,6 @@
       "description": "Google aktualisiert sein Bildmodell auf \"Nano Banana Pro\" a. k. a. \"Gemini 3 Pro Image\". Das neue System soll komplexe Szenen logisch konsistent aufbauen, Text oft fehlerfrei darstellen und Echtzeitda",
       "link": "https://the-decoder.de/nano-banana-pro-googles-neues-bildmodell-bietet-beeindruckende-prompt-praezision/",
       "date": "2025-11-20T17:14:09.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Komplett offenes Sprachmodell OLMo 3 soll zu Reasoning-Modellen aufschließen",
-      "description": "Das Allen Institute for AI (Ai2) präsentiert mit OLMo 3 eine neue Generation vollständig offener KI-Modelle. Das erste offene 32B-Thinking-Modell soll Reasoning-Prozesse nachvollziehbar machen und dab",
-      "link": "https://the-decoder.de/komplett-offenes-sprachmodell-olmo-3-soll-zu-reasoning-modellen-aufschliessen/",
-      "date": "2025-11-20T15:30:12.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
