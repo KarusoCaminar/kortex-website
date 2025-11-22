@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-11-22T08:27:57.357Z",
+  "lastUpdated": "2025-11-22T10:21:41.960Z",
   "news": [
+    {
+      "title": "Forscher basteln an Webseiten für KI-Agenten",
+      "description": "Forscher der TU Darmstadt haben mit VOIX ein Framework entwickelt, das Websites um zwei neue HTML‑Elemente erweitert. Dadurch können KI‑Agenten direkt erkennen, welche Aktionen möglich sind, statt müh",
+      "link": "https://the-decoder.de/forscher-basteln-an-webseiten-fuer-ki-agenten/",
+      "date": "2025-11-22T09:48:13.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Metas neues KI-Modell SAM 3 verbindet Sprache und Vision flexibler als zuvor",
       "description": "Meta veröffentlicht die dritte Generation seines \"Segment Anything Model\". SAM 3 soll Bilder und Videos gleichermaßen verstehen und setzt auf eine neue Trainingsmethode, die menschliche und künstliche",
@@ -96,15 +105,6 @@
       "description": "Nach zwölf Jahren bei Meta kündigt Yann LeCun seinen Abschied an. Der Turing-Preisträger will mit einem neuen Start-up die Grenzen der heutigen KI-Modelle überwinden – und Meta bleibt als Partner bete",
       "link": "https://the-decoder.de/yann-lecun-verlaesst-meta-und-gruendet-eigenes-ki-start-up/",
       "date": "2025-11-20T11:57:00.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Gemini soll das Android für Roboter werden, Deepmind holt Boston Dynamics CTO",
-      "description": "Google Deepmind will sein KI-Modell Gemini zu einer universellen Steuerungsplattform für Roboter ausbauen. Mit dem ehemaligen CTO von Boston Dynamics holt sich das Unternehmen nun entscheidendes Hardw",
-      "link": "https://the-decoder.de/gemini-soll-das-android-fuer-roboter-werden-deepmind-holt-boston-dynamics-cto/",
-      "date": "2025-11-20T11:12:48.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
