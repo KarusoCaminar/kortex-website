@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-11-23T14:19:14.360Z",
+  "lastUpdated": "2025-11-23T16:26:22.417Z",
   "news": [
     {
       "title": "Gemini 3 Pro und GPT-5 scheitern noch an komplexen Physik-Aufgaben",
@@ -83,15 +83,6 @@
       "language": "de"
     },
     {
-      "title": "Metas neues KI-Modell SAM 3 verbindet Sprache und Vision flexibler als zuvor",
-      "description": "Meta veröffentlicht die dritte Generation seines \"Segment Anything Model\". SAM 3 soll Bilder und Videos gleichermaßen verstehen und setzt auf eine neue Trainingsmethode, die menschliche und künstliche",
-      "link": "https://the-decoder.de/metas-neues-ki-modell-sam-3-verbindet-sprache-und-vision-flexibler-als-zuvor/",
-      "date": "2025-11-21T17:19:26.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "Reducing EV range anxiety: How a simple AI model predicts port availability",
       "description": "Algorithms & Theory",
       "link": "https://research.google/blog/reducing-ev-range-anxiety-how-a-simple-ai-model-predicts-port-availability/",
@@ -132,6 +123,15 @@
       "description": "OpenAI works with independent experts to evaluate frontier AI systems. Third-party testing strengthens safety, validates safeguards, and increases transparency in how we assess model capabilities and",
       "link": "https://openai.com/index/strengthening-safety-with-external-testing",
       "date": "2025-11-19T12:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
+      "title": "How evals drive the next chapter in AI for businesses",
+      "description": "Learn how evals help businesses define, measure, and improve AI performance—reducing risk, boosting productivity, and driving strategic advantage.",
+      "link": "https://openai.com/index/evals-drive-next-chapter-of-ai",
+      "date": "2025-11-19T11:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
