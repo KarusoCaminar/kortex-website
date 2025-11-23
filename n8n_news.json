@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2025-11-23T08:28:07.581Z",
+  "lastUpdated": "2025-11-23T10:21:42.485Z",
   "news": [
+    {
+      "title": "Weiße Haus stoppt offenbar Vorstoß zur Aushebelung von Bundesstaaten-KI-Gesetzen",
+      "description": "Das Weiße Haus hat einen Entwurf für ein Dekret pausiert, das Bundesrecht gegenüber einzelstaatlichen KI-Gesetzen durchsetzen sollte.\nDer Artikel Weiße Haus stoppt offenbar Vorstoß zur Aushebelung von",
+      "link": "https://the-decoder.de/weisse-haus-stoppt-offenbar-vorstoss-zur-aushebelung-von-bundesstaaten-ki-gesetzen/",
+      "date": "2025-11-23T09:54:43.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Neues Trainingsverfahren lässt KI-Agenten besser im Team arbeiten",
+      "description": "Forscher stellen ein neues Framework vor, das verschiedene KI-Agenten gemeinsam trainieren kann. Die Methode soll komplexe Aufgaben durch spezialisierte Rollen und Teamwork besser lösen.\nDer Artikel N",
+      "link": "https://the-decoder.de/neues-trainingsverfahren-laesst-ki-agenten-besser-im-team-arbeiten/",
+      "date": "2025-11-23T08:58:42.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Neues Lernmodell von Google soll katastrophales Vergessen in KI-Systemen stoppen",
       "description": "Google Research hat ein neues Lernparadigma namens \"Nested Learning\" entwickelt, das KI-Modelle als verschachtelte Optimierungsprobleme betrachtet. Der Ansatz soll das Problem des katastrophalen Verge",
@@ -78,24 +96,6 @@
       "description": "OpenAI präsentiert mit \"GPT‑5 Science Acceleration\" eine Sammlung von Erfolgsgeschichten, in denen das eigene Modell bei Forschung hilft. Abseits des Fortschrittsnarrativs bietet das Papier vor allem",
       "link": "https://the-decoder.de/openai-bericht-will-zeigen-wie-gpt-5-forschern-heute-schon-stunden-an-arbeit-spart/",
       "date": "2025-11-21T12:56:24.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "OpenAI startet \"ChatGPT for Teachers\" - Gratis-KI für den Unterricht",
-      "description": "OpenAI veröffentlicht mit \"ChatGPT for Teachers\" eine kostenlose Version seines KI-Chatbots für verifizierte K-12-Lehrkräfte in den USA.\nDer Artikel OpenAI startet \"ChatGPT for Teachers\" - Gratis-KI f",
-      "link": "https://the-decoder.de/openai-startet-chatgpt-for-teachers-gratis-ki-fuer-den-unterricht/",
-      "date": "2025-11-20T19:06:37.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "OpenAI rollt neue ChatGPT-Gruppen-Chats weltweit aus",
-      "description": "OpenAI testet in Japan, Südkorea, Taiwan und Neuseeland eine Gruppenchat-Funktion in ChatGPT.\nDer Artikel OpenAI rollt neue ChatGPT-Gruppen-Chats weltweit aus erschien zuerst auf The Decoder.",
-      "link": "https://the-decoder.de/openai-rollt-neue-chatgpt-gruppen-chats-weltweit-aus/",
-      "date": "2025-11-20T18:14:51.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
