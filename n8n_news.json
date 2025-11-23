@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-11-23T12:39:46.078Z",
+  "lastUpdated": "2025-11-23T14:19:14.360Z",
   "news": [
+    {
+      "title": "Gemini 3 Pro und GPT-5 scheitern noch an komplexen Physik-Aufgaben",
+      "description": "Ein neuer Benchmark namens \"CritPt\" konfrontiert KI-Modelle mit physikalischer Forschung auf dem Niveau von Doktoranden. Die Ergebnisse zeigen, dass selbst führende KI-Modelle wie Gemini 3 Pro und GPT",
+      "link": "https://the-decoder.de/gemini-3-pro-und-gpt-5-scheitern-noch-an-komplexen-physik-aufgaben/",
+      "date": "2025-11-23T13:33:07.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Anthropic-Forschung: Wenn KI-Modelle mogeln, lernen sie auch zu täuschen und zu sabotieren",
       "description": "Neue Untersuchungen von Anthropic zeigen, dass sogenanntes „Reward Hacking“ bei KI-Modellen drastische Folgen haben kann. In einem Experiment entwickelte ein Modell spontan betrügerische Verhaltenswei",
@@ -90,15 +99,6 @@
       "source": "Google AI",
       "category": "große-modelle",
       "language": "en"
-    },
-    {
-      "title": "OpenAI unter Druck: Neues KI-Modell \"Shallotpeat\" soll Googles Vorsprung aufholen",
-      "description": "OpenAI steht unter Druck: Ein internes Memo zeigt, wie Sam Altman auf Googles Vorsprung mit Gemini 3 reagiert – und mit welchem neuen Modell OpenAI gegensteuern will.\nDer Artikel OpenAI unter Druck: N",
-      "link": "https://the-decoder.de/openai-unter-druck-neues-ki-modell-shallotpeat-soll-googles-vorsprung-aufholen/",
-      "date": "2025-11-21T14:37:02.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
     },
     {
       "title": "OpenAI and Foxconn collaborate to strengthen U.S. manufacturing across the AI supply chain",
