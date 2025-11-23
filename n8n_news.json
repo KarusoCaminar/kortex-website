@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-11-23T10:21:42.485Z",
+  "lastUpdated": "2025-11-23T12:39:46.078Z",
   "news": [
+    {
+      "title": "Anthropic-Forschung: Wenn KI-Modelle mogeln, lernen sie auch zu täuschen und zu sabotieren",
+      "description": "Neue Untersuchungen von Anthropic zeigen, dass sogenanntes „Reward Hacking“ bei KI-Modellen drastische Folgen haben kann. In einem Experiment entwickelte ein Modell spontan betrügerische Verhaltenswei",
+      "link": "https://the-decoder.de/anthropic-forschung-wenn-ki-modelle-mogeln-lernen-sie-auch-zu-taeuschen-und-zu-sabotieren/",
+      "date": "2025-11-23T11:51:04.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Weiße Haus stoppt offenbar Vorstoß zur Aushebelung von Bundesstaaten-KI-Gesetzen",
       "description": "Das Weiße Haus hat einen Entwurf für ein Dekret pausiert, das Bundesrecht gegenüber einzelstaatlichen KI-Gesetzen durchsetzen sollte.\nDer Artikel Weiße Haus stoppt offenbar Vorstoß zur Aushebelung von",
@@ -87,15 +96,6 @@
       "description": "OpenAI steht unter Druck: Ein internes Memo zeigt, wie Sam Altman auf Googles Vorsprung mit Gemini 3 reagiert – und mit welchem neuen Modell OpenAI gegensteuern will.\nDer Artikel OpenAI unter Druck: N",
       "link": "https://the-decoder.de/openai-unter-druck-neues-ki-modell-shallotpeat-soll-googles-vorsprung-aufholen/",
       "date": "2025-11-21T14:37:02.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "OpenAI-Bericht will zeigen, wie GPT-5 Forschern heute schon Stunden an Arbeit spart",
-      "description": "OpenAI präsentiert mit \"GPT‑5 Science Acceleration\" eine Sammlung von Erfolgsgeschichten, in denen das eigene Modell bei Forschung hilft. Abseits des Fortschrittsnarrativs bietet das Papier vor allem",
-      "link": "https://the-decoder.de/openai-bericht-will-zeigen-wie-gpt-5-forschern-heute-schon-stunden-an-arbeit-spart/",
-      "date": "2025-11-21T12:56:24.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
