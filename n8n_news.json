@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2025-11-24T18:34:46.181Z",
+  "lastUpdated": "2025-11-24T20:26:50.110Z",
   "news": [
+    {
+      "title": "Anthropic stellt Claude Opus 4.5 vor und beansprucht Führung bei Coding- und Agenten-Benchmarks",
+      "description": "Anthropic bringt mit Claude Opus 4.5 sein neues Spitzenmodell auf den Markt. Laut dem Unternehmen setzt es bei Software-Engineering-Benchmarks neue Bestwerte, soll effizienter rechnen und erhält zusät",
+      "link": "https://the-decoder.de/anthropic-stellt-claude-opus-4-5-vor-und-beansprucht-fuehrung-bei-coding-und-agenten-benchmarks/",
+      "date": "2025-11-24T20:06:09.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "ChatGPT wird zum Einkaufs-Agenten, der autonom Produkte recherchiert und vergleicht",
+      "description": "Von drauß’ vom Walde komm ich her, ich muss euch sagen, es weihnachtet sehr – und GPT-5 mini weiß auch schon, was ihr euch wünscht. OpenAI startet pünktlich zum Fest einen neuen Shopping-Agenten, der",
+      "link": "https://the-decoder.de/chatgpt-wird-zum-einkaufs-agenten-der-autonom-produkte-recherchiert-und-vergleicht/",
+      "date": "2025-11-24T18:44:54.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Publish or Perish 2.0: Wenn generative KI das wissenschaftliche Vertrauen zerstört",
       "description": "Die aktuelle Begutachtungsphase für die nächste große KI-Konferenz offenbart tiefe Risse im wissenschaftlichen Betrieb. Während Forschende von Elite-Universitäten KI-generierte Quellen erfinden, lasse",
@@ -60,24 +78,6 @@
       "description": "Forscher stellen ein neues Framework vor, das verschiedene KI-Agenten gemeinsam trainieren kann. Die Methode soll komplexe Aufgaben durch spezialisierte Rollen und Teamwork besser lösen.\nDer Artikel N",
       "link": "https://the-decoder.de/neues-trainingsverfahren-laesst-ki-agenten-besser-im-team-arbeiten/",
       "date": "2025-11-23T08:58:42.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Neues Lernmodell von Google soll katastrophales Vergessen in KI-Systemen stoppen",
-      "description": "Google Research hat ein neues Lernparadigma namens \"Nested Learning\" entwickelt, das KI-Modelle als verschachtelte Optimierungsprobleme betrachtet. Der Ansatz soll das Problem des katastrophalen Verge",
-      "link": "https://the-decoder.de/neues-lernmodell-von-google-soll-katastrophales-vergessen-in-ki-systemen-stoppen/",
-      "date": "2025-11-22T16:32:39.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Google will KI-Leistung in vier bis fünf Jahren um den Faktor 1000 steigern",
-      "description": "Google muss seine KI-Infrastruktur schneller ausbauen als je zuvor. Interne Unterlagen zeigen: Der Konzern will die Leistung in wenigen Jahren um den Faktor 1000 steigern, und das bei ähnlichen Kosten",
-      "link": "https://the-decoder.de/google-will-ki-leistung-in-vier-bis-fuenf-jahren-um-den-faktor-1000-steigern/",
-      "date": "2025-11-22T13:15:50.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
