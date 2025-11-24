@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-11-24T14:24:48.594Z",
+  "lastUpdated": "2025-11-24T16:26:50.606Z",
   "news": [
+    {
+      "title": "Publish or Perish 2.0: Wenn generative KI das wissenschaftliche Vertrauen zerstört",
+      "description": "Die aktuelle Begutachtungsphase für die nächste große KI-Konferenz offenbart tiefe Risse im wissenschaftlichen Betrieb. Während Forschende von Elite-Universitäten KI-generierte Quellen erfinden, lasse",
+      "link": "https://the-decoder.de/publish-or-perish-2-0-wenn-generative-ki-das-wissenschaftliche-vertrauen-zerstoert/",
+      "date": "2025-11-24T16:09:20.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Versicherer wollen KI-Risiken aus Policen ausschließen",
       "description": "Große Versicherer wie AIG, Great American und WR Berkley haben laut der Financial Times bei US-Behörden Anträge gestellt, um KI-Risiken aus Unternehmenspolicen ausschließen zu dürfen.\nDer Artikel Vers",
@@ -69,15 +78,6 @@
       "description": "Wer noch nach Anwendungsszenarien für generative KI sucht, kann einige Tipps bei Claude finden.\nDer Artikel Ideen für generative KI-Nutzung: Claude zeigt vielseitige Anwendungen für Alltag und Beruf e",
       "link": "https://the-decoder.de/ideen-fuer-generative-ki-nutzung-claude-zeigt-vielseitige-anwendungen-fuer-alltag-und-beruf/",
       "date": "2025-11-22T12:17:01.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Nvidia-Chef: \"Im Grunde halten wir den Planeten zusammen\"",
-      "description": "Nvidia sitzt in der Falle: Liefert der Konzern starke Zahlen, gilt das als Beweis einer wachsenden KI-Blase. Fällt der Börsenbericht schwächer aus, droht der Kollaps der Weltwirtschaft. Das jedenfalls",
-      "link": "https://the-decoder.de/nvidia-chef-im-grunde-halten-wir-den-planeten-zusammen/",
-      "date": "2025-11-22T11:09:37.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
