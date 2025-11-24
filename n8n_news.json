@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-11-24T20:26:50.110Z",
+  "lastUpdated": "2025-11-24T22:21:48.352Z",
   "news": [
+    {
+      "title": "AWS will bis zu 50 Milliarden US-Dollar in US-Daten-Souveränität investieren",
+      "description": "Amazon will bis zu 50 Milliarden US-Dollar in den Ausbau seiner KI- und Supercomputing-Infrastruktur für US-Regierungsbehörden investieren.\nDer Artikel AWS will bis zu 50 Milliarden US-Dollar in US-Da",
+      "link": "https://the-decoder.de/aws-will-bis-zu-50-milliarden-us-dollar-in-us-daten-souveraenitaet-investieren/",
+      "date": "2025-11-24T20:35:43.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Anthropic stellt Claude Opus 4.5 vor und beansprucht Führung bei Coding- und Agenten-Benchmarks",
       "description": "Anthropic bringt mit Claude Opus 4.5 sein neues Spitzenmodell auf den Markt. Laut dem Unternehmen setzt es bei Software-Engineering-Benchmarks neue Bestwerte, soll effizienter rechnen und erhält zusät",
@@ -69,15 +78,6 @@
       "description": "Das Weiße Haus hat einen Entwurf für ein Dekret pausiert, das Bundesrecht gegenüber einzelstaatlichen KI-Gesetzen durchsetzen sollte.\nDer Artikel Weiße Haus stoppt offenbar Vorstoß zur Aushebelung von",
       "link": "https://the-decoder.de/weisse-haus-stoppt-offenbar-vorstoss-zur-aushebelung-von-bundesstaaten-ki-gesetzen/",
       "date": "2025-11-23T09:54:43.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Neues Trainingsverfahren lässt KI-Agenten besser im Team arbeiten",
-      "description": "Forscher stellen ein neues Framework vor, das verschiedene KI-Agenten gemeinsam trainieren kann. Die Methode soll komplexe Aufgaben durch spezialisierte Rollen und Teamwork besser lösen.\nDer Artikel N",
-      "link": "https://the-decoder.de/neues-trainingsverfahren-laesst-ki-agenten-besser-im-team-arbeiten/",
-      "date": "2025-11-23T08:58:42.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
