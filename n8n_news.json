@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-11-24T16:26:50.606Z",
+  "lastUpdated": "2025-11-24T18:34:46.181Z",
   "news": [
     {
       "title": "Publish or Perish 2.0: Wenn generative KI das wissenschaftliche Vertrauen zerstört",
@@ -18,6 +18,15 @@
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
+    },
+    {
+      "title": "Introducing shopping research in ChatGPT",
+      "description": "Shopping research in ChatGPT helps you explore, compare, and discover products with personalized buyer’s guides that simplify decision-making",
+      "link": "https://openai.com/index/chatgpt-shopping-research",
+      "date": "2025-11-24T00:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
     },
     {
       "title": "Gemini 3 Pro und GPT-5 scheitern noch an komplexen Physik-Aufgaben",
@@ -69,15 +78,6 @@
       "description": "Google muss seine KI-Infrastruktur schneller ausbauen als je zuvor. Interne Unterlagen zeigen: Der Konzern will die Leistung in wenigen Jahren um den Faktor 1000 steigern, und das bei ähnlichen Kosten",
       "link": "https://the-decoder.de/google-will-ki-leistung-in-vier-bis-fuenf-jahren-um-den-faktor-1000-steigern/",
       "date": "2025-11-22T13:15:50.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Ideen für generative KI-Nutzung: Claude zeigt vielseitige Anwendungen für Alltag und Beruf",
-      "description": "Wer noch nach Anwendungsszenarien für generative KI sucht, kann einige Tipps bei Claude finden.\nDer Artikel Ideen für generative KI-Nutzung: Claude zeigt vielseitige Anwendungen für Alltag und Beruf e",
-      "link": "https://the-decoder.de/ideen-fuer-generative-ki-nutzung-claude-zeigt-vielseitige-anwendungen-fuer-alltag-und-beruf/",
-      "date": "2025-11-22T12:17:01.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
