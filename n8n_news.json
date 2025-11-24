@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-11-24T10:27:08.310Z",
+  "lastUpdated": "2025-11-24T12:49:59.571Z",
   "news": [
+    {
+      "title": "Versicherer wollen KI-Risiken aus Policen ausschließen",
+      "description": "Große Versicherer wie AIG, Great American und WR Berkley haben laut der Financial Times bei US-Behörden Anträge gestellt, um KI-Risiken aus Unternehmenspolicen ausschließen zu dürfen.\nDer Artikel Vers",
+      "link": "https://the-decoder.de/versicherer-wollen-ki-risiken-aus-policen-ausschliessen/",
+      "date": "2025-11-24T11:46:27.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Gemini 3 Pro und GPT-5 scheitern noch an komplexen Physik-Aufgaben",
       "description": "Ein neuer Benchmark namens \"CritPt\" konfrontiert KI-Modelle mit physikalischer Forschung auf dem Niveau von Doktoranden. Die Ergebnisse zeigen, dass selbst führende KI-Modelle wie Gemini 3 Pro und GPT",
@@ -69,15 +78,6 @@
       "description": "Nvidia sitzt in der Falle: Liefert der Konzern starke Zahlen, gilt das als Beweis einer wachsenden KI-Blase. Fällt der Börsenbericht schwächer aus, droht der Kollaps der Weltwirtschaft. Das jedenfalls",
       "link": "https://the-decoder.de/nvidia-chef-im-grunde-halten-wir-den-planeten-zusammen/",
       "date": "2025-11-22T11:09:37.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Forscher basteln an Webseiten für KI-Agenten",
-      "description": "Forscher der TU Darmstadt haben mit VOIX ein Framework entwickelt, das Websites um zwei neue HTML‑Elemente erweitert. Dadurch können KI‑Agenten direkt erkennen, welche Aktionen möglich sind, statt müh",
-      "link": "https://the-decoder.de/forscher-basteln-an-webseiten-fuer-ki-agenten/",
-      "date": "2025-11-22T09:48:13.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
