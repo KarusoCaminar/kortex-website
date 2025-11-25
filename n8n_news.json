@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-11-25T12:49:30.803Z",
+  "lastUpdated": "2025-11-25T14:24:13.255Z",
   "news": [
+    {
+      "title": "OpenAI riskierte für Wachstum und Engagement die psychische Gesundheit einiger Nutzer",
+      "description": "Ein Bericht der New York Times enthüllt, wie OpenAI ChatGPT auf Nutzerbindung trimmt. Das Resultat waren gefährliche \"Ja-Sager\"-Modelle, die Wahnvorstellungen verstärkten und in Einzelfällen tragische",
+      "link": "https://the-decoder.de/openai-riskierte-fuer-wachstum-und-engagement-die-psychische-gesundheit-einiger-nutzer/",
+      "date": "2025-11-25T12:57:23.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "\"Genesis Mission\" soll US‑Daten für KI‑Modelle bündeln",
       "description": "US‑Präsident Donald Trump hat am Montag eine Anordnung unterschrieben, die eine gemeinsame KI‑Plattform für staatliche Forschungsdaten starten soll.\nDer Artikel \"Genesis Mission\" soll US‑Daten für KI‑",
@@ -81,15 +90,6 @@
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
-    },
-    {
-      "title": "Gemini 3 Pro und GPT-5 scheitern noch an komplexen Physik-Aufgaben",
-      "description": "Ein neuer Benchmark namens \"CritPt\" konfrontiert KI-Modelle mit physikalischer Forschung auf dem Niveau von Doktoranden. Die Ergebnisse zeigen, dass selbst führende KI-Modelle wie Gemini 3 Pro und GPT",
-      "link": "https://the-decoder.de/gemini-3-pro-und-gpt-5-scheitern-noch-an-komplexen-physik-aufgaben/",
-      "date": "2025-11-23T13:33:07.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
     },
     {
       "title": "Reducing EV range anxiety: How a simple AI model predicts port availability",
