@@ -45,11 +45,10 @@ document.addEventListener('DOMContentLoaded', () => {
       const payload = {};
       formData.forEach((v,k) => payload[k] = v);
 
+      const messageContainer = form.nextElementSibling;
+
       try {
-        // n8n Webhook Integration - Unbegrenzte Submissions + KI + E-Mail
-        const n8nWebhookUrl = 'https://n8n2.kortex-system.de/webhook/016e0a41-9748-47c9-8ca9-debc40463598'; 
-        
-        const res = await fetch(n8nWebhookUrl, {
+        const res = await fetch(config.contactFormUrl, {
           method: 'POST',
           headers: {'Content-Type':'application/json', 'Accept': 'application/json'},
           body: JSON.stringify(payload)
@@ -82,8 +81,26 @@ document.addEventListener('DOMContentLoaded', () => {
         const currentLang = window.i18n ? window.i18n.getCurrentLanguage() : 'de';
         const successMsg = currentLang === 'en' 
           ? 'Thank you — Your request has been submitted. We will contact you by email.'
-          : 'Danke — Ihre Anfrage wurde übermittelt. Wir melden uns per E-Mail.';
-        alert(successMsg);
+          : 'Vielen Dank! Ihre Anfrage wurde erfolgreich übermittelt.';
+
+        if (messageContainer) {
+          messageContainer.innerHTML = `<div class="form-message success">${successMsg}</div>`;
+        } else {
+          // Fallback if no message container is found
+          const DYNAMIC_MESSAGE_ID = 'dynamic-form-message';
+          let dynamicMessageContainer = document.getElementById(DYNAMIC_MESSAGE_ID);
+          if (!dynamicMessageContainer) {
+            dynamicMessageContainer = document.createElement('div');
+            dynamicMessageContainer.id = DYNAMIC_MESSAGE_ID;
+            dynamicMessageContainer.style.cssText = 'position: fixed; top: 20px; right: 20px; z-index: 10000;';
+            document.body.appendChild(dynamicMessageContainer);
+          }
+          const messageDiv = document.createElement('div');
+          messageDiv.className = 'form-message success';
+          messageDiv.textContent = successMsg;
+          dynamicMessageContainer.appendChild(messageDiv);
+          setTimeout(() => messageDiv.remove(), 5000);
+        }
         form.reset();
         
       } catch(err) {
@@ -93,7 +110,25 @@ document.addEventListener('DOMContentLoaded', () => {
         const errorMsg = currentLang === 'en'
           ? 'There was an error submitting. Please try again later or contact us directly: info@kortex-system.com'
           : 'Es gab einen Fehler beim Absenden. Bitte versuchen Sie es später erneut oder kontaktieren Sie uns direkt: info@kortex-system.com';
-        alert(errorMsg);
+
+        if (messageContainer) {
+          messageContainer.innerHTML = `<div class="form-message error">${errorMsg}</div>`;
+        } else {
+          // Fallback for a global message
+           const DYNAMIC_MESSAGE_ID = 'dynamic-form-message';
+          let dynamicMessageContainer = document.getElementById(DYNAMIC_MESSAGE_ID);
+          if (!dynamicMessageContainer) {
+            dynamicMessageContainer = document.createElement('div');
+            dynamicMessageContainer.id = DYNAMIC_MESSAGE_ID;
+            dynamicMessageContainer.style.cssText = 'position: fixed; top: 20px; right: 20px; z-index: 10000;';
+            document.body.appendChild(dynamicMessageContainer);
+          }
+          const messageDiv = document.createElement('div');
+          messageDiv.className = 'form-message error';
+          messageDiv.textContent = errorMsg;
+          dynamicMessageContainer.appendChild(messageDiv);
+          setTimeout(() => messageDiv.remove(), 5000);
+        }
         
       } finally {
         if(submitBtn){

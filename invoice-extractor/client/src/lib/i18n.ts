@@ -257,7 +257,7 @@ const translations: TranslationDict = {
   },
 };
 
-type Language = "de" | "en";
+export type Language = "de" | "en";
 
 class I18n {
   private currentLanguage: Language = "de";
