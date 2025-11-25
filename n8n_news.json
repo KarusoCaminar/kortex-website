@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-11-25T04:29:09.662Z",
+  "lastUpdated": "2025-11-25T06:36:06.977Z",
   "news": [
+    {
+      "title": "Inside JetBrains—the company reshaping how the world writes code",
+      "description": "JetBrains is integrating GPT-5 across its coding tools, helping millions of developers design, reason, and build software faster.",
+      "link": "https://openai.com/index/jetbrains-2025",
+      "date": "2025-11-25T00:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
     {
       "title": "AWS will bis zu 50 Milliarden US-Dollar in US-Daten-Souveränität investieren",
       "description": "Amazon will bis zu 50 Milliarden US-Dollar in den Ausbau seiner KI- und Supercomputing-Infrastruktur für US-Regierungsbehörden investieren.\nDer Artikel AWS will bis zu 50 Milliarden US-Dollar in US-Da",
@@ -47,18 +56,18 @@
       "language": "de"
     },
     {
-      "title": "GPT-5 and the future of mathematical discovery",
-      "description": "UCLA Professor Ernest Ryu and GPT-5 solved a key question in optimization theory, showcasing AI’s role in accelerating mathematical discovery.",
-      "link": "https://openai.com/index/gpt-5-mathematical-discovery",
+      "title": "Introducing shopping research in ChatGPT",
+      "description": "Shopping research in ChatGPT helps you explore, compare, and discover products with personalized buyer’s guides that simplify decision-making",
+      "link": "https://openai.com/index/chatgpt-shopping-research",
       "date": "2025-11-24T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
     },
     {
-      "title": "Introducing shopping research in ChatGPT",
-      "description": "Shopping research in ChatGPT helps you explore, compare, and discover products with personalized buyer’s guides that simplify decision-making",
-      "link": "https://openai.com/index/chatgpt-shopping-research",
+      "title": "GPT-5 and the future of mathematical discovery",
+      "description": "UCLA Professor Ernest Ryu and GPT-5 solved a key question in optimization theory, showcasing AI’s role in accelerating mathematical discovery.",
+      "link": "https://openai.com/index/gpt-5-mathematical-discovery",
       "date": "2025-11-24T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
@@ -123,15 +132,6 @@
       "description": "OpenAI introduces the first research cases showing how GPT-5 accelerates scientific progress across math, physics, biology, and computer science. Explore how AI and researchers collaborate to generate",
       "link": "https://openai.com/index/accelerating-science-gpt-5",
       "date": "2025-11-20T00:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "Strengthening our safety ecosystem with external testing",
-      "description": "OpenAI works with independent experts to evaluate frontier AI systems. Third-party testing strengthens safety, validates safeguards, and increases transparency in how we assess model capabilities and",
-      "link": "https://openai.com/index/strengthening-safety-with-external-testing",
-      "date": "2025-11-19T12:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
