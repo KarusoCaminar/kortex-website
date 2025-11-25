@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-11-25T18:35:17.791Z",
+  "lastUpdated": "2025-11-25T20:26:42.064Z",
   "news": [
+    {
+      "title": "Black Forest Labs veröffentlicht Bildmodell Flux 2 mit Multi-Referenz-Funktion",
+      "description": "Das deutsche KI-Start-up Black Forest Labs bringt mit Flux 2 seine neue Generation von Bild-KI-Modellen auf den Markt. Die Modelle unterstützen hochauflösende Bildbearbeitung, Multi-Referenz-Eingaben",
+      "link": "https://the-decoder.de/black-forest-labs-veroeffentlicht-bildmodell-flux-2-mit-multi-referenz-funktion/",
+      "date": "2025-11-25T18:55:58.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "ChatGPT verschmilzt Voice- und Text-Chat",
       "description": "OpenAI hat ChatGPT Voice direkt in den Text-Chat integriert.\nDer Artikel ChatGPT verschmilzt Voice- und Text-Chat erschien zuerst auf The Decoder.",
@@ -36,6 +45,15 @@
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
+    },
+    {
+      "title": "Our approach to mental health-related litigation",
+      "description": "We’re sharing our approach to mental health-related litigation. O handle sensitive cases with care, transparency, and respect while continuing to strengthen safety and support in ChatGPT.",
+      "link": "https://openai.com/index/mental-health-litigation-approach",
+      "date": "2025-11-25T12:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
     },
     {
       "title": "\"Genesis Mission\" soll US‑Daten für KI‑Modelle bündeln",
@@ -114,24 +132,6 @@
       "description": "OpenAI and Foxconn are collaborating to design and manufacture next-generation AI infrastructure hardware in the U.S. The partnership will develop multiple generations of data-center systems, strength",
       "link": "https://openai.com/index/openai-and-foxconn-collaborate",
       "date": "2025-11-20T14:50:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "Helping 1,000 small businesses build with AI",
-      "description": "OpenAI is partnering with DoorDash, SCORE, and local organizations to help 1,000 small businesses build with AI. The Small Business AI Jam gives Main Street business owners hands-on tools and training",
-      "link": "https://openai.com/index/small-business-ai-jam",
-      "date": "2025-11-20T06:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "Early experiments in accelerating science with GPT-5",
-      "description": "OpenAI introduces the first research cases showing how GPT-5 accelerates scientific progress across math, physics, biology, and computer science. Explore how AI and researchers collaborate to generate",
-      "link": "https://openai.com/index/accelerating-science-gpt-5",
-      "date": "2025-11-20T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
