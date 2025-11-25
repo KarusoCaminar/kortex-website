@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-11-25T08:32:25.680Z",
+  "lastUpdated": "2025-11-25T10:27:50.485Z",
   "news": [
+    {
+      "title": "\"Genesis Mission\" soll US‑Daten für KI‑Modelle bündeln",
+      "description": "US‑Präsident Donald Trump hat am Montag eine Anordnung unterschrieben, die eine gemeinsame KI‑Plattform für staatliche Forschungsdaten starten soll.\nDer Artikel \"Genesis Mission\" soll US‑Daten für KI‑",
+      "link": "https://the-decoder.de/genesis-mission-soll-us%e2%80%91daten-fuer-ki%e2%80%91modelle-buendeln/",
+      "date": "2025-11-25T09:49:29.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Inside JetBrains—the company reshaping how the world writes code",
       "description": "JetBrains is integrating GPT-5 across its coding tools, helping millions of developers design, reason, and build software faster.",
@@ -87,15 +96,6 @@
       "description": "Neue Untersuchungen von Anthropic zeigen, dass sogenanntes „Reward Hacking“ bei KI-Modellen drastische Folgen haben kann. In einem Experiment entwickelte ein Modell spontan betrügerische Verhaltenswei",
       "link": "https://the-decoder.de/anthropic-forschung-wenn-ki-modelle-mogeln-lernen-sie-auch-zu-taeuschen-und-zu-sabotieren/",
       "date": "2025-11-23T11:51:04.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Weiße Haus stoppt offenbar Vorstoß zur Aushebelung von Bundesstaaten-KI-Gesetzen",
-      "description": "Das Weiße Haus hat einen Entwurf für ein Dekret pausiert, das Bundesrecht gegenüber einzelstaatlichen KI-Gesetzen durchsetzen sollte.\nDer Artikel Weiße Haus stoppt offenbar Vorstoß zur Aushebelung von",
-      "link": "https://the-decoder.de/weisse-haus-stoppt-offenbar-vorstoss-zur-aushebelung-von-bundesstaaten-ki-gesetzen/",
-      "date": "2025-11-23T09:54:43.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
