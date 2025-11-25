@@ -530,7 +530,7 @@
   };
   
   // Lade News und cache sie
-  async function fetchAndCacheNews(container, forceRefresh = false) {
+  async function fetchAndCacheNews(container) {
     try {
       // Zeige Loading-Indikator
       const loadingText = window.i18n?.t('news.panel.loading') || 'Lade aktuelle AI-News...';
@@ -540,35 +540,39 @@
         </svg>
         ${loadingText}
       </div>`;
+
+      // Lädt die News-URL aus der zentralen Konfiguration
+      const newsUrl = window.appConfig?.newsApiUrl || '/n8n_news.json';
       
-      const newsData = await fetchAINewsFromMultipleSources(forceRefresh);
+      const response = await fetch(newsUrl, {
+        cache: 'no-cache', // Immer die neuste Version anfragen
+        signal: AbortSignal.timeout(8000) // 8 Sekunden Timeout
+      });
+
+      if (!response.ok) {
+        throw new Error(`HTTP error! status: ${response.status}`);
+      }
+
+      const data = await response.json();
+      const newsData = data.news || [];
       
       // Cache die News
-      if (newsData && newsData.length > 0) {
+      if (newsData.length > 0) {
         const cacheData = {
           news: newsData,
-          timestamp: Date.now(),
-          source: newsData[0]?.source || 'unknown' // Speichere Quelle für Debugging
+          timestamp: Date.now()
         };
         localStorage.setItem('ai-news-cache', JSON.stringify(cacheData));
-        console.log(`✅ ${newsData.length} News geladen und gecacht (Quelle: ${cacheData.source})`);
-        console.log(`📅 Cache-Timestamp: ${new Date(cacheData.timestamp).toLocaleString()}`);
-      } else {
-        console.warn('⚠️ Keine News-Daten erhalten');
-      }
-      
-      if (newsData && newsData.length > 0) {
+        console.log(`✅ ${newsData.length} News aus ${newsUrl} geladen und gecacht.`);
+
         displayNews(newsData, container);
       } else {
+        console.warn('⚠️ Keine News in der JSON-Datei gefunden. Zeige Demo-News.');
         container.innerHTML = getDemoAINews();
       }
+
     } catch (error) {
       console.error('❌ Fehler beim Laden der KI-News:', error);
-      console.error('📋 Fehler-Details:', {
-        message: error.message,
-        stack: error.stack,
-        timestamp: new Date().toISOString()
-      });
       container.className = 'ai-news-error';
       const errorText = window.i18n?.t('news.panel.error') || '⚠️ News konnten nicht geladen werden. Bitte versuchen Sie es später erneut.';
       container.innerHTML = errorText;
@@ -577,9 +581,28 @@
   
   // Zeige News an
   function displayNews(newsData, container) {
+    const lang = window.i18n?.getCurrentLanguage() || 'de';
+
+    // Filtere nach Sprache
+    const filteredNews = newsData.filter(item => item.language === lang);
+
+    // Wenn keine Nachrichten für die ausgewählte Sprache vorhanden sind, zeige eine Meldung oder Demo-News
+    if (filteredNews.length === 0) {
+        console.warn(`⚠️ Keine News für die Sprache "${lang}" gefunden. Zeige Demo-News.`);
+        container.innerHTML = getDemoAINews();
+        return;
+    }
+
+    // Sortiere nach Datum (neueste zuerst) und limitiere auf 15
+    const sortedNews = filteredNews.sort((a, b) => {
+      const dateA = new Date(a.date || a.pubDate || 0).getTime();
+      const dateB = new Date(b.date || b.pubDate || 0).getTime();
+      return dateB - dateA;
+    }).slice(0, 15);
+
     const readMoreText = window.i18n?.t('news.item.readMore') || '→';
     container.className = 'ai-news-panel-content';
-    container.innerHTML = newsData.map(item => `
+    container.innerHTML = sortedNews.map(item => `
       <div class="ai-news-item" onclick="window.open('${item.link || '#'}', '_blank')">
         <h4>${escapeHtml(item.title)}</h4>
         <p>${escapeHtml((item.description || item.summary || '').substring(0, 120))}${(item.description || item.summary || '').length > 120 ? '...' : ''}</p>
@@ -605,434 +628,6 @@
         </div>
       </div>
     `).join('');
-  }
-  
-  // Übersetzungsfunktion (Google Translate API - kostenlos)
-  async function translateText(text, sourceLang, targetLang) {
-    if (!text || text.length === 0 || sourceLang === targetLang) return text;
-    
-    try {
-      // Google Translate API (kostenlos für kleine Volumen)
-      const url = `https://translate.googleapis.com/translate_a/single?client=gtx&sl=${sourceLang}&tl=${targetLang}&dt=t&q=${encodeURIComponent(text)}`;
-      
-      const response = await fetch(url);
-      if (response.ok) {
-        const data = await response.json();
-        if (data && data[0] && data[0][0]) {
-          return data[0].map(item => item[0]).join('');
-        }
-      }
-    } catch (e) {
-      console.warn('⚠️ Übersetzungsfehler:', e.message);
-    }
-    
-    return text; // Fallback: Original-Text
-  }
-  
-  // RSS Feed Parser Funktion
-  function parseRSSFeed(xmlText, source, maxItems = 5) {
-    const news = [];
-    try {
-      const parser = new DOMParser();
-      const xmlDoc = parser.parseFromString(xmlText, 'text/xml');
-      const items = xmlDoc.querySelectorAll('item');
-      
-      items.forEach((item, index) => {
-        if (index < maxItems) {
-          const title = item.querySelector('title')?.textContent?.trim() || '';
-          const description = item.querySelector('description')?.textContent?.replace(/<[^>]*>/g, '').trim().substring(0, 200) || '';
-          const link = item.querySelector('link')?.textContent?.trim() || '';
-          const pubDate = item.querySelector('pubDate')?.textContent?.trim() || '';
-          
-          // Filtere nur relevante AI-News
-          const titleLower = title.toLowerCase();
-          const descLower = description.toLowerCase();
-          
-          // Erweiterte Keywords für AI, KMU und Branchenrelevanz
-          const aiKeywords = [
-            'ai', 'artificial intelligence', 'machine learning', 'llm', 'gemini', 'gpt', 'claude', 
-            'automation', 'workflow', 'neural', 'deep learning', 'ki', 'kuenstliche intelligenz',
-            'mittelstand', 'kmu', 'sme', 'digitalisierung', 'industrie 4.0', 'prozessautomatisierung',
-            'rpa', 'robot process automation', 'chatbot', 'assistenzsystem', 'assistenzsysteme',
-            'datenanalyse', 'predictive analytics', 'computer vision', 'nlp', 'natural language processing'
-          ];
-          const isRelevant = aiKeywords.some(keyword => titleLower.includes(keyword) || descLower.includes(keyword));
-          
-          if (isRelevant && title && link) {
-            // Bestimme Kategorie (erweitert für KMU und Branchen)
-            let category = 'große-modelle';
-            if (titleLower.includes('workflow') || titleLower.includes('n8n') || titleLower.includes('automation') || titleLower.includes('prozessautomatisierung')) {
-              category = 'workflow-tools';
-            } else if (titleLower.includes('sales') || titleLower.includes('hubspot') || titleLower.includes('crm') || titleLower.includes('vertrieb')) {
-              category = 'sales-tools';
-            } else if (titleLower.includes('mittelstand') || titleLower.includes('kmu') || titleLower.includes('sme') || titleLower.includes('unternehmen')) {
-              category = 'kmu-relevanz';
-            } else if (titleLower.includes('industrie') || titleLower.includes('produktion') || titleLower.includes('manufacturing')) {
-              category = 'industrie-4.0';
-            } else if (titleLower.includes('dienstleistung') || titleLower.includes('service') || titleLower.includes('beratung')) {
-              category = 'dienstleister-tools';
-            }
-            
-            news.push({
-              title: title,
-              description: description,
-              date: pubDate ? new Date(pubDate) : new Date(),
-              link: link,
-              source: source,
-              category: category,
-              language: 'en'
-            });
-          }
-        }
-      });
-    } catch (e) {
-      console.warn(`Fehler beim Parsen von ${source}:`, e);
-    }
-    return news;
-  }
-  
-  async function fetchAINewsFromMultipleSources(forceRefresh = false) {
-    const news = [];
-    const lang = window.i18n?.getCurrentLanguage() || 'de';
-    const maxAge = 30 * 24 * 60 * 60 * 1000; // 30 Tage
-    
-    // ===== SCHRITT 1: GitHub n8n_news.json (Primärquelle) =====
-    let githubSuccess = false;
-    try {
-      const githubNewsUrl = 'https://raw.githubusercontent.com/KarusoCaminar/kortex-website/main/n8n_news.json';
-      console.log('🔄 [SCHRITT 1] Lade n8n_news.json aus GitHub Repo...', githubNewsUrl);
-      
-      const githubResponse = await fetch(githubNewsUrl, {
-        method: 'GET',
-        headers: { 'Accept': 'application/json' },
-        cache: 'no-cache',
-        signal: AbortSignal.timeout(5000) // 5 Sekunden Timeout
-      });
-      
-      if (githubResponse.ok) {
-        // Robusteres JSON-Parsing: Entferne führendes "=" falls vorhanden (n8n Format-Problem)
-        const responseText = await githubResponse.text();
-        const cleanedText = responseText.trim().replace(/^=+/, '');
-        const githubData = JSON.parse(cleanedText);
-        
-        if (githubData && githubData.news && Array.isArray(githubData.news) && githubData.news.length > 0) {
-          const now = Date.now();
-          const validGithubNews = githubData.news
-            .filter(item => {
-              if (!item.title || !item.link) return false;
-              if (!item.date && !item.pubDate) return false;
-              const itemDate = new Date(item.date || item.pubDate).getTime();
-              const age = now - itemDate;
-              return age <= maxAge && age >= 0;
-            })
-            .map(async item => {
-              const itemLang = item.language || 'en';
-              
-              // Wenn News nicht in der gewählten Sprache ist, übersetze automatisch
-              if (itemLang !== lang && item.title) {
-                try {
-                  const titleTranslated = await translateText(item.title, itemLang, lang);
-                  const descTranslated = await translateText(item.description || '', itemLang, lang);
-                  
-                  return {
-                    title: titleTranslated || item.title.trim(),
-                    description: descTranslated || (item.description || ''),
-                    link: item.link.trim(),
-                    date: item.date || item.pubDate || new Date().toISOString(),
-                    source: item.source || 'GitHub n8n Feed',
-                    category: item.category || 'ai-news',
-                    language: lang
-                  };
-                } catch (e) {
-                  console.warn('⚠️ Übersetzungsfehler:', e.message);
-                }
-              }
-              
-              return {
-                title: item.title.trim(),
-                description: item.description || '',
-                link: item.link.trim(),
-                date: item.date || item.pubDate || new Date().toISOString(),
-                source: item.source || 'GitHub n8n Feed',
-                category: item.category || 'ai-news',
-                language: itemLang === lang ? lang : itemLang
-              };
-            });
-          
-          const translatedGithubNews = await Promise.all(validGithubNews);
-          const validTranslatedGithubNews = translatedGithubNews.filter(item => item && item.title && item.link);
-          
-          if (validTranslatedGithubNews.length > 0) {
-            console.log(`✅ [SCHRITT 1] GitHub n8n_news.json: ${validTranslatedGithubNews.length} News geladen und übersetzt (${lang})`);
-            news.push(...validTranslatedGithubNews);
-            githubSuccess = true;
-          } else {
-            console.warn('⚠️ [SCHRITT 1] GitHub n8n_news.json hat keine gültigen News');
-          }
-        } else {
-          console.warn('⚠️ [SCHRITT 1] GitHub n8n_news.json hat keine News-Daten');
-        }
-      } else {
-        console.warn(`⚠️ [SCHRITT 1] GitHub n8n_news.json nicht verfügbar (${githubResponse.status})`);
-      }
-    } catch (githubError) {
-      console.warn('⚠️ [SCHRITT 1] GitHub n8n_news.json Fehler:', githubError.message);
-    }
-    
-    // ===== SCHRITT 2: n8n Webhook (Fallback wenn GitHub leer) =====
-    if (!githubSuccess || news.length < 3) {
-      try {
-        const webhookUrl = 'https://n8n2.kortex-system.de/webhook/ai-news-feed';
-        console.log('🔄 [SCHRITT 2] Lade News vom n8n Webhook...', webhookUrl);
-        
-        const webhookResponse = await fetch(webhookUrl, {
-          method: 'GET',
-          headers: { 'Accept': 'application/json' },
-          cache: 'no-cache',
-          signal: AbortSignal.timeout(8000) // 8 Sekunden Timeout für Webhook
-        });
-        
-        if (webhookResponse.ok) {
-          const webhookData = await webhookResponse.json();
-          
-          if (webhookData && Array.isArray(webhookData) && webhookData.length > 0) {
-            const now = Date.now();
-            const validWebhookNews = webhookData
-              .filter(item => {
-                if (!item.title || !item.link) return false;
-                if (!item.date && !item.pubDate) return false;
-                const itemDate = new Date(item.date || item.pubDate).getTime();
-                const age = now - itemDate;
-                return age <= maxAge && age >= 0;
-              })
-              .map(async item => {
-                const itemLang = item.language || 'en';
-                
-                if (itemLang !== lang && item.title) {
-                  try {
-                    const titleTranslated = await translateText(item.title, itemLang, lang);
-                    const descTranslated = await translateText(item.description || '', itemLang, lang);
-                    
-                    return {
-                      title: titleTranslated || item.title.trim(),
-                      description: descTranslated || (item.description || ''),
-                      link: item.link.trim(),
-                      date: item.date || item.pubDate || new Date().toISOString(),
-                      source: item.source || 'n8n Webhook',
-                      category: item.category || 'ai-news',
-                      language: lang
-                    };
-                  } catch (e) {
-                    console.warn('⚠️ Übersetzungsfehler:', e.message);
-                  }
-                }
-                
-                return {
-                  title: item.title.trim(),
-                  description: item.description || '',
-                  link: item.link.trim(),
-                  date: item.date || item.pubDate || new Date().toISOString(),
-                  source: item.source || 'n8n Webhook',
-                  category: item.category || 'ai-news',
-                  language: itemLang === lang ? lang : itemLang
-                };
-              });
-            
-            const translatedWebhookNews = await Promise.all(validWebhookNews);
-            const validTranslatedWebhookNews = translatedWebhookNews.filter(item => item && item.title && item.link);
-            
-            if (validTranslatedWebhookNews.length > 0) {
-              console.log(`✅ [SCHRITT 2] n8n Webhook: ${validTranslatedWebhookNews.length} News geladen (${lang})`);
-              news.push(...validTranslatedWebhookNews);
-            }
-          }
-        }
-      } catch (webhookError) {
-        console.warn('⚠️ [SCHRITT 2] n8n Webhook Fehler:', webhookError.message);
-      }
-    }
-    
-    // ===== SCHRITT 3: RSS-Feed Fallback (nur wenn zu wenige News) =====
-    if (news.length < 3) {
-      console.log('🔄 [SCHRITT 3] Zu wenige News - lade RSS-Feeds als Fallback...');
-      const rssFeeds = [
-        { url: 'https://research.google/blog/rss/', source: 'Google AI' },
-        { url: 'https://openai.com/news/rss.xml', source: 'OpenAI' },
-        { url: 'https://the-decoder.de/feed/', source: 'The Decoder' }
-      ];
-      
-      for (const feed of rssFeeds) {
-        try {
-          const rssResponse = await fetch(feed.url, {
-            method: 'GET',
-            cache: 'no-cache',
-            signal: AbortSignal.timeout(5000)
-          });
-          
-          if (rssResponse.ok) {
-            const rssText = await rssResponse.text();
-            const rssNews = parseRSSFeed(rssText, feed.source);
-            
-            if (rssNews.length > 0) {
-              news.push(...rssNews);
-              console.log(`✅ [SCHRITT 3] RSS Feed ${feed.source}: ${rssNews.length} News geladen`);
-            }
-          }
-        } catch (rssError) {
-          console.warn(`⚠️ [SCHRITT 3] RSS Feed ${feed.source} Fehler:`, rssError.message);
-        }
-        
-        // Stoppe wenn genug News vorhanden
-        if (news.length >= 5) break;
-      }
-    }
-    
-    // ===== STATISCHER FALLBACK: Statische Fallback-News (nur wenn keine echten News vorhanden) =====
-    // Nur hinzufügen wenn weniger als 3 echte Nachrichten vorhanden sind
-    // WICHTIG: Diese News werden NUR angezeigt wenn GitHub n8n_news.json fehlschlägt
-    console.log(`📊 [DEBUG] Final News Count vor Fallback:`, {
-      total: news.length,
-      githubSuccess: githubSuccess,
-      lang: lang,
-      willAddFallback: news.length < 3
-    });
-    
-    if (news.length < 3) {
-      console.warn(`⚠️ Nur ${news.length} echte News gefunden (< 3) - füge Fallback-News hinzu`);
-      console.warn(`📋 [DEBUG] GitHub Success: ${githubSuccess}, News Count: ${news.length}`);
-      const aitoolsNews = [
-        {
-          title: lang === 'de' ? 'Fireflies AI: Meeting-Transkription & Analyse' : 'Fireflies AI: Meeting Transcription & Analysis',
-          description: lang === 'de' ? 'Fireflies AI automatisiert Meeting-Aufzeichnungen und extrahiert wichtige Punkte für Sales- und Projektteams.' : 'Fireflies AI automates meeting recordings and extracts key points for sales and project teams.',
-          date: new Date(Date.now() - 2 * 24 * 60 * 60 * 1000),
-          link: 'https://fireflies.ai',
-          source: 'Fireflies AI',
-          category: 'sales-tools',
-          language: lang
-        },
-        {
-          title: lang === 'de' ? 'HubSpot AI: Automatisierte Lead-Bewertung' : 'HubSpot AI: Automated Lead Scoring',
-          description: lang === 'de' ? 'HubSpot AI bewertet Leads automatisch und priorisiert die besten Verkaufschancen für Ihr Sales-Team.' : 'HubSpot AI automatically scores leads and prioritizes the best sales opportunities.',
-          date: new Date(Date.now() - 3 * 24 * 60 * 60 * 1000),
-          link: 'https://www.hubspot.com/products/ai',
-          source: 'HubSpot AI',
-          category: 'sales-tools',
-          language: lang
-        },
-        {
-          title: lang === 'de' ? 'Gemini 2.5 Flash: KI für den Mittelstand' : 'Gemini 2.5 Flash: AI for SMEs',
-          description: lang === 'de' ? 'Google\'s Gemini 2.5 Flash ermöglicht schnelle und kosteneffiziente KI-Verarbeitung für deutsche KMUs.' : 'Google\'s Gemini 2.5 Flash enables fast and cost-effective AI processing for SMEs.',
-          date: new Date(Date.now() - 1 * 24 * 60 * 60 * 1000),
-          link: 'https://deepmind.google/technologies/gemini/',
-          source: 'Google AI',
-          category: 'große-modelle',
-          language: lang
-        },
-        {
-          title: lang === 'de' ? 'Otter.ai: KI-gestützte Meeting-Notizen' : 'Otter.ai: AI-Powered Meeting Notes',
-          description: lang === 'de' ? 'Otter.ai erstellt automatisch Transkripte, Zusammenfassungen und Action Items aus Meetings.' : 'Otter.ai automatically creates transcripts, summaries, and action items from meetings.',
-          date: new Date(Date.now() - 4 * 24 * 60 * 60 * 1000),
-          link: 'https://otter.ai',
-          source: 'Otter.ai',
-          category: 'dienstleister-tools',
-          language: lang
-        },
-        {
-          title: lang === 'de' ? 'Salesforce Einstein: Predictive Analytics' : 'Salesforce Einstein: Predictive Analytics',
-          description: lang === 'de' ? 'Salesforce Einstein nutzt KI für Vorhersageanalysen und automatisiert Sales-Prozesse.' : 'Salesforce Einstein uses AI for predictive analytics and automates sales processes.',
-          date: new Date(Date.now() - 5 * 24 * 60 * 60 * 1000),
-          link: 'https://www.salesforce.com/products/einstein/overview/',
-          source: 'Salesforce',
-          category: 'sales-tools',
-          language: lang
-        }
-      ];
-      
-      // Filtere nach Sprache und füge hinzu (nur bis wir 5 Nachrichten haben)
-      aitoolsNews
-        .filter(item => item.language === lang)
-        .slice(0, Math.max(0, 5 - news.length))
-        .forEach(item => news.push(item));
-    }
-    
-    console.log(`📊 [DEBUG] Final News Count nach statischem Fallback:`, {
-      total: news.length,
-      lang: lang,
-      beforeKmu: news.length,
-      newsDates: news.map(n => ({
-        title: n.title?.substring(0, 40) || '(kein Titel)',
-        date: n.date || n.pubDate || '(kein Datum)',
-        age: n.date || n.pubDate ? Math.floor((Date.now() - new Date(n.date || n.pubDate).getTime()) / (24 * 60 * 60 * 1000)) + ' Tage' : 'unbekannt',
-        source: n.source || '(keine Quelle)'
-      }))
-    });
-    
-    // Deutsche KMU-relevante Quellen (falls Deutsch) - nur als Fallback wenn zu wenige News
-    if (lang === 'de' && news.length < 5) {
-      console.log(`📋 [DEBUG] Füge deutsche KMU-News hinzu (aktuell ${news.length} News)`);
-      const deutscheKmuNews = [
-        {
-          title: 'BMWK: KI-Förderung für Mittelstand',
-          description: 'Das BMWK informiert über KI-Förderprogramme und Digitalisierungsunterstützung für deutsche Mittelständler.',
-          date: new Date(Date.now() - 7 * 24 * 60 * 60 * 1000),
-          link: 'https://www.bmwk.de/Redaktion/DE/Dossier/kuenstliche-intelligenz.html',
-          source: 'BMWK',
-          category: 'kmu-relevanz',
-          language: 'de'
-        },
-        {
-          title: 'Mittelstand Digital: KI in der Produktion',
-          description: 'Wie KMUs KI für Prozessautomatisierung und Effizienzsteigerung in der Produktion einsetzen können.',
-          date: new Date(Date.now() - 10 * 24 * 60 * 60 * 1000),
-          link: 'https://www.digitale-technologien.de',
-          source: 'Mittelstand Digital',
-          category: 'industrie-4.0',
-          language: 'de'
-        }
-      ];
-      
-      deutscheKmuNews
-        .slice(0, Math.max(0, 5 - news.length))
-        .forEach(item => news.push(item));
-    }
-    
-    // Entferne Duplikate (nach Link)
-    const uniqueNews = news.filter((item, index, self) => 
-      index === self.findIndex(t => t.link === item.link)
-    );
-    
-    // Filtere alte Nachrichten heraus (max. 30 Tage alt)
-    const maxAgeFinal = 30 * 24 * 60 * 60 * 1000; // 30 Tage in Millisekunden
-    const now = Date.now();
-    const recentNews = uniqueNews.filter(item => {
-      const itemDate = new Date(item.date || item.pubDate || new Date()).getTime();
-      const age = now - itemDate;
-      return age <= maxAgeFinal && age >= 0; // Nur aktuelle News (nicht in der Zukunft)
-    });
-    
-    // Sortiere nach Datum (neueste zuerst) und limitiere auf 5
-    const sortedNews = recentNews.sort((a, b) => {
-      const dateA = new Date(a.date || a.pubDate || new Date()).getTime();
-      const dateB = new Date(b.date || b.pubDate || new Date()).getTime();
-      return dateB - dateA; // Neueste zuerst
-    }).slice(0, 5);
-    
-    console.log(`📊 [DEBUG] Final News für Anzeige:`, {
-      count: sortedNews.length,
-      sources: sortedNews.map(n => ({ 
-        title: n.title?.substring(0, 50) || '(kein Titel)', 
-        source: n.source || '(keine Quelle)', 
-        category: n.category || '(keine Kategorie)',
-        lang: n.language || '(keine Sprache)',
-        date: n.date || n.pubDate || '(kein Datum)',
-        age: n.date || n.pubDate ? Math.floor((Date.now() - new Date(n.date || n.pubDate).getTime()) / (24 * 60 * 60 * 1000)) + ' Tage alt' : 'unbekannt'
-      })),
-      lang: lang,
-      githubSuccess: githubSuccess,
-      cacheUsed: !forceRefresh && localStorage.getItem('ai-news-cache') ? 'JA (aus Cache)' : 'NEIN (frisch geladen)'
-    });
-    
-    return sortedNews;
   }
   
   function getDemoAINews() {

@@ -46,8 +46,11 @@ document.addEventListener('DOMContentLoaded', () => {
       formData.forEach((v,k) => payload[k] = v);
 
       try {
-        // n8n Webhook Integration - Unbegrenzte Submissions + KI + E-Mail
-        const n8nWebhookUrl = 'https://n8n2.kortex-system.de/webhook/016e0a41-9748-47c9-8ca9-debc40463598'; 
+        // Lädt die Webhook-URL aus der zentralen Konfiguration
+        const n8nWebhookUrl = window.appConfig?.n8nWebhookUrl;
+        if (!n8nWebhookUrl) {
+            throw new Error('n8n-Webhook-URL ist nicht konfiguriert.');
+        }
         
         const res = await fetch(n8nWebhookUrl, {
           method: 'POST',
@@ -78,22 +81,34 @@ document.addEventListener('DOMContentLoaded', () => {
           });
         }
         
-        // Dynamische Sprache für Erfolgs-Nachricht
-        const currentLang = window.i18n ? window.i18n.getCurrentLanguage() : 'de';
-        const successMsg = currentLang === 'en' 
-          ? 'Thank you — Your request has been submitted. We will contact you by email.'
-          : 'Danke — Ihre Anfrage wurde übermittelt. Wir melden uns per E-Mail.';
-        alert(successMsg);
+        // Erfolgs-Nachricht im Formular anzeigen
+        const messageContainer = form.querySelector('#form-message');
+        if (messageContainer) {
+            const currentLang = window.i18n ? window.i18n.getCurrentLanguage() : 'de';
+            const successMsg = currentLang === 'en'
+              ? 'Thank you! Your request has been submitted.'
+              : 'Vielen Dank! Ihre Anfrage wurde erfolgreich übermittelt.';
+            messageContainer.textContent = successMsg;
+            messageContainer.style.display = 'block';
+            messageContainer.style.backgroundColor = '#d1fae5'; // Grün
+            messageContainer.style.color = '#065f46'; // Dunkelgrün
+        }
         form.reset();
         
       } catch(err) {
         console.error('Contact submit error', err);
-        // Dynamische Sprache für Fehler-Nachricht
-        const currentLang = window.i18n ? window.i18n.getCurrentLanguage() : 'de';
-        const errorMsg = currentLang === 'en'
-          ? 'There was an error submitting. Please try again later or contact us directly: info@kortex-system.com'
-          : 'Es gab einen Fehler beim Absenden. Bitte versuchen Sie es später erneut oder kontaktieren Sie uns direkt: info@kortex-system.com';
-        alert(errorMsg);
+        // Fehler-Nachricht im Formular anzeigen
+        const messageContainer = form.querySelector('#form-message');
+        if (messageContainer) {
+            const currentLang = window.i18n ? window.i18n.getCurrentLanguage() : 'de';
+            const errorMsg = currentLang === 'en'
+              ? 'Error submitting the form. Please try again.'
+              : 'Fehler beim Senden des Formulars. Bitte versuchen Sie es erneut.';
+            messageContainer.textContent = errorMsg;
+            messageContainer.style.display = 'block';
+            messageContainer.style.backgroundColor = '#fee2e2'; // Rot
+            messageContainer.style.color = '#991b1b'; // Dunkelrot
+        }
         
       } finally {
         if(submitBtn){
