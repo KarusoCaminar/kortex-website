@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-11-24T22:21:48.352Z",
+  "lastUpdated": "2025-11-25T01:49:31.126Z",
   "news": [
     {
       "title": "AWS will bis zu 50 Milliarden US-Dollar in US-Daten-Souveränität investieren",
@@ -45,6 +45,15 @@
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
+    },
+    {
+      "title": "GPT-5 and the future of mathematical discovery",
+      "description": "UCLA Professor Ernest Ryu and GPT-5 solved a key question in optimization theory, showcasing AI’s role in accelerating mathematical discovery.",
+      "link": "https://openai.com/index/gpt-5-mathematical-discovery",
+      "date": "2025-11-24T00:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
     },
     {
       "title": "Introducing shopping research in ChatGPT",
@@ -123,15 +132,6 @@
       "description": "OpenAI works with independent experts to evaluate frontier AI systems. Third-party testing strengthens safety, validates safeguards, and increases transparency in how we assess model capabilities and",
       "link": "https://openai.com/index/strengthening-safety-with-external-testing",
       "date": "2025-11-19T12:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "How evals drive the next chapter in AI for businesses",
-      "description": "Learn how evals help businesses define, measure, and improve AI performance—reducing risk, boosting productivity, and driving strategic advantage.",
-      "link": "https://openai.com/index/evals-drive-next-chapter-of-ai",
-      "date": "2025-11-19T11:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
