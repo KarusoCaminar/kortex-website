@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-11-26T14:24:46.989Z",
+  "lastUpdated": "2025-11-26T16:30:32.344Z",
   "news": [
+    {
+      "title": "Ilya Sutskever sieht KI-Entwicklung am Wendepunkt und schweigt über seine Lösung",
+      "description": "Der SSI-Gründer und ehemalige OpenAI-Chefwissenschaftler sieht die KI-Entwicklung an einem Wendepunkt. Anstelle immer größerer Modelle sei nun wieder fundamentale Forschung gefragt. Modelle müssten äh",
+      "link": "https://the-decoder.de/ilya-sutskever-sieht-ki-entwicklung-am-wendepunkt-und-schweigt-ueber-seine-loesung/",
+      "date": "2025-11-26T14:41:34.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "KI-Pionier Karpathy: Der einzige Weg für Bildung im KI-Zeitalter ist komplette Transformation",
       "description": "Kaum ein Bereich verändert sich so stark durch generative KI wie das Bildungssystem. Der KI-Pionier Andrej Karpathy fordert nun grundlegende Änderungen: Hausaufgaben lassen sich nicht mehr zuverlässig",
@@ -96,15 +105,6 @@
       "description": "Amazon will bis zu 50 Milliarden US-Dollar in den Ausbau seiner KI- und Supercomputing-Infrastruktur für US-Regierungsbehörden investieren.\nDer Artikel AWS will bis zu 50 Milliarden US-Dollar in US-Da",
       "link": "https://the-decoder.de/aws-will-bis-zu-50-milliarden-us-dollar-in-us-daten-souveraenitaet-investieren/",
       "date": "2025-11-24T20:35:43.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Anthropic stellt Claude Opus 4.5 vor und beansprucht Führung bei Coding- und Agenten-Benchmarks",
-      "description": "Anthropic bringt mit Claude Opus 4.5 sein neues Spitzenmodell auf den Markt. Laut dem Unternehmen setzt es bei Software-Engineering-Benchmarks neue Bestwerte, soll effizienter rechnen und erhält zusät",
-      "link": "https://the-decoder.de/anthropic-stellt-claude-opus-4-5-vor-und-beansprucht-fuehrung-bei-coding-und-agenten-benchmarks/",
-      "date": "2025-11-24T20:06:09.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
