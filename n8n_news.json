@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-11-26T08:31:58.857Z",
+  "lastUpdated": "2025-11-26T10:26:48.069Z",
   "news": [
+    {
+      "title": "KI-Pionier Karpathy: Der einzige Weg für Bildung im KI-Zeitalter ist komplette Transformation",
+      "description": "Kaum ein Bereich verändert sich so stark durch generative KI wie das Bildungssystem. Der KI-Pionier Andrej Karpathy fordert nun grundlegende Änderungen: Hausaufgaben lassen sich nicht mehr zuverlässig",
+      "link": "https://the-decoder.de/ki-pionier-karpathy-der-einzige-weg-fuer-bildung-im-ki-zeitalter-ist-komplette-transformation/",
+      "date": "2025-11-26T09:26:34.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Expanding data residency access to business customers worldwide",
       "description": "OpenAI expands data residency for ChatGPT Enterprise, ChatGPT Edu, and the API Platform, enabling eligible customers to store data at rest in-region.",
@@ -96,15 +105,6 @@
       "description": "Anthropic bringt mit Claude Opus 4.5 sein neues Spitzenmodell auf den Markt. Laut dem Unternehmen setzt es bei Software-Engineering-Benchmarks neue Bestwerte, soll effizienter rechnen und erhält zusät",
       "link": "https://the-decoder.de/anthropic-stellt-claude-opus-4-5-vor-und-beansprucht-fuehrung-bei-coding-und-agenten-benchmarks/",
       "date": "2025-11-24T20:06:09.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "ChatGPT wird zum Einkaufs-Agenten, der autonom Produkte recherchiert und vergleicht",
-      "description": "Von drauß’ vom Walde komm ich her, ich muss euch sagen, es weihnachtet sehr – und GPT-5 mini weiß auch schon, was ihr euch wünscht. OpenAI startet pünktlich zum Fest einen neuen Shopping-Agenten, der",
-      "link": "https://the-decoder.de/chatgpt-wird-zum-einkaufs-agenten-der-autonom-produkte-recherchiert-und-vergleicht/",
-      "date": "2025-11-24T18:44:54.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
