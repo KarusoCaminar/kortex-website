@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2025-11-27T08:32:30.416Z",
+  "lastUpdated": "2025-11-27T10:26:29.710Z",
   "news": [
+    {
+      "title": "OpenAI-Datenleck: Hacker stehlen Kundendaten über gehackten Analyse-Dienstleister",
+      "description": "OpenAI hat über eine Drittanbieter-App Kundendaten von API-Nutzern geleakt, nachdem der Analysedienstleister Mixpanel gehackt wurde.\nDer Artikel OpenAI-Datenleck: Hacker stehlen Kundendaten über gehac",
+      "link": "https://the-decoder.de/openai-datenleck-hacker-stehlen-kundendaten-ueber-gehackten-analyse-dienstleister/",
+      "date": "2025-11-27T10:01:51.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Poesie als Sicherheitslücke: Gedichte hebeln Sprachmodelle aus",
+      "description": "Eine neue Studie zeigt: Das Umformulieren schädlicher Anfragen in Gedichtform funktioniert als universelle Jailbreak-Methode. Bei mehr als 25 führenden Sprachmodellen erzielten poetische Prompts Erfol",
+      "link": "https://the-decoder.de/poesie-als-sicherheitsluecke-gedichte-hebeln-sprachmodelle-aus/",
+      "date": "2025-11-27T09:40:21.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Microsoft startet Shopping-Funktion für Copilot",
       "description": "Microsoft stattet seinen Browser Edge in den USA mit neuen KI-Shopping-Funktionen aus.\nDer Artikel Microsoft startet Shopping-Funktion für Copilot erschien zuerst auf The Decoder.",
@@ -92,15 +110,6 @@
       "language": "de"
     },
     {
-      "title": "OpenAI riskierte für Wachstum und Engagement die psychische Gesundheit einiger Nutzer",
-      "description": "Ein Bericht der New York Times enthüllt, wie OpenAI ChatGPT auf Nutzerbindung trimmt. Das Resultat waren gefährliche \"Ja-Sager\"-Modelle, die Wahnvorstellungen verstärkten und in Einzelfällen tragische",
-      "link": "https://the-decoder.de/openai-riskierte-fuer-wachstum-und-engagement-die-psychische-gesundheit-einiger-nutzer/",
-      "date": "2025-11-25T12:57:23.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "Our approach to mental health-related litigation",
       "description": "We’re sharing our approach to mental health-related litigation. O handle sensitive cases with care, transparency, and respect while continuing to strengthen safety and support in ChatGPT.",
       "link": "https://openai.com/index/mental-health-litigation-approach",
@@ -122,15 +131,6 @@
       "title": "Introducing shopping research in ChatGPT",
       "description": "Shopping research in ChatGPT helps you explore, compare, and discover products with personalized buyer’s guides that simplify decision-making",
       "link": "https://openai.com/index/chatgpt-shopping-research",
-      "date": "2025-11-24T00:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "GPT-5 and the future of mathematical discovery",
-      "description": "UCLA Professor Ernest Ryu and GPT-5 solved a key question in optimization theory, showcasing AI’s role in accelerating mathematical discovery.",
-      "link": "https://openai.com/index/gpt-5-mathematical-discovery",
       "date": "2025-11-24T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
