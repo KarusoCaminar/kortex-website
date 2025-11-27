@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-11-27T16:29:01.748Z",
+  "lastUpdated": "2025-11-27T18:31:51.219Z",
   "news": [
+    {
+      "title": "OpenAI weist Schuld von ChatGPT am Selbstmord eines Teenagers zurück",
+      "description": "OpenAI sieht im Falle des Selbstmords von Adam Raine die Schuld nicht bei ChatGPT. In einer gerichtlichen Stellungnahme wies das Unternehmen am Dienstag die Klage der Familie zurück. OpenAI argumentie",
+      "link": "https://the-decoder.de/openai-weist-schuld-von-chatgpt-am-selbstmord-eines-teenagers-zurueck/",
+      "date": "2025-11-27T17:52:44.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "OpenAI-Datenleck: Hacker stehlen Kundendaten über gehackten Analyse-Dienstleister",
       "description": "OpenAI hat über eine Drittanbieter-App Kundendaten von API-Nutzern geleakt, nachdem der Analysedienstleister Mixpanel gehackt wurde.\nDer Artikel OpenAI-Datenleck: Hacker stehlen Kundendaten über gehac",
@@ -96,15 +105,6 @@
       "description": "Claude Opus 4.5 ist laut Hersteller Anthropic das am besten gesicherte Modell gegen Prompt Injections. Aber das heißt nicht viel.\nDer Artikel Claude Opus 4.5 erzielt Bestwerte bei Prompt Injections, u",
       "link": "https://the-decoder.de/claude-opus-4-5-erzielt-bestwerte-bei-prompt-injections-und-unterstreicht-damit-das-problem/",
       "date": "2025-11-25T17:24:53.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Sprachmodelle denken anders: Studie zeigt tiefe Lücke zu menschlichem Reasoning",
-      "description": "Wie denken KI-Modelle wirklich – und wie sehr ähnelt das unserem eigenen Denken? Für meinen neuen Artikel habe ich mir eine der bislang größten Analysen zu Denkspuren großer Sprachmodelle angeschaut:",
-      "link": "https://the-decoder.de/sprachmodelle-denken-anders-studie-zeigt-tiefe-luecke-zu-menschlichem-reasoning/",
-      "date": "2025-11-25T15:28:22.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
