@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-11-28T18:32:13.148Z",
+  "lastUpdated": "2025-11-28T20:25:18.758Z",
   "news": [
     {
       "title": "Ilya Sutskever sieht KI-Entwicklung am Wendepunkt und schweigt über seine Lösung",
@@ -92,47 +92,47 @@
       "language": "de"
     },
     {
-      "title": "Reducing EV range anxiety: How a simple AI model predicts port availability",
-      "description": "Algorithms & Theory",
-      "link": "https://research.google/blog/reducing-ev-range-anxiety-how-a-simple-ai-model-predicts-port-availability/",
-      "date": "2025-11-21T16:27:00.000Z",
-      "source": "Google AI",
+      "title": "Mixpanel security incident: what OpenAI users need to know",
+      "description": "OpenAI shares details about a Mixpanel security incident involving limited API analytics data. No API content, credentials, or payment details were exposed. Learn what happened and how we’re protectin",
+      "link": "https://openai.com/index/mixpanel-incident",
+      "date": "2025-11-26T19:00:00.000Z",
+      "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
     },
     {
-      "title": "Generative UI: A rich, custom, visual interactive user experience for any prompt",
-      "description": "Generative AI",
-      "link": "https://research.google/blog/generative-ui-a-rich-custom-visual-interactive-user-experience-for-any-prompt/",
-      "date": "2025-11-18T16:00:00.000Z",
-      "source": "Google AI",
+      "title": "Expanding data residency access to business customers worldwide",
+      "description": "OpenAI expands data residency for ChatGPT Enterprise, ChatGPT Edu, and the API Platform, enabling eligible customers to store data at rest in-region.",
+      "link": "https://openai.com/index/expanding-data-residency-access-to-business-customers-worldwide",
+      "date": "2025-11-25T22:00:00.000Z",
+      "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
     },
     {
-      "title": "Separating natural forests from other tree cover with AI for deforestation-free supply chains",
-      "description": "Climate & Sustainability",
-      "link": "https://research.google/blog/separating-natural-forests-from-other-tree-cover-with-ai-for-deforestation-free-supply-chains/",
-      "date": "2025-11-13T19:04:07.000Z",
-      "source": "Google AI",
+      "title": "Our approach to mental health-related litigation",
+      "description": "We’re sharing our approach to mental health-related litigation. O handle sensitive cases with care, transparency, and respect while continuing to strengthen safety and support in ChatGPT.",
+      "link": "https://openai.com/index/mental-health-litigation-approach",
+      "date": "2025-11-25T12:00:00.000Z",
+      "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
     },
     {
-      "title": "A new quantum toolkit for optimization",
-      "description": "Algorithms & Theory",
-      "link": "https://research.google/blog/a-new-quantum-toolkit-for-optimization/",
-      "date": "2025-11-13T07:27:00.000Z",
-      "source": "Google AI",
+      "title": "Inside JetBrains—the company reshaping how the world writes code",
+      "description": "JetBrains is integrating GPT-5 across its coding tools, helping millions of developers design, reason, and build software faster.",
+      "link": "https://openai.com/index/jetbrains-2025",
+      "date": "2025-11-25T00:00:00.000Z",
+      "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
     },
     {
-      "title": "Differentially private machine learning at scale with JAX-Privacy",
-      "description": "Algorithms & Theory",
-      "link": "https://research.google/blog/differentially-private-machine-learning-at-scale-with-jax-privacy/",
-      "date": "2025-11-12T15:32:00.000Z",
-      "source": "Google AI",
+      "title": "GPT-5 and the future of mathematical discovery",
+      "description": "UCLA Professor Ernest Ryu and GPT-5 solved a key question in optimization theory, showcasing AI’s role in accelerating mathematical discovery.",
+      "link": "https://openai.com/index/gpt-5-mathematical-discovery",
+      "date": "2025-11-24T00:00:00.000Z",
+      "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
     }
