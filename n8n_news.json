@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2025-11-28T16:28:52.711Z",
+  "lastUpdated": "2025-11-28T18:32:13.148Z",
   "news": [
+    {
+      "title": "Ilya Sutskever sieht KI-Entwicklung am Wendepunkt und schweigt über seine Lösung",
+      "description": "Update: Ilya Sutskever relativiert seine Aussagen zum \"Ende der Skalierung\".\nDer SSI-Gründer und ehemalige OpenAI-Chefwissenschaftler sieht die KI-Entwicklung an einem Wendepunkt. Anstelle immer größe",
+      "link": "https://the-decoder.de/ilya-sutskever-sieht-ki-entwicklung-am-wendepunkt-und-schweigt-ueber-seine-loesung/",
+      "date": "2025-11-28T18:27:34.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Deepseek erreicht laut eigenen Angaben Gold-Niveau bei der Mathe-Olympiade",
+      "description": "Das chinesische KI-Start-up Deepseek erzielt einen Erfolg, der bislang vor allem US-Giganten vorbehalten war: Gold-Niveau bei der Mathematik-Olympiade. Doch im Unterschied zu Google und OpenAI legt De",
+      "link": "https://the-decoder.de/deepseek-erreicht-laut-eigenen-angaben-gold-niveau-bei-der-mathe-olympiade/",
+      "date": "2025-11-28T17:01:36.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Forschende manipulieren X-Feed mit KI, um politische Polarisierung zu steuern",
       "description": "Eine neue Studie in Science zeigt, dass die Sortierung von Social-Media-Feeds direkten Einfluss auf die politische Feindseligkeit hat. Den Forschenden gelang der Nachweis durch einen technischen Trick",
@@ -74,65 +92,47 @@
       "language": "de"
     },
     {
-      "title": "Mixpanel security incident: what OpenAI users need to know",
-      "description": "OpenAI shares details about a Mixpanel security incident involving limited API analytics data. No API content, credentials, or payment details were exposed. Learn what happened and how we’re protectin",
-      "link": "https://openai.com/index/mixpanel-incident",
-      "date": "2025-11-26T19:00:00.000Z",
-      "source": "OpenAI",
+      "title": "Reducing EV range anxiety: How a simple AI model predicts port availability",
+      "description": "Algorithms & Theory",
+      "link": "https://research.google/blog/reducing-ev-range-anxiety-how-a-simple-ai-model-predicts-port-availability/",
+      "date": "2025-11-21T16:27:00.000Z",
+      "source": "Google AI",
       "category": "große-modelle",
       "language": "en"
     },
     {
-      "title": "Ilya Sutskever sieht KI-Entwicklung am Wendepunkt und schweigt über seine Lösung",
-      "description": "Der SSI-Gründer und ehemalige OpenAI-Chefwissenschaftler sieht die KI-Entwicklung an einem Wendepunkt. Anstelle immer größerer Modelle sei nun wieder fundamentale Forschung gefragt. Modelle müssten äh",
-      "link": "https://the-decoder.de/ilya-sutskever-sieht-ki-entwicklung-am-wendepunkt-und-schweigt-ueber-seine-loesung/",
-      "date": "2025-11-26T14:41:34.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "KI-Pionier Karpathy: Der einzige Weg für Bildung im KI-Zeitalter ist komplette Transformation",
-      "description": "Kaum ein Bereich verändert sich so stark durch generative KI wie das Bildungssystem. Der KI-Pionier Andrej Karpathy fordert nun grundlegende Änderungen: Hausaufgaben lassen sich nicht mehr zuverlässig",
-      "link": "https://the-decoder.de/ki-pionier-karpathy-der-einzige-weg-fuer-bildung-im-ki-zeitalter-ist-komplette-transformation/",
-      "date": "2025-11-26T09:26:34.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Expanding data residency access to business customers worldwide",
-      "description": "OpenAI expands data residency for ChatGPT Enterprise, ChatGPT Edu, and the API Platform, enabling eligible customers to store data at rest in-region.",
-      "link": "https://openai.com/index/expanding-data-residency-access-to-business-customers-worldwide",
-      "date": "2025-11-25T22:00:00.000Z",
-      "source": "OpenAI",
+      "title": "Generative UI: A rich, custom, visual interactive user experience for any prompt",
+      "description": "Generative AI",
+      "link": "https://research.google/blog/generative-ui-a-rich-custom-visual-interactive-user-experience-for-any-prompt/",
+      "date": "2025-11-18T16:00:00.000Z",
+      "source": "Google AI",
       "category": "große-modelle",
       "language": "en"
     },
     {
-      "title": "Our approach to mental health-related litigation",
-      "description": "We’re sharing our approach to mental health-related litigation. O handle sensitive cases with care, transparency, and respect while continuing to strengthen safety and support in ChatGPT.",
-      "link": "https://openai.com/index/mental-health-litigation-approach",
-      "date": "2025-11-25T12:00:00.000Z",
-      "source": "OpenAI",
+      "title": "Separating natural forests from other tree cover with AI for deforestation-free supply chains",
+      "description": "Climate & Sustainability",
+      "link": "https://research.google/blog/separating-natural-forests-from-other-tree-cover-with-ai-for-deforestation-free-supply-chains/",
+      "date": "2025-11-13T19:04:07.000Z",
+      "source": "Google AI",
       "category": "große-modelle",
       "language": "en"
     },
     {
-      "title": "Inside JetBrains—the company reshaping how the world writes code",
-      "description": "JetBrains is integrating GPT-5 across its coding tools, helping millions of developers design, reason, and build software faster.",
-      "link": "https://openai.com/index/jetbrains-2025",
-      "date": "2025-11-25T00:00:00.000Z",
-      "source": "OpenAI",
+      "title": "A new quantum toolkit for optimization",
+      "description": "Algorithms & Theory",
+      "link": "https://research.google/blog/a-new-quantum-toolkit-for-optimization/",
+      "date": "2025-11-13T07:27:00.000Z",
+      "source": "Google AI",
       "category": "große-modelle",
       "language": "en"
     },
     {
-      "title": "GPT-5 and the future of mathematical discovery",
-      "description": "UCLA Professor Ernest Ryu and GPT-5 solved a key question in optimization theory, showcasing AI’s role in accelerating mathematical discovery.",
-      "link": "https://openai.com/index/gpt-5-mathematical-discovery",
-      "date": "2025-11-24T00:00:00.000Z",
-      "source": "OpenAI",
+      "title": "Differentially private machine learning at scale with JAX-Privacy",
+      "description": "Algorithms & Theory",
+      "link": "https://research.google/blog/differentially-private-machine-learning-at-scale-with-jax-privacy/",
+      "date": "2025-11-12T15:32:00.000Z",
+      "source": "Google AI",
       "category": "große-modelle",
       "language": "en"
     }
