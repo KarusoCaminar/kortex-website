@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2025-11-28T12:47:21.544Z",
+  "lastUpdated": "2025-11-28T14:23:14.700Z",
   "news": [
+    {
+      "title": "Forschende manipulieren X-Feed mit KI, um politische Polarisierung zu steuern",
+      "description": "Eine neue Studie in Science zeigt, dass die Sortierung von Social-Media-Feeds direkten Einfluss auf die politische Feindseligkeit hat. Den Forschenden gelang der Nachweis durch einen technischen Trick",
+      "link": "https://the-decoder.de/forschende-manipulieren-x-feed-mit-ki-um-politische-polarisierung-zu-steuern/",
+      "date": "2025-11-28T13:52:33.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "OpenAI-Partner häufen 96 Milliarden Dollar Schulden für KI-Ausbau an",
+      "description": "Partner von OpenAI haben laut einer Analyse der Financial Times Schulden in Höhe von rund 96 Milliarden US-Dollar angehäuft, um den Ausbau von Rechenzentren und Chips zu finanzieren.\nDer Artikel OpenA",
+      "link": "https://the-decoder.de/openai-partner-haeufen-96-milliarden-dollar-schulden-fuer-ki-ausbau-an/",
+      "date": "2025-11-28T13:22:48.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Qwen3-VL analysiert zweistündige Videos und findet fast jedes Detail",
       "description": "Wenige Monate nach der Veröffentlichung legt Alibaba nun den detaillierten technischen Bericht zu Qwen3-VL vor. Das offene, multimodale KI-Modell zeigt in Tests überlegene Leistungen bei mathematische",
@@ -92,24 +110,6 @@
       "language": "en"
     },
     {
-      "title": "Black Forest Labs veröffentlicht Bildmodell Flux 2 mit Multi-Referenz-Funktion",
-      "description": "Das deutsche KI-Start-up Black Forest Labs bringt mit Flux 2 seine neue Generation von Bild-KI-Modellen auf den Markt. Die Modelle unterstützen hochauflösende Bildbearbeitung, Multi-Referenz-Eingaben",
-      "link": "https://the-decoder.de/black-forest-labs-veroeffentlicht-bildmodell-flux-2-mit-multi-referenz-funktion/",
-      "date": "2025-11-25T18:55:58.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "ChatGPT verschmilzt Voice- und Text-Chat",
-      "description": "OpenAI hat ChatGPT Voice direkt in den Text-Chat integriert.\nDer Artikel ChatGPT verschmilzt Voice- und Text-Chat erschien zuerst auf The Decoder.",
-      "link": "https://the-decoder.de/chatgpt-verschmilzt-voice-und-text-chat/",
-      "date": "2025-11-25T18:23:17.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "Our approach to mental health-related litigation",
       "description": "We’re sharing our approach to mental health-related litigation. O handle sensitive cases with care, transparency, and respect while continuing to strengthen safety and support in ChatGPT.",
       "link": "https://openai.com/index/mental-health-litigation-approach",
@@ -128,9 +128,9 @@
       "language": "en"
     },
     {
-      "title": "Introducing shopping research in ChatGPT",
-      "description": "Shopping research in ChatGPT helps you explore, compare, and discover products with personalized buyer’s guides that simplify decision-making",
-      "link": "https://openai.com/index/chatgpt-shopping-research",
+      "title": "GPT-5 and the future of mathematical discovery",
+      "description": "UCLA Professor Ernest Ryu and GPT-5 solved a key question in optimization theory, showcasing AI’s role in accelerating mathematical discovery.",
+      "link": "https://openai.com/index/gpt-5-mathematical-discovery",
       "date": "2025-11-24T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
