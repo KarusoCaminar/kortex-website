@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-11-28T10:26:02.572Z",
+  "lastUpdated": "2025-11-28T12:47:21.544Z",
   "news": [
+    {
+      "title": "Qwen3-VL analysiert zweistündige Videos und findet fast jedes Detail",
+      "description": "Wenige Monate nach der Veröffentlichung legt Alibaba nun den detaillierten technischen Bericht zu Qwen3-VL vor. Das offene, multimodale KI-Modell zeigt in Tests überlegene Leistungen bei mathematische",
+      "link": "https://the-decoder.de/qwen3-vl-analysiert-zweistuendige-videos-und-findet-fast-jedes-detail/",
+      "date": "2025-11-28T10:41:03.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "OpenAI weist Schuld von ChatGPT am Selbstmord eines Teenagers zurück",
       "description": "OpenAI sieht im Falle des Selbstmords von Adam Raine die Schuld nicht bei ChatGPT. In einer gerichtlichen Stellungnahme wies das Unternehmen am Dienstag die Klage der Familie zurück. OpenAI argumentie",
@@ -96,15 +105,6 @@
       "description": "OpenAI hat ChatGPT Voice direkt in den Text-Chat integriert.\nDer Artikel ChatGPT verschmilzt Voice- und Text-Chat erschien zuerst auf The Decoder.",
       "link": "https://the-decoder.de/chatgpt-verschmilzt-voice-und-text-chat/",
       "date": "2025-11-25T18:23:17.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Claude Opus 4.5 erzielt Bestwerte bei Prompt Injections, und unterstreicht damit das Problem",
-      "description": "Claude Opus 4.5 ist laut Hersteller Anthropic das am besten gesicherte Modell gegen Prompt Injections. Aber das heißt nicht viel.\nDer Artikel Claude Opus 4.5 erzielt Bestwerte bei Prompt Injections, u",
-      "link": "https://the-decoder.de/claude-opus-4-5-erzielt-bestwerte-bei-prompt-injections-und-unterstreicht-damit-das-problem/",
-      "date": "2025-11-25T17:24:53.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
