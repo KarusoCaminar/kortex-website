@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-11-29T08:28:59.708Z",
+  "lastUpdated": "2025-11-29T10:22:41.533Z",
   "news": [
+    {
+      "title": "KI-Start-up Kimi veröffentlicht Slide-Generator mit Nano Banana Pro – 48 Stunden kostenlos testen",
+      "description": "Kimi bietet für 48 Stunden kostenlosen Zugang zu „Agentic Slides“ mit dem KI-Modell Nano Banana Pro.\nDer Artikel KI-Start-up Kimi veröffentlicht Slide-Generator mit Nano Banana Pro – 48 Stunden kosten",
+      "link": "https://the-decoder.de/ki-start-up-kimi-veroeffentlicht-slide-generator-mit-nano-banana-pro/",
+      "date": "2025-11-29T09:40:17.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Microsoft veröffentlicht winziges Modell für lokale KI-Computersteuerung",
       "description": "KI soll Wissensarbeit automatisieren – auch, indem sie unsere Computer steuert. Bisher gelingt das nur mäßig: Die Systeme arbeiten ineffektiv und bringen erhebliche Sicherheitsrisiken mit sich. Fara-7",
@@ -78,15 +87,6 @@
       "description": "Eine neue Studie zeigt: Das Umformulieren schädlicher Anfragen in Gedichtform funktioniert als universelle Jailbreak-Methode. Bei mehr als 25 führenden Sprachmodellen erzielten poetische Prompts Erfol",
       "link": "https://the-decoder.de/poesie-als-sicherheitsluecke-gedichte-hebeln-sprachmodelle-aus/",
       "date": "2025-11-27T09:40:21.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Microsoft startet Shopping-Funktion für Copilot",
-      "description": "Microsoft stattet seinen Browser Edge in den USA mit neuen KI-Shopping-Funktionen aus.\nDer Artikel Microsoft startet Shopping-Funktion für Copilot erschien zuerst auf The Decoder.",
-      "link": "https://the-decoder.de/microsoft-startet-shopping-funktion-fuer-copilot/",
-      "date": "2025-11-26T21:52:39.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
