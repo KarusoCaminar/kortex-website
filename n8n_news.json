@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2025-11-29T10:22:41.533Z",
+  "lastUpdated": "2025-11-29T12:43:07.295Z",
   "news": [
+    {
+      "title": "Langjähriges KI-Hindernis ARC fällt durch die unaufhaltsame Optimierungsmaschinerie",
+      "description": "Lange Zeit galt der ARC-Benchmark als nahezu unüberwindbares Hindernis für KI-Systeme und als Test für fluide Intelligenz. Neue Ergebnisse zeigen jedoch, dass selbst diese Bastion allmählich der unauf",
+      "link": "https://the-decoder.de/langjaehriges-ki-hindernis-arc-faellt-durch-die-unaufhaltsame-optimierungsmaschinerie/",
+      "date": "2025-11-29T12:35:26.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Neue Chip-Analyse skizziert, wie Googles KI-Chips Nvidia Konkurrenz machen",
+      "description": "Google wandelt sich vom internen Chip-Nutzer zum Händler und fordert Nvidia heraus. Eine Analyse zeigt, dass allein die Existenz der neuen TPUs die Preise für KI-Rechenleistung massiv drückt. Doch Nvi",
+      "link": "https://the-decoder.de/neue-chip-analyse-skizziert-wie-googles-ki-chips-nvidia-konkurrenz-machen/",
+      "date": "2025-11-29T11:01:50.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "KI-Start-up Kimi veröffentlicht Slide-Generator mit Nano Banana Pro – 48 Stunden kostenlos testen",
       "description": "Kimi bietet für 48 Stunden kostenlosen Zugang zu „Agentic Slides“ mit dem KI-Modell Nano Banana Pro.\nDer Artikel KI-Start-up Kimi veröffentlicht Slide-Generator mit Nano Banana Pro – 48 Stunden kosten",
@@ -69,24 +87,6 @@
       "description": "OpenAI sieht im Falle des Selbstmords von Adam Raine die Schuld nicht bei ChatGPT. In einer gerichtlichen Stellungnahme wies das Unternehmen am Dienstag die Klage der Familie zurück. OpenAI argumentie",
       "link": "https://the-decoder.de/openai-weist-schuld-von-chatgpt-am-selbstmord-eines-teenagers-zurueck/",
       "date": "2025-11-27T17:52:44.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "OpenAI-Datenleck: Hacker stehlen Kundendaten über gehackten Analyse-Dienstleister",
-      "description": "OpenAI hat über eine Drittanbieter-App Kundendaten von API-Nutzern geleakt, nachdem der Analysedienstleister Mixpanel gehackt wurde.\nDer Artikel OpenAI-Datenleck: Hacker stehlen Kundendaten über gehac",
-      "link": "https://the-decoder.de/openai-datenleck-hacker-stehlen-kundendaten-ueber-gehackten-analyse-dienstleister/",
-      "date": "2025-11-27T10:01:51.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Poesie als Sicherheitslücke: Gedichte hebeln Sprachmodelle aus",
-      "description": "Eine neue Studie zeigt: Das Umformulieren schädlicher Anfragen in Gedichtform funktioniert als universelle Jailbreak-Methode. Bei mehr als 25 führenden Sprachmodellen erzielten poetische Prompts Erfol",
-      "link": "https://the-decoder.de/poesie-als-sicherheitsluecke-gedichte-hebeln-sprachmodelle-aus/",
-      "date": "2025-11-27T09:40:21.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
