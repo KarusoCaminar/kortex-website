@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-11-29T06:33:08.660Z",
+  "lastUpdated": "2025-11-29T08:28:59.708Z",
   "news": [
+    {
+      "title": "Microsoft veröffentlicht winziges Modell für lokale KI-Computersteuerung",
+      "description": "KI soll Wissensarbeit automatisieren – auch, indem sie unsere Computer steuert. Bisher gelingt das nur mäßig: Die Systeme arbeiten ineffektiv und bringen erhebliche Sicherheitsrisiken mit sich. Fara-7",
+      "link": "https://the-decoder.de/microsoft-veroeffentlicht-winziges-modell-fuer-lokale-ki-computersteuerung/",
+      "date": "2025-11-29T08:17:03.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Ilya Sutskever sieht KI-Entwicklung am Wendepunkt und schweigt über seine Lösung",
       "description": "Update: Ilya Sutskever relativiert seine Aussagen zum \"Ende der Skalierung\".\nDer SSI-Gründer und ehemalige OpenAI-Chefwissenschaftler sieht die KI-Entwicklung an einem Wendepunkt. Anstelle immer größe",
@@ -78,15 +87,6 @@
       "description": "Microsoft stattet seinen Browser Edge in den USA mit neuen KI-Shopping-Funktionen aus.\nDer Artikel Microsoft startet Shopping-Funktion für Copilot erschien zuerst auf The Decoder.",
       "link": "https://the-decoder.de/microsoft-startet-shopping-funktion-fuer-copilot/",
       "date": "2025-11-26T21:52:39.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Meta wirft fremde Chatbots aus WhatsApp",
-      "description": "Meta wirft konkurrierende KI-Chatbots aus WhatsApp.\nDer Artikel Meta wirft fremde Chatbots aus WhatsApp erschien zuerst auf The Decoder.",
-      "link": "https://the-decoder.de/meta-wirft-fremde-chatbots-aus-whatsapp/",
-      "date": "2025-11-26T21:34:12.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
