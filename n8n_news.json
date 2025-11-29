@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-11-28T22:21:10.351Z",
+  "lastUpdated": "2025-11-29T01:46:42.250Z",
   "news": [
     {
       "title": "Ilya Sutskever sieht KI-Entwicklung am Wendepunkt und schweigt über seine Lösung",
@@ -128,9 +128,9 @@
       "language": "en"
     },
     {
-      "title": "GPT-5 and the future of mathematical discovery",
-      "description": "UCLA Professor Ernest Ryu and GPT-5 solved a key question in optimization theory, showcasing AI’s role in accelerating mathematical discovery.",
-      "link": "https://openai.com/index/gpt-5-mathematical-discovery",
+      "title": "Introducing shopping research in ChatGPT",
+      "description": "Shopping research in ChatGPT helps you explore, compare, and discover products with personalized buyer’s guides that simplify decision-making",
+      "link": "https://openai.com/index/chatgpt-shopping-research",
       "date": "2025-11-24T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
