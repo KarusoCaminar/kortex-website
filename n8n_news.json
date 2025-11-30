@@ -1,6 +1,33 @@
 {
-  "lastUpdated": "2025-11-30T10:22:08.812Z",
+  "lastUpdated": "2025-11-30T12:42:30.429Z",
   "news": [
+    {
+      "title": "Programmierer mit KI-Hilfe stellen laut Studie weniger Fragen und lernen oberflächlicher",
+      "description": "Eine Studie der Universität des Saarlandes zeigt, dass Entwickler Vorschläge von KI‑Assistenten weniger kritisch prüfen.\nDer Artikel Programmierer mit KI-Hilfe stellen laut Studie weniger Fragen und l",
+      "link": "https://the-decoder.de/programmierer-mit-ki-hilfe-stellen-laut-studie-weniger-fragen-und-lernen-oberflaechlicher/",
+      "date": "2025-11-30T12:40:41.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Neues KI-Gedächtnis GAM soll den \"Context Rot\" bei langen Chats verhindern",
+      "description": "Ein chinesisches Forschungsteam hat eine neue Speicherarchitektur für KI-Agenten entwickelt. \"GAM\" soll Informationsverlust bei langen Interaktionen minimieren, indem es Kompression mit Deep Research",
+      "link": "https://the-decoder.de/neues-ki-gedaechtnis-gam-soll-den-context-rot-bei-langen-chats-verhindern/",
+      "date": "2025-11-30T11:38:53.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Chatbot-Nutzung nimmt stark zu, entwickelt sich zum \"Internet-Backbone\"",
+      "description": "Finanzblase hin, Finanzblase her: Generative KI wird genutzt. Neue Daten zeigen, dass Chatbots wie ChatGPT rasant an Bedeutung gewinnen, und das quer durch alle Altersgruppen. Klassische Suchmaschinen",
+      "link": "https://the-decoder.de/chatbot-nutzung-nimmt-stark-zu-entwickelt-sich-zum-internet-backbone/",
+      "date": "2025-11-30T10:24:35.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "KI lokal nutzen, aber einfach: Pinokio 5.0 bringt offene Modelle auf den eigenen PC",
       "description": "Pinokio 5.0 will die technischen Hürden für die lokale Nutzung von KI-Modellen senken. Die Software automatisiert notwendige Installationen im Hintergrund und macht Open-Source-Anwendungen über eine g",
@@ -60,33 +87,6 @@
       "description": "Das chinesische KI-Start-up Deepseek erzielt einen Erfolg, der bislang vor allem US-Giganten vorbehalten war: Gold-Niveau bei der Mathematik-Olympiade. Doch im Unterschied zu Google und OpenAI legt De",
       "link": "https://the-decoder.de/deepseek-erreicht-laut-eigenen-angaben-gold-niveau-bei-der-mathe-olympiade/",
       "date": "2025-11-28T17:01:36.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Forschende manipulieren X-Feed mit KI, um politische Polarisierung zu steuern",
-      "description": "Eine neue Studie in Science zeigt, dass die Sortierung von Social-Media-Feeds direkten Einfluss auf die politische Feindseligkeit hat. Den Forschenden gelang der Nachweis durch einen technischen Trick",
-      "link": "https://the-decoder.de/forschende-manipulieren-x-feed-mit-ki-um-politische-polarisierung-zu-steuern/",
-      "date": "2025-11-28T13:52:33.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "OpenAI-Partner häufen 96 Milliarden Dollar Schulden für KI-Ausbau an",
-      "description": "Partner von OpenAI haben laut einer Analyse der Financial Times Schulden in Höhe von rund 96 Milliarden US-Dollar angehäuft, um den Ausbau von Rechenzentren und Chips zu finanzieren.\nDer Artikel OpenA",
-      "link": "https://the-decoder.de/openai-partner-haeufen-96-milliarden-dollar-schulden-fuer-ki-ausbau-an/",
-      "date": "2025-11-28T13:22:48.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Qwen3-VL analysiert zweistündige Videos und findet fast jedes Detail",
-      "description": "Wenige Monate nach der Veröffentlichung legt Alibaba nun den detaillierten technischen Bericht zu Qwen3-VL vor. Das offene, multimodale KI-Modell zeigt in Tests überlegene Leistungen bei mathematische",
-      "link": "https://the-decoder.de/qwen3-vl-analysiert-zweistuendige-videos-und-findet-fast-jedes-detail/",
-      "date": "2025-11-28T10:41:03.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
