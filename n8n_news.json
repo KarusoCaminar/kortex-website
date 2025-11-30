@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-11-30T08:27:30.077Z",
+  "lastUpdated": "2025-11-30T10:22:08.812Z",
   "news": [
+    {
+      "title": "KI lokal nutzen, aber einfach: Pinokio 5.0 bringt offene Modelle auf den eigenen PC",
+      "description": "Pinokio 5.0 will die technischen Hürden für die lokale Nutzung von KI-Modellen senken. Die Software automatisiert notwendige Installationen im Hintergrund und macht Open-Source-Anwendungen über eine g",
+      "link": "https://the-decoder.de/ki-lokal-nutzen-aber-einfach-pinokio-5-0-bringt-offene-modelle-auf-den-eigenen-pc/",
+      "date": "2025-11-30T09:14:11.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Langjähriges KI-Hindernis ARC fällt durch die unaufhaltsame Optimierungsmaschinerie",
       "description": "Lange Zeit galt der ARC-Benchmark als nahezu unüberwindbares Hindernis für KI-Systeme und als Test für fluide Intelligenz. Neue Ergebnisse zeigen jedoch, dass selbst diese Bastion allmählich der unauf",
@@ -78,15 +87,6 @@
       "description": "Wenige Monate nach der Veröffentlichung legt Alibaba nun den detaillierten technischen Bericht zu Qwen3-VL vor. Das offene, multimodale KI-Modell zeigt in Tests überlegene Leistungen bei mathematische",
       "link": "https://the-decoder.de/qwen3-vl-analysiert-zweistuendige-videos-und-findet-fast-jedes-detail/",
       "date": "2025-11-28T10:41:03.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "OpenAI weist Schuld von ChatGPT am Selbstmord eines Teenagers zurück",
-      "description": "OpenAI sieht im Falle des Selbstmords von Adam Raine die Schuld nicht bei ChatGPT. In einer gerichtlichen Stellungnahme wies das Unternehmen am Dienstag die Klage der Familie zurück. OpenAI argumentie",
-      "link": "https://the-decoder.de/openai-weist-schuld-von-chatgpt-am-selbstmord-eines-teenagers-zurueck/",
-      "date": "2025-11-27T17:52:44.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
