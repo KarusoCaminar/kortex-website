@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-12-01T18:38:22.417Z",
+  "lastUpdated": "2025-12-01T20:24:30.955Z",
   "news": [
+    {
+      "title": "Klings Video O1 kann Szenen, Subjekte und Kameraeinstellungen ändern – alles gleichzeitig",
+      "description": "Das chinesische KI-Unternehmen Kling AI hat das Modell \"Video O1\" vorgestellt. Laut Kling AI handelt es sich um das \"weltweit erste vereinheitlichte multimodale Videomodell\", das verschiedene Aufgaben",
+      "link": "https://the-decoder.de/klings-video-o1-kann-szenen-subjekte-und-kameraeinstellungen-aendern-alles-gleichzeitig/",
+      "date": "2025-12-01T18:57:23.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Raubkopierte Bücher und Artikel-Kopien: Copyright-Druck auf OpenAI nimmt weiter zu",
       "description": "Neun US-Regionalzeitungen verklagen OpenAI und Microsoft wegen massiver Urheberrechtsverletzungen und fordern im Extremfall die Vernichtung zentraler Sprachmodelle. Parallel zwingt ein Bundesgericht O",
@@ -96,15 +105,6 @@
       "description": "Eine Studie der Universität des Saarlandes zeigt, dass Entwickler Vorschläge von KI‑Assistenten weniger kritisch prüfen.\nDer Artikel Programmierer mit KI-Hilfe stellen laut Studie weniger Fragen und l",
       "link": "https://the-decoder.de/programmierer-mit-ki-hilfe-stellen-laut-studie-weniger-fragen-und-lernen-oberflaechlicher/",
       "date": "2025-11-30T12:40:41.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Neues KI-Gedächtnis GAM soll den \"Context Rot\" bei langen Chats verhindern",
-      "description": "Ein chinesisches Forschungsteam hat eine neue Speicherarchitektur für KI-Agenten entwickelt. \"GAM\" soll Informationsverlust bei langen Interaktionen minimieren, indem es Kompression mit Deep Research",
-      "link": "https://the-decoder.de/neues-ki-gedaechtnis-gam-soll-den-context-rot-bei-langen-chats-verhindern/",
-      "date": "2025-11-30T11:38:53.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
