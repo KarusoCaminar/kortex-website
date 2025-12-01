@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-12-01T08:35:34.090Z",
+  "lastUpdated": "2025-12-01T10:28:09.888Z",
   "news": [
+    {
+      "title": "HSBC setzt auf Mistral AI für weltweite KI-Integration",
+      "description": "HSBC hat eine mehrjährige Partnerschaft mit dem französischen Start-up Mistral AI vereinbart, um generative KI weltweit in der Bank einzusetzen.\nDer Artikel HSBC setzt auf Mistral AI für weltweite KI-",
+      "link": "https://the-decoder.de/hsbc-setzt-auf-mistral-ai-fuer-weltweite-ki-integration/",
+      "date": "2025-12-01T10:02:55.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "GPT-5 löst komplexen Mathematik-Beweis in Rekordzeit und begeistert OpenAI-Forscher",
       "description": "OpenAI-Forscher Sebastien Bubeck sagt, dass ihm GPT-5s mathematische Fähigkeiten einen Monat Zeit sparen würden.\nDer Artikel GPT-5 löst komplexen Mathematik-Beweis in Rekordzeit und begeistert OpenAI-",
@@ -78,15 +87,6 @@
       "description": "KI soll Wissensarbeit automatisieren – auch, indem sie unsere Computer steuert. Bisher gelingt das nur mäßig: Die Systeme arbeiten ineffektiv und bringen erhebliche Sicherheitsrisiken mit sich. Fara-7",
       "link": "https://the-decoder.de/microsoft-veroeffentlicht-winziges-modell-fuer-lokale-ki-computersteuerung/",
       "date": "2025-11-29T08:17:03.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Ilya Sutskever sieht KI-Entwicklung am Wendepunkt und schweigt über seine Lösung",
-      "description": "Update: Ilya Sutskever relativiert seine Aussagen zum \"Ende der Skalierung\".\nDer SSI-Gründer und ehemalige OpenAI-Chefwissenschaftler sieht die KI-Entwicklung an einem Wendepunkt. Anstelle immer größe",
-      "link": "https://the-decoder.de/ilya-sutskever-sieht-ki-entwicklung-am-wendepunkt-und-schweigt-ueber-seine-loesung/",
-      "date": "2025-11-28T18:27:34.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
