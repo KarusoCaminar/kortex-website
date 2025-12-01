@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-12-01T14:26:31.505Z",
+  "lastUpdated": "2025-12-01T16:32:51.275Z",
   "news": [
+    {
+      "title": "Wegen KI und schwacher Nachfrage: Einstiegsgehälter für Berater stagnieren",
+      "description": "Die Einstiegsgehälter für Berater sind laut einem Bericht von Management Consulted das zweite Jahr in Folge gleich geblieben.\nDer Artikel Wegen KI und schwacher Nachfrage: Einstiegsgehälter für Berate",
+      "link": "https://the-decoder.de/wegen-ki-und-schwacher-nachfrage-einstiegsgehaelter-fuer-berater-stagnieren/",
+      "date": "2025-12-01T14:30:27.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Deepseek V3.2 soll GPT-5 und Gemini 3 Pro Konkurrenz machen",
       "description": "Deepseek‑V3.2 tritt nicht nur als Open‑Weight‑Modell an, sondern punktet besonders in agentischen Szenarien und beim Umgang mit MCP‑Servern – und setzt damit Branchenriesen wie OpenAI weiter unter Dru",
@@ -57,7 +66,7 @@
     },
     {
       "title": "Accenture and OpenAI accelerate enterprise AI success",
-      "description": "Accenture is rolling out 40,000 ChatGPT Enterprise licenses and naming OpenAI its primary intelligence partner to power enterprise AI success, upskill teams, and deliver AI-driven client outcomes.",
+      "description": "Accenture and OpenAI are collaborating to help enterprises bring agentic AI capabilities into the core of their business and unlock new levels of growth.",
       "link": "https://openai.com/index/accenture-partnership",
       "date": "2025-12-01T05:00:00.000Z",
       "source": "OpenAI",
@@ -101,24 +110,6 @@
       "language": "de"
     },
     {
-      "title": "KI lokal nutzen, aber einfach: Pinokio 5.0 bringt offene Modelle auf den eigenen PC",
-      "description": "Pinokio 5.0 will die technischen Hürden für die lokale Nutzung von KI-Modellen senken. Die Software automatisiert notwendige Installationen im Hintergrund und macht Open-Source-Anwendungen über eine g",
-      "link": "https://the-decoder.de/ki-lokal-nutzen-aber-einfach-pinokio-5-0-bringt-offene-modelle-auf-den-eigenen-pc/",
-      "date": "2025-11-30T09:14:11.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Langjähriges KI-Hindernis ARC fällt durch die unaufhaltsame Optimierungsmaschinerie",
-      "description": "Lange Zeit galt der ARC-Benchmark als nahezu unüberwindbares Hindernis für KI-Systeme und als Test für fluide Intelligenz. Neue Ergebnisse zeigen jedoch, dass selbst diese Bastion allmählich der unauf",
-      "link": "https://the-decoder.de/langjaehriges-ki-hindernis-arc-faellt-durch-die-unaufhaltsame-optimierungsmaschinerie/",
-      "date": "2025-11-29T12:35:26.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "Mixpanel security incident: what OpenAI users need to know",
       "description": "OpenAI shares details about a Mixpanel security incident involving limited API analytics data. No API content, credentials, or payment details were exposed. Learn what happened and how we’re protectin",
       "link": "https://openai.com/index/mixpanel-incident",
@@ -132,6 +123,15 @@
       "description": "OpenAI expands data residency for ChatGPT Enterprise, ChatGPT Edu, and the API Platform, enabling eligible customers to store data at rest in-region.",
       "link": "https://openai.com/index/expanding-data-residency-access-to-business-customers-worldwide",
       "date": "2025-11-25T22:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
+      "title": "Our approach to mental health-related litigation",
+      "description": "We’re sharing our approach to mental health-related litigation. O handle sensitive cases with care, transparency, and respect while continuing to strengthen safety and support in ChatGPT.",
+      "link": "https://openai.com/index/mental-health-litigation-approach",
+      "date": "2025-11-25T12:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
