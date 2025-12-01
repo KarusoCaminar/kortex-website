@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-12-01T16:32:51.275Z",
+  "lastUpdated": "2025-12-01T18:38:22.417Z",
   "news": [
+    {
+      "title": "Raubkopierte Bücher und Artikel-Kopien: Copyright-Druck auf OpenAI nimmt weiter zu",
+      "description": "Neun US-Regionalzeitungen verklagen OpenAI und Microsoft wegen massiver Urheberrechtsverletzungen und fordern im Extremfall die Vernichtung zentraler Sprachmodelle. Parallel zwingt ein Bundesgericht O",
+      "link": "https://the-decoder.de/raubkopierte-buecher-und-artikel-kopien-copyright-druck-auf-openai-nimmt-weiter-zu/",
+      "date": "2025-12-01T17:23:50.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Wegen KI und schwacher Nachfrage: Einstiegsgehälter für Berater stagnieren",
       "description": "Die Einstiegsgehälter für Berater sind laut einem Bericht von Management Consulted das zweite Jahr in Folge gleich geblieben.\nDer Artikel Wegen KI und schwacher Nachfrage: Einstiegsgehälter für Berate",
@@ -56,18 +65,18 @@
       "language": "en"
     },
     {
-      "title": "OpenAI takes an ownership stake in Thrive Holdings to accelerate enterprise AI adoption",
-      "description": "OpenAI takes an ownership stake in Thrive Holdings to accelerate enterprise AI adoption, embedding frontier research and engineering directly into accounting and IT services to boost speed, accuracy,",
-      "link": "https://openai.com/index/thrive-holdings",
+      "title": "Accenture and OpenAI accelerate enterprise AI success",
+      "description": "Accenture and OpenAI are collaborating to help enterprises bring agentic AI capabilities into the core of their business and unlock new levels of growth.",
+      "link": "https://openai.com/index/accenture-partnership",
       "date": "2025-12-01T05:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
     },
     {
-      "title": "Accenture and OpenAI accelerate enterprise AI success",
-      "description": "Accenture and OpenAI are collaborating to help enterprises bring agentic AI capabilities into the core of their business and unlock new levels of growth.",
-      "link": "https://openai.com/index/accenture-partnership",
+      "title": "OpenAI takes an ownership stake in Thrive Holdings to accelerate enterprise AI adoption",
+      "description": "OpenAI takes an ownership stake in Thrive Holdings to accelerate enterprise AI adoption, embedding frontier research and engineering directly into accounting and IT services to boost speed, accuracy,",
+      "link": "https://openai.com/index/thrive-holdings",
       "date": "2025-12-01T05:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
@@ -96,15 +105,6 @@
       "description": "Ein chinesisches Forschungsteam hat eine neue Speicherarchitektur für KI-Agenten entwickelt. \"GAM\" soll Informationsverlust bei langen Interaktionen minimieren, indem es Kompression mit Deep Research",
       "link": "https://the-decoder.de/neues-ki-gedaechtnis-gam-soll-den-context-rot-bei-langen-chats-verhindern/",
       "date": "2025-11-30T11:38:53.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Chatbot-Nutzung nimmt stark zu, entwickelt sich zum \"Internet-Backbone\"",
-      "description": "Finanzblase hin, Finanzblase her: Generative KI wird genutzt. Neue Daten zeigen, dass Chatbots wie ChatGPT rasant an Bedeutung gewinnen, und das quer durch alle Altersgruppen. Klassische Suchmaschinen",
-      "link": "https://the-decoder.de/chatbot-nutzung-nimmt-stark-zu-entwickelt-sich-zum-internet-backbone/",
-      "date": "2025-11-30T10:24:35.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
