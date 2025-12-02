@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-12-02T14:26:32.608Z",
+  "lastUpdated": "2025-12-02T16:33:54.608Z",
   "news": [
+    {
+      "title": "Geleaktes \"Soul Doc\" zeigt wie Anthropic die Persönlichkeit von Claude formt",
+      "description": "Einem LessWrong-Autor ist es gelungen, ein internes Trainingsdokument aus Claude 4.5 Opus zu extrahieren, das die Persönlichkeit und ethischen Richtlinien der KI definiert. Anthropic hat die Echtheit",
+      "link": "https://the-decoder.de/geleaktes-soul-doc-zeigt-wie-anthropic-die-persoenlichkeit-von-claude-formt/",
+      "date": "2025-12-02T14:50:22.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Nvidia zeigt neue KI-Modelle für autonomes Fahren und Spracherkennung",
       "description": "Nvidia hat auf der NeurIPS-Konferenz neue KI-Modelle für autonome Fahrzeuge und Sprachverarbeitung veröffentlicht.\nDer Artikel Nvidia zeigt neue KI-Modelle für autonomes Fahren und Spracherkennung ers",
@@ -90,15 +99,6 @@
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
-    },
-    {
-      "title": "Deutsches KI-Start-up Black Forest Labs bekommt 300 Millionen von Investoren",
-      "description": "Black Forest Labs hat eine Serie-B-Finanzierungsrunde über 300 Millionen US-Dollar abgeschlossen und erreicht damit eine Bewertung von 3,25 Milliarden US-Dollar.\nDer Artikel Deutsches KI-Start-up Blac",
-      "link": "https://the-decoder.de/deutsches-ki-start-up-black-forest-labs-bekommt-300-millionen-von-investoren/",
-      "date": "2025-12-01T10:30:13.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
     },
     {
       "title": "OpenAI and NORAD team up to bring new magic to “NORAD Tracks Santa”",
