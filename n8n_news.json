@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-12-02T10:27:15.187Z",
+  "lastUpdated": "2025-12-02T12:51:29.743Z",
   "news": [
+    {
+      "title": "Nvidia zeigt neue KI-Modelle für autonomes Fahren und Spracherkennung",
+      "description": "Nvidia hat auf der NeurIPS-Konferenz neue KI-Modelle für autonome Fahrzeuge und Sprachverarbeitung veröffentlicht.\nDer Artikel Nvidia zeigt neue KI-Modelle für autonomes Fahren und Spracherkennung ers",
+      "link": "https://the-decoder.de/nvidia-zeigt-neue-ki-modelle-fuer-autonomes-fahren-und-spracherkennung/",
+      "date": "2025-12-02T10:49:34.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "OpenAI will neues KI-Modell schon nächste Woche starten – angeblich stärker als Gemini 3",
       "description": "OpenAI bereitet den Start eines neuen Reasoning-Modells vor. In internen Tests soll es Googles kommendes Gemini 3 schlagen. Die Veröffentlichung ist Teil einer strategischen Neuausrichtung, für die an",
@@ -92,15 +101,6 @@
       "language": "de"
     },
     {
-      "title": "HSBC setzt auf Mistral AI für weltweite KI-Integration",
-      "description": "HSBC hat eine mehrjährige Partnerschaft mit dem französischen Start-up Mistral AI vereinbart, um generative KI weltweit in der Bank einzusetzen.\nDer Artikel HSBC setzt auf Mistral AI für weltweite KI-",
-      "link": "https://the-decoder.de/hsbc-setzt-auf-mistral-ai-fuer-weltweite-ki-integration/",
-      "date": "2025-12-01T10:02:55.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "OpenAI and NORAD team up to bring new magic to “NORAD Tracks Santa”",
       "description": "OpenAI and NORAD are bringing new magic to “NORAD Tracks Santa” with three ChatGPT holiday tools that let families create festive elves, toy coloring pages, and custom Christmas stories.",
       "link": "https://openai.com/index/norad-holiday-collaboration",
@@ -110,18 +110,18 @@
       "language": "en"
     },
     {
-      "title": "Accenture and OpenAI accelerate enterprise AI success",
-      "description": "Accenture and OpenAI are collaborating to help enterprises bring agentic AI capabilities into the core of their business and unlock new levels of growth.",
-      "link": "https://openai.com/index/accenture-partnership",
+      "title": "OpenAI takes an ownership stake in Thrive Holdings to accelerate enterprise AI adoption",
+      "description": "OpenAI takes an ownership stake in Thrive Holdings to accelerate enterprise AI adoption, embedding frontier research and engineering directly into accounting and IT services to boost speed, accuracy,",
+      "link": "https://openai.com/index/thrive-holdings",
       "date": "2025-12-01T05:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
     },
     {
-      "title": "OpenAI takes an ownership stake in Thrive Holdings to accelerate enterprise AI adoption",
-      "description": "OpenAI takes an ownership stake in Thrive Holdings to accelerate enterprise AI adoption, embedding frontier research and engineering directly into accounting and IT services to boost speed, accuracy,",
-      "link": "https://openai.com/index/thrive-holdings",
+      "title": "Accenture and OpenAI accelerate enterprise AI success",
+      "description": "Accenture and OpenAI are collaborating to help enterprises bring agentic AI capabilities into the core of their business and unlock new levels of growth.",
+      "link": "https://openai.com/index/accenture-partnership",
       "date": "2025-12-01T05:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
