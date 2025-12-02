@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-12-02T16:33:54.608Z",
+  "lastUpdated": "2025-12-02T18:37:16.563Z",
   "news": [
+    {
+      "title": "Mistral veröffentlicht neue leistungsstarke Open-Source-Modelle",
+      "description": "Das französische Start-up Mistral AI stellt mit „Mistral 3“ eine neue Generation offener, multimodaler und mehrsprachiger KI-Modelle vor. Neben kompakten Varianten für Edge-Anwendungen gibt es ein gro",
+      "link": "https://the-decoder.de/mistral-veroeffentlicht-neue-leistungsstarke-open-source-modelle/",
+      "date": "2025-12-02T16:36:35.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Geleaktes \"Soul Doc\" zeigt wie Anthropic die Persönlichkeit von Claude formt",
       "description": "Einem LessWrong-Autor ist es gelungen, ein internes Trainingsdokument aus Claude 4.5 Opus zu extrahieren, das die Persönlichkeit und ethischen Richtlinien der KI definiert. Anthropic hat die Echtheit",
@@ -78,15 +87,6 @@
       "description": "Deepseek‑V3.2 tritt nicht nur als Open‑Weight‑Modell an, sondern punktet besonders in agentischen Szenarien und beim Umgang mit MCP‑Servern – und setzt damit Branchenriesen wie OpenAI weiter unter Dru",
       "link": "https://the-decoder.de/deepseek-v3-2-soll-gpt-5-und-gemini-3-pro-konkurrenz-machen/",
       "date": "2025-12-01T13:52:17.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "New York erzwingt Warnhinweis für KI-basierte Preisgestaltung",
-      "description": "Beim Online-Shopping bleibt oft unklar, ob der angezeigte Preis wirklich für alle gilt oder individuell berechnet wurde. Ein neues Gesetz in New York sorgt erstmals für Transparenz in den USA und zwin",
-      "link": "https://the-decoder.de/new-york-erzwingt-warnhinweis-fuer-ki-basierte-preisgestaltung/",
-      "date": "2025-12-01T12:50:13.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
