@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-12-02T04:33:17.045Z",
+  "lastUpdated": "2025-12-02T06:36:57.890Z",
   "news": [
+    {
+      "title": "Inside Mirakl’s Agent Commerce Vision",
+      "description": "Mirakl is redefining commerce through AI agents and ChatGPT Enterprise—achieving faster documentation, smarter customer support, and building toward agent-native commerce with Mirakl Nexus.",
+      "link": "https://openai.com/index/mirakl",
+      "date": "2025-12-01T22:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
     {
       "title": "Klings Video O1 kann Szenen, Subjekte und Kameraeinstellungen ändern – alles gleichzeitig",
       "description": "Das chinesische KI-Unternehmen Kling AI hat das Modell \"Video O1\" vorgestellt. Laut Kling AI handelt es sich um das \"weltweit erste vereinheitlichte multimodale Videomodell\", das verschiedene Aufgaben",
@@ -123,15 +132,6 @@
       "description": "OpenAI shares details about a Mixpanel security incident involving limited API analytics data. No API content, credentials, or payment details were exposed. Learn what happened and how we’re protectin",
       "link": "https://openai.com/index/mixpanel-incident",
       "date": "2025-11-26T19:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "Expanding data residency access to business customers worldwide",
-      "description": "OpenAI expands data residency for ChatGPT Enterprise, ChatGPT Edu, and the API Platform, enabling eligible customers to store data at rest in-region.",
-      "link": "https://openai.com/index/expanding-data-residency-access-to-business-customers-worldwide",
-      "date": "2025-11-25T22:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
