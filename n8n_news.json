@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2025-12-02T08:34:21.660Z",
+  "lastUpdated": "2025-12-02T10:27:15.187Z",
   "news": [
+    {
+      "title": "OpenAI will neues KI-Modell schon nächste Woche starten – angeblich stärker als Gemini 3",
+      "description": "OpenAI bereitet den Start eines neuen Reasoning-Modells vor. In internen Tests soll es Googles kommendes Gemini 3 schlagen. Die Veröffentlichung ist Teil einer strategischen Neuausrichtung, für die an",
+      "link": "https://the-decoder.de/openai-will-neues-ki-modell-schon-naechste-woche-starten-angeblich-staerker-als-gemini-3/",
+      "date": "2025-12-02T10:13:12.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Apples KI-Chef räumt den Posten nach Siri-Problemen",
+      "description": "Apples John Giannandrea, bisheriger Senior Vice President für Machine Learning und AI Strategy, tritt von seinem Posten zurück und wird das Unternehmen im Frühjahr 2026 verlassen.\nDer Artikel Apples K",
+      "link": "https://the-decoder.de/apples-ki-chef-raeumt-den-posten-nach-siri-problemen/",
+      "date": "2025-12-02T09:06:11.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Inside Mirakl’s Agent Commerce Vision",
       "description": "Mirakl is redefining commerce through AI agents and ChatGPT Enterprise—achieving faster documentation, smarter customer support, and building toward agent-native commerce with Mirakl Nexus.",
@@ -108,24 +126,6 @@
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
-    },
-    {
-      "title": "GPT-5 löst komplexen Mathematik-Beweis in Rekordzeit und begeistert OpenAI-Forscher",
-      "description": "OpenAI-Forscher Sebastien Bubeck sagt, dass ihm GPT-5s mathematische Fähigkeiten einen Monat Zeit sparen würden.\nDer Artikel GPT-5 löst komplexen Mathematik-Beweis in Rekordzeit und begeistert OpenAI-",
-      "link": "https://the-decoder.de/gpt-5-loest-komplexen-mathematik-beweis-in-rekordzeit-und-begeistert-openai-forscher/",
-      "date": "2025-11-30T15:06:11.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Programmierer mit KI-Hilfe stellen laut Studie weniger Fragen und lernen oberflächlicher",
-      "description": "Eine Studie der Universität des Saarlandes zeigt, dass Entwickler Vorschläge von KI‑Assistenten weniger kritisch prüfen.\nDer Artikel Programmierer mit KI-Hilfe stellen laut Studie weniger Fragen und l",
-      "link": "https://the-decoder.de/programmierer-mit-ki-hilfe-stellen-laut-studie-weniger-fragen-und-lernen-oberflaechlicher/",
-      "date": "2025-11-30T12:40:41.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
     },
     {
       "title": "Mixpanel security incident: what OpenAI users need to know",
