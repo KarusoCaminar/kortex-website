@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-03T14:25:56.845Z",
+  "lastUpdated": "2025-12-03T16:34:19.942Z",
   "news": [
     {
       "title": "Anthropic übernimmt JavaScript-Runtime Bun zur Stärkung von Claude Code",
@@ -18,6 +18,15 @@
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
+    },
+    {
+      "title": "Announcing the initial People-First AI Fund grantees",
+      "description": "The OpenAI Foundation announces the initial recipients of the People-First AI Fund, awarding $40.5M in unrestricted grants to 208 nonprofits supporting community innovation and opportunity.",
+      "link": "https://openai.com/index/people-first-ai-fund-grantees",
+      "date": "2025-12-03T08:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
     },
     {
       "title": "Anthropic engagiert Anwälte für möglichen Rekord-Börsengang",
@@ -122,15 +131,6 @@
       "title": "OpenAI takes an ownership stake in Thrive Holdings to accelerate enterprise AI adoption",
       "description": "OpenAI takes an ownership stake in Thrive Holdings to accelerate enterprise AI adoption, embedding frontier research and engineering directly into accounting and IT services to boost speed, accuracy,",
       "link": "https://openai.com/index/thrive-holdings",
-      "date": "2025-12-01T05:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "Accenture and OpenAI accelerate enterprise AI success",
-      "description": "Accenture and OpenAI are collaborating to help enterprises bring agentic AI capabilities into the core of their business and unlock new levels of growth.",
-      "link": "https://openai.com/index/accenture-partnership",
       "date": "2025-12-01T05:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
