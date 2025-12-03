@@ -1,6 +1,51 @@
 {
-  "lastUpdated": "2025-12-03T18:36:59.033Z",
+  "lastUpdated": "2025-12-03T20:28:23.251Z",
   "news": [
+    {
+      "title": "Microsoft weist Berichte über gesenkte KI-Vertriebsziele zurück",
+      "description": "Microsoft hat Berichte zurückgewiesen, wonach das Unternehmen Wachstumsziele für den Verkauf von KI-Software gesenkt habe, nachdem viele Vertriebsteams die Vorgaben im letzten Geschäftsjahr verfehlt h",
+      "link": "https://the-decoder.de/microsoft-weist-berichte-ueber-gesenkte-ki-vertriebsziele-zurueck/",
+      "date": "2025-12-03T20:27:12.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "KI PRO Webinar | KI-Lösungen in der EU: Wie Sie KI in Europa betreiben können",
+      "description": "In einem stark regulierten Geschäftsumfeld stehen Unternehmen vor der Herausforderung, KI-Lösungen effizient, datenschutzkonform und innerhalb europäischer Rechtsräume zu betreiben. Unser Webinar zeig",
+      "link": "https://the-decoder.de/ki-pro-webinar-ki-loesungen-in-der-eu-wie-sie-ki-in-europa-betreiben-koennen/",
+      "date": "2025-12-03T20:08:22.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "KI-Modelle knacken Smart Contracts und erzielen simulierte Millionen-Gewinne",
+      "description": "Eine neue Untersuchung von MATS und Anthropic zeigt, dass KI-Modelle wie Claude Opus 4.5, Sonnet 4.5 und GPT-5 in simulierten Tests Smart-Contract-Schwachstellen erkennen und ausnutzen können.\nDer Art",
+      "link": "https://the-decoder.de/ki-modelle-knacken-smart-contracts-und-erzielen-simulierte-millionen-gewinne/",
+      "date": "2025-12-03T19:35:51.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Google startet KI-Agenten-Baukasten Workspace Studio offiziell",
+      "description": "Google startet offiziell Workspace Studio, ein Tool zur Erstellung und Verwaltung von KI-Agenten in Google Workspace.\nDer Artikel Google startet KI-Agenten-Baukasten Workspace Studio offiziell erschie",
+      "link": "https://the-decoder.de/google-startet-ki-agenten-baukasten-workspace-studio-offiziell/",
+      "date": "2025-12-03T19:00:25.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Google greift mit KI in Presse-Berichterstattung ein",
+      "description": "Google testet in seinem generellen Webseiten-News-Feed \"Discover\" eine neue KI-Funktion, die redaktionelle Überschriften in kürzere und teilweise Clickbait-Überschriften umschreibt.\nDer Artikel Google",
+      "link": "https://the-decoder.de/google-greift-mit-ki-in-presse-berichterstattung-ein/",
+      "date": "2025-12-03T18:41:39.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Anthropic übernimmt JavaScript-Runtime Bun zur Stärkung von Claude Code",
       "description": "Anthropic sichert sich mit der Übernahme von Bun die technische Basis für sein erfolgreiches Coding-Tool Claude Code. Das Open-Source-Projekt soll eigenständig bleiben, entgeht durch den Deal aber dem",
@@ -65,33 +110,6 @@
       "language": "de"
     },
     {
-      "title": "Nvidia zeigt neue KI-Modelle für autonomes Fahren und Spracherkennung",
-      "description": "Nvidia hat auf der NeurIPS-Konferenz neue KI-Modelle für autonome Fahrzeuge und Sprachverarbeitung veröffentlicht.\nDer Artikel Nvidia zeigt neue KI-Modelle für autonomes Fahren und Spracherkennung ers",
-      "link": "https://the-decoder.de/nvidia-zeigt-neue-ki-modelle-fuer-autonomes-fahren-und-spracherkennung/",
-      "date": "2025-12-02T10:49:34.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "OpenAI will neues KI-Modell schon nächste Woche starten – angeblich stärker als Gemini 3",
-      "description": "OpenAI bereitet den Start eines neuen Reasoning-Modells vor. In internen Tests soll es Googles kommendes Gemini 3 schlagen. Die Veröffentlichung ist Teil einer strategischen Neuausrichtung, für die an",
-      "link": "https://the-decoder.de/openai-will-neues-ki-modell-schon-naechste-woche-starten-angeblich-staerker-als-gemini-3/",
-      "date": "2025-12-02T10:13:12.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Apples KI-Chef räumt den Posten nach Siri-Problemen",
-      "description": "Apples John Giannandrea, bisheriger Senior Vice President für Machine Learning und AI Strategy, tritt von seinem Posten zurück und wird das Unternehmen im Frühjahr 2026 verlassen.\nDer Artikel Apples K",
-      "link": "https://the-decoder.de/apples-ki-chef-raeumt-den-posten-nach-siri-problemen/",
-      "date": "2025-12-02T09:06:11.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "Inside Mirakl's agentic commerce vision",
       "description": "Mirakl is redefining commerce through AI agents and ChatGPT Enterprise—achieving faster documentation, smarter customer support, and building toward agent-native commerce with Mirakl Nexus.",
       "link": "https://openai.com/index/mirakl",
@@ -99,24 +117,6 @@
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
-    },
-    {
-      "title": "Klings Video O1 kann Szenen, Subjekte und Kameraeinstellungen ändern – alles gleichzeitig",
-      "description": "Das chinesische KI-Unternehmen Kling AI hat das Modell \"Video O1\" vorgestellt. Laut Kling AI handelt es sich um das \"weltweit erste vereinheitlichte multimodale Videomodell\", das verschiedene Aufgaben",
-      "link": "https://the-decoder.de/klings-video-o1-kann-szenen-subjekte-und-kameraeinstellungen-aendern-alles-gleichzeitig/",
-      "date": "2025-12-01T18:57:23.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Raubkopierte Bücher und Artikel-Kopien: Copyright-Druck auf OpenAI nimmt weiter zu",
-      "description": "Neun US-Regionalzeitungen verklagen OpenAI und Microsoft wegen massiver Urheberrechtsverletzungen und fordern im Extremfall die Vernichtung zentraler Sprachmodelle. Parallel zwingt ein Bundesgericht O",
-      "link": "https://the-decoder.de/raubkopierte-buecher-und-artikel-kopien-copyright-druck-auf-openai-nimmt-weiter-zu/",
-      "date": "2025-12-01T17:23:50.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
     },
     {
       "title": "Funding grants for new research into AI and mental health",
