@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-03T16:34:19.942Z",
+  "lastUpdated": "2025-12-03T18:36:59.033Z",
   "news": [
     {
       "title": "Anthropic übernimmt JavaScript-Runtime Bun zur Stärkung von Claude Code",
@@ -9,6 +9,15 @@
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
+    },
+    {
+      "title": "How confessions can keep language models honest",
+      "description": "OpenAI researchers are testing “confessions,” a method that trains models to admit when they make mistakes or act undesirably, helping improve AI honesty, transparency, and trust in model outputs.",
+      "link": "https://openai.com/index/how-confessions-can-keep-language-models-honest",
+      "date": "2025-12-03T10:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
     },
     {
       "title": "Amazon re:Invent: Neuer KI-Chip, günstige Nova-2-Modelle und autonome Agenten",
@@ -123,15 +132,6 @@
       "description": "OpenAI and NORAD are bringing new magic to “NORAD Tracks Santa” with three ChatGPT holiday tools that let families create festive elves, toy coloring pages, and custom Christmas stories.",
       "link": "https://openai.com/index/norad-holiday-collaboration",
       "date": "2025-12-01T06:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "OpenAI takes an ownership stake in Thrive Holdings to accelerate enterprise AI adoption",
-      "description": "OpenAI takes an ownership stake in Thrive Holdings to accelerate enterprise AI adoption, embedding frontier research and engineering directly into accounting and IT services to boost speed, accuracy,",
-      "link": "https://openai.com/index/thrive-holdings",
-      "date": "2025-12-01T05:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
