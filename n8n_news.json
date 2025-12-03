@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-12-03T06:36:25.930Z",
+  "lastUpdated": "2025-12-03T08:33:22.193Z",
   "news": [
+    {
+      "title": "Anthropic engagiert Anwälte für möglichen Rekord-Börsengang",
+      "description": "Das KI-Start-up Anthropic bereitet sich offenbar auf einen der größten Börsengänge aller Zeiten vor. Ein Wettrennen mit dem Konkurrenten OpenAI um die Erstplatzierung an den öffentlichen Märkten zeich",
+      "link": "https://the-decoder.de/anthropic-engagiert-anwaelte-fuer-moeglichen-rekord-boersengang/",
+      "date": "2025-12-03T07:23:26.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Mistral veröffentlicht neue leistungsstarke Open-Source-Modelle",
       "description": "Das französische Start-up Mistral AI stellt mit „Mistral 3“ eine neue Generation offener, multimodaler und mehrsprachiger KI-Modelle vor. Neben kompakten Varianten für Edge-Anwendungen gibt es ein gro",
@@ -78,15 +87,6 @@
       "description": "Die Einstiegsgehälter für Berater sind laut einem Bericht von Management Consulted das zweite Jahr in Folge gleich geblieben.\nDer Artikel Wegen KI und schwacher Nachfrage: Einstiegsgehälter für Berate",
       "link": "https://the-decoder.de/wegen-ki-und-schwacher-nachfrage-einstiegsgehaelter-fuer-berater-stagnieren/",
       "date": "2025-12-01T14:30:27.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Deepseek V3.2 soll GPT-5 und Gemini 3 Pro Konkurrenz machen",
-      "description": "Deepseek‑V3.2 tritt nicht nur als Open‑Weight‑Modell an, sondern punktet besonders in agentischen Szenarien und beim Umgang mit MCP‑Servern – und setzt damit Branchenriesen wie OpenAI weiter unter Dru",
-      "link": "https://the-decoder.de/deepseek-v3-2-soll-gpt-5-und-gemini-3-pro-konkurrenz-machen/",
-      "date": "2025-12-01T13:52:17.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
