@@ -1,6 +1,33 @@
 {
-  "lastUpdated": "2025-12-04T18:37:35.902Z",
+  "lastUpdated": "2025-12-04T20:27:37.090Z",
   "news": [
+    {
+      "title": "Google veröffentlicht Gemini 3 \"Deep Think\" für Gemini-Abonnenten",
+      "description": "Google AI hat einen aktualisierten \"Deep Think\"-Modus für Abonnenten von Google AI Ultra in der Gemini-App veröffentlicht.\nDer Artikel Google veröffentlicht Gemini 3 \"Deep Think\" für Gemini-Abonnenten",
+      "link": "https://the-decoder.de/google-veroeffentlicht-gemini-3-deep-think-fuer-gemini-abonnenten/",
+      "date": "2025-12-04T20:12:28.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "EU plant fünf KI-Gigafactories mit 100 000 Hochleistungs-KI-Chips",
+      "description": "Die Europäische Investitionsbank (EIB) und die EU-Kommission wollen gemeinsam bis zu fünf große KI-Gigafactories in Europa aufbauen.\nDer Artikel EU plant fünf KI-Gigafactories mit 100 000 Hochleistung",
+      "link": "https://the-decoder.de/eu-plant-fuenf-ki-gigafactories-mit-100-000-hochleistungs-ki-chips/",
+      "date": "2025-12-04T19:27:56.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Titans + MIRAS: Helping AI have long-term memory",
+      "description": "Generative AI",
+      "link": "https://research.google/blog/titans-miras-helping-ai-have-long-term-memory/",
+      "date": "2025-12-04T19:26:09.000Z",
+      "source": "Google AI",
+      "category": "große-modelle",
+      "language": "en"
+    },
     {
       "title": "OpenAI testet „Beichten“ als Methode zur Überwachung von KI-Modellen",
       "description": "Um Fehlverhalten wie „Reward Hacking“ oder das Missachten von Sicherheitsregeln aufzudecken, trainiert OpenAI KI-Modelle darauf, eigenes Fehlverhalten in einem separaten Report ehrlich zuzugeben. Das",
@@ -65,24 +92,6 @@
       "language": "de"
     },
     {
-      "title": "Google startet KI-Agenten-Baukasten Workspace Studio offiziell",
-      "description": "Google startet offiziell Workspace Studio, ein Tool zur Erstellung und Verwaltung von KI-Agenten in Google Workspace.\nDer Artikel Google startet KI-Agenten-Baukasten Workspace Studio offiziell erschie",
-      "link": "https://the-decoder.de/google-startet-ki-agenten-baukasten-workspace-studio-offiziell/",
-      "date": "2025-12-03T19:00:25.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Google greift mit KI in Presse-Berichterstattung ein",
-      "description": "Google testet in seinem generellen Webseiten-News-Feed \"Discover\" eine neue KI-Funktion, die redaktionelle Überschriften in kürzere und teilweise Clickbait-Überschriften umschreibt.\nDer Artikel Google",
-      "link": "https://the-decoder.de/google-greift-mit-ki-in-presse-berichterstattung-ein/",
-      "date": "2025-12-03T18:41:39.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "How confessions can keep language models honest",
       "description": "OpenAI researchers are testing “confessions,” a method that trains models to admit when they make mistakes or act undesirably, helping improve AI honesty, transparency, and trust in model outputs.",
       "link": "https://openai.com/index/how-confessions-can-keep-language-models-honest",
@@ -123,15 +132,6 @@
       "description": "OpenAI is awarding up to $2 million in grants for research at the intersection of AI and mental health. The program supports projects that study real-world risks, benefits, and applications to improve",
       "link": "https://openai.com/index/ai-mental-health-research-grants",
       "date": "2025-12-01T12:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "OpenAI and NORAD team up to bring new magic to “NORAD Tracks Santa”",
-      "description": "OpenAI and NORAD are bringing new magic to “NORAD Tracks Santa” with three ChatGPT holiday tools that let families create festive elves, toy coloring pages, and custom Christmas stories.",
-      "link": "https://openai.com/index/norad-holiday-collaboration",
-      "date": "2025-12-01T06:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
