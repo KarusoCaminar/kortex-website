@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2025-12-04T10:28:05.168Z",
+  "lastUpdated": "2025-12-04T12:51:54.052Z",
   "news": [
+    {
+      "title": "EU-Kommission startet Kartellverfahren gegen Meta wegen WhatsApp-KI-Richtlinie",
+      "description": "Die EU-Kommission hat eine offizielle Kartelluntersuchung gegen Meta eingeleitet.\nDer Artikel EU-Kommission startet Kartellverfahren gegen Meta wegen WhatsApp-KI-Richtlinie erschien zuerst auf The Dec",
+      "link": "https://the-decoder.de/eu-kommission-startet-kartellverfahren-gegen-meta-wegen-whatsapp-ki-richtlinie/",
+      "date": "2025-12-04T11:36:36.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Nvidia-CFO bestätigt: 100-Milliarden-Deal mit OpenAI noch nicht fix",
+      "description": "Der geplante 100-Milliarden-Dollar-Deal zwischen Nvidia und OpenAI ist noch nicht unterzeichnet.\nDer Artikel Nvidia-CFO bestätigt: 100-Milliarden-Deal mit OpenAI noch nicht fix erschien zuerst auf The",
+      "link": "https://the-decoder.de/nvidia-cfo-bestaetigt-100-milliarden-deal-mit-openai-noch-nicht-fix/",
+      "date": "2025-12-04T11:26:35.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Microsoft weist Berichte über gesenkte KI-Vertriebsziele zurück",
       "description": "Microsoft hat Berichte zurückgewiesen, wonach das Unternehmen Wachstumsziele für den Verkauf von KI-Software gesenkt habe, nachdem viele Vertriebsteams die Vorgaben im letzten Geschäftsjahr verfehlt h",
@@ -92,33 +110,6 @@
       "language": "en"
     },
     {
-      "title": "Anthropic engagiert Anwälte für möglichen Rekord-Börsengang",
-      "description": "Das KI-Start-up Anthropic bereitet sich offenbar auf einen der größten Börsengänge aller Zeiten vor. Ein Wettrennen mit dem Konkurrenten OpenAI um die Erstplatzierung an den öffentlichen Märkten zeich",
-      "link": "https://the-decoder.de/anthropic-engagiert-anwaelte-fuer-moeglichen-rekord-boersengang/",
-      "date": "2025-12-03T07:23:26.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Mistral veröffentlicht neue leistungsstarke Open-Source-Modelle",
-      "description": "Das französische Start-up Mistral AI stellt mit „Mistral 3“ eine neue Generation offener, multimodaler und mehrsprachiger KI-Modelle vor. Neben kompakten Varianten für Edge-Anwendungen gibt es ein gro",
-      "link": "https://the-decoder.de/mistral-veroeffentlicht-neue-leistungsstarke-open-source-modelle/",
-      "date": "2025-12-02T16:36:35.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Geleaktes \"Soul Doc\" zeigt wie Anthropic die Persönlichkeit von Claude formt",
-      "description": "Einem LessWrong-Autor ist es gelungen, ein internes Trainingsdokument aus Claude 4.5 Opus zu extrahieren, das die Persönlichkeit und ethischen Richtlinien der KI definiert. Anthropic hat die Echtheit",
-      "link": "https://the-decoder.de/geleaktes-soul-doc-zeigt-wie-anthropic-die-persoenlichkeit-von-claude-formt/",
-      "date": "2025-12-02T14:50:22.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "Inside Mirakl's agentic commerce vision",
       "description": "Mirakl is redefining commerce through AI agents and ChatGPT Enterprise—achieving faster documentation, smarter customer support, and building toward agent-native commerce with Mirakl Nexus.",
       "link": "https://openai.com/index/mirakl",
@@ -132,6 +123,15 @@
       "description": "OpenAI is awarding up to $2 million in grants for research at the intersection of AI and mental health. The program supports projects that study real-world risks, benefits, and applications to improve",
       "link": "https://openai.com/index/ai-mental-health-research-grants",
       "date": "2025-12-01T12:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
+      "title": "OpenAI and NORAD team up to bring new magic to “NORAD Tracks Santa”",
+      "description": "OpenAI and NORAD are bringing new magic to “NORAD Tracks Santa” with three ChatGPT holiday tools that let families create festive elves, toy coloring pages, and custom Christmas stories.",
+      "link": "https://openai.com/index/norad-holiday-collaboration",
+      "date": "2025-12-01T06:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
