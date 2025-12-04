@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2025-12-04T16:34:42.594Z",
+  "lastUpdated": "2025-12-04T18:37:35.902Z",
   "news": [
+    {
+      "title": "OpenAI testet „Beichten“ als Methode zur Überwachung von KI-Modellen",
+      "description": "Um Fehlverhalten wie „Reward Hacking“ oder das Missachten von Sicherheitsregeln aufzudecken, trainiert OpenAI KI-Modelle darauf, eigenes Fehlverhalten in einem separaten Report ehrlich zuzugeben. Das",
+      "link": "https://the-decoder.de/openai-testet-beichten-als-methode-zur-ueberwachung-von-ki-modellen/",
+      "date": "2025-12-04T18:33:46.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Anthropic-CEO Dario Amodei warnt vor „Alles-oder-Nichts“-Mentalität bei KI-Investitionen",
+      "description": "Der Chef der KI-Firma Anthropic, Dario Amodei, sieht eine Diskrepanz zwischen technologischem Fortschritt und ökonomischer Realität. Indirekt, aber deutlich, wirft er Konkurrenten wie OpenAI vor, unkl",
+      "link": "https://the-decoder.de/anthropic-ceo-dario-amodei-warnt-vor-alles-oder-nichts-mentalitaet-bei-ki-investitionen/",
+      "date": "2025-12-04T17:13:56.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "EU-Kommission startet Kartellverfahren gegen Meta wegen WhatsApp-KI-Richtlinie",
       "description": "Die EU-Kommission hat eine offizielle Kartelluntersuchung gegen Meta eingeleitet.\nDer Artikel EU-Kommission startet Kartellverfahren gegen Meta wegen WhatsApp-KI-Richtlinie erschien zuerst auf The Dec",
@@ -65,15 +83,6 @@
       "language": "de"
     },
     {
-      "title": "Anthropic übernimmt JavaScript-Runtime Bun zur Stärkung von Claude Code",
-      "description": "Anthropic sichert sich mit der Übernahme von Bun die technische Basis für sein erfolgreiches Coding-Tool Claude Code. Das Open-Source-Projekt soll eigenständig bleiben, entgeht durch den Deal aber dem",
-      "link": "https://the-decoder.de/anthropic-uebernimmt-javascript-runtime-bun-zur-staerkung-von-claude-code/",
-      "date": "2025-12-03T10:54:12.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "How confessions can keep language models honest",
       "description": "OpenAI researchers are testing “confessions,” a method that trains models to admit when they make mistakes or act undesirably, helping improve AI honesty, transparency, and trust in model outputs.",
       "link": "https://openai.com/index/how-confessions-can-keep-language-models-honest",
@@ -90,15 +99,6 @@
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
-    },
-    {
-      "title": "Amazon re:Invent: Neuer KI-Chip, günstige Nova-2-Modelle und autonome Agenten",
-      "description": "Amazon versucht auf der re:Invent 2025, technologisch Boden gutzumachen. Der Fokus liegt auf massiver Skalierung durch eigene Hardware, aggressiv bepreisten Modellen der Nova-2-Serie und dem Versuch,",
-      "link": "https://the-decoder.de/amazon-startet-ki-offensive-mit-autonomen-agenten-nova-2-und-trainium3/",
-      "date": "2025-12-03T09:15:17.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
     },
     {
       "title": "Announcing the initial People-First AI Fund grantees",
