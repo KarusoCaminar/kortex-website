@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-12-05T08:32:10.320Z",
+  "lastUpdated": "2025-12-05T10:25:59.233Z",
   "news": [
+    {
+      "title": "Physiker veröffentlicht Paper, dessen zentrale Idee von GPT-5 stammt",
+      "description": "Physiker Steve Hsu hat ein Paper veröffentlicht, dessen zentrale Idee von GPT-5 stammt. Doch er warnt vor Blindflug: KI agiere wie ein „brillantes, aber unzuverlässiges Genie“, dessen Fehler selbst Ex",
+      "link": "https://the-decoder.de/physiker-veroeffentlicht-paper-dessen-zentrale-idee-von-gpt-5-stammt/",
+      "date": "2025-12-05T10:23:57.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Google veröffentlicht Gemini 3 \"Deep Think\" für Gemini-Abonnenten",
       "description": "Google AI hat einen aktualisierten \"Deep Think\"-Modus für Abonnenten von Google AI Ultra in der Gemini-App veröffentlicht.\nDer Artikel Google veröffentlicht Gemini 3 \"Deep Think\" für Gemini-Abonnenten",
@@ -87,15 +96,6 @@
       "description": "In einem stark regulierten Geschäftsumfeld stehen Unternehmen vor der Herausforderung, KI-Lösungen effizient, datenschutzkonform und innerhalb europäischer Rechtsräume zu betreiben. Unser Webinar zeig",
       "link": "https://the-decoder.de/ki-pro-webinar-ki-loesungen-in-der-eu-wie-sie-ki-in-europa-betreiben-koennen/",
       "date": "2025-12-03T20:08:22.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "KI-Modelle knacken Smart Contracts und erzielen simulierte Millionen-Gewinne",
-      "description": "Eine neue Untersuchung von MATS und Anthropic zeigt, dass KI-Modelle wie Claude Opus 4.5, Sonnet 4.5 und GPT-5 in simulierten Tests Smart-Contract-Schwachstellen erkennen und ausnutzen können.\nDer Art",
-      "link": "https://the-decoder.de/ki-modelle-knacken-smart-contracts-und-erzielen-simulierte-millionen-gewinne/",
-      "date": "2025-12-03T19:35:51.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
