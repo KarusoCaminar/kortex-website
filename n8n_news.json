@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2025-12-05T16:30:19.188Z",
+  "lastUpdated": "2025-12-05T18:32:03.692Z",
   "news": [
+    {
+      "title": "Neue Sicherheitslücke: KI-Agenten in GitHub und GitLab gefährden Unternehmens-Workflows",
+      "description": "Aikido Security warnt vor einer neuen Schwachstelle in GitHub‑ und GitLab‑Workflows, die mit KI‑Agenten wie Gemini CLI, Claude Code, OpenAI Codex oder GitHub AI Inference verbunden sind.\nDer Artikel N",
+      "link": "https://the-decoder.de/neue-sicherheitsluecke-ki-agenten-in-github-und-gitlab-gefaehrden-unternehmens-workflows/",
+      "date": "2025-12-05T17:27:15.000Z",
+      "source": "The Decoder",
+      "category": "workflow-tools",
+      "language": "de"
+    },
+    {
+      "title": "New York Times verklagt KI-Suchmaschine Perplexity",
+      "description": "Die New York Times hat Perplexity vor einem Bundesgericht in New York verklagt. Das KI-Start-up soll laut Klage ohne Erlaubnis Inhalte der Zeitung kopiert, ganze Artikel übernommen und diese als eigen",
+      "link": "https://the-decoder.de/new-york-times-verklagt-ki-suchmaschine-perplexity/",
+      "date": "2025-12-05T16:40:45.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "MIRAS und Titans: Google zeigt, wie KI-Modelle dauerhaft dazulernen können",
       "description": "Ein Jahr nach der Veröffentlichung des Titans-Papers stellt Google die Architektur offiziell im eigenen Forschungsblog vor – gemeinsam mit dem neuen Framework MIRAS. Beide Projekte zielen auf ein zent",
@@ -92,36 +110,18 @@
       "language": "en"
     },
     {
-      "title": "OpenAI testet „Beichten“ als Methode zur Überwachung von KI-Modellen",
-      "description": "Um Fehlverhalten wie „Reward Hacking“ oder das Missachten von Sicherheitsregeln aufzudecken, trainiert OpenAI KI-Modelle darauf, eigenes Fehlverhalten in einem separaten Report ehrlich zuzugeben. Das",
-      "link": "https://the-decoder.de/openai-testet-beichten-als-methode-zur-ueberwachung-von-ki-modellen/",
-      "date": "2025-12-04T18:33:46.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Anthropic-CEO Dario Amodei warnt vor „Alles-oder-Nichts“-Mentalität bei KI-Investitionen",
-      "description": "Der Chef der KI-Firma Anthropic, Dario Amodei, sieht eine Diskrepanz zwischen technologischem Fortschritt und ökonomischer Realität. Indirekt, aber deutlich, wirft er Konkurrenten wie OpenAI vor, unkl",
-      "link": "https://the-decoder.de/anthropic-ceo-dario-amodei-warnt-vor-alles-oder-nichts-mentalitaet-bei-ki-investitionen/",
-      "date": "2025-12-04T17:13:56.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "How confessions can keep language models honest",
-      "description": "OpenAI researchers are testing “confessions,” a method that trains models to admit when they make mistakes or act undesirably, helping improve AI honesty, transparency, and trust in model outputs.",
-      "link": "https://openai.com/index/how-confessions-can-keep-language-models-honest",
+      "title": "OpenAI to acquire Neptune",
+      "description": "OpenAI is acquiring Neptune to deepen visibility into model behavior and strengthen the tools researchers use to track experiments and monitor training.",
+      "link": "https://openai.com/index/openai-to-acquire-neptune",
       "date": "2025-12-03T10:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
     },
     {
-      "title": "OpenAI to acquire Neptune",
-      "description": "OpenAI is acquiring Neptune to deepen visibility into model behavior and strengthen the tools researchers use to track experiments and monitor training.",
-      "link": "https://openai.com/index/openai-to-acquire-neptune",
+      "title": "How confessions can keep language models honest",
+      "description": "OpenAI researchers are testing “confessions,” a method that trains models to admit when they make mistakes or act undesirably, helping improve AI honesty, transparency, and trust in model outputs.",
+      "link": "https://openai.com/index/how-confessions-can-keep-language-models-honest",
       "date": "2025-12-03T10:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
