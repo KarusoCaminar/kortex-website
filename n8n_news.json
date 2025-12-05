@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2025-12-05T14:24:49.124Z",
+  "lastUpdated": "2025-12-05T16:30:19.188Z",
   "news": [
+    {
+      "title": "MIRAS und Titans: Google zeigt, wie KI-Modelle dauerhaft dazulernen können",
+      "description": "Ein Jahr nach der Veröffentlichung des Titans-Papers stellt Google die Architektur offiziell im eigenen Forschungsblog vor – gemeinsam mit dem neuen Framework MIRAS. Beide Projekte zielen auf ein zent",
+      "link": "https://the-decoder.de/miras-und-titans-google-zeigt-wie-ki-modelle-dauerhaft-dazulernen-koennen/",
+      "date": "2025-12-05T14:40:17.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Meta AI wird zum Nachrichtenportal durch Partnerschaften mit CNN, Fox News und anderen",
+      "description": "Meta baut seinen KI-Assistenten zum Nachrichtenportal aus und integriert Echtzeitinhalte aus verschiedenen Medienquellen.\nDer Artikel Meta AI wird zum Nachrichtenportal durch Partnerschaften mit CNN,",
+      "link": "https://the-decoder.de/meta-ai-wird-zum-nachrichtenportal-durch-partnerschaften-mit-cnn-fox-news-und-anderen/",
+      "date": "2025-12-05T14:34:46.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Google sammelt dreimal mehr KI-Daten als OpenAI dank Suchmonopol",
       "description": "Cloudflare-Daten zeigen, wie massiv Googles Datenvorsprung gegenüber OpenAI und Anthropic durch die Kopplung von Suche und KI-Scraping ist.\nDer Artikel Google sammelt dreimal mehr KI-Daten als OpenAI",
@@ -92,13 +110,13 @@
       "language": "de"
     },
     {
-      "title": "EU-Kommission startet Kartellverfahren gegen Meta wegen WhatsApp-KI-Richtlinie",
-      "description": "Die EU-Kommission hat eine offizielle Kartelluntersuchung gegen Meta eingeleitet.\nDer Artikel EU-Kommission startet Kartellverfahren gegen Meta wegen WhatsApp-KI-Richtlinie erschien zuerst auf The Dec",
-      "link": "https://the-decoder.de/eu-kommission-startet-kartellverfahren-gegen-meta-wegen-whatsapp-ki-richtlinie/",
-      "date": "2025-12-04T11:36:36.000Z",
-      "source": "The Decoder",
+      "title": "How confessions can keep language models honest",
+      "description": "OpenAI researchers are testing “confessions,” a method that trains models to admit when they make mistakes or act undesirably, helping improve AI honesty, transparency, and trust in model outputs.",
+      "link": "https://openai.com/index/how-confessions-can-keep-language-models-honest",
+      "date": "2025-12-03T10:00:00.000Z",
+      "source": "OpenAI",
       "category": "große-modelle",
-      "language": "de"
+      "language": "en"
     },
     {
       "title": "OpenAI to acquire Neptune",
@@ -110,28 +128,10 @@
       "language": "en"
     },
     {
-      "title": "How confessions can keep language models honest",
-      "description": "OpenAI researchers are testing “confessions,” a method that trains models to admit when they make mistakes or act undesirably, helping improve AI honesty, transparency, and trust in model outputs.",
-      "link": "https://openai.com/index/how-confessions-can-keep-language-models-honest",
-      "date": "2025-12-03T10:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
       "title": "Announcing the initial People-First AI Fund grantees",
       "description": "The OpenAI Foundation announces the initial recipients of the People-First AI Fund, awarding $40.5M in unrestricted grants to 208 nonprofits supporting community innovation and opportunity.",
       "link": "https://openai.com/index/people-first-ai-fund-grantees",
       "date": "2025-12-03T08:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "Inside Mirakl's agentic commerce vision",
-      "description": "Mirakl is redefining commerce through AI agents and ChatGPT Enterprise—achieving faster documentation, smarter customer support, and building toward agent-native commerce with Mirakl Nexus.",
-      "link": "https://openai.com/index/mirakl",
-      "date": "2025-12-01T22:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
