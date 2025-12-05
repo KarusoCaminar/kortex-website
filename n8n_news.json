@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2025-12-05T10:25:59.233Z",
+  "lastUpdated": "2025-12-05T12:49:23.774Z",
   "news": [
+    {
+      "title": "Google Cloud und Replit kooperieren bei KI-Tools für Unternehmen",
+      "description": "Google Cloud geht eine mehrjährige Partnerschaft mit dem KI-Coding-Startup Replit ein, um seine Position gegen Wettbewerber wie Anthropic und Cursor zu stärken.\nDer Artikel Google Cloud und Replit koo",
+      "link": "https://the-decoder.de/google-cloud-und-replit-kooperieren-bei-ki-tools-fuer-unternehmen/",
+      "date": "2025-12-05T11:29:36.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "OpenAI muss 20 Millionen ChatGPT-Chats an New York Times herausgeben",
+      "description": "Ein Bundesgericht hat im Streit um die Forderung der New York Times entschieden: OpenAI muss Millionen anonymisierter ChatGPT-Protokolle offenlegen.\nDer Artikel OpenAI muss 20 Millionen ChatGPT-Chats",
+      "link": "https://the-decoder.de/openai-muss-20-millionen-chatgpt-chats-an-new-york-times-herausgeben/",
+      "date": "2025-12-05T10:43:54.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Physiker veröffentlicht Paper, dessen zentrale Idee von GPT-5 stammt",
       "description": "Physiker Steve Hsu hat ein Paper veröffentlicht, dessen zentrale Idee von GPT-5 stammt. Doch er warnt vor Blindflug: KI agiere wie ein „brillantes, aber unzuverlässiges Genie“, dessen Fehler selbst Ex",
@@ -78,24 +96,6 @@
       "description": "Der geplante 100-Milliarden-Dollar-Deal zwischen Nvidia und OpenAI ist noch nicht unterzeichnet.\nDer Artikel Nvidia-CFO bestätigt: 100-Milliarden-Deal mit OpenAI noch nicht fix erschien zuerst auf The",
       "link": "https://the-decoder.de/nvidia-cfo-bestaetigt-100-milliarden-deal-mit-openai-noch-nicht-fix/",
       "date": "2025-12-04T11:26:35.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Microsoft weist Berichte über gesenkte KI-Vertriebsziele zurück",
-      "description": "Microsoft hat Berichte zurückgewiesen, wonach das Unternehmen Wachstumsziele für den Verkauf von KI-Software gesenkt habe, nachdem viele Vertriebsteams die Vorgaben im letzten Geschäftsjahr verfehlt h",
-      "link": "https://the-decoder.de/microsoft-weist-berichte-ueber-gesenkte-ki-vertriebsziele-zurueck/",
-      "date": "2025-12-03T20:27:12.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "KI PRO Webinar | KI-Lösungen in der EU: Wie Sie KI in Europa betreiben können",
-      "description": "In einem stark regulierten Geschäftsumfeld stehen Unternehmen vor der Herausforderung, KI-Lösungen effizient, datenschutzkonform und innerhalb europäischer Rechtsräume zu betreiben. Unser Webinar zeig",
-      "link": "https://the-decoder.de/ki-pro-webinar-ki-loesungen-in-der-eu-wie-sie-ki-in-europa-betreiben-koennen/",
-      "date": "2025-12-03T20:08:22.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
