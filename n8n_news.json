@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-12-05T12:49:23.774Z",
+  "lastUpdated": "2025-12-05T14:24:49.124Z",
   "news": [
+    {
+      "title": "Google sammelt dreimal mehr KI-Daten als OpenAI dank Suchmonopol",
+      "description": "Cloudflare-Daten zeigen, wie massiv Googles Datenvorsprung gegenüber OpenAI und Anthropic durch die Kopplung von Suche und KI-Scraping ist.\nDer Artikel Google sammelt dreimal mehr KI-Daten als OpenAI",
+      "link": "https://the-decoder.de/google-sammelt-dreimal-mehr-ki-daten-als-openai-dank-suchmonopol/",
+      "date": "2025-12-05T13:09:43.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Google Cloud und Replit kooperieren bei KI-Tools für Unternehmen",
       "description": "Google Cloud geht eine mehrjährige Partnerschaft mit dem KI-Coding-Startup Replit ein, um seine Position gegen Wettbewerber wie Anthropic und Cursor zu stärken.\nDer Artikel Google Cloud und Replit koo",
@@ -87,15 +96,6 @@
       "description": "Die EU-Kommission hat eine offizielle Kartelluntersuchung gegen Meta eingeleitet.\nDer Artikel EU-Kommission startet Kartellverfahren gegen Meta wegen WhatsApp-KI-Richtlinie erschien zuerst auf The Dec",
       "link": "https://the-decoder.de/eu-kommission-startet-kartellverfahren-gegen-meta-wegen-whatsapp-ki-richtlinie/",
       "date": "2025-12-04T11:36:36.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Nvidia-CFO bestätigt: 100-Milliarden-Deal mit OpenAI noch nicht fix",
-      "description": "Der geplante 100-Milliarden-Dollar-Deal zwischen Nvidia und OpenAI ist noch nicht unterzeichnet.\nDer Artikel Nvidia-CFO bestätigt: 100-Milliarden-Deal mit OpenAI noch nicht fix erschien zuerst auf The",
-      "link": "https://the-decoder.de/nvidia-cfo-bestaetigt-100-milliarden-deal-mit-openai-noch-nicht-fix/",
-      "date": "2025-12-04T11:26:35.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
