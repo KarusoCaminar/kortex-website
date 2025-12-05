@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-05T04:32:30.878Z",
+  "lastUpdated": "2025-12-05T06:36:32.302Z",
   "news": [
     {
       "title": "Google veröffentlicht Gemini 3 \"Deep Think\" für Gemini-Abonnenten",
@@ -101,18 +101,18 @@
       "language": "de"
     },
     {
-      "title": "How confessions can keep language models honest",
-      "description": "OpenAI researchers are testing “confessions,” a method that trains models to admit when they make mistakes or act undesirably, helping improve AI honesty, transparency, and trust in model outputs.",
-      "link": "https://openai.com/index/how-confessions-can-keep-language-models-honest",
+      "title": "OpenAI to acquire Neptune",
+      "description": "OpenAI is acquiring Neptune to deepen visibility into model behavior and strengthen the tools researchers use to track experiments and monitor training.",
+      "link": "https://openai.com/index/openai-to-acquire-neptune",
       "date": "2025-12-03T10:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
     },
     {
-      "title": "OpenAI to acquire Neptune",
-      "description": "OpenAI is acquiring Neptune to deepen visibility into model behavior and strengthen the tools researchers use to track experiments and monitor training.",
-      "link": "https://openai.com/index/openai-to-acquire-neptune",
+      "title": "How confessions can keep language models honest",
+      "description": "OpenAI researchers are testing “confessions,” a method that trains models to admit when they make mistakes or act undesirably, helping improve AI honesty, transparency, and trust in model outputs.",
+      "link": "https://openai.com/index/how-confessions-can-keep-language-models-honest",
       "date": "2025-12-03T10:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
