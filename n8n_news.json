@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-12-06T06:32:48.771Z",
+  "lastUpdated": "2025-12-06T08:28:48.251Z",
   "news": [
+    {
+      "title": "OpenAI erklärt Nutzern, das Einkaufsvorschläge keine Werbung sind",
+      "description": "OpenAI weiß nicht, was Werbung ist. Nutzer des bezahlten ChatGPT beschwerten sich über die Einblendung „Shop for home and groceries. Connect Target“, wohl eine Aufforderung, den ChatGPT-Account mit de",
+      "link": "https://the-decoder.de/openai-erklaert-nutzern-das-einkaufsvorschlaege-keine-werbung-sind/",
+      "date": "2025-12-06T08:19:56.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Neue Sicherheitslücke: KI-Agenten in GitHub und GitLab gefährden Unternehmens-Workflows",
       "description": "Aikido Security warnt vor einer neuen Schwachstelle in GitHub‑ und GitLab‑Workflows, die mit KI‑Agenten wie Gemini CLI, Claude Code, OpenAI Codex oder GitHub AI Inference verbunden sind.\nDer Artikel N",
@@ -78,15 +87,6 @@
       "description": "Google AI hat einen aktualisierten \"Deep Think\"-Modus für Abonnenten von Google AI Ultra in der Gemini-App veröffentlicht.\nDer Artikel Google veröffentlicht Gemini 3 \"Deep Think\" für Gemini-Abonnenten",
       "link": "https://the-decoder.de/google-veroeffentlicht-gemini-3-deep-think-fuer-gemini-abonnenten/",
       "date": "2025-12-04T20:12:28.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "EU plant fünf KI-Gigafactories mit 100 000 Hochleistungs-KI-Chips",
-      "description": "Die Europäische Investitionsbank (EIB) und die EU-Kommission wollen gemeinsam bis zu fünf große KI-Gigafactories in Europa aufbauen.\nDer Artikel EU plant fünf KI-Gigafactories mit 100 000 Hochleistung",
-      "link": "https://the-decoder.de/eu-plant-fuenf-ki-gigafactories-mit-100-000-hochleistungs-ki-chips/",
-      "date": "2025-12-04T19:27:56.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
