@@ -1,10 +1,28 @@
 {
-  "lastUpdated": "2025-12-06T08:28:48.251Z",
+  "lastUpdated": "2025-12-06T10:22:46.164Z",
   "news": [
     {
-      "title": "OpenAI erklärt Nutzern, das Einkaufsvorschläge keine Werbung sind",
-      "description": "OpenAI weiß nicht, was Werbung ist. Nutzer des bezahlten ChatGPT beschwerten sich über die Einblendung „Shop for home and groceries. Connect Target“, wohl eine Aufforderung, den ChatGPT-Account mit de",
-      "link": "https://the-decoder.de/openai-erklaert-nutzern-das-einkaufsvorschlaege-keine-werbung-sind/",
+      "title": "Deepmind-Chef sieht drei KI-Themen für 2026: Multimodal, interaktiv und autonom",
+      "description": "Demis Hassabis, CEO von Google Deepmind, erwartet in den nächsten zwölf Monaten Fortschritte bei der Konvergenz multimodaler Modelle, interaktiven Videowelten und verlässlichen KI-Agenten.\nDer Artikel",
+      "link": "https://the-decoder.de/deepmind-chef-sieht-drei-ki-themen-fuer-2026-multimodal-interaktiv-und-autonom/",
+      "date": "2025-12-06T10:17:58.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Meta-KI-Forscher LeCun gründet Startup für KI mit echtem Weltverständnis und Fokus auf Europa",
+      "description": "Yann LeCun, der scheidende KI-Wissenschaftler von Meta, plant ein neues Startup mit Fokus auf sogenannte \"World Models\", die die physische Welt verstehen, anstatt lediglich Text zu generieren.\nDer Art",
+      "link": "https://the-decoder.de/meta-ki-forscher-lecun-gruendet-startup-fuer-ki-mit-echtem-weltverstaendnis-und-fokus-auf-europa/",
+      "date": "2025-12-06T09:07:46.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "OpenAI erklärt Nutzern, dass Einkaufsvorschläge keine Werbung sind",
+      "description": "Nutzer des bezahlten ChatGPT beschwerten sich über die Einblendung „Shop for home and groceries. Connect Target“, wohl eine Aufforderung, den ChatGPT-Account mit dem OpenAI-Partner Target zu verbinden",
+      "link": "https://the-decoder.de/openai-erklaert-nutzern-dass-einkaufsvorschlaege-keine-werbung-sind/",
       "date": "2025-12-06T08:19:56.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
@@ -69,24 +87,6 @@
       "description": "Ein Bundesgericht hat im Streit um die Forderung der New York Times entschieden: OpenAI muss Millionen anonymisierter ChatGPT-Protokolle offenlegen.\nDer Artikel OpenAI muss 20 Millionen ChatGPT-Chats",
       "link": "https://the-decoder.de/openai-muss-20-millionen-chatgpt-chats-an-new-york-times-herausgeben/",
       "date": "2025-12-05T10:43:54.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Physiker veröffentlicht Paper, dessen zentrale Idee von GPT-5 stammt",
-      "description": "Physiker Steve Hsu hat ein Paper veröffentlicht, dessen zentrale Idee von GPT-5 stammt. Doch er warnt vor Blindflug: KI agiere wie ein „brillantes, aber unzuverlässiges Genie“, dessen Fehler selbst Ex",
-      "link": "https://the-decoder.de/physiker-veroeffentlicht-paper-dessen-zentrale-idee-von-gpt-5-stammt/",
-      "date": "2025-12-05T10:23:57.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Google veröffentlicht Gemini 3 \"Deep Think\" für Gemini-Abonnenten",
-      "description": "Google AI hat einen aktualisierten \"Deep Think\"-Modus für Abonnenten von Google AI Ultra in der Gemini-App veröffentlicht.\nDer Artikel Google veröffentlicht Gemini 3 \"Deep Think\" für Gemini-Abonnenten",
-      "link": "https://the-decoder.de/google-veroeffentlicht-gemini-3-deep-think-fuer-gemini-abonnenten/",
-      "date": "2025-12-04T20:12:28.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
