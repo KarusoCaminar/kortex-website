@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-12-07T12:42:08.885Z",
+  "lastUpdated": "2025-12-07T14:20:13.769Z",
   "news": [
+    {
+      "title": "Kreative nutzen KI trotz Stigma und Zukunftsängsten für mehr Produktivität",
+      "description": "Kreative Berufsgruppen steigern mit KI-Tools ihre Produktivität erheblich, doch die Mehrheit verschweigt die Nutzung aus Angst vor dem Urteil ihrer Kollegen, wie eine neue Anthropic-Studie mit 1.250 B",
+      "link": "https://the-decoder.de/kreative-nutzen-ki-trotz-stigma-und-zukunftsaengsten-fuer-mehr-produktivitaet/",
+      "date": "2025-12-07T13:43:44.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Komplexe KI-Agenten sind laut Studie im Arbeitsalltag noch overhyped",
       "description": "Eine umfassende Untersuchung von UC Berkeley und Partnern zeigt, wie Unternehmen KI-Agenten tatsächlich einsetzen. Statt autonomer Super-KI setzen erfolgreiche Teams auf einfache Workflows, manuelle P",
@@ -80,15 +89,6 @@
       "date": "2025-12-05T17:27:15.000Z",
       "source": "The Decoder",
       "category": "workflow-tools",
-      "language": "de"
-    },
-    {
-      "title": "New York Times verklagt KI-Suchmaschine Perplexity",
-      "description": "Die New York Times hat Perplexity vor einem Bundesgericht in New York verklagt. Das KI-Start-up soll laut Klage ohne Erlaubnis Inhalte der Zeitung kopiert, ganze Artikel übernommen und diese als eigen",
-      "link": "https://the-decoder.de/new-york-times-verklagt-ki-suchmaschine-perplexity/",
-      "date": "2025-12-05T16:40:45.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
       "language": "de"
     },
     {
