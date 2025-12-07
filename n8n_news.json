@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2025-12-07T08:28:04.010Z",
+  "lastUpdated": "2025-12-07T10:21:36.879Z",
   "news": [
+    {
+      "title": "Perplexity stellt Sicherheitssystem gegen Prompt-Injection-Angriffe auf Browser-Agenten vor",
+      "description": "Perplexity stellt ein neues Sicherheitssystem für KI-Browser vor – und trifft damit einen wunden Punkt der Branche. Während immer mehr Anbieter Agenten tief ins Web integrieren, steigt das Risiko vers",
+      "link": "https://the-decoder.de/perplexity-stellt-sicherheitssystem-gegen-prompt-injection-angriffe-auf-browser-agenten-vor/",
+      "date": "2025-12-07T09:06:53.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Open-Source-KI GeoVista findet Aufnahmeorte von Fotos durch Zoom und Websuche",
+      "description": "Ein Forschungsteam aus China hat mit GeoVista ein Open-Source-KI-Modell vorgestellt, das Bilder analysiert und gleichzeitig das Internet durchsucht, um deren Aufnahmeort zu bestimmen. Das Modell soll",
+      "link": "https://the-decoder.de/open-source-ki-geovista-findet-aufnahmeorte-von-fotos-durch-zoom-und-websuche/",
+      "date": "2025-12-07T08:30:52.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Apple zeigt Alternative zu Diffusionsmodellen für Video-KI",
       "description": "Apples STARFlow‑V zeigt: Videogen­erierung muss nicht auf Diffusion setzen. Das neue Modell nutzt „Normalizing Flows“, erzeugt so stabilere längere Clips und hängt andere autoregressive Ansätze im Ben",
@@ -69,24 +87,6 @@
       "description": "Ein Jahr nach der Veröffentlichung des Titans-Papers stellt Google die Architektur offiziell im eigenen Forschungsblog vor – gemeinsam mit dem neuen Framework MIRAS. Beide Projekte zielen auf ein zent",
       "link": "https://the-decoder.de/miras-und-titans-google-zeigt-wie-ki-modelle-dauerhaft-dazulernen-koennen/",
       "date": "2025-12-05T14:40:17.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Meta AI wird zum Nachrichtenportal durch Partnerschaften mit CNN, Fox News und anderen",
-      "description": "Meta baut seinen KI-Assistenten zum Nachrichtenportal aus und integriert Echtzeitinhalte aus verschiedenen Medienquellen.\nDer Artikel Meta AI wird zum Nachrichtenportal durch Partnerschaften mit CNN,",
-      "link": "https://the-decoder.de/meta-ai-wird-zum-nachrichtenportal-durch-partnerschaften-mit-cnn-fox-news-und-anderen/",
-      "date": "2025-12-05T14:34:46.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Google sammelt dreimal mehr KI-Daten als OpenAI dank Suchmonopol",
-      "description": "Cloudflare-Daten zeigen, wie massiv Googles Datenvorsprung gegenüber OpenAI und Anthropic durch die Kopplung von Suche und KI-Scraping ist.\nDer Artikel Google sammelt dreimal mehr KI-Daten als OpenAI",
-      "link": "https://the-decoder.de/google-sammelt-dreimal-mehr-ki-daten-als-openai-dank-suchmonopol/",
-      "date": "2025-12-05T13:09:43.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
