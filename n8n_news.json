@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-08T12:50:40.084Z",
+  "lastUpdated": "2025-12-08T14:26:45.677Z",
   "news": [
     {
       "title": "Chinas KI-Training in Kenia: WhatsApp-Gruppen ersetzen den Arbeitsvertrag",
@@ -18,6 +18,15 @@
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
+    },
+    {
+      "title": "Instacart and OpenAI partner on AI shopping experiences",
+      "description": "OpenAI and Instacart are deepening their longstanding partnership by bringing the first fully integrated grocery shopping and Instant Checkout payment app to ChatGPT.",
+      "link": "https://openai.com/index/instacart-partnership",
+      "date": "2025-12-08T06:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
     },
     {
       "title": "The state of enterprise AI",
@@ -114,15 +123,6 @@
       "description": "OpenAI is launching OpenAI for Australia to build sovereign AI infrastructure, upskill more than 1.5 million workers, and accelerate innovation across the country’s growing AI ecosystem.",
       "link": "https://openai.com/global-affairs/openai-for-australia",
       "date": "2025-12-04T19:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "OpenAI to acquire Neptune",
-      "description": "OpenAI is acquiring Neptune to deepen visibility into model behavior and strengthen the tools researchers use to track experiments and monitor training.",
-      "link": "https://openai.com/index/openai-to-acquire-neptune",
-      "date": "2025-12-03T10:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
