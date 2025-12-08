@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-12-08T18:36:18.666Z",
+  "lastUpdated": "2025-12-08T20:27:33.727Z",
   "news": [
+    {
+      "title": "OpenAI-Analyse: KI soll Wissensarbeitern 40 bis 80 Minuten pro Tag sparen",
+      "description": "OpenAI hat einen umfassenden Bericht zur KI-Nutzung in Unternehmen veröffentlicht. Die Daten zeigen Produktivitätsgewinne und eine wachsende Kluft zwischen Vorreitern und Nachzüglern.\nDer Artikel Open",
+      "link": "https://the-decoder.de/openai-analyse-ki-soll-wissensarbeitern-40-bis-80-minuten-pro-tag-sparen/",
+      "date": "2025-12-08T19:19:36.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Infrastruktur-Kollaps droht: Warum OpenAI und Microsoft der Strom ausgeht",
       "description": "Einem neuen Bericht zufolge droht den USA eine massive Energielücke, die die Expansionspläne von OpenAI, Microsoft und Co. gefährden könnte.\nDer Artikel Infrastruktur-Kollaps droht: Warum OpenAI und M",
@@ -96,15 +105,6 @@
       "description": "Apples STARFlow‑V zeigt: Videogen­erierung muss nicht auf Diffusion setzen. Das neue Modell nutzt „Normalizing Flows“, erzeugt so stabilere längere Clips und hängt andere autoregressive Ansätze im Ben",
       "link": "https://the-decoder.de/apple-zeigt-alternative-zu-diffusionsmodellen-fuer-video-ki/",
       "date": "2025-12-06T11:12:21.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "KI-Rechercheagenten erfinden lieber Fakten als zuzugeben, dass sie etwas nicht wissen",
-      "description": "Eine neue Studie des AI-Agent-Teams des chinesischen Smartphoneherstellers Oppo zeigt die systematischen Schwächen von Deep-Research-Systemen, die automatisch ausführliche Rechercheberichte erstellen",
-      "link": "https://the-decoder.de/ki-rechercheagenten-erfinden-lieber-fakten-als-zuzugeben-dass-sie-etwas-nicht-wissen/",
-      "date": "2025-12-06T10:35:07.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
