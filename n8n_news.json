@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-12-08T10:28:01.540Z",
+  "lastUpdated": "2025-12-08T12:50:40.084Z",
   "news": [
+    {
+      "title": "Chinas KI-Training in Kenia: WhatsApp-Gruppen ersetzen den Arbeitsvertrag",
+      "description": "Während US-Tech-Giganten für ihre Arbeitspraktiken in Kenia zunehmend unter Beobachtung stehen, bauen chinesische KI-Firmen im Stillen ein Netzwerk aus Billigarbeitskräften auf. Die Rekrutierung läuft",
+      "link": "https://the-decoder.de/chinas-ki-training-in-kenia-whatsapp-gruppen-ersetzen-den-arbeitsvertrag/",
+      "date": "2025-12-08T11:35:28.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "KI PRO Webinar | KI-Lösungen in der EU: Wie Sie KI in Europa betreiben können",
       "description": "In einem stark regulierten Geschäftsumfeld stehen Unternehmen vor der Herausforderung, KI-Lösungen effizient, datenschutzkonform und innerhalb europäischer Rechtsräume zu betreiben. Unser Webinar zeig",
@@ -9,6 +18,15 @@
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
+    },
+    {
+      "title": "The state of enterprise AI",
+      "description": "Key findings from OpenAI’s enterprise data show accelerating AI adoption, deeper integration, and measurable productivity gains across industries in 2025.",
+      "link": "https://openai.com/index/the-state-of-enterprise-ai-2025-report",
+      "date": "2025-12-08T04:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
     },
     {
       "title": "Kreative nutzen KI trotz Stigma und Zukunftsängsten für mehr Produktivität",
@@ -83,15 +101,6 @@
       "language": "de"
     },
     {
-      "title": "OpenAI erklärt Nutzern, dass Einkaufsvorschläge keine Werbung sind",
-      "description": "Nutzer des bezahlten ChatGPT beschwerten sich über die Einblendung „Shop for home and groceries. Connect Target“, wohl eine Aufforderung, den ChatGPT-Account mit dem OpenAI-Partner Target zu verbinden",
-      "link": "https://the-decoder.de/openai-erklaert-nutzern-dass-einkaufsvorschlaege-keine-werbung-sind/",
-      "date": "2025-12-06T08:19:56.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "Titans + MIRAS: Helping AI have long-term memory",
       "description": "Generative AI",
       "link": "https://research.google/blog/titans-miras-helping-ai-have-long-term-memory/",
@@ -123,15 +132,6 @@
       "description": "OpenAI researchers are testing “confessions,” a method that trains models to admit when they make mistakes or act undesirably, helping improve AI honesty, transparency, and trust in model outputs.",
       "link": "https://openai.com/index/how-confessions-can-keep-language-models-honest",
       "date": "2025-12-03T10:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "Announcing the initial People-First AI Fund grantees",
-      "description": "The OpenAI Foundation announces the initial recipients of the People-First AI Fund, awarding $40.5M in unrestricted grants to 208 nonprofits supporting community innovation and opportunity.",
-      "link": "https://openai.com/index/people-first-ai-fund-grantees",
-      "date": "2025-12-03T08:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
