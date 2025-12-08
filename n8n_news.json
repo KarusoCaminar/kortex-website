@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-12-08T08:35:26.027Z",
+  "lastUpdated": "2025-12-08T10:28:01.540Z",
   "news": [
+    {
+      "title": "KI PRO Webinar | KI-Lösungen in der EU: Wie Sie KI in Europa betreiben können",
+      "description": "In einem stark regulierten Geschäftsumfeld stehen Unternehmen vor der Herausforderung, KI-Lösungen effizient, datenschutzkonform und innerhalb europäischer Rechtsräume zu betreiben. Unser Webinar zeig",
+      "link": "https://the-decoder.de/ki-pro-webinar-ki-loesungen-in-der-eu-wie-sie-ki-in-europa-betreiben-koennen/",
+      "date": "2025-12-08T10:01:22.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Kreative nutzen KI trotz Stigma und Zukunftsängsten für mehr Produktivität",
       "description": "Kreative Berufsgruppen steigern mit KI-Tools ihre Produktivität erheblich, doch die Mehrheit verschweigt die Nutzung aus Angst vor dem Urteil ihrer Kollegen, wie eine neue Anthropic-Studie mit 1.250 B",
@@ -80,15 +89,6 @@
       "date": "2025-12-06T08:19:56.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Neue Sicherheitslücke: KI-Agenten in GitHub und GitLab gefährden Unternehmens-Workflows",
-      "description": "Aikido Security warnt vor einer neuen Schwachstelle in GitHub‑ und GitLab‑Workflows, die mit KI‑Agenten wie Gemini CLI, Claude Code, OpenAI Codex oder GitHub AI Inference verbunden sind.\nDer Artikel N",
-      "link": "https://the-decoder.de/neue-sicherheitsluecke-ki-agenten-in-github-und-gitlab-gefaehrden-unternehmens-workflows/",
-      "date": "2025-12-05T17:27:15.000Z",
-      "source": "The Decoder",
-      "category": "workflow-tools",
       "language": "de"
     },
     {
