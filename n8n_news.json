@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2025-12-08T14:26:45.677Z",
+  "lastUpdated": "2025-12-08T16:32:56.944Z",
   "news": [
+    {
+      "title": "Infrastruktur-Kollaps droht: Warum OpenAI und Microsoft der Strom ausgeht",
+      "description": "Einem neuen Bericht zufolge droht den USA eine massive Energielücke, die die Expansionspläne von OpenAI, Microsoft und Co. gefährden könnte.\nDer Artikel Infrastruktur-Kollaps droht: Warum OpenAI und M",
+      "link": "https://the-decoder.de/infrastruktur-kollaps-droht-warum-openai-und-microsoft-der-strom-ausgeht/",
+      "date": "2025-12-08T15:40:35.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Rnj-1: Transformer-Pionier Vaswani stellt neues Coding-Modell vor",
+      "description": "Das neue Open-Source-Modell Rnj-1 von Essential AI lässt im Test \"SWE-bench Verified\" deutlich größere Konkurrenz hinter sich.\nDer Artikel Rnj-1: Transformer-Pionier Vaswani stellt neues Coding-Modell",
+      "link": "https://the-decoder.de/rnj-1-transformer-pionier-vaswani-stellt-neues-coding-modell-vor/",
+      "date": "2025-12-08T15:15:21.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Chinas KI-Training in Kenia: WhatsApp-Gruppen ersetzen den Arbeitsvertrag",
       "description": "Während US-Tech-Giganten für ihre Arbeitspraktiken in Kenia zunehmend unter Beobachtung stehen, bauen chinesische KI-Firmen im Stillen ein Netzwerk aus Billigarbeitskräften auf. Die Rekrutierung läuft",
@@ -87,24 +105,6 @@
       "description": "Eine neue Studie des AI-Agent-Teams des chinesischen Smartphoneherstellers Oppo zeigt die systematischen Schwächen von Deep-Research-Systemen, die automatisch ausführliche Rechercheberichte erstellen",
       "link": "https://the-decoder.de/ki-rechercheagenten-erfinden-lieber-fakten-als-zuzugeben-dass-sie-etwas-nicht-wissen/",
       "date": "2025-12-06T10:35:07.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Deepmind-Chef sieht drei KI-Themen für 2026: Multimodal, interaktiv und autonom",
-      "description": "Demis Hassabis, CEO von Google Deepmind, erwartet in den nächsten zwölf Monaten Fortschritte bei der Konvergenz multimodaler Modelle, interaktiven Videowelten und verlässlichen KI-Agenten.\nDer Artikel",
-      "link": "https://the-decoder.de/deepmind-chef-sieht-drei-ki-themen-fuer-2026-multimodal-interaktiv-und-autonom/",
-      "date": "2025-12-06T10:17:58.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Meta-KI-Forscher LeCun gründet Startup für KI mit echtem Weltverständnis und Fokus auf Europa",
-      "description": "Yann LeCun, der scheidende KI-Wissenschaftler von Meta, plant ein neues Startup mit Fokus auf sogenannte \"World Models\", die die physische Welt verstehen, anstatt lediglich Text zu generieren.\nDer Art",
-      "link": "https://the-decoder.de/meta-ki-forscher-lecun-gruendet-startup-fuer-ki-mit-echtem-weltverstaendnis-und-fokus-auf-europa/",
-      "date": "2025-12-06T09:07:46.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
