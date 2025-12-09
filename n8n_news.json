@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-08T22:22:42.839Z",
+  "lastUpdated": "2025-12-09T01:52:21.862Z",
   "news": [
     {
       "title": "OpenAI-Analyse: KI soll Wissensarbeitern 40 bis 80 Minuten pro Tag sparen",
@@ -65,6 +65,15 @@
       "language": "en"
     },
     {
+      "title": "How Virgin Atlantic uses AI to enhance every step of travel",
+      "description": "Virgin Atlantic CFO Oliver Byers shares how the airline is using AI to speed up development, improve decision-making, and elevate customer experience.",
+      "link": "https://openai.com/index/virgin-atlantic-oliver-byers",
+      "date": "2025-12-08T00:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
       "title": "Kreative nutzen KI trotz Stigma und Zukunftsängsten für mehr Produktivität",
       "description": "Kreative Berufsgruppen steigern mit KI-Tools ihre Produktivität erheblich, doch die Mehrheit verschweigt die Nutzung aus Angst vor dem Urteil ihrer Kollegen, wie eine neue Anthropic-Studie mit 1.250 B",
       "link": "https://the-decoder.de/kreative-nutzen-ki-trotz-stigma-und-zukunftsaengsten-fuer-mehr-produktivitaet/",
@@ -123,15 +132,6 @@
       "description": "OpenAI is launching OpenAI for Australia to build sovereign AI infrastructure, upskill more than 1.5 million workers, and accelerate innovation across the country’s growing AI ecosystem.",
       "link": "https://openai.com/global-affairs/openai-for-australia",
       "date": "2025-12-04T19:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "OpenAI to acquire Neptune",
-      "description": "OpenAI is acquiring Neptune to deepen visibility into model behavior and strengthen the tools researchers use to track experiments and monitor training.",
-      "link": "https://openai.com/index/openai-to-acquire-neptune",
-      "date": "2025-12-03T10:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
