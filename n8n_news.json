@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-12-09T08:34:26.098Z",
+  "lastUpdated": "2025-12-09T10:29:03.108Z",
   "news": [
+    {
+      "title": "Nvidia darf H200-Chips unter strengen Auflagen an China verkaufen",
+      "description": "Die US-Regierung unter Donald Trump plant, den Export von Nvidias H200-KI-Beschleunigern nach China unter Auflagen freizugeben. Im Gegenzug verlangen die USA eine Abgabe von 25 Prozent, während die le",
+      "link": "https://the-decoder.de/nvidia-darf-h200-chips-unter-strengen-auflagen-an-china-verkaufen/",
+      "date": "2025-12-09T08:46:56.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Bringing powerful AI to millions across Europe with Deutsche Telekom",
       "description": "OpenAI is collaborating with Deutsche Telekom to bring advanced, multilingual AI experiences to millions of people across Europe. ChatGPT Enterprise will also be deployed to help employees at Deutsche",
@@ -114,15 +123,6 @@
       "description": "Ein Forschungsteam aus China hat mit GeoVista ein Open-Source-KI-Modell vorgestellt, das Bilder analysiert und gleichzeitig das Internet durchsucht, um deren Aufnahmeort zu bestimmen. Das Modell soll",
       "link": "https://the-decoder.de/open-source-ki-geovista-findet-aufnahmeorte-von-fotos-durch-zoom-und-websuche/",
       "date": "2025-12-07T08:30:52.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Apple zeigt Alternative zu Diffusionsmodellen für Video-KI",
-      "description": "Apples STARFlow‑V zeigt: Videogen­erierung muss nicht auf Diffusion setzen. Das neue Modell nutzt „Normalizing Flows“, erzeugt so stabilere längere Clips und hängt andere autoregressive Ansätze im Ben",
-      "link": "https://the-decoder.de/apple-zeigt-alternative-zu-diffusionsmodellen-fuer-video-ki/",
-      "date": "2025-12-06T11:12:21.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
