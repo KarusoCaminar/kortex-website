@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-12-09T16:31:16.047Z",
+  "lastUpdated": "2025-12-09T18:32:15.971Z",
   "news": [
+    {
+      "title": "OpenAI, Anthropic und mehr: \"Big AI\" will gemeinsamen Standard für KI-Agenten schaffen",
+      "description": "Die Linux Foundation gründet die Agentic AI Foundation. Anthropic, OpenAI und Block steuern drei Open-Source-Projekte bei, während sich nahezu alle großen Technologiekonzerne als Mitglieder anschließe",
+      "link": "https://the-decoder.de/openai-anthropic-und-mehr-big-ai-will-gemeinsamen-standard-fuer-ki-agenten-schaffen/",
+      "date": "2025-12-09T18:00:41.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "EU-Kommission eröffnet Kartellverfahren gegen Google wegen KI-Datennutzung",
       "description": "Die Europäische Kommission prüft, ob Google seine Marktmacht missbraucht, um KI-Modelle mit Inhalten von Webseiten und YouTube zu trainieren. Im Fokus stehen fehlende Opt-out-Möglichkeiten und die Ben",
@@ -18,6 +27,15 @@
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
+    },
+    {
+      "title": "OpenAI co-founds Agentic AI Foundation, donates AGENTS.md",
+      "description": "OpenAI co-founds the Agentic AI Foundation under the Linux Foundation and donates AGENTS.md to support open, interoperable standards for safe agentic AI.",
+      "link": "https://openai.com/index/agentic-ai-foundation",
+      "date": "2025-12-09T09:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
     },
     {
       "title": "Nvidia darf H200-Chips unter strengen Auflagen an China verkaufen",
@@ -117,24 +135,6 @@
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
-    },
-    {
-      "title": "Kreative nutzen KI trotz Stigma und Zukunftsängsten für mehr Produktivität",
-      "description": "Kreative Berufsgruppen steigern mit KI-Tools ihre Produktivität erheblich, doch die Mehrheit verschweigt die Nutzung aus Angst vor dem Urteil ihrer Kollegen, wie eine neue Anthropic-Studie mit 1.250 B",
-      "link": "https://the-decoder.de/kreative-nutzen-ki-trotz-stigma-und-zukunftsaengsten-fuer-mehr-produktivitaet/",
-      "date": "2025-12-07T13:43:44.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Komplexe KI-Agenten sind laut Studie im Arbeitsalltag noch overhyped",
-      "description": "Eine umfassende Untersuchung von UC Berkeley und Partnern zeigt, wie Unternehmen KI-Agenten tatsächlich einsetzen. Statt autonomer Super-KI setzen erfolgreiche Teams auf einfache Workflows, manuelle P",
-      "link": "https://the-decoder.de/komplexe-ki-agenten-sind-laut-studie-im-arbeitsalltag-noch-overhyped/",
-      "date": "2025-12-07T11:19:05.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
     }
   ]
 }
