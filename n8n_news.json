@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-12-09T04:31:51.489Z",
+  "lastUpdated": "2025-12-09T06:37:26.440Z",
   "news": [
+    {
+      "title": "Bringing powerful AI to millions across Europe with Deutsche Telekom",
+      "description": "OpenAI is collaborating with Deutsche Telekom to bring advanced, multilingual AI experiences to millions of people across Europe. ChatGPT Enterprise will also be deployed to help employees at Deutsche",
+      "link": "https://openai.com/index/deutsche-telekom-collaboration",
+      "date": "2025-12-09T00:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
     {
       "title": "OpenAI-Analyse: KI soll Wissensarbeitern 40 bis 80 Minuten pro Tag sparen",
       "description": "OpenAI hat einen umfassenden Bericht zur KI-Nutzung in Unternehmen veröffentlicht. Die Daten zeigen Produktivitätsgewinne und eine wachsende Kluft zwischen Vorreitern und Nachzüglern.\nDer Artikel Open",
@@ -124,15 +133,6 @@
       "link": "https://research.google/blog/titans-miras-helping-ai-have-long-term-memory/",
       "date": "2025-12-04T19:26:09.000Z",
       "source": "Google AI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "Introducing OpenAI for Australia",
-      "description": "OpenAI is launching OpenAI for Australia to build sovereign AI infrastructure, upskill more than 1.5 million workers, and accelerate innovation across the country’s growing AI ecosystem.",
-      "link": "https://openai.com/global-affairs/openai-for-australia",
-      "date": "2025-12-04T19:00:00.000Z",
-      "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
     }
