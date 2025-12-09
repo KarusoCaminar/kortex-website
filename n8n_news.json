@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2025-12-09T10:29:03.108Z",
+  "lastUpdated": "2025-12-09T12:51:38.763Z",
   "news": [
+    {
+      "title": "EU-Kommission eröffnet Kartellverfahren gegen Google wegen KI-Datennutzung",
+      "description": "Die Europäische Kommission prüft, ob Google seine Marktmacht missbraucht, um KI-Modelle mit Inhalten von Webseiten und YouTube zu trainieren. Im Fokus stehen fehlende Opt-out-Möglichkeiten und die Ben",
+      "link": "https://the-decoder.de/eu-kommission-eroeffnet-kartellverfahren-gegen-google-wegen-ki-datennutzung/",
+      "date": "2025-12-09T12:36:44.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Google verankert Gemini als Kern von Android XR und plant KI-Brillen",
+      "description": "Google baut sein XR-Ökosystem aus und positioniert das Sprachmodell Gemini als zentrale Schnittstelle. Neben generativen KI-Funktionen für Headsets kündigt das Unternehmen Partnerschaften für Brillen",
+      "link": "https://the-decoder.de/google-verankert-gemini-als-kern-von-android-xr-und-plant-ki-brillen/",
+      "date": "2025-12-09T11:34:24.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Nvidia darf H200-Chips unter strengen Auflagen an China verkaufen",
       "description": "Die US-Regierung unter Donald Trump plant, den Export von Nvidias H200-KI-Beschleunigern nach China unter Auflagen freizugeben. Im Gegenzug verlangen die USA eine Abgabe von 25 Prozent, während die le",
@@ -105,24 +123,6 @@
       "description": "Eine umfassende Untersuchung von UC Berkeley und Partnern zeigt, wie Unternehmen KI-Agenten tatsächlich einsetzen. Statt autonomer Super-KI setzen erfolgreiche Teams auf einfache Workflows, manuelle P",
       "link": "https://the-decoder.de/komplexe-ki-agenten-sind-laut-studie-im-arbeitsalltag-noch-overhyped/",
       "date": "2025-12-07T11:19:05.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Perplexity stellt Sicherheitssystem gegen Prompt-Injection-Angriffe auf Browser-Agenten vor",
-      "description": "Perplexity stellt ein neues Sicherheitssystem für KI-Browser vor – und trifft damit einen wunden Punkt der Branche. Während immer mehr Anbieter Agenten tief ins Web integrieren, steigt das Risiko vers",
-      "link": "https://the-decoder.de/perplexity-stellt-sicherheitssystem-gegen-prompt-injection-angriffe-auf-browser-agenten-vor/",
-      "date": "2025-12-07T09:06:53.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Open-Source-KI GeoVista findet Aufnahmeorte von Fotos durch Zoom und Websuche",
-      "description": "Ein Forschungsteam aus China hat mit GeoVista ein Open-Source-KI-Modell vorgestellt, das Bilder analysiert und gleichzeitig das Internet durchsucht, um deren Aufnahmeort zu bestimmen. Das Modell soll",
-      "link": "https://the-decoder.de/open-source-ki-geovista-findet-aufnahmeorte-von-fotos-durch-zoom-und-websuche/",
-      "date": "2025-12-07T08:30:52.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
