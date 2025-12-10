@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2025-12-10T20:28:44.757Z",
+  "lastUpdated": "2025-12-10T22:23:42.971Z",
   "news": [
+    {
+      "title": "A differentially private framework for gaining insights into AI chatbot use",
+      "description": "Generative AI",
+      "link": "https://research.google/blog/a-differentially-private-framework-for-gaining-insights-into-ai-chatbot-use/",
+      "date": "2025-12-10T21:59:41.000Z",
+      "source": "Google AI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
+      "title": "Google stellt neue KI-Suche-Funktionen für mehr Sichtbarkeit für Webseiten vor",
+      "description": "Google stellt neue Funktionen vor, um Webseiten in der KI-Suche mehr Sichtbarkeit zu geben. Oder wie mein Kollege Max es sagt: \"Toll, das Internet ist gerettet.\"\nDer Artikel Google stellt neue KI-Such",
+      "link": "https://the-decoder.de/google-stellt-neue-ki-suche-funktionen-fuer-mehr-sichtbarkeit-fuer-webseiten-vor/",
+      "date": "2025-12-10T21:49:40.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Meta plant geschlossenes KI-Modell \"Avocado\" und bricht mit seiner Open-Source-Linie",
       "description": "Meta richtet seine Arbeit auf ein neues KI-Modell mit dem Namen Avocado aus, das laut mit der Planung vertrauten Personen im kommenden Frühjahr erscheinen könnte.\nDer Artikel Meta plant geschlossenes",
@@ -110,28 +128,10 @@
       "language": "en"
     },
     {
-      "title": "Nvidia darf H200-Chips unter strengen Auflagen an China verkaufen",
-      "description": "Die US-Regierung unter Donald Trump plant, den Export von Nvidias H200-KI-Beschleunigern nach China unter Auflagen freizugeben. Im Gegenzug verlangen die USA eine Abgabe von 25 Prozent, während die le",
-      "link": "https://the-decoder.de/nvidia-darf-h200-chips-unter-strengen-auflagen-an-china-verkaufen/",
-      "date": "2025-12-09T08:46:56.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "Launching our first OpenAI Certifications courses",
       "description": "Learn how OpenAI’s new certifications and AI Foundations courses help people build real-world AI skills, boost career opportunities, and prepare for the future of work.",
       "link": "https://openai.com/index/openai-certificate-courses",
       "date": "2025-12-09T06:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "Bringing powerful AI to millions across Europe with Deutsche Telekom",
-      "description": "OpenAI is collaborating with Deutsche Telekom to bring advanced, multilingual AI experiences to millions of people across Europe. ChatGPT Enterprise will also be deployed to help employees at Deutsche",
-      "link": "https://openai.com/index/deutsche-telekom-collaboration",
-      "date": "2025-12-09T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
