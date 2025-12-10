@@ -1,6 +1,33 @@
 {
-  "lastUpdated": "2025-12-10T10:28:59.093Z",
+  "lastUpdated": "2025-12-10T12:52:25.616Z",
   "news": [
+    {
+      "title": "Flugzeugbauer will mit Gasturbinen den KI-Stromhunger stillen",
+      "description": "Das US-Luftfahrt-Start-up Boom Supersonic, das eigentlich an der Entwicklung eines Überschall-Passagierflugzeugs arbeitet, steigt aufgrund des KI-Booms überraschend in das Energiegeschäft ein.\nDer Art",
+      "link": "https://the-decoder.de/flugzeugbauer-will-mit-gasturbinen-den-ki-stromhunger-stillen/",
+      "date": "2025-12-10T12:20:35.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Kein Monopol für Google: Pentagon setzt bei neuer KI-Plattform auf Multi-Vendor-Strategie",
+      "description": "Das US-Verteidigungsministerium rollt die Plattform \"GenAI.mil\" aus, um drei Millionen Mitarbeitenden Zugriff auf KI-Modelle zu geben. Google macht den Anfang, doch die Strategie sieht ausdrücklich ei",
+      "link": "https://the-decoder.de/kein-monopol-fuer-google-pentagon-setzt-bei-neuer-ki-plattform-auf-multi-vendor-strategie/",
+      "date": "2025-12-10T12:05:42.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Neue Nvidia-Technologie soll Standort von KI-Chips verifizieren",
+      "description": "Nvidia arbeitet an einer Technologie, die den physischen Standort seiner KI-Chips verifizieren kann. Die Funktion könnte helfen, Exportbeschränkungen durchzusetzen, wird offiziell aber als Tool für da",
+      "link": "https://the-decoder.de/neue-nvidia-technologie-soll-standort-von-ki-chips-verifizieren/",
+      "date": "2025-12-10T10:42:46.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Devstral 2: Mistral AI veröffentlicht neue offene KI-Modelle für Programmierung",
       "description": "Mit Devstral 2 und Devstral Small 2 veröffentlicht Mistral AI eine neue Familie von Open-Source-Modellen für die Programmierung.\nDer Artikel Devstral 2: Mistral AI veröffentlicht neue offene KI-Modell",
@@ -105,33 +132,6 @@
       "description": "OpenAI hat einen umfassenden Bericht zur KI-Nutzung in Unternehmen veröffentlicht. Die Daten zeigen Produktivitätsgewinne und eine wachsende Kluft zwischen Vorreitern und Nachzüglern.\nDer Artikel Open",
       "link": "https://the-decoder.de/openai-analyse-ki-soll-wissensarbeitern-40-bis-80-minuten-pro-tag-sparen/",
       "date": "2025-12-08T19:19:36.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Infrastruktur-Kollaps droht: Warum OpenAI und Microsoft der Strom ausgeht",
-      "description": "Einem neuen Bericht zufolge droht den USA eine massive Energielücke, die die Expansionspläne von OpenAI, Microsoft und Co. gefährden könnte.\nDer Artikel Infrastruktur-Kollaps droht: Warum OpenAI und M",
-      "link": "https://the-decoder.de/infrastruktur-kollaps-droht-warum-openai-und-microsoft-der-strom-ausgeht/",
-      "date": "2025-12-08T15:40:35.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Rnj-1: Transformer-Pionier Vaswani stellt neues Coding-Modell vor",
-      "description": "Das neue Open-Source-Modell Rnj-1 von Essential AI lässt im Test \"SWE-bench Verified\" deutlich größere Konkurrenz hinter sich.\nDer Artikel Rnj-1: Transformer-Pionier Vaswani stellt neues Coding-Modell",
-      "link": "https://the-decoder.de/rnj-1-transformer-pionier-vaswani-stellt-neues-coding-modell-vor/",
-      "date": "2025-12-08T15:15:21.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Chinas KI-Training in Kenia: WhatsApp-Gruppen ersetzen den Arbeitsvertrag",
-      "description": "Während US-Tech-Giganten für ihre Arbeitspraktiken in Kenia zunehmend unter Beobachtung stehen, bauen chinesische KI-Firmen im Stillen ein Netzwerk aus Billigarbeitskräften auf. Die Rekrutierung läuft",
-      "link": "https://the-decoder.de/chinas-ki-training-in-kenia-whatsapp-gruppen-ersetzen-den-arbeitsvertrag/",
-      "date": "2025-12-08T11:35:28.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
