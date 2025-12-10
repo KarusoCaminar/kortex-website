@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-10T06:37:49.774Z",
+  "lastUpdated": "2025-12-10T08:33:29.417Z",
   "news": [
     {
       "title": "Devstral 2: Mistral AI veröffentlicht neue offene KI-Modelle für Programmierung",
@@ -74,6 +74,15 @@
       "language": "en"
     },
     {
+      "title": "Bringing powerful AI to millions across Europe with Deutsche Telekom",
+      "description": "OpenAI is collaborating with Deutsche Telekom to bring advanced, multilingual AI experiences to millions of people across Europe. ChatGPT Enterprise will also be deployed to help employees at Deutsche",
+      "link": "https://openai.com/index/deutsche-telekom-collaboration",
+      "date": "2025-12-09T00:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
       "title": "OpenAI appoints Denise Dresser as Chief Revenue Officer",
       "description": "Denise Dresser is joining as Chief Revenue Officer, overseeing OpenAI’s global revenue strategy across enterprise and customer success. She will help more businesses put AI to work in their day-to-day",
       "link": "https://openai.com/index/openai-appoints-denise-dresser",
@@ -86,15 +95,6 @@
       "title": "Building AI fluency at scale with ChatGPT Enterprise",
       "description": "Commonwealth Bank of Australia partners with OpenAI to roll out ChatGPT Enterprise to 50,000 employees, building AI fluency at scale to improve customer service and fraud response.",
       "link": "https://openai.com/index/commonwealth-bank-of-australia",
-      "date": "2025-12-09T00:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "Bringing powerful AI to millions across Europe with Deutsche Telekom",
-      "description": "OpenAI is collaborating with Deutsche Telekom to bring advanced, multilingual AI experiences to millions of people across Europe. ChatGPT Enterprise will also be deployed to help employees at Deutsche",
-      "link": "https://openai.com/index/deutsche-telekom-collaboration",
       "date": "2025-12-09T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
