@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-09T22:22:37.570Z",
+  "lastUpdated": "2025-12-10T01:54:22.138Z",
   "news": [
     {
       "title": "Devstral 2: Mistral AI veröffentlicht neue offene KI-Modelle für Programmierung",
@@ -18,6 +18,15 @@
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
+    },
+    {
+      "title": "How Scout24 is building the next generation of real-estate search with AI",
+      "description": "Scout24 has created a GPT-5 powered conversational assistant that reimagines real-estate search, guiding users with clarifying questions, summaries, and tailored listing recommendations.",
+      "link": "https://openai.com/index/scout24",
+      "date": "2025-12-09T16:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
     },
     {
       "title": "EU-Kommission eröffnet Kartellverfahren gegen Google wegen KI-Datennutzung",
@@ -65,6 +74,15 @@
       "language": "en"
     },
     {
+      "title": "Bringing powerful AI to millions across Europe with Deutsche Telekom",
+      "description": "OpenAI is collaborating with Deutsche Telekom to bring advanced, multilingual AI experiences to millions of people across Europe. ChatGPT Enterprise will also be deployed to help employees at Deutsche",
+      "link": "https://openai.com/index/deutsche-telekom-collaboration",
+      "date": "2025-12-09T00:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
       "title": "OpenAI appoints Denise Dresser as Chief Revenue Officer",
       "description": "Denise Dresser is joining as Chief Revenue Officer, overseeing OpenAI’s global revenue strategy across enterprise and customer success. She will help more businesses put AI to work in their day-to-day",
       "link": "https://openai.com/index/openai-appoints-denise-dresser",
@@ -74,9 +92,9 @@
       "language": "en"
     },
     {
-      "title": "Bringing powerful AI to millions across Europe with Deutsche Telekom",
-      "description": "OpenAI is collaborating with Deutsche Telekom to bring advanced, multilingual AI experiences to millions of people across Europe. ChatGPT Enterprise will also be deployed to help employees at Deutsche",
-      "link": "https://openai.com/index/deutsche-telekom-collaboration",
+      "title": "Building AI fluency at scale with ChatGPT Enterprise",
+      "description": "Commonwealth Bank of Australia partners with OpenAI to roll out ChatGPT Enterprise to 50,000 employees, building AI fluency at scale to improve customer service and fraud response.",
+      "link": "https://openai.com/index/commonwealth-bank-of-australia",
       "date": "2025-12-09T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
@@ -117,24 +135,6 @@
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
-    },
-    {
-      "title": "KI PRO Webinar | KI-Lösungen in der EU: Wie Sie KI in Europa betreiben können",
-      "description": "In einem stark regulierten Geschäftsumfeld stehen Unternehmen vor der Herausforderung, KI-Lösungen effizient, datenschutzkonform und innerhalb europäischer Rechtsräume zu betreiben. Unser Webinar zeig",
-      "link": "https://the-decoder.de/ki-pro-webinar-ki-loesungen-in-der-eu-wie-sie-ki-in-europa-betreiben-koennen/",
-      "date": "2025-12-08T10:01:22.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Instacart and OpenAI partner on AI shopping experiences",
-      "description": "OpenAI and Instacart are deepening their longstanding partnership by bringing the first fully integrated grocery shopping and Instant Checkout payment app to ChatGPT.",
-      "link": "https://openai.com/index/instacart-partnership",
-      "date": "2025-12-08T06:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
     }
   ]
 }
