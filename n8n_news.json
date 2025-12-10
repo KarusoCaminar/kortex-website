@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2025-12-10T18:35:09.482Z",
+  "lastUpdated": "2025-12-10T20:28:44.757Z",
   "news": [
+    {
+      "title": "Meta plant geschlossenes KI-Modell \"Avocado\" und bricht mit seiner Open-Source-Linie",
+      "description": "Meta richtet seine Arbeit auf ein neues KI-Modell mit dem Namen Avocado aus, das laut mit der Planung vertrauten Personen im kommenden Frühjahr erscheinen könnte.\nDer Artikel Meta plant geschlossenes",
+      "link": "https://the-decoder.de/meta-plant-geschlossenes-ki-modell-avocado-und-bricht-mit-seiner-open-source-linie/",
+      "date": "2025-12-10T20:00:54.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Deepseek soll tausende geschmuggelte Nvidia-Chips fürs KI-Training nutzen",
+      "description": "Deepseek entwickelt sein nächstes großes KI-Modell offenbar mit Tausenden von Nvidias neuesten Blackwell-Chips, obwohl diese wegen US-Exportverboten gar nicht nach China geliefert werden dürfen. Ein B",
+      "link": "https://the-decoder.de/deepseek-soll-tausende-geschmuggelte-nvidia-chips-fuers-ki-training-nutzen/",
+      "date": "2025-12-10T19:06:59.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Flugzeugbauer will mit Gasturbinen den KI-Stromhunger stillen",
       "description": "Das US-Luftfahrt-Start-up Boom Supersonic, das eigentlich an der Entwicklung eines Überschall-Passagierflugzeugs arbeitet, steigt aufgrund des KI-Booms überraschend in das Energiegeschäft ein.\nDer Art",
@@ -18,6 +36,15 @@
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
+    },
+    {
+      "title": "Strengthening cyber resilience as AI capabilities advance",
+      "description": "OpenAI is investing in stronger safeguards and defensive capabilities as AI models become more powerful in cybersecurity. We explain how we assess risk, limit misuse, and work with the security commun",
+      "link": "https://openai.com/index/strengthening-cyber-resilience",
+      "date": "2025-12-10T12:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
     },
     {
       "title": "Neue Nvidia-Technologie soll Standort von KI-Chips verifizieren",
@@ -101,24 +128,6 @@
       "language": "en"
     },
     {
-      "title": "OpenAI appoints Denise Dresser as Chief Revenue Officer",
-      "description": "Denise Dresser is joining as Chief Revenue Officer, overseeing OpenAI’s global revenue strategy across enterprise and customer success. She will help more businesses put AI to work in their day-to-day",
-      "link": "https://openai.com/index/openai-appoints-denise-dresser",
-      "date": "2025-12-09T00:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "Building AI fluency at scale with ChatGPT Enterprise",
-      "description": "Commonwealth Bank of Australia partners with OpenAI to roll out ChatGPT Enterprise to 50,000 employees, building AI fluency at scale to improve customer service and fraud response.",
-      "link": "https://openai.com/index/commonwealth-bank-of-australia",
-      "date": "2025-12-09T00:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
       "title": "Bringing powerful AI to millions across Europe with Deutsche Telekom",
       "description": "OpenAI is collaborating with Deutsche Telekom to bring advanced, multilingual AI experiences to millions of people across Europe. ChatGPT Enterprise will also be deployed to help employees at Deutsche",
       "link": "https://openai.com/index/deutsche-telekom-collaboration",
@@ -126,15 +135,6 @@
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
-    },
-    {
-      "title": "OpenAI-Analyse: KI soll Wissensarbeitern 40 bis 80 Minuten pro Tag sparen",
-      "description": "OpenAI hat einen umfassenden Bericht zur KI-Nutzung in Unternehmen veröffentlicht. Die Daten zeigen Produktivitätsgewinne und eine wachsende Kluft zwischen Vorreitern und Nachzüglern.\nDer Artikel Open",
-      "link": "https://the-decoder.de/openai-analyse-ki-soll-wissensarbeitern-40-bis-80-minuten-pro-tag-sparen/",
-      "date": "2025-12-08T19:19:36.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
     }
   ]
 }
