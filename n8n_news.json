@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-12-11T18:35:17.429Z",
+  "lastUpdated": "2025-12-11T20:27:19.592Z",
   "news": [
+    {
+      "title": "KI-Wettrennen mit Google: OpenAI veröffentlicht neue Modelle GPT-5.2",
+      "description": "Vor rund vier Wochen veröffentlichte OpenAI die KI-Modelle 5.1 als Update für das im Sommer erschienene GPT-5. Jetzt erscheint bereits die nächste Version mit leichten bis deutlichen Verbesserungen in",
+      "link": "https://the-decoder.de/ki-wettrennen-mit-google-openai-veroeffentlicht-neue-modelle-gpt-5-2/",
+      "date": "2025-12-11T19:44:36.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Google stellt neuen Deep-Research-Agenten und neue KI-API vor",
       "description": "Google aktualisiert sein Deep-Research-System mit einer neuen Version basierend auf Gemini 3 Pro. Entwickler \"freuen\" sich über einen neuen API-Standard, der agentische Fähigkeiten besser unterstützen",
@@ -123,15 +132,6 @@
       "description": "Das US-Luftfahrt-Start-up Boom Supersonic, das eigentlich an der Entwicklung eines Überschall-Passagierflugzeugs arbeitet, steigt aufgrund des KI-Booms überraschend in das Energiegeschäft ein.\nDer Art",
       "link": "https://the-decoder.de/flugzeugbauer-will-mit-gasturbinen-den-ki-stromhunger-stillen/",
       "date": "2025-12-10T12:20:35.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Kein Monopol für Google: Pentagon setzt bei neuer KI-Plattform auf Multi-Vendor-Strategie",
-      "description": "Das US-Verteidigungsministerium rollt die Plattform \"GenAI.mil\" aus, um drei Millionen Mitarbeitenden Zugriff auf KI-Modelle zu geben. Google macht den Anfang, doch die Strategie sieht ausdrücklich ei",
-      "link": "https://the-decoder.de/kein-monopol-fuer-google-pentagon-setzt-bei-neuer-ki-plattform-auf-multi-vendor-strategie/",
-      "date": "2025-12-10T12:05:42.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
