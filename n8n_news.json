@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2025-12-11T14:25:06.825Z",
+  "lastUpdated": "2025-12-11T16:35:13.460Z",
   "news": [
+    {
+      "title": "FACTS-Benchmark: Auch Top-KI-Modelle kämpfen mit der Wahrheit",
+      "description": "Ein neuer Benchmark von Google DeepMind soll die Zuverlässigkeit von KI-Modellen umfassender messen als bisher. Die Ergebnisse zeigen, dass selbst Spitzenmodelle wie Gemini 3 Pro und GPT-5.1 weit von",
+      "link": "https://the-decoder.de/facts-benchmark-auch-top-ki-modelle-kaempfen-mit-der-wahrheit/",
+      "date": "2025-12-11T16:25:14.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Das nächste Space Race: Tech-Konzerne wollen KI-Fabriken im Weltraum bauen",
+      "description": "Der enorme Energiebedarf moderner KI-Modelle treibt Tech-Giganten gedanklich ins All. Die Hürden sind jedoch immens – von der Kühlung bis zur Strahlung. Doch die Unternehmen denken in Jahrzehnten, nic",
+      "link": "https://the-decoder.de/das-naechste-space-race-tech-konzerne-wollen-ki-fabriken-im-weltraum-bauen/",
+      "date": "2025-12-11T15:22:14.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Google öffnet seine Infrastruktur via MCP für KI-Modelle",
       "description": "Google integriert das von Anthropic entwickelte Model Context Protocol (MCP) direkt in seine Cloud-Infrastruktur.\nDer Artikel Google öffnet seine Infrastruktur via MCP für KI-Modelle erschien zuerst a",
@@ -9,6 +27,15 @@
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
+    },
+    {
+      "title": "Increasing revenue 300% by bringing AI to SMBs",
+      "description": "Discover how Podium used OpenAI’s GPT-5 to build “Jerry,” an AI teammate driving 300% growth and transforming how Main Street businesses serve customers.",
+      "link": "https://openai.com/index/podium",
+      "date": "2025-12-11T00:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
     },
     {
       "title": "The Walt Disney Company and OpenAI reach landmark agreement to bring beloved characters to Sora",
@@ -101,37 +128,10 @@
       "language": "de"
     },
     {
-      "title": "OpenAI, Anthropic und mehr: \"Big AI\" will gemeinsamen Standard für KI-Agenten schaffen",
-      "description": "Die Linux Foundation gründet die Agentic AI Foundation. Anthropic, OpenAI und Block steuern drei Open-Source-Projekte bei, während sich nahezu alle großen Technologiekonzerne als Mitglieder anschließe",
-      "link": "https://the-decoder.de/openai-anthropic-und-mehr-big-ai-will-gemeinsamen-standard-fuer-ki-agenten-schaffen/",
-      "date": "2025-12-09T18:00:41.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "How Scout24 is building the next generation of real-estate search with AI",
       "description": "Scout24 has created a GPT-5 powered conversational assistant that reimagines real-estate search, guiding users with clarifying questions, summaries, and tailored listing recommendations.",
       "link": "https://openai.com/index/scout24",
       "date": "2025-12-09T16:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "EU-Kommission eröffnet Kartellverfahren gegen Google wegen KI-Datennutzung",
-      "description": "Die Europäische Kommission prüft, ob Google seine Marktmacht missbraucht, um KI-Modelle mit Inhalten von Webseiten und YouTube zu trainieren. Im Fokus stehen fehlende Opt-out-Möglichkeiten und die Ben",
-      "link": "https://the-decoder.de/eu-kommission-eroeffnet-kartellverfahren-gegen-google-wegen-ki-datennutzung/",
-      "date": "2025-12-09T12:36:44.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "OpenAI co-founds Agentic AI Foundation, donates AGENTS.md",
-      "description": "OpenAI co-founds the Agentic AI Foundation under the Linux Foundation and donates AGENTS.md to support open, interoperable standards for safe agentic AI.",
-      "link": "https://openai.com/index/agentic-ai-foundation",
-      "date": "2025-12-09T09:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
