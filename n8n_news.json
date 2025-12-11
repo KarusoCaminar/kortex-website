@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-11T12:53:27.276Z",
+  "lastUpdated": "2025-12-11T14:25:06.825Z",
   "news": [
     {
       "title": "Google öffnet seine Infrastruktur via MCP für KI-Modelle",
@@ -9,6 +9,15 @@
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
+    },
+    {
+      "title": "The Walt Disney Company and OpenAI reach landmark agreement to bring beloved characters to Sora",
+      "description": "Disney and OpenAI have reached an agreement to bring more than 200 Disney, Marvel, Pixar and Star Wars characters to Sora for fan-inspired short videos. The agreement emphasizes responsible AI in ente",
+      "link": "https://openai.com/index/disney-sora-agreement",
+      "date": "2025-12-11T00:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
     },
     {
       "title": "A differentially private framework for gaining insights into AI chatbot use",
@@ -123,15 +132,6 @@
       "description": "OpenAI co-founds the Agentic AI Foundation under the Linux Foundation and donates AGENTS.md to support open, interoperable standards for safe agentic AI.",
       "link": "https://openai.com/index/agentic-ai-foundation",
       "date": "2025-12-09T09:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "Launching our first OpenAI Certifications courses",
-      "description": "Learn how OpenAI’s new certifications and AI Foundations courses help people build real-world AI skills, boost career opportunities, and prepare for the future of work.",
-      "link": "https://openai.com/index/openai-certificate-courses",
-      "date": "2025-12-09T06:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
