@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-12-12T06:38:00.396Z",
+  "lastUpdated": "2025-12-12T08:34:11.163Z",
   "news": [
+    {
+      "title": "BBVA and OpenAI collaborate to transform global banking",
+      "description": "BBVA is expanding its work with OpenAI through a multi-year AI transformation program, rolling out ChatGPT Enterprise to all 120,000 employees. Together, the companies will develop AI solutions that e",
+      "link": "https://openai.com/index/bbva-collaboration-expansion",
+      "date": "2025-12-12T00:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
     {
       "title": "KI-Wettrennen mit Google: OpenAI veröffentlicht neue Modelle GPT-5.2",
       "description": "Vor rund vier Wochen veröffentlichte OpenAI die KI-Modelle 5.1 als Update für das im Sommer erschienene GPT-5. Jetzt erscheint bereits die nächste Version mit leichten bis deutlichen Verbesserungen in",
@@ -56,9 +65,18 @@
       "language": "en"
     },
     {
-      "title": "Ten years",
-      "description": "OpenAI reflects on ten years of progress, from early research breakthroughs to widely used AI systems that reshaped what’s possible. We share lessons from the past decade and why we remain optimistic",
-      "link": "https://openai.com/index/ten-years",
+      "title": "The Walt Disney Company and OpenAI reach landmark agreement to bring beloved characters to Sora",
+      "description": "Disney and OpenAI have reached an agreement to bring more than 200 Disney, Marvel, Pixar and Star Wars characters to Sora for fan-inspired short videos. The agreement emphasizes responsible AI in ente",
+      "link": "https://openai.com/index/disney-sora-agreement",
+      "date": "2025-12-11T00:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
+      "title": "Increasing revenue 300% by bringing AI to SMBs",
+      "description": "Discover how Podium used OpenAI’s GPT-5 to build “Jerry,” an AI teammate driving 300% growth and transforming how Main Street businesses serve customers.",
+      "link": "https://openai.com/index/podium",
       "date": "2025-12-11T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
@@ -74,15 +92,6 @@
       "language": "en"
     },
     {
-      "title": "The Walt Disney Company and OpenAI reach landmark agreement to bring beloved characters to Sora",
-      "description": "Disney and OpenAI have reached an agreement to bring more than 200 Disney, Marvel, Pixar and Star Wars characters to Sora for fan-inspired short videos. The agreement emphasizes responsible AI in ente",
-      "link": "https://openai.com/index/disney-sora-agreement",
-      "date": "2025-12-11T00:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
       "title": "Update to GPT-5 System Card: GPT-5.2",
       "description": "GPT-5.2 is the latest model family in the GPT-5 series. The comprehensive safety mitigation approach for these models is largely the same as that described in the GPT-5 System Card and GPT-5.1 System",
       "link": "https://openai.com/index/gpt-5-system-card-update-gpt-5-2",
@@ -92,9 +101,9 @@
       "language": "en"
     },
     {
-      "title": "Increasing revenue 300% by bringing AI to SMBs",
-      "description": "Discover how Podium used OpenAI’s GPT-5 to build “Jerry,” an AI teammate driving 300% growth and transforming how Main Street businesses serve customers.",
-      "link": "https://openai.com/index/podium",
+      "title": "Ten years",
+      "description": "OpenAI reflects on ten years of progress, from early research breakthroughs to widely used AI systems that reshaped what’s possible. We share lessons from the past decade and why we remain optimistic",
+      "link": "https://openai.com/index/ten-years",
       "date": "2025-12-11T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
@@ -123,15 +132,6 @@
       "description": "Meta richtet seine Arbeit auf ein neues KI-Modell mit dem Namen Avocado aus, das laut mit der Planung vertrauten Personen im kommenden Frühjahr erscheinen könnte.\nDer Artikel Meta plant geschlossenes",
       "link": "https://the-decoder.de/meta-plant-geschlossenes-ki-modell-avocado-und-bricht-mit-seiner-open-source-linie/",
       "date": "2025-12-10T20:00:54.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Deepseek soll tausende geschmuggelte Nvidia-Chips fürs KI-Training nutzen",
-      "description": "Deepseek entwickelt sein nächstes großes KI-Modell offenbar mit Tausenden von Nvidias neuesten Blackwell-Chips, obwohl diese wegen US-Exportverboten gar nicht nach China geliefert werden dürfen. Ein B",
-      "link": "https://the-decoder.de/deepseek-soll-tausende-geschmuggelte-nvidia-chips-fuers-ki-training-nutzen/",
-      "date": "2025-12-10T19:06:59.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
