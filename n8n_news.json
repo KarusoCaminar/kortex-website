@@ -1,6 +1,33 @@
 {
-  "lastUpdated": "2025-12-12T12:51:09.126Z",
+  "lastUpdated": "2025-12-12T14:22:08.294Z",
   "news": [
+    {
+      "title": "Trump droht Bundesstaaten: Stoppt eure KI-Gesetze oder verliert Milliarden",
+      "description": "US-Präsident Donald Trump unterzeichnete am Donnerstag einen Erlass (Executive Order), der Bundesstaaten mit dem Entzug von Fördermitteln droht, sollten ihre KI-Vorschriften die amerikanische Innovati",
+      "link": "https://the-decoder.de/trump-droht-bundesstaaten-stoppt-eure-ki-gesetze-oder-verliert-milliarden/",
+      "date": "2025-12-12T14:05:13.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Disney mahnt Google ab und schließt Partnerschaft mit OpenAI",
+      "description": "Der Medienkonzern wird der erste große Content-Partner für OpenAIs Videoplattform Sora. CEO Bob Iger verteidigt den Deal gegen Kritik aus der Kreativbranche und zieht Parallelen zur Einführung von iTu",
+      "link": "https://the-decoder.de/disney-mahnt-google-ab-und-schliesst-partnerschaft-mit-openai/",
+      "date": "2025-12-12T13:48:42.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Von Dota über GPT-5 zur AGI: Sam Altman zieht Bilanz zum OpenAI-Jubiläum",
+      "description": "Zum zehnjährigen Bestehen von OpenAI prognostiziert CEO Sam Altman, dass Superintelligenz \"nahezu sicher\" innerhalb der nächsten zehn Jahre entwickelt wird.\nDer Artikel Von Dota über GPT-5 zur AGI: Sa",
+      "link": "https://the-decoder.de/von-dota-ueber-gpt-5-zur-agi-sam-altman-zieht-bilanz-zum-openai-jubilaeum/",
+      "date": "2025-12-12T13:30:01.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "BBVA and OpenAI collaborate to transform global banking",
       "description": "BBVA is expanding its work with OpenAI through a multi-year AI transformation program, rolling out ChatGPT Enterprise to all 120,000 employees. Together, the companies will develop AI solutions that e",
@@ -108,33 +135,6 @@
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
-    },
-    {
-      "title": "A differentially private framework for gaining insights into AI chatbot use",
-      "description": "Generative AI",
-      "link": "https://research.google/blog/a-differentially-private-framework-for-gaining-insights-into-ai-chatbot-use/",
-      "date": "2025-12-10T21:59:41.000Z",
-      "source": "Google AI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "Google stellt neue KI-Suche-Funktionen für mehr Sichtbarkeit für Webseiten vor",
-      "description": "Google stellt neue Funktionen vor, um Webseiten in der KI-Suche mehr Sichtbarkeit zu geben. Oder wie mein Kollege Max es sagt: \"Toll, das Internet ist gerettet.\"\nDer Artikel Google stellt neue KI-Such",
-      "link": "https://the-decoder.de/google-stellt-neue-ki-suche-funktionen-fuer-mehr-sichtbarkeit-fuer-webseiten-vor/",
-      "date": "2025-12-10T21:49:40.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Meta plant geschlossenes KI-Modell \"Avocado\" und bricht mit seiner Open-Source-Linie",
-      "description": "Meta richtet seine Arbeit auf ein neues KI-Modell mit dem Namen Avocado aus, das laut mit der Planung vertrauten Personen im kommenden Frühjahr erscheinen könnte.\nDer Artikel Meta plant geschlossenes",
-      "link": "https://the-decoder.de/meta-plant-geschlossenes-ki-modell-avocado-und-bricht-mit-seiner-open-source-linie/",
-      "date": "2025-12-10T20:00:54.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
     }
   ]
 }
