@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-12-12T14:22:08.294Z",
+  "lastUpdated": "2025-12-12T16:30:05.228Z",
   "news": [
+    {
+      "title": "Anthropic hat Google-Chips für 21 Milliarden Dollar bei Broadcom bestellt",
+      "description": "Das KI-Labor Anthropic hat bei Broadcom Bestellungen im Gesamtwert von 21 Milliarden US-Dollar für Googles KI-Chips aufgegeben.\nDer Artikel Anthropic hat Google-Chips für 21 Milliarden Dollar bei Broa",
+      "link": "https://the-decoder.de/anthropic-hat-google-chips-fuer-21-milliarden-dollar-bei-broadcom-bestellt/",
+      "date": "2025-12-12T14:44:44.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Trump droht Bundesstaaten: Stoppt eure KI-Gesetze oder verliert Milliarden",
       "description": "US-Präsident Donald Trump unterzeichnete am Donnerstag einen Erlass (Executive Order), der Bundesstaaten mit dem Entzug von Fördermitteln droht, sollten ihre KI-Vorschriften die amerikanische Innovati",
@@ -29,9 +38,27 @@
       "language": "de"
     },
     {
+      "title": "BNY builds “AI for everyone, everywhere” with OpenAI",
+      "description": "BNY is using OpenAI technology to expand AI adoption enterprise-wide. Through its Eliza platform, 20,000+ employees are building AI agents that enhance efficiency and improve client outcomes.",
+      "link": "https://openai.com/index/bny",
+      "date": "2025-12-12T00:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
       "title": "BBVA and OpenAI collaborate to transform global banking",
       "description": "BBVA is expanding its work with OpenAI through a multi-year AI transformation program, rolling out ChatGPT Enterprise to all 120,000 employees. Together, the companies will develop AI solutions that e",
       "link": "https://openai.com/index/bbva-collaboration-expansion",
+      "date": "2025-12-12T00:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
+      "title": "How We Used Codex to Ship Sora for Android in 28 Days",
+      "description": "OpenAI shipped Sora for Android in 28 days using Codex. AI-assisted planning, translation, and parallel coding workflows helped a nimble team deliver rapid, reliable development.",
+      "link": "https://openai.com/index/shipping-sora-for-android-with-codex",
       "date": "2025-12-12T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
@@ -101,36 +128,9 @@
       "language": "en"
     },
     {
-      "title": "Increasing revenue 300% by bringing AI to SMBs",
-      "description": "Discover how Podium used OpenAI’s GPT-5 to build “Jerry,” an AI teammate driving 300% growth and transforming how Main Street businesses serve customers.",
-      "link": "https://openai.com/index/podium",
-      "date": "2025-12-11T00:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "Introducing GPT-5.2",
-      "description": "GPT-5.2 is our most advanced frontier model for everyday professional work, with state-of-the-art reasoning, long-context understanding, coding, and vision. Use it in ChatGPT and the OpenAI API to pow",
-      "link": "https://openai.com/index/introducing-gpt-5-2",
-      "date": "2025-12-11T00:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
       "title": "Update to GPT-5 System Card: GPT-5.2",
       "description": "GPT-5.2 is the latest model family in the GPT-5 series. The comprehensive safety mitigation approach for these models is largely the same as that described in the GPT-5 System Card and GPT-5.1 System",
       "link": "https://openai.com/index/gpt-5-system-card-update-gpt-5-2",
-      "date": "2025-12-11T00:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "Ten years",
-      "description": "OpenAI reflects on ten years of progress, from early research breakthroughs to widely used AI systems that reshaped what’s possible. We share lessons from the past decade and why we remain optimistic",
-      "link": "https://openai.com/index/ten-years",
       "date": "2025-12-11T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
