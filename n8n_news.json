@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-12-13T08:29:09.060Z",
+  "lastUpdated": "2025-12-13T10:23:09.238Z",
   "news": [
+    {
+      "title": "Wer KI menschlicher klingen lässt, verliert laut Studie an inhaltlicher Präzision",
+      "description": "Forschende der Universität Zürich zeigen, dass sich KI-Texte noch immer zuverlässig von menschlicher Sprache unterscheiden lassen. Der Versuch, Modelle menschlicher klingen zu lassen, geht oft zulaste",
+      "link": "https://the-decoder.de/menschlichkeit-kostet-inhalt-neue-studie-zeigt-grenzen-der-ki-simulation/",
+      "date": "2025-12-13T09:20:50.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Google verbessert \"Search Live\" mit neuer KI-Stimme",
       "description": "Google stellt seine neue Such-Stimme für \"Search Live\" vor. Dank eines neuen Gemini-Modells für Audio klingen die Antworten nun natürlicher und flüssiger.\nDer Artikel Google verbessert \"Search Live\" m",
@@ -96,15 +105,6 @@
       "description": "Google aktualisiert sein Deep-Research-System mit einer neuen Version basierend auf Gemini 3 Pro. Entwickler \"freuen\" sich über einen neuen API-Standard, der agentische Fähigkeiten besser unterstützen",
       "link": "https://the-decoder.de/google-stellt-neuen-deep-research-agenten-und-neue-ki-api-vor/",
       "date": "2025-12-11T17:54:32.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "FACTS-Benchmark: Auch Top-KI-Modelle kämpfen mit der Wahrheit",
-      "description": "Ein neuer Benchmark von Google DeepMind soll die Zuverlässigkeit von KI-Modellen umfassender messen als bisher. Die Ergebnisse zeigen, dass selbst Spitzenmodelle wie Gemini 3 Pro und GPT-5.1 weit von",
-      "link": "https://the-decoder.de/facts-benchmark-auch-top-ki-modelle-kaempfen-mit-der-wahrheit/",
-      "date": "2025-12-11T16:25:14.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
