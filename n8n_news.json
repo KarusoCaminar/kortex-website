@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2025-12-13T14:20:40.137Z",
+  "lastUpdated": "2025-12-13T16:27:50.287Z",
   "news": [
+    {
+      "title": "KI-PRO-Webinar: Bildmodelle prompten, vergleichen und das richtige finden",
+      "description": "KI-Bildmodelle eröffnen Unternehmen neue Möglichkeiten, erweisen sich in der Praxis jedoch oft als schwer kontrollierbar. Das kommende Heise-KI-Pro-Webinar vermittelt das notwendige Wissen, um die Fun",
+      "link": "https://the-decoder.de/ki-pro-webinar-bildmodelle-prompten-vergleichen-und-das-richtige-finden/",
+      "date": "2025-12-13T15:10:09.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Weniger ist mehr: Einzelne KI-Modelle können vernetzte KI-Agenten schlagen",
+      "description": "Eine umfangreiche Studie von Google Research, Google DeepMind und MIT widerlegt die verbreitete Annahme, dass mehr KI-Agenten automatisch bessere Ergebnisse liefern. Die Forscher identifizieren präzis",
+      "link": "https://the-decoder.de/weniger-ist-mehr-einzelne-ki-modelle-koennen-vernetzte-ki-agenten-schlagen/",
+      "date": "2025-12-13T14:24:56.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Skills-System bei OpenAI entdeckt: ChatGPT soll Aufgaben mit Modulen effizienter lösen",
       "description": "OpenAI hat offenbar das von Anthropic im Oktober eingeführte Skills-System adaptiert.\nDer Artikel Skills-System bei OpenAI entdeckt: ChatGPT soll Aufgaben mit Modulen effizienter lösen erschien zuerst",
@@ -60,24 +78,6 @@
       "description": "Das KI-Labor Anthropic hat bei Broadcom Bestellungen im Gesamtwert von 21 Milliarden US-Dollar für Googles KI-Chips aufgegeben.\nDer Artikel Anthropic hat Google-Chips für 21 Milliarden Dollar bei Broa",
       "link": "https://the-decoder.de/anthropic-hat-google-chips-fuer-21-milliarden-dollar-bei-broadcom-bestellt/",
       "date": "2025-12-12T14:44:44.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Trump droht Bundesstaaten: Stoppt eure KI-Gesetze oder verliert Milliarden",
-      "description": "US-Präsident Donald Trump unterzeichnete am Donnerstag einen Erlass (Executive Order), der Bundesstaaten mit dem Entzug von Fördermitteln droht, sollten ihre KI-Vorschriften die amerikanische Innovati",
-      "link": "https://the-decoder.de/trump-droht-bundesstaaten-stoppt-eure-ki-gesetze-oder-verliert-milliarden/",
-      "date": "2025-12-12T14:05:13.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Disney mahnt Google ab und schließt Partnerschaft mit OpenAI",
-      "description": "Der Medienkonzern wird der erste große Content-Partner für OpenAIs Videoplattform Sora. CEO Bob Iger verteidigt den Deal gegen Kritik aus der Kreativbranche und zieht Parallelen zur Einführung von iTu",
-      "link": "https://the-decoder.de/disney-mahnt-google-ab-und-schliesst-partnerschaft-mit-openai/",
-      "date": "2025-12-12T13:48:42.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
