@@ -1,6 +1,33 @@
 {
-  "lastUpdated": "2025-12-13T10:23:09.238Z",
+  "lastUpdated": "2025-12-13T12:44:43.498Z",
   "news": [
+    {
+      "title": "Skills-System bei OpenAI entdeckt: ChatGPT soll Aufgaben mit Modulen effizienter lösen",
+      "description": "OpenAI hat offenbar das von Anthropic im Oktober eingeführte Skills-System adaptiert.\nDer Artikel Skills-System bei OpenAI entdeckt: ChatGPT soll Aufgaben mit Modulen effizienter lösen erschien zuerst",
+      "link": "https://the-decoder.de/skills-system-bei-openai-entdeckt-chatgpt-soll-aufgaben-mit-modulen-effizienter-loesen/",
+      "date": "2025-12-13T12:03:59.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "OpenAI behauptet, Sora-App für Android in nur 28 Tagen mit KI-Hilfe entwickelt zu haben",
+      "description": "OpenAI behauptet, dass die Sora Android-App dank der Code-KI Codex in nur 28 Tagen entwickelt wurde.\nDer Artikel OpenAI behauptet, Sora-App für Android in nur 28 Tagen mit KI-Hilfe entwickelt zu haben",
+      "link": "https://the-decoder.de/openai-behauptet-sora-app-fuer-android-in-nur-28-tagen-mit-ki-hilfe-entwickelt-zu-haben/",
+      "date": "2025-12-13T11:08:20.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Columbia-Universität startet Tracker für KI-Deals und Klagen von Medienunternehmen",
+      "description": "KI verändert die Medienwelt; manche Medienunternehmen machen mit, andere wehren sich gegen mutmaßliche Copyright-Verletzungen, einige machen beides.\nDer Artikel Columbia-Universität startet Tracker fü",
+      "link": "https://the-decoder.de/columbia-universitaet-startet-tracker-fuer-ki-deals-und-klagen-von-medienunternehmen/",
+      "date": "2025-12-13T10:40:29.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Wer KI menschlicher klingen lässt, verliert laut Studie an inhaltlicher Präzision",
       "description": "Forschende der Universität Zürich zeigen, dass sich KI-Texte noch immer zuverlässig von menschlicher Sprache unterscheiden lassen. Der Versuch, Modelle menschlicher klingen zu lassen, geht oft zulaste",
@@ -56,15 +83,6 @@
       "language": "de"
     },
     {
-      "title": "Von Dota über GPT-5 zur AGI: Sam Altman zieht Bilanz zum OpenAI-Jubiläum",
-      "description": "Zum zehnjährigen Bestehen von OpenAI prognostiziert CEO Sam Altman, dass Superintelligenz \"nahezu sicher\" innerhalb der nächsten zehn Jahre entwickelt wird.\nDer Artikel Von Dota über GPT-5 zur AGI: Sa",
-      "link": "https://the-decoder.de/von-dota-ueber-gpt-5-zur-agi-sam-altman-zieht-bilanz-zum-openai-jubilaeum/",
-      "date": "2025-12-12T13:30:01.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "BBVA and OpenAI collaborate to transform global banking",
       "description": "BBVA is expanding its work with OpenAI through a multi-year AI transformation program, rolling out ChatGPT Enterprise to all 120,000 employees. Together, the companies will develop AI solutions that e",
       "link": "https://openai.com/index/bbva-collaboration-expansion",
@@ -90,24 +108,6 @@
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
-    },
-    {
-      "title": "KI-Wettrennen mit Google: OpenAI veröffentlicht neue Modelle GPT-5.2",
-      "description": "Vor rund vier Wochen veröffentlichte OpenAI die KI-Modelle 5.1 als Update für das im Sommer erschienene GPT-5. Jetzt erscheint bereits die nächste Version mit leichten bis deutlichen Verbesserungen in",
-      "link": "https://the-decoder.de/ki-wettrennen-mit-google-openai-veroeffentlicht-neue-modelle-gpt-5-2/",
-      "date": "2025-12-11T19:44:36.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Google stellt neuen Deep-Research-Agenten und neue KI-API vor",
-      "description": "Google aktualisiert sein Deep-Research-System mit einer neuen Version basierend auf Gemini 3 Pro. Entwickler \"freuen\" sich über einen neuen API-Standard, der agentische Fähigkeiten besser unterstützen",
-      "link": "https://the-decoder.de/google-stellt-neuen-deep-research-agenten-und-neue-ki-api-vor/",
-      "date": "2025-12-11T17:54:32.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
     },
     {
       "title": "Advancing science and math with GPT-5.2",
