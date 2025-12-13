@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-12-13T16:27:50.287Z",
+  "lastUpdated": "2025-12-13T18:30:40.713Z",
   "news": [
+    {
+      "title": "Google Translate startet Live-Übersetzung per Kopfhörer als Android-Beta – Gemini erhält Tonfall und Rhythmus",
+      "description": "Google integriert Gemini in Google Translate für bessere Textübersetzungen und startet eine Beta für Echtzeit-Sprachübersetzung über Kopfhörer.\nDer Artikel Google Translate startet Live-Übersetzung pe",
+      "link": "https://the-decoder.de/google-translate-startet-live-uebersetzung-per-kopfhoerer-als-android-beta-gemini-erhaelt-tonfall-und-rhythmus/",
+      "date": "2025-12-13T16:34:18.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "KI-PRO-Webinar: Bildmodelle prompten, vergleichen und das richtige finden",
       "description": "KI-Bildmodelle eröffnen Unternehmen neue Möglichkeiten, erweisen sich in der Praxis jedoch oft als schwer kontrollierbar. Das kommende Heise-KI-Pro-Webinar vermittelt das notwendige Wissen, um die Fun",
@@ -69,15 +78,6 @@
       "description": "Pangram hat die Version 3.0 seines KI-Text-Detektors veröffentlicht. Die wichtigste Neuerung: Das Tool klassifiziert Texte jetzt in vier Kategorien statt nur binär zwischen menschlich und maschinell z",
       "link": "https://the-decoder.de/neuer-pangram-3-0-ki-text-detektor-soll-fast-fehlerlos-sein/",
       "date": "2025-12-12T19:39:46.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Anthropic hat Google-Chips für 21 Milliarden Dollar bei Broadcom bestellt",
-      "description": "Das KI-Labor Anthropic hat bei Broadcom Bestellungen im Gesamtwert von 21 Milliarden US-Dollar für Googles KI-Chips aufgegeben.\nDer Artikel Anthropic hat Google-Chips für 21 Milliarden Dollar bei Broa",
-      "link": "https://the-decoder.de/anthropic-hat-google-chips-fuer-21-milliarden-dollar-bei-broadcom-bestellt/",
-      "date": "2025-12-12T14:44:44.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
