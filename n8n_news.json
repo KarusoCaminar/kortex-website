@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2025-12-14T10:23:26.220Z",
+  "lastUpdated": "2025-12-14T12:44:45.401Z",
   "news": [
+    {
+      "title": "Aktuelle KI-Modelle meistern anspruchsvolle CFA-Finanzanalysten-Prüfung",
+      "description": "Eine neue Studie zeigt, dass aktuelle Reasoning-Modelle die anspruchsvolle Finanzanalysten-Prüfung meistern. Gemini 3.0 Pro erreicht bei Level I einen Rekordwert von 97,6 Prozent.\nDer Artikel Aktuelle",
+      "link": "https://the-decoder.de/aktuelle-ki-modelle-meistern-anspruchsvolle-finanzanalysten-pruefungen-cfa/",
+      "date": "2025-12-14T11:35:53.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Center for Humane Technology kritisiert Trump-Verordnung gegen staatliche KI-Gesetze",
+      "description": "Das Center for Humane Technology (CHT), eine gemeinnützige Organisation, die sich für ethische Technologie einsetzt, kritisiert eine neue Verordnung der Trump-Regierung, die staatliche KI-Gesetze in d",
+      "link": "https://the-decoder.de/center-for-humane-technology-kritisiert-trump-verordnung-gegen-staatliche-ki-gesetze/",
+      "date": "2025-12-14T11:01:40.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Adobe integriert Photoshop, Acrobat und Express direkt in die Benutzeroberfläche von ChatGPT",
       "description": "Adobe integriert Photoshop, Acrobat und Express direkt in die Benutzeroberfläche von ChatGPT. Nutzer des Chatbots können nun Bilder und Dokumente kostenlos per Texteingabe bearbeiten. \nDer Artikel Ado",
@@ -65,33 +83,6 @@
       "language": "de"
     },
     {
-      "title": "OpenAI behauptet, Sora-App für Android in nur 28 Tagen mit KI-Hilfe entwickelt zu haben",
-      "description": "OpenAI behauptet, dass die Sora Android-App dank der Code-KI Codex in nur 28 Tagen entwickelt wurde.\nDer Artikel OpenAI behauptet, Sora-App für Android in nur 28 Tagen mit KI-Hilfe entwickelt zu haben",
-      "link": "https://the-decoder.de/openai-behauptet-sora-app-fuer-android-in-nur-28-tagen-mit-ki-hilfe-entwickelt-zu-haben/",
-      "date": "2025-12-13T11:08:20.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Columbia-Universität startet Tracker für KI-Deals und Klagen von Medienunternehmen",
-      "description": "KI verändert die Medienwelt; manche Medienunternehmen machen mit, andere wehren sich gegen mutmaßliche Copyright-Verletzungen, einige machen beides.\nDer Artikel Columbia-Universität startet Tracker fü",
-      "link": "https://the-decoder.de/columbia-universitaet-startet-tracker-fuer-ki-deals-und-klagen-von-medienunternehmen/",
-      "date": "2025-12-13T10:40:29.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Wer KI menschlicher klingen lässt, verliert laut Studie an inhaltlicher Präzision",
-      "description": "Forschende der Universität Zürich zeigen, dass sich KI-Texte noch immer zuverlässig von menschlicher Sprache unterscheiden lassen. Der Versuch, Modelle menschlicher klingen zu lassen, geht oft zulaste",
-      "link": "https://the-decoder.de/menschlichkeit-kostet-inhalt-neue-studie-zeigt-grenzen-der-ki-simulation/",
-      "date": "2025-12-13T09:20:50.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "BBVA and OpenAI collaborate to transform global banking",
       "description": "BBVA is expanding its work with OpenAI through a multi-year AI transformation program, rolling out ChatGPT Enterprise to all 120,000 employees. Together, the companies will develop AI solutions that e",
       "link": "https://openai.com/index/bbva-collaboration-expansion",
@@ -131,6 +122,15 @@
       "title": "Introducing GPT-5.2",
       "description": "GPT-5.2 is our most advanced frontier model for everyday professional work, with state-of-the-art reasoning, long-context understanding, coding, and vision. Use it in ChatGPT and the OpenAI API to pow",
       "link": "https://openai.com/index/introducing-gpt-5-2",
+      "date": "2025-12-11T00:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
+      "title": "The Walt Disney Company and OpenAI reach landmark agreement to bring beloved characters to Sora",
+      "description": "Disney and OpenAI have reached an agreement to bring more than 200 Disney, Marvel, Pixar and Star Wars characters to Sora for fan-inspired short videos. The agreement emphasizes responsible AI in ente",
+      "link": "https://openai.com/index/disney-sora-agreement",
       "date": "2025-12-11T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
