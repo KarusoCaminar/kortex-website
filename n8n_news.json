@@ -1,6 +1,33 @@
 {
-  "lastUpdated": "2025-12-14T08:29:35.417Z",
+  "lastUpdated": "2025-12-14T10:23:26.220Z",
   "news": [
+    {
+      "title": "Adobe integriert Photoshop, Acrobat und Express direkt in die Benutzeroberfläche von ChatGPT",
+      "description": "Adobe integriert Photoshop, Acrobat und Express direkt in die Benutzeroberfläche von ChatGPT. Nutzer des Chatbots können nun Bilder und Dokumente kostenlos per Texteingabe bearbeiten. \nDer Artikel Ado",
+      "link": "https://the-decoder.de/adobe-integriert-photoshop-acrobat-und-express-direkt-in-die-benutzeroberflaeche-von-chatgpt/",
+      "date": "2025-12-14T10:04:19.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Open-Source-Modell LongCat zeigt: Gute Bild-KI geht auch ohne Parameter-Flut",
+      "description": "LongCat-Image zeigt, wie viel Bildqualität und Textpräzision Meituan aus nur 6 Milliarden Parametern herausholt. Statt stumpfer Skalierung setzen die Entwickler auf saubere Daten, clevere Architektur",
+      "link": "https://the-decoder.de/meituan-veroeffentlicht-longcat-image-effizientes-6b-modell-fordert-ki-riesen-heraus/",
+      "date": "2025-12-14T09:27:14.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "OpenAI schafft Sperrfrist für Aktien ab, um die Risikobereitschaft zu erhöhen",
+      "description": "Der Kampf um KI-Talente wird immer teurer. OpenAI schafft jetzt sogar die Wartefrist für Aktienanteile komplett ab, damit neue Mitarbeiter mehr Risiken eingehen. \nDer Artikel OpenAI schafft Sperrfrist",
+      "link": "https://the-decoder.de/openai-schafft-sperrfrist-fuer-aktien-ab-um-die-risikobereitschaft-zu-erhoehen/",
+      "date": "2025-12-14T09:11:16.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Google Translate startet Live-Übersetzung per Kopfhörer als Android-Beta – Gemini erhält Tonfall und Rhythmus",
       "description": "Google integriert Gemini in Google Translate für bessere Textübersetzungen und startet eine Beta für Echtzeit-Sprachübersetzung über Kopfhörer.\nDer Artikel Google Translate startet Live-Übersetzung pe",
@@ -65,24 +92,6 @@
       "language": "de"
     },
     {
-      "title": "Google verbessert \"Search Live\" mit neuer KI-Stimme",
-      "description": "Google stellt seine neue Such-Stimme für \"Search Live\" vor. Dank eines neuen Gemini-Modells für Audio klingen die Antworten nun natürlicher und flüssiger.\nDer Artikel Google verbessert \"Search Live\" m",
-      "link": "https://the-decoder.de/google-verbessert-search-live-mit-neuer-ki-stimme/",
-      "date": "2025-12-12T20:28:05.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Neuer Pangram 3.0 KI-Text-Detektor soll fast fehlerlos sein",
-      "description": "Pangram hat die Version 3.0 seines KI-Text-Detektors veröffentlicht. Die wichtigste Neuerung: Das Tool klassifiziert Texte jetzt in vier Kategorien statt nur binär zwischen menschlich und maschinell z",
-      "link": "https://the-decoder.de/neuer-pangram-3-0-ki-text-detektor-soll-fast-fehlerlos-sein/",
-      "date": "2025-12-12T19:39:46.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "BBVA and OpenAI collaborate to transform global banking",
       "description": "BBVA is expanding its work with OpenAI through a multi-year AI transformation program, rolling out ChatGPT Enterprise to all 120,000 employees. Together, the companies will develop AI solutions that e",
       "link": "https://openai.com/index/bbva-collaboration-expansion",
@@ -122,15 +131,6 @@
       "title": "Introducing GPT-5.2",
       "description": "GPT-5.2 is our most advanced frontier model for everyday professional work, with state-of-the-art reasoning, long-context understanding, coding, and vision. Use it in ChatGPT and the OpenAI API to pow",
       "link": "https://openai.com/index/introducing-gpt-5-2",
-      "date": "2025-12-11T00:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "The Walt Disney Company and OpenAI reach landmark agreement to bring beloved characters to Sora",
-      "description": "Disney and OpenAI have reached an agreement to bring more than 200 Disney, Marvel, Pixar and Star Wars characters to Sora for fan-inspired short videos. The agreement emphasizes responsible AI in ente",
-      "link": "https://openai.com/index/disney-sora-agreement",
       "date": "2025-12-11T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
