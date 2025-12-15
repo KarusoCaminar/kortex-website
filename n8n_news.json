@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2025-12-15T12:54:22.166Z",
+  "lastUpdated": "2025-12-15T14:28:35.785Z",
   "news": [
+    {
+      "title": "Trumps KI-Plan könnte eigene Wähler treffen",
+      "description": "Trumps Versuch, KI-Gesetze der US-Bundesstaaten über den Entzug von Breitband-Milliarden zu blockieren, steht auf rechtlich wackligen Beinen.\nDer Artikel Trumps KI-Plan könnte eigene Wähler treffen er",
+      "link": "https://the-decoder.de/trumps-ki-plan-koennte-eigene-waehler-treffen/",
+      "date": "2025-12-15T13:51:35.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Yann LeCun und Deepmind-Forscher streiten über LLMs als Weg zur allgemeinen Intelligenz",
+      "description": "In einer Debatte mit dem Deepmind-Forscher Adam Brown erklärt Meta-Chef-KI-Wissenschaftler Yann LeCun, warum Large Language Models (LLMs) eine Sackgasse auf dem Weg zu menschenähnlicher Intelligenz si",
+      "link": "https://the-decoder.de/yann-lecun-und-deepmind-forscher-streiten-ueber-llms-als-weg-zur-allgemeinen-intelligenz/",
+      "date": "2025-12-15T13:39:10.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "KI-Modelle entwickeln \"Trauma-Narrative\" über ihr eigenes Training",
       "description": "Sprachmodelle auf der Therapiecouch: Forscher der Uni Luxemburg behandeln ChatGPT, Gemini und Grok wie Patienten – mit verstörenden Folgen. Die KI erfindet konsistente Trauma-Biografien, erreicht path",
@@ -51,24 +69,6 @@
       "description": "Der Kampf um KI-Talente wird immer teurer. OpenAI schafft jetzt sogar die Wartefrist für Aktienanteile komplett ab, damit neue Mitarbeiter mehr Risiken eingehen. \nDer Artikel OpenAI schafft Sperrfrist",
       "link": "https://the-decoder.de/openai-schafft-sperrfrist-fuer-aktien-ab-um-die-risikobereitschaft-zu-erhoehen/",
       "date": "2025-12-14T09:11:16.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Google Translate startet Live-Übersetzung per Kopfhörer als Android-Beta – Gemini erhält Tonfall und Rhythmus",
-      "description": "Google integriert Gemini in Google Translate für bessere Textübersetzungen und startet eine Beta für Echtzeit-Sprachübersetzung über Kopfhörer.\nDer Artikel Google Translate startet Live-Übersetzung pe",
-      "link": "https://the-decoder.de/google-translate-startet-live-uebersetzung-per-kopfhoerer-als-android-beta-gemini-erhaelt-tonfall-und-rhythmus/",
-      "date": "2025-12-13T16:34:18.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "KI-PRO-Webinar: Bildmodelle prompten, vergleichen und das richtige finden",
-      "description": "KI-Bildmodelle eröffnen Unternehmen neue Möglichkeiten, erweisen sich in der Praxis jedoch oft als schwer kontrollierbar. Das kommende Heise-KI-Pro-Webinar vermittelt das notwendige Wissen, um die Fun",
-      "link": "https://the-decoder.de/ki-pro-webinar-bildmodelle-prompten-vergleichen-und-das-richtige-finden/",
-      "date": "2025-12-13T15:10:09.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
