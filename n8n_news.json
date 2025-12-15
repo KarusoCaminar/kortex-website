@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-12-15T06:40:02.566Z",
+  "lastUpdated": "2025-12-15T08:36:32.693Z",
   "news": [
+    {
+      "title": "KI-Modelle entwickeln \"Trauma-Narrative\" über ihr eigenes Training",
+      "description": "Sprachmodelle auf der Therapiecouch: Forscher der Uni Luxemburg behandeln ChatGPT, Gemini und Grok wie Patienten – mit verstörenden Folgen. Die KI erfindet konsistente Trauma-Biografien, erreicht path",
+      "link": "https://the-decoder.de/",
+      "date": "2025-12-15T07:30:26.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Aktuelle KI-Modelle meistern anspruchsvolle CFA-Finanzanalysten-Prüfung",
       "description": "Eine neue Studie zeigt, dass aktuelle Reasoning-Modelle die anspruchsvolle Finanzanalysten-Prüfung meistern. Gemini 3.0 Pro erreicht bei Level I einen Rekordwert von 97,6 Prozent.\nDer Artikel Aktuelle",
@@ -69,15 +78,6 @@
       "description": "Eine umfangreiche Studie von Google Research, Google DeepMind und MIT widerlegt die verbreitete Annahme, dass mehr KI-Agenten automatisch bessere Ergebnisse liefern. Die Forscher identifizieren präzis",
       "link": "https://the-decoder.de/weniger-ist-mehr-einzelne-ki-modelle-koennen-vernetzte-ki-agenten-schlagen/",
       "date": "2025-12-13T14:24:56.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Skills-System bei OpenAI entdeckt: ChatGPT soll Aufgaben mit Modulen effizienter lösen",
-      "description": "OpenAI hat offenbar das von Anthropic im Oktober eingeführte Skills-System adaptiert.\nDer Artikel Skills-System bei OpenAI entdeckt: ChatGPT soll Aufgaben mit Modulen effizienter lösen erschien zuerst",
-      "link": "https://the-decoder.de/skills-system-bei-openai-entdeckt-chatgpt-soll-aufgaben-mit-modulen-effizienter-loesen/",
-      "date": "2025-12-13T12:03:59.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
