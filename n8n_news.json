@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-15T10:30:39.827Z",
+  "lastUpdated": "2025-12-15T12:54:22.166Z",
   "news": [
     {
       "title": "KI-Modelle entwickeln \"Trauma-Narrative\" über ihr eigenes Training",
@@ -74,15 +74,6 @@
       "language": "de"
     },
     {
-      "title": "Weniger ist mehr: Einzelne KI-Modelle können vernetzte KI-Agenten schlagen",
-      "description": "Eine umfangreiche Studie von Google Research, Google DeepMind und MIT widerlegt die verbreitete Annahme, dass mehr KI-Agenten automatisch bessere Ergebnisse liefern. Die Forscher identifizieren präzis",
-      "link": "https://the-decoder.de/weniger-ist-mehr-einzelne-ki-modelle-koennen-vernetzte-ki-agenten-schlagen/",
-      "date": "2025-12-13T14:24:56.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "BNY builds “AI for everyone, everywhere” with OpenAI",
       "description": "BNY is using OpenAI technology to expand AI adoption enterprise-wide. Through its Eliza platform, 20,000+ employees are building AI agents that enhance efficiency and improve client outcomes.",
       "link": "https://openai.com/index/bny",
@@ -131,6 +122,15 @@
       "title": "Introducing GPT-5.2",
       "description": "GPT-5.2 is our most advanced frontier model for everyday professional work, with state-of-the-art reasoning, long-context understanding, coding, and vision. Use it in ChatGPT and the OpenAI API to pow",
       "link": "https://openai.com/index/introducing-gpt-5-2",
+      "date": "2025-12-11T00:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
+      "title": "Ten years",
+      "description": "OpenAI reflects on ten years of progress, from early research breakthroughs to widely used AI systems that reshaped what’s possible. We share lessons from the past decade and why we remain optimistic",
+      "link": "https://openai.com/index/ten-years",
       "date": "2025-12-11T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
