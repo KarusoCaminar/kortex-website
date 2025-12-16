@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-16T08:34:54.992Z",
+  "lastUpdated": "2025-12-16T10:29:25.999Z",
   "news": [
     {
       "title": "Gemini provides automated feedback for theoretical computer scientists at STOC 2026",
@@ -83,9 +83,9 @@
       "language": "de"
     },
     {
-      "title": "BBVA and OpenAI collaborate to transform global banking",
-      "description": "BBVA is expanding its work with OpenAI through a multi-year AI transformation program, rolling out ChatGPT Enterprise to all 120,000 employees. Together, the companies will develop AI solutions that e",
-      "link": "https://openai.com/index/bbva-collaboration-expansion",
+      "title": "How We Used Codex to Ship Sora for Android in 28 Days",
+      "description": "OpenAI shipped Sora for Android in 28 days using Codex. AI-assisted planning, translation, and parallel coding workflows helped a nimble team deliver rapid, reliable development.",
+      "link": "https://openai.com/index/shipping-sora-for-android-with-codex",
       "date": "2025-12-12T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
@@ -101,9 +101,9 @@
       "language": "en"
     },
     {
-      "title": "How We Used Codex to Ship Sora for Android in 28 Days",
-      "description": "OpenAI shipped Sora for Android in 28 days using Codex. AI-assisted planning, translation, and parallel coding workflows helped a nimble team deliver rapid, reliable development.",
-      "link": "https://openai.com/index/shipping-sora-for-android-with-codex",
+      "title": "BBVA and OpenAI collaborate to transform global banking",
+      "description": "BBVA is expanding its work with OpenAI through a multi-year AI transformation program, rolling out ChatGPT Enterprise to all 120,000 employees. Together, the companies will develop AI solutions that e",
+      "link": "https://openai.com/index/bbva-collaboration-expansion",
       "date": "2025-12-12T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
