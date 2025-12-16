@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-12-16T10:29:25.999Z",
+  "lastUpdated": "2025-12-16T12:52:39.488Z",
   "news": [
+    {
+      "title": "KI-Nutzung am Arbeitsplatz gewinnt laut neuer Umfrage an Geschwindigkeit",
+      "description": "Fast die Hälfte aller US-Beschäftigten nutzt mittlerweile KI bei der Arbeit, zehn Prozent davon täglich. Dabei wissen viele gar nicht, ob ihr Arbeitgeber die KI-Nutzung erlaubt hat und mit welchen Wer",
+      "link": "https://the-decoder.de/ki-nutzung-am-arbeitsplatz-gewinnt-laut-neuer-umfrage-an-geschwindigkeit/",
+      "date": "2025-12-16T12:04:26.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Gemini provides automated feedback for theoretical computer scientists at STOC 2026",
       "description": "Algorithms & Theory",
@@ -69,15 +78,6 @@
       "description": "LongCat-Image zeigt, wie viel Bildqualität und Textpräzision Meituan aus nur 6 Milliarden Parametern herausholt. Statt stumpfer Skalierung setzen die Entwickler auf saubere Daten, clevere Architektur",
       "link": "https://the-decoder.de/meituan-veroeffentlicht-longcat-image-effizientes-6b-modell-fordert-ki-riesen-heraus/",
       "date": "2025-12-14T09:27:14.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "OpenAI schafft Sperrfrist für Aktien ab, um die Risikobereitschaft zu erhöhen",
-      "description": "Der Kampf um KI-Talente wird immer teurer. OpenAI schafft jetzt sogar die Wartefrist für Aktienanteile komplett ab, damit neue Mitarbeiter mehr Risiken eingehen. \nDer Artikel OpenAI schafft Sperrfrist",
-      "link": "https://the-decoder.de/openai-schafft-sperrfrist-fuer-aktien-ab-um-die-risikobereitschaft-zu-erhoehen/",
-      "date": "2025-12-14T09:11:16.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
