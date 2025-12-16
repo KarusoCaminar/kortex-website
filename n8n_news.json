@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-15T22:24:02.714Z",
+  "lastUpdated": "2025-12-16T01:55:45.819Z",
   "news": [
     {
       "title": "Gemini provides automated feedback for theoretical computer scientists at STOC 2026",
@@ -92,18 +92,18 @@
       "language": "en"
     },
     {
-      "title": "How We Used Codex to Ship Sora for Android in 28 Days",
-      "description": "OpenAI shipped Sora for Android in 28 days using Codex. AI-assisted planning, translation, and parallel coding workflows helped a nimble team deliver rapid, reliable development.",
-      "link": "https://openai.com/index/shipping-sora-for-android-with-codex",
+      "title": "BNY builds “AI for everyone, everywhere” with OpenAI",
+      "description": "BNY is using OpenAI technology to expand AI adoption enterprise-wide. Through its Eliza platform, 20,000+ employees are building AI agents that enhance efficiency and improve client outcomes.",
+      "link": "https://openai.com/index/bny",
       "date": "2025-12-12T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
     },
     {
-      "title": "BNY builds “AI for everyone, everywhere” with OpenAI",
-      "description": "BNY is using OpenAI technology to expand AI adoption enterprise-wide. Through its Eliza platform, 20,000+ employees are building AI agents that enhance efficiency and improve client outcomes.",
-      "link": "https://openai.com/index/bny",
+      "title": "How We Used Codex to Ship Sora for Android in 28 Days",
+      "description": "OpenAI shipped Sora for Android in 28 days using Codex. AI-assisted planning, translation, and parallel coding workflows helped a nimble team deliver rapid, reliable development.",
+      "link": "https://openai.com/index/shipping-sora-for-android-with-codex",
       "date": "2025-12-12T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
