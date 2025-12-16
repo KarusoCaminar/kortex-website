@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-16T14:28:12.380Z",
+  "lastUpdated": "2025-12-16T16:33:58.117Z",
   "news": [
     {
       "title": "Google integriert Recherche-Tool NotebookLM in Gemini-Chatbot",
@@ -27,6 +27,15 @@
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
+    },
+    {
+      "title": "Measuring AI’s capability to accelerate biological research",
+      "description": "OpenAI introduces a real-world evaluation framework to measure how AI can accelerate biological research in the wet lab. Using GPT-5 to optimize a molecular cloning protocol, the work explores both th",
+      "link": "https://openai.com/index/accelerating-biological-research-in-the-wet-lab",
+      "date": "2025-12-16T08:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
     },
     {
       "title": "Gemini provides automated feedback for theoretical computer scientists at STOC 2026",
@@ -83,6 +92,15 @@
       "language": "de"
     },
     {
+      "title": "BBVA and OpenAI collaborate to transform global banking",
+      "description": "BBVA is expanding its work with OpenAI through a multi-year AI transformation program, rolling out ChatGPT Enterprise to all 120,000 employees. Together, the companies will develop AI solutions that e",
+      "link": "https://openai.com/index/bbva-collaboration-expansion",
+      "date": "2025-12-12T00:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
       "title": "How We Used Codex to Ship Sora for Android in 28 Days",
       "description": "OpenAI shipped Sora for Android in 28 days using Codex. AI-assisted planning, translation, and parallel coding workflows helped a nimble team deliver rapid, reliable development.",
       "link": "https://openai.com/index/shipping-sora-for-android-with-codex",
@@ -101,15 +119,6 @@
       "language": "en"
     },
     {
-      "title": "BBVA and OpenAI collaborate to transform global banking",
-      "description": "BBVA is expanding its work with OpenAI through a multi-year AI transformation program, rolling out ChatGPT Enterprise to all 120,000 employees. Together, the companies will develop AI solutions that e",
-      "link": "https://openai.com/index/bbva-collaboration-expansion",
-      "date": "2025-12-12T00:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
       "title": "Advancing science and math with GPT-5.2",
       "description": "GPT-5.2 is OpenAI’s strongest model yet for math and science, setting new state-of-the-art results on benchmarks like GPQA Diamond and FrontierMath. This post shows how those gains translate into real",
       "link": "https://openai.com/index/gpt-5-2-for-science-and-math",
@@ -119,18 +128,9 @@
       "language": "en"
     },
     {
-      "title": "Update to GPT-5 System Card: GPT-5.2",
-      "description": "GPT-5.2 is the latest model family in the GPT-5 series. The comprehensive safety mitigation approach for these models is largely the same as that described in the GPT-5 System Card and GPT-5.1 System",
-      "link": "https://openai.com/index/gpt-5-system-card-update-gpt-5-2",
-      "date": "2025-12-11T00:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "Increasing revenue 300% by bringing AI to SMBs",
-      "description": "Discover how Podium used OpenAI’s GPT-5 to build “Jerry,” an AI teammate driving 300% growth and transforming how Main Street businesses serve customers.",
-      "link": "https://openai.com/index/podium",
+      "title": "Introducing GPT-5.2",
+      "description": "GPT-5.2 is our most advanced frontier model for everyday professional work, with state-of-the-art reasoning, long-context understanding, coding, and vision. Use it in ChatGPT and the OpenAI API to pow",
+      "link": "https://openai.com/index/introducing-gpt-5-2",
       "date": "2025-12-11T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
