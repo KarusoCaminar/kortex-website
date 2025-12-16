@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-12-16T18:36:52.879Z",
+  "lastUpdated": "2025-12-16T20:28:27.259Z",
   "news": [
+    {
+      "title": "OpenAI neues ChatGPT-Bildmodell setzt Prompts viel präziser und schneller um",
+      "description": "OpenAI veröffentlicht ein neues Bildgenerierungsmodell für ChatGPT, das bis zu viermal schneller arbeiten und Anweisungen präziser befolgen soll.\nDer Artikel OpenAI neues ChatGPT-Bildmodell setzt Prom",
+      "link": "https://the-decoder.de/openai-neues-chatgpt-bildmodell-setzt-prompts-viel-praeziser-und-schneller-um/",
+      "date": "2025-12-16T19:37:53.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Google integriert Recherche-Tool NotebookLM in Gemini-Chatbot",
       "description": "Google verknüpft sein Recherche-Tool NotebookLM direkt mit dem Chatbot Gemini.\nDer Artikel Google integriert Recherche-Tool NotebookLM in Gemini-Chatbot erschien zuerst auf The Decoder.",
@@ -96,15 +105,6 @@
       "description": "Eine neue Studie zeigt, dass aktuelle Reasoning-Modelle die anspruchsvolle Finanzanalysten-Prüfung meistern. Gemini 3.0 Pro erreicht bei Level I einen Rekordwert von 97,6 Prozent.\nDer Artikel Aktuelle",
       "link": "https://the-decoder.de/aktuelle-ki-modelle-meistern-anspruchsvolle-finanzanalysten-pruefungen-cfa/",
       "date": "2025-12-14T11:35:53.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Center for Humane Technology kritisiert Trump-Verordnung gegen staatliche KI-Gesetze",
-      "description": "Das Center for Humane Technology (CHT), eine gemeinnützige Organisation, die sich für ethische Technologie einsetzt, kritisiert eine neue Verordnung der Trump-Regierung, die staatliche KI-Gesetze in d",
-      "link": "https://the-decoder.de/center-for-humane-technology-kritisiert-trump-verordnung-gegen-staatliche-ki-gesetze/",
-      "date": "2025-12-14T11:01:40.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
