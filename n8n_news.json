@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-17T06:37:56.061Z",
+  "lastUpdated": "2025-12-17T08:34:57.652Z",
   "news": [
     {
       "title": "Google hat einen neuen KI-Agenten, der helfen soll, den Tag zu planen",
@@ -110,18 +110,18 @@
       "language": "de"
     },
     {
-      "title": "How We Used Codex to Ship Sora for Android in 28 Days",
-      "description": "OpenAI shipped Sora for Android in 28 days using Codex. AI-assisted planning, translation, and parallel coding workflows helped a nimble team deliver rapid, reliable development.",
-      "link": "https://openai.com/index/shipping-sora-for-android-with-codex",
+      "title": "BBVA and OpenAI collaborate to transform global banking",
+      "description": "BBVA is expanding its work with OpenAI through a multi-year AI transformation program, rolling out ChatGPT Enterprise to all 120,000 employees. Together, the companies will develop AI solutions that e",
+      "link": "https://openai.com/index/bbva-collaboration-expansion",
       "date": "2025-12-12T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
     },
     {
-      "title": "BBVA and OpenAI collaborate to transform global banking",
-      "description": "BBVA is expanding its work with OpenAI through a multi-year AI transformation program, rolling out ChatGPT Enterprise to all 120,000 employees. Together, the companies will develop AI solutions that e",
-      "link": "https://openai.com/index/bbva-collaboration-expansion",
+      "title": "How We Used Codex to Ship Sora for Android in 28 Days",
+      "description": "OpenAI shipped Sora for Android in 28 days using Codex. AI-assisted planning, translation, and parallel coding workflows helped a nimble team deliver rapid, reliable development.",
+      "link": "https://openai.com/index/shipping-sora-for-android-with-codex",
       "date": "2025-12-12T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
