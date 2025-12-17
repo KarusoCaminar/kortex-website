@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2025-12-17T18:37:15.548Z",
+  "lastUpdated": "2025-12-17T20:28:44.383Z",
   "news": [
+    {
+      "title": "Mathe-Star Terence Tao definiert KI neu: Cleverness statt echter Intelligenz",
+      "description": "Der KI-interessierte Mathematik-Star Terence Tao hat eine eigene KI-Definition.\nDer Artikel Mathe-Star Terence Tao definiert KI neu: Cleverness statt echter Intelligenz erschien zuerst auf The Decoder",
+      "link": "https://the-decoder.de/mathe-star-terence-tao-definiert-ki-neu-cleverness-statt-echter-intelligenz/",
+      "date": "2025-12-17T20:00:30.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Nvidia veröffentlicht Nemotron 3: Hybride Mamba-Modelle für autonome KI-Agenten",
+      "description": "Nvidia bricht mit reinen Transformer-Modellen: Die neue Nemotron-3-Familie kombiniert Mamba-2- und Transformer-Architekturen, um KI-Agenten mit Millionen-Token-Kontextfenstern ressourcenschonend zu be",
+      "link": "https://the-decoder.de/nvidia-veroeffentlicht-nemotron-3-hybride-mamba-modelle-fuer-autonome-ki-agenten/",
+      "date": "2025-12-17T19:32:29.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Google stellt günstigeres und schnelleres Gemini-3-Flash-Modell vor",
       "description": "Der Preiskampf bei KI-Modellen verschärft sich: Google bringt mit Gemini 3 Flash ein Modell auf den Markt, das die Konkurrenz von OpenAI und Anthropic bei Kosten und Geschwindigkeit deutlich unterbiet",
@@ -83,15 +101,6 @@
       "language": "de"
     },
     {
-      "title": "KI-Nutzung am Arbeitsplatz gewinnt laut neuer Umfrage an Geschwindigkeit",
-      "description": "Fast die Hälfte aller US-Beschäftigten nutzt mittlerweile KI bei der Arbeit, zehn Prozent davon täglich. Dabei wissen viele gar nicht, ob ihr Arbeitgeber die KI-Nutzung erlaubt hat und mit welchen Wer",
-      "link": "https://the-decoder.de/ki-nutzung-am-arbeitsplatz-gewinnt-laut-neuer-umfrage-an-geschwindigkeit/",
-      "date": "2025-12-16T12:04:26.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "Evaluating AI’s ability to perform scientific research tasks",
       "description": "OpenAI introduces FrontierScience, a benchmark testing AI reasoning in physics, chemistry, and biology to measure progress toward real scientific research.",
       "link": "https://openai.com/index/frontierscience",
@@ -124,15 +133,6 @@
       "link": "https://research.google/blog/gemini-provides-automated-feedback-for-theoretical-computer-scientists-at-stoc-2026/",
       "date": "2025-12-15T17:37:00.000Z",
       "source": "Google AI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "BBVA and OpenAI collaborate to transform global banking",
-      "description": "BBVA is expanding its work with OpenAI through a multi-year AI transformation program, rolling out ChatGPT Enterprise to all 120,000 employees. Together, the companies will develop AI solutions that e",
-      "link": "https://openai.com/index/bbva-collaboration-expansion",
-      "date": "2025-12-12T00:00:00.000Z",
-      "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
     }
