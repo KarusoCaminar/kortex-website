@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-12-17T16:33:43.287Z",
+  "lastUpdated": "2025-12-17T18:37:15.548Z",
   "news": [
+    {
+      "title": "Google stellt günstigeres und schnelleres Gemini-3-Flash-Modell vor",
+      "description": "Der Preiskampf bei KI-Modellen verschärft sich: Google bringt mit Gemini 3 Flash ein Modell auf den Markt, das die Konkurrenz von OpenAI und Anthropic bei Kosten und Geschwindigkeit deutlich unterbiet",
+      "link": "https://the-decoder.de/google-stellt-guenstigeres-und-schnelleres-gemini-3-flash-modell-vor/",
+      "date": "2025-12-17T18:16:35.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Amazon verhandelt über 10-Milliarden-Dollar-Investition in OpenAI",
       "description": "Amazon führt Gespräche über eine Investition von mindestens 10 Milliarden Dollar in OpenAI.\nDer Artikel Amazon verhandelt über 10-Milliarden-Dollar-Investition in OpenAI erschien zuerst auf The Decode",
@@ -119,18 +128,9 @@
       "language": "en"
     },
     {
-      "title": "Trumps KI-Plan könnte eigene Wähler treffen",
-      "description": "Trumps Versuch, KI-Gesetze der US-Bundesstaaten über den Entzug von Breitband-Milliarden zu blockieren, steht auf rechtlich wackligen Beinen.\nDer Artikel Trumps KI-Plan könnte eigene Wähler treffen er",
-      "link": "https://the-decoder.de/trumps-ki-plan-koennte-eigene-waehler-treffen/",
-      "date": "2025-12-15T13:51:35.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "BNY builds “AI for everyone, everywhere” with OpenAI",
-      "description": "BNY is using OpenAI technology to expand AI adoption enterprise-wide. Through its Eliza platform, 20,000+ employees are building AI agents that enhance efficiency and improve client outcomes.",
-      "link": "https://openai.com/index/bny",
+      "title": "BBVA and OpenAI collaborate to transform global banking",
+      "description": "BBVA is expanding its work with OpenAI through a multi-year AI transformation program, rolling out ChatGPT Enterprise to all 120,000 employees. Together, the companies will develop AI solutions that e",
+      "link": "https://openai.com/index/bbva-collaboration-expansion",
       "date": "2025-12-12T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
