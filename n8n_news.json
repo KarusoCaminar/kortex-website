@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-12-17T12:52:24.882Z",
+  "lastUpdated": "2025-12-17T14:27:01.729Z",
   "news": [
+    {
+      "title": "Amazon verhandelt über 10-Milliarden-Dollar-Investition in OpenAI",
+      "description": "Amazon führt Gespräche über eine Investition von mindestens 10 Milliarden Dollar in OpenAI.\nDer Artikel Amazon verhandelt über 10-Milliarden-Dollar-Investition in OpenAI erschien zuerst auf The Decode",
+      "link": "https://the-decoder.de/amazon-verhandelt-ueber-10-milliarden-dollar-investition-in-openai/",
+      "date": "2025-12-17T13:29:53.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "OpenAIs Rückzug vom GPT-5-Router zeigt, dass wir über Jahre Gelerntes wieder verlernen müssen",
       "description": "Menschen haben gelernt, dass schnell gut bedeutet. Bei KI ist das oft genau umgekehrt. OpenAI zieht deshalb seinen GPT-5-Router zurück. Eigentlich müsste das Unternehmen versuchen, die Nutzer weiterzu",
@@ -9,6 +18,15 @@
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
+    },
+    {
+      "title": "Introducing OpenAI Academy for News Organizations",
+      "description": "OpenAI is launching the OpenAI Academy for News Organizations, a new learning hub built with the American Journalism Project and The Lenfest Institute to help newsrooms use AI effectively. The Academy",
+      "link": "https://openai.com/index/openai-academy-for-news-organizations",
+      "date": "2025-12-17T06:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
     },
     {
       "title": "Google hat einen neuen KI-Agenten, der helfen soll, den Tag zu planen",
@@ -108,24 +126,6 @@
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
-    },
-    {
-      "title": "Yann LeCun und Deepmind-Forscher streiten über LLMs als Weg zur allgemeinen Intelligenz",
-      "description": "In einer Debatte mit dem Deepmind-Forscher Adam Brown erklärt Meta-Chef-KI-Wissenschaftler Yann LeCun, warum Large Language Models (LLMs) eine Sackgasse auf dem Weg zu menschenähnlicher Intelligenz si",
-      "link": "https://the-decoder.de/yann-lecun-und-deepmind-forscher-streiten-ueber-llms-als-weg-zur-allgemeinen-intelligenz/",
-      "date": "2025-12-15T13:39:10.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "How We Used Codex to Ship Sora for Android in 28 Days",
-      "description": "OpenAI shipped Sora for Android in 28 days using Codex. AI-assisted planning, translation, and parallel coding workflows helped a nimble team deliver rapid, reliable development.",
-      "link": "https://openai.com/index/shipping-sora-for-android-with-codex",
-      "date": "2025-12-12T00:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
     },
     {
       "title": "BNY builds “AI for everyone, everywhere” with OpenAI",
