@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-12-18T16:34:45.628Z",
+  "lastUpdated": "2025-12-18T18:36:23.651Z",
   "news": [
+    {
+      "title": "Vibe-Coding-App Lovable läutet nach Finanzierungsrunde die \"Age of the Builder\" ein",
+      "description": "Das europäische KI-Startup Lovable hat eine Series-B-Finanzierungsrunde über 330 Millionen Dollar abgeschlossen und wird nun mit 6,6 Milliarden Dollar bewertet.\nDer Artikel Vibe-Coding-App Lovable läu",
+      "link": "https://the-decoder.de/vibe-coding-app-lovable-laeutet-nach-finanzierungsrunde-die-age-of-the-builder-ein/",
+      "date": "2025-12-18T16:59:29.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Mistral OCR 3 soll Texte günstiger und besser erkennen",
       "description": "Mistral AI hat mit Mistral OCR 3 eine aktualisierte Version seines Modells zur Dokumentenanalyse veröffentlicht.\nDer Artikel Mistral OCR 3 soll Texte günstiger und besser erkennen erschien zuerst auf",
@@ -36,6 +45,24 @@
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
+    },
+    {
+      "title": "Addendum to GPT-5.2 System Card: GPT-5.2-Codex",
+      "description": "This system card outlines the comprehensive safety measures implemented for GPT‑5.2-Codex. It details both model-level mitigations, such as specialized safety training for harmful tasks and prompt inj",
+      "link": "https://openai.com/index/gpt-5-2-codex-system-card",
+      "date": "2025-12-18T00:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
+      "title": "Introducing GPT-5.2-Codex",
+      "description": "GPT-5.2-Codex is OpenAI’s most advanced coding model, offering long-horizon reasoning, large-scale code transformations, and enhanced cybersecurity capabilities.",
+      "link": "https://openai.com/index/introducing-gpt-5-2-codex",
+      "date": "2025-12-18T00:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
     },
     {
       "title": "Mathe-Star Terence Tao definiert KI neu: Cleverness statt echter Intelligenz",
@@ -101,37 +128,10 @@
       "language": "en"
     },
     {
-      "title": "Google hat einen neuen KI-Agenten, der helfen soll, den Tag zu planen",
-      "description": "Der experimentelle Produktivitätsassistent namens CC stammt aus den Google Labs und basiert auf Gemini.\nDer Artikel Google hat einen neuen KI-Agenten, der helfen soll, den Tag zu planen erschien zuers",
-      "link": "https://the-decoder.de/google-hat-einen-neuen-ki-agenten-der-helfen-soll-den-tag-zu-planen/",
-      "date": "2025-12-16T20:59:44.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "Evaluating AI’s ability to perform scientific research tasks",
       "description": "OpenAI introduces FrontierScience, a benchmark testing AI reasoning in physics, chemistry, and biology to measure progress toward real scientific research.",
       "link": "https://openai.com/index/frontierscience",
       "date": "2025-12-16T09:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "Measuring AI’s capability to accelerate biological research",
-      "description": "OpenAI introduces a real-world evaluation framework to measure how AI can accelerate biological research in the wet lab. Using GPT-5 to optimize a molecular cloning protocol, the work explores both th",
-      "link": "https://openai.com/index/accelerating-biological-research-in-the-wet-lab",
-      "date": "2025-12-16T08:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "The new ChatGPT Images is here",
-      "description": "The new ChatGPT Images is powered by our flagship image generation model, delivering more precise edits, consistent details, and image generation up to 4× faster. The upgraded model is rolling out to",
-      "link": "https://openai.com/index/new-chatgpt-images-is-here",
-      "date": "2025-12-16T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
