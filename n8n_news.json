@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-18T20:24:37.280Z",
+  "lastUpdated": "2025-12-18T22:23:03.037Z",
   "news": [
     {
       "title": "Anthropic veröffentlicht Agent Skills als offenen Standard für KI-Plattformen",
@@ -92,9 +92,9 @@
       "language": "de"
     },
     {
-      "title": "Introducing GPT-5.2-Codex",
-      "description": "GPT-5.2-Codex is OpenAI’s most advanced coding model, offering long-horizon reasoning, large-scale code transformations, and enhanced cybersecurity capabilities.",
-      "link": "https://openai.com/index/introducing-gpt-5-2-codex",
+      "title": "Addendum to GPT-5.2 System Card: GPT-5.2-Codex",
+      "description": "This system card outlines the comprehensive safety measures implemented for GPT‑5.2-Codex. It details both model-level mitigations, such as specialized safety training for harmful tasks and prompt inj",
+      "link": "https://openai.com/index/gpt-5-2-codex-system-card",
       "date": "2025-12-18T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
@@ -110,9 +110,9 @@
       "language": "en"
     },
     {
-      "title": "Addendum to GPT-5.2 System Card: GPT-5.2-Codex",
-      "description": "This system card outlines the comprehensive safety measures implemented for GPT‑5.2-Codex. It details both model-level mitigations, such as specialized safety training for harmful tasks and prompt inj",
-      "link": "https://openai.com/index/gpt-5-2-codex-system-card",
+      "title": "Introducing GPT-5.2-Codex",
+      "description": "GPT-5.2-Codex is OpenAI’s most advanced coding model, offering long-horizon reasoning, large-scale code transformations, and enhanced cybersecurity capabilities.",
+      "link": "https://openai.com/index/introducing-gpt-5-2-codex",
       "date": "2025-12-18T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
