@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-12-18T14:26:38.008Z",
+  "lastUpdated": "2025-12-18T16:34:45.628Z",
   "news": [
+    {
+      "title": "Mistral OCR 3 soll Texte günstiger und besser erkennen",
+      "description": "Mistral AI hat mit Mistral OCR 3 eine aktualisierte Version seines Modells zur Dokumentenanalyse veröffentlicht.\nDer Artikel Mistral OCR 3 soll Texte günstiger und besser erkennen erschien zuerst auf",
+      "link": "https://the-decoder.de/mistral-ocr-3-soll-texte-guenstiger-und-besser-erkennen/",
+      "date": "2025-12-18T15:32:39.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "KI im Newsroom: OpenAI launcht Schulungsprogramm für Medienhäuser",
       "description": "OpenAI hat die \"Academy for News Organizations\" gestartet, eine neue Lernplattform für Journalisten und Publisher.\nDer Artikel KI im Newsroom: OpenAI launcht Schulungsprogramm für Medienhäuser erschie",
@@ -96,15 +105,6 @@
       "description": "Der experimentelle Produktivitätsassistent namens CC stammt aus den Google Labs und basiert auf Gemini.\nDer Artikel Google hat einen neuen KI-Agenten, der helfen soll, den Tag zu planen erschien zuers",
       "link": "https://the-decoder.de/google-hat-einen-neuen-ki-agenten-der-helfen-soll-den-tag-zu-planen/",
       "date": "2025-12-16T20:59:44.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Google verbessert Gemini-Audiomodelle für realistischere KI-Stimmen",
-      "description": "Google hat ein Update für Gemini 2.5 Flash Native Audio veröffentlicht, das Sprachassistenten verbessern soll.\nDer Artikel Google verbessert Gemini-Audiomodelle für realistischere KI-Stimmen erschien",
-      "link": "https://the-decoder.de/google-verbessert-gemini-audiomodelle-fuer-realistischere-ki-stimmen/",
-      "date": "2025-12-16T20:30:57.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
