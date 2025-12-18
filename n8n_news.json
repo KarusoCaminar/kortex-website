@@ -1,6 +1,33 @@
 {
-  "lastUpdated": "2025-12-18T08:34:17.838Z",
+  "lastUpdated": "2025-12-18T10:28:23.664Z",
   "news": [
+    {
+      "title": "KI im Newsroom: OpenAI launcht Schulungsprogramm für Medienhäuser",
+      "description": "OpenAI hat die \"Academy for News Organizations\" gestartet, eine neue Lernplattform für Journalisten und Publisher.\nDer Artikel KI im Newsroom: OpenAI launcht Schulungsprogramm für Medienhäuser erschie",
+      "link": "https://the-decoder.de/ki-im-newsroom-openai-launcht-schulungsprogramm-fuer-medienhaeuser/",
+      "date": "2025-12-18T10:12:52.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "OpenAI startet App-Einreichungen und rollt Store im neuen Jahr aus",
+      "description": "OpenAI nimmt ab sofort Einreichungen für ChatGPT-Apps entgegen, die nach einer Prüfung in einem neuen Verzeichnis erscheinen.\nDer Artikel OpenAI startet App-Einreichungen und rollt Store im neuen Jahr",
+      "link": "https://the-decoder.de/openai-startet-app-einreichungen-und-rollt-store-im-neuen-jahr-aus/",
+      "date": "2025-12-18T09:50:22.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "OpenAI will angeblich bis zu 100 Milliarden US-Dollar einsammeln",
+      "description": "OpenAI führt angeblich vorläufige Gespräche mit Investoren über eine neue Finanzierungsrunde. Die angestrebte Bewertung liegt demnach bei rund 750 Milliarden Dollar, berichtet The Information.\nDer Art",
+      "link": "https://the-decoder.de/openai-will-angeblich-bis-zu-100-milliarden-us-dollar-einsammeln/",
+      "date": "2025-12-18T08:50:06.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Mathe-Star Terence Tao definiert KI neu: Cleverness statt echter Intelligenz",
       "description": "Der KI-interessierte Mathematik-Star Terence Tao hat eine eigene KI-Definition.\nDer Artikel Mathe-Star Terence Tao definiert KI neu: Cleverness statt echter Intelligenz erschien zuerst auf The Decoder",
@@ -78,33 +105,6 @@
       "description": "Google hat ein Update für Gemini 2.5 Flash Native Audio veröffentlicht, das Sprachassistenten verbessern soll.\nDer Artikel Google verbessert Gemini-Audiomodelle für realistischere KI-Stimmen erschien",
       "link": "https://the-decoder.de/google-verbessert-gemini-audiomodelle-fuer-realistischere-ki-stimmen/",
       "date": "2025-12-16T20:30:57.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "OpenAI neues ChatGPT-Bildmodell setzt Prompts viel präziser und schneller um",
-      "description": "OpenAI veröffentlicht ein neues Bildgenerierungsmodell für ChatGPT, das bis zu viermal schneller arbeiten und Anweisungen präziser befolgen soll.\nDer Artikel OpenAI neues ChatGPT-Bildmodell setzt Prom",
-      "link": "https://the-decoder.de/openai-neues-chatgpt-bildmodell-setzt-prompts-viel-praeziser-und-schneller-um/",
-      "date": "2025-12-16T19:37:53.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Google integriert Recherche-Tool NotebookLM in Gemini-Chatbot",
-      "description": "Google verknüpft sein Recherche-Tool NotebookLM direkt mit dem Chatbot Gemini.\nDer Artikel Google integriert Recherche-Tool NotebookLM in Gemini-Chatbot erschien zuerst auf The Decoder.",
-      "link": "https://the-decoder.de/google-integriert-recherche-tool-notebooklm-in-gemini-chatbot/",
-      "date": "2025-12-16T14:25:17.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "OpenAI veröffentlicht neue Modelle für seine Realtime API",
-      "description": "OpenAI aktualisiert die Realtime API mit drei neuen Modell-Snapshots für Transkription, Sprachsynthese und Steuerung.\nDer Artikel OpenAI veröffentlicht neue Modelle für seine Realtime API erschien zue",
-      "link": "https://the-decoder.de/openai-veroeffentlicht-neue-modelle-fuer-seine-realtime-api/",
-      "date": "2025-12-16T14:08:16.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
