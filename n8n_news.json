@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2025-12-19T10:27:20.852Z",
+  "lastUpdated": "2025-12-19T12:49:25.074Z",
   "news": [
+    {
+      "title": "OpenAI weitet Zugang zu günstigerem ChatGPT-Tarif \"Go\" deutlich aus",
+      "description": "OpenAI hat die Verfügbarkeit seines günstigen Abonnements ChatGPT Go massiv ausgeweitet.\nDer Artikel OpenAI weitet Zugang zu günstigerem ChatGPT-Tarif \"Go\" deutlich aus erschien zuerst auf The Decoder",
+      "link": "https://the-decoder.de/openai-weitet-zugang-zu-guenstigerem-chatgpt-tarif-deutlich-aus/",
+      "date": "2025-12-19T12:24:20.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Anthropics KI-Kioskverkäufer macht Gewinn – und driftet nachts in spirituelle Gespräche ab",
+      "description": "Anthropic setzt das Experiment um den autonomen Kiosk \"Project Vend\" fort. Mit neuen Modellen und Werkzeugen arbeitet der KI-Verkäufer nun profitabel, scheitert aber weiterhin an gesetzlichen Hürden u",
+      "link": "https://the-decoder.de/anthropics-ki-kioskverkaeufer-macht-gewinn-und-driftet-nachts-in-spirituelle-gespraeche-ab/",
+      "date": "2025-12-19T11:54:43.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "OpenAI positioniert GPT-5.2-Codex als Werkzeug für die Cyberabwehr",
       "description": "Das neue KI-Modell GPT-5.2-Codex soll als autonomer Software-Agent komplexe Aufgaben lösen. Da die Technologie auch effektiv Schwachstellen finden kann, startet OpenAI ein exklusives Zugangsprogramm:",
@@ -74,18 +92,18 @@
       "language": "en"
     },
     {
-      "title": "AI literacy resources for teens and parents",
-      "description": "OpenAI shares new AI literacy resources to help teens and parents use ChatGPT thoughtfully, safely, and with confidence. The guides include expert-vetted tips for responsible use, critical thinking, h",
-      "link": "https://openai.com/index/ai-literacy-resources-for-teens-and-parents",
+      "title": "Deepening our collaboration with the U.S. Department of Energy",
+      "description": "OpenAI and the U.S. Department of Energy have signed a memorandum of understanding to deepen collaboration on AI and advanced computing in support of scientific discovery. The agreement builds on ongo",
+      "link": "https://openai.com/index/us-department-of-energy-collaboration",
       "date": "2025-12-18T11:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
     },
     {
-      "title": "Deepening our collaboration with the U.S. Department of Energy",
-      "description": "OpenAI and the U.S. Department of Energy have signed a memorandum of understanding to deepen collaboration on AI and advanced computing in support of scientific discovery. The agreement builds on ongo",
-      "link": "https://openai.com/index/us-department-of-energy-collaboration",
+      "title": "AI literacy resources for teens and parents",
+      "description": "OpenAI shares new AI literacy resources to help teens and parents use ChatGPT thoughtfully, safely, and with confidence. The guides include expert-vetted tips for responsible use, critical thinking, h",
+      "link": "https://openai.com/index/ai-literacy-resources-for-teens-and-parents",
       "date": "2025-12-18T11:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
@@ -110,27 +128,9 @@
       "language": "de"
     },
     {
-      "title": "OpenAI will angeblich bis zu 100 Milliarden US-Dollar einsammeln",
-      "description": "OpenAI führt angeblich vorläufige Gespräche mit Investoren über eine neue Finanzierungsrunde. Die angestrebte Bewertung liegt demnach bei rund 750 Milliarden Dollar, berichtet The Information.\nDer Art",
-      "link": "https://the-decoder.de/openai-will-angeblich-bis-zu-100-milliarden-us-dollar-einsammeln/",
-      "date": "2025-12-18T08:50:06.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "Introducing GPT-5.2-Codex",
       "description": "GPT-5.2-Codex is OpenAI’s most advanced coding model, offering long-horizon reasoning, large-scale code transformations, and enhanced cybersecurity capabilities.",
       "link": "https://openai.com/index/introducing-gpt-5-2-codex",
-      "date": "2025-12-18T00:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "Addendum to GPT-5.2 System Card: GPT-5.2-Codex",
-      "description": "This system card outlines the comprehensive safety measures implemented for GPT‑5.2-Codex. It details both model-level mitigations, such as specialized safety training for harmful tasks and prompt inj",
-      "link": "https://openai.com/index/gpt-5-2-codex-system-card",
       "date": "2025-12-18T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
