@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2025-12-19T08:34:53.963Z",
+  "lastUpdated": "2025-12-19T10:27:20.852Z",
   "news": [
+    {
+      "title": "OpenAI positioniert GPT-5.2-Codex als Werkzeug für die Cyberabwehr",
+      "description": "Das neue KI-Modell GPT-5.2-Codex soll als autonomer Software-Agent komplexe Aufgaben lösen. Da die Technologie auch effektiv Schwachstellen finden kann, startet OpenAI ein exklusives Zugangsprogramm:",
+      "link": "https://the-decoder.de/openai-positioniert-gpt-5-2-codex-als-werkzeug-fuer-die-cyberabwehr/",
+      "date": "2025-12-19T10:05:41.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Meta plant neue KI-Modelle Mango und Avocado für 2026",
+      "description": "Meta entwickelt unter den Codenamen \"Mango\" und \"Avocado\" neue KI-Modelle für Bilder, Videos und Text.\nDer Artikel Meta plant neue KI-Modelle Mango und Avocado für 2026 erschien zuerst auf The Decoder",
+      "link": "https://the-decoder.de/meta-plant-neue-ki-modelle-mango-und-avocado-fuer-2026/",
+      "date": "2025-12-19T09:04:27.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Anthropic veröffentlicht Agent Skills als offenen Standard für KI-Plattformen",
       "description": "Anthropic veröffentlicht \"Agent Skills\" als offenen Standard unter agentskills.io. Damit sollen Skills plattformübergreifend funktionieren – dieselbe Fähigkeit soll sowohl in Claude als auch in andere",
@@ -117,24 +135,6 @@
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
-    },
-    {
-      "title": "Introducing GPT-5.2-Codex",
-      "description": "GPT-5.2-Codex is OpenAI’s most advanced coding model, offering long-horizon reasoning, large-scale code transformations, and enhanced cybersecurity capabilities.",
-      "link": "https://openai.com/index/gpt-5-2-codex",
-      "date": "2025-12-18T00:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "Mathe-Star Terence Tao definiert KI neu: Cleverness statt echter Intelligenz",
-      "description": "Der KI-interessierte Mathematik-Star Terence Tao hat eine eigene KI-Definition.\nDer Artikel Mathe-Star Terence Tao definiert KI neu: Cleverness statt echter Intelligenz erschien zuerst auf The Decoder",
-      "link": "https://the-decoder.de/mathe-star-terence-tao-definiert-ki-neu-cleverness-statt-echter-intelligenz/",
-      "date": "2025-12-17T20:00:30.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
     }
   ]
 }
