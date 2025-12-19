@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-12-19T16:31:10.953Z",
+  "lastUpdated": "2025-12-19T18:34:33.016Z",
   "news": [
+    {
+      "title": "FunctionGemma: Googles lokale Mini-KI steuert Apps und Spiele per Sprache",
+      "description": "Google hat FunctionGemma veröffentlicht, eine spezialisierte Version des kleinen Sprachmodells Gemma 3 270M.\nDer Artikel FunctionGemma: Googles lokale Mini-KI steuert Apps und Spiele per Sprache ersch",
+      "link": "https://the-decoder.de/functiongemma-googles-lokale-mini-ki-steuert-apps-und-spiele-per-sprache/",
+      "date": "2025-12-19T17:36:37.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "OpenAI weitet Zugang zu günstigerem ChatGPT-Tarif \"Go\" deutlich aus",
       "description": "OpenAI hat die Verfügbarkeit seines günstigen Abonnements ChatGPT Go massiv ausgeweitet.\nDer Artikel OpenAI weitet Zugang zu günstigerem ChatGPT-Tarif \"Go\" deutlich aus erschien zuerst auf The Decoder",
@@ -114,15 +123,6 @@
       "description": "OpenAI hat die \"Academy for News Organizations\" gestartet, eine neue Lernplattform für Journalisten und Publisher.\nDer Artikel KI im Newsroom: OpenAI launcht Schulungsprogramm für Medienhäuser erschie",
       "link": "https://the-decoder.de/ki-im-newsroom-openai-launcht-schulungsprogramm-fuer-medienhaeuser/",
       "date": "2025-12-18T10:12:52.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "OpenAI startet App-Einreichungen und rollt Store im neuen Jahr aus",
-      "description": "OpenAI nimmt ab sofort Einreichungen für ChatGPT-Apps entgegen, die nach einer Prüfung in einem neuen Verzeichnis erscheinen.\nDer Artikel OpenAI startet App-Einreichungen und rollt Store im neuen Jahr",
-      "link": "https://the-decoder.de/openai-startet-app-einreichungen-und-rollt-store-im-neuen-jahr-aus/",
-      "date": "2025-12-18T09:50:22.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
