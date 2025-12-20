@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-12-20T10:22:57.191Z",
+  "lastUpdated": "2025-12-20T12:44:16.354Z",
   "news": [
+    {
+      "title": "Offener Google-Standard soll KI-Agenten schnell Nutzeroberflächen generieren lassen",
+      "description": "Google stellt mit A2UI einen offenen Standard vor, der KI-Agenten das Erstellen grafischer Oberflächen erlaubt. Statt nur Textnachrichten zu senden, können KIs dynamisch Formulare oder Buttons generie",
+      "link": "https://the-decoder.de/offener-google-standard-soll-ki-agenten-schnell-nutzeroberflaechen-generieren-lassen/",
+      "date": "2025-12-20T11:13:08.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "FunctionGemma: Googles lokale Mini-KI steuert Apps und Spiele per Sprache",
       "description": "Google hat FunctionGemma veröffentlicht, eine spezialisierte Version des kleinen Sprachmodells Gemma 3 270M.\nDer Artikel FunctionGemma: Googles lokale Mini-KI steuert Apps und Spiele per Sprache ersch",
@@ -117,15 +126,6 @@
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
-    },
-    {
-      "title": "KI im Newsroom: OpenAI launcht Schulungsprogramm für Medienhäuser",
-      "description": "OpenAI hat die \"Academy for News Organizations\" gestartet, eine neue Lernplattform für Journalisten und Publisher.\nDer Artikel KI im Newsroom: OpenAI launcht Schulungsprogramm für Medienhäuser erschie",
-      "link": "https://the-decoder.de/ki-im-newsroom-openai-launcht-schulungsprogramm-fuer-medienhaeuser/",
-      "date": "2025-12-18T10:12:52.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
     },
     {
       "title": "Introducing GPT-5.2-Codex",
