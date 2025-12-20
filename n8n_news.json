@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2025-12-20T14:20:37.275Z",
+  "lastUpdated": "2025-12-20T16:28:07.238Z",
   "news": [
+    {
+      "title": "KI-Kennzeichnung in der Werbung lässt Klickraten um ein Drittel einbrechen",
+      "description": "Eine empirische Untersuchung zweier US-Universitäten zeigt eine Asymmetrie beim Einsatz von Bild-KIs im Marketing: Während komplett generierte Anzeigen die Klickraten signifikant steigern, scheitert d",
+      "link": "https://the-decoder.de/studie-zu-visueller-ki-in-der-werbung-generieren-schlaegt-modifizieren/",
+      "date": "2025-12-20T15:51:16.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "ChatGPT lässt sich jetzt im Ton anpassen: OpenAI führt neue Personalisierungsoptionen ein",
+      "description": "OpenAI ermöglicht Nutzern ab sofort, den Kommunikationsstil von ChatGPT anzupassen.\nDer Artikel ChatGPT lässt sich jetzt im Ton anpassen: OpenAI führt neue Personalisierungsoptionen ein erschien zuers",
+      "link": "https://the-decoder.de/chatgpt-laesst-sich-jetzt-im-ton-anpassen-openai-fuehrt-neue-personalisierungsoptionen-ein/",
+      "date": "2025-12-20T15:35:01.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Offener Google-Standard soll KI-Agenten schnell Nutzeroberflächen generieren lassen",
       "description": "Google stellt mit A2UI einen offenen Standard vor, der KI-Agenten das Erstellen grafischer Oberflächen erlaubt. Statt nur Textnachrichten zu senden, können KIs dynamisch Formulare oder Buttons generie",
@@ -69,24 +87,6 @@
       "description": "OpenAI stellt mit FrontierScience einen neuen Benchmark vor, der KI-Modelle auf Olympiade- und Forschungsniveau testet. Das hauseigene GPT-5.2 schneidet dabei am besten ab, doch die Aufgaben offenbare",
       "link": "https://the-decoder.de/gpt-5-2-dominiert-openais-neuen-wissenschafts-test-scheitert-aber-an-komplexen-forschungsaufgaben/",
       "date": "2025-12-18T18:48:34.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Vibe-Coding-App Lovable läutet nach Finanzierungsrunde die \"Age of the Builder\" ein",
-      "description": "Das europäische KI-Startup Lovable hat eine Series-B-Finanzierungsrunde über 330 Millionen Dollar abgeschlossen und wird nun mit 6,6 Milliarden Dollar bewertet.\nDer Artikel Vibe-Coding-App Lovable läu",
-      "link": "https://the-decoder.de/vibe-coding-app-lovable-laeutet-nach-finanzierungsrunde-die-age-of-the-builder-ein/",
-      "date": "2025-12-18T16:59:29.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Mistral OCR 3 soll Texte günstiger und besser erkennen",
-      "description": "Mistral AI hat mit Mistral OCR 3 eine aktualisierte Version seines Modells zur Dokumentenanalyse veröffentlicht.\nDer Artikel Mistral OCR 3 soll Texte günstiger und besser erkennen erschien zuerst auf",
-      "link": "https://the-decoder.de/mistral-ocr-3-soll-texte-guenstiger-und-besser-erkennen/",
-      "date": "2025-12-18T15:32:39.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
