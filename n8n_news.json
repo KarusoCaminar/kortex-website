@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-12-21T18:32:16.898Z",
+  "lastUpdated": "2025-12-21T20:25:26.299Z",
   "news": [
+    {
+      "title": "Kling AI Videogenerator 2.6 kann jetzt Stimmen und Bewegungen präzise steuern",
+      "description": "In kaum einem anderen Bereich war der KI-Fortschritt in diesem Jahr so deutlich spürbar wie bei der Videogenerierung. Mit neuen Funktionen für Kling 2.6 legt das chinesische Unternehmen Kuaishou zum J",
+      "link": "https://the-decoder.de/kling-ai-videogenerator-2-6-kann-jetzt-stimmen-und-bewegungen-praezise-steuern/",
+      "date": "2025-12-21T18:57:53.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Nvidia will mit NitroGen universelle KI-Agenten für alle Welten erschaffen",
       "description": "Nvidia hat ein neues Grundlagenmodell für Gaming-Agenten veröffentlicht. NitroGen ist ein Vision-Action-Modell, das auf 40.000 Stunden Gameplay-Videos von mehr als 1.000 Spielen trainiert wurde.\nDer A",
@@ -78,15 +87,6 @@
       "description": "OpenAI hat die Verfügbarkeit seines günstigen Abonnements ChatGPT Go massiv ausgeweitet.\nDer Artikel OpenAI weitet Zugang zu günstigerem ChatGPT-Tarif \"Go\" deutlich aus erschien zuerst auf The Decoder",
       "link": "https://the-decoder.de/openai-weitet-zugang-zu-guenstigerem-chatgpt-tarif-deutlich-aus/",
       "date": "2025-12-19T12:24:20.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Anthropics KI-Kioskverkäufer macht Gewinn – und driftet nachts in spirituelle Gespräche ab",
-      "description": "Anthropic setzt das Experiment um den autonomen Kiosk \"Project Vend\" fort. Mit neuen Modellen und Werkzeugen arbeitet der KI-Verkäufer nun profitabel, scheitert aber weiterhin an gesetzlichen Hürden u",
-      "link": "https://the-decoder.de/anthropics-ki-kioskverkaeufer-macht-gewinn-und-driftet-nachts-in-spirituelle-gespraeche-ab/",
-      "date": "2025-12-19T11:54:43.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
