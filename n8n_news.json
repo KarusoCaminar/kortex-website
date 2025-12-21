@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-12-21T08:29:59.170Z",
+  "lastUpdated": "2025-12-21T10:23:39.444Z",
   "news": [
+    {
+      "title": "KI-Modell von Anthropic löst Aufgaben mit fast fünf Stunden Zeithorizont",
+      "description": "Die KI-Forschungsorganisation METR hat neue Testergebnisse für Claude Opus 4.5 veröffentlicht. Das Modell von Anthropic erreicht einen sogenannten 50-Prozent-Zeithorizont von etwa 4 Stunden und 49 Min",
+      "link": "https://the-decoder.de/ki-modell-von-anthropic-loest-aufgaben-mit-fast-fuenf-stunden-zeithorizont/",
+      "date": "2025-12-21T09:55:55.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "KI-Kennzeichnung in der Werbung lässt Klickraten um ein Drittel einbrechen",
       "description": "Eine empirische Untersuchung zweier US-Universitäten zeigt eine Asymmetrie beim Einsatz von Bild-KIs im Marketing: Während komplett generierte Anzeigen die Klickraten signifikant steigern, scheitert d",
@@ -78,15 +87,6 @@
       "description": "Anthropic veröffentlicht \"Agent Skills\" als offenen Standard unter agentskills.io. Damit sollen Skills plattformübergreifend funktionieren – dieselbe Fähigkeit soll sowohl in Claude als auch in andere",
       "link": "https://the-decoder.de/anthropic-veroeffentlicht-agent-skills-als-offenen-standard-fuer-ki-plattformen/",
       "date": "2025-12-18T19:19:03.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "GPT-5.2 dominiert OpenAIs neuen Wissenschafts-Test, scheitert aber an komplexen Forschungsaufgaben",
-      "description": "OpenAI stellt mit FrontierScience einen neuen Benchmark vor, der KI-Modelle auf Olympiade- und Forschungsniveau testet. Das hauseigene GPT-5.2 schneidet dabei am besten ab, doch die Aufgaben offenbare",
-      "link": "https://the-decoder.de/gpt-5-2-dominiert-openais-neuen-wissenschafts-test-scheitert-aber-an-komplexen-forschungsaufgaben/",
-      "date": "2025-12-18T18:48:34.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
