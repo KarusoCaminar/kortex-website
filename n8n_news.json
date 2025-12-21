@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-12-21T16:27:44.811Z",
+  "lastUpdated": "2025-12-21T18:32:16.898Z",
   "news": [
+    {
+      "title": "Nvidia will mit NitroGen universelle KI-Agenten für alle Welten erschaffen",
+      "description": "Nvidia hat ein neues Grundlagenmodell für Gaming-Agenten veröffentlicht. NitroGen ist ein Vision-Action-Modell, das auf 40.000 Stunden Gameplay-Videos von mehr als 1.000 Spielen trainiert wurde.\nDer A",
+      "link": "https://the-decoder.de/nvidia-will-mit-nitrogen-universelle-ki-agenten-fuer-alle-welten-erschaffen/",
+      "date": "2025-12-21T16:39:59.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Neues KI-Modell von Alibaba macht statische Bilder nachträglich editierbar",
       "description": "Alibabas KI-Einheit Qwen hat ein neues Bild-Editierungsmodell veröffentlicht. Qwen-Image-Layered zerlegt Bilder in mehrere einzelne Ebenen mit transparentem Hintergrund (RGBA-Ebenen).\nDer Artikel Neue",
@@ -78,15 +87,6 @@
       "description": "Anthropic setzt das Experiment um den autonomen Kiosk \"Project Vend\" fort. Mit neuen Modellen und Werkzeugen arbeitet der KI-Verkäufer nun profitabel, scheitert aber weiterhin an gesetzlichen Hürden u",
       "link": "https://the-decoder.de/anthropics-ki-kioskverkaeufer-macht-gewinn-und-driftet-nachts-in-spirituelle-gespraeche-ab/",
       "date": "2025-12-19T11:54:43.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "OpenAI positioniert GPT-5.2-Codex als Werkzeug für die Cyberabwehr",
-      "description": "Das neue KI-Modell GPT-5.2-Codex soll als autonomer Software-Agent komplexe Aufgaben lösen. Da die Technologie auch effektiv Schwachstellen finden kann, startet OpenAI ein exklusives Zugangsprogramm:",
-      "link": "https://the-decoder.de/openai-positioniert-gpt-5-2-codex-als-werkzeug-fuer-die-cyberabwehr/",
-      "date": "2025-12-19T10:05:41.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
