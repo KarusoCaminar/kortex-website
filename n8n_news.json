@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-12-21T14:20:55.879Z",
+  "lastUpdated": "2025-12-21T16:27:44.811Z",
   "news": [
+    {
+      "title": "Neues KI-Modell von Alibaba macht statische Bilder nachträglich editierbar",
+      "description": "Alibabas KI-Einheit Qwen hat ein neues Bild-Editierungsmodell veröffentlicht. Qwen-Image-Layered zerlegt Bilder in mehrere einzelne Ebenen mit transparentem Hintergrund (RGBA-Ebenen).\nDer Artikel Neue",
+      "link": "https://the-decoder.de/neues-ki-modell-von-alibaba-macht-statische-bilder-nachtraeglich-editierbar/",
+      "date": "2025-12-21T16:06:16.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Halb-offene KI-Modelle aus China verdrängen die US-Konkurrenz",
       "description": "Im Jahr 2025 hat sich das Verhältnis bei den Downloadzahlen offener KI-Modelle verschoben: Erstmals verzeichnen chinesische Entwickler höhere Abrufzahlen als Anbieter aus den USA.\nDer Artikel Halb-off",
@@ -78,15 +87,6 @@
       "description": "Das neue KI-Modell GPT-5.2-Codex soll als autonomer Software-Agent komplexe Aufgaben lösen. Da die Technologie auch effektiv Schwachstellen finden kann, startet OpenAI ein exklusives Zugangsprogramm:",
       "link": "https://the-decoder.de/openai-positioniert-gpt-5-2-codex-als-werkzeug-fuer-die-cyberabwehr/",
       "date": "2025-12-19T10:05:41.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Meta plant neue KI-Modelle Mango und Avocado für 2026",
-      "description": "Meta entwickelt unter den Codenamen \"Mango\" und \"Avocado\" neue KI-Modelle für Bilder, Videos und Text.\nDer Artikel Meta plant neue KI-Modelle Mango und Avocado für 2026 erschien zuerst auf The Decoder",
-      "link": "https://the-decoder.de/meta-plant-neue-ki-modelle-mango-und-avocado-fuer-2026/",
-      "date": "2025-12-19T09:04:27.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
