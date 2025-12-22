@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-12-22T18:35:20.402Z",
+  "lastUpdated": "2025-12-22T20:27:21.069Z",
   "news": [
+    {
+      "title": "GPT-5 löst angeblich offenes Mathe-Problem ohne menschliche Hilfe",
+      "description": "GPT-5 löst erstmals ein offenes Mathe-Problem – und der Mathematiker dahinter zeigt genau, welche Zeile von welcher KI stammt. Muss Wissenschaft so transparent sein?\nDer Artikel GPT-5 löst angeblich o",
+      "link": "https://the-decoder.de/gpt-5-loest-angeblich-offenes-mathe-problem-ohne-menschliche-hilfe/",
+      "date": "2025-12-22T19:31:40.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Google sichert sich weitere Energiereserven für den Ausbau seiner KI-Kapazitäten",
       "description": "Google baut seine KI-Kapazitäten weiter aus. Der Mutterkonzern Alphabet kauft den Entwickler für saubere Energie Intersect für 4,75 Milliarden Dollar in bar, plus übernommene Schulden.\nDer Artikel Goo",
@@ -96,15 +105,6 @@
       "description": "Eine empirische Untersuchung zweier US-Universitäten zeigt eine Asymmetrie beim Einsatz von Bild-KIs im Marketing: Während komplett generierte Anzeigen die Klickraten signifikant steigern, scheitert d",
       "link": "https://the-decoder.de/studie-zu-visueller-ki-in-der-werbung-generieren-schlaegt-modifizieren/",
       "date": "2025-12-20T15:51:16.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "ChatGPT lässt sich jetzt im Ton anpassen: OpenAI führt neue Personalisierungsoptionen ein",
-      "description": "OpenAI ermöglicht Nutzern ab sofort, den Kommunikationsstil von ChatGPT anzupassen.\nDer Artikel ChatGPT lässt sich jetzt im Ton anpassen: OpenAI führt neue Personalisierungsoptionen ein erschien zuers",
-      "link": "https://the-decoder.de/chatgpt-laesst-sich-jetzt-im-ton-anpassen-openai-fuehrt-neue-personalisierungsoptionen-ein/",
-      "date": "2025-12-20T15:35:01.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
