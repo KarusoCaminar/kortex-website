@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-12-22T10:26:44.992Z",
+  "lastUpdated": "2025-12-22T12:50:04.917Z",
   "news": [
+    {
+      "title": "OpenAI steigert Effizienz bei Serverkosten deutlich und die Marge freut's",
+      "description": "OpenAI hat angeblich die Wirtschaftlichkeit seiner KI-Dienste stark verbessert.\nDer Artikel OpenAI steigert Effizienz bei Serverkosten deutlich und die Marge freut's erschien zuerst auf The Decoder.",
+      "link": "https://the-decoder.de/openai-steigert-effizienz-bei-serverkosten-deutlich-und-die-marge-freuts/",
+      "date": "2025-12-22T10:45:55.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Kling AI Videogenerator 2.6 kann jetzt Stimmen und Bewegungen präzise steuern",
       "description": "In kaum einem anderen Bereich war der KI-Fortschritt in diesem Jahr so deutlich spürbar wie bei der Videogenerierung. Mit neuen Funktionen für Kling 2.6 legt das chinesische Unternehmen Kuaishou zum J",
@@ -83,28 +92,10 @@
       "language": "de"
     },
     {
-      "title": "OpenAI weitet Zugang zu günstigerem ChatGPT-Tarif \"Go\" deutlich aus",
-      "description": "OpenAI hat die Verfügbarkeit seines günstigen Abonnements ChatGPT Go massiv ausgeweitet.\nDer Artikel OpenAI weitet Zugang zu günstigerem ChatGPT-Tarif \"Go\" deutlich aus erschien zuerst auf The Decoder",
-      "link": "https://the-decoder.de/openai-weitet-zugang-zu-guenstigerem-chatgpt-tarif-deutlich-aus/",
-      "date": "2025-12-19T12:24:20.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "Evaluating chain-of-thought monitorability",
       "description": "OpenAI introduces a new framework and evaluation suite for chain-of-thought monitorability, covering 13 evaluations across 24 environments. Our findings show that monitoring a model’s internal reasoni",
       "link": "https://openai.com/index/evaluating-chain-of-thought-monitorability",
       "date": "2025-12-18T12:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "AI literacy resources for teens and parents",
-      "description": "OpenAI shares new AI literacy resources to help teens and parents use ChatGPT thoughtfully, safely, and with confidence. The guides include expert-vetted tips for responsible use, critical thinking, h",
-      "link": "https://openai.com/index/ai-literacy-resources-for-teens-and-parents",
-      "date": "2025-12-18T11:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
@@ -128,9 +119,18 @@
       "language": "en"
     },
     {
+      "title": "AI literacy resources for teens and parents",
+      "description": "OpenAI shares new AI literacy resources to help teens and parents use ChatGPT thoughtfully, safely, and with confidence. The guides include expert-vetted tips for responsible use, critical thinking, h",
+      "link": "https://openai.com/index/ai-literacy-resources-for-teens-and-parents",
+      "date": "2025-12-18T11:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
       "title": "Introducing GPT-5.2-Codex",
       "description": "GPT-5.2-Codex is OpenAI’s most advanced coding model, offering long-horizon reasoning, large-scale code transformations, and enhanced cybersecurity capabilities.",
-      "link": "https://openai.com/index/introducing-gpt-5-2-codex",
+      "link": "https://openai.com/index/gpt-5-2-codex",
       "date": "2025-12-18T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
