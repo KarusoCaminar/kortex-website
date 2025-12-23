@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-12-23T12:51:42.045Z",
+  "lastUpdated": "2025-12-23T14:24:53.661Z",
   "news": [
+    {
+      "title": "Ex-Tesla-KI-Chef Andrej Karpathy gibt KI-Start-ups vier Tipps für den Wettbewerb mit OpenAI und Co.",
+      "description": "Andrej Karpathy sieht im Erfolg von Cursor ein Muster für KI-Start-ups: Wer Sprachmodelle für spezifische Branchen orchestriert und mit eigenen Daten und Werkzeugen verbindet, kann sich gegen OpenAI u",
+      "link": "https://the-decoder.de/ex-tesla-ki-chef-andrej-karpathy-gibt-ki-start-ups-vier-tipps-fuer-den-wettbewerb-mit-openai-und-co/",
+      "date": "2025-12-23T12:54:46.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "OpenAI wehrt sich gegen Prompt-Injections, die das \"agentische Web\" bedrohen",
       "description": "OpenAI kämpft mit automatisiertem Red Teaming gegen Prompt Injections in ChatGPT Atlas. Das Unternehmen vergleicht das Problem mit Online-Betrug und verharmlost damit eine technische Sicherheitslücke,",
@@ -101,15 +110,6 @@
       "language": "de"
     },
     {
-      "title": "KI-Modell von Anthropic löst Aufgaben mit fast fünf Stunden Zeithorizont",
-      "description": "Die KI-Forschungsorganisation METR hat neue Testergebnisse für Claude Opus 4.5 veröffentlicht. Das Modell von Anthropic erreicht einen sogenannten 50-Prozent-Zeithorizont von etwa 4 Stunden und 49 Min",
-      "link": "https://the-decoder.de/ki-modell-von-anthropic-loest-aufgaben-mit-fast-fuenf-stunden-zeithorizont/",
-      "date": "2025-12-21T09:55:55.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "Evaluating chain-of-thought monitorability",
       "description": "OpenAI introduces a new framework and evaluation suite for chain-of-thought monitorability, covering 13 evaluations across 24 environments. Our findings show that monitoring a model’s internal reasoni",
       "link": "https://openai.com/index/evaluating-chain-of-thought-monitorability",
@@ -119,18 +119,18 @@
       "language": "en"
     },
     {
-      "title": "Updating our Model Spec with teen protections",
-      "description": "OpenAI is updating its Model Spec with new Under-18 Principles that define how ChatGPT should support teens with safe, age-appropriate guidance grounded in developmental science. The update strengthen",
-      "link": "https://openai.com/index/updating-model-spec-with-teen-protections",
+      "title": "Deepening our collaboration with the U.S. Department of Energy",
+      "description": "OpenAI and the U.S. Department of Energy have signed a memorandum of understanding to deepen collaboration on AI and advanced computing in support of scientific discovery. The agreement builds on ongo",
+      "link": "https://openai.com/index/us-department-of-energy-collaboration",
       "date": "2025-12-18T11:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
     },
     {
-      "title": "Deepening our collaboration with the U.S. Department of Energy",
-      "description": "OpenAI and the U.S. Department of Energy have signed a memorandum of understanding to deepen collaboration on AI and advanced computing in support of scientific discovery. The agreement builds on ongo",
-      "link": "https://openai.com/index/us-department-of-energy-collaboration",
+      "title": "Updating our Model Spec with teen protections",
+      "description": "OpenAI is updating its Model Spec with new Under-18 Principles that define how ChatGPT should support teens with safe, age-appropriate guidance grounded in developmental science. The update strengthen",
+      "link": "https://openai.com/index/updating-model-spec-with-teen-protections",
       "date": "2025-12-18T11:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
