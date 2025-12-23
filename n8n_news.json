@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-23T08:34:07.776Z",
+  "lastUpdated": "2025-12-23T10:27:38.269Z",
   "news": [
     {
       "title": "GPT-5 löst angeblich offenes Mathe-Problem ohne menschliche Hilfe",
@@ -38,18 +38,18 @@
       "language": "de"
     },
     {
-      "title": "One in a million: celebrating the customers shaping AI’s future",
-      "description": "More than one million customers around the world now use OpenAI to empower their teams and unlock new opportunities. This post highlights how companies like PayPal, Virgin Atlantic, BBVA, Cisco, Moder",
-      "link": "https://openai.com/index/one-in-a-million-customers",
+      "title": "Continuously hardening ChatGPT Atlas against prompt injection",
+      "description": "OpenAI is strengthening ChatGPT Atlas against prompt injection attacks using automated red teaming trained with reinforcement learning. This proactive discover-and-patch loop helps identify novel expl",
+      "link": "https://openai.com/index/hardening-atlas-against-prompt-injection",
       "date": "2025-12-22T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
     },
     {
-      "title": "Continuously hardening ChatGPT Atlas against prompt injection",
-      "description": "OpenAI is strengthening ChatGPT Atlas against prompt injection attacks using automated red teaming trained with reinforcement learning. This proactive discover-and-patch loop helps identify novel expl",
-      "link": "https://openai.com/index/hardening-atlas-against-prompt-injection",
+      "title": "One in a million: celebrating the customers shaping AI’s future",
+      "description": "More than one million customers around the world now use OpenAI to empower their teams and unlock new opportunities. This post highlights how companies like PayPal, Virgin Atlantic, BBVA, Cisco, Moder",
+      "link": "https://openai.com/index/one-in-a-million-customers",
       "date": "2025-12-22T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
@@ -119,9 +119,9 @@
       "language": "en"
     },
     {
-      "title": "Deepening our collaboration with the U.S. Department of Energy",
-      "description": "OpenAI and the U.S. Department of Energy have signed a memorandum of understanding to deepen collaboration on AI and advanced computing in support of scientific discovery. The agreement builds on ongo",
-      "link": "https://openai.com/index/us-department-of-energy-collaboration",
+      "title": "AI literacy resources for teens and parents",
+      "description": "OpenAI shares new AI literacy resources to help teens and parents use ChatGPT thoughtfully, safely, and with confidence. The guides include expert-vetted tips for responsible use, critical thinking, h",
+      "link": "https://openai.com/index/ai-literacy-resources-for-teens-and-parents",
       "date": "2025-12-18T11:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
