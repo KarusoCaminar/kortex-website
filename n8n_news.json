@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-22T22:23:49.187Z",
+  "lastUpdated": "2025-12-23T01:56:06.601Z",
   "news": [
     {
       "title": "GPT-5 löst angeblich offenes Mathe-Problem ohne menschliche Hilfe",
@@ -38,18 +38,18 @@
       "language": "de"
     },
     {
-      "title": "Continuously hardening ChatGPT Atlas against prompt injection",
-      "description": "OpenAI is strengthening ChatGPT Atlas against prompt injection attacks using automated red teaming trained with reinforcement learning. This proactive discover-and-patch loop helps identify novel expl",
-      "link": "https://openai.com/index/hardening-atlas-against-prompt-injection",
+      "title": "One in a million: celebrating the customers shaping AI’s future",
+      "description": "More than one million customers around the world now use OpenAI to empower their teams and unlock new opportunities. This post highlights how companies like PayPal, Virgin Atlantic, BBVA, Cisco, Moder",
+      "link": "https://openai.com/index/one-in-a-million-customers",
       "date": "2025-12-22T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
     },
     {
-      "title": "One in a million: celebrating the customers shaping AI’s future",
-      "description": "More than one million customers around the world now use OpenAI to empower their teams and unlock new opportunities. This post highlights how companies like PayPal, Virgin Atlantic, BBVA, Cisco, Moder",
-      "link": "https://openai.com/index/one-in-a-million-customers",
+      "title": "Continuously hardening ChatGPT Atlas against prompt injection",
+      "description": "OpenAI is strengthening ChatGPT Atlas against prompt injection attacks using automated red teaming trained with reinforcement learning. This proactive discover-and-patch loop helps identify novel expl",
+      "link": "https://openai.com/index/hardening-atlas-against-prompt-injection",
       "date": "2025-12-22T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
