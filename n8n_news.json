@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2025-12-23T16:31:50.019Z",
+  "lastUpdated": "2025-12-23T18:36:00.441Z",
   "news": [
+    {
+      "title": "GitHub-Repository bietet mehr als 50 anpassbare Claude Skills",
+      "description": "ComposioHQ bietet auf GitHub eine Sammlung praktischer \"Claude Skills\" an. Diese Skills sind anpassbare Workflows, die Anthropics KI-Assistenten Claude beibringen, bestimmte Aufgaben wiederholt und st",
+      "link": "https://the-decoder.de/github-repository-bietet-mehr-als-50-anpassbare-claude-skills/",
+      "date": "2025-12-23T17:28:39.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "KI-Coding-Modell GLM-4.7 merkt sich Gedankengänge über lange Dialoge",
+      "description": "Zhipu AI stellt mit GLM-4.7 ein auf autonomes Programmieren spezialisiertes KI-Modell vor, das dank \"Preserved Thinking\" Gedankengänge über lange Dialoge speichert.\nDer Artikel KI-Coding-Modell GLM-4.",
+      "link": "https://the-decoder.de/ki-coding-modell-glm-4-7-merkt-sich-gedankengaenge-ueber-lange-dialoge/",
+      "date": "2025-12-23T16:46:48.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Stimmen-Klonen aus drei Sekunden Audio: Qwen veröffentlicht neue TTS-Modelle",
       "description": "Das Qwen-Team von Alibaba Cloud hat zwei neue KI-Modelle veröffentlicht, die Stimmen per Textbefehl entwerfen oder klonen.\nDer Artikel Stimmen-Klonen aus drei Sekunden Audio: Qwen veröffentlicht neue",
@@ -65,18 +83,18 @@
       "language": "de"
     },
     {
-      "title": "Continuously hardening ChatGPT Atlas against prompt injection",
-      "description": "OpenAI is strengthening ChatGPT Atlas against prompt injection attacks using automated red teaming trained with reinforcement learning. This proactive discover-and-patch loop helps identify novel expl",
-      "link": "https://openai.com/index/hardening-atlas-against-prompt-injection",
+      "title": "One in a million: celebrating the customers shaping AI’s future",
+      "description": "More than one million customers around the world now use OpenAI to empower their teams and unlock new opportunities. This post highlights how companies like PayPal, Virgin Atlantic, BBVA, Cisco, Moder",
+      "link": "https://openai.com/index/one-in-a-million-customers",
       "date": "2025-12-22T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
     },
     {
-      "title": "One in a million: celebrating the customers shaping AI’s future",
-      "description": "More than one million customers around the world now use OpenAI to empower their teams and unlock new opportunities. This post highlights how companies like PayPal, Virgin Atlantic, BBVA, Cisco, Moder",
-      "link": "https://openai.com/index/one-in-a-million-customers",
+      "title": "Continuously hardening ChatGPT Atlas against prompt injection",
+      "description": "OpenAI is strengthening ChatGPT Atlas against prompt injection attacks using automated red teaming trained with reinforcement learning. This proactive discover-and-patch loop helps identify novel expl",
+      "link": "https://openai.com/index/hardening-atlas-against-prompt-injection",
       "date": "2025-12-22T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
@@ -92,24 +110,6 @@
       "language": "de"
     },
     {
-      "title": "Nvidia will mit NitroGen universelle KI-Agenten für alle Welten erschaffen",
-      "description": "Nvidia hat ein neues Grundlagenmodell für Gaming-Agenten veröffentlicht. NitroGen ist ein Vision-Action-Modell, das auf 40.000 Stunden Gameplay-Videos von mehr als 1.000 Spielen trainiert wurde.\nDer A",
-      "link": "https://the-decoder.de/nvidia-will-mit-nitrogen-universelle-ki-agenten-fuer-alle-welten-erschaffen/",
-      "date": "2025-12-21T16:39:59.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Neues KI-Modell von Alibaba macht statische Bilder nachträglich editierbar",
-      "description": "Alibabas KI-Einheit Qwen hat ein neues Bild-Editierungsmodell veröffentlicht. Qwen-Image-Layered zerlegt Bilder in mehrere einzelne Ebenen mit transparentem Hintergrund (RGBA-Ebenen).\nDer Artikel Neue",
-      "link": "https://the-decoder.de/neues-ki-modell-von-alibaba-macht-statische-bilder-nachtraeglich-editierbar/",
-      "date": "2025-12-21T16:06:16.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "Evaluating chain-of-thought monitorability",
       "description": "OpenAI introduces a new framework and evaluation suite for chain-of-thought monitorability, covering 13 evaluations across 24 environments. Our findings show that monitoring a model’s internal reasoni",
       "link": "https://openai.com/index/evaluating-chain-of-thought-monitorability",
@@ -119,9 +119,9 @@
       "language": "en"
     },
     {
-      "title": "Deepening our collaboration with the U.S. Department of Energy",
-      "description": "OpenAI and the U.S. Department of Energy have signed a memorandum of understanding to deepen collaboration on AI and advanced computing in support of scientific discovery. The agreement builds on ongo",
-      "link": "https://openai.com/index/us-department-of-energy-collaboration",
+      "title": "AI literacy resources for teens and parents",
+      "description": "OpenAI shares new AI literacy resources to help teens and parents use ChatGPT thoughtfully, safely, and with confidence. The guides include expert-vetted tips for responsible use, critical thinking, h",
+      "link": "https://openai.com/index/ai-literacy-resources-for-teens-and-parents",
       "date": "2025-12-18T11:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
