@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-12-23T14:24:53.661Z",
+  "lastUpdated": "2025-12-23T16:31:50.019Z",
   "news": [
+    {
+      "title": "Stimmen-Klonen aus drei Sekunden Audio: Qwen veröffentlicht neue TTS-Modelle",
+      "description": "Das Qwen-Team von Alibaba Cloud hat zwei neue KI-Modelle veröffentlicht, die Stimmen per Textbefehl entwerfen oder klonen.\nDer Artikel Stimmen-Klonen aus drei Sekunden Audio: Qwen veröffentlicht neue",
+      "link": "https://the-decoder.de/stimmen-klonen-aus-drei-sekunden-audio-qwen-veroeffentlicht-neue-tts-modelle/",
+      "date": "2025-12-23T15:00:39.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Ex-Tesla-KI-Chef Andrej Karpathy gibt KI-Start-ups vier Tipps für den Wettbewerb mit OpenAI und Co.",
       "description": "Andrej Karpathy sieht im Erfolg von Cursor ein Muster für KI-Start-ups: Wer Sprachmodelle für spezifische Branchen orchestriert und mit eigenen Daten und Werkzeugen verbindet, kann sich gegen OpenAI u",
@@ -96,15 +105,6 @@
       "description": "Alibabas KI-Einheit Qwen hat ein neues Bild-Editierungsmodell veröffentlicht. Qwen-Image-Layered zerlegt Bilder in mehrere einzelne Ebenen mit transparentem Hintergrund (RGBA-Ebenen).\nDer Artikel Neue",
       "link": "https://the-decoder.de/neues-ki-modell-von-alibaba-macht-statische-bilder-nachtraeglich-editierbar/",
       "date": "2025-12-21T16:06:16.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Halb-offene KI-Modelle aus China verdrängen die US-Konkurrenz",
-      "description": "Im Jahr 2025 hat sich das Verhältnis bei den Downloadzahlen offener KI-Modelle verschoben: Erstmals verzeichnen chinesische Entwickler höhere Abrufzahlen als Anbieter aus den USA.\nDer Artikel Halb-off",
-      "link": "https://the-decoder.de/halb-offene-ki-modelle-aus-china-verdraengen-die-us-konkurrenz/",
-      "date": "2025-12-21T10:39:19.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
