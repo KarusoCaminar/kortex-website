@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-12-23T10:27:38.269Z",
+  "lastUpdated": "2025-12-23T12:51:42.045Z",
   "news": [
+    {
+      "title": "OpenAI wehrt sich gegen Prompt-Injections, die das \"agentische Web\" bedrohen",
+      "description": "OpenAI kämpft mit automatisiertem Red Teaming gegen Prompt Injections in ChatGPT Atlas. Das Unternehmen vergleicht das Problem mit Online-Betrug und verharmlost damit eine technische Sicherheitslücke,",
+      "link": "https://the-decoder.de/openai-wehrt-sich-gegen-prompt-injections-die-das-agentische-web-bedrohen/",
+      "date": "2025-12-23T11:34:43.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "GPT-5 löst angeblich offenes Mathe-Problem ohne menschliche Hilfe",
       "description": "GPT-5 löst erstmals ein offenes Mathe-Problem – und der Mathematiker dahinter zeigt genau, welche Zeile von welcher KI stammt. Muss Wissenschaft so transparent sein?\nDer Artikel GPT-5 löst angeblich o",
@@ -101,15 +110,6 @@
       "language": "de"
     },
     {
-      "title": "KI-Kennzeichnung in der Werbung lässt Klickraten um ein Drittel einbrechen",
-      "description": "Eine empirische Untersuchung zweier US-Universitäten zeigt eine Asymmetrie beim Einsatz von Bild-KIs im Marketing: Während komplett generierte Anzeigen die Klickraten signifikant steigern, scheitert d",
-      "link": "https://the-decoder.de/studie-zu-visueller-ki-in-der-werbung-generieren-schlaegt-modifizieren/",
-      "date": "2025-12-20T15:51:16.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "Evaluating chain-of-thought monitorability",
       "description": "OpenAI introduces a new framework and evaluation suite for chain-of-thought monitorability, covering 13 evaluations across 24 environments. Our findings show that monitoring a model’s internal reasoni",
       "link": "https://openai.com/index/evaluating-chain-of-thought-monitorability",
@@ -119,18 +119,18 @@
       "language": "en"
     },
     {
-      "title": "AI literacy resources for teens and parents",
-      "description": "OpenAI shares new AI literacy resources to help teens and parents use ChatGPT thoughtfully, safely, and with confidence. The guides include expert-vetted tips for responsible use, critical thinking, h",
-      "link": "https://openai.com/index/ai-literacy-resources-for-teens-and-parents",
+      "title": "Updating our Model Spec with teen protections",
+      "description": "OpenAI is updating its Model Spec with new Under-18 Principles that define how ChatGPT should support teens with safe, age-appropriate guidance grounded in developmental science. The update strengthen",
+      "link": "https://openai.com/index/updating-model-spec-with-teen-protections",
       "date": "2025-12-18T11:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
     },
     {
-      "title": "Updating our Model Spec with teen protections",
-      "description": "OpenAI is updating its Model Spec with new Under-18 Principles that define how ChatGPT should support teens with safe, age-appropriate guidance grounded in developmental science. The update strengthen",
-      "link": "https://openai.com/index/updating-model-spec-with-teen-protections",
+      "title": "Deepening our collaboration with the U.S. Department of Energy",
+      "description": "OpenAI and the U.S. Department of Energy have signed a memorandum of understanding to deepen collaboration on AI and advanced computing in support of scientific discovery. The agreement builds on ongo",
+      "link": "https://openai.com/index/us-department-of-energy-collaboration",
       "date": "2025-12-18T11:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
