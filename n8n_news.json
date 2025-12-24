@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2025-12-24T14:22:57.957Z",
+  "lastUpdated": "2025-12-24T16:30:05.127Z",
   "news": [
+    {
+      "title": "Bericht: OpenAI könnte gesponserte Inhalte direkt in ChatGPT-Antworten einbauen",
+      "description": "OpenAI arbeitet an Werbeformaten für ChatGPT – von gesponserten Antworten bis zu Anzeigen in der Seitenleiste.\nDer Artikel Bericht: OpenAI könnte gesponserte Inhalte direkt in ChatGPT-Antworten einbau",
+      "link": "https://the-decoder.de/bericht-openai-koennte-gesponserte-inhalte-direkt-in-chatgpt-antworten-einbauen/",
+      "date": "2025-12-24T16:28:25.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Qwen verbessert Bildbearbeitungsmodell für höhere Konsistenz bei Personen",
+      "description": "Qwen verbessert sein kürzlich veröffentlichtes Bildbearbeitungsmodell. Das chinesische KI-Unternehmen hat Qwen-Image-Edit-2511 auf Hugging Face veröffentlicht, eine erweiterte Version des Vorgängers Q",
+      "link": "https://the-decoder.de/qwen-verbessert-bildbearbeitungsmodell-fuer-hoehere-konsistenz-bei-personen/",
+      "date": "2025-12-24T16:11:46.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Autoren verklagen sechs KI-Giganten wegen Buchpiraterie",
       "description": "Pulitzer-Preisträger John Carreyrou und weitere Autoren verklagen OpenAI, Anthropic, Google, Meta, xAI und Perplexity wegen Buchpiraterie. Die KI-Unternehmen sollen ihre Werke aus illegalen Online-Bib",
@@ -74,24 +92,6 @@
       "language": "de"
     },
     {
-      "title": "Google sichert sich weitere Energiereserven für den Ausbau seiner KI-Kapazitäten",
-      "description": "Google baut seine KI-Kapazitäten weiter aus. Der Mutterkonzern Alphabet kauft den Entwickler für saubere Energie Intersect für 4,75 Milliarden Dollar in bar, plus übernommene Schulden.\nDer Artikel Goo",
-      "link": "https://the-decoder.de/google-sichert-sich-weitere-energiereserven-fuer-den-ausbau-seiner-ki-kapazitaeten/",
-      "date": "2025-12-22T18:13:41.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "KI-Pioniere Yann LeCun und Deepmind CEO Demis Hassabis bewerten menschliche Intelligenz völlig unterschiedlich",
-      "description": "Metas scheidender KI-Wissenschaftler hält das Konzept der \"General Intelligence\" für Unsinn. Der Chef von Google DeepMind widerspricht öffentlich und wirft ihm einen Kategorienfehler vor.\nDer Artikel",
-      "link": "https://the-decoder.de/ki-pioniere-yann-lecun-und-demis-hassabis-bewerten-menschliche-intelligenz-voellig-unterschiedlich/",
-      "date": "2025-12-22T16:46:42.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "One in a million: celebrating the customers shaping AI’s future",
       "description": "More than one million customers around the world now use OpenAI to empower their teams and unlock new opportunities. This post highlights how companies like PayPal, Virgin Atlantic, BBVA, Cisco, Moder",
       "link": "https://openai.com/index/one-in-a-million-customers",
@@ -119,18 +119,18 @@
       "language": "en"
     },
     {
-      "title": "AI literacy resources for teens and parents",
-      "description": "OpenAI shares new AI literacy resources to help teens and parents use ChatGPT thoughtfully, safely, and with confidence. The guides include expert-vetted tips for responsible use, critical thinking, h",
-      "link": "https://openai.com/index/ai-literacy-resources-for-teens-and-parents",
+      "title": "Deepening our collaboration with the U.S. Department of Energy",
+      "description": "OpenAI and the U.S. Department of Energy have signed a memorandum of understanding to deepen collaboration on AI and advanced computing in support of scientific discovery. The agreement builds on ongo",
+      "link": "https://openai.com/index/us-department-of-energy-collaboration",
       "date": "2025-12-18T11:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
     },
     {
-      "title": "Deepening our collaboration with the U.S. Department of Energy",
-      "description": "OpenAI and the U.S. Department of Energy have signed a memorandum of understanding to deepen collaboration on AI and advanced computing in support of scientific discovery. The agreement builds on ongo",
-      "link": "https://openai.com/index/us-department-of-energy-collaboration",
+      "title": "AI literacy resources for teens and parents",
+      "description": "OpenAI shares new AI literacy resources to help teens and parents use ChatGPT thoughtfully, safely, and with confidence. The guides include expert-vetted tips for responsible use, critical thinking, h",
+      "link": "https://openai.com/index/ai-literacy-resources-for-teens-and-parents",
       "date": "2025-12-18T11:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
