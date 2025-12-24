@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2025-12-24T10:26:08.545Z",
+  "lastUpdated": "2025-12-24T12:50:01.856Z",
   "news": [
+    {
+      "title": "Autoren verklagen sechs KI-Giganten wegen Buchpiraterie",
+      "description": "Pulitzer-Preisträger John Carreyrou und weitere Autoren verklagen OpenAI, Anthropic, Google, Meta, xAI und Perplexity wegen Buchpiraterie. Die KI-Unternehmen sollen ihre Werke aus illegalen Online-Bib",
+      "link": "https://the-decoder.de/autoren-verklagen-sechs-ki-giganten-wegen-buchpiraterie/",
+      "date": "2025-12-24T12:26:40.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Zelda-Rätsel zeigt: KI-Modelle können auch bei nervigen Gaming-Rätseln helfen",
+      "description": "Ein KI-Modell löst ein komplexes Farbwechsel-Rätsel aus einem Zelda-Spiel. Es ist ein interessantes Alltagsbeispiel dafür, wie weit die Problemlösefähigkeiten moderner Sprachmodelle inzwischen reichen",
+      "link": "https://the-decoder.de/zelda-raetsel-zeigt-ki-modelle-koennen-komplexe-spiellogik-durchdenken/",
+      "date": "2025-12-24T11:17:26.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "GitHub-Repository bietet mehr als 50 anpassbare Claude Skills",
       "description": "ComposioHQ bietet auf GitHub eine Sammlung praktischer \"Claude Skills\" an. Diese Skills sind anpassbare Workflows, die Anthropics KI-Assistenten Claude beibringen, bestimmte Aufgaben wiederholt und st",
@@ -74,15 +92,6 @@
       "language": "de"
     },
     {
-      "title": "OpenAI steigert Effizienz bei Serverkosten deutlich und die Marge freut's",
-      "description": "OpenAI hat angeblich die Wirtschaftlichkeit seiner KI-Dienste stark verbessert.\nDer Artikel OpenAI steigert Effizienz bei Serverkosten deutlich und die Marge freut's erschien zuerst auf The Decoder.",
-      "link": "https://the-decoder.de/openai-steigert-effizienz-bei-serverkosten-deutlich-und-die-marge-freuts/",
-      "date": "2025-12-22T10:45:55.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "One in a million: celebrating the customers shaping AI’s future",
       "description": "More than one million customers around the world now use OpenAI to empower their teams and unlock new opportunities. This post highlights how companies like PayPal, Virgin Atlantic, BBVA, Cisco, Moder",
       "link": "https://openai.com/index/one-in-a-million-customers",
@@ -99,15 +108,6 @@
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
-    },
-    {
-      "title": "Kling AI Videogenerator 2.6 kann jetzt Stimmen und Bewegungen präzise steuern",
-      "description": "In kaum einem anderen Bereich war der KI-Fortschritt in diesem Jahr so deutlich spürbar wie bei der Videogenerierung. Mit neuen Funktionen für Kling 2.6 legt das chinesische Unternehmen Kuaishou zum J",
-      "link": "https://the-decoder.de/kling-ai-videogenerator-2-6-kann-jetzt-stimmen-und-bewegungen-praezise-steuern/",
-      "date": "2025-12-21T18:57:53.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
     },
     {
       "title": "Evaluating chain-of-thought monitorability",
