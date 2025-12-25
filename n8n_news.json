@@ -1,6 +1,33 @@
 {
-  "lastUpdated": "2025-12-25T10:26:05.507Z",
+  "lastUpdated": "2025-12-25T12:49:01.938Z",
   "news": [
+    {
+      "title": "Waymo plant offenbar tiefere Integration von Googles Gemini-Modellen in seine Flotte",
+      "description": "Hier ist was für alle Prompt-Ingenieure: Jane Manchun Wong hat den System-Prompt für Waymos unveröffentlichten Gemini-KI-Assistenten entdeckt.\nDer Artikel Waymo plant offenbar tiefere Integration von",
+      "link": "https://the-decoder.de/waymo-plant-offenbar-tiefere-integration-von-googles-gemini-modellen-in-seine-flotte/",
+      "date": "2025-12-25T12:39:20.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Australische Finanzaufsicht warnt Banken vor übermäßigem KI-Einsatz bei Verdachtsmeldungen",
+      "description": "Die australische Finanzaufsicht Austrac warnt Banken vor dem übermäßigen Einsatz von KI bei der Erstellung von Verdachtsmeldungen.\nDer Artikel Australische Finanzaufsicht warnt Banken vor übermäßigem",
+      "link": "https://the-decoder.de/australische-finanzaufsicht-warnt-banken-vor-uebermaessigem-ki-einsatz-bei-verdachtsmeldungen/",
+      "date": "2025-12-25T12:03:22.000Z",
+      "source": "The Decoder",
+      "category": "kmu-relevanz",
+      "language": "de"
+    },
+    {
+      "title": "Salesforce-Manager: Vertrauen in große Sprachmodelle ist im letzten Jahr gesunken",
+      "description": "Laut Führungskräften von Salesforce ist das Vertrauen in große Sprachmodelle (LLMs) in diesem Jahr gesunken.\nDer Artikel Salesforce-Manager: Vertrauen in große Sprachmodelle ist im letzten Jahr gesunk",
+      "link": "https://the-decoder.de/salesforce-manager-vertrauen-in-grosse-sprachmodelle-ist-im-letzten-jahr-gesunken/",
+      "date": "2025-12-25T11:15:16.000Z",
+      "source": "The Decoder",
+      "category": "sales-tools",
+      "language": "de"
+    },
     {
       "title": "Bericht: OpenAI könnte gesponserte Inhalte direkt in ChatGPT-Antworten einbauen",
       "description": "OpenAI arbeitet an Werbeformaten für ChatGPT – von gesponserten Antworten bis zu Anzeigen in der Seitenleiste.\nDer Artikel Bericht: OpenAI könnte gesponserte Inhalte direkt in ChatGPT-Antworten einbau",
@@ -42,33 +69,6 @@
       "description": "ComposioHQ bietet auf GitHub eine Sammlung praktischer \"Claude Skills\" an. Diese Skills sind anpassbare Workflows, die Anthropics KI-Assistenten Claude beibringen, bestimmte Aufgaben wiederholt und st",
       "link": "https://the-decoder.de/github-repository-bietet-mehr-als-50-anpassbare-claude-skills/",
       "date": "2025-12-23T17:28:39.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "KI-Coding-Modell GLM-4.7 merkt sich Gedankengänge über lange Dialoge",
-      "description": "Zhipu AI stellt mit GLM-4.7 ein auf autonomes Programmieren spezialisiertes KI-Modell vor, das dank \"Preserved Thinking\" Gedankengänge über lange Dialoge speichert.\nDer Artikel KI-Coding-Modell GLM-4.",
-      "link": "https://the-decoder.de/ki-coding-modell-glm-4-7-merkt-sich-gedankengaenge-ueber-lange-dialoge/",
-      "date": "2025-12-23T16:46:48.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Stimmen-Klonen aus drei Sekunden Audio: Qwen veröffentlicht neue TTS-Modelle",
-      "description": "Das Qwen-Team von Alibaba Cloud hat zwei neue KI-Modelle veröffentlicht, die Stimmen per Textbefehl entwerfen oder klonen.\nDer Artikel Stimmen-Klonen aus drei Sekunden Audio: Qwen veröffentlicht neue",
-      "link": "https://the-decoder.de/stimmen-klonen-aus-drei-sekunden-audio-qwen-veroeffentlicht-neue-tts-modelle/",
-      "date": "2025-12-23T15:00:39.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Ex-Tesla-KI-Chef Andrej Karpathy gibt KI-Start-ups vier Tipps für den Wettbewerb mit OpenAI und Co.",
-      "description": "Andrej Karpathy sieht im Erfolg von Cursor ein Muster für KI-Start-ups: Wer Sprachmodelle für spezifische Branchen orchestriert und mit eigenen Daten und Werkzeugen verbindet, kann sich gegen OpenAI u",
-      "link": "https://the-decoder.de/ex-tesla-ki-chef-andrej-karpathy-gibt-ki-start-ups-vier-tipps-fuer-den-wettbewerb-mit-openai-und-co/",
-      "date": "2025-12-23T12:54:46.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
