@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-12-26T08:32:19.913Z",
+  "lastUpdated": "2025-12-26T10:26:00.745Z",
   "news": [
+    {
+      "title": "ChatGPT-Marktanteil sinkt auf 68 Prozent, Gemini nähert sich der 20-Prozent-Marke",
+      "description": "ChatGPT dominiert den KI-Chatbot-Markt nicht mehr so stark wie früher. Laut Similarweb ist der Traffic-Anteil innerhalb eines Jahres von 87 auf 68 Prozent gefallen. Der größte Gewinner: Google Gemini,",
+      "link": "https://the-decoder.de/chatgpt-marktanteil-sinkt-auf-68-prozent-gemini-naehert-sich-der-20-prozent-marke/",
+      "date": "2025-12-26T09:31:43.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Langjähriges KI-Hindernis ARC fällt durch die unaufhaltsame Optimierungsmaschinerie",
       "description": "Lange Zeit galt der ARC-Benchmark als nahezu unüberwindbares Hindernis für KI-Systeme und als Test für fluide Intelligenz. Neue Ergebnisse zeigen jedoch, dass selbst diese Bastion allmählich der unauf",
@@ -60,15 +69,6 @@
       "description": "Pulitzer-Preisträger John Carreyrou und weitere Autoren verklagen OpenAI, Anthropic, Google, Meta, xAI und Perplexity wegen Buchpiraterie. Die KI-Unternehmen sollen ihre Werke aus illegalen Online-Bib",
       "link": "https://the-decoder.de/autoren-verklagen-sechs-ki-giganten-wegen-buchpiraterie/",
       "date": "2025-12-24T12:26:40.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Zelda-Rätsel zeigt: KI-Modelle können auch bei nervigen Gaming-Rätseln helfen",
-      "description": "Ein KI-Modell löst ein komplexes Farbwechsel-Rätsel aus einem Zelda-Spiel. Es ist ein interessantes Alltagsbeispiel dafür, wie weit die Problemlösefähigkeiten moderner Sprachmodelle inzwischen reichen",
-      "link": "https://the-decoder.de/zelda-raetsel-zeigt-ki-modelle-koennen-komplexe-spiellogik-durchdenken/",
-      "date": "2025-12-24T11:17:26.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
