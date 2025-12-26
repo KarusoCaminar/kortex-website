@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2025-12-26T10:26:00.745Z",
+  "lastUpdated": "2025-12-26T12:49:23.761Z",
   "news": [
+    {
+      "title": "Anthropic-Experiment scheitert: KI-Kiosk-Verkäufer bestellt Playstation 5, lebenden Fisch und macht 1.000 Dollar Verlust",
+      "description": "Anthropics KI-Verkäufer verschenkte eine PlayStation, bestellte einen lebenden Fisch und ließ sich von Journalisten zu einem Vorstandscoup überreden. Das Experiment zeigt, warum autonome KI-Agenten no",
+      "link": "https://the-decoder.de/anthropic-experiment-scheitert-ki-kiosk-verkaeufer-bestellt-playstation-5-lebenden-fisch-und-macht-1-000-dollar-verlust/",
+      "date": "2025-12-26T12:42:39.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Neuer Benchmark zeigt: LLMs scheitern noch an echter wissenschaftlicher Forschung",
+      "description": "Wer in Prüfungen Bestnoten erzielt, ist nicht automatisch ein guter Forscher. Diese Binsenweisheit aus dem akademischen Alltag trifft laut einer neuen Studie auch auf große Sprachmodelle zu.\nDer Artik",
+      "link": "https://the-decoder.de/neuer-benchmark-zeigt-llms-scheitern-noch-an-echter-wissenschaftlicher-forschung/",
+      "date": "2025-12-26T11:20:26.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "ChatGPT-Marktanteil sinkt auf 68 Prozent, Gemini nähert sich der 20-Prozent-Marke",
       "description": "ChatGPT dominiert den KI-Chatbot-Markt nicht mehr so stark wie früher. Laut Similarweb ist der Traffic-Anteil innerhalb eines Jahres von 87 auf 68 Prozent gefallen. Der größte Gewinner: Google Gemini,",
@@ -51,24 +69,6 @@
       "description": "OpenAI arbeitet an Werbeformaten für ChatGPT – von gesponserten Antworten bis zu Anzeigen in der Seitenleiste.\nDer Artikel Bericht: OpenAI könnte gesponserte Inhalte direkt in ChatGPT-Antworten einbau",
       "link": "https://the-decoder.de/bericht-openai-koennte-gesponserte-inhalte-direkt-in-chatgpt-antworten-einbauen/",
       "date": "2025-12-24T16:28:25.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Qwen verbessert Bildbearbeitungsmodell für höhere Konsistenz bei Personen",
-      "description": "Qwen verbessert sein kürzlich veröffentlichtes Bildbearbeitungsmodell. Das chinesische KI-Unternehmen hat Qwen-Image-Edit-2511 auf Hugging Face veröffentlicht, eine erweiterte Version des Vorgängers Q",
-      "link": "https://the-decoder.de/qwen-verbessert-bildbearbeitungsmodell-fuer-hoehere-konsistenz-bei-personen/",
-      "date": "2025-12-24T16:11:46.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Autoren verklagen sechs KI-Giganten wegen Buchpiraterie",
-      "description": "Pulitzer-Preisträger John Carreyrou und weitere Autoren verklagen OpenAI, Anthropic, Google, Meta, xAI und Perplexity wegen Buchpiraterie. Die KI-Unternehmen sollen ihre Werke aus illegalen Online-Bib",
-      "link": "https://the-decoder.de/autoren-verklagen-sechs-ki-giganten-wegen-buchpiraterie/",
-      "date": "2025-12-24T12:26:40.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
