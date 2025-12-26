@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-12-26T14:24:09.223Z",
+  "lastUpdated": "2025-12-26T16:28:19.847Z",
   "news": [
+    {
+      "title": "Metas neues KI-Modell SAM Audio lässt Nutzer Töne in Videos anklicken",
+      "description": "Hundegebell aus dem Straßenlärm filtern oder per Mausklick im Video eine Tonquelle isolieren: Mit SAM Audio bringt Meta sein bewährtes visuelles Segmentierungskonzept in die Audiowelt. Das Modell vere",
+      "link": "https://the-decoder.de/metas-neues-ki-modell-sam-audio-laesst-nutzer-toene-in-videos-anklicken/",
+      "date": "2025-12-26T15:14:35.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Anthropic-Experiment scheitert: KI-Kiosk-Verkäufer bestellt Playstation 5, lebenden Fisch und macht 1.000 Dollar Verlust",
       "description": "Anthropics KI-Verkäufer verschenkte eine PlayStation, bestellte einen lebenden Fisch und ließ sich von Journalisten zu einem Vorstandscoup überreden. Das Experiment zeigt, warum autonome KI-Agenten no",
@@ -62,15 +71,6 @@
       "date": "2025-12-25T11:15:16.000Z",
       "source": "The Decoder",
       "category": "sales-tools",
-      "language": "de"
-    },
-    {
-      "title": "Bericht: OpenAI könnte gesponserte Inhalte direkt in ChatGPT-Antworten einbauen",
-      "description": "OpenAI arbeitet an Werbeformaten für ChatGPT – von gesponserten Antworten bis zu Anzeigen in der Seitenleiste.\nDer Artikel Bericht: OpenAI könnte gesponserte Inhalte direkt in ChatGPT-Antworten einbau",
-      "link": "https://the-decoder.de/bericht-openai-koennte-gesponserte-inhalte-direkt-in-chatgpt-antworten-einbauen/",
-      "date": "2025-12-24T16:28:25.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
       "language": "de"
     },
     {
