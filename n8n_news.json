@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-12-27T16:28:07.770Z",
+  "lastUpdated": "2025-12-27T18:32:38.937Z",
   "news": [
+    {
+      "title": "OpenAI sucht neuen Sicherheitschef für KI-Risiken wie Cyberangriffe und psychische Gesundheit",
+      "description": "OpenAI sucht einen neuen Sicherheitschef. Herausforderungen gibt es viele: Auswirkungen auf die psychische Gesundheit, Cybersecurity-Risiken, biologisches Wissen, selbstverbessernde Systeme.\nDer Artik",
+      "link": "https://the-decoder.de/openai-sucht-neuen-sicherheitschef-fuer-ki-risiken-wie-cyberangriffe-und-psychische-gesundheit/",
+      "date": "2025-12-27T16:46:57.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Chatterbox Turbo: Kostenloses Audio-Modell klont Stimmen in wenigen Sekunden",
       "description": "Resemble AI veröffentlicht mit Chatterbox Turbo ein Open-Source-Stimmmodell, das Elevenlabs und Cartesia schlagen soll. Das Modell darf kostenlos unter MIT-Lizenz genutzt werden.\nDer Artikel Chatterbo",
@@ -69,15 +78,6 @@
       "description": "Lange Zeit galt der ARC-Benchmark als nahezu unüberwindbares Hindernis für KI-Systeme und als Test für fluide Intelligenz. Neue Ergebnisse zeigen jedoch, dass selbst diese Bastion allmählich der unauf",
       "link": "https://the-decoder.de/langjaehriges-ki-hindernis-arc-faellt-durch-die-unaufhaltsame-optimierungsmaschinerie/",
       "date": "2025-12-25T16:44:26.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Waymo plant offenbar tiefere Integration von Googles Gemini-Modellen in seine Flotte",
-      "description": "Hier ist was für alle Prompt-Ingenieure: Jane Manchun Wong hat den System-Prompt für Waymos unveröffentlichten Gemini-KI-Assistenten entdeckt.\nDer Artikel Waymo plant offenbar tiefere Integration von",
-      "link": "https://the-decoder.de/waymo-plant-offenbar-tiefere-integration-von-googles-gemini-modellen-in-seine-flotte/",
-      "date": "2025-12-25T12:39:20.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
