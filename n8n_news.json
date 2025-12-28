@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-12-28T08:31:00.108Z",
+  "lastUpdated": "2025-12-28T10:24:07.853Z",
   "news": [
+    {
+      "title": "\"Nicht smart\": Microsoft CEO Nadella kritisiert Copilot intern und greift in die Produktentwicklung ein",
+      "description": "Microsoft-CEO Satya Nadella soll intern Programme zur Verbindung von Copilot mit Gmail und Outlook als \"nicht smart\" kritisiert haben und mischt sich zunehmend persönlich in die Produktentwicklung ein",
+      "link": "https://the-decoder.de/nicht-smart-microsoft-ceo-nadella-kritisiert-copilot-intern-und-greift-in-die-produktentwicklung-ein/",
+      "date": "2025-12-28T09:45:58.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "OpenAI sucht neuen Sicherheitschef für KI-Risiken wie Cyberangriffe und psychische Gesundheit",
       "description": "OpenAI sucht einen neuen Sicherheitschef. Herausforderungen gibt es viele: Auswirkungen auf die psychische Gesundheit, Cybersecurity-Risiken, biologisches Wissen, selbstverbessernde Systeme.\nDer Artik",
@@ -69,15 +78,6 @@
       "description": "ChatGPT dominiert den KI-Chatbot-Markt nicht mehr so stark wie früher. Laut Similarweb ist der Traffic-Anteil innerhalb eines Jahres von 87 auf 68 Prozent gefallen. Der größte Gewinner: Google Gemini,",
       "link": "https://the-decoder.de/chatgpt-marktanteil-sinkt-auf-68-prozent-gemini-naehert-sich-der-20-prozent-marke/",
       "date": "2025-12-26T09:31:43.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Langjähriges KI-Hindernis ARC fällt durch die unaufhaltsame Optimierungsmaschinerie",
-      "description": "Lange Zeit galt der ARC-Benchmark als nahezu unüberwindbares Hindernis für KI-Systeme und als Test für fluide Intelligenz. Neue Ergebnisse zeigen jedoch, dass selbst diese Bastion allmählich der unauf",
-      "link": "https://the-decoder.de/langjaehriges-ki-hindernis-arc-faellt-durch-die-unaufhaltsame-optimierungsmaschinerie/",
-      "date": "2025-12-25T16:44:26.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
