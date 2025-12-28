@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-12-28T10:24:07.853Z",
+  "lastUpdated": "2025-12-28T12:47:09.304Z",
   "news": [
+    {
+      "title": "Sam Altmans Warnung vor \"übermenschlicher Überzeugungskraft\" holt die KI-Branche ein",
+      "description": "Im Oktober 2023 sagte OpenAI-CEO Sam Altman vorher, dass \"sehr seltsame Dinge\" passieren würden, wenn KI übermenschliche Überzeugungskräfte erlange. In diesem Jahr wurde deutlich, wie richtig er mit d",
+      "link": "https://the-decoder.de/sam-altmans-warnung-vor-uebermenschlicher-ueberzeugungskraft-holt-die-ki-branche-ein/",
+      "date": "2025-12-28T12:39:21.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "\"Nicht smart\": Microsoft CEO Nadella kritisiert Copilot intern und greift in die Produktentwicklung ein",
       "description": "Microsoft-CEO Satya Nadella soll intern Programme zur Verbindung von Copilot mit Gmail und Outlook als \"nicht smart\" kritisiert haben und mischt sich zunehmend persönlich in die Produktentwicklung ein",
@@ -65,24 +74,6 @@
       "language": "de"
     },
     {
-      "title": "Neuer Benchmark zeigt: LLMs scheitern noch an echter wissenschaftlicher Forschung",
-      "description": "Wer in Prüfungen Bestnoten erzielt, ist nicht automatisch ein guter Forscher. Diese Binsenweisheit aus dem akademischen Alltag trifft laut einer neuen Studie auch auf große Sprachmodelle zu.\nDer Artik",
-      "link": "https://the-decoder.de/neuer-benchmark-zeigt-llms-scheitern-noch-an-echter-wissenschaftlicher-forschung/",
-      "date": "2025-12-26T11:20:26.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "ChatGPT-Marktanteil sinkt auf 68 Prozent, Gemini nähert sich der 20-Prozent-Marke",
-      "description": "ChatGPT dominiert den KI-Chatbot-Markt nicht mehr so stark wie früher. Laut Similarweb ist der Traffic-Anteil innerhalb eines Jahres von 87 auf 68 Prozent gefallen. Der größte Gewinner: Google Gemini,",
-      "link": "https://the-decoder.de/chatgpt-marktanteil-sinkt-auf-68-prozent-gemini-naehert-sich-der-20-prozent-marke/",
-      "date": "2025-12-26T09:31:43.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "One in a million: celebrating the customers shaping AI’s future",
       "description": "More than one million customers around the world now use OpenAI to empower their teams and unlock new opportunities. This post highlights how companies like PayPal, Virgin Atlantic, BBVA, Cisco, Moder",
       "link": "https://openai.com/index/one-in-a-million-customers",
@@ -132,6 +123,15 @@
       "description": "OpenAI is updating its Model Spec with new Under-18 Principles that define how ChatGPT should support teens with safe, age-appropriate guidance grounded in developmental science. The update strengthen",
       "link": "https://openai.com/index/updating-model-spec-with-teen-protections",
       "date": "2025-12-18T11:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
+      "title": "Introducing GPT-5.2-Codex",
+      "description": "GPT-5.2-Codex is OpenAI’s most advanced coding model, offering long-horizon reasoning, large-scale code transformations, and enhanced cybersecurity capabilities.",
+      "link": "https://openai.com/index/introducing-gpt-5-2-codex",
+      "date": "2025-12-18T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
