@@ -1,6 +1,33 @@
 {
-  "lastUpdated": "2025-12-29T12:52:34.169Z",
+  "lastUpdated": "2025-12-29T14:25:49.798Z",
   "news": [
+    {
+      "title": "KI statt Fotoshooting: Zara zieht Models virtuell neue Kollektionen an",
+      "description": "Zara nutzt KI, um Models digital neue Kleidung anzuziehen: Echte Shootings werden überflüssig. Die Models werden weiter bezahlt, alle anderen gehen leer aus.\nDer Artikel KI statt Fotoshooting: Zara zi",
+      "link": "https://the-decoder.de/ki-statt-fotoshooting-zara-zieht-models-virtuell-neue-kollektionen-an/",
+      "date": "2025-12-29T14:13:09.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Wegen KI-Betrug: Weltgrößte Buchhaltungsorganisation schafft Online-Prüfungen ab",
+      "description": "Die weltweit größte Buchhaltungsorganisation ACCA (Association of Chartered Certified Accountants) beendet ab März 2026 die Möglichkeit, Prüfungen online abzulegen.\nDer Artikel Wegen KI-Betrug: Weltgr",
+      "link": "https://the-decoder.de/wegen-ki-betrug-weltgroesste-buchhaltungsorganisation-schafft-online-pruefungen-ab/",
+      "date": "2025-12-29T13:37:27.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Creators Coalition on AI: Hollywood-Stars fordern klare Regeln für KI in der Unterhaltungsindustrie",
+      "description": "Die \"Creators Coalition on AI\" (CCAI) ist eine neue branchenübergreifende Initiative von Filmschaffenden und Künstlern, die gemeinsame Standards für den Einsatz von KI in der Unterhaltungsindustrie fo",
+      "link": "https://the-decoder.de/creators-coalition-on-ai-hollywood-stars-fordern-klare-regeln-fuer-ki-in-der-unterhaltungsindustrie/",
+      "date": "2025-12-29T13:17:56.000Z",
+      "source": "The Decoder",
+      "category": "industrie-4.0",
+      "language": "de"
+    },
     {
       "title": "YouTube wird laut Studie schon von KI-Slop-Videos überrollt",
       "description": "Eine erste Studie zeigt: Minderwertige KI-Videos sind längst keine Randerscheinung mehr, sondern eine Millionen-Dollar-Industrie, die sich fest im Alltag der Plattform eingenistet hat. Wer sich heute",
@@ -56,24 +83,6 @@
       "language": "de"
     },
     {
-      "title": "Metas Pixio lernt durch Pixel-Rekonstruktion und übertrifft aufwendigere KI-Modelle",
-      "description": "Weniger ist mehr: Metas neues Bildmodell Pixio schlägt komplexere Konkurrenten bei Tiefenschätzung und 3D-Rekonstruktion, obwohl es weniger Parameter hat. Die Trainingsmethode galt eigentlich als über",
-      "link": "https://the-decoder.de/metas-pixio-lernt-durch-pixel-rekonstruktion-und-uebertrifft-aufwendigere-ki-modelle/",
-      "date": "2025-12-27T11:02:02.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Kampf gegen KI-Sucht: China veröffentlicht Regelentwurf für virtuelle Begleiter",
-      "description": "China verschärft die Regeln für emotionale KI-Chatbots: Anbieter sollen künftig Suchtverhalten erkennen und bei psychischen Risiken eingreifen. Auch Kalifornien hat ähnliche Gesetze auf den Weg gebrac",
-      "link": "https://the-decoder.de/kampf-gegen-ki-sucht-china-veroeffentlicht-regelentwurf-fuer-virtuelle-begleiter/",
-      "date": "2025-12-27T09:59:36.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "One in a million: celebrating the customers shaping AI’s future",
       "description": "More than one million customers around the world now use OpenAI to empower their teams and unlock new opportunities. This post highlights how companies like PayPal, Virgin Atlantic, BBVA, Cisco, Moder",
       "link": "https://openai.com/index/one-in-a-million-customers",
@@ -123,15 +132,6 @@
       "description": "OpenAI is updating its Model Spec with new Under-18 Principles that define how ChatGPT should support teens with safe, age-appropriate guidance grounded in developmental science. The update strengthen",
       "link": "https://openai.com/index/updating-model-spec-with-teen-protections",
       "date": "2025-12-18T11:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "Introducing GPT-5.2-Codex",
-      "description": "GPT-5.2-Codex is OpenAI’s most advanced coding model, offering long-horizon reasoning, large-scale code transformations, and enhanced cybersecurity capabilities.",
-      "link": "https://openai.com/index/introducing-gpt-5-2-codex",
-      "date": "2025-12-18T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
