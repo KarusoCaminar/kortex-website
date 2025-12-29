@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-12-29T14:25:49.798Z",
+  "lastUpdated": "2025-12-29T16:30:10.595Z",
   "news": [
+    {
+      "title": "Sicherheitsforscher warnen vor Browser-Erweiterungen, die heimlich KI-Chats abgreifen",
+      "description": "Falls ihr einen Chatbot und eine Urban-Browser-Erweiterung benutzt, möchtet ihr das eventuell noch mal überdenken.\nDer Artikel Sicherheitsforscher warnen vor Browser-Erweiterungen, die heimlich KI-Cha",
+      "link": "https://the-decoder.de/sicherheitsforscher-warnen-vor-browser-erweiterungen-die-heimlich-ki-chats-abgreifen/",
+      "date": "2025-12-29T14:37:21.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "KI statt Fotoshooting: Zara zieht Models virtuell neue Kollektionen an",
       "description": "Zara nutzt KI, um Models digital neue Kleidung anzuziehen: Echte Shootings werden überflüssig. Die Models werden weiter bezahlt, alle anderen gehen leer aus.\nDer Artikel KI statt Fotoshooting: Zara zi",
@@ -69,15 +78,6 @@
       "description": "OpenAI sucht einen neuen Sicherheitschef. Herausforderungen gibt es viele: Auswirkungen auf die psychische Gesundheit, Cybersecurity-Risiken, biologisches Wissen, selbstverbessernde Systeme.\nDer Artik",
       "link": "https://the-decoder.de/openai-sucht-neuen-sicherheitschef-fuer-ki-risiken-wie-cyberangriffe-und-psychische-gesundheit/",
       "date": "2025-12-27T16:46:57.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Chatterbox Turbo: Kostenloses Audio-Modell klont Stimmen in wenigen Sekunden",
-      "description": "Resemble AI veröffentlicht mit Chatterbox Turbo ein Open-Source-Stimmmodell, das Elevenlabs und Cartesia schlagen soll. Das Modell darf kostenlos unter MIT-Lizenz genutzt werden.\nDer Artikel Chatterbo",
-      "link": "https://the-decoder.de/chatterbox-turbo-kostenloses-audio-modell-klont-stimmen-in-wenigen-sekunden/",
-      "date": "2025-12-27T16:20:53.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
