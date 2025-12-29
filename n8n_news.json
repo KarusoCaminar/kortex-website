@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-12-29T10:27:44.341Z",
+  "lastUpdated": "2025-12-29T12:52:34.169Z",
   "news": [
+    {
+      "title": "YouTube wird laut Studie schon von KI-Slop-Videos überrollt",
+      "description": "Eine erste Studie zeigt: Minderwertige KI-Videos sind längst keine Randerscheinung mehr, sondern eine Millionen-Dollar-Industrie, die sich fest im Alltag der Plattform eingenistet hat. Wer sich heute",
+      "link": "https://the-decoder.de/youtube-wird-laut-studie-schon-von-ki-slop-videos-ueberrollt/",
+      "date": "2025-12-29T11:17:47.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Forscherteam will unlogische KI-Grübelei mit neuen \"Laws of Reasoning\" beenden",
       "description": "Wenn ich bei einer einfachen Aufgabe länger grübeln würde als bei einer komplexen – und dabei auch noch schlechter abschneiden würde – würde mein Chef wohl Fragen stellen. Genau das passiert aber offe",
@@ -60,15 +69,6 @@
       "description": "China verschärft die Regeln für emotionale KI-Chatbots: Anbieter sollen künftig Suchtverhalten erkennen und bei psychischen Risiken eingreifen. Auch Kalifornien hat ähnliche Gesetze auf den Weg gebrac",
       "link": "https://the-decoder.de/kampf-gegen-ki-sucht-china-veroeffentlicht-regelentwurf-fuer-virtuelle-begleiter/",
       "date": "2025-12-27T09:59:36.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Metas neues KI-Modell SAM Audio lässt Nutzer Töne in Videos anklicken",
-      "description": "Hundegebell aus dem Straßenlärm filtern oder per Mausklick im Video eine Tonquelle isolieren: Mit SAM Audio bringt Meta sein bewährtes visuelles Segmentierungskonzept in die Audiowelt. Das Modell vere",
-      "link": "https://the-decoder.de/metas-neues-ki-modell-sam-audio-laesst-nutzer-toene-in-videos-anklicken/",
-      "date": "2025-12-26T15:14:35.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
