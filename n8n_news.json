@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-12-29T08:36:11.787Z",
+  "lastUpdated": "2025-12-29T10:27:44.341Z",
   "news": [
+    {
+      "title": "Forscherteam will unlogische KI-Grübelei mit neuen \"Laws of Reasoning\" beenden",
+      "description": "Wenn ich bei einer einfachen Aufgabe länger grübeln würde als bei einer komplexen – und dabei auch noch schlechter abschneiden würde – würde mein Chef wohl Fragen stellen. Genau das passiert aber offe",
+      "link": "https://the-decoder.de/forscherteam-will-unlogische-ki-gruebelei-mit-neuen-laws-of-reasoning-beenden/",
+      "date": "2025-12-29T09:37:42.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Sam Altmans Warnung vor \"übermenschlicher Überzeugungskraft\" holt die KI-Branche ein",
       "description": "Im Oktober 2023 sagte OpenAI-CEO Sam Altman vorher, dass \"sehr seltsame Dinge\" passieren würden, wenn KI übermenschliche Überzeugungskräfte erlange. In diesem Jahr wurde deutlich, wie richtig er mit d",
@@ -60,15 +69,6 @@
       "description": "Hundegebell aus dem Straßenlärm filtern oder per Mausklick im Video eine Tonquelle isolieren: Mit SAM Audio bringt Meta sein bewährtes visuelles Segmentierungskonzept in die Audiowelt. Das Modell vere",
       "link": "https://the-decoder.de/metas-neues-ki-modell-sam-audio-laesst-nutzer-toene-in-videos-anklicken/",
       "date": "2025-12-26T15:14:35.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Anthropic-Experiment scheitert: KI-Kiosk-Verkäufer bestellt Playstation 5, lebenden Fisch und macht 1.000 Dollar Verlust",
-      "description": "Anthropics KI-Verkäufer verschenkte eine PlayStation, bestellte einen lebenden Fisch und ließ sich von Journalisten zu einem Vorstandscoup überreden. Das Experiment zeigt, warum autonome KI-Agenten no",
-      "link": "https://the-decoder.de/anthropic-experiment-scheitert-ki-kiosk-verkaeufer-bestellt-playstation-5-lebenden-fisch-und-macht-1-000-dollar-verlust/",
-      "date": "2025-12-26T12:42:39.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
