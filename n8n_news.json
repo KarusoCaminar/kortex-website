@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-12-30T12:51:56.528Z",
+  "lastUpdated": "2025-12-30T14:24:26.971Z",
   "news": [
+    {
+      "title": "Trotz unterschiedlicher Datenbasis: KI-Systeme konvergieren zu universellen Darstellungen",
+      "description": "Forscher am MIT haben 59 wissenschaftliche KI-Modelle verglichen und festgestellt, dass diese trotz unterschiedlicher Architekturen und Trainingsaufgaben zu ähnlichen internen Darstellungen von Molekü",
+      "link": "https://the-decoder.de/trotz-unterschiedlicher-datenbasis-ki-systeme-konvergieren-zu-universellen-darstellungen/",
+      "date": "2025-12-30T13:07:10.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Meta übernimmt chinesisches KI-Start-up Manus AI für KI-Agenten",
       "description": "Meta kauft das KI-Agenten-Start-up Manus AI und integriert damit ausgerechnet ein System, das auf Konkurrenzmodellen basiert. Der Deal zeigt, wie sehr der Konzern trotz Milliarden-Investitionen bei KI",
@@ -69,15 +78,6 @@
       "description": "Im Oktober 2023 sagte OpenAI-CEO Sam Altman vorher, dass \"sehr seltsame Dinge\" passieren würden, wenn KI übermenschliche Überzeugungskräfte erlange. In diesem Jahr wurde deutlich, wie richtig er mit d",
       "link": "https://the-decoder.de/sam-altmans-warnung-vor-uebermenschlicher-ueberzeugungskraft-holt-die-ki-branche-ein/",
       "date": "2025-12-28T12:39:21.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "\"Nicht smart\": Microsoft CEO Nadella kritisiert Copilot intern und greift in die Produktentwicklung ein",
-      "description": "Microsoft-CEO Satya Nadella soll intern Programme zur Verbindung von Copilot mit Gmail und Outlook als \"nicht smart\" kritisiert haben und mischt sich zunehmend persönlich in die Produktentwicklung ein",
-      "link": "https://the-decoder.de/nicht-smart-microsoft-ceo-nadella-kritisiert-copilot-intern-und-greift-in-die-produktentwicklung-ein/",
-      "date": "2025-12-28T09:45:58.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
