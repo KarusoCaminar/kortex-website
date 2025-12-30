@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-12-30T06:37:47.663Z",
+  "lastUpdated": "2025-12-30T08:34:02.054Z",
   "news": [
+    {
+      "title": "Meta übernimmt chinesisches KI-Start-up Manus AI für KI-Agenten",
+      "description": "Meta kauft das KI-Agenten-Start-up Manus AI und integriert damit ausgerechnet ein System, das auf Konkurrenzmodellen basiert. Der Deal zeigt, wie sehr der Konzern trotz Milliarden-Investitionen bei KI",
+      "link": "https://the-decoder.de/meta-uebernimmt-chinesisches-ki-start-up-manus-ai-fuer-ki-agenten/",
+      "date": "2025-12-30T08:17:02.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Sicherheitsforscher warnen vor Browser-Erweiterungen, die heimlich KI-Chats abgreifen",
       "description": "Falls ihr einen Chatbot und eine Urban-Browser-Erweiterung benutzt, möchtet ihr das eventuell noch mal überdenken.\nDer Artikel Sicherheitsforscher warnen vor Browser-Erweiterungen, die heimlich KI-Cha",
@@ -69,15 +78,6 @@
       "description": "Microsoft-CEO Satya Nadella soll intern Programme zur Verbindung von Copilot mit Gmail und Outlook als \"nicht smart\" kritisiert haben und mischt sich zunehmend persönlich in die Produktentwicklung ein",
       "link": "https://the-decoder.de/nicht-smart-microsoft-ceo-nadella-kritisiert-copilot-intern-und-greift-in-die-produktentwicklung-ein/",
       "date": "2025-12-28T09:45:58.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "OpenAI sucht neuen Sicherheitschef für KI-Risiken wie Cyberangriffe und psychische Gesundheit",
-      "description": "OpenAI sucht einen neuen Sicherheitschef. Herausforderungen gibt es viele: Auswirkungen auf die psychische Gesundheit, Cybersecurity-Risiken, biologisches Wissen, selbstverbessernde Systeme.\nDer Artik",
-      "link": "https://the-decoder.de/openai-sucht-neuen-sicherheitschef-fuer-ki-risiken-wie-cyberangriffe-und-psychische-gesundheit/",
-      "date": "2025-12-27T16:46:57.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
