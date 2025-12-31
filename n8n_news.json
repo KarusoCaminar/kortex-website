@@ -1,20 +1,38 @@
 {
-  "lastUpdated": "2025-12-31T08:34:07.572Z",
+  "lastUpdated": "2025-12-31T10:26:10.620Z",
   "news": [
     {
-      "title": "Trotz unterschiedlicher Datenbasis: KI-Systeme konvergieren zu universellen Darstellungen",
-      "description": "Forscher am MIT haben 59 wissenschaftliche KI-Modelle verglichen und festgestellt, dass diese trotz unterschiedlicher Architekturen und Trainingsaufgaben zu ähnlichen internen Darstellungen von Molekü",
-      "link": "https://the-decoder.de/trotz-unterschiedlicher-datenbasis-ki-systeme-konvergieren-zu-universellen-darstellungen/",
-      "date": "2025-12-30T13:07:10.000Z",
+      "title": "Satya Nadella im \"Founder Mode\": Microsoft-Chef will mehr Dringlichkeit bei KI zeigen",
+      "description": "Microsoft-CEO Nadella baut die Führungsebene um und will im KI-Rennen wieder Tempo machen.\nDer Artikel Satya Nadella im \"Founder Mode\": Microsoft-Chef will mehr Dringlichkeit bei KI zeigen erschien zu",
+      "link": "https://the-decoder.de/satya-nadella-im-founder-mode-microsoft-chef-will-mehr-dringlichkeit-bei-ki-zeigen/",
+      "date": "2025-12-31T10:08:09.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
     },
     {
-      "title": "Meta übernimmt chinesisches KI-Start-up Manus AI für KI-Agenten",
-      "description": "Meta kauft das KI-Agenten-Start-up Manus AI und integriert damit ausgerechnet ein System, das auf Konkurrenzmodellen basiert. Der Deal zeigt, wie sehr der Konzern trotz Milliarden-Investitionen bei KI",
-      "link": "https://the-decoder.de/meta-uebernimmt-chinesisches-ki-start-up-manus-ai-fuer-ki-agenten/",
-      "date": "2025-12-30T08:17:02.000Z",
+      "title": "KI-Ausbau: xAI steigert Rechenleistung mit neuem Standort auf fast zwei Gigawatt",
+      "description": "Elon Musks xAI kauft ein drittes Rechenzentrum in der Region Memphis. Der Name \"Macrohardrr\" ist eine Anspielung auf Microsoft – und ein Hinweis auf Musks Ambitionen.\nDer Artikel KI-Ausbau: xAI steige",
+      "link": "https://the-decoder.de/ki-ausbau-xai-steigert-rechenleistung-mit-neuem-standort-auf-fast-zwei-gigawatt/",
+      "date": "2025-12-31T09:37:44.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Meta kauft KI-Agenten-Startup Manus für 2,5 Milliarden US-Dollar nach Distanzierung von China",
+      "description": "Meta kauft das KI-Agenten-Startup Manus AI und integriert damit ausgerechnet ein System, das auf Konkurrenzmodellen basiert. Der Deal zeigt, wie sehr der Konzern trotz Milliarden-Investitionen bei KI-",
+      "link": "https://the-decoder.de/meta-kauft-ki-agenten-startup-manus-fuer-25-milliarden-us-dollar-nach-distanzierung-von-china/",
+      "date": "2025-12-31T09:18:02.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Trotz unterschiedlicher Datenbasis: KI-Systeme konvergieren zu universellen Darstellungen",
+      "description": "Forscher am MIT haben 59 wissenschaftliche KI-Modelle verglichen und festgestellt, dass diese trotz unterschiedlicher Architekturen und Trainingsaufgaben zu ähnlichen internen Darstellungen von Molekü",
+      "link": "https://the-decoder.de/trotz-unterschiedlicher-datenbasis-ki-systeme-konvergieren-zu-universellen-darstellungen/",
+      "date": "2025-12-30T13:07:10.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
@@ -53,33 +71,6 @@
       "date": "2025-12-29T13:17:56.000Z",
       "source": "The Decoder",
       "category": "industrie-4.0",
-      "language": "de"
-    },
-    {
-      "title": "YouTube wird laut Studie schon von KI-Slop-Videos überrollt",
-      "description": "Eine erste Studie zeigt: Minderwertige KI-Videos sind längst keine Randerscheinung mehr, sondern eine Millionen-Dollar-Industrie, die sich fest im Alltag der Plattform eingenistet hat. Wer sich heute",
-      "link": "https://the-decoder.de/youtube-wird-laut-studie-schon-von-ki-slop-videos-ueberrollt/",
-      "date": "2025-12-29T11:17:47.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Forscherteam will unlogische KI-Grübelei mit neuen \"Laws of Reasoning\" beenden",
-      "description": "Wenn ich bei einer einfachen Aufgabe länger grübeln würde als bei einer komplexen – und dabei auch noch schlechter abschneiden würde – würde mein Chef wohl Fragen stellen. Genau das passiert aber offe",
-      "link": "https://the-decoder.de/forscherteam-will-unlogische-ki-gruebelei-mit-neuen-laws-of-reasoning-beenden/",
-      "date": "2025-12-29T09:37:42.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Sam Altmans Warnung vor \"übermenschlicher Überzeugungskraft\" holt die KI-Branche ein",
-      "description": "Im Oktober 2023 sagte OpenAI-CEO Sam Altman vorher, dass \"sehr seltsame Dinge\" passieren würden, wenn KI übermenschliche Überzeugungskräfte erlange. In diesem Jahr wurde deutlich, wie richtig er mit d",
-      "link": "https://the-decoder.de/sam-altmans-warnung-vor-uebermenschlicher-ueberzeugungskraft-holt-die-ki-branche-ein/",
-      "date": "2025-12-28T12:39:21.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
       "language": "de"
     },
     {
@@ -132,6 +123,15 @@
       "description": "OpenAI is updating its Model Spec with new Under-18 Principles that define how ChatGPT should support teens with safe, age-appropriate guidance grounded in developmental science. The update strengthen",
       "link": "https://openai.com/index/updating-model-spec-with-teen-protections",
       "date": "2025-12-18T11:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
+      "title": "Introducing GPT-5.2-Codex",
+      "description": "GPT-5.2-Codex is OpenAI’s most advanced coding model, offering long-horizon reasoning, large-scale code transformations, and enhanced cybersecurity capabilities.",
+      "link": "https://openai.com/index/introducing-gpt-5-2-codex",
+      "date": "2025-12-18T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
