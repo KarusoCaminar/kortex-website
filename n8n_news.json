@@ -1,6 +1,33 @@
 {
-  "lastUpdated": "2025-12-31T10:26:10.620Z",
+  "lastUpdated": "2025-12-31T12:50:32.978Z",
   "news": [
+    {
+      "title": "Gehälter-Rekord: OpenAI entlohnt Angestellte so hoch wie kein Tech-Startup zuvor",
+      "description": "OpenAI zahlt seinen Mitarbeitern so viel wie kein anderes Tech-Startup zuvor. Die aktienbasierte Vergütung liegt im Schnitt bei 1,5 Millionen Dollar pro Mitarbeiter, verteilt auf rund 4000 Beschäftigt",
+      "link": "https://the-decoder.de/gehaelter-rekord-openai-entlohnt-angestellte-so-hoch-wie-kein-tech-startup-zuvor/",
+      "date": "2025-12-31T12:19:55.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Chinas KI-Welle rollt: Deepseek-Erfolg ermutigt Start-ups zu schnellen Börsengängen",
+      "description": "Der Aufstieg von Deepseek befeuert eine Welle von Börsengängen chinesischer KI-Unternehmen in Hongkong. Mit Zhipu AI geht das erste börsennotierte Unternehmen für große Sprachmodelle an den Start, wäh",
+      "link": "https://the-decoder.de/chinas-ki-welle-rollt-deepseek-erfolg-ermutigt-start-ups-zu-schnellen-boersengaengen/",
+      "date": "2025-12-31T11:29:03.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Nvidia verhandelt offenbar über Milliarden-Übernahme von KI-Start-up AI21 Labs",
+      "description": "Nvidia greift nach israelischem KI-Know-how: Der Chipriese verhandelt laut Calcalist über die Übernahme von AI21 Labs für bis zu drei Milliarden Dollar. Im Fokus stehen vor allem die 200 Mitarbeitende",
+      "link": "https://the-decoder.de/nvidia-verhandelt-offenbar-ueber-milliarden-uebernahme-von-ki-start-up-ai21-labs/",
+      "date": "2025-12-31T10:39:10.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Satya Nadella im \"Founder Mode\": Microsoft-Chef will mehr Dringlichkeit bei KI zeigen",
       "description": "Microsoft-CEO Nadella baut die Führungsebene um und will im KI-Rennen wieder Tempo machen.\nDer Artikel Satya Nadella im \"Founder Mode\": Microsoft-Chef will mehr Dringlichkeit bei KI zeigen erschien zu",
@@ -44,33 +71,6 @@
       "date": "2025-12-29T14:37:21.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "KI statt Fotoshooting: Zara zieht Models virtuell neue Kollektionen an",
-      "description": "Zara nutzt KI, um Models digital neue Kleidung anzuziehen: Echte Shootings werden überflüssig. Die Models werden weiter bezahlt, alle anderen gehen leer aus.\nDer Artikel KI statt Fotoshooting: Zara zi",
-      "link": "https://the-decoder.de/ki-statt-fotoshooting-zara-zieht-models-virtuell-neue-kollektionen-an/",
-      "date": "2025-12-29T14:13:09.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Wegen KI-Betrug: Weltgrößte Buchhaltungsorganisation schafft Online-Prüfungen ab",
-      "description": "Die weltweit größte Buchhaltungsorganisation ACCA (Association of Chartered Certified Accountants) beendet ab März 2026 die Möglichkeit, Prüfungen online abzulegen.\nDer Artikel Wegen KI-Betrug: Weltgr",
-      "link": "https://the-decoder.de/wegen-ki-betrug-weltgroesste-buchhaltungsorganisation-schafft-online-pruefungen-ab/",
-      "date": "2025-12-29T13:37:27.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Creators Coalition on AI: Hollywood-Stars fordern klare Regeln für KI in der Unterhaltungsindustrie",
-      "description": "Die \"Creators Coalition on AI\" (CCAI) ist eine neue branchenübergreifende Initiative von Filmschaffenden und Künstlern, die gemeinsame Standards für den Einsatz von KI in der Unterhaltungsindustrie fo",
-      "link": "https://the-decoder.de/creators-coalition-on-ai-hollywood-stars-fordern-klare-regeln-fuer-ki-in-der-unterhaltungsindustrie/",
-      "date": "2025-12-29T13:17:56.000Z",
-      "source": "The Decoder",
-      "category": "industrie-4.0",
       "language": "de"
     },
     {
