@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2025-12-31T12:50:32.978Z",
+  "lastUpdated": "2025-12-31T14:24:06.207Z",
   "news": [
+    {
+      "title": "Alibabas neues offenes Qwen-Bildmodell soll deutlich natürlichere Bilder generieren",
+      "description": "Alibaba hat Qwen-Image-2512 veröffentlicht, ein Update seines Text-zu-Bild-Modells. Das Modell erzeugt laut Alibaba realistischere Bilder von Menschen, mit mehr Gesichtsdetails und weniger künstlichem",
+      "link": "https://the-decoder.de/alibabas-neues-offenes-qwen-bildmodell-soll-deutlich-natuerlichere-bilder-generieren/",
+      "date": "2025-12-31T12:53:41.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Gehälter-Rekord: OpenAI entlohnt Angestellte so hoch wie kein Tech-Startup zuvor",
       "description": "OpenAI zahlt seinen Mitarbeitern so viel wie kein anderes Tech-Startup zuvor. Die aktienbasierte Vergütung liegt im Schnitt bei 1,5 Millionen Dollar pro Mitarbeiter, verteilt auf rund 4000 Beschäftigt",
@@ -60,15 +69,6 @@
       "description": "Forscher am MIT haben 59 wissenschaftliche KI-Modelle verglichen und festgestellt, dass diese trotz unterschiedlicher Architekturen und Trainingsaufgaben zu ähnlichen internen Darstellungen von Molekü",
       "link": "https://the-decoder.de/trotz-unterschiedlicher-datenbasis-ki-systeme-konvergieren-zu-universellen-darstellungen/",
       "date": "2025-12-30T13:07:10.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Sicherheitsforscher warnen vor Browser-Erweiterungen, die heimlich KI-Chats abgreifen",
-      "description": "Falls ihr einen Chatbot und eine Urban-Browser-Erweiterung benutzt, möchtet ihr das eventuell noch mal überdenken.\nDer Artikel Sicherheitsforscher warnen vor Browser-Erweiterungen, die heimlich KI-Cha",
-      "link": "https://the-decoder.de/sicherheitsforscher-warnen-vor-browser-erweiterungen-die-heimlich-ki-chats-abgreifen/",
-      "date": "2025-12-29T14:37:21.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
