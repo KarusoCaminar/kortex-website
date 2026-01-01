@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-01-01T14:23:25.030Z",
+  "lastUpdated": "2026-01-01T16:30:58.574Z",
   "news": [
+    {
+      "title": "ChatGPT-Hardware soll primär über Sprache gesteuert werden und emotionaler klingen",
+      "description": "OpenAI verbessert seine Audio-Modelle, damit Nutzer künftig mit der geplanten ChatGPT-Hardware sprechen statt tippen.\nDer Artikel ChatGPT-Hardware soll primär über Sprache gesteuert werden und emotion",
+      "link": "https://the-decoder.de/chatgpt-hardware-soll-primaer-ueber-sprache-gesteuert-werden-und-emotionaler-klingen/",
+      "date": "2026-01-01T16:05:03.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "KI-Agenten könnten künftig in LLM-generierten Weltmodellen Erfahrung sammeln",
       "description": "Ein internationales Forscherteam hat systematisch untersucht, ob Large Language Models die Rolle von Weltmodellen übernehmen können. Die Ergebnisse deuten auf einen Weg hin, das Trainingsproblem bei K",
@@ -69,15 +78,6 @@
       "description": "Nvidia greift nach israelischem KI-Know-how: Der Chipriese verhandelt laut Calcalist über die Übernahme von AI21 Labs für bis zu drei Milliarden Dollar. Im Fokus stehen vor allem die 200 Mitarbeitende",
       "link": "https://the-decoder.de/nvidia-verhandelt-offenbar-ueber-milliarden-uebernahme-von-ki-start-up-ai21-labs/",
       "date": "2025-12-31T10:39:10.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Satya Nadella im \"Founder Mode\": Microsoft-Chef will mehr Dringlichkeit bei KI zeigen",
-      "description": "Microsoft-CEO Nadella baut die Führungsebene um und will im KI-Rennen wieder Tempo machen.\nDer Artikel Satya Nadella im \"Founder Mode\": Microsoft-Chef will mehr Dringlichkeit bei KI zeigen erschien zu",
-      "link": "https://the-decoder.de/satya-nadella-im-founder-mode-microsoft-chef-will-mehr-dringlichkeit-bei-ki-zeigen/",
-      "date": "2025-12-31T10:08:09.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
