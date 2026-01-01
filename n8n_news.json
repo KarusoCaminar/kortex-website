@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-01-01T12:50:11.170Z",
+  "lastUpdated": "2026-01-01T14:23:25.030Z",
   "news": [
+    {
+      "title": "KI-Agenten könnten künftig in LLM-generierten Weltmodellen Erfahrung sammeln",
+      "description": "Ein internationales Forscherteam hat systematisch untersucht, ob Large Language Models die Rolle von Weltmodellen übernehmen können. Die Ergebnisse deuten auf einen Weg hin, das Trainingsproblem bei K",
+      "link": "https://the-decoder.de/ki-agenten-koennten-kuenftig-in-llm-generierten-weltmodellen-erfahrung-sammeln/",
+      "date": "2026-01-01T13:51:50.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Moonshot AI sammelt 500 Millionen Dollar ein und steigert Bewertung auf 4,3 Milliarden",
       "description": "Moonshot AI sammelt 500 Millionen Dollar ein und ist damit eines der am höchsten bewerteten KI-Startups Chinas; ein Börsengang hat dank hoher Barreserven dennoch keine Eile. Kimi K3 ist in der Mache.",
@@ -69,15 +78,6 @@
       "description": "Microsoft-CEO Nadella baut die Führungsebene um und will im KI-Rennen wieder Tempo machen.\nDer Artikel Satya Nadella im \"Founder Mode\": Microsoft-Chef will mehr Dringlichkeit bei KI zeigen erschien zu",
       "link": "https://the-decoder.de/satya-nadella-im-founder-mode-microsoft-chef-will-mehr-dringlichkeit-bei-ki-zeigen/",
       "date": "2025-12-31T10:08:09.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "KI-Ausbau: xAI steigert Rechenleistung mit neuem Standort auf fast zwei Gigawatt",
-      "description": "Elon Musks xAI kauft ein drittes Rechenzentrum in der Region Memphis. Der Name \"Macrohardrr\" ist eine Anspielung auf Microsoft – und ein Hinweis auf Musks Ambitionen.\nDer Artikel KI-Ausbau: xAI steige",
-      "link": "https://the-decoder.de/ki-ausbau-xai-steigert-rechenleistung-mit-neuem-standort-auf-fast-zwei-gigawatt/",
-      "date": "2025-12-31T09:37:44.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
