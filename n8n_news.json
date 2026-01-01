@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-01-01T06:38:44.750Z",
+  "lastUpdated": "2026-01-01T08:33:38.168Z",
   "news": [
+    {
+      "title": "KI ersetzt Werbetexter und empfiehlt ihm dann Baumfällarbeiten",
+      "description": "KI nahm ihm die Arbeit als Texter. Dann fragte er einen Chatbot um Rat – und fällte fortan Bäume für seine Nachbarn. Dabei verdiente er sogar besser, bis der Körper nicht mehr wollte.\nDer Artikel KI e",
+      "link": "https://the-decoder.de/ki-ersetzt-werbetexter-und-empfiehlt-ihm-dann-baumfaellarbeiten/",
+      "date": "2026-01-01T08:00:10.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Alibabas neues offenes Qwen-Bildmodell soll deutlich natürlichere Bilder generieren",
       "description": "Alibaba hat Qwen-Image-2512 veröffentlicht, ein Update seines Text-zu-Bild-Modells. Das Modell erzeugt laut Alibaba realistischere Bilder von Menschen, mit mehr Gesichtsdetails und weniger künstlichem",
@@ -60,15 +69,6 @@
       "description": "Meta kauft das KI-Agenten-Startup Manus AI und integriert damit ausgerechnet ein System, das auf Konkurrenzmodellen basiert. Der Deal zeigt, wie sehr der Konzern trotz Milliarden-Investitionen bei KI-",
       "link": "https://the-decoder.de/meta-kauft-ki-agenten-startup-manus-fuer-25-milliarden-us-dollar-nach-distanzierung-von-china/",
       "date": "2025-12-31T09:18:02.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Trotz unterschiedlicher Datenbasis: KI-Systeme konvergieren zu universellen Darstellungen",
-      "description": "Forscher am MIT haben 59 wissenschaftliche KI-Modelle verglichen und festgestellt, dass diese trotz unterschiedlicher Architekturen und Trainingsaufgaben zu ähnlichen internen Darstellungen von Molekü",
-      "link": "https://the-decoder.de/trotz-unterschiedlicher-datenbasis-ki-systeme-konvergieren-zu-universellen-darstellungen/",
-      "date": "2025-12-30T13:07:10.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
