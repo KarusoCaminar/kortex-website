@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-01-02T10:25:54.407Z",
+  "lastUpdated": "2026-01-02T12:49:30.094Z",
   "news": [
+    {
+      "title": "Chinesischer KI-Boom treibt Baidus Chip-Tochter Kunlunxin an den Hongkonger Aktienmarkt",
+      "description": "Baidus Chip-Tochter will an die Börse in Hongkong und reiht sich damit in eine Welle chinesischer KI-Firmen ein.\nDer Artikel Chinesischer KI-Boom treibt Baidus Chip-Tochter Kunlunxin an den Hongkonger",
+      "link": "https://the-decoder.de/chinesischer-ki-boom-treibt-baidus-chip-tochter-kunlunxin-an-den-hongkonger-aktienmarkt/",
+      "date": "2026-01-02T11:45:11.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Das \"Science Context Protocol\" soll Forschung mit KI beflügeln",
+      "description": "Das Model Context Protocol von Anthropic hat sich als Standard für KI-Tool-Verbindungen etabliert. Jetzt wollen Forscher aus Shanghai das Konzept für die Wissenschaft adaptieren: Ihr Science Context P",
+      "link": "https://the-decoder.de/das-science-context-protocol-soll-forschung-mit-ki-befluegeln/",
+      "date": "2026-01-02T11:12:04.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Projekt Gumdrop: OpenAIs erstes KI-Gadget soll handschriftliche Notizen an ChatGPT senden",
       "description": "OpenAI hat die Fertigung seines ersten KI-Endgeräts angeblich von Luxshare auf Foxconn umgestellt.\nDer Artikel Projekt Gumdrop: OpenAIs erstes KI-Gadget soll handschriftliche Notizen an ChatGPT senden",
@@ -69,24 +87,6 @@
       "description": "OpenAI zahlt seinen Mitarbeitern so viel wie kein anderes Tech-Startup zuvor. Die aktienbasierte Vergütung liegt im Schnitt bei 1,5 Millionen Dollar pro Mitarbeiter, verteilt auf rund 4000 Beschäftigt",
       "link": "https://the-decoder.de/gehaelter-rekord-openai-entlohnt-angestellte-so-hoch-wie-kein-tech-startup-zuvor/",
       "date": "2025-12-31T12:19:55.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Chinas KI-Welle rollt: Deepseek-Erfolg ermutigt Start-ups zu schnellen Börsengängen",
-      "description": "Der Aufstieg von Deepseek befeuert eine Welle von Börsengängen chinesischer KI-Unternehmen in Hongkong. Mit Zhipu AI geht das erste börsennotierte Unternehmen für große Sprachmodelle an den Start, wäh",
-      "link": "https://the-decoder.de/chinas-ki-welle-rollt-deepseek-erfolg-ermutigt-start-ups-zu-schnellen-boersengaengen/",
-      "date": "2025-12-31T11:29:03.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Nvidia verhandelt offenbar über Milliarden-Übernahme von KI-Start-up AI21 Labs",
-      "description": "Nvidia greift nach israelischem KI-Know-how: Der Chipriese verhandelt laut Calcalist über die Übernahme von AI21 Labs für bis zu drei Milliarden Dollar. Im Fokus stehen vor allem die 200 Mitarbeitende",
-      "link": "https://the-decoder.de/nvidia-verhandelt-offenbar-ueber-milliarden-uebernahme-von-ki-start-up-ai21-labs/",
-      "date": "2025-12-31T10:39:10.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
