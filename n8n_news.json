@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-01-03T10:24:21.926Z",
+  "lastUpdated": "2026-01-03T12:46:53.379Z",
   "news": [
+    {
+      "title": "LeCun vor Meta-Abschied: Meta hat Llama-4-Benchmarks frisiert und die KI-Abteilung steckt in der Krise",
+      "description": "Metas scheidender KI-Chefwissenschaftler Yann LeCun übt in einem Interview scharfe Kritik an seinem langjährigen Arbeitgeber. Er spricht von manipulierten Benchmarks, einem verärgerten Zuckerberg und",
+      "link": "https://the-decoder.de/lecun-vor-meta-abschied-meta-hat-llama-4-benchmarks-frisiert-und-die-ki-abteilung-steckt-in-der-krise/",
+      "date": "2026-01-03T11:06:35.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Google-Ingenieurin: Claude Code erzeugte in einer Stunde, woran Google ein Jahr baute",
       "description": "Eine Google-Ingenieurin lobt öffentlich Anthropics Claude Code: Das Tool generierte in einer Stunde ein System, an dem ihr Team seit einem Jahr arbeitet. Die Qualitäts- und Effizienzgewinne überträfen",
@@ -87,15 +96,6 @@
       "description": "Ein internationales Forscherteam hat systematisch untersucht, ob Large Language Models die Rolle von Weltmodellen übernehmen können. Die Ergebnisse deuten auf einen Weg hin, das Trainingsproblem bei K",
       "link": "https://the-decoder.de/ki-agenten-koennten-kuenftig-in-llm-generierten-weltmodellen-erfahrung-sammeln/",
       "date": "2026-01-01T13:51:50.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Moonshot AI sammelt 500 Millionen Dollar ein und steigert Bewertung auf 4,3 Milliarden",
-      "description": "Moonshot AI sammelt 500 Millionen Dollar ein und ist damit eines der am höchsten bewerteten KI-Startups Chinas; ein Börsengang hat dank hoher Barreserven dennoch keine Eile. Kimi K3 ist in der Mache.",
-      "link": "https://the-decoder.de/moonshot-ai-sammelt-500-millionen-dollar-ein-und-steigert-bewertung-auf-43-milliarden/",
-      "date": "2026-01-01T12:39:42.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
