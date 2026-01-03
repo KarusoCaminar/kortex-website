@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-01-03T14:21:57.997Z",
+  "lastUpdated": "2026-01-03T16:28:59.213Z",
   "news": [
+    {
+      "title": "ByteDance gibt KI-Videomodellen ein Gedächtnis für längere Geschichten",
+      "description": "ByteDance löst ein hartnäckiges Problem der KI-Videogenerierung: Charaktere, die von Szene zu Szene ihr Aussehen wechseln. Das neue System StoryMem merkt sich, wie Figuren und Umgebungen aussehen soll",
+      "link": "https://the-decoder.de/bytedance-gibt-ki-videomodellen-ein-gedaechtnis-fuer-laengere-geschichten/",
+      "date": "2026-01-03T14:29:53.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "LeCun vor Meta-Abschied: Meta hat Llama-4-Benchmarks frisiert und die KI-Abteilung steckt in der Krise",
       "description": "Metas scheidender KI-Chefwissenschaftler Yann LeCun übt in einem Interview scharfe Kritik an seinem langjährigen Arbeitgeber. Er spricht von manipulierten Benchmarks, einem verärgerten Zuckerberg und",
@@ -87,15 +96,6 @@
       "description": "OpenAI verbessert seine Audio-Modelle, damit Nutzer künftig mit der geplanten ChatGPT-Hardware sprechen statt tippen.\nDer Artikel ChatGPT-Hardware soll primär über Sprache gesteuert werden und emotion",
       "link": "https://the-decoder.de/chatgpt-hardware-soll-primaer-ueber-sprache-gesteuert-werden-und-emotionaler-klingen/",
       "date": "2026-01-01T16:05:03.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "KI-Agenten könnten künftig in LLM-generierten Weltmodellen Erfahrung sammeln",
-      "description": "Ein internationales Forscherteam hat systematisch untersucht, ob Large Language Models die Rolle von Weltmodellen übernehmen können. Die Ergebnisse deuten auf einen Weg hin, das Trainingsproblem bei K",
-      "link": "https://the-decoder.de/ki-agenten-koennten-kuenftig-in-llm-generierten-weltmodellen-erfahrung-sammeln/",
-      "date": "2026-01-01T13:51:50.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
