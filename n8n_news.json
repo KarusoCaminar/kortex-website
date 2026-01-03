@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-01-03T08:30:56.145Z",
+  "lastUpdated": "2026-01-03T10:24:21.926Z",
   "news": [
+    {
+      "title": "Google-Ingenieurin: Claude Code erzeugte in einer Stunde, woran Google ein Jahr baute",
+      "description": "Eine Google-Ingenieurin lobt öffentlich Anthropics Claude Code: Das Tool generierte in einer Stunde ein System, an dem ihr Team seit einem Jahr arbeitet. Die Qualitäts- und Effizienzgewinne überträfen",
+      "link": "https://the-decoder.de/google-ingenieurin-claude-code-erzeugte-in-einer-stunde-woran-google-ein-jahr-baute/",
+      "date": "2026-01-03T09:59:00.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "OpenAI-Präsident Greg Brockman spendet 25 Millionen Dollar an Trump-Organisation",
+      "description": "OpenAI-Präsident Greg Brockman hat 25 Millionen Dollar an Trumps Super-PAC gespendet. Die Hoffnung dürfte sein, dass die KI-Branche von Trumps lockeren Regulierungen profitiert.\nDer Artikel OpenAI-Prä",
+      "link": "https://the-decoder.de/openai-praesident-greg-brockman-spendet-25-millionen-dollar-an-trump-organisation/",
+      "date": "2026-01-03T08:33:41.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Elon Musks KI-System Grok zieht Menschen die Klamotten aus – sogar Kindern",
       "description": "Groks Bildbearbeitungsfunktion macht es simpel, Personen auf Fotos in Bikinis oder Reizwäsche darzustellen. Seit Tagen wird X mit entsprechenden Bildern geflutet. Jetzt stellte sich heraus: Das System",
@@ -78,24 +96,6 @@
       "description": "Moonshot AI sammelt 500 Millionen Dollar ein und ist damit eines der am höchsten bewerteten KI-Startups Chinas; ein Börsengang hat dank hoher Barreserven dennoch keine Eile. Kimi K3 ist in der Mache.",
       "link": "https://the-decoder.de/moonshot-ai-sammelt-500-millionen-dollar-ein-und-steigert-bewertung-auf-43-milliarden/",
       "date": "2026-01-01T12:39:42.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Instagram-Chef warnt: Skepsis muss im KI-Zeitalter zur neuen Normalität werden",
-      "description": "Instagram-Chef Adam Mosseri warnt: Die Anpassung an eine Welt voller KI-generierter Medien werde Jahre dauern und für alle extrem unbequem. Er gibt damit fast exakt die Worte wieder, die einer der Dee",
-      "link": "https://the-decoder.de/instagram-chef-warnt-skepsis-muss-im-ki-zeitalter-zur-neuen-normalitaet-werden/",
-      "date": "2026-01-01T09:27:37.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "KI ersetzt Werbetexter und empfiehlt ihm dann Baumfällarbeiten",
-      "description": "KI nahm ihm die Arbeit als Texter. Dann fragte er einen Chatbot um Rat – und fällte fortan Bäume für seine Nachbarn. Dabei verdiente er sogar besser, bis der Körper nicht mehr wollte.\nDer Artikel KI e",
-      "link": "https://the-decoder.de/ki-ersetzt-werbetexter-und-empfiehlt-ihm-dann-baumfaellarbeiten/",
-      "date": "2026-01-01T08:00:10.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
