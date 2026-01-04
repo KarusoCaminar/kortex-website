@@ -1,6 +1,33 @@
 {
-  "lastUpdated": "2026-01-04T10:23:48.291Z",
+  "lastUpdated": "2026-01-04T12:47:52.757Z",
   "news": [
+    {
+      "title": "Gegen KI-Schummelei: NYU-Professor ersetzt schriftliche Tests durch mündliche KI-Prüfungen",
+      "description": "Panos Ipeirotis, Professor an der NYU Stern School of Business, hat mündliche Prüfungen mit einem KI-Sprachagenten durchgeführt. Das Experiment kostete 15 Dollar für 36 Studierende und offenbarte nebe",
+      "link": "https://the-decoder.de/gegen-ki-schummelei-nyu-professor-ersetzt-schriftliche-tests-durch-muendliche-ki-pruefungen/",
+      "date": "2026-01-04T12:03:40.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Anthropic-Mitgründerin über KI-Fortschritt: Die Exponentialkurve hält an, bis sie es nicht mehr tut",
+      "description": "KI-Boom oder Blase? Daniela Amodei von Anthropic sagt: Die Exponentialkurve halte \"bis sie es nicht mehr tut\". Doch auch wenn die Modelle immer leistungsfähiger werden, könnte KI ökonomisch an menschl",
+      "link": "https://the-decoder.de/anthropic-mitgruenderin-ueber-ki-fortschritt-die-exponentialkurve-haelt-an-bis-sie-es-nicht-mehr-tut/",
+      "date": "2026-01-04T11:38:12.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Widerstand gegen Tech-Konzerne: Anwohner stoppen Milliarden-Projekte für KI-Infrastruktur",
+      "description": "Tech-Unternehmen, die Milliarden in Rechenzentren für KI investieren wollen, stoßen zunehmend auf Widerstand in lokalen Gemeinden in den USA. Anwohner sorgen sich um steigende Stromkosten, Wasserverbr",
+      "link": "https://the-decoder.de/widerstand-gegen-tech-konzerne-anwohner-stoppen-milliarden-projekte-fuer-ki-infrastruktur/",
+      "date": "2026-01-04T10:42:32.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Google-Ingenieurin: Claude Code erzeugte in einer Stunde, woran Google ein Jahr baute",
       "description": "Eine Google-Ingenieurin lobt öffentlich Anthropics Claude Code: Das Tool generierte in einer Stunde ein System, an dem ihr Team seit einem Jahr arbeitet. Die Qualitäts- und Effizienzgewinne überträfen",
@@ -65,24 +92,6 @@
       "language": "de"
     },
     {
-      "title": "Chinesischer KI-Boom treibt Baidus Chip-Tochter Kunlunxin an den Hongkonger Aktienmarkt",
-      "description": "Baidus Chip-Tochter will an die Börse in Hongkong und reiht sich damit in eine Welle chinesischer KI-Firmen ein.\nDer Artikel Chinesischer KI-Boom treibt Baidus Chip-Tochter Kunlunxin an den Hongkonger",
-      "link": "https://the-decoder.de/chinesischer-ki-boom-treibt-baidus-chip-tochter-kunlunxin-an-den-hongkonger-aktienmarkt/",
-      "date": "2026-01-02T11:45:11.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Das \"Science Context Protocol\" soll Forschung mit KI beflügeln",
-      "description": "Das Model Context Protocol von Anthropic hat sich als Standard für KI-Tool-Verbindungen etabliert. Jetzt wollen Forscher aus Shanghai das Konzept für die Wissenschaft adaptieren: Ihr Science Context P",
-      "link": "https://the-decoder.de/das-science-context-protocol-soll-forschung-mit-ki-befluegeln/",
-      "date": "2026-01-02T11:12:04.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "Announcing OpenAI Grove Cohort 2",
       "description": "Applications are now open for OpenAI Grove Cohort 2, a 5-week founder program designed for individuals at any stage, from pre-idea to product. Participants receive $50K in API credits, early access to",
       "link": "https://openai.com/index/openai-grove",
@@ -90,15 +99,6 @@
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
-    },
-    {
-      "title": "Projekt Gumdrop: OpenAIs erstes KI-Gadget soll handschriftliche Notizen an ChatGPT senden",
-      "description": "OpenAI hat die Fertigung seines ersten KI-Endgeräts angeblich von Luxshare auf Foxconn umgestellt.\nDer Artikel Projekt Gumdrop: OpenAIs erstes KI-Gadget soll handschriftliche Notizen an ChatGPT senden",
-      "link": "https://the-decoder.de/projekt-gumdrop-openais-erstes-ki-gadget-soll-handschriftliche-notizen-an-chatgpt-senden/",
-      "date": "2026-01-02T08:56:50.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
     },
     {
       "title": "Continuously hardening ChatGPT Atlas against prompt injection",
