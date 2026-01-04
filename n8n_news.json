@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-01-04T06:36:33.379Z",
+  "lastUpdated": "2026-01-04T08:31:37.818Z",
   "news": [
+    {
+      "title": "Google-Ingenieurin: Claude Code erzeugte in einer Stunde, woran Google ein Jahr baute",
+      "description": "Eine Google-Ingenieurin lobt öffentlich Anthropics Claude Code: Das Tool generierte in einer Stunde ein System, an dem ihr Team seit einem Jahr arbeitet. Die Qualitäts- und Effizienzgewinne überträfen",
+      "link": "https://the-decoder.de/google-ingenieurin-claude-code-erzeugte-in-einer-stunde-woran-google-ein-jahr-baute/",
+      "date": "2026-01-04T08:28:00.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "ByteDance gibt KI-Videomodellen ein Gedächtnis für längere Geschichten",
       "description": "ByteDance löst ein hartnäckiges Problem der KI-Videogenerierung: Charaktere, die von Szene zu Szene ihr Aussehen wechseln. Das neue System StoryMem merkt sich, wie Figuren und Umgebungen aussehen soll",
@@ -15,15 +24,6 @@
       "description": "Metas scheidender KI-Chefwissenschaftler Yann LeCun übt in einem Interview scharfe Kritik an seinem langjährigen Arbeitgeber. Er spricht von manipulierten Benchmarks, einem verärgerten Zuckerberg und",
       "link": "https://the-decoder.de/lecun-vor-meta-abschied-meta-hat-llama-4-benchmarks-frisiert-und-die-ki-abteilung-steckt-in-der-krise/",
       "date": "2026-01-03T11:06:35.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Google-Ingenieurin: Claude Code erzeugte in einer Stunde, woran Google ein Jahr baute",
-      "description": "Eine Google-Ingenieurin lobt öffentlich Anthropics Claude Code: Das Tool generierte in einer Stunde ein System, an dem ihr Team seit einem Jahr arbeitet. Die Qualitäts- und Effizienzgewinne überträfen",
-      "link": "https://the-decoder.de/google-ingenieurin-claude-code-erzeugte-in-einer-stunde-woran-google-ein-jahr-baute/",
-      "date": "2026-01-03T09:59:00.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
