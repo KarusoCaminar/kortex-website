@@ -1,11 +1,20 @@
 {
-  "lastUpdated": "2026-01-04T08:31:37.818Z",
+  "lastUpdated": "2026-01-04T10:23:48.291Z",
   "news": [
     {
       "title": "Google-Ingenieurin: Claude Code erzeugte in einer Stunde, woran Google ein Jahr baute",
       "description": "Eine Google-Ingenieurin lobt öffentlich Anthropics Claude Code: Das Tool generierte in einer Stunde ein System, an dem ihr Team seit einem Jahr arbeitet. Die Qualitäts- und Effizienzgewinne überträfen",
       "link": "https://the-decoder.de/google-ingenieurin-claude-code-erzeugte-in-einer-stunde-woran-google-ein-jahr-baute/",
-      "date": "2026-01-04T08:28:00.000Z",
+      "date": "2026-01-04T09:07:00.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "\"Der Fluch des Wissens\": KI-Modelle verstehen nicht, woran Menschen scheitern",
+      "description": "Große Sprachmodelle lösen Prüfungsfragen oft besser als Menschen, können aber nicht einschätzen, wie schwer diese Aufgaben für Lernende sind. Eine umfangreiche Studie deckt eine systematische Kluft zw",
+      "link": "https://the-decoder.de/der-fluch-des-wissens-ki-modelle-verstehen-nicht-woran-menschen-scheitern/",
+      "date": "2026-01-04T09:05:06.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
@@ -87,15 +96,6 @@
       "description": "OpenAI hat die Fertigung seines ersten KI-Endgeräts angeblich von Luxshare auf Foxconn umgestellt.\nDer Artikel Projekt Gumdrop: OpenAIs erstes KI-Gadget soll handschriftliche Notizen an ChatGPT senden",
       "link": "https://the-decoder.de/projekt-gumdrop-openais-erstes-ki-gadget-soll-handschriftliche-notizen-an-chatgpt-senden/",
       "date": "2026-01-02T08:56:50.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "ChatGPT-Hardware soll primär über Sprache gesteuert werden und emotionaler klingen",
-      "description": "OpenAI verbessert seine Audio-Modelle, damit Nutzer künftig mit der geplanten ChatGPT-Hardware sprechen statt tippen.\nDer Artikel ChatGPT-Hardware soll primär über Sprache gesteuert werden und emotion",
-      "link": "https://the-decoder.de/chatgpt-hardware-soll-primaer-ueber-sprache-gesteuert-werden-und-emotionaler-klingen/",
-      "date": "2026-01-01T16:05:03.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
