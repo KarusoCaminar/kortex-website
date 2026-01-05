@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-01-05T12:54:28.746Z",
+  "lastUpdated": "2026-01-05T14:28:14.139Z",
   "news": [
+    {
+      "title": "Jede zwanzigste ChatGPT-Nachricht weltweit befasst sich mit Gesundheitsfragen",
+      "description": "Mehr als fünf Prozent aller weltweit über ChatGPT verschickten Nachrichten drehen sich um das Thema Gesundheit.\nDer Artikel Jede zwanzigste ChatGPT-Nachricht weltweit befasst sich mit Gesundheitsfrage",
+      "link": "https://the-decoder.de/jede-zwanzigste-chatgpt-nachricht-weltweit-befasst-sich-mit-gesundheitsfragen/",
+      "date": "2026-01-05T12:56:20.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Microsoft-Chef will Debatte um minderwertigen KI-Slop endlich hinter sich lassen",
       "description": "Microsoft-CEO Nadella sieht 2026 als Wendepunkt für KI: Die Öffentlichkeit unterschätze den Fortschritt, die Debatte um KI-Slop müsse überwunden werden.\nDer Artikel Microsoft-Chef will Debatte um mind",
@@ -78,15 +87,6 @@
       "description": "Metas scheidender KI-Chefwissenschaftler Yann LeCun übt in einem Interview scharfe Kritik an seinem langjährigen Arbeitgeber. Er spricht von manipulierten Benchmarks, einem verärgerten Zuckerberg und",
       "link": "https://the-decoder.de/lecun-vor-meta-abschied-meta-hat-llama-4-benchmarks-frisiert-und-die-ki-abteilung-steckt-in-der-krise/",
       "date": "2026-01-03T11:06:35.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "OpenAI-Präsident Greg Brockman spendet 25 Millionen Dollar an Trump-Organisation",
-      "description": "OpenAI-Präsident Greg Brockman hat 25 Millionen Dollar an Trumps Super-PAC gespendet. Die Hoffnung dürfte sein, dass die KI-Branche von Trumps lockeren Regulierungen profitiert.\nDer Artikel OpenAI-Prä",
-      "link": "https://the-decoder.de/openai-praesident-greg-brockman-spendet-25-millionen-dollar-an-trump-organisation/",
-      "date": "2026-01-03T08:33:41.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
