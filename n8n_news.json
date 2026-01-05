@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-01-05T10:29:21.528Z",
+  "lastUpdated": "2026-01-05T12:54:28.746Z",
   "news": [
+    {
+      "title": "Microsoft-Chef will Debatte um minderwertigen KI-Slop endlich hinter sich lassen",
+      "description": "Microsoft-CEO Nadella sieht 2026 als Wendepunkt für KI: Die Öffentlichkeit unterschätze den Fortschritt, die Debatte um KI-Slop müsse überwunden werden.\nDer Artikel Microsoft-Chef will Debatte um mind",
+      "link": "https://the-decoder.de/microsoft-chef-will-debatte-um-minderwertigen-ki-slop-endlich-hinter-sich-lassen/",
+      "date": "2026-01-05T12:50:24.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Alibabas PANDA-System findet Tumore, die Ärzte übersehen",
+      "description": "Bauchspeicheldrüsenkrebs ist eine der tödlichsten Krebsarten – vor allem, weil er meist zu spät entdeckt wird. Ein von Alibaba entwickeltes KI-Tool soll das ändern: Es erkennt Tumore in einfachen Rout",
+      "link": "https://the-decoder.de/alibabas-panda-system-findet-tumore-die-aerzte-uebersehen/",
+      "date": "2026-01-05T12:15:39.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Gegen KI-Schummelei: NYU-Professor ersetzt schriftliche Tests durch mündliche KI-Prüfungen",
       "description": "Panos Ipeirotis, Professor an der NYU Stern School of Business, hat mündliche Prüfungen mit einem KI-Sprachagenten durchgeführt. Das Experiment kostete 15 Dollar für 36 Studierende und offenbarte nebe",
@@ -69,24 +87,6 @@
       "description": "OpenAI-Präsident Greg Brockman hat 25 Millionen Dollar an Trumps Super-PAC gespendet. Die Hoffnung dürfte sein, dass die KI-Branche von Trumps lockeren Regulierungen profitiert.\nDer Artikel OpenAI-Prä",
       "link": "https://the-decoder.de/openai-praesident-greg-brockman-spendet-25-millionen-dollar-an-trump-organisation/",
       "date": "2026-01-03T08:33:41.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Elon Musks KI-System Grok zieht Menschen die Klamotten aus – sogar Kindern",
-      "description": "Groks Bildbearbeitungsfunktion macht es simpel, Personen auf Fotos in Bikinis oder Reizwäsche darzustellen. Seit Tagen wird X mit entsprechenden Bildern geflutet. Jetzt stellte sich heraus: Das System",
-      "link": "https://the-decoder.de/elon-musks-ki-system-grok-zieht-menschen-die-klamotten-aus-sogar-kindern/",
-      "date": "2026-01-02T17:33:54.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "US-Armee bildet eigene KI-Offiziere aus",
-      "description": "Die US-Armee schafft eine neue Spezialisierung für Künstliche Intelligenz. Erste Offiziere sollen ab 2026 zu KI-Experten ausgebildet werden.\nDer Artikel US-Armee bildet eigene KI-Offiziere aus erschie",
-      "link": "https://the-decoder.de/us-armee-bildet-eigene-ki-offiziere-aus/",
-      "date": "2026-01-02T16:56:57.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
