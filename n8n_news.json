@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-01-05T14:28:14.139Z",
+  "lastUpdated": "2026-01-05T16:31:22.247Z",
   "news": [
+    {
+      "title": "Amazon öffnet Alexa Plus Webversion für bestimmte Nutzer im Early Access",
+      "description": "Amazon hat die Webversion seines KI-Assistenten Alexa Plus für alle Nutzer im Early Access freigegeben.\nDer Artikel Amazon öffnet Alexa Plus Webversion für bestimmte Nutzer im Early Access erschien zu",
+      "link": "https://the-decoder.de/amazon-oeffnet-alexa-plus-webversion-fuer-bestimmte-nutzer-im-early-access/",
+      "date": "2026-01-05T16:25:39.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Jede zwanzigste ChatGPT-Nachricht weltweit befasst sich mit Gesundheitsfragen",
       "description": "Mehr als fünf Prozent aller weltweit über ChatGPT verschickten Nachrichten drehen sich um das Thema Gesundheit.\nDer Artikel Jede zwanzigste ChatGPT-Nachricht weltweit befasst sich mit Gesundheitsfrage",
@@ -78,15 +87,6 @@
       "description": "ByteDance löst ein hartnäckiges Problem der KI-Videogenerierung: Charaktere, die von Szene zu Szene ihr Aussehen wechseln. Das neue System StoryMem merkt sich, wie Figuren und Umgebungen aussehen soll",
       "link": "https://the-decoder.de/bytedance-gibt-ki-videomodellen-ein-gedaechtnis-fuer-laengere-geschichten/",
       "date": "2026-01-03T14:29:53.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "LeCun vor Meta-Abschied: Meta hat Llama-4-Benchmarks frisiert und die KI-Abteilung steckt in der Krise",
-      "description": "Metas scheidender KI-Chefwissenschaftler Yann LeCun übt in einem Interview scharfe Kritik an seinem langjährigen Arbeitgeber. Er spricht von manipulierten Benchmarks, einem verärgerten Zuckerberg und",
-      "link": "https://the-decoder.de/lecun-vor-meta-abschied-meta-hat-llama-4-benchmarks-frisiert-und-die-ki-abteilung-steckt-in-der-krise/",
-      "date": "2026-01-03T11:06:35.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
