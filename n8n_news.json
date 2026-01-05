@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-01-05T18:38:06.716Z",
+  "lastUpdated": "2026-01-05T20:29:19.853Z",
   "news": [
+    {
+      "title": "OpenAI verliert Top-KI-Forscher Jerry Tworek nach sieben Jahren",
+      "description": "Jerry Tworek, einer der wichtigsten Köpfe hinter GPT-4, ChatGPT und den Reasoning-Modellen o1 und o3, verlässt OpenAI nach fast sieben Jahren.\nDer Artikel OpenAI verliert Top-KI-Forscher Jerry Tworek",
+      "link": "https://the-decoder.de/openai-verliert-top-forscher-jerry-tworek-nach-sieben-jahren/",
+      "date": "2026-01-05T19:44:13.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Falcon H1R 7B: Neues Reasoning-KI-Modell schlägt in Benchmarks größere Konkurrenz",
+      "description": "Das Technology Innovation Institute aus Abu Dhabi bringt ein neues Sprachmodell für logisches Denken. Mit nur 7 Milliarden Parametern soll es mit deutlich größeren Modellen mithalten können.\nDer Artik",
+      "link": "https://the-decoder.de/falcon-h1r-7b-neues-reasoning-ki-modell-schlaegt-in-benchmarks-groessere-konkurrenz/",
+      "date": "2026-01-05T18:42:19.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Jede zwanzigste ChatGPT-Nachricht weltweit befasst sich mit Gesundheitsfragen",
       "description": "Mehr als fünf Prozent aller weltweit über ChatGPT verschickten Nachrichten drehen sich um das Thema Gesundheit.\nDer Artikel Jede zwanzigste ChatGPT-Nachricht weltweit befasst sich mit Gesundheitsfrage",
@@ -69,24 +87,6 @@
       "description": "Tech-Unternehmen, die Milliarden in Rechenzentren für KI investieren wollen, stoßen zunehmend auf Widerstand in lokalen Gemeinden in den USA. Anwohner sorgen sich um steigende Stromkosten, Wasserverbr",
       "link": "https://the-decoder.de/widerstand-gegen-tech-konzerne-anwohner-stoppen-milliarden-projekte-fuer-ki-infrastruktur/",
       "date": "2026-01-04T10:42:32.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Google-Ingenieurin: Claude Code erzeugte in einer Stunde, woran Google ein Jahr baute",
-      "description": "Eine Google-Ingenieurin lobt öffentlich Anthropics Claude Code: Das Tool generierte in einer Stunde ein System, an dem ihr Team seit einem Jahr arbeitet. Die Qualitäts- und Effizienzgewinne überträfen",
-      "link": "https://the-decoder.de/google-ingenieurin-claude-code-erzeugte-in-einer-stunde-woran-google-ein-jahr-baute/",
-      "date": "2026-01-04T09:07:00.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "\"Der Fluch des Wissens\": KI-Modelle verstehen nicht, woran Menschen scheitern",
-      "description": "Große Sprachmodelle lösen Prüfungsfragen oft besser als Menschen, können aber nicht einschätzen, wie schwer diese Aufgaben für Lernende sind. Eine umfangreiche Studie deckt eine systematische Kluft zw",
-      "link": "https://the-decoder.de/der-fluch-des-wissens-ki-modelle-verstehen-nicht-woran-menschen-scheitern/",
-      "date": "2026-01-04T09:05:06.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
