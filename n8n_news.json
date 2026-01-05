@@ -1,20 +1,29 @@
 {
-  "lastUpdated": "2026-01-05T16:31:22.247Z",
+  "lastUpdated": "2026-01-05T18:38:06.716Z",
   "news": [
     {
-      "title": "Amazon öffnet Alexa Plus Webversion für bestimmte Nutzer im Early Access",
-      "description": "Amazon hat die Webversion seines KI-Assistenten Alexa Plus für alle Nutzer im Early Access freigegeben.\nDer Artikel Amazon öffnet Alexa Plus Webversion für bestimmte Nutzer im Early Access erschien zu",
-      "link": "https://the-decoder.de/amazon-oeffnet-alexa-plus-webversion-fuer-bestimmte-nutzer-im-early-access/",
-      "date": "2026-01-05T16:25:39.000Z",
+      "title": "Jede zwanzigste ChatGPT-Nachricht weltweit befasst sich mit Gesundheitsfragen",
+      "description": "Mehr als fünf Prozent aller weltweit über ChatGPT verschickten Nachrichten drehen sich um das Thema Gesundheit.\nDer Artikel Jede zwanzigste ChatGPT-Nachricht weltweit befasst sich mit Gesundheitsfrage",
+      "link": "https://the-decoder.de/jede-zwanzigste-chatgpt-nachricht-weltweit-befasst-sich-mit-gesundheitsfragen/",
+      "date": "2026-01-05T18:18:20.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
     },
     {
-      "title": "Jede zwanzigste ChatGPT-Nachricht weltweit befasst sich mit Gesundheitsfragen",
-      "description": "Mehr als fünf Prozent aller weltweit über ChatGPT verschickten Nachrichten drehen sich um das Thema Gesundheit.\nDer Artikel Jede zwanzigste ChatGPT-Nachricht weltweit befasst sich mit Gesundheitsfrage",
-      "link": "https://the-decoder.de/jede-zwanzigste-chatgpt-nachricht-weltweit-befasst-sich-mit-gesundheitsfragen/",
-      "date": "2026-01-05T12:56:20.000Z",
+      "title": "Nur 5 % der ChatGPT-Nutzer zahlen für ein Abonnement, fast 90 % stammen nicht aus den USA oder Kanada",
+      "description": "OpenAI hat angeblich ein Werbeproblem: Die meisten ChatGPT-Nutzer sitzen in Ländern, die wenig Werbeeinnahmen bringen.\nDer Artikel Nur 5 % der ChatGPT-Nutzer zahlen für ein Abonnement, fast 90 % stamm",
+      "link": "https://the-decoder.de/nur-5-der-chatgpt-nutzer-zahlen-fuer-ein-abonnement-fast-90-stammen-nicht-aus-den-usa-oder-kanada/",
+      "date": "2026-01-05T16:33:07.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Amazon öffnet Alexa Plus Webversion für bestimmte Nutzer im Early Access",
+      "description": "Amazon hat die Webversion seines KI-Assistenten Alexa Plus für alle Nutzer im Early Access freigegeben.\nDer Artikel Amazon öffnet Alexa Plus Webversion für bestimmte Nutzer im Early Access erschien zu",
+      "link": "https://the-decoder.de/amazon-oeffnet-alexa-plus-webversion-fuer-bestimmte-nutzer-im-early-access/",
+      "date": "2026-01-05T16:25:39.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
@@ -78,15 +87,6 @@
       "description": "Große Sprachmodelle lösen Prüfungsfragen oft besser als Menschen, können aber nicht einschätzen, wie schwer diese Aufgaben für Lernende sind. Eine umfangreiche Studie deckt eine systematische Kluft zw",
       "link": "https://the-decoder.de/der-fluch-des-wissens-ki-modelle-verstehen-nicht-woran-menschen-scheitern/",
       "date": "2026-01-04T09:05:06.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "ByteDance gibt KI-Videomodellen ein Gedächtnis für längere Geschichten",
-      "description": "ByteDance löst ein hartnäckiges Problem der KI-Videogenerierung: Charaktere, die von Szene zu Szene ihr Aussehen wechseln. Das neue System StoryMem merkt sich, wie Figuren und Umgebungen aussehen soll",
-      "link": "https://the-decoder.de/bytedance-gibt-ki-videomodellen-ein-gedaechtnis-fuer-laengere-geschichten/",
-      "date": "2026-01-03T14:29:53.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
