@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-01-06T16:34:04.629Z",
+  "lastUpdated": "2026-01-06T18:36:44.282Z",
   "news": [
+    {
+      "title": "Neues KI-Ranking: GPT-5.2 führt vor Claude Opus 4.5 und Gemini 3 Pro",
+      "description": "GPT-5.2 schlägt Claude Opus 4.5 knapp: neuer KI-Benchmark misst jetzt auch Agenten-Fähigkeiten\nDer Artikel Neues KI-Ranking: GPT-5.2 führt vor Claude Opus 4.5 und Gemini 3 Pro erschien zuerst auf The",
+      "link": "https://the-decoder.de/neues-ki-ranking-gpt-5-2-fuehrt-vor-claude-opus-4-5-und-gemini-3-pro/",
+      "date": "2026-01-06T18:32:56.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "OpenAI will 2026 die Lücke zwischen KI-Fähigkeiten und Alltagsnutzung schließen",
+      "description": "OpenAI-Produktchefin Fidji Simo erklärt, warum 2026 das Jahr wird, in dem die Lücke zwischen KI-Fähigkeiten und tatsächlicher Nutzung geschlossen werden soll – und ChatGPT zum \"Super-Assistenten\" wird",
+      "link": "https://the-decoder.de/openai-will-2026-die-luecke-zwischen-ki-faehigkeiten-und-alltagsnutzung-schliessen/",
+      "date": "2026-01-06T18:10:52.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "AMD präsentiert neue KI-Chips auf der CES",
       "description": "Der Chiphersteller AMD hat auf der CES 2026 eine Reihe neuer Prozessoren vorgestellt, darunter KI-Beschleuniger für Rechenzentren und aufgefrischte Laptop-Chips.\nDer Artikel AMD präsentiert neue KI-Ch",
@@ -69,24 +87,6 @@
       "description": "OpenAI hat angeblich ein Werbeproblem: Die meisten ChatGPT-Nutzer sitzen in Ländern, die wenig Werbeeinnahmen bringen.\nDer Artikel Nur 5 % der ChatGPT-Nutzer zahlen für ein Abonnement, fast 90 % stamm",
       "link": "https://the-decoder.de/nur-5-der-chatgpt-nutzer-zahlen-fuer-ein-abonnement-fast-90-stammen-nicht-aus-den-usa-oder-kanada/",
       "date": "2026-01-05T16:33:07.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Amazon öffnet Alexa Plus Webversion für bestimmte Nutzer im Early Access",
-      "description": "Amazon hat die Webversion seines KI-Assistenten Alexa Plus für alle Nutzer im Early Access freigegeben.\nDer Artikel Amazon öffnet Alexa Plus Webversion für bestimmte Nutzer im Early Access erschien zu",
-      "link": "https://the-decoder.de/amazon-oeffnet-alexa-plus-webversion-fuer-bestimmte-nutzer-im-early-access/",
-      "date": "2026-01-05T16:25:39.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Microsoft-Chef will Debatte um minderwertigen KI-Slop endlich hinter sich lassen",
-      "description": "Microsoft-CEO Nadella sieht 2026 als Wendepunkt für KI: Die Öffentlichkeit unterschätze den Fortschritt, die Debatte um KI-Slop müsse überwunden werden.\nDer Artikel Microsoft-Chef will Debatte um mind",
-      "link": "https://the-decoder.de/microsoft-chef-will-debatte-um-minderwertigen-ki-slop-endlich-hinter-sich-lassen/",
-      "date": "2026-01-05T12:50:24.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
