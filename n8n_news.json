@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-01-06T10:27:59.880Z",
+  "lastUpdated": "2026-01-06T12:52:12.057Z",
   "news": [
+    {
+      "title": "CES 2026: Nvidia verspricht fünffache KI-Leistung und zehnfach günstigere Inferenz mit Vera Rubin",
+      "description": "Der Chipkonzern stellt einen neuen KI-Supercomputer, Open-Source-Software für autonomes Fahren und verbessertes Grafik-Upscaling vor. Die Botschaft: Nvidia will die gesamte KI-Wertschöpfungskette behe",
+      "link": "https://the-decoder.de/ces-2026-nvidia-verspricht-fuenffache-ki-leistung-und-zehnfach-guenstigere-inferenz-mit-vera-rubin/",
+      "date": "2026-01-06T12:00:31.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Boston Dynamics stellt Produktversion seines humanoiden Roboters Atlas vor",
+      "description": "Vom Forschungsprojekt zum Fabrikarbeiter: Boston Dynamics bringt Atlas in die Produktion. Die ersten Roboter gehen 2026 an Hyundai.\nDer Artikel Boston Dynamics stellt Produktversion seines humanoiden",
+      "link": "https://the-decoder.de/boston-dynamics-stellt-produktversion-seines-humanoiden-roboters-atlas-vor/",
+      "date": "2026-01-06T11:49:16.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Boston Dynamics' Atlas-Roboter bekommt Googles Gemini-KI als Gehirn",
       "description": "Der Robotik-Pionier Boston Dynamics und das KI-Labor Google Deepmind haben eine strategische Partnerschaft angekündigt. Gemeinsam planen sie, Grundlagenmodelle für humanoide Roboter mit Fokus auf indu",
@@ -69,24 +87,6 @@
       "description": "Bauchspeicheldrüsenkrebs ist eine der tödlichsten Krebsarten – vor allem, weil er meist zu spät entdeckt wird. Ein von Alibaba entwickeltes KI-Tool soll das ändern: Es erkennt Tumore in einfachen Rout",
       "link": "https://the-decoder.de/alibabas-panda-system-findet-tumore-die-aerzte-uebersehen/",
       "date": "2026-01-05T12:15:39.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Gegen KI-Schummelei: NYU-Professor ersetzt schriftliche Tests durch mündliche KI-Prüfungen",
-      "description": "Panos Ipeirotis, Professor an der NYU Stern School of Business, hat mündliche Prüfungen mit einem KI-Sprachagenten durchgeführt. Das Experiment kostete 15 Dollar für 36 Studierende und offenbarte nebe",
-      "link": "https://the-decoder.de/gegen-ki-schummelei-nyu-professor-ersetzt-schriftliche-tests-durch-muendliche-ki-pruefungen/",
-      "date": "2026-01-04T12:03:40.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Anthropic-Mitgründerin über KI-Fortschritt: Die Exponentialkurve hält an, bis sie es nicht mehr tut",
-      "description": "KI-Boom oder Blase? Daniela Amodei von Anthropic sagt: Die Exponentialkurve halte \"bis sie es nicht mehr tut\". Doch auch wenn die Modelle immer leistungsfähiger werden, könnte KI ökonomisch an menschl",
-      "link": "https://the-decoder.de/anthropic-mitgruenderin-ueber-ki-fortschritt-die-exponentialkurve-haelt-an-bis-sie-es-nicht-mehr-tut/",
-      "date": "2026-01-04T11:38:12.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
