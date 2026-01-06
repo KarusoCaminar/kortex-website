@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-01-06T14:26:56.473Z",
+  "lastUpdated": "2026-01-06T16:34:04.629Z",
   "news": [
+    {
+      "title": "AMD präsentiert neue KI-Chips auf der CES",
+      "description": "Der Chiphersteller AMD hat auf der CES 2026 eine Reihe neuer Prozessoren vorgestellt, darunter KI-Beschleuniger für Rechenzentren und aufgefrischte Laptop-Chips.\nDer Artikel AMD präsentiert neue KI-Ch",
+      "link": "https://the-decoder.de/amd-praesentiert-neue-ki-chips-auf-der-ces/",
+      "date": "2026-01-06T16:13:09.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "CES 2026: Nvidia verspricht fünffache KI-Leistung und zehnfach günstigere Inferenz mit Vera Rubin",
       "description": "Der Chipkonzern stellt einen neuen KI-Supercomputer, Open-Source-Software für autonomes Fahren und verbessertes Grafik-Upscaling vor. Die Botschaft: Nvidia will die gesamte KI-Wertschöpfungskette behe",
@@ -78,15 +87,6 @@
       "description": "Microsoft-CEO Nadella sieht 2026 als Wendepunkt für KI: Die Öffentlichkeit unterschätze den Fortschritt, die Debatte um KI-Slop müsse überwunden werden.\nDer Artikel Microsoft-Chef will Debatte um mind",
       "link": "https://the-decoder.de/microsoft-chef-will-debatte-um-minderwertigen-ki-slop-endlich-hinter-sich-lassen/",
       "date": "2026-01-05T12:50:24.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Alibabas PANDA-System findet Tumore, die Ärzte übersehen",
-      "description": "Bauchspeicheldrüsenkrebs ist eine der tödlichsten Krebsarten – vor allem, weil er meist zu spät entdeckt wird. Ein von Alibaba entwickeltes KI-Tool soll das ändern: Es erkennt Tumore in einfachen Rout",
-      "link": "https://the-decoder.de/alibabas-panda-system-findet-tumore-die-aerzte-uebersehen/",
-      "date": "2026-01-05T12:15:39.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
