@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-01-06T08:36:09.291Z",
+  "lastUpdated": "2026-01-06T10:27:59.880Z",
   "news": [
+    {
+      "title": "Boston Dynamics' Atlas-Roboter bekommt Googles Gemini-KI als Gehirn",
+      "description": "Der Robotik-Pionier Boston Dynamics und das KI-Labor Google Deepmind haben eine strategische Partnerschaft angekündigt. Gemeinsam planen sie, Grundlagenmodelle für humanoide Roboter mit Fokus auf indu",
+      "link": "https://the-decoder.de/boston-dynamics-atlas-roboter-bekommt-googles-gemini-ki-als-gehirn/",
+      "date": "2026-01-06T09:18:33.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "OpenAI verliert Top-KI-Forscher Jerry Tworek nach sieben Jahren",
       "description": "Jerry Tworek, einer der wichtigsten Köpfe hinter GPT-4, ChatGPT und den Reasoning-Modellen o1 und o3, verlässt OpenAI nach fast sieben Jahren.\nDer Artikel OpenAI verliert Top-KI-Forscher Jerry Tworek",
@@ -78,15 +87,6 @@
       "description": "KI-Boom oder Blase? Daniela Amodei von Anthropic sagt: Die Exponentialkurve halte \"bis sie es nicht mehr tut\". Doch auch wenn die Modelle immer leistungsfähiger werden, könnte KI ökonomisch an menschl",
       "link": "https://the-decoder.de/anthropic-mitgruenderin-ueber-ki-fortschritt-die-exponentialkurve-haelt-an-bis-sie-es-nicht-mehr-tut/",
       "date": "2026-01-04T11:38:12.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Widerstand gegen Tech-Konzerne: Anwohner stoppen Milliarden-Projekte für KI-Infrastruktur",
-      "description": "Tech-Unternehmen, die Milliarden in Rechenzentren für KI investieren wollen, stoßen zunehmend auf Widerstand in lokalen Gemeinden in den USA. Anwohner sorgen sich um steigende Stromkosten, Wasserverbr",
-      "link": "https://the-decoder.de/widerstand-gegen-tech-konzerne-anwohner-stoppen-milliarden-projekte-fuer-ki-infrastruktur/",
-      "date": "2026-01-04T10:42:32.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
