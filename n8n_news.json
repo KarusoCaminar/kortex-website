@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-01-07T18:38:00.818Z",
+  "lastUpdated": "2026-01-07T20:29:22.831Z",
   "news": [
+    {
+      "title": "Trotz Trump-Erlaubnis: China bremst Import von Nvidias Hochleistungschips für KI-Entwicklung aus",
+      "description": "Das KI-Wettrennen zwischen den USA und China geht in die nächste Runde: Die USA erlauben wieder mehr Nvidia-Exporte, doch China stoppt angeblich die Käufe. Peking will die eigene Chipindustrie schütze",
+      "link": "https://the-decoder.de/trotz-trump-erlaubnis-china-bremst-import-von-nvidias-hochleistungschips-fuer-ki-entwicklung-aus/",
+      "date": "2026-01-07T19:10:40.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Claude-Chatbot-Firma Anthropic plant 10 Milliarden Dollar Finanzierung bei 350 Milliarden Bewertung",
+      "description": "Anthropic, die KI-Firma hinter Claude, plant eine neue Finanzierungsrunde über 10 Milliarden US-Dollar bei einer Bewertung von 350 Milliarden Dollar.\nDer Artikel Claude-Chatbot-Firma Anthropic plant 1",
+      "link": "https://the-decoder.de/claude-chatbot-firma-anthropic-plant-10-milliarden-dollar-finanzierung-bei-350-milliarden-bewertung/",
+      "date": "2026-01-07T18:38:35.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Wie Googles KI-Bildmodell \"Nano Banana\" zu seinem seltsamen Namen kam",
       "description": "Googles \"Nano Banana\"-Bildmodell ist mit Abstand das derzeit mächtigste Bildmodell am Markt. Aber der Name ist seltsam.\nDer Artikel Wie Googles KI-Bildmodell \"Nano Banana\" zu seinem seltsamen Namen ka",
@@ -65,6 +83,15 @@
       "language": "de"
     },
     {
+      "title": "Introducing ChatGPT Health",
+      "description": "ChatGPT Health is a dedicated experience that securely connects your health data and apps, with privacy protections and a physician-informed design.",
+      "link": "https://openai.com/index/introducing-chatgpt-health",
+      "date": "2026-01-07T00:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
       "title": "OpenAI will 2026 die Lücke zwischen KI-Fähigkeiten und Alltagsnutzung schließen",
       "description": "OpenAI-Produktchefin Fidji Simo erklärt, warum 2026 das Jahr wird, in dem die Lücke zwischen KI-Fähigkeiten und tatsächlicher Nutzung geschlossen werden soll – und ChatGPT zum \"Super-Assistenten\" wird",
       "link": "https://the-decoder.de/openai-will-2026-die-luecke-zwischen-ki-faehigkeiten-und-alltagsnutzung-schliessen/",
@@ -78,24 +105,6 @@
       "description": "Der Chiphersteller AMD hat auf der CES 2026 eine Reihe neuer Prozessoren vorgestellt, darunter KI-Beschleuniger für Rechenzentren und aufgefrischte Laptop-Chips.\nDer Artikel AMD präsentiert neue KI-Ch",
       "link": "https://the-decoder.de/amd-praesentiert-neue-ki-chips-auf-der-ces/",
       "date": "2026-01-06T16:13:09.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "CES 2026: Nvidia verspricht fünffache KI-Leistung und zehnfach günstigere Inferenz mit Vera Rubin",
-      "description": "Der Chipkonzern stellt einen neuen KI-Supercomputer, Open-Source-Software für autonomes Fahren und verbessertes Grafik-Upscaling vor. Die Botschaft: Nvidia will die gesamte KI-Wertschöpfungskette behe",
-      "link": "https://the-decoder.de/ces-2026-nvidia-verspricht-fuenffache-ki-leistung-und-zehnfach-guenstigere-inferenz-mit-vera-rubin/",
-      "date": "2026-01-06T12:00:31.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Boston Dynamics stellt Produktversion seines humanoiden Roboters Atlas vor",
-      "description": "Vom Forschungsprojekt zum Fabrikarbeiter: Boston Dynamics bringt Atlas in die Produktion. Die ersten Roboter gehen 2026 an Hyundai.\nDer Artikel Boston Dynamics stellt Produktversion seines humanoiden",
-      "link": "https://the-decoder.de/boston-dynamics-stellt-produktversion-seines-humanoiden-roboters-atlas-vor/",
-      "date": "2026-01-06T11:49:16.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
@@ -123,15 +132,6 @@
       "description": "OpenAI is strengthening ChatGPT Atlas against prompt injection attacks using automated red teaming trained with reinforcement learning. This proactive discover-and-patch loop helps identify novel expl",
       "link": "https://openai.com/index/hardening-atlas-against-prompt-injection",
       "date": "2025-12-22T00:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "Evaluating chain-of-thought monitorability",
-      "description": "OpenAI introduces a new framework and evaluation suite for chain-of-thought monitorability, covering 13 evaluations across 24 environments. Our findings show that monitoring a model’s internal reasoni",
-      "link": "https://openai.com/index/evaluating-chain-of-thought-monitorability",
-      "date": "2025-12-18T12:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
