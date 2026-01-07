@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-01-07T12:53:15.628Z",
+  "lastUpdated": "2026-01-07T14:27:43.663Z",
   "news": [
+    {
+      "title": "Analyse zeigt: Grok erstellt tausende sexualisierte Bilder ohne Zustimmung pro Stunde",
+      "description": "Elon Musks Plattform X hat sich zum Hauptumschlagplatz für KI-Bilder entwickelt, auf denen Personen ohne ihre Zustimmung entkleidet werden.\nDer Artikel Analyse zeigt: Grok erstellt tausende sexualisie",
+      "link": "https://the-decoder.de/analyse-zeigt-grok-erstellt-tausende-sexualisierte-bilder-ohne-zustimmung-pro-stunde/",
+      "date": "2026-01-07T13:48:36.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Amazon listet ungefragt Produkte unabhängiger Shops via \"Buy For Me\"-KI",
       "description": "Mehrere Online-Händler berichten, dass Amazons KI-gestütztes Einkaufstool ihre Produkte ohne Erlaubnis auf dem Marktplatz anzeigt. Amazon verteidigt das Programm, doch die Kritik wächst.\nDer Artikel A",
@@ -78,15 +87,6 @@
       "description": "Der Robotik-Pionier Boston Dynamics und das KI-Labor Google Deepmind haben eine strategische Partnerschaft angekündigt. Gemeinsam planen sie, Grundlagenmodelle für humanoide Roboter mit Fokus auf indu",
       "link": "https://the-decoder.de/boston-dynamics-atlas-roboter-bekommt-googles-gemini-ki-als-gehirn/",
       "date": "2026-01-06T09:18:33.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "OpenAI verliert Top-KI-Forscher Jerry Tworek nach sieben Jahren",
-      "description": "Jerry Tworek, einer der wichtigsten Köpfe hinter GPT-4, ChatGPT und den Reasoning-Modellen o1 und o3, verlässt OpenAI nach fast sieben Jahren.\nDer Artikel OpenAI verliert Top-KI-Forscher Jerry Tworek",
-      "link": "https://the-decoder.de/openai-verliert-top-forscher-jerry-tworek-nach-sieben-jahren/",
-      "date": "2026-01-05T19:44:13.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
