@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-01-08T20:29:37.713Z",
+  "lastUpdated": "2026-01-08T22:24:56.762Z",
   "news": [
     {
       "title": "Microsoft und Stripe bringen Shopping-Funktion direkt in den KI-Copilot",
@@ -45,6 +45,15 @@
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
+    },
+    {
+      "title": "Netomi’s lessons for scaling agentic systems into the enterprise",
+      "description": "How Netomi scales enterprise AI agents using GPT-4.1 and GPT-5.2—combining concurrency, governance, and multi-step reasoning for reliable production workflows.",
+      "link": "https://openai.com/index/netomi",
+      "date": "2026-01-08T13:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
     },
     {
       "title": "Tailwind-CSS-Debakel zeigt, wie KI-Assistenten etablierte Online-Geschäftsmodelle austrocknen",
@@ -123,15 +132,6 @@
       "description": "Applications are now open for OpenAI Grove Cohort 2, a 5-week founder program designed for individuals at any stage, from pre-idea to product. Participants receive $50K in API credits, early access to",
       "link": "https://openai.com/index/openai-grove",
       "date": "2026-01-02T10:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "Continuously hardening ChatGPT Atlas against prompt injection",
-      "description": "OpenAI is strengthening ChatGPT Atlas against prompt injection attacks using automated red teaming trained with reinforcement learning. This proactive discover-and-patch loop helps identify novel expl",
-      "link": "https://openai.com/index/hardening-atlas-against-prompt-injection",
-      "date": "2025-12-22T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
