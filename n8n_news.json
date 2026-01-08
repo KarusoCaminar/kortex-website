@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-01-08T16:34:55.017Z",
+  "lastUpdated": "2026-01-08T18:34:01.423Z",
   "news": [
     {
       "title": "EU ordnet X an, alle Grok-Dokumente bis Ende 2026 aufzubewahren",
@@ -119,18 +119,18 @@
       "language": "en"
     },
     {
-      "title": "One in a million: celebrating the customers shaping AI’s future",
-      "description": "More than one million customers around the world now use OpenAI to empower their teams and unlock new opportunities. This post highlights how companies like PayPal, Virgin Atlantic, BBVA, Cisco, Moder",
-      "link": "https://openai.com/index/one-in-a-million-customers",
+      "title": "Continuously hardening ChatGPT Atlas against prompt injection",
+      "description": "OpenAI is strengthening ChatGPT Atlas against prompt injection attacks using automated red teaming trained with reinforcement learning. This proactive discover-and-patch loop helps identify novel expl",
+      "link": "https://openai.com/index/hardening-atlas-against-prompt-injection",
       "date": "2025-12-22T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
     },
     {
-      "title": "Continuously hardening ChatGPT Atlas against prompt injection",
-      "description": "OpenAI is strengthening ChatGPT Atlas against prompt injection attacks using automated red teaming trained with reinforcement learning. This proactive discover-and-patch loop helps identify novel expl",
-      "link": "https://openai.com/index/hardening-atlas-against-prompt-injection",
+      "title": "One in a million: celebrating the customers shaping AI’s future",
+      "description": "More than one million customers around the world now use OpenAI to empower their teams and unlock new opportunities. This post highlights how companies like PayPal, Virgin Atlantic, BBVA, Cisco, Moder",
+      "link": "https://openai.com/index/one-in-a-million-customers",
       "date": "2025-12-22T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
