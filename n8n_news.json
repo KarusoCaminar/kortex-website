@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-01-08T08:35:30.132Z",
+  "lastUpdated": "2026-01-08T10:28:46.013Z",
   "news": [
+    {
+      "title": "Dr. ChatGPT: OpenAI bringt neue Gesundheitsrubrik in ChatGPT",
+      "description": "\"Frag doch Dr. Google\" galt lange als Scherz unter Patienten, die zwischen zwei Arztterminen ihre Symptome recherchierten. Mit KI erreicht die digitale Selbstdiagnose eine neue Dimension. OpenAI erken",
+      "link": "https://the-decoder.de/dr-chatgpt-openai-bringt-neue-gesundheitsrubrik-in-chatgpt/",
+      "date": "2026-01-08T08:51:49.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Trotz Trump-Erlaubnis: China bremst Import von Nvidias Hochleistungschips für KI-Entwicklung aus",
       "description": "Das KI-Wettrennen zwischen den USA und China geht in die nächste Runde: Die USA erlauben wieder mehr Nvidia-Exporte, doch China stoppt angeblich die Käufe. Peking will die eigene Chipindustrie schütze",
@@ -96,15 +105,6 @@
       "description": "OpenAI-Produktchefin Fidji Simo erklärt, warum 2026 das Jahr wird, in dem die Lücke zwischen KI-Fähigkeiten und tatsächlicher Nutzung geschlossen werden soll – und ChatGPT zum \"Super-Assistenten\" wird",
       "link": "https://the-decoder.de/openai-will-2026-die-luecke-zwischen-ki-faehigkeiten-und-alltagsnutzung-schliessen/",
       "date": "2026-01-06T18:10:52.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "AMD präsentiert neue KI-Chips auf der CES",
-      "description": "Der Chiphersteller AMD hat auf der CES 2026 eine Reihe neuer Prozessoren vorgestellt, darunter KI-Beschleuniger für Rechenzentren und aufgefrischte Laptop-Chips.\nDer Artikel AMD präsentiert neue KI-Ch",
-      "link": "https://the-decoder.de/amd-praesentiert-neue-ki-chips-auf-der-ces/",
-      "date": "2026-01-06T16:13:09.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
