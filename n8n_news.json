@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-01-08T18:34:01.423Z",
+  "lastUpdated": "2026-01-08T20:29:37.713Z",
   "news": [
+    {
+      "title": "Microsoft und Stripe bringen Shopping-Funktion direkt in den KI-Copilot",
+      "description": "Microsoft und Stripe bringen Einkaufen in den KI-Assistenten Copilot. Auch Google und OpenAI bauen ihre Chatbots zu Shopping-Kanälen aus.\nDer Artikel Microsoft und Stripe bringen Shopping-Funktion dir",
+      "link": "https://the-decoder.de/microsoft-und-stripe-bringen-shopping-funktion-direkt-in-den-ki-copilot/",
+      "date": "2026-01-08T19:08:22.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "EU ordnet X an, alle Grok-Dokumente bis Ende 2026 aufzubewahren",
       "description": "Die EU-Kommission hat Elon Musks Plattform X angewiesen, alle internen Dokumente und Daten zum KI-Chatbot Grok bis Ende 2026 aufzubewahren.\nDer Artikel EU ordnet X an, alle Grok-Dokumente bis Ende 202",
@@ -47,6 +56,15 @@
       "language": "de"
     },
     {
+      "title": "OpenAI for Healthcare",
+      "description": "OpenAI for Healthcare enables secure, enterprise-grade AI that supports HIPAA compliance—reducing administrative burden and supporting clinical workflows.",
+      "link": "https://openai.com/index/openai-for-healthcare",
+      "date": "2026-01-08T12:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
       "title": "Dr. ChatGPT: OpenAI bringt neue Gesundheitsrubrik in ChatGPT",
       "description": "\"Frag doch Dr. Google\" galt lange als Scherz unter Patienten, die zwischen zwei Arztterminen ihre Symptome recherchierten. Mit KI erreicht die digitale Selbstdiagnose eine neue Dimension. OpenAI erken",
       "link": "https://the-decoder.de/dr-chatgpt-openai-bringt-neue-gesundheitsrubrik-in-chatgpt/",
@@ -83,15 +101,6 @@
       "language": "de"
     },
     {
-      "title": "Amazon listet ungefragt Produkte unabhängiger Shops via \"Buy For Me\"-KI",
-      "description": "Mehrere Online-Händler berichten, dass Amazons KI-gestütztes Einkaufstool ihre Produkte ohne Erlaubnis auf dem Marktplatz anzeigt. Amazon verteidigt das Programm, doch die Kritik wächst.\nDer Artikel A",
-      "link": "https://the-decoder.de/amazon-listet-ungefragt-produkte-unabhaengiger-shops-via-buy-for-me-ki/",
-      "date": "2026-01-07T11:13:28.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "How Tolan builds voice-first AI with GPT-5.1",
       "description": "Tolan built a voice-first AI companion with GPT-5.1, combining low-latency responses, real-time context reconstruction, and memory-driven personalities for natural conversations.",
       "link": "https://openai.com/index/tolan",
@@ -122,15 +131,6 @@
       "title": "Continuously hardening ChatGPT Atlas against prompt injection",
       "description": "OpenAI is strengthening ChatGPT Atlas against prompt injection attacks using automated red teaming trained with reinforcement learning. This proactive discover-and-patch loop helps identify novel expl",
       "link": "https://openai.com/index/hardening-atlas-against-prompt-injection",
-      "date": "2025-12-22T00:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "One in a million: celebrating the customers shaping AI’s future",
-      "description": "More than one million customers around the world now use OpenAI to empower their teams and unlock new opportunities. This post highlights how companies like PayPal, Virgin Atlantic, BBVA, Cisco, Moder",
-      "link": "https://openai.com/index/one-in-a-million-customers",
       "date": "2025-12-22T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
