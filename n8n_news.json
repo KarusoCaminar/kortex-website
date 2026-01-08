@@ -1,6 +1,33 @@
 {
-  "lastUpdated": "2026-01-08T12:53:35.436Z",
+  "lastUpdated": "2026-01-08T14:29:01.988Z",
   "news": [
+    {
+      "title": "Google bringt Gemini-KI in Gmail: Posteingang soll Fragen beantworten können",
+      "description": "Google integriert seine Gemini-KI in den USA umfassend in Gmail. Mit AI Overviews, intelligenten Antwortvorschlägen und einer neuen Inbox-Priorisierung will der Konzern das E-Mail-Management für drei",
+      "link": "https://the-decoder.de/google-bringt-gemini-ki-in-gmail-posteingang-soll-fragen-beantworten-koennen/",
+      "date": "2026-01-08T13:49:13.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "China will Nvidia-Chip-Importe offenbar noch dieses Quartal genehmigen",
+      "description": "Das KI-Wettrennen zwischen den USA und China geht in die nächste Runde: Die USA erlauben wieder mehr Nvidia-Exporte, doch China stoppt angeblich die Käufe. Peking will die eigene Chipindustrie schütze",
+      "link": "https://the-decoder.de/china-will-nvidia-chip-importe-offenbar-noch-dieses-quartal-genehmigen/",
+      "date": "2026-01-08T13:46:40.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Arm Holdings gründet neue Geschäftseinheit für Robotik und Automotive",
+      "description": "Arm Holdings hat sein Unternehmen neu strukturiert und eine Einheit namens \"Physical AI\" geschaffen, um stärker in den Robotik-Markt einzusteigen.\nDer Artikel Arm Holdings gründet neue Geschäftseinhei",
+      "link": "https://the-decoder.de/arm-holdings-gruendet-neue-geschaeftseinheit-fuer-robotik-und-automotive/",
+      "date": "2026-01-08T13:24:22.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Tailwind-CSS-Debakel zeigt, wie KI-Assistenten etablierte Online-Geschäftsmodelle austrocknen",
       "description": "Tailwind CSS ist eines der erfolgreichsten Open-Source-Projekte der Webentwicklung. Doch während das Framework boomt, ist der Umsatz des Unternehmens um 80 Prozent eingebrochen. Gründer Adam Wathan ma",
@@ -15,15 +42,6 @@
       "description": "\"Frag doch Dr. Google\" galt lange als Scherz unter Patienten, die zwischen zwei Arztterminen ihre Symptome recherchierten. Mit KI erreicht die digitale Selbstdiagnose eine neue Dimension. OpenAI erken",
       "link": "https://the-decoder.de/dr-chatgpt-openai-bringt-neue-gesundheitsrubrik-in-chatgpt/",
       "date": "2026-01-08T08:51:49.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Trotz Trump-Erlaubnis: China bremst Import von Nvidias Hochleistungschips für KI-Entwicklung aus",
-      "description": "Das KI-Wettrennen zwischen den USA und China geht in die nächste Runde: Die USA erlauben wieder mehr Nvidia-Exporte, doch China stoppt angeblich die Käufe. Peking will die eigene Chipindustrie schütze",
-      "link": "https://the-decoder.de/trotz-trump-erlaubnis-china-bremst-import-von-nvidias-hochleistungschips-fuer-ki-entwicklung-aus/",
-      "date": "2026-01-07T19:10:40.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
@@ -74,15 +92,6 @@
       "language": "de"
     },
     {
-      "title": "Neues KI-Ranking: GPT-5.2 führt vor Claude Opus 4.5 und Gemini 3 Pro",
-      "description": "GPT-5.2 schlägt Claude Opus 4.5 knapp: neuer KI-Benchmark misst jetzt auch Agenten-Fähigkeiten\nDer Artikel Neues KI-Ranking: GPT-5.2 führt vor Claude Opus 4.5 und Gemini 3 Pro erschien zuerst auf The",
-      "link": "https://the-decoder.de/neues-ki-ranking-gpt-5-2-fuehrt-vor-claude-opus-4-5-und-gemini-3-pro/",
-      "date": "2026-01-07T10:03:56.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "How Tolan builds voice-first AI with GPT-5.1",
       "description": "Tolan built a voice-first AI companion with GPT-5.1, combining low-latency responses, real-time context reconstruction, and memory-driven personalities for natural conversations.",
       "link": "https://openai.com/index/tolan",
@@ -90,15 +99,6 @@
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
-    },
-    {
-      "title": "Chinas Handelsministerium prüft Metas Milliarden-Kauf des KI-Startups Manus",
-      "description": "Chinas Handelsministerium prüft, ob Metas Milliardenkauf des KI-Startups Manus gegen Exportkontrollen verstößt und könnte den Deal noch kippen.\nDer Artikel Chinas Handelsministerium prüft Metas Millia",
-      "link": "https://the-decoder.de/chinas-handelsministerium-prueft-metas-milliarden-kauf-des-ki-startups-manus/",
-      "date": "2026-01-07T09:29:36.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
     },
     {
       "title": "Introducing ChatGPT Health",
