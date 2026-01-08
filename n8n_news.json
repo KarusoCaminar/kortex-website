@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-01-08T10:28:46.013Z",
+  "lastUpdated": "2026-01-08T12:53:35.436Z",
   "news": [
+    {
+      "title": "Tailwind-CSS-Debakel zeigt, wie KI-Assistenten etablierte Online-Geschäftsmodelle austrocknen",
+      "description": "Tailwind CSS ist eines der erfolgreichsten Open-Source-Projekte der Webentwicklung. Doch während das Framework boomt, ist der Umsatz des Unternehmens um 80 Prozent eingebrochen. Gründer Adam Wathan ma",
+      "link": "https://the-decoder.de/tailwind-css-debakel-zeigt-wie-ki-assistenten-etablierte-online-geschaeftsmodelle-austrocknen/",
+      "date": "2026-01-08T12:50:32.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Dr. ChatGPT: OpenAI bringt neue Gesundheitsrubrik in ChatGPT",
       "description": "\"Frag doch Dr. Google\" galt lange als Scherz unter Patienten, die zwischen zwei Arztterminen ihre Symptome recherchierten. Mit KI erreicht die digitale Selbstdiagnose eine neue Dimension. OpenAI erken",
@@ -99,15 +108,6 @@
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
-    },
-    {
-      "title": "OpenAI will 2026 die Lücke zwischen KI-Fähigkeiten und Alltagsnutzung schließen",
-      "description": "OpenAI-Produktchefin Fidji Simo erklärt, warum 2026 das Jahr wird, in dem die Lücke zwischen KI-Fähigkeiten und tatsächlicher Nutzung geschlossen werden soll – und ChatGPT zum \"Super-Assistenten\" wird",
-      "link": "https://the-decoder.de/openai-will-2026-die-luecke-zwischen-ki-faehigkeiten-und-alltagsnutzung-schliessen/",
-      "date": "2026-01-06T18:10:52.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
     },
     {
       "title": "Announcing OpenAI Grove Cohort 2",
