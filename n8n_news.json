@@ -1,6 +1,33 @@
 {
-  "lastUpdated": "2026-01-09T08:35:26.851Z",
+  "lastUpdated": "2026-01-09T10:27:43.777Z",
   "news": [
+    {
+      "title": "Erfolgreicher Börsengang: Chinesisches KI-Startup MiniMax sammelt 620 Millionen Dollar ein",
+      "description": "Die Aktien des chinesischen KI-Start-ups Minimax haben sich bei ihrem Debüt an der Hongkonger Börse im Wert verdoppelt.\nDer Artikel Erfolgreicher Börsengang: Chinesisches KI-Startup MiniMax sammelt 62",
+      "link": "https://the-decoder.de/erfolgreicher-boersengang-chinesisches-ki-startup-minimax-sammelt-620-millionen-dollar-ein/",
+      "date": "2026-01-09T10:20:57.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "OpenAI will mit ChatGPT for Healthcare in US-Krankenhäuser vordringen",
+      "description": "Das KI-Unternehmen stellt eine Healthcare-Variante seines Chatbots vor und verspricht HIPAA-konforme Datenverarbeitung. Mehrere große US-Kliniken sollen bereits an Bord sein.\nDer Artikel OpenAI will m",
+      "link": "https://the-decoder.de/openai-will-mit-chatgpt-in-us-krankenhaeuser-vordringen/",
+      "date": "2026-01-09T09:50:03.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Urheberrechtlich geschützte Romane lassen sich laut Studien fast komplett aus KI-Sprachmodellen abrufen",
+      "description": "Harry Potter, Herr der Ringe, Game of Thrones: Forscher extrahieren ganze Romane aus kommerziellen Sprachmodellen. Zwei der vier getesteten Systeme leisteten nicht einmal Widerstand. Die Ergebnisse kö",
+      "link": "https://the-decoder.de/urheberrechtlich-geschuetzte-romane-lassen-sich-laut-studien-fast-komplett-aus-ki-sprachmodellen-abrufen/",
+      "date": "2026-01-09T08:50:14.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Microsoft und Stripe bringen Shopping-Funktion direkt in den KI-Copilot",
       "description": "Microsoft und Stripe bringen Einkaufen in den KI-Assistenten Copilot. Auch Google und OpenAI bauen ihre Chatbots zu Shopping-Kanälen aus.\nDer Artikel Microsoft und Stripe bringen Shopping-Funktion dir",
@@ -78,33 +105,6 @@
       "description": "\"Frag doch Dr. Google\" galt lange als Scherz unter Patienten, die zwischen zwei Arztterminen ihre Symptome recherchierten. Mit KI erreicht die digitale Selbstdiagnose eine neue Dimension. OpenAI erken",
       "link": "https://the-decoder.de/dr-chatgpt-openai-bringt-neue-gesundheitsrubrik-in-chatgpt/",
       "date": "2026-01-08T08:51:49.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Claude-Chatbot-Firma Anthropic plant 10 Milliarden Dollar Finanzierung bei 350 Milliarden Bewertung",
-      "description": "Anthropic, die KI-Firma hinter Claude, plant eine neue Finanzierungsrunde über 10 Milliarden US-Dollar bei einer Bewertung von 350 Milliarden Dollar.\nDer Artikel Claude-Chatbot-Firma Anthropic plant 1",
-      "link": "https://the-decoder.de/claude-chatbot-firma-anthropic-plant-10-milliarden-dollar-finanzierung-bei-350-milliarden-bewertung/",
-      "date": "2026-01-07T18:38:35.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Wie Googles KI-Bildmodell \"Nano Banana\" zu seinem seltsamen Namen kam",
-      "description": "Googles \"Nano Banana\"-Bildmodell ist mit Abstand das derzeit mächtigste Bildmodell am Markt. Aber der Name ist seltsam.\nDer Artikel Wie Googles KI-Bildmodell \"Nano Banana\" zu seinem seltsamen Namen ka",
-      "link": "https://the-decoder.de/wie-googles-ki-bildmodell-nano-banana-zu-seinem-seltsamen-namen-kam/",
-      "date": "2026-01-07T17:50:05.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Analyse zeigt: Grok erstellt tausende sexualisierte Bilder ohne Zustimmung pro Stunde",
-      "description": "Elon Musks Plattform X hat sich zum Hauptumschlagplatz für KI-Bilder entwickelt, auf denen Personen ohne ihre Zustimmung entkleidet werden.\nDer Artikel Analyse zeigt: Grok erstellt tausende sexualisie",
-      "link": "https://the-decoder.de/analyse-zeigt-grok-erstellt-tausende-sexualisierte-bilder-ohne-zustimmung-pro-stunde/",
-      "date": "2026-01-07T13:48:36.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
