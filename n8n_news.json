@@ -1,9 +1,27 @@
 {
-  "lastUpdated": "2026-01-09T10:27:43.777Z",
+  "lastUpdated": "2026-01-09T12:52:39.716Z",
   "news": [
     {
-      "title": "Erfolgreicher Börsengang: Chinesisches KI-Startup MiniMax sammelt 620 Millionen Dollar ein",
-      "description": "Die Aktien des chinesischen KI-Start-ups Minimax haben sich bei ihrem Debüt an der Hongkonger Börse im Wert verdoppelt.\nDer Artikel Erfolgreicher Börsengang: Chinesisches KI-Startup MiniMax sammelt 62",
+      "title": "15 Millionen H100-Äquivalente: Epoch AI beziffert globale KI-Rechenleistung",
+      "description": "Epoch AI hat eine umfassende Datenbank zu KI-Chip-Verkäufen veröffentlicht, laut der die globale Rechenkapazität nun 15 Millionen H100-Äquivalente übersteigt.\nDer Artikel 15 Millionen H100-Äquivalente",
+      "link": "https://the-decoder.de/15-millionen-h100-aequivalente-epoch-ai-beziffert-globale-ki-rechenleistung/",
+      "date": "2026-01-09T12:04:21.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Elon Musks Klage gegen OpenAI kommt wohl vor Gericht",
+      "description": "Elon Musks Klage gegen OpenAI und CEO Sam Altman kommt vor Gericht.\nDer Artikel Elon Musks Klage gegen OpenAI kommt wohl vor Gericht erschien zuerst auf The Decoder.",
+      "link": "https://the-decoder.de/elon-musks-klage-gegen-openai-kommt-wohl-vor-gericht/",
+      "date": "2026-01-09T11:33:17.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Erfolgreicher Börsengang: Chinesisches KI-Startup Minimax sammelt 620 Millionen Dollar ein",
+      "description": "Die Aktien des chinesischen KI-Start-ups Minimax haben sich bei ihrem Debüt an der Hongkonger Börse im Wert verdoppelt.\nDer Artikel Erfolgreicher Börsengang: Chinesisches KI-Startup Minimax sammelt 62",
       "link": "https://the-decoder.de/erfolgreicher-boersengang-chinesisches-ki-startup-minimax-sammelt-620-millionen-dollar-ein/",
       "date": "2026-01-09T10:20:57.000Z",
       "source": "The Decoder",
@@ -83,15 +101,6 @@
       "language": "en"
     },
     {
-      "title": "Tailwind-CSS-Debakel zeigt, wie KI-Assistenten etablierte Online-Geschäftsmodelle austrocknen",
-      "description": "Tailwind CSS ist eines der erfolgreichsten Open-Source-Projekte der Webentwicklung. Doch während das Framework boomt, ist der Umsatz des Unternehmens um 80 Prozent eingebrochen. Gründer Adam Wathan ma",
-      "link": "https://the-decoder.de/tailwind-css-debakel-zeigt-wie-ki-assistenten-etablierte-online-geschaeftsmodelle-austrocknen/",
-      "date": "2026-01-08T12:50:32.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "OpenAI for Healthcare",
       "description": "OpenAI for Healthcare enables secure, enterprise-grade AI that supports HIPAA compliance—reducing administrative burden and supporting clinical workflows.",
       "link": "https://openai.com/index/openai-for-healthcare",
@@ -99,15 +108,6 @@
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
-    },
-    {
-      "title": "Dr. ChatGPT: OpenAI bringt neue Gesundheitsrubrik in ChatGPT",
-      "description": "\"Frag doch Dr. Google\" galt lange als Scherz unter Patienten, die zwischen zwei Arztterminen ihre Symptome recherchierten. Mit KI erreicht die digitale Selbstdiagnose eine neue Dimension. OpenAI erken",
-      "link": "https://the-decoder.de/dr-chatgpt-openai-bringt-neue-gesundheitsrubrik-in-chatgpt/",
-      "date": "2026-01-08T08:51:49.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
     },
     {
       "title": "How Tolan builds voice-first AI with GPT-5.1",
