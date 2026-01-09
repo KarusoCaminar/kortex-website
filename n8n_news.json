@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-01-09T18:37:21.172Z",
+  "lastUpdated": "2026-01-09T20:28:44.300Z",
   "news": [
     {
       "title": "15 Millionen H100-Äquivalente: Epoch AI beziffert globale KI-Rechenleistung",
@@ -18,6 +18,15 @@
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
+    },
+    {
+      "title": "OpenAI and SoftBank Group partner with SB Energy",
+      "description": "OpenAI and SoftBank Group partner with SB Energy to develop multi-gigawatt AI data center campuses, including a 1.2 GW Texas facility supporting the Stargate initiative.",
+      "link": "https://openai.com/index/stargate-sb-energy-partnership",
+      "date": "2026-01-09T11:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
     },
     {
       "title": "Erfolgreicher Börsengang: Chinesisches KI-Startup Minimax sammelt 620 Millionen Dollar ein",
@@ -123,15 +132,6 @@
       "description": "ChatGPT Health is a dedicated experience that securely connects your health data and apps, with privacy protections and a physician-informed design.",
       "link": "https://openai.com/index/introducing-chatgpt-health",
       "date": "2026-01-07T00:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "Announcing OpenAI Grove Cohort 2",
-      "description": "Applications are now open for OpenAI Grove Cohort 2, a 5-week founder program designed for individuals at any stage, from pre-idea to product. Participants receive $50K in API credits, early access to",
-      "link": "https://openai.com/index/openai-grove",
-      "date": "2026-01-02T10:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
