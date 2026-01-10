@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-01-10T10:24:33.831Z",
+  "lastUpdated": "2026-01-10T12:46:55.558Z",
   "news": [
+    {
+      "title": "Wie China 2025 mit Open-Weight-Modellen an die KI-Spitze rückte",
+      "description": "Chinesische Open-Weight-KI erobert die Welt: Laut Stanford-Analyse haben Modelle aus China ihre US-Pendants bei Verbreitung und Adoption bereits überholt. Doch mit dem Erfolg wachsen auch geopolitisch",
+      "link": "https://the-decoder.de/wie-china-2025-mit-open-weight-modellen-an-die-ki-spitze-rueckte/",
+      "date": "2026-01-10T11:00:03.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "KI-Agenten können Benchmarks \"hacken\": Warum Testergebnisse oft wenig aussagen",
       "description": "Benchmarks sollen objektiv messen, wie gut KI-Modelle sind. Doch laut einer Analyse von Epoch AI hängen die Ergebnisse stark davon ab, wie genau der Test durchgeführt wird. Die Forschungsorganisation",
@@ -87,15 +96,6 @@
       "description": "Die EU-Kommission hat Elon Musks Plattform X angewiesen, alle internen Dokumente und Daten zum KI-Chatbot Grok bis Ende 2026 aufzubewahren.\nDer Artikel EU ordnet X an, alle Grok-Dokumente bis Ende 202",
       "link": "https://the-decoder.de/eu-ordnet-x-an-alle-grok-dokumente-bis-ende-2026-aufzubewahren/",
       "date": "2026-01-08T15:07:01.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Google bringt Gemini-KI in Gmail: Posteingang soll Fragen beantworten können",
-      "description": "Google integriert seine Gemini-KI in den USA umfassend in Gmail. Mit AI Overviews, intelligenten Antwortvorschlägen und einer neuen Inbox-Priorisierung will der Konzern das E-Mail-Management für drei",
-      "link": "https://the-decoder.de/google-bringt-gemini-ki-in-gmail-posteingang-soll-fragen-beantworten-koennen/",
-      "date": "2026-01-08T13:49:13.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
