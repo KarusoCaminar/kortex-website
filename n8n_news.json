@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-01-10T12:46:55.558Z",
+  "lastUpdated": "2026-01-10T14:22:12.148Z",
   "news": [
+    {
+      "title": "Trumps Atomkraft-Offensive: Ehrgeizige Ziele, fragwürdige Umsetzung",
+      "description": "Die USA wollen ihre Atomkraftkapazität bis 2050 vervierfachen, um den Strombedarf von KI-Rechenzentren zu decken. Doch Kostenexplosionen, fehlende Lizenzen und skeptische Investoren stellen das Vorhab",
+      "link": "https://the-decoder.de/trumps-atomkraft-offensive-ehrgeizige-ziele-fragwuerdige-umsetzung/",
+      "date": "2026-01-10T13:30:47.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Wie China 2025 mit Open-Weight-Modellen an die KI-Spitze rückte",
       "description": "Chinesische Open-Weight-KI erobert die Welt: Laut Stanford-Analyse haben Modelle aus China ihre US-Pendants bei Verbreitung und Adoption bereits überholt. Doch mit dem Erfolg wachsen auch geopolitisch",
@@ -87,15 +96,6 @@
       "description": "Microsoft und Stripe bringen Einkaufen in den KI-Assistenten Copilot. Auch Google und OpenAI bauen ihre Chatbots zu Shopping-Kanälen aus.\nDer Artikel Microsoft und Stripe bringen Shopping-Funktion dir",
       "link": "https://the-decoder.de/microsoft-und-stripe-bringen-shopping-funktion-direkt-in-den-ki-copilot/",
       "date": "2026-01-08T19:08:22.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "EU ordnet X an, alle Grok-Dokumente bis Ende 2026 aufzubewahren",
-      "description": "Die EU-Kommission hat Elon Musks Plattform X angewiesen, alle internen Dokumente und Daten zum KI-Chatbot Grok bis Ende 2026 aufzubewahren.\nDer Artikel EU ordnet X an, alle Grok-Dokumente bis Ende 202",
-      "link": "https://the-decoder.de/eu-ordnet-x-an-alle-grok-dokumente-bis-ende-2026-aufzubewahren/",
-      "date": "2026-01-08T15:07:01.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
