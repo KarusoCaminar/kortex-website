@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-01-10T14:22:12.148Z",
+  "lastUpdated": "2026-01-10T16:28:44.178Z",
   "news": [
+    {
+      "title": "OpenAI reserviert angeblich 50 Milliarden Dollar für Mitarbeiter-Aktienprogramm",
+      "description": "OpenAI hat im vergangenen Herbst einen Aktienpool für Mitarbeiter eingerichtet, der zehn Prozent des Unternehmens entspricht.\nDer Artikel OpenAI reserviert angeblich 50 Milliarden Dollar für Mitarbeit",
+      "link": "https://the-decoder.de/openai-reserviert-angeblich-50-milliarden-dollar-fuer-mitarbeiter-aktienprogramm/",
+      "date": "2026-01-10T14:42:28.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Neue Methode von Deepseek stabilisiert Signale beim Training großer KI-Modelle",
+      "description": "Forscher von Deepseek haben eine Methode entwickelt, die das Training großer Sprachmodelle stabiler macht. Der Ansatz nutzt mathematische Einschränkungen, um ein bekanntes Problem bei erweiterten Netz",
+      "link": "https://the-decoder.de/neue-methode-von-deepseek-stabilisiert-signale-beim-training-grosser-ki-modelle/",
+      "date": "2026-01-10T14:30:20.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Trumps Atomkraft-Offensive: Ehrgeizige Ziele, fragwürdige Umsetzung",
       "description": "Die USA wollen ihre Atomkraftkapazität bis 2050 vervierfachen, um den Strombedarf von KI-Rechenzentren zu decken. Doch Kostenexplosionen, fehlende Lizenzen und skeptische Investoren stellen das Vorhab",
@@ -74,15 +92,6 @@
       "language": "de"
     },
     {
-      "title": "Urheberrechtlich geschützte Romane lassen sich laut Studien fast komplett aus KI-Sprachmodellen abrufen",
-      "description": "Harry Potter, Herr der Ringe, Game of Thrones: Forscher extrahieren ganze Romane aus kommerziellen Sprachmodellen. Zwei der vier getesteten Systeme leisteten nicht einmal Widerstand. Die Ergebnisse kö",
-      "link": "https://the-decoder.de/urheberrechtlich-geschuetzte-romane-lassen-sich-laut-studien-fast-komplett-aus-ki-sprachmodellen-abrufen/",
-      "date": "2026-01-09T08:50:14.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "Datadog uses Codex for system-level code review",
       "description": "OpenAI and Datadog brand graphic with the OpenAI wordmark on the left, the Datadog logo on the right, and a central abstract brown fur-like texture panel on a white background.",
       "link": "https://openai.com/index/datadog",
@@ -90,15 +99,6 @@
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
-    },
-    {
-      "title": "Microsoft und Stripe bringen Shopping-Funktion direkt in den KI-Copilot",
-      "description": "Microsoft und Stripe bringen Einkaufen in den KI-Assistenten Copilot. Auch Google und OpenAI bauen ihre Chatbots zu Shopping-Kanälen aus.\nDer Artikel Microsoft und Stripe bringen Shopping-Funktion dir",
-      "link": "https://the-decoder.de/microsoft-und-stripe-bringen-shopping-funktion-direkt-in-den-ki-copilot/",
-      "date": "2026-01-08T19:08:22.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
     },
     {
       "title": "Netomi’s lessons for scaling agentic systems into the enterprise",
