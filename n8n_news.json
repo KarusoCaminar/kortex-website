@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-01-11T08:31:09.143Z",
+  "lastUpdated": "2026-01-11T10:25:12.992Z",
   "news": [
+    {
+      "title": "Lightricks macht KI-Videomodell LTX-2 offen und fordert Sora und Veo heraus",
+      "description": "Das israelische Unternehmen Lightricks hat sein 19-Milliarden-Parameter-Modell LTX-2 als Open Source veröffentlicht. Das System generiert synchronisierte Audio-Video-Inhalte aus Textbeschreibungen und",
+      "link": "https://the-decoder.de/lightricks-macht-ki-videomodell-ltx-2-offen-und-fordert-sora-und-veo-heraus/",
+      "date": "2026-01-11T08:31:23.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "USA bleibt bei KI-Entwicklung vorerst führend, sagen chinesische Experten",
       "description": "Trotz Milliarden-Börsengängen in Hongkong warnen führende chinesische KI-Forscher: Der technologische Vorsprung der USA könnte sogar wachsen – begrenzte Rechenkapazitäten und fehlende Chipmaschinen br",
@@ -69,15 +78,6 @@
       "description": "Benchmarks sollen objektiv messen, wie gut KI-Modelle sind. Doch laut einer Analyse von Epoch AI hängen die Ergebnisse stark davon ab, wie genau der Test durchgeführt wird. Die Forschungsorganisation",
       "link": "https://the-decoder.de/ki-agenten-koennen-benchmarks-hacken-warum-testergebnisse-oft-wenig-aussagen/",
       "date": "2026-01-10T08:00:52.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "15 Millionen H100-Äquivalente: Epoch AI beziffert globale KI-Rechenleistung",
-      "description": "Epoch AI hat eine umfassende Datenbank zu KI-Chip-Verkäufen veröffentlicht, laut der die globale Rechenkapazität nun 15 Millionen H100-Äquivalente übersteigt.\nDer Artikel 15 Millionen H100-Äquivalente",
-      "link": "https://the-decoder.de/15-millionen-h100-aequivalente-epoch-ai-beziffert-globale-ki-rechenleistung/",
-      "date": "2026-01-09T12:04:21.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
