@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-01-11T10:25:12.992Z",
+  "lastUpdated": "2026-01-11T12:48:21.905Z",
   "news": [
+    {
+      "title": "KI-Modelle sollen lernen, ihre eigenen Schwächen zu erkennen und zu beheben",
+      "description": "Chinesische Wissenschaftler haben mit UniCorn ein Framework entwickelt, das multimodalen KI-Modellen beibringen soll, ihre eigenen Schwächen zu erkennen und zu beheben. \nDer Artikel KI-Modelle sollen",
+      "link": "https://the-decoder.de/forscher-beheben-aphasie-in-multimodalen-ki-modellen-mit-self-play-ansatz/",
+      "date": "2026-01-11T11:30:37.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Lightricks macht KI-Videomodell LTX-2 offen und fordert Sora und Veo heraus",
       "description": "Das israelische Unternehmen Lightricks hat sein 19-Milliarden-Parameter-Modell LTX-2 als Open Source veröffentlicht. Das System generiert synchronisierte Audio-Video-Inhalte aus Textbeschreibungen und",
@@ -123,15 +132,6 @@
       "description": "Tolan built a voice-first AI companion with GPT-5.1, combining low-latency responses, real-time context reconstruction, and memory-driven personalities for natural conversations.",
       "link": "https://openai.com/index/tolan",
       "date": "2026-01-07T10:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "Introducing ChatGPT Health",
-      "description": "ChatGPT Health is a dedicated experience that securely connects your health data and apps, with privacy protections and a physician-informed design.",
-      "link": "https://openai.com/index/introducing-chatgpt-health",
-      "date": "2026-01-07T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
