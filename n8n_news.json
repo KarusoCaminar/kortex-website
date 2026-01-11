@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-01-11T06:36:44.956Z",
+  "lastUpdated": "2026-01-11T08:31:09.143Z",
   "news": [
+    {
+      "title": "USA bleibt bei KI-Entwicklung vorerst führend, sagen chinesische Experten",
+      "description": "Trotz Milliarden-Börsengängen in Hongkong warnen führende chinesische KI-Forscher: Der technologische Vorsprung der USA könnte sogar wachsen – begrenzte Rechenkapazitäten und fehlende Chipmaschinen br",
+      "link": "https://the-decoder.de/usa-bleibt-bei-ki-entwicklung-vorerst-fuehrend-sagen-chinesische-experten/",
+      "date": "2026-01-11T08:14:42.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Web World Models sollen KI-Agenten konsistente Spielwiesen geben",
+      "description": "Forscher der Princeton University haben gemeinsam mit Kollegen der UCLA und University of Pennsylvania einen Ansatz vorgestellt, der KI-Agenten dauerhafte Welten zum Erkunden geben soll. Gewöhnlicher",
+      "link": "https://the-decoder.de/web-world-models-sollen-ki-agenten-konsistente-spielwiesen-geben/",
+      "date": "2026-01-11T07:45:21.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "OpenAI kauft Convogo-Team, um die Lücke zur KI-Alltagsnutzung zu schließen",
       "description": "OpenAI übernimmt das Team hinter Convogo, einem KI-Tool für Executive Coaches. Doch um die Software geht es nicht. Die Gründer sollen die Cloud-Bemühungen des Unternehmens vorantreiben.\nDer Artikel Op",
@@ -65,15 +83,6 @@
       "language": "de"
     },
     {
-      "title": "Elon Musks Klage gegen OpenAI kommt wohl vor Gericht",
-      "description": "Elon Musks Klage gegen OpenAI und CEO Sam Altman kommt vor Gericht.\nDer Artikel Elon Musks Klage gegen OpenAI kommt wohl vor Gericht erschien zuerst auf The Decoder.",
-      "link": "https://the-decoder.de/elon-musks-klage-gegen-openai-kommt-wohl-vor-gericht/",
-      "date": "2026-01-09T11:33:17.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "OpenAI and SoftBank Group partner with SB Energy",
       "description": "OpenAI and SoftBank Group partner with SB Energy to develop multi-gigawatt AI data center campuses, including a 1.2 GW Texas facility supporting the Stargate initiative.",
       "link": "https://openai.com/index/stargate-sb-energy-partnership",
@@ -81,15 +90,6 @@
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
-    },
-    {
-      "title": "Erfolgreicher Börsengang: Chinesisches KI-Startup Minimax sammelt 620 Millionen Dollar ein",
-      "description": "Die Aktien des chinesischen KI-Start-ups Minimax haben sich bei ihrem Debüt an der Hongkonger Börse im Wert verdoppelt.\nDer Artikel Erfolgreicher Börsengang: Chinesisches KI-Startup Minimax sammelt 62",
-      "link": "https://the-decoder.de/erfolgreicher-boersengang-chinesisches-ki-startup-minimax-sammelt-620-millionen-dollar-ein/",
-      "date": "2026-01-09T10:20:57.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
     },
     {
       "title": "Datadog uses Codex for system-level code review",
