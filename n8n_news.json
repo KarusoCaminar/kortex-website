@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-01-12T16:31:31.323Z",
+  "lastUpdated": "2026-01-12T18:37:47.118Z",
   "news": [
+    {
+      "title": "NeuralGCM harnesses AI to better simulate long-range global precipitation",
+      "description": "Climate & Sustainability",
+      "link": "https://research.google/blog/neuralgcm-harnesses-ai-to-better-simulate-long-range-global-precipitation/",
+      "date": "2026-01-12T17:52:41.000Z",
+      "source": "Google AI",
+      "category": "große-modelle",
+      "language": "en"
+    },
     {
       "title": "Apple und Google schließen mehrjährige KI-Partnerschaft für Siri",
       "description": "Apple nutzt künftig Googles Gemini-Modelle für seine KI-Funktionen, darunter eine überarbeitete Version von Siri.\nDer Artikel Apple und Google schließen mehrjährige KI-Partnerschaft für Siri erschien",
@@ -123,15 +132,6 @@
       "description": "OpenAI for Healthcare enables secure, enterprise-grade AI that supports HIPAA compliance—reducing administrative burden and supporting clinical workflows.",
       "link": "https://openai.com/index/openai-for-healthcare",
       "date": "2026-01-08T12:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "How Tolan builds voice-first AI with GPT-5.1",
-      "description": "Tolan built a voice-first AI companion with GPT-5.1, combining low-latency responses, real-time context reconstruction, and memory-driven personalities for natural conversations.",
-      "link": "https://openai.com/index/tolan",
-      "date": "2026-01-07T10:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
