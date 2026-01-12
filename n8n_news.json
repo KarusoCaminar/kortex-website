@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-01-12T08:37:19.301Z",
+  "lastUpdated": "2026-01-12T10:29:34.790Z",
   "news": [
+    {
+      "title": "Google baut Werbung in Gemini ein und startet Agenten-Protokoll für KI-Shopping",
+      "description": "Der Suchmaschinenkonzern führt personalisierte Rabattanzeigen in seinen KI-Modus ein und stellt ein offenes Protokoll vor, das Händler enger an das Google-Ökosystem binden soll. \nDer Artikel Google ba",
+      "link": "https://the-decoder.de/google-baut-werbung-in-gemini-ein-und-startet-agenten-protokoll-fuer-ki-shopping/",
+      "date": "2026-01-12T10:01:34.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "KI-Modelle sollen lernen, ihre eigenen Schwächen zu erkennen und zu beheben",
       "description": "Chinesische Wissenschaftler haben mit UniCorn ein Framework entwickelt, das multimodalen KI-Modellen beibringen soll, ihre eigenen Schwächen zu erkennen und zu beheben. \nDer Artikel KI-Modelle sollen",
@@ -78,15 +87,6 @@
       "description": "Chinesische Open-Weight-KI erobert die Welt: Laut Stanford-Analyse haben Modelle aus China ihre US-Pendants bei Verbreitung und Adoption bereits überholt. Doch mit dem Erfolg wachsen auch geopolitisch",
       "link": "https://the-decoder.de/wie-china-2025-mit-open-weight-modellen-an-die-ki-spitze-rueckte/",
       "date": "2026-01-10T11:00:03.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "KI-Agenten können Benchmarks \"hacken\": Warum Testergebnisse oft wenig aussagen",
-      "description": "Benchmarks sollen objektiv messen, wie gut KI-Modelle sind. Doch laut einer Analyse von Epoch AI hängen die Ergebnisse stark davon ab, wie genau der Test durchgeführt wird. Die Forschungsorganisation",
-      "link": "https://the-decoder.de/ki-agenten-koennen-benchmarks-hacken-warum-testergebnisse-oft-wenig-aussagen/",
-      "date": "2026-01-10T08:00:52.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
