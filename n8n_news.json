@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-01-12T14:29:27.098Z",
+  "lastUpdated": "2026-01-12T16:31:31.323Z",
   "news": [
+    {
+      "title": "Apple und Google schließen mehrjährige KI-Partnerschaft für Siri",
+      "description": "Apple nutzt künftig Googles Gemini-Modelle für seine KI-Funktionen, darunter eine überarbeitete Version von Siri.\nDer Artikel Apple und Google schließen mehrjährige KI-Partnerschaft für Siri erschien",
+      "link": "https://the-decoder.de/apple-und-google-schliessen-mehrjaehrige-ki-partnerschaft-fuer-siri/",
+      "date": "2026-01-12T15:52:28.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Britische Medienaufsicht ermittelt gegen X wegen KI-generierter Nacktbilder",
       "description": "Die britische Medienaufsicht Ofcom hat eine Untersuchung gegen X wegen des KI-Chatbots Grok eingeleitet.\nDer Artikel Britische Medienaufsicht ermittelt gegen X wegen KI-generierter Nacktbilder erschie",
@@ -78,15 +87,6 @@
       "description": "OpenAI hat im vergangenen Herbst einen Aktienpool für Mitarbeiter eingerichtet, der zehn Prozent des Unternehmens entspricht.\nDer Artikel OpenAI reserviert angeblich 50 Milliarden Dollar für Mitarbeit",
       "link": "https://the-decoder.de/openai-reserviert-angeblich-50-milliarden-dollar-fuer-mitarbeiter-aktienprogramm/",
       "date": "2026-01-10T14:42:28.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Neue Methode von Deepseek stabilisiert Signale beim Training großer KI-Modelle",
-      "description": "Forscher von Deepseek haben eine Methode entwickelt, die das Training großer Sprachmodelle stabiler macht. Der Ansatz nutzt mathematische Einschränkungen, um ein bekanntes Problem bei erweiterten Netz",
-      "link": "https://the-decoder.de/neue-methode-von-deepseek-stabilisiert-signale-beim-training-grosser-ki-modelle/",
-      "date": "2026-01-10T14:30:20.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
