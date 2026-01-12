@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-01-12T10:29:34.790Z",
+  "lastUpdated": "2026-01-12T12:55:27.791Z",
   "news": [
+    {
+      "title": "Britische Medienaufsicht ermittelt gegen X wegen KI-generierter Nacktbilder",
+      "description": "Die britische Medienaufsicht Ofcom hat eine Untersuchung gegen X wegen des KI-Chatbots Grok eingeleitet.\nDer Artikel Britische Medienaufsicht ermittelt gegen X wegen KI-generierter Nacktbilder erschie",
+      "link": "https://the-decoder.de/britische-medienaufsicht-ermittelt-gegen-x-wegen-ki-generierter-nacktbilder/",
+      "date": "2026-01-12T12:24:19.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Nach OpenAI: Auch Anthropic will KI ins Gesundheitswesen bringen",
+      "description": "Eine Woche nach OpenAI kündigt auch Anthropic KI-Werkzeuge für das Gesundheitswesen an.\nDer Artikel Nach OpenAI: Auch Anthropic will KI ins Gesundheitswesen bringen erschien zuerst auf The Decoder.",
+      "link": "https://the-decoder.de/anthropic-draengt-mit-claude-ins-gesundheitswesen/",
+      "date": "2026-01-12T11:11:36.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Google baut Werbung in Gemini ein und startet Agenten-Protokoll für KI-Shopping",
       "description": "Der Suchmaschinenkonzern führt personalisierte Rabattanzeigen in seinen KI-Modus ein und stellt ein offenes Protokoll vor, das Händler enger an das Google-Ökosystem binden soll. \nDer Artikel Google ba",
@@ -69,24 +87,6 @@
       "description": "Forscher von Deepseek haben eine Methode entwickelt, die das Training großer Sprachmodelle stabiler macht. Der Ansatz nutzt mathematische Einschränkungen, um ein bekanntes Problem bei erweiterten Netz",
       "link": "https://the-decoder.de/neue-methode-von-deepseek-stabilisiert-signale-beim-training-grosser-ki-modelle/",
       "date": "2026-01-10T14:30:20.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Trumps Atomkraft-Offensive: Ehrgeizige Ziele, fragwürdige Umsetzung",
-      "description": "Die USA wollen ihre Atomkraftkapazität bis 2050 vervierfachen, um den Strombedarf von KI-Rechenzentren zu decken. Doch Kostenexplosionen, fehlende Lizenzen und skeptische Investoren stellen das Vorhab",
-      "link": "https://the-decoder.de/trumps-atomkraft-offensive-ehrgeizige-ziele-fragwuerdige-umsetzung/",
-      "date": "2026-01-10T13:30:47.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Wie China 2025 mit Open-Weight-Modellen an die KI-Spitze rückte",
-      "description": "Chinesische Open-Weight-KI erobert die Welt: Laut Stanford-Analyse haben Modelle aus China ihre US-Pendants bei Verbreitung und Adoption bereits überholt. Doch mit dem Erfolg wachsen auch geopolitisch",
-      "link": "https://the-decoder.de/wie-china-2025-mit-open-weight-modellen-an-die-ki-spitze-rueckte/",
-      "date": "2026-01-10T11:00:03.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
