@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-01-13T16:36:26.890Z",
+  "lastUpdated": "2026-01-13T18:35:47.064Z",
   "news": [
+    {
+      "title": "Salesforce veröffentlicht neuen KI-Slackbot auf Basis von Anthropics Claude",
+      "description": "Salesforce stattet Slackbot mit Anthropics KI-Modell Claude aus. Der Assistent durchsucht Slack, Salesforce und andere Dienste und soll Mitarbeitern bei der täglichen Arbeit helfen.\nDer Artikel Salesf",
+      "link": "https://the-decoder.de/salesforce-veroeffentlicht-neuen-ki-slackbot-auf-basis-von-anthropics-claude/",
+      "date": "2026-01-13T18:26:47.000Z",
+      "source": "The Decoder",
+      "category": "sales-tools",
+      "language": "de"
+    },
+    {
+      "title": "OpenAIs KI-Wearable \"Sweetpea\" soll Apples Airpods Konkurrenz machen",
+      "description": "Ein neuer Leak enthüllt Details zu OpenAIs geplanter Hardware: Das Audio-Wearable \"Sweetpea\" soll mit einzigartigem Design, Muskel-Sensoren und Siri-Steuerung Apples AirPods angreifen. Foxconn bereite",
+      "link": "https://the-decoder.de/openais-ki-wearable-sweetpea-soll-apples-airpods-konkurrenz-machen/",
+      "date": "2026-01-13T17:48:12.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Microsoft macht Zugeständnisse bei Rechenzentrums-Ausbau",
       "description": "Microsoft kündigt eine neue Initiative für KI-Rechenzentren an, mit der der Konzern auf den wachsenden Widerstand in US-Gemeinden reagieren will. \nDer Artikel Microsoft macht Zugeständnisse bei Rechen",
@@ -78,24 +96,6 @@
       "description": "Apple nutzt künftig Googles Gemini-Modelle für seine KI-Funktionen, darunter eine überarbeitete Version von Siri.\nDer Artikel Apple und Google schließen mehrjährige KI-Partnerschaft für Siri erschien",
       "link": "https://the-decoder.de/apple-und-google-schliessen-mehrjaehrige-ki-partnerschaft-fuer-siri/",
       "date": "2026-01-12T15:52:28.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Britische Medienaufsicht ermittelt gegen X wegen KI-generierter Nacktbilder",
-      "description": "Die britische Medienaufsicht Ofcom hat eine Untersuchung gegen X wegen des KI-Chatbots Grok eingeleitet.\nDer Artikel Britische Medienaufsicht ermittelt gegen X wegen KI-generierter Nacktbilder erschie",
-      "link": "https://the-decoder.de/britische-medienaufsicht-ermittelt-gegen-x-wegen-ki-generierter-nacktbilder/",
-      "date": "2026-01-12T12:24:19.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Nach OpenAI: Auch Anthropic will KI ins Gesundheitswesen bringen",
-      "description": "Eine Woche nach OpenAI kündigt auch Anthropic KI-Werkzeuge für das Gesundheitswesen an.\nDer Artikel Nach OpenAI: Auch Anthropic will KI ins Gesundheitswesen bringen erschien zuerst auf The Decoder.",
-      "link": "https://the-decoder.de/anthropic-draengt-mit-claude-ins-gesundheitswesen/",
-      "date": "2026-01-12T11:11:36.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
