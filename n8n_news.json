@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-01-13T12:54:57.431Z",
+  "lastUpdated": "2026-01-13T14:29:16.810Z",
   "news": [
+    {
+      "title": "Microsoft-Analyse: Deutschland bei KI-Verbreitung nur auf Platz 21",
+      "description": "Die weltweite Nutzung generativer KI steigt weiter, doch der Abstand zwischen Industrie- und Entwicklungsländern vergrößert sich. Südkorea verzeichnet den stärksten Zuwachs, während Chinas Deepseek in",
+      "link": "https://the-decoder.de/microsoft-analyse-deutschland-bei-ki-verbreitung-nur-auf-platz-21/",
+      "date": "2026-01-13T13:47:58.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Software schreibt Software: Claude Code programmiert Claude Cowork in 1,5 Wochen",
+      "description": "Anthropics neues KI-Tool Claude Cowork wurde fast vollständig von Claude Code selbst programmiert, und das in nur anderthalb Wochen.\nDer Artikel Software schreibt Software: Claude Code programmiert Cl",
+      "link": "https://the-decoder.de/software-schreibt-software-claude-code-programmiert-claude-cowork-in-15-wochen/",
+      "date": "2026-01-13T12:57:37.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Converge Bio raises $25M, backed by Bessemer and execs from Meta, OpenAI, Wiz",
       "description": "AI drug discovery startup Converge Bio raised $25 million in a Series A led by Bessemer Venture Partners, with additional backing from executives at Meta, OpenAI, and Wiz.",
@@ -78,24 +96,6 @@
       "description": "Der Suchmaschinenkonzern führt personalisierte Rabattanzeigen in seinen KI-Modus ein und stellt ein offenes Protokoll vor, das Händler enger an das Google-Ökosystem binden soll. \nDer Artikel Google ba",
       "link": "https://the-decoder.de/google-baut-werbung-in-gemini-ein-und-startet-agenten-protokoll-fuer-ki-shopping/",
       "date": "2026-01-12T10:01:34.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "KI-Modelle sollen lernen, ihre eigenen Schwächen zu erkennen und zu beheben",
-      "description": "Chinesische Wissenschaftler haben mit UniCorn ein Framework entwickelt, das multimodalen KI-Modellen beibringen soll, ihre eigenen Schwächen zu erkennen und zu beheben. \nDer Artikel KI-Modelle sollen",
-      "link": "https://the-decoder.de/forscher-beheben-aphasie-in-multimodalen-ki-modellen-mit-self-play-ansatz/",
-      "date": "2026-01-11T11:30:37.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Lightricks macht KI-Videomodell LTX-2 offen und fordert Sora und Veo heraus",
-      "description": "Das israelische Unternehmen Lightricks hat sein 19-Milliarden-Parameter-Modell LTX-2 als Open Source veröffentlicht. Das System generiert synchronisierte Audio-Video-Inhalte aus Textbeschreibungen und",
-      "link": "https://the-decoder.de/lightricks-macht-ki-videomodell-ltx-2-offen-und-fordert-sora-und-veo-heraus/",
-      "date": "2026-01-11T08:31:23.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
