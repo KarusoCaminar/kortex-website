@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-01-13T08:35:38.064Z",
+  "lastUpdated": "2026-01-13T10:28:35.646Z",
   "news": [
+    {
+      "title": "Claude Cowork: Anthropic stellt \"Claude Code für Büroarbeit\" vor",
+      "description": "Mit Cowork erhält Claude Zugriff auf lokale Ordner und kann dort eigenständig Dateien organisieren, bearbeiten und erstellen. Anthropic will damit die agentenbasierte Arbeitsweise von Claude Code auch",
+      "link": "https://the-decoder.de/claude-cowork-anthropic-stellt-claude-code-fuer-bueroarbeit-vor/",
+      "date": "2026-01-13T09:03:26.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Medizinisches Gedächtnis für KI: OpenAI übernimmt Startup Torch für personalisierte Gesundheit",
       "description": "OpenAI kauft die Gesundheits-App Torch für rund 100 Millionen Dollar und baut damit sein Angebot im Healthcare-Bereich weiter aus.\nDer Artikel Medizinisches Gedächtnis für KI: OpenAI übernimmt Startup",
@@ -87,15 +96,6 @@
       "description": "Forscher der Princeton University haben gemeinsam mit Kollegen der UCLA und University of Pennsylvania einen Ansatz vorgestellt, der KI-Agenten dauerhafte Welten zum Erkunden geben soll. Gewöhnlicher",
       "link": "https://the-decoder.de/web-world-models-sollen-ki-agenten-konsistente-spielwiesen-geben/",
       "date": "2026-01-11T07:45:21.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "OpenAI kauft Convogo-Team, um die Lücke zur KI-Alltagsnutzung zu schließen",
-      "description": "OpenAI übernimmt das Team hinter Convogo, einem KI-Tool für Executive Coaches. Doch um die Software geht es nicht. Die Gründer sollen die Cloud-Bemühungen des Unternehmens vorantreiben.\nDer Artikel Op",
-      "link": "https://the-decoder.de/openai-kauft-convogo-team-um-die-luecke-zur-ki-alltagsnutzung-zu-schliessen/",
-      "date": "2026-01-10T17:08:22.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
