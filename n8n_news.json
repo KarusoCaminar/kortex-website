@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-01-13T20:29:29.171Z",
+  "lastUpdated": "2026-01-13T22:25:43.842Z",
   "news": [
+    {
+      "title": "Next generation medical image interpretation with MedGemma 1.5 and medical speech to text with MedASR",
+      "description": "Generative AI",
+      "link": "https://research.google/blog/next-generation-medical-image-interpretation-with-medgemma-15-and-medical-speech-to-text-with-medasr/",
+      "date": "2026-01-13T20:57:16.000Z",
+      "source": "Google AI",
+      "category": "große-modelle",
+      "language": "en"
+    },
     {
       "title": "KI-Bilder erschweren Suche nach entlaufenen Affen in St. Louis",
       "description": "KI-Idiokratie auf dem Vormarsch: Mehrere Affen sind in St. Louis entlaufen. KI-generierte Bilder erschweren nun die Suche nach den Tieren.\nDer Artikel KI-Bilder erschweren Suche nach entlaufenen Affen",
@@ -123,15 +132,6 @@
       "description": "How Netomi scales enterprise AI agents using GPT-4.1 and GPT-5.2—combining concurrency, governance, and multi-step reasoning for reliable production workflows.",
       "link": "https://openai.com/index/netomi",
       "date": "2026-01-08T13:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "OpenAI for Healthcare",
-      "description": "OpenAI for Healthcare enables secure, enterprise-grade AI that supports HIPAA compliance—reducing administrative burden and supporting clinical workflows.",
-      "link": "https://openai.com/index/openai-for-healthcare",
-      "date": "2026-01-08T12:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
