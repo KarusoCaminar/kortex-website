@@ -1,6 +1,33 @@
 {
-  "lastUpdated": "2026-01-13T18:35:47.064Z",
+  "lastUpdated": "2026-01-13T20:29:29.171Z",
   "news": [
+    {
+      "title": "KI-Bilder erschweren Suche nach entlaufenen Affen in St. Louis",
+      "description": "KI-Idiokratie auf dem Vormarsch: Mehrere Affen sind in St. Louis entlaufen. KI-generierte Bilder erschweren nun die Suche nach den Tieren.\nDer Artikel KI-Bilder erschweren Suche nach entlaufenen Affen",
+      "link": "https://the-decoder.de/ki-bilder-erschweren-suche-nach-entlaufenen-affen-in-st-louis/",
+      "date": "2026-01-13T19:43:14.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Google Deepmind aktualisiert Veo 3.1 mit Referenzbild-Funktion für dynamischere Videos",
+      "description": "Googles KI-Videogenerator Veo 3.1 erstellt jetzt dynamischere Clips aus Referenzbildern, inklusive vertikalem Format für Shorts und Hochskalierung bis 4K.\nDer Artikel Google Deepmind aktualisiert Veo",
+      "link": "https://the-decoder.de/google-deepmind-aktualisiert-veo-3-1-mit-referenzbild-funktion-fuer-dynamischere-videos/",
+      "date": "2026-01-13T19:22:13.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "China will Nvidias H200-Chips angeblich nur noch in nicht definierten Ausnahmefällen zulassen",
+      "description": "Das KI-Wettrennen zwischen den USA und China geht in die nächste Runde: Die USA erlauben wieder mehr Nvidia-Exporte, doch China schränkt die Käufe offenbar auf Sonderfälle ein. Peking will die eigene",
+      "link": "https://the-decoder.de/china-will-nvidias-h200-chips-angeblich-nur-noch-in-nicht-definierten-ausnahmefaellen-zulassen/",
+      "date": "2026-01-13T18:51:40.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Salesforce veröffentlicht neuen KI-Slackbot auf Basis von Anthropics Claude",
       "description": "Salesforce stattet Slackbot mit Anthropics KI-Modell Claude aus. Der Assistent durchsucht Slack, Salesforce und andere Dienste und soll Mitarbeitern bei der täglichen Arbeit helfen.\nDer Artikel Salesf",
@@ -65,24 +92,6 @@
       "language": "de"
     },
     {
-      "title": "Claude Cowork: Anthropic stellt \"Claude Code für Büroarbeit\" vor",
-      "description": "Mit Cowork erhält Claude Zugriff auf lokale Ordner und kann dort eigenständig Dateien organisieren, bearbeiten und erstellen. Anthropic will damit die agentenbasierte Arbeitsweise von Claude Code auch",
-      "link": "https://the-decoder.de/claude-cowork-anthropic-stellt-claude-code-fuer-bueroarbeit-vor/",
-      "date": "2026-01-13T09:03:26.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Medizinisches Gedächtnis für KI: OpenAI übernimmt Startup Torch für personalisierte Gesundheit",
-      "description": "OpenAI kauft die Gesundheits-App Torch für rund 100 Millionen Dollar und baut damit sein Angebot im Healthcare-Bereich weiter aus.\nDer Artikel Medizinisches Gedächtnis für KI: OpenAI übernimmt Startup",
-      "link": "https://the-decoder.de/medizinisches-gedaechtnis-fuer-ki-openai-uebernimmt-startup-torch-fuer-personalisierte-gesundheit/",
-      "date": "2026-01-13T07:49:45.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "NeuralGCM harnesses AI to better simulate long-range global precipitation",
       "description": "Climate & Sustainability",
       "link": "https://research.google/blog/neuralgcm-harnesses-ai-to-better-simulate-long-range-global-precipitation/",
@@ -90,15 +99,6 @@
       "source": "Google AI",
       "category": "große-modelle",
       "language": "en"
-    },
-    {
-      "title": "Apple und Google schließen mehrjährige KI-Partnerschaft für Siri",
-      "description": "Apple nutzt künftig Googles Gemini-Modelle für seine KI-Funktionen, darunter eine überarbeitete Version von Siri.\nDer Artikel Apple und Google schließen mehrjährige KI-Partnerschaft für Siri erschien",
-      "link": "https://the-decoder.de/apple-und-google-schliessen-mehrjaehrige-ki-partnerschaft-fuer-siri/",
-      "date": "2026-01-12T15:52:28.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
     },
     {
       "title": "OpenAI and SoftBank Group partner with SB Energy",
