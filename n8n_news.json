@@ -1,6 +1,33 @@
 {
-  "lastUpdated": "2026-01-14T10:30:00.490Z",
+  "lastUpdated": "2026-01-14T12:54:47.090Z",
   "news": [
+    {
+      "title": "US-Senat verabschiedet Gesetz gegen sexuelle KI-Deepfakes nach Grok-Skandal",
+      "description": "Der US-Senat reagiert auf die Flut sexualisierter KI-Bilder auf Elon Musks Plattform X mit einem neuen Gesetz. Opfer sollen künftig die Urheber verklagen können.\nDer Artikel US-Senat verabschiedet Ges",
+      "link": "https://the-decoder.de/us-senat-verabschiedet-gesetz-gegen-sexuelle-ki-deepfakes-nach-grok-skandal/",
+      "date": "2026-01-14T12:18:00.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "OpenAIs Apple-Traum ist geplatzt: Gemini übernimmt Siri, ChatGPT bleibt nur Lückenbüßer",
+      "description": "Der neue Apple-Google-Deal degradiert ChatGPT zur bloßen Notfall-Option auf dem iPhone.\nDer Artikel OpenAIs Apple-Traum ist geplatzt: Gemini übernimmt Siri, ChatGPT bleibt nur Lückenbüßer erschien zue",
+      "link": "https://the-decoder.de/openais-apple-traum-ist-geplatzt-gemini-uebernimmt-siri-chatgpt-bleibt-nur-lueckenbuesser/",
+      "date": "2026-01-14T11:54:13.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Bandcamp verbannt vollständig oder größtenteils KI-generierte Musik von der Plattform",
+      "description": "Die Musikplattform Bandcamp untersagt ab sofort Musik, die vollständig oder zu wesentlichen Teilen durch generative Künstliche Intelligenz erstellt wurde.\nDer Artikel Bandcamp verbannt vollständig ode",
+      "link": "https://the-decoder.de/bandcamp-verbannt-vollstaendig-oder-groesstenteils-ki-generierte-musik-von-der-plattform/",
+      "date": "2026-01-14T10:40:59.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Hard-braking events as indicators of road segment crash risk",
       "description": "Algorithms & Theory",
@@ -83,24 +110,6 @@
       "language": "en"
     },
     {
-      "title": "Microsoft-Analyse: Deutschland bei KI-Verbreitung nur auf Platz 21",
-      "description": "Die weltweite Nutzung generativer KI steigt weiter, doch der Abstand zwischen Industrie- und Entwicklungsländern vergrößert sich. Südkorea verzeichnet den stärksten Zuwachs, während Chinas Deepseek in",
-      "link": "https://the-decoder.de/microsoft-analyse-deutschland-bei-ki-verbreitung-nur-auf-platz-21/",
-      "date": "2026-01-13T13:47:58.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Software schreibt Software: Claude Code programmiert Claude Cowork in 1,5 Wochen",
-      "description": "Anthropics neues KI-Tool Claude Cowork wurde fast vollständig von Claude Code selbst programmiert, und das in nur anderthalb Wochen.\nDer Artikel Software schreibt Software: Claude Code programmiert Cl",
-      "link": "https://the-decoder.de/software-schreibt-software-claude-code-programmiert-claude-cowork-in-15-wochen/",
-      "date": "2026-01-13T12:57:37.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "Converge Bio raises $25M, backed by Bessemer and execs from Meta, OpenAI, Wiz",
       "description": "AI drug discovery startup Converge Bio raised $25 million in a Series A led by Bessemer Venture Partners, with additional backing from executives at Meta, OpenAI, and Wiz.",
       "link": "https://techcrunch.com/2026/01/13/ai-drug-discovery-startup-converge-bio-pulls-in-25m-from-bessemer-and-execs-from-meta-openai-and-wiz/",
@@ -123,15 +132,6 @@
       "description": "OpenAI and SoftBank Group partner with SB Energy to develop multi-gigawatt AI data center campuses, including a 1.2 GW Texas facility supporting the Stargate initiative.",
       "link": "https://openai.com/index/stargate-sb-energy-partnership",
       "date": "2026-01-09T11:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "Datadog uses Codex for system-level code review",
-      "description": "OpenAI and Datadog brand graphic with the OpenAI wordmark on the left, the Datadog logo on the right, and a central abstract brown fur-like texture panel on a white background.",
-      "link": "https://openai.com/index/datadog",
-      "date": "2026-01-09T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
