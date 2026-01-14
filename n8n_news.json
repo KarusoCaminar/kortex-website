@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-01-14T18:38:11.365Z",
+  "lastUpdated": "2026-01-14T20:25:57.404Z",
   "news": [
+    {
+      "title": "OpenAI macht GPT-5.2-Codex über Responses-API für Entwickler verfügbar",
+      "description": "OpenAI öffnet sein intelligentestes Coding-Modell GPT-5.2-Codex für die API.\nDer Artikel OpenAI macht GPT-5.2-Codex über Responses-API für Entwickler verfügbar erschien zuerst auf The Decoder.",
+      "link": "https://the-decoder.de/openai-macht-gpt-5-2-codex-ueber-responses-api-fuer-entwickler-verfuegbar/",
+      "date": "2026-01-14T19:06:42.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "KI PRO Webinar | Datenschutz und KI: Risiken erkennen, Chancen nutzen",
+      "description": "Datenschutz und KI – passt das zusammen? Die Nutzung von KI-Technologien wirft zahlreiche rechtliche Fragen auf, die Unternehmen nicht ignorieren können. Unser Webinar zeigt, wie Sie KI-Systeme datens",
+      "link": "https://the-decoder.de/ki-pro-webinar-datenschutz-und-ki-risiken-erkennen-chancen-nutzen/",
+      "date": "2026-01-14T18:56:40.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Matthew McConaughey sichert sich Markenrechte zum Schutz vor KI-Fälschungen",
       "description": "Alright, alright, alright – Matthew McConaughey hat seinen berühmten Spruch aus \"Dazed and Confused\" jetzt als Markenzeichen schützen lassen, um sich gegen KI-Fälschungen zu wehren.\nDer Artikel Matthe",
@@ -45,6 +63,15 @@
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
+    },
+    {
+      "title": "OpenAI partners with Cerebras",
+      "description": "OpenAI partners with Cerebras to add 750MW of high-speed AI compute, reducing inference latency and making ChatGPT faster for real-time AI workloads.",
+      "link": "https://openai.com/index/cerebras-partnership",
+      "date": "2026-01-14T14:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
     },
     {
       "title": "US-Senat verabschiedet Gesetz gegen sexuelle KI-Deepfakes nach Grok-Skandal",
@@ -92,15 +119,6 @@
       "language": "en"
     },
     {
-      "title": "KI-Bilder erschweren Suche nach entlaufenen Affen in St. Louis",
-      "description": "KI-Idiokratie auf dem Vormarsch: Mehrere Affen sind in St. Louis entlaufen. KI-generierte Bilder erschweren nun die Suche nach den Tieren.\nDer Artikel KI-Bilder erschweren Suche nach entlaufenen Affen",
-      "link": "https://the-decoder.de/ki-bilder-erschweren-suche-nach-entlaufenen-affen-in-st-louis/",
-      "date": "2026-01-13T19:43:14.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "Zenken boosts a lean sales team with ChatGPT Enterprise",
       "description": "By rolling out ChatGPT Enterprise company-wide, Zenken has boosted sales performance, cut preparation time, and increased proposal success rates. AI-supported workflows are helping a lean team deliver",
       "link": "https://openai.com/index/zenken",
@@ -115,24 +133,6 @@
       "link": "https://techcrunch.com/2026/01/13/ai-drug-discovery-startup-converge-bio-pulls-in-25m-from-bessemer-and-execs-from-meta-openai-and-wiz/",
       "date": "2026-01-13T11:30:00.000Z",
       "source": "TechCrunch AI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "NeuralGCM harnesses AI to better simulate long-range global precipitation",
-      "description": "Climate & Sustainability",
-      "link": "https://research.google/blog/neuralgcm-harnesses-ai-to-better-simulate-long-range-global-precipitation/",
-      "date": "2026-01-12T17:52:00.000Z",
-      "source": "Google AI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "OpenAI and SoftBank Group partner with SB Energy",
-      "description": "OpenAI and SoftBank Group partner with SB Energy to develop multi-gigawatt AI data center campuses, including a 1.2 GW Texas facility supporting the Stargate initiative.",
-      "link": "https://openai.com/index/stargate-sb-energy-partnership",
-      "date": "2026-01-09T11:00:00.000Z",
-      "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
     }
