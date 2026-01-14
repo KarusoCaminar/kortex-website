@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-01-14T08:35:48.240Z",
+  "lastUpdated": "2026-01-14T10:30:00.490Z",
   "news": [
     {
       "title": "Hard-braking events as indicators of road segment crash risk",
@@ -110,15 +110,6 @@
       "language": "en"
     },
     {
-      "title": "Basecamp Research kartiert eine Million Spezies für KI-gestützte Medikamente",
-      "description": "Das britische Unternehmen Basecamp Research hat gemeinsam mit Forschern von Nvidia und Microsoft KI-Modelle entwickelt, die aus einer Datenbank von über einer Million Spezies potenzielle neue Therapie",
-      "link": "https://the-decoder.de/basecamp-research-kartiert-eine-million-spezies-fuer-ki-gestuetzte-medikamente/",
-      "date": "2026-01-13T10:43:04.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "NeuralGCM harnesses AI to better simulate long-range global precipitation",
       "description": "Climate & Sustainability",
       "link": "https://research.google/blog/neuralgcm-harnesses-ai-to-better-simulate-long-range-global-precipitation/",
@@ -132,6 +123,15 @@
       "description": "OpenAI and SoftBank Group partner with SB Energy to develop multi-gigawatt AI data center campuses, including a 1.2 GW Texas facility supporting the Stargate initiative.",
       "link": "https://openai.com/index/stargate-sb-energy-partnership",
       "date": "2026-01-09T11:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
+      "title": "Datadog uses Codex for system-level code review",
+      "description": "OpenAI and Datadog brand graphic with the OpenAI wordmark on the left, the Datadog logo on the right, and a central abstract brown fur-like texture panel on a white background.",
+      "link": "https://openai.com/index/datadog",
+      "date": "2026-01-09T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
