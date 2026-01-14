@@ -1,9 +1,45 @@
 {
-  "lastUpdated": "2026-01-14T16:35:36.729Z",
+  "lastUpdated": "2026-01-14T18:38:11.365Z",
   "news": [
     {
+      "title": "Matthew McConaughey sichert sich Markenrechte zum Schutz vor KI-Fälschungen",
+      "description": "Alright, alright, alright – Matthew McConaughey hat seinen berühmten Spruch aus \"Dazed and Confused\" jetzt als Markenzeichen schützen lassen, um sich gegen KI-Fälschungen zu wehren.\nDer Artikel Matthe",
+      "link": "https://the-decoder.de/matthew-mcconaughey-sichert-sich-markenrechte-zum-schutz-vor-ki-faelschungen/",
+      "date": "2026-01-14T18:33:40.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Anthropic erweitert Labs-Team für experimentelle KI-Produkte",
+      "description": "Anthropic erweitert sein Labs-Team für experimentelle KI-Produkte. Instagram-Mitgründer Mike Krieger wechselt vom Chief Product Officer in die Entwicklung.\nDer Artikel Anthropic erweitert Labs-Team fü",
+      "link": "https://the-decoder.de/anthropic-erweitert-labs-team-fuer-experimentelle-ki-produkte/",
+      "date": "2026-01-14T18:07:17.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Trotz OpenAI-Partnerschaft: Microsoft ist einer der größten Kunden der Claude-Firma Anthropic",
+      "description": "Microsoft zahlt eine halbe Milliarde für Anthropic-KI - und stärkt damit seine Position gegenüber OpenAI.\nDer Artikel Trotz OpenAI-Partnerschaft: Microsoft ist einer der größten Kunden der Claude-Firm",
+      "link": "https://the-decoder.de/trotz-openai-partnerschaft-microsoft-ist-einer-der-groessten-kunden-der-claude-firma-anthropic/",
+      "date": "2026-01-14T17:42:53.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "\"Personal Intelligence\": Google spielt bei Gemini jetzt seinen großen Datenvorteil aus",
+      "description": "Google weiß, wohin ich in den Urlaub gefahren bin, was ich gekauft habe und wem ich schreibe. Jetzt soll dieses Wissen meinen KI-Assistenten schlauer machen. Die neue Funktion \"Personal Intelligence\"",
+      "link": "https://the-decoder.de/personal-intelligence-google-spielt-bei-gemini-jetzt-seinen-grossen-datenvorteil-aus/",
+      "date": "2026-01-14T17:00:11.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
       "title": "Telekom-Kunden beschweren sich künftig bei KI-Agenten von Elevenlabs",
-      "description": "Die Deutsche Telekom setzt ab sofort KI-Sprachagenten von Elevenlabs im Kundenservice ein.\nDer Artikel Telekom-Kunden beschweren sich künftig bei KI-Agenten von Elevenlabs erschien zuerst auf The Deco",
+      "description": "Die Deutsche Telekom setzt bald KI-Sprachagenten von Elevenlabs im Kundenservice ein.\nDer Artikel Telekom-Kunden beschweren sich künftig bei KI-Agenten von Elevenlabs erschien zuerst auf The Decoder.",
       "link": "https://the-decoder.de/telekom-kunden-beschweren-sich-kuenftig-bei-ki-stimmen-von-elevenlabs/",
       "date": "2026-01-14T16:34:36.000Z",
       "source": "The Decoder",
@@ -60,42 +96,6 @@
       "description": "KI-Idiokratie auf dem Vormarsch: Mehrere Affen sind in St. Louis entlaufen. KI-generierte Bilder erschweren nun die Suche nach den Tieren.\nDer Artikel KI-Bilder erschweren Suche nach entlaufenen Affen",
       "link": "https://the-decoder.de/ki-bilder-erschweren-suche-nach-entlaufenen-affen-in-st-louis/",
       "date": "2026-01-13T19:43:14.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Google Deepmind aktualisiert Veo 3.1 mit Referenzbild-Funktion für dynamischere Videos",
-      "description": "Googles KI-Videogenerator Veo 3.1 erstellt jetzt dynamischere Clips aus Referenzbildern, inklusive vertikalem Format für Shorts und Hochskalierung bis 4K.\nDer Artikel Google Deepmind aktualisiert Veo",
-      "link": "https://the-decoder.de/google-deepmind-aktualisiert-veo-3-1-mit-referenzbild-funktion-fuer-dynamischere-videos/",
-      "date": "2026-01-13T19:22:13.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "China will Nvidias H200-Chips angeblich nur noch in nicht definierten Ausnahmefällen zulassen",
-      "description": "Das KI-Wettrennen zwischen den USA und China geht in die nächste Runde: Die USA erlauben wieder mehr Nvidia-Exporte, doch China schränkt die Käufe offenbar auf Sonderfälle ein. Peking will die eigene",
-      "link": "https://the-decoder.de/china-will-nvidias-h200-chips-angeblich-nur-noch-in-nicht-definierten-ausnahmefaellen-zulassen/",
-      "date": "2026-01-13T18:51:40.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Salesforce veröffentlicht neuen KI-Slackbot auf Basis von Anthropics Claude",
-      "description": "Salesforce stattet Slackbot mit Anthropics KI-Modell Claude aus. Der Assistent durchsucht Slack, Salesforce und andere Dienste und soll Mitarbeitern bei der täglichen Arbeit helfen.\nDer Artikel Salesf",
-      "link": "https://the-decoder.de/salesforce-veroeffentlicht-neuen-ki-slackbot-auf-basis-von-anthropics-claude/",
-      "date": "2026-01-13T18:26:47.000Z",
-      "source": "The Decoder",
-      "category": "sales-tools",
-      "language": "de"
-    },
-    {
-      "title": "OpenAIs KI-Wearable \"Sweetpea\" soll Apples Airpods Konkurrenz machen",
-      "description": "Ein neuer Leak enthüllt Details zu OpenAIs geplanter Hardware: Das Audio-Wearable \"Sweetpea\" soll mit einzigartigem Design, Muskel-Sensoren und Siri-Steuerung Apples AirPods angreifen. Foxconn bereite",
-      "link": "https://the-decoder.de/openais-ki-wearable-sweetpea-soll-apples-airpods-konkurrenz-machen/",
-      "date": "2026-01-13T17:48:12.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
