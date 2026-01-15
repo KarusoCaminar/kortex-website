@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-01-15T08:35:54.091Z",
+  "lastUpdated": "2026-01-15T10:29:19.524Z",
   "news": [
+    {
+      "title": "OpenAI kauft Rechenpower für über zehn Milliarden Dollar bei Cerebras",
+      "description": "Der ChatGPT-Entwickler schließt eine Vereinbarung über mehr als zehn Milliarden Dollar mit Cerebras Systems ab. Die Partnerschaft soll OpenAIs Rechenkapazitäten erweitern.\nDer Artikel OpenAI kauft Rec",
+      "link": "https://the-decoder.de/openai-kauft-rechenpower-fuer-ueber-zehn-milliarden-dollar-bei-cerebras/",
+      "date": "2026-01-15T10:25:06.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "OpenAI holt drei Top-Forscher von Mira Muratis Startup Thinking Machines zurück",
+      "description": "OpenAI holt drei Mitarbeiter von Mira Muratis Startup Thinking Machines zurück – darunter einen gerade gefeuerten Mitgründer.\nDer Artikel OpenAI holt drei Top-Forscher von Mira Muratis Startup Thinkin",
+      "link": "https://the-decoder.de/openai-holt-drei-top-forscher-von-mira-muratis-startup-thinking-machines-zurueck/",
+      "date": "2026-01-15T08:57:23.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "OpenAI macht GPT-5.2-Codex über Responses-API für Entwickler verfügbar",
       "description": "OpenAI öffnet sein intelligentestes Coding-Modell GPT-5.2-Codex für die API.\nDer Artikel OpenAI macht GPT-5.2-Codex über Responses-API für Entwickler verfügbar erschien zuerst auf The Decoder.",
@@ -78,24 +96,6 @@
       "description": "Der US-Senat reagiert auf die Flut sexualisierter KI-Bilder auf Elon Musks Plattform X mit einem neuen Gesetz. Opfer sollen künftig die Urheber verklagen können.\nDer Artikel US-Senat verabschiedet Ges",
       "link": "https://the-decoder.de/us-senat-verabschiedet-gesetz-gegen-sexuelle-ki-deepfakes-nach-grok-skandal/",
       "date": "2026-01-14T12:18:00.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "OpenAIs Apple-Traum ist geplatzt: Gemini übernimmt Siri, ChatGPT bleibt nur Lückenbüßer",
-      "description": "Der neue Apple-Google-Deal degradiert ChatGPT zur bloßen Notfall-Option auf dem iPhone.\nDer Artikel OpenAIs Apple-Traum ist geplatzt: Gemini übernimmt Siri, ChatGPT bleibt nur Lückenbüßer erschien zue",
-      "link": "https://the-decoder.de/openais-apple-traum-ist-geplatzt-gemini-uebernimmt-siri-chatgpt-bleibt-nur-lueckenbuesser/",
-      "date": "2026-01-14T11:54:13.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Bandcamp verbannt vollständig oder größtenteils KI-generierte Musik von der Plattform",
-      "description": "Die Musikplattform Bandcamp untersagt ab sofort Musik, die vollständig oder zu wesentlichen Teilen durch generative Künstliche Intelligenz erstellt wurde.\nDer Artikel Bandcamp verbannt vollständig ode",
-      "link": "https://the-decoder.de/bandcamp-verbannt-vollstaendig-oder-groesstenteils-ki-generierte-musik-von-der-plattform/",
-      "date": "2026-01-14T10:40:59.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
