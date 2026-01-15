@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-01-15T12:53:37.231Z",
+  "lastUpdated": "2026-01-15T14:28:31.784Z",
   "news": [
+    {
+      "title": "Anthropic halbiert KI-Produktivitätsprognosen für US-Wirtschaft nach Analyse von Claudes Fehlerquoten",
+      "description": "Anthropic analysiert erstmals systematisch, wie oft Claude bei Aufgaben scheitert. Die Daten zeigen: Je komplexer die Arbeit, desto geringer die Erfolgsquote. Das Unternehmen korrigiert seine Produkti",
+      "link": "https://the-decoder.de/anthropic-veroeffentlicht-erfolgsraten-von-claude-und-daempft-erwartungen-an-produktivitaetsgewinne/",
+      "date": "2026-01-15T13:15:45.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "GLM-Image: Offenes Bildmodell von Zhipu AI für exakte Prompts und starke Textdarstellung",
+      "description": "Das chinesische KI-Unternehmen Zhipu AI setzt auf eine Kombination aus autoregressivem Sprachmodell und Diffusions-Decoder. Das Modell mit insgesamt 16 Milliarden Parametern soll besonders bei Text in",
+      "link": "https://the-decoder.de/glm-image-offenes-bildmodell-von-zhipu-ai-fuer-exakte-prompts-und-starke-textdarstellung/",
+      "date": "2026-01-15T13:01:19.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "OpenAI veröffentlicht mit \"ChatGPT Translate\" ein eigenes Übersetzungstool",
       "description": "OpenAI hat still und leise ein neues Übersetzungstool gestartet. Doch bei ersten Tests zeigt sich: ChatGPT Translate ist eher ein Einstiegspunkt für den Chatbot als ein ernsthafter Konkurrent für Goog",
@@ -69,24 +87,6 @@
       "description": "Microsoft zahlt eine halbe Milliarde für Anthropic-KI - und stärkt damit seine Position gegenüber OpenAI.\nDer Artikel Trotz OpenAI-Partnerschaft: Microsoft ist einer der größten Kunden der Claude-Firm",
       "link": "https://the-decoder.de/trotz-openai-partnerschaft-microsoft-ist-einer-der-groessten-kunden-der-claude-firma-anthropic/",
       "date": "2026-01-14T17:42:53.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "\"Personal Intelligence\": Google spielt bei Gemini jetzt seinen großen Datenvorteil aus",
-      "description": "Google weiß, wohin ich in den Urlaub gefahren bin, was ich gekauft habe und wem ich schreibe. Jetzt soll dieses Wissen meinen KI-Assistenten schlauer machen. Die neue Funktion \"Personal Intelligence\"",
-      "link": "https://the-decoder.de/personal-intelligence-google-spielt-bei-gemini-jetzt-seinen-grossen-datenvorteil-aus/",
-      "date": "2026-01-14T17:00:11.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Telekom-Kunden beschweren sich künftig bei KI-Agenten von Elevenlabs",
-      "description": "Die Deutsche Telekom setzt bald KI-Sprachagenten von Elevenlabs im Kundenservice ein.\nDer Artikel Telekom-Kunden beschweren sich künftig bei KI-Agenten von Elevenlabs erschien zuerst auf The Decoder.",
-      "link": "https://the-decoder.de/telekom-kunden-beschweren-sich-kuenftig-bei-ki-stimmen-von-elevenlabs/",
-      "date": "2026-01-14T16:34:36.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
