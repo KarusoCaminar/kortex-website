@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-01-15T10:29:19.524Z",
+  "lastUpdated": "2026-01-15T12:53:37.231Z",
   "news": [
+    {
+      "title": "OpenAI veröffentlicht mit \"ChatGPT Translate\" ein eigenes Übersetzungstool",
+      "description": "OpenAI hat still und leise ein neues Übersetzungstool gestartet. Doch bei ersten Tests zeigt sich: ChatGPT Translate ist eher ein Einstiegspunkt für den Chatbot als ein ernsthafter Konkurrent für Goog",
+      "link": "https://the-decoder.de/openai-veroeffentlicht-mit-chatgpt-translate-ein-eigenes-uebersetzungstool/",
+      "date": "2026-01-15T12:30:08.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "OpenAI kauft Rechenpower für über zehn Milliarden Dollar bei Cerebras",
       "description": "Der ChatGPT-Entwickler schließt eine Vereinbarung über mehr als zehn Milliarden Dollar mit Cerebras Systems ab. Die Partnerschaft soll OpenAIs Rechenkapazitäten erweitern.\nDer Artikel OpenAI kauft Rec",
@@ -90,15 +99,6 @@
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
-    },
-    {
-      "title": "US-Senat verabschiedet Gesetz gegen sexuelle KI-Deepfakes nach Grok-Skandal",
-      "description": "Der US-Senat reagiert auf die Flut sexualisierter KI-Bilder auf Elon Musks Plattform X mit einem neuen Gesetz. Opfer sollen künftig die Urheber verklagen können.\nDer Artikel US-Senat verabschiedet Ges",
-      "link": "https://the-decoder.de/us-senat-verabschiedet-gesetz-gegen-sexuelle-ki-deepfakes-nach-grok-skandal/",
-      "date": "2026-01-14T12:18:00.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
     },
     {
       "title": "Hard-braking events as indicators of road segment crash risk",
