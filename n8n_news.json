@@ -1,6 +1,33 @@
 {
-  "lastUpdated": "2026-01-15T16:38:55.157Z",
+  "lastUpdated": "2026-01-15T18:41:24.362Z",
   "news": [
+    {
+      "title": "Konter gegen China: OpenAI will US-Lieferketten für KI-Infrastruktur stärken",
+      "description": "OpenAI will KI-Hardware in den USA produzieren lassen und sucht dafür Hersteller und Zulieferer. Die Ankündigung folgt auf Chinas Bemühungen, sich von westlicher Chip-Technologie unabhängig zu machen.",
+      "link": "https://the-decoder.de/konter-gegen-china-openai-will-us-lieferketten-fuer-ki-infrastruktur-staerken/",
+      "date": "2026-01-15T18:13:31.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Elon Musks xAI schränkt Grok-Bildgenerierung nach Deepfake-Skandal massiv ein",
+      "description": "Elon Musks Chatbot Grok kann keine Bilder von echten Menschen mehr entkleiden – zumindest dort, wo es illegal ist. Die Maßnahme kommt nach tagelangem Missbrauch und laufenden Ermittlungen in Großbrita",
+      "link": "https://the-decoder.de/elon-musks-xai-schraenkt-grok-bildgenerierung-nach-deepfake-skandal-massiv-ein/",
+      "date": "2026-01-15T17:27:16.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "OpenAI investiert in Gehirn-Computer-Schnittstellen Start-up Merge Labs",
+      "description": "OpenAI investiert in ein Start-up für Gehirn-Computer-Schnittstellen, das von Sam Altman mitgegründet wurde.\nDer Artikel OpenAI investiert in Gehirn-Computer-Schnittstellen Start-up Merge Labs erschie",
+      "link": "https://the-decoder.de/openai-investiert-in-gehirn-computer-schnittstellen-start-up-merge-labs/",
+      "date": "2026-01-15T16:47:30.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Anthropic halbiert KI-Produktivitätsprognosen für US-Wirtschaft nach Analyse von Claudes Fehlerquoten",
       "description": "Anthropic analysiert erstmals systematisch, wie oft Claude bei Aufgaben scheitert. Die Daten zeigen: Je komplexer die Arbeit, desto geringer die Erfolgsquote. Das Unternehmen korrigiert seine Produkti",
@@ -78,33 +105,6 @@
       "description": "Datenschutz und KI – passt das zusammen? Die Nutzung von KI-Technologien wirft zahlreiche rechtliche Fragen auf, die Unternehmen nicht ignorieren können. Unser Webinar zeigt, wie Sie KI-Systeme datens",
       "link": "https://the-decoder.de/ki-pro-webinar-datenschutz-und-ki-risiken-erkennen-chancen-nutzen/",
       "date": "2026-01-14T18:56:40.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Matthew McConaughey sichert sich Markenrechte zum Schutz vor KI-Fälschungen",
-      "description": "Alright, alright, alright – Matthew McConaughey hat seinen berühmten Spruch aus \"Dazed and Confused\" jetzt als Markenzeichen schützen lassen, um sich gegen KI-Fälschungen zu wehren.\nDer Artikel Matthe",
-      "link": "https://the-decoder.de/matthew-mcconaughey-sichert-sich-markenrechte-zum-schutz-vor-ki-faelschungen/",
-      "date": "2026-01-14T18:33:40.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Anthropic erweitert Labs-Team für experimentelle KI-Produkte",
-      "description": "Anthropic erweitert sein Labs-Team für experimentelle KI-Produkte. Instagram-Mitgründer Mike Krieger wechselt vom Chief Product Officer in die Entwicklung.\nDer Artikel Anthropic erweitert Labs-Team fü",
-      "link": "https://the-decoder.de/anthropic-erweitert-labs-team-fuer-experimentelle-ki-produkte/",
-      "date": "2026-01-14T18:07:17.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Trotz OpenAI-Partnerschaft: Microsoft ist einer der größten Kunden der Claude-Firma Anthropic",
-      "description": "Microsoft zahlt eine halbe Milliarde für Anthropic-KI - und stärkt damit seine Position gegenüber OpenAI.\nDer Artikel Trotz OpenAI-Partnerschaft: Microsoft ist einer der größten Kunden der Claude-Firm",
-      "link": "https://the-decoder.de/trotz-openai-partnerschaft-microsoft-ist-einer-der-groessten-kunden-der-claude-firma-anthropic/",
-      "date": "2026-01-14T17:42:53.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
