@@ -1,6 +1,33 @@
 {
-  "lastUpdated": "2026-01-15T18:41:24.362Z",
+  "lastUpdated": "2026-01-15T20:30:20.356Z",
   "news": [
+    {
+      "title": "Amazon, Meta, Microsoft und mehr: Wikimedia Enterprise gewinnt KI-Riesen als zahlende Kunden",
+      "description": "Wikipedia gewinnt Amazon, Meta, Microsoft, Mistral AI und Perplexity als zahlende Partner für ihre Inhalte.\nDer Artikel Amazon, Meta, Microsoft und mehr: Wikimedia Enterprise gewinnt KI-Riesen als zah",
+      "link": "https://the-decoder.de/amazon-meta-microsoft-und-mehr-wikimedia-enterprise-gewinnt-ki-riesen-als-zahlende-kunden/",
+      "date": "2026-01-15T20:03:47.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "TranslateGemma: Google veröffentlicht offene KI-Modelle für Übersetzungen",
+      "description": "TranslateGemma zeigt, wie Google mit gezieltem Training mehr aus kleineren Modellen herausholt: Das 12B-Modell übersetzt besser als das doppelt so große Basismodell – und läuft auf einem Consumer-Lapt",
+      "link": "https://the-decoder.de/translategemma-google-veroeffentlicht-offene-ki-modelle-fuer-uebersetzungen/",
+      "date": "2026-01-15T19:23:58.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "OpenAI lehnte Rolle als exklusiver KI-Lieferant für Apple angeblich bewusst ab",
+      "description": "OpenAI wollte angeblich nie Apples KI-Partner werden und konzentriert sich stattdessen auf eigene Hardware. Die ChatGPT-Integration auf dem iPhone wurde angeblich kaum genutzt.\nDer Artikel OpenAI lehn",
+      "link": "https://the-decoder.de/openai-lehnte-rolle-als-exklusiver-ki-lieferant-fuer-apple-angeblich-bewusst-ab/",
+      "date": "2026-01-15T18:46:13.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Konter gegen China: OpenAI will US-Lieferketten für KI-Infrastruktur stärken",
       "description": "OpenAI will KI-Hardware in den USA produzieren lassen und sucht dafür Hersteller und Zulieferer. Die Ankündigung folgt auf Chinas Bemühungen, sich von westlicher Chip-Technologie unabhängig zu machen.",
@@ -65,15 +92,6 @@
       "language": "de"
     },
     {
-      "title": "OpenAI holt drei Top-Forscher von Mira Muratis Startup Thinking Machines zurück",
-      "description": "OpenAI holt drei Mitarbeiter von Mira Muratis Startup Thinking Machines zurück – darunter einen gerade gefeuerten Mitgründer.\nDer Artikel OpenAI holt drei Top-Forscher von Mira Muratis Startup Thinkin",
-      "link": "https://the-decoder.de/openai-holt-drei-top-forscher-von-mira-muratis-startup-thinking-machines-zurueck/",
-      "date": "2026-01-15T08:57:23.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "Investing in Merge Labs",
       "description": "OpenAI is investing in Merge Labs to support new brain computer interfaces that bridge biological and artificial intelligence to maximize human ability, agency, and experience.",
       "link": "https://openai.com/index/investing-in-merge-labs",
@@ -90,24 +108,6 @@
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
-    },
-    {
-      "title": "OpenAI macht GPT-5.2-Codex über Responses-API für Entwickler verfügbar",
-      "description": "OpenAI öffnet sein intelligentestes Coding-Modell GPT-5.2-Codex für die API.\nDer Artikel OpenAI macht GPT-5.2-Codex über Responses-API für Entwickler verfügbar erschien zuerst auf The Decoder.",
-      "link": "https://the-decoder.de/openai-macht-gpt-5-2-codex-ueber-responses-api-fuer-entwickler-verfuegbar/",
-      "date": "2026-01-14T19:06:42.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "KI PRO Webinar | Datenschutz und KI: Risiken erkennen, Chancen nutzen",
-      "description": "Datenschutz und KI – passt das zusammen? Die Nutzung von KI-Technologien wirft zahlreiche rechtliche Fragen auf, die Unternehmen nicht ignorieren können. Unser Webinar zeigt, wie Sie KI-Systeme datens",
-      "link": "https://the-decoder.de/ki-pro-webinar-datenschutz-und-ki-risiken-erkennen-chancen-nutzen/",
-      "date": "2026-01-14T18:56:40.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
     },
     {
       "title": "OpenAI partners with Cerebras",
