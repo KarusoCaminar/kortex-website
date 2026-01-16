@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-01-16T18:37:52.116Z",
+  "lastUpdated": "2026-01-16T20:25:50.394Z",
   "news": [
+    {
+      "title": "\"Open Responses\": OpenAI will eigene API-Struktur zum offenen Standard für die gesamte KI-Branche machen",
+      "description": "OpenAI will einen Standard für KI-Schnittstellen etablieren, und zwar auf Basis der eigenen Technologie.\nDer Artikel \"Open Responses\": OpenAI will eigene API-Struktur zum offenen Standard für die gesa",
+      "link": "https://the-decoder.de/open-responses-openai-will-eigene-api-struktur-zum-offenen-standard-fuer-die-gesamte-ki-branche-machen/",
+      "date": "2026-01-16T19:16:41.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "OpenAI macht's offiziell: ChatGPT bekommt Werbung",
+      "description": "OpenAI kündigt Werbung in ChatGPT an – trotz früherer Bedenken von CEO Sam Altman. Die Anzeigen sollen helfen, die enorme Unternehmensbewertung von bis zu 750 Milliarden US-Dollar zu rechtfertigen. De",
+      "link": "https://the-decoder.de/openai-machts-offiziell-chatgpt-bekommt-werbung/",
+      "date": "2026-01-16T18:42:40.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Anthropic öffnet neuen KI-Agenten Claude Cowork für alle Pro-Abonnenten",
       "description": "Anthropics neues Agenten-Feature Cowork steht jetzt auch Pro-Nutzern offen. Die Funktion war zunächst nur für Max-Abonnenten verfügbar.\nDer Artikel Anthropic öffnet neuen KI-Agenten Claude Cowork für",
@@ -96,24 +114,6 @@
       "description": "TranslateGemma zeigt, wie Google mit gezieltem Training mehr aus kleineren Modellen herausholt: Das 12B-Modell übersetzt besser als das doppelt so große Basismodell – und läuft auf einem Consumer-Lapt",
       "link": "https://the-decoder.de/translategemma-google-veroeffentlicht-offene-ki-modelle-fuer-uebersetzungen/",
       "date": "2026-01-15T19:23:58.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "OpenAI lehnte Rolle als exklusiver KI-Lieferant für Apple angeblich bewusst ab",
-      "description": "OpenAI wollte angeblich nie Apples KI-Partner werden und konzentriert sich stattdessen auf eigene Hardware. Die ChatGPT-Integration auf dem iPhone wurde angeblich kaum genutzt.\nDer Artikel OpenAI lehn",
-      "link": "https://the-decoder.de/openai-lehnte-rolle-als-exklusiver-ki-lieferant-fuer-apple-angeblich-bewusst-ab/",
-      "date": "2026-01-15T18:46:13.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Konter gegen China: OpenAI will US-Lieferketten für KI-Infrastruktur stärken",
-      "description": "OpenAI will KI-Hardware in den USA produzieren lassen und sucht dafür Hersteller und Zulieferer. Die Ankündigung folgt auf Chinas Bemühungen, sich von westlicher Chip-Technologie unabhängig zu machen.",
-      "link": "https://the-decoder.de/konter-gegen-china-openai-will-us-lieferketten-fuer-ki-infrastruktur-staerken/",
-      "date": "2026-01-15T18:13:31.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
