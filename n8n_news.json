@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-01-15T22:25:49.392Z",
+  "lastUpdated": "2026-01-16T02:00:32.418Z",
   "news": [
+    {
+      "title": "Unlocking health insights: Estimating advanced walking metrics with smartwatches",
+      "description": "Health & Bioscience",
+      "link": "https://research.google/blog/unlocking-health-insights-estimating-advanced-walking-metrics-with-smartwatches/",
+      "date": "2026-01-15T22:56:49.000Z",
+      "source": "Google AI",
+      "category": "große-modelle",
+      "language": "en"
+    },
     {
       "title": "Amazon, Meta, Microsoft und mehr: Wikimedia Enterprise gewinnt KI-Riesen als zahlende Kunden",
       "description": "Wikipedia gewinnt Amazon, Meta, Microsoft, Mistral AI und Perplexity als zahlende Partner für ihre Inhalte.\nDer Artikel Amazon, Meta, Microsoft und mehr: Wikimedia Enterprise gewinnt KI-Riesen als zah",
@@ -123,15 +132,6 @@
       "description": "Algorithms & Theory",
       "link": "https://research.google/blog/hard-braking-events-as-indicators-of-road-segment-crash-risk/",
       "date": "2026-01-13T22:44:00.000Z",
-      "source": "Google AI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "Next generation medical image interpretation with MedGemma 1.5 and medical speech to text with MedASR",
-      "description": "Generative AI",
-      "link": "https://research.google/blog/next-generation-medical-image-interpretation-with-medgemma-15-and-medical-speech-to-text-with-medasr/",
-      "date": "2026-01-13T20:57:16.000Z",
       "source": "Google AI",
       "category": "große-modelle",
       "language": "en"
