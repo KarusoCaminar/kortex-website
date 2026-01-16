@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-01-16T08:34:44.707Z",
+  "lastUpdated": "2026-01-16T10:28:41.122Z",
   "news": [
+    {
+      "title": "OpenAI verliert führende Sicherheitsforscherin an Anthropic",
+      "description": "Andrea Vallone, eine führende Sicherheitsforscherin bei OpenAI, ist zu Anthropic gewechselt.\nDer Artikel OpenAI verliert führende Sicherheitsforscherin an Anthropic erschien zuerst auf The Decoder.",
+      "link": "https://the-decoder.de/openai-verliert-fuehrende-sicherheitsforscherin-an-anthropic/",
+      "date": "2026-01-16T09:45:26.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Unlocking health insights: Estimating advanced walking metrics with smartwatches",
       "description": "Health & Bioscience",
@@ -87,15 +96,6 @@
       "description": "OpenAI hat still und leise ein neues Übersetzungstool gestartet. Doch bei ersten Tests zeigt sich: ChatGPT Translate ist eher ein Einstiegspunkt für den Chatbot als ein ernsthafter Konkurrent für Goog",
       "link": "https://the-decoder.de/openai-veroeffentlicht-mit-chatgpt-translate-ein-eigenes-uebersetzungstool/",
       "date": "2026-01-15T12:30:08.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "OpenAI kauft Rechenpower für über zehn Milliarden Dollar bei Cerebras",
-      "description": "Der ChatGPT-Entwickler schließt eine Vereinbarung über mehr als zehn Milliarden Dollar mit Cerebras Systems ab. Die Partnerschaft soll OpenAIs Rechenkapazitäten erweitern.\nDer Artikel OpenAI kauft Rec",
-      "link": "https://the-decoder.de/openai-kauft-rechenpower-fuer-ueber-zehn-milliarden-dollar-bei-cerebras/",
-      "date": "2026-01-15T10:25:06.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
