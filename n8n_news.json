@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-01-16T10:28:41.122Z",
+  "lastUpdated": "2026-01-16T12:52:48.160Z",
   "news": [
+    {
+      "title": "Webseitenbetreiber sollen für KI-Training bezahlt werden: Cloudflare übernimmt Human Native",
+      "description": "Cloudflare will mit der Übernahme des britischen Startups Human Native ein neues Bezahlmodell aufbauen.\nDer Artikel Webseitenbetreiber sollen für KI-Training bezahlt werden: Cloudflare übernimmt Human",
+      "link": "https://the-decoder.de/webseitenbetreiber-sollen-fuer-ki-training-bezahlt-werden-cloudflare-uebernimmt-human-native/",
+      "date": "2026-01-16T12:47:37.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "\"Artificial Hivemind\": Forscher befürchten kulturelle Verarmung durch homogene KI-Outputs",
+      "description": "Eine groß angelegte Untersuchung zeigt, dass unterschiedliche KI-Sprachmodelle bei offenen Aufgaben überraschend ähnliche Antworten produzieren. Die Forscher warnen vor langfristigen Folgen für die me",
+      "link": "https://the-decoder.de/artificial-hivemind-forscher-befuerchten-kulturelle-verarmung-durch-homogene-ki-outputs/",
+      "date": "2026-01-16T11:38:49.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "OpenAI verliert führende Sicherheitsforscherin an Anthropic",
       "description": "Andrea Vallone, eine führende Sicherheitsforscherin bei OpenAI, ist zu Anthropic gewechselt.\nDer Artikel OpenAI verliert führende Sicherheitsforscherin an Anthropic erschien zuerst auf The Decoder.",
@@ -78,24 +96,6 @@
       "description": "Anthropic analysiert erstmals systematisch, wie oft Claude bei Aufgaben scheitert. Die Daten zeigen: Je komplexer die Arbeit, desto geringer die Erfolgsquote. Das Unternehmen korrigiert seine Produkti",
       "link": "https://the-decoder.de/anthropic-veroeffentlicht-erfolgsraten-von-claude-und-daempft-erwartungen-an-produktivitaetsgewinne/",
       "date": "2026-01-15T13:15:45.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "GLM-Image: Offenes Bildmodell von Zhipu AI für exakte Prompts und starke Textdarstellung",
-      "description": "Das chinesische KI-Unternehmen Zhipu AI setzt auf eine Kombination aus autoregressivem Sprachmodell und Diffusions-Decoder. Das Modell mit insgesamt 16 Milliarden Parametern soll besonders bei Text in",
-      "link": "https://the-decoder.de/glm-image-offenes-bildmodell-von-zhipu-ai-fuer-exakte-prompts-und-starke-textdarstellung/",
-      "date": "2026-01-15T13:01:19.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "OpenAI veröffentlicht mit \"ChatGPT Translate\" ein eigenes Übersetzungstool",
-      "description": "OpenAI hat still und leise ein neues Übersetzungstool gestartet. Doch bei ersten Tests zeigt sich: ChatGPT Translate ist eher ein Einstiegspunkt für den Chatbot als ein ernsthafter Konkurrent für Goog",
-      "link": "https://the-decoder.de/openai-veroeffentlicht-mit-chatgpt-translate-ein-eigenes-uebersetzungstool/",
-      "date": "2026-01-15T12:30:08.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
