@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-01-16T12:52:48.160Z",
+  "lastUpdated": "2026-01-16T14:27:32.005Z",
   "news": [
+    {
+      "title": "USA und Taiwan einigen sich auf Handelsabkommen mit 250 Milliarden Dollar Chip-Investitionen",
+      "description": "Taiwanesische Halbleiterunternehmen sollen massiv in US-Produktionskapazitäten investieren. Im Gegenzug senkt Washington die Zölle auf 15 Prozent.\nDer Artikel USA und Taiwan einigen sich auf Handelsab",
+      "link": "https://the-decoder.de/usa-und-taiwan-einigen-sich-auf-handelsabkommen-mit-250-milliarden-dollar-chip-investitionen/",
+      "date": "2026-01-16T14:22:09.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Mathematiker Terence Tao sieht KI-Meilenstein, warnt aber vor voreiligen Schlüssen",
+      "description": "OpenAIs GPT-5.2 Pro hat laut Mathematiker Terence Tao erstmals weitgehend autonom ein offenes Erdős-Problem gelöst. Tao sieht darin einen echten Meilenstein, warnt aber vor übertriebenen Schlussfolger",
+      "link": "https://the-decoder.de/mathematiker-terence-tao-sieht-ki-meilenstein-warnt-aber-vor-voreiligen-schluessen/",
+      "date": "2026-01-16T13:59:59.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Webseitenbetreiber sollen für KI-Training bezahlt werden: Cloudflare übernimmt Human Native",
       "description": "Cloudflare will mit der Übernahme des britischen Startups Human Native ein neues Bezahlmodell aufbauen.\nDer Artikel Webseitenbetreiber sollen für KI-Training bezahlt werden: Cloudflare übernimmt Human",
@@ -78,24 +96,6 @@
       "description": "Elon Musks Chatbot Grok kann keine Bilder von echten Menschen mehr entkleiden – zumindest dort, wo es illegal ist. Die Maßnahme kommt nach tagelangem Missbrauch und laufenden Ermittlungen in Großbrita",
       "link": "https://the-decoder.de/elon-musks-xai-schraenkt-grok-bildgenerierung-nach-deepfake-skandal-massiv-ein/",
       "date": "2026-01-15T17:27:16.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "OpenAI investiert in Gehirn-Computer-Schnittstellen Start-up Merge Labs",
-      "description": "OpenAI investiert in ein Start-up für Gehirn-Computer-Schnittstellen, das von Sam Altman mitgegründet wurde.\nDer Artikel OpenAI investiert in Gehirn-Computer-Schnittstellen Start-up Merge Labs erschie",
-      "link": "https://the-decoder.de/openai-investiert-in-gehirn-computer-schnittstellen-start-up-merge-labs/",
-      "date": "2026-01-15T16:47:30.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Anthropic halbiert KI-Produktivitätsprognosen für US-Wirtschaft nach Analyse von Claudes Fehlerquoten",
-      "description": "Anthropic analysiert erstmals systematisch, wie oft Claude bei Aufgaben scheitert. Die Daten zeigen: Je komplexer die Arbeit, desto geringer die Erfolgsquote. Das Unternehmen korrigiert seine Produkti",
-      "link": "https://the-decoder.de/anthropic-veroeffentlicht-erfolgsraten-von-claude-und-daempft-erwartungen-an-produktivitaetsgewinne/",
-      "date": "2026-01-15T13:15:45.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
