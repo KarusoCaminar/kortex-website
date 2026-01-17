@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-01-17T08:30:33.316Z",
+  "lastUpdated": "2026-01-17T10:24:28.853Z",
   "news": [
+    {
+      "title": "KI-Modell Flux 2 klein bringt Bildgenerierung und -bearbeitung auf heimische Grafikkarten",
+      "description": "Black Forest Labs veröffentlicht Flux 2 klein: Die neue Modellreihe vereint Bildgenerierung und -bearbeitung in einem Paket, das auch auf älteren Grafikkarten wie der RTX 3090 läuft.\nDer Artikel KI-Mo",
+      "link": "https://the-decoder.de/ki-modell-flux-2-klein-bringt-bildgenerierung-und-bearbeitung-auf-heimische-grafikkarten/",
+      "date": "2026-01-17T08:36:16.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "\"Open Responses\": OpenAI will eigene API-Struktur zum offenen Standard für die gesamte KI-Branche machen",
       "description": "OpenAI will einen Standard für KI-Schnittstellen etablieren, und zwar auf Basis der eigenen Technologie.\nDer Artikel \"Open Responses\": OpenAI will eigene API-Struktur zum offenen Standard für die gesa",
@@ -105,15 +114,6 @@
       "description": "Wikipedia gewinnt Amazon, Meta, Microsoft, Mistral AI und Perplexity als zahlende Partner für ihre Inhalte.\nDer Artikel Amazon, Meta, Microsoft und mehr: Wikimedia Enterprise gewinnt KI-Riesen als zah",
       "link": "https://the-decoder.de/amazon-meta-microsoft-und-mehr-wikimedia-enterprise-gewinnt-ki-riesen-als-zahlende-kunden/",
       "date": "2026-01-15T20:03:47.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "TranslateGemma: Google veröffentlicht offene KI-Modelle für Übersetzungen",
-      "description": "TranslateGemma zeigt, wie Google mit gezieltem Training mehr aus kleineren Modellen herausholt: Das 12B-Modell übersetzt besser als das doppelt so große Basismodell – und läuft auf einem Consumer-Lapt",
-      "link": "https://the-decoder.de/translategemma-google-veroeffentlicht-offene-ki-modelle-fuer-uebersetzungen/",
-      "date": "2026-01-15T19:23:58.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
