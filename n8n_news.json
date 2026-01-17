@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-01-17T12:46:31.484Z",
+  "lastUpdated": "2026-01-17T14:21:57.310Z",
   "news": [
+    {
+      "title": "Anthropics neues KI-System \"Cowork\" kämpft kurz nach Start mit bekannten Sicherheitslücken",
+      "description": "Anthropics neues agentisches KI-System Claude Cowork ist kaum veröffentlicht, da dokumentieren Sicherheitsforscher bereits eine kritische Schwachstelle: Über versteckte Prompt-Injections können Angrei",
+      "link": "https://the-decoder.de/anthropics-neues-ki-system-cowork-kaempft-kurz-nach-start-mit-bekannten-sicherheitsluecken/",
+      "date": "2026-01-17T13:36:54.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "OpenAI gegen Elon Musk: Tausende Seiten Beweismaterial offengelegt",
       "description": "Tausende Seiten Beweismaterial im Rechtsstreit zwischen Elon Musk und OpenAI sind nun öffentlich – und werfen unbequeme Fragen auf: War die Non-Profit-Strategie nur Marketing? Und wollte Musk wirklich",
@@ -74,24 +83,6 @@
       "language": "de"
     },
     {
-      "title": "\"Artificial Hivemind\": Forscher befürchten kulturelle Verarmung durch homogene KI-Outputs",
-      "description": "Eine groß angelegte Untersuchung zeigt, dass unterschiedliche KI-Sprachmodelle bei offenen Aufgaben überraschend ähnliche Antworten produzieren. Die Forscher warnen vor langfristigen Folgen für die me",
-      "link": "https://the-decoder.de/artificial-hivemind-forscher-befuerchten-kulturelle-verarmung-durch-homogene-ki-outputs/",
-      "date": "2026-01-16T11:38:49.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "OpenAI verliert führende Sicherheitsforscherin an Anthropic",
-      "description": "Andrea Vallone, eine führende Sicherheitsforscherin bei OpenAI, ist zu Anthropic gewechselt.\nDer Artikel OpenAI verliert führende Sicherheitsforscherin an Anthropic erschien zuerst auf The Decoder.",
-      "link": "https://the-decoder.de/openai-verliert-fuehrende-sicherheitsforscherin-an-anthropic/",
-      "date": "2026-01-16T09:45:26.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "Introducing ChatGPT Go, now available worldwide",
       "description": "ChatGPT Go is now available worldwide, offering expanded access to GPT-5.2 Instant, higher usage limits, and longer memory—making advanced AI more affordable globally.",
       "link": "https://openai.com/index/introducing-chatgpt-go",
@@ -132,6 +123,15 @@
       "description": "OpenAI launches a new RFP to strengthen the U.S. AI supply chain by accelerating domestic manufacturing, creating jobs, and scaling AI infrastructure.",
       "link": "https://openai.com/index/strengthening-the-us-ai-supply-chain",
       "date": "2026-01-15T00:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
+      "title": "OpenAI partners with Cerebras",
+      "description": "OpenAI partners with Cerebras to add 750MW of high-speed AI compute, reducing inference latency and making ChatGPT faster for real-time AI workloads.",
+      "link": "https://openai.com/index/cerebras-partnership",
+      "date": "2026-01-14T14:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
