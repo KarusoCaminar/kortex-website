@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-01-16T22:24:55.323Z",
+  "lastUpdated": "2026-01-17T01:54:16.324Z",
   "news": [
     {
       "title": "\"Open Responses\": OpenAI will eigene API-Struktur zum offenen Standard für die gesamte KI-Branche machen",
@@ -74,18 +74,18 @@
       "language": "de"
     },
     {
-      "title": "Our approach to advertising and expanding access to ChatGPT",
-      "description": "OpenAI plans to test advertising in the U.S. for ChatGPT’s free and Go tiers to expand affordable access to AI worldwide, while protecting privacy, trust, and answer quality.",
-      "link": "https://openai.com/index/our-approach-to-advertising-and-expanding-access",
+      "title": "Introducing ChatGPT Go, now available worldwide",
+      "description": "ChatGPT Go is now available worldwide, offering expanded access to GPT-5.2 Instant, higher usage limits, and longer memory—making advanced AI more affordable globally.",
+      "link": "https://openai.com/index/introducing-chatgpt-go",
       "date": "2026-01-16T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
     },
     {
-      "title": "Introducing ChatGPT Go, now available worldwide",
-      "description": "ChatGPT Go is now available worldwide, offering expanded access to GPT-5.2 Instant, higher usage limits, and longer memory—making advanced AI more affordable globally.",
-      "link": "https://openai.com/index/introducing-chatgpt-go",
+      "title": "Our approach to advertising and expanding access to ChatGPT",
+      "description": "OpenAI plans to test advertising in the U.S. for ChatGPT’s free and Go tiers to expand affordable access to AI worldwide, while protecting privacy, trust, and answer quality.",
+      "link": "https://openai.com/index/our-approach-to-advertising-and-expanding-access",
       "date": "2026-01-16T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
