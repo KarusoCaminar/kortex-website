@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-01-17T10:24:28.853Z",
+  "lastUpdated": "2026-01-17T12:46:31.484Z",
   "news": [
+    {
+      "title": "OpenAI gegen Elon Musk: Tausende Seiten Beweismaterial offengelegt",
+      "description": "Tausende Seiten Beweismaterial im Rechtsstreit zwischen Elon Musk und OpenAI sind nun öffentlich – und werfen unbequeme Fragen auf: War die Non-Profit-Strategie nur Marketing? Und wollte Musk wirklich",
+      "link": "https://the-decoder.de/openai-gegen-elon-musk-tausende-seiten-beweismaterial-offengelegt/",
+      "date": "2026-01-17T10:27:36.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "KI-Modell Flux 2 klein bringt Bildgenerierung und -bearbeitung auf heimische Grafikkarten",
       "description": "Black Forest Labs veröffentlicht Flux 2 klein: Die neue Modellreihe vereint Bildgenerierung und -bearbeitung in einem Paket, das auch auf älteren Grafikkarten wie der RTX 3090 läuft.\nDer Artikel KI-Mo",
@@ -108,15 +117,6 @@
       "source": "Google AI",
       "category": "große-modelle",
       "language": "en"
-    },
-    {
-      "title": "Amazon, Meta, Microsoft und mehr: Wikimedia Enterprise gewinnt KI-Riesen als zahlende Kunden",
-      "description": "Wikipedia gewinnt Amazon, Meta, Microsoft, Mistral AI und Perplexity als zahlende Partner für ihre Inhalte.\nDer Artikel Amazon, Meta, Microsoft und mehr: Wikimedia Enterprise gewinnt KI-Riesen als zah",
-      "link": "https://the-decoder.de/amazon-meta-microsoft-und-mehr-wikimedia-enterprise-gewinnt-ki-riesen-als-zahlende-kunden/",
-      "date": "2026-01-15T20:03:47.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
     },
     {
       "title": "Investing in Merge Labs",
