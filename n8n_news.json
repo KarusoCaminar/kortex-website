@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-01-17T16:27:25.813Z",
+  "lastUpdated": "2026-01-17T18:33:03.794Z",
   "news": [
+    {
+      "title": "Elon Musk wollte laut OpenAI Kontrolle über menschenähnliche KI an seine Kinder vererben",
+      "description": "Elon Musks Machtfantasien waren schon vor rund zehn Jahren extrem. Schon damals wollte er, dass seine Kinder die Kontrolle über mächtige KI-Systeme erben. Dazu passt seine Überzeugung, dass vor allem",
+      "link": "https://the-decoder.de/elon-musk-wollte-laut-openai-kontrolle-ueber-menschenaehnliche-ki-an-seine-kinder-vererben/",
+      "date": "2026-01-17T17:07:19.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Anthropics neues KI-System \"Cowork\" kämpft kurz nach Start mit bekannter Sicherheitslücke",
       "description": "Anthropics neues agentisches KI-System Claude Cowork ist kaum veröffentlicht, da dokumentieren Sicherheitsforscher bereits eine kritische Schwachstelle: Über versteckte Prompt-Injections können Angrei",
@@ -69,15 +78,6 @@
       "description": "OpenAIs GPT-5.2 Pro hat laut Mathematiker Terence Tao erstmals weitgehend autonom ein offenes Erdős-Problem gelöst. Tao sieht darin einen echten Meilenstein, warnt aber vor übertriebenen Schlussfolger",
       "link": "https://the-decoder.de/mathematiker-terence-tao-sieht-ki-meilenstein-warnt-aber-vor-voreiligen-schluessen/",
       "date": "2026-01-16T13:59:59.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Webseitenbetreiber sollen für KI-Training bezahlt werden: Cloudflare übernimmt Human Native",
-      "description": "Cloudflare will mit der Übernahme des britischen Startups Human Native ein neues Bezahlmodell aufbauen.\nDer Artikel Webseitenbetreiber sollen für KI-Training bezahlt werden: Cloudflare übernimmt Human",
-      "link": "https://the-decoder.de/webseitenbetreiber-sollen-fuer-ki-training-bezahlt-werden-cloudflare-uebernimmt-human-native/",
-      "date": "2026-01-16T12:47:37.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
