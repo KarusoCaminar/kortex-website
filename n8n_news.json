@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-01-18T08:31:01.630Z",
+  "lastUpdated": "2026-01-18T10:25:14.902Z",
   "news": [
+    {
+      "title": "KI-Modell GPT-5.2 Pro liefert neuen Beweis für offenes mathematisches Problem",
+      "description": "GPT-5.2 Pro hat wohl ein weiteres Erdos-Problem gelöst. Doch Mathematiker Terence Tao warnt vor verzerrter Wahrnehmung: Die tatsächliche Erfolgsquote von KI bei solchen Problemen liegt nur bei ein bis",
+      "link": "https://the-decoder.de/ki-modell-gpt-5-2-pro-liefert-neuen-beweis-fuer-offenes-mathematisches-problem/",
+      "date": "2026-01-18T10:14:35.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Selbst die besten KI-Modelle scheitern an visuellen Aufgaben für Kleinkinder",
+      "description": "Eine neue Studie zeigt eine fundamentale Schwäche aktueller KI-Systeme. Selbst die leistungsstärksten multimodalen Sprachmodelle versagen bei grundlegenden visuellen Aufgaben, die Kleinkinder mühelos",
+      "link": "https://the-decoder.de/selbst-die-besten-ki-modelle-scheitern-an-visuellen-aufgaben-fuer-kleinkinder/",
+      "date": "2026-01-18T09:23:48.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Elon Musk wollte laut OpenAI Kontrolle über menschenähnliche KI an seine Kinder vererben",
       "description": "Elon Musks Machtfantasien waren schon vor rund zehn Jahren extrem. Schon damals wollte er, dass seine Kinder die Kontrolle über mächtige KI-Systeme erben. Dazu passt seine Überzeugung, dass vor allem",
@@ -60,24 +78,6 @@
       "description": "Anthropics neues Agenten-Feature Cowork steht jetzt auch Pro-Nutzern offen. Die Funktion war zunächst nur für Max-Abonnenten verfügbar.\nDer Artikel Anthropic öffnet neuen KI-Agenten Claude Cowork für",
       "link": "https://the-decoder.de/anthropic-oeffnet-neuen-ki-agenten-claude-cowork-fuer-alle-pro-abonnenten/",
       "date": "2026-01-16T18:11:41.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "USA und Taiwan einigen sich auf Handelsabkommen mit 250 Milliarden Dollar Chip-Investitionen",
-      "description": "Taiwanesische Halbleiterunternehmen sollen massiv in US-Produktionskapazitäten investieren. Im Gegenzug senkt Washington die Zölle auf 15 Prozent.\nDer Artikel USA und Taiwan einigen sich auf Handelsab",
-      "link": "https://the-decoder.de/usa-und-taiwan-einigen-sich-auf-handelsabkommen-mit-250-milliarden-dollar-chip-investitionen/",
-      "date": "2026-01-16T14:22:09.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Mathematiker Terence Tao sieht KI-Meilenstein, warnt aber vor voreiligen Schlüssen",
-      "description": "OpenAIs GPT-5.2 Pro hat laut Mathematiker Terence Tao erstmals weitgehend autonom ein offenes Erdős-Problem gelöst. Tao sieht darin einen echten Meilenstein, warnt aber vor übertriebenen Schlussfolger",
-      "link": "https://the-decoder.de/mathematiker-terence-tao-sieht-ki-meilenstein-warnt-aber-vor-voreiligen-schluessen/",
-      "date": "2026-01-16T13:59:59.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
