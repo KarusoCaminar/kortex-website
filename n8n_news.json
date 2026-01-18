@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-01-18T12:47:02.500Z",
+  "lastUpdated": "2026-01-18T14:21:13.166Z",
   "news": [
+    {
+      "title": "KI-Boom in Südkorea: Ausgaben für ChatGPT & Co. übertreffen Netflix",
+      "description": "Südkorea gibt angeblich monatlich mehr für KI-Abos aus als für Netflix. ChatGPT dominiert den Markt.\nDer Artikel KI-Boom in Südkorea: Ausgaben für ChatGPT & Co. übertreffen Netflix erschien zuerst auf",
+      "link": "https://the-decoder.de/ki-boom-in-suedkorea-ausgaben-fuer-chatgpt-co-uebertreffen-netflix/",
+      "date": "2026-01-18T13:31:43.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Snaps SnapGen++ generiert hochauflösende KI-Bilder in unter zwei Sekunden direkt auf dem iPhone",
       "description": "Diffusion Transformer galten als zu groß fürs Handy. Snap widerlegt das: SnapGen++ generiert 1024-Pixel-Bilder in 1,8 Sekunden auf dem iPhone und schlägt dabei angeblich deutlich größere Servermodelle",
@@ -69,15 +78,6 @@
       "description": "Black Forest Labs veröffentlicht Flux 2 klein: Die neue Modellreihe vereint Bildgenerierung und -bearbeitung in einem Paket, das auch auf älteren Grafikkarten wie der RTX 3090 läuft.\nDer Artikel KI-Mo",
       "link": "https://the-decoder.de/ki-modell-flux-2-klein-bringt-bildgenerierung-und-bearbeitung-auf-heimische-grafikkarten/",
       "date": "2026-01-17T08:36:16.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "\"Open Responses\": OpenAI will eigene API-Struktur zum offenen Standard für die gesamte KI-Branche machen",
-      "description": "OpenAI will einen Standard für KI-Schnittstellen etablieren, und zwar auf Basis der eigenen Technologie.\nDer Artikel \"Open Responses\": OpenAI will eigene API-Struktur zum offenen Standard für die gesa",
-      "link": "https://the-decoder.de/open-responses-openai-will-eigene-api-struktur-zum-offenen-standard-fuer-die-gesamte-ki-branche-machen/",
-      "date": "2026-01-16T19:16:41.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
