@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-01-18T10:25:14.902Z",
+  "lastUpdated": "2026-01-18T12:47:02.500Z",
   "news": [
+    {
+      "title": "Snaps SnapGen++ generiert hochauflösende KI-Bilder in unter zwei Sekunden direkt auf dem iPhone",
+      "description": "Diffusion Transformer galten als zu groß fürs Handy. Snap widerlegt das: SnapGen++ generiert 1024-Pixel-Bilder in 1,8 Sekunden auf dem iPhone und schlägt dabei angeblich deutlich größere Servermodelle",
+      "link": "https://the-decoder.de/snaps-snapgen-generiert-hochaufloesende-ki-bilder-in-unter-zwei-sekunden-direkt-auf-dem-iphone/",
+      "date": "2026-01-18T11:55:34.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Google verbessert AI Overviews in der Suche mit Gemini 3 Pro für komplexe Anfragen",
+      "description": "Google schaltet für komplexe Suchanfragen in den AI Overviews sein stärkstes KI-Modell Gemini 3 Pro zu. Das intelligente Routing zwischen schnellen und leistungsfähigen Modellen ist aber nur für zahle",
+      "link": "https://the-decoder.de/google-verbessert-ai-overviews-in-der-suche-mit-gemini-3-pro-fuer-komplexe-anfragen/",
+      "date": "2026-01-18T11:19:02.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "KI-Modell GPT-5.2 Pro liefert neuen Beweis für offenes mathematisches Problem",
       "description": "GPT-5.2 Pro hat wohl ein weiteres Erdos-Problem gelöst. Doch Mathematiker Terence Tao warnt vor verzerrter Wahrnehmung: Die tatsächliche Erfolgsquote von KI bei solchen Problemen liegt nur bei ein bis",
@@ -60,24 +78,6 @@
       "description": "OpenAI will einen Standard für KI-Schnittstellen etablieren, und zwar auf Basis der eigenen Technologie.\nDer Artikel \"Open Responses\": OpenAI will eigene API-Struktur zum offenen Standard für die gesa",
       "link": "https://the-decoder.de/open-responses-openai-will-eigene-api-struktur-zum-offenen-standard-fuer-die-gesamte-ki-branche-machen/",
       "date": "2026-01-16T19:16:41.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "OpenAI macht's offiziell: ChatGPT bekommt Werbung",
-      "description": "OpenAI kündigt Werbung in ChatGPT an – trotz früherer Bedenken von CEO Sam Altman. Die Anzeigen sollen helfen, die enorme Unternehmensbewertung von bis zu 750 Milliarden US-Dollar zu rechtfertigen. De",
-      "link": "https://the-decoder.de/openai-machts-offiziell-chatgpt-bekommt-werbung/",
-      "date": "2026-01-16T18:42:40.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Anthropic öffnet neuen KI-Agenten Claude Cowork für alle Pro-Abonnenten",
-      "description": "Anthropics neues Agenten-Feature Cowork steht jetzt auch Pro-Nutzern offen. Die Funktion war zunächst nur für Max-Abonnenten verfügbar.\nDer Artikel Anthropic öffnet neuen KI-Agenten Claude Cowork für",
-      "link": "https://the-decoder.de/anthropic-oeffnet-neuen-ki-agenten-claude-cowork-fuer-alle-pro-abonnenten/",
-      "date": "2026-01-16T18:11:41.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
