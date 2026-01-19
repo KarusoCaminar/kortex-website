@@ -1,9 +1,18 @@
 {
-  "lastUpdated": "2026-01-19T12:57:26.774Z",
+  "lastUpdated": "2026-01-19T14:31:22.631Z",
   "news": [
     {
+      "title": "Ehemaliger OpenAI-Policy-Chef gründet Institut für unabhängige KI-Sicherheitsprüfungen",
+      "description": "Miles Brundage, der sieben Jahre bei OpenAI die Policy-Forschung leitete, fordert mit seinem neuen Institut AVERI externe Audits für führende KI-Modelle. Die Branche soll ihre eigenen Hausaufgaben nic",
+      "link": "https://the-decoder.de/ehemaliger-openai-policy-chef-gruendet-institut-fuer-unabhaengige-ki-sicherheitspruefungen/",
+      "date": "2026-01-19T13:01:54.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
       "title": "Thinking Machines unter Druck: Start-up verliert in einer Woche fünf wichtige Mitarbeiter",
-      "description": "Das KI-Start-up von Ex-OpenAI-CTO Mira Murati erlebt eine turbulente Woche: Nach der Entlassung eines Mitgründers wechseln mehrere Forscher ausgerechnet zu ihrem früheren Arbeitgeber. Eine geplante Fi",
+      "description": "Das KI-Start-up von Ex-OpenAI-CTO Mira Murati erlebte eine turbulente Woche: Nach der Entlassung eines Mitgründers wechseln mehrere Forscher ausgerechnet zu ihrem früheren Arbeitgeber. Eine geplante F",
       "link": "https://the-decoder.de/thinking-machines-unter-druck-start-up-verliert-in-einer-woche-fuenf-wichtige-mitarbeiter/",
       "date": "2026-01-19T11:44:17.000Z",
       "source": "The Decoder",
@@ -101,18 +110,18 @@
       "language": "de"
     },
     {
-      "title": "Our approach to advertising and expanding access to ChatGPT",
-      "description": "OpenAI plans to test advertising in the U.S. for ChatGPT’s free and Go tiers to expand affordable access to AI worldwide, while protecting privacy, trust, and answer quality.",
-      "link": "https://openai.com/index/our-approach-to-advertising-and-expanding-access",
+      "title": "Introducing ChatGPT Go, now available worldwide",
+      "description": "ChatGPT Go is now available worldwide, offering expanded access to GPT-5.2 Instant, higher usage limits, and longer memory—making advanced AI more affordable globally.",
+      "link": "https://openai.com/index/introducing-chatgpt-go",
       "date": "2026-01-16T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
     },
     {
-      "title": "Introducing ChatGPT Go, now available worldwide",
-      "description": "ChatGPT Go is now available worldwide, offering expanded access to GPT-5.2 Instant, higher usage limits, and longer memory—making advanced AI more affordable globally.",
-      "link": "https://openai.com/index/introducing-chatgpt-go",
+      "title": "Our approach to advertising and expanding access to ChatGPT",
+      "description": "OpenAI plans to test advertising in the U.S. for ChatGPT’s free and Go tiers to expand affordable access to AI worldwide, while protecting privacy, trust, and answer quality.",
+      "link": "https://openai.com/index/our-approach-to-advertising-and-expanding-access",
       "date": "2026-01-16T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
@@ -124,15 +133,6 @@
       "link": "https://research.google/blog/unlocking-health-insights-estimating-advanced-walking-metrics-with-smartwatches/",
       "date": "2026-01-15T22:56:49.000Z",
       "source": "Google AI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "Investing in Merge Labs",
-      "description": "OpenAI is investing in Merge Labs to support new brain computer interfaces that bridge biological and artificial intelligence to maximize human ability, agency, and experience.",
-      "link": "https://openai.com/index/investing-in-merge-labs",
-      "date": "2026-01-15T07:00:00.000Z",
-      "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
     }
