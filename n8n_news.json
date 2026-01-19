@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-01-19T14:31:22.631Z",
+  "lastUpdated": "2026-01-19T16:34:33.909Z",
   "news": [
+    {
+      "title": "OpenAIs Geschäftsmodell: Mehr Rechenleistung soll automatisch mehr Umsatz bringen",
+      "description": "OpenAI veröffentlicht erstmals offiziell Geschäftszahlen: Der Umsatz hat sich innerhalb von zwei Jahren verzehnfacht.\nDer Artikel OpenAIs Geschäftsmodell: Mehr Rechenleistung soll automatisch mehr Ums",
+      "link": "https://the-decoder.de/openais-geschaeftsmodell-mehr-rechenleistung-soll-automatisch-mehr-umsatz-bringen/",
+      "date": "2026-01-19T15:39:28.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Ehemaliger OpenAI-Policy-Chef gründet Institut für unabhängige KI-Sicherheitsprüfungen",
       "description": "Miles Brundage, der sieben Jahre bei OpenAI die Policy-Forschung leitete, fordert mit seinem neuen Institut AVERI externe Audits für führende KI-Modelle. Die Branche soll ihre eigenen Hausaufgaben nic",
@@ -96,15 +105,6 @@
       "description": "Elon Musks Machtfantasien waren schon vor rund zehn Jahren extrem. Schon damals wollte er, dass seine Kinder die Kontrolle über mächtige KI-Systeme erben. Dazu passt seine Überzeugung, dass vor allem",
       "link": "https://the-decoder.de/elon-musk-wollte-laut-openai-kontrolle-ueber-menschenaehnliche-ki-an-seine-kinder-vererben/",
       "date": "2026-01-17T17:07:19.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Anthropics neues KI-System \"Cowork\" kämpft kurz nach Start mit bekannter Sicherheitslücke",
-      "description": "Anthropics neues agentisches KI-System Claude Cowork ist kaum veröffentlicht, da dokumentieren Sicherheitsforscher bereits eine kritische Schwachstelle: Über versteckte Prompt-Injections können Angrei",
-      "link": "https://the-decoder.de/anthropics-neues-ki-system-cowork-kaempft-kurz-nach-start-mit-bekannten-sicherheitsluecken/",
-      "date": "2026-01-17T13:36:54.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
