@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-01-19T10:33:31.894Z",
+  "lastUpdated": "2026-01-19T12:57:26.774Z",
   "news": [
+    {
+      "title": "Thinking Machines unter Druck: Start-up verliert in einer Woche fünf wichtige Mitarbeiter",
+      "description": "Das KI-Start-up von Ex-OpenAI-CTO Mira Murati erlebt eine turbulente Woche: Nach der Entlassung eines Mitgründers wechseln mehrere Forscher ausgerechnet zu ihrem früheren Arbeitgeber. Eine geplante Fi",
+      "link": "https://the-decoder.de/thinking-machines-unter-druck-start-up-verliert-in-einer-woche-fuenf-wichtige-mitarbeiter/",
+      "date": "2026-01-19T11:44:17.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Risikokapital-Gigant Sequoia wettet erstmals auf Anthropic",
+      "description": "Der Silicon-Valley-Investor Sequoia Capital plant seine erste Investition in Anthropic. Die Finanzierungsrunde soll das KI-Unternehmen auf 350 Milliarden US-Dollar bewerten.\nDer Artikel Risikokapital-",
+      "link": "https://the-decoder.de/risikokapital-gigant-sequoia-wettet-erstmals-auf-anthropic/",
+      "date": "2026-01-19T11:11:11.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "KI-Boom in Südkorea: Ausgaben für ChatGPT & Co. übertreffen Netflix",
       "description": "Südkorea gibt angeblich monatlich mehr für KI-Abos aus als für Netflix. ChatGPT dominiert den Markt.\nDer Artikel KI-Boom in Südkorea: Ausgaben für ChatGPT & Co. übertreffen Netflix erschien zuerst auf",
@@ -78,24 +96,6 @@
       "description": "Anthropics neues agentisches KI-System Claude Cowork ist kaum veröffentlicht, da dokumentieren Sicherheitsforscher bereits eine kritische Schwachstelle: Über versteckte Prompt-Injections können Angrei",
       "link": "https://the-decoder.de/anthropics-neues-ki-system-cowork-kaempft-kurz-nach-start-mit-bekannten-sicherheitsluecken/",
       "date": "2026-01-17T13:36:54.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "OpenAI gegen Elon Musk: Tausende Seiten Beweismaterial offengelegt",
-      "description": "Tausende Seiten Beweismaterial im Rechtsstreit zwischen Elon Musk und OpenAI sind nun öffentlich – und werfen unbequeme Fragen auf: War die Non-Profit-Strategie nur Marketing? Und wollte Musk wirklich",
-      "link": "https://the-decoder.de/openai-gegen-elon-musk-tausende-seiten-beweismaterial-offengelegt/",
-      "date": "2026-01-17T10:27:36.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "KI-Modell Flux 2 klein bringt Bildgenerierung und -bearbeitung auf heimische Grafikkarten",
-      "description": "Black Forest Labs veröffentlicht Flux 2 klein: Die neue Modellreihe vereint Bildgenerierung und -bearbeitung in einem Paket, das auch auf älteren Grafikkarten wie der RTX 3090 läuft.\nDer Artikel KI-Mo",
-      "link": "https://the-decoder.de/ki-modell-flux-2-klein-bringt-bildgenerierung-und-bearbeitung-auf-heimische-grafikkarten/",
-      "date": "2026-01-17T08:36:16.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
