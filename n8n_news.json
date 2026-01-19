@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-01-19T18:37:13.232Z",
+  "lastUpdated": "2026-01-19T20:28:13.664Z",
   "news": [
+    {
+      "title": "Google Gemini: API-Anfragen verdoppeln sich in fünf Monaten",
+      "description": "Googles Gemini-API-Anfragen haben sich in fünf Monaten mehr als verdoppelt und sollen seit Gemini 2.5 mit Blick auf die Betriebskosten sogar profitabel sein.\nDer Artikel Google Gemini: API-Anfragen ve",
+      "link": "https://the-decoder.de/google-gemini-api-anfragen-verdoppeln-sich-in-fuenf-monaten/",
+      "date": "2026-01-19T20:05:50.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "OpenAIs Geschäftsmodell: Mehr Rechenleistung soll automatisch mehr Umsatz bringen",
       "description": "OpenAI veröffentlicht erstmals offiziell Geschäftszahlen: Der Umsatz hat sich innerhalb von zwei Jahren verzehnfacht.\nDer Artikel OpenAIs Geschäftsmodell: Mehr Rechenleistung soll automatisch mehr Ums",
@@ -96,15 +105,6 @@
       "description": "Eine neue Studie zeigt eine fundamentale Schwäche aktueller KI-Systeme. Selbst die leistungsstärksten multimodalen Sprachmodelle versagen bei grundlegenden visuellen Aufgaben, die Kleinkinder mühelos",
       "link": "https://the-decoder.de/selbst-die-besten-ki-modelle-scheitern-an-visuellen-aufgaben-fuer-kleinkinder/",
       "date": "2026-01-18T09:23:48.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Elon Musk wollte laut OpenAI Kontrolle über menschenähnliche KI an seine Kinder vererben",
-      "description": "Elon Musks Machtfantasien waren schon vor rund zehn Jahren extrem. Schon damals wollte er, dass seine Kinder die Kontrolle über mächtige KI-Systeme erben. Dazu passt seine Überzeugung, dass vor allem",
-      "link": "https://the-decoder.de/elon-musk-wollte-laut-openai-kontrolle-ueber-menschenaehnliche-ki-an-seine-kinder-vererben/",
-      "date": "2026-01-17T17:07:19.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
