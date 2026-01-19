@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-01-18T22:23:03.246Z",
+  "lastUpdated": "2026-01-19T02:05:12.585Z",
   "news": [
     {
       "title": "KI-Boom in Südkorea: Ausgaben für ChatGPT & Co. übertreffen Netflix",
@@ -47,6 +47,15 @@
       "language": "de"
     },
     {
+      "title": "A business that scales with the value of intelligence",
+      "description": "OpenAI’s business model scales with intelligence—spanning subscriptions, API, ads, commerce, and compute—driven by deepening ChatGPT adoption.",
+      "link": "https://openai.com/index/a-business-that-scales-with-the-value-of-intelligence",
+      "date": "2026-01-18T10:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
       "title": "Selbst die besten KI-Modelle scheitern an visuellen Aufgaben für Kleinkinder",
       "description": "Eine neue Studie zeigt eine fundamentale Schwäche aktueller KI-Systeme. Selbst die leistungsstärksten multimodalen Sprachmodelle versagen bei grundlegenden visuellen Aufgaben, die Kleinkinder mühelos",
       "link": "https://the-decoder.de/selbst-die-besten-ki-modelle-scheitern-an-visuellen-aufgaben-fuer-kleinkinder/",
@@ -90,15 +99,6 @@
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
-    },
-    {
-      "title": "A business that scales with the value of intelligence",
-      "description": "OpenAI’s business model scales with intelligence—spanning subscriptions, API, ads, commerce, and compute—driven by deepening ChatGPT adoption.",
-      "link": "https://openai.com/index/a-business-that-scales-with-the-value-of-intelligence",
-      "date": "2026-01-17T00:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
     },
     {
       "title": "Our approach to advertising and expanding access to ChatGPT",
