@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-01-20T12:58:01.370Z",
+  "lastUpdated": "2026-01-20T14:34:54.615Z",
   "news": [
+    {
+      "title": "Cursor-Experiment verschiebt die Grenzen autonomer KI-Entwicklung",
+      "description": "Einen Webbrowser von Grund auf neu zu entwickeln gilt als eines der komplexesten Softwareprojekte überhaupt. Cursor hat hunderte autonom arbeitende KI-Agenten auf genau diese Aufgabe angesetzt und nac",
+      "link": "https://the-decoder.de/cursor-experiment-verschiebt-die-grenzen-autonomer-ki-entwicklung/",
+      "date": "2026-01-20T14:05:44.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Software-Branche erlebt schlechtesten Jahresstart seit 2022 wegen KI-Ängsten",
       "description": "Die Veröffentlichung von Anthropics „Claude Cowork” scheint die Ängste vor KI-Disruption neu entfacht zu haben, was sich auch an der Börse niederschlägt.\nDer Artikel Software-Branche erlebt schlechtes",
@@ -9,6 +18,15 @@
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
+    },
+    {
+      "title": "ServiceNow powers actionable enterprise AI with OpenAI",
+      "description": "ServiceNow expands access to OpenAI frontier models to power AI-driven enterprise workflows, summarization, search, and voice across the ServiceNow Platform.",
+      "link": "https://openai.com/index/servicenow-powers-actionable-enterprise-ai-with-openai",
+      "date": "2026-01-20T05:45:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
     },
     {
       "title": "Google Gemini: API-Anfragen verdoppeln sich in fünf Monaten",
@@ -92,28 +110,10 @@
       "language": "de"
     },
     {
-      "title": "KI-Modell GPT-5.2 Pro liefert neuen Beweis für offenes mathematisches Problem",
-      "description": "GPT-5.2 Pro hat wohl ein weiteres Erdos-Problem gelöst. Doch Mathematiker Terence Tao warnt vor verzerrter Wahrnehmung: Die tatsächliche Erfolgsquote von KI bei solchen Problemen liegt nur bei ein bis",
-      "link": "https://the-decoder.de/ki-modell-gpt-5-2-pro-liefert-neuen-beweis-fuer-offenes-mathematisches-problem/",
-      "date": "2026-01-18T10:14:35.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "A business that scales with the value of intelligence",
       "description": "OpenAI’s business model scales with intelligence—spanning subscriptions, API, ads, commerce, and compute—driven by deepening ChatGPT adoption.",
       "link": "https://openai.com/index/a-business-that-scales-with-the-value-of-intelligence",
       "date": "2026-01-18T10:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "Introducing ChatGPT Go, now available worldwide",
-      "description": "ChatGPT Go is now available worldwide, offering expanded access to GPT-5.2 Instant, higher usage limits, and longer memory—making advanced AI more affordable globally.",
-      "link": "https://openai.com/index/introducing-chatgpt-go",
-      "date": "2026-01-16T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
@@ -128,11 +128,11 @@
       "language": "en"
     },
     {
-      "title": "Unlocking health insights: Estimating advanced walking metrics with smartwatches",
-      "description": "Health & Bioscience",
-      "link": "https://research.google/blog/unlocking-health-insights-estimating-advanced-walking-metrics-with-smartwatches/",
-      "date": "2026-01-15T22:56:49.000Z",
-      "source": "Google AI",
+      "title": "Introducing ChatGPT Go, now available worldwide",
+      "description": "ChatGPT Go is now available worldwide, offering expanded access to GPT-5.2 Instant, higher usage limits, and longer memory—making advanced AI more affordable globally.",
+      "link": "https://openai.com/index/introducing-chatgpt-go",
+      "date": "2026-01-16T00:00:00.000Z",
+      "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
     }
