@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-01-20T16:39:38.084Z",
+  "lastUpdated": "2026-01-20T18:42:20.648Z",
   "news": [
+    {
+      "title": "Neue Anthropic-Studie: Rollen- und Persona-Prompts sollte man mit Bedacht einsetzen",
+      "description": "Chatbots wie ChatGPT, Claude oder Gemini werden nach ihrem Grundtraining darauf konditioniert, eine bestimmte Rolle zu spielen: den hilfreichen, ehrlichen und harmlosen KI-Assistenten. Doch wie zuverl",
+      "link": "https://the-decoder.de/neue-anthropic-studie-rollen-und-persona-prompts-sollte-man-mit-bedacht-einsetzen/",
+      "date": "2026-01-20T17:54:20.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Vier Jahre Krieg, Millionen Stunden Drohnenmaterial: Ukraine teilt Daten für KI-Training",
+      "description": "Der neue ukrainische Verteidigungsminister Mykhailo Fedorov kündigt ein System an, mit dem Verbündete ihre KI-Modelle auf ukrainischen Kriegsdaten trainieren können. Die Daten sollen als Verhandlungsh",
+      "link": "https://the-decoder.de/vier-jahre-krieg-millionen-stunden-drohnenmaterial-ukraine-teilt-daten-fuer-ki-training/",
+      "date": "2026-01-20T17:00:17.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Cursor-Experiment verschiebt die Grenzen autonomer KI-Entwicklung",
       "description": "Einen Webbrowser von Grund auf neu zu entwickeln gilt als eines der komplexesten Softwareprojekte überhaupt. Cursor hat hunderte autonom arbeitende KI-Agenten auf genau diese Aufgabe angesetzt und nac",
@@ -90,24 +108,6 @@
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
-    },
-    {
-      "title": "Snaps SnapGen++ generiert hochauflösende KI-Bilder in unter zwei Sekunden direkt auf dem iPhone",
-      "description": "Diffusion Transformer galten als zu groß fürs Handy. Snap widerlegt das: SnapGen++ generiert 1024-Pixel-Bilder in 1,8 Sekunden auf dem iPhone und schlägt dabei angeblich deutlich größere Servermodelle",
-      "link": "https://the-decoder.de/snaps-snapgen-generiert-hochaufloesende-ki-bilder-in-unter-zwei-sekunden-direkt-auf-dem-iphone/",
-      "date": "2026-01-18T11:55:34.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Google verbessert AI Overviews in der Suche mit Gemini 3 Pro für komplexe Anfragen",
-      "description": "Google schaltet für komplexe Suchanfragen in den AI Overviews sein stärkstes KI-Modell Gemini 3 Pro zu. Das intelligente Routing zwischen schnellen und leistungsfähigen Modellen ist aber nur für zahle",
-      "link": "https://the-decoder.de/google-verbessert-ai-overviews-in-der-suche-mit-gemini-3-pro-fuer-komplexe-anfragen/",
-      "date": "2026-01-18T11:19:02.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
     },
     {
       "title": "A business that scales with the value of intelligence",
