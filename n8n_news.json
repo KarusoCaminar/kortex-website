@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-01-20T10:32:21.824Z",
+  "lastUpdated": "2026-01-20T12:58:01.370Z",
   "news": [
+    {
+      "title": "Software-Branche erlebt schlechtesten Jahresstart seit 2022 wegen KI-Ängsten",
+      "description": "Die Veröffentlichung von Anthropics „Claude Cowork” scheint die Ängste vor KI-Disruption neu entfacht zu haben, was sich auch an der Börse niederschlägt.\nDer Artikel Software-Branche erlebt schlechtes",
+      "link": "https://the-decoder.de/software-branche-erlebt-schlechtesten-jahresstart-seit-2022-wegen-ki-aengsten/",
+      "date": "2026-01-20T10:58:02.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Google Gemini: API-Anfragen verdoppeln sich in fünf Monaten",
       "description": "Googles Gemini-API-Anfragen haben sich in fünf Monaten mehr als verdoppelt und sollen seit Gemini 2.5 mit Blick auf die Betriebskosten sogar profitabel sein.\nDer Artikel Google Gemini: API-Anfragen ve",
@@ -99,15 +108,6 @@
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
-    },
-    {
-      "title": "Selbst die besten KI-Modelle scheitern an visuellen Aufgaben für Kleinkinder",
-      "description": "Eine neue Studie zeigt eine fundamentale Schwäche aktueller KI-Systeme. Selbst die leistungsstärksten multimodalen Sprachmodelle versagen bei grundlegenden visuellen Aufgaben, die Kleinkinder mühelos",
-      "link": "https://the-decoder.de/selbst-die-besten-ki-modelle-scheitern-an-visuellen-aufgaben-fuer-kleinkinder/",
-      "date": "2026-01-18T09:23:48.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
     },
     {
       "title": "Introducing ChatGPT Go, now available worldwide",
