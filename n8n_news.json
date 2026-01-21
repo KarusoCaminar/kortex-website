@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-01-21T16:55:59.091Z",
+  "lastUpdated": "2026-01-21T18:49:20.582Z",
   "news": [
     {
       "title": "Ollama generiert jetzt KI-Bilder lokal auf dem Mac",
@@ -36,6 +36,15 @@
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
+    },
+    {
+      "title": "How Higgsfield turns simple ideas into cinematic social videos",
+      "description": "Discover how Higgsfield gives creators cinematic, social-first video output from simple inputs using OpenAI GPT-4.1, GPT-5, and Sora 2.",
+      "link": "https://openai.com/index/higgsfield",
+      "date": "2026-01-21T10:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
     },
     {
       "title": "How countries can end the capability overhang",
@@ -126,15 +135,6 @@
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
-    },
-    {
-      "title": "Software-Branche erlebt schlechtesten Jahresstart seit 2022 wegen KI-Ängsten",
-      "description": "Die Veröffentlichung von Anthropics „Claude Cowork” scheint die Ängste vor KI-Disruption neu entfacht zu haben, was sich auch an der Börse niederschlägt.\nDer Artikel Software-Branche erlebt schlechtes",
-      "link": "https://the-decoder.de/software-branche-erlebt-schlechtesten-jahresstart-seit-2022-wegen-ki-aengsten/",
-      "date": "2026-01-20T10:58:02.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
     }
   ]
 }
