@@ -1,6 +1,33 @@
 {
-  "lastUpdated": "2026-01-21T10:33:27.724Z",
+  "lastUpdated": "2026-01-21T12:57:31.730Z",
   "news": [
+    {
+      "title": "OpenAI verspricht: Stargate-Rechenzentren sollen Strompreise für Anwohner nicht erhöhen",
+      "description": "Nach Microsoft geht auch OpenAI einen Schritt auf vom massiven Infrastrukturausbau betroffene Anwohner zu.\nDer Artikel OpenAI verspricht: Stargate-Rechenzentren sollen Strompreise für Anwohner nicht e",
+      "link": "https://the-decoder.de/openai-verspricht-stargate-rechenzentren-sollen-strompreise-fuer-anwohner-nicht-erhoehen/",
+      "date": "2026-01-21T12:03:07.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "OpenAI bepreist ChatGPT-Anzeigen vorerst nach Impressionen statt nach Klicks",
+      "description": "OpenAI hat begonnen, dutzenden Werbetreibenden Anzeigenplätze in ChatGPT anzubieten. Anders als bei Google oder Amazon setzt das Unternehmen zunächst auf Abrechnung nach Aufrufen statt nach Klicks.\nDe",
+      "link": "https://the-decoder.de/openai-bepreist-chatgpt-anzeigen-vorerst-nach-impressionen-statt-nach-klicks/",
+      "date": "2026-01-21T11:41:19.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Interaktive Demo von CivAI zeigt, wie unterschiedlich KI-Modelle auf ethische Fragen antworten",
+      "description": "Eine neue interaktive Demo der Non-Profit-Organisation CivAI zeigt, wie unterschiedlich KI-Modelle auf ethische und politische Fragen antworten. Und wieso Grok Elon Musk mehr mag als Mahatma Ghandi.\nD",
+      "link": "https://the-decoder.de/interaktive-demo-von-civai-zeigt-wie-unterschiedlich-ki-modelle-auf-ethische-fragen-antworten/",
+      "date": "2026-01-21T11:00:57.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "How countries can end the capability overhang",
       "description": "Our latest report reveals stark differences in advanced AI adoption across countries and outlines new initiatives to help nations capture productivity gains from AI.",
@@ -108,33 +135,6 @@
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
-    },
-    {
-      "title": "Our approach to age prediction",
-      "description": "ChatGPT is rolling out age prediction to estimate if accounts are under or over 18, applying safeguards for teens and refining accuracy over time.",
-      "link": "https://openai.com/index/our-approach-to-age-prediction",
-      "date": "2026-01-20T00:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "Google Gemini: API-Anfragen verdoppeln sich in fünf Monaten",
-      "description": "Googles Gemini-API-Anfragen haben sich in fünf Monaten mehr als verdoppelt und sollen seit Gemini 2.5 mit Blick auf die Betriebskosten sogar profitabel sein.\nDer Artikel Google Gemini: API-Anfragen ve",
-      "link": "https://the-decoder.de/google-gemini-api-anfragen-verdoppeln-sich-in-fuenf-monaten/",
-      "date": "2026-01-19T20:05:50.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "OpenAIs Geschäftsmodell: Mehr Rechenleistung soll automatisch mehr Umsatz bringen",
-      "description": "OpenAI veröffentlicht erstmals offiziell Geschäftszahlen: Der Umsatz hat sich innerhalb von zwei Jahren verzehnfacht.\nDer Artikel OpenAIs Geschäftsmodell: Mehr Rechenleistung soll automatisch mehr Ums",
-      "link": "https://the-decoder.de/openais-geschaeftsmodell-mehr-rechenleistung-soll-automatisch-mehr-umsatz-bringen/",
-      "date": "2026-01-19T15:39:28.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
     }
   ]
 }
