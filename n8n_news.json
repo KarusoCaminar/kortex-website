@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-01-21T02:02:42.329Z",
+  "lastUpdated": "2026-01-21T04:48:54.016Z",
   "news": [
     {
       "title": "OpenAI führt automatische Alterserkennung für Jugendschutz in ChatGPT ein",
@@ -18,6 +18,15 @@
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
+    },
+    {
+      "title": "Stargate Community",
+      "description": "Stargate Community plans detail a community-first approach to AI infrastructure, using locally tailored plans shaped by community input, energy needs, and workforce priorities.",
+      "link": "https://openai.com/index/stargate-community",
+      "date": "2026-01-20T19:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
     },
     {
       "title": "Neue Anthropic-Studie: Rollen- und Persona-Prompts sollte man mit Bedacht einsetzen",
@@ -123,15 +132,6 @@
       "description": "How AI can expand human agency by closing the capability overhang—helping people, businesses, and countries unlock real productivity, growth, and opportunity.",
       "link": "https://openai.com/index/ai-for-self-empowerment",
       "date": "2026-01-18T12:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "A business that scales with the value of intelligence",
-      "description": "OpenAI’s business model scales with intelligence—spanning subscriptions, API, ads, commerce, and compute—driven by deepening ChatGPT adoption.",
-      "link": "https://openai.com/index/a-business-that-scales-with-the-value-of-intelligence",
-      "date": "2026-01-18T10:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
