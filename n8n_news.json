@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-01-21T14:35:09.144Z",
+  "lastUpdated": "2026-01-21T16:55:59.091Z",
   "news": [
+    {
+      "title": "Ollama generiert jetzt KI-Bilder lokal auf dem Mac",
+      "description": "Ollama, die Software zum lokalen Ausführen von KI-Modellen, ermöglicht ab sofort Bildgenerierung auf macOS.\nDer Artikel Ollama generiert jetzt KI-Bilder lokal auf dem Mac erschien zuerst auf The Decod",
+      "link": "https://the-decoder.de/ollama-generiert-jetzt-ki-bilder-lokal-auf-dem-mac/",
+      "date": "2026-01-21T16:21:59.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "OpenAI verspricht: Stargate-Rechenzentren sollen Strompreise für Anwohner nicht erhöhen",
       "description": "Nach Microsoft geht auch OpenAI einen Schritt auf vom massiven Infrastrukturausbau betroffene Anwohner zu.\nDer Artikel OpenAI verspricht: Stargate-Rechenzentren sollen Strompreise für Anwohner nicht e",
@@ -126,15 +135,6 @@
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
-    },
-    {
-      "title": "ServiceNow powers actionable enterprise AI with OpenAI",
-      "description": "ServiceNow expands access to OpenAI frontier models to power AI-driven enterprise workflows, summarization, search, and voice across the ServiceNow Platform.",
-      "link": "https://openai.com/index/servicenow-powers-actionable-enterprise-ai-with-openai",
-      "date": "2026-01-20T05:45:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
     }
   ]
 }
