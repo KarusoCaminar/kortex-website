@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-01-21T04:48:54.016Z",
+  "lastUpdated": "2026-01-21T06:41:34.862Z",
   "news": [
+    {
+      "title": "Horizon 1000: Advancing AI for primary healthcare",
+      "description": "OpenAI and the Gates Foundation launch Horizon 1000, a $50M pilot advancing AI capabilities for healthcare in Africa. The initiative aims to reach 1,000 clinics by 2028.",
+      "link": "https://openai.com/index/horizon-1000",
+      "date": "2026-01-20T21:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
     {
       "title": "OpenAI führt automatische Alterserkennung für Jugendschutz in ChatGPT ein",
       "description": "OpenAI will Minderjährige in ChatGPT besser schützen – und Erwachsenen mehr Freiheiten geben. Dabei soll eine automatische Alterserkennung helfen.\nDer Artikel OpenAI führt automatische Alterserkennung",
@@ -126,15 +135,6 @@
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
-    },
-    {
-      "title": "AI for self empowerment",
-      "description": "How AI can expand human agency by closing the capability overhang—helping people, businesses, and countries unlock real productivity, growth, and opportunity.",
-      "link": "https://openai.com/index/ai-for-self-empowerment",
-      "date": "2026-01-18T12:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
     }
   ]
 }
