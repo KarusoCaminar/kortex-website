@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-01-21T08:36:52.532Z",
+  "lastUpdated": "2026-01-21T10:33:27.724Z",
   "news": [
+    {
+      "title": "How countries can end the capability overhang",
+      "description": "Our latest report reveals stark differences in advanced AI adoption across countries and outlines new initiatives to help nations capture productivity gains from AI.",
+      "link": "https://openai.com/index/how-countries-can-end-the-capability-overhang",
+      "date": "2026-01-21T01:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
+      "title": "Introducing Edu for Countries",
+      "description": "Edu for Countries is a new OpenAI initiative helping governments use AI to modernize education systems and build future-ready workforces.",
+      "link": "https://openai.com/index/edu-for-countries",
+      "date": "2026-01-21T01:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
     {
       "title": "Horizon 1000: Advancing AI for primary healthcare",
       "description": "OpenAI and the Gates Foundation launch Horizon 1000, a $50M pilot advancing AI capabilities for healthcare in Africa. The initiative aims to reach 1,000 clinics by 2028.",
@@ -114,24 +132,6 @@
       "description": "OpenAI veröffentlicht erstmals offiziell Geschäftszahlen: Der Umsatz hat sich innerhalb von zwei Jahren verzehnfacht.\nDer Artikel OpenAIs Geschäftsmodell: Mehr Rechenleistung soll automatisch mehr Ums",
       "link": "https://the-decoder.de/openais-geschaeftsmodell-mehr-rechenleistung-soll-automatisch-mehr-umsatz-bringen/",
       "date": "2026-01-19T15:39:28.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Ehemaliger OpenAI-Policy-Chef gründet Institut für unabhängige KI-Sicherheitsprüfungen",
-      "description": "Miles Brundage, der sieben Jahre bei OpenAI die Policy-Forschung leitete, fordert mit seinem neuen Institut AVERI externe Audits für führende KI-Modelle. Die Branche soll ihre eigenen Hausaufgaben nic",
-      "link": "https://the-decoder.de/ehemaliger-openai-policy-chef-gruendet-institut-fuer-unabhaengige-ki-sicherheitspruefungen/",
-      "date": "2026-01-19T13:01:54.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Thinking Machines unter Druck: Start-up verliert in einer Woche fünf wichtige Mitarbeiter",
-      "description": "Das KI-Start-up von Ex-OpenAI-CTO Mira Murati erlebte eine turbulente Woche: Nach der Entlassung eines Mitgründers wechseln mehrere Forscher ausgerechnet zu ihrem früheren Arbeitgeber. Eine geplante F",
-      "link": "https://the-decoder.de/thinking-machines-unter-druck-start-up-verliert-in-einer-woche-fuenf-wichtige-mitarbeiter/",
-      "date": "2026-01-19T11:44:17.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
