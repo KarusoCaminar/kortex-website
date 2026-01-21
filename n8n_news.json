@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-01-21T18:49:20.582Z",
+  "lastUpdated": "2026-01-21T20:35:20.334Z",
   "news": [
+    {
+      "title": "Meta Superintelligence Labs hat erste interne KI-Modelle fertiggestellt",
+      "description": "Metas neues KI-Labor liefert intern erste Ergebnisse und CTO Bosworth betreibt bereits Erwartungsmanagement: Die Zeit der großen Sprünge sei für Alltagsnutzer vorbei.\nDer Artikel Meta Superintelligenc",
+      "link": "https://the-decoder.de/meta-superintelligence-labs-hat-erste-interne-ki-modelle-fertiggestellt/",
+      "date": "2026-01-21T19:55:29.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Ollama generiert jetzt KI-Bilder lokal auf dem Mac",
       "description": "Ollama, die Software zum lokalen Ausführen von KI-Modellen, ermöglicht ab sofort Bildgenerierung auf macOS.\nDer Artikel Ollama generiert jetzt KI-Bilder lokal auf dem Mac erschien zuerst auf The Decod",
@@ -47,18 +56,18 @@
       "language": "en"
     },
     {
-      "title": "How countries can end the capability overhang",
-      "description": "Our latest report reveals stark differences in advanced AI adoption across countries and outlines new initiatives to help nations capture productivity gains from AI.",
-      "link": "https://openai.com/index/how-countries-can-end-the-capability-overhang",
+      "title": "Introducing Edu for Countries",
+      "description": "Edu for Countries is a new OpenAI initiative helping governments use AI to modernize education systems and build future-ready workforces.",
+      "link": "https://openai.com/index/edu-for-countries",
       "date": "2026-01-21T01:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
     },
     {
-      "title": "Introducing Edu for Countries",
-      "description": "Edu for Countries is a new OpenAI initiative helping governments use AI to modernize education systems and build future-ready workforces.",
-      "link": "https://openai.com/index/edu-for-countries",
+      "title": "How countries can end the capability overhang",
+      "description": "Our latest report reveals stark differences in advanced AI adoption across countries and outlines new initiatives to help nations capture productivity gains from AI.",
+      "link": "https://openai.com/index/how-countries-can-end-the-capability-overhang",
       "date": "2026-01-21T01:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
@@ -126,15 +135,6 @@
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
-    },
-    {
-      "title": "Cisco and OpenAI redefine enterprise engineering with AI agents",
-      "description": "Cisco and OpenAI redefine enterprise engineering with Codex, an AI software agent embedded in workflows to speed builds, automate defect fixes, and enable AI-native development.",
-      "link": "https://openai.com/index/cisco",
-      "date": "2026-01-20T11:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
     }
   ]
 }
