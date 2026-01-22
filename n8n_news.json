@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-01-22T18:38:24.105Z",
+  "lastUpdated": "2026-01-22T20:32:18.387Z",
   "news": [
+    {
+      "title": "OpenAI-Marketingchefin wirbt bei MAGA-Aktivistin um Vertrauen und verweist auf Spenden",
+      "description": "OpenAIs Marketingchefin verteidigt das Unternehmen gegen Vorwürfe, es sei \"Woke AI\" und verweist auf 25 Millionen Dollar MAGA-Spenden von Mitgründer Greg Brockman. Der Auslöser: eine OpenAI-Personalen",
+      "link": "https://the-decoder.de/openai-marketingchefin-wirbt-bei-maga-aktivistin-um-vertrauen-und-verweist-auf-spenden/",
+      "date": "2026-01-22T20:22:37.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Elon Musks KI-Chatbot Grok flutete X mit Millionen sexualisierter Bilder",
+      "description": "Elon Musks KI-Chatbot Grok hat innerhalb von nur neun Tagen mindestens 1,8 Millionen sexualisierte Bilder von Frauen erstellt und auf X veröffentlicht.\nDer Artikel Elon Musks KI-Chatbot Grok flutete X",
+      "link": "https://the-decoder.de/elon-musks-ki-chatbot-grok-flutet-x-mit-millionen-sexualisierter-bilder/",
+      "date": "2026-01-22T19:48:55.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "OpenAIs Ex-Top-Forscher: Googles Erfolg ist der Beweis für OpenAIs Versagen",
       "description": "Jerry Tworek kam 2019 zu OpenAI, als das Unternehmen etwa 30 Mitarbeiter zählte. Er arbeitete an vielen der wichtigsten Projekte und war maßgeblich an der Entwicklung des Reasoning-Ansatzes beteiligt,",
@@ -27,6 +45,15 @@
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
+    },
+    {
+      "title": "Scaling PostgreSQL to power 800 million ChatGPT users",
+      "description": "An inside look at how OpenAI scaled PostgreSQL to millions of queries per second using replicas, caching, rate limiting, and workload isolation.",
+      "link": "https://openai.com/index/scaling-postgresql",
+      "date": "2026-01-22T12:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
     },
     {
       "title": "NeurIPS-Analyse zeigt: Selbst Google-Autoren sind vor KI-Halluzinationen nicht sicher",
@@ -92,15 +119,6 @@
       "language": "de"
     },
     {
-      "title": "Interaktive Demo von CivAI zeigt, wie unterschiedlich KI-Modelle auf ethische Fragen antworten",
-      "description": "Eine neue interaktive Demo der Non-Profit-Organisation CivAI zeigt, wie unterschiedlich KI-Modelle auf ethische und politische Fragen antworten. Und wieso Grok Elon Musk mehr mag als Mahatma Ghandi.\nD",
-      "link": "https://the-decoder.de/interaktive-demo-von-civai-zeigt-wie-unterschiedlich-ki-modelle-auf-ethische-fragen-antworten/",
-      "date": "2026-01-21T11:00:57.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "How Higgsfield turns simple ideas into cinematic social videos",
       "description": "Discover how Higgsfield gives creators cinematic, social-first video output from simple inputs using OpenAI GPT-4.1, GPT-5, and Sora 2.",
       "link": "https://openai.com/index/higgsfield",
@@ -110,28 +128,10 @@
       "language": "en"
     },
     {
-      "title": "Introducing Edu for Countries",
-      "description": "Edu for Countries is a new OpenAI initiative helping governments use AI to modernize education systems and build future-ready workforces.",
-      "link": "https://openai.com/index/edu-for-countries",
-      "date": "2026-01-21T01:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
       "title": "How countries can end the capability overhang",
       "description": "Our latest report reveals stark differences in advanced AI adoption across countries and outlines new initiatives to help nations capture productivity gains from AI.",
       "link": "https://openai.com/index/how-countries-can-end-the-capability-overhang",
       "date": "2026-01-21T01:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "Horizon 1000: Advancing AI for primary healthcare",
-      "description": "OpenAI and the Gates Foundation launch Horizon 1000, a $50M pilot advancing AI capabilities for healthcare in Africa. The initiative aims to reach 1,000 clinics by 2028.",
-      "link": "https://openai.com/index/horizon-1000",
-      "date": "2026-01-20T21:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
