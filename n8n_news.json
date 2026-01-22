@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-01-22T08:37:39.416Z",
+  "lastUpdated": "2026-01-22T10:32:34.594Z",
   "news": [
+    {
+      "title": "Apple entwickelt KI-Pin in AirTag-Größe für 2027",
+      "description": "Der iPhone-Konzern soll an einem tragbaren KI-Gerät mit zwei Kameras und Mikrofonen arbeiten. Das Projekt soll Apple im Wettrennen mit OpenAI und Meta halten.\nDer Artikel Apple entwickelt KI-Pin in Ai",
+      "link": "https://the-decoder.de/apple-entwickelt-ki-pin-in-airtag-groesse-fuer-2027/",
+      "date": "2026-01-22T10:05:52.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Meta Superintelligence Labs hat erste interne KI-Modelle fertiggestellt",
       "description": "Metas neues KI-Labor liefert intern erste Ergebnisse und CTO Bosworth betreibt bereits Erwartungsmanagement: Die Zeit der großen Sprünge sei für Alltagsnutzer vorbei.\nDer Artikel Meta Superintelligenc",
@@ -123,15 +132,6 @@
       "description": "Der neue ukrainische Verteidigungsminister Mykhailo Fedorov kündigt ein System an, mit dem Verbündete ihre KI-Modelle auf ukrainischen Kriegsdaten trainieren können. Die Daten sollen als Verhandlungsh",
       "link": "https://the-decoder.de/vier-jahre-krieg-millionen-stunden-drohnenmaterial-ukraine-teilt-daten-fuer-ki-training/",
       "date": "2026-01-20T17:00:17.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Cursor-Experiment verschiebt die Grenzen autonomer KI-Entwicklung",
-      "description": "Einen Webbrowser von Grund auf neu zu entwickeln gilt als eines der komplexesten Softwareprojekte überhaupt. Cursor hat hunderte autonom arbeitende KI-Agenten auf genau diese Aufgabe angesetzt und nac",
-      "link": "https://the-decoder.de/cursor-experiment-verschiebt-die-grenzen-autonomer-ki-entwicklung/",
-      "date": "2026-01-20T14:05:44.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
