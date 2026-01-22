@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-01-22T10:32:34.594Z",
+  "lastUpdated": "2026-01-22T12:57:32.652Z",
   "news": [
+    {
+      "title": "NeurIPS-Analyse zeigt: Selbst Google-Autoren sind vor KI-Halluzinationen nicht sicher",
+      "description": "Eine Analyse von knapp 5.000 Papers der KI-Konferenz NeurIPS 2025 fördert halluzinierte Zitate zutage - in Arbeiten, die den Peer-Review-Prozess bereits durchlaufen haben.\nDer Artikel NeurIPS-Analyse",
+      "link": "https://the-decoder.de/neurips-analyse-zeigt-selbst-google-autoren-sind-vor-ki-halluzinationen-nicht-sicher/",
+      "date": "2026-01-22T11:34:00.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Apple entwickelt KI-Pin in AirTag-Größe für 2027",
       "description": "Der iPhone-Konzern soll an einem tragbaren KI-Gerät mit zwei Kameras und Mikrofonen arbeiten. Das Projekt soll Apple im Wettrennen mit OpenAI und Meta halten.\nDer Artikel Apple entwickelt KI-Pin in Ai",
@@ -123,15 +132,6 @@
       "description": "Chatbots wie ChatGPT, Claude oder Gemini werden nach ihrem Grundtraining darauf konditioniert, eine bestimmte Rolle zu spielen: den hilfreichen, ehrlichen und harmlosen KI-Assistenten. Doch wie zuverl",
       "link": "https://the-decoder.de/neue-anthropic-studie-rollen-und-persona-prompts-sollte-man-mit-bedacht-einsetzen/",
       "date": "2026-01-20T17:54:20.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Vier Jahre Krieg, Millionen Stunden Drohnenmaterial: Ukraine teilt Daten für KI-Training",
-      "description": "Der neue ukrainische Verteidigungsminister Mykhailo Fedorov kündigt ein System an, mit dem Verbündete ihre KI-Modelle auf ukrainischen Kriegsdaten trainieren können. Die Daten sollen als Verhandlungsh",
-      "link": "https://the-decoder.de/vier-jahre-krieg-millionen-stunden-drohnenmaterial-ukraine-teilt-daten-fuer-ki-training/",
-      "date": "2026-01-20T17:00:17.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
