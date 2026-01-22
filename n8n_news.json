@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-01-22T16:39:38.403Z",
+  "lastUpdated": "2026-01-22T18:38:24.105Z",
   "news": [
+    {
+      "title": "OpenAIs Ex-Top-Forscher: Googles Erfolg ist der Beweis für OpenAIs Versagen",
+      "description": "Jerry Tworek kam 2019 zu OpenAI, als das Unternehmen etwa 30 Mitarbeiter zählte. Er arbeitete an vielen der wichtigsten Projekte und war maßgeblich an der Entwicklung des Reasoning-Ansatzes beteiligt,",
+      "link": "https://the-decoder.de/openais-ex-top-forscher-googles-erfolg-ist-der-beweis-fuer-openais-versagen/",
+      "date": "2026-01-22T18:34:31.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Small models, big results: Achieving superior intent extraction through decomposition",
+      "description": "Generative AI",
+      "link": "https://research.google/blog/small-models-big-results-achieving-superior-intent-extraction-through-decomposition/",
+      "date": "2026-01-22T16:56:44.000Z",
+      "source": "Google AI",
+      "category": "große-modelle",
+      "language": "en"
+    },
     {
       "title": "Baidus neues Modell Ernie 5.0 hat 2,4 Billionen Parameter und ist chinesisches Top-Modell in LMArena",
       "description": "Baidus KI-Modell Ernie 5.0, das Text, Bilder, Audio und Video in einer einheitlichen Architektur verarbeitet, ist jetzt offiziell verfügbar.\nDer Artikel Baidus neues Modell Ernie 5.0 hat 2,4 Billionen",
@@ -117,24 +135,6 @@
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
-    },
-    {
-      "title": "OpenAI führt automatische Alterserkennung für Jugendschutz in ChatGPT ein",
-      "description": "OpenAI will Minderjährige in ChatGPT besser schützen – und Erwachsenen mehr Freiheiten geben. Dabei soll eine automatische Alterserkennung helfen.\nDer Artikel OpenAI führt automatische Alterserkennung",
-      "link": "https://the-decoder.de/openai-fuehrt-automatische-alterserkennung-fuer-jugendschutz-in-chatgpt-ein/",
-      "date": "2026-01-20T19:28:15.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Deepmind- und Anthropic-CEOs erwarten 2026 KI-Auswirkungen auf Einstiegsjobs und Praktika",
-      "description": "Zwei der wichtigsten KI-Chefs, Demis Hassabis von Google Deepmind und Dario Amodei von Anthropic, sehen beim Weltwirtschaftsforum erste Anzeichen für Jobverluste durch KI. Beide beobachten die Entwick",
-      "link": "https://the-decoder.de/deepmind-und-anthropic-ceos-erwarten-2026-ki-auswirkungen-auf-einstiegsjobs-und-praktika/",
-      "date": "2026-01-20T19:11:35.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
     }
   ]
 }
