@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-01-22T12:57:32.652Z",
+  "lastUpdated": "2026-01-22T16:39:38.403Z",
   "news": [
+    {
+      "title": "Baidus neues Modell Ernie 5.0 hat 2,4 Billionen Parameter und ist chinesisches Top-Modell in LMArena",
+      "description": "Baidus KI-Modell Ernie 5.0, das Text, Bilder, Audio und Video in einer einheitlichen Architektur verarbeitet, ist jetzt offiziell verfügbar.\nDer Artikel Baidus neues Modell Ernie 5.0 hat 2,4 Billionen",
+      "link": "https://the-decoder.de/baidus-neues-modell-ernie-5-0-hat-24-billionen-parameter-und-ist-chinesisches-top-modell-in-lmarena/",
+      "date": "2026-01-22T13:27:34.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "NeurIPS-Analyse zeigt: Selbst Google-Autoren sind vor KI-Halluzinationen nicht sicher",
       "description": "Eine Analyse von knapp 5.000 Papers der KI-Konferenz NeurIPS 2025 fördert halluzinierte Zitate zutage - in Arbeiten, die den Peer-Review-Prozess bereits durchlaufen haben.\nDer Artikel NeurIPS-Analyse",
@@ -18,6 +27,15 @@
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
+    },
+    {
+      "title": "Inside Praktika's conversational approach to language learning",
+      "description": "How Praktika uses GPT-4.1 and GPT-5.2 to build adaptive AI tutors that personalize lessons, track progress, and help learners achieve real-world language fluency",
+      "link": "https://openai.com/index/praktika",
+      "date": "2026-01-22T05:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
     },
     {
       "title": "Meta Superintelligence Labs hat erste interne KI-Modelle fertiggestellt",
@@ -74,18 +92,18 @@
       "language": "en"
     },
     {
-      "title": "How countries can end the capability overhang",
-      "description": "Our latest report reveals stark differences in advanced AI adoption across countries and outlines new initiatives to help nations capture productivity gains from AI.",
-      "link": "https://openai.com/index/how-countries-can-end-the-capability-overhang",
+      "title": "Introducing Edu for Countries",
+      "description": "Edu for Countries is a new OpenAI initiative helping governments use AI to modernize education systems and build future-ready workforces.",
+      "link": "https://openai.com/index/edu-for-countries",
       "date": "2026-01-21T01:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
     },
     {
-      "title": "Introducing Edu for Countries",
-      "description": "Edu for Countries is a new OpenAI initiative helping governments use AI to modernize education systems and build future-ready workforces.",
-      "link": "https://openai.com/index/edu-for-countries",
+      "title": "How countries can end the capability overhang",
+      "description": "Our latest report reveals stark differences in advanced AI adoption across countries and outlines new initiatives to help nations capture productivity gains from AI.",
+      "link": "https://openai.com/index/how-countries-can-end-the-capability-overhang",
       "date": "2026-01-21T01:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
@@ -114,24 +132,6 @@
       "description": "Zwei der wichtigsten KI-Chefs, Demis Hassabis von Google Deepmind und Dario Amodei von Anthropic, sehen beim Weltwirtschaftsforum erste Anzeichen für Jobverluste durch KI. Beide beobachten die Entwick",
       "link": "https://the-decoder.de/deepmind-und-anthropic-ceos-erwarten-2026-ki-auswirkungen-auf-einstiegsjobs-und-praktika/",
       "date": "2026-01-20T19:11:35.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Stargate Community",
-      "description": "Stargate Community plans detail a community-first approach to AI infrastructure, using locally tailored plans shaped by community input, energy needs, and workforce priorities.",
-      "link": "https://openai.com/index/stargate-community",
-      "date": "2026-01-20T19:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "Neue Anthropic-Studie: Rollen- und Persona-Prompts sollte man mit Bedacht einsetzen",
-      "description": "Chatbots wie ChatGPT, Claude oder Gemini werden nach ihrem Grundtraining darauf konditioniert, eine bestimmte Rolle zu spielen: den hilfreichen, ehrlichen und harmlosen KI-Assistenten. Doch wie zuverl",
-      "link": "https://the-decoder.de/neue-anthropic-studie-rollen-und-persona-prompts-sollte-man-mit-bedacht-einsetzen/",
-      "date": "2026-01-20T17:54:20.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
