@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-01-23T18:39:04.517Z",
+  "lastUpdated": "2026-01-23T20:30:17.583Z",
   "news": [
+    {
+      "title": "OpenAI-Chef Altman kündigt Codex-Updates mit hohem Sicherheitsrisiko an",
+      "description": "OpenAI kündigt neue Funktionen für das Coding-Modell Codex an und erreicht durch diese erstmals die Cybersicherheitsstufe \"Hoch\" in seinem eigenen Risikorahmen - mit angeblich weitreichenden Folgen fü",
+      "link": "https://the-decoder.de/openai-chef-altman-kuendigt-neue-codex-modelle-mit-hohem-sicherheitsrisiko-an/",
+      "date": "2026-01-23T20:21:23.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Anthropic muss Einstellungstests immer wieder neu gestalten, weil Claude sie löst",
       "description": "Das KI-Unternehmen Anthropic kämpft mit einem ungewöhnlichen Problem: Das Recruiting-Team muss ständig neue Take-Home-Tests entwicklen, weil die eigenen Modelle menschliche Bewerber abhängen.\nDer Arti",
@@ -9,6 +18,15 @@
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
+    },
+    {
+      "title": "Unrolling the Codex agent loop",
+      "description": "A technical deep dive into the Codex agent loop, explaining how Codex CLI orchestrates models, tools, prompts, and performance using the Responses API.",
+      "link": "https://openai.com/index/unrolling-the-codex-agent-loop",
+      "date": "2026-01-23T12:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
     },
     {
       "title": "Googles KI-Suche durchsucht jetzt Gmail und Fotos für personalisierte Ergebnisse",
@@ -110,28 +128,10 @@
       "language": "en"
     },
     {
-      "title": "Meta Superintelligence Labs hat erste interne KI-Modelle fertiggestellt",
-      "description": "Metas neues KI-Labor liefert intern erste Ergebnisse und CTO Bosworth betreibt bereits Erwartungsmanagement: Die Zeit der großen Sprünge sei für Alltagsnutzer vorbei.\nDer Artikel Meta Superintelligenc",
-      "link": "https://the-decoder.de/meta-superintelligence-labs-hat-erste-interne-ki-modelle-fertiggestellt/",
-      "date": "2026-01-21T19:55:29.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "How Higgsfield turns simple ideas into cinematic social videos",
       "description": "Discover how Higgsfield gives creators cinematic, social-first video output from simple inputs using OpenAI GPT-4.1, GPT-5, and Sora 2.",
       "link": "https://openai.com/index/higgsfield",
       "date": "2026-01-21T10:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "How countries can end the capability overhang",
-      "description": "Our latest report reveals stark differences in advanced AI adoption across countries and outlines new initiatives to help nations capture productivity gains from AI.",
-      "link": "https://openai.com/index/how-countries-can-end-the-capability-overhang",
-      "date": "2026-01-21T01:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
