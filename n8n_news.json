@@ -1,6 +1,33 @@
 {
-  "lastUpdated": "2026-01-23T10:29:23.752Z",
+  "lastUpdated": "2026-01-23T12:55:05.915Z",
   "news": [
+    {
+      "title": "Anthropic muss Einstellungstests immer wieder neu gestalten, weil Claude sie löst",
+      "description": "Das KI-Unternehmen Anthropic kämpft mit einem ungewöhnlichen Problem: Das Recruiting-Team muss ständig neue Take-Home-Tests entwicklen, weil die eigenen Modelle menschliche Bewerber abhängen.\nDer Arti",
+      "link": "https://the-decoder.de/anthropic-muss-einstellungstests-immer-wieder-neu-gestalten-weil-claude-sie-loest/",
+      "date": "2026-01-23T12:36:06.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Googles KI-Suche durchsucht jetzt Gmail und Fotos für personalisierte Ergebnisse",
+      "description": "Google verbindet Gmail und Google Photos mit seiner KI-Suche. Abonnenten von Google AI Pro und Ultra in den USA können dafür ihre E-Mails und Fotos für personalisierte Suchergebnisse freigeben.\nDer Ar",
+      "link": "https://the-decoder.de/googles-ki-suche-durchsucht-jetzt-gmail-und-fotos-fuer-personalisierte-ergebnisse/",
+      "date": "2026-01-23T11:20:01.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "OpenAIs API-Geschäft legt in einem Monat über eine Milliarde Dollar an jährlich wiederkehrendem Umsatz zu",
+      "description": "OpenAIs API-Geschäft wächst laut CEO Sam Atlman rasant. Allein im letzten Monat kamen über eine Milliarde Dollar an jährlich wiederkehrendem Umsatz hinzu.\nDer Artikel OpenAIs API-Geschäft legt in eine",
+      "link": "https://the-decoder.de/openais-api-geschaeft-legt-in-einem-monat-ueber-eine-milliarde-dollar-an-jaehrlich-wiederkehrendem-umsatz-zu/",
+      "date": "2026-01-23T11:05:04.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "OpenAI-Marketingchefin wirbt bei MAGA-Aktivistin um Vertrauen und verweist auf Spenden",
       "description": "OpenAIs Marketingchefin verteidigt das Unternehmen gegen Vorwürfe, es sei \"Woke AI\" und verweist auf 25 Millionen Dollar MAGA-Spenden von Mitgründer Greg Brockman. Der Auslöser: eine OpenAI-Personalen",
@@ -87,33 +114,6 @@
       "description": "Metas neues KI-Labor liefert intern erste Ergebnisse und CTO Bosworth betreibt bereits Erwartungsmanagement: Die Zeit der großen Sprünge sei für Alltagsnutzer vorbei.\nDer Artikel Meta Superintelligenc",
       "link": "https://the-decoder.de/meta-superintelligence-labs-hat-erste-interne-ki-modelle-fertiggestellt/",
       "date": "2026-01-21T19:55:29.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Ollama generiert jetzt KI-Bilder lokal auf dem Mac",
-      "description": "Ollama, die Software zum lokalen Ausführen von KI-Modellen, ermöglicht ab sofort Bildgenerierung auf macOS.\nDer Artikel Ollama generiert jetzt KI-Bilder lokal auf dem Mac erschien zuerst auf The Decod",
-      "link": "https://the-decoder.de/ollama-generiert-jetzt-ki-bilder-lokal-auf-dem-mac/",
-      "date": "2026-01-21T16:21:59.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "OpenAI verspricht: Stargate-Rechenzentren sollen Strompreise für Anwohner nicht erhöhen",
-      "description": "Nach Microsoft geht auch OpenAI einen Schritt auf vom massiven Infrastrukturausbau betroffene Anwohner zu.\nDer Artikel OpenAI verspricht: Stargate-Rechenzentren sollen Strompreise für Anwohner nicht e",
-      "link": "https://the-decoder.de/openai-verspricht-stargate-rechenzentren-sollen-strompreise-fuer-anwohner-nicht-erhoehen/",
-      "date": "2026-01-21T12:03:07.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "OpenAI bepreist ChatGPT-Anzeigen vorerst nach Impressionen statt nach Klicks",
-      "description": "OpenAI hat begonnen, dutzenden Werbetreibenden Anzeigenplätze in ChatGPT anzubieten. Anders als bei Google oder Amazon setzt das Unternehmen zunächst auf Abrechnung nach Aufrufen statt nach Klicks.\nDe",
-      "link": "https://the-decoder.de/openai-bepreist-chatgpt-anzeigen-vorerst-nach-impressionen-statt-nach-klicks/",
-      "date": "2026-01-21T11:41:19.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
