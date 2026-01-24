@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-01-23T22:21:30.296Z",
+  "lastUpdated": "2026-01-24T01:56:11.320Z",
   "news": [
     {
       "title": "OpenAI-Chef Altman kündigt Codex-Updates mit hohem Sicherheitsrisiko an",
@@ -128,10 +128,10 @@
       "language": "en"
     },
     {
-      "title": "How Higgsfield turns simple ideas into cinematic social videos",
-      "description": "Discover how Higgsfield gives creators cinematic, social-first video output from simple inputs using OpenAI GPT-4.1, GPT-5, and Sora 2.",
-      "link": "https://openai.com/index/higgsfield",
-      "date": "2026-01-21T10:00:00.000Z",
+      "title": "Inside GPT-5 for Work: How Businesses Use GPT-5",
+      "description": "A data-driven report on how workers across industries use ChatGPT—covering adoption trends, top tasks, departmental patterns, and the future of AI at work.",
+      "link": "https://openai.com/business/guides-and-resources/chatgpt-usage-and-adoption-patterns-at-work",
+      "date": "2026-01-22T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
