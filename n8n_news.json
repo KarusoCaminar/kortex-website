@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-01-24T12:48:39.268Z",
+  "lastUpdated": "2026-01-24T14:23:00.457Z",
   "news": [
+    {
+      "title": "OpenAIs GPT-5.2 Pro stellt neuen Rekord im anspruchsvollen FrontierMath-Benchmark auf",
+      "description": "OpenAIs GPT-5.2 Pro löst fast ein Drittel der schwierigsten Matheaufgaben im FrontierMath-Benchmark, ein deutlicher Sprung gegenüber dem bisherigen Rekord von Gemini 3 Pro.\nDer Artikel OpenAIs GPT-5.2",
+      "link": "https://the-decoder.de/openais-gpt-5-2-pro-stellt-neuen-rekord-im-anspruchsvollen-frontiermath-benchmark-auf/",
+      "date": "2026-01-24T13:00:00.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Google Deepminds neues KI-Modell D4RT soll Robotern und AR-Brillen besseres räumliches Sehen ermöglichen",
       "description": "Google Deepminds neues KI-Modell D4RT soll dynamische Szenen aus Videos in vier Dimensionen rekonstruieren und dabei bisherige Methoden um ein Vielfaches übertreffen.\nDer Artikel Google Deepminds neue",
@@ -90,15 +99,6 @@
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
-    },
-    {
-      "title": "Googles KI-Suche durchsucht jetzt Gmail und Fotos für personalisierte Ergebnisse",
-      "description": "Google verbindet Gmail und Google Photos mit seiner KI-Suche. Abonnenten von Google AI Pro und Ultra in den USA können dafür ihre E-Mails und Fotos für personalisierte Suchergebnisse freigeben.\nDer Ar",
-      "link": "https://the-decoder.de/googles-ki-suche-durchsucht-jetzt-gmail-und-fotos-fuer-personalisierte-ergebnisse/",
-      "date": "2026-01-23T11:20:01.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
     },
     {
       "title": "Small models, big results: Achieving superior intent extraction through decomposition",
