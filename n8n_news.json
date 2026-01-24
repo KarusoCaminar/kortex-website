@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-01-24T08:31:08.225Z",
+  "lastUpdated": "2026-01-24T10:25:04.527Z",
   "news": [
+    {
+      "title": "X-Coder übertrifft deutlich größere KI-Modelle dank rein synthetischer Trainingsdaten",
+      "description": "Wer braucht schon echte Daten? Forscher zeigen, dass ein KI-Modell mit rein synthetischen Programmieraufgaben trainiert werden kann und dabei größere Konkurrenten schlägt. Mehr Aufgaben schlagen mehr",
+      "link": "https://the-decoder.de/x-coder-uebertrifft-deutlich-groessere-ki-modelle-dank-rein-synthetischer-trainingsdaten/",
+      "date": "2026-01-24T09:36:22.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Google Deepmind auf Einkaufstour: Tech-Konzern schließt Deals mit gleich drei KI-Start-ups ab",
+      "description": "Googles KI-Einkaufstour zeigt, wie der Konzern seine Marktmacht ausbaut: Statt Start-ups komplett zu kaufen und Kartellwächter auf den Plan zu rufen, holt man sich einfach die besten Köpfe, lizenziert",
+      "link": "https://the-decoder.de/google-deepmind-auf-einkaufstour-tech-konzern-schliesst-deals-mit-gleich-drei-ki-start-ups-ab/",
+      "date": "2026-01-24T09:01:21.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "OpenAI-Chef Altman kündigt Codex-Updates mit hohem Sicherheitsrisiko an",
       "description": "OpenAI kündigt neue Funktionen für das Coding-Modell Codex an und erreicht durch diese erstmals die Cybersicherheitsstufe \"Hoch\" in seinem eigenen Risikorahmen - mit angeblich weitreichenden Folgen fü",
@@ -99,24 +117,6 @@
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
-    },
-    {
-      "title": "NeurIPS-Analyse zeigt: Selbst Google-Autoren sind vor KI-Halluzinationen nicht sicher",
-      "description": "Eine Analyse von knapp 5.000 Papers der KI-Konferenz NeurIPS 2025 fördert halluzinierte Zitate zutage - in Arbeiten, die den Peer-Review-Prozess bereits durchlaufen haben.\nDer Artikel NeurIPS-Analyse",
-      "link": "https://the-decoder.de/neurips-analyse-zeigt-selbst-google-autoren-sind-vor-ki-halluzinationen-nicht-sicher/",
-      "date": "2026-01-22T11:34:00.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Apple entwickelt KI-Pin in AirTag-Größe für 2027",
-      "description": "Der iPhone-Konzern soll an einem tragbaren KI-Gerät mit zwei Kameras und Mikrofonen arbeiten. Das Projekt soll Apple im Wettrennen mit OpenAI und Meta halten.\nDer Artikel Apple entwickelt KI-Pin in Ai",
-      "link": "https://the-decoder.de/apple-entwickelt-ki-pin-in-airtag-groesse-fuer-2027/",
-      "date": "2026-01-22T10:05:52.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
     },
     {
       "title": "Inside Praktika's conversational approach to language learning",
