@@ -1,6 +1,51 @@
 {
-  "lastUpdated": "2026-01-24T10:25:04.527Z",
+  "lastUpdated": "2026-01-24T12:48:39.268Z",
   "news": [
+    {
+      "title": "Google Deepminds neues KI-Modell D4RT soll Robotern und AR-Brillen besseres räumliches Sehen ermöglichen",
+      "description": "Google Deepminds neues KI-Modell D4RT soll dynamische Szenen aus Videos in vier Dimensionen rekonstruieren und dabei bisherige Methoden um ein Vielfaches übertreffen.\nDer Artikel Google Deepminds neue",
+      "link": "https://the-decoder.de/google-deepminds-neues-ki-modell-d4rt-soll-robotern-und-ar-brillen-besseres-raeumliches-sehen-ermoeglichen/",
+      "date": "2026-01-24T12:32:45.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Google Photos: Neue KI-Funktion \"Me Meme\" erstellt personalisierte Memes",
+      "description": "Google Photos kann jetzt Memes aus Selfies erstellen. Die Funktion startet zunächst in den USA und ist direkt in die Photos-App integriert.\nDer Artikel Google Photos: Neue KI-Funktion \"Me Meme\" erstel",
+      "link": "https://the-decoder.de/google-photos-neue-ki-funktion-me-meme-erstellt-personalisierte-memes/",
+      "date": "2026-01-24T12:05:25.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Jeder zehnte japanische Kreative verliert Einkommen durch generative KI",
+      "description": "Eine neue Umfrage zeigt, dass bereits jeder zehnte japanische Manga-Künstler und Illustrator Einkommensverluste erleidet. Fast 90 Prozent fürchten um ihre Existenz.\nDer Artikel Jeder zehnte japanische",
+      "link": "https://the-decoder.de/jeder-zehnte-japanische-kreative-verliert-einkommen-durch-generative-ki/",
+      "date": "2026-01-24T11:48:34.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Anthropic schaltet Excel-Integration von Claude für alle Pro-Abonnenten frei",
+      "description": "Anthropic erweitert Claude für die Finanzbranche um neue Funktionen: Eine Excel-Erweiterung, zusätzliche Datenanbindungen und vordefinierte KI-Fertigkeiten sollen Analysten bei Aufgaben wie Cashflow-M",
+      "link": "https://the-decoder.de/anthropic-schaltet-excel-integration-von-claude-fuer-alle-pro-abonnenten-frei/",
+      "date": "2026-01-24T11:17:47.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Prognose eines OpenAI-Entwicklers: KI-Code führt zu komplexen Systemausfällen",
+      "description": "Entwickler, die offen zugeben, ihren eigenen Code nicht mehr zu verstehen? Das klingt nach einem Albtraum für jede IT-Abteilung. Ob uns KI am Ende mehr Zeit spart oder uns in eine Debugging-Hölle führ",
+      "link": "https://the-decoder.de/prognose-eines-openai-entwicklers-ki-code-fuehrt-zu-komplexen-systemausfaellen/",
+      "date": "2026-01-24T11:01:22.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "X-Coder übertrifft deutlich größere KI-Modelle dank rein synthetischer Trainingsdaten",
       "description": "Wer braucht schon echte Daten? Forscher zeigen, dass ein KI-Modell mit rein synthetischen Programmieraufgaben trainiert werden kann und dabei größere Konkurrenten schlägt. Mehr Aufgaben schlagen mehr",
@@ -56,42 +101,6 @@
       "language": "de"
     },
     {
-      "title": "OpenAIs API-Geschäft legt in einem Monat über eine Milliarde Dollar an jährlich wiederkehrendem Umsatz zu",
-      "description": "OpenAIs API-Geschäft wächst laut CEO Sam Atlman rasant. Allein im letzten Monat kamen über eine Milliarde Dollar an jährlich wiederkehrendem Umsatz hinzu.\nDer Artikel OpenAIs API-Geschäft legt in eine",
-      "link": "https://the-decoder.de/openais-api-geschaeft-legt-in-einem-monat-ueber-eine-milliarde-dollar-an-jaehrlich-wiederkehrendem-umsatz-zu/",
-      "date": "2026-01-23T11:05:04.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "OpenAI-Marketingchefin wirbt bei MAGA-Aktivistin um Vertrauen und verweist auf Spenden",
-      "description": "OpenAIs Marketingchefin verteidigt das Unternehmen gegen Vorwürfe, es sei \"Woke AI\" und verweist auf 25 Millionen Dollar MAGA-Spenden von Mitgründer Greg Brockman. Der Auslöser: eine OpenAI-Personalen",
-      "link": "https://the-decoder.de/openai-marketingchefin-wirbt-bei-maga-aktivistin-um-vertrauen-und-verweist-auf-spenden/",
-      "date": "2026-01-22T20:22:37.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Elon Musks KI-Chatbot Grok flutete X mit Millionen sexualisierter Bilder",
-      "description": "Elon Musks KI-Chatbot Grok hat innerhalb von nur neun Tagen mindestens 1,8 Millionen sexualisierte Bilder von Frauen erstellt und auf X veröffentlicht.\nDer Artikel Elon Musks KI-Chatbot Grok flutete X",
-      "link": "https://the-decoder.de/elon-musks-ki-chatbot-grok-flutet-x-mit-millionen-sexualisierter-bilder/",
-      "date": "2026-01-22T19:48:55.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "OpenAIs Ex-Top-Forscher: Googles Erfolg ist der Beweis für OpenAIs Versagen",
-      "description": "Jerry Tworek kam 2019 zu OpenAI, als das Unternehmen etwa 30 Mitarbeiter zählte. Er arbeitete an vielen der wichtigsten Projekte und war maßgeblich an der Entwicklung des Reasoning-Ansatzes beteiligt,",
-      "link": "https://the-decoder.de/openais-ex-top-forscher-googles-erfolg-ist-der-beweis-fuer-openais-versagen/",
-      "date": "2026-01-22T18:34:31.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "Small models, big results: Achieving superior intent extraction through decomposition",
       "description": "Generative AI",
       "link": "https://research.google/blog/small-models-big-results-achieving-superior-intent-extraction-through-decomposition/",
@@ -99,15 +108,6 @@
       "source": "Google AI",
       "category": "große-modelle",
       "language": "en"
-    },
-    {
-      "title": "Baidus neues Modell Ernie 5.0 hat 2,4 Billionen Parameter und ist chinesisches Top-Modell in LMArena",
-      "description": "Baidus KI-Modell Ernie 5.0, das Text, Bilder, Audio und Video in einer einheitlichen Architektur verarbeitet, ist jetzt offiziell verfügbar.\nDer Artikel Baidus neues Modell Ernie 5.0 hat 2,4 Billionen",
-      "link": "https://the-decoder.de/baidus-neues-modell-ernie-5-0-hat-24-billionen-parameter-und-ist-chinesisches-top-modell-in-lmarena/",
-      "date": "2026-01-22T13:27:34.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
     },
     {
       "title": "Scaling PostgreSQL to power 800 million ChatGPT users",
