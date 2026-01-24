@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-01-24T14:23:00.457Z",
+  "lastUpdated": "2026-01-24T16:29:15.416Z",
   "news": [
+    {
+      "title": "Meta sperrt weltweit den Zugang zu KI-Charakteren für Jugendliche",
+      "description": "Meta stoppt weltweit den Zugang zu KI-Charakteren für Jugendliche. Das Unternehmen arbeitet an neuen Elternkontrollen und einer überarbeiteten Version der KI-Figuren.\nDer Artikel Meta sperrt weltweit",
+      "link": "https://the-decoder.de/meta-sperrt-weltweit-den-zugang-zu-ki-charakteren-fuer-jugendliche/",
+      "date": "2026-01-24T14:58:56.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "KI-Modelle lassen sich laut Apple-Forschern schlechter steuern als angenommen",
+      "description": "Ein neues theoretisches Framework legt nahe, dass die Kontrollierbarkeit von Sprachmodellen und Bildgeneratoren überraschend fragil ist. Die Steuerbarkeit hängt stark von der jeweiligen Aufgabe und de",
+      "link": "https://the-decoder.de/ki-modelle-lassen-sich-laut-apple-forschern-schlechter-steuern-als-angenommen/",
+      "date": "2026-01-24T14:28:12.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "OpenAIs GPT-5.2 Pro stellt neuen Rekord im anspruchsvollen FrontierMath-Benchmark auf",
       "description": "OpenAIs GPT-5.2 Pro löst fast ein Drittel der schwierigsten Matheaufgaben im FrontierMath-Benchmark, ein deutlicher Sprung gegenüber dem bisherigen Rekord von Gemini 3 Pro.\nDer Artikel OpenAIs GPT-5.2",
@@ -69,24 +87,6 @@
       "description": "Googles KI-Einkaufstour zeigt, wie der Konzern seine Marktmacht ausbaut: Statt Start-ups komplett zu kaufen und Kartellwächter auf den Plan zu rufen, holt man sich einfach die besten Köpfe, lizenziert",
       "link": "https://the-decoder.de/google-deepmind-auf-einkaufstour-tech-konzern-schliesst-deals-mit-gleich-drei-ki-start-ups-ab/",
       "date": "2026-01-24T09:01:21.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "OpenAI-Chef Altman kündigt Codex-Updates mit hohem Sicherheitsrisiko an",
-      "description": "OpenAI kündigt neue Funktionen für das Coding-Modell Codex an und erreicht durch diese erstmals die Cybersicherheitsstufe \"Hoch\" in seinem eigenen Risikorahmen - mit angeblich weitreichenden Folgen fü",
-      "link": "https://the-decoder.de/openai-chef-altman-kuendigt-neue-codex-modelle-mit-hohem-sicherheitsrisiko-an/",
-      "date": "2026-01-23T20:21:23.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Anthropic muss Einstellungstests immer wieder neu gestalten, weil Claude sie löst",
-      "description": "Das KI-Unternehmen Anthropic kämpft mit einem ungewöhnlichen Problem: Das Recruiting-Team muss ständig neue Take-Home-Tests entwicklen, weil die eigenen Modelle menschliche Bewerber abhängen.\nDer Arti",
-      "link": "https://the-decoder.de/anthropic-muss-einstellungstests-immer-wieder-neu-gestalten-weil-claude-sie-loest/",
-      "date": "2026-01-23T12:36:06.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
