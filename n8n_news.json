@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-01-25T14:22:41.850Z",
+  "lastUpdated": "2026-01-25T16:30:03.326Z",
   "news": [
+    {
+      "title": "Jobkrise bei Codern, Textern und Co. begann vor ChatGPT: Studie widerspricht populärer KI-Erzählung",
+      "description": "Die Erzählung klingt einleuchtend: ChatGPT kam, und die Jobs in KI-exponierten Berufen verschwanden. Eine neue Studie zeigt jedoch, dass die Probleme bereits Monate früher begannen. Laut dem Forschung",
+      "link": "https://the-decoder.de/jobkrise-bei-codern-textern-und-co-begann-vor-chatgpt-studie-widerspricht-populaerer-ki-erzaehlung/",
+      "date": "2026-01-25T14:31:41.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Führende KI-Chatbots können ihre eigenen Fake-Videos nicht zuverlässig identifizieren",
       "description": "Eine Untersuchung von Newsguard zeigt: Führende Chatbots können Fake-Videos fast nie als solche identifizieren. ChatGPT versagt sogar bei Inhalten des eigenen Unternehmens.\nDer Artikel Führende KI-Cha",
@@ -78,15 +87,6 @@
       "description": "Eine neue Umfrage zeigt, dass bereits jeder zehnte japanische Manga-Künstler und Illustrator Einkommensverluste erleidet. Fast 90 Prozent fürchten um ihre Existenz.\nDer Artikel Jeder zehnte japanische",
       "link": "https://the-decoder.de/jeder-zehnte-japanische-kreative-verliert-einkommen-durch-generative-ki/",
       "date": "2026-01-24T11:48:34.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Anthropic schaltet Excel-Integration von Claude für alle Pro-Abonnenten frei",
-      "description": "Anthropic erweitert Claude für die Finanzbranche um neue Funktionen: Eine Excel-Erweiterung, zusätzliche Datenanbindungen und vordefinierte KI-Fertigkeiten sollen Analysten bei Aufgaben wie Cashflow-M",
-      "link": "https://the-decoder.de/anthropic-schaltet-excel-integration-von-claude-fuer-alle-pro-abonnenten-frei/",
-      "date": "2026-01-24T11:17:47.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
