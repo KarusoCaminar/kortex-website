@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-01-25T08:31:58.618Z",
+  "lastUpdated": "2026-01-25T10:26:03.150Z",
   "news": [
+    {
+      "title": "App-Boom durch \"Vibe Coding\": KI-Tools dürften für 60 Prozent mehr iOS-Apps sorgen",
+      "description": "KI-Programmierwerkzeuge lassen nach Jahren des Stillstands die Zahl neuer iOS-Apps explodieren.\nDer Artikel App-Boom durch \"Vibe Coding\": KI-Tools dürften für 60 Prozent mehr iOS-Apps sorgen erschien",
+      "link": "https://the-decoder.de/app-boom-durch-vibe-coding-ki-tools-duerften-fuer-60-prozent-mehr-ios-apps-sorgen/",
+      "date": "2026-01-25T10:08:59.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Anthropic veröffentlicht neue Verfassung für Claude und räumt Unsicherheit über KI-Bewusstsein ein",
+      "description": "Das KI-Unternehmen Anthropic hat eine überarbeitete Version seines Grundlagendokuments veröffentlicht, das die Werte und das Verhalten des Chatbots Claude definiert. Das Dokument richtet sich primär a",
+      "link": "https://the-decoder.de/anthropic-veroeffentlicht-neue-verfassung-fuer-claude-und-raeumt-unsicherheit-ueber-ki-bewusstsein-ein/",
+      "date": "2026-01-25T08:51:48.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Meta sperrt weltweit den Zugang zu KI-Charakteren für Jugendliche",
       "description": "Meta stoppt weltweit den Zugang zu KI-Charakteren für Jugendliche. Das Unternehmen arbeitet an neuen Elternkontrollen und einer überarbeiteten Version der KI-Figuren.\nDer Artikel Meta sperrt weltweit",
@@ -69,24 +87,6 @@
       "description": "Entwickler, die offen zugeben, ihren eigenen Code nicht mehr zu verstehen? Das klingt nach einem Albtraum für jede IT-Abteilung. Ob uns KI am Ende mehr Zeit spart oder uns in eine Debugging-Hölle führ",
       "link": "https://the-decoder.de/prognose-eines-openai-entwicklers-ki-code-fuehrt-zu-komplexen-systemausfaellen/",
       "date": "2026-01-24T11:01:22.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "X-Coder übertrifft deutlich größere KI-Modelle dank rein synthetischer Trainingsdaten",
-      "description": "Wer braucht schon echte Daten? Forscher zeigen, dass ein KI-Modell mit rein synthetischen Programmieraufgaben trainiert werden kann und dabei größere Konkurrenten schlägt. Mehr Aufgaben schlagen mehr",
-      "link": "https://the-decoder.de/x-coder-uebertrifft-deutlich-groessere-ki-modelle-dank-rein-synthetischer-trainingsdaten/",
-      "date": "2026-01-24T09:36:22.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Google Deepmind auf Einkaufstour: Tech-Konzern schließt Deals mit gleich drei KI-Start-ups ab",
-      "description": "Googles KI-Einkaufstour zeigt, wie der Konzern seine Marktmacht ausbaut: Statt Start-ups komplett zu kaufen und Kartellwächter auf den Plan zu rufen, holt man sich einfach die besten Köpfe, lizenziert",
-      "link": "https://the-decoder.de/google-deepmind-auf-einkaufstour-tech-konzern-schliesst-deals-mit-gleich-drei-ki-start-ups-ab/",
-      "date": "2026-01-24T09:01:21.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
