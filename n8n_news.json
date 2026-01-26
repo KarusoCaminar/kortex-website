@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-01-26T08:37:46.114Z",
+  "lastUpdated": "2026-01-26T10:31:42.446Z",
   "news": [
+    {
+      "title": "Nvidias offene Sprach-KI PersonaPlex kombiniert schnelle Reaktionen mit flexiblen Persönlichkeiten",
+      "description": "Nvidia stellt ein neues Konversations-KI-Modell vor, das einen grundlegenden Kompromiss bisheriger Systeme aufheben soll. PersonaPlex ermöglicht natürliche Echtzeitgespräche mit anpassbarer Stimme und",
+      "link": "https://the-decoder.de/nvidias-offene-sprach-ki-personaplex-kombiniert-schnelle-reaktionen-mit-flexiblen-persoenlichkeiten/",
+      "date": "2026-01-26T09:09:52.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Jobkrise bei Codern, Textern und Co. begann vor ChatGPT: Studie widerspricht populärer KI-Erzählung",
       "description": "Die Erzählung klingt einleuchtend: ChatGPT kam, und die Jobs in KI-exponierten Berufen verschwanden. Eine neue Studie zeigt jedoch, dass die Probleme bereits Monate früher begannen. Laut dem Forschung",
@@ -78,15 +87,6 @@
       "description": "Google Photos kann jetzt Memes aus Selfies erstellen. Die Funktion startet zunächst in den USA und ist direkt in die Photos-App integriert.\nDer Artikel Google Photos: Neue KI-Funktion \"Me Meme\" erstel",
       "link": "https://the-decoder.de/google-photos-neue-ki-funktion-me-meme-erstellt-personalisierte-memes/",
       "date": "2026-01-24T12:05:25.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Jeder zehnte japanische Kreative verliert Einkommen durch generative KI",
-      "description": "Eine neue Umfrage zeigt, dass bereits jeder zehnte japanische Manga-Künstler und Illustrator Einkommensverluste erleidet. Fast 90 Prozent fürchten um ihre Existenz.\nDer Artikel Jeder zehnte japanische",
-      "link": "https://the-decoder.de/jeder-zehnte-japanische-kreative-verliert-einkommen-durch-generative-ki/",
-      "date": "2026-01-24T11:48:34.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
