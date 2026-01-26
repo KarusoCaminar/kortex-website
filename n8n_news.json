@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-01-26T18:40:56.157Z",
+  "lastUpdated": "2026-01-26T20:31:18.831Z",
   "news": [
+    {
+      "title": "Werbung in ChatGPT startet angeblich mit extrem hohen Preisen für Werbetreibende",
+      "description": "OpenAI verlangt für ChatGPT-Werbung angeblich Premium-Preise auf NFL-Niveau und rechnet pro Einblendung statt per Klick ab.\nDer Artikel Werbung in ChatGPT startet angeblich mit extrem hohen Preisen fü",
+      "link": "https://the-decoder.de/werbung-in-chatgpt-startet-angeblich-mit-extrem-hohen-preisen-fuer-werbetreibende/",
+      "date": "2026-01-26T19:48:26.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "MCP Apps: Offener KI-Daten-Standard MCP erhält interaktive Oberflächen in KI-Chats",
+      "description": "Das Model Context Protocol erhält mit \"MCP Apps\" seine erste offizielle Erweiterung. KI-Tools können nun interaktive Oberflächen direkt in Konversationen einbetten.\nDer Artikel MCP Apps: Offener KI-Da",
+      "link": "https://the-decoder.de/mcp-apps-offener-ki-daten-standard-mcp-erhaelt-interaktive-oberflaechen-in-ki-chats/",
+      "date": "2026-01-26T18:50:02.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Microsofts neuer KI-Beschleuniger Maia 200 soll Amazon- und Google-Chips übertreffen",
       "description": "Microsofts Maia 200 ist speziell für Inferenz gebaut und soll 30 Prozent bessere Leistung pro Dollar liefern als Microsofts aktuelle Chip-Generation.\nDer Artikel Microsofts neuer KI-Beschleuniger Maia",
@@ -51,24 +69,6 @@
       "description": "Eine Untersuchung von Newsguard zeigt: Führende Chatbots können Fake-Videos fast nie als solche identifizieren. ChatGPT versagt sogar bei Inhalten des eigenen Unternehmens.\nDer Artikel Führende KI-Cha",
       "link": "https://the-decoder.de/fuehrende-ki-chatbots-koennen-ihre-eigenen-fake-videos-nicht-zuverlaessig-identifizieren/",
       "date": "2026-01-25T10:31:42.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "App-Boom durch \"Vibe Coding\": KI-Tools dürften für 60 Prozent mehr iOS-Apps sorgen",
-      "description": "KI-Programmierwerkzeuge lassen nach Jahren des Stillstands die Zahl neuer iOS-Apps explodieren.\nDer Artikel App-Boom durch \"Vibe Coding\": KI-Tools dürften für 60 Prozent mehr iOS-Apps sorgen erschien",
-      "link": "https://the-decoder.de/app-boom-durch-vibe-coding-ki-tools-duerften-fuer-60-prozent-mehr-ios-apps-sorgen/",
-      "date": "2026-01-25T10:08:59.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Anthropic veröffentlicht neue Verfassung für Claude und räumt Unsicherheit über KI-Bewusstsein ein",
-      "description": "Das KI-Unternehmen Anthropic hat eine überarbeitete Version seines Grundlagendokuments veröffentlicht, das die Werte und das Verhalten des Chatbots Claude definiert. Das Dokument richtet sich primär a",
-      "link": "https://the-decoder.de/anthropic-veroeffentlicht-neue-verfassung-fuer-claude-und-raeumt-unsicherheit-ueber-ki-bewusstsein-ein/",
-      "date": "2026-01-25T08:51:48.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
