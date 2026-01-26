@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-01-26T12:56:06.007Z",
+  "lastUpdated": "2026-01-26T14:32:13.709Z",
   "news": [
     {
       "title": "Apples Weg zur Google Partnerschaft war von internen Machtkämpfen geprägt",
@@ -74,15 +74,6 @@
       "language": "de"
     },
     {
-      "title": "OpenAIs GPT-5.2 Pro stellt neuen Rekord im anspruchsvollen FrontierMath-Benchmark auf",
-      "description": "OpenAIs GPT-5.2 Pro löst fast ein Drittel der schwierigsten Matheaufgaben im FrontierMath-Benchmark, ein deutlicher Sprung gegenüber dem bisherigen Rekord von Gemini 3 Pro.\nDer Artikel OpenAIs GPT-5.2",
-      "link": "https://the-decoder.de/openais-gpt-5-2-pro-stellt-neuen-rekord-im-anspruchsvollen-frontiermath-benchmark-auf/",
-      "date": "2026-01-24T13:00:00.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "Unrolling the Codex agent loop",
       "description": "A technical deep dive into the Codex agent loop, explaining how Codex CLI orchestrates models, tools, prompts, and performance using the Responses API.",
       "link": "https://openai.com/index/unrolling-the-codex-agent-loop",
@@ -132,6 +123,15 @@
       "description": "Discover how Higgsfield gives creators cinematic, social-first video output from simple inputs using OpenAI GPT-4.1, GPT-5, and Sora 2.",
       "link": "https://openai.com/index/higgsfield",
       "date": "2026-01-21T10:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
+      "title": "Introducing Edu for Countries",
+      "description": "Edu for Countries is a new OpenAI initiative helping governments use AI to modernize education systems and build future-ready workforces.",
+      "link": "https://openai.com/index/edu-for-countries",
+      "date": "2026-01-21T01:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
