@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-01-26T16:38:33.888Z",
+  "lastUpdated": "2026-01-26T18:40:56.157Z",
   "news": [
+    {
+      "title": "Microsofts neuer KI-Beschleuniger Maia 200 soll Amazon- und Google-Chips übertreffen",
+      "description": "Microsofts Maia 200 ist speziell für Inferenz gebaut und soll 30 Prozent bessere Leistung pro Dollar liefern als Microsofts aktuelle Chip-Generation.\nDer Artikel Microsofts neuer KI-Beschleuniger Maia",
+      "link": "https://the-decoder.de/microsofts-neuer-ki-beschleuniger-maia-200-soll-amazon-und-google-chips-uebertreffen/",
+      "date": "2026-01-26T18:10:21.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Claude greift ChatGPT an: Anthropic integriert Slack, Figma und Asana direkt in den KI-Chat",
+      "description": "Anthropic integriert beliebte Arbeitstools wie Asana, Figma und Slack als interaktive Apps direkt in Claude. Die Erweiterung basiert auf dem offenen Model Context Protocol.\nDer Artikel Claude greift C",
+      "link": "https://the-decoder.de/claude-greift-chatgpt-an-anthropic-integriert-slack-figma-und-asana-direkt-in-den-ki-chat/",
+      "date": "2026-01-26T18:00:53.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Apples Weg zur Google Partnerschaft war von internen Machtkämpfen geprägt",
       "description": "Interne Notfall-Meetings, ein Chef der \"Bullshit\" rief und niemanden überzeugte, gescheiterte Milliarden-Verhandlungen: Bloomberg enthüllt die Hintergründe von Apples Wende zu Google Gemini.\nDer Artik",
@@ -51,24 +69,6 @@
       "description": "Das KI-Unternehmen Anthropic hat eine überarbeitete Version seines Grundlagendokuments veröffentlicht, das die Werte und das Verhalten des Chatbots Claude definiert. Das Dokument richtet sich primär a",
       "link": "https://the-decoder.de/anthropic-veroeffentlicht-neue-verfassung-fuer-claude-und-raeumt-unsicherheit-ueber-ki-bewusstsein-ein/",
       "date": "2026-01-25T08:51:48.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Meta sperrt weltweit den Zugang zu KI-Charakteren für Jugendliche",
-      "description": "Meta stoppt weltweit den Zugang zu KI-Charakteren für Jugendliche. Das Unternehmen arbeitet an neuen Elternkontrollen und einer überarbeiteten Version der KI-Figuren.\nDer Artikel Meta sperrt weltweit",
-      "link": "https://the-decoder.de/meta-sperrt-weltweit-den-zugang-zu-ki-charakteren-fuer-jugendliche/",
-      "date": "2026-01-24T14:58:56.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "KI-Modelle lassen sich laut Apple-Forschern schlechter steuern als angenommen",
-      "description": "Ein neues theoretisches Framework legt nahe, dass die Kontrollierbarkeit von Sprachmodellen und Bildgeneratoren überraschend fragil ist. Die Steuerbarkeit hängt stark von der jeweiligen Aufgabe und de",
-      "link": "https://the-decoder.de/ki-modelle-lassen-sich-laut-apple-forschern-schlechter-steuern-als-angenommen/",
-      "date": "2026-01-24T14:28:12.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
