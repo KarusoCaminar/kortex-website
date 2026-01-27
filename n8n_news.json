@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-01-27T18:43:59.553Z",
+  "lastUpdated": "2026-01-27T20:27:44.054Z",
   "news": [
+    {
+      "title": "ATLAS: Practical scaling laws for multilingual models",
+      "description": "Generative AI",
+      "link": "https://research.google/blog/atlas-practical-scaling-laws-for-multilingual-models/",
+      "date": "2026-01-27T18:58:40.000Z",
+      "source": "Google AI",
+      "category": "große-modelle",
+      "language": "en"
+    },
     {
       "title": "OpenAI-CEO Sam Altman warnt vor \"YOLO\"-Mentalität bei KI-Agenten",
       "description": "OpenAI-CEO Sam Altman warnt davor, dass wir KI-Agenten aus Bequemlichkeit zu viel Kontrolle geben, ohne die nötige Sicherheitsinfrastruktur zu haben. Er selbst habe jedoch seinen Vorsatz, dem OpenAI-M",
@@ -124,15 +133,6 @@
       "link": "https://openai.com/index/unrolling-the-codex-agent-loop",
       "date": "2026-01-23T12:00:00.000Z",
       "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "Small models, big results: Achieving superior intent extraction through decomposition",
-      "description": "Generative AI",
-      "link": "https://research.google/blog/small-models-big-results-achieving-superior-intent-extraction-through-decomposition/",
-      "date": "2026-01-22T16:56:44.000Z",
-      "source": "Google AI",
       "category": "große-modelle",
       "language": "en"
     }
