@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-01-27T14:34:18.576Z",
+  "lastUpdated": "2026-01-27T16:34:54.357Z",
   "news": [
+    {
+      "title": "Anthropic-CEO warnt: Demokratien müssen sich vor ihrer eigenen KI schützen",
+      "description": "Dario Amodei skizziert in einem neuen Essay die Gefahren mächtiger KI-Systeme. Seine zentrale Forderung: Demokratien sollten KI nur so einsetzen, dass sie nicht zu dem werden, was sie bekämpfen.\nDer A",
+      "link": "https://the-decoder.de/anthropic-ceo-warnt-demokratien-muessen-sich-vor-ihrer-eigenen-ki-schuetzen/",
+      "date": "2026-01-27T14:52:35.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "UK-Regierung will mit Anthropic-KI Bürgern bei der Jobsuche helfen",
       "description": "Die britische Regierung hat Anthropic ausgewählt, einen KI-Assistenten für die Website GOV.UK zu entwickeln.\nDer Artikel UK-Regierung will mit Anthropic-KI Bürgern bei der Jobsuche helfen erschien zue",
@@ -69,15 +78,6 @@
       "description": "Anthropic integriert beliebte Arbeitstools wie Asana, Figma und Slack als interaktive Apps direkt in Claude. Die Erweiterung basiert auf dem offenen Model Context Protocol.\nDer Artikel Claude greift C",
       "link": "https://the-decoder.de/claude-greift-chatgpt-an-anthropic-integriert-slack-figma-und-asana-direkt-in-den-ki-chat/",
       "date": "2026-01-26T18:00:53.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Apples Weg zur Google Partnerschaft war von internen Machtkämpfen geprägt",
-      "description": "Interne Notfall-Meetings, ein Chef der \"Bullshit\" rief und niemanden überzeugte, gescheiterte Milliarden-Verhandlungen: Bloomberg enthüllt die Hintergründe von Apples Wende zu Google Gemini.\nDer Artik",
-      "link": "https://the-decoder.de/apples-weg-zur-google-partnerschaft-war-von-internen-machtkaempfen-gepraegt/",
-      "date": "2026-01-26T11:33:32.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
