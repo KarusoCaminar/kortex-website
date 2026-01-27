@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-01-27T12:58:09.012Z",
+  "lastUpdated": "2026-01-27T14:34:18.576Z",
   "news": [
+    {
+      "title": "UK-Regierung will mit Anthropic-KI Bürgern bei der Jobsuche helfen",
+      "description": "Die britische Regierung hat Anthropic ausgewählt, einen KI-Assistenten für die Website GOV.UK zu entwickeln.\nDer Artikel UK-Regierung will mit Anthropic-KI Bürgern bei der Jobsuche helfen erschien zue",
+      "link": "https://the-decoder.de/uk-regierung-will-mit-anthropic-ki-buergern-bei-der-jobsuche-helfen/",
+      "date": "2026-01-27T14:11:15.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "OpenAI-Manager Weil: \"2026 wird für die Wissenschaft, was 2025 für Software-Engineering war\"",
       "description": "Kevin Weil leitet OpenAIs Wissenschaftsteam und glaubt, dass GPT-5 Forscher bereits heute produktiver macht. Für 2026 erwartet er deutliche Fortschritte - und mehr Bescheidenheit.\nDer Artikel OpenAI-M",
@@ -18,6 +27,15 @@
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
+    },
+    {
+      "title": "PVH reimagines the future of fashion with OpenAI",
+      "description": "PVH Corp., parent company of Calvin Klein and Tommy Hilfiger, is adopting ChatGPT Enterprise to bring AI into fashion design, supply chain, and consumer engagement.",
+      "link": "https://openai.com/index/pvh-future-of-fashion",
+      "date": "2026-01-27T06:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
     },
     {
       "title": "Werbung in ChatGPT startet angeblich mit extrem hohen Preisen für Werbetreibende",
@@ -60,15 +78,6 @@
       "description": "Interne Notfall-Meetings, ein Chef der \"Bullshit\" rief und niemanden überzeugte, gescheiterte Milliarden-Verhandlungen: Bloomberg enthüllt die Hintergründe von Apples Wende zu Google Gemini.\nDer Artik",
       "link": "https://the-decoder.de/apples-weg-zur-google-partnerschaft-war-von-internen-machtkaempfen-gepraegt/",
       "date": "2026-01-26T11:33:32.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Nvidias offene Sprach-KI PersonaPlex kombiniert schnelle Reaktionen mit flexiblen Persönlichkeiten",
-      "description": "Nvidia stellt ein neues Konversations-KI-Modell vor, das einen grundlegenden Kompromiss bisheriger Systeme aufheben soll. PersonaPlex ermöglicht natürliche Echtzeitgespräche mit anpassbarer Stimme und",
-      "link": "https://the-decoder.de/nvidias-offene-sprach-ki-personaplex-kombiniert-schnelle-reaktionen-mit-flexiblen-persoenlichkeiten/",
-      "date": "2026-01-26T09:09:52.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
@@ -123,15 +132,6 @@
       "description": "A data-driven report on how workers across industries use ChatGPT—covering adoption trends, top tasks, departmental patterns, and the future of AI at work.",
       "link": "https://openai.com/business/guides-and-resources/chatgpt-usage-and-adoption-patterns-at-work",
       "date": "2026-01-22T00:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "How Higgsfield turns simple ideas into cinematic social videos",
-      "description": "Discover how Higgsfield gives creators cinematic, social-first video output from simple inputs using OpenAI GPT-4.1, GPT-5, and Sora 2.",
-      "link": "https://openai.com/index/higgsfield",
-      "date": "2026-01-21T10:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
