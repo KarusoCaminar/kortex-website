@@ -1,6 +1,33 @@
 {
-  "lastUpdated": "2026-01-27T16:34:54.357Z",
+  "lastUpdated": "2026-01-27T18:43:59.553Z",
   "news": [
+    {
+      "title": "OpenAI-CEO Sam Altman warnt vor \"YOLO\"-Mentalität bei KI-Agenten",
+      "description": "OpenAI-CEO Sam Altman warnt davor, dass wir KI-Agenten aus Bequemlichkeit zu viel Kontrolle geben, ohne die nötige Sicherheitsinfrastruktur zu haben. Er selbst habe jedoch seinen Vorsatz, dem OpenAI-M",
+      "link": "https://the-decoder.de/openai-ceo-sam-altman-warnt-vor-yolo-mentalitaet-bei-ki-agenten/",
+      "date": "2026-01-27T17:49:01.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Offene Coding-Agenten von Allen AI lassen sich günstig auf eigene Codebasen trainieren",
+      "description": "Ai2 veröffentlicht SERA, eine Familie günstiger Open-Source-Coding-Agenten, die sich an private Codebasen anpassen lassen.\nDer Artikel Offene Coding-Agenten von Allen AI lassen sich günstig auf eigene",
+      "link": "https://the-decoder.de/offene-coding-agenten-von-allen-ai-lassen-sich-guenstig-auf-eigene-codebasen-trainieren/",
+      "date": "2026-01-27T17:15:49.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Mistral veröffentlicht KI-gesteuerten Code-Assistenten Vibe 2.0",
+      "description": "Mistral AI hat Mistral Vibe 2.0 vorgestellt, ein Upgrade seines Terminal-basierten Programmier-Assistenten, der auf dem Devstral 2 Modell basiert.\nDer Artikel Mistral veröffentlicht KI-gesteuerten Cod",
+      "link": "https://the-decoder.de/mistral-veroeffentlicht-ki-gesteuerten-code-assistenten-vibe-2-0/",
+      "date": "2026-01-27T16:50:46.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Anthropic-CEO warnt: Demokratien müssen sich vor ihrer eigenen KI schützen",
       "description": "Dario Amodei skizziert in einem neuen Essay die Gefahren mächtiger KI-Systeme. Seine zentrale Forderung: Demokratien sollten KI nur so einsetzen, dass sie nicht zu dem werden, was sie bekämpfen.\nDer A",
@@ -47,6 +74,15 @@
       "language": "en"
     },
     {
+      "title": "Introducing Prism",
+      "description": "Prism is a free LaTeX-native workspace with GPT-5.2 built in, helping researchers write, collaborate, and reason in one place.",
+      "link": "https://openai.com/index/introducing-prism",
+      "date": "2026-01-27T00:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
       "title": "Werbung in ChatGPT startet angeblich mit extrem hohen Preisen für Werbetreibende",
       "description": "OpenAI verlangt für ChatGPT-Werbung angeblich Premium-Preise auf NFL-Niveau und rechnet pro Einblendung statt per Klick ab.\nDer Artikel Werbung in ChatGPT startet angeblich mit extrem hohen Preisen fü",
       "link": "https://the-decoder.de/werbung-in-chatgpt-startet-angeblich-mit-extrem-hohen-preisen-fuer-werbetreibende/",
@@ -69,15 +105,6 @@
       "description": "Microsofts Maia 200 ist speziell für Inferenz gebaut und soll 30 Prozent bessere Leistung pro Dollar liefern als Microsofts aktuelle Chip-Generation.\nDer Artikel Microsofts neuer KI-Beschleuniger Maia",
       "link": "https://the-decoder.de/microsofts-neuer-ki-beschleuniger-maia-200-soll-amazon-und-google-chips-uebertreffen/",
       "date": "2026-01-26T18:10:21.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Claude greift ChatGPT an: Anthropic integriert Slack, Figma und Asana direkt in den KI-Chat",
-      "description": "Anthropic integriert beliebte Arbeitstools wie Asana, Figma und Slack als interaktive Apps direkt in Claude. Die Erweiterung basiert auf dem offenen Model Context Protocol.\nDer Artikel Claude greift C",
-      "link": "https://the-decoder.de/claude-greift-chatgpt-an-anthropic-integriert-slack-figma-und-asana-direkt-in-den-ki-chat/",
-      "date": "2026-01-26T18:00:53.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
@@ -106,33 +133,6 @@
       "link": "https://research.google/blog/small-models-big-results-achieving-superior-intent-extraction-through-decomposition/",
       "date": "2026-01-22T16:56:44.000Z",
       "source": "Google AI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "Scaling PostgreSQL to power 800 million ChatGPT users",
-      "description": "An inside look at how OpenAI scaled PostgreSQL to millions of queries per second using replicas, caching, rate limiting, and workload isolation.",
-      "link": "https://openai.com/index/scaling-postgresql",
-      "date": "2026-01-22T12:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "Inside Praktika's conversational approach to language learning",
-      "description": "How Praktika uses GPT-4.1 and GPT-5.2 to build adaptive AI tutors that personalize lessons, track progress, and help learners achieve real-world language fluency",
-      "link": "https://openai.com/index/praktika",
-      "date": "2026-01-22T05:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "Inside GPT-5 for Work: How Businesses Use GPT-5",
-      "description": "A data-driven report on how workers across industries use ChatGPT—covering adoption trends, top tasks, departmental patterns, and the future of AI at work.",
-      "link": "https://openai.com/business/guides-and-resources/chatgpt-usage-and-adoption-patterns-at-work",
-      "date": "2026-01-22T00:00:00.000Z",
-      "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
     }
