@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-01-28T16:41:50.259Z",
+  "lastUpdated": "2026-01-28T18:41:44.970Z",
   "news": [
     {
       "title": "China genehmigt laut Reuters ByteDance, Alibaba und Tencent den Kauf von über 400.000 Nvidia H200-Chips",
@@ -77,7 +77,7 @@
       "title": "ATLAS: Practical scaling laws for multilingual models",
       "description": "Generative AI",
       "link": "https://research.google/blog/atlas-practical-scaling-laws-for-multilingual-models/",
-      "date": "2026-01-27T18:58:40.000Z",
+      "date": "2026-01-27T18:58:00.000Z",
       "source": "Google AI",
       "category": "große-modelle",
       "language": "en"
