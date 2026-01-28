@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-01-28T02:02:26.035Z",
+  "lastUpdated": "2026-01-28T04:47:48.533Z",
   "news": [
     {
       "title": "ATLAS: Practical scaling laws for multilingual models",
@@ -83,6 +83,15 @@
       "language": "en"
     },
     {
+      "title": "Powering tax donations with AI powered personalized recommendations",
+      "description": "TRUSTBANK partnered with Recursive to build Choice AI using OpenAI models, delivering personalized, conversational recommendations that simplify Furusato Nozei gift discovery. A multi-agent system hel",
+      "link": "https://openai.com/index/trustbank",
+      "date": "2026-01-27T00:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
       "title": "Introducing Prism",
       "description": "Prism is a free LaTeX-native workspace with GPT-5.2 built in, helping researchers write, collaborate, and reason in one place.",
       "link": "https://openai.com/index/introducing-prism",
@@ -123,15 +132,6 @@
       "description": "Indeed’s CRO Maggie Hulce shares how AI is transforming job search, recruiting, and talent acquisition for employers and job seekers.",
       "link": "https://openai.com/index/indeed-maggie-hulce",
       "date": "2026-01-26T00:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "Unrolling the Codex agent loop",
-      "description": "A technical deep dive into the Codex agent loop, explaining how Codex CLI orchestrates models, tools, prompts, and performance using the Responses API.",
-      "link": "https://openai.com/index/unrolling-the-codex-agent-loop",
-      "date": "2026-01-23T12:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
