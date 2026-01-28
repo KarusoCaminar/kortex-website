@@ -1,6 +1,42 @@
 {
-  "lastUpdated": "2026-01-28T08:37:24.919Z",
+  "lastUpdated": "2026-01-28T10:33:17.322Z",
   "news": [
+    {
+      "title": "Prism: OpenAI kombiniert LaTeX-Editor mit GPT-5.2",
+      "description": "OpenAI hat Prism vorgestellt, einen kostenlosen KI-Workspace für wissenschaftliches Schreiben.\nDer Artikel Prism: OpenAI kombiniert LaTeX-Editor mit GPT-5.2 erschien zuerst auf The Decoder.",
+      "link": "https://the-decoder.de/prism-openai-kombiniert-latex-editor-mit-gpt-5-2/",
+      "date": "2026-01-28T09:33:48.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Chinesisches KI-Unternehmen Moonshot AI will mit Agenten-Schwärmen die Konkurrenz überholen",
+      "description": "Moonshot AI hat Kimi K2.5 veröffentlicht, das laut eigenen Angaben leistungsstärkste Open-Weight-Modell. Das Modell kann eigenständig bis zu 100 KI-Agenten koordinieren, die parallel an komplexen Aufg",
+      "link": "https://the-decoder.de/chinesisches-ki-unternehmen-moonshot-ai-will-mit-agenten-schwaermen-die-konkurrenz-ueberholen/",
+      "date": "2026-01-28T09:13:06.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "EMEA Youth & Wellbeing Grant",
+      "description": "Apply for the EMEA Youth & Wellbeing Grant, a €500,000 program funding NGOs and researchers advancing youth safety and wellbeing in the age of AI.",
+      "link": "https://openai.com/index/emea-youth-and-wellbeing-grant",
+      "date": "2026-01-28T01:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
+      "title": "The next chapter for AI in the EU",
+      "description": "OpenAI launches the EU Economic Blueprint 2.0 with new data, partnerships, and initiatives to accelerate AI adoption, skills, and growth across Europe.",
+      "link": "https://openai.com/index/the-next-chapter-for-ai-in-the-eu",
+      "date": "2026-01-28T01:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
     {
       "title": "ATLAS: Practical scaling laws for multilingual models",
       "description": "Generative AI",
@@ -96,42 +132,6 @@
       "description": "Prism is a free LaTeX-native workspace with GPT-5.2 built in, helping researchers write, collaborate, and reason in one place.",
       "link": "https://openai.com/index/introducing-prism",
       "date": "2026-01-27T00:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "Werbung in ChatGPT startet angeblich mit extrem hohen Preisen für Werbetreibende",
-      "description": "OpenAI verlangt für ChatGPT-Werbung angeblich Premium-Preise auf NFL-Niveau und rechnet pro Einblendung statt per Klick ab.\nDer Artikel Werbung in ChatGPT startet angeblich mit extrem hohen Preisen fü",
-      "link": "https://the-decoder.de/werbung-in-chatgpt-startet-angeblich-mit-extrem-hohen-preisen-fuer-werbetreibende/",
-      "date": "2026-01-26T19:48:26.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "MCP Apps: Offener KI-Daten-Standard MCP erhält interaktive Oberflächen in KI-Chats",
-      "description": "Das Model Context Protocol erhält mit \"MCP Apps\" seine erste offizielle Erweiterung. KI-Tools können nun interaktive Oberflächen direkt in Konversationen einbetten.\nDer Artikel MCP Apps: Offener KI-Da",
-      "link": "https://the-decoder.de/mcp-apps-offener-ki-daten-standard-mcp-erhaelt-interaktive-oberflaechen-in-ki-chats/",
-      "date": "2026-01-26T18:50:02.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Microsofts neuer KI-Beschleuniger Maia 200 soll Amazon- und Google-Chips übertreffen",
-      "description": "Microsofts Maia 200 ist speziell für Inferenz gebaut und soll 30 Prozent bessere Leistung pro Dollar liefern als Microsofts aktuelle Chip-Generation.\nDer Artikel Microsofts neuer KI-Beschleuniger Maia",
-      "link": "https://the-decoder.de/microsofts-neuer-ki-beschleuniger-maia-200-soll-amazon-und-google-chips-uebertreffen/",
-      "date": "2026-01-26T18:10:21.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "How Indeed uses AI to help evolve the job search",
-      "description": "Indeed’s CRO Maggie Hulce shares how AI is transforming job search, recruiting, and talent acquisition for employers and job seekers.",
-      "link": "https://openai.com/index/indeed-maggie-hulce",
-      "date": "2026-01-26T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
