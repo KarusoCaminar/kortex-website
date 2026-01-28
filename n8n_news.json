@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-01-28T10:33:17.322Z",
+  "lastUpdated": "2026-01-28T12:58:08.005Z",
   "news": [
+    {
+      "title": "Decart stellt Lucy 2.0 vor: KI-Modell transformiert Videos in Echtzeit via Prompt",
+      "description": "Das KI-Startup Decart hat Lucy 2.0 vorgestellt, ein Echtzeit-Modell zur Videotransformation.\nDer Artikel Decart stellt Lucy 2.0 vor: KI-Modell transformiert Videos in Echtzeit via Prompt erschien zuer",
+      "link": "https://the-decoder.de/decart-stellt-lucy-2-0-vor-ki-modell-transformiert-videos-in-echtzeit-via-prompt/",
+      "date": "2026-01-28T11:42:13.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Agentic Vision: Gemini schreibt sich jetzt eigenen Code, um Bilder besser zu verstehen",
+      "description": "Google Deepmind stattet sein Gemini-3-Flash-Modell mit einer neuen Fähigkeit namens \"Agentic Vision\" aus. Das Modell soll Bilder nicht mehr nur passiv betrachten, sondern aktiv untersuchen können - al",
+      "link": "https://the-decoder.de/agentic-vision-gemini-schreibt-sich-jetzt-eigenen-code-um-bilder-besser-zu-verstehen/",
+      "date": "2026-01-28T10:38:23.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Prism: OpenAI kombiniert LaTeX-Editor mit GPT-5.2",
       "description": "OpenAI hat Prism vorgestellt, einen kostenlosen KI-Workspace für wissenschaftliches Schreiben.\nDer Artikel Prism: OpenAI kombiniert LaTeX-Editor mit GPT-5.2 erschien zuerst auf The Decoder.",
@@ -101,15 +119,6 @@
       "language": "de"
     },
     {
-      "title": "KI-Entwickler Andrej Karpathy revidiert Meinung zu KI-Agenten: Von \"funktionieren nicht\" zu 80 Prozent KI-Coding in nur drei Monaten",
-      "description": "Noch im Oktober sagte Andrej Karpathy über KI-Agenten: \"Sie funktionieren einfach nicht.\" Jetzt programmiert er nach eigenen Angaben zu 80 Prozent mit Agenten und spricht von einem Phasenwechsel in de",
-      "link": "https://the-decoder.de/ki-entwickler-andrej-karpathy-revidiert-meinung-zu-ki-agenten-von-funktionieren-nicht-zu-80-prozent-ki-coding-in-nur-drei-monaten/",
-      "date": "2026-01-27T11:13:20.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "PVH reimagines the future of fashion with OpenAI",
       "description": "PVH Corp., parent company of Calvin Klein and Tommy Hilfiger, is adopting ChatGPT Enterprise to bring AI into fashion design, supply chain, and consumer engagement.",
       "link": "https://openai.com/index/pvh-future-of-fashion",
@@ -122,15 +131,6 @@
       "title": "Powering tax donations with AI powered personalized recommendations",
       "description": "TRUSTBANK partnered with Recursive to build Choice AI using OpenAI models, delivering personalized, conversational recommendations that simplify Furusato Nozei gift discovery. A multi-agent system hel",
       "link": "https://openai.com/index/trustbank",
-      "date": "2026-01-27T00:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "Introducing Prism",
-      "description": "Prism is a free LaTeX-native workspace with GPT-5.2 built in, helping researchers write, collaborate, and reason in one place.",
-      "link": "https://openai.com/index/introducing-prism",
       "date": "2026-01-27T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
