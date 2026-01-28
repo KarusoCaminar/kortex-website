@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-01-28T12:58:08.005Z",
+  "lastUpdated": "2026-01-28T14:35:07.100Z",
   "news": [
+    {
+      "title": "Figure AI-Roboter räumt den Geschirrspüler mit vollem Körpereinsatz aus",
+      "description": "Das US-Unternehmen Figure AI hat ein System vorgestellt, das einen humanoiden Roboter über ein einziges neuronales Netzwerk steuert. Eine vierminütige Küchendemonstration soll zeigen, was möglich ist.",
+      "link": "https://the-decoder.de/figure-ai-roboter-raeumt-den-geschirrspueler-mit-vollem-koerpereinsatz-aus/",
+      "date": "2026-01-28T12:57:56.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Decart stellt Lucy 2.0 vor: KI-Modell transformiert Videos in Echtzeit via Prompt",
       "description": "Das KI-Startup Decart hat Lucy 2.0 vorgestellt, ein Echtzeit-Modell zur Videotransformation.\nDer Artikel Decart stellt Lucy 2.0 vor: KI-Modell transformiert Videos in Echtzeit via Prompt erschien zuer",
@@ -105,15 +114,6 @@
       "description": "Die britische Regierung hat Anthropic ausgewählt, einen KI-Assistenten für die Website GOV.UK zu entwickeln.\nDer Artikel UK-Regierung will mit Anthropic-KI Bürgern bei der Jobsuche helfen erschien zue",
       "link": "https://the-decoder.de/uk-regierung-will-mit-anthropic-ki-buergern-bei-der-jobsuche-helfen/",
       "date": "2026-01-27T14:11:15.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "OpenAI-Manager Weil: \"2026 wird für die Wissenschaft, was 2025 für Software-Engineering war\"",
-      "description": "Kevin Weil leitet OpenAIs Wissenschaftsteam und glaubt, dass GPT-5 Forscher bereits heute produktiver macht. Für 2026 erwartet er deutliche Fortschritte - und mehr Bescheidenheit.\nDer Artikel OpenAI-M",
-      "link": "https://the-decoder.de/openai-manager-weil-2026-wird-fuer-die-wissenschaft-was-2025-fuer-software-engineering-war/",
-      "date": "2026-01-27T12:26:02.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
