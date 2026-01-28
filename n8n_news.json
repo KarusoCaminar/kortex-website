@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-01-28T20:35:50.717Z",
+  "lastUpdated": "2026-01-28T22:31:14.185Z",
   "news": [
     {
       "title": "China genehmigt laut Reuters ByteDance, Alibaba und Tencent den Kauf von über 400.000 Nvidia H200-Chips",
@@ -27,6 +27,15 @@
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
+    },
+    {
+      "title": "Towards a science of scaling agent systems: When and why agent systems work",
+      "description": "Generative AI",
+      "link": "https://research.google/blog/towards-a-science-of-scaling-agent-systems-when-and-why-agent-systems-work/",
+      "date": "2026-01-28T11:00:00.000Z",
+      "source": "Google AI",
+      "category": "große-modelle",
+      "language": "en"
     },
     {
       "title": "Agentic Vision: Gemini schreibt sich jetzt eigenen Code, um Bilder besser zu verstehen",
@@ -126,15 +135,6 @@
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
-    },
-    {
-      "title": "PVH reimagines the future of fashion with OpenAI",
-      "description": "PVH Corp., parent company of Calvin Klein and Tommy Hilfiger, is adopting ChatGPT Enterprise to bring AI into fashion design, supply chain, and consumer engagement.",
-      "link": "https://openai.com/index/pvh-future-of-fashion",
-      "date": "2026-01-27T06:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
     }
   ]
 }
