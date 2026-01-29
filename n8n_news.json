@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-01-29T20:35:03.630Z",
+  "lastUpdated": "2026-01-29T22:32:02.102Z",
   "news": [
     {
       "title": "Zu wenig Nutzen, zu viele Probleme: OpenAIs \"ChatGPT Agent\" könnte ein schnelles Ende haben",
@@ -83,6 +83,15 @@
       "language": "de"
     },
     {
+      "title": "Retiring GPT-4o, GPT-4.1, GPT-4.1 mini, and OpenAI o4-mini in ChatGPT",
+      "description": "On February 13, 2026, alongside the previously announced retirement⁠ of GPT‑5 (Instant, Thinking, and Pro), we will retire GPT‑4o, GPT‑4.1, GPT‑4.1 mini, and OpenAI o4-mini from ChatGPT. In the API, t",
+      "link": "https://openai.com/index/retiring-gpt-4o-and-older-models",
+      "date": "2026-01-29T00:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
       "title": "China genehmigt laut Reuters ByteDance, Alibaba und Tencent den Kauf von über 400.000 Nvidia H200-Chips",
       "description": "China hat ByteDance, Alibaba und Tencent die Genehmigung erteilt, Nvidias H200-KI-Chips zu kaufen, berichtet Reuters unter Berufung auf vier Insider.\nDer Artikel China genehmigt laut Reuters ByteDance",
       "link": "https://the-decoder.de/china-genehmigt-laut-reuters-bytedance-alibaba-und-tencent-den-kauf-von-ueber-400-000-nvidia-h200-chips/",
@@ -124,15 +133,6 @@
       "link": "https://openai.com/index/ai-agent-link-safety",
       "date": "2026-01-28T00:00:00.000Z",
       "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "ATLAS: Practical scaling laws for multilingual models",
-      "description": "Generative AI",
-      "link": "https://research.google/blog/atlas-practical-scaling-laws-for-multilingual-models/",
-      "date": "2026-01-27T18:58:00.000Z",
-      "source": "Google AI",
       "category": "große-modelle",
       "language": "en"
     }
