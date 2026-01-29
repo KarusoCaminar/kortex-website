@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-01-29T10:40:36.882Z",
+  "lastUpdated": "2026-01-29T13:05:02.278Z",
   "news": [
+    {
+      "title": "Neue KI-Labore treten an, um Dateneffizienz von Modellen massiv zu steigern",
+      "description": "Zwei neue KI-Labore wollen die Grundlagen der KI-Entwicklung neu erfinden: Flapping Airplanes sammelt 180 Millionen Dollar ein, Core Automation sucht bis zu einer Milliarde. Beide glauben, dass die KI",
+      "link": "https://the-decoder.de/neue-ki-labore-treten-an-um-dateneffizienz-von-modellen-massiv-zu-steigern/",
+      "date": "2026-01-29T12:04:09.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Nvidia, Amazon und Microsoft könnten bis zu 60 Milliarden Dollar in OpenAI pumpen",
+      "description": "Ist das Peak Zirkularität? OpenAI verhandelt mit Nvidia, Microsoft und Amazon über bis zu 60 Milliarden Dollar; doch die Investoren sind gleichzeitig Geschäftspartner, an die ein Teil des Geldes direk",
+      "link": "https://the-decoder.de/nvidia-amazon-und-microsoft-koennten-bis-zu-60-milliarden-dollar-in-openai-pumpen/",
+      "date": "2026-01-29T11:15:24.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Cursor erfasst neue Codebasen in 21 Sekunden statt vier Stunden",
       "description": "Der KI-Coding-Assistent Cursor soll die Indexierungszeit großer Codebasen von über vier Stunden auf 21 Sekunden verkürzen.\nDer Artikel Cursor erfasst neue Codebasen in 21 Sekunden statt vier Stunden e",
@@ -83,15 +101,6 @@
       "language": "de"
     },
     {
-      "title": "Chinesisches KI-Unternehmen Moonshot AI will mit Agenten-Schwärmen die Konkurrenz überholen",
-      "description": "Moonshot AI hat Kimi K2.5 veröffentlicht, das laut eigenen Angaben leistungsstärkste Open-Weight-Modell. Das Modell kann eigenständig bis zu 100 KI-Agenten koordinieren, die parallel an komplexen Aufg",
-      "link": "https://the-decoder.de/chinesisches-ki-unternehmen-moonshot-ai-will-mit-agenten-schwaermen-die-konkurrenz-ueberholen/",
-      "date": "2026-01-28T09:13:06.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "The next chapter for AI in the EU",
       "description": "OpenAI launches the EU Economic Blueprint 2.0 with new data, partnerships, and initiatives to accelerate AI adoption, skills, and growth across Europe.",
       "link": "https://openai.com/index/the-next-chapter-for-ai-in-the-eu",
@@ -126,15 +135,6 @@
       "source": "Google AI",
       "category": "große-modelle",
       "language": "en"
-    },
-    {
-      "title": "OpenAI-CEO Sam Altman warnt vor \"YOLO\"-Mentalität bei KI-Agenten",
-      "description": "OpenAI-CEO Sam Altman warnt davor, dass wir KI-Agenten aus Bequemlichkeit zu viel Kontrolle geben, ohne die nötige Sicherheitsinfrastruktur zu haben. Er selbst habe jedoch seinen Vorsatz, dem OpenAI-M",
-      "link": "https://the-decoder.de/openai-ceo-sam-altman-warnt-vor-yolo-mentalitaet-bei-ki-agenten/",
-      "date": "2026-01-27T17:49:01.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
     }
   ]
 }
