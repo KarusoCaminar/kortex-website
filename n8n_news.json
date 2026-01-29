@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-01-29T16:49:06.724Z",
+  "lastUpdated": "2026-01-29T18:54:04.307Z",
   "news": [
+    {
+      "title": "OpenAI-Forscher stellt klar: Keine Beteiligung an individuellen Nutzer-Entdeckungen geplant",
+      "description": "OpenAI-Forscher Kevin Weil stellt klar: Das Unternehmen will sich nicht an den Entdeckungen einzelner Nutzer beteiligen. Aussagen von Finanzchefin Sarah Friar seien falsch interpretiert worden.\nDer Ar",
+      "link": "https://the-decoder.de/openai-forscher-stellt-klar-keine-beteiligung-an-individuellen-nutzer-entdeckungen-geplant/",
+      "date": "2026-01-29T17:17:13.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "45 Prozent von Microsofts Cloud-Auftragsbestand stammen von OpenAI",
       "description": "Microsoft übertrifft die Erwartungen mit Rekord-Cloud-Umsätzen, doch die Aktie stürzt ab. Investoren zweifeln, ob sich die Milliarden-Investitionen in KI-Infrastruktur auszahlen. Verbrennt Microsoft m",
@@ -36,6 +45,15 @@
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
+    },
+    {
+      "title": "Inside OpenAI’s in-house data agent",
+      "description": "How OpenAI built an in-house AI data agent that uses GPT-5, Codex, and memory to reason over massive datasets and deliver reliable insights in minutes.",
+      "link": "https://openai.com/index/inside-our-in-house-data-agent",
+      "date": "2026-01-29T10:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
     },
     {
       "title": "Google bereitet wohl native Audio-Fähigkeiten für Gemini 3 Flash mit Stimmenklonen vor",
@@ -74,15 +92,6 @@
       "language": "de"
     },
     {
-      "title": "Decart stellt Lucy 2.0 vor: KI-Modell transformiert Videos in Echtzeit via Prompt",
-      "description": "Das KI-Startup Decart hat Lucy 2.0 vorgestellt, ein Echtzeit-Modell zur Videotransformation.\nDer Artikel Decart stellt Lucy 2.0 vor: KI-Modell transformiert Videos in Echtzeit via Prompt erschien zuer",
-      "link": "https://the-decoder.de/decart-stellt-lucy-2-0-vor-ki-modell-transformiert-videos-in-echtzeit-via-prompt/",
-      "date": "2026-01-28T11:42:13.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "Towards a science of scaling agent systems: When and why agent systems work",
       "description": "Generative AI",
       "link": "https://research.google/blog/towards-a-science-of-scaling-agent-systems-when-and-why-agent-systems-work/",
@@ -92,27 +101,18 @@
       "language": "en"
     },
     {
-      "title": "Agentic Vision: Gemini schreibt sich jetzt eigenen Code, um Bilder besser zu verstehen",
-      "description": "Google Deepmind stattet sein Gemini-3-Flash-Modell mit einer neuen Fähigkeit namens \"Agentic Vision\" aus. Das Modell soll Bilder nicht mehr nur passiv betrachten, sondern aktiv untersuchen können - al",
-      "link": "https://the-decoder.de/agentic-vision-gemini-schreibt-sich-jetzt-eigenen-code-um-bilder-besser-zu-verstehen/",
-      "date": "2026-01-28T10:38:23.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "The next chapter for AI in the EU",
-      "description": "OpenAI launches the EU Economic Blueprint 2.0 with new data, partnerships, and initiatives to accelerate AI adoption, skills, and growth across Europe.",
-      "link": "https://openai.com/index/the-next-chapter-for-ai-in-the-eu",
+      "title": "EMEA Youth & Wellbeing Grant",
+      "description": "Apply for the EMEA Youth & Wellbeing Grant, a €500,000 program funding NGOs and researchers advancing youth safety and wellbeing in the age of AI.",
+      "link": "https://openai.com/index/emea-youth-and-wellbeing-grant",
       "date": "2026-01-28T01:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
     },
     {
-      "title": "EMEA Youth & Wellbeing Grant",
-      "description": "Apply for the EMEA Youth & Wellbeing Grant, a €500,000 program funding NGOs and researchers advancing youth safety and wellbeing in the age of AI.",
-      "link": "https://openai.com/index/emea-youth-and-wellbeing-grant",
+      "title": "The next chapter for AI in the EU",
+      "description": "OpenAI launches the EU Economic Blueprint 2.0 with new data, partnerships, and initiatives to accelerate AI adoption, skills, and growth across Europe.",
+      "link": "https://openai.com/index/the-next-chapter-for-ai-in-the-eu",
       "date": "2026-01-28T01:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
