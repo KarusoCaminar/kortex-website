@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-01-29T06:54:01.462Z",
+  "lastUpdated": "2026-01-29T08:45:34.513Z",
   "news": [
+    {
+      "title": "KI-\"Auto Browse\" in Chrome soll Reisen buchen, Formulare füllen und Termine verwalten",
+      "description": "Google liefert den letztes Jahr angekündigten Browser-Agenten aus. Auto Browse soll selbstständig Flüge recherchieren, Formulare ausfüllen und Produkte bestellen. Die Funktion bleibt vorerst auf zahle",
+      "link": "https://the-decoder.de/auto-browse-in-chrome-soll-reisen-buchen-formulare-fuellen-und-termine-verwalten/",
+      "date": "2026-01-29T08:42:00.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "China genehmigt laut Reuters ByteDance, Alibaba und Tencent den Kauf von über 400.000 Nvidia H200-Chips",
       "description": "China hat ByteDance, Alibaba und Tencent die Genehmigung erteilt, Nvidias H200-KI-Chips zu kaufen, berichtet Reuters unter Berufung auf vier Insider.\nDer Artikel China genehmigt laut Reuters ByteDance",
@@ -123,15 +132,6 @@
       "description": "Mistral AI hat Mistral Vibe 2.0 vorgestellt, ein Upgrade seines Terminal-basierten Programmier-Assistenten, der auf dem Devstral 2 Modell basiert.\nDer Artikel Mistral veröffentlicht KI-gesteuerten Cod",
       "link": "https://the-decoder.de/mistral-veroeffentlicht-ki-gesteuerten-code-assistenten-vibe-2-0/",
       "date": "2026-01-27T16:50:46.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Anthropic-CEO warnt: Demokratien müssen sich vor ihrer eigenen KI schützen",
-      "description": "Dario Amodei skizziert in einem neuen Essay die Gefahren mächtiger KI-Systeme. Seine zentrale Forderung: Demokratien sollten KI nur so einsetzen, dass sie nicht zu dem werden, was sie bekämpfen.\nDer A",
-      "link": "https://the-decoder.de/anthropic-ceo-warnt-demokratien-muessen-sich-vor-ihrer-eigenen-ki-schuetzen/",
-      "date": "2026-01-27T14:52:35.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
