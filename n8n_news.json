@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-01-29T08:45:34.513Z",
+  "lastUpdated": "2026-01-29T10:40:36.882Z",
   "news": [
+    {
+      "title": "Cursor erfasst neue Codebasen in 21 Sekunden statt vier Stunden",
+      "description": "Der KI-Coding-Assistent Cursor soll die Indexierungszeit großer Codebasen von über vier Stunden auf 21 Sekunden verkürzen.\nDer Artikel Cursor erfasst neue Codebasen in 21 Sekunden statt vier Stunden e",
+      "link": "https://the-decoder.de/cursor-erfasst-neue-codebasen-in-21-sekunden-statt-vier-stunden/",
+      "date": "2026-01-29T10:19:15.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Google bereitet wohl native Audio-Fähigkeiten für Gemini 3 Flash mit Stimmenklonen vor",
+      "description": "Google arbeitet an einer Funktion, mit der Nutzer ihre eigene Stimme in AI Studio klonen können.\nDer Artikel Google bereitet wohl native Audio-Fähigkeiten für Gemini 3 Flash mit Stimmenklonen vor ersc",
+      "link": "https://the-decoder.de/google-bereitet-wohl-native-audio-faehigkeiten-fuer-gemini-3-flash-mit-stimmenklonen-vor/",
+      "date": "2026-01-29T09:43:45.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "KI-\"Auto Browse\" in Chrome soll Reisen buchen, Formulare füllen und Termine verwalten",
       "description": "Google liefert den letztes Jahr angekündigten Browser-Agenten aus. Auto Browse soll selbstständig Flüge recherchieren, Formulare ausfüllen und Produkte bestellen. Die Funktion bleibt vorerst auf zahle",
@@ -114,24 +132,6 @@
       "description": "OpenAI-CEO Sam Altman warnt davor, dass wir KI-Agenten aus Bequemlichkeit zu viel Kontrolle geben, ohne die nötige Sicherheitsinfrastruktur zu haben. Er selbst habe jedoch seinen Vorsatz, dem OpenAI-M",
       "link": "https://the-decoder.de/openai-ceo-sam-altman-warnt-vor-yolo-mentalitaet-bei-ki-agenten/",
       "date": "2026-01-27T17:49:01.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Offene Coding-Agenten von Allen AI lassen sich günstig auf eigene Codebasen trainieren",
-      "description": "Ai2 veröffentlicht SERA, eine Familie günstiger Open-Source-Coding-Agenten, die sich an private Codebasen anpassen lassen.\nDer Artikel Offene Coding-Agenten von Allen AI lassen sich günstig auf eigene",
-      "link": "https://the-decoder.de/offene-coding-agenten-von-allen-ai-lassen-sich-guenstig-auf-eigene-codebasen-trainieren/",
-      "date": "2026-01-27T17:15:49.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Mistral veröffentlicht KI-gesteuerten Code-Assistenten Vibe 2.0",
-      "description": "Mistral AI hat Mistral Vibe 2.0 vorgestellt, ein Upgrade seines Terminal-basierten Programmier-Assistenten, der auf dem Devstral 2 Modell basiert.\nDer Artikel Mistral veröffentlicht KI-gesteuerten Cod",
-      "link": "https://the-decoder.de/mistral-veroeffentlicht-ki-gesteuerten-code-assistenten-vibe-2-0/",
-      "date": "2026-01-27T16:50:46.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
