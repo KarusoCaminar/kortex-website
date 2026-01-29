@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-01-29T14:39:54.468Z",
+  "lastUpdated": "2026-01-29T16:49:06.724Z",
   "news": [
+    {
+      "title": "45 Prozent von Microsofts Cloud-Auftragsbestand stammen von OpenAI",
+      "description": "Microsoft übertrifft die Erwartungen mit Rekord-Cloud-Umsätzen, doch die Aktie stürzt ab. Investoren zweifeln, ob sich die Milliarden-Investitionen in KI-Infrastruktur auszahlen. Verbrennt Microsoft m",
+      "link": "https://the-decoder.de/45-prozent-von-microsofts-cloud-auftragsbestand-stammen-von-openai/",
+      "date": "2026-01-29T16:36:39.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Neue KI-Labore treten an, um Dateneffizienz von Modellen massiv zu steigern",
       "description": "Zwei neue KI-Labore wollen die Grundlagen der KI-Entwicklung neu erfinden: Flapping Airplanes sammelt 180 Millionen Dollar ein, Core Automation sucht bis zu einer Milliarde. Beide glauben, dass die KI",
@@ -87,15 +96,6 @@
       "description": "Google Deepmind stattet sein Gemini-3-Flash-Modell mit einer neuen Fähigkeit namens \"Agentic Vision\" aus. Das Modell soll Bilder nicht mehr nur passiv betrachten, sondern aktiv untersuchen können - al",
       "link": "https://the-decoder.de/agentic-vision-gemini-schreibt-sich-jetzt-eigenen-code-um-bilder-besser-zu-verstehen/",
       "date": "2026-01-28T10:38:23.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Prism: OpenAI kombiniert LaTeX-Editor mit GPT-5.2",
-      "description": "OpenAI hat Prism vorgestellt, einen kostenlosen KI-Workspace für wissenschaftliches Schreiben.\nDer Artikel Prism: OpenAI kombiniert LaTeX-Editor mit GPT-5.2 erschien zuerst auf The Decoder.",
-      "link": "https://the-decoder.de/prism-openai-kombiniert-latex-editor-mit-gpt-5-2/",
-      "date": "2026-01-28T09:33:48.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
