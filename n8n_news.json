@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-01-29T18:54:04.307Z",
+  "lastUpdated": "2026-01-29T20:35:03.630Z",
   "news": [
+    {
+      "title": "Zu wenig Nutzen, zu viele Probleme: OpenAIs \"ChatGPT Agent\" könnte ein schnelles Ende haben",
+      "description": "OpenAI wird wohl seinen \"ChatGPT Agent\" aufgeben, der erst vor einem halben Jahr an den Start ging. Die Nutzerzahl schrumpfte seit dem Launch und der Modus kämpfte mit technischen Problemen. Hinzu kam",
+      "link": "https://the-decoder.de/zu-wenig-nutzen-zu-viele-probleme-openais-chatgpt-agent-koennte-ein-schnelles-ende-haben/",
+      "date": "2026-01-29T19:47:36.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "OpenAI-Forscher stellt klar: Keine Beteiligung an individuellen Nutzer-Entdeckungen geplant",
       "description": "OpenAI-Forscher Kevin Weil stellt klar: Das Unternehmen will sich nicht an den Entdeckungen einzelner Nutzer beteiligen. Aussagen von Finanzchefin Sarah Friar seien falsch interpretiert worden.\nDer Ar",
@@ -78,15 +87,6 @@
       "description": "China hat ByteDance, Alibaba und Tencent die Genehmigung erteilt, Nvidias H200-KI-Chips zu kaufen, berichtet Reuters unter Berufung auf vier Insider.\nDer Artikel China genehmigt laut Reuters ByteDance",
       "link": "https://the-decoder.de/china-genehmigt-laut-reuters-bytedance-alibaba-und-tencent-den-kauf-von-ueber-400-000-nvidia-h200-chips/",
       "date": "2026-01-28T15:17:29.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Figure AI-Roboter räumt den Geschirrspüler mit vollem Körpereinsatz aus",
-      "description": "Das US-Unternehmen Figure AI hat ein System vorgestellt, das einen humanoiden Roboter über ein einziges neuronales Netzwerk steuert. Eine vierminütige Küchendemonstration soll zeigen, was möglich ist.",
-      "link": "https://the-decoder.de/figure-ai-roboter-raeumt-den-geschirrspueler-mit-vollem-koerpereinsatz-aus/",
-      "date": "2026-01-28T12:57:56.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
