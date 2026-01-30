@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-01-30T10:38:48.438Z",
+  "lastUpdated": "2026-01-30T13:03:40.322Z",
   "news": [
+    {
+      "title": "KI-Radar #1: Vom Chatbot zum Aufgabenlöser – der Stand bei KI-Agenten 2026",
+      "description": "2026 sollte das Jahr der KI-Agenten werden, und manche sagen, die Revolution sei ausgeblieben. Das sehen wir anders: Sie fand statt – nur leiser als erwartet. Doch was unterscheidet einen echten „Agen",
+      "link": "https://the-decoder.de/ki-radar-1-vom-chatbot-zum-aufgabenloeser-der-stand-bei-ki-agenten-2026/",
+      "date": "2026-01-30T12:08:50.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Zu wenig Nutzen, zu viele Probleme: OpenAIs \"ChatGPT Agent\" könnte ein schnelles Ende haben",
       "description": "OpenAI wird wohl seinen \"ChatGPT Agent\" aufgeben, der erst vor einem halben Jahr an den Start ging. Die Nutzerzahl schrumpfte seit dem Launch und der Modus kämpfte mit technischen Problemen. Hinzu kam",
@@ -99,15 +108,6 @@
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
-    },
-    {
-      "title": "China genehmigt laut Reuters ByteDance, Alibaba und Tencent den Kauf von über 400.000 Nvidia H200-Chips",
-      "description": "China hat ByteDance, Alibaba und Tencent die Genehmigung erteilt, Nvidias H200-KI-Chips zu kaufen, berichtet Reuters unter Berufung auf vier Insider.\nDer Artikel China genehmigt laut Reuters ByteDance",
-      "link": "https://the-decoder.de/china-genehmigt-laut-reuters-bytedance-alibaba-und-tencent-den-kauf-von-ueber-400-000-nvidia-h200-chips/",
-      "date": "2026-01-28T15:17:29.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
     },
     {
       "title": "Towards a science of scaling agent systems: When and why agent systems work",
