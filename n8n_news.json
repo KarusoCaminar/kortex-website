@@ -1,6 +1,42 @@
 {
-  "lastUpdated": "2026-01-30T13:03:40.322Z",
+  "lastUpdated": "2026-01-30T14:37:57.592Z",
   "news": [
+    {
+      "title": "Pentagon und Anthropic streiten über KI-Einsatz für autonome Waffen",
+      "description": "Das US-Verteidigungsministerium will KI-Technologie ohne Einschränkungen nutzen. Anthropic fordert Garantien gegen autonome Waffensteuerung und Inlandsüberwachung. Ein 200-Millionen-Dollar-Vertrag hän",
+      "link": "https://the-decoder.de/pentagon-und-anthropic-streiten-ueber-ki-einsatz-fuer-autonome-waffen/",
+      "date": "2026-01-30T14:05:31.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "OpenAI plant Börsengang im vierten Quartal 2026",
+      "description": "OpenAI bereitet einen Börsengang für das vierte Quartal 2026 vor, berichtet das Wall Street Journal.\nDer Artikel OpenAI plant Börsengang im vierten Quartal 2026 erschien zuerst auf The Decoder.",
+      "link": "https://the-decoder.de/openai-plant-boersengang-im-vierten-quartal-2026/",
+      "date": "2026-01-30T13:56:29.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "SpaceX verhandelt laut Reuters über Fusion mit xAI vor geplantem Börsengang",
+      "description": "SpaceX verhandelt über eine Fusion mit Elon Musks KI-Unternehmen xAI vor dem geplanten Börsengang, berichtet Reuters.\nDer Artikel SpaceX verhandelt laut Reuters über Fusion mit xAI vor geplantem Börse",
+      "link": "https://the-decoder.de/spacex-verhandelt-laut-reuters-ueber-fusion-mit-xai-vor-geplantem-boersengang/",
+      "date": "2026-01-30T13:45:16.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "OpenAI zeigt, wie intern KI-Agenten Datenanalysen übernehmen",
+      "description": "OpenAI hat einen internen KI-Datenagenten entwickelt, der Mitarbeitern komplexe Datenanalysen in natürlicher Sprache ermöglicht. Eine Schlüsselmethode namens \"Codex Enrichment\" durchsucht dabei die Co",
+      "link": "https://the-decoder.de/openai-zeigt-wie-intern-ki-agenten-datenanalysen-uebernehmen/",
+      "date": "2026-01-30T13:38:26.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "KI-Radar #1: Vom Chatbot zum Aufgabenlöser – der Stand bei KI-Agenten 2026",
       "description": "2026 sollte das Jahr der KI-Agenten werden, und manche sagen, die Revolution sei ausgeblieben. Das sehen wir anders: Sie fand statt – nur leiser als erwartet. Doch was unterscheidet einen echten „Agen",
@@ -47,24 +83,6 @@
       "language": "de"
     },
     {
-      "title": "Nvidia, Amazon und Microsoft könnten bis zu 60 Milliarden Dollar in OpenAI pumpen",
-      "description": "Ist das Peak Zirkularität? OpenAI verhandelt mit Nvidia, Microsoft und Amazon über bis zu 60 Milliarden Dollar; doch die Investoren sind gleichzeitig Geschäftspartner, an die ein Teil des Geldes direk",
-      "link": "https://the-decoder.de/nvidia-amazon-und-microsoft-koennten-bis-zu-60-milliarden-dollar-in-openai-pumpen/",
-      "date": "2026-01-29T11:15:24.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Cursor erfasst neue Codebasen in 21 Sekunden statt vier Stunden",
-      "description": "Der KI-Coding-Assistent Cursor soll die Indexierungszeit großer Codebasen von über vier Stunden auf 21 Sekunden verkürzen.\nDer Artikel Cursor erfasst neue Codebasen in 21 Sekunden statt vier Stunden e",
-      "link": "https://the-decoder.de/cursor-erfasst-neue-codebasen-in-21-sekunden-statt-vier-stunden/",
-      "date": "2026-01-29T10:19:15.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "Inside OpenAI’s in-house data agent",
       "description": "How OpenAI built an in-house AI data agent that uses GPT-5, Codex, and memory to reason over massive datasets and deliver reliable insights in minutes.",
       "link": "https://openai.com/index/inside-our-in-house-data-agent",
@@ -72,24 +90,6 @@
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
-    },
-    {
-      "title": "Google bereitet wohl native Audio-Fähigkeiten für Gemini 3 Flash mit Stimmenklonen vor",
-      "description": "Google arbeitet an einer Funktion, mit der Nutzer ihre eigene Stimme in AI Studio klonen können.\nDer Artikel Google bereitet wohl native Audio-Fähigkeiten für Gemini 3 Flash mit Stimmenklonen vor ersc",
-      "link": "https://the-decoder.de/google-bereitet-wohl-native-audio-faehigkeiten-fuer-gemini-3-flash-mit-stimmenklonen-vor/",
-      "date": "2026-01-29T09:43:45.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "KI-\"Auto Browse\" in Chrome soll Reisen buchen, Formulare füllen und Termine verwalten",
-      "description": "Google liefert den letztes Jahr angekündigten Browser-Agenten aus. Auto Browse soll selbstständig Flüge recherchieren, Formulare ausfüllen und Produkte bestellen. Die Funktion bleibt vorerst auf zahle",
-      "link": "https://the-decoder.de/auto-browse-in-chrome-soll-reisen-buchen-formulare-fuellen-und-termine-verwalten/",
-      "date": "2026-01-29T08:42:00.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
     },
     {
       "title": "Taisei Corporation shapes the next generation of talent with ChatGPT",
