@@ -1,6 +1,42 @@
 {
-  "lastUpdated": "2026-01-30T18:49:42.831Z",
+  "lastUpdated": "2026-01-30T20:34:49.990Z",
   "news": [
+    {
+      "title": "Moltbook ist ein menschenfreier Reddit-Klon, auf dem KI-Agenten über Cybersecurity und Philosophie diskutieren",
+      "description": "Ein Social Network nur für KI-Agenten? Auf Moltbook posten über 30.000 Bots, warnen sich gegenseitig vor Sicherheitslücken und philosophieren über die Simulationstheorie.\nDer Artikel Moltbook ist ein",
+      "link": "https://the-decoder.de/moltbook-ist-ein-menschenfreier-reddit-klon-auf-dem-ki-agenten-ueber-cybersecurity-und-philosophie-diskutieren/",
+      "date": "2026-01-30T20:16:05.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "KI-Radar #1: Vom Chatbot zum Aufgabenlöser – der Stand bei KI-Agenten 2026",
+      "description": "2026 sollte das Jahr der KI-Agenten werden, und manche sagen, die Revolution sei ausgeblieben. Das sehen wir anders: Sie fand statt – nur leiser als erwartet. Doch was unterscheidet einen echten „Agen",
+      "link": "https://the-decoder.de/ki-radar-1-vom-chatbot-zum-aufgabenloeser-der-stand-bei-ki-agenten-2026/",
+      "date": "2026-01-30T19:44:50.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Perplexity schließt 750-Millionen-Dollar-Deal mit Microsoft",
+      "description": "Perplexity sichert sich 750 Millionen Dollar für Zugang zu KI-Modellen von OpenAI, Anthropic und xAI über Microsofts Azure-Cloud.\nDer Artikel Perplexity schließt 750-Millionen-Dollar-Deal mit Microsof",
+      "link": "https://the-decoder.de/perplexity-schliesst-750-millionen-dollar-deal-mit-microsoft/",
+      "date": "2026-01-30T19:34:31.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Anthropic veröffentlicht Cowork-Plugins für maßgeschneiderte KI-Assistenten im Büro",
+      "description": "Anthropic macht Claude zum Spezialisten: Mit Plugins für Cowork lässt sich der KI-Assistent für Vertrieb, Recht oder Finanzen maßschneidern.\nDer Artikel Anthropic veröffentlicht Cowork-Plugins für maß",
+      "link": "https://the-decoder.de/anthropic-veroeffentlicht-cowork-plugins-fuer-massgeschneiderte-ki-assistenten-im-buero/",
+      "date": "2026-01-30T19:10:43.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Pentagon und Anthropic streiten über KI-Einsatz für autonome Waffen",
       "description": "Das US-Verteidigungsministerium will KI-Technologie ohne Einschränkungen nutzen. Anthropic fordert Garantien gegen autonome Waffensteuerung und Inlandsüberwachung. Ein 200-Millionen-Dollar-Vertrag hän",
@@ -38,46 +74,10 @@
       "language": "de"
     },
     {
-      "title": "KI-Radar #1: Vom Chatbot zum Aufgabenlöser – der Stand bei KI-Agenten 2026",
-      "description": "2026 sollte das Jahr der KI-Agenten werden, und manche sagen, die Revolution sei ausgeblieben. Das sehen wir anders: Sie fand statt – nur leiser als erwartet. Doch was unterscheidet einen echten „Agen",
-      "link": "https://the-decoder.de/ki-radar-1-vom-chatbot-zum-aufgabenloeser-der-stand-bei-ki-agenten-2026/",
-      "date": "2026-01-30T12:08:50.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "Zu wenig Nutzen, zu viele Probleme: OpenAIs \"ChatGPT Agent\" könnte ein schnelles Ende haben",
       "description": "OpenAI wird wohl seinen \"ChatGPT Agent\" aufgeben, der erst vor einem halben Jahr an den Start ging. Die Nutzerzahl schrumpfte seit dem Launch und der Modus kämpfte mit technischen Problemen. Hinzu kam",
       "link": "https://the-decoder.de/zu-wenig-nutzen-zu-viele-probleme-openais-chatgpt-agent-koennte-ein-schnelles-ende-haben/",
       "date": "2026-01-29T19:47:36.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "OpenAI-Forscher stellt klar: Keine Beteiligung an individuellen Nutzer-Entdeckungen geplant",
-      "description": "OpenAI-Forscher Kevin Weil stellt klar: Das Unternehmen will sich nicht an den Entdeckungen einzelner Nutzer beteiligen. Aussagen von Finanzchefin Sarah Friar seien falsch interpretiert worden.\nDer Ar",
-      "link": "https://the-decoder.de/openai-forscher-stellt-klar-keine-beteiligung-an-individuellen-nutzer-entdeckungen-geplant/",
-      "date": "2026-01-29T17:17:13.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "45 Prozent von Microsofts Cloud-Auftragsbestand stammen von OpenAI",
-      "description": "Microsoft übertrifft die Erwartungen mit Rekord-Cloud-Umsätzen, doch die Aktie stürzt ab. Investoren zweifeln, ob sich die Milliarden-Investitionen in KI-Infrastruktur auszahlen. Verbrennt Microsoft m",
-      "link": "https://the-decoder.de/45-prozent-von-microsofts-cloud-auftragsbestand-stammen-von-openai/",
-      "date": "2026-01-29T16:36:39.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Neue KI-Labore treten an, um Dateneffizienz von Modellen massiv zu steigern",
-      "description": "Zwei neue KI-Labore wollen die Grundlagen der KI-Entwicklung neu erfinden: Flapping Airplanes sammelt 180 Millionen Dollar ein, Core Automation sucht bis zu einer Milliarde. Beide glauben, dass die KI",
-      "link": "https://the-decoder.de/neue-ki-labore-treten-an-um-dateneffizienz-von-modellen-massiv-zu-steigern/",
-      "date": "2026-01-29T12:04:09.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
