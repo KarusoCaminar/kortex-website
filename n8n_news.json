@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-01-29T22:32:02.102Z",
+  "lastUpdated": "2026-01-30T02:24:07.460Z",
   "news": [
     {
       "title": "Zu wenig Nutzen, zu viele Probleme: OpenAIs \"ChatGPT Agent\" könnte ein schnelles Ende haben",
@@ -83,6 +83,15 @@
       "language": "de"
     },
     {
+      "title": "Taisei Corporation shapes the next generation of talent with ChatGPT",
+      "description": "Taisei Corporation uses ChatGPT Enterprise to support HR-led talent development and scale generative AI across its global construction business.",
+      "link": "https://openai.com/index/taisei",
+      "date": "2026-01-29T00:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
       "title": "Retiring GPT-4o, GPT-4.1, GPT-4.1 mini, and OpenAI o4-mini in ChatGPT",
       "description": "On February 13, 2026, alongside the previously announced retirement⁠ of GPT‑5 (Instant, Thinking, and Pro), we will retire GPT‑4o, GPT‑4.1, GPT‑4.1 mini, and OpenAI o4-mini from ChatGPT. In the API, t",
       "link": "https://openai.com/index/retiring-gpt-4o-and-older-models",
@@ -123,15 +132,6 @@
       "description": "OpenAI launches the EU Economic Blueprint 2.0 with new data, partnerships, and initiatives to accelerate AI adoption, skills, and growth across Europe.",
       "link": "https://openai.com/index/the-next-chapter-for-ai-in-the-eu",
       "date": "2026-01-28T01:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "Keeping your data safe when an AI agent clicks a link",
-      "description": "Learn how OpenAI protects user data when AI agents open links, preventing URL-based data exfiltration and prompt injection with built-in safeguards.",
-      "link": "https://openai.com/index/ai-agent-link-safety",
-      "date": "2026-01-28T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
