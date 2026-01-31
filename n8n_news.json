@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-01-31T14:27:53.911Z",
+  "lastUpdated": "2026-01-31T16:33:41.657Z",
   "news": [
+    {
+      "title": "Nvidia-Chef Jensen Huang nennt kommendes OpenAI-Investment \"wahrscheinlich das größte, das wir je getätigt haben\"",
+      "description": "Der im September angekündigte Megadeal zwischen OpenAI und Nvidia wird wohl nicht wie geplant finalisiert. Nvidia-CEO Jensen Huang soll intern Zweifel an OpenAIs Geschäftsansatz geäußert haben.\nDer Ar",
+      "link": "https://the-decoder.de/nvidia-chef-jensen-huang-nennt-kommendes-openai-investment-wahrscheinlich-das-groesste-das-wir-je-getaetigt-haben/",
+      "date": "2026-01-31T16:02:35.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Deepmind-Pionier David Silver sucht mit eigenem Start-up nach neuen Wegen zur Super-KI",
       "description": "David Silver, einer der wichtigsten KI-Forscher hinter großen Deepmind-Projekten wie AlphaGo und AlphaZero, verlässt die Google-Tochter und gründet ein eigenes Superintelligenz-Start-up. Er glaubt nic",
@@ -24,15 +33,6 @@
       "description": "Wer neue Programmierfähigkeiten mit KI-Hilfe erlernt, schneidet bei Wissenstests deutlich schlechter ab. Das zeigt eine neue Studie von Anthropic, die vor einer zu aggressiven KI-Integration am Arbeit",
       "link": "https://the-decoder.de/anthropic-studie-ki-hilfe-kann-das-lernen-neuer-programmier-skills-verschlechtern/",
       "date": "2026-01-31T10:33:19.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Nvidia legt angeblich 100-Milliarden-Dollar-Deal mit OpenAI auf Eis",
-      "description": "Der im September angekündigte Megadeal zwischen OpenAI und Nvidia wird wohl nicht wie geplant finalisiert. Nvidia-CEO Jensen Huang soll intern Zweifel an OpenAIs Geschäftsansatz geäußert haben.\nDer Ar",
-      "link": "https://the-decoder.de/nvidia-legt-angeblich-100-milliarden-dollar-deal-mit-openai-auf-eis/",
-      "date": "2026-01-31T08:43:35.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
