@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-01-31T10:29:04.455Z",
+  "lastUpdated": "2026-01-31T12:55:22.741Z",
   "news": [
+    {
+      "title": "OpenAI führt im Enterprise-KI-Markt, doch Anthropic holt rasant auf",
+      "description": "Im Enterprise-KI-Markt zeichnet sich ein Oligopol ab: OpenAI führt noch, doch Anthropic holt rasant auf. Microsoft dominiert unterdessen bei den Anwendungen. Die Open-Source-Revolution kommt nicht im",
+      "link": "https://the-decoder.de/openai-fuehrt-im-enterprise-ki-markt-doch-anthropic-holt-rasant-auf/",
+      "date": "2026-01-31T12:39:48.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Anthropic-Studie: KI-Hilfe kann das Lernen neuer Programmier-Skills verschlechtern",
+      "description": "Wer neue Programmierfähigkeiten mit KI-Hilfe erlernt, schneidet bei Wissenstests deutlich schlechter ab. Das zeigt eine neue Studie von Anthropic, die vor einer zu aggressiven KI-Integration am Arbeit",
+      "link": "https://the-decoder.de/anthropic-studie-ki-hilfe-kann-das-lernen-neuer-programmier-skills-verschlechtern/",
+      "date": "2026-01-31T10:33:19.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Nvidia legt angeblich 100-Milliarden-Dollar-Deal mit OpenAI auf Eis",
       "description": "Der im September angekündigte Megadeal zwischen OpenAI und Nvidia wird wohl nicht wie geplant finalisiert. Nvidia-CEO Jensen Huang soll intern Zweifel an OpenAIs Geschäftsansatz geäußert haben.\nDer Ar",
@@ -69,24 +87,6 @@
       "description": "SpaceX verhandelt über eine Fusion mit Elon Musks KI-Unternehmen xAI vor dem geplanten Börsengang, berichtet Reuters.\nDer Artikel SpaceX verhandelt laut Reuters über Fusion mit xAI vor geplantem Börse",
       "link": "https://the-decoder.de/spacex-verhandelt-laut-reuters-ueber-fusion-mit-xai-vor-geplantem-boersengang/",
       "date": "2026-01-30T13:45:16.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "OpenAI zeigt, wie intern KI-Agenten Datenanalysen übernehmen",
-      "description": "OpenAI hat einen internen KI-Datenagenten entwickelt, der Mitarbeitern komplexe Datenanalysen in natürlicher Sprache ermöglicht. Eine Schlüsselmethode namens \"Codex Enrichment\" durchsucht dabei die Co",
-      "link": "https://the-decoder.de/openai-zeigt-wie-intern-ki-agenten-datenanalysen-uebernehmen/",
-      "date": "2026-01-30T13:38:26.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Zu wenig Nutzen, zu viele Probleme: OpenAIs \"ChatGPT Agent\" könnte ein schnelles Ende haben",
-      "description": "OpenAI wird wohl seinen \"ChatGPT Agent\" aufgeben, der erst vor einem halben Jahr an den Start ging. Die Nutzerzahl schrumpfte seit dem Launch und der Modus kämpfte mit technischen Problemen. Hinzu kam",
-      "link": "https://the-decoder.de/zu-wenig-nutzen-zu-viele-probleme-openais-chatgpt-agent-koennte-ein-schnelles-ende-haben/",
-      "date": "2026-01-29T19:47:36.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
