@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-01-31T12:55:22.741Z",
+  "lastUpdated": "2026-01-31T14:27:53.911Z",
   "news": [
+    {
+      "title": "Deepmind-Pionier David Silver sucht mit eigenem Start-up nach neuen Wegen zur Super-KI",
+      "description": "David Silver, einer der wichtigsten KI-Forscher hinter großen Deepmind-Projekten wie AlphaGo und AlphaZero, verlässt die Google-Tochter und gründet ein eigenes Superintelligenz-Start-up. Er glaubt nic",
+      "link": "https://the-decoder.de/deepmind-pionier-david-silver-sucht-mit-eigenem-start-up-nach-neuen-wegen-zur-super-ki/",
+      "date": "2026-01-31T13:29:17.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "OpenAI führt im Enterprise-KI-Markt, doch Anthropic holt rasant auf",
       "description": "Im Enterprise-KI-Markt zeichnet sich ein Oligopol ab: OpenAI führt noch, doch Anthropic holt rasant auf. Microsoft dominiert unterdessen bei den Anwendungen. Die Open-Source-Revolution kommt nicht im",
@@ -78,15 +87,6 @@
       "description": "OpenAI bereitet einen Börsengang für das vierte Quartal 2026 vor, berichtet das Wall Street Journal.\nDer Artikel OpenAI plant Börsengang im vierten Quartal 2026 erschien zuerst auf The Decoder.",
       "link": "https://the-decoder.de/openai-plant-boersengang-im-vierten-quartal-2026/",
       "date": "2026-01-30T13:56:29.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "SpaceX verhandelt laut Reuters über Fusion mit xAI vor geplantem Börsengang",
-      "description": "SpaceX verhandelt über eine Fusion mit Elon Musks KI-Unternehmen xAI vor dem geplanten Börsengang, berichtet Reuters.\nDer Artikel SpaceX verhandelt laut Reuters über Fusion mit xAI vor geplantem Börse",
-      "link": "https://the-decoder.de/spacex-verhandelt-laut-reuters-ueber-fusion-mit-xai-vor-geplantem-boersengang/",
-      "date": "2026-01-30T13:45:16.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
