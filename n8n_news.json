@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-01-31T08:35:16.908Z",
+  "lastUpdated": "2026-01-31T10:29:04.455Z",
   "news": [
+    {
+      "title": "Nvidia legt angeblich 100-Milliarden-Dollar-Deal mit OpenAI auf Eis",
+      "description": "Der im September angekündigte Megadeal zwischen OpenAI und Nvidia wird wohl nicht wie geplant finalisiert. Nvidia-CEO Jensen Huang soll intern Zweifel an OpenAIs Geschäftsansatz geäußert haben.\nDer Ar",
+      "link": "https://the-decoder.de/nvidia-legt-angeblich-100-milliarden-dollar-deal-mit-openai-auf-eis/",
+      "date": "2026-01-31T08:43:35.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Moltbook ist ein menschenfreier Reddit-Klon, auf dem KI-Agenten über Cybersecurity und Philosophie diskutieren",
       "description": "Ein Social Network nur für KI-Agenten? Auf Moltbook posten über 30.000 Bots, warnen sich gegenseitig vor Sicherheitslücken und philosophieren über die Simulationstheorie.\nDer Artikel Moltbook ist ein",
@@ -122,15 +131,6 @@
       "title": "EMEA Youth & Wellbeing Grant",
       "description": "Apply for the EMEA Youth & Wellbeing Grant, a €500,000 program funding NGOs and researchers advancing youth safety and wellbeing in the age of AI.",
       "link": "https://openai.com/index/emea-youth-and-wellbeing-grant",
-      "date": "2026-01-28T01:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "The next chapter for AI in the EU",
-      "description": "OpenAI launches the EU Economic Blueprint 2.0 with new data, partnerships, and initiatives to accelerate AI adoption, skills, and growth across Europe.",
-      "link": "https://openai.com/index/the-next-chapter-for-ai-in-the-eu",
       "date": "2026-01-28T01:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
