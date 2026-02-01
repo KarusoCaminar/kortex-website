@@ -1,96 +1,6 @@
 {
-  "lastUpdated": "2026-01-31T22:26:58.224Z",
+  "lastUpdated": "2026-02-01T02:43:26.136Z",
   "news": [
-    {
-      "title": "Nvidia-Chef Jensen Huang nennt kommendes OpenAI-Investment \"wahrscheinlich das größte, das wir je getätigt haben\"",
-      "description": "Der im September angekündigte Megadeal zwischen OpenAI und Nvidia wird wohl nicht wie geplant finalisiert. Nvidia-CEO Jensen Huang soll intern Zweifel an OpenAIs Geschäftsansatz geäußert haben.\nDer Ar",
-      "link": "https://the-decoder.de/nvidia-chef-jensen-huang-nennt-kommendes-openai-investment-wahrscheinlich-das-groesste-das-wir-je-getaetigt-haben/",
-      "date": "2026-01-31T16:02:35.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Deepmind-Pionier David Silver sucht mit eigenem Start-up nach neuen Wegen zur Super-KI",
-      "description": "David Silver, einer der wichtigsten KI-Forscher hinter großen Deepmind-Projekten wie AlphaGo und AlphaZero, verlässt die Google-Tochter und gründet ein eigenes Superintelligenz-Start-up. Er glaubt nic",
-      "link": "https://the-decoder.de/deepmind-pionier-david-silver-sucht-mit-eigenem-start-up-nach-neuen-wegen-zur-super-ki/",
-      "date": "2026-01-31T13:29:17.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "OpenAI führt im Enterprise-KI-Markt, doch Anthropic holt rasant auf",
-      "description": "Im Enterprise-KI-Markt zeichnet sich ein Oligopol ab: OpenAI führt noch, doch Anthropic holt rasant auf. Microsoft dominiert unterdessen bei den Anwendungen. Die Open-Source-Revolution kommt nicht im",
-      "link": "https://the-decoder.de/openai-fuehrt-im-enterprise-ki-markt-doch-anthropic-holt-rasant-auf/",
-      "date": "2026-01-31T12:39:48.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Anthropic-Studie: KI-Hilfe kann das Lernen neuer Programmier-Skills verschlechtern",
-      "description": "Wer neue Programmierfähigkeiten mit KI-Hilfe erlernt, schneidet bei Wissenstests deutlich schlechter ab. Das zeigt eine neue Studie von Anthropic, die vor einer zu aggressiven KI-Integration am Arbeit",
-      "link": "https://the-decoder.de/anthropic-studie-ki-hilfe-kann-das-lernen-neuer-programmier-skills-verschlechtern/",
-      "date": "2026-01-31T10:33:19.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Moltbook ist ein menschenfreier Reddit-Klon, auf dem KI-Agenten über Cybersecurity und Philosophie diskutieren",
-      "description": "Ein Social Network nur für KI-Agenten? Auf Moltbook posten über 30.000 Bots, warnen sich gegenseitig vor Sicherheitslücken und philosophieren über die Simulationstheorie.\nDer Artikel Moltbook ist ein",
-      "link": "https://the-decoder.de/moltbook-ist-ein-menschenfreier-reddit-klon-auf-dem-ki-agenten-ueber-cybersecurity-und-philosophie-diskutieren/",
-      "date": "2026-01-30T20:16:05.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "KI-Radar #1: Vom Chatbot zum Aufgabenlöser – der Stand bei KI-Agenten 2026",
-      "description": "2026 sollte das Jahr der KI-Agenten werden, und manche sagen, die Revolution sei ausgeblieben. Das sehen wir anders: Sie fand statt – nur leiser als erwartet. Doch was unterscheidet einen echten „Agen",
-      "link": "https://the-decoder.de/ki-radar-1-vom-chatbot-zum-aufgabenloeser-der-stand-bei-ki-agenten-2026/",
-      "date": "2026-01-30T19:44:50.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Perplexity schließt 750-Millionen-Dollar-Deal mit Microsoft",
-      "description": "Perplexity sichert sich 750 Millionen Dollar für Zugang zu KI-Modellen von OpenAI, Anthropic und xAI über Microsofts Azure-Cloud.\nDer Artikel Perplexity schließt 750-Millionen-Dollar-Deal mit Microsof",
-      "link": "https://the-decoder.de/perplexity-schliesst-750-millionen-dollar-deal-mit-microsoft/",
-      "date": "2026-01-30T19:34:31.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Anthropic veröffentlicht Cowork-Plugins für maßgeschneiderte KI-Assistenten im Büro",
-      "description": "Anthropic macht Claude zum Spezialisten: Mit Plugins für Cowork lässt sich der KI-Assistent für Vertrieb, Recht oder Finanzen maßschneidern.\nDer Artikel Anthropic veröffentlicht Cowork-Plugins für maß",
-      "link": "https://the-decoder.de/anthropic-veroeffentlicht-cowork-plugins-fuer-massgeschneiderte-ki-assistenten-im-buero/",
-      "date": "2026-01-30T19:10:43.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Pentagon und Anthropic streiten über KI-Einsatz für autonome Waffen",
-      "description": "Das US-Verteidigungsministerium will KI-Technologie ohne Einschränkungen nutzen. Anthropic fordert Garantien gegen autonome Waffensteuerung und Inlandsüberwachung. Ein 200-Millionen-Dollar-Vertrag hän",
-      "link": "https://the-decoder.de/pentagon-und-anthropic-streiten-ueber-ki-einsatz-fuer-autonome-waffen/",
-      "date": "2026-01-30T14:05:31.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "OpenAI plant Börsengang im vierten Quartal 2026",
-      "description": "OpenAI bereitet einen Börsengang für das vierte Quartal 2026 vor, berichtet das Wall Street Journal.\nDer Artikel OpenAI plant Börsengang im vierten Quartal 2026 erschien zuerst auf The Decoder.",
-      "link": "https://the-decoder.de/openai-plant-boersengang-im-vierten-quartal-2026/",
-      "date": "2026-01-30T13:56:29.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
     {
       "title": "Inside OpenAI’s in-house data agent",
       "description": "How OpenAI built an in-house AI data agent that uses GPT-5, Codex, and memory to reason over massive datasets and deliver reliable insights in minutes.",
@@ -132,6 +42,96 @@
       "description": "OpenAI launches the EU Economic Blueprint 2.0 with new data, partnerships, and initiatives to accelerate AI adoption, skills, and growth across Europe.",
       "link": "https://openai.com/index/the-next-chapter-for-ai-in-the-eu",
       "date": "2026-01-28T01:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
+      "title": "EMEA Youth & Wellbeing Grant",
+      "description": "Apply for the EMEA Youth & Wellbeing Grant, a €500,000 program funding NGOs and researchers advancing youth safety and wellbeing in the age of AI.",
+      "link": "https://openai.com/index/emea-youth-and-wellbeing-grant",
+      "date": "2026-01-28T01:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
+      "title": "Keeping your data safe when an AI agent clicks a link",
+      "description": "Learn how OpenAI protects user data when AI agents open links, preventing URL-based data exfiltration and prompt injection with built-in safeguards.",
+      "link": "https://openai.com/index/ai-agent-link-safety",
+      "date": "2026-01-28T00:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
+      "title": "ATLAS: Practical scaling laws for multilingual models",
+      "description": "Generative AI",
+      "link": "https://research.google/blog/atlas-practical-scaling-laws-for-multilingual-models/",
+      "date": "2026-01-27T18:58:00.000Z",
+      "source": "Google AI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
+      "title": "PVH reimagines the future of fashion with OpenAI",
+      "description": "PVH Corp., parent company of Calvin Klein and Tommy Hilfiger, is adopting ChatGPT Enterprise to bring AI into fashion design, supply chain, and consumer engagement.",
+      "link": "https://openai.com/index/pvh-future-of-fashion",
+      "date": "2026-01-27T06:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
+      "title": "Introducing Prism",
+      "description": "Prism is a free LaTeX-native workspace with GPT-5.2 built in, helping researchers write, collaborate, and reason in one place.",
+      "link": "https://openai.com/index/introducing-prism",
+      "date": "2026-01-27T00:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
+      "title": "Powering tax donations with AI powered personalized recommendations",
+      "description": "TRUSTBANK partnered with Recursive to build Choice AI using OpenAI models, delivering personalized, conversational recommendations that simplify Furusato Nozei gift discovery. A multi-agent system hel",
+      "link": "https://openai.com/index/trustbank",
+      "date": "2026-01-27T00:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
+      "title": "How Indeed uses AI to help evolve the job search",
+      "description": "Indeed’s CRO Maggie Hulce shares how AI is transforming job search, recruiting, and talent acquisition for employers and job seekers.",
+      "link": "https://openai.com/index/indeed-maggie-hulce",
+      "date": "2026-01-26T00:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
+      "title": "Unrolling the Codex agent loop",
+      "description": "A technical deep dive into the Codex agent loop, explaining how Codex CLI orchestrates models, tools, prompts, and performance using the Responses API.",
+      "link": "https://openai.com/index/unrolling-the-codex-agent-loop",
+      "date": "2026-01-23T12:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
+      "title": "Small models, big results: Achieving superior intent extraction through decomposition",
+      "description": "Generative AI",
+      "link": "https://research.google/blog/small-models-big-results-achieving-superior-intent-extraction-through-decomposition/",
+      "date": "2026-01-22T16:56:44.000Z",
+      "source": "Google AI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
+      "title": "Scaling PostgreSQL to power 800 million ChatGPT users",
+      "description": "An inside look at how OpenAI scaled PostgreSQL to millions of queries per second using replicas, caching, rate limiting, and workload isolation.",
+      "link": "https://openai.com/index/scaling-postgresql",
+      "date": "2026-01-22T12:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
