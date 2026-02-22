@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-02-22T16:35:03.699Z",
+  "lastUpdated": "2026-02-22T18:40:44.019Z",
   "news": [
+    {
+      "title": "KI-Videogenerator Seedance 2.0: Hollywoods Branchenverband schickt erstmals Unterlassungsschreiben an Bytedance",
+      "description": "Bytedances Versprechungen scheinen Hollywood nicht zu reichen: Die Motion Picture Association hat der Firma erstmals ein Cease-and-Desist-Schreiben wegen eines KI-Tools geschickt und spricht von \"syst",
+      "link": "https://the-decoder.de/hollywoods-branchenverband-schickt-erstmals-unterlassungsschreiben-an-ki-unternehmen/",
+      "date": "2026-02-22T18:07:48.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Desinformation per Audio: ChatGPT Voice und Gemini Live lassen sich leicht manipulieren",
       "description": "ChatGPT und Gemini lassen sich leicht dazu bringen, Falschmeldungen als realistische Audio-Nachrichtenbeiträge wiederzugeben. Amazons Alexa+ nicht. Ein Test von NewsGuard zeigt, wo die Schwachstellen",
@@ -78,15 +87,6 @@
       "description": "OpenAI hebt seine Umsatzprognosen an, warnt Investoren aber zugleich vor einem drastisch höheren Mittelabfluss. Die Kosten für Training und Betrieb von KI-Modellen steigen schneller als die Einnahmen.",
       "link": "https://the-decoder.de/openai-verdoppelt-cashburn-prognose-111-milliarden-us-dollar-mehr-bis-2030/",
       "date": "2026-02-21T11:52:43.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Anthropic erweitert Claude Code um automatisierte Desktop-Funktionen für Entwickler",
-      "description": "Anthropic erweitert Claude Code auf dem Desktop um Funktionen, die den Entwicklungsprozess stärker automatisieren.\nDer Artikel Anthropic erweitert Claude Code um automatisierte Desktop-Funktionen für",
-      "link": "https://the-decoder.de/anthropic-erweitert-claude-code-um-automatisierte-desktop-funktionen-fuer-entwickler/",
-      "date": "2026-02-21T10:38:33.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
