@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-02-23T08:55:03.811Z",
+  "lastUpdated": "2026-02-23T10:53:19.774Z",
   "news": [
+    {
+      "title": "Stargate-Projekt: OpenAIs 500-Milliarden-Dollar-Rechenzentrum kommt nur schleppend voran",
+      "description": "Das Stargate-Projekt für KI-Rechenzentren im Wert von 500 Milliarden Dollar stockt. OpenAI, Oracle und SoftBank streiten über Zuständigkeiten, Kreditgeber zögern und OpenAI muss seine Strategie grundl",
+      "link": "https://the-decoder.de/stargate-projekt-openais-500-milliarden-dollar-rechenzentrum-kommt-nur-schleppend-voran/",
+      "date": "2026-02-23T09:23:21.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "KI-Videogenerator Seedance 2.0: Hollywoods Branchenverband schickt erstmals Unterlassungsschreiben an Bytedance",
       "description": "Bytedances Versprechungen scheinen Hollywood nicht zu reichen: Die Motion Picture Association hat der Firma erstmals ein Cease-and-Desist-Schreiben wegen eines KI-Tools geschickt und spricht von \"syst",
@@ -78,15 +87,6 @@
       "description": "Sicherheitsforscher von Microsoft haben eine neue Prompt-Injection-Methode entdeckt: Angreifer schleusen über harmlos wirkende \"Mit KI zusammenfassen\"-Buttons versteckte Anweisungen in das Gedächtnis",
       "link": "https://the-decoder.de/mit-ki-zusammenfassen-buttons-schleusen-versteckte-werbe-prompts-in-eure-chatbots-ein/",
       "date": "2026-02-21T14:24:23.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "OpenAI erhöht Cashburn-Prognose: 111 Milliarden US-Dollar mehr bis 2030",
-      "description": "OpenAI hebt seine Umsatzprognosen an, warnt Investoren aber zugleich vor einem drastisch höheren Mittelabfluss. Die Kosten für Training und Betrieb von KI-Modellen steigen schneller als die Einnahmen.",
-      "link": "https://the-decoder.de/openai-verdoppelt-cashburn-prognose-111-milliarden-us-dollar-mehr-bis-2030/",
-      "date": "2026-02-21T11:52:43.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
