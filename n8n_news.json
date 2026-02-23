@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-22T22:28:30.587Z",
+  "lastUpdated": "2026-02-23T02:33:02.690Z",
   "news": [
     {
       "title": "KI-Videogenerator Seedance 2.0: Hollywoods Branchenverband schickt erstmals Unterlassungsschreiben an Bytedance",
@@ -119,20 +119,20 @@
       "language": "en"
     },
     {
+      "title": "Introducing EVMbench",
+      "description": "OpenAI and Paradigm introduce EVMbench, a benchmark evaluating AI agents’ ability to detect, patch, and exploit high-severity smart contract vulnerabilities.",
+      "link": "https://openai.com/index/introducing-evmbench",
+      "date": "2026-02-18T00:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
       "title": "Teaching AI to read a map",
       "description": "Machine Perception",
       "link": "https://research.google/blog/teaching-ai-to-read-a-map/",
       "date": "2026-02-17T21:37:00.000Z",
       "source": "Google AI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "GPT-5.2 derives a new result in theoretical physics",
-      "description": "A new preprint shows GPT-5.2 proposing a new formula for a gluon amplitude, later formally proved and verified by OpenAI and academic collaborators.",
-      "link": "https://openai.com/index/new-result-theoretical-physics",
-      "date": "2026-02-13T11:00:00.000Z",
-      "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
     }
