@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-02-23T10:53:19.774Z",
+  "lastUpdated": "2026-02-23T13:13:09.918Z",
   "news": [
+    {
+      "title": "Kostenlose KI-Schulungen: Google will alle Lehrer in den USA fit für Gemini machen",
+      "description": "Google will sechs Millionen US-Lehrkräfte an Gemini gewöhnen und sichert sich damit früh den Zugang zum Bildungsmarkt.\nDer Artikel Kostenlose KI-Schulungen: Google will alle Lehrer in den USA fit für",
+      "link": "https://the-decoder.de/kostenlose-ki-schulungen-google-will-alle-lehrer-in-den-usa-fit-fuer-gemini-machen/",
+      "date": "2026-02-23T12:32:45.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Stargate-Projekt: OpenAIs 500-Milliarden-Dollar-Rechenzentrum kommt nur schleppend voran",
       "description": "Das Stargate-Projekt für KI-Rechenzentren im Wert von 500 Milliarden Dollar stockt. OpenAI, Oracle und SoftBank streiten über Zuständigkeiten, Kreditgeber zögern und OpenAI muss seine Strategie grundl",
@@ -78,15 +87,6 @@
       "description": "AGI sei \"ziemlich nah\", Superintelligenz \"nicht so weit entfernt\": Sam Altman gibt im Interview Einblicke in OpenAIs interne Entwicklung und erklärt, warum seine eigene Berufsausbildung als Softwareen",
       "link": "https://the-decoder.de/openai-chef-sieht-agi-in-greifbarer-naehe-interne-modelle-beschleunigen-die-forschung/",
       "date": "2026-02-21T18:06:07.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "\"Mit KI zusammenfassen\"-Buttons schleusen versteckte Werbe-Prompts in eure Chatbots ein",
-      "description": "Sicherheitsforscher von Microsoft haben eine neue Prompt-Injection-Methode entdeckt: Angreifer schleusen über harmlos wirkende \"Mit KI zusammenfassen\"-Buttons versteckte Anweisungen in das Gedächtnis",
-      "link": "https://the-decoder.de/mit-ki-zusammenfassen-buttons-schleusen-versteckte-werbe-prompts-in-eure-chatbots-ein/",
-      "date": "2026-02-21T14:24:23.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
