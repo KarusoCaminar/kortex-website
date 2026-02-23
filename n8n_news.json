@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-02-23T17:02:07.025Z",
+  "lastUpdated": "2026-02-23T19:07:53.440Z",
   "news": [
+    {
+      "title": "OpenAI hält Programmier-Benchmark SWE-bench Verified für nutzlos und fehlerhaft",
+      "description": "OpenAI stellt den bekannten Coding-Test SWE-bench Verified infrage: Viele Aufgaben seien so gebaut, dass Tests selbst korrekte Fixes ablehnen, und zudem hätten viele KI-Modelle die Lösungen wohl schon",
+      "link": "https://the-decoder.de/openai-haelt-programmier-benchmark-swe-bench-verified-fuer-nutzlos-und-fehlerhaft/",
+      "date": "2026-02-23T19:01:58.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Anthropic-Studie: Nutzer hinterfragen polierte KI-Ergebnisse seltener",
+      "description": "Anthropic hat einen neuen \"AI Fluency Index\" veröffentlicht, der misst, wie kompetent Menschen mit KI-Werkzeugen umgehen. Ein zentraler Befund: Wenn Claude polierte Ergebnisse liefert, sinkt die kriti",
+      "link": "https://the-decoder.de/anthropic-studie-nutzer-hinterfragen-polierte-ki-ergebnisse-seltener/",
+      "date": "2026-02-23T17:56:31.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "KI-Allianz mit McKinsey & Co. soll OpenAIs Agenten-Plattform Frontier pushen",
       "description": "OpenAI verbündet sich mit McKinsey, BCG, Accenture und Capgemini, um seine neue KI-Agenten-Plattform Frontier in Großunternehmen zu bringen.\nDer Artikel KI-Allianz mit McKinsey & Co. soll OpenAIs Agen",
@@ -18,6 +36,15 @@
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
+    },
+    {
+      "title": "Why we no longer evaluate SWE-bench Verified",
+      "description": "SWE-bench Verified is increasingly contaminated and mismeasures frontier coding progress. Our analysis shows flawed tests and training leakage. We recommend SWE-bench Pro.",
+      "link": "https://openai.com/index/why-we-no-longer-evaluate-swe-bench-verified",
+      "date": "2026-02-23T11:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
     },
     {
       "title": "Stargate-Projekt: OpenAIs 500-Milliarden-Dollar-Rechenzentrum kommt nur schleppend voran",
@@ -83,24 +110,6 @@
       "language": "de"
     },
     {
-      "title": "Apple Intelligence halluziniert Stereotype in Millionen von Zusammenfassungen",
-      "description": "Apple Intelligence fasst auf Hunderten Millionen iPhones, iPads und Macs automatisch Benachrichtigungen, Textnachrichten und E-Mails zusammen. Die gemeinnützige Organisation AI Forensics hat nun eine",
-      "link": "https://the-decoder.de/apple-intelligence-halluziniert-stereotype-in-millionen-von-zusammenfassungen/",
-      "date": "2026-02-22T08:36:26.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Gemini 3.1 Pro: Googles neues KI-Modell führt Benchmark-Index an und kostet nur ein Drittel der Konkurrenz",
-      "description": "Googles Gemini 3.1 Pro führt den Artificial Analysis Intelligence Index an und kostet dabei weniger als die Hälfte der Konkurrenz. Doch Benchmarks sind nicht alles.\nDer Artikel Gemini 3.1 Pro: Googles",
-      "link": "https://the-decoder.de/gemini-3-1-pro-googles-neues-ki-modell-fuehrt-benchmark-index-an-und-kostet-nur-ein-drittel-der-konkurrenz/",
-      "date": "2026-02-21T18:37:29.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "Our First Proof submissions",
       "description": "We share our AI model’s proof attempts for the First Proof math challenge, testing research-grade reasoning on expert-level problems.",
       "link": "https://openai.com/index/first-proof-submissions",
@@ -123,15 +132,6 @@
       "description": "OpenAI for India expands AI access across the country—building local infrastructure, powering enterprises, and advancing workforce skills.",
       "link": "https://openai.com/index/openai-for-india",
       "date": "2026-02-18T21:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "Introducing EVMbench",
-      "description": "OpenAI and Paradigm introduce EVMbench, a benchmark evaluating AI agents’ ability to detect, patch, and exploit high-severity smart contract vulnerabilities.",
-      "link": "https://openai.com/index/introducing-evmbench",
-      "date": "2026-02-18T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
