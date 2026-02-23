@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-02-23T14:51:34.647Z",
+  "lastUpdated": "2026-02-23T17:02:07.025Z",
   "news": [
+    {
+      "title": "KI-Allianz mit McKinsey & Co. soll OpenAIs Agenten-Plattform Frontier pushen",
+      "description": "OpenAI verbündet sich mit McKinsey, BCG, Accenture und Capgemini, um seine neue KI-Agenten-Plattform Frontier in Großunternehmen zu bringen.\nDer Artikel KI-Allianz mit McKinsey & Co. soll OpenAIs Agen",
+      "link": "https://the-decoder.de/ki-allianz-mit-mckinsey-co-soll-openais-agenten-plattform-frontier-pushen/",
+      "date": "2026-02-23T16:11:08.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Kostenlose KI-Schulungen: Google will alle Lehrer in den USA fit für Gemini machen",
       "description": "Google will sechs Millionen US-Lehrkräfte an Gemini gewöhnen und sichert sich damit früh den Zugang zum Bildungsmarkt.\nDer Artikel Kostenlose KI-Schulungen: Google will alle Lehrer in den USA fit für",
@@ -87,15 +96,6 @@
       "description": "Googles Gemini 3.1 Pro führt den Artificial Analysis Intelligence Index an und kostet dabei weniger als die Hälfte der Konkurrenz. Doch Benchmarks sind nicht alles.\nDer Artikel Gemini 3.1 Pro: Googles",
       "link": "https://the-decoder.de/gemini-3-1-pro-googles-neues-ki-modell-fuehrt-benchmark-index-an-und-kostet-nur-ein-drittel-der-konkurrenz/",
       "date": "2026-02-21T18:37:29.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "OpenAI-Chef sieht AGI in greifbarer Nähe: Interne Modelle beschleunigen die Forschung",
-      "description": "AGI sei \"ziemlich nah\", Superintelligenz \"nicht so weit entfernt\": Sam Altman gibt im Interview Einblicke in OpenAIs interne Entwicklung und erklärt, warum seine eigene Berufsausbildung als Softwareen",
-      "link": "https://the-decoder.de/openai-chef-sieht-agi-in-greifbarer-naehe-interne-modelle-beschleunigen-die-forschung/",
-      "date": "2026-02-21T18:06:07.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
