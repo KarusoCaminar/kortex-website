@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-02-23T19:07:53.440Z",
+  "lastUpdated": "2026-02-23T20:49:24.397Z",
   "news": [
+    {
+      "title": "Deepseek, Moonshot und MiniMax: Anthropic kritisiert systematischen Datenklau aus China",
+      "description": "Anthropic wirft Deepseek, Moonshot und MiniMax vor, über Millionen von Anfragen systematisch Claudes Fähigkeiten abgegriffen zu haben, um damit eigene Modelle zu trainieren.\nDer Artikel Deepseek, Moon",
+      "link": "https://the-decoder.de/deepseek-moonshot-und-minimax-anthropic-kritisiert-systematischen-datenklau-aus-china/",
+      "date": "2026-02-23T19:21:04.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "OpenAI hält Programmier-Benchmark SWE-bench Verified für nutzlos und fehlerhaft",
       "description": "OpenAI stellt den bekannten Coding-Test SWE-bench Verified infrage: Viele Aufgaben seien so gebaut, dass Tests selbst korrekte Fixes ablehnen, und zudem hätten viele KI-Modelle die Lösungen wohl schon",
@@ -96,15 +105,6 @@
       "description": "Ein neuer Benchmark stellt KI-Modelle vor eine scheinbar einfache Aufgabe: bestimmte Fotos in einer persönlichen Sammlung finden. Die Ergebnisse fallen ernüchternd aus.\nDer Artikel Warum KI das Urlaub",
       "link": "https://the-decoder.de/warum-ki-das-urlaubsfoto-vom-letzten-sommer-nicht-finden-kann/",
       "date": "2026-02-22T11:07:36.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "KI-Agenten sind laut Anthropic bislang nur im Coding einigermaßen angekommen",
-      "description": "KI-Agenten sollen bald den Arbeitsalltag revolutionieren. Anthropics eigene Daten zeigen: Bislang ist das fast nur im Software-Engineering der Fall. Und selbst dort lassen die Nutzer die Agenten längs",
-      "link": "https://the-decoder.de/ki-agenten-sind-laut-anthropic-bislang-nur-im-coding-einigermassen-angekommen/",
-      "date": "2026-02-22T09:44:52.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
