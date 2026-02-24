@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-02-24T14:53:39.451Z",
+  "lastUpdated": "2026-02-24T17:09:05.719Z",
   "news": [
+    {
+      "title": "KI-Infrastruktur: Meta schliesst Milliarden-Deal mit AMD",
+      "description": "Meta und AMD haben eine mehrjährige Partnerschaft über bis zu sechs Gigawatt AMD-GPUs mit Fokus auf Inferenz vereinbart. Der Deal umfasst auch eine ungewöhnliche Aktienbeteiligung und soll Meta unabhä",
+      "link": "https://the-decoder.de/ki-infrastruktur-meta-schliesst-milliarden-deal-mit-amd/",
+      "date": "2026-02-24T17:00:37.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Paradox der Automatisierung: KI soll Menschen gezielt Übungsaufgaben zuteilen",
       "description": "Statt nur die Maschinen zu kontrollieren, soll künstliche Intelligenz künftig den Menschen Übungsaufgaben stellen. Das Ziel: verhindern, dass wir selbst zum Sicherheitsrisiko werden, etwa durch Fehlbe",
@@ -99,15 +108,6 @@
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
-    },
-    {
-      "title": "KI-Videogenerator Seedance 2.0: Hollywoods Branchenverband schickt erstmals Unterlassungsschreiben an Bytedance",
-      "description": "Bytedances Versprechungen scheinen Hollywood nicht zu reichen: Die Motion Picture Association hat der Firma erstmals ein Cease-and-Desist-Schreiben wegen eines KI-Tools geschickt und spricht von \"syst",
-      "link": "https://the-decoder.de/hollywoods-branchenverband-schickt-erstmals-unterlassungsschreiben-an-ki-unternehmen/",
-      "date": "2026-02-22T18:07:48.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
     },
     {
       "title": "Our First Proof submissions",
