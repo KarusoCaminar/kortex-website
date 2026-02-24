@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-02-24T08:54:09.646Z",
+  "lastUpdated": "2026-02-24T10:53:21.899Z",
   "news": [
+    {
+      "title": "Paradox der Automatisierung: KI soll Menschen gezielt Übungsaufgaben zuteilen",
+      "description": "Statt nur die Maschinen zu kontrollieren, soll künstliche Intelligenz künftig den Menschen Übungsaufgaben stellen. Das Ziel: verhindern, dass wir selbst zum Sicherheitsrisiko werden, etwa durch Fehlbe",
+      "link": "https://the-decoder.de/paradox-der-automatisierung-ki-soll-menschen-gezielt-uebungsaufgaben-zuteilen/",
+      "date": "2026-02-24T09:10:28.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "OpenAI veröffentlicht Updates für Audio-API und beschleunigt komplexe KI-Agenten",
       "description": "OpenAI bringt ein neues Audio-Sprachmodell und schnellere Verbindungen für KI-Agenten.\nDer Artikel OpenAI veröffentlicht Updates für Audio-API und beschleunigt komplexe KI-Agenten erschien zuerst auf",
@@ -96,15 +105,6 @@
       "description": "Bytedances Versprechungen scheinen Hollywood nicht zu reichen: Die Motion Picture Association hat der Firma erstmals ein Cease-and-Desist-Schreiben wegen eines KI-Tools geschickt und spricht von \"syst",
       "link": "https://the-decoder.de/hollywoods-branchenverband-schickt-erstmals-unterlassungsschreiben-an-ki-unternehmen/",
       "date": "2026-02-22T18:07:48.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Desinformation per Audio: ChatGPT Voice und Gemini Live lassen sich leicht manipulieren",
-      "description": "ChatGPT und Gemini lassen sich leicht dazu bringen, Falschmeldungen als realistische Audio-Nachrichtenbeiträge wiederzugeben. Amazons Alexa+ nicht. Ein Test von NewsGuard zeigt, wo die Schwachstellen",
-      "link": "https://the-decoder.de/desinformation-per-audio-chatgpt-voice-und-gemini-live-lassen-sich-leicht-manipulieren/",
-      "date": "2026-02-22T12:52:05.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
