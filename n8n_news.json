@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-24T19:07:21.101Z",
+  "lastUpdated": "2026-02-24T20:40:31.104Z",
   "news": [
     {
       "title": "KI-Infrastruktur: Meta schliesst Milliarden-Deal mit AMD",
@@ -92,15 +92,6 @@
       "language": "en"
     },
     {
-      "title": "Stargate-Projekt: OpenAIs 500-Milliarden-Dollar-Rechenzentrum kommt nur schleppend voran",
-      "description": "Das Stargate-Projekt für KI-Rechenzentren im Wert von 500 Milliarden Dollar stockt. OpenAI, Oracle und SoftBank streiten über Zuständigkeiten, Kreditgeber zögern und OpenAI muss seine Strategie grundl",
-      "link": "https://the-decoder.de/stargate-projekt-openais-500-milliarden-dollar-rechenzentrum-kommt-nur-schleppend-voran/",
-      "date": "2026-02-23T09:23:21.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "OpenAI announces Frontier Alliance Partners",
       "description": "OpenAI announces Frontier Alliance Partners to help enterprises move from AI pilots to production with secure, scalable agent deployments.",
       "link": "https://openai.com/index/frontier-alliance-partners",
@@ -132,6 +123,15 @@
       "description": "OpenAI for India expands AI access across the country—building local infrastructure, powering enterprises, and advancing workforce skills.",
       "link": "https://openai.com/index/openai-for-india",
       "date": "2026-02-18T21:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
+      "title": "Introducing EVMbench",
+      "description": "OpenAI and Paradigm introduce EVMbench, a benchmark evaluating AI agents’ ability to detect, patch, and exploit high-severity smart contract vulnerabilities.",
+      "link": "https://openai.com/index/introducing-evmbench",
+      "date": "2026-02-18T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
