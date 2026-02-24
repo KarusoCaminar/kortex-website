@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-02-24T20:40:31.104Z",
+  "lastUpdated": "2026-02-24T22:37:22.684Z",
   "news": [
+    {
+      "title": "Claude arbeitet jetzt eigenständig über Excel und PowerPoint hinweg",
+      "description": "Anthropic lässt Claude nun eigenständig zwischen Excel und PowerPoint wechseln – etwa um eine Analyse durchzuführen und daraus direkt eine Präsentation zu bauen.\nDer Artikel Claude arbeitet jetzt eige",
+      "link": "https://the-decoder.de/claude-arbeitet-jetzt-eigenstaendig-ueber-excel-und-powerpoint-hinweg/",
+      "date": "2026-02-24T21:33:50.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "KI-Infrastruktur: Meta schliesst Milliarden-Deal mit AMD",
       "description": "Meta und AMD haben eine mehrjährige Partnerschaft über bis zu sechs Gigawatt AMD-GPUs mit Fokus auf Inferenz vereinbart. Der Deal umfasst auch eine ungewöhnliche Aktienbeteiligung und soll Meta unabhä",
@@ -9,6 +18,15 @@
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
+    },
+    {
+      "title": "Arvind KC appointed Chief People Officer",
+      "description": "OpenAI appoints Arvind KC as Chief People Officer to help scale the company, strengthen its culture, and lead how work evolves in the age of AI.",
+      "link": "https://openai.com/index/arvind-kc-chief-people-officer",
+      "date": "2026-02-24T13:40:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
     },
     {
       "title": "Paradox der Automatisierung: KI soll Menschen gezielt Übungsaufgaben zuteilen",
@@ -74,15 +92,6 @@
       "language": "de"
     },
     {
-      "title": "Kostenlose KI-Schulungen: Google will alle Lehrer in den USA fit für Gemini machen",
-      "description": "Google will sechs Millionen US-Lehrkräfte an Gemini gewöhnen und sichert sich damit früh den Zugang zum Bildungsmarkt.\nDer Artikel Kostenlose KI-Schulungen: Google will alle Lehrer in den USA fit für",
-      "link": "https://the-decoder.de/kostenlose-ki-schulungen-google-will-alle-lehrer-in-den-usa-fit-fuer-gemini-machen/",
-      "date": "2026-02-23T12:32:45.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "Why we no longer evaluate SWE-bench Verified",
       "description": "SWE-bench Verified is increasingly contaminated and mismeasures frontier coding progress. Our analysis shows flawed tests and training leakage. We recommend SWE-bench Pro.",
       "link": "https://openai.com/index/why-we-no-longer-evaluate-swe-bench-verified",
@@ -123,15 +132,6 @@
       "description": "OpenAI for India expands AI access across the country—building local infrastructure, powering enterprises, and advancing workforce skills.",
       "link": "https://openai.com/index/openai-for-india",
       "date": "2026-02-18T21:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "Introducing EVMbench",
-      "description": "OpenAI and Paradigm introduce EVMbench, a benchmark evaluating AI agents’ ability to detect, patch, and exploit high-severity smart contract vulnerabilities.",
-      "link": "https://openai.com/index/introducing-evmbench",
-      "date": "2026-02-18T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
