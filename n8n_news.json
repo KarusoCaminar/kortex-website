@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-02-25T17:10:54.727Z",
+  "lastUpdated": "2026-02-25T19:10:45.842Z",
   "news": [
+    {
+      "title": "Google relaunched sein KI-Kreativstudio Flow mit neuen Funktionen und Integrationen",
+      "description": "Google baut sein KI-Kreativstudio Flow zum Rundum-Werkzeug für Bilder und Videos aus – mit kostenlosen Bildgeneratoren und neuen Bearbeitungsfunktionen.\nDer Artikel Google relaunched sein KI-Kreativst",
+      "link": "https://the-decoder.de/google-relaunched-sein-ki-kreativstudio-flow-mit-neuen-funktionen-und-integrationen/",
+      "date": "2026-02-25T18:43:00.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Adobe Firefly: Neue KI-Funktion \"Quick Cut\" übernimmt den ersten Videoschnitt",
+      "description": "Adobe Firefly kann jetzt aus Rohmaterial automatisch einen ersten Videoschnitt erstellen. Das neue Tool \"Quick Cut\" soll Creatorn den mühsamen Erstedit abnehmen.\nDer Artikel Adobe Firefly: Neue KI-Fun",
+      "link": "https://the-decoder.de/adobe-firefly-neue-ki-funktion-quick-cut-uebernimmt-den-ersten-videoschnitt/",
+      "date": "2026-02-25T17:30:25.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Anthropic weigert sich, KI für autonome Waffen freizugeben – Pentagon droht mit Zwangsgesetz",
       "description": "Anthropic wehrt sich gegen das Pentagon, doch Verteidigungsminister Hegseth droht mit einem Gesetz, das dem KI-Unternehmen keine Wahl lässt.\nDer Artikel Anthropic weigert sich, KI für autonome Waffen",
@@ -69,24 +87,6 @@
       "description": "OpenAI bringt ein neues Audio-Sprachmodell und schnellere Verbindungen für KI-Agenten.\nDer Artikel OpenAI veröffentlicht Updates für Audio-API und beschleunigt komplexe KI-Agenten erschien zuerst auf",
       "link": "https://the-decoder.de/openai-veroeffentlicht-updates-fuer-audio-api-und-beschleunigt-komplexe-ki-agenten/",
       "date": "2026-02-24T08:43:00.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Trotz US-Exportverbot: Chinesisches KI-Startup Deepseek soll auf Nvidia Blackwell trainieren",
-      "description": "Das chinesische KI-Startup Deepseek hat sein neuestes KI-Modell offenbar auf Nvidias leistungsstärkstem Chip Blackwell trainiert – trotz US-Exportverbots.\nDer Artikel Trotz US-Exportverbot: Chinesisch",
-      "link": "https://the-decoder.de/trotz-us-exportverbot-chinesisches-ki-startup-deepseek-soll-auf-nvidia-blackwell-trainieren/",
-      "date": "2026-02-24T07:20:09.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Deepseek, Moonshot und MiniMax: Anthropic kritisiert systematischen Datenklau aus China",
-      "description": "Anthropic wirft Deepseek, Moonshot und MiniMax vor, über Millionen von Anfragen systematisch Claudes Fähigkeiten abgegriffen zu haben, um damit eigene Modelle zu trainieren.\nDer Artikel Deepseek, Moon",
-      "link": "https://the-decoder.de/deepseek-moonshot-und-minimax-anthropic-kritisiert-systematischen-datenklau-aus-china/",
-      "date": "2026-02-23T19:21:04.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
