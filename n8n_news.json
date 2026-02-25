@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-02-25T19:10:45.842Z",
+  "lastUpdated": "2026-02-25T20:39:30.501Z",
   "news": [
+    {
+      "title": "Perplexity \"Computer\" bündelt verschiedene agentische KI-Modelle für komplexe Arbeitsabläufe",
+      "description": "Perplexity bündelt KI-Modelle von Anthropic, Google, xAI und OpenAI in einem agentischen System, das eigenständig komplexe Arbeitsabläufe ausführen soll.\nDer Artikel Perplexity \"Computer\" bündelt vers",
+      "link": "https://the-decoder.de/perplexity-computer-buendelt-verschiedene-agentische-ki-modelle-fuer-komplexe-arbeitsablaeufe/",
+      "date": "2026-02-25T19:43:51.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Google relaunched sein KI-Kreativstudio Flow mit neuen Funktionen und Integrationen",
       "description": "Google baut sein KI-Kreativstudio Flow zum Rundum-Werkzeug für Bilder und Videos aus – mit kostenlosen Bildgeneratoren und neuen Bearbeitungsfunktionen.\nDer Artikel Google relaunched sein KI-Kreativst",
@@ -78,15 +87,6 @@
       "description": "Statt nur die Maschinen zu kontrollieren, soll künstliche Intelligenz künftig den Menschen Übungsaufgaben stellen. Das Ziel: verhindern, dass wir selbst zum Sicherheitsrisiko werden, etwa durch Fehlbe",
       "link": "https://the-decoder.de/paradox-der-automatisierung-ki-soll-menschen-gezielt-uebungsaufgaben-zuteilen/",
       "date": "2026-02-24T09:10:28.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "OpenAI veröffentlicht Updates für Audio-API und beschleunigt komplexe KI-Agenten",
-      "description": "OpenAI bringt ein neues Audio-Sprachmodell und schnellere Verbindungen für KI-Agenten.\nDer Artikel OpenAI veröffentlicht Updates für Audio-API und beschleunigt komplexe KI-Agenten erschien zuerst auf",
-      "link": "https://the-decoder.de/openai-veroeffentlicht-updates-fuer-audio-api-und-beschleunigt-komplexe-ki-agenten/",
-      "date": "2026-02-24T08:43:00.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
