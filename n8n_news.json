@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-02-25T08:54:36.843Z",
+  "lastUpdated": "2026-02-25T10:54:16.104Z",
   "news": [
+    {
+      "title": "Claude Code folgt Entwicklern jetzt aufs Handy",
+      "description": "Nutzer von Claude Code können jetzt eine lokal laufende Programmier-Sitzung von unterwegs über Smartphone, Tablet oder Browser weiterführen.\nDer Artikel Claude Code folgt Entwicklern jetzt aufs Handy",
+      "link": "https://the-decoder.de/claude-code-folgt-entwicklern-jetzt-aufs-handy/",
+      "date": "2026-02-25T10:20:48.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Claude arbeitet jetzt eigenständig über Excel und PowerPoint hinweg",
       "description": "Anthropic lässt Claude nun eigenständig zwischen Excel und PowerPoint wechseln – etwa um eine Analyse durchzuführen und daraus direkt eine Präsentation zu bauen.\nDer Artikel Claude arbeitet jetzt eige",
@@ -78,15 +87,6 @@
       "description": "Anthropic hat einen neuen \"AI Fluency Index\" veröffentlicht, der misst, wie kompetent Menschen mit KI-Werkzeugen umgehen. Ein zentraler Befund: Wenn Claude polierte Ergebnisse liefert, sinkt die kriti",
       "link": "https://the-decoder.de/anthropic-studie-nutzer-hinterfragen-polierte-ki-ergebnisse-seltener/",
       "date": "2026-02-23T17:56:31.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "KI-Allianz mit McKinsey & Co. soll OpenAIs Agenten-Plattform Frontier pushen",
-      "description": "OpenAI verbündet sich mit McKinsey, BCG, Accenture und Capgemini, um seine neue KI-Agenten-Plattform Frontier in Großunternehmen zu bringen.\nDer Artikel KI-Allianz mit McKinsey & Co. soll OpenAIs Agen",
-      "link": "https://the-decoder.de/ki-allianz-mit-mckinsey-co-soll-openais-agenten-plattform-frontier-pushen/",
-      "date": "2026-02-23T16:11:08.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
