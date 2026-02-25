@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-02-25T10:54:16.104Z",
+  "lastUpdated": "2026-02-25T13:13:29.379Z",
   "news": [
+    {
+      "title": "Anthropic weigert sich, KI für autonome Waffen freizugeben – Pentagon droht mit Zwangsgesetz",
+      "description": "Anthropic wehrt sich gegen das Pentagon, doch Verteidigungsminister Hegseth droht mit einem Gesetz, das dem KI-Unternehmen keine Wahl lässt.\nDer Artikel Anthropic weigert sich, KI für autonome Waffen",
+      "link": "https://the-decoder.de/anthropic-weigert-sich-ki-fuer-autonome-waffen-freizugeben-pentagon-droht-mit-zwangsgesetz/",
+      "date": "2026-02-25T11:53:11.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Claude Code folgt Entwicklern jetzt aufs Handy",
       "description": "Nutzer von Claude Code können jetzt eine lokal laufende Programmier-Sitzung von unterwegs über Smartphone, Tablet oder Browser weiterführen.\nDer Artikel Claude Code folgt Entwicklern jetzt aufs Handy",
@@ -74,24 +83,6 @@
       "language": "de"
     },
     {
-      "title": "OpenAI hält Programmier-Benchmark SWE-bench Verified für nutzlos und fehlerhaft",
-      "description": "OpenAI stellt den bekannten Coding-Test SWE-bench Verified infrage: Viele Aufgaben seien so gebaut, dass Tests selbst korrekte Fixes ablehnen, und zudem hätten viele KI-Modelle die Lösungen wohl schon",
-      "link": "https://the-decoder.de/openai-haelt-programmier-benchmark-swe-bench-verified-fuer-nutzlos-und-fehlerhaft/",
-      "date": "2026-02-23T19:01:58.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Anthropic-Studie: Nutzer hinterfragen polierte KI-Ergebnisse seltener",
-      "description": "Anthropic hat einen neuen \"AI Fluency Index\" veröffentlicht, der misst, wie kompetent Menschen mit KI-Werkzeugen umgehen. Ein zentraler Befund: Wenn Claude polierte Ergebnisse liefert, sinkt die kriti",
-      "link": "https://the-decoder.de/anthropic-studie-nutzer-hinterfragen-polierte-ki-ergebnisse-seltener/",
-      "date": "2026-02-23T17:56:31.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "Why we no longer evaluate SWE-bench Verified",
       "description": "SWE-bench Verified is increasingly contaminated and mismeasures frontier coding progress. Our analysis shows flawed tests and training leakage. We recommend SWE-bench Pro.",
       "link": "https://openai.com/index/why-we-no-longer-evaluate-swe-bench-verified",
@@ -132,6 +123,15 @@
       "description": "OpenAI for India expands AI access across the country—building local infrastructure, powering enterprises, and advancing workforce skills.",
       "link": "https://openai.com/index/openai-for-india",
       "date": "2026-02-18T21:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
+      "title": "Introducing EVMbench",
+      "description": "OpenAI and Paradigm introduce EVMbench, a benchmark evaluating AI agents’ ability to detect, patch, and exploit high-severity smart contract vulnerabilities.",
+      "link": "https://openai.com/index/introducing-evmbench",
+      "date": "2026-02-18T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
