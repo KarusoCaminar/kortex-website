@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-25T13:13:29.379Z",
+  "lastUpdated": "2026-02-25T14:52:57.654Z",
   "news": [
     {
       "title": "Anthropic weigert sich, KI für autonome Waffen freizugeben – Pentagon droht mit Zwangsgesetz",
@@ -18,6 +18,15 @@
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
+    },
+    {
+      "title": "Disrupting malicious uses of AI | February 2026",
+      "description": "Our latest threat report examines how malicious actors combine AI models with websites and social platforms—and what it means for detection and defense.",
+      "link": "https://openai.com/index/disrupting-malicious-ai-uses",
+      "date": "2026-02-25T00:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
     },
     {
       "title": "Claude arbeitet jetzt eigenständig über Excel und PowerPoint hinweg",
@@ -123,15 +132,6 @@
       "description": "OpenAI for India expands AI access across the country—building local infrastructure, powering enterprises, and advancing workforce skills.",
       "link": "https://openai.com/index/openai-for-india",
       "date": "2026-02-18T21:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "Introducing EVMbench",
-      "description": "OpenAI and Paradigm introduce EVMbench, a benchmark evaluating AI agents’ ability to detect, patch, and exploit high-severity smart contract vulnerabilities.",
-      "link": "https://openai.com/index/introducing-evmbench",
-      "date": "2026-02-18T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
