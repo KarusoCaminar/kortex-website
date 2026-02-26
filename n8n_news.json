@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-26T07:04:43.203Z",
+  "lastUpdated": "2026-02-26T08:53:40.971Z",
   "news": [
     {
       "title": "Perplexity \"Computer\" bündelt verschiedene agentische KI-Modelle für komplexe Arbeitsabläufe",
@@ -83,15 +83,6 @@
       "language": "en"
     },
     {
-      "title": "Paradox der Automatisierung: KI soll Menschen gezielt Übungsaufgaben zuteilen",
-      "description": "Statt nur die Maschinen zu kontrollieren, soll künstliche Intelligenz künftig den Menschen Übungsaufgaben stellen. Das Ziel: verhindern, dass wir selbst zum Sicherheitsrisiko werden, etwa durch Fehlbe",
-      "link": "https://the-decoder.de/paradox-der-automatisierung-ki-soll-menschen-gezielt-uebungsaufgaben-zuteilen/",
-      "date": "2026-02-24T09:10:28.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "Why we no longer evaluate SWE-bench Verified",
       "description": "SWE-bench Verified is increasingly contaminated and mismeasures frontier coding progress. Our analysis shows flawed tests and training leakage. We recommend SWE-bench Pro.",
       "link": "https://openai.com/index/why-we-no-longer-evaluate-swe-bench-verified",
@@ -132,6 +123,15 @@
       "description": "OpenAI for India expands AI access across the country—building local infrastructure, powering enterprises, and advancing workforce skills.",
       "link": "https://openai.com/index/openai-for-india",
       "date": "2026-02-18T21:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
+      "title": "Introducing EVMbench",
+      "description": "OpenAI and Paradigm introduce EVMbench, a benchmark evaluating AI agents’ ability to detect, patch, and exploit high-severity smart contract vulnerabilities.",
+      "link": "https://openai.com/index/introducing-evmbench",
+      "date": "2026-02-18T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
