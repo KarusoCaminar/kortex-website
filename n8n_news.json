@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-02-26T10:51:45.093Z",
+  "lastUpdated": "2026-02-26T13:14:25.922Z",
   "news": [
+    {
+      "title": "OpenClaw-Härtetest: KI-Agenten geben bereitwillig Passwörter und Bankdaten preis",
+      "description": "Was passiert, wenn KI-Agenten mit E-Mail-Zugang, Shell-Rechten und eigenem Gedächtnis zwei Wochen lang von zwanzig Forschern gezielt angegriffen werden? Eine internationale Studie katalogisiert die Er",
+      "link": "https://the-decoder.de/openclaw-haertetest-ki-agenten-geben-bereitwillig-passwoerter-und-bankdaten-preis/",
+      "date": "2026-02-26T12:21:48.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Perplexity \"Computer\" bündelt verschiedene agentische KI-Modelle für komplexe Arbeitsabläufe",
       "description": "Perplexity bündelt KI-Modelle von Anthropic, Google, xAI und OpenAI in einem agentischen System, das eigenständig komplexe Arbeitsabläufe ausführen soll.\nDer Artikel Perplexity \"Computer\" bündelt vers",
@@ -60,15 +69,6 @@
       "description": "Anthropic lässt Claude nun eigenständig zwischen Excel und PowerPoint wechseln – etwa um eine Analyse durchzuführen und daraus direkt eine Präsentation zu bauen.\nDer Artikel Claude arbeitet jetzt eige",
       "link": "https://the-decoder.de/claude-arbeitet-jetzt-eigenstaendig-ueber-excel-und-powerpoint-hinweg/",
       "date": "2026-02-24T21:33:50.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "KI-Infrastruktur: Meta schliesst Milliarden-Deal mit AMD",
-      "description": "Meta und AMD haben eine mehrjährige Partnerschaft über bis zu sechs Gigawatt AMD-GPUs mit Fokus auf Inferenz vereinbart. Der Deal umfasst auch eine ungewöhnliche Aktienbeteiligung und soll Meta unabhä",
-      "link": "https://the-decoder.de/ki-infrastruktur-meta-schliesst-milliarden-deal-mit-amd/",
-      "date": "2026-02-24T17:00:37.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
