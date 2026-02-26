@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-02-26T17:02:36.497Z",
+  "lastUpdated": "2026-02-26T18:57:20.448Z",
   "news": [
+    {
+      "title": "Anthropic schickt erstmals ein KI-Modell in Rente: Claude Opus 3 darf aber noch weiter bloggen",
+      "description": "Anthropic schickt sein KI-Modell Claude Opus 3 in den \"Ruhestand\" – und lässt es jetzt wöchentlich Essays auf Substack veröffentlichen. Man habe das Modell vorher in \"Retirement Interviews\" nach seine",
+      "link": "https://the-decoder.de/anthropic-schickt-erstmals-ein-ki-modell-in-rente-claude-opus-3-darf-aber-noch-weiter-bloggen/",
+      "date": "2026-02-26T18:56:48.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Googles Nano Banana 2 soll Pro-Qualität für den halben Preis bieten",
+      "description": "Google stellt mit Nano Banana 2 ein neues Bildgenerierungsmodell vor, das die Fähigkeiten des teureren Pro-Modells mit der Geschwindigkeit von Gemini Flash vereinen soll. Es wird zum neuen Standard in",
+      "link": "https://the-decoder.de/googles-nano-banana-2-soll-pro-qualitaet-fuer-den-halben-preis-bieten/",
+      "date": "2026-02-26T18:25:03.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "KI-Entwickler Andrej Karpathy: \"Coding hat sich seit Dezember 2025 grundlegend verändert\"",
       "description": "Laut Karpathy ist die Ära des manuellen Programmierens vorbei. KI-Agenten übernehmen komplexe Aufgaben in Minuten statt in Tagen. Noch im Herbst 2025 sah er das ganz anders, aber der Dezember 2025 hab",
@@ -74,15 +92,6 @@
       "language": "de"
     },
     {
-      "title": "Claude Code folgt Entwicklern jetzt aufs Handy",
-      "description": "Nutzer von Claude Code können jetzt eine lokal laufende Programmier-Sitzung von unterwegs über Smartphone, Tablet oder Browser weiterführen.\nDer Artikel Claude Code folgt Entwicklern jetzt aufs Handy",
-      "link": "https://the-decoder.de/claude-code-folgt-entwicklern-jetzt-aufs-handy/",
-      "date": "2026-02-25T10:20:48.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "Disrupting malicious uses of AI | February 2026",
       "description": "Our latest threat report examines how malicious actors combine AI models with websites and social platforms—and what it means for detection and defense.",
       "link": "https://openai.com/index/disrupting-malicious-ai-uses",
@@ -90,15 +99,6 @@
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
-    },
-    {
-      "title": "Claude arbeitet jetzt eigenständig über Excel und PowerPoint hinweg",
-      "description": "Anthropic lässt Claude nun eigenständig zwischen Excel und PowerPoint wechseln – etwa um eine Analyse durchzuführen und daraus direkt eine Präsentation zu bauen.\nDer Artikel Claude arbeitet jetzt eige",
-      "link": "https://the-decoder.de/claude-arbeitet-jetzt-eigenstaendig-ueber-excel-und-powerpoint-hinweg/",
-      "date": "2026-02-24T21:33:50.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
     },
     {
       "title": "Arvind KC appointed Chief People Officer",
