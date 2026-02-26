@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-02-26T14:51:20.497Z",
+  "lastUpdated": "2026-02-26T17:02:36.497Z",
   "news": [
+    {
+      "title": "KI-Entwickler Andrej Karpathy: \"Coding hat sich seit Dezember 2025 grundlegend verändert\"",
+      "description": "Laut Karpathy ist die Ära des manuellen Programmierens vorbei. KI-Agenten übernehmen komplexe Aufgaben in Minuten statt in Tagen. Noch im Herbst 2025 sah er das ganz anders, aber der Dezember 2025 hab",
+      "link": "https://the-decoder.de/ki-entwickler-karpathy-coding-hat-sich-seit-dezember-2025-grundlegend-veraendert/",
+      "date": "2026-02-26T15:13:24.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "OpenClaw-Härtetest: KI-Agenten geben bereitwillig Passwörter und Bankdaten preis",
       "description": "Was passiert, wenn KI-Agenten mit E-Mail-Zugang, Shell-Rechten und eigenem Gedächtnis zwei Wochen lang von zwanzig Forschern gezielt angegriffen werden? Eine internationale Studie katalogisiert die Er",
@@ -9,6 +18,15 @@
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
+    },
+    {
+      "title": "Pacific Northwest National Laboratory and OpenAI partner to accelerate federal permitting",
+      "description": "OpenAI and Pacific Northwest National Laboratory introduce DraftNEPABench, a new benchmark evaluating how AI coding agents can accelerate federal permitting—showing potential to reduce NEPA drafting t",
+      "link": "https://openai.com/index/pacific-northwest-national-laboratory",
+      "date": "2026-02-26T10:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
     },
     {
       "title": "OpenAI Codex and Figma launch seamless code-to-design experience",
@@ -114,24 +132,6 @@
       "description": "We share our AI model’s proof attempts for the First Proof math challenge, testing research-grade reasoning on expert-level problems.",
       "link": "https://openai.com/index/first-proof-submissions",
       "date": "2026-02-20T14:30:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "Advancing independent research on AI alignment",
-      "description": "OpenAI commits $7.5M to The Alignment Project to fund independent AI alignment research, strengthening global efforts to address AGI safety and security risks.",
-      "link": "https://openai.com/index/advancing-independent-research-ai-alignment",
-      "date": "2026-02-19T10:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "Introducing OpenAI for India",
-      "description": "OpenAI for India expands AI access across the country—building local infrastructure, powering enterprises, and advancing workforce skills.",
-      "link": "https://openai.com/index/openai-for-india",
-      "date": "2026-02-18T21:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
