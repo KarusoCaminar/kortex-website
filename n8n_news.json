@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-02-26T20:41:46.928Z",
+  "lastUpdated": "2026-02-26T22:37:19.877Z",
   "news": [
+    {
+      "title": "Anthropics KI-Assistent Claude erledigt mit Cowork jetzt Aufgaben automatisch nach Zeitplan",
+      "description": "Anthropics Desktop-Assistent Cowork kann jetzt wiederkehrende Aufgaben automatisch zu festgelegten Zeiten erledigen.\nDer Artikel Anthropics KI-Assistent Claude erledigt mit Cowork jetzt Aufgaben autom",
+      "link": "https://the-decoder.de/anthropics-ki-assistent-claude-erledigt-mit-cowork-jetzt-aufgaben-automatisch-nach-zeitplan/",
+      "date": "2026-02-26T20:42:14.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Anthropic kauft Startup Vercept, um Claudes Computersteuerung zu verbessern",
       "description": "Anthropic kauft Vercept: Das Oberflächenerkennungsmodell \"VyUI\" soll Claudes Computernutzung auf ein neues Level heben.\nDer Artikel Anthropic kauft Startup Vercept, um Claudes Computersteuerung zu ver",
@@ -87,15 +96,6 @@
       "description": "Google baut sein KI-Kreativstudio Flow zum Rundum-Werkzeug für Bilder und Videos aus – mit kostenlosen Bildgeneratoren und neuen Bearbeitungsfunktionen.\nDer Artikel Google relaunched sein KI-Kreativst",
       "link": "https://the-decoder.de/google-relaunched-sein-ki-kreativstudio-flow-mit-neuen-funktionen-und-integrationen/",
       "date": "2026-02-25T18:43:00.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Adobe Firefly: Neue KI-Funktion \"Quick Cut\" übernimmt den ersten Videoschnitt",
-      "description": "Adobe Firefly kann jetzt aus Rohmaterial automatisch einen ersten Videoschnitt erstellen. Das neue Tool \"Quick Cut\" soll Creatorn den mühsamen Erstedit abnehmen.\nDer Artikel Adobe Firefly: Neue KI-Fun",
-      "link": "https://the-decoder.de/adobe-firefly-neue-ki-funktion-quick-cut-uebernimmt-den-ersten-videoschnitt/",
-      "date": "2026-02-25T17:30:25.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
