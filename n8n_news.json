@@ -1,10 +1,19 @@
 {
-  "lastUpdated": "2026-02-27T20:32:29.870Z",
+  "lastUpdated": "2026-02-27T22:27:20.378Z",
   "news": [
     {
-      "title": "Widerstand gegen Pentagon: Google- und OpenAI-Mitarbeiter fordern rote Linien für KI-Nutzung",
-      "description": "KI-Mitarbeiter von Google und OpenAI wehren sich gegen militärische Nutzung ihrer Technologie und Sam Altman will zwischen Pentagon und Anthropic vermitteln.\nDer Artikel Widerstand gegen Pentagon: Goo",
-      "link": "https://the-decoder.de/widerstand-gegen-pentagon-google-und-openai-mitarbeiter-fordern-rote-linien-fuer-ki-nutzung/",
+      "title": "Streit mit dem Pentagon: Trump verbietet US-Behörden die Nutzung von Anthropic",
+      "description": "Das Pentagon droht Anthropic mit einem Gesetz aus dem Koreakrieg, um das KI-Unternehmen zur Zusammenarbeit zu zwingen. Anthropic weigert sich und steht damit allein unter den großen KI-Firmen.\nDer Art",
+      "link": "https://the-decoder.de/trump-verbietet-us-behoerden-die-nutzung-von-anthropic/",
+      "date": "2026-02-27T21:50:06.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Widerstand gegen Pentagon: Anthropic-, Google- und OpenAI-Mitarbeiter fordern rote Linien für KI-Nutzung",
+      "description": "KI-Mitarbeiter von Google und OpenAI wehren sich gegen militärische Nutzung ihrer Technologie und Sam Altman will zwischen Pentagon und Anthropic vermitteln.\nDer Artikel Widerstand gegen Pentagon: Ant",
+      "link": "https://the-decoder.de/widerstand-gegen-pentagon-anthropic-google-und-openai-mitarbeiter-fordern-rote-linien-fuer-ki-nutzung/",
       "date": "2026-02-27T19:42:20.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
@@ -60,15 +69,6 @@
       "description": "Jack Dorsey entlässt die Hälfte aller Block-Mitarbeiter: KI mache es möglich, mit weniger Leuten zu arbeiten. Gleichzeitig räumt er ein, während Covid zu viele Leute eingestellt zu haben.\nDer Artikel",
       "link": "https://the-decoder.de/angeblich-wegen-ki-jack-dorseys-fintech-block-entlaesst-fast-die-haelfte-der-belegschaft/",
       "date": "2026-02-27T10:55:35.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "KI für Massenüberwachung und autonome Waffen: Streit zwischen Anthropic und Pentagon spitzt sich zu",
-      "description": "Das Pentagon droht Anthropic mit einem Gesetz aus dem Koreakrieg, um das KI-Unternehmen zur Zusammenarbeit zu zwingen. Anthropic weigert sich und steht damit allein unter den großen KI-Firmen.\nDer Art",
-      "link": "https://the-decoder.de/ki-fuer-massenueberwachung-und-autonome-waffen-streit-zwischen-anthropic-und-pentagon-spitzt-sich-zu/",
-      "date": "2026-02-27T08:33:06.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
