@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-02-27T18:50:36.959Z",
+  "lastUpdated": "2026-02-27T20:32:29.870Z",
   "news": [
     {
-      "title": "Google schließt Milliarden-Deal mit Meta über KI-Chips und greift Nvidia an",
-      "description": "Google macht Ernst im KI-Chip-Markt: Meta mietet Googles TPUs für Milliarden und fordert damit erneut Nvidias Dominanz heraus.\nDer Artikel Google schließt Milliarden-Deal mit Meta über KI-Chips und gr",
-      "link": "https://the-decoder.de/google-schliesst-milliarden-deal-mit-meta-ueber-ki-chips-und-greift-nvidia-an/",
-      "date": "2026-02-27T16:19:52.000Z",
+      "title": "Widerstand gegen Pentagon: Google- und OpenAI-Mitarbeiter fordern rote Linien für KI-Nutzung",
+      "description": "KI-Mitarbeiter von Google und OpenAI wehren sich gegen militärische Nutzung ihrer Technologie und Sam Altman will zwischen Pentagon und Anthropic vermitteln.\nDer Artikel Widerstand gegen Pentagon: Goo",
+      "link": "https://the-decoder.de/widerstand-gegen-pentagon-google-und-openai-mitarbeiter-fordern-rote-linien-fuer-ki-nutzung/",
+      "date": "2026-02-27T19:42:20.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
@@ -14,7 +14,16 @@
       "title": "OpenAI erhält bis zu 110 Milliarden US-Dollar von Amazon, Nvidia und SoftBank",
       "description": "OpenAI schließt die größte private Finanzierungsrunde der Geschichte ab. Amazon steigt mit bis zu 50 Milliarden ein und wird strategischer Partner. Microsoft betont unterdessen, dass sich an der eigen",
       "link": "https://the-decoder.de/openai-erhaelt-bis-zu-110-milliarden-us-dollar-von-amazon-nvidia-und-softbank/",
-      "date": "2026-02-27T15:45:02.000Z",
+      "date": "2026-02-27T19:12:02.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Google schließt Milliarden-Deal mit Meta über KI-Chips und greift Nvidia an",
+      "description": "Google macht Ernst im KI-Chip-Markt: Meta mietet Googles TPUs für Milliarden und fordert damit erneut Nvidias Dominanz heraus.\nDer Artikel Google schließt Milliarden-Deal mit Meta über KI-Chips und gr",
+      "link": "https://the-decoder.de/google-schliesst-milliarden-deal-mit-meta-ueber-ki-chips-und-greift-nvidia-an/",
+      "date": "2026-02-27T16:19:52.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
@@ -65,18 +74,18 @@
       "language": "de"
     },
     {
-      "title": "Joint Statement from OpenAI and Microsoft",
-      "description": "Microsoft and OpenAI continue to work closely across research, engineering, and product development, building on years of deep collaboration and shared success.",
-      "link": "https://openai.com/index/continuing-microsoft-partnership",
+      "title": "Scaling AI for everyone",
+      "description": "Today we’re announcing $110B in new investment at a $730B pre money valuation. This includes $30B from SoftBank, $30B from NVIDIA, and $50B from Amazon.",
+      "link": "https://openai.com/index/scaling-ai-for-everyone",
       "date": "2026-02-27T05:30:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
     },
     {
-      "title": "Scaling AI for everyone",
-      "description": "Today we’re announcing $110B in new investment at a $730B pre money valuation. This includes $30B from SoftBank, $30B from NVIDIA, and $50B from Amazon.",
-      "link": "https://openai.com/index/scaling-ai-for-everyone",
+      "title": "Joint Statement from OpenAI and Microsoft",
+      "description": "Microsoft and OpenAI continue to work closely across research, engineering, and product development, building on years of deep collaboration and shared success.",
+      "link": "https://openai.com/index/continuing-microsoft-partnership",
       "date": "2026-02-27T05:30:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
@@ -114,15 +123,6 @@
       "description": "Anthropic kauft Vercept: Das Oberflächenerkennungsmodell \"VyUI\" soll Claudes Computernutzung auf ein neues Level heben.\nDer Artikel Anthropic kauft Startup Vercept, um Claudes Computersteuerung zu ver",
       "link": "https://the-decoder.de/anthropic-kauft-startup-vercept-um-claudes-computersteuerung-zu-verbessern/",
       "date": "2026-02-26T20:25:27.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Suno-Investorin räumt ein: KI-Musik steht in direkter Konkurrenz zu menschlichen Künstlern",
-      "description": "Suno-Investorin C.C. Gong erzählt bei X, dass sie kaum noch Spotify nutzt – und liefert damit ungewollt ein Argument für die Musikindustrie im Rechtsstreit gegen das KI-Musik-Startup.\nDer Artikel Suno",
-      "link": "https://the-decoder.de/suno-investorin-raeumt-ein-ki-musik-steht-in-direkter-konkurrenz-zu-menschlichen-kuenstlern/",
-      "date": "2026-02-26T19:50:30.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
