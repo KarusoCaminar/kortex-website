@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-02-27T13:06:13.493Z",
+  "lastUpdated": "2026-02-27T14:41:09.045Z",
   "news": [
+    {
+      "title": "MEMORY.md: Claude Code merkt sich jetzt Vorlieben und wendet sie automatisch an",
+      "description": "Claude Code kann sich ab sofort selbstständig Notizen machen und Gelerntes innerhalb eines Projekts über Sitzungen hinweg abrufen, etwa Debugging-Muster, Projektkontext und bevorzugte Arbeitsweisen.\nD",
+      "link": "https://the-decoder.de/claude-code-merkt-sich-jetzt-vorlieben-und-wendet-sie-automatisch-an/",
+      "date": "2026-02-27T13:56:06.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Angeblich wegen KI: Jack Dorseys Fintech Block entlässt fast die Hälfte der Belegschaft",
       "description": "Jack Dorsey entlässt die Hälfte aller Block-Mitarbeiter: KI mache es möglich, mit weniger Leuten zu arbeiten. Gleichzeitig räumt er ein, während Covid zu viele Leute eingestellt zu haben.\nDer Artikel",
@@ -18,6 +27,42 @@
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
+    },
+    {
+      "title": "OpenAI and Amazon announce strategic partnership",
+      "description": "OpenAI and Amazon announce a strategic partnership bringing OpenAI’s Frontier platform to AWS, expanding AI infrastructure, custom models, and enterprise AI agents.",
+      "link": "https://openai.com/index/amazon-partnership",
+      "date": "2026-02-27T05:30:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
+      "title": "Introducing the Stateful Runtime Environment for Agents in Amazon Bedrock",
+      "description": "Stateful Runtime for Agents in Amazon Bedrock brings persistent orchestration, memory, and secure execution to multi-step AI workflows powered by OpenAI.",
+      "link": "https://openai.com/index/introducing-the-stateful-runtime-environment-for-agents-in-amazon-bedrock",
+      "date": "2026-02-27T05:30:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
+      "title": "Joint Statement from OpenAI and Microsoft",
+      "description": "Microsoft and OpenAI continue to work closely across research, engineering, and product development, building on years of deep collaboration and shared success.",
+      "link": "https://openai.com/index/continuing-microsoft-partnership",
+      "date": "2026-02-27T05:30:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
+      "title": "Scaling AI for everyone",
+      "description": "Today we’re announcing $110B in new investment at a $730B pre money valuation. This includes $30B from SoftBank, $30B from NVIDIA, and $50B from Amazon.",
+      "link": "https://openai.com/index/scaling-ai-for-everyone",
+      "date": "2026-02-27T05:30:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
     },
     {
       "title": "Anthropics KI-Assistent Claude erledigt mit Cowork jetzt Aufgaben automatisch nach Zeitplan",
@@ -87,51 +132,6 @@
       "description": "OpenAI and Pacific Northwest National Laboratory introduce DraftNEPABench, a new benchmark evaluating how AI coding agents can accelerate federal permitting—showing potential to reduce NEPA drafting t",
       "link": "https://openai.com/index/pacific-northwest-national-laboratory",
       "date": "2026-02-26T10:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "OpenAI Codex and Figma launch seamless code-to-design experience",
-      "description": "OpenAI and Figma launch a new Codex integration that connects code and design, enabling teams to move between implementation and the Figma canvas to iterate and ship faster.",
-      "link": "https://openai.com/index/figma-partnership",
-      "date": "2026-02-26T06:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "Disrupting malicious uses of AI | February 2026",
-      "description": "Our latest threat report examines how malicious actors combine AI models with websites and social platforms—and what it means for detection and defense.",
-      "link": "https://openai.com/index/disrupting-malicious-ai-uses",
-      "date": "2026-02-25T00:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "Arvind KC appointed Chief People Officer",
-      "description": "OpenAI appoints Arvind KC as Chief People Officer to help scale the company, strengthen its culture, and lead how work evolves in the age of AI.",
-      "link": "https://openai.com/index/arvind-kc-chief-people-officer",
-      "date": "2026-02-24T13:40:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "Why we no longer evaluate SWE-bench Verified",
-      "description": "SWE-bench Verified is increasingly contaminated and mismeasures frontier coding progress. Our analysis shows flawed tests and training leakage. We recommend SWE-bench Pro.",
-      "link": "https://openai.com/index/why-we-no-longer-evaluate-swe-bench-verified",
-      "date": "2026-02-23T11:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "OpenAI announces Frontier Alliance Partners",
-      "description": "OpenAI announces Frontier Alliance Partners to help enterprises move from AI pilots to production with secure, scalable agent deployments.",
-      "link": "https://openai.com/index/frontier-alliance-partners",
-      "date": "2026-02-23T05:30:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
