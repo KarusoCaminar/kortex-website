@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-27T16:44:33.617Z",
+  "lastUpdated": "2026-02-27T18:50:36.959Z",
   "news": [
     {
       "title": "Google schließt Milliarden-Deal mit Meta über KI-Chips und greift Nvidia an",
@@ -65,24 +65,6 @@
       "language": "de"
     },
     {
-      "title": "OpenAI and Amazon announce strategic partnership",
-      "description": "OpenAI and Amazon announce a strategic partnership bringing OpenAI’s Frontier platform to AWS, expanding AI infrastructure, custom models, and enterprise AI agents.",
-      "link": "https://openai.com/index/amazon-partnership",
-      "date": "2026-02-27T05:30:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "Introducing the Stateful Runtime Environment for Agents in Amazon Bedrock",
-      "description": "Stateful Runtime for Agents in Amazon Bedrock brings persistent orchestration, memory, and secure execution to multi-step AI workflows powered by OpenAI.",
-      "link": "https://openai.com/index/introducing-the-stateful-runtime-environment-for-agents-in-amazon-bedrock",
-      "date": "2026-02-27T05:30:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
       "title": "Joint Statement from OpenAI and Microsoft",
       "description": "Microsoft and OpenAI continue to work closely across research, engineering, and product development, building on years of deep collaboration and shared success.",
       "link": "https://openai.com/index/continuing-microsoft-partnership",
@@ -95,6 +77,24 @@
       "title": "Scaling AI for everyone",
       "description": "Today we’re announcing $110B in new investment at a $730B pre money valuation. This includes $30B from SoftBank, $30B from NVIDIA, and $50B from Amazon.",
       "link": "https://openai.com/index/scaling-ai-for-everyone",
+      "date": "2026-02-27T05:30:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
+      "title": "OpenAI and Amazon announce strategic partnership",
+      "description": "OpenAI and Amazon announce a strategic partnership bringing OpenAI’s Frontier platform to AWS, expanding AI infrastructure, custom models, and enterprise AI agents.",
+      "link": "https://openai.com/index/amazon-partnership",
+      "date": "2026-02-27T05:30:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
+      "title": "Introducing the Stateful Runtime Environment for Agents in Amazon Bedrock",
+      "description": "Stateful Runtime for Agents in Amazon Bedrock brings persistent orchestration, memory, and secure execution to multi-step AI workflows powered by OpenAI.",
+      "link": "https://openai.com/index/introducing-the-stateful-runtime-environment-for-agents-in-amazon-bedrock",
       "date": "2026-02-27T05:30:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
