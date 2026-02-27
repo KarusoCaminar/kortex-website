@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-02-27T08:47:42.836Z",
+  "lastUpdated": "2026-02-27T10:41:37.142Z",
   "news": [
+    {
+      "title": "Angeblich wegen KI: Jack Dorseys Fintech Block entlässt fast die Hälfte der Belegschaft",
+      "description": "Jack Dorsey entlässt fast die Hälfte aller Mitarbeitenden seines Fintech-Unternehmens Block und nennt Effizienzgewinne durch KI als Grund. Das ist jedoch nur die halbe Wahrheit.\nDer Artikel Angeblich",
+      "link": "https://the-decoder.de/angeblich-wegen-ki-jack-dorseys-fintech-block-entlaesst-fast-die-haelfte-der-belegschaft/",
+      "date": "2026-02-27T10:23:35.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "KI für Massenüberwachung und autonome Waffen: Streit zwischen Anthropic und Pentagon spitzt sich zu",
       "description": "Das Pentagon droht Anthropic mit einem Gesetz aus dem Koreakrieg, um das KI-Unternehmen zur Zusammenarbeit zu zwingen. Anthropic weigert sich und steht damit allein unter den großen KI-Firmen.\nDer Art",
@@ -90,15 +99,6 @@
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
-    },
-    {
-      "title": "Perplexity \"Computer\" bündelt verschiedene agentische KI-Modelle für komplexe Arbeitsabläufe",
-      "description": "Perplexity bündelt KI-Modelle von Anthropic, Google, xAI und OpenAI in einem agentischen System, das eigenständig komplexe Arbeitsabläufe ausführen soll.\nDer Artikel Perplexity \"Computer\" bündelt vers",
-      "link": "https://the-decoder.de/perplexity-computer-buendelt-verschiedene-agentische-ki-modelle-fuer-komplexe-arbeitsablaeufe/",
-      "date": "2026-02-25T19:43:51.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
     },
     {
       "title": "Disrupting malicious uses of AI | February 2026",
