@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-02-28T16:30:52.192Z",
+  "lastUpdated": "2026-02-28T18:37:39.203Z",
   "news": [
+    {
+      "title": "Auch neue LLMs wie GPT-5.2 und Claude 4.6 verlieren bei langen Chats massiv an Leistung",
+      "description": "Wer länger mit einem KI-Chatbot spricht, bekommt schlechtere Antworten. Daran hat sich auch mit neueren Modellen wenig geändert.\nDer Artikel Auch neue LLMs wie GPT-5.2 und Claude 4.6 verlieren bei lan",
+      "link": "https://the-decoder.de/auch-neue-llms-wie-gpt-5-2-und-claude-4-6-verlieren-bei-langen-chats-massiv-an-leistung/",
+      "date": "2026-02-28T17:30:42.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "OpenAI beweist Doppelmoral: Sam Altmans früherer Mitstreiter ist nun ein Dystopist",
       "description": "Angst erzeugt Aufmerksamkeit, und OpenAI weiß diesen Effekt regelmäßig zu nutzen. Doch vor Gericht will das Unternehmen einen KI-Experten als Untergangspropheten diskreditieren, dessen KI-Warnungen de",
@@ -78,15 +87,6 @@
       "description": "KI-Mitarbeiter von Google und OpenAI wehren sich gegen militärische Nutzung ihrer Technologie und Sam Altman will zwischen Pentagon und Anthropic vermitteln.\nDer Artikel Widerstand gegen Pentagon: Ant",
       "link": "https://the-decoder.de/widerstand-gegen-pentagon-anthropic-google-und-openai-mitarbeiter-fordern-rote-linien-fuer-ki-nutzung/",
       "date": "2026-02-27T19:42:20.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "OpenAI erhält bis zu 110 Milliarden US-Dollar von Amazon, Nvidia und SoftBank",
-      "description": "OpenAI schließt die größte private Finanzierungsrunde der Geschichte ab. Amazon steigt mit bis zu 50 Milliarden ein und wird strategischer Partner. Microsoft betont unterdessen, dass sich an der eigen",
-      "link": "https://the-decoder.de/openai-erhaelt-bis-zu-110-milliarden-us-dollar-von-amazon-nvidia-und-softbank/",
-      "date": "2026-02-27T19:12:02.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
