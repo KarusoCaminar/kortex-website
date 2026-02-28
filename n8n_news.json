@@ -1,6 +1,51 @@
 {
-  "lastUpdated": "2026-02-28T10:27:25.818Z",
+  "lastUpdated": "2026-02-28T12:54:01.381Z",
   "news": [
+    {
+      "title": "OpenAI beweist Doppelmoral: Sam Altmans früherer Mitstreiter ist nun ein Dystopist",
+      "description": "Angst erzeugt Aufmerksamkeit, und OpenAI weiß diesen Effekt regelmäßig zu nutzen. Doch vor Gericht will das Unternehmen einen KI-Experten als Untergangspropheten diskreditieren, dessen KI-Warnungen de",
+      "link": "https://the-decoder.de/openai-beweist-doppelmoral-sam-altmans-frueherer-mitstreiter-ist-nun-ein-dystopist/",
+      "date": "2026-02-28T12:43:26.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Nach Amoklauf in Kanada: OpenAI will bei ChatGPT-Verdachtsmomenten schneller Behörden informieren",
+      "description": "OpenAI verschärft nach einer tödlichen Schulschießerei in Kanada seine Regeln für die Zusammenarbeit mit Behörden. Das Unternehmen hatte das Konto des Verdächtigen gesperrt, aber die Polizei nicht inf",
+      "link": "https://the-decoder.de/nach-amoklauf-in-kanada-openai-will-bei-chatgpt-verdachtsmomenten-schneller-behoerden-informieren/",
+      "date": "2026-02-28T12:01:58.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "KI-Daten: Aktuelles Sprachmodell-Training verschenkt große Teile des Internets",
+      "description": "Große Sprachmodelle lernen aus Webdaten. Doch welche Seiten im Trainingsdatensatz landen, hängt stark vom HTML-Extraktor ab. Forscher bei Apple, Stanford und der University of Washington zeigen, dass",
+      "link": "https://the-decoder.de/ki-daten-aktuelles-sprachmodell-training-verschenkt-grosse-teile-des-internets/",
+      "date": "2026-02-28T11:25:39.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Social-Media-Benchmark: Fünf KI-Modelle konkurrieren auf X um Reichweite",
+      "description": "Das KI-Benchmarking-Startup Arcada Labs lässt derzeit fünf führende KI-Modelle als autonome Social-Media-Agenten auf X gegeneinander antreten.\nDer Artikel Social-Media-Benchmark: Fünf KI-Modelle konku",
+      "link": "https://the-decoder.de/ki-benchmark-social-arena-arcada-labs/",
+      "date": "2026-02-28T10:53:06.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Perplexity veröffentlicht speicherschonende Embedding-Modelle als Open Source",
+      "description": "Die KI-Suchmaschine Perplexity stellt zwei neue Text-Embedding-Modelle vor, die bei einem Bruchteil des üblichen Speicherbedarfs mit Googles und Alibabas Modellen mithalten oder sie übertreffen sollen",
+      "link": "https://the-decoder.de/perplexity-veroeffentlicht-speicherschonende-embedding-modelle-als-open-source/",
+      "date": "2026-02-28T10:31:18.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Wegen Verbot durch Kriegsminister: KI-Firma Anthropic will gegen US-Regierung vor Gericht ziehen",
       "description": "Anthropic wehrt sich gegen das Pentagon: Das KI-Unternehmen will vor Gericht ziehen, nachdem es als Lieferkettenrisiko eingestuft werden soll, weil es autonome Waffen und Massenüberwachung ablehnt.\nDe",
@@ -42,51 +87,6 @@
       "description": "OpenAI schließt die größte private Finanzierungsrunde der Geschichte ab. Amazon steigt mit bis zu 50 Milliarden ein und wird strategischer Partner. Microsoft betont unterdessen, dass sich an der eigen",
       "link": "https://the-decoder.de/openai-erhaelt-bis-zu-110-milliarden-us-dollar-von-amazon-nvidia-und-softbank/",
       "date": "2026-02-27T19:12:02.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Google schließt Milliarden-Deal mit Meta über KI-Chips und greift Nvidia an",
-      "description": "Google macht Ernst im KI-Chip-Markt: Meta mietet Googles TPUs für Milliarden und fordert damit erneut Nvidias Dominanz heraus.\nDer Artikel Google schließt Milliarden-Deal mit Meta über KI-Chips und gr",
-      "link": "https://the-decoder.de/google-schliesst-milliarden-deal-mit-meta-ueber-ki-chips-und-greift-nvidia-an/",
-      "date": "2026-02-27T16:19:52.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "OpenAI und Figma verbinden Code und Design nahtlos in beide Richtungen",
-      "description": "Eine neue Integration verbindet Figmas Design-Plattform direkt mit OpenAIs Coding-Tool Codex.\nDer Artikel OpenAI und Figma verbinden Code und Design nahtlos in beide Richtungen erschien zuerst auf The",
-      "link": "https://the-decoder.de/openai-und-figma-verbinden-code-und-design-nahtlos-in-beide-richtungen/",
-      "date": "2026-02-27T15:22:50.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "KI PRO Webinar | Wissensarbeit mit Claude Cowork, OpenAI Codex & Co.",
-      "description": "KI-Agenten können zunehmend komplexe Aufgaben im Bereich der Wissensarbeit übernehmen. Sie entwickeln sich mehr und mehr zu einer Co-Intelligenz auf dem eigenen Rechner, die als Assistent Aufgaben sel",
-      "link": "https://the-decoder.de/ki-pro-webinar-wissensarbeit-mit-claude-cowork-openai-codex-co/",
-      "date": "2026-02-27T15:05:08.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "MEMORY.md: Claude Code merkt sich jetzt Vorlieben und wendet sie automatisch an",
-      "description": "Claude Code kann sich ab sofort selbstständig Notizen machen und Gelerntes innerhalb eines Projekts über Sitzungen hinweg abrufen, etwa Debugging-Muster, Projektkontext und bevorzugte Arbeitsweisen.\nD",
-      "link": "https://the-decoder.de/claude-code-merkt-sich-jetzt-vorlieben-und-wendet-sie-automatisch-an/",
-      "date": "2026-02-27T13:56:06.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Angeblich wegen KI: Jack Dorseys Fintech Block entlässt fast die Hälfte der Belegschaft",
-      "description": "Jack Dorsey entlässt die Hälfte aller Block-Mitarbeiter: KI mache es möglich, mit weniger Leuten zu arbeiten. Gleichzeitig räumt er ein, während Covid zu viele Leute eingestellt zu haben.\nDer Artikel",
-      "link": "https://the-decoder.de/angeblich-wegen-ki-jack-dorseys-fintech-block-entlaesst-fast-die-haelfte-der-belegschaft/",
-      "date": "2026-02-27T10:55:35.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
