@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-02-28T08:34:05.742Z",
+  "lastUpdated": "2026-02-28T10:27:25.818Z",
   "news": [
+    {
+      "title": "Wegen Verbot durch Kriegsminister: KI-Firma Anthropic will gegen US-Regierung vor Gericht ziehen",
+      "description": "Anthropic wehrt sich gegen das Pentagon: Das KI-Unternehmen will vor Gericht ziehen, nachdem es als Lieferkettenrisiko eingestuft werden soll, weil es autonome Waffen und Massenüberwachung ablehnt.\nDe",
+      "link": "https://the-decoder.de/wegen-verbot-durch-kriegsminister-ki-firma-anthropic-will-gegen-us-regierung-vor-gericht-ziehen/",
+      "date": "2026-02-28T09:44:22.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Nach Anthropic-Bann: OpenAI macht KI-Deal mit dem Pentagon",
+      "description": "OpenAI hat eine Vereinbarung mit dem Pentagon getroffen, nur Stunden nachdem Anthropic von Regierungsaufträgen ausgeschlossen wurde. Angeblich agiert OpenAI dabei nach denselben Sicherheitsprinzipien",
+      "link": "https://the-decoder.de/nach-anthropic-bann-openai-macht-ki-deal-mit-dem-pentagon/",
+      "date": "2026-02-28T09:06:11.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Streit mit dem Pentagon: Trump verbietet US-Behörden die Nutzung von Anthropic",
       "description": "Das Pentagon droht Anthropic mit einem Gesetz aus dem Koreakrieg, um das KI-Unternehmen zur Zusammenarbeit zu zwingen. Anthropic weigert sich und steht damit allein unter den großen KI-Firmen.\nDer Art",
@@ -117,24 +135,6 @@
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
-    },
-    {
-      "title": "Anthropics KI-Assistent Claude erledigt mit Cowork jetzt Aufgaben automatisch nach Zeitplan",
-      "description": "Anthropics Desktop-Assistent Cowork kann jetzt wiederkehrende Aufgaben automatisch zu festgelegten Zeiten erledigen.\nDer Artikel Anthropics KI-Assistent Claude erledigt mit Cowork jetzt Aufgaben autom",
-      "link": "https://the-decoder.de/anthropics-ki-assistent-claude-erledigt-mit-cowork-jetzt-aufgaben-automatisch-nach-zeitplan/",
-      "date": "2026-02-26T20:42:14.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Anthropic kauft Startup Vercept, um Claudes Computersteuerung zu verbessern",
-      "description": "Anthropic kauft Vercept: Das Oberflächenerkennungsmodell \"VyUI\" soll Claudes Computernutzung auf ein neues Level heben.\nDer Artikel Anthropic kauft Startup Vercept, um Claudes Computersteuerung zu ver",
-      "link": "https://the-decoder.de/anthropic-kauft-startup-vercept-um-claudes-computersteuerung-zu-verbessern/",
-      "date": "2026-02-26T20:25:27.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
     }
   ]
 }
