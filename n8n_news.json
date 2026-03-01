@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-03-01T08:35:47.993Z",
+  "lastUpdated": "2026-03-01T10:29:10.438Z",
   "news": [
+    {
+      "title": "Angebliche KI-Agenten-Zivilisation \"Moltbook\" ist nur aufgeblähter Bot-Traffic",
+      "description": "Auf der gehypten KI-Agenten-Plattform Moltbook interagieren Millionen von KI-Agenten ohne menschliche Beteiligung. Eine Studie zeigt: Die Agenten posten, kommentieren und voten – lernen aber nicht von",
+      "link": "https://the-decoder.de/angebliche-ki-agenten-zivilisation-moltbook-ist-nur-aufgeblaehter-bot-traffic/",
+      "date": "2026-03-01T10:19:51.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Anthropic-Bann und OpenAI-Deal: Wie das Pentagon die KI-Branche spaltet",
+      "description": "Nach dem Abkommen mit dem Kriegsministerium versucht OpenAI, mit einer detaillierten Offenlegung der Vertragsdetails Vertrauen zu schaffen. Das misslingt.\nDer Artikel Anthropic-Bann und OpenAI-Deal: W",
+      "link": "https://the-decoder.de/anthropic-bann-und-openai-deal-wie-das-pentagon-die-ki-branche-spaltet/",
+      "date": "2026-03-01T09:07:45.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Auch neue LLMs wie GPT-5.2 und Claude 4.6 verlieren bei langen Chats massiv an Leistung",
       "description": "Wer länger mit einem KI-Chatbot spricht, bekommt schlechtere Antworten. Daran hat sich auch mit neueren Modellen wenig geändert.\nDer Artikel Auch neue LLMs wie GPT-5.2 und Claude 4.6 verlieren bei lan",
@@ -78,24 +96,6 @@
       "description": "OpenAI hat eine Vereinbarung mit dem Pentagon getroffen, nur Stunden nachdem Anthropic von Regierungsaufträgen ausgeschlossen wurde. Angeblich agiert OpenAI dabei nach denselben Sicherheitsprinzipien",
       "link": "https://the-decoder.de/nach-anthropic-bann-openai-macht-ki-deal-mit-dem-pentagon/",
       "date": "2026-02-28T09:06:11.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Streit mit dem Pentagon: Trump verbietet US-Behörden die Nutzung von Anthropic",
-      "description": "Das Pentagon droht Anthropic mit einem Gesetz aus dem Koreakrieg, um das KI-Unternehmen zur Zusammenarbeit zu zwingen. Anthropic weigert sich und steht damit allein unter den großen KI-Firmen.\nDer Art",
-      "link": "https://the-decoder.de/trump-verbietet-us-behoerden-die-nutzung-von-anthropic/",
-      "date": "2026-02-27T21:50:06.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Widerstand gegen Pentagon: Anthropic-, Google- und OpenAI-Mitarbeiter fordern rote Linien für KI-Nutzung",
-      "description": "KI-Mitarbeiter von Google und OpenAI wehren sich gegen militärische Nutzung ihrer Technologie und Sam Altman will zwischen Pentagon und Anthropic vermitteln.\nDer Artikel Widerstand gegen Pentagon: Ant",
-      "link": "https://the-decoder.de/widerstand-gegen-pentagon-anthropic-google-und-openai-mitarbeiter-fordern-rote-linien-fuer-ki-nutzung/",
-      "date": "2026-02-27T19:42:20.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
