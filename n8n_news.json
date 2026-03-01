@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-03-01T14:28:29.258Z",
+  "lastUpdated": "2026-03-01T16:34:08.754Z",
   "news": [
+    {
+      "title": "ElevenLabs Scribe v2 schlägt Google und OpenAI im neuen Speech-to-Text-Benchmark",
+      "description": "ElevenLabs und Google liefern sich ein Kopf-an-Kopf-Rennen um die beste Spracherkennung: Ein neuer Benchmark zeigt, wer vorn liegt.\nDer Artikel ElevenLabs Scribe v2 schlägt Google und OpenAI im neuen",
+      "link": "https://the-decoder.de/elevenlabs-scribe-v2-schlaegt-google-und-openai-im-neuen-speech-to-text-benchmark/",
+      "date": "2026-03-01T14:31:11.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "KI enttarnt anonyme Internetnutzer in wenigen Minuten für nur wenige Dollar",
       "description": "Forscher der ETH Zürich und von Anthropic demonstrieren, dass sich pseudonyme Internetnutzer mit handelsüblichen KI-Modellen für wenige Dollar pro Person identifizieren lassen. Die Ergebnisse stellen",
@@ -87,15 +96,6 @@
       "description": "Die KI-Suchmaschine Perplexity stellt zwei neue Text-Embedding-Modelle vor, die bei einem Bruchteil des üblichen Speicherbedarfs mit Googles und Alibabas Modellen mithalten oder sie übertreffen sollen",
       "link": "https://the-decoder.de/perplexity-veroeffentlicht-speicherschonende-embedding-modelle-als-open-source/",
       "date": "2026-02-28T10:31:18.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Wegen Verbot durch Kriegsminister: KI-Firma Anthropic will gegen US-Regierung vor Gericht ziehen",
-      "description": "Anthropic wehrt sich gegen das Pentagon: Das KI-Unternehmen will vor Gericht ziehen, nachdem es als Lieferkettenrisiko eingestuft werden soll, weil es autonome Waffen und Massenüberwachung ablehnt.\nDe",
-      "link": "https://the-decoder.de/wegen-verbot-durch-kriegsminister-ki-firma-anthropic-will-gegen-us-regierung-vor-gericht-ziehen/",
-      "date": "2026-02-28T09:44:22.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
