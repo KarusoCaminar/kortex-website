@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-03-02T13:06:33.420Z",
+  "lastUpdated": "2026-03-02T14:45:28.650Z",
   "news": [
+    {
+      "title": "Neuer Anthropic-Prompt lässt ChatGPT und Co. das gesammelte Wissen über Nutzer verraten",
+      "description": "Anthropic nutzt die aktuelle Kritik an OpenAI und bietet ChatGPT-Wechslern eine neue Import-Funktion für Claude an. Per Prompt lässt sich der gesamte gespeicherte Kontext aus anderen Chatbots exportie",
+      "link": "https://the-decoder.de/neuer-anthropic-prompt-laesst-chatgpt-und-co-das-gesammelte-wissen-ueber-nutzer-verraten/",
+      "date": "2026-03-02T13:52:25.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Tausende Beschaffungsdokumente zeigen, wie Chinas Armee KI zur Waffe machen will",
+      "description": "Forscher der Georgetown University haben Tausende Beschaffungsanträge der chinesischen Volksbefreiungsarmee analysiert. Die Dokumente zeigen, wie breit Peking KI bereits militärisch erprobt, von Drohn",
+      "link": "https://the-decoder.de/tausende-beschaffungsdokumente-zeigen-wie-chinas-armee-ki-zur-waffe-machen-will/",
+      "date": "2026-03-02T13:46:32.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Anonyme Quellen enthüllen, woran der Anthropic-Pentagon-Deal wirklich scheiterte",
       "description": "Neue Berichte der New York Times und des Atlantic zeichnen ein detailliertes Bild der letzten Verhandlungsstunden zwischen Anthropic und dem Pentagon. Im Zentrum: Massendaten von US-Bürgern, eine verw",
@@ -78,24 +96,6 @@
       "description": "OpenAI verschärft nach einer tödlichen Schulschießerei in Kanada seine Regeln für die Zusammenarbeit mit Behörden. Das Unternehmen hatte das Konto des Verdächtigen gesperrt, aber die Polizei nicht inf",
       "link": "https://the-decoder.de/nach-amoklauf-in-kanada-openai-will-bei-chatgpt-verdachtsmomenten-schneller-behoerden-informieren/",
       "date": "2026-02-28T12:01:58.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "KI-Daten: Aktuelles Sprachmodell-Training verschenkt große Teile des Internets",
-      "description": "Große Sprachmodelle lernen aus Webdaten. Doch welche Seiten im Trainingsdatensatz landen, hängt stark vom HTML-Extraktor ab. Forscher bei Apple, Stanford und der University of Washington zeigen, dass",
-      "link": "https://the-decoder.de/ki-daten-aktuelles-sprachmodell-training-verschenkt-grosse-teile-des-internets/",
-      "date": "2026-02-28T11:25:39.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Social-Media-Benchmark: Fünf KI-Modelle konkurrieren auf X um Reichweite",
-      "description": "Das KI-Benchmarking-Startup Arcada Labs lässt derzeit fünf führende KI-Modelle als autonome Social-Media-Agenten auf X gegeneinander antreten.\nDer Artikel Social-Media-Benchmark: Fünf KI-Modelle konku",
-      "link": "https://the-decoder.de/ki-benchmark-social-arena-arcada-labs/",
-      "date": "2026-02-28T10:53:06.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
