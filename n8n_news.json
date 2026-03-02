@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-03-02T10:48:35.702Z",
+  "lastUpdated": "2026-03-02T13:06:33.420Z",
   "news": [
+    {
+      "title": "Anonyme Quellen enthüllen, woran der Anthropic-Pentagon-Deal wirklich scheiterte",
+      "description": "Neue Berichte der New York Times und des Atlantic zeichnen ein detailliertes Bild der letzten Verhandlungsstunden zwischen Anthropic und dem Pentagon. Im Zentrum: Massendaten von US-Bürgern, eine verw",
+      "link": "https://the-decoder.de/anonyme-quellen-enthuellen-woran-der-anthropic-pentagon-deal-wirklich-scheiterte/",
+      "date": "2026-03-02T11:46:14.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "ElevenLabs Scribe v2 schlägt Google und OpenAI im neuen Speech-to-Text-Benchmark",
       "description": "ElevenLabs und Google liefern sich ein Kopf-an-Kopf-Rennen um die beste Spracherkennung: Ein neuer Benchmark zeigt, wer vorn liegt.\nDer Artikel ElevenLabs Scribe v2 schlägt Google und OpenAI im neuen",
@@ -87,15 +96,6 @@
       "description": "Das KI-Benchmarking-Startup Arcada Labs lässt derzeit fünf führende KI-Modelle als autonome Social-Media-Agenten auf X gegeneinander antreten.\nDer Artikel Social-Media-Benchmark: Fünf KI-Modelle konku",
       "link": "https://the-decoder.de/ki-benchmark-social-arena-arcada-labs/",
       "date": "2026-02-28T10:53:06.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Perplexity veröffentlicht speicherschonende Embedding-Modelle als Open Source",
-      "description": "Die KI-Suchmaschine Perplexity stellt zwei neue Text-Embedding-Modelle vor, die bei einem Bruchteil des üblichen Speicherbedarfs mit Googles und Alibabas Modellen mithalten oder sie übertreffen sollen",
-      "link": "https://the-decoder.de/perplexity-veroeffentlicht-speicherschonende-embedding-modelle-als-open-source/",
-      "date": "2026-02-28T10:31:18.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
