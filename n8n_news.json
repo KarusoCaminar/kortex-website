@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-03-02T14:45:28.650Z",
+  "lastUpdated": "2026-03-02T16:54:11.524Z",
   "news": [
+    {
+      "title": "Chipmaschinen-Monopolist ASML steigt ins Advanced Packaging für KI-Chips ein",
+      "description": "ASML, der weltweit einzige Hersteller von EUV-Lithografiemaschinen, mit denen die fortschrittlichsten Chips der Welt gefertigt werden, will sein Geschäft über die bisherige Kernkompetenz hinaus auswei",
+      "link": "https://the-decoder.de/chipmaschinen-monopolist-asml-steigt-ins-advanced-packaging-fuer-ki-chips-ein/",
+      "date": "2026-03-02T16:27:14.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Neuer Anthropic-Prompt lässt ChatGPT und Co. das gesammelte Wissen über Nutzer verraten",
       "description": "Anthropic nutzt die aktuelle Kritik an OpenAI und bietet ChatGPT-Wechslern eine neue Import-Funktion für Claude an. Per Prompt lässt sich der gesamte gespeicherte Kontext aus anderen Chatbots exportie",
@@ -90,15 +99,6 @@
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
-    },
-    {
-      "title": "Nach Amoklauf in Kanada: OpenAI will bei ChatGPT-Verdachtsmomenten schneller Behörden informieren",
-      "description": "OpenAI verschärft nach einer tödlichen Schulschießerei in Kanada seine Regeln für die Zusammenarbeit mit Behörden. Das Unternehmen hatte das Konto des Verdächtigen gesperrt, aber die Polizei nicht inf",
-      "link": "https://the-decoder.de/nach-amoklauf-in-kanada-openai-will-bei-chatgpt-verdachtsmomenten-schneller-behoerden-informieren/",
-      "date": "2026-02-28T12:01:58.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
     },
     {
       "title": "Joint Statement from OpenAI and Microsoft",
