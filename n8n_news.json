@@ -1,10 +1,19 @@
 {
-  "lastUpdated": "2026-03-03T13:05:23.360Z",
+  "lastUpdated": "2026-03-03T14:47:05.664Z",
   "news": [
     {
-      "title": "Meta lässt Subunternehmer in Kenia intimate Nutzervideos aus KI-Brillen sichten",
+      "title": "Sicherheitsforscher kapern Perplexitys KI-Browser Comet und übernehmen 1Password-Konten",
+      "description": "Sicherheitsforscher zeigen, wie der agentische Browser Comet von Perplexity über eine simple Kalendereinladung dazu gebracht werden kann, lokale Dateien zu stehlen und ein komplettes 1Password-Konto z",
+      "link": "https://the-decoder.de/sicherheitsforscher-kapern-perplexitys-ki-browser-comet-und-uebernehmen-1password-konten/",
+      "date": "2026-03-03T14:00:25.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Meta lässt Subunternehmer in Kenia intime Nutzervideos aus KI-Brillen sichten",
       "description": "Damit die KI in Metas smarter Brille besser wird, sichten Datenarbeiter in Nairobi private Aufnahmen aus westlichen Haushalten. Darunter Nacktszenen, Sexvideos und Bankdaten.\nDer Artikel Meta lässt Su",
-      "link": "https://the-decoder.de/meta-laesst-subunternehmer-in-kenia-intimate-nutzervideos-aus-ki-brillen-sichten/",
+      "link": "https://the-decoder.de/meta-laesst-subunternehmer-in-kenia-intime-nutzervideos-aus-ki-brillen-sichten/",
       "date": "2026-03-03T12:49:47.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
@@ -78,15 +87,6 @@
       "description": "ElevenLabs und Google liefern sich ein Kopf-an-Kopf-Rennen um die beste Spracherkennung: Ein neuer Benchmark zeigt, wer vorn liegt.\nDer Artikel ElevenLabs Scribe v2 schlägt Google und OpenAI im neuen",
       "link": "https://the-decoder.de/elevenlabs-scribe-v2-schlaegt-google-und-openai-im-neuen-speech-to-text-benchmark/",
       "date": "2026-03-01T14:31:11.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "KI enttarnt Internetnutzer in wenigen Minuten für nur wenige Dollar",
-      "description": "Forscher der ETH Zürich und von Anthropic demonstrieren, dass sich pseudonyme Internetnutzer mit handelsüblichen KI-Modellen für wenige Dollar pro Person identifizieren lassen. Die Ergebnisse stellen",
-      "link": "https://the-decoder.de/ki-enttarnt-anonyme-internetnutzer-in-wenigen-minuten-fuer-nur-wenige-dollar/",
-      "date": "2026-03-01T11:22:40.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
