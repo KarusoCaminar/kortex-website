@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-03-03T05:15:35.498Z",
+  "lastUpdated": "2026-03-03T06:57:24.160Z",
   "news": [
+    {
+      "title": "Nach Leaks und massiver Kritik: OpenAI ergänzt Pentagon-Vertrag um Schutzklauseln",
+      "description": "Nachdem OpenAI Anthropics Pentagon-Deal übernommen hat, wird die ChatGPT-Firma intern und extern scharf kritisiert. Jetzt reagiert CEO Sam Altman.\nDer Artikel Nach Leaks und massiver Kritik: OpenAI er",
+      "link": "https://the-decoder.de/nach-leaks-und-massiver-kritik-openai-ergaenzt-pentagon-vertrag-um-schutzklauseln/",
+      "date": "2026-03-03T06:24:05.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Chipmaschinen-Monopolist ASML steigt ins Advanced Packaging für KI-Chips ein",
       "description": "ASML, der weltweit einzige Hersteller von EUV-Lithografiemaschinen, mit denen die fortschrittlichsten Chips der Welt gefertigt werden, will sein Geschäft über die bisherige Kernkompetenz hinaus auswei",
@@ -78,15 +87,6 @@
       "description": "Wer länger mit einem KI-Chatbot spricht, bekommt schlechtere Antworten. Daran hat sich auch mit neueren Modellen wenig geändert.\nDer Artikel Auch neue LLMs wie GPT-5.2 und Claude 4.6 verlieren bei lan",
       "link": "https://the-decoder.de/auch-neue-llms-wie-gpt-5-2-und-claude-4-6-verlieren-bei-langen-chats-massiv-an-leistung/",
       "date": "2026-02-28T17:30:42.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "OpenAI beweist Doppelmoral: Sam Altmans früherer Mitstreiter ist nun ein Dystopist",
-      "description": "Angst erzeugt Aufmerksamkeit, und OpenAI weiß diesen Effekt regelmäßig zu nutzen. Doch vor Gericht will das Unternehmen einen KI-Experten als Untergangspropheten diskreditieren, dessen KI-Warnungen de",
-      "link": "https://the-decoder.de/openai-beweist-doppelmoral-sam-altmans-frueherer-mitstreiter-ist-nun-ein-dystopist/",
-      "date": "2026-02-28T12:43:26.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
