@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-03-03T08:48:21.242Z",
+  "lastUpdated": "2026-03-03T10:43:22.607Z",
   "news": [
+    {
+      "title": "Kurioser KI-Wechsel: US-Außenministerium tauscht Claude gegen altes GPT-4.1",
+      "description": "Mehrere US-Bundesbehörden stellen die Nutzung von Anthropics KI-Produkten ein und wechseln zu Konkurrenten wie OpenAI.\nDer Artikel Kurioser KI-Wechsel: US-Außenministerium tauscht Claude gegen altes G",
+      "link": "https://the-decoder.de/kurioser-ki-wechsel-us-aussenministerium-tauscht-claude-gegen-altes-gpt-4-1/",
+      "date": "2026-03-03T10:26:50.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Nach Leaks und massiver Kritik: OpenAI ergänzt Pentagon-Vertrag um Schutzklauseln",
       "description": "Nachdem OpenAI Anthropics Pentagon-Deal übernommen hat, wird die ChatGPT-Firma intern und extern scharf kritisiert. Jetzt reagiert CEO Sam Altman.\nDer Artikel Nach Leaks und massiver Kritik: OpenAI er",
@@ -78,15 +87,6 @@
       "description": "Nach dem Abkommen mit dem Kriegsministerium versucht OpenAI, mit einer detaillierten Offenlegung der Vertragsdetails Vertrauen zu schaffen. Das misslingt.\nDer Artikel Anthropic-Bann und OpenAI-Deal: W",
       "link": "https://the-decoder.de/anthropic-bann-und-openai-deal-wie-das-pentagon-die-ki-branche-spaltet/",
       "date": "2026-03-01T09:07:45.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Auch neue LLMs wie GPT-5.2 und Claude 4.6 verlieren bei langen Chats massiv an Leistung",
-      "description": "Wer länger mit einem KI-Chatbot spricht, bekommt schlechtere Antworten. Daran hat sich auch mit neueren Modellen wenig geändert.\nDer Artikel Auch neue LLMs wie GPT-5.2 und Claude 4.6 verlieren bei lan",
-      "link": "https://the-decoder.de/auch-neue-llms-wie-gpt-5-2-und-claude-4-6-verlieren-bei-langen-chats-massiv-an-leistung/",
-      "date": "2026-02-28T17:30:42.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
