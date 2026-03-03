@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-03-03T18:56:58.156Z",
+  "lastUpdated": "2026-03-03T20:36:26.067Z",
   "news": [
+    {
+      "title": "Google Deepmind veröffentlicht Gemini 3.1 Flash-Lite als schnellstes Modell der Reihe",
+      "description": "Google Deepmind hat mit Gemini 3.1 Flash-Lite eine Vorschau auf das schnellste und günstigste Modell der Gemini-3-Reihe veröffentlicht. Es ist leistungsfähiger, aber auch viel teurer als das Vorgänger",
+      "link": "https://the-decoder.de/google-deepmind-veroeffentlicht-gemini-3-1-flash-lite-als-schnellstes-modell-der-reihe/",
+      "date": "2026-03-03T19:30:21.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "OpenAI veröffentlicht GPT-5.3 Instant für flüssigere Alltagsgespräche und bessere Suche",
+      "description": "OpenAI hat GPT-5.3 Instant veröffentlicht – das Modell soll flüssiger antworten und weniger halluzinieren. Doch die System-Card zeigt: Bei einigen Sicherheitskategorien schneidet es schlechter ab als",
+      "link": "https://the-decoder.de/openai-veroeffentlicht-gpt-5-3-instant-fuer-fluessigere-alltagsgespraeche-und-bessere-suche/",
+      "date": "2026-03-03T19:05:05.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Anthropic wollte Claude für die Steuerung autonomer Drohnenflotten einsetzen",
       "description": "Anthropic wollte dem Pentagon bei autonomen Drohnenschwärmen helfen – und wurde abgelehnt. Stattdessen bekamen SpaceX, xAI und OpenAI den Zuschlag.\nDer Artikel Anthropic wollte Claude für die Steuerun",
@@ -87,24 +105,6 @@
       "description": "Anthropic nutzt die aktuelle Kritik an OpenAI und bietet ChatGPT-Wechslern eine neue Import-Funktion für Claude an. Per Prompt lässt sich der gesamte gespeicherte Kontext aus anderen Chatbots exportie",
       "link": "https://the-decoder.de/neuer-anthropic-prompt-laesst-chatgpt-und-co-das-gesammelte-wissen-ueber-nutzer-verraten/",
       "date": "2026-03-02T13:52:25.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Tausende Beschaffungsdokumente zeigen, wie Chinas Armee KI zur Waffe machen will",
-      "description": "Forscher der Georgetown University haben Tausende Beschaffungsanträge der chinesischen Volksbefreiungsarmee analysiert. Die Dokumente zeigen, wie breit Peking KI bereits militärisch erprobt, von Drohn",
-      "link": "https://the-decoder.de/tausende-beschaffungsdokumente-zeigen-wie-chinas-armee-ki-zur-waffe-machen-will/",
-      "date": "2026-03-02T13:46:32.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Anonyme Quellen enthüllen, woran der Anthropic-Pentagon-Deal wirklich scheiterte",
-      "description": "Neue Berichte der New York Times und des Atlantic zeichnen ein detailliertes Bild der letzten Verhandlungsstunden zwischen Anthropic und dem Pentagon. Im Zentrum: Massendaten von US-Bürgern, eine verw",
-      "link": "https://the-decoder.de/anonyme-quellen-enthuellen-woran-der-anthropic-pentagon-deal-wirklich-scheiterte/",
-      "date": "2026-03-02T11:46:14.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
