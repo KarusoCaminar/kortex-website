@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-03T16:53:56.911Z",
+  "lastUpdated": "2026-03-03T18:56:58.156Z",
   "news": [
     {
       "title": "Anthropic wollte Claude für die Steuerung autonomer Drohnenflotten einsetzen",
@@ -45,6 +45,24 @@
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
+    },
+    {
+      "title": "GPT-5.3 Instant System Card",
+      "description": "",
+      "link": "https://openai.com/index/gpt-5-3-instant-system-card",
+      "date": "2026-03-03T10:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
+      "title": "GPT-5.3 Instant: Smoother, more useful everyday conversations",
+      "description": "",
+      "link": "https://openai.com/index/gpt-5-3-instant",
+      "date": "2026-03-03T10:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
     },
     {
       "title": "Nach Leaks und massiver Kritik: OpenAI ergänzt Pentagon-Vertrag um Schutzklauseln",
@@ -113,24 +131,6 @@
       "title": "OpenAI and Amazon announce strategic partnership",
       "description": "OpenAI and Amazon announce a strategic partnership bringing OpenAI’s Frontier platform to AWS, expanding AI infrastructure, custom models, and enterprise AI agents.",
       "link": "https://openai.com/index/amazon-partnership",
-      "date": "2026-02-27T05:30:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "Scaling AI for everyone",
-      "description": "Today we’re announcing $110B in new investment at a $730B pre money valuation. This includes $30B from SoftBank, $30B from NVIDIA, and $50B from Amazon.",
-      "link": "https://openai.com/index/scaling-ai-for-everyone",
-      "date": "2026-02-27T05:30:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "Introducing the Stateful Runtime Environment for Agents in Amazon Bedrock",
-      "description": "Stateful Runtime for Agents in Amazon Bedrock brings persistent orchestration, memory, and secure execution to multi-step AI workflows powered by OpenAI.",
-      "link": "https://openai.com/index/introducing-the-stateful-runtime-environment-for-agents-in-amazon-bedrock",
       "date": "2026-02-27T05:30:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
