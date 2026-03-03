@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-03-03T10:43:22.607Z",
+  "lastUpdated": "2026-03-03T13:05:23.360Z",
   "news": [
+    {
+      "title": "Meta lässt Subunternehmer in Kenia intimate Nutzervideos aus KI-Brillen sichten",
+      "description": "Damit die KI in Metas smarter Brille besser wird, sichten Datenarbeiter in Nairobi private Aufnahmen aus westlichen Haushalten. Darunter Nacktszenen, Sexvideos und Bankdaten.\nDer Artikel Meta lässt Su",
+      "link": "https://the-decoder.de/meta-laesst-subunternehmer-in-kenia-intimate-nutzervideos-aus-ki-brillen-sichten/",
+      "date": "2026-03-03T12:49:47.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Meta testet Shopping-Funktion in seinem KI-Chatbot",
+      "description": "Meta testet eine Shopping-Recherche-Funktion in seinem KI-Chatbot Meta AI, die mit ähnlichen Tools von OpenAIs ChatGPT und Googles Gemini konkurrieren soll.\nDer Artikel Meta testet Shopping-Funktion i",
+      "link": "https://the-decoder.de/meta-testet-shopping-funktion-in-seinem-ki-chatbot/",
+      "date": "2026-03-03T11:07:30.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Kurioser KI-Wechsel: US-Außenministerium tauscht Claude gegen altes GPT-4.1",
       "description": "Mehrere US-Bundesbehörden stellen die Nutzung von Anthropics KI-Produkten ein und wechseln zu Konkurrenten wie OpenAI.\nDer Artikel Kurioser KI-Wechsel: US-Außenministerium tauscht Claude gegen altes G",
@@ -69,24 +87,6 @@
       "description": "Forscher der ETH Zürich und von Anthropic demonstrieren, dass sich pseudonyme Internetnutzer mit handelsüblichen KI-Modellen für wenige Dollar pro Person identifizieren lassen. Die Ergebnisse stellen",
       "link": "https://the-decoder.de/ki-enttarnt-anonyme-internetnutzer-in-wenigen-minuten-fuer-nur-wenige-dollar/",
       "date": "2026-03-01T11:22:40.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Angebliche KI-Agenten-Zivilisation \"Moltbook\" ist nur aufgeblähter Bot-Traffic",
-      "description": "Auf der gehypten KI-Agenten-Plattform Moltbook interagieren Millionen von KI-Agenten ohne menschliche Beteiligung. Eine Studie zeigt: Die Agenten posten, kommentieren und voten – lernen aber nicht von",
-      "link": "https://the-decoder.de/angebliche-ki-agenten-zivilisation-moltbook-ist-nur-aufgeblaehter-bot-traffic/",
-      "date": "2026-03-01T10:19:51.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Anthropic-Bann und OpenAI-Deal: Wie das Pentagon die KI-Branche spaltet",
-      "description": "Nach dem Abkommen mit dem Kriegsministerium versucht OpenAI, mit einer detaillierten Offenlegung der Vertragsdetails Vertrauen zu schaffen. Das misslingt.\nDer Artikel Anthropic-Bann und OpenAI-Deal: W",
-      "link": "https://the-decoder.de/anthropic-bann-und-openai-deal-wie-das-pentagon-die-ki-branche-spaltet/",
-      "date": "2026-03-01T09:07:45.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
