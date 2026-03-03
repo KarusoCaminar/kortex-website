@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-03-03T14:47:05.664Z",
+  "lastUpdated": "2026-03-03T16:53:56.911Z",
   "news": [
+    {
+      "title": "Anthropic wollte Claude für die Steuerung autonomer Drohnenflotten einsetzen",
+      "description": "Anthropic wollte dem Pentagon bei autonomen Drohnenschwärmen helfen – und wurde abgelehnt. Stattdessen bekamen SpaceX, xAI und OpenAI den Zuschlag.\nDer Artikel Anthropic wollte Claude für die Steuerun",
+      "link": "https://the-decoder.de/anthropic-wollte-claude-fuer-die-steuerung-autonomer-drohnenflotten-einsetzen/",
+      "date": "2026-03-03T15:55:55.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Sicherheitsforscher kapern Perplexitys KI-Browser Comet und übernehmen 1Password-Konten",
       "description": "Sicherheitsforscher zeigen, wie der agentische Browser Comet von Perplexity über eine simple Kalendereinladung dazu gebracht werden kann, lokale Dateien zu stehlen und ein komplettes 1Password-Konto z",
@@ -78,15 +87,6 @@
       "description": "Neue Berichte der New York Times und des Atlantic zeichnen ein detailliertes Bild der letzten Verhandlungsstunden zwischen Anthropic und dem Pentagon. Im Zentrum: Massendaten von US-Bürgern, eine verw",
       "link": "https://the-decoder.de/anonyme-quellen-enthuellen-woran-der-anthropic-pentagon-deal-wirklich-scheiterte/",
       "date": "2026-03-02T11:46:14.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "ElevenLabs Scribe v2 schlägt Google und OpenAI im neuen Speech-to-Text-Benchmark",
-      "description": "ElevenLabs und Google liefern sich ein Kopf-an-Kopf-Rennen um die beste Spracherkennung: Ein neuer Benchmark zeigt, wer vorn liegt.\nDer Artikel ElevenLabs Scribe v2 schlägt Google und OpenAI im neuen",
-      "link": "https://the-decoder.de/elevenlabs-scribe-v2-schlaegt-google-und-openai-im-neuen-speech-to-text-benchmark/",
-      "date": "2026-03-01T14:31:11.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
