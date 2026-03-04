@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-03-04T10:40:10.214Z",
+  "lastUpdated": "2026-03-04T13:04:11.127Z",
   "news": [
+    {
+      "title": "Meta gründet neue KI-Abteilung für angewandtes Engineering",
+      "description": "Meta baut laut einem internen Memo, das dem Wall Street Journal vorliegt, eine neue Organisation für angewandtes KI-Engineering auf.\nDer Artikel Meta gründet neue KI-Abteilung für angewandtes Engineer",
+      "link": "https://the-decoder.de/meta-gruendet-neue-ki-abteilung-fuer-angewandtes-engineering/",
+      "date": "2026-03-04T11:43:51.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "OpenAI baut eigene Code-Plattform als Alternative zu Microsofts GitHub",
       "description": "OpenAI arbeitet laut The Information an einer eigenen Alternative zu GitHub, Microsofts weit verbreiteter Plattform für Code-Verwaltung und Zusammenarbeit.\nDer Artikel OpenAI baut eigene Code-Plattfor",
@@ -92,24 +101,6 @@
       "language": "en"
     },
     {
-      "title": "Nach Leaks und massiver Kritik: OpenAI ergänzt Pentagon-Vertrag um Schutzklauseln",
-      "description": "Nachdem OpenAI Anthropics Pentagon-Deal übernommen hat, wird die ChatGPT-Firma intern und extern scharf kritisiert. Jetzt reagiert CEO Sam Altman.\nDer Artikel Nach Leaks und massiver Kritik: OpenAI er",
-      "link": "https://the-decoder.de/nach-leaks-und-massiver-kritik-openai-ergaenzt-pentagon-vertrag-um-schutzklauseln/",
-      "date": "2026-03-03T06:24:05.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Chipmaschinen-Monopolist ASML steigt ins Advanced Packaging für KI-Chips ein",
-      "description": "ASML, der weltweit einzige Hersteller von EUV-Lithografiemaschinen, mit denen die fortschrittlichsten Chips der Welt gefertigt werden, will sein Geschäft über die bisherige Kernkompetenz hinaus auswei",
-      "link": "https://the-decoder.de/chipmaschinen-monopolist-asml-steigt-ins-advanced-packaging-fuer-ki-chips-ein/",
-      "date": "2026-03-02T16:27:14.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "Our agreement with the Department of War",
       "description": "Details on OpenAI’s contract with the Department of War, outlining safety red lines, legal protections, and how AI systems will be deployed in classified environments.",
       "link": "https://openai.com/index/our-agreement-with-the-department-of-war",
@@ -131,6 +122,15 @@
       "title": "OpenAI and Amazon announce strategic partnership",
       "description": "OpenAI and Amazon announce a strategic partnership bringing OpenAI’s Frontier platform to AWS, expanding AI infrastructure, custom models, and enterprise AI agents.",
       "link": "https://openai.com/index/amazon-partnership",
+      "date": "2026-02-27T05:30:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
+      "title": "Scaling AI for everyone",
+      "description": "Today we’re announcing $110B in new investment at a $730B pre money valuation. This includes $30B from SoftBank, $30B from NVIDIA, and $50B from Amazon.",
+      "link": "https://openai.com/index/scaling-ai-for-everyone",
       "date": "2026-02-27T05:30:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
