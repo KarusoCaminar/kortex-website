@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-03-04T08:43:26.543Z",
+  "lastUpdated": "2026-03-04T10:40:10.214Z",
   "news": [
+    {
+      "title": "OpenAI baut eigene Code-Plattform als Alternative zu Microsofts GitHub",
+      "description": "OpenAI arbeitet laut The Information an einer eigenen Alternative zu GitHub, Microsofts weit verbreiteter Plattform für Code-Verwaltung und Zusammenarbeit.\nDer Artikel OpenAI baut eigene Code-Plattfor",
+      "link": "https://the-decoder.de/openai-baut-eigene-code-plattform-als-alternative-zu-microsofts-github/",
+      "date": "2026-03-04T10:02:47.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Google Deepmind veröffentlicht Gemini 3.1 Flash-Lite als schnellstes Modell der Reihe",
       "description": "Google Deepmind hat mit Gemini 3.1 Flash-Lite eine Vorschau auf das schnellste und günstigste Modell der Gemini-3-Reihe veröffentlicht. Es ist leistungsfähiger, aber auch viel teurer als das Vorgänger",
@@ -96,15 +105,6 @@
       "description": "ASML, der weltweit einzige Hersteller von EUV-Lithografiemaschinen, mit denen die fortschrittlichsten Chips der Welt gefertigt werden, will sein Geschäft über die bisherige Kernkompetenz hinaus auswei",
       "link": "https://the-decoder.de/chipmaschinen-monopolist-asml-steigt-ins-advanced-packaging-fuer-ki-chips-ein/",
       "date": "2026-03-02T16:27:14.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Neuer Anthropic-Prompt lässt ChatGPT und Co. das gesammelte Wissen über Nutzer verraten",
-      "description": "Anthropic nutzt die aktuelle Kritik an OpenAI und bietet ChatGPT-Wechslern eine neue Import-Funktion für Claude an. Per Prompt lässt sich der gesamte gespeicherte Kontext aus anderen Chatbots exportie",
-      "link": "https://the-decoder.de/neuer-anthropic-prompt-laesst-chatgpt-und-co-das-gesammelte-wissen-ueber-nutzer-verraten/",
-      "date": "2026-03-02T13:52:25.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
