@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-03-04T14:39:19.860Z",
+  "lastUpdated": "2026-03-04T16:52:18.832Z",
   "news": [
+    {
+      "title": "US-Supreme-Court-Urteil zu KI-Copyright bedeutet kein generelles Urheberrechts-Aus für KI-Kunst",
+      "description": "KI-Erfinder Stephen Thaler wollte vor dem US Supreme Court durchsetzen, dass eine Maschine als Urheber eines Bildes anerkannt wird. Das Gericht lehnte ab. Doch das Urteil betrifft einen Extremfall und",
+      "link": "https://the-decoder.de/us-supreme-court-urteil-zu-ki-copyright-bedeutet-kein-generelles-urheberrechts-aus-fuer-ki-kunst/",
+      "date": "2026-03-04T16:26:28.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "US-Militär nutzt Anthropics KI-Modell Claude für Zielauswahl im Iran-Krieg",
+      "description": "Im Krieg gegen den Iran setzt das US-Militär laut Berichten erstmals generative KI in großem Maßstab für Zielauswahl und Angriffsplanung ein. Genutzt wird das Modell des Unternehmens, das Washington g",
+      "link": "https://the-decoder.de/us-militaer-nutzt-anthropics-ki-modell-claude-fuer-zielauswahl-im-iran-krieg/",
+      "date": "2026-03-04T16:02:58.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Meta gründet neue KI-Abteilung für angewandtes Engineering",
       "description": "Meta baut laut einem internen Memo, das dem Wall Street Journal vorliegt, eine neue Organisation für angewandtes KI-Engineering auf.\nDer Artikel Meta gründet neue KI-Abteilung für angewandtes Engineer",
@@ -60,24 +78,6 @@
       "description": "Damit die KI in Metas smarter Brille besser wird, sichten Datenarbeiter in Nairobi private Aufnahmen aus westlichen Haushalten. Darunter Nacktszenen, Sexvideos und Bankdaten.\nDer Artikel Meta lässt Su",
       "link": "https://the-decoder.de/meta-laesst-subunternehmer-in-kenia-intime-nutzervideos-aus-ki-brillen-sichten/",
       "date": "2026-03-03T12:49:47.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Meta testet Shopping-Funktion in seinem KI-Chatbot",
-      "description": "Meta testet eine Shopping-Recherche-Funktion in seinem KI-Chatbot Meta AI, die mit ähnlichen Tools von OpenAIs ChatGPT und Googles Gemini konkurrieren soll.\nDer Artikel Meta testet Shopping-Funktion i",
-      "link": "https://the-decoder.de/meta-testet-shopping-funktion-in-seinem-ki-chatbot/",
-      "date": "2026-03-03T11:07:30.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Kurioser KI-Wechsel: US-Außenministerium tauscht Claude gegen altes GPT-4.1",
-      "description": "Mehrere US-Bundesbehörden stellen die Nutzung von Anthropics KI-Produkten ein und wechseln zu Konkurrenten wie OpenAI.\nDer Artikel Kurioser KI-Wechsel: US-Außenministerium tauscht Claude gegen altes G",
-      "link": "https://the-decoder.de/kurioser-ki-wechsel-us-aussenministerium-tauscht-claude-gegen-altes-gpt-4-1/",
-      "date": "2026-03-03T10:26:50.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
