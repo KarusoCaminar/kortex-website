@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-03-05T10:43:53.727Z",
+  "lastUpdated": "2026-03-05T13:07:58.313Z",
   "news": [
+    {
+      "title": "Anthropic-CEO nennt OpenAIs Pentagon-Deal \"Safety Theater\" und wirft Trump-Regierung Bestrafung vor",
+      "description": "Anthropic-Chef Dario Amodei attackiert in einem geleakten Memo OpenAIs Pentagon-Vertrag als \"80% Safety Theater\" und beschuldigt die Trump-Regierung, sein Unternehmen für mangelnde politische Loyalitä",
+      "link": "https://the-decoder.de/anthropic-ceo-nennt-openais-pentagon-deal-safety-theater-und-wirft-trump-regierung-bestrafung-vor/",
+      "date": "2026-03-05T11:45:44.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Massenkündigung bei Alibaba: Kernteam hinter Qwen verlässt das Unternehmen",
       "description": "Alibabas KI-Chefentwickler geht, weitere Forscher folgen, und das ausgerechnet nach der Veröffentlichung der bisher besten Qwen-Modelle.\nDer Artikel Massenkündigung bei Alibaba: Kernteam hinter Qwen v",
@@ -78,15 +87,6 @@
       "description": "Meta baut laut einem internen Memo, das dem Wall Street Journal vorliegt, eine neue Organisation für angewandtes KI-Engineering auf.\nDer Artikel Meta gründet neue KI-Abteilung für angewandtes Engineer",
       "link": "https://the-decoder.de/meta-gruendet-neue-ki-abteilung-fuer-angewandtes-engineering/",
       "date": "2026-03-04T11:43:51.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "OpenAI baut eigene Code-Plattform als Alternative zu Microsofts GitHub",
-      "description": "OpenAI arbeitet laut The Information an einer eigenen Alternative zu GitHub, Microsofts weit verbreiteter Plattform für Code-Verwaltung und Zusammenarbeit.\nDer Artikel OpenAI baut eigene Code-Plattfor",
-      "link": "https://the-decoder.de/openai-baut-eigene-code-plattform-als-alternative-zu-microsofts-github/",
-      "date": "2026-03-04T10:02:47.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
