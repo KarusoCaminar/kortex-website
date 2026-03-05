@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-03-05T18:07:12.314Z",
+  "lastUpdated": "2026-03-05T20:41:03.786Z",
   "news": [
+    {
+      "title": "OpenAI startet KI-Modelle GPT-5.4 Thinking und Pro: Coding, Reasoning und Computer Use in einem Modell",
+      "description": "OpenAI stellt mit GPT-5.4 sein bislang leistungsfähigstes Modell vor. Es vereint erstmals Coding, Computerbedienung und Reasoning in einem einzigen Modell.\nDer Artikel OpenAI startet KI-Modelle GPT-5.",
+      "link": "https://the-decoder.de/openai-startet-ki-modelle-gpt-5-4-thinking-und-pro-coding-reasoning-und-computerbedienung-in-einem-modell/",
+      "date": "2026-03-05T18:52:40.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "OpenAI stoppt Pläne für direkte Bezahlfunktion in ChatGPT vorerst",
       "description": "OpenAI wollte Millionen von Produkten direkt in ChatGPT verkaufen, doch nur rund ein Dutzend Händler machten mit. Nutzer recherchierten zwar Produkte im Chatbot, kauften dort aber nicht. Jetzt verlage",
@@ -95,7 +104,7 @@
       "title": "Teaching LLMs to reason like Bayesians",
       "description": "Generative AI",
       "link": "https://research.google/blog/teaching-llms-to-reason-like-bayesians/",
-      "date": "2026-03-04T20:29:29.000Z",
+      "date": "2026-03-04T20:29:00.000Z",
       "source": "Google AI",
       "category": "große-modelle",
       "language": "en"
@@ -114,15 +123,6 @@
       "description": "Ein KI-Chatbot, der einen Mann als Ehemann bezeichnete, ihm reale Missionen erteilte und schließlich einen Countdown für seinen Suizid setzte: Eine neue Klage gegen Google zeigt, wie gefährlich die em",
       "link": "https://the-decoder.de/us-klage-gegen-google-chatbot-gemini-soll-mann-in-den-suizid-getrieben-haben/",
       "date": "2026-03-04T17:54:22.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Meta schließt Millionen-Deal mit News Corp für KI-Training und Inhalte",
-      "description": "Meta zahlt News Corp bis zu 50 Millionen Dollar pro Jahr für KI-Trainingsdaten. Gut für einzelne Verlage, schlecht für die Branche.\nDer Artikel Meta schließt Millionen-Deal mit News Corp für KI-Traini",
-      "link": "https://the-decoder.de/meta-schliesst-millionen-deal-mit-news-corp-fuer-ki-training-und-inhalte/",
-      "date": "2026-03-04T17:26:23.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
