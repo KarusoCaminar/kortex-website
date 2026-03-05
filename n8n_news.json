@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-03-05T13:07:58.313Z",
+  "lastUpdated": "2026-03-05T14:49:49.811Z",
   "news": [
+    {
+      "title": "Tech-Giganten versprechen im Weißen Haus, Stromkosten für KI-Rechenzentren selbst zu tragen",
+      "description": "Google, Microsoft, Meta, Amazon, Oracle, xAI und OpenAI haben im Weißen Haus eine freiwillige Selbstverpflichtung unterzeichnet, die Stromkosten für ihre Rechenzentren selbst zu tragen.\nDer Artikel Te",
+      "link": "https://the-decoder.de/tech-giganten-versprechen-im-weissen-haus-stromkosten-fuer-ki-rechenzentren-selbst-zu-tragen/",
+      "date": "2026-03-05T14:43:18.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Apple Music kennzeichnet KI-Musik, verlässt sich aber auf die Labels",
+      "description": "Apple Music führt Transparency Tags ein, mit denen Labels und Distributoren KI-generierte Inhalte in vier Bereichen kennzeichnen sollen: Artwork, Tracks, Kompositionen und Musikvideos.\nDer Artikel App",
+      "link": "https://the-decoder.de/apple-music-kennzeichnet-ki-musik-verlaesst-sich-aber-auf-die-labels/",
+      "date": "2026-03-05T14:21:30.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Anthropic-CEO nennt OpenAIs Pentagon-Deal \"Safety Theater\" und wirft Trump-Regierung Bestrafung vor",
       "description": "Anthropic-Chef Dario Amodei attackiert in einem geleakten Memo OpenAIs Pentagon-Vertrag als \"80% Safety Theater\" und beschuldigt die Trump-Regierung, sein Unternehmen für mangelnde politische Loyalitä",
@@ -69,24 +87,6 @@
       "description": "KI-Erfinder Stephen Thaler wollte vor dem US Supreme Court durchsetzen, dass eine Maschine als Urheber eines Bildes anerkannt wird. Das Gericht lehnte ab. Doch das Urteil betrifft einen Extremfall und",
       "link": "https://the-decoder.de/us-supreme-court-urteil-zu-ki-copyright-bedeutet-kein-generelles-urheberrechts-aus-fuer-ki-kunst/",
       "date": "2026-03-04T16:26:28.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "US-Militär nutzt Anthropics KI-Modell Claude für Zielauswahl im Iran-Krieg",
-      "description": "Im Krieg gegen den Iran setzt das US-Militär laut Berichten erstmals generative KI in großem Maßstab für Zielauswahl und Angriffsplanung ein. Genutzt wird das Modell des Unternehmens, das Washington g",
-      "link": "https://the-decoder.de/us-militaer-nutzt-anthropics-ki-modell-claude-fuer-zielauswahl-im-iran-krieg/",
-      "date": "2026-03-04T16:02:58.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Meta gründet neue KI-Abteilung für angewandtes Engineering",
-      "description": "Meta baut laut einem internen Memo, das dem Wall Street Journal vorliegt, eine neue Organisation für angewandtes KI-Engineering auf.\nDer Artikel Meta gründet neue KI-Abteilung für angewandtes Engineer",
-      "link": "https://the-decoder.de/meta-gruendet-neue-ki-abteilung-fuer-angewandtes-engineering/",
-      "date": "2026-03-04T11:43:51.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
