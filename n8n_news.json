@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-03-05T08:50:06.702Z",
+  "lastUpdated": "2026-03-05T10:43:53.727Z",
   "news": [
+    {
+      "title": "Massenkündigung bei Alibaba: Kernteam hinter Qwen verlässt das Unternehmen",
+      "description": "Alibabas KI-Chefentwickler geht, weitere Forscher folgen, und das ausgerechnet nach der Veröffentlichung der bisher besten Qwen-Modelle.\nDer Artikel Massenkündigung bei Alibaba: Kernteam hinter Qwen v",
+      "link": "https://the-decoder.de/massenkuendigung-bei-alibaba-kernteam-hinter-qwen-verlaesst-das-unternehmen/",
+      "date": "2026-03-05T09:32:14.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Teaching LLMs to reason like Bayesians",
       "description": "Generative AI",
@@ -108,15 +117,6 @@
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
-    },
-    {
-      "title": "Google Deepmind veröffentlicht Gemini 3.1 Flash-Lite als schnellstes Modell der Reihe",
-      "description": "Google Deepmind hat mit Gemini 3.1 Flash-Lite eine Vorschau auf das schnellste und günstigste Modell der Gemini-3-Reihe veröffentlicht. Es ist leistungsfähiger, aber auch viel teurer als das Vorgänger",
-      "link": "https://the-decoder.de/google-deepmind-veroeffentlicht-gemini-3-1-flash-lite-als-schnellstes-modell-der-reihe/",
-      "date": "2026-03-03T19:30:21.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
     },
     {
       "title": "GPT-5.3 Instant System Card",
