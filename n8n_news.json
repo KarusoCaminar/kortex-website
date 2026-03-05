@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-05T20:41:03.786Z",
+  "lastUpdated": "2026-03-05T22:36:00.278Z",
   "news": [
     {
       "title": "OpenAI startet KI-Modelle GPT-5.4 Thinking und Pro: Coding, Reasoning und Computer Use in einem Modell",
@@ -56,15 +56,6 @@
       "language": "de"
     },
     {
-      "title": "Introducing GPT-5.4",
-      "description": "Introducing GPT-5.4, OpenAI’s most most capable and efficient frontier model for professional work, with state-of-the-art coding, computer use, tool search, and 1M-token context.",
-      "link": "https://openai.com/index/introducing-gpt-5-4",
-      "date": "2026-03-05T10:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
       "title": "Reasoning models struggle to control their chains of thought, and that’s good",
       "description": "OpenAI introduces CoT-Control and finds reasoning models struggle to control their chains of thought, reinforcing monitorability as an AI safety safeguard.",
       "link": "https://openai.com/index/reasoning-models-chain-of-thought-controllability",
@@ -77,6 +68,15 @@
       "title": "GPT-5.4 Thinking System Card",
       "description": "",
       "link": "https://openai.com/index/gpt-5-4-thinking-system-card",
+      "date": "2026-03-05T10:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
+      "title": "Introducing GPT-5.4",
+      "description": "Introducing GPT-5.4, OpenAI’s most most capable and efficient frontier model for professional work, with state-of-the-art coding, computer use, tool search, and 1M-token context.",
+      "link": "https://openai.com/index/introducing-gpt-5-4",
       "date": "2026-03-05T10:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
@@ -101,38 +101,38 @@
       "language": "en"
     },
     {
+      "title": "The five AI value models driving business reinvention",
+      "description": "Five AI value models show how leaders can sequence AI from workforce fluency to process reinvention and build durable business advantage.",
+      "link": "https://openai.com/index/the-five-ai-value-models-driving-business-reinvention",
+      "date": "2026-03-05T00:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
+      "title": "Introducing ChatGPT for Excel and new financial data integrations",
+      "description": "OpenAI introduces ChatGPT for Excel and new financial app integrations, powered by GPT-5.4 to accelerate modeling, research, and analysis in regulated environments.",
+      "link": "https://openai.com/index/chatgpt-for-excel",
+      "date": "2026-03-05T00:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
+      "title": "Introducing the Adoption news channel",
+      "description": "Practical insights and frameworks to turn AI progress into business advantage",
+      "link": "https://openai.com/index/introducing-the-adoption-news-channel",
+      "date": "2026-03-05T00:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
       "title": "Teaching LLMs to reason like Bayesians",
       "description": "Generative AI",
       "link": "https://research.google/blog/teaching-llms-to-reason-like-bayesians/",
       "date": "2026-03-04T20:29:00.000Z",
       "source": "Google AI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "Codex für Windows: OpenAI bringt sein KI-Coding-Tool nativ auf den PC",
-      "description": "OpenAI bringt sein KI-Coding-Tool Codex auf Windows, mit nativer Unterstützung für Windows-Umgebungen und über 1,6 Millionen wöchentlich aktiven Nutzern.\nDer Artikel Codex für Windows: OpenAI bringt s",
-      "link": "https://the-decoder.de/codex-fuer-windows-openai-bringt-sein-ki-coding-tool-nativ-auf-den-pc/",
-      "date": "2026-03-04T19:04:18.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "US-Klage gegen Google: Chatbot Gemini soll Mann in den Suizid getrieben haben",
-      "description": "Ein KI-Chatbot, der einen Mann als Ehemann bezeichnete, ihm reale Missionen erteilte und schließlich einen Countdown für seinen Suizid setzte: Eine neue Klage gegen Google zeigt, wie gefährlich die em",
-      "link": "https://the-decoder.de/us-klage-gegen-google-chatbot-gemini-soll-mann-in-den-suizid-getrieben-haben/",
-      "date": "2026-03-04T17:54:22.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Extending single-minus amplitudes to gravitons",
-      "description": "A new preprint extends single-minus amplitudes to gravitons, with GPT-5.2 Pro helping derive and verify nonzero graviton tree amplitudes in quantum gravity.",
-      "link": "https://openai.com/index/extending-single-minus-amplitudes-to-gravitons",
-      "date": "2026-03-04T10:00:00.000Z",
-      "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
     }
