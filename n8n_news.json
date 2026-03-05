@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-03-05T14:49:49.811Z",
+  "lastUpdated": "2026-03-05T18:07:12.314Z",
   "news": [
+    {
+      "title": "OpenAI stoppt Pläne für direkte Bezahlfunktion in ChatGPT vorerst",
+      "description": "OpenAI wollte Millionen von Produkten direkt in ChatGPT verkaufen, doch nur rund ein Dutzend Händler machten mit. Nutzer recherchierten zwar Produkte im Chatbot, kauften dort aber nicht. Jetzt verlage",
+      "link": "https://the-decoder.de/openai-stoppt-plaene-fuer-direkte-bezahlfunktion-in-chatgpt-vorerst/",
+      "date": "2026-03-05T17:04:30.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Google erweitert KI-Suche mit \"Canvas\" um einen eigenen Arbeitsplatz",
+      "description": "Google macht seine KI-Suche zum Projektmanager: Die neue Canvas-Funktion erstellt interaktive Dashboards und Dokumente direkt im AI-Mode-Chat.\nDer Artikel Google erweitert KI-Suche mit \"Canvas\" um ein",
+      "link": "https://the-decoder.de/google-erweitert-ki-suche-mit-canvas-um-einen-eigenen-arbeitsplatz/",
+      "date": "2026-03-05T16:23:05.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Tech-Giganten versprechen im Weißen Haus, Stromkosten für KI-Rechenzentren selbst zu tragen",
       "description": "Google, Microsoft, Meta, Amazon, Oracle, xAI und OpenAI haben im Weißen Haus eine freiwillige Selbstverpflichtung unterzeichnet, die Stromkosten für ihre Rechenzentren selbst zu tragen.\nDer Artikel Te",
@@ -29,6 +47,33 @@
       "language": "de"
     },
     {
+      "title": "Introducing GPT-5.4",
+      "description": "Introducing GPT-5.4, OpenAI’s most most capable and efficient frontier model for professional work, with state-of-the-art coding, computer use, tool search, and 1M-token context.",
+      "link": "https://openai.com/index/introducing-gpt-5-4",
+      "date": "2026-03-05T10:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
+      "title": "Reasoning models struggle to control their chains of thought, and that’s good",
+      "description": "OpenAI introduces CoT-Control and finds reasoning models struggle to control their chains of thought, reinforcing monitorability as an AI safety safeguard.",
+      "link": "https://openai.com/index/reasoning-models-chain-of-thought-controllability",
+      "date": "2026-03-05T10:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
+      "title": "GPT-5.4 Thinking System Card",
+      "description": "",
+      "link": "https://openai.com/index/gpt-5-4-thinking-system-card",
+      "date": "2026-03-05T10:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
       "title": "Massenkündigung bei Alibaba: Kernteam hinter Qwen verlässt das Unternehmen",
       "description": "Alibabas KI-Chefentwickler geht, weitere Forscher folgen, und das ausgerechnet nach der Veröffentlichung der bisher besten Qwen-Modelle.\nDer Artikel Massenkündigung bei Alibaba: Kernteam hinter Qwen v",
       "link": "https://the-decoder.de/massenkuendigung-bei-alibaba-kernteam-hinter-qwen-verlaesst-das-unternehmen/",
@@ -36,6 +81,15 @@
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
+    },
+    {
+      "title": "Ensuring AI use in education leads to opportunity",
+      "description": "OpenAI shares new tools, certifications, and measurement resources to help schools and universities close AI capability gaps and expand opportunity.",
+      "link": "https://openai.com/index/ai-education-opportunity",
+      "date": "2026-03-05T09:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
     },
     {
       "title": "Teaching LLMs to reason like Bayesians",
@@ -74,64 +128,10 @@
       "language": "de"
     },
     {
-      "title": "GPT-5.4 soll bei stundenlangen Aufgaben zuverlässiger arbeiten und weniger Fehler machen",
-      "description": "GPT-5.4 soll bald kommen: mehr als doppelt so viel Kontextfenster wie GPT-5.2, zuverlässigere Langzeitaufgaben und ein neuer \"extremer\" Denkmodus.\nDer Artikel GPT-5.4 soll bei stundenlangen Aufgaben z",
-      "link": "https://the-decoder.de/gpt-5-4-soll-bei-stundenlangen-aufgaben-zuverlaessiger-arbeiten-und-weniger-fehler-machen/",
-      "date": "2026-03-04T17:07:51.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "US-Supreme-Court-Urteil zu KI-Copyright bedeutet kein generelles Urheberrechts-Aus für KI-Kunst",
-      "description": "KI-Erfinder Stephen Thaler wollte vor dem US Supreme Court durchsetzen, dass eine Maschine als Urheber eines Bildes anerkannt wird. Das Gericht lehnte ab. Doch das Urteil betrifft einen Extremfall und",
-      "link": "https://the-decoder.de/us-supreme-court-urteil-zu-ki-copyright-bedeutet-kein-generelles-urheberrechts-aus-fuer-ki-kunst/",
-      "date": "2026-03-04T16:26:28.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "Extending single-minus amplitudes to gravitons",
       "description": "A new preprint extends single-minus amplitudes to gravitons, with GPT-5.2 Pro helping derive and verify nonzero graviton tree amplitudes in quantum gravity.",
       "link": "https://openai.com/index/extending-single-minus-amplitudes-to-gravitons",
       "date": "2026-03-04T10:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "Understanding AI and learning outcomes",
-      "description": "OpenAI introduces the Learning Outcomes Measurement Suite to assess AI’s impact on student learning across diverse educational environments over time.",
-      "link": "https://openai.com/index/understanding-ai-and-learning-outcomes",
-      "date": "2026-03-04T00:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "How Axios uses AI to help deliver high-impact local journalism",
-      "description": "Axios COO Allison Murphy explains how the company uses AI to support local reporters, streamline newsroom workflows, and deliver high-impact local journalism at scale.",
-      "link": "https://openai.com/index/axios-allison-murphy",
-      "date": "2026-03-04T00:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "GPT-5.3 Instant System Card",
-      "description": "",
-      "link": "https://openai.com/index/gpt-5-3-instant-system-card",
-      "date": "2026-03-03T10:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "GPT-5.3 Instant: Smoother, more useful everyday conversations",
-      "description": "",
-      "link": "https://openai.com/index/gpt-5-3-instant",
-      "date": "2026-03-03T10:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
