@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-05T22:36:00.278Z",
+  "lastUpdated": "2026-03-06T02:24:58.094Z",
   "news": [
     {
       "title": "OpenAI startet KI-Modelle GPT-5.4 Thinking und Pro: Coding, Reasoning und Computer Use in einem Modell",
@@ -56,6 +56,15 @@
       "language": "de"
     },
     {
+      "title": "Introducing GPT-5.4",
+      "description": "Introducing GPT-5.4, OpenAI’s most most capable and efficient frontier model for professional work, with state-of-the-art coding, computer use, tool search, and 1M-token context.",
+      "link": "https://openai.com/index/introducing-gpt-5-4",
+      "date": "2026-03-05T10:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
       "title": "Reasoning models struggle to control their chains of thought, and that’s good",
       "description": "OpenAI introduces CoT-Control and finds reasoning models struggle to control their chains of thought, reinforcing monitorability as an AI safety safeguard.",
       "link": "https://openai.com/index/reasoning-models-chain-of-thought-controllability",
@@ -68,15 +77,6 @@
       "title": "GPT-5.4 Thinking System Card",
       "description": "",
       "link": "https://openai.com/index/gpt-5-4-thinking-system-card",
-      "date": "2026-03-05T10:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "Introducing GPT-5.4",
-      "description": "Introducing GPT-5.4, OpenAI’s most most capable and efficient frontier model for professional work, with state-of-the-art coding, computer use, tool search, and 1M-token context.",
-      "link": "https://openai.com/index/introducing-gpt-5-4",
       "date": "2026-03-05T10:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
@@ -101,15 +101,6 @@
       "language": "en"
     },
     {
-      "title": "The five AI value models driving business reinvention",
-      "description": "Five AI value models show how leaders can sequence AI from workforce fluency to process reinvention and build durable business advantage.",
-      "link": "https://openai.com/index/the-five-ai-value-models-driving-business-reinvention",
-      "date": "2026-03-05T00:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
       "title": "Introducing ChatGPT for Excel and new financial data integrations",
       "description": "OpenAI introduces ChatGPT for Excel and new financial app integrations, powered by GPT-5.4 to accelerate modeling, research, and analysis in regulated environments.",
       "link": "https://openai.com/index/chatgpt-for-excel",
@@ -122,6 +113,15 @@
       "title": "Introducing the Adoption news channel",
       "description": "Practical insights and frameworks to turn AI progress into business advantage",
       "link": "https://openai.com/index/introducing-the-adoption-news-channel",
+      "date": "2026-03-05T00:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
+      "title": "The five AI value models driving business reinvention",
+      "description": "Five AI value models show how leaders can sequence AI from workforce fluency to process reinvention and build durable business advantage.",
+      "link": "https://openai.com/index/the-five-ai-value-models-driving-business-reinvention",
       "date": "2026-03-05T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
