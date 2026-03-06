@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-03-06T14:39:52.852Z",
+  "lastUpdated": "2026-03-06T16:47:18.247Z",
   "news": [
+    {
+      "title": "Softbank will Rekordkredit von bis zu 40 Milliarden Dollar für OpenAI-Beteiligung aufnehmen",
+      "description": "40 Milliarden Dollar Kredit für eine einzige Wette auf OpenAI. Softbank treibt auf die Spitze, was die KI-Branche längst tut: den Boom auf Pump finanzieren.\nDer Artikel Softbank will Rekordkredit von",
+      "link": "https://the-decoder.de/softbank-will-rekordkredit-von-bis-zu-40-milliarden-dollar-fuer-openai-beteiligung-aufnehmen/",
+      "date": "2026-03-06T16:06:20.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "OpenAI integriert ChatGPT direkt als Add-in in Microsoft Excel",
       "description": "OpenAI bringt ChatGPT als Add-in direkt in Microsoft Excel. Die Beta-Version namens \"ChatGPT for Excel\" ermöglicht es, Tabellen per Texteingabe zu erstellen, zu bearbeiten und zu analysieren.\nDer Arti",
@@ -47,6 +56,15 @@
       "language": "de"
     },
     {
+      "title": "How Balyasny Asset Management built an AI research engine for investing",
+      "description": "See how Balyasny built an AI research system with GPT-5.4, rigorous model evaluation, and agent workflows to transform investment analysis at scale.",
+      "link": "https://openai.com/index/balyasny-asset-management",
+      "date": "2026-03-06T07:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
       "title": "OpenAI startet KI-Modelle GPT-5.4 Thinking und Pro: Coding, Reasoning und Computer Use in einem Modell",
       "description": "OpenAI stellt mit GPT-5.4 sein bislang leistungsfähigstes Modell vor. Es vereint erstmals Coding, Computerbedienung und Reasoning in einem einzigen Modell.\nDer Artikel OpenAI startet KI-Modelle GPT-5.",
       "link": "https://the-decoder.de/openai-startet-ki-modelle-gpt-5-4-thinking-und-pro-coding-reasoning-und-computerbedienung-in-einem-modell/",
@@ -74,18 +92,9 @@
       "language": "de"
     },
     {
-      "title": "Tech-Giganten versprechen im Weißen Haus, Stromkosten für KI-Rechenzentren selbst zu tragen",
-      "description": "Google, Microsoft, Meta, Amazon, Oracle, xAI und OpenAI haben im Weißen Haus eine freiwillige Selbstverpflichtung unterzeichnet, die Stromkosten für ihre Rechenzentren selbst zu tragen.\nDer Artikel Te",
-      "link": "https://the-decoder.de/tech-giganten-versprechen-im-weissen-haus-stromkosten-fuer-ki-rechenzentren-selbst-zu-tragen/",
-      "date": "2026-03-05T14:43:18.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "GPT-5.4 Thinking System Card",
-      "description": "",
-      "link": "https://openai.com/index/gpt-5-4-thinking-system-card",
+      "title": "Reasoning models struggle to control their chains of thought, and that’s good",
+      "description": "OpenAI introduces CoT-Control and finds reasoning models struggle to control their chains of thought, reinforcing monitorability as an AI safety safeguard.",
+      "link": "https://openai.com/index/reasoning-models-chain-of-thought-controllability",
       "date": "2026-03-05T10:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
@@ -101,9 +110,9 @@
       "language": "en"
     },
     {
-      "title": "Reasoning models struggle to control their chains of thought, and that’s good",
-      "description": "OpenAI introduces CoT-Control and finds reasoning models struggle to control their chains of thought, reinforcing monitorability as an AI safety safeguard.",
-      "link": "https://openai.com/index/reasoning-models-chain-of-thought-controllability",
+      "title": "GPT-5.4 Thinking System Card",
+      "description": "",
+      "link": "https://openai.com/index/gpt-5-4-thinking-system-card",
       "date": "2026-03-05T10:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
@@ -122,15 +131,6 @@
       "title": "The five AI value models driving business reinvention",
       "description": "Five AI value models show how leaders can sequence AI from workforce fluency to process reinvention and build durable business advantage.",
       "link": "https://openai.com/index/the-five-ai-value-models-driving-business-reinvention",
-      "date": "2026-03-05T00:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "Introducing ChatGPT for Excel and new financial data integrations",
-      "description": "OpenAI introduces ChatGPT for Excel and new financial app integrations, powered by GPT-5.4 to accelerate modeling, research, and analysis in regulated environments.",
-      "link": "https://openai.com/index/chatgpt-for-excel",
       "date": "2026-03-05T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
