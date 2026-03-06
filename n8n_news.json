@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-06T20:36:09.390Z",
+  "lastUpdated": "2026-03-06T22:32:40.990Z",
   "news": [
     {
       "title": "WAXAL: A large-scale open resource for African language speech technology",
@@ -128,9 +128,9 @@
       "language": "de"
     },
     {
-      "title": "Introducing GPT-5.4",
-      "description": "Introducing GPT-5.4, OpenAI’s most most capable and efficient frontier model for professional work, with state-of-the-art coding, computer use, tool search, and 1M-token context.",
-      "link": "https://openai.com/index/introducing-gpt-5-4",
+      "title": "Reasoning models struggle to control their chains of thought, and that’s good",
+      "description": "OpenAI introduces CoT-Control and finds reasoning models struggle to control their chains of thought, reinforcing monitorability as an AI safety safeguard.",
+      "link": "https://openai.com/index/reasoning-models-chain-of-thought-controllability",
       "date": "2026-03-05T10:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
