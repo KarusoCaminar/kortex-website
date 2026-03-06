@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-03-06T16:47:18.247Z",
+  "lastUpdated": "2026-03-06T18:52:59.590Z",
   "news": [
+    {
+      "title": "Where wild things roam: Identifying wildlife with SpeciesNet",
+      "description": "Climate & Sustainability",
+      "link": "https://research.google/blog/where-wild-things-roam-identifying-wildlife-with-speciesnet/",
+      "date": "2026-03-06T17:59:38.000Z",
+      "source": "Google AI",
+      "category": "große-modelle",
+      "language": "en"
+    },
     {
       "title": "Softbank will Rekordkredit von bis zu 40 Milliarden Dollar für OpenAI-Beteiligung aufnehmen",
       "description": "40 Milliarden Dollar Kredit für eine einzige Wette auf OpenAI. Softbank treibt auf die Spitze, was die KI-Branche längst tut: den Boom auf Pump finanzieren.\nDer Artikel Softbank will Rekordkredit von",
@@ -45,6 +54,24 @@
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
+    },
+    {
+      "title": "Codex Security: now in research preview",
+      "description": "Codex Security is an AI application security agent that analyzes project context to detect, validate, and patch complex vulnerabilities with higher confidence and less noise.",
+      "link": "https://openai.com/index/codex-security-now-in-research-preview",
+      "date": "2026-03-06T10:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
+      "title": "How Descript enables multilingual video dubbing at scale",
+      "description": "Descript uses OpenAI models to scale multilingual video dubbing, optimizing translations for both meaning and timing so dubbed speech sounds natural across languages.",
+      "link": "https://openai.com/index/descript",
+      "date": "2026-03-06T10:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
     },
     {
       "title": "KI-Adoption steigt rasant: Claude verzeichnet massives Nutzerwachstum",
@@ -92,15 +119,6 @@
       "language": "de"
     },
     {
-      "title": "Reasoning models struggle to control their chains of thought, and that’s good",
-      "description": "OpenAI introduces CoT-Control and finds reasoning models struggle to control their chains of thought, reinforcing monitorability as an AI safety safeguard.",
-      "link": "https://openai.com/index/reasoning-models-chain-of-thought-controllability",
-      "date": "2026-03-05T10:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
       "title": "Introducing GPT-5.4",
       "description": "Introducing GPT-5.4, OpenAI’s most most capable and efficient frontier model for professional work, with state-of-the-art coding, computer use, tool search, and 1M-token context.",
       "link": "https://openai.com/index/introducing-gpt-5-4",
@@ -110,28 +128,10 @@
       "language": "en"
     },
     {
-      "title": "GPT-5.4 Thinking System Card",
-      "description": "",
-      "link": "https://openai.com/index/gpt-5-4-thinking-system-card",
+      "title": "Reasoning models struggle to control their chains of thought, and that’s good",
+      "description": "OpenAI introduces CoT-Control and finds reasoning models struggle to control their chains of thought, reinforcing monitorability as an AI safety safeguard.",
+      "link": "https://openai.com/index/reasoning-models-chain-of-thought-controllability",
       "date": "2026-03-05T10:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "Ensuring AI use in education leads to opportunity",
-      "description": "OpenAI shares new tools, certifications, and measurement resources to help schools and universities close AI capability gaps and expand opportunity.",
-      "link": "https://openai.com/index/ai-education-opportunity",
-      "date": "2026-03-05T09:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "The five AI value models driving business reinvention",
-      "description": "Five AI value models show how leaders can sequence AI from workforce fluency to process reinvention and build durable business advantage.",
-      "link": "https://openai.com/index/the-five-ai-value-models-driving-business-reinvention",
-      "date": "2026-03-05T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
