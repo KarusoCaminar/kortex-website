@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-03-06T13:03:39.998Z",
+  "lastUpdated": "2026-03-06T14:39:52.852Z",
   "news": [
+    {
+      "title": "OpenAI integriert ChatGPT direkt als Add-in in Microsoft Excel",
+      "description": "OpenAI bringt ChatGPT als Add-in direkt in Microsoft Excel. Die Beta-Version namens \"ChatGPT for Excel\" ermöglicht es, Tabellen per Texteingabe zu erstellen, zu bearbeiten und zu analysieren.\nDer Arti",
+      "link": "https://the-decoder.de/openai-integriert-chatgpt-direkt-als-add-in-in-microsoft-excel/",
+      "date": "2026-03-06T13:27:38.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Oracle streicht tausende Stellen wegen hoher KI-Kosten",
       "description": "Oracle plant die Streichung tausender Stellen, um die hohen Kosten für den massiven Ausbau seiner KI-Rechenzentren zu bewältigen, berichtet Bloomberg.\nDer Artikel Oracle streicht tausende Stellen wege",
@@ -69,15 +78,6 @@
       "description": "Google, Microsoft, Meta, Amazon, Oracle, xAI und OpenAI haben im Weißen Haus eine freiwillige Selbstverpflichtung unterzeichnet, die Stromkosten für ihre Rechenzentren selbst zu tragen.\nDer Artikel Te",
       "link": "https://the-decoder.de/tech-giganten-versprechen-im-weissen-haus-stromkosten-fuer-ki-rechenzentren-selbst-zu-tragen/",
       "date": "2026-03-05T14:43:18.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Apple Music kennzeichnet KI-Musik, verlässt sich aber auf die Labels",
-      "description": "Apple Music führt Transparency Tags ein, mit denen Labels und Distributoren KI-generierte Inhalte in vier Bereichen kennzeichnen sollen: Artwork, Tracks, Kompositionen und Musikvideos.\nDer Artikel App",
-      "link": "https://the-decoder.de/apple-music-kennzeichnet-ki-musik-verlaesst-sich-aber-auf-die-labels/",
-      "date": "2026-03-05T14:21:30.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
