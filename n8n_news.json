@@ -1,6 +1,51 @@
 {
-  "lastUpdated": "2026-03-07T10:27:38.795Z",
+  "lastUpdated": "2026-03-07T12:54:49.393Z",
   "news": [
+    {
+      "title": "Anthropics KI-Modell Claude findet mehr als 100 Sicherheitslücken in Firefox",
+      "description": "Anthropics KI-Modell Claude hat in Firefox über 100 Fehler gefunden, darunter Schwachstellen, die jahrzehntelange Tests übersehen hatten.\nDer Artikel Anthropics KI-Modell Claude findet mehr als 100 Si",
+      "link": "https://the-decoder.de/anthropics-ki-modell-claude-findet-mehr-als-100-sicherheitsluecken-in-firefox/",
+      "date": "2026-03-07T12:35:41.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Wenn Sprachmodelle halluzinieren: \"Verschüttete Energie\" verrät falsche KI-Antworten",
+      "description": "Wenn große Sprachmodelle halluzinieren, hinterlassen sie messbare Spuren in ihren eigenen Berechnungen. Forscher der Sapienza Universität Rom haben eine trainingsfreie Methode entwickelt, die diese Sp",
+      "link": "https://the-decoder.de/wenn-sprachmodelle-halluzinieren-verschuettete-energie-verraet-falsche-ki-antworten/",
+      "date": "2026-03-07T12:05:45.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "OpenAI bietet Open-Source-Entwicklern kostenlosen Zugang zu ChatGPT Pro und mehr",
+      "description": "OpenAI unterstützt Open-Source-Entwickler mit kostenlosem Zugang zu ChatGPT Pro, Codex und Sicherheits-Tools.\nDer Artikel OpenAI bietet Open-Source-Entwicklern kostenlosen Zugang zu ChatGPT Pro und me",
+      "link": "https://the-decoder.de/openai-bietet-open-source-entwicklern-kostenlosen-zugang-zu-chatgpt-pro-und-mehr/",
+      "date": "2026-03-07T11:44:29.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "200-Dollar-Abo für 5000 Dollar Rechenkosten: Anthropic soll Claude Code stark subventionieren",
+      "description": "Wenn der Modellanbieter zum Konkurrenten wird: Wie Anthropic mit aggressiven Subventionen den Markt für Coding-KI unter Druck setzt und Cursor zwingt, eigene Modelle zu bauen.\nDer Artikel 200-Dollar-A",
+      "link": "https://the-decoder.de/200-dollar-abo-fuer-5000-dollar-rechenkosten-anthropic-soll-claude-code-stark-subventionieren/",
+      "date": "2026-03-07T11:21:57.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Helios: Bytedance-Forschungsmodell generiert KI-Videos so schnell, wie sie abgespielt werden",
+      "description": "Helios soll als erstes 14B-Videomodell 19,5 FPS auf einer einzelnen GPU erreichen und minutenlange Videos erzeugen. Code und Modell sind offen verfügbar.\nDer Artikel Helios: Bytedance-Forschungsmodell",
+      "link": "https://the-decoder.de/helios-bytedance-forschungsmodell-generiert-ki-videos-so-schnell-wie-sie-abgespielt-werden/",
+      "date": "2026-03-07T10:41:47.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "OpenAI stoppt Erweiterung seines Rechenzentrums in Texas",
       "description": "OpenAI baut seinen Stargate-Standort in Texas nicht weiter aus und setzt stattdessen auf Nvidias nächste Chipgeneration an neuen Standorten.\nDer Artikel OpenAI stoppt Erweiterung seines Rechenzentrums",
@@ -56,15 +101,6 @@
       "language": "en"
     },
     {
-      "title": "OpenAI startet Codex Security zur Erkennung von Sicherheitslücken in Software-Projekten",
-      "description": "KI als Sicherheitsforscher: OpenAI lässt Codex Security automatisch nach Schwachstellen in Code suchen und hat damit bereits Lücken in OpenSSH und Chromium gefunden.\nDer Artikel OpenAI startet Codex S",
-      "link": "https://the-decoder.de/openai-startet-codex-security-zur-erkennung-von-sicherheitsluecken-in-software-projekten/",
-      "date": "2026-03-06T19:09:51.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "Where wild things roam: Identifying wildlife with SpeciesNet",
       "description": "Climate & Sustainability",
       "link": "https://research.google/blog/where-wild-things-roam-identifying-wildlife-with-speciesnet/",
@@ -72,33 +108,6 @@
       "source": "Google AI",
       "category": "große-modelle",
       "language": "en"
-    },
-    {
-      "title": "Softbank will Rekordkredit von bis zu 40 Milliarden Dollar für OpenAI-Beteiligung aufnehmen",
-      "description": "40 Milliarden Dollar Kredit für eine einzige Wette auf OpenAI. Softbank treibt auf die Spitze, was die KI-Branche längst tut: den Boom auf Pump finanzieren.\nDer Artikel Softbank will Rekordkredit von",
-      "link": "https://the-decoder.de/softbank-will-rekordkredit-von-bis-zu-40-milliarden-dollar-fuer-openai-beteiligung-aufnehmen/",
-      "date": "2026-03-06T16:06:20.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "OpenAI integriert ChatGPT direkt als Add-in in Microsoft Excel",
-      "description": "OpenAI bringt ChatGPT als Add-in direkt in Microsoft Excel. Die Beta-Version namens \"ChatGPT for Excel\" ermöglicht es, Tabellen per Texteingabe zu erstellen, zu bearbeiten und zu analysieren.\nDer Arti",
-      "link": "https://the-decoder.de/openai-integriert-chatgpt-direkt-als-add-in-in-microsoft-excel/",
-      "date": "2026-03-06T13:27:38.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Oracle streicht tausende Stellen wegen hoher KI-Kosten",
-      "description": "Oracle plant die Streichung tausender Stellen, um die hohen Kosten für den massiven Ausbau seiner KI-Rechenzentren zu bewältigen, berichtet Bloomberg.\nDer Artikel Oracle streicht tausende Stellen wege",
-      "link": "https://the-decoder.de/oracle-streicht-tausende-stellen-wegen-hoher-ki-kosten/",
-      "date": "2026-03-06T12:42:00.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
     },
     {
       "title": "Codex Security: now in research preview",
@@ -123,15 +132,6 @@
       "description": "See how Balyasny built an AI research system with GPT-5.4, rigorous model evaluation, and agent workflows to transform investment analysis at scale.",
       "link": "https://openai.com/index/balyasny-asset-management",
       "date": "2026-03-06T07:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "GPT-5.4 Thinking System Card",
-      "description": "",
-      "link": "https://openai.com/index/gpt-5-4-thinking-system-card",
-      "date": "2026-03-05T10:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
