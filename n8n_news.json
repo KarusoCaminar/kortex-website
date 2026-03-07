@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-07T18:38:37.112Z",
+  "lastUpdated": "2026-03-07T20:29:56.737Z",
   "news": [
     {
       "title": "Nach Anthropic-Eklat: US-Regierung plant strenge neue Richtlinien für staatliche KI-Verträge",
@@ -110,18 +110,18 @@
       "language": "en"
     },
     {
-      "title": "Codex Security: now in research preview",
-      "description": "Codex Security is an AI application security agent that analyzes project context to detect, validate, and patch complex vulnerabilities with higher confidence and less noise.",
-      "link": "https://openai.com/index/codex-security-now-in-research-preview",
+      "title": "How Descript enables multilingual video dubbing at scale",
+      "description": "Descript uses OpenAI models to scale multilingual video dubbing, optimizing translations for both meaning and timing so dubbed speech sounds natural across languages.",
+      "link": "https://openai.com/index/descript",
       "date": "2026-03-06T10:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
     },
     {
-      "title": "How Descript enables multilingual video dubbing at scale",
-      "description": "Descript uses OpenAI models to scale multilingual video dubbing, optimizing translations for both meaning and timing so dubbed speech sounds natural across languages.",
-      "link": "https://openai.com/index/descript",
+      "title": "Codex Security: now in research preview",
+      "description": "Codex Security is an AI application security agent that analyzes project context to detect, validate, and patch complex vulnerabilities with higher confidence and less noise.",
+      "link": "https://openai.com/index/codex-security-now-in-research-preview",
       "date": "2026-03-06T10:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
