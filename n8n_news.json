@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-03-07T06:47:11.384Z",
+  "lastUpdated": "2026-03-07T08:35:57.593Z",
   "news": [
+    {
+      "title": "Benchmark offenbart fundamentale Engpässe heutiger Video-KI",
+      "description": "Ein internationales Forscherteam stellt den bislang größten Datensatz für Video-Reasoning vor, rund tausendmal umfangreicher als bisherige Alternativen. Die Ergebnisse offenbaren, dass selbst Sora 2 u",
+      "link": "https://the-decoder.de/benchmark-offenbart-fundamentale-engpaesse-heutiger-video-ki/",
+      "date": "2026-03-07T07:54:25.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "WAXAL: A large-scale open resource for African language speech technology",
       "description": "Natural Language Processing",
@@ -114,15 +123,6 @@
       "description": "OpenAI stellt mit GPT-5.4 sein bislang leistungsfähigstes Modell vor. Es vereint erstmals Coding, Computerbedienung und Reasoning in einem einzigen Modell.\nDer Artikel OpenAI startet KI-Modelle GPT-5.",
       "link": "https://the-decoder.de/openai-startet-ki-modelle-gpt-5-4-thinking-und-pro-coding-reasoning-und-computerbedienung-in-einem-modell/",
       "date": "2026-03-05T18:52:40.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "OpenAI stoppt Pläne für direkte Bezahlfunktion in ChatGPT vorerst",
-      "description": "OpenAI wollte Millionen von Produkten direkt in ChatGPT verkaufen, doch nur rund ein Dutzend Händler machten mit. Nutzer recherchierten zwar Produkte im Chatbot, kauften dort aber nicht. Jetzt verlage",
-      "link": "https://the-decoder.de/openai-stoppt-plaene-fuer-direkte-bezahlfunktion-in-chatgpt-vorerst/",
-      "date": "2026-03-05T17:04:30.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
