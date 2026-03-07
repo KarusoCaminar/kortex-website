@@ -1,6 +1,42 @@
 {
-  "lastUpdated": "2026-03-07T08:35:57.593Z",
+  "lastUpdated": "2026-03-07T10:27:38.795Z",
   "news": [
+    {
+      "title": "OpenAI stoppt Erweiterung seines Rechenzentrums in Texas",
+      "description": "OpenAI baut seinen Stargate-Standort in Texas nicht weiter aus und setzt stattdessen auf Nvidias nächste Chipgeneration an neuen Standorten.\nDer Artikel OpenAI stoppt Erweiterung seines Rechenzentrums",
+      "link": "https://the-decoder.de/openai-stoppt-erweiterung-seines-rechenzentrums-in-texas/",
+      "date": "2026-03-07T10:09:39.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Neues Feature für Claude Code: KI erledigt Aufgaben nach Zeitplan",
+      "description": "Claude Code bekommt ein weiteres Update: Anthropics Coding-Tool für den Desktop erhält eine Funktion für lokale, geplante Aufgaben. \nDer Artikel Neues Feature für Claude Code: KI erledigt Aufgaben nac",
+      "link": "https://the-decoder.de/neues-feature-fuer-claude-code-ki-erledigt-aufgaben-nach-zeitplan/",
+      "date": "2026-03-07T09:36:58.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Trotz Pentagon-Bann: Google, AWS und Microsoft halten an Anthropics KI-Modellen fest",
+      "description": "Anthropic im Clinch mit dem Pentagon: Google, Amazon und Microsoft stellen sich hinter ihren KI-Partner, zumindest außerhalb des Militärs.\nDer Artikel Trotz Pentagon-Bann: Google, AWS und Microsoft ha",
+      "link": "https://the-decoder.de/trotz-pentagon-bann-google-aws-und-microsoft-halten-an-anthropics-ki-modellen-fest/",
+      "date": "2026-03-07T09:21:48.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Anthropic Marketplace: Claude.ai-Kunden können Drittanbieter-Apps ohne Zusatzgebühren nutzen",
+      "description": "Anthropic will mehr sein als ein Modell-Anbieter und startet dafür einen eigenen Software-Marktplatz.\nDer Artikel Anthropic Marketplace: Claude.ai-Kunden können Drittanbieter-Apps ohne Zusatzgebühren",
+      "link": "https://the-decoder.de/anthropic-marketplace-claude-ai-kunden-koennen-drittanbieter-apps-ohne-zusatzgebuehren-nutzen/",
+      "date": "2026-03-07T08:51:14.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Benchmark offenbart fundamentale Engpässe heutiger Video-KI",
       "description": "Ein internationales Forscherteam stellt den bislang größten Datensatz für Video-Reasoning vor, rund tausendmal umfangreicher als bisherige Alternativen. Die Ergebnisse offenbaren, dass selbst Sora 2 u",
@@ -65,24 +101,6 @@
       "language": "de"
     },
     {
-      "title": "KI-Modelle können ihre eigenen Gedanken kaum kontrollieren, und OpenAI hält das für eine gute Nachricht",
-      "description": "Mit GPT-5.4 Thinking berichtet OpenAI erstmals über die \"CoT-Kontrollierbarkeit\" eines Modells. Eine begleitende Studie zeigt: Reasoning-Modelle scheitern fast durchgängig daran, ihre Gedankenketten g",
-      "link": "https://the-decoder.de/ki-modelle-koennen-ihre-eigenen-gedanken-kaum-kontrollieren-und-openai-haelt-das-fuer-eine-gute-nachricht/",
-      "date": "2026-03-06T11:55:06.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "\"KI klaut Jobs\": Anthropic-Studie findet am Arbeitsmarkt keine Beweise für häufige Behauptung",
-      "description": "Anthropic hat ein neues Maß entwickelt, das theoretische KI-Fähigkeiten mit realen Nutzungsdaten kombiniert. Das Ergebnis: Programmierer und Kundenservice-Mitarbeiter sind am stärksten exponiert, doch",
-      "link": "https://the-decoder.de/ki-klaut-jobs-anthropic-studie-findet-am-arbeitsmarkt-keine-beweise-fuer-haeufige-behauptung/",
-      "date": "2026-03-06T10:01:03.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "Codex Security: now in research preview",
       "description": "Codex Security is an AI application security agent that analyzes project context to detect, validate, and patch complex vulnerabilities with higher confidence and less noise.",
       "link": "https://openai.com/index/codex-security-now-in-research-preview",
@@ -101,15 +119,6 @@
       "language": "en"
     },
     {
-      "title": "KI-Adoption steigt rasant: Claude verzeichnet massives Nutzerwachstum",
-      "description": "Über eine Million neue Nutzer pro Tag: Anthropics Claude wächst rasant. Anthropic und OpenAI verdoppeln seit Oktober 2025 ihren Jahresumsatz.\nDer Artikel KI-Adoption steigt rasant: Claude verzeichnet",
-      "link": "https://the-decoder.de/ki-adoption-steigt-rasant-claude-verzeichnet-massives-nutzerwachstum/",
-      "date": "2026-03-06T08:11:58.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "How Balyasny Asset Management built an AI research engine for investing",
       "description": "See how Balyasny built an AI research system with GPT-5.4, rigorous model evaluation, and agent workflows to transform investment analysis at scale.",
       "link": "https://openai.com/index/balyasny-asset-management",
@@ -119,18 +128,9 @@
       "language": "en"
     },
     {
-      "title": "OpenAI startet KI-Modelle GPT-5.4 Thinking und Pro: Coding, Reasoning und Computer Use in einem Modell",
-      "description": "OpenAI stellt mit GPT-5.4 sein bislang leistungsfähigstes Modell vor. Es vereint erstmals Coding, Computerbedienung und Reasoning in einem einzigen Modell.\nDer Artikel OpenAI startet KI-Modelle GPT-5.",
-      "link": "https://the-decoder.de/openai-startet-ki-modelle-gpt-5-4-thinking-und-pro-coding-reasoning-und-computerbedienung-in-einem-modell/",
-      "date": "2026-03-05T18:52:40.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Reasoning models struggle to control their chains of thought, and that’s good",
-      "description": "OpenAI introduces CoT-Control and finds reasoning models struggle to control their chains of thought, reinforcing monitorability as an AI safety safeguard.",
-      "link": "https://openai.com/index/reasoning-models-chain-of-thought-controllability",
+      "title": "GPT-5.4 Thinking System Card",
+      "description": "",
+      "link": "https://openai.com/index/gpt-5-4-thinking-system-card",
       "date": "2026-03-05T10:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
