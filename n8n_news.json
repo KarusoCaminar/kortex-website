@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-03-07T16:32:05.227Z",
+  "lastUpdated": "2026-03-07T18:38:37.112Z",
   "news": [
+    {
+      "title": "Nach Anthropic-Eklat: US-Regierung plant strenge neue Richtlinien für staatliche KI-Verträge",
+      "description": "Neue US-Richtlinien für KI-Verträge verlangen von Unternehmen eine unwiderrufliche Lizenz für alle legalen Zwecke und verbieten ideologische Vorgaben in KI-Modellen, was natürlich einer eigenen Ideolo",
+      "link": "https://the-decoder.de/nach-anthropic-eklat-us-regierung-plant-strenge-neue-richtlinien-fuer-staatliche-ki-vertraege/",
+      "date": "2026-03-07T18:03:33.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Anthropics KI-Modell Claude findet mehr als 100 Sicherheitslücken in Firefox",
       "description": "Anthropics KI-Modell Claude hat in Firefox über 100 Fehler gefunden, darunter Schwachstellen, die jahrzehntelange Tests übersehen hatten.\nDer Artikel Anthropics KI-Modell Claude findet mehr als 100 Si",
@@ -78,15 +87,6 @@
       "description": "Anthropic will mehr sein als ein Modell-Anbieter und startet dafür einen eigenen Software-Marktplatz.\nDer Artikel Anthropic Marketplace: Claude.ai-Kunden können Drittanbieter-Apps ohne Zusatzgebühren",
       "link": "https://the-decoder.de/anthropic-marketplace-claude-ai-kunden-koennen-drittanbieter-apps-ohne-zusatzgebuehren-nutzen/",
       "date": "2026-03-07T08:51:14.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Benchmark offenbart fundamentale Engpässe heutiger Video-KI",
-      "description": "Ein internationales Forscherteam stellt den bislang größten Datensatz für Video-Reasoning vor, rund tausendmal umfangreicher als bisherige Alternativen. Die Ergebnisse offenbaren, dass selbst Sora 2 u",
-      "link": "https://the-decoder.de/benchmark-offenbart-fundamentale-engpaesse-heutiger-video-ki/",
-      "date": "2026-03-07T07:54:25.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
