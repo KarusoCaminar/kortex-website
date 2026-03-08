@@ -1,6 +1,33 @@
 {
-  "lastUpdated": "2026-03-08T06:49:46.285Z",
+  "lastUpdated": "2026-03-08T08:35:45.233Z",
   "news": [
+    {
+      "title": "OpenAI-Robotik-Chefin kündigt aus Protest gegen Pentagon-Deal",
+      "description": "OpenAI-Robotik-Chefin Caitlin Kalinowski kündigt aus Protest gegen den Pentagon-Vertrag des Unternehmens.\nDer Artikel OpenAI-Robotik-Chefin kündigt aus Protest gegen Pentagon-Deal erschien zuerst auf",
+      "link": "https://the-decoder.de/openai-robotik-chefin-kuendigt-aus-protest-gegen-pentagon-deal/",
+      "date": "2026-03-08T08:00:09.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Luma AI Uni-1: Neues Bildmodell vereint Bildverständnis und Bilderzeugung",
+      "description": "Luma AI fordert mit Uni-1 OpenAI und Google heraus: Das neue Modell vereint Bildverständnis und Bilderzeugung in einer Architektur und denkt beim Generieren mit.\nDer Artikel Luma AI Uni-1: Neues Bildm",
+      "link": "https://the-decoder.de/luma-ai-uni-1-neues-bildmodell-vereint-bildverstaendnis-und-bilderzeugung/",
+      "date": "2026-03-08T07:48:52.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "KI-Agenten werden laut Studie an der realen Arbeitswelt vorbei entwickelt",
+      "description": "Wie gut bilden KI-Agenten die tatsächliche Arbeitswelt ab? Eine großangelegte Studie legt offen, dass die Entwicklung von KI-Agenten fast ausschließlich auf Programmieraufgaben ausgerichtet ist und de",
+      "link": "https://the-decoder.de/ki-agenten-werden-laut-studie-an-der-realen-arbeitswelt-vorbei-entwickelt/",
+      "date": "2026-03-08T07:15:20.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Nach Anthropic-Eklat: US-Regierung plant strenge neue Richtlinien für staatliche KI-Verträge",
       "description": "Neue US-Richtlinien für KI-Verträge verlangen von Unternehmen eine unwiderrufliche Lizenz für alle legalen Zwecke und verbieten ideologische Vorgaben in KI-Modellen, was natürlich einer eigenen Ideolo",
@@ -65,33 +92,6 @@
       "language": "de"
     },
     {
-      "title": "Neues Feature für Claude Code: KI erledigt Aufgaben nach Zeitplan",
-      "description": "Claude Code bekommt ein weiteres Update: Anthropics Coding-Tool für den Desktop erhält eine Funktion für lokale, geplante Aufgaben. \nDer Artikel Neues Feature für Claude Code: KI erledigt Aufgaben nac",
-      "link": "https://the-decoder.de/neues-feature-fuer-claude-code-ki-erledigt-aufgaben-nach-zeitplan/",
-      "date": "2026-03-07T09:36:58.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Trotz Pentagon-Bann: Google, AWS und Microsoft halten an Anthropics KI-Modellen fest",
-      "description": "Anthropic im Clinch mit dem Pentagon: Google, Amazon und Microsoft stellen sich hinter ihren KI-Partner, zumindest außerhalb des Militärs.\nDer Artikel Trotz Pentagon-Bann: Google, AWS und Microsoft ha",
-      "link": "https://the-decoder.de/trotz-pentagon-bann-google-aws-und-microsoft-halten-an-anthropics-ki-modellen-fest/",
-      "date": "2026-03-07T09:21:48.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Anthropic Marketplace: Claude.ai-Kunden können Drittanbieter-Apps ohne Zusatzgebühren nutzen",
-      "description": "Anthropic will mehr sein als ein Modell-Anbieter und startet dafür einen eigenen Software-Marktplatz.\nDer Artikel Anthropic Marketplace: Claude.ai-Kunden können Drittanbieter-Apps ohne Zusatzgebühren",
-      "link": "https://the-decoder.de/anthropic-marketplace-claude-ai-kunden-koennen-drittanbieter-apps-ohne-zusatzgebuehren-nutzen/",
-      "date": "2026-03-07T08:51:14.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "WAXAL: A large-scale open resource for African language speech technology",
       "description": "Natural Language Processing",
       "link": "https://research.google/blog/waxal-a-large-scale-open-resource-for-african-language-speech-technology/",
@@ -110,18 +110,18 @@
       "language": "en"
     },
     {
-      "title": "How Descript enables multilingual video dubbing at scale",
-      "description": "Descript uses OpenAI models to scale multilingual video dubbing, optimizing translations for both meaning and timing so dubbed speech sounds natural across languages.",
-      "link": "https://openai.com/index/descript",
+      "title": "Codex Security: now in research preview",
+      "description": "Codex Security is an AI application security agent that analyzes project context to detect, validate, and patch complex vulnerabilities with higher confidence and less noise.",
+      "link": "https://openai.com/index/codex-security-now-in-research-preview",
       "date": "2026-03-06T10:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
     },
     {
-      "title": "Codex Security: now in research preview",
-      "description": "Codex Security is an AI application security agent that analyzes project context to detect, validate, and patch complex vulnerabilities with higher confidence and less noise.",
-      "link": "https://openai.com/index/codex-security-now-in-research-preview",
+      "title": "How Descript enables multilingual video dubbing at scale",
+      "description": "Descript uses OpenAI models to scale multilingual video dubbing, optimizing translations for both meaning and timing so dubbed speech sounds natural across languages.",
+      "link": "https://openai.com/index/descript",
       "date": "2026-03-06T10:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
