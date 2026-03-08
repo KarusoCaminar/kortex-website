@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-03-08T08:35:45.233Z",
+  "lastUpdated": "2026-03-08T10:29:05.743Z",
   "news": [
+    {
+      "title": "Erfundene Quellen haben sich bereits in die wissenschaftliche Literatur eingeschlichen",
+      "description": "Akzeptierte Papers bei führenden KI-Konferenzen enthalten nachweislich halluzinierte Referenzen, also Quellenangaben, die auf keine reale Publikation verweisen. Ein neues Tool namens CiteAudit soll da",
+      "link": "https://the-decoder.de/erfundene-quellen-haben-sich-bereits-in-die-wissenschaftliche-literatur-eingeschlichen/",
+      "date": "2026-03-08T09:00:25.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "OpenAI-Robotik-Chefin kündigt aus Protest gegen Pentagon-Deal",
       "description": "OpenAI-Robotik-Chefin Caitlin Kalinowski kündigt aus Protest gegen den Pentagon-Vertrag des Unternehmens.\nDer Artikel OpenAI-Robotik-Chefin kündigt aus Protest gegen Pentagon-Deal erschien zuerst auf",
@@ -78,15 +87,6 @@
       "description": "Helios soll als erstes 14B-Videomodell 19,5 FPS auf einer einzelnen GPU erreichen und minutenlange Videos erzeugen. Code und Modell sind offen verfügbar.\nDer Artikel Helios: Bytedance-Forschungsmodell",
       "link": "https://the-decoder.de/helios-bytedance-forschungsmodell-generiert-ki-videos-so-schnell-wie-sie-abgespielt-werden/",
       "date": "2026-03-07T10:41:47.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "OpenAI stoppt Erweiterung seines Rechenzentrums in Texas",
-      "description": "OpenAI baut seinen Stargate-Standort in Texas nicht weiter aus und setzt stattdessen auf Nvidias nächste Chipgeneration an neuen Standorten.\nDer Artikel OpenAI stoppt Erweiterung seines Rechenzentrums",
-      "link": "https://the-decoder.de/openai-stoppt-erweiterung-seines-rechenzentrums-in-texas/",
-      "date": "2026-03-07T10:09:39.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
