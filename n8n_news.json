@@ -1,9 +1,18 @@
 {
-  "lastUpdated": "2026-03-08T10:29:05.743Z",
+  "lastUpdated": "2026-03-08T12:56:12.126Z",
   "news": [
     {
+      "title": "Meta-Forscher trainieren multimodales KI-Modell von Grund auf und widerlegen gängige Annahmen",
+      "description": "Ein Forschungsteam von Meta FAIR und der New York University hat systematisch untersucht, wie sich multimodale KI-Modelle von Grund auf trainieren lassen. Die Ergebnisse stellen mehrere verbreitete An",
+      "link": "https://the-decoder.de/meta-forscher-trainieren-multimodales-ki-modell-von-grund-auf-und-widerlegen-gaengige-annahmen/",
+      "date": "2026-03-08T11:00:54.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
       "title": "Erfundene Quellen haben sich bereits in die wissenschaftliche Literatur eingeschlichen",
-      "description": "Akzeptierte Papers bei führenden KI-Konferenzen enthalten nachweislich halluzinierte Referenzen, also Quellenangaben, die auf keine reale Publikation verweisen. Ein neues Tool namens CiteAudit soll da",
+      "description": "Gefälschte Zitate rutschen durch das Peer-Review führender KI-Konferenzen und kommerzielle LLMs erkennen ihre eigenen Fakes nicht. Ein neues Open-Source-Tool namens CiteAudit soll finden, was GPT, Gem",
       "link": "https://the-decoder.de/erfundene-quellen-haben-sich-bereits-in-die-wissenschaftliche-literatur-eingeschlichen/",
       "date": "2026-03-08T09:00:25.000Z",
       "source": "The Decoder",
@@ -78,15 +87,6 @@
       "description": "Wenn der Modellanbieter zum Konkurrenten wird: Wie Anthropic mit aggressiven Subventionen den Markt für Coding-KI unter Druck setzt und Cursor zwingt, eigene Modelle zu bauen.\nDer Artikel 200-Dollar-A",
       "link": "https://the-decoder.de/200-dollar-abo-fuer-5000-dollar-rechenkosten-anthropic-soll-claude-code-stark-subventionieren/",
       "date": "2026-03-07T11:21:57.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Helios: Bytedance-Forschungsmodell generiert KI-Videos so schnell, wie sie abgespielt werden",
-      "description": "Helios soll als erstes 14B-Videomodell 19,5 FPS auf einer einzelnen GPU erreichen und minutenlange Videos erzeugen. Code und Modell sind offen verfügbar.\nDer Artikel Helios: Bytedance-Forschungsmodell",
-      "link": "https://the-decoder.de/helios-bytedance-forschungsmodell-generiert-ki-videos-so-schnell-wie-sie-abgespielt-werden/",
-      "date": "2026-03-07T10:41:47.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
