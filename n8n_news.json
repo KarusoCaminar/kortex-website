@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-03-09T14:54:54.847Z",
+  "lastUpdated": "2026-03-09T16:59:27.461Z",
   "news": [
+    {
+      "title": "Keine KI für autonome Waffen und Massenüberwachung: Anthropic zieht gegen US-Regierung vor Gericht",
+      "description": "Anthropic hat Klage gegen 17 US-Bundesbehörden eingereicht. Die 48-seitige Klageschrift zeigt, wie tief Claude bereits in klassifizierte Pentagon-Systeme integriert ist; und wie die Regierung das Unte",
+      "link": "https://the-decoder.de/keine-ki-fuer-autonome-waffen-und-massenueberwachung-anthropic-zieht-gegen-us-regierung-vor-gericht/",
+      "date": "2026-03-09T16:53:22.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Millionen Menschen nutzen KI-Chatbots bereits als Finanzberater",
       "description": "Millionen Menschen nutzen bereits Chatbots wie ChatGPT für ihre Rentenplanung, berichtet die Financial Times.\nDer Artikel Millionen Menschen nutzen KI-Chatbots bereits als Finanzberater erschien zuers",
@@ -83,15 +92,6 @@
       "language": "de"
     },
     {
-      "title": "KI-Agenten werden laut Studie an der realen Arbeitswelt vorbei entwickelt",
-      "description": "Wie gut bilden KI-Agenten die tatsächliche Arbeitswelt ab? Eine großangelegte Studie legt offen, dass die Entwicklung von KI-Agenten fast ausschließlich auf Programmieraufgaben ausgerichtet ist und de",
-      "link": "https://the-decoder.de/ki-agenten-werden-laut-studie-an-der-realen-arbeitswelt-vorbei-entwickelt/",
-      "date": "2026-03-08T07:15:20.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "WAXAL: A large-scale open resource for African language speech technology",
       "description": "Natural Language Processing",
       "link": "https://research.google/blog/waxal-a-large-scale-open-resource-for-african-language-speech-technology/",
@@ -110,18 +110,18 @@
       "language": "en"
     },
     {
-      "title": "Codex Security: now in research preview",
-      "description": "Codex Security is an AI application security agent that analyzes project context to detect, validate, and patch complex vulnerabilities with higher confidence and less noise.",
-      "link": "https://openai.com/index/codex-security-now-in-research-preview",
+      "title": "How Descript enables multilingual video dubbing at scale",
+      "description": "Descript uses OpenAI models to scale multilingual video dubbing, optimizing translations for both meaning and timing so dubbed speech sounds natural across languages.",
+      "link": "https://openai.com/index/descript",
       "date": "2026-03-06T10:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
     },
     {
-      "title": "How Descript enables multilingual video dubbing at scale",
-      "description": "Descript uses OpenAI models to scale multilingual video dubbing, optimizing translations for both meaning and timing so dubbed speech sounds natural across languages.",
-      "link": "https://openai.com/index/descript",
+      "title": "Codex Security: now in research preview",
+      "description": "Codex Security is an AI application security agent that analyzes project context to detect, validate, and patch complex vulnerabilities with higher confidence and less noise.",
+      "link": "https://openai.com/index/codex-security-now-in-research-preview",
       "date": "2026-03-06T10:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
