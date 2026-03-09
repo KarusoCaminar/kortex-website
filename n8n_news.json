@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-03-09T13:11:20.954Z",
+  "lastUpdated": "2026-03-09T14:54:54.847Z",
   "news": [
+    {
+      "title": "Millionen Menschen nutzen KI-Chatbots bereits als Finanzberater",
+      "description": "Millionen Menschen nutzen bereits Chatbots wie ChatGPT für ihre Rentenplanung, berichtet die Financial Times.\nDer Artikel Millionen Menschen nutzen KI-Chatbots bereits als Finanzberater erschien zuers",
+      "link": "https://the-decoder.de/millionen-menschen-nutzen-ki-chatbots-bereits-als-finanzberater/",
+      "date": "2026-03-09T13:26:30.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Neues Omnimodell: OpenAI-Mitarbeiter deuten auf nächste KI-Generation hin",
       "description": "Ein neues Omnimodell und natürlichere Sprachgespräche: OpenAI-Mitarbeiter deuten gleich zwei große Projekte an.\nDer Artikel Neues Omnimodell: OpenAI-Mitarbeiter deuten auf nächste KI-Generation hin er",
@@ -83,15 +92,6 @@
       "language": "de"
     },
     {
-      "title": "Nach Anthropic-Eklat: US-Regierung plant strenge neue Richtlinien für staatliche KI-Verträge",
-      "description": "Neue US-Richtlinien für KI-Verträge verlangen von Unternehmen eine unwiderrufliche Lizenz für alle legalen Zwecke und verbieten ideologische Vorgaben in KI-Modellen, was natürlich einer eigenen Ideolo",
-      "link": "https://the-decoder.de/nach-anthropic-eklat-us-regierung-plant-strenge-neue-richtlinien-fuer-staatliche-ki-vertraege/",
-      "date": "2026-03-07T18:03:33.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "WAXAL: A large-scale open resource for African language speech technology",
       "description": "Natural Language Processing",
       "link": "https://research.google/blog/waxal-a-large-scale-open-resource-for-african-language-speech-technology/",
@@ -110,18 +110,18 @@
       "language": "en"
     },
     {
-      "title": "How Descript enables multilingual video dubbing at scale",
-      "description": "Descript uses OpenAI models to scale multilingual video dubbing, optimizing translations for both meaning and timing so dubbed speech sounds natural across languages.",
-      "link": "https://openai.com/index/descript",
+      "title": "Codex Security: now in research preview",
+      "description": "Codex Security is an AI application security agent that analyzes project context to detect, validate, and patch complex vulnerabilities with higher confidence and less noise.",
+      "link": "https://openai.com/index/codex-security-now-in-research-preview",
       "date": "2026-03-06T10:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
     },
     {
-      "title": "Codex Security: now in research preview",
-      "description": "Codex Security is an AI application security agent that analyzes project context to detect, validate, and patch complex vulnerabilities with higher confidence and less noise.",
-      "link": "https://openai.com/index/codex-security-now-in-research-preview",
+      "title": "How Descript enables multilingual video dubbing at scale",
+      "description": "Descript uses OpenAI models to scale multilingual video dubbing, optimizing translations for both meaning and timing so dubbed speech sounds natural across languages.",
+      "link": "https://openai.com/index/descript",
       "date": "2026-03-06T10:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
