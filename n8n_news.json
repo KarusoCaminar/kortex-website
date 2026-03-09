@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-03-09T16:59:27.461Z",
+  "lastUpdated": "2026-03-09T18:57:57.505Z",
   "news": [
+    {
+      "title": "Microsoft integriert Anthropics Claude-Cowork-Technologie in Copilot für eigenständigere Büroarbeit",
+      "description": "Microsoft setzt bei Copilot auf Anthropic statt OpenAI und lässt KI erstmals eigenständig Aufgaben in Outlook, Teams und Excel erledigen.\nDer Artikel Microsoft integriert Anthropics Claude-Cowork-Tech",
+      "link": "https://the-decoder.de/microsoft-integriert-anthropics-claude-cowork-technologie-in-copilot-fuer-eigenstaendigere-bueroarbeit/",
+      "date": "2026-03-09T17:42:16.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Keine KI für autonome Waffen und Massenüberwachung: Anthropic zieht gegen US-Regierung vor Gericht",
       "description": "Anthropic hat Klage gegen 17 US-Bundesbehörden eingereicht. Die 48-seitige Klageschrift zeigt, wie tief Claude bereits in klassifizierte Pentagon-Systeme integriert ist; und wie die Regierung das Unte",
@@ -56,6 +65,15 @@
       "language": "de"
     },
     {
+      "title": "OpenAI to acquire Promptfoo",
+      "description": "OpenAI is acquiring Promptfoo, an AI security platform that helps enterprises identify and remediate vulnerabilities in AI systems during development.",
+      "link": "https://openai.com/index/openai-to-acquire-promptfoo",
+      "date": "2026-03-09T10:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
       "title": "LLM-Textdaten gehen zur Neige: Meta sieht ungelabelte Videos als nächste große Trainingsquelle",
       "description": "Ein Forschungsteam von Meta FAIR und der New York University hat systematisch untersucht, wie sich multimodale KI-Modelle von Grund auf trainieren lassen. Die Ergebnisse stellen mehrere verbreitete An",
       "link": "https://the-decoder.de/meta-forscher-trainieren-multimodales-ki-modell-von-grund-auf-und-widerlegen-gaengige-annahmen/",
@@ -78,15 +96,6 @@
       "description": "OpenAI-Robotik-Chefin Caitlin Kalinowski kündigt aus Protest gegen den Pentagon-Vertrag des Unternehmens.\nDer Artikel OpenAI-Robotik-Chefin kündigt aus Protest gegen Pentagon-Deal erschien zuerst auf",
       "link": "https://the-decoder.de/openai-robotik-chefin-kuendigt-aus-protest-gegen-pentagon-deal/",
       "date": "2026-03-08T08:00:09.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Luma AI Uni-1: Neues Bildmodell vereint Bildverständnis und Bilderzeugung",
-      "description": "Luma AI fordert mit Uni-1 OpenAI und Google heraus: Das neue Modell vereint Bildverständnis und Bilderzeugung in einer Architektur und denkt beim Generieren mit.\nDer Artikel Luma AI Uni-1: Neues Bildm",
-      "link": "https://the-decoder.de/luma-ai-uni-1-neues-bildmodell-vereint-bildverstaendnis-und-bilderzeugung/",
-      "date": "2026-03-08T07:48:52.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
@@ -123,15 +132,6 @@
       "description": "Codex Security is an AI application security agent that analyzes project context to detect, validate, and patch complex vulnerabilities with higher confidence and less noise.",
       "link": "https://openai.com/index/codex-security-now-in-research-preview",
       "date": "2026-03-06T10:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "How Balyasny Asset Management built an AI research engine for investing",
-      "description": "See how Balyasny built an AI research system with GPT-5.4, rigorous model evaluation, and agent workflows to transform investment analysis at scale.",
-      "link": "https://openai.com/index/balyasny-asset-management",
-      "date": "2026-03-06T07:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
