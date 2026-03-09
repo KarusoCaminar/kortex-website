@@ -1,6 +1,33 @@
 {
-  "lastUpdated": "2026-03-09T10:50:51.464Z",
+  "lastUpdated": "2026-03-09T13:11:20.954Z",
   "news": [
+    {
+      "title": "Neues Omnimodell: OpenAI-Mitarbeiter deuten auf nächste KI-Generation hin",
+      "description": "Ein neues Omnimodell und natürlichere Sprachgespräche: OpenAI-Mitarbeiter deuten gleich zwei große Projekte an.\nDer Artikel Neues Omnimodell: OpenAI-Mitarbeiter deuten auf nächste KI-Generation hin er",
+      "link": "https://the-decoder.de/neues-omnimodell-openai-mitarbeiter-deuten-auf-naechste-ki-generation-hin/",
+      "date": "2026-03-09T12:37:59.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Studie warnt vor \"AI Brain Fry\" durch intensive KI-Nutzung am Arbeitsplatz",
+      "description": "Eine BCG-Studie mit knapp 1.500 Beschäftigten zeigt, dass die gleichzeitige Überwachung zu vieler KI-Tools kognitive Erschöpfung auslöst. Die Folgen sind messbar, von höheren Fehlerquoten bis zu steig",
+      "link": "https://the-decoder.de/studie-warnt-vor-ai-brain-fry-durch-intensive-ki-nutzung-am-arbeitsplatz/",
+      "date": "2026-03-09T11:50:22.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "WSJ-Bericht liefert neue Details zum KI-Einsatz im Krieg gegen den Iran",
+      "description": "Das Wall Street Journal bestätigt und erweitert bisherige Berichte über den massiven Einsatz generativer KI im US-Militäreinsatz gegen den Iran. Neue Details zeigen, wie tief KI bereits in Aufklärung,",
+      "link": "https://the-decoder.de/wsj-bericht-liefert-neue-details-zum-ki-einsatz-im-krieg-gegen-den-iran/",
+      "date": "2026-03-09T10:54:36.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Anthropic-Modell Claude Opus 4.6 durchschaut KI-Test, hackt Verschlüsselung und besorgt sich die Lösungen selbst",
       "description": "Anthropics KI-Modell Claude Opus 4.6 hat während eines Benchmarks eigenständig erkannt, dass es getestet wird, den konkreten Test identifiziert und dessen verschlüsselten Lösungsschlüssel geknackt. La",
@@ -60,33 +87,6 @@
       "description": "Neue US-Richtlinien für KI-Verträge verlangen von Unternehmen eine unwiderrufliche Lizenz für alle legalen Zwecke und verbieten ideologische Vorgaben in KI-Modellen, was natürlich einer eigenen Ideolo",
       "link": "https://the-decoder.de/nach-anthropic-eklat-us-regierung-plant-strenge-neue-richtlinien-fuer-staatliche-ki-vertraege/",
       "date": "2026-03-07T18:03:33.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Anthropics KI-Modell Claude findet mehr als 100 Sicherheitslücken in Firefox",
-      "description": "Anthropics KI-Modell Claude hat in Firefox über 100 Fehler gefunden, darunter Schwachstellen, die jahrzehntelange Tests übersehen hatten.\nDer Artikel Anthropics KI-Modell Claude findet mehr als 100 Si",
-      "link": "https://the-decoder.de/anthropics-ki-modell-claude-findet-mehr-als-100-sicherheitsluecken-in-firefox/",
-      "date": "2026-03-07T12:35:41.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Wenn Sprachmodelle halluzinieren: \"Verschüttete Energie\" verrät falsche KI-Antworten",
-      "description": "Wenn große Sprachmodelle halluzinieren, hinterlassen sie messbare Spuren in ihren eigenen Berechnungen. Forscher der Sapienza Universität Rom haben eine trainingsfreie Methode entwickelt, die diese Sp",
-      "link": "https://the-decoder.de/wenn-sprachmodelle-halluzinieren-verschuettete-energie-verraet-falsche-ki-antworten/",
-      "date": "2026-03-07T12:05:45.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "OpenAI bietet Open-Source-Entwicklern kostenlosen Zugang zu ChatGPT Pro und mehr",
-      "description": "OpenAI unterstützt Open-Source-Entwickler mit kostenlosem Zugang zu ChatGPT Pro, Codex und Sicherheits-Tools.\nDer Artikel OpenAI bietet Open-Source-Entwicklern kostenlosen Zugang zu ChatGPT Pro und me",
-      "link": "https://the-decoder.de/openai-bietet-open-source-entwicklern-kostenlosen-zugang-zu-chatgpt-pro-und-mehr/",
-      "date": "2026-03-07T11:44:29.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
