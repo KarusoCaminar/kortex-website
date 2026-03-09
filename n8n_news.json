@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-03-09T08:50:48.468Z",
+  "lastUpdated": "2026-03-09T10:50:51.464Z",
   "news": [
+    {
+      "title": "Anthropic-Modell Claude Opus 4.6 durchschaut KI-Test, hackt Verschlüsselung und besorgt sich die Lösungen selbst",
+      "description": "Anthropics KI-Modell Claude Opus 4.6 hat während eines Benchmarks eigenständig erkannt, dass es getestet wird, den konkreten Test identifiziert und dessen verschlüsselten Lösungsschlüssel geknackt. La",
+      "link": "https://the-decoder.de/anthropic-modell-claude-opus-4-6-durchschaut-ki-test-hackt-verschluesselung-und-besorgt-sich-die-loesungen-selbst/",
+      "date": "2026-03-09T10:39:41.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "LLM-Textdaten gehen zur Neige: Meta sieht ungelabelte Videos als nächste große Trainingsquelle",
       "description": "Ein Forschungsteam von Meta FAIR und der New York University hat systematisch untersucht, wie sich multimodale KI-Modelle von Grund auf trainieren lassen. Die Ergebnisse stellen mehrere verbreitete An",
@@ -78,15 +87,6 @@
       "description": "OpenAI unterstützt Open-Source-Entwickler mit kostenlosem Zugang zu ChatGPT Pro, Codex und Sicherheits-Tools.\nDer Artikel OpenAI bietet Open-Source-Entwicklern kostenlosen Zugang zu ChatGPT Pro und me",
       "link": "https://the-decoder.de/openai-bietet-open-source-entwicklern-kostenlosen-zugang-zu-chatgpt-pro-und-mehr/",
       "date": "2026-03-07T11:44:29.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "200-Dollar-Abo für 5000 Dollar Rechenkosten: Anthropic soll Claude Code stark subventionieren",
-      "description": "Wenn der Modellanbieter zum Konkurrenten wird: Wie Anthropic mit aggressiven Subventionen den Markt für Coding-KI unter Druck setzt und Cursor zwingt, eigene Modelle zu bauen.\nDer Artikel 200-Dollar-A",
-      "link": "https://the-decoder.de/200-dollar-abo-fuer-5000-dollar-rechenkosten-anthropic-soll-claude-code-stark-subventionieren/",
-      "date": "2026-03-07T11:21:57.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
