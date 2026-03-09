@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-03-09T18:57:57.505Z",
+  "lastUpdated": "2026-03-09T20:38:48.076Z",
   "news": [
+    {
+      "title": "Schutz vor Jailbreaks und Datenlecks: OpenAI übernimmt Sicherheitsplattform Promptfoo für Frontier",
+      "description": "OpenAI kauft die KI-Sicherheitsplattform Promptfoo und baut deren Technik in seine Unternehmensplattform Frontier ein. Damit sollen Firmen ihre KI-Agenten künftig automatisiert auf Schwachstellen test",
+      "link": "https://the-decoder.de/schutz-vor-jailbreaks-und-datenlecks-openai-uebernimmt-sicherheitsplattform-promptfoo-fuer-frontier/",
+      "date": "2026-03-09T19:06:08.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Microsoft integriert Anthropics Claude-Cowork-Technologie in Copilot für eigenständigere Büroarbeit",
       "description": "Microsoft setzt bei Copilot auf Anthropic statt OpenAI und lässt KI erstmals eigenständig Aufgaben in Outlook, Teams und Excel erledigen.\nDer Artikel Microsoft integriert Anthropics Claude-Cowork-Tech",
@@ -87,15 +96,6 @@
       "description": "Gefälschte Zitate rutschen durch das Peer-Review führender KI-Konferenzen und kommerzielle LLMs erkennen ihre eigenen Fakes nicht. Ein neues Open-Source-Tool namens CiteAudit soll finden, was GPT, Gem",
       "link": "https://the-decoder.de/erfundene-quellen-haben-sich-bereits-in-die-wissenschaftliche-literatur-eingeschlichen/",
       "date": "2026-03-08T09:00:25.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "OpenAI-Robotik-Chefin kündigt aus Protest gegen Pentagon-Deal",
-      "description": "OpenAI-Robotik-Chefin Caitlin Kalinowski kündigt aus Protest gegen den Pentagon-Vertrag des Unternehmens.\nDer Artikel OpenAI-Robotik-Chefin kündigt aus Protest gegen Pentagon-Deal erschien zuerst auf",
-      "link": "https://the-decoder.de/openai-robotik-chefin-kuendigt-aus-protest-gegen-pentagon-deal/",
-      "date": "2026-03-08T08:00:09.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
