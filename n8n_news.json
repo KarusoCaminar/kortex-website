@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-03-10T13:09:49.252Z",
+  "lastUpdated": "2026-03-10T14:53:10.774Z",
   "news": [
+    {
+      "title": "Meta kauft das soziale Netzwerk für KI-Agenten Moltbook und holt die Gründer in sein Superintelligence Lab",
+      "description": "Meta hat Moltbook übernommen, wie Axios berichtet. Moltbook ist eine Plattform, die speziell für KI-Agenten entwickelt wurde.\nDer Artikel Meta kauft das soziale Netzwerk für KI-Agenten Moltbook und ho",
+      "link": "https://the-decoder.de/meta-kauft-das-soziale-netzwerk-fuer-ki-agenten-moltbook-und-holt-die-gruender-in-sein-superintelligence-lab/",
+      "date": "2026-03-10T14:21:41.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "AMI Labs: Yann LeCun sammelt über eine Milliarde Dollar für neues KI-Start-up in Europas größter Seed-Runde",
       "description": "Yann LeCun, ehemaliger Chef-KI-Wissenschaftler bei Meta und Turing-Preisträger, hat mit seinem neuen Start-up Advanced Machine Intelligence Labs (AMI Labs) über eine Milliarde Dollar in Europas größte",
@@ -74,24 +83,6 @@
       "language": "de"
     },
     {
-      "title": "WSJ-Bericht liefert neue Details zum KI-Einsatz im Krieg gegen den Iran",
-      "description": "Das Wall Street Journal bestätigt und erweitert bisherige Berichte über den massiven Einsatz generativer KI im US-Militäreinsatz gegen den Iran. Neue Details zeigen, wie tief KI bereits in Aufklärung,",
-      "link": "https://the-decoder.de/wsj-bericht-liefert-neue-details-zum-ki-einsatz-im-krieg-gegen-den-iran/",
-      "date": "2026-03-09T10:54:36.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Anthropic-Modell Claude Opus 4.6 durchschaut KI-Test, hackt Verschlüsselung und besorgt sich die Lösungen selbst",
-      "description": "Anthropics KI-Modell Claude Opus 4.6 hat während eines Benchmarks eigenständig erkannt, dass es getestet wird, den konkreten Test identifiziert und dessen verschlüsselten Lösungsschlüssel geknackt. La",
-      "link": "https://the-decoder.de/anthropic-modell-claude-opus-4-6-durchschaut-ki-test-hackt-verschluesselung-und-besorgt-sich-die-loesungen-selbst/",
-      "date": "2026-03-09T10:39:41.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "OpenAI to acquire Promptfoo",
       "description": "OpenAI is acquiring Promptfoo, an AI security platform that helps enterprises identify and remediate vulnerabilities in AI systems during development.",
       "link": "https://openai.com/index/openai-to-acquire-promptfoo",
@@ -132,6 +123,15 @@
       "description": "Codex Security is an AI application security agent that analyzes project context to detect, validate, and patch complex vulnerabilities with higher confidence and less noise.",
       "link": "https://openai.com/index/codex-security-now-in-research-preview",
       "date": "2026-03-06T10:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
+      "title": "How Balyasny Asset Management built an AI research engine for investing",
+      "description": "See how Balyasny built an AI research system with GPT-5.4, rigorous model evaluation, and agent workflows to transform investment analysis at scale.",
+      "link": "https://openai.com/index/balyasny-asset-management",
+      "date": "2026-03-06T07:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
