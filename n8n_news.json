@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-03-10T18:55:15.470Z",
+  "lastUpdated": "2026-03-10T20:38:08.502Z",
   "news": [
+    {
+      "title": "Amazon stoppt Perplexitys KI-Agenten per einstweiliger Verfügung beim Online-Shopping",
+      "description": "Amazon stoppt Perplexitys Shopping-Bot per Gerichtsbeschluss: ein Urteil, das die Zukunft von KI-Agenten im E-Commerce prägen könnte.\nDer Artikel Amazon stoppt Perplexitys KI-Agenten per einstweiliger",
+      "link": "https://the-decoder.de/amazon-stoppt-perplexitys-ki-agenten-per-einstweiliger-verfuegung-beim-online-shopping/",
+      "date": "2026-03-10T18:56:01.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "ChatGPT visualisiert jetzt mehr als 70 Konzepte aus den Naturwissenschaften",
       "description": "ChatGPT zeigt bei Mathe- und Physikfragen jetzt interaktive Visualisierungen, in denen Nutzer Variablen verändern und die Auswirkungen auf Graphen in Echtzeit beobachten können. Zum Start sind mehr al",
@@ -87,15 +96,6 @@
       "description": "OpenAI kauft die KI-Sicherheitsplattform Promptfoo und baut deren Technik in seine Unternehmensplattform Frontier ein. Damit sollen Firmen ihre KI-Agenten künftig automatisiert auf Schwachstellen test",
       "link": "https://the-decoder.de/schutz-vor-jailbreaks-und-datenlecks-openai-uebernimmt-sicherheitsplattform-promptfoo-fuer-frontier/",
       "date": "2026-03-09T19:06:08.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Microsoft integriert Anthropics Claude-Cowork-Technologie in Copilot für eigenständigere Büroarbeit",
-      "description": "Microsoft setzt bei Copilot auf Anthropic statt OpenAI und lässt KI erstmals eigenständig Aufgaben in Outlook, Teams und Excel erledigen.\nDer Artikel Microsoft integriert Anthropics Claude-Cowork-Tech",
-      "link": "https://the-decoder.de/microsoft-integriert-anthropics-claude-cowork-technologie-in-copilot-fuer-eigenstaendigere-bueroarbeit/",
-      "date": "2026-03-09T17:42:16.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
