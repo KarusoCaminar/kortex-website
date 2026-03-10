@@ -1,6 +1,33 @@
 {
-  "lastUpdated": "2026-03-10T14:53:10.774Z",
+  "lastUpdated": "2026-03-10T16:58:07.169Z",
   "news": [
+    {
+      "title": "Urheberrecht trotz SunoAI: Menschlicher Liedtext bleibt auch bei KI-Musik geschützt",
+      "description": "Das Landgericht Frankfurt hat entschieden, dass ein von einer Person geschriebener Liedtext urheberrechtlich geschützt bleibt, auch wenn die zugehörige Musik per KI (SunoAI) erzeugt wurde.\nDer Artikel",
+      "link": "https://the-decoder.de/urheberrecht-trotz-sunoai-menschlicher-liedtext-bleibt-auch-bei-ki-musik-geschuetzt/",
+      "date": "2026-03-10T16:48:57.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Bei Amazon muss ab sofort jeder KI-generierte Code von erfahrenen Ingenieuren abgesegnet werden",
+      "description": "Nach einer Serie von mutmaßlich KI-verursachten Ausfällen macht Amazon seine Senior Engineers zum menschlichen Filter für KI-generierten Code.\nDer Artikel Bei Amazon muss ab sofort jeder KI-generierte",
+      "link": "https://the-decoder.de/bei-amazon-muss-ab-sofort-jeder-ki-generierte-code-von-erfahrenen-ingenieuren-abgesegnet-werden/",
+      "date": "2026-03-10T16:04:12.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Mira Muratis KI-Startup sichert sich Gigawatt-Deal mit Nvidia",
+      "description": "Nvidia und Thinking Machines Lab, das KI-Startup von Ex-OpenAI-Managerin Mira Murati, gehen eine langfristige Partnerschaft ein.\nDer Artikel Mira Muratis KI-Startup sichert sich Gigawatt-Deal mit Nvid",
+      "link": "https://the-decoder.de/mira-muratis-ki-startup-sichert-sich-gigawatt-deal-mit-nvidia/",
+      "date": "2026-03-10T15:09:17.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Meta kauft das soziale Netzwerk für KI-Agenten Moltbook und holt die Gründer in sein Superintelligence Lab",
       "description": "Meta hat Moltbook übernommen, wie Axios berichtet. Moltbook ist eine Plattform, die speziell für KI-Agenten entwickelt wurde.\nDer Artikel Meta kauft das soziale Netzwerk für KI-Agenten Moltbook und ho",
@@ -56,33 +83,6 @@
       "language": "de"
     },
     {
-      "title": "Millionen Menschen nutzen KI-Chatbots bereits als Finanzberater",
-      "description": "Millionen Menschen nutzen bereits Chatbots wie ChatGPT für ihre Rentenplanung, berichtet die Financial Times.\nDer Artikel Millionen Menschen nutzen KI-Chatbots bereits als Finanzberater erschien zuers",
-      "link": "https://the-decoder.de/millionen-menschen-nutzen-ki-chatbots-bereits-als-finanzberater/",
-      "date": "2026-03-09T13:26:30.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Neues Omnimodell: OpenAI-Mitarbeiter deuten auf nächste KI-Generation hin",
-      "description": "Ein neues Omnimodell und natürlichere Sprachgespräche: OpenAI-Mitarbeiter deuten gleich zwei große Projekte an.\nDer Artikel Neues Omnimodell: OpenAI-Mitarbeiter deuten auf nächste KI-Generation hin er",
-      "link": "https://the-decoder.de/neues-omnimodell-openai-mitarbeiter-deuten-auf-naechste-ki-generation-hin/",
-      "date": "2026-03-09T12:37:59.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Studie warnt vor \"AI Brain Fry\" durch intensive KI-Nutzung am Arbeitsplatz",
-      "description": "Eine BCG-Studie mit knapp 1.500 Beschäftigten zeigt, dass die gleichzeitige Überwachung zu vieler KI-Tools kognitive Erschöpfung auslöst. Die Folgen sind messbar, von höheren Fehlerquoten bis zu steig",
-      "link": "https://the-decoder.de/studie-warnt-vor-ai-brain-fry-durch-intensive-ki-nutzung-am-arbeitsplatz/",
-      "date": "2026-03-09T11:50:22.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "OpenAI to acquire Promptfoo",
       "description": "OpenAI is acquiring Promptfoo, an AI security platform that helps enterprises identify and remediate vulnerabilities in AI systems during development.",
       "link": "https://openai.com/index/openai-to-acquire-promptfoo",
@@ -95,7 +95,7 @@
       "title": "WAXAL: A large-scale open resource for African language speech technology",
       "description": "Natural Language Processing",
       "link": "https://research.google/blog/waxal-a-large-scale-open-resource-for-african-language-speech-technology/",
-      "date": "2026-03-06T20:06:51.000Z",
+      "date": "2026-03-06T20:06:00.000Z",
       "source": "Google AI",
       "category": "große-modelle",
       "language": "en"
