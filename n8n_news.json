@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-03-10T08:50:00.698Z",
+  "lastUpdated": "2026-03-10T10:43:50.565Z",
   "news": [
+    {
+      "title": "AMI Labs: Yann LeCun sammelt über eine Milliarde Dollar für neues KI-Start-up in Europas größter Seed-Runde",
+      "description": "Yann LeCun, ehemaliger Chef-KI-Wissenschaftler bei Meta und Turing-Preisträger, hat mit seinem neuen Start-up Advanced Machine Intelligence Labs (AMI Labs) über eine Milliarde Dollar in Europas größte",
+      "link": "https://the-decoder.de/ami-labs-yann-lecun-sammelt-ueber-eine-milliarde-dollar-fuer-neues-ki-start-up-in-europas-groesster-seed-runde/",
+      "date": "2026-03-10T10:38:48.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Claude Code reviewt jetzt Pull Requests mit einem ganzen Team aus KI-Agenten",
+      "description": "Claude Code kann ab sofort automatisch Code-Änderungen auf Fehler prüfen, bevor sie in ein Projekt einfließen.\nDer Artikel Claude Code reviewt jetzt Pull Requests mit einem ganzen Team aus KI-Agenten",
+      "link": "https://the-decoder.de/claude-code-reviewt-jetzt-pull-requests-mit-einem-ganzen-team-aus-ki-agenten/",
+      "date": "2026-03-10T09:12:18.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Schutz vor Jailbreaks und Datenlecks: OpenAI übernimmt Sicherheitsplattform Promptfoo für Frontier",
       "description": "OpenAI kauft die KI-Sicherheitsplattform Promptfoo und baut deren Technik in seine Unternehmensplattform Frontier ein. Damit sollen Firmen ihre KI-Agenten künftig automatisiert auf Schwachstellen test",
@@ -81,24 +99,6 @@
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
-    },
-    {
-      "title": "LLM-Textdaten gehen zur Neige: Meta sieht ungelabelte Videos als nächste große Trainingsquelle",
-      "description": "Ein Forschungsteam von Meta FAIR und der New York University hat systematisch untersucht, wie sich multimodale KI-Modelle von Grund auf trainieren lassen. Die Ergebnisse stellen mehrere verbreitete An",
-      "link": "https://the-decoder.de/meta-forscher-trainieren-multimodales-ki-modell-von-grund-auf-und-widerlegen-gaengige-annahmen/",
-      "date": "2026-03-08T11:00:54.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Erfundene Quellen haben sich bereits in die wissenschaftliche Literatur eingeschlichen",
-      "description": "Gefälschte Zitate rutschen durch das Peer-Review führender KI-Konferenzen und kommerzielle LLMs erkennen ihre eigenen Fakes nicht. Ein neues Open-Source-Tool namens CiteAudit soll finden, was GPT, Gem",
-      "link": "https://the-decoder.de/erfundene-quellen-haben-sich-bereits-in-die-wissenschaftliche-literatur-eingeschlichen/",
-      "date": "2026-03-08T09:00:25.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
     },
     {
       "title": "WAXAL: A large-scale open resource for African language speech technology",
