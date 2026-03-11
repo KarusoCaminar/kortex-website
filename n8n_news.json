@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-03-11T08:49:30.090Z",
+  "lastUpdated": "2026-03-11T10:44:10.969Z",
   "news": [
+    {
+      "title": "Breite Allianz aus Tech-Branche und Ex-Militärs unterstützt Anthropic im Pentagon-Streit",
+      "description": "Im Rechtsstreit zwischen Anthropic und dem US-Kriegsministerium formiert sich eine KI-Koalition: Microsoft, Dutzende OpenAI- und Google-Mitarbeiter, ehemalige Militärführer und Bürgerrechtsorganisatio",
+      "link": "https://the-decoder.de/breite-allianz-aus-tech-branche-und-ex-militaers-unterstuetzt-anthropic-im-pentagon-streit/",
+      "date": "2026-03-11T10:23:15.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Amazon stoppt Perplexitys KI-Agenten per einstweiliger Verfügung beim Online-Shopping",
       "description": "Amazon stoppt Perplexitys Shopping-Bot per Gerichtsbeschluss: ein Urteil, das die Zukunft von KI-Agenten im E-Commerce prägen könnte.\nDer Artikel Amazon stoppt Perplexitys KI-Agenten per einstweiliger",
@@ -92,15 +101,6 @@
       "language": "de"
     },
     {
-      "title": "Schutz vor Jailbreaks und Datenlecks: OpenAI übernimmt Sicherheitsplattform Promptfoo für Frontier",
-      "description": "OpenAI kauft die KI-Sicherheitsplattform Promptfoo und baut deren Technik in seine Unternehmensplattform Frontier ein. Damit sollen Firmen ihre KI-Agenten künftig automatisiert auf Schwachstellen test",
-      "link": "https://the-decoder.de/schutz-vor-jailbreaks-und-datenlecks-openai-uebernimmt-sicherheitsplattform-promptfoo-fuer-frontier/",
-      "date": "2026-03-09T19:06:08.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "OpenAI to acquire Promptfoo",
       "description": "OpenAI is acquiring Promptfoo, an AI security platform that helps enterprises identify and remediate vulnerabilities in AI systems during development.",
       "link": "https://openai.com/index/openai-to-acquire-promptfoo",
@@ -128,9 +128,9 @@
       "language": "en"
     },
     {
-      "title": "How Descript enables multilingual video dubbing at scale",
-      "description": "Descript uses OpenAI models to scale multilingual video dubbing, optimizing translations for both meaning and timing so dubbed speech sounds natural across languages.",
-      "link": "https://openai.com/index/descript",
+      "title": "Codex Security: now in research preview",
+      "description": "Codex Security is an AI application security agent that analyzes project context to detect, validate, and patch complex vulnerabilities with higher confidence and less noise.",
+      "link": "https://openai.com/index/codex-security-now-in-research-preview",
       "date": "2026-03-06T10:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
