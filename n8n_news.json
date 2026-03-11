@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-03-11T14:50:41.760Z",
+  "lastUpdated": "2026-03-11T16:56:56.635Z",
   "news": [
+    {
+      "title": "KI-Schreibassistent Grammarly verwendet ungefragt echte Namen für Expertentipps",
+      "description": "Grammarly nutzt offenbar ohne Erlaubnis die Namen von Journalisten und Autoren für eine KI-Funktion namens \"Expert Review\".\nDer Artikel KI-Schreibassistent Grammarly verwendet ungefragt echte Namen fü",
+      "link": "https://the-decoder.de/ki-schreibassistent-grammarly-verwendet-ungefragt-echte-namen-fuer-expertentipps/",
+      "date": "2026-03-11T16:40:01.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "OpenAI will mit neuem Trainingsdatensatz Prompt-Injection-Abwehr deutlich verbessern",
+      "description": "OpenAI stellt IH-Challenge vor, einen Trainingsdatensatz, der KI-Modellen beibringt, vertrauenswürdige Anweisungen zuverlässig über nicht vertrauenswürdige zu stellen. Erste Ergebnisse zeigen deutlich",
+      "link": "https://the-decoder.de/openai-will-mit-neuem-trainingsdatensatz-prompt-injection-abwehr-deutlich-verbessern/",
+      "date": "2026-03-11T14:52:28.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Anthropic gründet eigene Denkfabrik zur Erforschung von KI-Risiken und gesellschaftlichen Auswirkungen",
       "description": "Anthropic hat das neue \"Anthropic Institute\" gestartet, eine interne Denkfabrik, die die Auswirkungen leistungsstarker KI auf Gesellschaft, Wirtschaft und Sicherheit untersuchen soll.\nDer Artikel Anth",
@@ -74,15 +92,6 @@
       "language": "de"
     },
     {
-      "title": "Meta kauft das soziale Netzwerk für KI-Agenten Moltbook und holt die Gründer in sein Superintelligence Lab",
-      "description": "Meta hat Moltbook übernommen, wie Axios berichtet. Moltbook ist eine Plattform, die speziell für KI-Agenten entwickelt wurde.\nDer Artikel Meta kauft das soziale Netzwerk für KI-Agenten Moltbook und ho",
-      "link": "https://the-decoder.de/meta-kauft-das-soziale-netzwerk-fuer-ki-agenten-moltbook-und-holt-die-gruender-in-sein-superintelligence-lab/",
-      "date": "2026-03-10T14:21:41.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "Improving instruction hierarchy in frontier LLMs",
       "description": "IH-Challenge trains models to prioritize trusted instructions, improving instruction hierarchy, safety steerability, and resistance to prompt injection attacks.",
       "link": "https://openai.com/index/instruction-hierarchy-challenge",
@@ -124,15 +133,6 @@
       "link": "https://research.google/blog/where-wild-things-roam-identifying-wildlife-with-speciesnet/",
       "date": "2026-03-06T17:59:38.000Z",
       "source": "Google AI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "Codex Security: now in research preview",
-      "description": "Codex Security is an AI application security agent that analyzes project context to detect, validate, and patch complex vulnerabilities with higher confidence and less noise.",
-      "link": "https://openai.com/index/codex-security-now-in-research-preview",
-      "date": "2026-03-06T10:00:00.000Z",
-      "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
     }
