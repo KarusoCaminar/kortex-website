@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-03-11T10:44:10.969Z",
+  "lastUpdated": "2026-03-11T13:08:21.469Z",
   "news": [
+    {
+      "title": "Ein KI-Agent hackt McKinseys KI-Plattform Lilli mit einer Schwachstelle aus den 1990ern",
+      "description": "Die Sicherheitsfirma Codewall ließ einen offensiven KI-Agenten auf McKinseys interne KI-Plattform Lilli los, ein System, das über 43.000 Mitarbeiter für Strategiearbeit, Mandantenrecherche und Dokumen",
+      "link": "https://the-decoder.de/ein-ki-agent-hackt-mckinseys-ki-plattform-lilli-mit-einer-schwachstelle-aus-den-1990ern/",
+      "date": "2026-03-11T12:24:29.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Breite Allianz aus Tech-Branche und Ex-Militärs unterstützt Anthropic im Pentagon-Streit",
       "description": "Im Rechtsstreit zwischen Anthropic und dem US-Kriegsministerium formiert sich eine KI-Koalition: Microsoft, Dutzende OpenAI- und Google-Mitarbeiter, ehemalige Militärführer und Bürgerrechtsorganisatio",
@@ -90,15 +99,6 @@
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
-    },
-    {
-      "title": "Claude Code reviewt jetzt Pull Requests mit einem ganzen Team aus KI-Agenten",
-      "description": "Claude Code kann ab sofort automatisch Code-Änderungen auf Fehler prüfen, bevor sie in ein Projekt einfließen.\nDer Artikel Claude Code reviewt jetzt Pull Requests mit einem ganzen Team aus KI-Agenten",
-      "link": "https://the-decoder.de/claude-code-reviewt-jetzt-pull-requests-mit-einem-ganzen-team-aus-ki-agenten/",
-      "date": "2026-03-10T09:12:18.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
     },
     {
       "title": "OpenAI to acquire Promptfoo",
