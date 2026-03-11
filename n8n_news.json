@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-03-11T13:08:21.469Z",
+  "lastUpdated": "2026-03-11T14:50:41.760Z",
   "news": [
+    {
+      "title": "Anthropic gründet eigene Denkfabrik zur Erforschung von KI-Risiken und gesellschaftlichen Auswirkungen",
+      "description": "Anthropic hat das neue \"Anthropic Institute\" gestartet, eine interne Denkfabrik, die die Auswirkungen leistungsstarker KI auf Gesellschaft, Wirtschaft und Sicherheit untersuchen soll.\nDer Artikel Anth",
+      "link": "https://the-decoder.de/anthropic-gruendet-eigene-denkfabrik-zur-erforschung-von-ki-risiken-und-gesellschaftlichen-auswirkungen/",
+      "date": "2026-03-11T13:35:15.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Ein KI-Agent hackt McKinseys KI-Plattform Lilli mit einer Schwachstelle aus den 1990ern",
       "description": "Die Sicherheitsfirma Codewall ließ einen offensiven KI-Agenten auf McKinseys interne KI-Plattform Lilli los, ein System, das über 43.000 Mitarbeiter für Strategiearbeit, Mandantenrecherche und Dokumen",
@@ -81,15 +90,6 @@
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
-    },
-    {
-      "title": "AMI Labs: Yann LeCun sammelt über eine Milliarde Dollar für neues KI-Start-up in Europas größter Seed-Runde",
-      "description": "Yann LeCun, ehemaliger Chef-KI-Wissenschaftler bei Meta und Turing-Preisträger, hat mit seinem neuen Start-up Advanced Machine Intelligence Labs (AMI Labs) über eine Milliarde Dollar in Europas größte",
-      "link": "https://the-decoder.de/ami-labs-yann-lecun-sammelt-ueber-eine-milliarde-dollar-fuer-neues-ki-start-up-in-europas-groesster-seed-runde/",
-      "date": "2026-03-10T10:38:48.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
     },
     {
       "title": "New ways to learn math and science in ChatGPT",
