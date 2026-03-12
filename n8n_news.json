@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-03-12T18:58:43.810Z",
+  "lastUpdated": "2026-03-12T20:39:20.280Z",
   "news": [
+    {
+      "title": "xAIs Grok 4.20 hängt in Benchmarks zurück und glänzt dennoch mit niedrigster Halluzinationsrate",
+      "description": "xAIs Grok 4.20 ist günstig, schnell und erfindet weniger; aber in Sachen Intelligenz fehlt der Anschluss an die Spitze.\nDer Artikel xAIs Grok 4.20 hängt in Benchmarks zurück und glänzt dennoch mit nie",
+      "link": "https://the-decoder.de/xais-grok-4-20-haengt-in-benchmarks-zurueck-und-glaenzt-dennoch-mit-niedrigster-halluzinationsrate/",
+      "date": "2026-03-12T19:08:12.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Technikchef des US-Militärs: Anthropics KI-Modelle \"verschmutzen\" die Lieferkette",
       "description": "Das US-Kriegsministerium will Anthropics Claude aus seiner Lieferkette verbannen, weil die KI-Modelle zu ethisch seien. Das Vorgehen erinnert an Chinas politische Steuerung von KI.\nDer Artikel Technik",
@@ -87,15 +96,6 @@
       "description": "Meta stellt vier neue KI-Chips mit Fokus auf Inferenz vor und will damit unabhängiger von GPU-Herstellern werden.\nDer Artikel Meta kündigt vier neue Generationen seiner eigenen KI-Chips an erschien zu",
       "link": "https://the-decoder.de/meta-kuendigt-vier-neue-generationen-seiner-eigenen-ki-chips-an/",
       "date": "2026-03-12T11:43:36.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Warum Nvidia 26 Milliarden US-Dollar in offene KI-Modelle steckt und was China damit zu tun hat",
-      "description": "Der Chiphersteller Nvidia plant laut einem Finanzbericht massive Investitionen in offene KI-Modelle.\nDer Artikel Warum Nvidia 26 Milliarden US-Dollar in offene KI-Modelle steckt und was China damit zu",
-      "link": "https://the-decoder.de/warum-nvidia-26-milliarden-us-dollar-in-offene-ki-modelle-steckt-und-was-china-damit-zu-tun-hat/",
-      "date": "2026-03-12T11:34:59.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
