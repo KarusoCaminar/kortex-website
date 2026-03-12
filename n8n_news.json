@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-03-12T13:07:59.368Z",
+  "lastUpdated": "2026-03-12T14:53:00.881Z",
   "news": [
+    {
+      "title": "KI-Fälschungen aus Iran gelangen über Agenturnetzwerk in deutsche Medien",
+      "description": "Der Spiegel hat mehrere Bilder aus seiner Iran-Berichterstattung entfernt, weil sie mit hoher Wahrscheinlichkeit per KI erzeugt oder verändert wurden.\nDer Artikel KI-Fälschungen aus Iran gelangen über",
+      "link": "https://the-decoder.de/ki-faelschungen-aus-iran-gelangen-ueber-agenturnetzwerk-in-deutsche-medien/",
+      "date": "2026-03-12T14:11:53.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Protecting cities with AI-driven flash flood forecasting",
       "description": "Climate & Sustainability",
@@ -105,15 +114,6 @@
       "description": "Grammarly nutzt offenbar ohne Erlaubnis die Namen von Journalisten und Autoren für eine KI-Funktion namens \"Expert Review\".\nDer Artikel KI-Schreibassistent Grammarly verwendet ungefragt echte Namen fü",
       "link": "https://the-decoder.de/ki-schreibassistent-grammarly-verwendet-ungefragt-echte-namen-fuer-expertentipps/",
       "date": "2026-03-11T16:40:01.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "OpenAI will mit neuem Trainingsdatensatz Prompt-Injection-Abwehr deutlich verbessern",
-      "description": "OpenAI stellt IH-Challenge vor, einen Trainingsdatensatz, der KI-Modellen beibringt, vertrauenswürdige Anweisungen zuverlässig über nicht vertrauenswürdige zu stellen. Erste Ergebnisse zeigen deutlich",
-      "link": "https://the-decoder.de/openai-will-mit-neuem-trainingsdatensatz-prompt-injection-abwehr-deutlich-verbessern/",
-      "date": "2026-03-11T14:52:28.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
