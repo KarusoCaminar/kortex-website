@@ -1,6 +1,33 @@
 {
-  "lastUpdated": "2026-03-12T17:00:49.427Z",
+  "lastUpdated": "2026-03-12T18:58:43.810Z",
   "news": [
+    {
+      "title": "Technikchef des US-Militärs: Anthropics KI-Modelle \"verschmutzen\" die Lieferkette",
+      "description": "Das US-Kriegsministerium will Anthropics Claude aus seiner Lieferkette verbannen, weil die KI-Modelle zu ethisch seien. Das Vorgehen erinnert an Chinas politische Steuerung von KI.\nDer Artikel Technik",
+      "link": "https://the-decoder.de/technikchef-des-us-militaers-anthropics-ki-modelle-verschmutzen-die-lieferkette/",
+      "date": "2026-03-12T18:42:10.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Microsoft startet mit Copilot Health einen eigenen KI-Gesundheitsbereich",
+      "description": "Microsoft bringt mit Copilot Health einen KI-Gesundheitsassistenten, der Daten aus Wearables, Krankenakten und Labortests zusammenführt und personalisierte Hinweise liefert. Langfristig will das Unter",
+      "link": "https://the-decoder.de/microsoft-startet-mit-copilot-health-einen-eigenen-ki-gesundheitsbereich/",
+      "date": "2026-03-12T17:23:13.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Anthropics Claude erstellt jetzt interaktive Diagramme und Grafiken direkt im Chat",
+      "description": "Anthropic hat eine neue Beta-Funktion für seinen KI-Chatbot Claude vorgestellt: Claude kann jetzt direkt im Chat interaktive Diagramme, Grafiken und Visualisierungen erstellen.\nDer Artikel Anthropics",
+      "link": "https://the-decoder.de/anthropics-claude-erstellt-jetzt-interaktive-diagramme-und-grafiken-direkt-im-chat/",
+      "date": "2026-03-12T17:03:09.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "ChatGPT verliert Marktanteile: Google Gemini vervierfacht seinen KI-Traffic",
       "description": "ChatGPT dominiert den Chatbot-Markt weiter – aber der Vorsprung schmilzt. Laut neuen Similarweb-Zahlen ist OpenAIs Chatbot in nur zwölf Monaten von 75,7 auf 61,7 Prozent Marktanteil gefallen. Der groß",
@@ -81,33 +108,6 @@
       "source": "Google AI",
       "category": "große-modelle",
       "language": "en"
-    },
-    {
-      "title": "Google bringt mit Gemini Embedding 2 Text, Bild, Video und Audio in einen gemeinsamen Vektorraum",
-      "description": "Google stellt sein erstes nativ multimodales Embedding-Modell vor. Gemini Embedding 2 soll Text, Bilder, Videos, Audio und Dokumente in einem einzigen semantischen Raum abbilden und damit komplexe KI-",
-      "link": "https://the-decoder.de/google-bringt-mit-gemini-embedding-2-text-bild-video-und-audio-in-einen-gemeinsamen-vektorraum/",
-      "date": "2026-03-11T18:30:30.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "KI-Code-Qualität wird durch SWE-Benchmark überschätzt: Profis lehnen jeden zweiten \"bestandenen\" Vorschlag ab",
-      "description": "Rund die Hälfte der KI-Code-Lösungen, die den bekannten SWE-bench-Benchmark bestehen, würde von echten Projektverantwortlichen abgelehnt. Das zeigt eine neue Untersuchung der Forschungsorganisation ME",
-      "link": "https://the-decoder.de/ki-code-qualitaet-wird-laut-studie-ueberschaetzt-profis-lehnen-jeden-zweiten-vorschlag-ab/",
-      "date": "2026-03-11T17:21:58.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Anthropic will Wissensarbeitern den Wechsel zwischen Excel und PowerPoint ersparen und verbindet beide Apps",
-      "description": "Finanzmodell in Excel bauen, Ergebnis in PowerPoint einfügen, alles in einem Gespräch: Anthropic rückt Claude näher an den Arbeitsalltag in Microsoft 365.\nDer Artikel Anthropic will Wissensarbeitern d",
-      "link": "https://the-decoder.de/anthropic-will-wissensarbeitern-den-wechsel-zwischen-excel-und-powerpoint-ersparen-und-verbindet-beide-apps/",
-      "date": "2026-03-11T17:00:59.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
     },
     {
       "title": "Exploring the feasibility of conversational diagnostic AI in a real-world clinical study",
