@@ -1,6 +1,69 @@
 {
-  "lastUpdated": "2026-03-12T10:42:29.863Z",
+  "lastUpdated": "2026-03-12T13:07:59.368Z",
   "news": [
+    {
+      "title": "Protecting cities with AI-driven flash flood forecasting",
+      "description": "Climate & Sustainability",
+      "link": "https://research.google/blog/protecting-cities-with-ai-driven-flash-flood-forecasting/",
+      "date": "2026-03-12T13:03:15.000Z",
+      "source": "Google AI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
+      "title": "Google Maps bekommt eine neue KI-Frage-Funktion",
+      "description": "Google Maps wird zum KI-Reiseberater: Die neue Funktion \"Ask Maps\" beantwortet komplexe Fragen in natürlicher Sprache und zeigt personalisierte Ergebnisse auf einer angepassten Karte. Dazu kommt eine",
+      "link": "https://the-decoder.de/google-maps-bekommt-eine-neue-ki-frage-funktion/",
+      "date": "2026-03-12T13:01:19.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Forscher testen alternatives KI-Verfahren von Meta an 18 Millionen Herzultraschallvideos",
+      "description": "Forscher haben ein KI-Modell für Herzultraschall vorgestellt, das auf Metas JEPA-Architektur basiert und laut ihren Benchmarks gängige Verfahren wie Masked Autoencoder oder kontrastives Lernen übertri",
+      "link": "https://the-decoder.de/forscher-testen-alternatives-ki-verfahren-von-meta-an-18-millionen-herzultraschallvideos/",
+      "date": "2026-03-12T12:57:07.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "OpenAI plant angeblich Integration von Video-KI Sora in ChatGPT",
+      "description": "Sora floppt als eigenständige App, jetzt soll ChatGPT die Video-KI retten.\nDer Artikel OpenAI plant angeblich Integration von Video-KI Sora in ChatGPT erschien zuerst auf The Decoder.",
+      "link": "https://the-decoder.de/openai-plant-angeblich-integration-von-video-ki-sora-in-chatgpt/",
+      "date": "2026-03-12T12:20:11.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Meta kündigt vier neue Generationen seiner eigenen KI-Chips an",
+      "description": "Meta stellt vier neue KI-Chips mit Fokus auf Inferenz vor und will damit unabhängiger von GPU-Herstellern werden.\nDer Artikel Meta kündigt vier neue Generationen seiner eigenen KI-Chips an erschien zu",
+      "link": "https://the-decoder.de/meta-kuendigt-vier-neue-generationen-seiner-eigenen-ki-chips-an/",
+      "date": "2026-03-12T11:43:36.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Warum Nvidia 26 Milliarden US-Dollar in offene KI-Modelle steckt und was China damit zu tun hat",
+      "description": "Der Chiphersteller Nvidia plant laut einem Finanzbericht massive Investitionen in offene KI-Modelle.\nDer Artikel Warum Nvidia 26 Milliarden US-Dollar in offene KI-Modelle steckt und was China damit zu",
+      "link": "https://the-decoder.de/warum-nvidia-26-milliarden-us-dollar-in-offene-ki-modelle-steckt-und-was-china-damit-zu-tun-hat/",
+      "date": "2026-03-12T11:34:59.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Introducing Groundsource: Turning news reports into data with Gemini",
+      "description": "Climate & Sustainability",
+      "link": "https://research.google/blog/introducing-groundsource-turning-news-reports-into-data-with-gemini/",
+      "date": "2026-03-12T10:42:00.000Z",
+      "source": "Google AI",
+      "category": "große-modelle",
+      "language": "en"
+    },
     {
       "title": "Google bringt mit Gemini Embedding 2 Text, Bild, Video und Audio in einen gemeinsamen Vektorraum",
       "description": "Google stellt sein erstes nativ multimodales Embedding-Modell vor. Gemini Embedding 2 soll Text, Bilder, Videos, Audio und Dokumente in einem einzigen semantischen Raum abbilden und damit komplexe KI-",
@@ -56,15 +119,6 @@
       "language": "de"
     },
     {
-      "title": "Anthropic gründet eigene Denkfabrik zur Erforschung von KI-Risiken und gesellschaftlichen Auswirkungen",
-      "description": "Anthropic hat das neue \"Anthropic Institute\" gestartet, eine interne Denkfabrik, die die Auswirkungen leistungsstarker KI auf Gesellschaft, Wirtschaft und Sicherheit untersuchen soll.\nDer Artikel Anth",
-      "link": "https://the-decoder.de/anthropic-gruendet-eigene-denkfabrik-zur-erforschung-von-ki-risiken-und-gesellschaftlichen-auswirkungen/",
-      "date": "2026-03-11T13:35:15.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "Rakuten fixes issues twice as fast with Codex",
       "description": "Rakuten uses Codex, the coding agent from OpenAI, to ship software faster and safer, reducing MTTR 50%, automating CI/CD reviews, and delivering full-stack builds in weeks.",
       "link": "https://openai.com/index/rakuten",
@@ -74,15 +128,6 @@
       "language": "en"
     },
     {
-      "title": "Ein KI-Agent hackt McKinseys KI-Plattform Lilli mit einer Schwachstelle aus den 1990ern",
-      "description": "Die Sicherheitsfirma Codewall ließ einen offensiven KI-Agenten auf McKinseys interne KI-Plattform Lilli los, ein System, das über 43.000 Mitarbeiter für Strategiearbeit, Mandantenrecherche und Dokumen",
-      "link": "https://the-decoder.de/ein-ki-agent-hackt-mckinseys-ki-plattform-lilli-mit-einer-schwachstelle-aus-den-1990ern/",
-      "date": "2026-03-11T12:24:29.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "Designing AI agents to resist prompt injection",
       "description": "How ChatGPT defends against prompt injection and social engineering by constraining risky actions and protecting sensitive data in agent workflows.",
       "link": "https://openai.com/index/designing-agents-to-resist-prompt-injection",
@@ -90,51 +135,6 @@
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
-    },
-    {
-      "title": "Wayfair boosts catalog accuracy and support speed with OpenAI",
-      "description": "Wayfair uses OpenAI models to improve ecommerce support and product catalog accuracy, automating ticket triage and enhancing millions of product attributes at scale.",
-      "link": "https://openai.com/index/wayfair",
-      "date": "2026-03-11T11:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "From model to agent: Equipping the Responses API with a computer environment",
-      "description": "How OpenAI built an agent runtime using the Responses API, shell tool, and hosted containers to run secure, scalable agents with files, tools, and state.",
-      "link": "https://openai.com/index/equip-responses-api-computer-environment",
-      "date": "2026-03-11T11:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "Breite Allianz aus Tech-Branche und Ex-Militärs unterstützt Anthropic im Pentagon-Streit",
-      "description": "Im Rechtsstreit zwischen Anthropic und dem US-Kriegsministerium formiert sich eine KI-Koalition: Microsoft, Dutzende OpenAI- und Google-Mitarbeiter, ehemalige Militärführer und Bürgerrechtsorganisatio",
-      "link": "https://the-decoder.de/breite-allianz-aus-tech-branche-und-ex-militaers-unterstuetzt-anthropic-im-pentagon-streit/",
-      "date": "2026-03-11T10:23:15.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Amazon stoppt Perplexitys KI-Agenten per einstweiliger Verfügung beim Online-Shopping",
-      "description": "Amazon stoppt Perplexitys Shopping-Bot per Gerichtsbeschluss: ein Urteil, das die Zukunft von KI-Agenten im E-Commerce prägen könnte.\nDer Artikel Amazon stoppt Perplexitys KI-Agenten per einstweiliger",
-      "link": "https://the-decoder.de/amazon-stoppt-perplexitys-ki-agenten-per-einstweiliger-verfuegung-beim-online-shopping/",
-      "date": "2026-03-10T18:56:01.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "ChatGPT visualisiert jetzt mehr als 70 Konzepte aus den Naturwissenschaften",
-      "description": "ChatGPT zeigt bei Mathe- und Physikfragen jetzt interaktive Visualisierungen, in denen Nutzer Variablen verändern und die Auswirkungen auf Graphen in Echtzeit beobachten können. Zum Start sind mehr al",
-      "link": "https://the-decoder.de/chatgpt-visualisiert-jetzt-mehr-als-70-konzepte-aus-den-naturwissenschaften/",
-      "date": "2026-03-10T18:05:07.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
     }
   ]
 }
