@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-03-12T14:53:00.881Z",
+  "lastUpdated": "2026-03-12T17:00:49.427Z",
   "news": [
+    {
+      "title": "ChatGPT verliert Marktanteile: Google Gemini vervierfacht seinen KI-Traffic",
+      "description": "ChatGPT dominiert den Chatbot-Markt weiter – aber der Vorsprung schmilzt. Laut neuen Similarweb-Zahlen ist OpenAIs Chatbot in nur zwölf Monaten von 75,7 auf 61,7 Prozent Marktanteil gefallen. Der groß",
+      "link": "https://the-decoder.de/chatgpt-verliert-marktanteile-google-gemini-vervierfacht-seinen-ki-traffic/",
+      "date": "2026-03-12T16:21:47.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "KI-Fälschungen aus Iran gelangen über Agenturnetzwerk in deutsche Medien",
       "description": "Der Spiegel hat mehrere Bilder aus seiner Iran-Berichterstattung entfernt, weil sie mit hoher Wahrscheinlichkeit per KI erzeugt oder verändert wurden.\nDer Artikel KI-Fälschungen aus Iran gelangen über",
@@ -108,15 +117,6 @@
       "source": "Google AI",
       "category": "große-modelle",
       "language": "en"
-    },
-    {
-      "title": "KI-Schreibassistent Grammarly verwendet ungefragt echte Namen für Expertentipps",
-      "description": "Grammarly nutzt offenbar ohne Erlaubnis die Namen von Journalisten und Autoren für eine KI-Funktion namens \"Expert Review\".\nDer Artikel KI-Schreibassistent Grammarly verwendet ungefragt echte Namen fü",
-      "link": "https://the-decoder.de/ki-schreibassistent-grammarly-verwendet-ungefragt-echte-namen-fuer-expertentipps/",
-      "date": "2026-03-11T16:40:01.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
     },
     {
       "title": "Rakuten fixes issues twice as fast with Codex",
