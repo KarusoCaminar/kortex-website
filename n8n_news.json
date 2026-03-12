@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-12T08:50:17.081Z",
+  "lastUpdated": "2026-03-12T10:42:29.863Z",
   "news": [
     {
       "title": "Google bringt mit Gemini Embedding 2 Text, Bild, Video und Audio in einen gemeinsamen Vektorraum",
@@ -11,7 +11,7 @@
       "language": "de"
     },
     {
-      "title": "KI-Code-Qualität wird laut Studie überschätzt: Profis lehnen jeden zweiten Vorschlag ab",
+      "title": "KI-Code-Qualität wird durch SWE-Benchmark überschätzt: Profis lehnen jeden zweiten \"bestandenen\" Vorschlag ab",
       "description": "Rund die Hälfte der KI-Code-Lösungen, die den bekannten SWE-bench-Benchmark bestehen, würde von echten Projektverantwortlichen abgelehnt. Das zeigt eine neue Untersuchung der Forschungsorganisation ME",
       "link": "https://the-decoder.de/ki-code-qualitaet-wird-laut-studie-ueberschaetzt-profis-lehnen-jeden-zweiten-vorschlag-ab/",
       "date": "2026-03-11T17:21:58.000Z",
