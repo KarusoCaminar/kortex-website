@@ -1,6 +1,42 @@
 {
-  "lastUpdated": "2026-03-13T10:40:53.594Z",
+  "lastUpdated": "2026-03-13T13:06:25.352Z",
   "news": [
+    {
+      "title": "Perplexity baut mit Personal Computer einen Always-on-KI-Agenten",
+      "description": "Perplexity AI will mit \"Personal Computer\" Nutzern einen KI-Assistenten bieten, der rund um die Uhr Aufgaben erledigt – von E-Mails über Präsentationen bis zur App-Steuerung.\nDer Artikel Perplexity ba",
+      "link": "https://the-decoder.de/perplexity-baut-mit-personal-computer-einen-always-on-ki-agenten/",
+      "date": "2026-03-13T12:34:55.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "EU-Rat billigt Position zu KI-Erleichterungen: Fristen für Hochrisiko-Systeme sollen 2027 und 2028 greifen",
+      "description": "Der Rat der EU will die Regeln für Künstliche Intelligenz vereinfachen, neue Fristen setzen und gleichzeitig KI-generierte Missbrauchsdarstellungen verbieten.\nDer Artikel EU-Rat billigt Position zu KI",
+      "link": "https://the-decoder.de/eu-rat-billigt-position-zu-ki-erleichterungen-fristen-fuer-hochrisiko-systeme-sollen-2027-und-2028-greifen/",
+      "date": "2026-03-13T12:33:13.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "TSMCs modernste Fertigung gehört wohl bald fast vollständig der KI",
+      "description": "Laut einer Analyse von SemiAnalysis verdrängen KI-Chips Smartphones von TSMCs modernster Fertigung. Bis 2027 könnten 86 Prozent der N3-Kapazität für KI-bezogene Chips reserviert sein.\nDer Artikel TSMC",
+      "link": "https://the-decoder.de/tsmcs-modernste-fertigung-gehoert-wohl-bald-fast-vollstaendig-der-ki/",
+      "date": "2026-03-13T12:32:46.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Die Ukraine stellt Verbündeten eine Plattform mit Gefechtsdaten für das KI-Training bereit",
+      "description": "Die Ukraine erklärt ihre Plattform für den Austausch von Gefechtsdaten mit Verbündeten für einsatzbereit.\nDer Artikel Die Ukraine stellt Verbündeten eine Plattform mit Gefechtsdaten für das KI-Trainin",
+      "link": "https://the-decoder.de/die-ukraine-stellt-verbuendeten-eine-plattform-mit-gefechtsdaten-fuer-das-ki-training-bereit/",
+      "date": "2026-03-13T11:50:50.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Meta verschiebt neues KI-Modell Avocado nach enttäuschenden internen Testergebnissen",
       "description": "Meta verschiebt offenbar sein neues KI-Modell \"Avocado\", weil es in Tests hinter Google, OpenAI und Anthropic zurückfällt.\nDer Artikel Meta verschiebt neues KI-Modell Avocado nach enttäuschenden inter",
@@ -47,24 +83,6 @@
       "language": "de"
     },
     {
-      "title": "ChatGPT verliert Marktanteile: Google Gemini vervierfacht seinen KI-Traffic",
-      "description": "ChatGPT dominiert den Chatbot-Markt weiter – aber der Vorsprung schmilzt. Laut neuen Similarweb-Zahlen ist OpenAIs Chatbot in nur zwölf Monaten von 75,7 auf 61,7 Prozent Marktanteil gefallen. Der groß",
-      "link": "https://the-decoder.de/chatgpt-verliert-marktanteile-google-gemini-vervierfacht-seinen-ki-traffic/",
-      "date": "2026-03-12T16:21:47.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "KI-Fälschungen aus Iran gelangen über Agenturnetzwerk in deutsche Medien",
-      "description": "Der Spiegel hat mehrere Bilder aus seiner Iran-Berichterstattung entfernt, weil sie mit hoher Wahrscheinlichkeit per KI erzeugt oder verändert wurden.\nDer Artikel KI-Fälschungen aus Iran gelangen über",
-      "link": "https://the-decoder.de/ki-faelschungen-aus-iran-gelangen-ueber-agenturnetzwerk-in-deutsche-medien/",
-      "date": "2026-03-12T14:11:53.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "Protecting cities with AI-driven flash flood forecasting",
       "description": "Climate & Sustainability",
       "link": "https://research.google/blog/protecting-cities-with-ai-driven-flash-flood-forecasting/",
@@ -72,33 +90,6 @@
       "source": "Google AI",
       "category": "große-modelle",
       "language": "en"
-    },
-    {
-      "title": "Google Maps bekommt eine neue KI-Frage-Funktion",
-      "description": "Google Maps wird zum KI-Reiseberater: Die neue Funktion \"Ask Maps\" beantwortet komplexe Fragen in natürlicher Sprache und zeigt personalisierte Ergebnisse auf einer angepassten Karte. Dazu kommt eine",
-      "link": "https://the-decoder.de/google-maps-bekommt-eine-neue-ki-frage-funktion/",
-      "date": "2026-03-12T13:01:19.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Forscher testen alternatives KI-Verfahren von Meta an 18 Millionen Herzultraschallvideos",
-      "description": "Forscher haben ein KI-Modell für Herzultraschall vorgestellt, das auf Metas JEPA-Architektur basiert und laut ihren Benchmarks gängige Verfahren wie Masked Autoencoder oder kontrastives Lernen übertri",
-      "link": "https://the-decoder.de/forscher-testen-alternatives-ki-verfahren-von-meta-an-18-millionen-herzultraschallvideos/",
-      "date": "2026-03-12T12:57:07.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "OpenAI plant angeblich Integration von Video-KI Sora in ChatGPT",
-      "description": "Sora floppt als eigenständige App, jetzt soll ChatGPT die Video-KI retten.\nDer Artikel OpenAI plant angeblich Integration von Video-KI Sora in ChatGPT erschien zuerst auf The Decoder.",
-      "link": "https://the-decoder.de/openai-plant-angeblich-integration-von-video-ki-sora-in-chatgpt/",
-      "date": "2026-03-12T12:20:11.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
     },
     {
       "title": "Introducing Groundsource: Turning news reports into data with Gemini",
@@ -132,6 +123,15 @@
       "description": "How ChatGPT defends against prompt injection and social engineering by constraining risky actions and protecting sensitive data in agent workflows.",
       "link": "https://openai.com/index/designing-agents-to-resist-prompt-injection",
       "date": "2026-03-11T11:30:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
+      "title": "From model to agent: Equipping the Responses API with a computer environment",
+      "description": "How OpenAI built an agent runtime using the Responses API, shell tool, and hosted containers to run secure, scalable agents with files, tools, and state.",
+      "link": "https://openai.com/index/equip-responses-api-computer-environment",
+      "date": "2026-03-11T11:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
