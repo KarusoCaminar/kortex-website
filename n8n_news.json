@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-13T14:44:57.148Z",
+  "lastUpdated": "2026-03-13T16:45:30.344Z",
   "news": [
     {
       "title": "Perplexity baut mit Personal Computer einen Always-on-KI-Agenten",
@@ -74,15 +74,6 @@
       "language": "de"
     },
     {
-      "title": "Anthropics Claude erstellt jetzt interaktive Diagramme und Grafiken direkt im Chat",
-      "description": "Anthropic hat eine neue Beta-Funktion für seinen KI-Chatbot Claude vorgestellt: Claude kann jetzt direkt im Chat interaktive Diagramme, Grafiken und Visualisierungen erstellen.\nDer Artikel Anthropics",
-      "link": "https://the-decoder.de/anthropics-claude-erstellt-jetzt-interaktive-diagramme-und-grafiken-direkt-im-chat/",
-      "date": "2026-03-12T17:03:09.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "Protecting cities with AI-driven flash flood forecasting",
       "description": "Climate & Sustainability",
       "link": "https://research.google/blog/protecting-cities-with-ai-driven-flash-flood-forecasting/",
@@ -123,6 +114,15 @@
       "description": "How ChatGPT defends against prompt injection and social engineering by constraining risky actions and protecting sensitive data in agent workflows.",
       "link": "https://openai.com/index/designing-agents-to-resist-prompt-injection",
       "date": "2026-03-11T11:30:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
+      "title": "Wayfair boosts catalog accuracy and support speed with OpenAI",
+      "description": "Wayfair uses OpenAI models to improve ecommerce support and product catalog accuracy, automating ticket triage and enhancing millions of product attributes at scale.",
+      "link": "https://openai.com/index/wayfair",
+      "date": "2026-03-11T11:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
