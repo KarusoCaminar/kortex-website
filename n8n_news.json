@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-03-14T12:59:39.643Z",
+  "lastUpdated": "2026-03-14T14:32:29.311Z",
   "news": [
+    {
+      "title": "KI-Spam-Webseiten fluten das Netz mit falschen Informationen und es werden schnell mehr",
+      "description": "Newsguard und der KI-Detektor Pangram Labs haben ein Echtzeitsystem gestartet, das sogenannte \"KI Content Farmen\" identifiziert. Mehr als 3.000 solcher Seiten wurden bereits erfasst, jeden Monat komme",
+      "link": "https://the-decoder.de/ki-spam-webseiten-fluten-das-netz-mit-falschen-informationen-und-es-werden-schnell-mehr/",
+      "date": "2026-03-14T14:11:06.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "KI-Agenten-Hype durch OpenClaw: China fördert Ein-Personen-Unternehmen mit Millionen-Subventionen",
       "description": "Sieben chinesische Städte legen in wenigen Tagen Millionen-Förderprogramme für OpenClaw-Projekte auf. Das Ziel: Firmen mit einem Gründer und KI-Agenten als Belegschaft.\nDer Artikel KI-Agenten-Hype dur",
@@ -69,15 +78,6 @@
       "description": "Elon Musks KI-Firma xAI steckt in einer Krise: Musk gab auf der Plattform X zu, dass das Unternehmen \"beim ersten Mal nicht richtig aufgebaut\" wurde und nun von Grund auf neu strukturiert werde.\nDer A",
       "link": "https://the-decoder.de/elon-musk-baut-xai-nach-gruender-flucht-und-programmier-rueckstand-komplett-um/",
       "date": "2026-03-13T19:09:00.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Perplexity baut mit Personal Computer einen Always-on-KI-Agenten",
-      "description": "Perplexity AI will mit \"Personal Computer\" Nutzern einen KI-Assistenten bieten, der rund um die Uhr Aufgaben erledigt – von E-Mails über Präsentationen bis zur App-Steuerung.\nDer Artikel Perplexity ba",
-      "link": "https://the-decoder.de/perplexity-baut-mit-personal-computer-einen-always-on-ki-agenten/",
-      "date": "2026-03-13T12:34:55.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
