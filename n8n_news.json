@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-03-14T10:32:24.303Z",
+  "lastUpdated": "2026-03-14T12:59:39.643Z",
   "news": [
+    {
+      "title": "KI-Agenten-Hype durch OpenClaw: China fördert Ein-Personen-Unternehmen mit Millionen-Subventionen",
+      "description": "Sieben chinesische Städte legen in wenigen Tagen Millionen-Förderprogramme für OpenClaw-Projekte auf. Das Ziel: Firmen mit einem Gründer und KI-Agenten als Belegschaft.\nDer Artikel KI-Agenten-Hype dur",
+      "link": "https://the-decoder.de/ki-agenten-hype-durch-openclaw-china-foerdert-ein-personen-unternehmen-mit-millionen-subventionen/",
+      "date": "2026-03-14T12:12:26.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "TADA: Hume AI veröffentlicht schnelles Open-Source-Modell für Sprachgenerierung ohne Halluzinationen",
+      "description": "Hume AI veröffentlicht TADA unter MIT-Lizenz: ein schnelles Open-Source-Sprachmodell, das Text und Audio synchron verarbeitet und in Tests keine Halluzinationen erzeugte.\nDer Artikel TADA: Hume AI ver",
+      "link": "https://the-decoder.de/tada-hume-ai-veroeffentlicht-schnelles-open-source-modell-fuer-sprachgenerierung-ohne-halluzinationen/",
+      "date": "2026-03-14T11:08:35.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "KI-Institut Ai2 stellt Robotik-Modelle vor, die ohne echte Trainingsdaten funktionieren",
       "description": "Roboter, die nur in virtuellen Welten trainiert wurden, sollen direkt in der Realität funktionieren, ohne echte Trainingsdaten. Ai2 will zeigen, dass das geht.\nDer Artikel KI-Institut Ai2 stellt Robot",
@@ -60,24 +78,6 @@
       "description": "Perplexity AI will mit \"Personal Computer\" Nutzern einen KI-Assistenten bieten, der rund um die Uhr Aufgaben erledigt – von E-Mails über Präsentationen bis zur App-Steuerung.\nDer Artikel Perplexity ba",
       "link": "https://the-decoder.de/perplexity-baut-mit-personal-computer-einen-always-on-ki-agenten/",
       "date": "2026-03-13T12:34:55.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "EU-Rat billigt Position zu KI-Erleichterungen: Fristen für Hochrisiko-Systeme sollen 2027 und 2028 greifen",
-      "description": "Der Rat der EU will die Regeln für Künstliche Intelligenz vereinfachen, neue Fristen setzen und gleichzeitig KI-generierte Missbrauchsdarstellungen verbieten.\nDer Artikel EU-Rat billigt Position zu KI",
-      "link": "https://the-decoder.de/eu-rat-billigt-position-zu-ki-erleichterungen-fristen-fuer-hochrisiko-systeme-sollen-2027-und-2028-greifen/",
-      "date": "2026-03-13T12:33:13.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "TSMCs modernste Fertigung gehört wohl bald fast vollständig der KI",
-      "description": "Laut einer Analyse von SemiAnalysis verdrängen KI-Chips Smartphones von TSMCs modernster Fertigung. Bis 2027 könnten 86 Prozent der N3-Kapazität für KI-bezogene Chips reserviert sein.\nDer Artikel TSMC",
-      "link": "https://the-decoder.de/tsmcs-modernste-fertigung-gehoert-wohl-bald-fast-vollstaendig-der-ki/",
-      "date": "2026-03-13T12:32:46.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
