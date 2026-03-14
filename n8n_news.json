@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-14T14:32:29.311Z",
+  "lastUpdated": "2026-03-14T16:36:19.765Z",
   "news": [
     {
       "title": "KI-Spam-Webseiten fluten das Netz mit falschen Informationen und es werden schnell mehr",
@@ -128,9 +128,9 @@
       "language": "en"
     },
     {
-      "title": "From model to agent: Equipping the Responses API with a computer environment",
-      "description": "How OpenAI built an agent runtime using the Responses API, shell tool, and hosted containers to run secure, scalable agents with files, tools, and state.",
-      "link": "https://openai.com/index/equip-responses-api-computer-environment",
+      "title": "Wayfair boosts catalog accuracy and support speed with OpenAI",
+      "description": "Wayfair uses OpenAI models to improve ecommerce support and product catalog accuracy, automating ticket triage and enhancing millions of product attributes at scale.",
+      "link": "https://openai.com/index/wayfair",
       "date": "2026-03-11T11:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
