@@ -1,6 +1,42 @@
 {
-  "lastUpdated": "2026-03-14T08:40:06.749Z",
+  "lastUpdated": "2026-03-14T10:32:24.303Z",
   "news": [
+    {
+      "title": "KI-Institut Ai2 stellt Robotik-Modelle vor, die ohne echte Trainingsdaten funktionieren",
+      "description": "Roboter, die nur in virtuellen Welten trainiert wurden, sollen direkt in der Realität funktionieren, ohne echte Trainingsdaten. Ai2 will zeigen, dass das geht.\nDer Artikel KI-Institut Ai2 stellt Robot",
+      "link": "https://the-decoder.de/ki-institut-ai2-stellt-robotik-modelle-vor-die-ohne-echte-trainingsdaten-funktionieren/",
+      "date": "2026-03-14T10:21:09.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Hohe Kosten für KI-Infrastruktur: Meta will angeblich 20 Prozent der Belegschaft entlassen",
+      "description": "Meta plant offenbar massive Entlassungen, um seine teuren KI-Investitionen zu finanzieren.\nDer Artikel Hohe Kosten für KI-Infrastruktur: Meta will angeblich 20 Prozent der Belegschaft entlassen erschi",
+      "link": "https://the-decoder.de/hohe-kosten-fuer-ki-infrastruktur-meta-will-angeblich-20-prozent-der-belegschaft-entlassen/",
+      "date": "2026-03-14T09:46:59.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Neue Rankings zeigen einen KI-Markt im Umbruch und den Aufstieg autonomer Agenten",
+      "description": "Die neue Ausgabe der Top-100-Liste für KI-Konsumentenprodukte von Andreessen Horowitz zeigt einen Markt im Umbruch: ChatGPT bleibt dominant, Konkurrenten holen auf, und die globale Nutzung spaltet sic",
+      "link": "https://the-decoder.de/neue-rankings-zeigen-einen-ki-markt-im-umbruch-und-den-aufstieg-autonomer-agenten/",
+      "date": "2026-03-14T09:02:40.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Ex-Anthropic-Forscher gründen neues KI-Startup Mirendil für die Wissenschaft",
+      "description": "Ehemalige Anthropic-Forscher gründen KI-Startup Mirendil für wissenschaftliche Forschung in Biologie und Materialwissenschaft mit einer angestrebten Bewertung von einer Milliarde Dollar.\nDer Artikel E",
+      "link": "https://the-decoder.de/ex-anthropic-forscher-gruenden-neues-ki-startup-mirendil-fuer-die-wissenschaft/",
+      "date": "2026-03-14T08:41:45.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Anthropic streicht Aufpreis für riesige Kontextfenster bei Claude",
       "description": "Anthropic streicht den Aufpreis für lange Kontexte bei Claude Opus 4.6 und Sonnet 4.6: Anfragen mit mehr als 200.000 Token kosten jetzt nicht mehr bis zu doppelt so viel.\nDer Artikel Anthropic streich",
@@ -42,33 +78,6 @@
       "description": "Laut einer Analyse von SemiAnalysis verdrängen KI-Chips Smartphones von TSMCs modernster Fertigung. Bis 2027 könnten 86 Prozent der N3-Kapazität für KI-bezogene Chips reserviert sein.\nDer Artikel TSMC",
       "link": "https://the-decoder.de/tsmcs-modernste-fertigung-gehoert-wohl-bald-fast-vollstaendig-der-ki/",
       "date": "2026-03-13T12:32:46.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Die Ukraine stellt Verbündeten eine Plattform mit Gefechtsdaten für das KI-Training bereit",
-      "description": "Die Ukraine erklärt ihre Plattform für den Austausch von Gefechtsdaten mit Verbündeten für einsatzbereit.\nDer Artikel Die Ukraine stellt Verbündeten eine Plattform mit Gefechtsdaten für das KI-Trainin",
-      "link": "https://the-decoder.de/die-ukraine-stellt-verbuendeten-eine-plattform-mit-gefechtsdaten-fuer-das-ki-training-bereit/",
-      "date": "2026-03-13T11:50:50.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Meta verschiebt neues KI-Modell Avocado nach enttäuschenden internen Testergebnissen",
-      "description": "Meta verschiebt offenbar sein neues KI-Modell \"Avocado\", weil es in Tests hinter Google, OpenAI und Anthropic zurückfällt.\nDer Artikel Meta verschiebt neues KI-Modell Avocado nach enttäuschenden inter",
-      "link": "https://the-decoder.de/meta-verschiebt-neues-ki-modell-avocado-nach-enttaeuschenden-internen-testergebnissen/",
-      "date": "2026-03-13T08:54:43.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "xAIs Grok 4.20 hängt in Benchmarks zurück und glänzt dennoch mit niedrigster Halluzinationsrate",
-      "description": "xAIs Grok 4.20 ist günstig, schnell und erfindet weniger; aber in Sachen Intelligenz fehlt der Anschluss an die Spitze.\nDer Artikel xAIs Grok 4.20 hängt in Benchmarks zurück und glänzt dennoch mit nie",
-      "link": "https://the-decoder.de/xais-grok-4-20-haengt-in-benchmarks-zurueck-und-glaenzt-dennoch-mit-niedrigster-halluzinationsrate/",
-      "date": "2026-03-12T19:08:12.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
@@ -122,15 +131,6 @@
       "title": "From model to agent: Equipping the Responses API with a computer environment",
       "description": "How OpenAI built an agent runtime using the Responses API, shell tool, and hosted containers to run secure, scalable agents with files, tools, and state.",
       "link": "https://openai.com/index/equip-responses-api-computer-environment",
-      "date": "2026-03-11T11:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "Wayfair boosts catalog accuracy and support speed with OpenAI",
-      "description": "Wayfair uses OpenAI models to improve ecommerce support and product catalog accuracy, automating ticket triage and enhancing millions of product attributes at scale.",
-      "link": "https://openai.com/index/wayfair",
       "date": "2026-03-11T11:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
