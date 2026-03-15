@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-03-15T14:34:06.859Z",
+  "lastUpdated": "2026-03-15T16:37:08.704Z",
   "news": [
+    {
+      "title": "Hundebesitzer entwirft mit ChatGPT und Co. einen Impfstoff gegen den Krebs seines Hundes",
+      "description": "In sozialen Medien geht die Geschichte eines australischen KI-Beraters viral, der mit ChatGPT, AlphaFold und Grok einen möglichen Behandlungsansatz für den unheilbaren Krebs seiner Hündin Rosie identi",
+      "link": "https://the-decoder.de/hundebesitzer-entwirft-mit-chatgpt-und-co-einen-impfstoff-gegen-den-krebs-seines-hundes/",
+      "date": "2026-03-15T16:13:53.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "OpenClaw-RL: Forscher wollen KI-Agenten allein durch Nutzung verbessern",
       "description": "KI-Agenten verwerfen wertvolles Feedback aus alltäglichen Interaktionen meist ungenutzt. Das neue Framework OpenClaw-RL von Princeton-Forschern ändert das: Es nutzt Live-Signale aus Chats, Terminal-Be",
@@ -69,15 +78,6 @@
       "description": "Meta plant offenbar massive Entlassungen, um seine teuren KI-Investitionen zu finanzieren.\nDer Artikel Hohe Kosten für KI-Infrastruktur: Meta will angeblich 20 Prozent der Belegschaft entlassen erschi",
       "link": "https://the-decoder.de/hohe-kosten-fuer-ki-infrastruktur-meta-will-angeblich-20-prozent-der-belegschaft-entlassen/",
       "date": "2026-03-14T09:46:59.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Neue Rankings zeigen einen KI-Markt im Umbruch und den Aufstieg autonomer Agenten",
-      "description": "Die neue Ausgabe der Top-100-Liste für KI-Konsumentenprodukte von Andreessen Horowitz zeigt einen Markt im Umbruch: ChatGPT bleibt dominant, Konkurrenten holen auf, und die globale Nutzung spaltet sic",
-      "link": "https://the-decoder.de/neue-rankings-zeigen-einen-ki-markt-im-umbruch-und-den-aufstieg-autonomer-agenten/",
-      "date": "2026-03-14T09:02:40.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
