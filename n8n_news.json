@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-15T10:33:43.198Z",
+  "lastUpdated": "2026-03-15T13:00:32.671Z",
   "news": [
     {
       "title": "OpenClaw-RL: Forscher wollen KI-Agenten allein durch Nutzung verbessern",
@@ -83,15 +83,6 @@
       "language": "de"
     },
     {
-      "title": "Ex-Anthropic-Forscher gründen neues KI-Startup Mirendil für die Wissenschaft",
-      "description": "Ehemalige Anthropic-Forscher gründen KI-Startup Mirendil für wissenschaftliche Forschung in Biologie und Materialwissenschaft mit einer angestrebten Bewertung von einer Milliarde Dollar.\nDer Artikel E",
-      "link": "https://the-decoder.de/ex-anthropic-forscher-gruenden-neues-ki-startup-mirendil-fuer-die-wissenschaft/",
-      "date": "2026-03-14T08:41:45.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "Protecting cities with AI-driven flash flood forecasting",
       "description": "Climate & Sustainability",
       "link": "https://research.google/blog/protecting-cities-with-ai-driven-flash-flood-forecasting/",
@@ -132,6 +123,15 @@
       "description": "How ChatGPT defends against prompt injection and social engineering by constraining risky actions and protecting sensitive data in agent workflows.",
       "link": "https://openai.com/index/designing-agents-to-resist-prompt-injection",
       "date": "2026-03-11T11:30:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
+      "title": "Wayfair boosts catalog accuracy and support speed with OpenAI",
+      "description": "Wayfair uses OpenAI models to improve ecommerce support and product catalog accuracy, automating ticket triage and enhancing millions of product attributes at scale.",
+      "link": "https://openai.com/index/wayfair",
+      "date": "2026-03-11T11:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
