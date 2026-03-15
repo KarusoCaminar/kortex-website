@@ -1,6 +1,33 @@
 {
-  "lastUpdated": "2026-03-15T08:40:43.185Z",
+  "lastUpdated": "2026-03-15T10:33:43.198Z",
   "news": [
+    {
+      "title": "OpenClaw-RL: Forscher wollen KI-Agenten allein durch Nutzung verbessern",
+      "description": "KI-Agenten verwerfen wertvolles Feedback aus alltäglichen Interaktionen meist ungenutzt. Das neue Framework OpenClaw-RL von Princeton-Forschern ändert das: Es nutzt Live-Signale aus Chats, Terminal-Be",
+      "link": "https://the-decoder.de/openclaw-rl-forscher-wollen-ki-agenten-allein-durch-nutzung-verbessern/",
+      "date": "2026-03-15T09:44:20.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Wegen Hollywood-Beschwerden: Bytedance stoppt weltweiten Start von KI-Videogenerator Seedance 2.0",
+      "description": "ByteDance wollte sein KI-Videomodell Seedance 2.0 Mitte März weltweit starten. Daraus wird vorerst nichts: Hollywood hat dem Unternehmen gemeinschaftlich einen Strich durch die Rechnung gemacht.\nDer A",
+      "link": "https://the-decoder.de/wegen-hollywood-beschwerden-bytedance-stoppt-weltweiten-start-von-ki-videogenerator-seedance-2-0/",
+      "date": "2026-03-15T09:24:36.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "KI-Agent soll sich in nur einer Stunde in Recruiting-Plattform gehackt haben",
+      "description": "Ein KI-Agent hackt eine KI-Recruiting-Plattform: Codewalls autonomer Agent verkettet vier Schwachstellen bei Jack & Jill zur vollständigen Kontoübernahme – und gibt sich dabei eigenständig als Donald",
+      "link": "https://the-decoder.de/ki-agent-soll-sich-in-nur-einer-stunde-in-recruiting-plattform-gehackt-haben/",
+      "date": "2026-03-15T08:26:24.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "KI-Spam-Webseiten fluten das Netz mit falschen Informationen und es werden schnell mehr",
       "description": "Newsguard und der KI-Detektor Pangram Labs haben ein Echtzeitsystem gestartet, das sogenannte \"KI Content Farmen\" identifiziert. Mehr als 3.000 solcher Seiten wurden bereits erfasst, jeden Monat komme",
@@ -65,24 +92,6 @@
       "language": "de"
     },
     {
-      "title": "Anthropic streicht Aufpreis für riesige Kontextfenster bei Claude",
-      "description": "Anthropic streicht den Aufpreis für lange Kontexte bei Claude Opus 4.6 und Sonnet 4.6: Anfragen mit mehr als 200.000 Token kosten jetzt nicht mehr bis zu doppelt so viel.\nDer Artikel Anthropic streich",
-      "link": "https://the-decoder.de/anthropic-streicht-aufpreis-fuer-riesige-kontextfenster-bei-claude/",
-      "date": "2026-03-13T19:41:00.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Elon Musk baut xAI nach Gründer-Flucht und Programmier-Rückstand komplett um",
-      "description": "Elon Musks KI-Firma xAI steckt in einer Krise: Musk gab auf der Plattform X zu, dass das Unternehmen \"beim ersten Mal nicht richtig aufgebaut\" wurde und nun von Grund auf neu strukturiert werde.\nDer A",
-      "link": "https://the-decoder.de/elon-musk-baut-xai-nach-gruender-flucht-und-programmier-rueckstand-komplett-um/",
-      "date": "2026-03-13T19:09:00.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "Protecting cities with AI-driven flash flood forecasting",
       "description": "Climate & Sustainability",
       "link": "https://research.google/blog/protecting-cities-with-ai-driven-flash-flood-forecasting/",
@@ -123,15 +132,6 @@
       "description": "How ChatGPT defends against prompt injection and social engineering by constraining risky actions and protecting sensitive data in agent workflows.",
       "link": "https://openai.com/index/designing-agents-to-resist-prompt-injection",
       "date": "2026-03-11T11:30:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "Wayfair boosts catalog accuracy and support speed with OpenAI",
-      "description": "Wayfair uses OpenAI models to improve ecommerce support and product catalog accuracy, automating ticket triage and enhancing millions of product attributes at scale.",
-      "link": "https://openai.com/index/wayfair",
-      "date": "2026-03-11T11:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
