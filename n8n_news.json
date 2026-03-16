@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-03-16T13:20:31.460Z",
+  "lastUpdated": "2026-03-16T15:03:38.675Z",
   "news": [
+    {
+      "title": "OpenAIs eigene Berater warnen vor Erotik-Modus und sprechen von \"sexy Suizid-Coach\"",
+      "description": "OpenAIs Beratergremium für Wohlbefinden soll sich einstimmig gegen den geplanten Adult Mode für ChatGPT ausgesprochen haben. Intern kämpft das Unternehmen mit einer fehleranfälligen Alterserkennung un",
+      "link": "https://the-decoder.de/openais-eigene-berater-warnen-vor-erotik-modus-und-sprechen-von-sexy-suizid-coach/",
+      "date": "2026-03-16T13:55:39.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Alibaba gründet \"Token Hub\": Neue KI-Sparte soll Forschung, Apps und Geräte unter einem Dach vereinen",
+      "description": "Alibaba bündelt seine KI-Aktivitäten in einer neuen Geschäftseinheit namens \"Alibaba Token Hub\" (ATH), die CEO Eddie Wu direkt leitet, berichtet Bloomberg.\nDer Artikel Alibaba gründet \"Token Hub\": Neu",
+      "link": "https://the-decoder.de/alibaba-gruendet-token-hub-neue-ki-sparte-soll-forschung-apps-und-geraete-unter-einem-dach-vereinen/",
+      "date": "2026-03-16T13:25:31.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Meta schließt 27-Milliarden-Dollar-Deal mit Nebius für KI-Infrastruktur ab",
       "description": "Meta investiert bis zu 27 Milliarden Dollar in KI-Infrastruktur des niederländischen Cloud-Anbieters Nebius, inklusive einer der ersten großen Installationen von Nvidias neuesten Vera-Rubin-Chips.\nDer",
@@ -60,24 +78,6 @@
       "description": "Ein KI-Agent hackt eine KI-Recruiting-Plattform: Codewalls autonomer Agent verkettet vier Schwachstellen bei Jack & Jill zur vollständigen Kontoübernahme – und gibt sich dabei eigenständig als Donald",
       "link": "https://the-decoder.de/ki-agent-soll-sich-in-nur-einer-stunde-in-recruiting-plattform-gehackt-haben/",
       "date": "2026-03-15T08:26:24.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "KI-Spam-Webseiten fluten das Netz mit falschen Informationen und es werden schnell mehr",
-      "description": "Newsguard und der KI-Detektor Pangram Labs haben ein Echtzeitsystem gestartet, das sogenannte \"KI Content Farmen\" identifiziert. Mehr als 3.000 solcher Seiten wurden bereits erfasst, jeden Monat komme",
-      "link": "https://the-decoder.de/ki-spam-webseiten-fluten-das-netz-mit-falschen-informationen-und-es-werden-schnell-mehr/",
-      "date": "2026-03-14T14:11:06.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "KI-Agenten-Hype durch OpenClaw: China fördert Ein-Personen-Unternehmen mit Millionen-Subventionen",
-      "description": "Sieben chinesische Städte legen in wenigen Tagen Millionen-Förderprogramme für OpenClaw-Projekte auf. Das Ziel: Firmen mit einem Gründer und KI-Agenten als Belegschaft.\nDer Artikel KI-Agenten-Hype dur",
-      "link": "https://the-decoder.de/ki-agenten-hype-durch-openclaw-china-foerdert-ein-personen-unternehmen-mit-millionen-subventionen/",
-      "date": "2026-03-14T12:12:26.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
