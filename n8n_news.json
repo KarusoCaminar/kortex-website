@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-03-16T09:01:01.171Z",
+  "lastUpdated": "2026-03-16T10:56:14.769Z",
   "news": [
+    {
+      "title": "KI-Fakes, gesperrte Satellitenbilder, gefälschte OSINT-Accounts: Der Iran-Krieg im Informationsnebel",
+      "description": "Über 110 KI-generierte Fake-Videos und -Bilder zum Krieg im Nahen Osten hat die New York Times in nur zwei Wochen identifiziert. Der Iran setzt die Fälschungen offenbar gezielt als Informationswaffe e",
+      "link": "https://the-decoder.de/ki-fakes-gesperrte-satellitenbilder-gefaelschte-osint-accounts-der-iran-krieg-im-informationsnebel/",
+      "date": "2026-03-16T10:49:34.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Chinas zweitgrößter Chiphersteller entwickelt 7-Nanometer-Fertigung",
+      "description": "Chinas zweitgrößter Chiphersteller Hua Hong Group bereitet eine 7-Nanometer-Chipproduktion in Shanghai vor, mit Unterstützung von Huawei.\nDer Artikel Chinas zweitgrößter Chiphersteller entwickelt 7-Na",
+      "link": "https://the-decoder.de/chinas-zweitgroesster-chiphersteller-entwickelt-7-nanometer-fertigung/",
+      "date": "2026-03-16T10:42:36.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Hundebesitzer entwirft mit ChatGPT und Co. einen Impfstoff gegen den Krebs seines Hundes",
       "description": "In sozialen Medien geht die Geschichte eines australischen KI-Beraters viral, der mit ChatGPT, AlphaFold und Grok einen möglichen Behandlungsansatz für den unheilbaren Krebs seiner Hündin Rosie identi",
@@ -60,24 +78,6 @@
       "description": "Hume AI veröffentlicht TADA unter MIT-Lizenz: ein schnelles Open-Source-Sprachmodell, das Text und Audio synchron verarbeitet und in Tests keine Halluzinationen erzeugte.\nDer Artikel TADA: Hume AI ver",
       "link": "https://the-decoder.de/tada-hume-ai-veroeffentlicht-schnelles-open-source-modell-fuer-sprachgenerierung-ohne-halluzinationen/",
       "date": "2026-03-14T11:08:35.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "KI-Institut Ai2 stellt Robotik-Modelle vor, die ohne echte Trainingsdaten funktionieren",
-      "description": "Roboter, die nur in virtuellen Welten trainiert wurden, sollen direkt in der Realität funktionieren, ohne echte Trainingsdaten. Ai2 will zeigen, dass das geht.\nDer Artikel KI-Institut Ai2 stellt Robot",
-      "link": "https://the-decoder.de/ki-institut-ai2-stellt-robotik-modelle-vor-die-ohne-echte-trainingsdaten-funktionieren/",
-      "date": "2026-03-14T10:21:09.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Hohe Kosten für KI-Infrastruktur: Meta will angeblich 20 Prozent der Belegschaft entlassen",
-      "description": "Meta plant offenbar massive Entlassungen, um seine teuren KI-Investitionen zu finanzieren.\nDer Artikel Hohe Kosten für KI-Infrastruktur: Meta will angeblich 20 Prozent der Belegschaft entlassen erschi",
-      "link": "https://the-decoder.de/hohe-kosten-fuer-ki-infrastruktur-meta-will-angeblich-20-prozent-der-belegschaft-entlassen/",
-      "date": "2026-03-14T09:46:59.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
