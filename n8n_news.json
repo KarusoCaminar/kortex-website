@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-03-16T10:56:14.769Z",
+  "lastUpdated": "2026-03-16T13:20:31.460Z",
   "news": [
+    {
+      "title": "Meta schließt 27-Milliarden-Dollar-Deal mit Nebius für KI-Infrastruktur ab",
+      "description": "Meta investiert bis zu 27 Milliarden Dollar in KI-Infrastruktur des niederländischen Cloud-Anbieters Nebius, inklusive einer der ersten großen Installationen von Nvidias neuesten Vera-Rubin-Chips.\nDer",
+      "link": "https://the-decoder.de/meta-schliesst-27-milliarden-dollar-deal-mit-nebius-fuer-ki-infrastruktur-ab/",
+      "date": "2026-03-16T11:57:11.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "KI-Fakes, gesperrte Satellitenbilder, gefälschte OSINT-Accounts: Der Iran-Krieg im Informationsnebel",
       "description": "Über 110 KI-generierte Fake-Videos und -Bilder zum Krieg im Nahen Osten hat die New York Times in nur zwei Wochen identifiziert. Der Iran setzt die Fälschungen offenbar gezielt als Informationswaffe e",
@@ -69,15 +78,6 @@
       "description": "Sieben chinesische Städte legen in wenigen Tagen Millionen-Förderprogramme für OpenClaw-Projekte auf. Das Ziel: Firmen mit einem Gründer und KI-Agenten als Belegschaft.\nDer Artikel KI-Agenten-Hype dur",
       "link": "https://the-decoder.de/ki-agenten-hype-durch-openclaw-china-foerdert-ein-personen-unternehmen-mit-millionen-subventionen/",
       "date": "2026-03-14T12:12:26.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "TADA: Hume AI veröffentlicht schnelles Open-Source-Modell für Sprachgenerierung ohne Halluzinationen",
-      "description": "Hume AI veröffentlicht TADA unter MIT-Lizenz: ein schnelles Open-Source-Sprachmodell, das Text und Audio synchron verarbeitet und in Tests keine Halluzinationen erzeugte.\nDer Artikel TADA: Hume AI ver",
-      "link": "https://the-decoder.de/tada-hume-ai-veroeffentlicht-schnelles-open-source-modell-fuer-sprachgenerierung-ohne-halluzinationen/",
-      "date": "2026-03-14T11:08:35.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
