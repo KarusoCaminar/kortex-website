@@ -1,6 +1,33 @@
 {
-  "lastUpdated": "2026-03-16T17:05:09.451Z",
+  "lastUpdated": "2026-03-16T19:07:00.551Z",
   "news": [
+    {
+      "title": "OpenAI plant Milliarden-Joint-Venture mit Private-Equity-Firmen für KI-Vertrieb",
+      "description": "OpenAI will seine KI schneller in große Unternehmen bringen und setzt dafür nicht nur auf neue Technik, sondern auf Vertrieb, Partner und Kapital. Gespräche über ein 10-Milliarden-Dollar-Joint-Venture",
+      "link": "https://the-decoder.de/openai-plant-milliarden-joint-venture-mit-private-equity-firmen-fuer-ki-vertrieb/",
+      "date": "2026-03-16T18:57:10.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Encyclopedia Britannica verklagt OpenAI wegen massenhafter Urheberrechtsverletzung",
+      "description": "Britannica verklagt OpenAI wegen fast 100.000 kopierter Artikel. Gleichzeitig streiten Gerichte in Europa darüber, ob KI-Modelle urheberrechtlich geschützte Werke überhaupt \"speichern\" können – mit ge",
+      "link": "https://the-decoder.de/encyclopedia-britannica-verklagt-openai-wegen-massenhafter-urheberrechtsverletzung/",
+      "date": "2026-03-16T18:21:37.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Testing LLMs on superconductivity research questions",
+      "description": "Education Innovation",
+      "link": "https://research.google/blog/testing-llms-on-superconductivity-research-questions/",
+      "date": "2026-03-16T17:31:00.000Z",
+      "source": "Google AI",
+      "category": "große-modelle",
+      "language": "en"
+    },
     {
       "title": "GPT-4.5 im Turing Test: KI muss sich dümmer stellen, um menschlicher zu wirken",
       "description": "GPT-4.5 besteht den Turing-Test: aber nur, weil es sich dummstellt. Tippfehler, schlechte Mathematik-Kenntnisse und Slang machen die KI menschlicher als den Menschen selbst.\nDer Artikel GPT-4.5 im Tur",
@@ -56,28 +83,19 @@
       "language": "de"
     },
     {
+      "title": "Why Codex Security Doesn’t Include a SAST Report",
+      "description": "A deep dive into why Codex Security doesn’t rely on traditional SAST, instead using AI-driven constraint reasoning and validation to find real vulnerabilities with fewer false positives.",
+      "link": "https://openai.com/index/why-codex-security-doesnt-include-sast",
+      "date": "2026-03-16T00:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
       "title": "Hundebesitzer entwirft mit ChatGPT und Co. einen Impfstoff gegen den Krebs seines Hundes",
       "description": "In sozialen Medien geht die Geschichte eines australischen KI-Beraters viral, der mit ChatGPT, AlphaFold und Grok einen möglichen Behandlungsansatz für den unheilbaren Krebs seiner Hündin Rosie identi",
       "link": "https://the-decoder.de/hundebesitzer-entwirft-mit-chatgpt-und-co-einen-impfstoff-gegen-den-krebs-seines-hundes/",
       "date": "2026-03-15T16:13:53.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "OpenClaw-RL: Forscher wollen KI-Agenten allein durch Nutzung verbessern",
-      "description": "KI-Agenten verwerfen wertvolles Feedback aus alltäglichen Interaktionen meist ungenutzt. Das neue Framework OpenClaw-RL von Princeton-Forschern ändert das: Es nutzt Live-Signale aus Chats, Terminal-Be",
-      "link": "https://the-decoder.de/openclaw-rl-forscher-wollen-ki-agenten-allein-durch-nutzung-verbessern/",
-      "date": "2026-03-15T09:44:20.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Wegen Hollywood-Beschwerden: Bytedance stoppt weltweiten Start von KI-Videogenerator Seedance 2.0",
-      "description": "ByteDance wollte sein KI-Videomodell Seedance 2.0 Mitte März weltweit starten. Daraus wird vorerst nichts: Hollywood hat dem Unternehmen gemeinschaftlich einen Strich durch die Rechnung gemacht.\nDer A",
-      "link": "https://the-decoder.de/wegen-hollywood-beschwerden-bytedance-stoppt-weltweiten-start-von-ki-videogenerator-seedance-2-0/",
-      "date": "2026-03-15T09:24:36.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
@@ -101,15 +119,6 @@
       "language": "en"
     },
     {
-      "title": "Why Codex Security Doesn’t Include a SAST Report",
-      "description": "A deep dive into why Codex Security doesn’t rely on traditional SAST, instead using AI-driven constraint reasoning and validation to find real vulnerabilities with fewer false positives.",
-      "link": "https://openai.com/index/why-codex-security-doesnt-include-sast",
-      "date": "2026-03-12T00:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
       "title": "Exploring the feasibility of conversational diagnostic AI in a real-world clinical study",
       "description": "Generative AI",
       "link": "https://research.google/blog/exploring-the-feasibility-of-conversational-diagnostic-ai-in-a-real-world-clinical-study/",
@@ -123,15 +132,6 @@
       "description": "Rakuten uses Codex, the coding agent from OpenAI, to ship software faster and safer, reducing MTTR 50%, automating CI/CD reviews, and delivering full-stack builds in weeks.",
       "link": "https://openai.com/index/rakuten",
       "date": "2026-03-11T13:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "Designing AI agents to resist prompt injection",
-      "description": "How ChatGPT defends against prompt injection and social engineering by constraining risky actions and protecting sensitive data in agent workflows.",
-      "link": "https://openai.com/index/designing-agents-to-resist-prompt-injection",
-      "date": "2026-03-11T11:30:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
