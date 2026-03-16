@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-03-16T19:07:00.551Z",
+  "lastUpdated": "2026-03-16T20:41:41.214Z",
   "news": [
+    {
+      "title": "GTC 2026: Nvidia will das Datenproblem der Robotik in ein Rechenproblem verwandeln",
+      "description": "Auf der GTC 2026 baut Nvidia seine Plattform für physische KI massiv aus. Ab 2027 sollen autonome Fahrzeuge mit Uber durch Los Angeles fahren, Industrieroboter von FANUC und ABB erhalten Nvidia-Gehirn",
+      "link": "https://the-decoder.de/gtc-2026-nvidia-will-das-datenproblem-der-robotik-in-ein-rechenproblem-verwandeln/",
+      "date": "2026-03-16T20:30:11.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "OpenAI plant Milliarden-Joint-Venture mit Private-Equity-Firmen für KI-Vertrieb",
       "description": "OpenAI will seine KI schneller in große Unternehmen bringen und setzt dafür nicht nur auf neue Technik, sondern auf Vertrieb, Partner und Kapital. Gespräche über ein 10-Milliarden-Dollar-Joint-Venture",
@@ -124,15 +133,6 @@
       "link": "https://research.google/blog/exploring-the-feasibility-of-conversational-diagnostic-ai-in-a-real-world-clinical-study/",
       "date": "2026-03-11T16:58:00.000Z",
       "source": "Google AI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "Rakuten fixes issues twice as fast with Codex",
-      "description": "Rakuten uses Codex, the coding agent from OpenAI, to ship software faster and safer, reducing MTTR 50%, automating CI/CD reviews, and delivering full-stack builds in weeks.",
-      "link": "https://openai.com/index/rakuten",
-      "date": "2026-03-11T13:00:00.000Z",
-      "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
     }
