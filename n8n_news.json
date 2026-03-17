@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-17T19:06:55.656Z",
+  "lastUpdated": "2026-03-17T20:42:21.266Z",
   "news": [
     {
       "title": "OpenAI bringt GPT-5.4 mini und nano: Schneller, fähiger, aber auch deutlich teurer",
@@ -54,6 +54,15 @@
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
+    },
+    {
+      "title": "Equipping workers with insights about compensation",
+      "description": "New research shows Americans send nearly 3 million daily messages to ChatGPT asking about compensation and earnings, helping close the wage information gap.",
+      "link": "https://openai.com/index/equipping-workers-with-insights-about-compensation",
+      "date": "2026-03-17T00:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
     },
     {
       "title": "GTC 2026: Nvidia will das Datenproblem der Robotik in ein Rechenproblem verwandeln",
@@ -123,15 +132,6 @@
       "description": "Climate & Sustainability",
       "link": "https://research.google/blog/protecting-cities-with-ai-driven-flash-flood-forecasting/",
       "date": "2026-03-12T13:03:15.000Z",
-      "source": "Google AI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "Introducing Groundsource: Turning news reports into data with Gemini",
-      "description": "Climate & Sustainability",
-      "link": "https://research.google/blog/introducing-groundsource-turning-news-reports-into-data-with-gemini/",
-      "date": "2026-03-12T10:42:00.000Z",
       "source": "Google AI",
       "category": "große-modelle",
       "language": "en"
