@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-03-17T10:54:04.906Z",
+  "lastUpdated": "2026-03-17T13:19:43.512Z",
   "news": [
+    {
+      "title": "OpenAI fährt Nebenprojekte zurück und will sich auf Coding und Geschäftskunden konzentrieren",
+      "description": "Die bisherige Strategie, möglichst viele Produkte gleichzeitig zu lancieren, hat OpenAI laut eigener Einschätzung verwundbar gemacht. Nun soll ein strategischer Schwenk das Unternehmen wieder auf Kurs",
+      "link": "https://the-decoder.de/openai-faehrt-nebenprojekte-zurueck-und-will-sich-auf-coding-und-geschaeftskunden-konzentrieren/",
+      "date": "2026-03-17T11:22:18.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Mistral AI veröffentlicht Mistral Small 4 als kleinen Open-Weight-Allrounder",
       "description": "Mistral AI hat mit Mistral Small 4 ein neues Modell veröffentlicht, das schnelle Textantworten, logisches Denken und Bildverarbeitung in einem vereint.\nDer Artikel Mistral AI veröffentlicht Mistral Sm",
@@ -87,15 +96,6 @@
       "description": "Über 110 KI-generierte Fake-Videos und -Bilder zum Krieg im Nahen Osten hat die New York Times in nur zwei Wochen identifiziert. Der Iran setzt die Fälschungen offenbar gezielt als Informationswaffe e",
       "link": "https://the-decoder.de/ki-fakes-gesperrte-satellitenbilder-gefaelschte-osint-accounts-der-iran-krieg-im-informationsnebel/",
       "date": "2026-03-16T10:49:34.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Chinas zweitgrößter Chiphersteller entwickelt 7-Nanometer-Fertigung",
-      "description": "Chinas zweitgrößter Chiphersteller Hua Hong Group bereitet eine 7-Nanometer-Chipproduktion in Shanghai vor, mit Unterstützung von Huawei.\nDer Artikel Chinas zweitgrößter Chiphersteller entwickelt 7-Na",
-      "link": "https://the-decoder.de/chinas-zweitgroesster-chiphersteller-entwickelt-7-nanometer-fertigung/",
-      "date": "2026-03-16T10:42:36.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
