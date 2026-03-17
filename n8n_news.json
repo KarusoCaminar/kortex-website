@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-03-17T08:57:18.934Z",
+  "lastUpdated": "2026-03-17T10:54:04.906Z",
   "news": [
+    {
+      "title": "Mistral AI veröffentlicht Mistral Small 4 als kleinen Open-Weight-Allrounder",
+      "description": "Mistral AI hat mit Mistral Small 4 ein neues Modell veröffentlicht, das schnelle Textantworten, logisches Denken und Bildverarbeitung in einem vereint.\nDer Artikel Mistral AI veröffentlicht Mistral Sm",
+      "link": "https://the-decoder.de/mistral-ai-veroeffentlicht-mistral-small-4-als-kleinen-open-weight-allrounder/",
+      "date": "2026-03-17T09:56:01.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "GTC 2026: Nvidia will das Datenproblem der Robotik in ein Rechenproblem verwandeln",
       "description": "Auf der GTC 2026 baut Nvidia seine Plattform für physische KI massiv aus. Ab 2027 sollen autonome Fahrzeuge mit Uber durch Los Angeles fahren, Industrieroboter von FANUC und ABB erhalten Nvidia-Gehirn",
@@ -99,15 +108,6 @@
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
-    },
-    {
-      "title": "Hundebesitzer entwirft mit ChatGPT und Co. einen Impfstoff gegen den Krebs seines Hundes",
-      "description": "In sozialen Medien geht die Geschichte eines australischen KI-Beraters viral, der mit ChatGPT, AlphaFold und Grok einen möglichen Behandlungsansatz für den unheilbaren Krebs seiner Hündin Rosie identi",
-      "link": "https://the-decoder.de/hundebesitzer-entwirft-mit-chatgpt-und-co-einen-impfstoff-gegen-den-krebs-seines-hundes/",
-      "date": "2026-03-15T16:13:53.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
     },
     {
       "title": "Protecting cities with AI-driven flash flood forecasting",
