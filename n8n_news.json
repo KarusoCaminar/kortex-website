@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-17T13:19:43.512Z",
+  "lastUpdated": "2026-03-17T15:00:38.965Z",
   "news": [
     {
       "title": "OpenAI fährt Nebenprojekte zurück und will sich auf Coding und Geschäftskunden konzentrieren",
@@ -92,15 +92,6 @@
       "language": "de"
     },
     {
-      "title": "KI-Fakes, gesperrte Satellitenbilder, gefälschte OSINT-Accounts: Der Iran-Krieg im Informationsnebel",
-      "description": "Über 110 KI-generierte Fake-Videos und -Bilder zum Krieg im Nahen Osten hat die New York Times in nur zwei Wochen identifiziert. Der Iran setzt die Fälschungen offenbar gezielt als Informationswaffe e",
-      "link": "https://the-decoder.de/ki-fakes-gesperrte-satellitenbilder-gefaelschte-osint-accounts-der-iran-krieg-im-informationsnebel/",
-      "date": "2026-03-16T10:49:34.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "Why Codex Security Doesn’t Include a SAST Report",
       "description": "A deep dive into why Codex Security doesn’t rely on traditional SAST, instead using AI-driven constraint reasoning and validation to find real vulnerabilities with fewer false positives.",
       "link": "https://openai.com/index/why-codex-security-doesnt-include-sast",
@@ -133,6 +124,15 @@
       "link": "https://research.google/blog/exploring-the-feasibility-of-conversational-diagnostic-ai-in-a-real-world-clinical-study/",
       "date": "2026-03-11T16:58:00.000Z",
       "source": "Google AI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
+      "title": "Rakuten fixes issues twice as fast with Codex",
+      "description": "Rakuten uses Codex, the coding agent from OpenAI, to ship software faster and safer, reducing MTTR 50%, automating CI/CD reviews, and delivering full-stack builds in weeks.",
+      "link": "https://openai.com/index/rakuten",
+      "date": "2026-03-11T13:00:00.000Z",
+      "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
     }
