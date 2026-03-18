@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-03-18T13:20:37.309Z",
+  "lastUpdated": "2026-03-18T15:06:39.426Z",
   "news": [
+    {
+      "title": "Pentagon plant offenbar KI-Training auf geheimen Militärdaten",
+      "description": "Das US-Verteidigungsministerium will laut einem Bericht sichere Umgebungen einrichten, in denen KI-Firmen ihre Modelle mit klassifizierten Daten trainieren. Bisher durften Modelle geheime Daten nur le",
+      "link": "https://the-decoder.de/pentagon-plant-offenbar-ki-training-auf-geheimen-militaerdaten/",
+      "date": "2026-03-18T14:07:21.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Nvidia darf H200-Chips wieder nach China liefern und bereitet Groq-Chip für den Markt vor",
+      "description": "Peking genehmigt den Verkauf von Nvidias H200-KI-Chips. Gleichzeitig arbeitet das Unternehmen an einer China-tauglichen Version seines Groq-Inferenz-Chips.\nDer Artikel Nvidia darf H200-Chips wieder na",
+      "link": "https://the-decoder.de/nvidia-darf-h200-chips-wieder-nach-china-liefern-und-bereitet-groq-chip-fuer-den-markt-vor/",
+      "date": "2026-03-18T13:22:58.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Midjourney veröffentlicht V8-Testversion: Fünfmal schneller, aber teure Premium-Features",
       "description": "Midjourney gibt eine frühe Version seines neuen V8-Modells zum Community-Test frei. Die Bildgenerierung soll deutlich schneller und detaillierter sein, doch einige Features kosten das Vierfache.\nDer A",
@@ -92,15 +110,6 @@
       "language": "de"
     },
     {
-      "title": "Encyclopedia Britannica verklagt OpenAI wegen massenhafter Urheberrechtsverletzung",
-      "description": "Britannica verklagt OpenAI wegen fast 100.000 kopierter Artikel. Gleichzeitig streiten Gerichte in Europa darüber, ob KI-Modelle urheberrechtlich geschützte Werke überhaupt \"speichern\" können – mit ge",
-      "link": "https://the-decoder.de/encyclopedia-britannica-verklagt-openai-wegen-massenhafter-urheberrechtsverletzung/",
-      "date": "2026-03-16T18:21:37.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "Testing LLMs on superconductivity research questions",
       "description": "Education Innovation",
       "link": "https://research.google/blog/testing-llms-on-superconductivity-research-questions/",
@@ -108,15 +117,6 @@
       "source": "Google AI",
       "category": "große-modelle",
       "language": "en"
-    },
-    {
-      "title": "GPT-4.5 im Turing Test: KI muss sich dümmer stellen, um menschlicher zu wirken",
-      "description": "GPT-4.5 besteht den Turing-Test: aber nur, weil es sich dummstellt. Tippfehler, schlechte Mathematik-Kenntnisse und Slang machen die KI menschlicher als den Menschen selbst.\nDer Artikel GPT-4.5 im Tur",
-      "link": "https://the-decoder.de/gpt-4-5-im-turing-test-ki-muss-sich-duemmer-stellen-um-menschlicher-zu-wirken/",
-      "date": "2026-03-16T16:03:14.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
     },
     {
       "title": "Why Codex Security Doesn’t Include a SAST Report",
