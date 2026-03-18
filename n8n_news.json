@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-03-18T15:06:39.426Z",
+  "lastUpdated": "2026-03-18T17:04:44.919Z",
   "news": [
+    {
+      "title": "Apple blockiert Updates von Vibe-Coding-Apps im App Store",
+      "description": "Apple verhindert, dass beliebte Vibe-Coding-Apps wie Replit und Vibecode neue Versionen veröffentlichen. Der Konzern beruft sich auf bestehende Richtlinien, doch die Maßnahme trifft eine potenzielle K",
+      "link": "https://the-decoder.de/apple-blockiert-updates-von-vibe-coding-apps-im-app-store/",
+      "date": "2026-03-18T15:22:49.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Pentagon plant offenbar KI-Training auf geheimen Militärdaten",
       "description": "Das US-Verteidigungsministerium will laut einem Bericht sichere Umgebungen einrichten, in denen KI-Firmen ihre Modelle mit klassifizierten Daten trainieren. Bisher durften Modelle geheime Daten nur le",
@@ -96,15 +105,6 @@
       "description": "Auf der GTC 2026 baut Nvidia seine Plattform für physische KI massiv aus. Ab 2027 sollen autonome Fahrzeuge mit Uber durch Los Angeles fahren, Industrieroboter von FANUC und ABB erhalten Nvidia-Gehirn",
       "link": "https://the-decoder.de/gtc-2026-nvidia-will-das-datenproblem-der-robotik-in-ein-rechenproblem-verwandeln/",
       "date": "2026-03-16T20:30:11.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "OpenAI plant Milliarden-Joint-Venture mit Private-Equity-Firmen für KI-Vertrieb",
-      "description": "OpenAI will seine KI schneller in große Unternehmen bringen und setzt dafür nicht nur auf neue Technik, sondern auf Vertrieb, Partner und Kapital. Gespräche über ein 10-Milliarden-Dollar-Joint-Venture",
-      "link": "https://the-decoder.de/openai-plant-milliarden-joint-venture-mit-private-equity-firmen-fuer-ki-vertrieb/",
-      "date": "2026-03-16T18:57:10.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
