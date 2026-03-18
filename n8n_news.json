@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-03-18T19:05:26.720Z",
+  "lastUpdated": "2026-03-18T20:40:50.919Z",
   "news": [
+    {
+      "title": "Auf Vibe-Coding folgt Vibe-Design: Googles KI-Tool Stitch wandelt Text in Interfaces",
+      "description": "Google macht UI-Design per Spracheingabe möglich: Das neue Stitch verwandelt Textbeschreibungen in klickbare Prototype, ohne Design- oder Programmierkenntnisse.\nDer Artikel Auf Vibe-Coding folgt Vibe-",
+      "link": "https://the-decoder.de/auf-vibe-coding-folgt-vibe-design-googles-ki-tool-stitch-wandelt-text-in-interfaces/",
+      "date": "2026-03-18T20:07:56.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Google Deepmind erweitert Gemini-API um kombinierbare Entwickler-Werkzeuge",
+      "description": "Google erweitert die Gemini API: Entwickler können jetzt mehrere Tools in einer Anfrage kombinieren und Google Maps als Datenquelle nutzen.\nDer Artikel Google Deepmind erweitert Gemini-API um kombinie",
+      "link": "https://the-decoder.de/google-deepmind-erweitert-gemini-api-um-kombinierbare-entwickler-werkzeuge/",
+      "date": "2026-03-18T19:50:24.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "OpenAI will das beste Sprachmodell, das in 16 MB passt",
       "description": "OpenAI fordert Forscher und Entwickler heraus, das beste Sprachmodell zu bauen, das in nur 16 MB passt – und nutzt den Wettbewerb gezielt zur Talentsuche.\nDer Artikel OpenAI will das beste Sprachmodel",
@@ -74,15 +92,6 @@
       "language": "de"
     },
     {
-      "title": "OpenAI fährt Nebenprojekte zurück und will sich auf Coding und Geschäftskunden konzentrieren",
-      "description": "Die bisherige Strategie, möglichst viele Produkte gleichzeitig zu lancieren, hat OpenAI laut eigener Einschätzung verwundbar gemacht. Nun soll ein strategischer Schwenk das Unternehmen wieder auf Kurs",
-      "link": "https://the-decoder.de/openai-faehrt-nebenprojekte-zurueck-und-will-sich-auf-coding-und-geschaeftskunden-konzentrieren/",
-      "date": "2026-03-17T11:22:18.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "Introducing GPT-5.4 mini and nano",
       "description": "GPT-5.4 mini and nano are smaller, faster versions of GPT-5.4 optimized for coding, tool use, multimodal reasoning, and high-volume API and sub-agent workloads.",
       "link": "https://openai.com/index/introducing-gpt-5-4-mini-and-nano",
@@ -99,15 +108,6 @@
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
-    },
-    {
-      "title": "Mistral AI veröffentlicht Mistral Small 4 als kleinen Open-Weight-Allrounder",
-      "description": "Mistral AI hat mit Mistral Small 4 ein neues Modell veröffentlicht, das schnelle Textantworten, logisches Denken und Bildverarbeitung in einem vereint.\nDer Artikel Mistral AI veröffentlicht Mistral Sm",
-      "link": "https://the-decoder.de/mistral-ai-veroeffentlicht-mistral-small-4-als-kleinen-open-weight-allrounder/",
-      "date": "2026-03-17T09:56:01.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
     },
     {
       "title": "Equipping workers with insights about compensation",
