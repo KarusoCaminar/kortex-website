@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-03-18T08:55:30.074Z",
+  "lastUpdated": "2026-03-18T10:55:19.334Z",
   "news": [
+    {
+      "title": "Midjourney veröffentlicht V8-Testversion: Fünfmal schneller, aber teure Premium-Features",
+      "description": "Midjourney gibt eine frühe Version seines neuen V8-Modells zum Community-Test frei. Die Bildgenerierung soll deutlich schneller und detaillierter sein, doch einige Features kosten das Vierfache.\nDer A",
+      "link": "https://the-decoder.de/midjourney-veroeffentlicht-v8-testversion-fuenfmal-schneller-aber-teure-premium-features/",
+      "date": "2026-03-18T10:03:24.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "OpenAI bringt GPT-5.4 mini und nano: Schneller, fähiger, aber auch deutlich teurer",
       "description": "OpenAI veröffentlicht mit GPT-5.4 mini und nano zwei neue kompakte Modelle, die für Coding-Assistenten, Subagenten und Computersteuerung optimiert sind. Die Leistung nähert sich bei GPT-5.4 mini dem V",
@@ -105,15 +114,6 @@
       "description": "GPT-4.5 besteht den Turing-Test: aber nur, weil es sich dummstellt. Tippfehler, schlechte Mathematik-Kenntnisse und Slang machen die KI menschlicher als den Menschen selbst.\nDer Artikel GPT-4.5 im Tur",
       "link": "https://the-decoder.de/gpt-4-5-im-turing-test-ki-muss-sich-duemmer-stellen-um-menschlicher-zu-wirken/",
       "date": "2026-03-16T16:03:14.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "OpenAIs eigene Berater warnen vor Erotik-Modus und sprechen von \"sexy Suizid-Coach\"",
-      "description": "OpenAIs Beratergremium für Wohlbefinden soll sich einstimmig gegen den geplanten Adult Mode für ChatGPT ausgesprochen haben. Intern kämpft das Unternehmen mit einer fehleranfälligen Alterserkennung un",
-      "link": "https://the-decoder.de/openais-eigene-berater-warnen-vor-erotik-modus-und-sprechen-von-sexy-suizid-coach/",
-      "date": "2026-03-16T13:55:39.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
