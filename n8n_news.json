@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-03-18T17:04:44.919Z",
+  "lastUpdated": "2026-03-18T19:05:26.720Z",
   "news": [
+    {
+      "title": "OpenAI will das beste Sprachmodell, das in 16 MB passt",
+      "description": "OpenAI fordert Forscher und Entwickler heraus, das beste Sprachmodell zu bauen, das in nur 16 MB passt – und nutzt den Wettbewerb gezielt zur Talentsuche.\nDer Artikel OpenAI will das beste Sprachmodel",
+      "link": "https://the-decoder.de/openai-will-das-beste-sprachmodell-das-in-16-mb-passt/",
+      "date": "2026-03-18T18:09:36.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Apple blockiert Updates von Vibe-Coding-Apps im App Store",
       "description": "Apple verhindert, dass beliebte Vibe-Coding-Apps wie Replit und Vibecode neue Versionen veröffentlichen. Der Konzern beruft sich auf bestehende Richtlinien, doch die Maßnahme trifft eine potenzielle K",
@@ -83,6 +92,15 @@
       "language": "en"
     },
     {
+      "title": "OpenAI Japan announces Japan Teen Safety Blueprint to put teen safety first",
+      "description": "OpenAI Japan announces the Japan Teen Safety Blueprint, introducing stronger age protections, parental controls, and well-being safeguards for teens using generative AI.",
+      "link": "https://openai.com/index/japan-teen-safety-blueprint",
+      "date": "2026-03-17T10:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
       "title": "Mistral AI veröffentlicht Mistral Small 4 als kleinen Open-Weight-Allrounder",
       "description": "Mistral AI hat mit Mistral Small 4 ein neues Modell veröffentlicht, das schnelle Textantworten, logisches Denken und Bildverarbeitung in einem vereint.\nDer Artikel Mistral AI veröffentlicht Mistral Sm",
       "link": "https://the-decoder.de/mistral-ai-veroeffentlicht-mistral-small-4-als-kleinen-open-weight-allrounder/",
@@ -101,15 +119,6 @@
       "language": "en"
     },
     {
-      "title": "GTC 2026: Nvidia will das Datenproblem der Robotik in ein Rechenproblem verwandeln",
-      "description": "Auf der GTC 2026 baut Nvidia seine Plattform für physische KI massiv aus. Ab 2027 sollen autonome Fahrzeuge mit Uber durch Los Angeles fahren, Industrieroboter von FANUC und ABB erhalten Nvidia-Gehirn",
-      "link": "https://the-decoder.de/gtc-2026-nvidia-will-das-datenproblem-der-robotik-in-ein-rechenproblem-verwandeln/",
-      "date": "2026-03-16T20:30:11.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "Testing LLMs on superconductivity research questions",
       "description": "Education Innovation",
       "link": "https://research.google/blog/testing-llms-on-superconductivity-research-questions/",
@@ -124,15 +133,6 @@
       "link": "https://openai.com/index/why-codex-security-doesnt-include-sast",
       "date": "2026-03-16T00:00:00.000Z",
       "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "Protecting cities with AI-driven flash flood forecasting",
-      "description": "Climate & Sustainability",
-      "link": "https://research.google/blog/protecting-cities-with-ai-driven-flash-flood-forecasting/",
-      "date": "2026-03-12T13:03:15.000Z",
-      "source": "Google AI",
       "category": "große-modelle",
       "language": "en"
     }
