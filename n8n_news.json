@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-03-19T14:51:56.300Z",
+  "lastUpdated": "2026-03-19T17:01:26.495Z",
   "news": [
+    {
+      "title": "OpenAI räumt die Modellauswahl in ChatGPT auf",
+      "description": "OpenAI hat die Modellauswahl in ChatGPT neu gestaltet.\nDer Artikel OpenAI räumt die Modellauswahl in ChatGPT auf erschien zuerst auf The Decoder.",
+      "link": "https://the-decoder.de/openai-raeumt-die-modellauswahl-in-chatgpt-auf/",
+      "date": "2026-03-19T16:25:55.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Deeptune erhält 43 Millionen Dollar für simulierte Arbeitsplätze, in denen KI-Agenten das Arbeiten lernen",
       "description": "Andreessen Horowitz investiert 43 Millionen Dollar in Deeptune, ein Startup, das KI-Agenten in simulierten Arbeitsplätzen trainiert.\nDer Artikel Deeptune erhält 43 Millionen Dollar für simulierte Arbe",
@@ -87,15 +96,6 @@
       "description": "Das US-Verteidigungsministerium will laut einem Bericht sichere Umgebungen einrichten, in denen KI-Firmen ihre Modelle mit klassifizierten Daten trainieren. Bisher durften Modelle geheime Daten nur le",
       "link": "https://the-decoder.de/pentagon-plant-offenbar-ki-training-auf-geheimen-militaerdaten/",
       "date": "2026-03-18T14:07:21.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Nvidia darf H200-Chips wieder nach China liefern und bereitet Groq-Chip für den Markt vor",
-      "description": "Peking genehmigt den Verkauf von Nvidias H200-KI-Chips. Gleichzeitig arbeitet das Unternehmen an einer China-tauglichen Version seines Groq-Inferenz-Chips.\nDer Artikel Nvidia darf H200-Chips wieder na",
-      "link": "https://the-decoder.de/nvidia-darf-h200-chips-wieder-nach-china-liefern-und-bereitet-groq-chip-fuer-den-markt-vor/",
-      "date": "2026-03-18T13:22:58.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
