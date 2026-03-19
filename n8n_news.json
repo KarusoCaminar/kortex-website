@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-03-19T17:01:26.495Z",
+  "lastUpdated": "2026-03-19T19:03:18.551Z",
   "news": [
+    {
+      "title": "Google zeigt neue Vibe-Coding-App für die App-Entwicklung mit natürlicher Sprache",
+      "description": "Google AI Studio kann jetzt ganze Apps per Sprachbefehl bauen, inklusive Datenbanken, Zahlungen und Nutzeranmeldung.\nDer Artikel Google zeigt neue Vibe-Coding-App für die App-Entwicklung mit natürlich",
+      "link": "https://the-decoder.de/google-zeigt-neue-vibe-coding-app-fuer-die-app-entwicklung-mit-natuerlicher-sprache/",
+      "date": "2026-03-19T18:37:44.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Kampf gegen OpenAI und Anthropic: Cursor bringt neues KI-Modell für Programmierer",
+      "description": "Cursor veröffentlicht mit Composer 2 die zweite Generation seines eigenen KI-Modells für Softwareentwicklung. Das Modell soll bei deutlich niedrigeren Kosten mit den führenden Coding-Modellen von Anth",
+      "link": "https://the-decoder.de/kampf-gegen-openai-und-anthropic-cursor-bringt-neues-ki-modell-fuer-programmierer/",
+      "date": "2026-03-19T17:21:16.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "OpenAI räumt die Modellauswahl in ChatGPT auf",
       "description": "OpenAI hat die Modellauswahl in ChatGPT neu gestaltet.\nDer Artikel OpenAI räumt die Modellauswahl in ChatGPT auf erschien zuerst auf The Decoder.",
@@ -36,6 +54,15 @@
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
+    },
+    {
+      "title": "How we monitor internal coding agents for misalignment",
+      "description": "How OpenAI uses chain-of-thought monitoring to study misalignment in internal coding agents—analyzing real-world deployments to detect risks and strengthen AI safety safeguards.",
+      "link": "https://openai.com/index/how-we-monitor-internal-coding-agents-misalignment",
+      "date": "2026-03-19T10:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
     },
     {
       "title": "OpenAIs AWS-Partnerschaft könnte Microsoft-Exklusivvertrag ins Wanken bringen",
@@ -83,39 +110,12 @@
       "language": "de"
     },
     {
-      "title": "Apple blockiert Updates von Vibe-Coding-Apps im App Store",
-      "description": "Apple verhindert, dass beliebte Vibe-Coding-Apps wie Replit und Vibecode neue Versionen veröffentlichen. Der Konzern beruft sich auf bestehende Richtlinien, doch die Maßnahme trifft eine potenzielle K",
-      "link": "https://the-decoder.de/apple-blockiert-updates-von-vibe-coding-apps-im-app-store/",
-      "date": "2026-03-18T15:22:49.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Pentagon plant offenbar KI-Training auf geheimen Militärdaten",
-      "description": "Das US-Verteidigungsministerium will laut einem Bericht sichere Umgebungen einrichten, in denen KI-Firmen ihre Modelle mit klassifizierten Daten trainieren. Bisher durften Modelle geheime Daten nur le",
-      "link": "https://the-decoder.de/pentagon-plant-offenbar-ki-training-auf-geheimen-militaerdaten/",
-      "date": "2026-03-18T14:07:21.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "Improving breast cancer screening workflows with machine learning",
       "description": "Health & Bioscience",
       "link": "https://research.google/blog/improving-breast-cancer-screening-workflows-with-machine-learning/",
       "date": "2026-03-17T16:57:00.000Z",
       "source": "Google AI",
       "category": "workflow-tools",
-      "language": "en"
-    },
-    {
-      "title": "OpenAI Japan announces Japan Teen Safety Blueprint to put teen safety first",
-      "description": "OpenAI Japan announces the Japan Teen Safety Blueprint, introducing stronger age protections, parental controls, and well-being safeguards for teens using generative AI.",
-      "link": "https://openai.com/index/japan-teen-safety-blueprint",
-      "date": "2026-03-17T10:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
       "language": "en"
     },
     {
@@ -128,10 +128,10 @@
       "language": "en"
     },
     {
-      "title": "Equipping workers with insights about compensation",
-      "description": "New research shows Americans send nearly 3 million daily messages to ChatGPT asking about compensation and earnings, helping close the wage information gap.",
-      "link": "https://openai.com/index/equipping-workers-with-insights-about-compensation",
-      "date": "2026-03-17T00:00:00.000Z",
+      "title": "OpenAI Japan announces Japan Teen Safety Blueprint to put teen safety first",
+      "description": "OpenAI Japan announces the Japan Teen Safety Blueprint, introducing stronger age protections, parental controls, and well-being safeguards for teens using generative AI.",
+      "link": "https://openai.com/index/japan-teen-safety-blueprint",
+      "date": "2026-03-17T10:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
