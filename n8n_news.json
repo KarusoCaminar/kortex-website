@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-03-19T19:03:18.551Z",
+  "lastUpdated": "2026-03-19T20:41:41.464Z",
   "news": [
+    {
+      "title": "Elevenlabs lässt dich jetzt KI-Musik verkaufen, die du nicht besitzt",
+      "description": "Elevenlabs startet einen Marktplatz für KI-generierte Musik und zahlt Erstellern Geld aus. Klingt gut, aber wem gehört die Musik eigentlich? Ein Blick in die Nutzungsbedingungen zeigt: niemandem so ri",
+      "link": "https://the-decoder.de/elevenlabs-laesst-dich-jetzt-ki-musik-verkaufen-die-du-nicht-besitzt/",
+      "date": "2026-03-19T19:38:08.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "MAI-Image-2: Microsofts neues Superintelligenz-Team startet mit einem Bildgenerator statt mit Superintelligenz",
+      "description": "Microsofts KI-Superintelligenz-Team zeigt sein erstes Produkt: den Bildgenerator MAI-Image-2, der in die eigenen Produkte integriert wird und zukünftig auch per API verfügbar sein soll.\nDer Artikel MA",
+      "link": "https://the-decoder.de/mai-image-2-microsofts-neues-superintelligenz-team-startet-mit-einem-bildgenerator-statt-mit-superintelligenz/",
+      "date": "2026-03-19T19:04:55.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Google zeigt neue Vibe-Coding-App für die App-Entwicklung mit natürlicher Sprache",
       "description": "Google AI Studio kann jetzt ganze Apps per Sprachbefehl bauen, inklusive Datenbanken, Zahlungen und Nutzeranmeldung.\nDer Artikel Google zeigt neue Vibe-Coding-App für die App-Entwicklung mit natürlich",
@@ -92,24 +110,6 @@
       "language": "de"
     },
     {
-      "title": "Google Deepmind erweitert Gemini-API um kombinierbare Entwickler-Werkzeuge",
-      "description": "Google erweitert die Gemini API: Entwickler können jetzt mehrere Tools in einer Anfrage kombinieren und Google Maps als Datenquelle nutzen.\nDer Artikel Google Deepmind erweitert Gemini-API um kombinie",
-      "link": "https://the-decoder.de/google-deepmind-erweitert-gemini-api-um-kombinierbare-entwickler-werkzeuge/",
-      "date": "2026-03-18T19:50:24.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "OpenAI will das beste Sprachmodell, das in 16 MB passt",
-      "description": "OpenAI fordert Forscher und Entwickler heraus, das beste Sprachmodell zu bauen, das in nur 16 MB passt – und nutzt den Wettbewerb gezielt zur Talentsuche.\nDer Artikel OpenAI will das beste Sprachmodel",
-      "link": "https://the-decoder.de/openai-will-das-beste-sprachmodell-das-in-16-mb-passt/",
-      "date": "2026-03-18T18:09:36.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "Improving breast cancer screening workflows with machine learning",
       "description": "Health & Bioscience",
       "link": "https://research.google/blog/improving-breast-cancer-screening-workflows-with-machine-learning/",
@@ -119,18 +119,18 @@
       "language": "en"
     },
     {
-      "title": "Introducing GPT-5.4 mini and nano",
-      "description": "GPT-5.4 mini and nano are smaller, faster versions of GPT-5.4 optimized for coding, tool use, multimodal reasoning, and high-volume API and sub-agent workloads.",
-      "link": "https://openai.com/index/introducing-gpt-5-4-mini-and-nano",
+      "title": "OpenAI Japan announces Japan Teen Safety Blueprint to put teen safety first",
+      "description": "OpenAI Japan announces the Japan Teen Safety Blueprint, introducing stronger age protections, parental controls, and well-being safeguards for teens using generative AI.",
+      "link": "https://openai.com/index/japan-teen-safety-blueprint",
       "date": "2026-03-17T10:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
     },
     {
-      "title": "OpenAI Japan announces Japan Teen Safety Blueprint to put teen safety first",
-      "description": "OpenAI Japan announces the Japan Teen Safety Blueprint, introducing stronger age protections, parental controls, and well-being safeguards for teens using generative AI.",
-      "link": "https://openai.com/index/japan-teen-safety-blueprint",
+      "title": "Introducing GPT-5.4 mini and nano",
+      "description": "GPT-5.4 mini and nano are smaller, faster versions of GPT-5.4 optimized for coding, tool use, multimodal reasoning, and high-volume API and sub-agent workloads.",
+      "link": "https://openai.com/index/introducing-gpt-5-4-mini-and-nano",
       "date": "2026-03-17T10:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
