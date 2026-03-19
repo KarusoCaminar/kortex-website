@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-03-19T13:13:12.053Z",
+  "lastUpdated": "2026-03-19T14:51:56.300Z",
   "news": [
+    {
+      "title": "Deeptune erhält 43 Millionen Dollar für simulierte Arbeitsplätze, in denen KI-Agenten das Arbeiten lernen",
+      "description": "Andreessen Horowitz investiert 43 Millionen Dollar in Deeptune, ein Startup, das KI-Agenten in simulierten Arbeitsplätzen trainiert.\nDer Artikel Deeptune erhält 43 Millionen Dollar für simulierte Arbe",
+      "link": "https://the-decoder.de/deeptune-erhaelt-43-millionen-dollar-fuer-simulierte-arbeitsplaetze-in-denen-ki-agenten-das-arbeiten-lernen/",
+      "date": "2026-03-19T13:29:13.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Apple verdient über eine Milliarde Dollar an KI, ohne selbst eine zu haben",
       "description": "Apples eigene KI-Strategie hinkt der Konkurrenz hinterher. Trotzdem dürfte der Konzern 2026 erstmals über eine Milliarde Dollar mit generativer KI umsetzen, denn das iPhone bleibt einer der wichtigste",
@@ -87,15 +96,6 @@
       "description": "Peking genehmigt den Verkauf von Nvidias H200-KI-Chips. Gleichzeitig arbeitet das Unternehmen an einer China-tauglichen Version seines Groq-Inferenz-Chips.\nDer Artikel Nvidia darf H200-Chips wieder na",
       "link": "https://the-decoder.de/nvidia-darf-h200-chips-wieder-nach-china-liefern-und-bereitet-groq-chip-fuer-den-markt-vor/",
       "date": "2026-03-18T13:22:58.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Midjourney veröffentlicht V8-Testversion: Fünfmal schneller, aber teure Premium-Features",
-      "description": "Midjourney gibt eine frühe Version seines neuen V8-Modells zum Community-Test frei. Die Bildgenerierung soll deutlich schneller und detaillierter sein, doch einige Features kosten das Vierfache.\nDer A",
-      "link": "https://the-decoder.de/midjourney-veroeffentlicht-v8-testversion-fuenfmal-schneller-aber-teure-premium-features/",
-      "date": "2026-03-18T10:03:24.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
