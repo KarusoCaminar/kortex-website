@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-03-20T18:55:25.409Z",
+  "lastUpdated": "2026-03-20T20:37:01.178Z",
   "news": [
+    {
+      "title": "Astral-Übernahme: OpenAI integriert beliebte Python-Werkzeuge in Coding-Tool Codex",
+      "description": "OpenAI schnappt sich Astral und damit die weltweit wichtigsten Python-Werkzeuge. Der Deal zeigt, wie aggressiv die KI-Labore OpenAI und Anthropic um die Vorherrschaft bei Programmier-Tools kämpfen.\nDe",
+      "link": "https://the-decoder.de/astral-uebernahme-openai-integriert-beliebte-python-werkzeuge-in-coding-tool-codex/",
+      "date": "2026-03-20T19:25:01.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Neuer US-Rahmenplan für KI: Bundesgesetze sollen Landesrecht überschreiben",
       "description": "Das Weiße Haus will KI-Regulierung zur Bundessache machen und den Einzelstaaten die Kontrolle entziehen.\nDer Artikel Neuer US-Rahmenplan für KI: Bundesgesetze sollen Landesrecht überschreiben erschien",
@@ -69,15 +78,6 @@
       "description": "Microsofts KI-Superintelligenz-Team zeigt sein erstes Produkt: den Bildgenerator MAI-Image-2, der in die eigenen Produkte integriert wird und zukünftig auch per API verfügbar sein soll.\nDer Artikel MA",
       "link": "https://the-decoder.de/mai-image-2-microsofts-neues-superintelligenz-team-startet-mit-einem-bildgenerator-statt-mit-superintelligenz/",
       "date": "2026-03-19T19:04:55.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Google zeigt neue Vibe-Coding-App für die App-Entwicklung mit natürlicher Sprache",
-      "description": "Google AI Studio kann jetzt ganze Apps per Sprachbefehl bauen, inklusive Datenbanken, Zahlungen und Nutzeranmeldung.\nDer Artikel Google zeigt neue Vibe-Coding-App für die App-Entwicklung mit natürlich",
-      "link": "https://the-decoder.de/google-zeigt-neue-vibe-coding-app-fuer-die-app-entwicklung-mit-natuerlicher-sprache/",
-      "date": "2026-03-19T18:37:44.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
