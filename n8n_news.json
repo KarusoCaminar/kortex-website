@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-20T10:41:52.586Z",
+  "lastUpdated": "2026-03-20T13:07:03.091Z",
   "news": [
     {
       "title": "Google gibt KI-Agenten neue Werkzeuge zum Einkaufen",
@@ -83,15 +83,6 @@
       "language": "de"
     },
     {
-      "title": "Deeptune erhält 43 Millionen Dollar für simulierte Arbeitsplätze, in denen KI-Agenten das Arbeiten lernen",
-      "description": "Andreessen Horowitz investiert 43 Millionen Dollar in Deeptune, ein Startup, das KI-Agenten in simulierten Arbeitsplätzen trainiert.\nDer Artikel Deeptune erhält 43 Millionen Dollar für simulierte Arbe",
-      "link": "https://the-decoder.de/deeptune-erhaelt-43-millionen-dollar-fuer-simulierte-arbeitsplaetze-in-denen-ki-agenten-das-arbeiten-lernen/",
-      "date": "2026-03-19T13:29:13.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "How we monitor internal coding agents for misalignment",
       "description": "How OpenAI uses chain-of-thought monitoring to study misalignment in internal coding agents—analyzing real-world deployments to detect risks and strengthen AI safety safeguards.",
       "link": "https://openai.com/index/how-we-monitor-internal-coding-agents-misalignment",
@@ -132,6 +123,15 @@
       "description": "GPT-5.4 mini and nano are smaller, faster versions of GPT-5.4 optimized for coding, tool use, multimodal reasoning, and high-volume API and sub-agent workloads.",
       "link": "https://openai.com/index/introducing-gpt-5-4-mini-and-nano",
       "date": "2026-03-17T10:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
+      "title": "Equipping workers with insights about compensation",
+      "description": "New research shows Americans send nearly 3 million daily messages to ChatGPT asking about compensation and earnings, helping close the wage information gap.",
+      "link": "https://openai.com/index/equipping-workers-with-insights-about-compensation",
+      "date": "2026-03-17T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
