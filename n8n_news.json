@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-03-20T08:48:29.677Z",
+  "lastUpdated": "2026-03-20T10:41:52.586Z",
   "news": [
+    {
+      "title": "Google gibt KI-Agenten neue Werkzeuge zum Einkaufen",
+      "description": "Google hat das Universal Commerce Protocol (UCP) um Warenkorb-, Katalog- und Identitätsfunktionen erweitert, die KI-Agenten das Einkaufen im Netz erleichtern sollen.\nDer Artikel Google gibt KI-Agenten",
+      "link": "https://the-decoder.de/google-gibt-ki-agenten-neue-werkzeuge-zum-einkaufen/",
+      "date": "2026-03-20T10:09:50.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Adobe Firefly integriert über 30 KI-Modelle und lässt Nutzer eigene Bildstile trainieren",
+      "description": "Adobe erweitert seine KI-Kreativplattform Firefly um benutzerdefinierte Modelle, die auf eigenen Bildern trainiert werden können. Außerdem bündelt das Unternehmen über 30 KI-Modelle verschiedener Anbi",
+      "link": "https://the-decoder.de/adobe-firefly-integriert-ueber-30-ki-modelle-und-laesst-nutzer-eigene-bildstile-trainieren/",
+      "date": "2026-03-20T09:00:15.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Qualcomm will Reasoning-KI auf Smartphones bringen",
       "description": "Qualcomm AI Research hat ein modulares System entwickelt, das Reasoning-fähige Sprachmodelle auf Smartphones bringen soll. Dafür werden die wortreichen Denkprozesse der Modelle um den Faktor 2,4 kompr",
@@ -69,24 +87,6 @@
       "description": "Andreessen Horowitz investiert 43 Millionen Dollar in Deeptune, ein Startup, das KI-Agenten in simulierten Arbeitsplätzen trainiert.\nDer Artikel Deeptune erhält 43 Millionen Dollar für simulierte Arbe",
       "link": "https://the-decoder.de/deeptune-erhaelt-43-millionen-dollar-fuer-simulierte-arbeitsplaetze-in-denen-ki-agenten-das-arbeiten-lernen/",
       "date": "2026-03-19T13:29:13.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Apple verdient über eine Milliarde Dollar an KI, ohne selbst eine zu haben",
-      "description": "Apples eigene KI-Strategie hinkt der Konkurrenz hinterher. Trotzdem dürfte der Konzern 2026 erstmals über eine Milliarde Dollar mit generativer KI umsetzen, denn das iPhone bleibt einer der wichtigste",
-      "link": "https://the-decoder.de/apple-verdient-ueber-eine-milliarde-dollar-an-ki-ohne-selbst-eine-zu-haben/",
-      "date": "2026-03-19T12:17:29.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Ungefragte Antwort eines KI-Agenten führt bei Meta zu Datenleck-Gefahr",
-      "description": "Ein außer Kontrolle geratener KI-Agent hat bei Meta einen schwerwiegenden Sicherheitsvorfall ausgelöst, berichtet The Information.\nDer Artikel Ungefragte Antwort eines KI-Agenten führt bei Meta zu Dat",
-      "link": "https://the-decoder.de/ungefragte-antwort-eines-ki-agenten-fuehrt-bei-meta-zu-datenleck-gefahr/",
-      "date": "2026-03-19T11:17:04.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
