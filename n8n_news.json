@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-03-20T14:45:33.700Z",
+  "lastUpdated": "2026-03-20T16:50:11.342Z",
   "news": [
+    {
+      "title": "Claude Code kann mit neuem \"Channels\"-Update auf Telegram- und Discord-Nachrichten antworten",
+      "description": "Anthropic bringt Channels für Claude Code: Externe Ereignisse wie CI-Ergebnisse oder Chat-Nachrichten landen direkt in der laufenden Sitzung. Claude arbeitet so auch ohne Aufsicht weiter.\nDer Artikel",
+      "link": "https://the-decoder.de/claude-code-kann-mit-neuem-channels-update-auf-telegram-und-discord-nachrichten-antworten/",
+      "date": "2026-03-20T15:31:28.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Google gibt KI-Agenten neue Werkzeuge zum Einkaufen",
       "description": "Google hat das Universal Commerce Protocol (UCP) um Warenkorb-, Katalog- und Identitätsfunktionen erweitert, die KI-Agenten das Einkaufen im Netz erleichtern sollen.\nDer Artikel Google gibt KI-Agenten",
@@ -69,15 +78,6 @@
       "description": "Cursor veröffentlicht mit Composer 2 die zweite Generation seines eigenen KI-Modells für Softwareentwicklung. Das Modell soll bei deutlich niedrigeren Kosten mit den führenden Coding-Modellen von Anth",
       "link": "https://the-decoder.de/kampf-gegen-openai-und-anthropic-cursor-bringt-neues-ki-modell-fuer-programmierer/",
       "date": "2026-03-19T17:21:16.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "OpenAI räumt die Modellauswahl in ChatGPT auf",
-      "description": "OpenAI hat die Modellauswahl in ChatGPT neu gestaltet.\nDer Artikel OpenAI räumt die Modellauswahl in ChatGPT auf erschien zuerst auf The Decoder.",
-      "link": "https://the-decoder.de/openai-raeumt-die-modellauswahl-in-chatgpt-auf/",
-      "date": "2026-03-19T16:25:55.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
