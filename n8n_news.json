@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-03-20T07:00:47.115Z",
+  "lastUpdated": "2026-03-20T08:48:29.677Z",
   "news": [
+    {
+      "title": "Qualcomm will Reasoning-KI auf Smartphones bringen",
+      "description": "Qualcomm AI Research hat ein modulares System entwickelt, das Reasoning-fähige Sprachmodelle auf Smartphones bringen soll. Dafür werden die wortreichen Denkprozesse der Modelle um den Faktor 2,4 kompr",
+      "link": "https://the-decoder.de/qualcomm-will-reasoning-ki-auf-smartphones-bringen/",
+      "date": "2026-03-20T07:56:40.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "OpenAI plant Desktop-Superapp mit ChatGPT, Codex und eigenem Browser",
+      "description": "Die bisherige Strategie, möglichst viele Produkte gleichzeitig zu lancieren, hat OpenAI laut eigener Einschätzung verwundbar gemacht. Nun soll ein strategischer Schwenk das Unternehmen wieder auf Kurs",
+      "link": "https://the-decoder.de/openai-plant-desktop-superapp-mit-chatgpt-codex-und-eigenem-browser/",
+      "date": "2026-03-20T07:22:18.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Elevenlabs lässt dich jetzt KI-Musik verkaufen, die du nicht besitzt",
       "description": "Elevenlabs startet einen Marktplatz für KI-generierte Musik und zahlt Erstellern Geld aus. Klingt gut, aber wem gehört die Musik eigentlich? Ein Blick in die Nutzungsbedingungen zeigt: niemandem so ri",
@@ -83,15 +101,6 @@
       "language": "en"
     },
     {
-      "title": "OpenAIs AWS-Partnerschaft könnte Microsoft-Exklusivvertrag ins Wanken bringen",
-      "description": "Microsofts Führungsetage befürchtet, dass OpenAIs geplantes AWS-Produkt gegen den gemeinsamen Exklusivvertrag verstoßen könnte.\nDer Artikel OpenAIs AWS-Partnerschaft könnte Microsoft-Exklusivvertrag i",
-      "link": "https://the-decoder.de/openais-aws-partnerschaft-koennte-microsoft-exklusivvertrag-ins-wanken-bringen/",
-      "date": "2026-03-19T09:42:32.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "OpenAI to acquire Astral",
       "description": "Accelerates Codex growth to power the next generation of Python developer tools",
       "link": "https://openai.com/index/openai-to-acquire-astral",
@@ -99,15 +108,6 @@
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
-    },
-    {
-      "title": "Auf Vibe-Coding folgt Vibe-Design: Googles KI-Tool Stitch wandelt Text in Interfaces",
-      "description": "Google macht UI-Design per Spracheingabe möglich: Das neue Stitch verwandelt Textbeschreibungen in klickbare Prototype, ohne Design- oder Programmierkenntnisse.\nDer Artikel Auf Vibe-Coding folgt Vibe-",
-      "link": "https://the-decoder.de/auf-vibe-coding-folgt-vibe-design-googles-ki-tool-stitch-wandelt-text-in-interfaces/",
-      "date": "2026-03-18T20:07:56.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
     },
     {
       "title": "Improving breast cancer screening workflows with machine learning",
