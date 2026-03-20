@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-03-20T16:50:11.342Z",
+  "lastUpdated": "2026-03-20T18:55:25.409Z",
   "news": [
+    {
+      "title": "Neuer US-Rahmenplan für KI: Bundesgesetze sollen Landesrecht überschreiben",
+      "description": "Das Weiße Haus will KI-Regulierung zur Bundessache machen und den Einzelstaaten die Kontrolle entziehen.\nDer Artikel Neuer US-Rahmenplan für KI: Bundesgesetze sollen Landesrecht überschreiben erschien",
+      "link": "https://the-decoder.de/neuer-us-rahmenplan-fuer-ki-bundesgesetze-sollen-landesrecht-ueberschreiben/",
+      "date": "2026-03-20T18:36:24.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Claude Code kann mit neuem \"Channels\"-Update auf Telegram- und Discord-Nachrichten antworten",
       "description": "Anthropic bringt Channels für Claude Code: Externe Ereignisse wie CI-Ergebnisse oder Chat-Nachrichten landen direkt in der laufenden Sitzung. Claude arbeitet so auch ohne Aufsicht weiter.\nDer Artikel",
@@ -69,15 +78,6 @@
       "description": "Google AI Studio kann jetzt ganze Apps per Sprachbefehl bauen, inklusive Datenbanken, Zahlungen und Nutzeranmeldung.\nDer Artikel Google zeigt neue Vibe-Coding-App für die App-Entwicklung mit natürlich",
       "link": "https://the-decoder.de/google-zeigt-neue-vibe-coding-app-fuer-die-app-entwicklung-mit-natuerlicher-sprache/",
       "date": "2026-03-19T18:37:44.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Kampf gegen OpenAI und Anthropic: Cursor bringt neues KI-Modell für Programmierer",
-      "description": "Cursor veröffentlicht mit Composer 2 die zweite Generation seines eigenen KI-Modells für Softwareentwicklung. Das Modell soll bei deutlich niedrigeren Kosten mit den führenden Coding-Modellen von Anth",
-      "link": "https://the-decoder.de/kampf-gegen-openai-und-anthropic-cursor-bringt-neues-ki-modell-fuer-programmierer/",
-      "date": "2026-03-19T17:21:16.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
