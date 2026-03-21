@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-21T06:50:46.069Z",
+  "lastUpdated": "2026-03-21T08:37:59.619Z",
   "news": [
     {
       "title": "Astral-Übernahme: OpenAI integriert beliebte Python-Werkzeuge in Coding-Tool Codex",
@@ -110,18 +110,18 @@
       "language": "en"
     },
     {
-      "title": "OpenAI Japan announces Japan Teen Safety Blueprint to put teen safety first",
-      "description": "OpenAI Japan announces the Japan Teen Safety Blueprint, introducing stronger age protections, parental controls, and well-being safeguards for teens using generative AI.",
-      "link": "https://openai.com/index/japan-teen-safety-blueprint",
+      "title": "Introducing GPT-5.4 mini and nano",
+      "description": "GPT-5.4 mini and nano are smaller, faster versions of GPT-5.4 optimized for coding, tool use, multimodal reasoning, and high-volume API and sub-agent workloads.",
+      "link": "https://openai.com/index/introducing-gpt-5-4-mini-and-nano",
       "date": "2026-03-17T10:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
     },
     {
-      "title": "Introducing GPT-5.4 mini and nano",
-      "description": "GPT-5.4 mini and nano are smaller, faster versions of GPT-5.4 optimized for coding, tool use, multimodal reasoning, and high-volume API and sub-agent workloads.",
-      "link": "https://openai.com/index/introducing-gpt-5-4-mini-and-nano",
+      "title": "OpenAI Japan announces Japan Teen Safety Blueprint to put teen safety first",
+      "description": "OpenAI Japan announces the Japan Teen Safety Blueprint, introducing stronger age protections, parental controls, and well-being safeguards for teens using generative AI.",
+      "link": "https://openai.com/index/japan-teen-safety-blueprint",
       "date": "2026-03-17T10:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
