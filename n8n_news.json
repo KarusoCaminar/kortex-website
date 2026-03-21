@@ -1,6 +1,33 @@
 {
-  "lastUpdated": "2026-03-21T08:37:59.619Z",
+  "lastUpdated": "2026-03-21T10:31:07.738Z",
   "news": [
+    {
+      "title": "Europa nutzt mehr KI als die USA, doch die Gewinne fließen nach Amerika",
+      "description": "\"Europa bringt die Startups hervor. Amerika gehören sie.\" Ein neuer Report zeichnet Europas KI-Landschaft als Paradox: viel Talent, intensive Nutzung – aber die Wertschöpfung fließt ab. \nDer Artikel E",
+      "link": "https://the-decoder.de/europa-nutzt-mehr-ki-als-die-usa-doch-die-gewinne-fliessen-nach-amerika/",
+      "date": "2026-03-21T09:48:41.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Nvidia-CEO Jensen Huang: Wer 500.000 Dollar verdient, muss 250.000 für KI-Tokens verbrauchen",
+      "description": "Nvidia-Chef Jensen Huang hat eine klare Erwartung an seine Entwickler: Wer eine halbe Million Dollar verdient, soll mindestens die Hälfte davon an KI-Tokens verbrauchen. Und er hat eine Meinung zum Bi",
+      "link": "https://the-decoder.de/nvidia-ceo-jensen-huang-wer-500-000-dollar-verdient-muss-250-000-fuer-ki-tokens-verbrauchen/",
+      "date": "2026-03-21T09:19:54.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Cursors neues Coding-Modell basiert auf Kimi K2.5 - Gründer räumt Fehler ein",
+      "description": "Cursor veröffentlicht mit Composer 2 die zweite Generation seines eigenen KI-Modells für Softwareentwicklung. Das Modell soll bei deutlich niedrigeren Kosten mit den führenden Coding-Modellen von Anth",
+      "link": "https://the-decoder.de/cursors-neues-coding-modell-basiert-auf-kimi-k2-5-gruender-raeumt-fehler-ein/",
+      "date": "2026-03-21T07:36:16.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Astral-Übernahme: OpenAI integriert beliebte Python-Werkzeuge in Coding-Tool Codex",
       "description": "OpenAI schnappt sich Astral und damit die weltweit wichtigsten Python-Werkzeuge. Der Deal zeigt, wie aggressiv die KI-Labore OpenAI und Anthropic um die Vorherrschaft bei Programmier-Tools kämpfen.\nDe",
@@ -51,33 +78,6 @@
       "description": "Qualcomm AI Research hat ein modulares System entwickelt, das Reasoning-fähige Sprachmodelle auf Smartphones bringen soll. Dafür werden die wortreichen Denkprozesse der Modelle um den Faktor 2,4 kompr",
       "link": "https://the-decoder.de/qualcomm-will-reasoning-ki-auf-smartphones-bringen/",
       "date": "2026-03-20T07:56:40.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "OpenAI plant Desktop-Superapp mit ChatGPT, Codex und eigenem Browser",
-      "description": "Die bisherige Strategie, möglichst viele Produkte gleichzeitig zu lancieren, hat OpenAI laut eigener Einschätzung verwundbar gemacht. Nun soll ein strategischer Schwenk das Unternehmen wieder auf Kurs",
-      "link": "https://the-decoder.de/openai-plant-desktop-superapp-mit-chatgpt-codex-und-eigenem-browser/",
-      "date": "2026-03-20T07:22:18.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Elevenlabs lässt dich jetzt KI-Musik verkaufen, die du nicht besitzt",
-      "description": "Elevenlabs startet einen Marktplatz für KI-generierte Musik und zahlt Erstellern Geld aus. Klingt gut, aber wem gehört die Musik eigentlich? Ein Blick in die Nutzungsbedingungen zeigt: niemandem so ri",
-      "link": "https://the-decoder.de/elevenlabs-laesst-dich-jetzt-ki-musik-verkaufen-die-du-nicht-besitzt/",
-      "date": "2026-03-19T19:38:08.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "MAI-Image-2: Microsofts neues Superintelligenz-Team startet mit einem Bildgenerator statt mit Superintelligenz",
-      "description": "Microsofts KI-Superintelligenz-Team zeigt sein erstes Produkt: den Bildgenerator MAI-Image-2, der in die eigenen Produkte integriert wird und zukünftig auch per API verfügbar sein soll.\nDer Artikel MA",
-      "link": "https://the-decoder.de/mai-image-2-microsofts-neues-superintelligenz-team-startet-mit-einem-bildgenerator-statt-mit-superintelligenz/",
-      "date": "2026-03-19T19:04:55.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
