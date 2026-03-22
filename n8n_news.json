@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-03-22T06:56:40.792Z",
+  "lastUpdated": "2026-03-22T08:39:11.190Z",
   "news": [
+    {
+      "title": "Mathe braucht Bedenkzeit, Alltagswissen ein gutes Gedächtnis: Forscher optimieren KI-Architektur",
+      "description": "Ein Forschungsteam aus Bonn lässt Transformer-Modelle selbst entscheiden, wie oft sie über ein Problem nachdenken, und übertrifft damit deutlich größere Modelle bei Mathematik-Aufgaben.\nDer Artikel Ma",
+      "link": "https://the-decoder.de/mathe-braucht-bedenkzeit-alltagswissen-ein-gutes-gedaechtnis-forscher-optimieren-ki-architektur/",
+      "date": "2026-03-22T08:07:07.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "OpenAI will Belegschaft bis 2026 fast verdoppeln und plant große Enterprise-Offensive",
       "description": "OpenAI will seine Belegschaft fast verdoppeln und setzt zum Angriff auf den Enterprise-Markt an, ein Markt, den Konkurrent Anthropic zuletzt dominierte.\nDer Artikel OpenAI will Belegschaft bis 2026 fa",
@@ -78,15 +87,6 @@
       "description": "Das Weiße Haus will KI-Regulierung zur Bundessache machen und den Einzelstaaten die Kontrolle entziehen.\nDer Artikel Neuer US-Rahmenplan für KI: Bundesgesetze sollen Landesrecht überschreiben erschien",
       "link": "https://the-decoder.de/neuer-us-rahmenplan-fuer-ki-bundesgesetze-sollen-landesrecht-ueberschreiben/",
       "date": "2026-03-20T18:36:24.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Claude Code kann mit neuem \"Channels\"-Update auf Telegram- und Discord-Nachrichten antworten",
-      "description": "Anthropic bringt Channels für Claude Code: Externe Ereignisse wie CI-Ergebnisse oder Chat-Nachrichten landen direkt in der laufenden Sitzung. Claude arbeitet so auch ohne Aufsicht weiter.\nDer Artikel",
-      "link": "https://the-decoder.de/claude-code-kann-mit-neuem-channels-update-auf-telegram-und-discord-nachrichten-antworten/",
-      "date": "2026-03-20T15:31:28.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
