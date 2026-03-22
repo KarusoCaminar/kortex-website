@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-03-22T10:31:37.052Z",
+  "lastUpdated": "2026-03-22T12:59:02.872Z",
   "news": [
+    {
+      "title": "Xiaomi stellt mit MiMo-V2 drei KI-Modelle vor, die Agenten sehen, handeln und sprechen lassen",
+      "description": "Das chinesische Technologieunternehmen Xiaomi will KI-Agenten bauen, die selbstständig Software steuern, im Browser einkaufen und perspektivisch auch Roboter kontrollieren. Dafür hat das hauseigene Mi",
+      "link": "https://the-decoder.de/xiaomi-stellt-mit-mimo-v2-drei-ki-modelle-vor-die-agenten-sehen-handeln-und-sprechen-lassen/",
+      "date": "2026-03-22T11:49:53.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Der Mensch als Engpass: KI-Forscher sollten sich laut Andrej Karpathy aus der Optimierung heraushalten",
+      "description": "Das automatisierte Forschungssystem von KI-Entwickler Andrej Karpathy fand über Nacht Optimierungen, die er trotz zwei Jahrzehnten Erfahrung übersehen hatte.\nDer Artikel Der Mensch als Engpass: KI-For",
+      "link": "https://the-decoder.de/der-mensch-als-engpass-ki-forscher-sollten-sich-laut-andrej-karpathy-aus-der-optimierung-heraushalten/",
+      "date": "2026-03-22T11:19:24.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "OpenAI veröffentlicht Prompting-Tipps für Frontend-Designer mit GPT-5.4",
       "description": "In einem neuen Leitfaden erklärt das Unternehmen, wie sich das Modell GPT-5.4 gezielt für die Erstellung von Websites und Apps nutzen lässt. Ohne klare Anweisungen erzeuge das Modell jedoch oft generi",
@@ -69,24 +87,6 @@
       "description": "\"Europa bringt die Startups hervor. Amerika gehören sie.\" Ein neuer Report zeichnet Europas KI-Landschaft als Paradox: viel Talent, intensive Nutzung – aber die Wertschöpfung fließt ab. \nDer Artikel E",
       "link": "https://the-decoder.de/europa-nutzt-mehr-ki-als-die-usa-doch-die-gewinne-fliessen-nach-amerika/",
       "date": "2026-03-21T09:48:41.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Nvidia-CEO Jensen Huang: Wer 500.000 Dollar verdient, muss 250.000 für KI-Tokens verbrauchen",
-      "description": "Nvidia-Chef Jensen Huang hat eine klare Erwartung an seine Entwickler: Wer eine halbe Million Dollar verdient, soll mindestens die Hälfte davon an KI-Tokens verbrauchen. Und er hat eine Meinung zum Bi",
-      "link": "https://the-decoder.de/nvidia-ceo-jensen-huang-wer-500-000-dollar-verdient-muss-250-000-fuer-ki-tokens-verbrauchen/",
-      "date": "2026-03-21T09:19:54.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Cursors neues Coding-Modell basiert auf Kimi K2.5 - Gründer räumt Fehler ein",
-      "description": "Cursor veröffentlicht mit Composer 2 die zweite Generation seines eigenen KI-Modells für Softwareentwicklung. Das Modell soll bei deutlich niedrigeren Kosten mit den führenden Coding-Modellen von Anth",
-      "link": "https://the-decoder.de/cursors-neues-coding-modell-basiert-auf-kimi-k2-5-gruender-raeumt-fehler-ein/",
-      "date": "2026-03-21T07:36:16.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
