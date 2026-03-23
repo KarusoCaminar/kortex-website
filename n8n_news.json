@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-03-23T16:58:20.380Z",
+  "lastUpdated": "2026-03-23T18:59:47.134Z",
   "news": [
+    {
+      "title": "Luma AI Uni-1: Neues Bildmodell könnte Googles Nano Banana Konkurrenz machen",
+      "description": "Luma AI fordert mit Uni-1 OpenAI und Google heraus: Das neue Modell vereint Bildverständnis und Bilderzeugung in einer Architektur und denkt beim Generieren mit.\nDer Artikel Luma AI Uni-1: Neues Bildm",
+      "link": "https://the-decoder.de/luma-ai-uni-1-neues-bildmodell-koennte-googles-nano-banana-konkurrenz-machen/",
+      "date": "2026-03-23T18:37:52.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "OpenAI lockt Private-Equity-Firmen mit hohen Renditen im Wettstreit mit Anthropic",
+      "description": "OpenAI bietet Private-Equity-Firmen eine garantierte Mindestrendite von 17,5 Prozent, um sie für Joint Ventures im Unternehmensgeschäft zu gewinnen.\nDer Artikel OpenAI lockt Private-Equity-Firmen mit",
+      "link": "https://the-decoder.de/openai-lockt-private-equity-firmen-mit-hohen-renditen-im-wettstreit-mit-anthropic/",
+      "date": "2026-03-23T17:43:43.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Meta-Chef Zuckerberg baut angeblich persönlichen KI-Agenten und plant flachere Hierarchien",
       "description": "Mark Zuckerberg nutzt einen eigenen KI-Agenten, um Meta effizienter zu führen. Angeblich plant das Unternehmen einen massiven Stellenabbau.\nDer Artikel Meta-Chef Zuckerberg baut angeblich persönlichen",
@@ -69,24 +87,6 @@
       "description": "OpenAI will seine Belegschaft fast verdoppeln und setzt zum Angriff auf den Enterprise-Markt an, ein Markt, den Konkurrent Anthropic zuletzt dominierte.\nDer Artikel OpenAI will Belegschaft bis 2026 fa",
       "link": "https://the-decoder.de/openai-will-belegschaft-bis-2026-fast-verdoppeln-und-plant-grosse-enterprise-offensive/",
       "date": "2026-03-21T18:49:44.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "95 Prozent der britischen Studierenden nutzen KI und die Erfahrungen könnten unterschiedlicher kaum sein",
-      "description": "95 Prozent der britischen Studierenden nutzen generative KI. Doch während die einen darin eine Bereicherung sehen, warnen andere vor dem Verlust eigener Denkfähigkeiten. Eine aktuelle Umfrage zeigt ei",
-      "link": "https://the-decoder.de/95-prozent-der-britischen-studierenden-nutzen-ki-und-die-erfahrungen-koennten-unterschiedlicher-kaum-sein/",
-      "date": "2026-03-21T12:13:43.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "MiniMax M2.7: Chinesisches KI-Modell soll sich teilweise selbst weiterentwickelt haben",
-      "description": "Das chinesische KI-Unternehmen MiniMax hat mit M2.7 ein Modell veröffentlicht, das aktiv an seiner eigenen Entwicklung beteiligt gewesen sein soll. In autonomen Optimierungsschleifen verbesserte es se",
-      "link": "https://the-decoder.de/minimax-m2-7-chinesisches-ki-modell-soll-sich-teilweise-selbst-weiterentwickelt-haben/",
-      "date": "2026-03-21T11:27:16.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
