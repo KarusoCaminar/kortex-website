@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-03-23T10:55:06.008Z",
+  "lastUpdated": "2026-03-23T13:15:31.778Z",
   "news": [
+    {
+      "title": "OpenSeeker will das Datenmonopol bei KI-Suchagenten auflösen",
+      "description": "Mit nur 11.700 Trainingsdatenpunkten und einem einzigen Trainingsdurchlauf erreicht der KI-Suchagent OpenSeeker Ergebnisse, die mit Lösungen von Alibaba und Co. mithalten. Daten, Code und Modell sind",
+      "link": "https://the-decoder.de/openseeker-will-das-datenmonopol-bei-ki-suchagenten-aufloesen/",
+      "date": "2026-03-23T11:07:07.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Xiaomi stellt mit MiMo-V2 drei KI-Modelle vor, die Agenten sehen, handeln und sprechen lassen",
       "description": "Das chinesische Technologieunternehmen Xiaomi will KI-Agenten bauen, die selbstständig Software steuern, im Browser einkaufen und perspektivisch auch Roboter kontrollieren. Dafür hat das hauseigene Mi",
@@ -78,15 +87,6 @@
       "description": "OpenAI-Forscher Pachocki hat vor einem Jahr nicht mal Autocomplete benutzt. Jetzt erledigt er mit KI in einem Wochenende, was früher eine Woche dauerte. Bis 2028 soll ein autonomes KI-System ganze For",
       "link": "https://the-decoder.de/vom-vim-puristen-zum-ki-nutzer-openai-chef-forscher-beschreibt-seinen-wandel-beim-programmieren/",
       "date": "2026-03-21T10:32:17.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Europa nutzt mehr KI als die USA, doch die Gewinne fließen nach Amerika",
-      "description": "\"Europa bringt die Startups hervor. Amerika gehören sie.\" Ein neuer Report zeichnet Europas KI-Landschaft als Paradox: viel Talent, intensive Nutzung – aber die Wertschöpfung fließt ab. \nDer Artikel E",
-      "link": "https://the-decoder.de/europa-nutzt-mehr-ki-als-die-usa-doch-die-gewinne-fliessen-nach-amerika/",
-      "date": "2026-03-21T09:48:41.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
