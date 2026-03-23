@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-03-23T13:15:31.778Z",
+  "lastUpdated": "2026-03-23T14:58:38.802Z",
   "news": [
+    {
+      "title": "Meta-Chef Zuckerberg baut angeblich persönlichen KI-Agenten und plant flachere Hierarchien",
+      "description": "Mark Zuckerberg nutzt einen eigenen KI-Agenten, um Meta effizienter zu führen. Angeblich plant das Unternehmen einen massiven Stellenabbau.\nDer Artikel Meta-Chef Zuckerberg baut angeblich persönlichen",
+      "link": "https://the-decoder.de/meta-chef-zuckerberg-baut-angeblich-persoenlichen-ki-agenten-und-plant-flachere-hierarchien/",
+      "date": "2026-03-23T14:26:40.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "OpenSeeker will das Datenmonopol bei KI-Suchagenten auflösen",
       "description": "Mit nur 11.700 Trainingsdatenpunkten und einem einzigen Trainingsdurchlauf erreicht der KI-Suchagent OpenSeeker Ergebnisse, die mit Lösungen von Alibaba und Co. mithalten. Daten, Code und Modell sind",
@@ -78,15 +87,6 @@
       "description": "Das chinesische KI-Unternehmen MiniMax hat mit M2.7 ein Modell veröffentlicht, das aktiv an seiner eigenen Entwicklung beteiligt gewesen sein soll. In autonomen Optimierungsschleifen verbesserte es se",
       "link": "https://the-decoder.de/minimax-m2-7-chinesisches-ki-modell-soll-sich-teilweise-selbst-weiterentwickelt-haben/",
       "date": "2026-03-21T11:27:16.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Vom Vim-Puristen zum KI-Nutzer: OpenAI-Chef-Forscher beschreibt seinen Wandel beim Programmieren",
-      "description": "OpenAI-Forscher Pachocki hat vor einem Jahr nicht mal Autocomplete benutzt. Jetzt erledigt er mit KI in einem Wochenende, was früher eine Woche dauerte. Bis 2028 soll ein autonomes KI-System ganze For",
-      "link": "https://the-decoder.de/vom-vim-puristen-zum-ki-nutzer-openai-chef-forscher-beschreibt-seinen-wandel-beim-programmieren/",
-      "date": "2026-03-21T10:32:17.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
