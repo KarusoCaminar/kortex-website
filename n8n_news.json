@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-03-23T18:59:47.134Z",
+  "lastUpdated": "2026-03-23T20:40:26.461Z",
   "news": [
+    {
+      "title": "Meta stärkt Agenten-Fokus mit indirekter Übernahme des KI-Startups Dreamer",
+      "description": "Das KI-Startup Dreamer schließt sich Meta an und bringt einen alten Bekannten zurück zu Mark Zuckerberg. Für Meta ist es bereits die zweite Akquisition im Bereich agentischer KI in diesem Jahr.\nDer Ar",
+      "link": "https://the-decoder.de/meta-staerkt-agenten-fokus-mit-indirekter-uebernahme-des-ki-startups-dreamer/",
+      "date": "2026-03-23T19:22:25.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Luma AI Uni-1: Neues Bildmodell könnte Googles Nano Banana Konkurrenz machen",
       "description": "Luma AI fordert mit Uni-1 OpenAI und Google heraus: Das neue Modell vereint Bildverständnis und Bilderzeugung in einer Architektur und denkt beim Generieren mit.\nDer Artikel Luma AI Uni-1: Neues Bildm",
@@ -78,15 +87,6 @@
       "description": "Ein Forschungsteam aus Bonn lässt Transformer-Modelle selbst entscheiden, wie oft sie über ein Problem nachdenken, und übertrifft damit deutlich größere Modelle bei Mathematik-Aufgaben.\nDer Artikel Ma",
       "link": "https://the-decoder.de/mathe-braucht-bedenkzeit-alltagswissen-ein-gutes-gedaechtnis-forscher-optimieren-ki-architektur/",
       "date": "2026-03-22T08:07:07.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "OpenAI will Belegschaft bis 2026 fast verdoppeln und plant große Enterprise-Offensive",
-      "description": "OpenAI will seine Belegschaft fast verdoppeln und setzt zum Angriff auf den Enterprise-Markt an, ein Markt, den Konkurrent Anthropic zuletzt dominierte.\nDer Artikel OpenAI will Belegschaft bis 2026 fa",
-      "link": "https://the-decoder.de/openai-will-belegschaft-bis-2026-fast-verdoppeln-und-plant-grosse-enterprise-offensive/",
-      "date": "2026-03-21T18:49:44.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
