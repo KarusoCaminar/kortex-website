@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-03-24T08:57:30.717Z",
+  "lastUpdated": "2026-03-24T10:54:31.010Z",
   "news": [
+    {
+      "title": "Claude Cowork kann jetzt euren Computer bedienen",
+      "description": "Anthropic gibt Claude die Fähigkeit, den Mac-Desktop zu steuern: Apps öffnen, Browser navigieren, Tabellen ausfüllen. Das Feature ist als Research Preview in Claude Cowork und Claude Code verfügbar.\nD",
+      "link": "https://the-decoder.de/claude-cowork-kann-jetzt-euren-computer-bedienen/",
+      "date": "2026-03-24T09:08:41.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Meta stärkt Agenten-Fokus mit indirekter Übernahme des KI-Startups Dreamer",
       "description": "Das KI-Startup Dreamer schließt sich Meta an und bringt einen alten Bekannten zurück zu Mark Zuckerberg. Für Meta ist es bereits die zweite Akquisition im Bereich agentischer KI in diesem Jahr.\nDer Ar",
@@ -78,15 +87,6 @@
       "description": "Terence Tao vergleicht den Einfluss von KI auf die Mathematik mit dem Automobil in der Stadtplanung: Neue Technologie braucht neue Infrastruktur, sonst verstopft sie die alten Wege. Seine Analyse trif",
       "link": "https://the-decoder.de/star-mathematiker-terence-tao-ki-senkt-kosten-fuer-ideenfindung-auf-null/",
       "date": "2026-03-22T08:56:13.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Mathe braucht Bedenkzeit, Alltagswissen ein gutes Gedächtnis: Forscher optimieren KI-Architektur",
-      "description": "Ein Forschungsteam aus Bonn lässt Transformer-Modelle selbst entscheiden, wie oft sie über ein Problem nachdenken, und übertrifft damit deutlich größere Modelle bei Mathematik-Aufgaben.\nDer Artikel Ma",
-      "link": "https://the-decoder.de/mathe-braucht-bedenkzeit-alltagswissen-ein-gutes-gedaechtnis-forscher-optimieren-ki-architektur/",
-      "date": "2026-03-22T08:07:07.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
