@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-03-24T19:07:45.619Z",
+  "lastUpdated": "2026-03-24T20:46:16.450Z",
   "news": [
+    {
+      "title": "TurboQuant: Redefining AI efficiency with extreme compression",
+      "description": "Algorithms & Theory",
+      "link": "https://research.google/blog/turboquant-redefining-ai-efficiency-with-extreme-compression/",
+      "date": "2026-03-24T19:54:03.000Z",
+      "source": "Google AI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
+      "title": "Beliebter KI-Modell-Router LiteLLM gehackt: Nutzer sollen sofort alle Zugangsdaten wechseln",
+      "description": "LiteLLM, eine beliebte Open-Source-Bibliothek für KI-APIs, wurde mit Schadsoftware infiziert. Der Angriff stiehlt Zugangsdaten und breitet sich in Cloud-Systemen aus. NVIDIA-Forscher Jim Fan warnt vor",
+      "link": "https://the-decoder.de/beliebter-ki-modell-router-litellm-gehackt-nutzer-sollen-sofort-alle-zugangsdaten-wechseln/",
+      "date": "2026-03-24T19:26:06.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Google Deepminds Gemini 3.1 Flash-Lite generiert Webseiten fast in Echtzeit",
       "description": "Google zeigt in einer Demo, wie Gemini 3.1 Flash-Lite komplette Webseiten in Echtzeit generiert. Schnell, günstig – aber auch nützlich?\nDer Artikel Google Deepminds Gemini 3.1 Flash-Lite generiert Web",
@@ -83,15 +101,6 @@
       "language": "de"
     },
     {
-      "title": "Nvidia-Chef: Die Vorstellung, dass KI bald alle Software und Tools zerstört, ist lächerlich",
-      "description": "Jensen Huang erklärt mit einem Gedankenexperiment, warum KI-Agenten Software benutzen, statt sie zu ersetzen. Nvidia hat deshalb seine gesamte Rack-Architektur umgebaut.\nDer Artikel Nvidia-Chef: Die V",
-      "link": "https://the-decoder.de/nvidia-chef-die-vorstellung-dass-ki-bald-alle-software-und-tools-zerstoert-ist-laecherlich/",
-      "date": "2026-03-24T11:00:38.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "Helping developers build safer AI experiences for teens",
       "description": "OpenAI releases prompt-based teen safety policies for developers using gpt-oss-safeguard, helping moderate age-specific risks in AI systems.",
       "link": "https://openai.com/index/teen-safety-policies-gpt-oss-safeguard",
@@ -123,15 +132,6 @@
       "description": "How OpenAI uses chain-of-thought monitoring to study misalignment in internal coding agents—analyzing real-world deployments to detect risks and strengthen AI safety safeguards.",
       "link": "https://openai.com/index/how-we-monitor-internal-coding-agents-misalignment",
       "date": "2026-03-19T10:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "OpenAI to acquire Astral",
-      "description": "Accelerates Codex growth to power the next generation of Python developer tools",
-      "link": "https://openai.com/index/openai-to-acquire-astral",
-      "date": "2026-03-19T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
