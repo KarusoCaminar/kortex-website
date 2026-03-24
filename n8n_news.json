@@ -1,9 +1,45 @@
 {
-  "lastUpdated": "2026-03-24T15:01:39.958Z",
+  "lastUpdated": "2026-03-24T17:03:00.950Z",
   "news": [
     {
+      "title": "Microsoft mietet Rechenzentrum in Texas, das Oracle und OpenAI nicht mehr wollten",
+      "description": "Microsoft hat laut Bloomberg News einem Mietvertrag für ein Rechenzentrum in Abilene, Texas, zugestimmt, das ursprünglich für Oracle und OpenAI entwickelt wurde.\nDer Artikel Microsoft mietet Rechenzen",
+      "link": "https://the-decoder.de/microsoft-mietet-rechenzentrum-in-texas-das-oracle-und-openai-nicht-mehr-wollten/",
+      "date": "2026-03-24T16:39:30.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Google Deepmind bringt Gemini-KI in Roboter des Münchner Unternehmens Agile Robots",
+      "description": "Agile Robots und Google Deepmind wollen gemeinsam KI-gesteuerte Roboter für die Industrie entwickeln. Dafür integriert das Münchner Unternehmen die Gemini-Robotics-Modelle in seine Hardware.\nDer Artik",
+      "link": "https://the-decoder.de/google-deepmind-bringt-gemini-ki-in-roboter-des-muenchner-unternehmens-agile-robots/",
+      "date": "2026-03-24T16:14:39.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Google zeigt neue KI-Sicherheitswerkzeuge auf der RSA-Konferenz",
+      "description": "Google Cloud hat auf der RSA-Konferenz 2026 in San Francisco neue Sicherheitsfunktionen vorgestellt.\nDer Artikel Google zeigt neue KI-Sicherheitswerkzeuge auf der RSA-Konferenz erschien zuerst auf The",
+      "link": "https://the-decoder.de/google-zeigt-neue-ki-sicherheitswerkzeuge-auf-der-rsa-konferenz/",
+      "date": "2026-03-24T15:53:11.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "ChatGPT erleichtert Dateimanagement mit neuer Werkzeugleiste und Library-Tab",
+      "description": "OpenAI räumt in ChatGPT auf und gibt Nutzern endlich einen zentralen Ort für ihre Dateien.\nDer Artikel ChatGPT erleichtert Dateimanagement mit neuer Werkzeugleiste und Library-Tab erschien zuerst auf",
+      "link": "https://the-decoder.de/chatgpt-erleichtert-dateimanagement-mit-neuer-werkzeugleiste-und-library-tab/",
+      "date": "2026-03-24T15:44:45.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
       "title": "Microsoft holt Top-KI-Forscher vom Allen Institute for AI für Superintelligenz-Team",
-      "description": "Microsoft stellt laut GeekWire mehrere führende KI-Forscher vom Allen Institute for AI (Ai2) und der University of Washington ein.\nDer Artikel Microsoft holt Top-KI-Forscher vom Allen Institute for AI",
+      "description": "Microsoft stellt laut Geekwire mehrere führende KI-Forscher vom Allen Institute for AI (Ai2) und der University of Washington ein.\nDer Artikel Microsoft holt Top-KI-Forscher vom Allen Institute for AI",
       "link": "https://the-decoder.de/microsoft-holt-top-ki-forscher-vom-allen-institute-for-ai-fuer-superintelligenz-team/",
       "date": "2026-03-24T13:28:22.000Z",
       "source": "The Decoder",
@@ -38,6 +74,24 @@
       "language": "de"
     },
     {
+      "title": "Powering product discovery in ChatGPT",
+      "description": "ChatGPT introduces richer, visually immersive shopping powered by the Agentic Commerce Protocol, enabling product discovery, side-by-side comparisons, and merchant integration.",
+      "link": "https://openai.com/index/powering-product-discovery-in-chatgpt",
+      "date": "2026-03-24T09:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
+      "title": "Update on the OpenAI Foundation",
+      "description": "The OpenAI Foundation announces plans to invest at least $1 billion in curing diseases, economic opportunity, AI resilience, and community programs.",
+      "link": "https://openai.com/index/update-on-the-openai-foundation",
+      "date": "2026-03-24T09:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
       "title": "Meta stärkt Agenten-Fokus mit indirekter Übernahme des KI-Startups Dreamer",
       "description": "Das KI-Startup Dreamer schließt sich Meta an und bringt einen alten Bekannten zurück zu Mark Zuckerberg. Für Meta ist es bereits die zweite Akquisition im Bereich agentischer KI in diesem Jahr.\nDer Ar",
       "link": "https://the-decoder.de/meta-staerkt-agenten-fokus-mit-indirekter-uebernahme-des-ki-startups-dreamer/",
@@ -51,42 +105,6 @@
       "description": "Luma AI fordert mit Uni-1 OpenAI und Google heraus: Das neue Modell vereint Bildverständnis und Bilderzeugung in einer Architektur und denkt beim Generieren mit.\nDer Artikel Luma AI Uni-1: Neues Bildm",
       "link": "https://the-decoder.de/luma-ai-uni-1-neues-bildmodell-koennte-googles-nano-banana-konkurrenz-machen/",
       "date": "2026-03-23T18:37:52.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "OpenAI lockt Private-Equity-Firmen mit hohen Renditen im Wettstreit mit Anthropic",
-      "description": "OpenAI bietet Private-Equity-Firmen eine garantierte Mindestrendite von 17,5 Prozent, um sie für Joint Ventures im Unternehmensgeschäft zu gewinnen.\nDer Artikel OpenAI lockt Private-Equity-Firmen mit",
-      "link": "https://the-decoder.de/openai-lockt-private-equity-firmen-mit-hohen-renditen-im-wettstreit-mit-anthropic/",
-      "date": "2026-03-23T17:43:43.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Meta-Chef Zuckerberg baut angeblich persönlichen KI-Agenten und plant flachere Hierarchien",
-      "description": "Mark Zuckerberg nutzt einen eigenen KI-Agenten, um Meta effizienter zu führen. Angeblich plant das Unternehmen einen massiven Stellenabbau.\nDer Artikel Meta-Chef Zuckerberg baut angeblich persönlichen",
-      "link": "https://the-decoder.de/meta-chef-zuckerberg-baut-angeblich-persoenlichen-ki-agenten-und-plant-flachere-hierarchien/",
-      "date": "2026-03-23T14:26:40.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "OpenSeeker will das Datenmonopol bei KI-Suchagenten auflösen",
-      "description": "Mit nur 11.700 Trainingsdatenpunkten und einem einzigen Trainingsdurchlauf erreicht der KI-Suchagent OpenSeeker Ergebnisse, die mit Lösungen von Alibaba und Co. mithalten. Daten, Code und Modell sind",
-      "link": "https://the-decoder.de/openseeker-will-das-datenmonopol-bei-ki-suchagenten-aufloesen/",
-      "date": "2026-03-23T11:07:07.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Xiaomi stellt mit MiMo-V2 drei KI-Modelle vor, die Agenten sehen, handeln und sprechen lassen",
-      "description": "Das chinesische Technologieunternehmen Xiaomi will KI-Agenten bauen, die selbstständig Software steuern, im Browser einkaufen und perspektivisch auch Roboter kontrollieren. Dafür hat das hauseigene Mi",
-      "link": "https://the-decoder.de/xiaomi-stellt-mit-mimo-v2-drei-ki-modelle-vor-die-agenten-sehen-handeln-und-sprechen-lassen/",
-      "date": "2026-03-22T11:49:53.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
@@ -116,24 +134,6 @@
       "date": "2026-03-17T16:57:00.000Z",
       "source": "Google AI",
       "category": "workflow-tools",
-      "language": "en"
-    },
-    {
-      "title": "OpenAI Japan announces Japan Teen Safety Blueprint to put teen safety first",
-      "description": "OpenAI Japan announces the Japan Teen Safety Blueprint, introducing stronger age protections, parental controls, and well-being safeguards for teens using generative AI.",
-      "link": "https://openai.com/index/japan-teen-safety-blueprint",
-      "date": "2026-03-17T10:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "Introducing GPT-5.4 mini and nano",
-      "description": "GPT-5.4 mini and nano are smaller, faster versions of GPT-5.4 optimized for coding, tool use, multimodal reasoning, and high-volume API and sub-agent workloads.",
-      "link": "https://openai.com/index/introducing-gpt-5-4-mini-and-nano",
-      "date": "2026-03-17T10:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
       "language": "en"
     }
   ]
