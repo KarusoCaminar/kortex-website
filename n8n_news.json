@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-03-25T10:52:30.647Z",
+  "lastUpdated": "2026-03-25T13:18:37.559Z",
   "news": [
+    {
+      "title": "OpenAI-CEO Altman kündigt intern \"sehr starkes\" KI-Modell an, das die \"Wirtschaft wirklich beschleunigen\" kann",
+      "description": "OpenAI stellt das Pretraining für sein nächstes großes KI-Modell \"Spud\" fertig. Laut CEO Sam Altman kann es \"die Wirtschaft wirklich beschleunigen\".\nDer Artikel OpenAI-CEO Altman kündigt intern \"sehr",
+      "link": "https://the-decoder.de/openai-ceo-altman-kuendigt-intern-sehr-starkes-ki-modell-an-das-die-wirtschaft-wirklich-beschleunigen-kann/",
+      "date": "2026-03-25T11:48:41.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "OpenAI gibt Video-App Sora samt API auf, Disney steigt aus Milliarden-Deal aus",
+      "description": "OpenAI stellt seine Sora-App samt API ein. Disney zieht sich daraufhin aus der erst im Dezember geschlossenen Partnerschaft zurück.\nDer Artikel OpenAI gibt Video-App Sora samt API auf, Disney steigt a",
+      "link": "https://the-decoder.de/openai-gibt-video-app-sora-samt-api-auf-disney-steigt-aus-milliarden-deal-aus/",
+      "date": "2026-03-25T10:52:09.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "OpenAI stockt Finanzierungsrunde auf mehr als 120 Milliarden Dollar auf",
       "description": "OpenAI sammelt noch mehr Geld ein und nennt seinen wichtigsten Partner gleichzeitig als größtes Risiko.\nDer Artikel OpenAI stockt Finanzierungsrunde auf mehr als 120 Milliarden Dollar auf erschien zue",
@@ -15,15 +33,6 @@
       "description": "Entwickler, die Claude Code nutzen, standen bisher vor einem Dilemma: entweder jede Aktion einzeln genehmigen oder alle Sicherheitschecks abschalten. Anthropics neuer Auto Mode soll einen Mittelweg bi",
       "link": "https://the-decoder.de/anthropic-gibt-claude-code-einen-sicherheits-autopiloten/",
       "date": "2026-03-25T09:53:16.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "OpenAI gibt Video-App Sora samt API auf, Disney steigt aus Milliarden-Deal aus",
-      "description": "OpenAI stellt seine Sora-App samt API ein. Disney zieht sich daraufhin aus der erst im Dezember geschlossenen Partnerschaft zurück.\nDer Artikel OpenAI gibt Video-App Sora samt API auf, Disney steigt a",
-      "link": "https://the-decoder.de/openai-gibt-video-app-sora-samt-api-auf-disney-steigt-aus-milliarden-deal-aus/",
-      "date": "2026-03-25T09:28:09.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
@@ -87,15 +96,6 @@
       "description": "Agile Robots und Google Deepmind wollen gemeinsam KI-gesteuerte Roboter für die Industrie entwickeln. Dafür integriert das Münchner Unternehmen die Gemini-Robotics-Modelle in seine Hardware.\nDer Artik",
       "link": "https://the-decoder.de/google-deepmind-bringt-gemini-ki-in-roboter-des-muenchner-unternehmens-agile-robots/",
       "date": "2026-03-24T16:14:39.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Google zeigt neue KI-Sicherheitswerkzeuge auf der RSA-Konferenz",
-      "description": "Google Cloud hat auf der RSA-Konferenz 2026 in San Francisco neue Sicherheitsfunktionen vorgestellt.\nDer Artikel Google zeigt neue KI-Sicherheitswerkzeuge auf der RSA-Konferenz erschien zuerst auf The",
-      "link": "https://the-decoder.de/google-zeigt-neue-ki-sicherheitswerkzeuge-auf-der-rsa-konferenz/",
-      "date": "2026-03-24T15:53:11.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
