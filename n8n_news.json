@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-03-25T15:03:00.856Z",
+  "lastUpdated": "2026-03-25T17:06:52.490Z",
   "news": [
+    {
+      "title": "Offener KI-Web-Agent MolmoWeb bedient Websites allein anhand von Bildschirmfotos",
+      "description": "Das Forschungsteam hinter Molmo veröffentlicht einen Web-Agenten, der Websites allein anhand von Bildschirmfotos bedient. Die kompakten Modelle übertreffen dabei teilweise größere proprietäre Systeme.",
+      "link": "https://the-decoder.de/offener-ki-web-agent-molmoweb-bedient-websites-allein-anhand-von-bildschirmfotos/",
+      "date": "2026-03-25T16:26:13.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Arm stellt erstmals eigenen Chip her und entwickelt mit Meta eine CPU für KI-Rechenzentren",
+      "description": "Arm hat erstmals in seiner 35-jährigen Geschichte einen eigenen Chip hergestellt und damit sein bisheriges Geschäftsmodell erweitert, bei dem das Unternehmen nur Chip-Designs an Firmen wie Apple oder",
+      "link": "https://the-decoder.de/arm-stellt-erstmals-eigenen-chip-her-und-entwickelt-mit-meta-eine-cpu-fuer-ki-rechenzentren/",
+      "date": "2026-03-25T15:07:16.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "OpenAI-CEO Altman kündigt intern \"sehr starkes\" KI-Modell an, das die \"Wirtschaft wirklich beschleunigen\" kann",
       "description": "OpenAI stellt das Pretraining für sein nächstes großes KI-Modell \"Spud\" fertig. Laut CEO Sam Altman kann es \"die Wirtschaft wirklich beschleunigen\".\nDer Artikel OpenAI-CEO Altman kündigt intern \"sehr",
@@ -29,6 +47,15 @@
       "language": "de"
     },
     {
+      "title": "Inside our approach to the Model Spec",
+      "description": "Learn how OpenAI’s Model Spec serves as a public framework for model behavior, balancing safety, user freedom, and accountability as AI systems advance.",
+      "link": "https://openai.com/index/our-approach-to-the-model-spec",
+      "date": "2026-03-25T10:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
       "title": "Anthropic gibt Claude Code einen Sicherheits-Autopiloten",
       "description": "Entwickler, die Claude Code nutzen, standen bisher vor einem Dilemma: entweder jede Aktion einzeln genehmigen oder alle Sicherheitschecks abschalten. Anthropics neuer Auto Mode soll einen Mittelweg bi",
       "link": "https://the-decoder.de/anthropic-gibt-claude-code-einen-sicherheits-autopiloten/",
@@ -38,10 +65,19 @@
       "language": "de"
     },
     {
+      "title": "Introducing the OpenAI Safety Bug Bounty program",
+      "description": "OpenAI launches a Safety Bug Bounty program to identify AI abuse and safety risks, including agentic vulnerabilities, prompt injection, and data exfiltration.",
+      "link": "https://openai.com/index/safety-bug-bounty",
+      "date": "2026-03-25T00:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
       "title": "TurboQuant: Redefining AI efficiency with extreme compression",
       "description": "Algorithms & Theory",
       "link": "https://research.google/blog/turboquant-redefining-ai-efficiency-with-extreme-compression/",
-      "date": "2026-03-24T19:54:03.000Z",
+      "date": "2026-03-24T19:54:00.000Z",
       "source": "Google AI",
       "category": "große-modelle",
       "language": "en"
@@ -83,24 +119,6 @@
       "language": "de"
     },
     {
-      "title": "Microsoft mietet Rechenzentrum in Texas, das Oracle und OpenAI nicht mehr wollten",
-      "description": "Microsoft hat laut Bloomberg News einem Mietvertrag für ein Rechenzentrum in Abilene, Texas, zugestimmt, das ursprünglich für Oracle und OpenAI entwickelt wurde.\nDer Artikel Microsoft mietet Rechenzen",
-      "link": "https://the-decoder.de/microsoft-mietet-rechenzentrum-in-texas-das-oracle-und-openai-nicht-mehr-wollten/",
-      "date": "2026-03-24T16:39:30.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Google Deepmind bringt Gemini-KI in Roboter des Münchner Unternehmens Agile Robots",
-      "description": "Agile Robots und Google Deepmind wollen gemeinsam KI-gesteuerte Roboter für die Industrie entwickeln. Dafür integriert das Münchner Unternehmen die Gemini-Robotics-Modelle in seine Hardware.\nDer Artik",
-      "link": "https://the-decoder.de/google-deepmind-bringt-gemini-ki-in-roboter-des-muenchner-unternehmens-agile-robots/",
-      "date": "2026-03-24T16:14:39.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "Helping developers build safer AI experiences for teens",
       "description": "OpenAI releases prompt-based teen safety policies for developers using gpt-oss-safeguard, helping moderate age-specific risks in AI systems.",
       "link": "https://openai.com/index/teen-safety-policies-gpt-oss-safeguard",
@@ -114,24 +132,6 @@
       "description": "The OpenAI Foundation announces plans to invest at least $1 billion in curing diseases, economic opportunity, AI resilience, and community programs.",
       "link": "https://openai.com/index/update-on-the-openai-foundation",
       "date": "2026-03-24T09:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "Powering product discovery in ChatGPT",
-      "description": "ChatGPT introduces richer, visually immersive shopping powered by the Agentic Commerce Protocol, enabling product discovery, side-by-side comparisons, and merchant integration.",
-      "link": "https://openai.com/index/powering-product-discovery-in-chatgpt",
-      "date": "2026-03-24T09:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "How we monitor internal coding agents for misalignment",
-      "description": "How OpenAI uses chain-of-thought monitoring to study misalignment in internal coding agents—analyzing real-world deployments to detect risks and strengthen AI safety safeguards.",
-      "link": "https://openai.com/index/how-we-monitor-internal-coding-agents-misalignment",
-      "date": "2026-03-19T10:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
