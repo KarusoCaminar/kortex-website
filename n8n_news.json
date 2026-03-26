@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-03-26T19:12:12.410Z",
+  "lastUpdated": "2026-03-26T20:39:03.220Z",
   "news": [
+    {
+      "title": "Voller Zugriff auf Gemini: Apple destilliert Googles KI für lokale Modelle",
+      "description": "Apple zapft Googles Gemini an: Der iPhone-Hersteller darf das KI-Modell in eigenen Rechenzentren destillieren, um kleinere Modelle für Siri und Apple-Geräte zu bauen.\nDer Artikel Voller Zugriff auf Ge",
+      "link": "https://the-decoder.de/voller-zugriff-auf-gemini-apple-destilliert-googles-ki-fuer-lokale-modelle/",
+      "date": "2026-03-26T19:45:12.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Mistral veröffentlicht neues Text-to-Speech-Modell Voxtral als Open-Weights-Version",
+      "description": "Das französische KI-Start-up Mistral hat mit Voxtral TTS ein erstes Text-to-Speech-Modell veröffentlicht.\nDer Artikel Mistral veröffentlicht neues Text-to-Speech-Modell Voxtral als Open-Weights-Versio",
+      "link": "https://the-decoder.de/mistral-veroeffentlicht-neues-text-to-speech-modell-voxtral-als-open-weights-version/",
+      "date": "2026-03-26T19:12:58.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "OpenAI und Anthropic vor dem Börsengang: Unterschiedliche Bilanzen erschweren den Vergleich",
       "description": "OpenAI und Anthropic wachsen extrem schnell, doch ihre Umsatzzahlen sind schwer vergleichbar. Schuld daran sind unterschiedliche Buchungsmethoden bei Cloud-Partnerschaften.\nDer Artikel OpenAI und Anth",
@@ -69,24 +87,6 @@
       "description": "Google macht KI-Musik länger und breiter verfügbar: Lyria 3 Pro erzeugt Songs mit bis zu drei Minuten Länge, inklusive Strophen, Refrains und Bridges. Laut Google wurde das Modell auf Inhalten trainie",
       "link": "https://the-decoder.de/neues-ki-modell-von-google-lyria-3-pro-generiert-bis-zu-drei-minuten-lange-songs/",
       "date": "2026-03-25T19:01:07.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Offener KI-Web-Agent MolmoWeb bedient Websites allein anhand von Bildschirmfotos",
-      "description": "Das Forschungsteam hinter Molmo veröffentlicht einen Web-Agenten, der Websites allein anhand von Bildschirmfotos bedient. Die kompakten Modelle übertreffen dabei teilweise größere proprietäre Systeme.",
-      "link": "https://the-decoder.de/offener-ki-web-agent-molmoweb-bedient-websites-allein-anhand-von-bildschirmfotos/",
-      "date": "2026-03-25T16:26:13.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Arm stellt erstmals eigenen Chip her und entwickelt mit Meta eine CPU für KI-Rechenzentren",
-      "description": "Arm hat erstmals in seiner 35-jährigen Geschichte einen eigenen Chip hergestellt und damit sein bisheriges Geschäftsmodell erweitert, bei dem das Unternehmen nur Chip-Designs an Firmen wie Apple oder",
-      "link": "https://the-decoder.de/arm-stellt-erstmals-eigenen-chip-her-und-entwickelt-mit-meta-eine-cpu-fuer-ki-rechenzentren/",
-      "date": "2026-03-25T15:07:16.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
