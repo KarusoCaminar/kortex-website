@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-03-26T07:14:34.948Z",
+  "lastUpdated": "2026-03-26T09:01:37.641Z",
   "news": [
+    {
+      "title": "Meta testet neue Arbeitsweise: \"KI-native Pods\" sollen Produktivität massiv steigern",
+      "description": "KI-Builder statt Ingenieure: Meta stellt Teile von Reality Labs auf kleine, KI-gestützte Teams um.\nDer Artikel Meta testet neue Arbeitsweise: \"KI-native Pods\" sollen Produktivität massiv steigern ersc",
+      "link": "https://the-decoder.de/meta-testet-neue-arbeitsweise-ki-native-pods-sollen-produktivitaet-massiv-steigern/",
+      "date": "2026-03-26T08:30:26.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Neues KI-Modell von Google: Lyria 3 Pro generiert bis zu drei Minuten lange Songs",
       "description": "Google macht KI-Musik länger und breiter verfügbar: Lyria 3 Pro erzeugt Songs mit bis zu drei Minuten Länge, inklusive Strophen, Refrains und Bridges. Laut Google wurde das Modell auf Inhalten trainie",
@@ -114,15 +123,6 @@
       "description": "Google zeigt in einer Demo, wie Gemini 3.1 Flash-Lite komplette Webseiten in Echtzeit generiert. Schnell, günstig – aber auch nützlich?\nDer Artikel Google Deepminds Gemini 3.1 Flash-Lite generiert Web",
       "link": "https://the-decoder.de/google-deepminds-gemini-3-1-flash-lite-generiert-webseiten-fast-in-echtzeit/",
       "date": "2026-03-24T19:01:39.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "KI-Musik und Bots: Mann erschleicht sich acht Millionen Dollar durch Fake-Streams",
-      "description": "KI-Songs, Fake-Konten, Milliarden gefälschter Streams: Ein Mann aus North Carolina hat sich schuldig bekannt, Streaming-Plattformen um mehr als acht Millionen Dollar betrogen zu haben.\nDer Artikel KI-",
-      "link": "https://the-decoder.de/ki-musik-und-bots-mann-erschleicht-sich-acht-millionen-dollar-durch-fake-streams/",
-      "date": "2026-03-24T18:34:46.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
