@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-03-26T17:06:22.593Z",
+  "lastUpdated": "2026-03-26T19:12:12.410Z",
   "news": [
+    {
+      "title": "OpenAI und Anthropic vor dem Börsengang: Unterschiedliche Bilanzen erschweren den Vergleich",
+      "description": "OpenAI und Anthropic wachsen extrem schnell, doch ihre Umsatzzahlen sind schwer vergleichbar. Schuld daran sind unterschiedliche Buchungsmethoden bei Cloud-Partnerschaften.\nDer Artikel OpenAI und Anth",
+      "link": "https://the-decoder.de/openai-und-anthropic-vor-dem-boersengang-unterschiedliche-bilanzen-erschweren-den-vergleich/",
+      "date": "2026-03-26T18:19:54.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Gemini 3.1 Flash Live: Google zeigt neues KI-Modell für natürlichere Sprachdialoge",
+      "description": "Google Gemini 3.1 Flash Live soll schneller und natürlicher klingen als sein Vorgänger. Entwickler können zwischen Qualität und Geschwindigkeit wählen, die Preise bleiben auf Gemini 2.5-Niveau.\nDer Ar",
+      "link": "https://the-decoder.de/gemini-3-1-flash-live-google-zeigt-neues-ki-modell-fuer-natuerlichere-sprachdialoge/",
+      "date": "2026-03-26T17:29:00.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Google macht KI-Funktion Search Live weltweit für alle Nutzer verfügbar",
       "description": "Google bringt seine sprachgesteuerte KI-Suche in mehr als 200 Länder. Was \"Search Live\" kann und wie es funktioniert.\nDer Artikel Google macht KI-Funktion Search Live weltweit für alle Nutzer verfügba",
@@ -69,24 +87,6 @@
       "description": "Arm hat erstmals in seiner 35-jährigen Geschichte einen eigenen Chip hergestellt und damit sein bisheriges Geschäftsmodell erweitert, bei dem das Unternehmen nur Chip-Designs an Firmen wie Apple oder",
       "link": "https://the-decoder.de/arm-stellt-erstmals-eigenen-chip-her-und-entwickelt-mit-meta-eine-cpu-fuer-ki-rechenzentren/",
       "date": "2026-03-25T15:07:16.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "OpenAI-CEO Altman kündigt intern \"sehr starkes\" KI-Modell an, das die \"Wirtschaft wirklich beschleunigen\" kann",
-      "description": "OpenAI stellt das Pretraining für sein nächstes großes KI-Modell \"Spud\" fertig. Laut CEO Sam Altman kann es \"die Wirtschaft wirklich beschleunigen\".\nDer Artikel OpenAI-CEO Altman kündigt intern \"sehr",
-      "link": "https://the-decoder.de/openai-ceo-altman-kuendigt-intern-sehr-starkes-ki-modell-an-das-die-wirtschaft-wirklich-beschleunigen-kann/",
-      "date": "2026-03-25T11:48:41.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "OpenAI gibt Video-App Sora samt API auf, Disney steigt aus Milliarden-Deal aus",
-      "description": "OpenAI stellt seine Sora-App samt API ein. Disney zieht sich daraufhin aus der erst im Dezember geschlossenen Partnerschaft zurück.\nDer Artikel OpenAI gibt Video-App Sora samt API auf, Disney steigt a",
-      "link": "https://the-decoder.de/openai-gibt-video-app-sora-samt-api-auf-disney-steigt-aus-milliarden-deal-aus/",
-      "date": "2026-03-25T10:52:09.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
