@@ -1,6 +1,33 @@
 {
-  "lastUpdated": "2026-03-26T10:55:29.692Z",
+  "lastUpdated": "2026-03-26T13:24:42.901Z",
   "news": [
+    {
+      "title": "OpenAI legt Pläne für erotischen Chatbot auf unbestimmte Zeit auf Eis",
+      "description": "OpenAI hat die Entwicklung eines erotischen Chatbots auf unbestimmte Zeit gestoppt, berichtet die Financial Times.\nDer Artikel OpenAI legt Pläne für erotischen Chatbot auf unbestimmte Zeit auf Eis ers",
+      "link": "https://the-decoder.de/openai-legt-plaene-fuer-erotischen-chatbot-auf-unbestimmte-zeit-auf-eis/",
+      "date": "2026-03-26T12:31:29.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "GitHub Copilot nutzt ab April Nutzerdaten für KI-Training",
+      "description": "GitHub ändert ab dem 24. April 2026 seine Datenrichtlinie für Copilot. Interaktionsdaten von Nutzern der Tarife Free, Pro und Pro+ werden künftig zum Training von KI-Modellen verwendet, sofern diese n",
+      "link": "https://the-decoder.de/github-copilot-nutzt-ab-april-nutzerdaten-fuer-ki-training/",
+      "date": "2026-03-26T12:09:02.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "ARC-AGI-3: Top-KI-Modelle schaffen unter 1 Prozent bei Aufgaben, die Menschen einfach lösen",
+      "description": "Der neue Benchmark ARC-AGI-3 lässt KI-Systeme in interaktiven Spielumgebungen antreten, die Menschen mühelos meistern. Kein Frontier-Modell knackt die 1-Prozent-Marke - auch weil der Benchmark ihnen i",
+      "link": "https://the-decoder.de/arc-agi-3-top-ki-modelle-schaffen-unter-1-prozent-bei-aufgaben-die-menschen-einfach-loesen/",
+      "date": "2026-03-26T11:22:55.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Meta testet neue Arbeitsweise: \"KI-native Pods\" sollen Produktivität steigern",
       "description": "KI-Builder statt Ingenieure: Meta stellt Teile von Reality Labs auf kleine, KI-gestützte Teams um.\nDer Artikel Meta testet neue Arbeitsweise: \"KI-native Pods\" sollen Produktivität steigern erschien zu",
@@ -74,15 +101,6 @@
       "language": "en"
     },
     {
-      "title": "Anthropic gibt Claude Code einen Sicherheits-Autopiloten",
-      "description": "Entwickler, die Claude Code nutzen, standen bisher vor einem Dilemma: entweder jede Aktion einzeln genehmigen oder alle Sicherheitschecks abschalten. Anthropics neuer Auto Mode soll einen Mittelweg bi",
-      "link": "https://the-decoder.de/anthropic-gibt-claude-code-einen-sicherheits-autopiloten/",
-      "date": "2026-03-25T09:53:16.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "Vibe Coding XR: Accelerating AI + XR prototyping with XR Blocks and Gemini",
       "description": "Human-Computer Interaction and Visualization",
       "link": "https://research.google/blog/vibe-coding-xr-accelerating-ai-xr-prototyping-with-xr-blocks-and-gemini/",
@@ -108,24 +126,6 @@
       "source": "Google AI",
       "category": "große-modelle",
       "language": "en"
-    },
-    {
-      "title": "Beliebter KI-Modell-Router LiteLLM gehackt: Nutzer sollen sofort alle Zugangsdaten wechseln",
-      "description": "LiteLLM, eine beliebte Open-Source-Bibliothek für KI-APIs, wurde mit Schadsoftware infiziert. Der Angriff stiehlt Zugangsdaten und breitet sich in Cloud-Systemen aus. NVIDIA-Forscher Jim Fan warnt vor",
-      "link": "https://the-decoder.de/beliebter-ki-modell-router-litellm-gehackt-nutzer-sollen-sofort-alle-zugangsdaten-wechseln/",
-      "date": "2026-03-24T19:26:06.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Google Deepminds Gemini 3.1 Flash-Lite generiert Webseiten fast in Echtzeit",
-      "description": "Google zeigt in einer Demo, wie Gemini 3.1 Flash-Lite komplette Webseiten in Echtzeit generiert. Schnell, günstig – aber auch nützlich?\nDer Artikel Google Deepminds Gemini 3.1 Flash-Lite generiert Web",
-      "link": "https://the-decoder.de/google-deepminds-gemini-3-1-flash-lite-generiert-webseiten-fast-in-echtzeit/",
-      "date": "2026-03-24T19:01:39.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
     },
     {
       "title": "Helping developers build safer AI experiences for teens",
