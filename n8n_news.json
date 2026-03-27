@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-27T10:53:03.581Z",
+  "lastUpdated": "2026-03-27T13:14:09.391Z",
   "news": [
     {
       "title": "OpenAI verbindet Codex per Plugin mit Slack, Gmail und Co.",
@@ -20,9 +20,9 @@
       "language": "de"
     },
     {
-      "title": "Datenleck bei Anthropic enthüllt neues und bisher leistungsfähigstes KI-Modell",
-      "description": "Ein Datenleck bei Anthropic enthüllt ein neues KI-Modell mit angeblich stark verbesserten Fähigkeiten. Auch OpenAI arbeitet an einem neuen Modell.\nDer Artikel Datenleck bei Anthropic enthüllt neues un",
-      "link": "https://the-decoder.de/datenleck-bei-anthropic-enthuellt-neues-und-bisher-leistungsfaehigstes-ki-modell/",
+      "title": "\"Claude Mythos\": Datenleck bei Anthropic enthüllt neues und bisher leistungsfähigstes KI-Modell",
+      "description": "Update: Inzwischen sind die geleakten Blogartikel-Entwürfe im Netz aufgetaucht. Sie geben Einblick in Anthropics Pläne für eine neue, leistungsfähigere Modellklasse oberhalb der bisherigen Opus-Reihe,",
+      "link": "https://the-decoder.de/claude-mythos-datenleck-bei-anthropic-enthuellt-neues-und-bisher-leistungsfaehigstes-ki-modell/",
       "date": "2026-03-27T08:46:09.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
