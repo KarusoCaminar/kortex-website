@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-03-27T20:42:21.244Z",
+  "lastUpdated": "2026-03-27T22:36:19.411Z",
   "news": [
+    {
+      "title": "STADLER reshapes knowledge work at a 230-year-old company",
+      "description": "Learn how STADLER uses ChatGPT to transform knowledge work, saving time and accelerating productivity across 650 employees.",
+      "link": "https://openai.com/index/stadler",
+      "date": "2026-03-27T22:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
     {
       "title": "Neues Gemini-Update lässt Nutzer Erinnerungen aus ChatGPT und Claude importieren",
       "description": "Google und Anthropic buhlen um ChatGPT-Wechsler: mit einem simplen Prompt-Trick, der alle gespeicherten Nutzerdaten exportiert.\nDer Artikel Neues Gemini-Update lässt Nutzer Erinnerungen aus ChatGPT un",
@@ -124,15 +133,6 @@
       "link": "https://research.google/blog/turboquant-redefining-ai-efficiency-with-extreme-compression/",
       "date": "2026-03-24T19:54:00.000Z",
       "source": "Google AI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "Helping developers build safer AI experiences for teens",
-      "description": "OpenAI releases prompt-based teen safety policies for developers using gpt-oss-safeguard, helping moderate age-specific risks in AI systems.",
-      "link": "https://openai.com/index/teen-safety-policies-gpt-oss-safeguard",
-      "date": "2026-03-24T11:00:00.000Z",
-      "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
     }
