@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-03-27T13:14:09.391Z",
+  "lastUpdated": "2026-03-27T14:53:54.385Z",
   "news": [
+    {
+      "title": "Metas eigenes Aufsichtsgremium warnt: Community Notes sind KI-Desinformation nicht gewachsen",
+      "description": "Das Oversight Board von Meta hat die geplante weltweite Ausweitung von Community Notes untersucht. Das Ergebnis: Das System ist zu langsam, zu dünn besetzt und anfällig für Manipulation, besonders ang",
+      "link": "https://the-decoder.de/metas-eigenes-aufsichtsgremium-warnt-community-notes-sind-ki-desinformation-nicht-gewachsen/",
+      "date": "2026-03-27T13:26:57.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "OpenAI verbindet Codex per Plugin mit Slack, Gmail und Co.",
       "description": "OpenAI führt Plugins für seinen KI-Programmierassistenten Codex ein, um mit gängigen Arbeitstools wie Slack, Figma, Notion, Gmail und Google Drive zusammenzuarbeiten.\nDer Artikel OpenAI verbindet Code",
@@ -78,15 +87,6 @@
       "description": "OpenAI hat die Entwicklung eines erotischen Chatbots auf unbestimmte Zeit gestoppt, berichtet die Financial Times.\nDer Artikel OpenAI legt Pläne für erotischen Chatbot auf unbestimmte Zeit auf Eis ers",
       "link": "https://the-decoder.de/openai-legt-plaene-fuer-erotischen-chatbot-auf-unbestimmte-zeit-auf-eis/",
       "date": "2026-03-26T12:31:29.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "GitHub Copilot nutzt ab April Nutzerdaten für KI-Training",
-      "description": "GitHub ändert ab dem 24. April 2026 seine Datenrichtlinie für Copilot. Interaktionsdaten von Nutzern der Tarife Free, Pro und Pro+ werden künftig zum Training von KI-Modellen verwendet, sofern diese n",
-      "link": "https://the-decoder.de/github-copilot-nutzt-ab-april-nutzerdaten-fuer-ki-training/",
-      "date": "2026-03-26T12:09:02.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
