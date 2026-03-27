@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-03-27T07:13:37.155Z",
+  "lastUpdated": "2026-03-27T08:57:50.771Z",
   "news": [
+    {
+      "title": "Datenleck bei Anthropic enthüllt neues und bisher leistungsfähigstes KI-Modell",
+      "description": "Ein Datenleck bei Anthropic enthüllt ein neues KI-Modell mit angeblich stark verbesserten Fähigkeiten. Auch OpenAI arbeitet an einem neuen Modell.\nDer Artikel Datenleck bei Anthropic enthüllt neues un",
+      "link": "https://the-decoder.de/datenleck-bei-anthropic-enthuellt-neues-und-bisher-leistungsfaehigstes-ki-modell/",
+      "date": "2026-03-27T08:46:09.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Voller Zugriff auf Gemini: Apple destilliert Googles KI für lokale Modelle",
       "description": "Apple zapft Googles Gemini an: Der iPhone-Hersteller darf das KI-Modell in eigenen Rechenzentren destillieren, um kleinere Modelle für Siri und Apple-Geräte zu bauen.\nDer Artikel Voller Zugriff auf Ge",
@@ -78,15 +87,6 @@
       "description": "KI-Builder statt Ingenieure: Meta stellt Teile von Reality Labs auf kleine, KI-gestützte Teams um.\nDer Artikel Meta testet neue Arbeitsweise: \"KI-native Pods\" sollen Produktivität steigern erschien zu",
       "link": "https://the-decoder.de/meta-testet-neue-arbeitsweise-ki-native-pods-sollen-produktivitaet-massiv-steigern/",
       "date": "2026-03-26T08:30:26.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Neues KI-Modell von Google: Lyria 3 Pro generiert bis zu drei Minuten lange Songs",
-      "description": "Google macht KI-Musik länger und breiter verfügbar: Lyria 3 Pro erzeugt Songs mit bis zu drei Minuten Länge, inklusive Strophen, Refrains und Bridges. Laut Google wurde das Modell auf Inhalten trainie",
-      "link": "https://the-decoder.de/neues-ki-modell-von-google-lyria-3-pro-generiert-bis-zu-drei-minuten-lange-songs/",
-      "date": "2026-03-25T19:01:07.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
