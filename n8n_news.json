@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-03-27T18:59:51.599Z",
+  "lastUpdated": "2026-03-27T20:42:21.244Z",
   "news": [
+    {
+      "title": "Neues Gemini-Update lässt Nutzer Erinnerungen aus ChatGPT und Claude importieren",
+      "description": "Google und Anthropic buhlen um ChatGPT-Wechsler: mit einem simplen Prompt-Trick, der alle gespeicherten Nutzerdaten exportiert.\nDer Artikel Neues Gemini-Update lässt Nutzer Erinnerungen aus ChatGPT un",
+      "link": "https://the-decoder.de/neues-gemini-update-laesst-nutzer-erinnerungen-aus-chatgpt-und-claude-importieren/",
+      "date": "2026-03-27T19:09:00.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Cohere veröffentlicht neues Open-Source-Modell zur automatischen Spracherkennung",
       "description": "Cohere stellt ein Open-Source-Spracherkennungsmodell vor, das laut Benchmark alle Konkurrenten schlägt, auch OpenAIs Whisper.\nDer Artikel Cohere veröffentlicht neues Open-Source-Modell zur automatisch",
@@ -78,15 +87,6 @@
       "description": "Apple zapft Googles Gemini an: Der iPhone-Hersteller darf das KI-Modell in eigenen Rechenzentren destillieren, um kleinere Modelle für Siri und Apple-Geräte zu bauen.\nDer Artikel Voller Zugriff auf Ge",
       "link": "https://the-decoder.de/voller-zugriff-auf-gemini-apple-destilliert-googles-ki-fuer-lokale-modelle/",
       "date": "2026-03-26T19:45:12.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Mistral veröffentlicht neues Text-to-Speech-Modell Voxtral als Open-Weights-Version",
-      "description": "Das französische KI-Start-up Mistral hat mit Voxtral TTS ein erstes Text-to-Speech-Modell veröffentlicht.\nDer Artikel Mistral veröffentlicht neues Text-to-Speech-Modell Voxtral als Open-Weights-Versio",
-      "link": "https://the-decoder.de/mistral-veroeffentlicht-neues-text-to-speech-modell-voxtral-als-open-weights-version/",
-      "date": "2026-03-26T19:12:58.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
