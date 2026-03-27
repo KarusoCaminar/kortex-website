@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-03-27T08:57:50.771Z",
+  "lastUpdated": "2026-03-27T10:53:03.581Z",
   "news": [
+    {
+      "title": "OpenAI verbindet Codex per Plugin mit Slack, Gmail und Co.",
+      "description": "OpenAI führt Plugins für seinen KI-Programmierassistenten Codex ein, um mit gängigen Arbeitstools wie Slack, Figma, Notion, Gmail und Google Drive zusammenzuarbeiten.\nDer Artikel OpenAI verbindet Code",
+      "link": "https://the-decoder.de/openai-verbindet-codex-per-plugins-mit-slack-gmail-und-co/",
+      "date": "2026-03-27T10:50:44.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "KI-Radar #2: Warum KI-Produktivitätsgewinne zwischen Benchmark und Bilanz verschwinden",
+      "description": "Generative KI spart bei vielen Aufgaben messbar Zeit. Doch zwischen schnelleren Einzelresultaten und echter wirtschaftlicher Wirkung klafft eine Lücke: Kontrollaufwand, schwache Messgrößen und organis",
+      "link": "https://the-decoder.de/ki-radar-2-warum-ki-produktivitaetsgewinne-zwischen-benchmark-und-bilanz-verschwinden/",
+      "date": "2026-03-27T10:26:00.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Datenleck bei Anthropic enthüllt neues und bisher leistungsfähigstes KI-Modell",
       "description": "Ein Datenleck bei Anthropic enthüllt ein neues KI-Modell mit angeblich stark verbesserten Fähigkeiten. Auch OpenAI arbeitet an einem neuen Modell.\nDer Artikel Datenleck bei Anthropic enthüllt neues un",
@@ -69,24 +87,6 @@
       "description": "GitHub ändert ab dem 24. April 2026 seine Datenrichtlinie für Copilot. Interaktionsdaten von Nutzern der Tarife Free, Pro und Pro+ werden künftig zum Training von KI-Modellen verwendet, sofern diese n",
       "link": "https://the-decoder.de/github-copilot-nutzt-ab-april-nutzerdaten-fuer-ki-training/",
       "date": "2026-03-26T12:09:02.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "ARC-AGI-3: Top-KI-Modelle schaffen unter 1 Prozent bei Aufgaben, die Menschen einfach lösen",
-      "description": "Der neue Benchmark ARC-AGI-3 lässt KI-Systeme in interaktiven Spielumgebungen antreten, die Menschen mühelos meistern. Kein Frontier-Modell knackt die 1-Prozent-Marke - auch weil der Benchmark ihnen i",
-      "link": "https://the-decoder.de/arc-agi-3-top-ki-modelle-schaffen-unter-1-prozent-bei-aufgaben-die-menschen-einfach-loesen/",
-      "date": "2026-03-26T11:22:55.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Meta testet neue Arbeitsweise: \"KI-native Pods\" sollen Produktivität steigern",
-      "description": "KI-Builder statt Ingenieure: Meta stellt Teile von Reality Labs auf kleine, KI-gestützte Teams um.\nDer Artikel Meta testet neue Arbeitsweise: \"KI-native Pods\" sollen Produktivität steigern erschien zu",
-      "link": "https://the-decoder.de/meta-testet-neue-arbeitsweise-ki-native-pods-sollen-produktivitaet-massiv-steigern/",
-      "date": "2026-03-26T08:30:26.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
