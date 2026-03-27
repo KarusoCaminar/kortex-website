@@ -1,6 +1,33 @@
 {
-  "lastUpdated": "2026-03-27T16:58:31.587Z",
+  "lastUpdated": "2026-03-27T18:59:51.599Z",
   "news": [
+    {
+      "title": "Cohere veröffentlicht neues Open-Source-Modell zur automatischen Spracherkennung",
+      "description": "Cohere stellt ein Open-Source-Spracherkennungsmodell vor, das laut Benchmark alle Konkurrenten schlägt, auch OpenAIs Whisper.\nDer Artikel Cohere veröffentlicht neues Open-Source-Modell zur automatisch",
+      "link": "https://the-decoder.de/cohere-veroeffentlicht-neues-open-source-modell-zur-automatischen-spracherkennung/",
+      "date": "2026-03-27T18:21:50.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Anthropic erwirkt einstweilige Verfügung gegen KI-Bann der Trump-Regierung",
+      "description": "US-Bundesrichterin Rita F. Lin stellt sich im Streit zwischen Anthropic und der Regierung klar auf die Seite des KI-Unternehmens: Sie wertet die Maßnahmen gegen Anthropic als mutmaßlich rechtswidrige",
+      "link": "https://the-decoder.de/anthropic-erwirkt-einstweilige-verfuegung-gegen-ki-bann-der-trump-regierung/",
+      "date": "2026-03-27T17:37:41.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Metas KI-Modell sagt Gehirnaktivität genauer vorher als ein einzelner Hirnscan",
+      "description": "Ein neues KI-Modell von Meta sagt voraus, wie das menschliche Gehirn auf Bilder, Töne und Sprache reagiert. In Tests traf es die typische Hirnreaktion oft besser als die Messung einer einzelnen Person",
+      "link": "https://the-decoder.de/metas-ki-modell-sagt-gehirnaktivitaet-genauer-vorher-als-ein-einzelner-hirnscan/",
+      "date": "2026-03-27T17:02:55.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "KI-Musikgenerator Suno lässt Nutzer jetzt mit der eigenen Stimme singen",
       "description": "Suno veröffentlicht Version 5.5 seines KI-Musikgenerators mit drei neuen Funktionen, die den Sound stärker an den Nutzer binden: eigene Stimme, eigenes Stilmodell und automatische Geschmackserkennung.",
@@ -60,33 +87,6 @@
       "description": "Das französische KI-Start-up Mistral hat mit Voxtral TTS ein erstes Text-to-Speech-Modell veröffentlicht.\nDer Artikel Mistral veröffentlicht neues Text-to-Speech-Modell Voxtral als Open-Weights-Versio",
       "link": "https://the-decoder.de/mistral-veroeffentlicht-neues-text-to-speech-modell-voxtral-als-open-weights-version/",
       "date": "2026-03-26T19:12:58.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "OpenAI und Anthropic vor dem Börsengang: Unterschiedliche Bilanzen erschweren den Vergleich",
-      "description": "OpenAI und Anthropic wachsen extrem schnell, doch ihre Umsatzzahlen sind schwer vergleichbar. Schuld daran sind unterschiedliche Buchungsmethoden bei Cloud-Partnerschaften.\nDer Artikel OpenAI und Anth",
-      "link": "https://the-decoder.de/openai-und-anthropic-vor-dem-boersengang-unterschiedliche-bilanzen-erschweren-den-vergleich/",
-      "date": "2026-03-26T18:19:54.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Gemini 3.1 Flash Live: Google zeigt neues KI-Modell für natürlichere Sprachdialoge",
-      "description": "Google Gemini 3.1 Flash Live soll schneller und natürlicher klingen als sein Vorgänger. Entwickler können zwischen Qualität und Geschwindigkeit wählen, die Preise bleiben auf Gemini 2.5-Niveau.\nDer Ar",
-      "link": "https://the-decoder.de/gemini-3-1-flash-live-google-zeigt-neues-ki-modell-fuer-natuerlichere-sprachdialoge/",
-      "date": "2026-03-26T17:29:00.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Google macht KI-Funktion Search Live weltweit für alle Nutzer verfügbar",
-      "description": "Google bringt seine sprachgesteuerte KI-Suche in mehr als 200 Länder. Was \"Search Live\" kann und wie es funktioniert.\nDer Artikel Google macht KI-Funktion Search Live weltweit für alle Nutzer verfügba",
-      "link": "https://the-decoder.de/google-macht-ki-funktion-search-live-weltweit-fuer-alle-nutzer-verfuegbar/",
-      "date": "2026-03-26T16:59:47.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
