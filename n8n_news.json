@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-03-28T14:35:58.624Z",
+  "lastUpdated": "2026-03-28T16:38:19.318Z",
   "news": [
+    {
+      "title": "Googles \"Agent Skill\" für die Gemini-API hilft KI-Modellen bei aktuellen SDK-Änderungen",
+      "description": "KI-Modelle wissen nach dem Training nichts über ihre eigenen Updates. Google zeigt mit einem einfachen Trick, wie sich das ändern lässt, und wie stark das die Ergebnisse beim Programmieren verbessert.",
+      "link": "https://the-decoder.de/googles-agent-skill-fuer-die-gemini-api-hilft-ki-modellen-bei-aktuellen-sdk-aenderungen/",
+      "date": "2026-03-28T15:12:44.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "ChatGPT vs. Claude: Anthropic sieht sich angeblich als gesunde Alternative zur \"Tabakindustrie\" OpenAI",
       "description": "Anthropic entstand nicht nur aus Sorge um KI-Sicherheit, sondern auch aus einem erbitterten Macht- und Beziehungskonflikt bei OpenAI. Ein Bericht von Sam-Altman-Biografin Keach Hagey zeigt, wie persön",
@@ -87,15 +96,6 @@
       "description": "Suno veröffentlicht Version 5.5 seines KI-Musikgenerators mit drei neuen Funktionen, die den Sound stärker an den Nutzer binden: eigene Stimme, eigenes Stilmodell und automatische Geschmackserkennung.",
       "link": "https://the-decoder.de/ki-musikgenerator-suno-laesst-nutzer-jetzt-mit-der-eigenen-stimme-singen/",
       "date": "2026-03-27T15:46:49.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Metas eigenes Aufsichtsgremium warnt: Community Notes sind KI-Desinformation nicht gewachsen",
-      "description": "Das Oversight Board von Meta hat die geplante weltweite Ausweitung von Community Notes untersucht. Das Ergebnis: Das System ist zu langsam, zu dünn besetzt und anfällig für Manipulation, besonders ang",
-      "link": "https://the-decoder.de/metas-eigenes-aufsichtsgremium-warnt-community-notes-sind-ki-desinformation-nicht-gewachsen/",
-      "date": "2026-03-27T13:26:57.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
