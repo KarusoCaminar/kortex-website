@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-03-28T08:44:05.457Z",
+  "lastUpdated": "2026-03-28T10:35:52.067Z",
   "news": [
+    {
+      "title": "Meta stellt Hyperagents vor: KI-System verbessert den eigenen Verbesserungsprozess",
+      "description": "Forschende bei Meta und mehreren Universitäten haben \"Hyperagenten\" entwickelt, die nicht nur Aufgaben lösen, sondern auch den Mechanismus optimieren, mit dem sie sich selbst verbessern. Das funktioni",
+      "link": "https://the-decoder.de/meta-stellt-hyperagents-vor-ki-system-verbessert-den-eigenen-verbesserungsprozess/",
+      "date": "2026-03-28T10:01:09.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "OpenAIs Fahrplan für das Sora-Aus: Web-Version endet im April, API folgt im September",
+      "description": "OpenAI stellt sein KI-Videotool Sora in zwei Schritten ein. Nutzer sollen ihre Daten sichern.\nDer Artikel OpenAIs Fahrplan für das Sora-Aus: Web-Version endet im April, API folgt im September erschien",
+      "link": "https://the-decoder.de/openais-fahrplan-fuer-das-sora-aus-web-version-endet-im-april-api-folgt-im-september/",
+      "date": "2026-03-28T09:33:08.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Anthropic-Studie: Wer KI länger nutzt, erzielt bessere Ergebnisse",
       "description": "Der zweite Anthropic Economic Index analysiert, wie sich die Nutzung von Claude in der Wirtschaft verändert. Ein zentraler Befund: Wer länger mit dem KI-Modell arbeitet, erzielt messbar bessere Ergebn",
@@ -78,24 +96,6 @@
       "description": "OpenAI führt Plugins für seinen KI-Programmierassistenten Codex ein, um mit gängigen Arbeitstools wie Slack, Figma, Notion, Gmail und Google Drive zusammenzuarbeiten.\nDer Artikel OpenAI verbindet Code",
       "link": "https://the-decoder.de/openai-verbindet-codex-per-plugins-mit-slack-gmail-und-co/",
       "date": "2026-03-27T10:50:44.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "KI-Radar #2: Warum KI-Produktivität zwischen Benchmark und Bilanz verschwindet",
-      "description": "Generative KI spart bei vielen Aufgaben messbar Zeit. Doch zwischen schnelleren Einzelresultaten und echter wirtschaftlicher Wirkung klafft eine Lücke: Kontrollaufwand, schwache Messgrößen und organis",
-      "link": "https://the-decoder.de/ki-radar-2-warum-ki-produktivitaetsgewinne-zwischen-benchmark-und-bilanz-verschwinden/",
-      "date": "2026-03-27T10:26:00.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "\"Claude Mythos\": Datenleck bei Anthropic enthüllt neues und bisher leistungsfähigstes KI-Modell",
-      "description": "Update: Inzwischen sind die geleakten Blogartikel-Entwürfe im Netz aufgetaucht. Sie geben Einblick in Anthropics Pläne für eine neue, leistungsfähigere Modellklasse oberhalb der bisherigen Opus-Reihe,",
-      "link": "https://the-decoder.de/claude-mythos-datenleck-bei-anthropic-enthuellt-neues-und-bisher-leistungsfaehigstes-ki-modell/",
-      "date": "2026-03-27T08:46:09.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
