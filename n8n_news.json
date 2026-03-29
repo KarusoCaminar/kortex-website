@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-03-29T14:36:23.718Z",
+  "lastUpdated": "2026-03-29T16:39:24.649Z",
   "news": [
+    {
+      "title": "OpenAI-Chefs feiern KI-Impfstoff gegen Hunde-Krebs, Forscher kritisiert Story als unbewiesene PR",
+      "description": "In sozialen Medien geht die Geschichte eines australischen KI-Beraters viral, der mit ChatGPT, AlphaFold und Grok einen möglichen Behandlungsansatz für den unheilbaren Krebs seiner Hündin Rosie identi",
+      "link": "https://the-decoder.de/openai-chefs-feiern-ki-impfstoff-gegen-hunde-krebs-forscher-kritisiert-story-als-unbewiesene-pr/",
+      "date": "2026-03-29T15:27:53.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Eli Lilly schließt Milliarden-Deal mit KI-Pharmaunternehmen Insilico Medicine",
+      "description": "Der US-Pharmakonzern Eli Lilly setzt auf KI-gestützte Medikamentenentwicklung und schließt einen Milliardendeal mit dem Hongkonger Unternehmen Insilico Medicine.\nDer Artikel Eli Lilly schließt Milliar",
+      "link": "https://the-decoder.de/eli-lilly-schliesst-milliarden-deal-mit-ki-pharmaunternehmen-insilico-medicine/",
+      "date": "2026-03-29T15:10:06.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "KI-Agent \"MetaClaw\" checkt erst deinen Google-Kalender, bevor er trainiert",
       "description": "Forscher aus vier US-Universitäten stellen ein Framework vor, das KI-Agenten im laufenden Betrieb verbessert. Dafür nutzt es den Google-Kalender des Nutzers.\nDer Artikel KI-Agent \"MetaClaw\" checkt ers",
@@ -74,15 +92,6 @@
       "language": "de"
     },
     {
-      "title": "Anthropic-Studie: Wer KI länger nutzt, erzielt bessere Ergebnisse",
-      "description": "Der zweite Anthropic Economic Index analysiert, wie sich die Nutzung von Claude in der Wirtschaft verändert. Ein zentraler Befund: Wer länger mit dem KI-Modell arbeitet, erzielt messbar bessere Ergebn",
-      "link": "https://the-decoder.de/anthropic-studie-wer-ki-laenger-nutzt-erzielt-bessere-ergebnisse/",
-      "date": "2026-03-28T08:27:09.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "STADLER reshapes knowledge work at a 230-year-old company",
       "description": "Learn how STADLER uses ChatGPT to transform knowledge work, saving time and accelerating productivity across 650 employees.",
       "link": "https://openai.com/index/stadler",
@@ -90,15 +99,6 @@
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
-    },
-    {
-      "title": "Neues Gemini-Update lässt Nutzer Erinnerungen aus ChatGPT und Claude importieren",
-      "description": "Google und Anthropic buhlen um ChatGPT-Wechsler: mit einem simplen Prompt-Trick, der alle gespeicherten Nutzerdaten exportiert.\nDer Artikel Neues Gemini-Update lässt Nutzer Erinnerungen aus ChatGPT un",
-      "link": "https://the-decoder.de/neues-gemini-update-laesst-nutzer-erinnerungen-aus-chatgpt-und-claude-importieren/",
-      "date": "2026-03-27T19:09:00.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
     },
     {
       "title": "Inside our approach to the Model Spec",
