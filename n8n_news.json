@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-03-29T05:44:12.313Z",
+  "lastUpdated": "2026-03-29T07:09:01.063Z",
   "news": [
+    {
+      "title": "Seoul World Model: Navers neue Video-KI basiert auf echten Street-View-Aufnahmen",
+      "description": "Der südkoreanische Internetkonzern Naver hat ein Video-Weltmodell entwickelt, das reale Stadtgeometrie aus über einer Million eigener Street-View-Aufnahmen als Grundlage nutzt. Das Modell generalisier",
+      "link": "https://the-decoder.de/seoul-world-model-navers-neue-video-ki-basiert-auf-echten-street-view-aufnahmen/",
+      "date": "2026-03-29T06:46:57.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Googles \"Agent Skill\" für die Gemini-API hilft KI-Modellen bei aktuellen SDK-Änderungen",
       "description": "KI-Modelle wissen nach dem Training nichts über ihre eigenen Updates. Google zeigt mit einem einfachen Trick, wie sich das ändern lässt, und wie stark das die Ergebnisse beim Programmieren verbessert.",
@@ -87,15 +96,6 @@
       "description": "Ein neues KI-Modell von Meta sagt voraus, wie das menschliche Gehirn auf Bilder, Töne und Sprache reagiert. In Tests traf es die typische Hirnreaktion oft besser als die Messung einer einzelnen Person",
       "link": "https://the-decoder.de/metas-ki-modell-sagt-gehirnaktivitaet-genauer-vorher-als-ein-einzelner-hirnscan/",
       "date": "2026-03-27T17:02:55.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "KI-Musikgenerator Suno lässt Nutzer jetzt mit der eigenen Stimme singen",
-      "description": "Suno veröffentlicht Version 5.5 seines KI-Musikgenerators mit drei neuen Funktionen, die den Sound stärker an den Nutzer binden: eigene Stimme, eigenes Stilmodell und automatische Geschmackserkennung.",
-      "link": "https://the-decoder.de/ki-musikgenerator-suno-laesst-nutzer-jetzt-mit-der-eigenen-stimme-singen/",
-      "date": "2026-03-27T15:46:49.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
