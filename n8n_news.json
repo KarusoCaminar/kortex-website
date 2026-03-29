@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-03-29T10:38:15.272Z",
+  "lastUpdated": "2026-03-29T13:03:15.526Z",
   "news": [
+    {
+      "title": "Schleimerische KI: Menschen bevorzugen Chatbots, die ihnen schaden",
+      "description": "KI-Modelle bestätigen Nutzer laut einer in Science veröffentlichten Studie fast 50 Prozent häufiger als Menschen. Drei Experimente mit über 2.400 Teilnehmern zeigen: Schon eine einzige schmeichlerisch",
+      "link": "https://the-decoder.de/schleimerische-ki-menschen-bevorzugen-chatbots-die-ihnen-schaden/",
+      "date": "2026-03-29T12:20:11.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Forscher bringen Sprachmodellen wissenschaftlichen Geschmack bei",
       "description": "Welche Forschungsidee hat das Zeug zum Durchbruch und welche versandet in der Bedeutungslosigkeit? Ein Team chinesischer Universitäten will genau diese Frage mit KI beantworten. Ihr Ansatz: 2,1 Millio",
@@ -87,15 +96,6 @@
       "description": "Cohere stellt ein Open-Source-Spracherkennungsmodell vor, das laut Benchmark alle Konkurrenten schlägt, auch OpenAIs Whisper.\nDer Artikel Cohere veröffentlicht neues Open-Source-Modell zur automatisch",
       "link": "https://the-decoder.de/cohere-veroeffentlicht-neues-open-source-modell-zur-automatischen-spracherkennung/",
       "date": "2026-03-27T18:21:50.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Anthropic erwirkt einstweilige Verfügung gegen KI-Bann der Trump-Regierung",
-      "description": "US-Bundesrichterin Rita F. Lin stellt sich im Streit zwischen Anthropic und der Regierung klar auf die Seite des KI-Unternehmens: Sie wertet die Maßnahmen gegen Anthropic als mutmaßlich rechtswidrige",
-      "link": "https://the-decoder.de/anthropic-erwirkt-einstweilige-verfuegung-gegen-ki-bann-der-trump-regierung/",
-      "date": "2026-03-27T17:37:41.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
