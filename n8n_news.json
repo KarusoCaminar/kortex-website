@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-03-30T02:48:49.935Z",
+  "lastUpdated": "2026-03-30T05:59:59.937Z",
   "news": [
+    {
+      "title": "Helping disaster response teams turn AI into action across Asia",
+      "description": "AI for Disaster Response in Asia: OpenAI Workshop with Gates Foundation",
+      "link": "https://openai.com/index/helping-disaster-response-teams-asia",
+      "date": "2026-03-29T22:15:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
     {
       "title": "OpenAI-Chefs feiern KI-Impfstoff gegen Hunde-Krebs, Forscher kritisiert Story als unbewiesene PR",
       "description": "In sozialen Medien geht die Geschichte eines australischen KI-Beraters viral, der mit ChatGPT, AlphaFold und Grok einen möglichen Behandlungsansatz für den unheilbaren Krebs seiner Hündin Rosie identi",
@@ -124,15 +133,6 @@
       "link": "https://openai.com/index/safety-bug-bounty",
       "date": "2026-03-25T00:00:00.000Z",
       "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "TurboQuant: Redefining AI efficiency with extreme compression",
-      "description": "Algorithms & Theory",
-      "link": "https://research.google/blog/turboquant-redefining-ai-efficiency-with-extreme-compression/",
-      "date": "2026-03-24T19:54:00.000Z",
-      "source": "Google AI",
       "category": "große-modelle",
       "language": "en"
     }
