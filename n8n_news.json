@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-03-30T11:06:09.918Z",
+  "lastUpdated": "2026-03-30T13:27:52.980Z",
   "news": [
+    {
+      "title": "OpenAIs Sora-App war ein Flop und bremste die Entwicklung anderer KI-Innovationen",
+      "description": "OpenAI zieht bei Sora den Stecker: Die Video-App fraß teure Rechenleistung, verlor schnell Nutzer und entwickelte sich vom Prestigeprojekt zum Klotz am Bein. Statt weiter auf KI-Videos zu setzen, prio",
+      "link": "https://the-decoder.de/openais-sora-app-war-ein-flop-und-bremste-die-entwicklung-anderer-ki-innovationen/",
+      "date": "2026-03-30T11:30:04.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "\"Fruit Love Island\": Eine KI-Dating-Show mit Obst begeistert Millionen",
+      "description": "Die KI-generierte Dating-Show \"Fruit Love Island\" auf TikTok erreicht im Schnitt mehr als 10 Millionen Aufrufe pro Episode, berichtet das Wall Street Journal.\nDer Artikel \"Fruit Love Island\": Eine KI-",
+      "link": "https://the-decoder.de/fruit-love-island-eine-ki-dating-show-mit-obst-begeistert-millionen/",
+      "date": "2026-03-30T11:22:43.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Mistral AI sichert sich 830-Millionen-Dollar-Kredit für neues Rechenzentrum bei Paris",
       "description": "Mistral AI nimmt 830 Millionen Dollar Kredit auf, um ein Rechenzentrum nahe Paris mit fast 14.000 NVIDIA-GPUs zu bauen. Die Banken vertrauen, aber das Risiko ist hoch.\nDer Artikel Mistral AI sichert s",
@@ -78,24 +96,6 @@
       "description": "KI-Modelle wissen nach dem Training nichts über ihre eigenen Updates. Google zeigt mit einem einfachen Trick, wie sich das ändern lässt, und wie stark das die Ergebnisse beim Programmieren verbessert.",
       "link": "https://the-decoder.de/googles-agent-skill-fuer-die-gemini-api-hilft-ki-modellen-bei-aktuellen-sdk-aenderungen/",
       "date": "2026-03-28T15:12:44.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "ChatGPT vs. Claude: Anthropic sieht sich angeblich als gesunde Alternative zur \"Tabakindustrie\" OpenAI",
-      "description": "Anthropic entstand nicht nur aus Sorge um KI-Sicherheit, sondern auch aus einem erbitterten Macht- und Beziehungskonflikt bei OpenAI. Ein Bericht von Sam-Altman-Biografin Keach Hagey zeigt, wie persön",
-      "link": "https://the-decoder.de/chatgpt-vs-claude-anthropic-sieht-sich-angeblich-als-gesunde-alternative-zur-tabakindustrie-openai/",
-      "date": "2026-03-28T14:27:26.000Z",
-      "source": "The Decoder",
-      "category": "industrie-4.0",
-      "language": "de"
-    },
-    {
-      "title": "Meta stellt Hyperagents vor: KI-System verbessert den eigenen Verbesserungsprozess",
-      "description": "Forschende bei Meta und mehreren Universitäten haben \"Hyperagenten\" entwickelt, die nicht nur Aufgaben lösen, sondern auch den Mechanismus optimieren, mit dem sie sich selbst verbessern. Das funktioni",
-      "link": "https://the-decoder.de/meta-stellt-hyperagents-vor-ki-system-verbessert-den-eigenen-verbesserungsprozess/",
-      "date": "2026-03-28T10:01:09.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
