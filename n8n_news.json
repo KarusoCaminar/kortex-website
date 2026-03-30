@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-03-30T15:05:57.869Z",
+  "lastUpdated": "2026-03-30T16:59:48.485Z",
   "news": [
+    {
+      "title": "Microsoft rollt Copilot Cowork breiter aus und lässt KI-Modelle sich gegenseitig kontrollieren",
+      "description": "Microsoft 365 Copilot bekommt mit \"Cowork\" einen KI-Assistenten, der ganze Arbeitsabläufe selbstständig abarbeitet. Dazu gibt es ein neues Recherche-Tool, das mehrere KI-Modelle gegeneinander prüfen l",
+      "link": "https://the-decoder.de/microsoft-rollt-copilot-cowork-breiter-aus-und-laesst-ki-modelle-sich-gegenseitig-kontrollieren/",
+      "date": "2026-03-30T15:55:14.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "\"Mirage-Effekt\": KI-Modelle diagnostizieren Krankheiten auf Bildern, die nie existierten",
+      "description": "Multimodale KI-Modelle wie GPT-5, Gemini 3 Pro und Claude Opus 4.5 generieren detaillierte Bildbeschreibungen und medizinische Diagnosen, selbst wenn gar kein Bild vorliegt. Eine Stanford-Studie zeigt",
+      "link": "https://the-decoder.de/mirage-effekt-ki-modelle-diagnostizieren-krankheiten-auf-bildern-die-nie-existierten/",
+      "date": "2026-03-30T15:25:15.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "OpenAIs Sora-App war ein Flop und bremste die Entwicklung anderer KI-Innovationen",
       "description": "OpenAI zieht bei Sora den Stecker: Die Video-App fraß teure Rechenleistung, verlor schnell Nutzer und entwickelte sich vom Prestigeprojekt zum Klotz am Bein. Statt weiter auf KI-Videos zu setzen, prio",
@@ -78,24 +96,6 @@
       "description": "Welche Forschungsidee hat das Zeug zum Durchbruch und welche versandet in der Bedeutungslosigkeit? Ein Team chinesischer Universitäten will genau diese Frage mit KI beantworten. Ihr Ansatz: 2,1 Millio",
       "link": "https://the-decoder.de/forscher-bringen-sprachmodellen-wissenschaftlichen-geschmack-bei/",
       "date": "2026-03-29T07:17:35.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Seoul World Model: Navers neue Video-KI basiert auf echten Street-View-Aufnahmen",
-      "description": "Der südkoreanische Internetkonzern Naver hat ein Video-Weltmodell entwickelt, das reale Stadtgeometrie aus über einer Million eigener Street-View-Aufnahmen als Grundlage nutzt. Das Modell generalisier",
-      "link": "https://the-decoder.de/seoul-world-model-navers-neue-video-ki-basiert-auf-echten-street-view-aufnahmen/",
-      "date": "2026-03-29T06:46:57.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Googles \"Agent Skill\" für die Gemini-API hilft KI-Modellen bei aktuellen SDK-Änderungen",
-      "description": "KI-Modelle wissen nach dem Training nichts über ihre eigenen Updates. Google zeigt mit einem einfachen Trick, wie sich das ändern lässt, und wie stark das die Ergebnisse beim Programmieren verbessert.",
-      "link": "https://the-decoder.de/googles-agent-skill-fuer-die-gemini-api-hilft-ki-modellen-bei-aktuellen-sdk-aenderungen/",
-      "date": "2026-03-28T15:12:44.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
