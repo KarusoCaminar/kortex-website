@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-03-30T16:59:48.485Z",
+  "lastUpdated": "2026-03-30T19:04:12.998Z",
   "news": [
+    {
+      "title": "Das \"Ozempic\" der Musikindustrie: KI ist überall, aber niemand spricht darüber",
+      "description": "Laut einer umfassenden Recherche des Rolling Stone sind KI-Generatoren längst fester Bestandteil professioneller Musikproduktion. Top-Produzenten und Songwriter nutzen die Technologie im Verborgenen.",
+      "link": "https://the-decoder.de/das-ozempic-der-musikindustrie-ki-ist-ueberall-aber-niemand-spricht-darueber/",
+      "date": "2026-03-30T18:02:03.000Z",
+      "source": "The Decoder",
+      "category": "industrie-4.0",
+      "language": "de"
+    },
     {
       "title": "Microsoft rollt Copilot Cowork breiter aus und lässt KI-Modelle sich gegenseitig kontrollieren",
       "description": "Microsoft 365 Copilot bekommt mit \"Cowork\" einen KI-Assistenten, der ganze Arbeitsabläufe selbstständig abarbeitet. Dazu gibt es ein neues Recherche-Tool, das mehrere KI-Modelle gegeneinander prüfen l",
@@ -87,15 +96,6 @@
       "description": "KI-Modelle bestätigen Nutzer laut einer in Science veröffentlichten Studie fast 50 Prozent häufiger als Menschen. Drei Experimente mit über 2.400 Teilnehmern zeigen: Schon eine einzige schmeichlerisch",
       "link": "https://the-decoder.de/schleimerische-ki-menschen-bevorzugen-chatbots-die-ihnen-schaden/",
       "date": "2026-03-29T12:20:11.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Forscher bringen Sprachmodellen wissenschaftlichen Geschmack bei",
-      "description": "Welche Forschungsidee hat das Zeug zum Durchbruch und welche versandet in der Bedeutungslosigkeit? Ein Team chinesischer Universitäten will genau diese Frage mit KI beantworten. Ihr Ansatz: 2,1 Millio",
-      "link": "https://the-decoder.de/forscher-bringen-sprachmodellen-wissenschaftlichen-geschmack-bei/",
-      "date": "2026-03-29T07:17:35.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
