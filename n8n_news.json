@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-03-31T10:56:27.445Z",
+  "lastUpdated": "2026-03-31T13:27:18.323Z",
   "news": [
+    {
+      "title": "Eines der größten KI-Rechenzentren Europas entsteht nahe der russischen Grenze",
+      "description": "Das KI-Infrastrukturunternehmen Nebius Group baut ein Rechenzentrum mit 310 Megawatt Leistung in Lappeenranta, Finnland, nahe der russischen Grenze.\nDer Artikel Eines der größten KI-Rechenzentren Euro",
+      "link": "https://the-decoder.de/eines-der-groessten-ki-rechenzentren-europas-entsteht-nahe-der-russischen-grenze/",
+      "date": "2026-03-31T11:39:24.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Kalifornien geht eigenen Weg bei KI-Regulierung und prüft Bundesvorgaben selbst",
       "description": "Kaliforniens Gouverneur Gavin Newsom hat am Montag eine Verfügung unterzeichnet, die Unternehmen mit staatlichen Aufträgen verpflichtet, Schutzmaßnahmen gegen KI-Missbrauch einzuführen.\nDer Artikel Ka",
@@ -90,15 +99,6 @@
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
-    },
-    {
-      "title": "OpenAI-Chefs feiern KI-Impfstoff gegen Hunde-Krebs, Forscher kritisiert Story als unbewiesene PR",
-      "description": "In sozialen Medien geht die Geschichte eines australischen KI-Beraters viral, der mit ChatGPT, AlphaFold und Grok einen möglichen Behandlungsansatz für den unheilbaren Krebs seiner Hündin Rosie identi",
-      "link": "https://the-decoder.de/openai-chefs-feiern-ki-impfstoff-gegen-hunde-krebs-forscher-kritisiert-story-als-unbewiesene-pr/",
-      "date": "2026-03-29T15:27:53.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
     },
     {
       "title": "STADLER reshapes knowledge work at a 230-year-old company",
