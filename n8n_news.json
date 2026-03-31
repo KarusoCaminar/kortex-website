@@ -1,6 +1,33 @@
 {
-  "lastUpdated": "2026-03-31T09:04:50.564Z",
+  "lastUpdated": "2026-03-31T10:56:27.445Z",
   "news": [
+    {
+      "title": "Kalifornien geht eigenen Weg bei KI-Regulierung und prüft Bundesvorgaben selbst",
+      "description": "Kaliforniens Gouverneur Gavin Newsom hat am Montag eine Verfügung unterzeichnet, die Unternehmen mit staatlichen Aufträgen verpflichtet, Schutzmaßnahmen gegen KI-Missbrauch einzuführen.\nDer Artikel Ka",
+      "link": "https://the-decoder.de/kalifornien-geht-eigenen-weg-bei-ki-regulierung-und-prueft-bundesvorgaben-selbst/",
+      "date": "2026-03-31T10:50:04.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Sehen, hören, coden: Alibabas Qwen3.5-Omni macht alles gleichzeitig",
+      "description": "Alibaba veröffentlicht Qwen3.5-Omni, ein omnimodales KI-Modell mit Text-, Bild-, Audio- und Videoverständnis. Es soll Gemini 3.1 Pro bei Audio-Aufgaben übertreffen und beherrscht eine neue Fähigkeit:",
+      "link": "https://the-decoder.de/sehen-hoeren-coden-alibabas-qwen3-5-omni-macht-alles-gleichzeitig/",
+      "date": "2026-03-31T10:22:53.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "OpenAI bringt Codex per Plugin direkt in Anthropics Claude Code",
+      "description": "OpenAI hat ein Plugin veröffentlicht, das seinen KI-Coding-Assistenten Codex direkt in Claude Code von Anthropic einbindet.\nDer Artikel OpenAI bringt Codex per Plugin direkt in Anthropics Claude Code",
+      "link": "https://the-decoder.de/openai-bringt-codex-per-plugin-direkt-in-anthropics-claude-code/",
+      "date": "2026-03-31T10:09:19.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Das \"Ozempic\" der Musikindustrie: KI ist überall, aber niemand spricht darüber",
       "description": "Laut einer umfassenden Recherche des Rolling Stone sind KI-Generatoren längst fester Bestandteil professioneller Musikproduktion. Top-Produzenten und Songwriter nutzen die Technologie im Verborgenen.",
@@ -69,33 +96,6 @@
       "description": "In sozialen Medien geht die Geschichte eines australischen KI-Beraters viral, der mit ChatGPT, AlphaFold und Grok einen möglichen Behandlungsansatz für den unheilbaren Krebs seiner Hündin Rosie identi",
       "link": "https://the-decoder.de/openai-chefs-feiern-ki-impfstoff-gegen-hunde-krebs-forscher-kritisiert-story-als-unbewiesene-pr/",
       "date": "2026-03-29T15:27:53.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Eli Lilly schließt Milliarden-Deal mit KI-Pharmaunternehmen Insilico Medicine",
-      "description": "Der US-Pharmakonzern Eli Lilly setzt auf KI-gestützte Medikamentenentwicklung und schließt einen Milliardendeal mit dem Hongkonger Unternehmen Insilico Medicine.\nDer Artikel Eli Lilly schließt Milliar",
-      "link": "https://the-decoder.de/eli-lilly-schliesst-milliarden-deal-mit-ki-pharmaunternehmen-insilico-medicine/",
-      "date": "2026-03-29T15:10:06.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "KI-Agent \"MetaClaw\" checkt erst deinen Google-Kalender, bevor er trainiert",
-      "description": "Forscher aus vier US-Universitäten stellen ein Framework vor, das KI-Agenten im laufenden Betrieb verbessert. Dafür nutzt es den Google-Kalender des Nutzers.\nDer Artikel KI-Agent \"MetaClaw\" checkt ers",
-      "link": "https://the-decoder.de/ki-agent-metaclaw-checkt-erst-deinen-google-kalender-bevor-er-trainiert/",
-      "date": "2026-03-29T14:24:27.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Schleimerische KI: Menschen bevorzugen Chatbots, die ihnen schaden",
-      "description": "KI-Modelle bestätigen Nutzer laut einer in Science veröffentlichten Studie fast 50 Prozent häufiger als Menschen. Drei Experimente mit über 2.400 Teilnehmern zeigen: Schon eine einzige schmeichlerisch",
-      "link": "https://the-decoder.de/schleimerische-ki-menschen-bevorzugen-chatbots-die-ihnen-schaden/",
-      "date": "2026-03-29T12:20:11.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
