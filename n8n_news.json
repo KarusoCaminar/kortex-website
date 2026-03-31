@@ -1,6 +1,33 @@
 {
-  "lastUpdated": "2026-03-31T17:01:33.076Z",
+  "lastUpdated": "2026-03-31T19:06:31.785Z",
   "news": [
+    {
+      "title": "Wegen teurer KI-Rechenzentren: Oracle streicht offenbar zehntausende Stellen",
+      "description": "Oracle streicht Tausende Stellen, um den teuren Ausbau seiner KI-Rechenzentren zu finanzieren. Während der Aktienkurs einbricht und die Schulden wachsen, hofft der Konzern auf Milliarden-Einnahmen dur",
+      "link": "https://the-decoder.de/wegen-teurer-ki-rechenzentren-oracle-streicht-offenbar-zehntausende-stellen/",
+      "date": "2026-03-31T18:46:01.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "\"Claude Code\"-Leak: Anthropic veröffentlicht aus Versehen 500.000 Zeilen Code für KI-Tool",
+      "description": "Anthropic kommt nicht zur Ruhe: Nach dem Leak interner Blog-Posts zum neuen KI-Modell Mythos ist nun auch der Quellcode von Claude Code öffentlich aufgetaucht.\nDer Artikel \"Claude Code\"-Leak: Anthropi",
+      "link": "https://the-decoder.de/claude-code-leak-anthropic-veroeffentlicht-aus-versehen-500-000-zeilen-code-fuer-ki-tool/",
+      "date": "2026-03-31T18:13:42.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Googles neues Videmodell Veo 3.1 Lite ist besonders günstig und schnell",
+      "description": "Google macht KI-Videoerzeugung billiger: Veo 3.1 Lite kostet weniger als die Hälfte des bisherigen günstigsten Modells, bei gleicher Geschwindigkeit.\nDer Artikel Googles neues Videmodell Veo 3.1 Lite",
+      "link": "https://the-decoder.de/googles-neues-videmodell-veo-3-1-lite-ist-besonders-guenstig-und-schnell/",
+      "date": "2026-03-31T18:00:09.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Building better AI benchmarks: How many raters are enough?",
       "description": "Algorithms & Theory",
@@ -69,33 +96,6 @@
       "description": "Multimodale KI-Modelle wie GPT-5, Gemini 3 Pro und Claude Opus 4.5 generieren detaillierte Bildbeschreibungen und medizinische Diagnosen, selbst wenn gar kein Bild vorliegt. Eine Stanford-Studie zeigt",
       "link": "https://the-decoder.de/mirage-effekt-ki-modelle-diagnostizieren-krankheiten-auf-bildern-die-nie-existierten/",
       "date": "2026-03-30T15:25:15.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "OpenAIs Sora-App war ein Flop und bremste die Entwicklung anderer KI-Innovationen",
-      "description": "OpenAI zieht bei Sora den Stecker: Die Video-App fraß teure Rechenleistung, verlor schnell Nutzer und entwickelte sich vom Prestigeprojekt zum Klotz am Bein. Statt weiter auf KI-Videos zu setzen, prio",
-      "link": "https://the-decoder.de/openais-sora-app-war-ein-flop-und-bremste-die-entwicklung-anderer-ki-innovationen/",
-      "date": "2026-03-30T11:30:04.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "\"Fruit Love Island\": Eine KI-Dating-Show mit Obst begeistert Millionen",
-      "description": "Die KI-generierte Dating-Show \"Fruit Love Island\" auf TikTok erreicht im Schnitt mehr als 10 Millionen Aufrufe pro Episode, berichtet das Wall Street Journal.\nDer Artikel \"Fruit Love Island\": Eine KI-",
-      "link": "https://the-decoder.de/fruit-love-island-eine-ki-dating-show-mit-obst-begeistert-millionen/",
-      "date": "2026-03-30T11:22:43.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Mistral AI sichert sich 830-Millionen-Dollar-Kredit für neues Rechenzentrum bei Paris",
-      "description": "Mistral AI nimmt 830 Millionen Dollar Kredit auf, um ein Rechenzentrum nahe Paris mit fast 14.000 NVIDIA-GPUs zu bauen. Die Banken vertrauen, aber das Risiko ist hoch.\nDer Artikel Mistral AI sichert s",
-      "link": "https://the-decoder.de/mistral-ai-sichert-sich-830-millionen-dollar-kredit-fuer-neues-rechenzentrum-bei-paris/",
-      "date": "2026-03-30T10:26:02.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
