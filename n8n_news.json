@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-03-31T15:06:22.675Z",
+  "lastUpdated": "2026-03-31T17:01:33.076Z",
   "news": [
+    {
+      "title": "Building better AI benchmarks: How many raters are enough?",
+      "description": "Algorithms & Theory",
+      "link": "https://research.google/blog/building-better-ai-benchmarks-how-many-raters-are-enough/",
+      "date": "2026-03-31T16:16:00.000Z",
+      "source": "Google AI",
+      "category": "große-modelle",
+      "language": "en"
+    },
     {
       "title": "Eines der größten KI-Rechenzentren Europas entsteht nahe der russischen Grenze",
       "description": "Das KI-Infrastrukturunternehmen Nebius Group baut ein Rechenzentrum mit 310 Megawatt Leistung in Lappeenranta, Finnland, nahe der russischen Grenze.\nDer Artikel Eines der größten KI-Rechenzentren Euro",
@@ -124,15 +133,6 @@
       "link": "https://research.google/blog/vibe-coding-xr-accelerating-ai-xr-prototyping-with-xr-blocks-and-gemini/",
       "date": "2026-03-25T09:14:00.000Z",
       "source": "Google AI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "Introducing the OpenAI Safety Bug Bounty program",
-      "description": "OpenAI launches a Safety Bug Bounty program to identify AI abuse and safety risks, including agentic vulnerabilities, prompt injection, and data exfiltration.",
-      "link": "https://openai.com/index/safety-bug-bounty",
-      "date": "2026-03-25T00:00:00.000Z",
-      "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
     }
