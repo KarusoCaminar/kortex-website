@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-04-01T09:10:15.068Z",
+  "lastUpdated": "2026-04-01T11:00:59.261Z",
   "news": [
+    {
+      "title": "EU-Institutionen verbieten laut Bericht KI-generierte Bilder und Videos in offizieller Kommunikation",
+      "description": "Politico berichtet, dass Kommission, Parlament und Rat ihren Presseteams den Einsatz vollständig KI-generierter Inhalte untersagen. Experten sehen darin eine verpasste Chance.\nDer Artikel EU-Instituti",
+      "link": "https://the-decoder.de/eu-institutionen-verbieten-laut-bericht-ki-generierte-bilder-und-videos-in-offizieller-kommunikation/",
+      "date": "2026-04-01T10:17:51.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Klage gegen Perplexity AI: Tracker sollen Nutzergespräche an Meta und Google übermitteln",
+      "description": "Perplexity AI sieht sich mit einer Sammelklage konfrontiert. Darin wird dem Unternehmen vorgeworfen, persönliche Nutzerdaten aus Chats an Meta und Google weiterzugeben, berichtet Bloomberg.\nDer Artike",
+      "link": "https://the-decoder.de/klage-gegen-perplexity-ai-tracker-sollen-nutzergespraeche-an-meta-und-google-uebermitteln/",
+      "date": "2026-04-01T09:48:51.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "OpenAI macht Mega-Finanzierung und ChatGPT-Super-App offiziell",
       "description": "OpenAI schließt die größte Finanzierungsrunde der Tech-Geschichte ab und kündigt eine Super-App an. Wohin die Milliarden fließen sollen.\nDer Artikel OpenAI macht Mega-Finanzierung und ChatGPT-Super-Ap",
@@ -96,24 +114,6 @@
       "description": "OpenAI hat ein Plugin veröffentlicht, das seinen KI-Coding-Assistenten Codex direkt in Claude Code von Anthropic einbindet.\nDer Artikel OpenAI bringt Codex per Plugin direkt in Anthropics Claude Code",
       "link": "https://the-decoder.de/openai-bringt-codex-per-plugin-direkt-in-anthropics-claude-code/",
       "date": "2026-03-31T10:09:19.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Das \"Ozempic\" der Musikindustrie: KI ist überall, aber niemand spricht darüber",
-      "description": "Laut einer umfassenden Recherche des Rolling Stone sind KI-Generatoren längst fester Bestandteil professioneller Musikproduktion. Top-Produzenten und Songwriter nutzen die Technologie im Verborgenen.",
-      "link": "https://the-decoder.de/das-ozempic-der-musikindustrie-ki-ist-ueberall-aber-niemand-spricht-darueber/",
-      "date": "2026-03-30T18:02:03.000Z",
-      "source": "The Decoder",
-      "category": "industrie-4.0",
-      "language": "de"
-    },
-    {
-      "title": "Microsoft rollt Copilot Cowork breiter aus und lässt KI-Modelle sich gegenseitig kontrollieren",
-      "description": "Microsoft 365 Copilot bekommt mit \"Cowork\" einen KI-Assistenten, der ganze Arbeitsabläufe selbstständig abarbeitet. Dazu gibt es ein neues Recherche-Tool, das mehrere KI-Modelle gegeneinander prüfen l",
-      "link": "https://the-decoder.de/microsoft-rollt-copilot-cowork-breiter-aus-und-laesst-ki-modelle-sich-gegenseitig-kontrollieren/",
-      "date": "2026-03-30T15:55:14.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
