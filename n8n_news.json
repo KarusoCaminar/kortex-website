@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-04-01T16:59:42.839Z",
+  "lastUpdated": "2026-04-01T19:07:30.495Z",
   "news": [
+    {
+      "title": "KI PRO Webinar | Sycophancy: Wenn KI euch nach dem Mund redet",
+      "description": "KI-Modelle neigen dazu, ihren Nutzern zuzustimmen, obwohl die Eingabe falsch ist. Dieses Phänomen heißt Sycophancy: Die KI bestätigt, was ihr hören wollt, statt was ihr wissen müsst. Unser Webinar zei",
+      "link": "https://the-decoder.de/ki-pro-webinar-sycophancy-wenn-ki-euch-nach-dem-mund-redet/",
+      "date": "2026-04-01T18:26:22.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Nach Claude-Code-Leak: Anthropics Quellcode wurde bereits mehr als 8000 Mal kopiert",
+      "description": "Anthropic hat den Quellcode von Claude Code versehentlich geleakt. Jetzt zeigt sich das Ausmaß des Schadens.\nDer Artikel Nach Claude-Code-Leak: Anthropics Quellcode wurde bereits mehr als 8000 Mal kop",
+      "link": "https://the-decoder.de/nach-claude-code-leak-anthropics-quellcode-wurde-bereits-mehr-als-8000-mal-kopiert/",
+      "date": "2026-04-01T17:34:51.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Fallen für KI-Agenten: Deepmind-Forscher zeigen sechs Angriffsflächen auf",
       "description": "KI-Agenten sollen eigenständig im Web navigieren, E-Mails bearbeiten und Transaktionen durchführen. Doch die Informationsumgebung selbst wird zur Angriffsfläche: Forscher von Google Deepmind katalogis",
@@ -96,24 +114,6 @@
       "description": "Das KI-Infrastrukturunternehmen Nebius Group baut ein Rechenzentrum mit 310 Megawatt Leistung in Lappeenranta, Finnland, nahe der russischen Grenze.\nDer Artikel Eines der größten KI-Rechenzentren Euro",
       "link": "https://the-decoder.de/eines-der-groessten-ki-rechenzentren-europas-entsteht-nahe-der-russischen-grenze/",
       "date": "2026-03-31T11:39:24.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Kalifornien geht eigenen Weg bei KI-Regulierung und prüft Bundesvorgaben selbst",
-      "description": "Kaliforniens Gouverneur Gavin Newsom hat am Montag eine Verfügung unterzeichnet, die Unternehmen mit staatlichen Aufträgen verpflichtet, Schutzmaßnahmen gegen KI-Missbrauch einzuführen.\nDer Artikel Ka",
-      "link": "https://the-decoder.de/kalifornien-geht-eigenen-weg-bei-ki-regulierung-und-prueft-bundesvorgaben-selbst/",
-      "date": "2026-03-31T10:50:04.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Sehen, hören, coden: Alibabas Qwen3.5-Omni macht alles gleichzeitig",
-      "description": "Alibaba veröffentlicht Qwen3.5-Omni, ein omnimodales KI-Modell mit Text-, Bild-, Audio- und Videoverständnis. Es soll Gemini 3.1 Pro bei Audio-Aufgaben übertreffen und beherrscht eine neue Fähigkeit:",
-      "link": "https://the-decoder.de/sehen-hoeren-coden-alibabas-qwen3-5-omni-macht-alles-gleichzeitig/",
-      "date": "2026-03-31T10:22:53.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
