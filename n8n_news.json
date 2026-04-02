@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-04-02T14:59:24.442Z",
+  "lastUpdated": "2026-04-02T16:58:46.192Z",
   "news": [
+    {
+      "title": "Microsoft zeigt neues Sprache-zu-Text-Modell MAI-Transcribe-1",
+      "description": "MAI-Transcribe-1 soll Sprache in 25 Sprachen schnell und genau in Text umwandeln, auch bei Hintergrundgeräuschen. Microsoft setzt das Modell bereits in eigenen Produkten ein.\nDer Artikel Microsoft zei",
+      "link": "https://the-decoder.de/microsoft-zeigt-neues-sprache-zu-text-modell-mai-transcribe-1/",
+      "date": "2026-04-02T16:13:53.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Qwen3.6-Plus: Alibaba stellt neues proprietäres KI-Modell für Entwickler vor",
       "description": "Alibaba hat mit Qwen3.6-Plus sein drittes proprietäres KI-Modell innerhalb weniger Tage veröffentlicht.\nDer Artikel Qwen3.6-Plus: Alibaba stellt neues proprietäres KI-Modell für Entwickler vor erschie",
@@ -69,15 +78,6 @@
       "description": "Politico berichtet, dass Kommission, Parlament und Rat ihren Presseteams den Einsatz vollständig KI-generierter Inhalte untersagen. Experten sehen darin eine verpasste Chance.\nDer Artikel EU-Instituti",
       "link": "https://the-decoder.de/eu-institutionen-verbieten-laut-bericht-ki-generierte-bilder-und-videos-in-offizieller-kommunikation/",
       "date": "2026-04-01T10:17:51.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Klage gegen Perplexity AI: Tracker sollen Nutzergespräche an Meta und Google übermitteln",
-      "description": "Perplexity AI sieht sich mit einer Sammelklage konfrontiert. Darin wird dem Unternehmen vorgeworfen, persönliche Nutzerdaten aus Chats an Meta und Google weiterzugeben, berichtet Bloomberg.\nDer Artike",
-      "link": "https://the-decoder.de/klage-gegen-perplexity-ai-tracker-sollen-nutzergespraeche-an-meta-und-google-uebermitteln/",
-      "date": "2026-04-01T09:48:51.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
