@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-04-02T09:02:18.141Z",
+  "lastUpdated": "2026-04-02T10:54:16.341Z",
   "news": [
+    {
+      "title": "Generelle KI nur durch Sprachmodelle: \"Wir sehen eine klare Linie dorthin\", sagt OpenAI-Präsident",
+      "description": "OpenAI-Mitgründer Greg Brockman erklärt die Debatte über die Grenzen von Textmodellen für beendet. Sie werden zu AGI führen.\nDer Artikel Generelle KI nur durch Sprachmodelle: \"Wir sehen eine klare Lin",
+      "link": "https://the-decoder.de/generelle-ki-nur-durch-sprachmodelle-wir-sehen-eine-klare-linie-dorthin-sagt-openai-praesident/",
+      "date": "2026-04-02T10:08:48.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Chinesische Chiphersteller erobern 41 Prozent des heimischen KI-Marktes",
       "description": "Chinesische Chiphersteller haben laut einem IDC-Bericht, den Reuters einsehen konnte, im Jahr 2025 fast 41 Prozent des chinesischen Marktes für KI-Beschleuniger-Server erobert.\nDer Artikel Chinesische",
@@ -87,15 +96,6 @@
       "description": "Anthropic kommt nicht zur Ruhe: Nach dem Leak interner Blog-Posts zum neuen KI-Modell Mythos ist nun auch der Quellcode von Claude Code öffentlich aufgetaucht.\nDer Artikel \"Claude Code\"-Leak: Anthropi",
       "link": "https://the-decoder.de/claude-code-leak-anthropic-veroeffentlicht-aus-versehen-500-000-zeilen-code-fuer-ki-tool/",
       "date": "2026-03-31T18:13:42.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Googles neues Videmodell Veo 3.1 Lite ist besonders günstig und schnell",
-      "description": "Google macht KI-Videoerzeugung billiger: Veo 3.1 Lite kostet weniger als die Hälfte des bisherigen günstigsten Modells, bei gleicher Geschwindigkeit.\nDer Artikel Googles neues Videmodell Veo 3.1 Lite",
-      "link": "https://the-decoder.de/googles-neues-videmodell-veo-3-1-lite-ist-besonders-guenstig-und-schnell/",
-      "date": "2026-03-31T18:00:09.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
