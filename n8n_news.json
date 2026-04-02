@@ -1,9 +1,18 @@
 {
-  "lastUpdated": "2026-04-02T10:54:16.341Z",
+  "lastUpdated": "2026-04-02T13:21:20.017Z",
   "news": [
     {
-      "title": "Generelle KI nur durch Sprachmodelle: \"Wir sehen eine klare Linie dorthin\", sagt OpenAI-Präsident",
-      "description": "OpenAI-Mitgründer Greg Brockman erklärt die Debatte über die Grenzen von Textmodellen für beendet. Sie werden zu AGI führen.\nDer Artikel Generelle KI nur durch Sprachmodelle: \"Wir sehen eine klare Lin",
+      "title": "KI-Modelle schreiben Roboter-Code fast so gut wie Menschen, aber nur mit Stützrädern",
+      "description": "Ein neues Framework von Nvidia, UC Berkeley und Stanford untersucht systematisch, wie gut KI-Modelle Roboter per Code steuern können. Das Ergebnis: Ohne menschliche Abstraktionen scheitern selbst die",
+      "link": "https://the-decoder.de/ki-modelle-schreiben-roboter-code-fast-so-gut-wie-menschen-aber-nur-mit-stuetzraedern/",
+      "date": "2026-04-02T12:33:07.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Generelle KI nur durch Sprachmodelle: \"Wir haben Sichtverbindung\", sagt OpenAI-Präsident",
+      "description": "OpenAI-Mitgründer Greg Brockman erklärt die Debatte über die Grenzen von Textmodellen für beendet. Sie werden zu AGI führen.\nDer Artikel Generelle KI nur durch Sprachmodelle: \"Wir haben Sichtverbindun",
       "link": "https://the-decoder.de/generelle-ki-nur-durch-sprachmodelle-wir-sehen-eine-klare-linie-dorthin-sagt-openai-praesident/",
       "date": "2026-04-02T10:08:48.000Z",
       "source": "The Decoder",
@@ -87,15 +96,6 @@
       "description": "Oracle streicht Tausende Stellen, um den teuren Ausbau seiner KI-Rechenzentren zu finanzieren. Während der Aktienkurs einbricht und die Schulden wachsen, hofft der Konzern auf Milliarden-Einnahmen dur",
       "link": "https://the-decoder.de/wegen-teurer-ki-rechenzentren-oracle-streicht-offenbar-zehntausende-stellen/",
       "date": "2026-03-31T18:46:01.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "\"Claude Code\"-Leak: Anthropic veröffentlicht aus Versehen 500.000 Zeilen Code für KI-Tool",
-      "description": "Anthropic kommt nicht zur Ruhe: Nach dem Leak interner Blog-Posts zum neuen KI-Modell Mythos ist nun auch der Quellcode von Claude Code öffentlich aufgetaucht.\nDer Artikel \"Claude Code\"-Leak: Anthropi",
-      "link": "https://the-decoder.de/claude-code-leak-anthropic-veroeffentlicht-aus-versehen-500-000-zeilen-code-fuer-ki-tool/",
-      "date": "2026-03-31T18:13:42.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
