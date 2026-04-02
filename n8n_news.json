@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-04-02T07:18:06.748Z",
+  "lastUpdated": "2026-04-02T09:02:18.141Z",
   "news": [
+    {
+      "title": "Chinesische Chiphersteller erobern 41 Prozent des heimischen KI-Marktes",
+      "description": "Chinesische Chiphersteller haben laut einem IDC-Bericht, den Reuters einsehen konnte, im Jahr 2025 fast 41 Prozent des chinesischen Marktes für KI-Beschleuniger-Server erobert.\nDer Artikel Chinesische",
+      "link": "https://the-decoder.de/chinesische-chiphersteller-erobern-41-prozent-des-heimischen-ki-marktes/",
+      "date": "2026-04-02T08:12:03.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "KI PRO Webinar | Sycophancy: Wenn KI euch nach dem Mund redet",
       "description": "KI-Modelle neigen dazu, ihren Nutzern zuzustimmen, obwohl die Eingabe falsch ist. Dieses Phänomen heißt Sycophancy: Die KI bestätigt, was ihr hören wollt, statt was ihr wissen müsst. Unser Webinar zei",
@@ -108,15 +117,6 @@
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
-    },
-    {
-      "title": "Eines der größten KI-Rechenzentren Europas entsteht nahe der russischen Grenze",
-      "description": "Das KI-Infrastrukturunternehmen Nebius Group baut ein Rechenzentrum mit 310 Megawatt Leistung in Lappeenranta, Finnland, nahe der russischen Grenze.\nDer Artikel Eines der größten KI-Rechenzentren Euro",
-      "link": "https://the-decoder.de/eines-der-groessten-ki-rechenzentren-europas-entsteht-nahe-der-russischen-grenze/",
-      "date": "2026-03-31T11:39:24.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
     },
     {
       "title": "Helping disaster response teams turn AI into action across Asia",
