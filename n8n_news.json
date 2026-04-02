@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-04-02T13:21:20.017Z",
+  "lastUpdated": "2026-04-02T14:59:24.442Z",
   "news": [
+    {
+      "title": "Qwen3.6-Plus: Alibaba stellt neues proprietäres KI-Modell für Entwickler vor",
+      "description": "Alibaba hat mit Qwen3.6-Plus sein drittes proprietäres KI-Modell innerhalb weniger Tage veröffentlicht.\nDer Artikel Qwen3.6-Plus: Alibaba stellt neues proprietäres KI-Modell für Entwickler vor erschie",
+      "link": "https://the-decoder.de/qwen3-6-plus-alibaba-stellt-neues-proprietaeres-ki-modell-fuer-entwickler-vor/",
+      "date": "2026-04-02T13:58:19.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "KI-Modelle schreiben Roboter-Code fast so gut wie Menschen, aber nur mit Stützrädern",
       "description": "Ein neues Framework von Nvidia, UC Berkeley und Stanford untersucht systematisch, wie gut KI-Modelle Roboter per Code steuern können. Das Ergebnis: Ohne menschliche Abstraktionen scheitern selbst die",
@@ -74,15 +83,6 @@
       "language": "de"
     },
     {
-      "title": "OpenAI macht Mega-Finanzierung und ChatGPT-Super-App offiziell",
-      "description": "OpenAI schließt die größte Finanzierungsrunde der Tech-Geschichte ab und kündigt eine Super-App an. Wohin die Milliarden fließen sollen.\nDer Artikel OpenAI macht Mega-Finanzierung und ChatGPT-Super-Ap",
-      "link": "https://the-decoder.de/openai-macht-mega-finanzierung-und-chatgpt-super-app-offiziell/",
-      "date": "2026-04-01T08:53:46.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "Gradient Labs gives every bank customer an AI account manager",
       "description": "Gradient Labs uses GPT-4.1 and GPT-5.4 mini and nano to power AI agents that automate banking support workflows with low latency and high reliability.",
       "link": "https://openai.com/index/gradient-labs",
@@ -90,15 +90,6 @@
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
-    },
-    {
-      "title": "Wegen teurer KI-Rechenzentren: Oracle streicht offenbar zehntausende Stellen",
-      "description": "Oracle streicht Tausende Stellen, um den teuren Ausbau seiner KI-Rechenzentren zu finanzieren. Während der Aktienkurs einbricht und die Schulden wachsen, hofft der Konzern auf Milliarden-Einnahmen dur",
-      "link": "https://the-decoder.de/wegen-teurer-ki-rechenzentren-oracle-streicht-offenbar-zehntausende-stellen/",
-      "date": "2026-03-31T18:46:01.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
     },
     {
       "title": "Building better AI benchmarks: How many raters are enough?",
@@ -132,6 +123,15 @@
       "description": "Learn how STADLER uses ChatGPT to transform knowledge work, saving time and accelerating productivity across 650 employees.",
       "link": "https://openai.com/index/stadler",
       "date": "2026-03-27T22:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
+      "title": "Inside our approach to the Model Spec",
+      "description": "Learn how OpenAI’s Model Spec serves as a public framework for model behavior, balancing safety, user freedom, and accountability as AI systems advance.",
+      "link": "https://openai.com/index/our-approach-to-the-model-spec",
+      "date": "2026-03-25T10:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
