@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-04-03T13:11:28.323Z",
+  "lastUpdated": "2026-04-03T14:47:23.657Z",
   "news": [
+    {
+      "title": "Neues Preismodell: OpenAI rechnet zusätzliche Codex-Nutzer in ChatGPT für Unternehmen nach Nutzung ab",
+      "description": "OpenAI senkt die Einstiegshürde für sein Coding-Tool Codex in Unternehmen und zielt damit direkt auf GitHub Copilot und Cursor.\nDer Artikel Neues Preismodell: OpenAI rechnet zusätzliche Codex-Nutzer i",
+      "link": "https://the-decoder.de/neues-preismodell-openai-rechnet-zusaetzliche-codex-nutzer-in-chatgpt-fuer-unternehmen-nach-nutzung-ab/",
+      "date": "2026-04-03T14:15:30.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "KI-Modell GLM-5V-Turbo verwandelt Design-Mockups direkt in lauffähigen Code",
       "description": "Vom Design-Mockup direkt zum fertigen Code: Das chinesische KI-Start-up Zhipu AI veröffentlicht mit GLM-5V-Turbo sein erstes multimodales Grundlagenmodell für Programmieraufgaben. Das Modell verarbeit",
@@ -60,15 +69,6 @@
       "description": "Alibaba hat mit Qwen3.6-Plus sein drittes proprietäres KI-Modell innerhalb weniger Tage veröffentlicht.\nDer Artikel Qwen3.6-Plus: Alibaba stellt neues proprietäres KI-Modell für Entwickler vor erschie",
       "link": "https://the-decoder.de/qwen3-6-plus-alibaba-stellt-neues-proprietaeres-ki-modell-fuer-entwickler-vor/",
       "date": "2026-04-02T13:58:19.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "KI-Modelle schreiben Roboter-Code fast so gut wie Menschen, aber nur mit Stützrädern",
-      "description": "Ein neues Framework von Nvidia, UC Berkeley und Stanford untersucht systematisch, wie gut KI-Modelle Roboter per Code steuern können. Das Ergebnis: Ohne menschliche Abstraktionen scheitern selbst die",
-      "link": "https://the-decoder.de/ki-modelle-schreiben-roboter-code-fast-so-gut-wie-menschen-aber-nur-mit-stuetzraedern/",
-      "date": "2026-04-02T12:33:07.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
