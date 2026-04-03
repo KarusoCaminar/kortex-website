@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-04-03T10:46:37.754Z",
+  "lastUpdated": "2026-04-03T13:11:28.323Z",
   "news": [
+    {
+      "title": "KI-Modell GLM-5V-Turbo verwandelt Design-Mockups direkt in lauffähigen Code",
+      "description": "Vom Design-Mockup direkt zum fertigen Code: Das chinesische KI-Start-up Zhipu AI veröffentlicht mit GLM-5V-Turbo sein erstes multimodales Grundlagenmodell für Programmieraufgaben. Das Modell verarbeit",
+      "link": "https://the-decoder.de/ki-modell-glm-5v-turbo-verwandelt-design-mockups-direkt-in-lauffaehigen-code/",
+      "date": "2026-04-03T11:47:17.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Claude Code und Cowork: Anthropics KI-Assistent bedient jetzt Mac- und Windows-Desktops",
+      "description": "Anthropic gibt Claude die Fähigkeit, den Mac-Desktop zu steuern: Apps öffnen, Browser navigieren, Tabellen ausfüllen. Das Feature ist als Research Preview in Claude Cowork und Claude Code verfügbar.\nD",
+      "link": "https://the-decoder.de/claude-code-und-cowork-anthropics-ki-assistent-bedient-jetzt-mac-und-windows-desktops/",
+      "date": "2026-04-03T11:35:41.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "OpenAI kauft Tech-Show \"TBPN\", die unabhängig bleiben, aber an den PR-Chef berichten soll",
       "description": "OpenAI hat die Tech-Talkshow TBPN gekauft. Die Sendung soll redaktionell unabhängig bleiben, berichtet aber künftig an OpenAIs Kommunikationsabteilung. Was nach einem Widerspruch klingt, ist auch eine",
@@ -65,15 +83,6 @@
       "language": "en"
     },
     {
-      "title": "Generelle KI nur durch Sprachmodelle: \"Wir haben Sichtverbindung\", sagt OpenAI-Präsident",
-      "description": "OpenAI-Mitgründer Greg Brockman erklärt die Debatte über die Grenzen von Textmodellen für beendet. Sie werden zu AGI führen.\nDer Artikel Generelle KI nur durch Sprachmodelle: \"Wir haben Sichtverbindun",
-      "link": "https://the-decoder.de/generelle-ki-nur-durch-sprachmodelle-wir-sehen-eine-klare-linie-dorthin-sagt-openai-praesident/",
-      "date": "2026-04-02T10:08:48.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "Codex now offers more flexible pricing for teams",
       "description": "Codex now includes pay-as-you-go pricing for ChatGPT Business and Enterprise, providing teams a more flexible option to start and scale adoption.",
       "link": "https://openai.com/index/codex-flexible-pricing-for-teams",
@@ -81,15 +90,6 @@
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
-    },
-    {
-      "title": "Chinesische Chiphersteller erobern 41 Prozent des heimischen KI-Marktes",
-      "description": "Chinesische Chiphersteller haben laut einem IDC-Bericht, den Reuters einsehen konnte, im Jahr 2025 fast 41 Prozent des chinesischen Marktes für KI-Beschleuniger-Server erobert.\nDer Artikel Chinesische",
-      "link": "https://the-decoder.de/chinesische-chiphersteller-erobern-41-prozent-des-heimischen-ki-marktes/",
-      "date": "2026-04-02T08:12:03.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
     },
     {
       "title": "Gradient Labs gives every bank customer an AI account manager",
