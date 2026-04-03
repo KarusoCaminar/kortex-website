@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-04-03T16:44:56.876Z",
+  "lastUpdated": "2026-04-03T18:53:04.128Z",
   "news": [
+    {
+      "title": "Microsoft will eine Million japanische Fachkräfte für KI ausbilden",
+      "description": "Microsoft investiert zehn Milliarden Dollar in Japan und baut damit seine bisher größte Zusage an das Land massiv aus.\nDer Artikel Microsoft will eine Million japanische Fachkräfte für KI ausbilden er",
+      "link": "https://the-decoder.de/microsoft-will-eine-million-japanische-fachkraefte-fuer-ki-ausbilden/",
+      "date": "2026-04-03T18:16:40.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Claude Code: Anthropic reagiert auf Beschwerden über zu strenge Nutzungslimits",
       "description": "Anthropic erklärt, warum Claude-Code-Nutzer so schnell an ihre Limits stoßen, und gibt Tipps, wie sich der Verbrauch senken lässt.\nDer Artikel Claude Code: Anthropic reagiert auf Beschwerden über zu s",
@@ -78,15 +87,6 @@
       "description": "MAI-Transcribe-1 soll Sprache in 25 Sprachen schnell und genau in Text umwandeln, auch bei Hintergrundgeräuschen. Microsoft setzt das Modell bereits in eigenen Produkten ein.\nDer Artikel Microsoft zei",
       "link": "https://the-decoder.de/microsoft-zeigt-neues-sprache-zu-text-modell-mai-transcribe-1/",
       "date": "2026-04-02T16:13:53.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Qwen3.6-Plus: Alibaba stellt neues proprietäres KI-Modell für Entwickler vor",
-      "description": "Alibaba hat mit Qwen3.6-Plus sein drittes proprietäres KI-Modell innerhalb weniger Tage veröffentlicht.\nDer Artikel Qwen3.6-Plus: Alibaba stellt neues proprietäres KI-Modell für Entwickler vor erschie",
-      "link": "https://the-decoder.de/qwen3-6-plus-alibaba-stellt-neues-proprietaeres-ki-modell-fuer-entwickler-vor/",
-      "date": "2026-04-02T13:58:19.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
