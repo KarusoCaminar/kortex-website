@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-04-03T14:47:23.657Z",
+  "lastUpdated": "2026-04-03T16:44:56.876Z",
   "news": [
+    {
+      "title": "Claude Code: Anthropic reagiert auf Beschwerden über zu strenge Nutzungslimits",
+      "description": "Anthropic erklärt, warum Claude-Code-Nutzer so schnell an ihre Limits stoßen, und gibt Tipps, wie sich der Verbrauch senken lässt.\nDer Artikel Claude Code: Anthropic reagiert auf Beschwerden über zu s",
+      "link": "https://the-decoder.de/claude-code-anthropic-reagiert-auf-beschwerden-ueber-zu-strenge-nutzungslimits/",
+      "date": "2026-04-03T14:51:05.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Neues Preismodell: OpenAI rechnet zusätzliche Codex-Nutzer in ChatGPT für Unternehmen nach Nutzung ab",
       "description": "OpenAI senkt die Einstiegshürde für sein Coding-Tool Codex in Unternehmen und zielt damit direkt auf GitHub Copilot und Cursor.\nDer Artikel Neues Preismodell: OpenAI rechnet zusätzliche Codex-Nutzer i",
@@ -45,6 +54,15 @@
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
+    },
+    {
+      "title": "Evaluating alignment of behavioral dispositions in LLMs",
+      "description": "Generative AI",
+      "link": "https://research.google/blog/evaluating-alignment-of-behavioral-dispositions-in-llms/",
+      "date": "2026-04-03T08:00:00.000Z",
+      "source": "Google AI",
+      "category": "große-modelle",
+      "language": "en"
     },
     {
       "title": "\"Ultra Deep Research\": Sakana AI will wochenlange Strategieanalysen automatisieren",
@@ -114,24 +132,6 @@
       "description": "OpenAI raises $122 billion in new funding to expand frontier AI globally, invest in next-generation compute, and meet growing demand for ChatGPT, Codex, and enterprise AI.",
       "link": "https://openai.com/index/accelerating-the-next-phase-ai",
       "date": "2026-03-31T13:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "Helping disaster response teams turn AI into action across Asia",
-      "description": "AI for Disaster Response in Asia: OpenAI Workshop with Gates Foundation",
-      "link": "https://openai.com/index/helping-disaster-response-teams-asia",
-      "date": "2026-03-29T22:15:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "STADLER reshapes knowledge work at a 230-year-old company",
-      "description": "Learn how STADLER uses ChatGPT to transform knowledge work, saving time and accelerating productivity across 650 employees.",
-      "link": "https://openai.com/index/stadler",
-      "date": "2026-03-27T22:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
