@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-04-04T07:05:35.480Z",
+  "lastUpdated": "2026-04-04T08:46:13.053Z",
   "news": [
+    {
+      "title": "Anthropic übernimmt KI-Pharma-Startup Coefficient Bio für 400 Millionen Dollar",
+      "description": "Anthropic kauft ein acht Monate altes Biotech-Startup mit weniger als zehn Mitarbeitenden für 400 Millionen Dollar. Der Investor feiert eine Rendite von 38.513 Prozent.\nDer Artikel Anthropic übernimmt",
+      "link": "https://the-decoder.de/anthropic-uebernimmt-ki-pharma-startup-coefficient-bio-fuer-400-millionen-dollar/",
+      "date": "2026-04-04T08:21:56.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Anthropic sperrt Drittanbieter-Tools wie OpenClaw für Claude-Abonnenten aus",
+      "description": "Anthropic sperrt Drittanbieter-Tools wie OpenClaw von seinen Abo-Modellen aus. Dahinter steckt ein Grundproblem der KI-Branche: Flatrates und agentenbasierte Dauernutzung passen nicht zusammen.\nDer Ar",
+      "link": "https://the-decoder.de/anthropic-sperrt-drittanbieter-tools-wie-openclaw-fuer-claude-abonnenten-aus/",
+      "date": "2026-04-04T07:41:03.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Microsoft will eine Million japanische Fachkräfte für KI ausbilden",
       "description": "Microsoft investiert zehn Milliarden Dollar in Japan und baut damit seine bisher größte Zusage an das Land massiv aus.\nDer Artikel Microsoft will eine Million japanische Fachkräfte für KI ausbilden er",
@@ -74,15 +92,6 @@
       "language": "en"
     },
     {
-      "title": "\"Ultra Deep Research\": Sakana AI will wochenlange Strategieanalysen automatisieren",
-      "description": "Das japanische KI-Start-up Sakana AI stellt \"Sakana Marlin\" vor. Der KI-Assistent für Geschäftskunden recherchiert bis zu acht Stunden völlig autonom und erstellt fertige Analysen. Er soll die wochenl",
-      "link": "https://the-decoder.de/ultra-deep-research-sakana-ai-will-wochenlange-strategieanalysen-automatisieren/",
-      "date": "2026-04-02T17:17:35.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "OpenAI acquires TBPN",
       "description": "OpenAI acquires TBPN to accelerate global conversations around AI and support independent media, expanding dialogue with builders, businesses, and the broader tech community.",
       "link": "https://openai.com/index/openai-acquires-tbpn",
@@ -123,15 +132,6 @@
       "description": "OpenAI raises $122 billion in new funding to expand frontier AI globally, invest in next-generation compute, and meet growing demand for ChatGPT, Codex, and enterprise AI.",
       "link": "https://openai.com/index/accelerating-the-next-phase-ai",
       "date": "2026-03-31T13:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "Helping disaster response teams turn AI into action across Asia",
-      "description": "AI for Disaster Response in Asia: OpenAI Workshop with Gates Foundation",
-      "link": "https://openai.com/index/helping-disaster-response-teams-asia",
-      "date": "2026-03-29T22:15:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
