@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-04-05T05:45:45.899Z",
+  "lastUpdated": "2026-04-05T07:11:57.158Z",
   "news": [
+    {
+      "title": "Alibabas Qwen-Team bringt KI-Modelle mit neuem Algorithmus zum tieferen Nachdenken",
+      "description": "Reinforcement Learning stößt bei Reasoning-Modellen an eine Grenze, weil alle Tokens gleich belohnt werden. Ein neuer Algorithmus von Alibabas Qwen-Team gewichtet stattdessen jeden Schritt danach, wie",
+      "link": "https://the-decoder.de/alibabas-qwen-team-bringt-ki-modelle-mit-neuem-algorithmus-zum-tieferen-nachdenken/",
+      "date": "2026-04-05T06:30:37.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Netflix-KI-Framework VOID entfernt Objekte aus Videos und passt physikalische Effekte an",
       "description": "Netflix hat ein Open-Source-KI-System veröffentlicht, das Objekte aus Videos entfernt und dabei auch physikalische Folgen wie Kollisionen korrigiert.\nDer Artikel Netflix-KI-Framework VOID entfernt Obj",
@@ -60,15 +69,6 @@
       "description": "Anthropic erklärt, warum Claude-Code-Nutzer so schnell an ihre Limits stoßen, und gibt Tipps, wie sich der Verbrauch senken lässt.\nDer Artikel Claude Code: Anthropic reagiert auf Beschwerden über zu s",
       "link": "https://the-decoder.de/claude-code-anthropic-reagiert-auf-beschwerden-ueber-zu-strenge-nutzungslimits/",
       "date": "2026-04-03T14:51:05.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Neues Preismodell: OpenAI rechnet zusätzliche Codex-Nutzer in ChatGPT für Unternehmen nach Nutzung ab",
-      "description": "OpenAI senkt die Einstiegshürde für sein Coding-Tool Codex in Unternehmen und zielt damit direkt auf GitHub Copilot und Cursor.\nDer Artikel Neues Preismodell: OpenAI rechnet zusätzliche Codex-Nutzer i",
-      "link": "https://the-decoder.de/neues-preismodell-openai-rechnet-zusaetzliche-codex-nutzer-in-chatgpt-fuer-unternehmen-nach-nutzung-ab/",
-      "date": "2026-04-03T14:15:30.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
