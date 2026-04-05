@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-04-05T14:37:16.814Z",
+  "lastUpdated": "2026-04-05T16:40:37.249Z",
   "news": [
+    {
+      "title": "KI-Tool kopiert Guardian-Artikel: New York Times feuert Autor",
+      "description": "KI-Tools erleichtern Journalisten das Leben, bis sie es nicht mehr tun. Zwei aktuelle Fälle zeigen, was passiert, wenn Redakteure KI-Ausgaben nicht prüfen: kopierte Passagen und frei erfundene Zitate.",
+      "link": "https://the-decoder.de/ki-tool-kopiert-guardian-artikel-new-york-times-feuert-autor/",
+      "date": "2026-04-05T14:59:08.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Studie kartografiert Frust über KI-generierten \"Slop\" in der Softwareentwicklung",
       "description": "Eine qualitative Studie untersucht gezielt, wie Entwickler minderwertige KI-Inhalte (\"Slop\") in der Softwareentwicklung wahrnehmen und kritisieren. Die Kritiker zeichnen eine \"Tragödie der Allmende\",",
@@ -69,15 +78,6 @@
       "description": "Bei OpenAI treten gleich drei Führungskräfte kürzer, zwei davon aus gesundheitlichen Gründen. Präsident Greg Brockman springt ein.\nDer Artikel OpenAI baut Führungsebene um: Krankheitsfälle erzwingen p",
       "link": "https://the-decoder.de/openai-baut-fuehrungsebene-um-krankheitsfaelle-erzwingen-personelle-veraenderungen/",
       "date": "2026-04-04T09:04:03.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Anthropic übernimmt KI-Pharma-Startup Coefficient Bio für 400 Millionen Dollar",
-      "description": "Anthropic kauft ein acht Monate altes Biotech-Startup mit weniger als zehn Mitarbeitenden für 400 Millionen Dollar. Der Investor feiert eine Rendite von 38.513 Prozent.\nDer Artikel Anthropic übernimmt",
-      "link": "https://the-decoder.de/anthropic-uebernimmt-ki-pharma-startup-coefficient-bio-fuer-400-millionen-dollar/",
-      "date": "2026-04-04T08:21:56.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
