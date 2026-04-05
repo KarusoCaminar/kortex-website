@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-04-05T07:11:57.158Z",
+  "lastUpdated": "2026-04-05T08:49:29.121Z",
   "news": [
+    {
+      "title": "Google-Studie zeigt: KI-Benchmarks ignorieren menschliche Meinungsvielfalt",
+      "description": "Wie viele Bewerter benötigt ein guter KI-Benchmark? Eine neue Studie zeigt, dass drei bis fünf Bewerter pro Testbeispiel häufig nicht ausreichen. Ebenso entscheidend ist die richtige Verteilung des Bu",
+      "link": "https://the-decoder.de/google-studie-zeigt-ki-benchmarks-ignorieren-menschliche-meinungsvielfalt/",
+      "date": "2026-04-05T08:19:45.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Social Media vs. KI: Chatbots wachsen siebenmal schneller als Social Media",
+      "description": "Similarweb vergleicht den Web-Traffic von sozialen Medien und KI-Chatbots. Die Zahlen zeigen klare Unterschiede bei Wachstum, Geräten und Nutzungsverhalten.\nDer Artikel Social Media vs. KI: Chatbots w",
+      "link": "https://the-decoder.de/social-media-vs-ki-chatbots-wachsen-siebenmal-schneller-als-social-media/",
+      "date": "2026-04-05T07:15:57.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Alibabas Qwen-Team bringt KI-Modelle mit neuem Algorithmus zum tieferen Nachdenken",
       "description": "Reinforcement Learning stößt bei Reasoning-Modellen an eine Grenze, weil alle Tokens gleich belohnt werden. Ein neuer Algorithmus von Alibabas Qwen-Team gewichtet stattdessen jeden Schritt danach, wie",
@@ -51,24 +69,6 @@
       "description": "Anthropic sperrt Drittanbieter-Tools wie OpenClaw von seinen Abo-Modellen aus. Dahinter steckt ein Grundproblem der KI-Branche: Flatrates und agentenbasierte Dauernutzung passen nicht zusammen.\nDer Ar",
       "link": "https://the-decoder.de/anthropic-sperrt-drittanbieter-tools-wie-openclaw-fuer-claude-abonnenten-aus/",
       "date": "2026-04-04T07:41:03.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Microsoft will eine Million japanische Fachkräfte für KI ausbilden",
-      "description": "Microsoft investiert zehn Milliarden Dollar in Japan und baut damit seine bisher größte Zusage an das Land massiv aus.\nDer Artikel Microsoft will eine Million japanische Fachkräfte für KI ausbilden er",
-      "link": "https://the-decoder.de/microsoft-will-eine-million-japanische-fachkraefte-fuer-ki-ausbilden/",
-      "date": "2026-04-03T18:16:40.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Claude Code: Anthropic reagiert auf Beschwerden über zu strenge Nutzungslimits",
-      "description": "Anthropic erklärt, warum Claude-Code-Nutzer so schnell an ihre Limits stoßen, und gibt Tipps, wie sich der Verbrauch senken lässt.\nDer Artikel Claude Code: Anthropic reagiert auf Beschwerden über zu s",
-      "link": "https://the-decoder.de/claude-code-anthropic-reagiert-auf-beschwerden-ueber-zu-strenge-nutzungslimits/",
-      "date": "2026-04-03T14:51:05.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
