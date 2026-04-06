@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-04-06T07:58:30.088Z",
+  "lastUpdated": "2026-04-06T09:18:53.296Z",
   "news": [
+    {
+      "title": "Telehealth-Startup Medvi generiert Milliardenumsatz mit Hilfe von KI-gefälschter Werbung",
+      "description": "KI-Effizienz oder KI-Betrug? Wie ein Zwei-Personen-Startup mit KI-Marketing 1,8 Milliarden Dollar Umsatz machte und warum die Erfolgsgeschichte eine dunkle Seite hat.\nDer Artikel Telehealth-Startup Me",
+      "link": "https://the-decoder.de/telehealth-startup-medvi-generiert-milliardenumsatz-mit-hilfe-von-ki-gefaelschter-werbung/",
+      "date": "2026-04-06T08:30:58.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "OpenAI-Manager teilt neue Zahlen zur Nutzung von ChatGPT für Gesundheitsfragen",
       "description": "ChatGPT wird in den USA millionenfach für Gesundheitsfragen genutzt, vor allem dort, wo Ärzte schwer erreichbar sind.\nDer Artikel OpenAI-Manager teilt neue Zahlen zur Nutzung von ChatGPT für Gesundhei",
@@ -78,15 +87,6 @@
       "description": "Reinforcement Learning stößt bei Reasoning-Modellen an eine Grenze, weil alle Tokens gleich belohnt werden. Ein neuer Algorithmus von Alibabas Qwen-Team gewichtet stattdessen jeden Schritt danach, wie",
       "link": "https://the-decoder.de/alibabas-qwen-team-bringt-ki-modelle-mit-neuem-algorithmus-zum-tieferen-nachdenken/",
       "date": "2026-04-05T06:30:37.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Netflix-KI-Framework VOID entfernt Objekte aus Videos und passt physikalische Effekte an",
-      "description": "Netflix hat ein Open-Source-KI-System veröffentlicht, das Objekte aus Videos entfernt und dabei auch physikalische Folgen wie Kollisionen korrigiert.\nDer Artikel Netflix-KI-Framework VOID entfernt Obj",
-      "link": "https://the-decoder.de/netflix-veroeffentlicht-open-source-ki-system-zur-objektentfernung-in-videos/",
-      "date": "2026-04-04T11:09:54.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
