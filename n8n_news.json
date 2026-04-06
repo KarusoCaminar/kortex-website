@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-04-06T14:52:19.612Z",
+  "lastUpdated": "2026-04-06T16:54:12.984Z",
   "news": [
+    {
+      "title": "Weniger Arbeit, gleicher Lohn: OpenAI macht Vorschläge für eine Welt mit Superintelligenz",
+      "description": "In einem umfangreichen Grundsatzpapier schlägt OpenAI politische Maßnahmen für den Übergang zur Superintelligenz vor. Darunter: ein staatlicher Vermögensfonds, die Vier-Tage-Woche und höhere Kapitaler",
+      "link": "https://the-decoder.de/weniger-arbeit-gleicher-lohn-openai-macht-vorschlaege-fuer-eine-welt-mit-superintelligenz/",
+      "date": "2026-04-06T16:15:46.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Ja-Sager-Chatbots und KI-Schleimerei: Selbst rationale Nutzer können in Wahnspiralen geraten",
       "description": "KI-Chatbots neigen dazu, ihren Nutzern nach dem Mund zu reden. Eine Studie des MIT und der University of Washington zeigt, dass diese Schmeichelei selbst unter simulierten optimalen Bedingungen zu gef",
@@ -87,15 +96,6 @@
       "description": "Wie viele Bewerter benötigt ein guter KI-Benchmark? Eine neue Studie zeigt, dass drei bis fünf Bewerter pro Testbeispiel häufig nicht ausreichen. Ebenso entscheidend ist die richtige Verteilung des Bu",
       "link": "https://the-decoder.de/google-studie-zeigt-ki-benchmarks-ignorieren-menschliche-meinungsvielfalt/",
       "date": "2026-04-05T08:19:45.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Social Media vs. KI: Chatbots wachsen siebenmal schneller als Social Media",
-      "description": "Similarweb vergleicht den Web-Traffic von sozialen Medien und KI-Chatbots. Die Zahlen zeigen klare Unterschiede bei Wachstum, Geräten und Nutzungsverhalten.\nDer Artikel Social Media vs. KI: Chatbots w",
-      "link": "https://the-decoder.de/social-media-vs-ki-chatbots-wachsen-siebenmal-schneller-als-social-media/",
-      "date": "2026-04-05T07:15:57.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
