@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-04-06T16:54:12.984Z",
+  "lastUpdated": "2026-04-06T19:06:13.268Z",
   "news": [
+    {
+      "title": "Vom GPT-2-Warnruf zur Gratis-KI: Sam Altmans \"Vibes\" passen nicht zu \"traditionellem KI-Safety-Kram\"",
+      "description": "\"Die Vibes passten nicht.\" In einem neuen Porträt des New Yorker erklärt Sam Altman, warum so viele Safety-Forscher OpenAI verlassen haben.\nDer Artikel Vom GPT-2-Warnruf zur Gratis-KI: Sam Altmans \"Vi",
+      "link": "https://the-decoder.de/vom-gpt-2-warnruf-zur-gratis-ki-sam-altmans-vibes-passen-nicht-zu-traditionellem-ki-safety-kram/",
+      "date": "2026-04-06T17:48:43.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Weniger Arbeit, gleicher Lohn: OpenAI macht Vorschläge für eine Welt mit Superintelligenz",
       "description": "In einem umfangreichen Grundsatzpapier schlägt OpenAI politische Maßnahmen für den Übergang zur Superintelligenz vor. Darunter: ein staatlicher Vermögensfonds, die Vier-Tage-Woche und höhere Kapitaler",
@@ -18,6 +27,15 @@
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
+    },
+    {
+      "title": "Announcing the OpenAI Safety Fellowship",
+      "description": "A pilot program to support independent safety and alignment research and develop the next generation of talent",
+      "link": "https://openai.com/index/introducing-openai-safety-fellowship",
+      "date": "2026-04-06T10:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
     },
     {
       "title": "Telehealth-Startup Medvi generiert Milliardenumsatz mit Hilfe von KI-gefälschter Werbung",
@@ -92,15 +110,6 @@
       "language": "de"
     },
     {
-      "title": "Google-Studie zeigt: KI-Benchmarks ignorieren menschliche Meinungsvielfalt",
-      "description": "Wie viele Bewerter benötigt ein guter KI-Benchmark? Eine neue Studie zeigt, dass drei bis fünf Bewerter pro Testbeispiel häufig nicht ausreichen. Ebenso entscheidend ist die richtige Verteilung des Bu",
-      "link": "https://the-decoder.de/google-studie-zeigt-ki-benchmarks-ignorieren-menschliche-meinungsvielfalt/",
-      "date": "2026-04-05T08:19:45.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "Evaluating alignment of behavioral dispositions in LLMs",
       "description": "Generative AI",
       "link": "https://research.google/blog/evaluating-alignment-of-behavioral-dispositions-in-llms/",
@@ -123,15 +132,6 @@
       "description": "Codex now includes pay-as-you-go pricing for ChatGPT Business and Enterprise, providing teams a more flexible option to start and scale adoption.",
       "link": "https://openai.com/index/codex-flexible-pricing-for-teams",
       "date": "2026-04-02T10:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "Gradient Labs gives every bank customer an AI account manager",
-      "description": "Gradient Labs uses GPT-4.1 and GPT-5.4 mini and nano to power AI agents that automate banking support workflows with low latency and high reliability.",
-      "link": "https://openai.com/index/gradient-labs",
-      "date": "2026-04-01T02:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
