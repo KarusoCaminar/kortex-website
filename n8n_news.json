@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-04-07T10:59:29.928Z",
+  "lastUpdated": "2026-04-07T13:39:55.459Z",
   "news": [
+    {
+      "title": "China versucht laut Taiwan gezielt an dessen Chip-Technologie zu gelangen",
+      "description": "China versucht aktiv, Taiwans Halbleiter-Knowhow und Fachkräfte abzuwerben, um die internationale technologische Eindämmung zu umgehen.\nDer Artikel China versucht laut Taiwan gezielt an dessen Chip-Te",
+      "link": "https://the-decoder.de/china-versucht-laut-taiwan-gezielt-an-dessen-chip-technologie-zu-gelangen/",
+      "date": "2026-04-07T11:18:37.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Jeff Bezos KI-Labor Prometheus wirbt xAI-Mitgründer von OpenAI ab",
+      "description": "Jeff Bezos Start-up Project Prometheus hat Kyle Kosic eingestellt, einen Mitgründer von Elon Musks xAI, der zuletzt bei OpenAI arbeitete.\nDer Artikel Jeff Bezos KI-Labor Prometheus wirbt xAI-Mitgründe",
+      "link": "https://the-decoder.de/jeff-bezos-ki-labor-prometheus-wirbt-xai-mitgruender-von-openai-ab/",
+      "date": "2026-04-07T11:10:15.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "OpenAI, Anthropic und Google arbeiten gemeinsam gegen chinesisches Modell-Kopieren",
       "description": "OpenAI, Anthropic und Google haben laut Bloomberg begonnen, gemeinsam gegen das unautorisierte Kopieren ihrer KI-Modelle durch chinesische Wettbewerber vorzugehen.\nDer Artikel OpenAI, Anthropic und Go",
@@ -69,24 +87,6 @@
       "description": "KI-Effizienz oder KI-Betrug? Wie ein Zwei-Personen-Startup mit KI-Marketing 1,8 Milliarden Dollar Umsatz machte und warum die Erfolgsgeschichte eine dunkle Seite hat.\nDer Artikel Telehealth-Startup Me",
       "link": "https://the-decoder.de/telehealth-startup-medvi-generiert-milliardenumsatz-mit-hilfe-von-ki-gefaelschter-werbung/",
       "date": "2026-04-06T08:30:58.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "OpenAI-Manager teilt neue Zahlen zur Nutzung von ChatGPT für Gesundheitsfragen",
-      "description": "ChatGPT wird in den USA millionenfach für Gesundheitsfragen genutzt, vor allem dort, wo Ärzte schwer erreichbar sind.\nDer Artikel OpenAI-Manager teilt neue Zahlen zur Nutzung von ChatGPT für Gesundhei",
-      "link": "https://the-decoder.de/openai-manager-teilt-neue-zahlen-zur-nutzung-von-chatgpt-fuer-gesundheitsfragen/",
-      "date": "2026-04-06T07:38:03.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Alibabas Qwen-Team trainiert KI-Bildverständnis mit automatisch erzeugten Denkaufgaben",
-      "description": "Wenn KI-Modelle über Bilder nachdenken, schaukeln sich kleine Wahrnehmungsfehler über mehrere Denkschritte zu falschen Ergebnissen auf. Das Framework HopChain erzeugt mehrstufige Bildfragen, die diese",
-      "link": "https://the-decoder.de/alibabas-qwen-team-trainiert-ki-bildverstaendnis-mit-automatisch-erzeugten-denkaufgaben/",
-      "date": "2026-04-06T07:30:51.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
