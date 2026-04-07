@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-04-07T17:03:28.301Z",
+  "lastUpdated": "2026-04-07T19:09:21.797Z",
   "news": [
+    {
+      "title": "Googles KI-Suche liegt laut Analyse in neun von zehn Fällen richtig",
+      "description": "\"KI kann Fehler machen, bitte Antworten überprüfen\" steht unter jeder KI-generierten Suchantwort von Google. Doch wie häufig diese Fehler tatsächlich auftreten, wurde bisher kaum systematisch untersuc",
+      "link": "https://the-decoder.de/googles-ki-suche-liegt-laut-analyse-in-neun-von-zehn-faellen-richtig/",
+      "date": "2026-04-07T18:16:34.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "China versucht laut Taiwan gezielt an dessen Chip-Technologie zu gelangen",
       "description": "China versucht aktiv, Taiwans Halbleiter-Knowhow und Fachkräfte abzuwerben, um die internationale technologische Eindämmung zu umgehen.\nDer Artikel China versucht laut Taiwan gezielt an dessen Chip-Te",
@@ -60,15 +69,6 @@
       "description": "In einem umfangreichen Grundsatzpapier schlägt OpenAI politische Maßnahmen für den Übergang zur Superintelligenz vor. Darunter: ein staatlicher Vermögensfonds, die Vier-Tage-Woche und höhere Kapitaler",
       "link": "https://the-decoder.de/weniger-arbeit-gleicher-lohn-openai-macht-vorschlaege-fuer-eine-welt-mit-superintelligenz/",
       "date": "2026-04-06T16:15:46.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Ja-Sager-Chatbots und KI-Schleimerei: Selbst rationale Nutzer können in Wahnspiralen geraten",
-      "description": "KI-Chatbots neigen dazu, ihren Nutzern nach dem Mund zu reden. Eine Studie des MIT und der University of Washington zeigt, dass diese Schmeichelei selbst unter simulierten optimalen Bedingungen zu gef",
-      "link": "https://the-decoder.de/ja-sager-chatbots-und-ki-schleimerei-selbst-rationale-nutzer-koennen-in-wahnspiralen-geraten/",
-      "date": "2026-04-06T10:36:24.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
