@@ -1,6 +1,33 @@
 {
-  "lastUpdated": "2026-04-08T14:39:47.557Z",
+  "lastUpdated": "2026-04-08T16:32:09.529Z",
   "news": [
+    {
+      "title": "Stability AI bringt Brand Studio für markenkonformen KI-Content",
+      "description": "Stability AI setzt auf Marken-KI: Das neue \"Brand Studio\" soll Kreativteams helfen, KI-Bilder an die eigene Markenidentität anzupassen: mit eigenen Modellen, automatischen Produktionsplänen und geziel",
+      "link": "https://the-decoder.de/stability-ai-bringt-brand-studio-fuer-markenkonformen-ki-content/",
+      "date": "2026-04-08T16:15:42.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Analyse zeigt: Ein Viertel aller KI-Zitate basiert auf journalistischen Inhalten",
+      "description": "Woher beziehen KI-Chatbots wie ChatGPT, Claude und Gemini ihre Informationen? Eine aktuelle Auswertung von 15 Millionen Zitaten zeigt: Ein Viertel aller Quellenverweise führt zu journalistischen Inhal",
+      "link": "https://the-decoder.de/analyse-zeigt-ein-viertel-aller-ki-zitate-basiert-auf-journalistischen-inhalten/",
+      "date": "2026-04-08T15:52:47.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Studie zeigt, wie KI-Tools geschlechtsspezifische Gewalt auf Telegram industrialisieren",
+      "description": "Nudifying-Bots, Deepfakes und automatisierte Archive: Eine Analyse von 2,8 Millionen Telegram-Nachrichten in Italien und Spanien dokumentiert, wie KI-Werkzeuge ein monetarisiertes Missbrauchsökosystem",
+      "link": "https://the-decoder.de/studie-zeigt-wie-ki-tools-geschlechtsspezifische-gewalt-auf-telegram-industrialisieren/",
+      "date": "2026-04-08T15:11:55.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Von GPT-2 zu Claude Mythos: Wenn KI-Modelle wieder zu gefährlich für eine Veröffentlichung sind",
       "description": "Vor sieben Jahren erklärte OpenAI sein Sprachmodell GPT-2 für \"zu gefährlich\". Die Branche rollte mit den Augen. Jetzt wiederholt Anthropic das Manöver mit Claude Mythos Preview, doch diesmal liegt ec",
@@ -51,33 +78,6 @@
       "description": "Jeff Bezos Start-up Project Prometheus hat Kyle Kosic eingestellt, einen Mitgründer von Elon Musks xAI, der zuletzt bei OpenAI arbeitete.\nDer Artikel Jeff Bezos KI-Labor Prometheus wirbt xAI-Mitgründe",
       "link": "https://the-decoder.de/jeff-bezos-ki-labor-prometheus-wirbt-xai-mitgruender-von-openai-ab/",
       "date": "2026-04-07T11:10:15.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "OpenAI, Anthropic und Google arbeiten gemeinsam gegen chinesisches Modell-Kopieren",
-      "description": "OpenAI, Anthropic und Google haben laut Bloomberg begonnen, gemeinsam gegen das unautorisierte Kopieren ihrer KI-Modelle durch chinesische Wettbewerber vorzugehen.\nDer Artikel OpenAI, Anthropic und Go",
-      "link": "https://the-decoder.de/openai-anthropic-und-google-arbeiten-gemeinsam-gegen-chinesisches-modell-kopieren/",
-      "date": "2026-04-07T10:53:19.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Meta will neue KI-Modelle doch teilweise als Open Source veröffentlichen",
-      "description": "Meta plant, Versionen seiner neuen KI-Modelle als Open Source zu veröffentlichen.\nDer Artikel Meta will neue KI-Modelle doch teilweise als Open Source veröffentlichen erschien zuerst auf The Decoder.",
-      "link": "https://the-decoder.de/meta-will-neue-ki-modelle-doch-teilweise-als-open-source-veroeffentlichen/",
-      "date": "2026-04-07T10:26:49.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Tokenmaxxing im Silicon Valley: Meta-Mitarbeiter jagen Highscore beim KI-Verbrauch",
-      "description": "Bei Meta wetteifern Mitarbeiter um Titel wie \"Token Legend\", \"Model Connoisseur\" und \"Cache Wizard\". Wer am meisten KI-Tokens verbraucht, steht ganz oben auf einer internen Rangliste. Doch mehr Verbra",
-      "link": "https://the-decoder.de/tokenmaxxing-im-silicon-valley-meta-mitarbeiter-jagen-highscore-beim-ki-verbrauch/",
-      "date": "2026-04-07T08:17:09.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
