@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-04-09T16:35:54.810Z",
+  "lastUpdated": "2026-04-09T18:26:49.029Z",
   "news": [
+    {
+      "title": "ChatGPT Pro: OpenAI führt neuen 100-Dollar-Plan für intensive Codex-Nutzung ein",
+      "description": "OpenAI führt eine neue Pro-Stufe für 100 Dollar pro Monat ein und sortiert seine Bezahlpläne neu. Der neue Plan soll insbesondere eine intensivere Codex-Nutzung ermöglichen.\nDer Artikel ChatGPT Pro: O",
+      "link": "https://the-decoder.de/chatgpt-pro-openai-fuehrt-neuen-100-dollar-plan-fuer-intensive-codex-nutzung-ein/",
+      "date": "2026-04-09T17:59:29.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Google Gemini erstellt jetzt interaktive Visualisierungen direkt im Chat",
+      "description": "Interaktive Visualisierungen direkt im Chat: Nach Anthropics Claude zieht Google Gemini nach.\nDer Artikel Google Gemini erstellt jetzt interaktive Visualisierungen direkt im Chat erschien zuerst auf T",
+      "link": "https://the-decoder.de/google-gemini-erstellt-jetzt-interaktive-visualisierungen-direkt-im-chat/",
+      "date": "2026-04-09T16:43:39.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Nach Anthropic soll auch OpenAI Zugang zu neuem KI-Modell aus Sicherheitsgründen beschränken",
       "description": "Auch OpenAI arbeitet laut Axios an einem neuen KI-Modell mit fortgeschrittenen Cybersicherheits-Fähigkeiten, das nur einer kleinen Gruppe von Unternehmen zugänglich gemacht werden soll.\nDer Artikel Na",
@@ -92,15 +110,6 @@
       "language": "de"
     },
     {
-      "title": "Studie zeigt, wie KI-Tools geschlechtsspezifische Gewalt auf Telegram industrialisieren",
-      "description": "Nudifying-Bots, Deepfakes und automatisierte Archive: Eine Analyse von 2,8 Millionen Telegram-Nachrichten in Italien und Spanien dokumentiert, wie KI-Werkzeuge ein monetarisiertes Missbrauchsökosystem",
-      "link": "https://the-decoder.de/studie-zeigt-wie-ki-tools-geschlechtsspezifische-gewalt-auf-telegram-industrialisieren/",
-      "date": "2026-04-08T15:11:55.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "The next phase of enterprise AI",
       "description": "OpenAI outlines the next phase of enterprise AI, as adoption accelerates across industries with Frontier, ChatGPT Enterprise, Codex, and company-wide AI agents.",
       "link": "https://openai.com/index/next-phase-of-enterprise-ai",
@@ -123,15 +132,6 @@
       "description": "A pilot program to support independent safety and alignment research and develop the next generation of talent",
       "link": "https://openai.com/index/introducing-openai-safety-fellowship",
       "date": "2026-04-06T10:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "Industrial policy for the Intelligence Age",
-      "description": "Explore our ambitious, people-first industrial policy ideas for the AI era—focused on expanding opportunity, sharing prosperity, and building resilient institutions as advanced intelligence evolves.",
-      "link": "https://openai.com/index/industrial-policy-for-the-intelligence-age",
-      "date": "2026-04-06T02:30:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
