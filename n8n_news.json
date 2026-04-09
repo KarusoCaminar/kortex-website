@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-04-09T18:26:49.029Z",
+  "lastUpdated": "2026-04-09T20:22:13.664Z",
   "news": [
+    {
+      "title": "Claude Cowork: Anthropics agentisches KI-System für Nicht-Entwickler startet offiziell",
+      "description": "Anthropics KI-Assistent Claude Cowork ist jetzt für alle zahlenden Nutzer verfügbar mit neuen Unternehmenskontrollen und Zoom-Integration.\nDer Artikel Claude Cowork: Anthropics agentisches KI-System f",
+      "link": "https://the-decoder.de/claude-cowork-anthropics-agentisches-ki-system-fuer-nicht-entwickler-startet-offiziell/",
+      "date": "2026-04-09T18:29:08.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "ChatGPT Pro: OpenAI führt neuen 100-Dollar-Plan für intensive Codex-Nutzung ein",
       "description": "OpenAI führt eine neue Pro-Stufe für 100 Dollar pro Monat ein und sortiert seine Bezahlpläne neu. Der neue Plan soll insbesondere eine intensivere Codex-Nutzung ermöglichen.\nDer Artikel ChatGPT Pro: O",
@@ -96,15 +105,6 @@
       "description": "Stability AI setzt auf Marken-KI: Das neue \"Brand Studio\" soll Kreativteams helfen, KI-Bilder an die eigene Markenidentität anzupassen: mit eigenen Modellen, automatischen Produktionsplänen und geziel",
       "link": "https://the-decoder.de/stability-ai-bringt-brand-studio-fuer-markenkonformen-ki-content/",
       "date": "2026-04-08T16:15:42.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Analyse zeigt: Ein Viertel aller KI-Zitate basiert auf journalistischen Inhalten",
-      "description": "Woher beziehen KI-Chatbots wie ChatGPT, Claude und Gemini ihre Informationen? Eine aktuelle Auswertung von 15 Millionen Zitaten zeigt: Ein Viertel aller Quellenverweise führt zu journalistischen Inhal",
-      "link": "https://the-decoder.de/analyse-zeigt-ein-viertel-aller-ki-zitate-basiert-auf-journalistischen-inhalten/",
-      "date": "2026-04-08T15:52:47.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
