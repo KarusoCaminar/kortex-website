@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-04-09T10:30:27.696Z",
+  "lastUpdated": "2026-04-09T12:30:17.872Z",
   "news": [
+    {
+      "title": "Pentagon-Blacklisting: US-Gericht lehnt Anthropics Eilantrag ab",
+      "description": "Ein US-Berufungsgericht hat abgelehnt, die Einstufung von Anthropic als nationales Sicherheitsrisiko durch das Pentagon vorläufig zu blockieren.\nDer Artikel Pentagon-Blacklisting: US-Gericht lehnt Ant",
+      "link": "https://the-decoder.de/pentagon-blacklisting-us-gericht-lehnt-anthropics-eilantrag-ab/",
+      "date": "2026-04-09T10:40:01.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Zhipu AIs GLM-5.1 soll Linux-Desktop innerhalb von 8 Stunden gebaut haben",
       "description": "Zhipu AI veröffentlicht GLM-5.1 unter MIT-Lizenz. Statt schneller Einzellösungen setzt das Unternehmen auf ein Modell, das über Hunderte Iterationen hinweg seine eigene Strategie überarbeitet. Bei Rea",
@@ -99,15 +108,6 @@
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
-    },
-    {
-      "title": "Googles KI-Suche liegt laut Analyse in neun von zehn Fällen richtig",
-      "description": "\"KI kann Fehler machen, bitte Antworten überprüfen\" steht unter jeder KI-generierten Suchantwort von Google. Doch wie häufig diese Fehler tatsächlich auftreten, wurde bisher kaum systematisch untersuc",
-      "link": "https://the-decoder.de/googles-ki-suche-liegt-laut-analyse-in-neun-von-zehn-faellen-richtig/",
-      "date": "2026-04-07T18:16:34.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
     },
     {
       "title": "Announcing the OpenAI Safety Fellowship",
