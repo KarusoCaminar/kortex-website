@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-04-09T08:38:26.258Z",
+  "lastUpdated": "2026-04-09T10:30:27.696Z",
   "news": [
+    {
+      "title": "Zhipu AIs GLM-5.1 soll Linux-Desktop innerhalb von 8 Stunden gebaut haben",
+      "description": "Zhipu AI veröffentlicht GLM-5.1 unter MIT-Lizenz. Statt schneller Einzellösungen setzt das Unternehmen auf ein Modell, das über Hunderte Iterationen hinweg seine eigene Strategie überarbeitet. Bei Rea",
+      "link": "https://the-decoder.de/zhipu-ais-glm-5-1-soll-linux-desktop-innerhalb-von-8-stunden-gebaut-haben/",
+      "date": "2026-04-09T10:22:27.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Claude Managed Agents: Anthropic bietet KI-Agenten jetzt als verwalteten Cloud-Dienst an",
+      "description": "Anthropic bietet Entwicklern mit \"Claude Managed Agents\" eine verwaltete Infrastruktur für autonome KI-Agenten. Erste Unternehmen wie Notion und Rakuten setzen das System bereits ein.\nDer Artikel Clau",
+      "link": "https://the-decoder.de/claude-managed-agents-anthropic-bietet-ki-agenten-jetzt-als-verwalteten-cloud-dienst-an/",
+      "date": "2026-04-09T09:05:13.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Improving the academic workflow: Introducing two AI agents for better figures and peer review",
       "description": "Generative AI",
@@ -92,15 +110,6 @@
       "language": "de"
     },
     {
-      "title": "China versucht laut Taiwan gezielt an dessen Chip-Technologie zu gelangen",
-      "description": "China versucht aktiv, Taiwans Halbleiter-Knowhow und Fachkräfte abzuwerben, um die internationale technologische Eindämmung zu umgehen.\nDer Artikel China versucht laut Taiwan gezielt an dessen Chip-Te",
-      "link": "https://the-decoder.de/china-versucht-laut-taiwan-gezielt-an-dessen-chip-technologie-zu-gelangen/",
-      "date": "2026-04-07T11:18:37.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "Announcing the OpenAI Safety Fellowship",
       "description": "A pilot program to support independent safety and alignment research and develop the next generation of talent",
       "link": "https://openai.com/index/introducing-openai-safety-fellowship",
@@ -124,15 +133,6 @@
       "link": "https://research.google/blog/evaluating-alignment-of-behavioral-dispositions-in-llms/",
       "date": "2026-04-03T08:00:00.000Z",
       "source": "Google AI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "OpenAI acquires TBPN",
-      "description": "OpenAI acquires TBPN to accelerate global conversations around AI and support independent media, expanding dialogue with builders, businesses, and the broader tech community.",
-      "link": "https://openai.com/index/openai-acquires-tbpn",
-      "date": "2026-04-02T10:30:00.000Z",
-      "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
     }
