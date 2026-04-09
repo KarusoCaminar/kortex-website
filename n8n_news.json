@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-04-09T12:30:17.872Z",
+  "lastUpdated": "2026-04-09T14:41:33.245Z",
   "news": [
+    {
+      "title": "Nach Anthropic soll auch OpenAI Zugang zu neuem KI-Modell aus Sicherheitsgründen beschränken",
+      "description": "Auch OpenAI arbeitet laut Axios an einem neuen KI-Modell mit fortgeschrittenen Cybersicherheits-Fähigkeiten, das nur einer kleinen Gruppe von Unternehmen zugänglich gemacht werden soll.\nDer Artikel Na",
+      "link": "https://the-decoder.de/nach-anthropic-soll-auch-openai-zugang-zu-neuem-ki-modell-aus-sicherheitsgruenden-beschraenken/",
+      "date": "2026-04-09T13:44:26.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Neue Stanford-Studie klärt, wann sich mehrere KI-Agenten auszahlen",
+      "description": "Mehrere KI-Agenten, die zusammenarbeiten, gelten als leistungsfähiger. Eine Stanford-Studie zeigt: Der vermeintliche Vorteil liegt vor allem daran, dass die Teams mehr Rechenleistung verbrauchen.  Doc",
+      "link": "https://the-decoder.de/neue-stanford-studie-klaert-wann-sich-mehrere-ki-agenten-auszahlen/",
+      "date": "2026-04-09T13:12:07.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Pentagon-Blacklisting: US-Gericht lehnt Anthropics Eilantrag ab",
       "description": "Ein US-Berufungsgericht hat abgelehnt, die Einstufung von Anthropic als nationales Sicherheitsrisiko durch das Pentagon vorläufig zu blockieren.\nDer Artikel Pentagon-Blacklisting: US-Gericht lehnt Ant",
@@ -27,6 +45,15 @@
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
+    },
+    {
+      "title": "OpenAI Full Fan Mode Contest: Terms & Conditions",
+      "description": "Explore the official terms and conditions for the OpenAI Full Fan Mode Contest, including eligibility, entry steps, judging criteria, and prize details. Learn how to participate, submit your entry on",
+      "link": "https://openai.com/index/full-fan-mode-contest-terms-conditions",
+      "date": "2026-04-09T00:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
     },
     {
       "title": "Improving the academic workflow: Introducing two AI agents for better figures and peer review",
@@ -83,24 +110,6 @@
       "language": "en"
     },
     {
-      "title": "Von GPT-2 zu Claude Mythos: Wenn KI-Modelle wieder zu gefährlich für eine Veröffentlichung sind",
-      "description": "Vor sieben Jahren erklärte OpenAI sein Sprachmodell GPT-2 für \"zu gefährlich\". Die Branche rollte mit den Augen. Jetzt wiederholt Anthropic das Manöver mit Claude Mythos Preview, doch diesmal liegt ec",
-      "link": "https://the-decoder.de/von-gpt-2-zu-claude-mythos-wenn-ki-modelle-wieder-zu-gefaehrlich-fuer-eine-veroeffentlichung-sind/",
-      "date": "2026-04-08T11:46:57.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Musk fordert Milliarden-Schadensersatz von OpenAI - für die OpenAI-Stiftung",
-      "description": "Elon Musk will keinen Cent für sich selbst: Er hat seine Klage gegen OpenAI so geändert, dass mögliche Milliarden-Schadensersatzzahlungen an die gemeinnützige Stiftung fließen sollen. OpenAI spricht v",
-      "link": "https://the-decoder.de/musk-fordert-milliarden-schadensersatz-von-openai-fuer-die-openai-stiftung/",
-      "date": "2026-04-08T10:01:36.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "Introducing the Child Safety Blueprint",
       "description": "Discover OpenAI’s Child Safety Blueprint—a roadmap for building AI responsibly with safeguards, age-appropriate design, and collaboration to protect and empower young people online.",
       "link": "https://openai.com/index/introducing-child-safety-blueprint",
@@ -124,15 +133,6 @@
       "link": "https://openai.com/index/industrial-policy-for-the-intelligence-age",
       "date": "2026-04-06T02:30:00.000Z",
       "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "Evaluating alignment of behavioral dispositions in LLMs",
-      "description": "Generative AI",
-      "link": "https://research.google/blog/evaluating-alignment-of-behavioral-dispositions-in-llms/",
-      "date": "2026-04-03T08:00:00.000Z",
-      "source": "Google AI",
       "category": "große-modelle",
       "language": "en"
     }
