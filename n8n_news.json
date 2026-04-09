@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-09T20:22:13.664Z",
+  "lastUpdated": "2026-04-09T22:18:19.265Z",
   "news": [
     {
       "title": "Claude Cowork: Anthropics agentisches KI-System für Nicht-Entwickler startet offiziell",
@@ -47,6 +47,15 @@
       "language": "de"
     },
     {
+      "title": "ConvApparel: Measuring and bridging the realism gap in user simulators",
+      "description": "Generative AI",
+      "link": "https://research.google/blog/convapparel-measuring-and-bridging-the-realism-gap-in-user-simulators/",
+      "date": "2026-04-09T11:22:00.000Z",
+      "source": "Google AI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
       "title": "Pentagon-Blacklisting: US-Gericht lehnt Anthropics Eilantrag ab",
       "description": "Ein US-Berufungsgericht hat abgelehnt, die Einstufung von Anthropic als nationales Sicherheitsrisiko durch das Pentagon vorläufig zu blockieren.\nDer Artikel Pentagon-Blacklisting: US-Gericht lehnt Ant",
       "link": "https://the-decoder.de/pentagon-blacklisting-us-gericht-lehnt-anthropics-eilantrag-ab/",
@@ -72,6 +81,15 @@
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
+    },
+    {
+      "title": "CyberAgent moves faster with ChatGPT Enterprise and Codex",
+      "description": "CyberAgent uses ChatGPT Enterprise and Codex to securely scale AI adoption, improve quality, and accelerate decisions across advertising, media, and gaming.",
+      "link": "https://openai.com/index/cyber-agent",
+      "date": "2026-04-09T00:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
     },
     {
       "title": "OpenAI Full Fan Mode Contest: Terms & Conditions",
@@ -114,24 +132,6 @@
       "description": "OpenAI outlines the next phase of enterprise AI, as adoption accelerates across industries with Frontier, ChatGPT Enterprise, Codex, and company-wide AI agents.",
       "link": "https://openai.com/index/next-phase-of-enterprise-ai",
       "date": "2026-04-08T14:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "Introducing the Child Safety Blueprint",
-      "description": "Discover OpenAI’s Child Safety Blueprint—a roadmap for building AI responsibly with safeguards, age-appropriate design, and collaboration to protect and empower young people online.",
-      "link": "https://openai.com/index/introducing-child-safety-blueprint",
-      "date": "2026-04-08T05:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "Announcing the OpenAI Safety Fellowship",
-      "description": "A pilot program to support independent safety and alignment research and develop the next generation of talent",
-      "link": "https://openai.com/index/introducing-openai-safety-fellowship",
-      "date": "2026-04-06T10:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
