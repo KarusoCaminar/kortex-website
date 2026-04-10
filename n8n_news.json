@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-04-10T12:26:33.099Z",
+  "lastUpdated": "2026-04-10T14:28:29.312Z",
   "news": [
+    {
+      "title": "US-Geheimdienst CIA will KI-Assistenten in alle Analyseplattformen einbauen",
+      "description": "Laut CIA-Vizechef Michael Ellis hat die Behörde kürzlich ihren ersten vollständig autonom erstellten Geheimdienstbericht mithilfe von KI produziert, wie Politico berichtet.\nDer Artikel US-Geheimdienst",
+      "link": "https://the-decoder.de/us-geheimdienst-cia-will-ki-assistenten-in-alle-analyseplattformen-einbauen/",
+      "date": "2026-04-10T14:02:25.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Coreweave sichert sich Cloud-Deal mit Anthropic und baut Kundenbasis weiter aus",
+      "description": "Coreweave hat einen mehrjährigen Cloud-Deal mit dem KI-Startup Anthropic abgeschlossen.\nDer Artikel Coreweave sichert sich Cloud-Deal mit Anthropic und baut Kundenbasis weiter aus erschien zuerst auf",
+      "link": "https://the-decoder.de/coreweave-sichert-sich-cloud-deal-mit-anthropic-und-baut-kundenbasis-weiter-aus/",
+      "date": "2026-04-10T13:40:45.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "OpenAI wirbt bei Investoren mit Infrastrukturvorsprung gegenüber Anthropic",
       "description": "OpenAI erklärt Investoren, dass der frühe Infrastrukturausbau einen entscheidenden Vorteil gegenüber Anthropic biete. Gleichzeitig legt das Unternehmen sein britisches Rechenzentrum auf Eis, während A",
@@ -78,24 +96,6 @@
       "description": "Ein US-Berufungsgericht hat abgelehnt, die Einstufung von Anthropic als nationales Sicherheitsrisiko durch das Pentagon vorläufig zu blockieren.\nDer Artikel Pentagon-Blacklisting: US-Gericht lehnt Ant",
       "link": "https://the-decoder.de/pentagon-blacklisting-us-gericht-lehnt-anthropics-eilantrag-ab/",
       "date": "2026-04-09T10:40:01.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Zhipu AIs GLM-5.1 soll Linux-Desktop innerhalb von 8 Stunden gebaut haben",
-      "description": "Zhipu AI veröffentlicht GLM-5.1 unter MIT-Lizenz. Statt schneller Einzellösungen setzt das Unternehmen auf ein Modell, das über Hunderte Iterationen hinweg seine eigene Strategie überarbeitet. Bei Rea",
-      "link": "https://the-decoder.de/zhipu-ais-glm-5-1-soll-linux-desktop-innerhalb-von-8-stunden-gebaut-haben/",
-      "date": "2026-04-09T10:22:27.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Claude Managed Agents: Anthropic bietet KI-Agenten jetzt als verwalteten Cloud-Dienst an",
-      "description": "Anthropic bietet Entwicklern mit \"Claude Managed Agents\" eine verwaltete Infrastruktur für autonome KI-Agenten. Erste Unternehmen wie Notion und Rakuten setzen das System bereits ein.\nDer Artikel Clau",
-      "link": "https://the-decoder.de/claude-managed-agents-anthropic-bietet-ki-agenten-jetzt-als-verwalteten-cloud-dienst-an/",
-      "date": "2026-04-09T09:05:13.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
