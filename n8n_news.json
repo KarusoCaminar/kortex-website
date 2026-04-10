@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-04-10T18:23:44.255Z",
+  "lastUpdated": "2026-04-10T20:15:04.539Z",
   "news": [
+    {
+      "title": "Deepmind-Chef vergleicht AGI-Ankunft mit einer zehnfach beschleunigten industriellen Revolution",
+      "description": "Deepmind-Chef Demis Hassabis hält AGI innerhalb von fünf Jahren für realistisch. Die Auswirkungen vergleicht er mit dem Zehnfachen der industriellen Revolution. Trotzdem werde KI noch immer kurzfristi",
+      "link": "https://the-decoder.de/deepmind-chef-vergleicht-agi-ankunft-mit-einer-zehnfach-beschleunigten-industriellen-revolution/",
+      "date": "2026-04-10T18:48:18.000Z",
+      "source": "The Decoder",
+      "category": "industrie-4.0",
+      "language": "de"
+    },
     {
       "title": "US-Geheimdienst CIA will KI-Assistenten in alle Analyseplattformen einbauen",
       "description": "Laut CIA-Vizechef Michael Ellis hat die Behörde kürzlich ihren ersten vollständig autonom erstellten Geheimdienstbericht mithilfe von KI produziert, wie Politico berichtet.\nDer Artikel US-Geheimdienst",
@@ -47,27 +56,9 @@
       "language": "de"
     },
     {
-      "title": "ChatGPT for research",
-      "description": "Learn how to use ChatGPT for research to gather sources, analyze information, and create structured, citation-backed insights.",
-      "link": "https://openai.com/academy/research",
-      "date": "2026-04-10T00:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "ChatGPT for operations teams",
-      "description": "Learn how operations teams use ChatGPT to streamline workflows, improve coordination, standardize processes, and drive faster execution.",
-      "link": "https://openai.com/academy/operations",
-      "date": "2026-04-10T00:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "Research with ChatGPT",
-      "description": "Learn how to research with ChatGPT using search and deep research to find up-to-date information, analyze sources, and generate structured insights.",
-      "link": "https://openai.com/academy/search-and-deep-research",
+      "title": "Using projects in ChatGPT",
+      "description": "Learn how to use orojects in ChatGPT to organize chats, files, and instructions, manage ongoing work, and collaborate more effectively.",
+      "link": "https://openai.com/academy/projects",
       "date": "2026-04-10T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
@@ -77,15 +68,6 @@
       "title": "Prompting fundamentals",
       "description": "Learn prompting fundamentals and how to write clear, effective prompts to get better, more useful responses from ChatGPT.",
       "link": "https://openai.com/academy/prompting",
-      "date": "2026-04-10T00:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "Responsible and safe use of AI",
-      "description": "Learn how to use AI responsibly with best practices for safety, accuracy, and transparency when using tools like ChatGPT.",
-      "link": "https://openai.com/academy/responsible-and-safe-use",
       "date": "2026-04-10T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
@@ -110,27 +92,45 @@
       "language": "en"
     },
     {
-      "title": "Personalizing ChatGPT",
-      "description": "Learn how to personalize ChatGPT using custom instructions and memory to get more relevant, consistent, and tailored responses.",
-      "link": "https://openai.com/academy/personalization",
+      "title": "Creating images with ChatGPT",
+      "description": "Learn how to create and refine images with ChatGPT using clear prompts, iterate on designs, and generate high-quality visuals in minutes.",
+      "link": "https://openai.com/academy/image-generation",
       "date": "2026-04-10T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
     },
     {
-      "title": "Working with files in ChatGPT",
-      "description": "Learn how to upload and work with files in ChatGPT to analyze data, summarize documents, and generate content from PDFs, spreadsheets, and more.",
-      "link": "https://openai.com/academy/working-with-files",
+      "title": "ChatGPT for marketing teams",
+      "description": "Learn how marketing teams use ChatGPT to plan campaigns, generate content, analyze performance, and move from ideas to execution faster.",
+      "link": "https://openai.com/academy/marketing",
       "date": "2026-04-10T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
     },
     {
-      "title": "Using custom GPTs",
-      "description": "Learn how to build and use custom GPTs to automate workflows, maintain consistent outputs, and create purpose-built AI assistants.",
-      "link": "https://openai.com/academy/custom-gpts",
+      "title": "AI fundamentals",
+      "description": "Learn what AI is, how it works, and how tools like ChatGPT use large language models. A clear, beginner-friendly guide to understanding artificial intelligence.",
+      "link": "https://openai.com/academy/what-is-ai",
+      "date": "2026-04-10T00:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
+      "title": "Writing with ChatGPT",
+      "description": "Learn how to use ChatGPT for writing to draft, revise, and refine content with clear structure, tone, and intent.",
+      "link": "https://openai.com/academy/writing",
+      "date": "2026-04-10T00:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
+      "title": "ChatGPT for customer success teams",
+      "description": "Learn how customer success teams use ChatGPT to manage accounts, improve communication, reduce churn, and drive adoption and renewals.",
+      "link": "https://openai.com/academy/customer-success",
       "date": "2026-04-10T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
