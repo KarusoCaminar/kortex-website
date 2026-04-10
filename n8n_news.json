@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-10T16:23:31.944Z",
+  "lastUpdated": "2026-04-10T18:23:44.255Z",
   "news": [
     {
       "title": "US-Geheimdienst CIA will KI-Assistenten in alle Analyseplattformen einbauen",
@@ -47,91 +47,91 @@
       "language": "de"
     },
     {
-      "title": "Claude Cowork: Anthropics agentisches KI-System für Nicht-Entwickler startet offiziell",
-      "description": "Anthropics KI-Assistent Claude Cowork ist jetzt für alle zahlenden Nutzer verfügbar mit neuen Unternehmenskontrollen und Zoom-Integration.\nDer Artikel Claude Cowork: Anthropics agentisches KI-System f",
-      "link": "https://the-decoder.de/claude-cowork-anthropics-agentisches-ki-system-fuer-nicht-entwickler-startet-offiziell/",
-      "date": "2026-04-09T18:29:08.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "ChatGPT Pro: OpenAI führt neuen 100-Dollar-Plan für intensive Codex-Nutzung ein",
-      "description": "OpenAI führt eine neue Pro-Stufe für 100 Dollar pro Monat ein und sortiert seine Bezahlpläne neu. Der neue Plan soll insbesondere eine intensivere Codex-Nutzung ermöglichen.\nDer Artikel ChatGPT Pro: O",
-      "link": "https://the-decoder.de/chatgpt-pro-openai-fuehrt-neuen-100-dollar-plan-fuer-intensive-codex-nutzung-ein/",
-      "date": "2026-04-09T17:59:29.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Google Gemini erstellt jetzt interaktive Visualisierungen direkt im Chat",
-      "description": "Interaktive Visualisierungen direkt im Chat: Nach Anthropics Claude zieht Google Gemini nach.\nDer Artikel Google Gemini erstellt jetzt interaktive Visualisierungen direkt im Chat erschien zuerst auf T",
-      "link": "https://the-decoder.de/google-gemini-erstellt-jetzt-interaktive-visualisierungen-direkt-im-chat/",
-      "date": "2026-04-09T16:43:39.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Neue Stanford-Studie klärt, wann sich mehrere KI-Agenten auszahlen",
-      "description": "Mehrere KI-Agenten, die zusammenarbeiten, gelten als leistungsfähiger. Eine Stanford-Studie zeigt: Der vermeintliche Vorteil liegt vor allem daran, dass die Teams mehr Rechenleistung verbrauchen.  Doc",
-      "link": "https://the-decoder.de/neue-stanford-studie-klaert-wann-sich-mehrere-ki-agenten-auszahlen/",
-      "date": "2026-04-09T13:12:07.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "ConvApparel: Measuring and bridging the realism gap in user simulators",
-      "description": "Generative AI",
-      "link": "https://research.google/blog/convapparel-measuring-and-bridging-the-realism-gap-in-user-simulators/",
-      "date": "2026-04-09T11:22:00.000Z",
-      "source": "Google AI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "Pentagon-Blacklisting: US-Gericht lehnt Anthropics Eilantrag ab",
-      "description": "Ein US-Berufungsgericht hat abgelehnt, die Einstufung von Anthropic als nationales Sicherheitsrisiko durch das Pentagon vorläufig zu blockieren.\nDer Artikel Pentagon-Blacklisting: US-Gericht lehnt Ant",
-      "link": "https://the-decoder.de/pentagon-blacklisting-us-gericht-lehnt-anthropics-eilantrag-ab/",
-      "date": "2026-04-09T10:40:01.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "OpenAI Full Fan Mode Contest: Terms & Conditions",
-      "description": "Explore the official terms and conditions for the OpenAI Full Fan Mode Contest, including eligibility, entry steps, judging criteria, and prize details. Learn how to participate, submit your entry on",
-      "link": "https://openai.com/index/full-fan-mode-contest-terms-conditions",
-      "date": "2026-04-09T00:00:00.000Z",
+      "title": "ChatGPT for research",
+      "description": "Learn how to use ChatGPT for research to gather sources, analyze information, and create structured, citation-backed insights.",
+      "link": "https://openai.com/academy/research",
+      "date": "2026-04-10T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
     },
     {
-      "title": "CyberAgent moves faster with ChatGPT Enterprise and Codex",
-      "description": "CyberAgent uses ChatGPT Enterprise and Codex to securely scale AI adoption, improve quality, and accelerate decisions across advertising, media, and gaming.",
-      "link": "https://openai.com/index/cyberagent",
-      "date": "2026-04-09T00:00:00.000Z",
+      "title": "ChatGPT for operations teams",
+      "description": "Learn how operations teams use ChatGPT to streamline workflows, improve coordination, standardize processes, and drive faster execution.",
+      "link": "https://openai.com/academy/operations",
+      "date": "2026-04-10T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
     },
     {
-      "title": "Improving the academic workflow: Introducing two AI agents for better figures and peer review",
-      "description": "Generative AI",
-      "link": "https://research.google/blog/improving-the-academic-workflow-introducing-two-ai-agents-for-better-figures-and-peer-review/",
-      "date": "2026-04-08T20:01:33.000Z",
-      "source": "Google AI",
-      "category": "workflow-tools",
+      "title": "Research with ChatGPT",
+      "description": "Learn how to research with ChatGPT using search and deep research to find up-to-date information, analyze sources, and generate structured insights.",
+      "link": "https://openai.com/academy/search-and-deep-research",
+      "date": "2026-04-10T00:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
       "language": "en"
     },
     {
-      "title": "The next phase of enterprise AI",
-      "description": "OpenAI outlines the next phase of enterprise AI, as adoption accelerates across industries with Frontier, ChatGPT Enterprise, Codex, and company-wide AI agents.",
-      "link": "https://openai.com/index/next-phase-of-enterprise-ai",
-      "date": "2026-04-08T14:00:00.000Z",
+      "title": "Prompting fundamentals",
+      "description": "Learn prompting fundamentals and how to write clear, effective prompts to get better, more useful responses from ChatGPT.",
+      "link": "https://openai.com/academy/prompting",
+      "date": "2026-04-10T00:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
+      "title": "Responsible and safe use of AI",
+      "description": "Learn how to use AI responsibly with best practices for safety, accuracy, and transparency when using tools like ChatGPT.",
+      "link": "https://openai.com/academy/responsible-and-safe-use",
+      "date": "2026-04-10T00:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
+      "title": "Using skills",
+      "description": "Learn how to create and use ChatGPT skills to build reusable workflows, automate recurring tasks, and ensure consistent, high-quality outputs.",
+      "link": "https://openai.com/academy/skills",
+      "date": "2026-04-10T00:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
+      "title": "Analyzing data with ChatGPT",
+      "description": "Learn how to analyze data with ChatGPT by exploring datasets, generating insights, creating visualizations, and turning findings into actionable decisions.",
+      "link": "https://openai.com/academy/data-analysis",
+      "date": "2026-04-10T00:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
+      "title": "Personalizing ChatGPT",
+      "description": "Learn how to personalize ChatGPT using custom instructions and memory to get more relevant, consistent, and tailored responses.",
+      "link": "https://openai.com/academy/personalization",
+      "date": "2026-04-10T00:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
+      "title": "Working with files in ChatGPT",
+      "description": "Learn how to upload and work with files in ChatGPT to analyze data, summarize documents, and generate content from PDFs, spreadsheets, and more.",
+      "link": "https://openai.com/academy/working-with-files",
+      "date": "2026-04-10T00:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
+      "title": "Using custom GPTs",
+      "description": "Learn how to build and use custom GPTs to automate workflows, maintain consistent outputs, and create purpose-built AI assistants.",
+      "link": "https://openai.com/academy/custom-gpts",
+      "date": "2026-04-10T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
