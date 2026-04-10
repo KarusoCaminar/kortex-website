@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-04-10T10:26:43.707Z",
+  "lastUpdated": "2026-04-10T12:26:33.099Z",
   "news": [
+    {
+      "title": "OpenAI wirbt bei Investoren mit Infrastrukturvorsprung gegenüber Anthropic",
+      "description": "OpenAI erklärt Investoren, dass der frühe Infrastrukturausbau einen entscheidenden Vorteil gegenüber Anthropic biete. Gleichzeitig legt das Unternehmen sein britisches Rechenzentrum auf Eis, während A",
+      "link": "https://the-decoder.de/openai-wirbt-bei-investoren-mit-infrastrukturvorsprung-gegenueber-anthropic/",
+      "date": "2026-04-10T10:48:51.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "KI-Fortschritt: Warum Sprachmodelle komplexe Codes knacken, aber simple Fragen vermasseln",
+      "description": "KI-Modelle lösen komplexe Programmieraufgaben in Stunden, scheitern aber an simplen Alltagsfragen. Das ist kein Widerspruch – dahinter verbirgt sich eine grundlegende Debatte über die Zukunft der KI,",
+      "link": "https://the-decoder.de/ki-fortschritt-warum-sprachmodelle-komplexe-codes-knacken-aber-simple-fragen-vermasseln/",
+      "date": "2026-04-10T10:36:41.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "OpenAI arbeitet an Cybersecurity-Produkt mit exklusivem Zugang für Sicherheitsteams",
       "description": "OpenAI arbeitet laut Axios an einem neuen Cybersecurity-Produkt, das nur einer kleinen Gruppe von Unternehmen zugänglich gemacht werden soll.\nDer Artikel OpenAI arbeitet an Cybersecurity-Produkt mit e",
@@ -83,18 +101,18 @@
       "language": "de"
     },
     {
-      "title": "CyberAgent moves faster with ChatGPT Enterprise and Codex",
-      "description": "CyberAgent uses ChatGPT Enterprise and Codex to securely scale AI adoption, improve quality, and accelerate decisions across advertising, media, and gaming.",
-      "link": "https://openai.com/index/cyberagent",
+      "title": "OpenAI Full Fan Mode Contest: Terms & Conditions",
+      "description": "Explore the official terms and conditions for the OpenAI Full Fan Mode Contest, including eligibility, entry steps, judging criteria, and prize details. Learn how to participate, submit your entry on",
+      "link": "https://openai.com/index/full-fan-mode-contest-terms-conditions",
       "date": "2026-04-09T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
     },
     {
-      "title": "OpenAI Full Fan Mode Contest: Terms & Conditions",
-      "description": "Explore the official terms and conditions for the OpenAI Full Fan Mode Contest, including eligibility, entry steps, judging criteria, and prize details. Learn how to participate, submit your entry on",
-      "link": "https://openai.com/index/full-fan-mode-contest-terms-conditions",
+      "title": "CyberAgent moves faster with ChatGPT Enterprise and Codex",
+      "description": "CyberAgent uses ChatGPT Enterprise and Codex to securely scale AI adoption, improve quality, and accelerate decisions across advertising, media, and gaming.",
+      "link": "https://openai.com/index/cyberagent",
       "date": "2026-04-09T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
@@ -108,24 +126,6 @@
       "source": "Google AI",
       "category": "workflow-tools",
       "language": "en"
-    },
-    {
-      "title": "Muse Spark: Meta stellt neues KI-Modell vor und will \"persönliche Superintelligenz\" skalieren",
-      "description": "Meta Superintelligence Labs veröffentlicht mit Muse Spark sein erstes Frontier-Modell. Es ist Metas erstes KI-Modell ohne offene Gewichte und schließt laut unabhängigen Tests den Abstand zur Konkurren",
-      "link": "https://the-decoder.de/muse-spark-meta-stellt-neues-ki-modell-vor-und-will-persoenliche-superintelligenz-skalieren/",
-      "date": "2026-04-08T17:14:03.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Stability AI bringt Brand Studio für markenkonformen KI-Content",
-      "description": "Stability AI setzt auf Marken-KI: Das neue \"Brand Studio\" soll Kreativteams helfen, KI-Bilder an die eigene Markenidentität anzupassen: mit eigenen Modellen, automatischen Produktionsplänen und geziel",
-      "link": "https://the-decoder.de/stability-ai-bringt-brand-studio-fuer-markenkonformen-ki-content/",
-      "date": "2026-04-08T16:15:42.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
     },
     {
       "title": "The next phase of enterprise AI",
