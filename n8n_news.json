@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-04-11T06:28:43.605Z",
+  "lastUpdated": "2026-04-11T08:17:46.243Z",
   "news": [
+    {
+      "title": "Brandanschlag auf Sam Altman: Molotow-Cocktail prallt an Haus von OpenAI-Chef ab",
+      "description": "OpenAI-CEO Sam Altman wurde nachts mit einem Molotow-Cocktail angegriffen. Als Reaktion räumt er in einem persönlichen Blogpost Fehler ein und vergleicht die KI-Branche mit dem \"Ring der Macht\".\nDer A",
+      "link": "https://the-decoder.de/brandanschlag-auf-sam-altman-molotow-cocktail-prallt-an-haus-von-openai-chef-ab/",
+      "date": "2026-04-11T08:09:58.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Deepmind-Chef vergleicht AGI-Ankunft mit einer zehnfach beschleunigten industriellen Revolution",
       "description": "Deepmind-Chef Demis Hassabis hält AGI innerhalb von fünf Jahren für realistisch. Die Auswirkungen vergleicht er mit dem Zehnfachen der industriellen Revolution. Trotzdem werde KI noch immer kurzfristi",
@@ -122,15 +131,6 @@
       "title": "Writing with ChatGPT",
       "description": "Learn how to use ChatGPT for writing to draft, revise, and refine content with clear structure, tone, and intent.",
       "link": "https://openai.com/academy/writing",
-      "date": "2026-04-10T00:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "ChatGPT for research",
-      "description": "Learn how to use ChatGPT for research to gather sources, analyze information, and create structured, citation-backed insights.",
-      "link": "https://openai.com/academy/research",
       "date": "2026-04-10T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
