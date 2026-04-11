@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-11T00:40:57.647Z",
+  "lastUpdated": "2026-04-11T03:08:24.632Z",
   "news": [
     {
       "title": "Deepmind-Chef vergleicht AGI-Ankunft mit einer zehnfach beschleunigten industriellen Revolution",
@@ -56,27 +56,36 @@
       "language": "de"
     },
     {
-      "title": "Research with ChatGPT",
-      "description": "Learn how to research with ChatGPT using search and deep research to find up-to-date information, analyze sources, and generate structured insights.",
-      "link": "https://openai.com/academy/search-and-deep-research",
-      "date": "2026-04-10T00:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "Working with files in ChatGPT",
-      "description": "Learn how to upload and work with files in ChatGPT to analyze data, summarize documents, and generate content from PDFs, spreadsheets, and more.",
-      "link": "https://openai.com/academy/working-with-files",
-      "date": "2026-04-10T00:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
       "title": "Using custom GPTs",
       "description": "Learn how to build and use custom GPTs to automate workflows, maintain consistent outputs, and create purpose-built AI assistants.",
       "link": "https://openai.com/academy/custom-gpts",
+      "date": "2026-04-10T00:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
+      "title": "ChatGPT for customer success teams",
+      "description": "Learn how customer success teams use ChatGPT to manage accounts, improve communication, reduce churn, and drive adoption and renewals.",
+      "link": "https://openai.com/academy/customer-success",
+      "date": "2026-04-10T00:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
+      "title": "Applications of AI at OpenAI",
+      "description": "Explore how OpenAI products like ChatGPT, Codex, and APIs bring AI into real-world use for work, development, and everyday tasks.",
+      "link": "https://openai.com/academy/applications-of-ai",
+      "date": "2026-04-10T00:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
+      "title": "Research with ChatGPT",
+      "description": "Learn how to research with ChatGPT using search and deep research to find up-to-date information, analyze sources, and generate structured insights.",
+      "link": "https://openai.com/academy/search-and-deep-research",
       "date": "2026-04-10T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
@@ -92,9 +101,27 @@
       "language": "en"
     },
     {
-      "title": "Prompting fundamentals",
-      "description": "Learn prompting fundamentals and how to write clear, effective prompts to get better, more useful responses from ChatGPT.",
-      "link": "https://openai.com/academy/prompting",
+      "title": "Financial services",
+      "description": "Explore AI resources for financial services, including prompt packs, GPTs, guides, and tools to help institutions deploy and scale AI securely.",
+      "link": "https://openai.com/academy/financial-services",
+      "date": "2026-04-10T00:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
+      "title": "Responsible and safe use of AI",
+      "description": "Learn how to use AI responsibly with best practices for safety, accuracy, and transparency when using tools like ChatGPT.",
+      "link": "https://openai.com/academy/responsible-and-safe-use",
+      "date": "2026-04-10T00:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
+      "title": "Writing with ChatGPT",
+      "description": "Learn how to use ChatGPT for writing to draft, revise, and refine content with clear structure, tone, and intent.",
+      "link": "https://openai.com/academy/writing",
       "date": "2026-04-10T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
@@ -104,33 +131,6 @@
       "title": "ChatGPT for research",
       "description": "Learn how to use ChatGPT for research to gather sources, analyze information, and create structured, citation-backed insights.",
       "link": "https://openai.com/academy/research",
-      "date": "2026-04-10T00:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "ChatGPT for sales teams",
-      "description": "Learn how sales teams use ChatGPT to research accounts, personalize outreach, manage deals, and improve pipeline and conversion.",
-      "link": "https://openai.com/academy/sales",
-      "date": "2026-04-10T00:00:00.000Z",
-      "source": "OpenAI",
-      "category": "sales-tools",
-      "language": "en"
-    },
-    {
-      "title": "Using skills",
-      "description": "Learn how to create and use ChatGPT skills to build reusable workflows, automate recurring tasks, and ensure consistent, high-quality outputs.",
-      "link": "https://openai.com/academy/skills",
-      "date": "2026-04-10T00:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "Applications of AI at OpenAI",
-      "description": "Explore how OpenAI products like ChatGPT, Codex, and APIs bring AI into real-world use for work, development, and everyday tasks.",
-      "link": "https://openai.com/academy/applications-of-ai",
       "date": "2026-04-10T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
