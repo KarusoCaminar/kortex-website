@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-04-11T12:17:46.420Z",
+  "lastUpdated": "2026-04-11T14:16:02.742Z",
   "news": [
+    {
+      "title": "Brandanschlag auf Sam Altman: Molotowcocktail trifft Metalltor am Haus von OpenAI-Chef in San Francisco",
+      "description": "OpenAI-CEO Sam Altmans Haus wurde nachts mit einem Molotow-Cocktail beworfen. In einem persönlichen Blogpost teilt er ein Familienfoto, räumt Fehler ein und vergleicht die KI-Branche mit dem \"Ring der",
+      "link": "https://the-decoder.de/brandanschlag-auf-sam-altman-molotowcocktail-trifft-metalltor-am-haus-von-openai-chef-in-san-francisco/",
+      "date": "2026-04-11T13:30:58.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Gemma 4 ausprobieren: Googles neue KI läuft direkt auf dem Handy",
+      "description": "Googles neues Open-Source-Modell Gemma 4 verarbeitet Text, Bilder und Audio komplett lokal auf dem Smartphone. Über sogenannte Agent-Skills kann die KI sogar eigenständig Werkzeuge wie Wikipedia oder",
+      "link": "https://the-decoder.de/gemma-4-ausprobieren-googles-neue-ki-laeuft-direkt-auf-dem-handy/",
+      "date": "2026-04-11T13:04:59.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "KI-Agent diffamiert Entwickler: Anonymer Betreiber spricht von Sozialexperiment",
       "description": "Die anonyme Person hinter dem KI-Agenten \"MJ Rathbun\", der einen Open-Source-Entwickler diffamierte, hat sich gemeldet. Ihre Erklärung wirft mehr Fragen auf, als sie beantwortet.\nDer Artikel KI-Agent",
@@ -38,15 +56,6 @@
       "language": "de"
     },
     {
-      "title": "Brandanschlag auf Sam Altman: Molotow-Cocktail prallt an Haus von OpenAI-Chef ab",
-      "description": "OpenAI-CEO Sam Altmans Haus wurde nachts mit einem Molotow-Cocktail beworfen. In einem persönlichen Blogpost teilt er ein Familienfoto, räumt Fehler ein und vergleicht die KI-Branche mit dem \"Ring der",
-      "link": "https://the-decoder.de/brandanschlag-auf-sam-altman-molotow-cocktail-prallt-an-haus-von-openai-chef-ab/",
-      "date": "2026-04-11T08:09:58.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "Deepmind-Chef vergleicht AGI-Ankunft mit einer zehnfach beschleunigten industriellen Revolution",
       "description": "Deepmind-Chef Demis Hassabis hält AGI innerhalb von fünf Jahren für realistisch. Die Auswirkungen vergleicht er mit dem Zehnfachen der industriellen Revolution. Trotzdem werde KI noch immer kurzfristi",
       "link": "https://the-decoder.de/deepmind-chef-vergleicht-agi-ankunft-mit-einer-zehnfach-beschleunigten-industriellen-revolution/",
@@ -78,15 +87,6 @@
       "description": "OpenAI erklärt Investoren, dass der frühe Infrastrukturausbau einen entscheidenden Vorteil gegenüber Anthropic biete. Gleichzeitig legt das Unternehmen sein britisches Rechenzentrum auf Eis, während A",
       "link": "https://the-decoder.de/openai-wirbt-bei-investoren-mit-infrastrukturvorsprung-gegenueber-anthropic/",
       "date": "2026-04-10T10:48:51.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "KI-Fortschritt: Warum Sprachmodelle komplexe Codes knacken, aber simple Fragen vermasseln",
-      "description": "KI-Modelle lösen komplexe Programmieraufgaben in Stunden, scheitern aber an simplen Alltagsfragen. Das ist kein Widerspruch – dahinter verbirgt sich eine grundlegende Debatte über die Zukunft der KI,",
-      "link": "https://the-decoder.de/ki-fortschritt-warum-sprachmodelle-komplexe-codes-knacken-aber-simple-fragen-vermasseln/",
-      "date": "2026-04-10T10:36:41.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
