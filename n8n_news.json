@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-11T18:15:31.845Z",
+  "lastUpdated": "2026-04-11T20:10:56.774Z",
   "news": [
     {
       "title": "Brandanschlag auf Sam Altman: Molotowcocktail trifft Metalltor am Haus von OpenAI-Chef in San Francisco",
@@ -92,9 +92,18 @@
       "language": "de"
     },
     {
-      "title": "Responsible and safe use of AI",
-      "description": "Learn how to use AI responsibly with best practices for safety, accuracy, and transparency when using tools like ChatGPT.",
-      "link": "https://openai.com/academy/responsible-and-safe-use",
+      "title": "Healthcare",
+      "description": "Explore how clinicians use ChatGPT to support diagnosis, documentation, and patient care with secure, HIPAA-compliant AI tools.",
+      "link": "https://openai.com/academy/healthcare",
+      "date": "2026-04-10T00:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
+      "title": "Using skills",
+      "description": "Learn how to create and use ChatGPT skills to build reusable workflows, automate recurring tasks, and ensure consistent, high-quality outputs.",
+      "link": "https://openai.com/academy/skills",
       "date": "2026-04-10T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
@@ -110,27 +119,18 @@
       "language": "en"
     },
     {
-      "title": "Getting started with ChatGPT",
-      "description": "Learn how to use ChatGPT, start your first conversation, and discover simple ways to write, brainstorm, and solve problems with AI.",
-      "link": "https://openai.com/academy/getting-started",
-      "date": "2026-04-10T00:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "ChatGPT for operations teams",
-      "description": "Learn how operations teams use ChatGPT to streamline workflows, improve coordination, standardize processes, and drive faster execution.",
-      "link": "https://openai.com/academy/operations",
-      "date": "2026-04-10T00:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
       "title": "Writing with ChatGPT",
       "description": "Learn how to use ChatGPT for writing to draft, revise, and refine content with clear structure, tone, and intent.",
       "link": "https://openai.com/academy/writing",
+      "date": "2026-04-10T00:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
+      "title": "ChatGPT for marketing teams",
+      "description": "Learn how marketing teams use ChatGPT to plan campaigns, generate content, analyze performance, and move from ideas to execution faster.",
+      "link": "https://openai.com/academy/marketing",
       "date": "2026-04-10T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
