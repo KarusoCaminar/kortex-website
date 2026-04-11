@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-04-11T10:14:24.668Z",
+  "lastUpdated": "2026-04-11T12:17:46.420Z",
   "news": [
+    {
+      "title": "KI-Agent diffamiert Entwickler: Anonymer Betreiber spricht von Sozialexperiment",
+      "description": "Die anonyme Person hinter dem KI-Agenten \"MJ Rathbun\", der einen Open-Source-Entwickler diffamierte, hat sich gemeldet. Ihre Erklärung wirft mehr Fragen auf, als sie beantwortet.\nDer Artikel KI-Agent",
+      "link": "https://the-decoder.de/ki-agent-diffamiert-entwickler-anonymer-betreiber-spricht-von-sozialexperiment/",
+      "date": "2026-04-11T11:00:21.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Overworlds Waypoint-1.5 bringt interaktive KI-Welten auf Mac und Windows",
       "description": "Overworld will mit Waypoint-1.5 KI-generierte Welten auf handelsübliche PCs und Macs bringen. Was das System kann und wo man es ausprobieren kann.\nDer Artikel Overworlds Waypoint-1.5 bringt interaktiv",
@@ -78,15 +87,6 @@
       "description": "KI-Modelle lösen komplexe Programmieraufgaben in Stunden, scheitern aber an simplen Alltagsfragen. Das ist kein Widerspruch – dahinter verbirgt sich eine grundlegende Debatte über die Zukunft der KI,",
       "link": "https://the-decoder.de/ki-fortschritt-warum-sprachmodelle-komplexe-codes-knacken-aber-simple-fragen-vermasseln/",
       "date": "2026-04-10T10:36:41.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "OpenAI arbeitet an Cybersecurity-Produkt mit exklusivem Zugang für Sicherheitsteams",
-      "description": "OpenAI arbeitet laut Axios an einem neuen Cybersecurity-Produkt, das nur einer kleinen Gruppe von Unternehmen zugänglich gemacht werden soll.\nDer Artikel OpenAI arbeitet an Cybersecurity-Produkt mit e",
-      "link": "https://the-decoder.de/openai-arbeitet-an-cybersecurity-produkt-mit-exklusivem-zugang-fuer-sicherheitsteams/",
-      "date": "2026-04-10T08:59:26.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
