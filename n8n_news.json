@@ -1,11 +1,20 @@
 {
-  "lastUpdated": "2026-04-12T06:39:02.940Z",
+  "lastUpdated": "2026-04-12T08:22:29.860Z",
   "news": [
     {
-      "title": "Brandanschlag auf Sam Altman: Molotowcocktail trifft Metalltor am Haus von OpenAI-Chef in San Francisco",
-      "description": "OpenAI-CEO Sam Altmans Haus wurde nachts mit einem Molotow-Cocktail beworfen. In einem persönlichen Blogpost teilt er ein Familienfoto, räumt Fehler ein und vergleicht die KI-Branche mit dem \"Ring der",
-      "link": "https://the-decoder.de/brandanschlag-auf-sam-altman-molotowcocktail-trifft-metalltor-am-haus-von-openai-chef-in-san-francisco/",
-      "date": "2026-04-11T13:30:58.000Z",
+      "title": "Mutmaßlicher Brandstifter bei OpenAI-Chef war Anhänger der Protestgruppe Pause AI",
+      "description": "OpenAI-CEO Sam Altmans Haus wurde nachts mit einem Brandsatz angegriffen. Der Verdächtige war offenbar Anhänger der \"Pause AI\"-Bewegung und warnte in Online-Beiträgen vor dem Aussterben der Menschheit",
+      "link": "https://the-decoder.de/mutmasslicher-brandstifter-bei-openai-chef-war-anhaenger-der-protestgruppe-pause-ai/",
+      "date": "2026-04-12T08:10:58.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Stalking-Opfer verklagt OpenAI: ChatGPT soll Wahnvorstellungen des Täters befeuert haben",
+      "description": "Eine Frau aus Kalifornien verklagt OpenAI: Der Chatbot GPT-4o soll die Wahnvorstellungen ihres Ex-Freundes aktiv befeuert und ihm bei einer systematischen Stalking-Kampagne geholfen haben. Obwohl das",
+      "link": "https://the-decoder.de/stalking-opfer-verklagt-openai-chatgpt-soll-wahnvorstellungen-des-taeters-befeuert-haben/",
+      "date": "2026-04-12T07:29:23.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
@@ -83,54 +92,45 @@
       "language": "de"
     },
     {
-      "title": "OpenAI wirbt bei Investoren mit Infrastrukturvorsprung gegenüber Anthropic",
-      "description": "OpenAI erklärt Investoren, dass der frühe Infrastrukturausbau einen entscheidenden Vorteil gegenüber Anthropic biete. Gleichzeitig legt das Unternehmen sein britisches Rechenzentrum auf Eis, während A",
-      "link": "https://the-decoder.de/openai-wirbt-bei-investoren-mit-infrastrukturvorsprung-gegenueber-anthropic/",
-      "date": "2026-04-10T10:48:51.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Getting started with ChatGPT",
-      "description": "Learn how to use ChatGPT, start your first conversation, and discover simple ways to write, brainstorm, and solve problems with AI.",
-      "link": "https://openai.com/academy/getting-started",
+      "title": "Using projects in ChatGPT",
+      "description": "Learn how to use orojects in ChatGPT to organize chats, files, and instructions, manage ongoing work, and collaborate more effectively.",
+      "link": "https://openai.com/academy/projects",
       "date": "2026-04-10T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
     },
     {
-      "title": "Brainstorming with ChatGPT",
-      "description": "Learn how to use ChatGPT to brainstorm ideas, organize thinking, and turn rough concepts into structured, actionable plans.",
-      "link": "https://openai.com/academy/brainstorming",
+      "title": "ChatGPT for marketing teams",
+      "description": "Learn how marketing teams use ChatGPT to plan campaigns, generate content, analyze performance, and move from ideas to execution faster.",
+      "link": "https://openai.com/academy/marketing",
       "date": "2026-04-10T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
     },
     {
-      "title": "Writing with ChatGPT",
-      "description": "Learn how to use ChatGPT for writing to draft, revise, and refine content with clear structure, tone, and intent.",
-      "link": "https://openai.com/academy/writing",
+      "title": "Our response to the Axios developer tool compromise",
+      "description": "OpenAI responds to the Axios supply chain attack by rotating macOS code signing certificates, updating apps, and confirming no user data was compromised.",
+      "link": "https://openai.com/index/axios-developer-tool-compromise",
       "date": "2026-04-10T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
     },
     {
-      "title": "ChatGPT for research",
-      "description": "Learn how to use ChatGPT for research to gather sources, analyze information, and create structured, citation-backed insights.",
-      "link": "https://openai.com/academy/research",
+      "title": "Using custom GPTs",
+      "description": "Learn how to build and use custom GPTs to automate workflows, maintain consistent outputs, and create purpose-built AI assistants.",
+      "link": "https://openai.com/academy/custom-gpts",
       "date": "2026-04-10T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
     },
     {
-      "title": "Responsible and safe use of AI",
-      "description": "Learn how to use AI responsibly with best practices for safety, accuracy, and transparency when using tools like ChatGPT.",
-      "link": "https://openai.com/academy/responsible-and-safe-use",
+      "title": "Analyzing data with ChatGPT",
+      "description": "Learn how to analyze data with ChatGPT by exploring datasets, generating insights, creating visualizations, and turning findings into actionable decisions.",
+      "link": "https://openai.com/academy/data-analysis",
       "date": "2026-04-10T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
