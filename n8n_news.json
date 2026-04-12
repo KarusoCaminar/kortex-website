@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-04-12T12:18:59.250Z",
+  "lastUpdated": "2026-04-12T14:18:10.279Z",
   "news": [
+    {
+      "title": "OpenAI-Mitarbeiter erklärt Nutzungslimits der neuen ChatGPT-Pro-Pläne",
+      "description": "OpenAI hat kürzlich sein Bezahlangebot um einen 100-Dollar-Plan erweitert. Die Preisseite sorgte jedoch für Verwirrung über die tatsächlichen Nutzungslimits. Ein OpenAI-Mitarbeiter versucht nun, Klarh",
+      "link": "https://the-decoder.de/openai-mitarbeiter-erklaert-nutzungslimits-der-neuen-chatgpt-pro-plaene/",
+      "date": "2026-04-12T13:24:38.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Anthropic sucht bei christlichen Religionsführern Rat für Claudes moralisches und spirituelles Verhalten",
       "description": "Kann eine KI ein \"Kind Gottes\" sein? Anthropic fragt christliche Führungspersonen aus Kirche, Wissenschaft und Wirtschaft um Rat.\nDer Artikel Anthropic sucht bei christlichen Religionsführern Rat für",
@@ -69,15 +78,6 @@
       "description": "Overworld will mit Waypoint-1.5 KI-generierte Welten auf handelsübliche PCs und Macs bringen. Was das System kann und wo man es ausprobieren kann.\nDer Artikel Overworlds Waypoint-1.5 bringt interaktiv",
       "link": "https://the-decoder.de/overworlds-waypoint-1-5-bringt-interaktive-ki-welten-auf-mac-und-windows/",
       "date": "2026-04-11T10:08:05.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Benchmark zeigt: Wenn KI-Modellen visuelle Daten fehlen, wird einfach geraten",
-      "description": "ProactiveBench testet, ob multimodale Sprachmodelle bei unzureichenden visuellen Informationen um Hilfe bitten. 22 getestete Modelle zeigen kaum proaktives Verhalten. Ein einfaches Reinforcement-Learn",
-      "link": "https://the-decoder.de/benchmark-zeigt-wenn-ki-modellen-visuelle-daten-fehlen-wird-einfach-geraten/",
-      "date": "2026-04-11T09:25:49.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
