@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-04-12T08:22:29.860Z",
+  "lastUpdated": "2026-04-12T10:18:27.882Z",
   "news": [
+    {
+      "title": "Nächste Studie verpasst Hype um \"Agent Skills\" einen Dämpfer",
+      "description": "KI-Agenten sollen durch sogenannte Skills zusätzliches Fachwissen abrufen können. Eine Studie mit 34.000 realen Skills zeigt nun: Unter praxisnahen Bedingungen bringen die Erweiterungen kaum Vorteile.",
+      "link": "https://the-decoder.de/naechste-studie-verpasst-hype-um-agent-skills-einen-daempfer/",
+      "date": "2026-04-12T10:09:30.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "US-Start-up Arcee AI fordert mit offenem 400B-Modell chinesische KI-Labore heraus",
+      "description": "Das Start-up Arcee AI hat mit Trinity-Large-Thinking ein offenes Reasoning-Modell veröffentlicht, das bei Agenten-Aufgaben mit Claude Opus konkurrieren soll. Das Unternehmen steckte dafür rund die Häl",
+      "link": "https://the-decoder.de/us-start-up-arcee-ai-fordert-mit-offenem-400b-modell-chinesische-ki-labore-heraus/",
+      "date": "2026-04-12T08:50:26.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Mutmaßlicher Brandstifter bei OpenAI-Chef war Anhänger der Protestgruppe Pause AI",
       "description": "OpenAI-CEO Sam Altmans Haus wurde nachts mit einem Brandsatz angegriffen. Der Verdächtige war offenbar Anhänger der \"Pause AI\"-Bewegung und warnte in Online-Beiträgen vor dem Aussterben der Menschheit",
@@ -71,24 +89,6 @@
       "date": "2026-04-10T18:48:18.000Z",
       "source": "The Decoder",
       "category": "industrie-4.0",
-      "language": "de"
-    },
-    {
-      "title": "US-Geheimdienst CIA will KI-Assistenten in alle Analyseplattformen einbauen",
-      "description": "Laut CIA-Vizechef Michael Ellis hat die Behörde kürzlich ihren ersten vollständig autonom erstellten Geheimdienstbericht mithilfe von KI produziert, wie Politico berichtet.\nDer Artikel US-Geheimdienst",
-      "link": "https://the-decoder.de/us-geheimdienst-cia-will-ki-assistenten-in-alle-analyseplattformen-einbauen/",
-      "date": "2026-04-10T14:02:25.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Coreweave sichert sich Cloud-Deal mit Anthropic und baut Kundenbasis weiter aus",
-      "description": "Coreweave hat einen mehrjährigen Cloud-Deal mit dem KI-Startup Anthropic abgeschlossen.\nDer Artikel Coreweave sichert sich Cloud-Deal mit Anthropic und baut Kundenbasis weiter aus erschien zuerst auf",
-      "link": "https://the-decoder.de/coreweave-sichert-sich-cloud-deal-mit-anthropic-und-baut-kundenbasis-weiter-aus/",
-      "date": "2026-04-10T13:40:45.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
       "language": "de"
     },
     {
