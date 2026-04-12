@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-04-12T10:18:27.882Z",
+  "lastUpdated": "2026-04-12T12:18:59.250Z",
   "news": [
+    {
+      "title": "Anthropic sucht bei christlichen Religionsführern Rat für Claudes moralisches und spirituelles Verhalten",
+      "description": "Kann eine KI ein \"Kind Gottes\" sein? Anthropic fragt christliche Führungspersonen aus Kirche, Wissenschaft und Wirtschaft um Rat.\nDer Artikel Anthropic sucht bei christlichen Religionsführern Rat für",
+      "link": "https://the-decoder.de/anthropic-sucht-bei-christlichen-religionsfuehrern-rat-fuer-claudes-moralisches-und-spirituelles-verhalten/",
+      "date": "2026-04-12T11:15:54.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Nächste Studie verpasst Hype um \"Agent Skills\" einen Dämpfer",
       "description": "KI-Agenten sollen durch sogenannte Skills zusätzliches Fachwissen abrufen können. Eine Studie mit 34.000 realen Skills zeigt nun: Unter praxisnahen Bedingungen bringen die Erweiterungen kaum Vorteile.",
@@ -74,24 +83,6 @@
       "language": "de"
     },
     {
-      "title": "Claude Code Ultraplan: Anthropic lagert KI-Programmierplanung in die Cloud aus",
-      "description": "Anthropic lagert die Planung von Code-Projekten in die Cloud aus: Mit Ultraplan erstellt Claude einen Umsetzungsplan im Browser, während das Terminal frei bleibt.\nDer Artikel Claude Code Ultraplan: An",
-      "link": "https://the-decoder.de/claude-code-ultraplan-anthropic-lagert-ki-programmierplanung-in-die-cloud-aus/",
-      "date": "2026-04-11T09:08:38.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Deepmind-Chef vergleicht AGI-Ankunft mit einer zehnfach beschleunigten industriellen Revolution",
-      "description": "Deepmind-Chef Demis Hassabis hält AGI innerhalb von fünf Jahren für realistisch. Die Auswirkungen vergleicht er mit dem Zehnfachen der industriellen Revolution. Trotzdem werde KI noch immer kurzfristi",
-      "link": "https://the-decoder.de/deepmind-chef-vergleicht-agi-ankunft-mit-einer-zehnfach-beschleunigten-industriellen-revolution/",
-      "date": "2026-04-10T18:48:18.000Z",
-      "source": "The Decoder",
-      "category": "industrie-4.0",
-      "language": "de"
-    },
-    {
       "title": "Using projects in ChatGPT",
       "description": "Learn how to use orojects in ChatGPT to organize chats, files, and instructions, manage ongoing work, and collaborate more effectively.",
       "link": "https://openai.com/academy/projects",
@@ -131,6 +122,15 @@
       "title": "Analyzing data with ChatGPT",
       "description": "Learn how to analyze data with ChatGPT by exploring datasets, generating insights, creating visualizations, and turning findings into actionable decisions.",
       "link": "https://openai.com/academy/data-analysis",
+      "date": "2026-04-10T00:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
+      "title": "Using skills",
+      "description": "Learn how to create and use ChatGPT skills to build reusable workflows, automate recurring tasks, and ensure consistent, high-quality outputs.",
+      "link": "https://openai.com/academy/skills",
       "date": "2026-04-10T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
