@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-04-12T14:18:10.279Z",
+  "lastUpdated": "2026-04-12T16:14:43.525Z",
   "news": [
+    {
+      "title": "Mutmaßlicher Brandstifter bei OpenAI-Chef hatte offenbar KI-Existenzängste",
+      "description": "OpenAI-CEO Sam Altmans Haus wurde mit einer Brandwaffe angegriffen. Der Verdächtige war offenbar Mitglied im Discord-Server der \"Pause AI\"-Bewegung und warnte in Online-Beiträgen vor dem Aussterben de",
+      "link": "https://the-decoder.de/mutmasslicher-brandstifter-bei-openai-chef-hatte-offenbar-ki-existenzaengste/",
+      "date": "2026-04-12T14:55:58.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "OpenAI-Mitarbeiter erklärt Nutzungslimits der neuen ChatGPT-Pro-Pläne",
       "description": "OpenAI hat kürzlich sein Bezahlangebot um einen 100-Dollar-Plan erweitert. Die Preisseite sorgte jedoch für Verwirrung über die tatsächlichen Nutzungslimits. Ein OpenAI-Mitarbeiter versucht nun, Klarh",
@@ -33,15 +42,6 @@
       "description": "Das Start-up Arcee AI hat mit Trinity-Large-Thinking ein offenes Reasoning-Modell veröffentlicht, das bei Agenten-Aufgaben mit Claude Opus konkurrieren soll. Das Unternehmen steckte dafür rund die Häl",
       "link": "https://the-decoder.de/us-start-up-arcee-ai-fordert-mit-offenem-400b-modell-chinesische-ki-labore-heraus/",
       "date": "2026-04-12T08:50:26.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Mutmaßlicher Brandstifter bei OpenAI-Chef war Anhänger der Protestgruppe Pause AI",
-      "description": "OpenAI-CEO Sam Altmans Haus wurde nachts mit einem Brandsatz angegriffen. Der Verdächtige war offenbar Anhänger der \"Pause AI\"-Bewegung und warnte in Online-Beiträgen vor dem Aussterben der Menschheit",
-      "link": "https://the-decoder.de/mutmasslicher-brandstifter-bei-openai-chef-war-anhaenger-der-protestgruppe-pause-ai/",
-      "date": "2026-04-12T08:10:58.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
