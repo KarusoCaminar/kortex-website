@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-04-13T14:40:08.402Z",
+  "lastUpdated": "2026-04-13T16:33:35.833Z",
   "news": [
+    {
+      "title": "Stanfords AI Index 2026: KI skaliert schneller, als die Welt sich anpassen kann",
+      "description": "Der AI Index Report 2026 von Stanford HAI dokumentiert Leistungssprünge bei KI-Modellen, eine geschlossene Lücke zwischen den USA und China und wachsende Sicherheitsprobleme. Gleichzeitig sinkt das Ve",
+      "link": "https://the-decoder.de/stanfords-ai-index-2026-ki-skaliert-schneller-als-die-welt-sich-anpassen-kann/",
+      "date": "2026-04-13T15:58:27.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Google bietet Ultra-Abonnenten ab sofort Videogenerierung mit Veo 3.1 Lite ohne zusätzliche Credit-Kosten",
+      "description": "Google bietet Ultra-Nutzern ab sofort eine neue Veo-3.1-Lite-Option ohne zusätzliche Credits an. Damit baut das Unternehmen seinen Vorsprung bei KI-Video weiter aus.\nDer Artikel Google bietet Ultra-Ab",
+      "link": "https://the-decoder.de/google-bietet-ultra-abonnenten-ab-sofort-videogenerierung-mit-veo-3-1-lite-ohne-zusaetzliche-credit-kosten/",
+      "date": "2026-04-13T15:54:30.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "KI-Branche geht die Rechenleistung aus: Ausfälle, Rationierung und steigende GPU-Preise",
       "description": "Die explodierende Nachfrage nach KI-Agenten trifft auf begrenzte Rechenkapazität. Anthropic kämpft mit Ausfällen, OpenAI kündigt das Ende von Sora an, und GPU-Preise steigen laut Marktdaten um fast 50",
@@ -83,15 +101,6 @@
       "language": "de"
     },
     {
-      "title": "Anthropic sucht bei christlichen Religionsführern Rat für Claudes moralisches und spirituelles Verhalten",
-      "description": "Kann eine KI ein \"Kind Gottes\" sein? Anthropic fragt christliche Führungspersonen aus Kirche, Wissenschaft und Wirtschaft um Rat.\nDer Artikel Anthropic sucht bei christlichen Religionsführern Rat für",
-      "link": "https://the-decoder.de/anthropic-sucht-bei-christlichen-religionsfuehrern-rat-fuer-claudes-moralisches-und-spirituelles-verhalten/",
-      "date": "2026-04-12T11:15:54.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "ChatGPT for operations teams",
       "description": "Learn how operations teams use ChatGPT to streamline workflows, improve coordination, standardize processes, and drive faster execution.",
       "link": "https://openai.com/academy/operations",
@@ -122,15 +131,6 @@
       "title": "Brainstorming with ChatGPT",
       "description": "Learn how to use ChatGPT to brainstorm ideas, organize thinking, and turn rough concepts into structured, actionable plans.",
       "link": "https://openai.com/academy/brainstorming",
-      "date": "2026-04-10T00:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "Our response to the Axios developer tool compromise",
-      "description": "OpenAI responds to the Axios supply chain attack by rotating macOS code signing certificates, updating apps, and confirming no user data was compromised.",
-      "link": "https://openai.com/index/axios-developer-tool-compromise",
       "date": "2026-04-10T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
