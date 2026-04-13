@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-04-13T12:32:04.989Z",
+  "lastUpdated": "2026-04-13T14:40:08.402Z",
   "news": [
+    {
+      "title": "KI-Branche geht die Rechenleistung aus: Ausfälle, Rationierung und steigende GPU-Preise",
+      "description": "Die explodierende Nachfrage nach KI-Agenten trifft auf begrenzte Rechenkapazität. Anthropic kämpft mit Ausfällen, OpenAI kündigt das Ende von Sora an, und GPU-Preise steigen laut Marktdaten um fast 50",
+      "link": "https://the-decoder.de/ki-branche-geht-die-rechenleistung-aus-ausfaelle-rationierung-und-steigende-gpu-preise/",
+      "date": "2026-04-13T13:22:33.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Stahlkonzerne, Autobauer und Banken sollen Japans Antwort auf die KI-Dominanz der USA und Chinas bauen",
       "description": "Softbank bündelt Japans Industrie-Elite, um ein eigenes KI-Fundament gegen die Abhängigkeit von US- und China-Modellen zu schaffen.\nDer Artikel Stahlkonzerne, Autobauer und Banken sollen Japans Antwor",
@@ -47,6 +56,15 @@
       "language": "de"
     },
     {
+      "title": "Enterprises power agentic workflows in Cloudflare Agent Cloud with OpenAI",
+      "description": "Cloudflare brings OpenAI’s GPT-5.4 and Codex to Agent Cloud, enabling enterprises to build, deploy, and scale AI agents for real-world tasks with speed and security.",
+      "link": "https://openai.com/index/cloudflare-openai-agent-cloud",
+      "date": "2026-04-13T06:00:00.000Z",
+      "source": "OpenAI",
+      "category": "workflow-tools",
+      "language": "en"
+    },
+    {
       "title": "Mutmaßlicher Brandstifter bei OpenAI-Chef hatte offenbar KI-Existenzängste",
       "description": "OpenAI-CEO Sam Altmans Haus wurde mit einer Brandwaffe angegriffen. Der Verdächtige war offenbar Mitglied im Discord-Server der \"Pause AI\"-Bewegung und warnte in Online-Beiträgen vor dem Aussterben de",
       "link": "https://the-decoder.de/mutmasslicher-brandstifter-bei-openai-chef-hatte-offenbar-ki-existenzaengste/",
@@ -74,18 +92,18 @@
       "language": "de"
     },
     {
-      "title": "Nächste Studie verpasst Hype um \"Agent Skills\" einen Dämpfer",
-      "description": "KI-Agenten sollen durch sogenannte Skills zusätzliches Fachwissen abrufen können. Eine Studie mit 34.000 realen Skills zeigt nun: Unter praxisnahen Bedingungen bringen die Erweiterungen kaum Vorteile.",
-      "link": "https://the-decoder.de/naechste-studie-verpasst-hype-um-agent-skills-einen-daempfer/",
-      "date": "2026-04-12T10:09:30.000Z",
-      "source": "The Decoder",
+      "title": "ChatGPT for operations teams",
+      "description": "Learn how operations teams use ChatGPT to streamline workflows, improve coordination, standardize processes, and drive faster execution.",
+      "link": "https://openai.com/academy/operations",
+      "date": "2026-04-10T00:00:00.000Z",
+      "source": "OpenAI",
       "category": "große-modelle",
-      "language": "de"
+      "language": "en"
     },
     {
-      "title": "Research with ChatGPT",
-      "description": "Learn how to research with ChatGPT using search and deep research to find up-to-date information, analyze sources, and generate structured insights.",
-      "link": "https://openai.com/academy/search-and-deep-research",
+      "title": "Applications of AI at OpenAI",
+      "description": "Explore how OpenAI products like ChatGPT, Codex, and APIs bring AI into real-world use for work, development, and everyday tasks.",
+      "link": "https://openai.com/academy/applications-of-ai",
       "date": "2026-04-10T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
@@ -101,36 +119,18 @@
       "language": "en"
     },
     {
-      "title": "ChatGPT for research",
-      "description": "Learn how to use ChatGPT for research to gather sources, analyze information, and create structured, citation-backed insights.",
-      "link": "https://openai.com/academy/research",
+      "title": "Brainstorming with ChatGPT",
+      "description": "Learn how to use ChatGPT to brainstorm ideas, organize thinking, and turn rough concepts into structured, actionable plans.",
+      "link": "https://openai.com/academy/brainstorming",
       "date": "2026-04-10T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
     },
     {
-      "title": "Financial services",
-      "description": "Explore AI resources for financial services, including prompt packs, GPTs, guides, and tools to help institutions deploy and scale AI securely.",
-      "link": "https://openai.com/academy/financial-services",
-      "date": "2026-04-10T00:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "Responsible and safe use of AI",
-      "description": "Learn how to use AI responsibly with best practices for safety, accuracy, and transparency when using tools like ChatGPT.",
-      "link": "https://openai.com/academy/responsible-and-safe-use",
-      "date": "2026-04-10T00:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "Prompting fundamentals",
-      "description": "Learn prompting fundamentals and how to write clear, effective prompts to get better, more useful responses from ChatGPT.",
-      "link": "https://openai.com/academy/prompting",
+      "title": "Our response to the Axios developer tool compromise",
+      "description": "OpenAI responds to the Axios supply chain attack by rotating macOS code signing certificates, updating apps, and confirming no user data was compromised.",
+      "link": "https://openai.com/index/axios-developer-tool-compromise",
       "date": "2026-04-10T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
