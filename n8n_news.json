@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-04-13T08:49:41.529Z",
+  "lastUpdated": "2026-04-13T10:38:27.990Z",
   "news": [
+    {
+      "title": "Trotz Stargate-Stopp baut OpenAI seine Präsenz in London massiv aus",
+      "description": "OpenAI eröffnet ein Büro in London mit Platz für über 500 Mitarbeiter - mehr als doppelt so viele wie die derzeit rund 200 Beschäftigten in der britischen Hauptstadt.\nDer Artikel Trotz Stargate-Stopp",
+      "link": "https://the-decoder.de/trotz-stargate-stopp-baut-openai-seine-praesenz-in-london-massiv-aus/",
+      "date": "2026-04-13T10:37:42.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Apple entwickelt KI-Wearable-Strategie mit Smart Glasses ohne Display",
+      "description": "Apple entwickelt laut Bloomberg-Reporter Mark Gurman Smart Glasses ohne Display, die als KI-Wearable dienen sollen.\nDer Artikel Apple entwickelt KI-Wearable-Strategie mit Smart Glasses ohne Display er",
+      "link": "https://the-decoder.de/apple-entwickelt-ki-wearable-strategie-mit-smart-glasses-ohne-display/",
+      "date": "2026-04-13T09:35:55.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Anthropic integriert Claude als Add-in in Microsoft Word",
       "description": "Anthropic bringt sein KI-Modell Claude direkt in Microsoft Word.\nDer Artikel Anthropic integriert Claude als Add-in in Microsoft Word erschien zuerst auf The Decoder.",
@@ -65,54 +83,9 @@
       "language": "de"
     },
     {
-      "title": "Stalking-Opfer verklagt OpenAI: ChatGPT soll Wahnvorstellungen des Täters befeuert haben",
-      "description": "Eine Frau aus Kalifornien verklagt OpenAI: Der Chatbot GPT-4o soll die Wahnvorstellungen ihres Ex-Freundes aktiv befeuert und ihm bei einer systematischen Stalking-Kampagne geholfen haben. Obwohl das",
-      "link": "https://the-decoder.de/stalking-opfer-verklagt-openai-chatgpt-soll-wahnvorstellungen-des-taeters-befeuert-haben/",
-      "date": "2026-04-12T07:29:23.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Gemma 4 ausprobieren: Googles neue KI läuft direkt auf dem Handy",
-      "description": "Googles neues Open-Source-Modell Gemma 4 verarbeitet Text, Bilder und Audio komplett lokal auf dem Smartphone. Über sogenannte Agent-Skills kann die KI sogar eigenständig Werkzeuge wie Wikipedia oder",
-      "link": "https://the-decoder.de/gemma-4-ausprobieren-googles-neue-ki-laeuft-direkt-auf-dem-handy/",
-      "date": "2026-04-11T13:04:59.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Using projects in ChatGPT",
-      "description": "Learn how to use orojects in ChatGPT to organize chats, files, and instructions, manage ongoing work, and collaborate more effectively.",
-      "link": "https://openai.com/academy/projects",
-      "date": "2026-04-10T00:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "ChatGPT for operations teams",
-      "description": "Learn how operations teams use ChatGPT to streamline workflows, improve coordination, standardize processes, and drive faster execution.",
-      "link": "https://openai.com/academy/operations",
-      "date": "2026-04-10T00:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "Healthcare",
-      "description": "Explore how clinicians use ChatGPT to support diagnosis, documentation, and patient care with secure, HIPAA-compliant AI tools.",
-      "link": "https://openai.com/academy/healthcare",
-      "date": "2026-04-10T00:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "Our response to the Axios developer tool compromise",
-      "description": "OpenAI responds to the Axios supply chain attack by rotating macOS code signing certificates, updating apps, and confirming no user data was compromised.",
-      "link": "https://openai.com/index/axios-developer-tool-compromise",
+      "title": "Research with ChatGPT",
+      "description": "Learn how to research with ChatGPT using search and deep research to find up-to-date information, analyze sources, and generate structured insights.",
+      "link": "https://openai.com/academy/search-and-deep-research",
       "date": "2026-04-10T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
@@ -128,9 +101,36 @@
       "language": "en"
     },
     {
-      "title": "Research with ChatGPT",
-      "description": "Learn how to research with ChatGPT using search and deep research to find up-to-date information, analyze sources, and generate structured insights.",
-      "link": "https://openai.com/academy/search-and-deep-research",
+      "title": "ChatGPT for research",
+      "description": "Learn how to use ChatGPT for research to gather sources, analyze information, and create structured, citation-backed insights.",
+      "link": "https://openai.com/academy/research",
+      "date": "2026-04-10T00:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
+      "title": "Financial services",
+      "description": "Explore AI resources for financial services, including prompt packs, GPTs, guides, and tools to help institutions deploy and scale AI securely.",
+      "link": "https://openai.com/academy/financial-services",
+      "date": "2026-04-10T00:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
+      "title": "Responsible and safe use of AI",
+      "description": "Learn how to use AI responsibly with best practices for safety, accuracy, and transparency when using tools like ChatGPT.",
+      "link": "https://openai.com/academy/responsible-and-safe-use",
+      "date": "2026-04-10T00:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
+      "title": "Prompting fundamentals",
+      "description": "Learn prompting fundamentals and how to write clear, effective prompts to get better, more useful responses from ChatGPT.",
+      "link": "https://openai.com/academy/prompting",
       "date": "2026-04-10T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
