@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-04-13T10:38:27.990Z",
+  "lastUpdated": "2026-04-13T12:32:04.989Z",
   "news": [
+    {
+      "title": "Stahlkonzerne, Autobauer und Banken sollen Japans Antwort auf die KI-Dominanz der USA und Chinas bauen",
+      "description": "Softbank bündelt Japans Industrie-Elite, um ein eigenes KI-Fundament gegen die Abhängigkeit von US- und China-Modellen zu schaffen.\nDer Artikel Stahlkonzerne, Autobauer und Banken sollen Japans Antwor",
+      "link": "https://the-decoder.de/stahlkonzerne-autobauer-und-banken-sollen-japans-antwort-auf-die-ki-dominanz-der-usa-und-chinas-bauen/",
+      "date": "2026-04-13T11:16:33.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Trotz Stargate-Stopp baut OpenAI seine Präsenz in London massiv aus",
       "description": "OpenAI eröffnet ein Büro in London mit Platz für über 500 Mitarbeiter - mehr als doppelt so viele wie die derzeit rund 200 Beschäftigten in der britischen Hauptstadt.\nDer Artikel Trotz Stargate-Stopp",
@@ -69,15 +78,6 @@
       "description": "KI-Agenten sollen durch sogenannte Skills zusätzliches Fachwissen abrufen können. Eine Studie mit 34.000 realen Skills zeigt nun: Unter praxisnahen Bedingungen bringen die Erweiterungen kaum Vorteile.",
       "link": "https://the-decoder.de/naechste-studie-verpasst-hype-um-agent-skills-einen-daempfer/",
       "date": "2026-04-12T10:09:30.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "US-Start-up Arcee AI fordert mit offenem 400B-Modell chinesische KI-Labore heraus",
-      "description": "Das Start-up Arcee AI hat mit Trinity-Large-Thinking ein offenes Reasoning-Modell veröffentlicht, das bei Agenten-Aufgaben mit Claude Opus konkurrieren soll. Das Unternehmen steckte dafür rund die Häl",
-      "link": "https://the-decoder.de/us-start-up-arcee-ai-fordert-mit-offenem-400b-modell-chinesische-ki-labore-heraus/",
-      "date": "2026-04-12T08:50:26.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
