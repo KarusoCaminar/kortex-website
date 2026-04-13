@@ -1,6 +1,33 @@
 {
-  "lastUpdated": "2026-04-13T16:33:35.833Z",
+  "lastUpdated": "2026-04-13T18:33:24.940Z",
   "news": [
+    {
+      "title": "OpenAIs neues KI-Modell \"Spud\" soll Grundlage für Super-App werden",
+      "description": "OpenAIs Umsatzchefin Denise Dresser legt in einem internen Memo fünf strategische Prioritäten für das Enterprise-Geschäft dar. Darin finden sich interne Codenames für neue Produkte, eine Plattform-Str",
+      "link": "https://the-decoder.de/openais-neues-ki-modell-spud-soll-grundlage-fuer-super-app-werden/",
+      "date": "2026-04-13T18:20:34.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Towards developing future-ready skills with generative AI",
+      "description": "Education Innovation",
+      "link": "https://research.google/blog/towards-developing-future-ready-skills-with-generative-ai/",
+      "date": "2026-04-13T18:15:59.000Z",
+      "source": "Google AI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
+      "title": "Neues KI-Modell LPM 1.0 macht aus Text, Audio und Bild sprechende Echtzeit-Avatare",
+      "description": "KI-Figuren, die in Echtzeit sprechen, zuhören und singen: LPM 1.0 macht aus einem einzigen Bild ein Video mit Mimik, Lippensynchronisation und emotionalen Reaktionen. Noch ist es nur ein Forschungspro",
+      "link": "https://the-decoder.de/neues-ki-modell-lpm-1-0-macht-aus-text-audio-und-bild-sprechende-echtzeit-avatare/",
+      "date": "2026-04-13T17:13:59.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Stanfords AI Index 2026: KI skaliert schneller, als die Welt sich anpassen kann",
       "description": "Der AI Index Report 2026 von Stanford HAI dokumentiert Leistungssprünge bei KI-Modellen, eine geschlossene Lücke zwischen den USA und China und wachsende Sicherheitsprobleme. Gleichzeitig sinkt das Ve",
@@ -83,24 +110,6 @@
       "language": "en"
     },
     {
-      "title": "Mutmaßlicher Brandstifter bei OpenAI-Chef hatte offenbar KI-Existenzängste",
-      "description": "OpenAI-CEO Sam Altmans Haus wurde mit einer Brandwaffe angegriffen. Der Verdächtige war offenbar Mitglied im Discord-Server der \"Pause AI\"-Bewegung und warnte in Online-Beiträgen vor dem Aussterben de",
-      "link": "https://the-decoder.de/mutmasslicher-brandstifter-bei-openai-chef-hatte-offenbar-ki-existenzaengste/",
-      "date": "2026-04-12T14:55:58.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "OpenAI-Mitarbeiter erklärt Nutzungslimits der neuen ChatGPT-Pro-Pläne",
-      "description": "OpenAI hat kürzlich sein Bezahlangebot um einen 100-Dollar-Plan erweitert. Die Preisseite sorgte jedoch für Verwirrung über die tatsächlichen Nutzungslimits. Ein OpenAI-Mitarbeiter versucht nun, Klarh",
-      "link": "https://the-decoder.de/openai-mitarbeiter-erklaert-nutzungslimits-der-neuen-chatgpt-pro-plaene/",
-      "date": "2026-04-12T13:24:38.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "ChatGPT for operations teams",
       "description": "Learn how operations teams use ChatGPT to streamline workflows, improve coordination, standardize processes, and drive faster execution.",
       "link": "https://openai.com/academy/operations",
@@ -122,15 +131,6 @@
       "title": "ChatGPT for finance teams",
       "description": "Learn how finance teams use ChatGPT to streamline reporting, analyze data, improve forecasts, and communicate insights more clearly.",
       "link": "https://openai.com/academy/finance",
-      "date": "2026-04-10T00:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "Brainstorming with ChatGPT",
-      "description": "Learn how to use ChatGPT to brainstorm ideas, organize thinking, and turn rough concepts into structured, actionable plans.",
-      "link": "https://openai.com/academy/brainstorming",
       "date": "2026-04-10T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
