@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-04-14T16:30:55.905Z",
+  "lastUpdated": "2026-04-14T18:31:46.450Z",
   "news": [
+    {
+      "title": "Google Chrome: Neue \"Skills\"-Funktion speichert häufig genutzte KI-Prompts",
+      "description": "Google bringt mit \"Skills\" eine neue Funktion in Chrome, die häufig genutzte KI-Prompts in wiederverwendbare Ein-Klick-Werkzeuge verwandelt. Statt denselben Prompt immer wieder einzutippen, speichern",
+      "link": "https://the-decoder.de/google-chrome-neue-skills-funktion-speichert-haeufig-genutzte-ki-prompts/",
+      "date": "2026-04-14T17:55:34.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Claude Code bekommt Routines für wiederkehrende Entwickleraufgaben",
+      "description": "Anthropic hat für Claude Code sogenannte \"Routines\" vorgestellt, also automatisierte Abläufe, die eigenständig Fehler beheben, Pull Requests prüfen oder auf Ereignisse reagieren können.\nDer Artikel Cl",
+      "link": "https://the-decoder.de/claude-code-bekommt-routines-fuer-wiederkehrende-entwickleraufgaben/",
+      "date": "2026-04-14T17:07:46.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Ukrainische Bodenroboter erobern erstmals feindliche Stellung ohne einen einzigen Soldaten",
       "description": "Präsident Zelenskyy verkündet einen historischen Meilenstein: Eine russische Position wurde ausschließlich von unbemannten Systemen eingenommen. Ein CSIS-Bericht zeigt, wie KI die ukrainische Kriegsfü",
@@ -78,24 +96,6 @@
       "description": "Google bietet Ultra-Nutzern ab sofort eine neue Veo-3.1-Lite-Option ohne zusätzliche Credits an. Damit baut das Unternehmen seinen Vorsprung bei KI-Video weiter aus.\nDer Artikel Google bietet Ultra-Ab",
       "link": "https://the-decoder.de/google-bietet-ultra-abonnenten-ab-sofort-videogenerierung-mit-veo-3-1-lite-ohne-zusaetzliche-credit-kosten/",
       "date": "2026-04-13T15:54:30.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "KI-Branche geht die Rechenleistung aus: Ausfälle, Rationierung und steigende GPU-Preise",
-      "description": "Die explodierende Nachfrage nach KI-Agenten trifft auf begrenzte Rechenkapazität. Anthropic kämpft mit Ausfällen, OpenAI kündigt das Ende von Sora an, und GPU-Preise steigen laut Marktdaten um fast 50",
-      "link": "https://the-decoder.de/ki-branche-geht-die-rechenleistung-aus-ausfaelle-rationierung-und-steigende-gpu-preise/",
-      "date": "2026-04-13T13:22:33.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Stahlkonzerne, Autobauer und Banken sollen Japans Antwort auf die KI-Dominanz der USA und Chinas bauen",
-      "description": "Softbank bündelt Japans Industrie-Elite, um ein eigenes KI-Fundament gegen die Abhängigkeit von US- und China-Modellen zu schaffen.\nDer Artikel Stahlkonzerne, Autobauer und Banken sollen Japans Antwor",
-      "link": "https://the-decoder.de/stahlkonzerne-autobauer-und-banken-sollen-japans-antwort-auf-die-ki-dominanz-der-usa-und-chinas-bauen/",
-      "date": "2026-04-13T11:16:33.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
