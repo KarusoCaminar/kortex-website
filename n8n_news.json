@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-14T20:24:44.168Z",
+  "lastUpdated": "2026-04-14T22:20:13.160Z",
   "news": [
     {
       "title": "OpenAI-Präsident sieht radikalen Wandel durch KI und warnt vor disruptiven Folgen für Jobs",
@@ -119,18 +119,18 @@
       "language": "en"
     },
     {
-      "title": "Getting started with ChatGPT",
-      "description": "Learn how to use ChatGPT, start your first conversation, and discover simple ways to write, brainstorm, and solve problems with AI.",
-      "link": "https://openai.com/academy/getting-started",
+      "title": "ChatGPT for managers",
+      "description": "Learn how managers use ChatGPT to prepare for conversations, write clear feedback, stay organized, and improve team effectiveness.",
+      "link": "https://openai.com/academy/managers",
       "date": "2026-04-10T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
     },
     {
-      "title": "ChatGPT for operations teams",
-      "description": "Learn how operations teams use ChatGPT to streamline workflows, improve coordination, standardize processes, and drive faster execution.",
-      "link": "https://openai.com/academy/operations",
+      "title": "Analyzing data with ChatGPT",
+      "description": "Learn how to analyze data with ChatGPT by exploring datasets, generating insights, creating visualizations, and turning findings into actionable decisions.",
+      "link": "https://openai.com/academy/data-analysis",
       "date": "2026-04-10T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
