@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-04-14T10:34:29.815Z",
+  "lastUpdated": "2026-04-14T12:29:54.667Z",
   "news": [
+    {
+      "title": "KI-Cybersecurity: Anthropics Claude Mythos kann autonom Unternehmensnetzwerke hacken",
+      "description": "Das britische AI Security Institute, eine Behörde der britischen Regierung, hat Anthropics Claude Mythos Preview auf Cyber-Fähigkeiten getestet. Das Modell konnte erstmals eine vollständige Angriffssi",
+      "link": "https://the-decoder.de/ki-cybersecurity-anthropics-claude-mythos-kann-autonom-unternehmensnetzwerke-hacken/",
+      "date": "2026-04-14T10:40:48.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "OpenAI übernimmt KI-Finanz-Startup Hiro, das einen \"persönlichen CFO\" entwickelt hat",
       "description": "OpenAI übernimmt das Team des KI-Finanz-Startups Hiro. Der Dienst wird abgeschaltet, Nutzerdaten gelöscht.\nDer Artikel OpenAI übernimmt KI-Finanz-Startup Hiro, das einen \"persönlichen CFO\" entwickelt",
@@ -87,15 +96,6 @@
       "description": "Apple entwickelt laut Bloomberg-Reporter Mark Gurman Smart Glasses ohne Display, die als KI-Wearable dienen sollen.\nDer Artikel Apple entwickelt KI-Wearable-Strategie mit Smart Glasses ohne Display er",
       "link": "https://the-decoder.de/apple-entwickelt-ki-wearable-strategie-mit-smart-glasses-ohne-display/",
       "date": "2026-04-13T09:35:55.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Anthropic integriert Claude als Add-in in Microsoft Word",
-      "description": "Anthropic bringt sein KI-Modell Claude direkt in Microsoft Word.\nDer Artikel Anthropic integriert Claude als Add-in in Microsoft Word erschien zuerst auf The Decoder.",
-      "link": "https://the-decoder.de/anthropic-integriert-claude-als-add-in-in-microsoft-word/",
-      "date": "2026-04-13T08:27:35.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
