@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-04-14T06:44:47.342Z",
+  "lastUpdated": "2026-04-14T08:41:24.733Z",
   "news": [
+    {
+      "title": "OpenAI übernimmt KI-Finanz-Startup Hiro, das einen \"persönlichen CFO\" entwickelt hat",
+      "description": "OpenAI übernimmt das Team des KI-Finanz-Startups Hiro. Der Dienst wird abgeschaltet, Nutzerdaten gelöscht.\nDer Artikel OpenAI übernimmt KI-Finanz-Startup Hiro, das einen \"persönlichen CFO\" entwickelt",
+      "link": "https://the-decoder.de/openai-uebernimmt-ki-finanz-startup-hiro-das-einen-persoenlichen-cfo-entwickelt-hat/",
+      "date": "2026-04-14T08:13:12.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "OpenAIs neues KI-Modell \"Spud\" soll Grundlage für Super-App werden",
       "description": "OpenAIs Umsatzchefin Denise Dresser legt in einem internen Memo fünf strategische Prioritäten für das Enterprise-Geschäft dar. Darin finden sich interne Codenames für neue Produkte, eine Plattform-Str",
@@ -87,15 +96,6 @@
       "description": "Anthropic bringt sein KI-Modell Claude direkt in Microsoft Word.\nDer Artikel Anthropic integriert Claude als Add-in in Microsoft Word erschien zuerst auf The Decoder.",
       "link": "https://the-decoder.de/anthropic-integriert-claude-als-add-in-in-microsoft-word/",
       "date": "2026-04-13T08:27:35.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Gewalt gegen OpenAI-Chef: Zweiter Angriff auf Sam Altmans Haus innerhalb weniger Tage",
-      "description": "Das Wohnhaus von OpenAI-CEO Sam Altman in San Francisco wurde innerhalb von zwei Tagen zweimal attackiert. Nach einem Molotow-Cocktail am Freitag fielen am Sonntag Schüsse. Die Polizei hat drei Verdäc",
-      "link": "https://the-decoder.de/gewalt-gegen-openai-chef-zweiter-angriff-auf-sam-altmans-haus-innerhalb-weniger-tage/",
-      "date": "2026-04-13T07:32:38.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
