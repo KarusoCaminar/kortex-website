@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-04-14T12:29:54.667Z",
+  "lastUpdated": "2026-04-14T14:40:20.311Z",
   "news": [
+    {
+      "title": "Claude Mythos ist ein Weckruf für Europas KI-Sicherheitsarchitektur",
+      "description": "Das US-Unternehmen Anthropic schränkt den Zugang zu seinem neuen KI-Modell Claude Mythos aus Gründen der Cybersicherheit ein. Doch europäische Behörden haben bisher kaum Einblick. Das Vereinigte König",
+      "link": "https://the-decoder.de/claude-mythos-ist-ein-weckruf-fuer-europas-ki-sicherheitsarchitektur/",
+      "date": "2026-04-14T13:20:49.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "KI-Cybersecurity: Anthropics Claude Mythos kann autonom Unternehmensnetzwerke hacken",
       "description": "Das britische AI Security Institute, eine Behörde der britischen Regierung, hat Anthropics Claude Mythos Preview auf Cyber-Fähigkeiten getestet. Das Modell konnte erstmals eine vollständige Angriffssi",
@@ -87,15 +96,6 @@
       "description": "OpenAI eröffnet ein Büro in London mit Platz für über 500 Mitarbeiter - mehr als doppelt so viele wie die derzeit rund 200 Beschäftigten in der britischen Hauptstadt.\nDer Artikel Trotz Stargate-Stopp",
       "link": "https://the-decoder.de/trotz-stargate-stopp-baut-openai-seine-praesenz-in-london-massiv-aus/",
       "date": "2026-04-13T10:37:42.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Apple entwickelt KI-Wearable-Strategie mit Smart Glasses ohne Display",
-      "description": "Apple entwickelt laut Bloomberg-Reporter Mark Gurman Smart Glasses ohne Display, die als KI-Wearable dienen sollen.\nDer Artikel Apple entwickelt KI-Wearable-Strategie mit Smart Glasses ohne Display er",
-      "link": "https://the-decoder.de/apple-entwickelt-ki-wearable-strategie-mit-smart-glasses-ohne-display/",
-      "date": "2026-04-13T09:35:55.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
