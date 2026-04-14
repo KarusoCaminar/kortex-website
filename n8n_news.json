@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-04-14T14:40:20.311Z",
+  "lastUpdated": "2026-04-14T16:30:55.905Z",
   "news": [
+    {
+      "title": "Ukrainische Bodenroboter erobern erstmals feindliche Stellung ohne einen einzigen Soldaten",
+      "description": "Präsident Zelenskyy verkündet einen historischen Meilenstein: Eine russische Position wurde ausschließlich von unbemannten Systemen eingenommen. Ein CSIS-Bericht zeigt, wie KI die ukrainische Kriegsfü",
+      "link": "https://the-decoder.de/ukrainische-bodenroboter-erobern-erstmals-feindliche-stellung-ohne-einen-einzigen-soldaten/",
+      "date": "2026-04-14T15:30:43.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Claude Mythos ist ein Weckruf für Europas KI-Sicherheitsarchitektur",
       "description": "Das US-Unternehmen Anthropic schränkt den Zugang zu seinem neuen KI-Modell Claude Mythos aus Gründen der Cybersicherheit ein. Doch europäische Behörden haben bisher kaum Einblick. Das Vereinigte König",
@@ -87,15 +96,6 @@
       "description": "Softbank bündelt Japans Industrie-Elite, um ein eigenes KI-Fundament gegen die Abhängigkeit von US- und China-Modellen zu schaffen.\nDer Artikel Stahlkonzerne, Autobauer und Banken sollen Japans Antwor",
       "link": "https://the-decoder.de/stahlkonzerne-autobauer-und-banken-sollen-japans-antwort-auf-die-ki-dominanz-der-usa-und-chinas-bauen/",
       "date": "2026-04-13T11:16:33.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Trotz Stargate-Stopp baut OpenAI seine Präsenz in London massiv aus",
-      "description": "OpenAI eröffnet ein Büro in London mit Platz für über 500 Mitarbeiter - mehr als doppelt so viele wie die derzeit rund 200 Beschäftigten in der britischen Hauptstadt.\nDer Artikel Trotz Stargate-Stopp",
-      "link": "https://the-decoder.de/trotz-stargate-stopp-baut-openai-seine-praesenz-in-london-massiv-aus/",
-      "date": "2026-04-13T10:37:42.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
