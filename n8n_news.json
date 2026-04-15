@@ -1,6 +1,33 @@
 {
-  "lastUpdated": "2026-04-15T16:28:18.332Z",
+  "lastUpdated": "2026-04-15T18:34:39.415Z",
   "news": [
+    {
+      "title": "Adobe stellt neuen Firefly AI Assistant für komplexe kreative Workflows vor",
+      "description": "Adobe bringt mit dem Firefly AI Assistant einen KI-Agenten, der kreative Arbeitsabläufe über Apps wie Photoshop und Premiere per Chat steuert.\nDer Artikel Adobe stellt neuen Firefly AI Assistant für k",
+      "link": "https://the-decoder.de/adobe-stellt-neuen-firefly-ai-assistant-fuer-komplexe-kreative-workflows-vor/",
+      "date": "2026-04-15T18:30:44.000Z",
+      "source": "The Decoder",
+      "category": "workflow-tools",
+      "language": "de"
+    },
+    {
+      "title": "OpenAI aktualisiert Agents-SDK mit neuer Sandbox-Unterstützung für sicherere KI-Agenten",
+      "description": "OpenAI erweitert sein Agents SDK um Sandbox-Umgebungen und neue Werkzeuge. Entwickler können damit KI-Agenten bauen, die Dateien prüfen, Code schreiben und komplexe Aufgaben sicher in abgeschotteten B",
+      "link": "https://the-decoder.de/openai-aktualisiert-agents-sdk-mit-neuer-sandbox-unterstuetzung-fuer-sicherere-ki-agenten/",
+      "date": "2026-04-15T17:59:10.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Google neues Gemini 3.1 Flash TTS-Modell macht KI-Stimmen flexibler und dynamischer",
+      "description": "Google Gemini 3.1 Flash TTS wandelt Text in natürlich klingende Sprache um, unterstützt über 70 Sprachen und lässt sich per Audio-Tags gezielt steuern.\nDer Artikel Google neues Gemini 3.1 Flash TTS-Mo",
+      "link": "https://the-decoder.de/google-neues-gemini-3-1-flash-tts-modell-macht-ki-stimmen-flexibler-und-dynamischer/",
+      "date": "2026-04-15T17:41:07.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Anthropic bereitet Opus 4.7 und KI-Design-Tool vor, VCs bieten bis zu 800 Milliarden Dollar",
       "description": "Anthropic plant die Veröffentlichung eines neuen Modells und eines Design-Tools, das Adobe und Figma Konkurrenz machen soll. Gleichzeitig überbieten sich Risikokapitalgeber mit Bewertungsangeboten.\nDe",
@@ -38,6 +65,15 @@
       "language": "de"
     },
     {
+      "title": "The next evolution of the Agents SDK",
+      "description": "OpenAI updates the Agents SDK with native sandbox execution and a model-native harness, helping developers build secure, long-running agents across files and tools.",
+      "link": "https://openai.com/index/the-next-evolution-of-the-agents-sdk",
+      "date": "2026-04-15T10:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
       "title": "OpenAI bringt spezielles Cyber-Sicherheitsmodell heraus und weitet Zugang für Verteidiger aus",
       "description": "OpenAI veröffentlicht mit GPT-5.4-Cyber ein Modell, das gezielt für defensive Cybersicherheit trainiert wurde. Der Zugang bleibt vorerst auf verifizierte Sicherheitsexperten beschränkt.\nDer Artikel Op",
       "link": "https://the-decoder.de/openai-bringt-spezielles-cyber-sicherheitsmodell-heraus-und-weitet-zugang-fuer-verteidiger-aus/",
@@ -51,33 +87,6 @@
       "description": "KI-Arbeit soll künftig nicht mehr bedeuten, sich an den Computer anzupassen. Der Computer passt sich an den Menschen an, sagt OpenAI-Präsident Greg Brockman. \"Das ist disruptiv. Institutionen werden s",
       "link": "https://the-decoder.de/openai-praesident-sieht-radikalen-wandel-durch-ki-und-warnt-vor-disruptiven-folgen-fuer-jobs/",
       "date": "2026-04-14T18:44:39.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Google Chrome: Neue \"Skills\"-Funktion speichert häufig genutzte KI-Prompts",
-      "description": "Google bringt mit \"Skills\" eine neue Funktion in Chrome, die häufig genutzte KI-Prompts in wiederverwendbare Ein-Klick-Werkzeuge verwandelt. Statt denselben Prompt immer wieder einzutippen, speichern",
-      "link": "https://the-decoder.de/google-chrome-neue-skills-funktion-speichert-haeufig-genutzte-ki-prompts/",
-      "date": "2026-04-14T17:55:34.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Claude Code bekommt Routines für wiederkehrende Entwickleraufgaben",
-      "description": "Anthropic hat für Claude Code sogenannte \"Routines\" vorgestellt, also automatisierte Abläufe, die eigenständig Fehler beheben, Pull Requests prüfen oder auf Ereignisse reagieren können.\nDer Artikel Cl",
-      "link": "https://the-decoder.de/claude-code-bekommt-routines-fuer-wiederkehrende-entwickleraufgaben/",
-      "date": "2026-04-14T17:07:46.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Ukrainische Bodenroboter erobern erstmals feindliche Stellung ohne einen einzigen Soldaten",
-      "description": "Präsident Zelenskyy verkündet einen historischen Meilenstein: Eine russische Position wurde ausschließlich von unbemannten Systemen eingenommen. Ein CSIS-Bericht zeigt, wie KI die ukrainische Kriegsfü",
-      "link": "https://the-decoder.de/ukrainische-bodenroboter-erobern-erstmals-feindliche-stellung-ohne-einen-einzigen-soldaten/",
-      "date": "2026-04-14T15:30:43.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
@@ -110,27 +119,18 @@
       "language": "en"
     },
     {
-      "title": "Responsible and safe use of AI",
-      "description": "Learn how to use AI responsibly with best practices for safety, accuracy, and transparency when using tools like ChatGPT.",
-      "link": "https://openai.com/academy/responsible-and-safe-use",
+      "title": "Using projects in ChatGPT",
+      "description": "Learn how to use orojects in ChatGPT to organize chats, files, and instructions, manage ongoing work, and collaborate more effectively.",
+      "link": "https://openai.com/academy/projects",
       "date": "2026-04-10T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
     },
     {
-      "title": "Research with ChatGPT",
-      "description": "Learn how to research with ChatGPT using search and deep research to find up-to-date information, analyze sources, and generate structured insights.",
-      "link": "https://openai.com/academy/search-and-deep-research",
-      "date": "2026-04-10T00:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "Prompting fundamentals",
-      "description": "Learn prompting fundamentals and how to write clear, effective prompts to get better, more useful responses from ChatGPT.",
-      "link": "https://openai.com/academy/prompting",
+      "title": "Brainstorming with ChatGPT",
+      "description": "Learn how to use ChatGPT to brainstorm ideas, organize thinking, and turn rough concepts into structured, actionable plans.",
+      "link": "https://openai.com/academy/brainstorming",
       "date": "2026-04-10T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
