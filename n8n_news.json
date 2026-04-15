@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-15T03:11:08.720Z",
+  "lastUpdated": "2026-04-15T05:02:03.852Z",
   "news": [
     {
       "title": "OpenAI-Präsident sieht radikalen Wandel durch KI und warnt vor disruptiven Folgen für Jobs",
@@ -119,18 +119,18 @@
       "language": "en"
     },
     {
-      "title": "Healthcare",
-      "description": "Explore how clinicians use ChatGPT to support diagnosis, documentation, and patient care with secure, HIPAA-compliant AI tools.",
-      "link": "https://openai.com/academy/healthcare",
+      "title": "ChatGPT for finance teams",
+      "description": "Learn how finance teams use ChatGPT to streamline reporting, analyze data, improve forecasts, and communicate insights more clearly.",
+      "link": "https://openai.com/academy/finance",
       "date": "2026-04-10T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
     },
     {
-      "title": "Getting started with ChatGPT",
-      "description": "Learn how to use ChatGPT, start your first conversation, and discover simple ways to write, brainstorm, and solve problems with AI.",
-      "link": "https://openai.com/academy/getting-started",
+      "title": "ChatGPT for marketing teams",
+      "description": "Learn how marketing teams use ChatGPT to plan campaigns, generate content, analyze performance, and move from ideas to execution faster.",
+      "link": "https://openai.com/academy/marketing",
       "date": "2026-04-10T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
