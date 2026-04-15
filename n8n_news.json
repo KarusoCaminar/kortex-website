@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-04-15T10:32:35.960Z",
+  "lastUpdated": "2026-04-15T12:29:52.251Z",
   "news": [
+    {
+      "title": "OpenAIs Stargate-Offensive in Europa bröckelt weiter",
+      "description": "OpenAIs Stargate-Offensive in Europa schrumpft und Microsoft und Google übernehmen die Kapazitäten.\nDer Artikel OpenAIs Stargate-Offensive in Europa bröckelt weiter erschien zuerst auf The Decoder.",
+      "link": "https://the-decoder.de/openais-stargate-offensive-in-europa-broeckelt-weiter/",
+      "date": "2026-04-15T10:46:17.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "OpenAIs GPT-5.4 Pro löst offenbar eigenständig offenes Mathematikproblem Erdős #1196",
       "description": "GPT-5.4 Pro löst ein offenes Erdős-Problem in 80 Minuten. Terence Tao sieht darin einen sinnvollen Beitrag zur Mathematik.\nDer Artikel OpenAIs GPT-5.4 Pro löst offenbar eigenständig offenes Mathematik",
@@ -74,15 +83,6 @@
       "language": "de"
     },
     {
-      "title": "OpenAI übernimmt KI-Finanz-Startup Hiro, das einen \"persönlichen CFO\" entwickelt hat",
-      "description": "OpenAI übernimmt das Team des KI-Finanz-Startups Hiro. Der Dienst wird abgeschaltet, Nutzerdaten gelöscht.\nDer Artikel OpenAI übernimmt KI-Finanz-Startup Hiro, das einen \"persönlichen CFO\" entwickelt",
-      "link": "https://the-decoder.de/openai-uebernimmt-ki-finanz-startup-hiro-das-einen-persoenlichen-cfo-entwickelt-hat/",
-      "date": "2026-04-14T08:13:12.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "Trusted access for the next era of cyber defense",
       "description": "OpenAI expands its Trusted Access for Cyber program, introducing GPT-5.4-Cyber to vetted defenders and strengthening safeguards as AI cybersecurity capabilities advance.",
       "link": "https://openai.com/index/scaling-trusted-access-for-cyber-defense",
@@ -90,15 +90,6 @@
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
-    },
-    {
-      "title": "OpenAIs neues KI-Modell \"Spud\" soll Grundlage für Super-App werden",
-      "description": "OpenAIs Umsatzchefin Denise Dresser legt in einem internen Memo fünf strategische Prioritäten für das Enterprise-Geschäft dar. Darin finden sich interne Codenames für neue Produkte, eine Plattform-Str",
-      "link": "https://the-decoder.de/openais-neues-ki-modell-spud-soll-grundlage-fuer-super-app-werden/",
-      "date": "2026-04-13T18:20:34.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
     },
     {
       "title": "Towards developing future-ready skills with generative AI",
@@ -131,6 +122,15 @@
       "title": "Using projects in ChatGPT",
       "description": "Learn how to use orojects in ChatGPT to organize chats, files, and instructions, manage ongoing work, and collaborate more effectively.",
       "link": "https://openai.com/academy/projects",
+      "date": "2026-04-10T00:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
+      "title": "ChatGPT for managers",
+      "description": "Learn how managers use ChatGPT to prepare for conversations, write clear feedback, stay organized, and improve team effectiveness.",
+      "link": "https://openai.com/academy/managers",
       "date": "2026-04-10T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
