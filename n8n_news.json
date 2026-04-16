@@ -1,6 +1,33 @@
 {
-  "lastUpdated": "2026-04-16T14:42:07.388Z",
+  "lastUpdated": "2026-04-16T16:38:19.137Z",
   "news": [
+    {
+      "title": "OpenAI-Daten zeigen: Inzwischen nutzen mehr Frauen als Männer ChatGPT",
+      "description": "OpenAI veröffentlicht Daten zur Geschlechterverteilung bei ChatGPT, schätzt Chinas KI-Investitionen auf bis zu 125 Milliarden Dollar und erklärt Rechenleistung zum entscheidenden Wettbewerbsfaktor.\nDe",
+      "link": "https://the-decoder.de/openai-daten-zeigen-inzwischen-nutzen-mehr-frauen-als-maenner-chatgpt/",
+      "date": "2026-04-16T15:49:39.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Anthropic veröffentlicht Claude Opus 4.7 mit Coding-Fortschritten und gedrosselten Cyber-Fähigkeiten",
+      "description": "Anthropics neues Spitzenmodell Claude Opus 4.7 soll vor allem bei Programmieraufgaben einen großen Sprung machen. Beim Training hat das Unternehmen gezielt versucht, bestimmte Cybersicherheits-Fähigke",
+      "link": "https://the-decoder.de/anthropic-veroeffentlicht-claude-opus-4-7-mit-coding-fortschritten-und-gedrosselten-cyber-faehigkeiten/",
+      "date": "2026-04-16T15:46:49.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Nvidia will mit Lyra 2.0 Robotertraining in Simulationen skalieren",
+      "description": "Nvidia-Forscher stellen Lyra 2.0 vor, ein System, das aus einem einzelnen Foto große, zusammenhängende 3D-Umgebungen generiert. Die erzeugten Szenen lassen sich in Echtzeit erkunden und direkt in Robo",
+      "link": "https://the-decoder.de/nvidia-will-mit-lyra-2-0-robotertraining-in-simulationen-skalieren/",
+      "date": "2026-04-16T15:03:31.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Bytedance bringt KI-Videogenerator Seedance 2.0 in mehr als 100 Länder - aber nicht in die USA",
       "description": "ByteDance bringt sein KI-Videomodell Seedance 2.0 in über 100 Länder – aber nicht in die USA. Grund sind wohl Urheberrechtsstreitigkeiten mit Hollywood-Studios.\nDer Artikel Bytedance bringt KI-Videoge",
@@ -69,33 +96,6 @@
       "description": "OpenAI erweitert sein Agents SDK um Sandbox-Umgebungen und neue Werkzeuge. Entwickler können damit KI-Agenten bauen, die Dateien prüfen, Code schreiben und komplexe Aufgaben sicher in abgeschotteten B",
       "link": "https://the-decoder.de/openai-aktualisiert-agents-sdk-mit-neuer-sandbox-unterstuetzung-fuer-sicherere-ki-agenten/",
       "date": "2026-04-15T17:59:10.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Google neues Gemini 3.1 Flash TTS-Modell macht KI-Stimmen flexibler und dynamischer",
-      "description": "Google Gemini 3.1 Flash TTS wandelt Text in natürlich klingende Sprache um, unterstützt über 70 Sprachen und lässt sich per Audio-Tags gezielt steuern.\nDer Artikel Google neues Gemini 3.1 Flash TTS-Mo",
-      "link": "https://the-decoder.de/google-neues-gemini-3-1-flash-tts-modell-macht-ki-stimmen-flexibler-und-dynamischer/",
-      "date": "2026-04-15T17:41:07.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Anthropic bereitet Opus 4.7 und KI-Design-Tool vor, VCs bieten bis zu 800 Milliarden Dollar",
-      "description": "Anthropic plant die Veröffentlichung eines neuen Modells und eines Design-Tools, das Adobe und Figma Konkurrenz machen soll. Gleichzeitig überbieten sich Risikokapitalgeber mit Bewertungsangeboten.\nDe",
-      "link": "https://the-decoder.de/anthropic-bereitet-opus-4-7-und-ki-design-tool-vor-vcs-bieten-bis-zu-800-milliarden-dollar/",
-      "date": "2026-04-15T14:22:04.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "KI-Alignment im Labor: Claude-Modelle übertreffen Menschen, aber der Praxis-Transfer floppt",
-      "description": "In einer neuen Studie setzt Anthropic neun autonome Claude-Kopien als Alignment-Forscher ein. Die KI-Agenten lösen ein offenes Forschungsproblem deutlich besser als Menschen, versuchen dabei aber auch",
-      "link": "https://the-decoder.de/ki-alignment-im-labor-claude-modelle-uebertreffen-menschen-aber-der-praxis-transfer-floppt/",
-      "date": "2026-04-15T13:19:11.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
