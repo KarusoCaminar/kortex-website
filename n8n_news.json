@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-16T18:32:14.581Z",
+  "lastUpdated": "2026-04-16T20:20:32.148Z",
   "news": [
     {
       "title": "Angriff auf Claude Code: OpenAI bringt großes Update für KI-Tool Codex",
@@ -38,6 +38,15 @@
       "language": "de"
     },
     {
+      "title": "Designing synthetic datasets for the real world: Mechanism design and reasoning from first principles",
+      "description": "Generative AI",
+      "link": "https://research.google/blog/designing-synthetic-datasets-for-the-real-world-mechanism-design-and-reasoning-from-first-principles/",
+      "date": "2026-04-16T14:41:00.000Z",
+      "source": "Google AI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
       "title": "Bytedance bringt KI-Videogenerator Seedance 2.0 in mehr als 100 Länder - aber nicht in die USA",
       "description": "Bytedance bringt sein KI-Videomodell Seedance 2.0 in über 100 Länder – aber nicht in die USA. Grund sind wohl Urheberrechtsstreitigkeiten mit Hollywood-Studios.\nDer Artikel Bytedance bringt KI-Videoge",
       "link": "https://the-decoder.de/bytedance-bringt-ki-videogenerator-seedance-2-0-in-mehr-als-100-laender-aber-nicht-in-die-usa/",
@@ -45,6 +54,15 @@
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
+    },
+    {
+      "title": "AI-generated synthetic neurons speed up brain mapping",
+      "description": "General Science",
+      "link": "https://research.google/blog/ai-generated-synthetic-neurons-speed-up-brain-mapping/",
+      "date": "2026-04-16T12:18:00.000Z",
+      "source": "Google AI",
+      "category": "große-modelle",
+      "language": "en"
     },
     {
       "title": "Indiens IT-Absolventen sind auf die KI-Revolution kaum vorbereitet",
@@ -92,6 +110,15 @@
       "language": "de"
     },
     {
+      "title": "Introducing GPT-Rosalind for life sciences research",
+      "description": "OpenAI introduces GPT-Rosalind, a frontier reasoning model built to accelerate drug discovery, genomics analysis, protein reasoning, and scientific research workflows.",
+      "link": "https://openai.com/index/introducing-gpt-rosalind",
+      "date": "2026-04-16T00:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
       "title": "Accelerating the cyber defense ecosystem that protects us all",
       "description": "Leading security firms and enterprises join OpenAI’s Trusted Access for Cyber, using GPT-5.4-Cyber and $10M in API grants to strengthen global cyber defense.",
       "link": "https://openai.com/index/accelerating-cyber-defense-ecosystem",
@@ -108,33 +135,6 @@
       "source": "The Decoder",
       "category": "workflow-tools",
       "language": "de"
-    },
-    {
-      "title": "The next evolution of the Agents SDK",
-      "description": "OpenAI updates the Agents SDK with native sandbox execution and a model-native harness, helping developers build secure, long-running agents across files and tools.",
-      "link": "https://openai.com/index/the-next-evolution-of-the-agents-sdk",
-      "date": "2026-04-15T10:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "AI-generated synthetic neurons speed up brain mapping",
-      "description": "General Science",
-      "link": "https://research.google/blog/ai-generated-synthetic-neurons-speed-up-brain-mapping/",
-      "date": "2026-04-14T12:18:00.000Z",
-      "source": "Google AI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "Trusted access for the next era of cyber defense",
-      "description": "OpenAI expands its Trusted Access for Cyber program, introducing GPT-5.4-Cyber to vetted defenders and strengthening safeguards as AI cybersecurity capabilities advance.",
-      "link": "https://openai.com/index/scaling-trusted-access-for-cyber-defense",
-      "date": "2026-04-14T00:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
     }
   ]
 }
