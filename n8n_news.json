@@ -1,6 +1,51 @@
 {
-  "lastUpdated": "2026-04-16T12:33:00.213Z",
+  "lastUpdated": "2026-04-16T14:42:07.388Z",
   "news": [
+    {
+      "title": "Bytedance bringt KI-Videogenerator Seedance 2.0 in mehr als 100 Länder - aber nicht in die USA",
+      "description": "ByteDance bringt sein KI-Videomodell Seedance 2.0 in über 100 Länder – aber nicht in die USA. Grund sind wohl Urheberrechtsstreitigkeiten mit Hollywood-Studios.\nDer Artikel Bytedance bringt KI-Videoge",
+      "link": "https://the-decoder.de/bytedance-bringt-ki-videogenerator-seedance-2-0-in-mehr-als-100-laender-aber-nicht-in-die-usa/",
+      "date": "2026-04-16T14:28:45.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Indiens IT-Absolventen sind auf die KI-Revolution kaum vorbereitet",
+      "description": "Ein Bloomberg-Bericht zeigt, wie agentenbasierte KI Indiens milliardenschwere IT-Branche erschüttert. Unternehmen wie Infosys müssen Neueinstellungen wochenlang nachschulen, weil die Universitäten des",
+      "link": "https://the-decoder.de/indiens-it-absolventen-sind-auf-die-ki-revolution-kaum-vorbereitet/",
+      "date": "2026-04-16T10:52:49.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Google veröffentlicht erste Desktop-App für Gemini auf dem Mac",
+      "description": "Google hat eine native Gemini-App für den Mac veröffentlicht. Es ist die erste Desktop-Version des KI-Assistenten neben den bestehenden Smartphone-Apps.\nDer Artikel Google veröffentlicht erste Desktop",
+      "link": "https://the-decoder.de/google-veroeffentlicht-erste-desktop-app-fuer-gemini-auf-dem-mac/",
+      "date": "2026-04-16T09:51:48.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Siri-Team muss vor großem Relaunch KI-Programmieren lernen",
+      "description": "Apple schickt einen Teil seiner Siri-Entwickler zurück auf die Schulbank. Weniger als 200 Programmierer sollen in einem mehrwöchigen Bootcamp lernen, wie sie KI-Tools wie Anthropics Claude Code oder O",
+      "link": "https://the-decoder.de/siri-team-muss-vor-grossem-relaunch-ki-programmieren-lernen/",
+      "date": "2026-04-16T09:04:14.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "ChatGPT-Werbung kämpft mit Messbarkeit und niedrigeren Preisen als erhofft",
+      "description": "OpenAI will sein Werbegeschäft in ChatGPT ausbauen und neue Preismodelle einführen. Doch die ersten Werbetreibenden kämpfen mit fehlenden Tracking-Tools und eingeschränktem Targeting.\nDer Artikel Chat",
+      "link": "https://the-decoder.de/chatgpt-werbung-kaempft-mit-messbarkeit-und-niedrigeren-preisen-als-erhofft/",
+      "date": "2026-04-16T08:27:44.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Accelerating the cyber defense ecosystem that protects us all",
       "description": "Leading security firms and enterprises join OpenAI’s Trusted Access for Cyber, using GPT-5.4-Cyber and $10M in API grants to strengthen global cyber defense.",
@@ -9,6 +54,51 @@
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
+    },
+    {
+      "title": "Adobe stellt neuen Firefly AI Assistant für komplexe kreative Workflows vor",
+      "description": "Adobe bringt mit dem Firefly AI Assistant einen KI-Agenten, der kreative Arbeitsabläufe über Apps wie Photoshop und Premiere per Chat steuert.\nDer Artikel Adobe stellt neuen Firefly AI Assistant für k",
+      "link": "https://the-decoder.de/adobe-stellt-neuen-firefly-ai-assistant-fuer-komplexe-kreative-workflows-vor/",
+      "date": "2026-04-15T18:30:44.000Z",
+      "source": "The Decoder",
+      "category": "workflow-tools",
+      "language": "de"
+    },
+    {
+      "title": "OpenAI aktualisiert Agents-SDK mit neuer Sandbox-Unterstützung für sicherere KI-Agenten",
+      "description": "OpenAI erweitert sein Agents SDK um Sandbox-Umgebungen und neue Werkzeuge. Entwickler können damit KI-Agenten bauen, die Dateien prüfen, Code schreiben und komplexe Aufgaben sicher in abgeschotteten B",
+      "link": "https://the-decoder.de/openai-aktualisiert-agents-sdk-mit-neuer-sandbox-unterstuetzung-fuer-sicherere-ki-agenten/",
+      "date": "2026-04-15T17:59:10.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Google neues Gemini 3.1 Flash TTS-Modell macht KI-Stimmen flexibler und dynamischer",
+      "description": "Google Gemini 3.1 Flash TTS wandelt Text in natürlich klingende Sprache um, unterstützt über 70 Sprachen und lässt sich per Audio-Tags gezielt steuern.\nDer Artikel Google neues Gemini 3.1 Flash TTS-Mo",
+      "link": "https://the-decoder.de/google-neues-gemini-3-1-flash-tts-modell-macht-ki-stimmen-flexibler-und-dynamischer/",
+      "date": "2026-04-15T17:41:07.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Anthropic bereitet Opus 4.7 und KI-Design-Tool vor, VCs bieten bis zu 800 Milliarden Dollar",
+      "description": "Anthropic plant die Veröffentlichung eines neuen Modells und eines Design-Tools, das Adobe und Figma Konkurrenz machen soll. Gleichzeitig überbieten sich Risikokapitalgeber mit Bewertungsangeboten.\nDe",
+      "link": "https://the-decoder.de/anthropic-bereitet-opus-4-7-und-ki-design-tool-vor-vcs-bieten-bis-zu-800-milliarden-dollar/",
+      "date": "2026-04-15T14:22:04.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "KI-Alignment im Labor: Claude-Modelle übertreffen Menschen, aber der Praxis-Transfer floppt",
+      "description": "In einer neuen Studie setzt Anthropic neun autonome Claude-Kopien als Alignment-Forscher ein. Die KI-Agenten lösen ein offenes Forschungsproblem deutlich besser als Menschen, versuchen dabei aber auch",
+      "link": "https://the-decoder.de/ki-alignment-im-labor-claude-modelle-uebertreffen-menschen-aber-der-praxis-transfer-floppt/",
+      "date": "2026-04-15T13:19:11.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
     },
     {
       "title": "The next evolution of the Agents SDK",
@@ -44,96 +134,6 @@
       "date": "2026-04-13T06:00:00.000Z",
       "source": "OpenAI",
       "category": "workflow-tools",
-      "language": "en"
-    },
-    {
-      "title": "Responsible and safe use of AI",
-      "description": "Learn how to use AI responsibly with best practices for safety, accuracy, and transparency when using tools like ChatGPT.",
-      "link": "https://openai.com/academy/responsible-and-safe-use",
-      "date": "2026-04-10T00:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "Writing with ChatGPT",
-      "description": "Learn how to use ChatGPT for writing to draft, revise, and refine content with clear structure, tone, and intent.",
-      "link": "https://openai.com/academy/writing",
-      "date": "2026-04-10T00:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "Research with ChatGPT",
-      "description": "Learn how to research with ChatGPT using search and deep research to find up-to-date information, analyze sources, and generate structured insights.",
-      "link": "https://openai.com/academy/search-and-deep-research",
-      "date": "2026-04-10T00:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "ChatGPT for customer success teams",
-      "description": "Learn how customer success teams use ChatGPT to manage accounts, improve communication, reduce churn, and drive adoption and renewals.",
-      "link": "https://openai.com/academy/customer-success",
-      "date": "2026-04-10T00:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "ChatGPT for managers",
-      "description": "Learn how managers use ChatGPT to prepare for conversations, write clear feedback, stay organized, and improve team effectiveness.",
-      "link": "https://openai.com/academy/managers",
-      "date": "2026-04-10T00:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "Financial services",
-      "description": "Explore AI resources for financial services, including prompt packs, GPTs, guides, and tools to help institutions deploy and scale AI securely.",
-      "link": "https://openai.com/academy/financial-services",
-      "date": "2026-04-10T00:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "Applications of AI at OpenAI",
-      "description": "Explore how OpenAI products like ChatGPT, Codex, and APIs bring AI into real-world use for work, development, and everyday tasks.",
-      "link": "https://openai.com/academy/applications-of-ai",
-      "date": "2026-04-10T00:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "Healthcare",
-      "description": "Explore how clinicians use ChatGPT to support diagnosis, documentation, and patient care with secure, HIPAA-compliant AI tools.",
-      "link": "https://openai.com/academy/healthcare",
-      "date": "2026-04-10T00:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "Our response to the Axios developer tool compromise",
-      "description": "OpenAI responds to the Axios supply chain attack by rotating macOS code signing certificates, updating apps, and confirming no user data was compromised.",
-      "link": "https://openai.com/index/axios-developer-tool-compromise",
-      "date": "2026-04-10T00:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "ChatGPT for sales teams",
-      "description": "Learn how sales teams use ChatGPT to research accounts, personalize outreach, manage deals, and improve pipeline and conversion.",
-      "link": "https://openai.com/academy/sales",
-      "date": "2026-04-10T00:00:00.000Z",
-      "source": "OpenAI",
-      "category": "sales-tools",
       "language": "en"
     }
   ]
