@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-04-16T06:46:11.404Z",
+  "lastUpdated": "2026-04-16T08:41:03.484Z",
   "news": [
+    {
+      "title": "ChatGPT-Werbung kämpft mit Messbarkeit und niedrigeren Preisen als erhofft",
+      "description": "OpenAI will sein Werbegeschäft in ChatGPT ausbauen und neue Preismodelle einführen. Doch die ersten Werbetreibenden kämpfen mit fehlenden Tracking-Tools und eingeschränktem Targeting.\nDer Artikel Chat",
+      "link": "https://the-decoder.de/chatgpt-werbung-kaempft-mit-messbarkeit-und-niedrigeren-preisen-als-erhofft/",
+      "date": "2026-04-16T08:27:44.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Adobe stellt neuen Firefly AI Assistant für komplexe kreative Workflows vor",
       "description": "Adobe bringt mit dem Firefly AI Assistant einen KI-Agenten, der kreative Arbeitsabläufe über Apps wie Photoshop und Premiere per Chat steuert.\nDer Artikel Adobe stellt neuen Firefly AI Assistant für k",
@@ -78,15 +87,6 @@
       "description": "OpenAI veröffentlicht mit GPT-5.4-Cyber ein Modell, das gezielt für defensive Cybersicherheit trainiert wurde. Der Zugang bleibt vorerst auf verifizierte Sicherheitsexperten beschränkt.\nDer Artikel Op",
       "link": "https://the-decoder.de/openai-bringt-spezielles-cyber-sicherheitsmodell-heraus-und-weitet-zugang-fuer-verteidiger-aus/",
       "date": "2026-04-15T09:47:02.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "OpenAI-Präsident sieht radikalen Wandel durch KI und warnt vor disruptiven Folgen für Jobs",
-      "description": "KI-Arbeit soll künftig nicht mehr bedeuten, sich an den Computer anzupassen. Der Computer passt sich an den Menschen an, sagt OpenAI-Präsident Greg Brockman. \"Das ist disruptiv. Institutionen werden s",
-      "link": "https://the-decoder.de/openai-praesident-sieht-radikalen-wandel-durch-ki-und-warnt-vor-disruptiven-folgen-fuer-jobs/",
-      "date": "2026-04-14T18:44:39.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
