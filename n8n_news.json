@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-16T20:20:32.148Z",
+  "lastUpdated": "2026-04-16T22:18:46.841Z",
   "news": [
     {
       "title": "Angriff auf Claude Code: OpenAI bringt großes Update für KI-Tool Codex",
@@ -113,7 +113,7 @@
       "title": "Introducing GPT-Rosalind for life sciences research",
       "description": "OpenAI introduces GPT-Rosalind, a frontier reasoning model built to accelerate drug discovery, genomics analysis, protein reasoning, and scientific research workflows.",
       "link": "https://openai.com/index/introducing-gpt-rosalind",
-      "date": "2026-04-16T00:00:00.000Z",
+      "date": "2026-04-16T01:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
