@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-04-17T08:41:06.565Z",
+  "lastUpdated": "2026-04-17T10:31:14.529Z",
   "news": [
+    {
+      "title": "Peking stuft Metas Manus-Übernahme als verschwörerisch ein und hält Gründer im Land fest",
+      "description": "Chinas Nationale Sicherheitskommission unter Präsident Xi Jinping hat Metas 2-Milliarden-Dollar-Übernahme des KI-Startups Manus als \"verschwörerischen\" Versuch bewertet, Chinas Technologiebasis auszuh",
+      "link": "https://the-decoder.de/peking-stuft-metas-manus-uebernahme-als-verschwoererisch-ein-und-haelt-gruender-im-land-fest/",
+      "date": "2026-04-17T08:55:24.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "GPT-Rosalind: OpenAIs neues KI-Modell soll biologische Forschung beschleunigen",
       "description": "GPT-Rosalind soll Forschern helfen, schneller von der Hypothese zum Experiment zu kommen. OpenAI schränkt den Zugang zum spezialisierten Biowissenschafts-Modell allerdings stark ein.\nDer Artikel GPT-R",
@@ -105,15 +114,6 @@
       "description": "Apple schickt einen Teil seiner Siri-Entwickler zurück auf die Schulbank. Weniger als 200 Programmierer sollen in einem mehrwöchigen Bootcamp lernen, wie sie KI-Tools wie Anthropics Claude Code oder O",
       "link": "https://the-decoder.de/siri-team-muss-vor-grossem-relaunch-ki-programmieren-lernen/",
       "date": "2026-04-16T09:04:14.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "ChatGPT-Werbung kämpft mit Messbarkeit und niedrigeren Preisen als erhofft",
-      "description": "OpenAI will sein Werbegeschäft in ChatGPT ausbauen und neue Preismodelle einführen. Doch die ersten Werbetreibenden kämpfen mit fehlenden Tracking-Tools und eingeschränktem Targeting.\nDer Artikel Chat",
-      "link": "https://the-decoder.de/chatgpt-werbung-kaempft-mit-messbarkeit-und-niedrigeren-preisen-als-erhofft/",
-      "date": "2026-04-16T08:27:44.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
