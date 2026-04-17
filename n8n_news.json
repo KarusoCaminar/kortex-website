@@ -1,6 +1,33 @@
 {
-  "lastUpdated": "2026-04-17T16:25:05.149Z",
+  "lastUpdated": "2026-04-17T18:23:49.000Z",
   "news": [
+    {
+      "title": "Alibaba veröffentlicht effizientes Open-KI-Modell Qwen3.6-35B-A3B",
+      "description": "Alibaba legt mit Qwen3.6-35B-A3B nach: Das neue Open-Source-Modell aktiviert nur drei von 35 Milliarden Parametern und schlägt damit laut Benchmarks Googles deutlich größeres Gemma 4-31B beim Programm",
+      "link": "https://the-decoder.de/alibaba-veroeffentlicht-effizientes-open-ki-modell-qwen3-6-35b-a3b/",
+      "date": "2026-04-17T18:01:25.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "ChatGPT bleibt Marktführer, verliert aber innerhalb eines Jahres deutlich an Anteilen",
+      "description": "Claude verdoppelt seinen Marktanteil innerhalb eines Monats und überholt DeepSeek und Grok. ChatGPT bleibt vorn, verliert aber deutlich – vor allem an Google Gemini, das inzwischen ein Viertel des KI-",
+      "link": "https://the-decoder.de/chatgpt-bleibt-marktfuehrer-verliert-aber-innerhalb-eines-jahres-deutlich-an-anteilen/",
+      "date": "2026-04-17T17:31:22.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "OpenAI-Aktionäre hinterfragen angeblich OpenAI CEO Sam Altman vor dem Milliarden-Börsengang",
+      "description": "Vor dem geplanten Börsengang mit einer Bewertung von rund 850 Milliarden US-Dollar mehren sich bei OpenAI interne Zweifel an Sam Altman. Einige Aktionäre bringen laut Wall Street Journal bereits einen",
+      "link": "https://the-decoder.de/openai-aktionaere-hinterfragen-angeblich-openai-ceo-sam-altman-vor-dem-milliarden-boersengang/",
+      "date": "2026-04-17T16:42:34.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Anthropics \"Claude Design\" ist ein neues KI-Tool für Prototypen und Präsentationen",
       "description": "Mit Claude Design bringt Anthropic ein Werkzeug auf den Markt, mit dem sich Designs, Prototypen, Präsentationsfolien und One-Pager im Dialog mit dem Chatbot erstellen lassen.\nDer Artikel Anthropics \"C",
@@ -65,24 +92,6 @@
       "language": "de"
     },
     {
-      "title": "Anthropic veröffentlicht Claude Opus 4.7 mit Coding-Fortschritten und gedrosselten Cyber-Fähigkeiten",
-      "description": "Anthropics neues Spitzenmodell Claude Opus 4.7 soll vor allem bei Programmieraufgaben einen großen Sprung machen. Beim Training hat das Unternehmen gezielt versucht, bestimmte Cybersicherheits-Fähigke",
-      "link": "https://the-decoder.de/anthropic-veroeffentlicht-claude-opus-4-7-mit-coding-fortschritten-und-gedrosselten-cyber-faehigkeiten/",
-      "date": "2026-04-16T15:46:49.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Nvidia will mit Lyra 2.0 Robotertraining in Simulationen skalieren",
-      "description": "Nvidia-Forscher stellen Lyra 2.0 vor, ein System, das aus einem einzelnen Foto große, zusammenhängende 3D-Umgebungen generiert. Die erzeugten Szenen lassen sich in Echtzeit erkunden und direkt in Robo",
-      "link": "https://the-decoder.de/nvidia-will-mit-lyra-2-0-robotertraining-in-simulationen-skalieren/",
-      "date": "2026-04-16T15:03:31.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "Designing synthetic datasets for the real world: Mechanism design and reasoning from first principles",
       "description": "Generative AI",
       "link": "https://research.google/blog/designing-synthetic-datasets-for-the-real-world-mechanism-design-and-reasoning-from-first-principles/",
@@ -90,15 +99,6 @@
       "source": "Google AI",
       "category": "große-modelle",
       "language": "en"
-    },
-    {
-      "title": "Bytedance bringt KI-Videogenerator Seedance 2.0 in mehr als 100 Länder - aber nicht in die USA",
-      "description": "Bytedance bringt sein KI-Videomodell Seedance 2.0 in über 100 Länder – aber nicht in die USA. Grund sind wohl Urheberrechtsstreitigkeiten mit Hollywood-Studios.\nDer Artikel Bytedance bringt KI-Videoge",
-      "link": "https://the-decoder.de/bytedance-bringt-ki-videogenerator-seedance-2-0-in-mehr-als-100-laender-aber-nicht-in-die-usa/",
-      "date": "2026-04-16T14:28:45.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
     },
     {
       "title": "AI-generated synthetic neurons speed up brain mapping",
