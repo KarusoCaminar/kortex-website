@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-04-17T10:31:14.529Z",
+  "lastUpdated": "2026-04-17T12:28:51.018Z",
   "news": [
+    {
+      "title": "Google macht es Nutzern noch leichter, Webseiten nicht mehr direkt aufzurufen",
+      "description": "Google integriert den AI-Mode tiefer in Chrome: Webseiten öffnen sich künftig direkt neben der KI-Antwort. Der klassische Seitenbesuch verliert damit weiter an Bedeutung.\nDer Artikel Google macht es N",
+      "link": "https://the-decoder.de/google-macht-es-nutzern-noch-leichter-webseiten-nicht-mehr-direkt-aufzurufen/",
+      "date": "2026-04-17T11:56:35.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Physical Intelligence zeigt Roboter-Modell mit LLM-typischer Generalisierung, samt aller bekannten Schwächen",
+      "description": "Das US-Start-up Physical Intelligence hat mit π0.7 ein neues Modell für Roboter vorgestellt, das im Training gelernte Fähigkeiten neu kombinieren können soll, ähnlich wie ein Sprachmodell Textbaustein",
+      "link": "https://the-decoder.de/physical-intelligence-zeigt-roboter-modell-mit-llm-typischer-generalisierung-samt-aller-bekannten-schwaechen/",
+      "date": "2026-04-17T11:28:54.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Peking stuft Metas Manus-Übernahme als verschwörerisch ein und hält Gründer im Land fest",
       "description": "Chinas Nationale Sicherheitskommission unter Präsident Xi Jinping hat Metas 2-Milliarden-Dollar-Übernahme des KI-Startups Manus als \"verschwörerischen\" Versuch bewertet, Chinas Technologiebasis auszuh",
@@ -99,24 +117,6 @@
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
-    },
-    {
-      "title": "Google veröffentlicht erste Desktop-App für Gemini auf dem Mac",
-      "description": "Google hat eine native Gemini-App für den Mac veröffentlicht. Es ist die erste Desktop-Version des KI-Assistenten neben den bestehenden Smartphone-Apps.\nDer Artikel Google veröffentlicht erste Desktop",
-      "link": "https://the-decoder.de/google-veroeffentlicht-erste-desktop-app-fuer-gemini-auf-dem-mac/",
-      "date": "2026-04-16T09:51:48.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Siri-Team muss vor großem Relaunch KI-Programmieren lernen",
-      "description": "Apple schickt einen Teil seiner Siri-Entwickler zurück auf die Schulbank. Weniger als 200 Programmierer sollen in einem mehrwöchigen Bootcamp lernen, wie sie KI-Tools wie Anthropics Claude Code oder O",
-      "link": "https://the-decoder.de/siri-team-muss-vor-grossem-relaunch-ki-programmieren-lernen/",
-      "date": "2026-04-16T09:04:14.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
     },
     {
       "title": "Introducing GPT-Rosalind for life sciences research",
