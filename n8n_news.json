@@ -1,6 +1,33 @@
 {
-  "lastUpdated": "2026-04-17T18:23:49.000Z",
+  "lastUpdated": "2026-04-17T20:18:53.917Z",
   "news": [
+    {
+      "title": "Google Deepmind stellt neues Roboter-Modell Gemini Robotics-ER 1.6 vor",
+      "description": "Google Deepmind hat mit Gemini Robotics-ER 1.6 ein Update seines Robotik-Modells vorgestellt, das Roboter präziser planen und handeln lässt, inklusive neuer Fähigkeit zum Ablesen von Messinstrumenten.",
+      "link": "https://the-decoder.de/google-deepmind-stellt-neues-roboter-modell-gemini-robotics-er-1-6-vor/",
+      "date": "2026-04-17T18:51:56.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Google macht es Nutzern noch leichter, Webseiten nicht mehr direkt aufzurufen",
+      "description": "Google integriert den AI-Mode tiefer in Chrome: Webseiten öffnen sich künftig direkt neben der KI-Antwort. Der klassische Seitenbesuch verliert damit weiter an Bedeutung.\nDer Artikel Google macht es N",
+      "link": "https://the-decoder.de/google-macht-es-nutzern-noch-leichter-webseiten-nicht-mehr-direkt-aufzurufen/",
+      "date": "2026-04-17T18:49:35.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Weil Claude Mythos angeblich so gut hacken kann: Anthropic bahnt Deal mit der Trump-Regierung an",
+      "description": "Anthropic-CEO Dario Amodei trifft Trumps Stabschefin Susie Wiles im Weißen Haus, um den monatelangen Streit mit dem Pentagon beizulegen. Die Cybersecurity-Fähigkeiten des neuen Mythos-Modells waren an",
+      "link": "https://the-decoder.de/weil-claude-mythos-angeblich-so-gut-hacken-kann-anthropic-bahnt-deal-mit-der-trump-regierung-an/",
+      "date": "2026-04-17T18:25:49.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Alibaba veröffentlicht effizientes Open-KI-Modell Qwen3.6-35B-A3B",
       "description": "Alibaba legt mit Qwen3.6-35B-A3B nach: Das neue Open-Source-Modell aktiviert nur drei von 35 Milliarden Parametern und schlägt damit laut Benchmarks Googles deutlich größeres Gemma 4-31B beim Programm",
@@ -38,15 +65,6 @@
       "language": "de"
     },
     {
-      "title": "Google macht es Nutzern noch leichter, Webseiten nicht mehr direkt aufzurufen",
-      "description": "Google integriert den AI-Mode tiefer in Chrome: Webseiten öffnen sich künftig direkt neben der KI-Antwort. Der klassische Seitenbesuch verliert damit weiter an Bedeutung.\nDer Artikel Google macht es N",
-      "link": "https://the-decoder.de/google-macht-es-nutzern-noch-leichter-webseiten-nicht-mehr-direkt-aufzurufen/",
-      "date": "2026-04-17T11:56:35.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "Physical Intelligence zeigt Roboter-Modell mit LLM-typischer Generalisierung, samt aller bekannten Schwächen",
       "description": "Das US-Start-up Physical Intelligence hat mit π0.7 ein neues Modell für Roboter vorgestellt, das im Training gelernte Fähigkeiten neu kombinieren können soll, ähnlich wie ein Sprachmodell Textbaustein",
       "link": "https://the-decoder.de/physical-intelligence-zeigt-roboter-modell-mit-llm-typischer-generalisierung-samt-aller-bekannten-schwaechen/",
@@ -69,24 +87,6 @@
       "description": "GPT-Rosalind soll Forschern helfen, schneller von der Hypothese zum Experiment zu kommen. OpenAI schränkt den Zugang zum spezialisierten Biowissenschafts-Modell allerdings stark ein.\nDer Artikel GPT-R",
       "link": "https://the-decoder.de/gpt-rosalind-openais-neues-ki-modell-soll-biologische-forschung-beschleunigen/",
       "date": "2026-04-17T08:17:37.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Angriff auf Claude Code: OpenAI bringt großes Update für KI-Tool Codex",
-      "description": "OpenAI rüstet sein Entwicklertool Codex massiv auf: Die KI kann nun eigenständig den Mac bedienen, Bilder generieren, sich Präferenzen merken und selbstständig über Wochen an Aufgaben weiterarbeiten.",
-      "link": "https://the-decoder.de/angriff-auf-claude-code-openai-bringt-grosses-update-fuer-ki-tool-codex/",
-      "date": "2026-04-16T17:37:14.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "OpenAI-Daten zeigen: Inzwischen nutzen mehr Frauen als Männer ChatGPT",
-      "description": "OpenAI veröffentlicht Daten zur Geschlechterverteilung bei ChatGPT, schätzt Chinas KI-Investitionen auf bis zu 125 Milliarden Dollar und erklärt Rechenleistung zum entscheidenden Wettbewerbsfaktor.\nDe",
-      "link": "https://the-decoder.de/openai-daten-zeigen-inzwischen-nutzen-mehr-frauen-als-maenner-chatgpt/",
-      "date": "2026-04-16T15:49:39.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
