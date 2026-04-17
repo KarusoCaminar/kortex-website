@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-04-17T06:45:36.558Z",
+  "lastUpdated": "2026-04-17T08:41:06.565Z",
   "news": [
+    {
+      "title": "GPT-Rosalind: OpenAIs neues KI-Modell soll biologische Forschung beschleunigen",
+      "description": "GPT-Rosalind soll Forschern helfen, schneller von der Hypothese zum Experiment zu kommen. OpenAI schränkt den Zugang zum spezialisierten Biowissenschafts-Modell allerdings stark ein.\nDer Artikel GPT-R",
+      "link": "https://the-decoder.de/gpt-rosalind-openais-neues-ki-modell-soll-biologische-forschung-beschleunigen/",
+      "date": "2026-04-17T08:17:37.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Angriff auf Claude Code: OpenAI bringt großes Update für KI-Tool Codex",
       "description": "OpenAI rüstet sein Entwicklertool Codex massiv auf: Die KI kann nun eigenständig den Mac bedienen, Bilder generieren, sich Präferenzen merken und selbstständig über Wochen an Aufgaben weiterarbeiten.",
@@ -126,15 +135,6 @@
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
-    },
-    {
-      "title": "Adobe stellt neuen Firefly AI Assistant für komplexe kreative Workflows vor",
-      "description": "Adobe bringt mit dem Firefly AI Assistant einen KI-Agenten, der kreative Arbeitsabläufe über Apps wie Photoshop und Premiere per Chat steuert.\nDer Artikel Adobe stellt neuen Firefly AI Assistant für k",
-      "link": "https://the-decoder.de/adobe-stellt-neuen-firefly-ai-assistant-fuer-komplexe-kreative-workflows-vor/",
-      "date": "2026-04-15T18:30:44.000Z",
-      "source": "The Decoder",
-      "category": "workflow-tools",
-      "language": "de"
     }
   ]
 }
