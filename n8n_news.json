@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-04-17T14:32:31.700Z",
+  "lastUpdated": "2026-04-17T16:25:05.149Z",
   "news": [
+    {
+      "title": "Anthropics \"Claude Design\" ist ein neues KI-Tool für Prototypen und Präsentationen",
+      "description": "Mit Claude Design bringt Anthropic ein Werkzeug auf den Markt, mit dem sich Designs, Prototypen, Präsentationsfolien und One-Pager im Dialog mit dem Chatbot erstellen lassen.\nDer Artikel Anthropics \"C",
+      "link": "https://the-decoder.de/anthropics-claude-design-ist-ein-neues-ki-tool-fuer-prototypen-und-praesentationen/",
+      "date": "2026-04-17T16:02:44.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Google macht es Nutzern noch leichter, Webseiten nicht mehr direkt aufzurufen",
       "description": "Google integriert den AI-Mode tiefer in Chrome: Webseiten öffnen sich künftig direkt neben der KI-Antwort. Der klassische Seitenbesuch verliert damit weiter an Bedeutung.\nDer Artikel Google macht es N",
@@ -99,15 +108,6 @@
       "source": "Google AI",
       "category": "große-modelle",
       "language": "en"
-    },
-    {
-      "title": "Indiens IT-Absolventen sind auf die KI-Revolution kaum vorbereitet",
-      "description": "Ein Bloomberg-Bericht zeigt, wie agentenbasierte KI Indiens milliardenschwere IT-Branche erschüttert. Unternehmen wie Infosys müssen Neueinstellungen wochenlang nachschulen, weil die Universitäten des",
-      "link": "https://the-decoder.de/indiens-it-absolventen-sind-auf-die-ki-revolution-kaum-vorbereitet/",
-      "date": "2026-04-16T10:52:49.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
     },
     {
       "title": "Codex for (almost) everything",
