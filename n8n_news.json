@@ -1,6 +1,33 @@
 {
-  "lastUpdated": "2026-04-18T06:32:54.593Z",
+  "lastUpdated": "2026-04-18T08:19:44.353Z",
   "news": [
+    {
+      "title": "KI-Startup Deepseek verhandelt erstmals über externe Finanzierung in Millionenhöhe",
+      "description": "Deepseek gibt angeblich seine Unabhängigkeit auf: Das chinesische KI-Startup sucht erstmals externe Geldgeber und will mindestens 300 Millionen Dollar einsammeln. Hinter dem Kurswechsel stehen verscho",
+      "link": "https://the-decoder.de/ki-startup-deepseek-verhandelt-erstmals-ueber-externe-finanzierung-in-millionenhoehe/",
+      "date": "2026-04-18T07:53:17.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Wegen hoher KI-Kosten: Meta will angeblich mindestens 10 Prozent der Belegschaft entlassen",
+      "description": "Meta streicht tausende Stellen, während Mark Zuckerberg Milliarden in KI-Infrastruktur und flachere Hierarchien pumpt. Parallel meldet sich der Konzern mit dem neuen Reasoning-Modell \"Muse\" im KI-Wett",
+      "link": "https://the-decoder.de/wegen-hoher-ki-kosten-meta-will-angeblich-mindestens-10-prozent-der-belegschaft-entlassen/",
+      "date": "2026-04-18T07:37:35.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Nach Sora-Aus und App-Bündelung: Drei Führungskräfte verlassen OpenAI",
+      "description": "Gleich drei prominente Manager kehren OpenAI den Rücken. Die Abgänge fallen mitten in eine Phase, in der sich das Unternehmen neu sortiert und stärker auf Coding und Geschäftskunden konzentriert.\nDer",
+      "link": "https://the-decoder.de/nach-sora-aus-und-app-buendelung-drei-fuehrungskraefte-verlassen-openai/",
+      "date": "2026-04-18T07:15:45.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Google Deepmind stellt neues Roboter-Modell Gemini Robotics-ER 1.6 vor",
       "description": "Google Deepmind hat mit Gemini Robotics-ER 1.6 ein Update seines Robotik-Modells vorgestellt, das Roboter präziser planen und handeln lässt, inklusive neuer Fähigkeit zum Ablesen von Messinstrumenten.",
@@ -60,33 +87,6 @@
       "description": "Mit Claude Design bringt Anthropic ein Werkzeug auf den Markt, mit dem sich Designs, Prototypen, Präsentationsfolien und One-Pager im Dialog mit dem Chatbot erstellen lassen.\nDer Artikel Anthropics \"C",
       "link": "https://the-decoder.de/anthropics-claude-design-ist-ein-neues-ki-tool-fuer-prototypen-und-praesentationen/",
       "date": "2026-04-17T16:02:44.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Physical Intelligence zeigt Roboter-Modell mit LLM-typischer Generalisierung, samt aller bekannten Schwächen",
-      "description": "Das US-Start-up Physical Intelligence hat mit π0.7 ein neues Modell für Roboter vorgestellt, das im Training gelernte Fähigkeiten neu kombinieren können soll, ähnlich wie ein Sprachmodell Textbaustein",
-      "link": "https://the-decoder.de/physical-intelligence-zeigt-roboter-modell-mit-llm-typischer-generalisierung-samt-aller-bekannten-schwaechen/",
-      "date": "2026-04-17T11:28:54.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Peking stuft Metas Manus-Übernahme als verschwörerisch ein und hält Gründer im Land fest",
-      "description": "Chinas Nationale Sicherheitskommission unter Präsident Xi Jinping hat Metas 2-Milliarden-Dollar-Übernahme des KI-Startups Manus als \"verschwörerischen\" Versuch bewertet, Chinas Technologiebasis auszuh",
-      "link": "https://the-decoder.de/peking-stuft-metas-manus-uebernahme-als-verschwoererisch-ein-und-haelt-gruender-im-land-fest/",
-      "date": "2026-04-17T08:55:24.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "GPT-Rosalind: OpenAIs neues KI-Modell soll biologische Forschung beschleunigen",
-      "description": "GPT-Rosalind soll Forschern helfen, schneller von der Hypothese zum Experiment zu kommen. OpenAI schränkt den Zugang zum spezialisierten Biowissenschafts-Modell allerdings stark ein.\nDer Artikel GPT-R",
-      "link": "https://the-decoder.de/gpt-rosalind-openais-neues-ki-modell-soll-biologische-forschung-beschleunigen/",
-      "date": "2026-04-17T08:17:37.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
