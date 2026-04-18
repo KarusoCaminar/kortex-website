@@ -1,6 +1,33 @@
 {
-  "lastUpdated": "2026-04-18T08:19:44.353Z",
+  "lastUpdated": "2026-04-18T10:19:27.424Z",
   "news": [
+    {
+      "title": "Anthropic-Chef über KI-Skalierung: \"Es gibt kein Ende des Regenbogens\"",
+      "description": "Anthropic-CEO Dario Amodei sieht kein Ende der KI-Skalierung – und fordert die Branche auf, die drohenden Jobverluste nicht kleinzureden, sondern den Nutzen so groß zu machen, dass er die Verwerfungen",
+      "link": "https://the-decoder.de/anthropic-chef-ueber-ki-skalierung-es-gibt-kein-ende-des-regenbogens/",
+      "date": "2026-04-18T10:11:28.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "KI-Start-up Recursive Superintelligence sammelt 500 Millionen Dollar für selbstverbessernde KI ein",
+      "description": "Ein vier Monate altes Start-up sammelt mindestens 500 Millionen Dollar ein und wird mit vier Milliarden Dollar bewertet. Hinter Recursive Superintelligence stehen Ex-Forscher von Google Deepmind und O",
+      "link": "https://the-decoder.de/ki-start-up-recursive-superintelligence-sammelt-500-millionen-dollar-fuer-selbstverbessernde-ki-ein/",
+      "date": "2026-04-18T09:12:57.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Anthropics \"zu gefährliche\" Cybersecurity-KI Claude Mythos könnte sich als Mythos erweisen",
+      "description": "Anthropic hält sein Cybersecurity-Modell Claude Mythos mit Verweis auf einzigartige Fähigkeiten unter Verschluss. Zwei unabhängige Untersuchungen zeigen, dass auch kleine und offen verfügbare Modelle",
+      "link": "https://the-decoder.de/anthropics-zu-gefaehrliche-cybersecurity-ki-claude-mythos-koennte-sich-als-mythos-erweisen/",
+      "date": "2026-04-18T08:28:05.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "KI-Startup Deepseek verhandelt erstmals über externe Finanzierung in Millionenhöhe",
       "description": "Deepseek gibt angeblich seine Unabhängigkeit auf: Das chinesische KI-Startup sucht erstmals externe Geldgeber und will mindestens 300 Millionen Dollar einsammeln. Hinter dem Kurswechsel stehen verscho",
@@ -60,33 +87,6 @@
       "description": "Alibaba legt mit Qwen3.6-35B-A3B nach: Das neue Open-Source-Modell aktiviert nur drei von 35 Milliarden Parametern und schlägt damit laut Benchmarks Googles deutlich größeres Gemma 4-31B beim Programm",
       "link": "https://the-decoder.de/alibaba-veroeffentlicht-effizientes-open-ki-modell-qwen3-6-35b-a3b/",
       "date": "2026-04-17T18:01:25.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "ChatGPT bleibt Marktführer, verliert aber innerhalb eines Jahres deutlich an Anteilen",
-      "description": "Claude verdoppelt seinen Marktanteil innerhalb eines Monats und überholt DeepSeek und Grok. ChatGPT bleibt vorn, verliert aber deutlich – vor allem an Google Gemini, das inzwischen ein Viertel des KI-",
-      "link": "https://the-decoder.de/chatgpt-bleibt-marktfuehrer-verliert-aber-innerhalb-eines-jahres-deutlich-an-anteilen/",
-      "date": "2026-04-17T17:31:22.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "OpenAI-Aktionäre hinterfragen angeblich OpenAI CEO Sam Altman vor dem Milliarden-Börsengang",
-      "description": "Vor dem geplanten Börsengang mit einer Bewertung von rund 850 Milliarden US-Dollar mehren sich bei OpenAI interne Zweifel an Sam Altman. Einige Aktionäre bringen laut Wall Street Journal bereits einen",
-      "link": "https://the-decoder.de/openai-aktionaere-hinterfragen-angeblich-openai-ceo-sam-altman-vor-dem-milliarden-boersengang/",
-      "date": "2026-04-17T16:42:34.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Anthropics \"Claude Design\" ist ein neues KI-Tool für Prototypen und Präsentationen",
-      "description": "Mit Claude Design bringt Anthropic ein Werkzeug auf den Markt, mit dem sich Designs, Prototypen, Präsentationsfolien und One-Pager im Dialog mit dem Chatbot erstellen lassen.\nDer Artikel Anthropics \"C",
-      "link": "https://the-decoder.de/anthropics-claude-design-ist-ein-neues-ki-tool-fuer-prototypen-und-praesentationen/",
-      "date": "2026-04-17T16:02:44.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
