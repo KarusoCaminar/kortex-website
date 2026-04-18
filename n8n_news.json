@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-04-18T12:19:18.069Z",
+  "lastUpdated": "2026-04-18T14:19:02.053Z",
   "news": [
+    {
+      "title": "Salesforce-CEO Marc Benioff erklärt die API zur neuen Benutzeroberfläche für KI-Agenten",
+      "description": "Salesforce öffnet seine komplette Plattform für KI-Agenten: Mit \"Headless 360\" wird die API zur Benutzeroberfläche, der Browser überflüssig. CEO Marc Benioff setzt damit genau das um, was OpenAI-Chef",
+      "link": "https://the-decoder.de/salesforce-ceo-marc-benioff-erklaert-die-api-zur-neuen-benutzeroberflaeche-fuer-ki-agenten/",
+      "date": "2026-04-18T13:01:19.000Z",
+      "source": "The Decoder",
+      "category": "sales-tools",
+      "language": "de"
+    },
+    {
+      "title": "Wer KI als reine Antwortmaschine nutzt, verliert laut Studie am schnellsten kognitive Fähigkeiten",
+      "description": "Schon zehn bis 15 Minuten Arbeit mit einem KI-Assistenten reichen aus, um die Problemlösefähigkeit und die Ausdauer in nachfolgenden Aufgaben ohne KI messbar zu senken. Das zeigt eine neue Studie aus",
+      "link": "https://the-decoder.de/wer-ki-als-reine-antwortmaschine-nutzt-verliert-laut-studie-am-schnellsten-kognitive-faehigkeiten/",
+      "date": "2026-04-18T12:30:14.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Anthropic-Chef über KI-Skalierung: \"Es gibt kein Ende des Regenbogens\"",
       "description": "Anthropic-CEO Dario Amodei sieht kein Ende der KI-Skalierung – und fordert die Branche auf, die drohenden Jobverluste nicht kleinzureden, sondern den Nutzen so groß zu machen, dass er die Verwerfungen",
@@ -69,24 +87,6 @@
       "description": "Google integriert den AI-Mode tiefer in Chrome: Webseiten öffnen sich künftig direkt neben der KI-Antwort. Der klassische Seitenbesuch verliert damit weiter an Bedeutung.\nDer Artikel Google macht es N",
       "link": "https://the-decoder.de/google-macht-es-nutzern-noch-leichter-webseiten-nicht-mehr-direkt-aufzurufen/",
       "date": "2026-04-17T18:49:35.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Weil Claude Mythos angeblich so gut hacken kann: Anthropic bahnt Deal mit der Trump-Regierung an",
-      "description": "Anthropic-CEO Dario Amodei trifft Trumps Stabschefin Susie Wiles im Weißen Haus, um den monatelangen Streit mit dem Pentagon beizulegen. Die Cybersecurity-Fähigkeiten des neuen Mythos-Modells waren an",
-      "link": "https://the-decoder.de/weil-claude-mythos-angeblich-so-gut-hacken-kann-anthropic-bahnt-deal-mit-der-trump-regierung-an/",
-      "date": "2026-04-17T18:25:49.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Alibaba veröffentlicht effizientes Open-KI-Modell Qwen3.6-35B-A3B",
-      "description": "Alibaba legt mit Qwen3.6-35B-A3B nach: Das neue Open-Source-Modell aktiviert nur drei von 35 Milliarden Parametern und schlägt damit laut Benchmarks Googles deutlich größeres Gemma 4-31B beim Programm",
-      "link": "https://the-decoder.de/alibaba-veroeffentlicht-effizientes-open-ki-modell-qwen3-6-35b-a3b/",
-      "date": "2026-04-17T18:01:25.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
