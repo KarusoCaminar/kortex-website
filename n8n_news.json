@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-04-19T12:18:39.608Z",
+  "lastUpdated": "2026-04-19T14:18:51.416Z",
   "news": [
+    {
+      "title": "Gericht erlaubt KI-Umwandlung von Foto in Comic, wenn nur das Motiv übernommen wird",
+      "description": "Ein Foto wird per KI zum Comic – und das ist laut OLG Düsseldorf erlaubt, solange nur das Motiv übernommen wird. Was das Urteil für den Urheberrechtsschutz von KI-Erzeugnissen bedeutet.\nDer Artikel Ge",
+      "link": "https://the-decoder.de/gericht-erlaubt-ki-umwandlung-von-foto-in-comic-wenn-nur-das-motiv-uebernommen-wird/",
+      "date": "2026-04-19T12:58:17.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "KI-Influencer im US-Wahlkampf: Hunderte Fake-Accounts unterstützen Trump in Social Media",
       "description": "Hunderte KI-Avatare fluten TikTok, Instagram und YouTube mit Pro-Trump-Botschaften. Einige Konten haben mehr als 35.000 Follower und Millionen Aufrufe. Trump selbst teilte bereits KI-Inhalte. Wer dahi",
@@ -69,15 +78,6 @@
       "description": "Ein vier Monate altes Start-up sammelt mindestens 500 Millionen Dollar ein und wird mit vier Milliarden Dollar bewertet. Hinter Recursive Superintelligence stehen Ex-Forscher von Google Deepmind und O",
       "link": "https://the-decoder.de/ki-start-up-recursive-superintelligence-sammelt-500-millionen-dollar-fuer-selbstverbessernde-ki-ein/",
       "date": "2026-04-18T09:12:57.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Anthropics \"zu gefährliche\" Cybersecurity-KI Claude Mythos könnte sich als Mythos erweisen",
-      "description": "Anthropic hält sein Cybersecurity-Modell Claude Mythos mit Verweis auf einzigartige Fähigkeiten unter Verschluss. Zwei unabhängige Untersuchungen zeigen, dass auch kleine und offen verfügbare Modelle",
-      "link": "https://the-decoder.de/anthropics-zu-gefaehrliche-cybersecurity-ki-claude-mythos-koennte-sich-als-mythos-erweisen/",
-      "date": "2026-04-18T08:28:05.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
