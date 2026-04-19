@@ -1,6 +1,33 @@
 {
-  "lastUpdated": "2026-04-19T06:41:50.884Z",
+  "lastUpdated": "2026-04-19T08:26:28.394Z",
   "news": [
+    {
+      "title": "Neuer KI-Benchmark RealChart2Code: Selbst Top-Modelle scheitern an komplexen Diagrammen",
+      "description": "Der Benchmark RealChart2Code testet 14 führende KI-Modelle bei der Generierung komplexer Visualisierungen aus realen Datensätzen. Selbst die besten proprietären Modelle verlieren dabei fast die Hälfte",
+      "link": "https://the-decoder.de/neuer-ki-benchmark-realchart2code-selbst-top-modelle-scheitern-an-komplexen-diagrammen/",
+      "date": "2026-04-19T08:24:10.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "OpenClaw für Smart Glasses: VisionClaw macht Ray-Ban Meta-Brillen zu Always-on-Agenten für den Alltag",
+      "description": "Ein Forscherteam hat einen OpenClaw-Agenten für Smart Glasses entwickelt, um herauszufinden, wie sich kontinuierlich wahrnehmende KI auf die Nutzung agentischer KI-Systeme auswirkt.\nDer Artikel OpenCl",
+      "link": "https://the-decoder.de/visionclaw-macht-smart-glasses-zu-always-on-agenten-fuer-den-alltag/",
+      "date": "2026-04-19T07:37:33.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "KI-Agenten bauen UIs: Google stellt A2UI 0.9 mit neuem Agent-SDK vor",
+      "description": "Google bringt mit A2UI 0.9 einen Standard für generative Benutzeroberflächen an den Start, der unabhängig von Frameworks funktioniert und KI-Agenten dynamisch passende UI-Elemente erzeugen lässt. \nDer",
+      "link": "https://the-decoder.de/ki-agenten-bauen-uis-google-stellt-a2ui-0-9-mit-neuem-agent-sdk-vor/",
+      "date": "2026-04-19T07:02:51.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Salesforce-CEO Marc Benioff erklärt die API zur neuen Benutzeroberfläche für KI-Agenten",
       "description": "Salesforce öffnet seine komplette Plattform für KI-Agenten: Mit \"Headless 360\" wird die API zur Benutzeroberfläche, der Browser überflüssig. CEO Marc Benioff setzt damit genau das um, was OpenAI-Chef",
@@ -60,33 +87,6 @@
       "description": "Meta streicht tausende Stellen, während Mark Zuckerberg Milliarden in KI-Infrastruktur und flachere Hierarchien pumpt. Parallel meldet sich der Konzern mit dem neuen Reasoning-Modell \"Muse\" im KI-Wett",
       "link": "https://the-decoder.de/wegen-hoher-ki-kosten-meta-will-angeblich-mindestens-10-prozent-der-belegschaft-entlassen/",
       "date": "2026-04-18T07:37:35.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Nach Sora-Aus und App-Bündelung: Drei Führungskräfte verlassen OpenAI",
-      "description": "Gleich drei prominente Manager kehren OpenAI den Rücken. Die Abgänge fallen mitten in eine Phase, in der sich das Unternehmen neu sortiert und stärker auf Coding und Geschäftskunden konzentriert.\nDer",
-      "link": "https://the-decoder.de/nach-sora-aus-und-app-buendelung-drei-fuehrungskraefte-verlassen-openai/",
-      "date": "2026-04-18T07:15:45.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Google Deepmind stellt neues Roboter-Modell Gemini Robotics-ER 1.6 vor",
-      "description": "Google Deepmind hat mit Gemini Robotics-ER 1.6 ein Update seines Robotik-Modells vorgestellt, das Roboter präziser planen und handeln lässt, inklusive neuer Fähigkeit zum Ablesen von Messinstrumenten.",
-      "link": "https://the-decoder.de/google-deepmind-stellt-neues-roboter-modell-gemini-robotics-er-1-6-vor/",
-      "date": "2026-04-17T18:51:56.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Google macht es Nutzern noch leichter, Webseiten nicht mehr direkt aufzurufen",
-      "description": "Google integriert den AI-Mode tiefer in Chrome: Webseiten öffnen sich künftig direkt neben der KI-Antwort. Der klassische Seitenbesuch verliert damit weiter an Bedeutung.\nDer Artikel Google macht es N",
-      "link": "https://the-decoder.de/google-macht-es-nutzern-noch-leichter-webseiten-nicht-mehr-direkt-aufzurufen/",
-      "date": "2026-04-17T18:49:35.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
