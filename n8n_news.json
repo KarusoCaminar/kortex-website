@@ -1,6 +1,33 @@
 {
-  "lastUpdated": "2026-04-20T10:40:05.645Z",
+  "lastUpdated": "2026-04-20T12:34:32.069Z",
   "news": [
+    {
+      "title": "Humanoide Roboter laufen in Peking schneller als Profisportler",
+      "description": "Beim zweiten Halbmarathon für humanoide Roboter in Peking haben chinesische Maschinen am Sonntag deutlich bessere Zeiten erzielt als im Vorjahr.\nDer Artikel Humanoide Roboter laufen in Peking schnelle",
+      "link": "https://the-decoder.de/humanoide-roboter-laufen-in-peking-schneller-als-profisportler/",
+      "date": "2026-04-20T12:33:02.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Google will mit Marvell eigene KI-Chips für effizientere Inferenz entwickeln",
+      "description": "Google verhandelt mit dem Chipdesigner Marvell Technology über die Entwicklung von zwei neuen Spezialchips für seine Rechenzentren.\nDer Artikel Google will mit Marvell eigene KI-Chips für effizientere",
+      "link": "https://the-decoder.de/google-will-mit-marvell-eigene-ki-chips-fuer-effizientere-inferenz-entwickeln/",
+      "date": "2026-04-20T11:31:39.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Salesforce will mit \"Agent Albert\" beweisen, dass KI die Branche nicht zerstört",
+      "description": "Marc Benioff hält die Angst vor einem KI-bedingten Untergang der SaaS-Branche für übertrieben. Doch die bisherige Bilanz seines KI-Agenten Agentforce zeigt, wie weit Versprechen und Wirklichkeit ausei",
+      "link": "https://the-decoder.de/salesforce-will-mit-agent-albert-beweisen-dass-ki-die-branche-nicht-zerstoert/",
+      "date": "2026-04-20T10:41:39.000Z",
+      "source": "The Decoder",
+      "category": "sales-tools",
+      "language": "de"
+    },
     {
       "title": "US-Geheimdienst NSA nutzt Anthropics KI-Modell Mythos",
       "description": "Die NSA (National Security Agency), der US-Geheimdienst für elektronische Überwachung, nutzt Anthropics leistungsstärkstes KI-Modell \"Mythos Preview\".\nDer Artikel US-Geheimdienst NSA nutzt Anthropics",
@@ -42,33 +69,6 @@
       "description": "Ein Forscherteam hat einen OpenClaw-Agenten für Smart Glasses entwickelt, um herauszufinden, wie sich kontinuierlich wahrnehmende KI auf die Nutzung agentischer KI-Systeme auswirkt.\nDer Artikel OpenCl",
       "link": "https://the-decoder.de/visionclaw-macht-smart-glasses-zu-always-on-agenten-fuer-den-alltag/",
       "date": "2026-04-19T07:37:33.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "KI-Agenten bauen UIs: Google stellt A2UI 0.9 mit neuem Agent-SDK vor",
-      "description": "Google bringt mit A2UI 0.9 einen Standard für generative Benutzeroberflächen an den Start, der unabhängig von Frameworks funktioniert und KI-Agenten dynamisch passende UI-Elemente erzeugen lässt. \nDer",
-      "link": "https://the-decoder.de/ki-agenten-bauen-uis-google-stellt-a2ui-0-9-mit-neuem-agent-sdk-vor/",
-      "date": "2026-04-19T07:02:51.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Salesforce-CEO Marc Benioff erklärt die API zur neuen Benutzeroberfläche für KI-Agenten",
-      "description": "Salesforce öffnet seine komplette Plattform für KI-Agenten: Mit \"Headless 360\" wird die API zur Benutzeroberfläche, der Browser überflüssig. CEO Marc Benioff setzt damit genau das um, was OpenAI-Chef",
-      "link": "https://the-decoder.de/salesforce-ceo-marc-benioff-erklaert-die-api-zur-neuen-benutzeroberflaeche-fuer-ki-agenten/",
-      "date": "2026-04-18T13:01:19.000Z",
-      "source": "The Decoder",
-      "category": "sales-tools",
-      "language": "de"
-    },
-    {
-      "title": "Wer KI als reine Antwortmaschine nutzt, verliert laut Studie am schnellsten kognitive Fähigkeiten",
-      "description": "Schon zehn bis 15 Minuten Arbeit mit einem KI-Assistenten reichen aus, um die Problemlösefähigkeit und die Ausdauer in nachfolgenden Aufgaben ohne KI messbar zu senken. Das zeigt eine neue Studie aus",
-      "link": "https://the-decoder.de/wer-ki-als-reine-antwortmaschine-nutzt-verliert-laut-studie-am-schnellsten-kognitive-faehigkeiten/",
-      "date": "2026-04-18T12:30:14.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
