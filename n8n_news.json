@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-04-20T06:54:42.035Z",
+  "lastUpdated": "2026-04-20T08:52:58.799Z",
   "news": [
+    {
+      "title": "US-Geheimdienst NSA nutzt Anthropics KI-Modell Mythos",
+      "description": "Die NSA (National Security Agency), der US-Geheimdienst für elektronische Überwachung, nutzt Anthropics leistungsstärkstes KI-Modell \"Mythos Preview\".\nDer Artikel US-Geheimdienst NSA nutzt Anthropics",
+      "link": "https://the-decoder.de/us-geheimdienst-nsa-nutzt-anthropics-ki-modell-mythos/",
+      "date": "2026-04-20T08:37:04.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Gericht erlaubt KI-Umwandlung von Foto in Comic, wenn nur das Motiv übernommen wird",
       "description": "Ein Foto wird per KI zum Comic – und das ist laut OLG Düsseldorf erlaubt, solange nur das Motiv übernommen wird. Was das Urteil für den Urheberrechtsschutz von KI-Erzeugnissen bedeutet.\nDer Artikel Ge",
@@ -60,15 +69,6 @@
       "description": "Schon zehn bis 15 Minuten Arbeit mit einem KI-Assistenten reichen aus, um die Problemlösefähigkeit und die Ausdauer in nachfolgenden Aufgaben ohne KI messbar zu senken. Das zeigt eine neue Studie aus",
       "link": "https://the-decoder.de/wer-ki-als-reine-antwortmaschine-nutzt-verliert-laut-studie-am-schnellsten-kognitive-faehigkeiten/",
       "date": "2026-04-18T12:30:14.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Anthropic-Chef über KI-Skalierung: \"Es gibt kein Ende des Regenbogens\"",
-      "description": "Anthropic-CEO Dario Amodei sieht kein Ende der KI-Skalierung – und fordert die Branche auf, die drohenden Jobverluste nicht kleinzureden, sondern den Nutzen so groß zu machen, dass er die Verwerfungen",
-      "link": "https://the-decoder.de/anthropic-chef-ueber-ki-skalierung-es-gibt-kein-ende-des-regenbogens/",
-      "date": "2026-04-18T10:11:28.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
