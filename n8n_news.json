@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-04-20T18:26:58.682Z",
+  "lastUpdated": "2026-04-20T20:19:10.253Z",
   "news": [
+    {
+      "title": "Chronicle für Codex: OpenAI gibt seinem KI-Assistenten ein Gedächtnis durch Screenshots",
+      "description": "OpenAI gibt Codex ein Gedächtnis für den Bildschirm: Die neue Funktion Chronicle beobachtet, woran Nutzer arbeiten, und merkt es sich. Die Funktion erhöht aber auch altbekannte Sicherheitsrisiken.\nDer",
+      "link": "https://the-decoder.de/chronicle-fuer-codex-openai-gibt-seinem-ki-assistenten-ein-gedaechtnis-durch-screenshots/",
+      "date": "2026-04-20T18:37:32.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Open-Weight-Modell Kimi K2.6 will mit Agenten-Schwärmen GPT-5.4 und Claude Opus 4.6 schlagen",
       "description": "Moonshot AI veröffentlicht Kimi K2.6 als Open Weight. Das Modell soll in Coding-Benchmarks mit GPT-5.4 und Claude Opus 4.6 mithalten und bis zu 300 Agenten parallel steuern können.\nDer Artikel Open-We",
@@ -123,15 +132,6 @@
       "description": "Leading security firms and enterprises join OpenAI’s Trusted Access for Cyber, using GPT-5.4-Cyber and $10M in API grants to strengthen global cyber defense.",
       "link": "https://openai.com/index/accelerating-cyber-defense-ecosystem",
       "date": "2026-04-16T00:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "The next evolution of the Agents SDK",
-      "description": "OpenAI updates the Agents SDK with native sandbox execution and a model-native harness, helping developers build secure, long-running agents across files and tools.",
-      "link": "https://openai.com/index/the-next-evolution-of-the-agents-sdk",
-      "date": "2026-04-15T10:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
