@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-19T22:13:50.726Z",
+  "lastUpdated": "2026-04-20T00:47:30.915Z",
   "news": [
     {
       "title": "Gericht erlaubt KI-Umwandlung von Foto in Comic, wenn nur das Motiv übernommen wird",
@@ -92,47 +92,47 @@
       "language": "en"
     },
     {
-      "title": "Towards developing future-ready skills with generative AI",
-      "description": "Education Innovation",
-      "link": "https://research.google/blog/towards-developing-future-ready-skills-with-generative-ai/",
-      "date": "2026-04-13T18:15:59.000Z",
-      "source": "Google AI",
+      "title": "Codex for (almost) everything",
+      "description": "The updated Codex app for macOS and Windows adds computer use, in-app browsing, image generation, memory, and plugins to accelerate developer workflows.",
+      "link": "https://openai.com/index/codex-for-almost-everything",
+      "date": "2026-04-16T10:00:00.000Z",
+      "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
     },
     {
-      "title": "ConvApparel: Measuring and bridging the realism gap in user simulators",
-      "description": "Generative AI",
-      "link": "https://research.google/blog/convapparel-measuring-and-bridging-the-realism-gap-in-user-simulators/",
-      "date": "2026-04-09T11:22:00.000Z",
-      "source": "Google AI",
+      "title": "Introducing GPT-Rosalind for life sciences research",
+      "description": "OpenAI introduces GPT-Rosalind, a frontier reasoning model built to accelerate drug discovery, genomics analysis, protein reasoning, and scientific research workflows.",
+      "link": "https://openai.com/index/introducing-gpt-rosalind",
+      "date": "2026-04-16T01:00:00.000Z",
+      "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
     },
     {
-      "title": "Improving the academic workflow: Introducing two AI agents for better figures and peer review",
-      "description": "Generative AI",
-      "link": "https://research.google/blog/improving-the-academic-workflow-introducing-two-ai-agents-for-better-figures-and-peer-review/",
-      "date": "2026-04-08T20:01:33.000Z",
-      "source": "Google AI",
-      "category": "workflow-tools",
-      "language": "en"
-    },
-    {
-      "title": "Evaluating alignment of behavioral dispositions in LLMs",
-      "description": "Generative AI",
-      "link": "https://research.google/blog/evaluating-alignment-of-behavioral-dispositions-in-llms/",
-      "date": "2026-04-03T08:00:00.000Z",
-      "source": "Google AI",
+      "title": "Accelerating the cyber defense ecosystem that protects us all",
+      "description": "Leading security firms and enterprises join OpenAI’s Trusted Access for Cyber, using GPT-5.4-Cyber and $10M in API grants to strengthen global cyber defense.",
+      "link": "https://openai.com/index/accelerating-cyber-defense-ecosystem",
+      "date": "2026-04-16T00:00:00.000Z",
+      "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
     },
     {
-      "title": "Building better AI benchmarks: How many raters are enough?",
-      "description": "Algorithms & Theory",
-      "link": "https://research.google/blog/building-better-ai-benchmarks-how-many-raters-are-enough/",
-      "date": "2026-03-31T16:16:00.000Z",
-      "source": "Google AI",
+      "title": "The next evolution of the Agents SDK",
+      "description": "OpenAI updates the Agents SDK with native sandbox execution and a model-native harness, helping developers build secure, long-running agents across files and tools.",
+      "link": "https://openai.com/index/the-next-evolution-of-the-agents-sdk",
+      "date": "2026-04-15T10:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
+      "title": "Trusted access for the next era of cyber defense",
+      "description": "OpenAI expands its Trusted Access for Cyber program, introducing GPT-5.4-Cyber to vetted defenders and strengthening safeguards as AI cybersecurity capabilities advance.",
+      "link": "https://openai.com/index/scaling-trusted-access-for-cyber-defense",
+      "date": "2026-04-14T00:00:00.000Z",
+      "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
     }
