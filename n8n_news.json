@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-04-20T14:39:55.117Z",
+  "lastUpdated": "2026-04-20T16:31:59.742Z",
   "news": [
+    {
+      "title": "Google Deepmind stellt Spezialteam auf, um bei KI-Coding zu Anthropic aufzuschließen",
+      "description": "Google will seine KI-Coding-Modelle verbessern und selbst mehr KI nutzen. Das langfristige Ziel: KI, die sich selbst verbessern kann. Google-Mitgründer Sergey Brin mischt wieder persönlich mit.\nDer Ar",
+      "link": "https://the-decoder.de/google-deepmind-stellt-spezialteam-auf-um-bei-ki-coding-zu-anthropic-aufzuschliessen/",
+      "date": "2026-04-20T16:17:15.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Adobe kämpft mit neuer Agenten-Plattform gegen die KI-Disruption des eigenen Geschäftsmodells",
       "description": "Der Softwarekonzern Adobe reagiert auf die wachsende Bedrohung durch KI-native Konkurrenten mit einer neuen Agenten-Plattform für Unternehmen. Gleichzeitig sucht das Unternehmen einen neuen CEO.\nDer A",
@@ -69,15 +78,6 @@
       "description": "Hunderte KI-Avatare fluten TikTok, Instagram und YouTube mit Pro-Trump-Botschaften. Einige Konten haben mehr als 35.000 Follower und Millionen Aufrufe. Trump selbst teilte bereits KI-Inhalte. Wer dahi",
       "link": "https://the-decoder.de/ki-influencer-im-us-wahlkampf-hunderte-fake-accounts-unterstuetzen-trump-in-social-media/",
       "date": "2026-04-19T09:01:54.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Neuer KI-Benchmark RealChart2Code: Selbst Top-Modelle scheitern an komplexen Diagrammen",
-      "description": "Der Benchmark RealChart2Code testet 14 führende KI-Modelle bei der Generierung komplexer Visualisierungen aus realen Datensätzen. Selbst die besten proprietären Modelle verlieren dabei fast die Hälfte",
-      "link": "https://the-decoder.de/neuer-ki-benchmark-realchart2code-selbst-top-modelle-scheitern-an-komplexen-diagrammen/",
-      "date": "2026-04-19T08:24:10.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
