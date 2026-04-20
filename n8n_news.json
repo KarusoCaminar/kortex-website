@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-04-20T16:31:59.742Z",
+  "lastUpdated": "2026-04-20T18:26:58.682Z",
   "news": [
+    {
+      "title": "Open-Weight-Modell Kimi K2.6 will mit Agenten-Schwärmen GPT-5.4 und Claude Opus 4.6 schlagen",
+      "description": "Moonshot AI veröffentlicht Kimi K2.6 als Open Weight. Das Modell soll in Coding-Benchmarks mit GPT-5.4 und Claude Opus 4.6 mithalten und bis zu 300 Agenten parallel steuern können.\nDer Artikel Open-We",
+      "link": "https://the-decoder.de/open-weight-modell-kimi-k2-6-will-mit-agenten-schwaermen-gpt-5-4-und-claude-opus-4-6-schlagen/",
+      "date": "2026-04-20T17:06:04.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Google Deepmind stellt Spezialteam auf, um bei KI-Coding zu Anthropic aufzuschließen",
       "description": "Google will seine KI-Coding-Modelle verbessern und selbst mehr KI nutzen. Das langfristige Ziel: KI, die sich selbst verbessern kann. Google-Mitgründer Sergey Brin mischt wieder persönlich mit.\nDer Ar",
@@ -69,15 +78,6 @@
       "description": "Ein Foto wird per KI zum Comic – und das ist laut OLG Düsseldorf erlaubt, solange nur das Motiv übernommen wird. Was das Urteil für den Urheberrechtsschutz von KI-Erzeugnissen bedeutet.\nDer Artikel Ge",
       "link": "https://the-decoder.de/gericht-erlaubt-ki-umwandlung-von-foto-in-comic-wenn-nur-das-motiv-uebernommen-wird/",
       "date": "2026-04-19T12:58:17.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "KI-Influencer im US-Wahlkampf: Hunderte Fake-Accounts unterstützen Trump in Social Media",
-      "description": "Hunderte KI-Avatare fluten TikTok, Instagram und YouTube mit Pro-Trump-Botschaften. Einige Konten haben mehr als 35.000 Follower und Millionen Aufrufe. Trump selbst teilte bereits KI-Inhalte. Wer dahi",
-      "link": "https://the-decoder.de/ki-influencer-im-us-wahlkampf-hunderte-fake-accounts-unterstuetzen-trump-in-social-media/",
-      "date": "2026-04-19T09:01:54.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
