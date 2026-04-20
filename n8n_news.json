@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-04-20T12:34:32.069Z",
+  "lastUpdated": "2026-04-20T14:39:55.117Z",
   "news": [
+    {
+      "title": "Adobe kämpft mit neuer Agenten-Plattform gegen die KI-Disruption des eigenen Geschäftsmodells",
+      "description": "Der Softwarekonzern Adobe reagiert auf die wachsende Bedrohung durch KI-native Konkurrenten mit einer neuen Agenten-Plattform für Unternehmen. Gleichzeitig sucht das Unternehmen einen neuen CEO.\nDer A",
+      "link": "https://the-decoder.de/adobe-kaempft-mit-neuer-agenten-plattform-gegen-die-ki-disruption-des-eigenen-geschaeftsmodells/",
+      "date": "2026-04-20T14:25:14.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Humanoide Roboter laufen in Peking schneller als Profisportler",
       "description": "Beim zweiten Halbmarathon für humanoide Roboter in Peking haben chinesische Maschinen am Sonntag deutlich bessere Zeiten erzielt als im Vorjahr.\nDer Artikel Humanoide Roboter laufen in Peking schnelle",
@@ -20,7 +29,7 @@
       "language": "de"
     },
     {
-      "title": "Salesforce will mit \"Agent Albert\" beweisen, dass KI die Branche nicht zerstört",
+      "title": "Salesforce will mit \"Agent Albert\" beweisen, dass KI die Software-Branche nicht zerstört",
       "description": "Marc Benioff hält die Angst vor einem KI-bedingten Untergang der SaaS-Branche für übertrieben. Doch die bisherige Bilanz seines KI-Agenten Agentforce zeigt, wie weit Versprechen und Wirklichkeit ausei",
       "link": "https://the-decoder.de/salesforce-will-mit-agent-albert-beweisen-dass-ki-die-branche-nicht-zerstoert/",
       "date": "2026-04-20T10:41:39.000Z",
@@ -36,6 +45,15 @@
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
+    },
+    {
+      "title": "OpenAI helps Hyatt advance AI among colleagues",
+      "description": "Hyatt deploys ChatGPT Enterprise across its global workforce, using GPT-5.4 and Codex to improve productivity, operations, and guest experiences.",
+      "link": "https://openai.com/index/hyatt-advances-ai-with-chatgpt-enterprise",
+      "date": "2026-04-20T00:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
     },
     {
       "title": "Gericht erlaubt KI-Umwandlung von Foto in Comic, wenn nur das Motiv übernommen wird",
@@ -60,15 +78,6 @@
       "description": "Der Benchmark RealChart2Code testet 14 führende KI-Modelle bei der Generierung komplexer Visualisierungen aus realen Datensätzen. Selbst die besten proprietären Modelle verlieren dabei fast die Hälfte",
       "link": "https://the-decoder.de/neuer-ki-benchmark-realchart2code-selbst-top-modelle-scheitern-an-komplexen-diagrammen/",
       "date": "2026-04-19T08:24:10.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "OpenClaw für Smart Glasses: VisionClaw macht Ray-Ban Meta-Brillen zu Always-on-Agenten für den Alltag",
-      "description": "Ein Forscherteam hat einen OpenClaw-Agenten für Smart Glasses entwickelt, um herauszufinden, wie sich kontinuierlich wahrnehmende KI auf die Nutzung agentischer KI-Systeme auswirkt.\nDer Artikel OpenCl",
-      "link": "https://the-decoder.de/visionclaw-macht-smart-glasses-zu-always-on-agenten-fuer-den-alltag/",
-      "date": "2026-04-19T07:37:33.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
@@ -123,15 +132,6 @@
       "description": "OpenAI updates the Agents SDK with native sandbox execution and a model-native harness, helping developers build secure, long-running agents across files and tools.",
       "link": "https://openai.com/index/the-next-evolution-of-the-agents-sdk",
       "date": "2026-04-15T10:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "Trusted access for the next era of cyber defense",
-      "description": "OpenAI expands its Trusted Access for Cyber program, introducing GPT-5.4-Cyber to vetted defenders and strengthening safeguards as AI cybersecurity capabilities advance.",
-      "link": "https://openai.com/index/scaling-trusted-access-for-cyber-defense",
-      "date": "2026-04-14T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
