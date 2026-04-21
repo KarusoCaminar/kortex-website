@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-04-21T18:30:05.233Z",
+  "lastUpdated": "2026-04-21T20:22:46.972Z",
   "news": [
+    {
+      "title": "OpenAI bringt ChatGPT Images 2.0 mit neuem Denkmodus für Bildgenerierung",
+      "description": "OpenAI stattet seinen Bildgenerator ChatGPT Images 2.0 mit Denkfähigkeiten und Websuche aus. Der Generator kann nun bis zu acht konsistente Bilder aus einem einzigen Prompt erstellen und beherrscht Te",
+      "link": "https://the-decoder.de/openai-bringt-chatgpt-images-2-0-mit-neuem-denkmodus-fuer-bildgenerierung/",
+      "date": "2026-04-21T19:33:49.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Deep Research Max: Google stellt neuen KI-Agenten für umfangreiche Internetrecherchen vor",
       "description": "Google Deepmind bringt mit Deep Research Max einen neuen KI-Agenten auf Basis von Gemini 3.1 Pro, der autonome Recherchen über das Web und proprietäre Datenquellen durchführen soll. Über das Model Con",
@@ -18,15 +27,6 @@
       "source": "Google AI",
       "category": "große-modelle",
       "language": "en"
-    },
-    {
-      "title": "GPT-Image-2: OpenAIs neues Bildmodell steht in den Startlöchern",
-      "description": "OpenAI stellt heute Abend ein neues Bildmodell vor, das unter dem Codenamen \"gpt-image-2\" bereits seit Wochen in Social Media für Aufsehen sorgt. Erste Testbilder sind kaum noch von echten Fotos zu un",
-      "link": "https://the-decoder.de/gpt-image-2-openais-neues-bildmodell-steht-in-den-startloechern/",
-      "date": "2026-04-21T15:47:49.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
     },
     {
       "title": "Drei Gesetzentwürfe könnten biometrische Massenüberwachung und KI-Datenanalysen in Deutschland ermöglichen",
