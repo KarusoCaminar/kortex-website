@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-04-21T16:29:44.054Z",
+  "lastUpdated": "2026-04-21T18:30:05.233Z",
   "news": [
+    {
+      "title": "Deep Research Max: Google stellt neuen KI-Agenten für umfangreiche Internetrecherchen vor",
+      "description": "Google Deepmind bringt mit Deep Research Max einen neuen KI-Agenten auf Basis von Gemini 3.1 Pro, der autonome Recherchen über das Web und proprietäre Datenquellen durchführen soll. Über das Model Con",
+      "link": "https://the-decoder.de/deep-research-max-google-stellt-neuen-ki-agenten-fuer-umfangreiche-internetrecherchen-vor/",
+      "date": "2026-04-21T17:42:38.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "ReasoningBank: Enabling agents to learn from experience",
+      "description": "Generative AI",
+      "link": "https://research.google/blog/reasoningbank-enabling-agents-to-learn-from-experience/",
+      "date": "2026-04-21T16:42:22.000Z",
+      "source": "Google AI",
+      "category": "große-modelle",
+      "language": "en"
+    },
     {
       "title": "GPT-Image-2: OpenAIs neues Bildmodell steht in den Startlöchern",
       "description": "OpenAI stellt heute Abend ein neues Bildmodell vor, das unter dem Codenamen \"gpt-image-2\" bereits seit Wochen in Social Media für Aufsehen sorgt. Erste Testbilder sind kaum noch von echten Fotos zu un",
@@ -83,15 +101,6 @@
       "language": "de"
     },
     {
-      "title": "Google Deepmind stellt Spezialteam auf, um bei KI-Coding zu Anthropic aufzuschließen",
-      "description": "Google will seine KI-Coding-Modelle verbessern und selbst mehr KI nutzen. Das langfristige Ziel: KI, die sich selbst verbessern kann. Google-Mitgründer Sergey Brin mischt wieder persönlich mit.\nDer Ar",
-      "link": "https://the-decoder.de/google-deepmind-stellt-spezialteam-auf-um-bei-ki-coding-zu-anthropic-aufzuschliessen/",
-      "date": "2026-04-20T16:17:15.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "OpenAI helps Hyatt advance AI among colleagues",
       "description": "Hyatt deploys ChatGPT Enterprise across its global workforce, using GPT-5.4 and Codex to improve productivity, operations, and guest experiences.",
       "link": "https://openai.com/index/hyatt-advances-ai-with-chatgpt-enterprise",
@@ -123,15 +132,6 @@
       "description": "The updated Codex app for macOS and Windows adds computer use, in-app browsing, image generation, memory, and plugins to accelerate developer workflows.",
       "link": "https://openai.com/index/codex-for-almost-everything",
       "date": "2026-04-16T10:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "Introducing GPT-Rosalind for life sciences research",
-      "description": "OpenAI introduces GPT-Rosalind, a frontier reasoning model built to accelerate drug discovery, genomics analysis, protein reasoning, and scientific research workflows.",
-      "link": "https://openai.com/index/introducing-gpt-rosalind",
-      "date": "2026-04-16T01:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
