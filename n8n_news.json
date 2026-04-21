@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-04-21T10:35:58.632Z",
+  "lastUpdated": "2026-04-21T12:31:12.490Z",
   "news": [
+    {
+      "title": "KI in Unternehmen: Eine typische ChatGPT-Floskel vervierfacht sich seit 2022",
+      "description": "KI-Sprache entlarvt sich selbst: Eine Barron's-Analyse zeigt, wie eine einzige Satzkonstruktion verrät, dass Unternehmen ihre Kommunikation von ChatGPT schreiben lassen. Die Nutzung hat sich seit 2024",
+      "link": "https://the-decoder.de/ki-in-unternehmen-eine-typische-chatgpt-floskel-vervierfacht-sich-seit-2022/",
+      "date": "2026-04-21T12:11:48.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Deezer: Fast die Hälfte aller hochgeladenen Tracks ist KI-generiert",
+      "description": "Der Musikstreaming-Dienst Deezer meldet, dass mittlerweile 44 Prozent aller täglich hochgeladenen Songs vollständig von KI erzeugt werden. Die Plattform setzt auf eigene Erkennungstechnologie und will",
+      "link": "https://the-decoder.de/deezer-fast-die-haelfte-aller-hochgeladenen-tracks-ist-ki-generiert/",
+      "date": "2026-04-21T11:55:00.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Jeff Bezos KI-Labor \"Project Prometheus\" steht vor Finanzierungsrunde mit 38 Milliarden Dollar Bewertung",
       "description": "Jeff Bezos steht kurz vor dem Abschluss einer Finanzierungsrunde über 10 Milliarden Dollar für sein KI-Labor mit dem Codenamen \"Project Prometheus\", berichtet die Financial Times.\nDer Artikel Jeff Bez",
@@ -62,24 +80,6 @@
       "date": "2026-04-20T12:33:02.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Google will mit Marvell eigene KI-Chips für effizientere Inferenz entwickeln",
-      "description": "Google verhandelt mit dem Chipdesigner Marvell Technology über die Entwicklung von zwei neuen Spezialchips für seine Rechenzentren.\nDer Artikel Google will mit Marvell eigene KI-Chips für effizientere",
-      "link": "https://the-decoder.de/google-will-mit-marvell-eigene-ki-chips-fuer-effizientere-inferenz-entwickeln/",
-      "date": "2026-04-20T11:31:39.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Salesforce will mit \"Agent Albert\" beweisen, dass KI die Software-Branche nicht zerstört",
-      "description": "Marc Benioff hält die Angst vor einem KI-bedingten Untergang der SaaS-Branche für übertrieben. Doch die bisherige Bilanz seines KI-Agenten Agentforce zeigt, wie weit Versprechen und Wirklichkeit ausei",
-      "link": "https://the-decoder.de/salesforce-will-mit-agent-albert-beweisen-dass-ki-die-branche-nicht-zerstoert/",
-      "date": "2026-04-20T10:41:39.000Z",
-      "source": "The Decoder",
-      "category": "sales-tools",
       "language": "de"
     },
     {
