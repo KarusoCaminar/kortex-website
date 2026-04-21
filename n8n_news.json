@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-04-21T14:40:49.316Z",
+  "lastUpdated": "2026-04-21T16:29:44.054Z",
   "news": [
+    {
+      "title": "GPT-Image-2: OpenAIs neues Bildmodell steht in den Startlöchern",
+      "description": "OpenAI stellt heute Abend ein neues Bildmodell vor, das unter dem Codenamen \"gpt-image-2\" bereits seit Wochen in Social Media für Aufsehen sorgt. Erste Testbilder sind kaum noch von echten Fotos zu un",
+      "link": "https://the-decoder.de/gpt-image-2-openais-neues-bildmodell-steht-in-den-startloechern/",
+      "date": "2026-04-21T15:47:49.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Drei Gesetzentwürfe könnten biometrische Massenüberwachung und KI-Datenanalysen in Deutschland ermöglichen",
+      "description": "Gesetzentwürfe des Innen- und Justizministeriums sollen Sicherheitsbehörden weitreichende neue Befugnisse für KI-gestützte Überwachung geben. AlgorithmWatch warnt vor einer europarechtswidrigen Massen",
+      "link": "https://the-decoder.de/drei-gesetzentwuerfe-koennten-biometrische-massenueberwachung-und-ki-datenanalysen-in-deutschland-ermoeglichen/",
+      "date": "2026-04-21T14:59:35.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "KI in Unternehmen: Eine typische ChatGPT-Floskel vervierfacht sich seit 2022",
       "description": "KI-Sprache entlarvt sich selbst: Eine Barron's-Analyse zeigt, wie eine einzige Satzkonstruktion verrät, dass Unternehmen ihre Kommunikation von ChatGPT schreiben lassen. Die Nutzung hat sich seit 2024",
@@ -69,24 +87,6 @@
       "description": "Google will seine KI-Coding-Modelle verbessern und selbst mehr KI nutzen. Das langfristige Ziel: KI, die sich selbst verbessern kann. Google-Mitgründer Sergey Brin mischt wieder persönlich mit.\nDer Ar",
       "link": "https://the-decoder.de/google-deepmind-stellt-spezialteam-auf-um-bei-ki-coding-zu-anthropic-aufzuschliessen/",
       "date": "2026-04-20T16:17:15.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Adobe kämpft mit neuer Agenten-Plattform gegen die KI-Disruption des eigenen Geschäftsmodells",
-      "description": "Der Softwarekonzern Adobe reagiert auf die wachsende Bedrohung durch KI-native Konkurrenten mit einer neuen Agenten-Plattform für Unternehmen. Gleichzeitig sucht das Unternehmen einen neuen CEO.\nDer A",
-      "link": "https://the-decoder.de/adobe-kaempft-mit-neuer-agenten-plattform-gegen-die-ki-disruption-des-eigenen-geschaeftsmodells/",
-      "date": "2026-04-20T14:25:14.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Humanoide Roboter laufen in Peking schneller als Profisportler",
-      "description": "Beim zweiten Halbmarathon für humanoide Roboter in Peking haben chinesische Maschinen am Sonntag deutlich bessere Zeiten erzielt als im Vorjahr.\nDer Artikel Humanoide Roboter laufen in Peking schnelle",
-      "link": "https://the-decoder.de/humanoide-roboter-laufen-in-peking-schneller-als-profisportler/",
-      "date": "2026-04-20T12:33:02.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
