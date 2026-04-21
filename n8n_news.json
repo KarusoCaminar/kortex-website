@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-04-21T08:44:31.311Z",
+  "lastUpdated": "2026-04-21T10:35:58.632Z",
   "news": [
+    {
+      "title": "Jeff Bezos KI-Labor \"Project Prometheus\" steht vor Finanzierungsrunde mit 38 Milliarden Dollar Bewertung",
+      "description": "Jeff Bezos steht kurz vor dem Abschluss einer Finanzierungsrunde über 10 Milliarden Dollar für sein KI-Labor mit dem Codenamen \"Project Prometheus\", berichtet die Financial Times.\nDer Artikel Jeff Bez",
+      "link": "https://the-decoder.de/jeff-bezos-ki-labor-project-prometheus-steht-vor-finanzierungsrunde-mit-38-milliarden-dollar-bewertung/",
+      "date": "2026-04-21T09:41:48.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Amazon steckt bis zu 25 Milliarden Dollar zusätzlich in Anthropic",
+      "description": "Amazon investiert bis zu 25 Milliarden Dollar zusätzlich in Anthropic. Im Gegenzug verpflichtet sich das KI-Unternehmen, über zehn Jahre mehr als 100 Milliarden Dollar für AWS-Infrastruktur auszugeben",
+      "link": "https://the-decoder.de/amazon-steckt-bis-zu-25-milliarden-dollar-zusaetzlich-in-anthropic/",
+      "date": "2026-04-21T08:44:21.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Chronicle für Codex: OpenAI gibt seinem KI-Assistenten ein Gedächtnis durch Screenshots",
       "description": "OpenAI gibt Codex ein Gedächtnis für den Bildschirm: Die neue Funktion Chronicle beobachtet, woran Nutzer arbeiten, und merkt es sich. Die Funktion erhöht aber auch altbekannte Sicherheitsrisiken.\nDer",
@@ -65,15 +83,6 @@
       "language": "de"
     },
     {
-      "title": "US-Geheimdienst NSA nutzt Anthropics KI-Modell Mythos",
-      "description": "Die NSA (National Security Agency), der US-Geheimdienst für elektronische Überwachung, nutzt Anthropics leistungsstärkstes KI-Modell \"Mythos Preview\".\nDer Artikel US-Geheimdienst NSA nutzt Anthropics",
-      "link": "https://the-decoder.de/us-geheimdienst-nsa-nutzt-anthropics-ki-modell-mythos/",
-      "date": "2026-04-20T08:37:04.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "OpenAI helps Hyatt advance AI among colleagues",
       "description": "Hyatt deploys ChatGPT Enterprise across its global workforce, using GPT-5.4 and Codex to improve productivity, operations, and guest experiences.",
       "link": "https://openai.com/index/hyatt-advances-ai-with-chatgpt-enterprise",
@@ -81,15 +90,6 @@
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
-    },
-    {
-      "title": "Gericht erlaubt KI-Umwandlung von Foto in Comic, wenn nur das Motiv übernommen wird",
-      "description": "Ein Foto wird per KI zum Comic – und das ist laut OLG Düsseldorf erlaubt, solange nur das Motiv übernommen wird. Was das Urteil für den Urheberrechtsschutz von KI-Erzeugnissen bedeutet.\nDer Artikel Ge",
-      "link": "https://the-decoder.de/gericht-erlaubt-ki-umwandlung-von-foto-in-comic-wenn-nur-das-motiv-uebernommen-wird/",
-      "date": "2026-04-19T12:58:17.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
     },
     {
       "title": "Designing synthetic datasets for the real world: Mechanism design and reasoning from first principles",
