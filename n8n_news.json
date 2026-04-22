@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-04-22T10:35:20.445Z",
+  "lastUpdated": "2026-04-22T12:30:18.969Z",
   "news": [
+    {
+      "title": "Anthropics Mythos-Modell wird von unautorisierten Nutzern verwendet",
+      "description": "Eine kleine Gruppe nicht autorisierter Nutzer hat sich Zugang zu Anthropics neuem KI-Modell Mythos verschafft, berichtet Bloomberg.\nDer Artikel Anthropics Mythos-Modell wird von unautorisierten Nutzer",
+      "link": "https://the-decoder.de/anthropics-mythos-modell-wird-von-unautorisierten-nutzern-verwendet/",
+      "date": "2026-04-22T11:45:43.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Anthropic-Manager signalisiert dass Pro- und Max-Pläne nicht mehr zur heutigen Nutzung passen",
+      "description": "Anthropic hat am Nachmittag des 21. April 2026 das Coding-Werkzeug Claude Code kurzzeitig aus dem Leistungsumfang seines Pro-Abos für 20 Dollar im Monat gestrichen, die Änderung aber nach öffentlicher",
+      "link": "https://the-decoder.de/anthropic-manager-signalisiert-dass-pro-und-max-plaene-nicht-mehr-zur-heutigen-nutzung-passen/",
+      "date": "2026-04-22T11:29:59.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Meta trainiert KI-Agenten mit Mausbewegungen und Tastatureingaben seiner Mitarbeiter",
       "description": "Meta installiert auf den Computern seiner US-Mitarbeiter eine neue Überwachungssoftware, die Mausbewegungen, Klicks und Tastatureingaben für das Training von KI-Modellen erfasst.\nDer Artikel Meta trai",
@@ -69,24 +87,6 @@
       "description": "Der Musikstreaming-Dienst Deezer meldet, dass mittlerweile 44 Prozent aller täglich hochgeladenen Songs vollständig von KI erzeugt werden. Die Plattform setzt auf eigene Erkennungstechnologie und will",
       "link": "https://the-decoder.de/deezer-fast-die-haelfte-aller-hochgeladenen-tracks-ist-ki-generiert/",
       "date": "2026-04-21T11:55:00.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Jeff Bezos KI-Labor \"Project Prometheus\" steht vor Finanzierungsrunde mit 38 Milliarden Dollar Bewertung",
-      "description": "Jeff Bezos steht kurz vor dem Abschluss einer Finanzierungsrunde über 10 Milliarden Dollar für sein KI-Labor mit dem Codenamen \"Project Prometheus\", berichtet die Financial Times.\nDer Artikel Jeff Bez",
-      "link": "https://the-decoder.de/jeff-bezos-ki-labor-project-prometheus-steht-vor-finanzierungsrunde-mit-38-milliarden-dollar-bewertung/",
-      "date": "2026-04-21T09:41:48.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Amazon steckt bis zu 25 Milliarden Dollar zusätzlich in Anthropic",
-      "description": "Amazon investiert bis zu 25 Milliarden Dollar zusätzlich in Anthropic. Im Gegenzug verpflichtet sich das KI-Unternehmen, über zehn Jahre mehr als 100 Milliarden Dollar für AWS-Infrastruktur auszugeben",
-      "link": "https://the-decoder.de/amazon-steckt-bis-zu-25-milliarden-dollar-zusaetzlich-in-anthropic/",
-      "date": "2026-04-21T08:44:21.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
