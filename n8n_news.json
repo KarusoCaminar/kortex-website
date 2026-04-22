@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-04-22T08:42:39.014Z",
+  "lastUpdated": "2026-04-22T10:35:20.445Z",
   "news": [
+    {
+      "title": "Meta trainiert KI-Agenten mit Mausbewegungen und Tastatureingaben seiner Mitarbeiter",
+      "description": "Meta installiert auf den Computern seiner US-Mitarbeiter eine neue Überwachungssoftware, die Mausbewegungen, Klicks und Tastatureingaben für das Training von KI-Modellen erfasst.\nDer Artikel Meta trai",
+      "link": "https://the-decoder.de/meta-trainiert-ki-agenten-mit-mausbewegungen-und-tastatureingaben-seiner-mitarbeiter/",
+      "date": "2026-04-22T10:25:38.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "SpaceX will KI-Coding-Start-up Cursor für 60 Milliarden US-Dollar übernehmen",
+      "description": "SpaceX sichert sich eine Kaufoption auf das KI-Coding-Start-up Cursor für 60 Milliarden US-Dollar. Elon Musks Raumfahrtkonzern will damit eine Lücke schließen, die xAI bei Coding-Tools bisher nicht st",
+      "link": "https://the-decoder.de/spacex-will-ki-coding-start-up-cursor-fuer-60-milliarden-us-dollar-uebernehmen/",
+      "date": "2026-04-22T09:58:38.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "OpenAIs ChatGPT Images 2.0 könnte die gesamte Grafikwelt auf den Kopf stellen",
       "description": "OpenAI stattet seinen Bildgenerator ChatGPT Images 2.0 mit Denkfähigkeiten und Websuche aus. Der Generator kann nun bis zu acht konsistente Bilder aus einem einzigen Prompt erstellen und beherrscht Te",
@@ -81,24 +99,6 @@
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
-    },
-    {
-      "title": "Chronicle für Codex: OpenAI gibt seinem KI-Assistenten ein Gedächtnis durch Screenshots",
-      "description": "OpenAI gibt Codex ein Gedächtnis für den Bildschirm: Die neue Funktion Chronicle beobachtet, woran Nutzer arbeiten, und merkt es sich. Die Funktion erhöht aber auch altbekannte Sicherheitsrisiken.\nDer",
-      "link": "https://the-decoder.de/chronicle-fuer-codex-openai-gibt-seinem-ki-assistenten-ein-gedaechtnis-durch-screenshots/",
-      "date": "2026-04-20T18:37:32.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Open-Weight-Modell Kimi K2.6 will mit Agenten-Schwärmen GPT-5.4 und Claude Opus 4.6 schlagen",
-      "description": "Moonshot AI veröffentlicht Kimi K2.6 als Open Weight. Das Modell soll in Coding-Benchmarks mit GPT-5.4 und Claude Opus 4.6 mithalten und bis zu 300 Agenten parallel steuern können.\nDer Artikel Open-We",
-      "link": "https://the-decoder.de/open-weight-modell-kimi-k2-6-will-mit-agenten-schwaermen-gpt-5-4-und-claude-opus-4-6-schlagen/",
-      "date": "2026-04-20T17:06:04.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
     },
     {
       "title": "OpenAI helps Hyatt advance AI among colleagues",
