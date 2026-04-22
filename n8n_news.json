@@ -1,6 +1,33 @@
 {
-  "lastUpdated": "2026-04-22T16:29:29.805Z",
+  "lastUpdated": "2026-04-22T18:29:38.867Z",
   "news": [
+    {
+      "title": "ChatGPTs neue Workspace-Agents arbeiten auch weiter, wenn der Nutzer offline ist",
+      "description": "OpenAI bringt sogenannte Workspace-Agents in ChatGPT. Die von Codex angetriebenen Agenten sollen komplexe Team-Workflows automatisieren und auch dann weiterarbeiten, wenn niemand zuschaut. Die bisheri",
+      "link": "https://the-decoder.de/chatgpts-neue-workspace-agents-arbeiten-auch-weiter-wenn-der-nutzer-offline-ist/",
+      "date": "2026-04-22T18:08:33.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Google baut ein KI-Filmstudio in Street View und bringt neue Satellitenbildanalyse",
+      "description": "Google kündigt auf der Cloud Next drei neue KI-gestützte Bildgebungs-Tools an. Kreative sollen damit KI-Bilder in echten Straßenansichten verankern können, Stadtplaner Satellitenbilder automatisch aus",
+      "link": "https://the-decoder.de/google-baut-ein-ki-filmstudio-in-street-view-und-bringt-neue-satellitenbildanalyse/",
+      "date": "2026-04-22T17:04:59.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "It's all about the angle: Your photos, re-composed",
+      "description": "Generative AI",
+      "link": "https://research.google/blog/its-all-about-the-angle-your-photos-re-composed/",
+      "date": "2026-04-22T17:00:00.000Z",
+      "source": "Google AI",
+      "category": "große-modelle",
+      "language": "en"
+    },
     {
       "title": "Google Cloud Next '26: Neue TPU-Generation, Agenten-Plattform und Workspace Intelligence",
       "description": "Google hat auf der Konferenz Cloud Next '26 seine achte TPU-Generation, eine überarbeitete Agenten-Plattform und eine neue KI-Schicht für Workspace vorgestellt. Die Ankündigungen fasst das Unternehmen",
@@ -36,6 +63,24 @@
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
+    },
+    {
+      "title": "Workspace agents",
+      "description": "Learn how to build, use, and scale workspace agents in ChatGPT to automate repeatable workflows, connect tools, and streamline team operations.",
+      "link": "https://openai.com/academy/workspace-agents",
+      "date": "2026-04-22T10:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
+      "title": "Introducing workspace agents in ChatGPT",
+      "description": "Workspace agents in ChatGPT are Codex-powered agents that automate complex workflows, run in the cloud, and help teams scale work across tools securely.",
+      "link": "https://openai.com/index/introducing-workspace-agents-in-chatgpt",
+      "date": "2026-04-22T10:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
     },
     {
       "title": "Speeding up agentic workflows with WebSockets in the Responses API",
@@ -88,51 +133,6 @@
       "link": "https://research.google/blog/reasoningbank-enabling-agents-to-learn-from-experience/",
       "date": "2026-04-21T16:42:22.000Z",
       "source": "Google AI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "Drei Gesetzentwürfe könnten biometrische Massenüberwachung und KI-Datenanalysen in Deutschland ermöglichen",
-      "description": "Gesetzentwürfe des Innen- und Justizministeriums sollen Sicherheitsbehörden weitreichende neue Befugnisse für KI-gestützte Überwachung geben. AlgorithmWatch warnt vor einer europarechtswidrigen Massen",
-      "link": "https://the-decoder.de/drei-gesetzentwuerfe-koennten-biometrische-massenueberwachung-und-ki-datenanalysen-in-deutschland-ermoeglichen/",
-      "date": "2026-04-21T14:59:35.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "KI in Unternehmen: Eine typische ChatGPT-Floskel vervierfacht sich seit 2022",
-      "description": "KI-Sprache entlarvt sich selbst: Eine Barron's-Analyse zeigt, wie eine einzige Satzkonstruktion verrät, dass Unternehmen ihre Kommunikation von ChatGPT schreiben lassen. Die Nutzung hat sich seit 2024",
-      "link": "https://the-decoder.de/ki-in-unternehmen-eine-typische-chatgpt-floskel-vervierfacht-sich-seit-2022/",
-      "date": "2026-04-21T12:11:48.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Deezer: Fast die Hälfte aller hochgeladenen Tracks ist KI-generiert",
-      "description": "Der Musikstreaming-Dienst Deezer meldet, dass mittlerweile 44 Prozent aller täglich hochgeladenen Songs vollständig von KI erzeugt werden. Die Plattform setzt auf eigene Erkennungstechnologie und will",
-      "link": "https://the-decoder.de/deezer-fast-die-haelfte-aller-hochgeladenen-tracks-ist-ki-generiert/",
-      "date": "2026-04-21T11:55:00.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Scaling Codex to enterprises worldwide",
-      "description": "OpenAI launches Codex Labs, partners with with Accenture, PwC, Infosys, and others to help enterprises deploy and scale Codex across the software development lifecycle, and hits 4M Codex WAU.",
-      "link": "https://openai.com/index/scaling-codex-to-enterprises-worldwide",
-      "date": "2026-04-21T00:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "OpenAI helps Hyatt advance AI among colleagues",
-      "description": "Hyatt deploys ChatGPT Enterprise across its global workforce, using GPT-5.4 and Codex to improve productivity, operations, and guest experiences.",
-      "link": "https://openai.com/index/hyatt-advances-ai-with-chatgpt-enterprise",
-      "date": "2026-04-20T00:00:00.000Z",
-      "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
     }
