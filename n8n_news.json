@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-23T06:46:28.373Z",
+  "lastUpdated": "2026-04-23T08:44:11.201Z",
   "news": [
     {
       "title": "Core Automation: Ex-OpenAI-Forscher will das am stärksten automatisierte KI-Labor der Welt aufbauen",
@@ -83,12 +83,12 @@
       "language": "de"
     },
     {
-      "title": "Speeding up agentic workflows with WebSockets in the Responses API",
-      "description": "A deep dive into the Codex agent loop, showing how WebSockets and connection-scoped caching reduced API overhead and improved model latency.",
-      "link": "https://openai.com/index/speeding-up-agentic-workflows-with-websockets",
+      "title": "Workspace agents",
+      "description": "Learn how to build, use, and scale workspace agents in ChatGPT to automate repeatable workflows, connect tools, and streamline team operations.",
+      "link": "https://openai.com/academy/workspace-agents",
       "date": "2026-04-22T10:00:00.000Z",
       "source": "OpenAI",
-      "category": "workflow-tools",
+      "category": "große-modelle",
       "language": "en"
     },
     {
@@ -101,12 +101,12 @@
       "language": "en"
     },
     {
-      "title": "Workspace agents",
-      "description": "Learn how to build, use, and scale workspace agents in ChatGPT to automate repeatable workflows, connect tools, and streamline team operations.",
-      "link": "https://openai.com/academy/workspace-agents",
+      "title": "Speeding up agentic workflows with WebSockets in the Responses API",
+      "description": "A deep dive into the Codex agent loop, showing how WebSockets and connection-scoped caching reduced API overhead and improved model latency.",
+      "link": "https://openai.com/index/speeding-up-agentic-workflows-with-websockets",
       "date": "2026-04-22T10:00:00.000Z",
       "source": "OpenAI",
-      "category": "große-modelle",
+      "category": "workflow-tools",
       "language": "en"
     },
     {
