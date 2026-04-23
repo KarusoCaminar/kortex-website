@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-04-23T16:42:11.963Z",
+  "lastUpdated": "2026-04-23T18:31:45.963Z",
   "news": [
+    {
+      "title": "US-Regierung wirft China vor, amerikanische KI-Modelle in großem Stil illegal zu kopieren",
+      "description": "Die US-Regierung sagt, sie habe Hinweise auf gezielte, industrielle Destillationskampagnen gegen amerikanische Frontier-Modelle und nennt China als Hauptursprung. Die Trump-Regierung will nun dagegen",
+      "link": "https://the-decoder.de/us-regierung-wirft-china-vor-amerikanische-ki-modelle-in-grossem-stil-illegal-zu-kopieren/",
+      "date": "2026-04-23T17:52:39.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Google macht seinen KI-Design-Agenten-Prompt als Open Source verfügbar",
+      "description": "Google macht den Agent-Prompt hinter seinem KI-Design-Tool Stitch frei verfügbar: Das DESIGN.md-Format soll KI-Agenten beibringen, Markenregeln zu verstehen.\nDer Artikel Google macht seinen KI-Design-",
+      "link": "https://the-decoder.de/google-macht-seinen-ki-design-agenten-prompt-als-open-source-verfuegbar/",
+      "date": "2026-04-23T17:11:06.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "OpenAI gibt Microsoft Zugang zu seinen stärksten KI-Modellen für Cybersicherheit",
       "description": "OpenAI und Microsoft wollen gemeinsam die Cybersicherheit stärken, die durch KI-Modelle zunehmend bedroht wird. Ausgelöst hat die Debatte Anthropic mit seinem Modell Mythos, das Sicherheitslücken auto",
@@ -38,6 +56,15 @@
       "language": "de"
     },
     {
+      "title": "Introducing GPT-5.5",
+      "description": "Introducing GPT-5.5, our smartest model yet—faster, more capable, and built for complex tasks like coding, research, and data analysis across tools.",
+      "link": "https://openai.com/index/introducing-gpt-5-5",
+      "date": "2026-04-23T11:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
       "title": "Drei Viertel des neuen Codes bei Google stammen bereits von KI",
       "description": "Bereits 75 Prozent des neuen Codes bei Google werden laut dem Unternehmen von KI erzeugt und anschließend von menschlichen Entwicklern geprüft.\nDer Artikel Drei Viertel des neuen Codes bei Google stam",
       "link": "https://the-decoder.de/drei-viertel-des-neuen-codes-bei-google-stammen-bereits-von-ki/",
@@ -65,30 +92,21 @@
       "language": "de"
     },
     {
+      "title": "GPT-5.5 Bio Bug Bounty",
+      "description": "Explore the GPT-5.5 Bio Bug Bounty: a red-teaming challenge to find universal jailbreaks for bio safety risks, with rewards up to $25,000.",
+      "link": "https://openai.com/index/gpt-5-5-bio-bug-bounty",
+      "date": "2026-04-23T00:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
       "title": "Core Automation: Ex-OpenAI-Forscher will das am stärksten automatisierte KI-Labor der Welt aufbauen",
       "description": "Neues KI-Labor, alter OpenAI-Kopf: Jerry Tworek will mit kleinem Team und neuen Lernverfahren die Grenzen heutiger KI-Architekturen überwinden.\nDer Artikel Core Automation: Ex-OpenAI-Forscher will das",
       "link": "https://the-decoder.de/core-automation-ex-openai-forscher-will-das-am-staerksten-automatisierte-ki-labor-der-welt-aufbauen/",
       "date": "2026-04-22T18:38:36.000Z",
       "source": "The Decoder",
       "category": "workflow-tools",
-      "language": "de"
-    },
-    {
-      "title": "ChatGPTs neue Workspace-Agents arbeiten auch weiter, wenn der Nutzer offline ist",
-      "description": "OpenAI bringt sogenannte Workspace-Agents in ChatGPT. Die von Codex angetriebenen Agenten sollen komplexe Team-Workflows automatisieren und auch dann weiterarbeiten, wenn niemand zuschaut. Die bisheri",
-      "link": "https://the-decoder.de/chatgpts-neue-workspace-agents-arbeiten-auch-weiter-wenn-der-nutzer-offline-ist/",
-      "date": "2026-04-22T18:08:33.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Google baut ein KI-Filmstudio in Street View und bringt neue Satellitenbildanalyse",
-      "description": "Google kündigt auf der Cloud Next drei neue KI-gestützte Bildgebungs-Tools an. Kreative sollen damit KI-Bilder in echten Straßenansichten verankern können, Stadtplaner Satellitenbilder automatisch aus",
-      "link": "https://the-decoder.de/google-baut-ein-ki-filmstudio-in-street-view-und-bringt-neue-satellitenbildanalyse/",
-      "date": "2026-04-22T17:04:59.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
       "language": "de"
     },
     {
@@ -110,27 +128,9 @@
       "language": "en"
     },
     {
-      "title": "Speeding up agentic workflows with WebSockets in the Responses API",
-      "description": "A deep dive into the Codex agent loop, showing how WebSockets and connection-scoped caching reduced API overhead and improved model latency.",
-      "link": "https://openai.com/index/speeding-up-agentic-workflows-with-websockets",
-      "date": "2026-04-22T10:00:00.000Z",
-      "source": "OpenAI",
-      "category": "workflow-tools",
-      "language": "en"
-    },
-    {
       "title": "Workspace agents",
       "description": "Learn how to build, use, and scale workspace agents in ChatGPT to automate repeatable workflows, connect tools, and streamline team operations.",
       "link": "https://openai.com/academy/workspace-agents",
-      "date": "2026-04-22T10:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "Introducing workspace agents in ChatGPT",
-      "description": "Workspace agents in ChatGPT are Codex-powered agents that automate complex workflows, run in the cloud, and help teams scale work across tools securely.",
-      "link": "https://openai.com/index/introducing-workspace-agents-in-chatgpt",
       "date": "2026-04-22T10:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
