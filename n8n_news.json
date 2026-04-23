@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-04-23T12:30:05.559Z",
+  "lastUpdated": "2026-04-23T14:51:29.183Z",
   "news": [
+    {
+      "title": "Kreative fühlen sich von KI gleichzeitig gebremst und bedroht",
+      "description": "Eine Befragung von 81.000 Claude-Nutzern zeigt, dass neue Fähigkeiten knapp vor Beschleunigung als häufigster Produktivitätsgewinn liegen. Kreative hingegen fühlen sich gleichzeitig gebremst und bedro",
+      "link": "https://the-decoder.de/kreative-fuehlen-sich-von-ki-gleichzeitig-gebremst-und-bedroht/",
+      "date": "2026-04-23T12:30:54.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "OpenAI veröffentlicht kleines Open-Source-Modell zum Schwärzen persönlicher Daten",
       "description": "OpenAI hat mit dem Privacy Filter ein quelloffenes Modell veröffentlicht, das persönliche Daten in Texten erkennen und unkenntlich machen soll. \nDer Artikel OpenAI veröffentlicht kleines Open-Source-M",
@@ -99,15 +108,6 @@
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
-    },
-    {
-      "title": "Anthropics Mythos-Modell wird von unautorisierten Nutzern verwendet",
-      "description": "Eine kleine Gruppe nicht autorisierter Nutzer hat sich Zugang zu Anthropics neuem KI-Modell Mythos verschafft, berichtet Bloomberg.\nDer Artikel Anthropics Mythos-Modell wird von unautorisierten Nutzer",
-      "link": "https://the-decoder.de/anthropics-mythos-modell-wird-von-unautorisierten-nutzern-verwendet/",
-      "date": "2026-04-22T11:45:43.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
     },
     {
       "title": "Workspace agents",
