@@ -1,6 +1,33 @@
 {
-  "lastUpdated": "2026-04-23T08:44:11.201Z",
+  "lastUpdated": "2026-04-23T10:36:44.557Z",
   "news": [
+    {
+      "title": "Drei Viertel des neuen Codes bei Google stammen bereits von KI",
+      "description": "Bereits 75 Prozent des neuen Codes bei Google werden laut dem Unternehmen von KI erzeugt und anschließend von menschlichen Entwicklern geprüft.\nDer Artikel Drei Viertel des neuen Codes bei Google stam",
+      "link": "https://the-decoder.de/drei-viertel-des-neuen-codes-bei-google-stammen-bereits-von-ki/",
+      "date": "2026-04-23T10:12:56.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Spezielle ChatGPT-Version übertrifft laut OpenAI Ärzte mit Internetzugang und unbegrenzt Zeit bei medizinischen Fachaufgaben",
+      "description": "OpenAI stellt mit ChatGPT for Clinicians eine kostenlose KI-Version für Ärzte vor. Ein neuer Benchmark soll zeigen, dass GPT-5.4 menschliche Mediziner bei klinischen Aufgaben übertrifft, selbst wenn d",
+      "link": "https://the-decoder.de/spezielle-chatgpt-version-uebertrifft-laut-openai-aerzte-mit-internetzugang-und-unbegrenzt-zeit-bei-medizinischen-fachaufgaben/",
+      "date": "2026-04-23T10:07:15.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Sony-Roboter Ace schlägt erstmals Tischtennis-Profis",
+      "description": "Der von Sony AI entwickelte Tischtennisroboter \"Ace\" ist laut dem Unternehmen der erste Roboter, der in einer Sportart Leistungen auf Expertenniveau erreicht.\nDer Artikel Sony-Roboter Ace schlägt erst",
+      "link": "https://the-decoder.de/sony-roboter-ace-schlaegt-erstmals-tischtennis-profis/",
+      "date": "2026-04-23T09:21:13.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Core Automation: Ex-OpenAI-Forscher will das am stärksten automatisierte KI-Labor der Welt aufbauen",
       "description": "Neues KI-Labor, alter OpenAI-Kopf: Jerry Tworek will mit kleinem Team und neuen Lernverfahren die Grenzen heutiger KI-Architekturen überwinden.\nDer Artikel Core Automation: Ex-OpenAI-Forscher will das",
@@ -108,33 +135,6 @@
       "source": "OpenAI",
       "category": "workflow-tools",
       "language": "en"
-    },
-    {
-      "title": "SpaceX will KI-Coding-Start-up Cursor für 60 Milliarden US-Dollar übernehmen",
-      "description": "SpaceX sichert sich eine Kaufoption auf das KI-Coding-Start-up Cursor für 60 Milliarden US-Dollar. Elon Musks Raumfahrtkonzern will damit eine Lücke schließen, die xAI bei Coding-Tools bisher nicht st",
-      "link": "https://the-decoder.de/spacex-will-ki-coding-start-up-cursor-fuer-60-milliarden-us-dollar-uebernehmen/",
-      "date": "2026-04-22T09:58:38.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Introducing OpenAI Privacy Filter",
-      "description": "OpenAI Privacy Filter is an open-weight model for detecting and redacting personally identifiable information (PII) in text with state-of-the-art accuracy",
-      "link": "https://openai.com/index/introducing-openai-privacy-filter",
-      "date": "2026-04-22T00:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "OpenAIs ChatGPT Images 2.0 könnte die gesamte Grafikwelt auf den Kopf stellen",
-      "description": "OpenAI stattet seinen Bildgenerator ChatGPT Images 2.0 mit Denkfähigkeiten und Websuche aus. Der Generator kann nun bis zu acht konsistente Bilder aus einem einzigen Prompt erstellen und beherrscht Te",
-      "link": "https://the-decoder.de/openai-bringt-chatgpt-images-2-0-mit-neuem-denkmodus-fuer-bildgenerierung/",
-      "date": "2026-04-21T19:33:49.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
     }
   ]
 }
