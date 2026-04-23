@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-22T22:21:17.594Z",
+  "lastUpdated": "2026-04-23T00:49:06.352Z",
   "news": [
     {
       "title": "Core Automation: Ex-OpenAI-Forscher will das am stärksten automatisierte KI-Labor der Welt aufbauen",
@@ -47,6 +47,15 @@
       "language": "de"
     },
     {
+      "title": "Making ChatGPT better for clinicians",
+      "description": "OpenAI makes ChatGPT for Clinicians free for verified U.S. physicians, nurse practitioners, and pharmacists, supporting clinical care, documentation, and research.",
+      "link": "https://openai.com/index/making-chatgpt-better-for-clinicians",
+      "date": "2026-04-22T15:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
       "title": "Anthropics Mythos-Modell wird von unautorisierten Nutzern verwendet",
       "description": "Eine kleine Gruppe nicht autorisierter Nutzer hat sich Zugang zu Anthropics neuem KI-Modell Mythos verschafft, berichtet Bloomberg.\nDer Artikel Anthropics Mythos-Modell wird von unautorisierten Nutzer",
       "link": "https://the-decoder.de/anthropics-mythos-modell-wird-von-unautorisierten-nutzern-verwendet/",
@@ -83,21 +92,21 @@
       "language": "en"
     },
     {
-      "title": "Introducing workspace agents in ChatGPT",
-      "description": "Workspace agents in ChatGPT are Codex-powered agents that automate complex workflows, run in the cloud, and help teams scale work across tools securely.",
-      "link": "https://openai.com/index/introducing-workspace-agents-in-chatgpt",
-      "date": "2026-04-22T10:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
       "title": "Speeding up agentic workflows with WebSockets in the Responses API",
       "description": "A deep dive into the Codex agent loop, showing how WebSockets and connection-scoped caching reduced API overhead and improved model latency.",
       "link": "https://openai.com/index/speeding-up-agentic-workflows-with-websockets",
       "date": "2026-04-22T10:00:00.000Z",
       "source": "OpenAI",
       "category": "workflow-tools",
+      "language": "en"
+    },
+    {
+      "title": "Introducing workspace agents in ChatGPT",
+      "description": "Workspace agents in ChatGPT are Codex-powered agents that automate complex workflows, run in the cloud, and help teams scale work across tools securely.",
+      "link": "https://openai.com/index/introducing-workspace-agents-in-chatgpt",
+      "date": "2026-04-22T10:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
       "language": "en"
     },
     {
@@ -108,15 +117,6 @@
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
-    },
-    {
-      "title": "Making ChatGPT better for clinicians",
-      "description": "OpenAI makes ChatGPT for Clinicians free for verified U.S. physicians, nurse practitioners, and pharmacists, supporting clinical care, documentation, and research.",
-      "link": "https://openai.com/index/making-chatgpt-better-for-clinicians",
-      "date": "2026-04-22T00:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
     },
     {
       "title": "Introducing OpenAI Privacy Filter",
