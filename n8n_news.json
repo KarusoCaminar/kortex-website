@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-23T20:25:07.675Z",
+  "lastUpdated": "2026-04-23T22:19:30.533Z",
   "news": [
     {
       "title": "OpenAI stellt GPT-5.5 vor und verspricht eine \"neue Klasse von Intelligenz\" – zum doppelten API-Preis",
@@ -65,18 +65,18 @@
       "language": "de"
     },
     {
-      "title": "Introducing GPT-5.5",
-      "description": "Introducing GPT-5.5, our smartest model yet—faster, more capable, and built for complex tasks like coding, research, and data analysis across tools.",
-      "link": "https://openai.com/index/introducing-gpt-5-5",
+      "title": "GPT-5.5 System Card",
+      "description": "",
+      "link": "https://openai.com/index/gpt-5-5-system-card",
       "date": "2026-04-23T11:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
     },
     {
-      "title": "GPT-5.5 System Card",
-      "description": "",
-      "link": "https://openai.com/index/gpt-5-5-system-card",
+      "title": "Introducing GPT-5.5",
+      "description": "Introducing GPT-5.5, our smartest model yet—faster, more capable, and built for complex tasks like coding, research, and data analysis across tools.",
+      "link": "https://openai.com/index/introducing-gpt-5-5",
       "date": "2026-04-23T11:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
@@ -101,9 +101,18 @@
       "language": "de"
     },
     {
-      "title": "Codex settings",
-      "description": "Learn how to configure Codex settings, including personalization, detail level, and permissions, to run tasks smoothly and customize your workflow.",
-      "link": "https://openai.com/academy/codex-settings",
+      "title": "Automations",
+      "description": "Learn how to automate tasks in Codex using schedules and triggers to create reports, summaries, and recurring workflows without manual effort.",
+      "link": "https://openai.com/academy/codex-automations",
+      "date": "2026-04-23T10:00:00.000Z",
+      "source": "OpenAI",
+      "category": "workflow-tools",
+      "language": "en"
+    },
+    {
+      "title": "Plugins and skills",
+      "description": "Learn how to use Codex plugins and skills to connect tools, access data, and follow repeatable workflows to automate tasks and improve results.",
+      "link": "https://openai.com/academy/codex-plugins-and-skills",
       "date": "2026-04-23T10:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
@@ -119,18 +128,9 @@
       "language": "en"
     },
     {
-      "title": "Automations",
-      "description": "Learn how to automate tasks in Codex using schedules and triggers to create reports, summaries, and recurring workflows without manual effort.",
-      "link": "https://openai.com/academy/codex-automations",
-      "date": "2026-04-23T10:00:00.000Z",
-      "source": "OpenAI",
-      "category": "workflow-tools",
-      "language": "en"
-    },
-    {
-      "title": "Plugins and skills",
-      "description": "Learn how to use Codex plugins and skills to connect tools, access data, and follow repeatable workflows to automate tasks and improve results.",
-      "link": "https://openai.com/academy/codex-plugins-and-skills",
+      "title": "Codex settings",
+      "description": "Learn how to configure Codex settings, including personalization, detail level, and permissions, to run tasks smoothly and customize your workflow.",
+      "link": "https://openai.com/academy/codex-settings",
       "date": "2026-04-23T10:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
