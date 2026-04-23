@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-04-23T10:36:44.557Z",
+  "lastUpdated": "2026-04-23T12:30:05.559Z",
   "news": [
+    {
+      "title": "OpenAI veröffentlicht kleines Open-Source-Modell zum Schwärzen persönlicher Daten",
+      "description": "OpenAI hat mit dem Privacy Filter ein quelloffenes Modell veröffentlicht, das persönliche Daten in Texten erkennen und unkenntlich machen soll. \nDer Artikel OpenAI veröffentlicht kleines Open-Source-M",
+      "link": "https://the-decoder.de/openai-veroeffentlicht-kleines-open-source-modell-zum-schwaerzen-persoenlicher-daten/",
+      "date": "2026-04-23T11:58:13.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Nach ChatGPT kommen Weltmodelle, doch Forscher sehen die Politik wieder im Rückstand",
+      "description": "Die nächste Stufe der KI-Entwicklung legt den Fokus auf physische Umgebungen. Forscher warnen, dass politische Entscheidungsträger in den USA die Tragweite der Technologie noch nicht erfasst haben, wä",
+      "link": "https://the-decoder.de/nach-chatgpt-kommen-world-models-doch-forscher-sehen-die-politik-wieder-im-rueckstand/",
+      "date": "2026-04-23T11:33:58.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Drei Viertel des neuen Codes bei Google stammen bereits von KI",
       "description": "Bereits 75 Prozent des neuen Codes bei Google werden laut dem Unternehmen von KI erzeugt und anschließend von menschlichen Entwicklern geprüft.\nDer Artikel Drei Viertel des neuen Codes bei Google stam",
@@ -87,24 +105,6 @@
       "description": "Eine kleine Gruppe nicht autorisierter Nutzer hat sich Zugang zu Anthropics neuem KI-Modell Mythos verschafft, berichtet Bloomberg.\nDer Artikel Anthropics Mythos-Modell wird von unautorisierten Nutzer",
       "link": "https://the-decoder.de/anthropics-mythos-modell-wird-von-unautorisierten-nutzern-verwendet/",
       "date": "2026-04-22T11:45:43.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Anthropic-Manager signalisiert dass Pro- und Max-Pläne nicht mehr zur heutigen Nutzung passen",
-      "description": "Anthropic hat am Nachmittag des 21. April 2026 das Coding-Werkzeug Claude Code kurzzeitig aus dem Leistungsumfang seines Pro-Abos für 20 Dollar im Monat gestrichen, die Änderung aber nach öffentlicher",
-      "link": "https://the-decoder.de/anthropic-manager-signalisiert-dass-pro-und-max-plaene-nicht-mehr-zur-heutigen-nutzung-passen/",
-      "date": "2026-04-22T11:29:59.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Meta trainiert KI-Agenten mit Mausbewegungen und Tastatureingaben seiner Mitarbeiter",
-      "description": "Meta installiert auf den Computern seiner US-Mitarbeiter eine neue Überwachungssoftware, die Mausbewegungen, Klicks und Tastatureingaben für das Training von KI-Modellen erfasst.\nDer Artikel Meta trai",
-      "link": "https://the-decoder.de/meta-trainiert-ki-agenten-mit-mausbewegungen-und-tastatureingaben-seiner-mitarbeiter/",
-      "date": "2026-04-22T10:25:38.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
