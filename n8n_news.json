@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-23T03:11:27.463Z",
+  "lastUpdated": "2026-04-23T05:06:08.911Z",
   "news": [
     {
       "title": "Core Automation: Ex-OpenAI-Forscher will das am stärksten automatisierte KI-Labor der Welt aufbauen",
@@ -83,18 +83,18 @@
       "language": "de"
     },
     {
-      "title": "Workspace agents",
-      "description": "Learn how to build, use, and scale workspace agents in ChatGPT to automate repeatable workflows, connect tools, and streamline team operations.",
-      "link": "https://openai.com/academy/workspace-agents",
+      "title": "Introducing workspace agents in ChatGPT",
+      "description": "Workspace agents in ChatGPT are Codex-powered agents that automate complex workflows, run in the cloud, and help teams scale work across tools securely.",
+      "link": "https://openai.com/index/introducing-workspace-agents-in-chatgpt",
       "date": "2026-04-22T10:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
     },
     {
-      "title": "Introducing workspace agents in ChatGPT",
-      "description": "Workspace agents in ChatGPT are Codex-powered agents that automate complex workflows, run in the cloud, and help teams scale work across tools securely.",
-      "link": "https://openai.com/index/introducing-workspace-agents-in-chatgpt",
+      "title": "Workspace agents",
+      "description": "Learn how to build, use, and scale workspace agents in ChatGPT to automate repeatable workflows, connect tools, and streamline team operations.",
+      "link": "https://openai.com/academy/workspace-agents",
       "date": "2026-04-22T10:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
