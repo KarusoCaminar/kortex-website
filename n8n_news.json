@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-04-24T10:37:01.027Z",
+  "lastUpdated": "2026-04-24T12:29:40.561Z",
   "news": [
+    {
+      "title": "Nach Andrulis-Abgang: Kanadisches Start-up Cohere übernimmt Aleph Alpha",
+      "description": "Nur wenige Monate nach dem Rückzug von Gründer Jonas Andrulis übernimmt das kanadische KI-Unternehmen Cohere den einstigen deutschen OpenAI-Hoffnungsträger Aleph Alpha. Die Schwarz-Gruppe investiert 6",
+      "link": "https://the-decoder.de/nach-andrulis-abgang-kanadisches-start-up-cohere-uebernimmt-aleph-alpha/",
+      "date": "2026-04-24T12:18:19.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Anthropic erklärt, warum Claude Code wochenlang schlechter funktionierte",
+      "description": "Nutzer beschwerten sich über nachlassende Qualität bei Claude Code. Anthropic hat drei separate Fehlerquellen identifiziert und behoben. Das Unternehmen verspricht strengere Qualitätskontrollen.\nDer A",
+      "link": "https://the-decoder.de/anthropic-erklaert-warum-claude-code-wochenlang-schlechter-funktionierte/",
+      "date": "2026-04-24T10:40:07.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Deepseek V4 ist das größte Open-Weights-Modell und unterbietet die Konkurrenz beim Preis deutlich",
       "description": "Das chinesische KI-Labor DeepSeek veröffentlicht mit V4-Pro und V4-Flash zwei neue Modelle mit bis zu 1,6 Billionen Parametern und einer Million Token Kontextfenster. Die Preise liegen weit unter dene",
@@ -90,24 +108,6 @@
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
-    },
-    {
-      "title": "Drei Viertel des neuen Codes bei Google stammen bereits von KI",
-      "description": "Bereits 75 Prozent des neuen Codes bei Google werden laut dem Unternehmen von KI erzeugt und anschließend von menschlichen Entwicklern geprüft.\nDer Artikel Drei Viertel des neuen Codes bei Google stam",
-      "link": "https://the-decoder.de/drei-viertel-des-neuen-codes-bei-google-stammen-bereits-von-ki/",
-      "date": "2026-04-23T10:12:56.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Spezielle ChatGPT-Version übertrifft laut OpenAI Ärzte mit Internetzugang und unbegrenzt Zeit bei medizinischen Fachaufgaben",
-      "description": "OpenAI stellt mit ChatGPT for Clinicians eine kostenlose KI-Version für Ärzte vor. Ein neuer Benchmark soll zeigen, dass GPT-5.4 menschliche Mediziner bei klinischen Aufgaben übertrifft, selbst wenn d",
-      "link": "https://the-decoder.de/spezielle-chatgpt-version-uebertrifft-laut-openai-aerzte-mit-internetzugang-und-unbegrenzt-zeit-bei-medizinischen-fachaufgaben/",
-      "date": "2026-04-23T10:07:15.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
     },
     {
       "title": "Automations",
