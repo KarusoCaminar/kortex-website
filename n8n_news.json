@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-04-24T12:29:40.561Z",
+  "lastUpdated": "2026-04-24T14:38:38.030Z",
   "news": [
+    {
+      "title": "GPT-5.5 führt KI-Ranglisten an, kostet 20 Prozent mehr und halluziniert häufiger als die Konkurrenz",
+      "description": "GPT-5.5 bringt OpenAI an die Spitze der KI-Benchmarks zurück. Trotz Preissteigerung bietet das Modell unter den proprietären Konkurrenten wohl das beste Preis-Leistungs-Verhältnis.\nDer Artikel GPT-5.5",
+      "link": "https://the-decoder.de/gpt-5-5-fuehrt-ki-ranglisten-an-kostet-20-prozent-mehr-und-halluziniert-haeufiger-als-die-konkurrenz/",
+      "date": "2026-04-24T14:34:49.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "ARM statt Intel: Meta kauft Millionen Amazon-Prozessorkerne für KI-Systeme",
+      "description": "Meta kauft mehrere zehn Millionen AWS-Graviton-5-Prozessorkerne von Amazon ein. Meta wird damit einer der größten Graviton-Kunden weltweit.\nDer Artikel ARM statt Intel: Meta kauft Millionen Amazon-Pro",
+      "link": "https://the-decoder.de/arm-statt-intel-meta-kauft-millionen-amazon-prozessorkerne-fuer-ki-systeme/",
+      "date": "2026-04-24T13:38:58.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Nach Andrulis-Abgang: Kanadisches Start-up Cohere übernimmt Aleph Alpha",
       "description": "Nur wenige Monate nach dem Rückzug von Gründer Jonas Andrulis übernimmt das kanadische KI-Unternehmen Cohere den einstigen deutschen OpenAI-Hoffnungsträger Aleph Alpha. Die Schwarz-Gruppe investiert 6",
@@ -65,33 +83,6 @@
       "language": "de"
     },
     {
-      "title": "Kreative fühlen sich von KI gleichzeitig gebremst und bedroht",
-      "description": "Eine Befragung von 81.000 Claude-Nutzern zeigt, dass neue Fähigkeiten knapp vor Beschleunigung als häufigster Produktivitätsgewinn liegen. Kreative hingegen fühlen sich gleichzeitig gebremst und bedro",
-      "link": "https://the-decoder.de/kreative-fuehlen-sich-von-ki-gleichzeitig-gebremst-und-bedroht/",
-      "date": "2026-04-23T12:30:54.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "OpenAI veröffentlicht kleines Open-Source-Modell zum Schwärzen persönlicher Daten",
-      "description": "OpenAI hat mit dem Privacy Filter ein quelloffenes Modell veröffentlicht, das persönliche Daten in Texten erkennen und unkenntlich machen soll. \nDer Artikel OpenAI veröffentlicht kleines Open-Source-M",
-      "link": "https://the-decoder.de/openai-veroeffentlicht-kleines-open-source-modell-zum-schwaerzen-persoenlicher-daten/",
-      "date": "2026-04-23T11:58:13.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Nach ChatGPT kommen Weltmodelle, doch Forscher sehen die Politik wieder im Rückstand",
-      "description": "Die nächste Stufe der KI-Entwicklung legt den Fokus auf physische Umgebungen. Forscher warnen, dass politische Entscheidungsträger in den USA die Tragweite der Technologie noch nicht erfasst haben, wä",
-      "link": "https://the-decoder.de/nach-chatgpt-kommen-world-models-doch-forscher-sehen-die-politik-wieder-im-rueckstand/",
-      "date": "2026-04-23T11:33:58.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "Introducing GPT-5.5",
       "description": "Introducing GPT-5.5, our smartest model yet—faster, more capable, and built for complex tasks like coding, research, and data analysis across tools.",
       "link": "https://openai.com/index/introducing-gpt-5-5",
@@ -131,6 +122,15 @@
       "title": "Plugins and skills",
       "description": "Learn how to use Codex plugins and skills to connect tools, access data, and follow repeatable workflows to automate tasks and improve results.",
       "link": "https://openai.com/academy/codex-plugins-and-skills",
+      "date": "2026-04-23T10:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
+      "title": "Working with Codex",
+      "description": "Learn how to set up your Codex workspace, create threads and projects, manage files, and start completing tasks with step-by-step guidance.",
+      "link": "https://openai.com/academy/working-with-codex",
       "date": "2026-04-23T10:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
