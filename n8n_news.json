@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-04-24T06:47:29.544Z",
+  "lastUpdated": "2026-04-24T08:48:18.901Z",
   "news": [
+    {
+      "title": "Deepseek V4 ist das größte Open-Weights-Modell und unterbietet die Konkurrenz beim Preis deutlich",
+      "description": "Das chinesische KI-Labor DeepSeek veröffentlicht mit V4-Pro und V4-Flash zwei neue Modelle mit bis zu 1,6 Billionen Parametern und einer Million Token Kontextfenster. Die Preise liegen weit unter dene",
+      "link": "https://the-decoder.de/deepseek-v4-ist-das-groesste-open-weights-modell-und-unterbietet-die-konkurrenz-beim-preis-deutlich/",
+      "date": "2026-04-24T08:13:28.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "OpenAI stellt GPT-5.5 vor und verspricht eine \"neue Klasse von Intelligenz\" – zum doppelten API-Preis",
       "description": "OpenAI hat GPT-5.5 angekündigt, das als agentenbasiertes Modell komplexe Aufgaben eigenständig über mehrere Tools hinweg erledigen soll.\nDer Artikel OpenAI stellt GPT-5.5 vor und verspricht eine \"neue",
@@ -122,15 +131,6 @@
       "title": "Plugins and skills",
       "description": "Learn how to use Codex plugins and skills to connect tools, access data, and follow repeatable workflows to automate tasks and improve results.",
       "link": "https://openai.com/academy/codex-plugins-and-skills",
-      "date": "2026-04-23T10:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "Working with Codex",
-      "description": "Learn how to set up your Codex workspace, create threads and projects, manage files, and start completing tasks with step-by-step guidance.",
-      "link": "https://openai.com/academy/working-with-codex",
       "date": "2026-04-23T10:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
