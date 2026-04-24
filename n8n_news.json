@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-04-24T16:25:49.864Z",
+  "lastUpdated": "2026-04-24T18:20:44.021Z",
   "news": [
+    {
+      "title": "OpenAI-Chefwissenschaftler hält die letzten Jahre der KI-Entwicklung für \"überraschend langsam\"",
+      "description": "OpenAI veröffentlicht GPT‑5.5 – und die Führung des Unternehmens deutet an, dass die eigentlichen Fortschritte erst noch kommen.\nDer Artikel OpenAI-Chefwissenschaftler hält die letzten Jahre der KI-En",
+      "link": "https://the-decoder.de/openai-chefwissenschaftler-haelt-die-letzten-jahre-der-ki-entwicklung-fuer-ueberraschend-langsam/",
+      "date": "2026-04-24T18:18:15.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "GPT-5.5 führt KI-Ranglisten an, kostet 20 Prozent mehr und halluziniert häufiger als die Konkurrenz",
       "description": "GPT-5.5 bringt OpenAI an die Spitze der KI-Benchmarks zurück. Trotz Preissteigerung bietet das Modell unter den proprietären Konkurrenten wohl das beste Preis-Leistungs-Verhältnis.\nDer Artikel GPT-5.5",
@@ -69,15 +78,6 @@
       "description": "Google macht den Agent-Prompt hinter seinem KI-Design-Tool Stitch frei verfügbar: Das DESIGN.md-Format soll KI-Agenten beibringen, Markenregeln zu verstehen.\nDer Artikel Google macht seinen KI-Design-",
       "link": "https://the-decoder.de/google-macht-seinen-ki-design-agenten-prompt-als-open-source-verfuegbar/",
       "date": "2026-04-23T17:11:06.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "OpenAI gibt Microsoft Zugang zu seinen stärksten KI-Modellen für Cybersicherheit",
-      "description": "OpenAI und Microsoft wollen gemeinsam die Cybersicherheit stärken, die durch KI-Modelle zunehmend bedroht wird. Ausgelöst hat die Debatte Anthropic mit seinem Modell Mythos, das Sicherheitslücken auto",
-      "link": "https://the-decoder.de/openai-gibt-microsoft-zugang-zu-seinen-staerksten-ki-modellen-fuer-cybersicherheit/",
-      "date": "2026-04-23T15:25:29.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
