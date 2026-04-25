@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-25T10:20:35.833Z",
+  "lastUpdated": "2026-04-25T12:21:33.747Z",
   "news": [
     {
       "title": "Anthropic-Experiment zeigt: Stärkere KI-Modelle verhandeln bessere Preise, ohne dass es jemand merkt",
@@ -74,15 +74,6 @@
       "language": "de"
     },
     {
-      "title": "Anthropic erklärt, warum Claude Code wochenlang schlechter funktionierte",
-      "description": "Nutzer beschwerten sich über nachlassende Qualität bei Claude Code. Anthropic hat drei separate Fehlerquellen identifiziert und behoben. Das Unternehmen verspricht strengere Qualitätskontrollen.\nDer A",
-      "link": "https://the-decoder.de/anthropic-erklaert-warum-claude-code-wochenlang-schlechter-funktionierte/",
-      "date": "2026-04-24T10:40:07.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "Introducing GPT-5.5",
       "description": "Introducing GPT-5.5, our smartest model yet—faster, more capable, and built for complex tasks like coding, research, and data analysis across tools.",
       "link": "https://openai.com/index/introducing-gpt-5-5",
@@ -131,6 +122,15 @@
       "title": "Working with Codex",
       "description": "Learn how to set up your Codex workspace, create threads and projects, manage files, and start completing tasks with step-by-step guidance.",
       "link": "https://openai.com/academy/working-with-codex",
+      "date": "2026-04-23T10:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
+      "title": "Codex settings",
+      "description": "Learn how to configure Codex settings, including personalization, detail level, and permissions, to run tasks smoothly and customize your workflow.",
+      "link": "https://openai.com/academy/codex-settings",
       "date": "2026-04-23T10:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
