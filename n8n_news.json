@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-04-25T16:17:15.568Z",
+  "lastUpdated": "2026-04-25T18:19:39.753Z",
   "news": [
+    {
+      "title": "GPT-5.5 führt KI-Ranglisten an, kostet 20 Prozent mehr und halluziniert häufiger als die Konkurrenz",
+      "description": "GPT-5.5 bringt OpenAI an die Spitze der KI-Benchmarks zurück. Trotz Preissteigerung bietet das Modell unter den proprietären Konkurrenten wohl das beste Preis-Leistungs-Verhältnis.\nDer Artikel GPT-5.5",
+      "link": "https://the-decoder.de/gpt-5-5-fuehrt-ki-ranglisten-an-kostet-20-prozent-mehr-und-halluziniert-haeufiger-als-die-konkurrenz/",
+      "date": "2026-04-25T16:43:49.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Wachstum von Programmierer-Jobs in den USA hat sich seit ChatGPT fast halbiert",
       "description": "Programmierer gehören zu den Berufsgruppen, deren Alltag sich durch generative KI am stärksten verändert hat. Eine neue Studie des Federal Reserve Board liefert nun Hinweise, dass sich das auch in den",
@@ -51,15 +60,6 @@
       "description": "OpenAI veröffentlicht GPT‑5.5 – und die Führung des Unternehmens deutet an, dass die eigentlichen Fortschritte erst noch kommen.\nDer Artikel OpenAI-Chefwissenschaftler hält die letzten Jahre der KI-En",
       "link": "https://the-decoder.de/openai-chefwissenschaftler-haelt-die-letzten-jahre-der-ki-entwicklung-fuer-ueberraschend-langsam/",
       "date": "2026-04-24T18:18:15.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "GPT-5.5 führt KI-Ranglisten an, kostet 20 Prozent mehr und halluziniert häufiger als die Konkurrenz",
-      "description": "GPT-5.5 bringt OpenAI an die Spitze der KI-Benchmarks zurück. Trotz Preissteigerung bietet das Modell unter den proprietären Konkurrenten wohl das beste Preis-Leistungs-Verhältnis.\nDer Artikel GPT-5.5",
-      "link": "https://the-decoder.de/gpt-5-5-fuehrt-ki-ranglisten-an-kostet-20-prozent-mehr-und-halluziniert-haeufiger-als-die-konkurrenz/",
-      "date": "2026-04-24T14:34:49.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
