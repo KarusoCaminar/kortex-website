@@ -1,6 +1,42 @@
 {
-  "lastUpdated": "2026-04-25T08:25:47.853Z",
+  "lastUpdated": "2026-04-25T10:20:35.833Z",
   "news": [
+    {
+      "title": "Anthropic-Experiment zeigt: Stärkere KI-Modelle verhandeln bessere Preise, ohne dass es jemand merkt",
+      "description": "Anthropic hat 69 KI-Agenten eine Woche lang stellvertretend für Mitarbeiter auf einem internen Marktplatz handeln lassen. Das Experiment zeigt: Stärkere Modelle erzielen bessere Deals. Die Benachteili",
+      "link": "https://the-decoder.de/anthropic-experiment-zeigt-staerkere-ki-modelle-verhandeln-bessere-preise-ohne-dass-es-jemand-merkt/",
+      "date": "2026-04-25T10:06:31.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Vereinigte Arabische Emirate wollen halbe Regierung innerhalb von zwei Jahren mit autonomer KI betreiben",
+      "description": "Die Vereinigten Arabischen Emirate wollen die Hälfte ihrer Regierungsarbeit innerhalb von zwei Jahren auf autonome KI-Systeme umstellen.\nDer Artikel Vereinigte Arabische Emirate wollen halbe Regierung",
+      "link": "https://the-decoder.de/vereinigte-arabische-emirate-wollen-halbe-regierung-innerhalb-von-zwei-jahren-mit-autonomer-ki-betreiben/",
+      "date": "2026-04-25T08:54:57.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "OpenAI stellt GPT-5.5 vor und verspricht eine \"neue Klasse von Intelligenz\" – zum doppelten API-Preis",
+      "description": "OpenAI hat GPT-5.5 angekündigt, das als agentenbasiertes Modell komplexe Aufgaben eigenständig über mehrere Tools hinweg erledigen soll.\nDer Artikel OpenAI stellt GPT-5.5 vor und verspricht eine \"neue",
+      "link": "https://the-decoder.de/openai-stellt-gpt-5-5-vor-und-verspricht-eine-neue-klasse-von-intelligenz/",
+      "date": "2026-04-25T08:34:07.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Google investiert bis zu 40 Milliarden Dollar in ChatGPT-Konkurrent Claude von Anthropic",
+      "description": "Google steckt bis zu 40 Milliarden Dollar in Anthropic. Zusammen mit Amazons Zusage von 25 Milliarden Dollar fließen damit in wenigen Wochen bis zu 65 Milliarden Dollar in das KI-Unternehmen hinter Cl",
+      "link": "https://the-decoder.de/google-investiert-bis-zu-40-milliarden-dollar-in-chatgpt-konkurrent-claude-von-anthropic/",
+      "date": "2026-04-25T08:26:11.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "OpenAI-Chefwissenschaftler hält die letzten Jahre der KI-Entwicklung für \"überraschend langsam\"",
       "description": "OpenAI veröffentlicht GPT‑5.5 – und die Führung des Unternehmens deutet an, dass die eigentlichen Fortschritte erst noch kommen.\nDer Artikel OpenAI-Chefwissenschaftler hält die letzten Jahre der KI-En",
@@ -42,42 +78,6 @@
       "description": "Nutzer beschwerten sich über nachlassende Qualität bei Claude Code. Anthropic hat drei separate Fehlerquellen identifiziert und behoben. Das Unternehmen verspricht strengere Qualitätskontrollen.\nDer A",
       "link": "https://the-decoder.de/anthropic-erklaert-warum-claude-code-wochenlang-schlechter-funktionierte/",
       "date": "2026-04-24T10:40:07.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Deepseek V4 ist das größte Open-Weights-Modell und unterbietet die Konkurrenz beim Preis deutlich",
-      "description": "Das chinesische KI-Labor DeepSeek veröffentlicht mit V4-Pro und V4-Flash zwei neue Modelle mit bis zu 1,6 Billionen Parametern und einer Million Token Kontextfenster. Die Preise liegen weit unter dene",
-      "link": "https://the-decoder.de/deepseek-v4-ist-das-groesste-open-weights-modell-und-unterbietet-die-konkurrenz-beim-preis-deutlich/",
-      "date": "2026-04-24T08:13:28.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "OpenAI stellt GPT-5.5 vor und verspricht eine \"neue Klasse von Intelligenz\" – zum doppelten API-Preis",
-      "description": "OpenAI hat GPT-5.5 angekündigt, das als agentenbasiertes Modell komplexe Aufgaben eigenständig über mehrere Tools hinweg erledigen soll.\nDer Artikel OpenAI stellt GPT-5.5 vor und verspricht eine \"neue",
-      "link": "https://the-decoder.de/openai-stellt-gpt-5-5-vor-und-verspricht-eine-neue-klasse-von-intelligenz/",
-      "date": "2026-04-23T18:39:07.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "US-Regierung wirft China vor, amerikanische KI-Modelle in großem Stil illegal zu kopieren",
-      "description": "Die US-Regierung sagt, sie habe Hinweise auf gezielte, industrielle Destillationskampagnen gegen amerikanische Frontier-Modelle und nennt China als Hauptursprung. Die Trump-Regierung will nun dagegen",
-      "link": "https://the-decoder.de/us-regierung-wirft-china-vor-amerikanische-ki-modelle-in-grossem-stil-illegal-zu-kopieren/",
-      "date": "2026-04-23T17:52:39.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Google macht seinen KI-Design-Agenten-Prompt als Open Source verfügbar",
-      "description": "Google macht den Agent-Prompt hinter seinem KI-Design-Tool Stitch frei verfügbar: Das DESIGN.md-Format soll KI-Agenten beibringen, Markenregeln zu verstehen.\nDer Artikel Google macht seinen KI-Design-",
-      "link": "https://the-decoder.de/google-macht-seinen-ki-design-agenten-prompt-als-open-source-verfuegbar/",
-      "date": "2026-04-23T17:11:06.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
