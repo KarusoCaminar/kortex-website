@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-04-25T12:21:33.747Z",
+  "lastUpdated": "2026-04-25T14:21:28.062Z",
   "news": [
+    {
+      "title": "Wachstum von Programmierer-Jobs in den USA hat sich seit ChatGPT fast halbiert",
+      "description": "Programmierer gehören zu den Berufsgruppen, deren Alltag sich durch generative KI am stärksten verändert hat. Eine neue Studie des Federal Reserve Board liefert nun Hinweise, dass sich das auch in den",
+      "link": "https://the-decoder.de/wachstum-von-programmierer-jobs-in-den-usa-hat-sich-seit-chatgpt-fast-halbiert/",
+      "date": "2026-04-25T12:30:29.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Anthropic-Experiment zeigt: Stärkere KI-Modelle verhandeln bessere Preise, ohne dass es jemand merkt",
       "description": "Anthropic hat 69 KI-Agenten eine Woche lang stellvertretend für Mitarbeiter auf einem internen Marktplatz handeln lassen. Das Experiment zeigt: Stärkere Modelle erzielen bessere Deals. Die Benachteili",
@@ -60,15 +69,6 @@
       "description": "Meta kauft mehrere zehn Millionen AWS-Graviton-5-Prozessorkerne von Amazon ein. Meta wird damit einer der größten Graviton-Kunden weltweit.\nDer Artikel ARM statt Intel: Meta kauft Millionen Amazon-Pro",
       "link": "https://the-decoder.de/arm-statt-intel-meta-kauft-millionen-amazon-prozessorkerne-fuer-ki-systeme/",
       "date": "2026-04-24T13:38:58.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Nach Andrulis-Abgang: Kanadisches Start-up Cohere übernimmt Aleph Alpha",
-      "description": "Nur wenige Monate nach dem Rückzug von Gründer Jonas Andrulis übernimmt das kanadische KI-Unternehmen Cohere den einstigen deutschen OpenAI-Hoffnungsträger Aleph Alpha. Die Schwarz-Gruppe investiert 6",
-      "link": "https://the-decoder.de/nach-andrulis-abgang-kanadisches-start-up-cohere-uebernimmt-aleph-alpha/",
-      "date": "2026-04-24T12:18:19.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
