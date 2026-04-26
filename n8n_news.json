@@ -1,6 +1,33 @@
 {
-  "lastUpdated": "2026-04-26T08:32:48.183Z",
+  "lastUpdated": "2026-04-26T10:21:42.963Z",
   "news": [
+    {
+      "title": "OpenAI gibt Prompting-Tipps für GPT-5.5: Besser von Grund auf neu starten",
+      "description": "OpenAI empfiehlt Entwicklern, bei GPT-5.5 alte Prompts nicht einfach zu übernehmen. Stattdessen sollten sie minimalistisch von Grund auf neu beginnen. Rollendefinitionen, die manche schon für überflüs",
+      "link": "https://the-decoder.de/openai-gibt-prompting-tipps-fuer-gpt-5-5-besser-von-grund-auf-neu-starten/",
+      "date": "2026-04-26T10:01:04.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "500 Banker bewerten KI-Ergebnisse und finden sie durchweg unbrauchbar für den Kundenkontakt",
+      "description": "Ein neuer Benchmark prüft, ob Modelle wie GPT-5.4 oder Claude Opus 4.6 die Arbeit von Junior-Investmentbankern übernehmen können. Banker stufen keinen einzigen KI-Output als abgabereif ein; die generi",
+      "link": "https://the-decoder.de/500-banker-bewerten-ki-ergebnisse-und-finden-sie-durchweg-unbrauchbar-fuer-den-kundenkontakt/",
+      "date": "2026-04-26T09:00:16.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Umfrage zeigt: 80 Prozent der Claude-Nutzer leben in Haushalten mit mehr als 100.000 Dollar Jahreseinkommen",
+      "description": "Eine Umfrage zeigt: Claude-Nutzer verdienen im Schnitt deutlich mehr als Nutzer anderer KI-Dienste. So verteilen sich die Einkommen bei ChatGPT, Gemini und Co.\nDer Artikel Umfrage zeigt: 80 Prozent de",
+      "link": "https://the-decoder.de/umfrage-zeigt-80-prozent-der-claude-nutzer-leben-in-haushalten-mit-mehr-als-100-000-dollar-jahreseinkommen/",
+      "date": "2026-04-26T08:41:02.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Forscher: KI-Agenten machen Entwickler nicht überflüssig, sondern bringen neue Disziplinen",
       "description": "Die gängige Erzählung lautet, KI-Agenten übernähmen immer mehr Programmieraufgaben und Entwickler würden überflüssig. Laut einem Paper von Forschern der Chalmers University of Technology und der Volvo",
@@ -56,24 +83,6 @@
       "language": "de"
     },
     {
-      "title": "Google investiert bis zu 40 Milliarden Dollar in ChatGPT-Konkurrent Claude von Anthropic",
-      "description": "Google steckt bis zu 40 Milliarden Dollar in Anthropic. Zusammen mit Amazons Zusage von 25 Milliarden Dollar fließen damit in wenigen Wochen bis zu 65 Milliarden Dollar in das KI-Unternehmen hinter Cl",
-      "link": "https://the-decoder.de/google-investiert-bis-zu-40-milliarden-dollar-in-chatgpt-konkurrent-claude-von-anthropic/",
-      "date": "2026-04-25T08:26:11.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "OpenAI-Chefwissenschaftler hält die letzten Jahre der KI-Entwicklung für \"überraschend langsam\"",
-      "description": "OpenAI veröffentlicht GPT‑5.5 – und die Führung des Unternehmens deutet an, dass die eigentlichen Fortschritte erst noch kommen.\nDer Artikel OpenAI-Chefwissenschaftler hält die letzten Jahre der KI-En",
-      "link": "https://the-decoder.de/openai-chefwissenschaftler-haelt-die-letzten-jahre-der-ki-entwicklung-fuer-ueberraschend-langsam/",
-      "date": "2026-04-24T18:18:15.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "Introducing GPT-5.5",
       "description": "Introducing GPT-5.5, our smartest model yet—faster, more capable, and built for complex tasks like coding, research, and data analysis across tools.",
       "link": "https://openai.com/index/introducing-gpt-5-5",
@@ -122,15 +131,6 @@
       "title": "Working with Codex",
       "description": "Learn how to set up your Codex workspace, create threads and projects, manage files, and start completing tasks with step-by-step guidance.",
       "link": "https://openai.com/academy/working-with-codex",
-      "date": "2026-04-23T10:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "Codex settings",
-      "description": "Learn how to configure Codex settings, including personalization, detail level, and permissions, to run tasks smoothly and customize your workflow.",
-      "link": "https://openai.com/academy/codex-settings",
       "date": "2026-04-23T10:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
