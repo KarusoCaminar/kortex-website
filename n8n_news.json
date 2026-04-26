@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-04-26T10:21:42.963Z",
+  "lastUpdated": "2026-04-26T12:22:41.199Z",
   "news": [
+    {
+      "title": "OpenAI schafft separates Coding-Modell Codex wieder ab – GPT-5.5 übernimmt",
+      "description": "OpenAI hat Codex erneut als eigenständiges Modell eingestellt und die Coding-Fähigkeiten direkt in das Hauptmodell integriert. GPT-5.5 soll besser programmieren und dabei weniger Tokens verbrauchen.\nD",
+      "link": "https://the-decoder.de/openai-schafft-separates-coding-modell-codex-wieder-ab-gpt-5-5-uebernimmt/",
+      "date": "2026-04-26T12:09:27.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "OpenAI gibt Prompting-Tipps für GPT-5.5: Besser von Grund auf neu starten",
       "description": "OpenAI empfiehlt Entwicklern, bei GPT-5.5 alte Prompts nicht einfach zu übernehmen. Stattdessen sollten sie minimalistisch von Grund auf neu beginnen. Rollendefinitionen, die manche schon für überflüs",
@@ -69,15 +78,6 @@
       "description": "Die Vereinigten Arabischen Emirate wollen die Hälfte ihrer Regierungsarbeit innerhalb von zwei Jahren auf autonome KI-Systeme umstellen.\nDer Artikel Vereinigte Arabische Emirate wollen halbe Regierung",
       "link": "https://the-decoder.de/vereinigte-arabische-emirate-wollen-halbe-regierung-innerhalb-von-zwei-jahren-mit-autonomer-ki-betreiben/",
       "date": "2026-04-25T08:54:57.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "OpenAI stellt GPT-5.5 vor und verspricht eine \"neue Klasse von Intelligenz\" – zum doppelten API-Preis",
-      "description": "OpenAI hat GPT-5.5 angekündigt, das als agentenbasiertes Modell komplexe Aufgaben eigenständig über mehrere Tools hinweg erledigen soll.\nDer Artikel OpenAI stellt GPT-5.5 vor und verspricht eine \"neue",
-      "link": "https://the-decoder.de/openai-stellt-gpt-5-5-vor-und-verspricht-eine-neue-klasse-von-intelligenz/",
-      "date": "2026-04-25T08:34:07.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
