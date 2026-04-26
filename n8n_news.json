@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-04-26T06:45:21.280Z",
+  "lastUpdated": "2026-04-26T08:32:48.183Z",
   "news": [
+    {
+      "title": "Forscher: KI-Agenten machen Entwickler nicht überflüssig, sondern bringen neue Disziplinen",
+      "description": "Die gängige Erzählung lautet, KI-Agenten übernähmen immer mehr Programmieraufgaben und Entwickler würden überflüssig. Laut einem Paper von Forschern der Chalmers University of Technology und der Volvo",
+      "link": "https://the-decoder.de/forscher-ki-agenten-machen-entwickler-nicht-ueberfluessig-sondern-bringen-neue-disziplinen/",
+      "date": "2026-04-26T07:59:17.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "GPT-5.5 führt KI-Ranglisten an, kostet 20 Prozent mehr und halluziniert häufiger als die Konkurrenz",
       "description": "GPT-5.5 bringt OpenAI an die Spitze der KI-Benchmarks zurück. Trotz Preissteigerung bietet das Modell unter den proprietären Konkurrenten wohl das beste Preis-Leistungs-Verhältnis.\nDer Artikel GPT-5.5",
@@ -60,15 +69,6 @@
       "description": "OpenAI veröffentlicht GPT‑5.5 – und die Führung des Unternehmens deutet an, dass die eigentlichen Fortschritte erst noch kommen.\nDer Artikel OpenAI-Chefwissenschaftler hält die letzten Jahre der KI-En",
       "link": "https://the-decoder.de/openai-chefwissenschaftler-haelt-die-letzten-jahre-der-ki-entwicklung-fuer-ueberraschend-langsam/",
       "date": "2026-04-24T18:18:15.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "ARM statt Intel: Meta kauft Millionen Amazon-Prozessorkerne für KI-Systeme",
-      "description": "Meta kauft mehrere zehn Millionen AWS-Graviton-5-Prozessorkerne von Amazon ein. Meta wird damit einer der größten Graviton-Kunden weltweit.\nDer Artikel ARM statt Intel: Meta kauft Millionen Amazon-Pro",
-      "link": "https://the-decoder.de/arm-statt-intel-meta-kauft-millionen-amazon-prozessorkerne-fuer-ki-systeme/",
-      "date": "2026-04-24T13:38:58.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
