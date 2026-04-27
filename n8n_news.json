@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-04-27T10:44:17.064Z",
+  "lastUpdated": "2026-04-27T12:41:26.019Z",
   "news": [
+    {
+      "title": "China blockiert Metas 2-Milliarden-Dollar-Übernahme von KI-Start-up Manus",
+      "description": "Peking ordnet die Rückabwicklung der bereits abgeschlossenen Übernahme an. Der Schritt fällt in eine Phase verschärfter technologischer Rivalität zwischen den USA und China.\nDer Artikel China blockier",
+      "link": "https://the-decoder.de/china-blockiert-metas-2-milliarden-dollar-uebernahme-von-ki-start-up-manus/",
+      "date": "2026-04-27T10:57:32.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Der einzige Hersteller der wichtigsten Maschine der KI-Welt fährt die Produktion hoch",
       "description": "ASML will die Produktion seiner EUV-Lithografiemaschinen stark hochfahren, um mit der wachsenden Nachfrage nach KI-Chips Schritt zu halten, berichtet das Wall Street Journal.\nDer Artikel Der einzige H",
@@ -122,15 +131,6 @@
       "title": "Top 10 uses for Codex at work",
       "description": "Explore 10 practical Codex use cases to automate tasks, create deliverables, and turn real inputs into outputs across tools, files, and workflows.",
       "link": "https://openai.com/academy/top-10-use-cases-codex-for-work",
-      "date": "2026-04-23T10:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "Codex settings",
-      "description": "Learn how to configure Codex settings, including personalization, detail level, and permissions, to run tasks smoothly and customize your workflow.",
-      "link": "https://openai.com/academy/codex-settings",
       "date": "2026-04-23T10:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
