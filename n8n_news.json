@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-04-27T07:03:03.129Z",
+  "lastUpdated": "2026-04-27T08:58:15.151Z",
   "news": [
+    {
+      "title": "Der einzige Hersteller der wichtigsten Maschine der KI-Welt fährt die Produktion hoch",
+      "description": "ASML will die Produktion seiner EUV-Lithografiemaschinen stark hochfahren, um mit der wachsenden Nachfrage nach KI-Chips Schritt zu halten, berichtet das Wall Street Journal.\nDer Artikel Der einzige H",
+      "link": "https://the-decoder.de/der-einzige-hersteller-der-wichtigsten-maschine-der-ki-welt-faehrt-die-produktion-hoch/",
+      "date": "2026-04-27T08:47:25.000Z",
+      "source": "The Decoder",
+      "category": "industrie-4.0",
+      "language": "de"
+    },
+    {
+      "title": "OpenAI entwickelt angeblich einen eigenen Smartphone-Chip mit MediaTek und Qualcomm",
+      "description": "Laut dem Analysten Ming-Chi Kuo arbeitet OpenAI mit MediaTek und Qualcomm an eigenen Smartphone-Prozessoren, mit Luxshare als exklusivem Partner für Systemdesign und Fertigung.\nDer Artikel OpenAI entw",
+      "link": "https://the-decoder.de/openai-entwickelt-angeblich-einen-eigenen-smartphone-chip-mit-mediatek-und-qualcomm/",
+      "date": "2026-04-27T08:35:45.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "OpenAI schafft separates Coding-Modell Codex wieder ab – GPT-5.5 übernimmt",
       "description": "OpenAI hat Codex erneut als eigenständiges Modell eingestellt und die Coding-Fähigkeiten direkt in das Hauptmodell integriert. GPT-5.5 soll besser programmieren und dabei weniger Tokens verbrauchen.\nD",
@@ -65,22 +83,13 @@
       "language": "de"
     },
     {
-      "title": "Anthropic-Experiment zeigt: Stärkere KI-Modelle verhandeln bessere Preise, ohne dass es jemand merkt",
-      "description": "Anthropic hat 69 KI-Agenten eine Woche lang stellvertretend für Mitarbeiter auf einem internen Marktplatz handeln lassen. Das Experiment zeigt: Stärkere Modelle erzielen bessere Deals. Die Benachteili",
-      "link": "https://the-decoder.de/anthropic-experiment-zeigt-staerkere-ki-modelle-verhandeln-bessere-preise-ohne-dass-es-jemand-merkt/",
-      "date": "2026-04-25T10:06:31.000Z",
-      "source": "The Decoder",
+      "title": "Introducing GPT-5.5",
+      "description": "Introducing GPT-5.5, our smartest model yet—faster, more capable, and built for complex tasks like coding, research, and data analysis across tools.",
+      "link": "https://openai.com/index/introducing-gpt-5-5",
+      "date": "2026-04-23T11:00:00.000Z",
+      "source": "OpenAI",
       "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Vereinigte Arabische Emirate wollen halbe Regierung innerhalb von zwei Jahren mit autonomer KI betreiben",
-      "description": "Die Vereinigten Arabischen Emirate wollen die Hälfte ihrer Regierungsarbeit innerhalb von zwei Jahren auf autonome KI-Systeme umstellen.\nDer Artikel Vereinigte Arabische Emirate wollen halbe Regierung",
-      "link": "https://the-decoder.de/vereinigte-arabische-emirate-wollen-halbe-regierung-innerhalb-von-zwei-jahren-mit-autonomer-ki-betreiben/",
-      "date": "2026-04-25T08:54:57.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
+      "language": "en"
     },
     {
       "title": "GPT-5.5 System Card",
@@ -92,10 +101,10 @@
       "language": "en"
     },
     {
-      "title": "Introducing GPT-5.5",
-      "description": "Introducing GPT-5.5, our smartest model yet—faster, more capable, and built for complex tasks like coding, research, and data analysis across tools.",
-      "link": "https://openai.com/index/introducing-gpt-5-5",
-      "date": "2026-04-23T11:00:00.000Z",
+      "title": "Plugins and skills",
+      "description": "Learn how to use Codex plugins and skills to connect tools, access data, and follow repeatable workflows to automate tasks and improve results.",
+      "link": "https://openai.com/academy/codex-plugins-and-skills",
+      "date": "2026-04-23T10:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
@@ -110,27 +119,18 @@
       "language": "en"
     },
     {
+      "title": "Top 10 uses for Codex at work",
+      "description": "Explore 10 practical Codex use cases to automate tasks, create deliverables, and turn real inputs into outputs across tools, files, and workflows.",
+      "link": "https://openai.com/academy/top-10-use-cases-codex-for-work",
+      "date": "2026-04-23T10:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
       "title": "Codex settings",
       "description": "Learn how to configure Codex settings, including personalization, detail level, and permissions, to run tasks smoothly and customize your workflow.",
       "link": "https://openai.com/academy/codex-settings",
-      "date": "2026-04-23T10:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "Working with Codex",
-      "description": "Learn how to set up your Codex workspace, create threads and projects, manage files, and start completing tasks with step-by-step guidance.",
-      "link": "https://openai.com/academy/working-with-codex",
-      "date": "2026-04-23T10:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "Plugins and skills",
-      "description": "Learn how to use Codex plugins and skills to connect tools, access data, and follow repeatable workflows to automate tasks and improve results.",
-      "link": "https://openai.com/academy/codex-plugins-and-skills",
       "date": "2026-04-23T10:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
