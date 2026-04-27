@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-27T03:13:42.897Z",
+  "lastUpdated": "2026-04-27T05:10:57.623Z",
   "news": [
     {
       "title": "OpenAI schafft separates Coding-Modell Codex wieder ab – GPT-5.5 übernimmt",
@@ -101,15 +101,6 @@
       "language": "en"
     },
     {
-      "title": "Top 10 uses for Codex at work",
-      "description": "Explore 10 practical Codex use cases to automate tasks, create deliverables, and turn real inputs into outputs across tools, files, and workflows.",
-      "link": "https://openai.com/academy/top-10-use-cases-codex-for-work",
-      "date": "2026-04-23T10:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
       "title": "Automations",
       "description": "Learn how to automate tasks in Codex using schedules and triggers to create reports, summaries, and recurring workflows without manual effort.",
       "link": "https://openai.com/academy/codex-automations",
@@ -131,6 +122,15 @@
       "title": "Working with Codex",
       "description": "Learn how to set up your Codex workspace, create threads and projects, manage files, and start completing tasks with step-by-step guidance.",
       "link": "https://openai.com/academy/working-with-codex",
+      "date": "2026-04-23T10:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
+      "title": "Plugins and skills",
+      "description": "Learn how to use Codex plugins and skills to connect tools, access data, and follow repeatable workflows to automate tasks and improve results.",
+      "link": "https://openai.com/academy/codex-plugins-and-skills",
       "date": "2026-04-23T10:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
