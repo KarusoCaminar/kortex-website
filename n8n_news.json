@@ -1,6 +1,33 @@
 {
-  "lastUpdated": "2026-04-27T12:41:26.019Z",
+  "lastUpdated": "2026-04-27T14:45:50.935Z",
   "news": [
+    {
+      "title": "OpenAI und Microsoft strukturieren Partnerschaft um: Exklusivität fällt, AGI-Klausel gestrichen",
+      "description": "OpenAI darf seine Produkte künftig über alle Cloud-Anbieter vertreiben, Microsoft verliert die Exklusivlizenz auf OpenAIs Technologie und die umstrittene AGI-Klausel ist ebenfalls Geschichte.\nDer Arti",
+      "link": "https://the-decoder.de/openai-und-microsoft-strukturieren-partnerschaft-um-exklusivitaet-faellt-agi-klausel-gestrichen/",
+      "date": "2026-04-27T14:14:40.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "OpenAI veröffentlicht fünf Leitprinzipien und rechtfertigt damit auch seine Infrastruktur-Strategie",
+      "description": "Sam Altman hat fünf Prinzipien skizziert, die OpenAIs künftige Arbeit leiten sollen. Sie liefern zugleich eine Begründung für die teils ungewöhnlichen Geschäftsentscheidungen des Unternehmens.\nDer Art",
+      "link": "https://the-decoder.de/openai-veroeffentlicht-fuenf-leitprinzipien-und-rechtfertigt-damit-auch-seine-infrastruktur-strategie/",
+      "date": "2026-04-27T13:54:05.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Meta will KI-Rechenzentren mit Solarstrom aus dem Weltraum betreiben",
+      "description": "Meta hat sich bis zu 1 Gigawatt weltraumbasierte Solarenergie beim Startup Overview Energy gesichert. Die Technologie existiert allerdings noch nicht.\nDer Artikel Meta will KI-Rechenzentren mit Solars",
+      "link": "https://the-decoder.de/meta-will-ki-rechenzentren-mit-solarstrom-aus-dem-weltraum-betreiben/",
+      "date": "2026-04-27T12:51:10.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "China blockiert Metas 2-Milliarden-Dollar-Übernahme von KI-Start-up Manus",
       "description": "Peking ordnet die Rückabwicklung der bereits abgeschlossenen Übernahme an. Der Schritt fällt in eine Phase verschärfter technologischer Rivalität zwischen den USA und China.\nDer Artikel China blockier",
@@ -27,6 +54,15 @@
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
+    },
+    {
+      "title": "The next phase of the Microsoft OpenAI partnership",
+      "description": "OpenAI and Microsoft announce an amended agreement that simplifies the partnership, adds long-term clarity, and supports continued AI innovation at scale.",
+      "link": "https://openai.com/index/next-phase-of-microsoft-partnership",
+      "date": "2026-04-27T06:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
     },
     {
       "title": "OpenAI schafft separates Coding-Modell Codex wieder ab – GPT-5.5 übernimmt",
@@ -65,33 +101,6 @@
       "language": "de"
     },
     {
-      "title": "Forscher: KI-Agenten machen Entwickler nicht überflüssig, sondern bringen neue Disziplinen",
-      "description": "Die gängige Erzählung lautet, KI-Agenten übernähmen immer mehr Programmieraufgaben und Entwickler würden überflüssig. Laut einem Paper von Forschern der Chalmers University of Technology und der Volvo",
-      "link": "https://the-decoder.de/forscher-ki-agenten-machen-entwickler-nicht-ueberfluessig-sondern-bringen-neue-disziplinen/",
-      "date": "2026-04-26T07:59:17.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "GPT-5.5 führt KI-Ranglisten an, kostet 20 Prozent mehr und halluziniert häufiger als die Konkurrenz",
-      "description": "GPT-5.5 bringt OpenAI an die Spitze der KI-Benchmarks zurück. Trotz Preissteigerung bietet das Modell unter den proprietären Konkurrenten wohl das beste Preis-Leistungs-Verhältnis.\nDer Artikel GPT-5.5",
-      "link": "https://the-decoder.de/gpt-5-5-fuehrt-ki-ranglisten-an-kostet-20-prozent-mehr-und-halluziniert-haeufiger-als-die-konkurrenz/",
-      "date": "2026-04-25T16:43:49.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Wachstum von Programmierer-Jobs in den USA hat sich seit ChatGPT fast halbiert",
-      "description": "Programmierer gehören zu den Berufsgruppen, deren Alltag sich durch generative KI am stärksten verändert hat. Eine neue Studie des Federal Reserve Board liefert nun Hinweise, dass sich das auch in den",
-      "link": "https://the-decoder.de/wachstum-von-programmierer-jobs-in-den-usa-hat-sich-seit-chatgpt-fast-halbiert/",
-      "date": "2026-04-25T12:30:29.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "Introducing GPT-5.5",
       "description": "Introducing GPT-5.5, our smartest model yet—faster, more capable, and built for complex tasks like coding, research, and data analysis across tools.",
       "link": "https://openai.com/index/introducing-gpt-5-5",
@@ -110,27 +119,18 @@
       "language": "en"
     },
     {
-      "title": "Plugins and skills",
-      "description": "Learn how to use Codex plugins and skills to connect tools, access data, and follow repeatable workflows to automate tasks and improve results.",
-      "link": "https://openai.com/academy/codex-plugins-and-skills",
+      "title": "Working with Codex",
+      "description": "Learn how to set up your Codex workspace, create threads and projects, manage files, and start completing tasks with step-by-step guidance.",
+      "link": "https://openai.com/academy/working-with-codex",
       "date": "2026-04-23T10:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
     },
     {
-      "title": "Automations",
-      "description": "Learn how to automate tasks in Codex using schedules and triggers to create reports, summaries, and recurring workflows without manual effort.",
-      "link": "https://openai.com/academy/codex-automations",
-      "date": "2026-04-23T10:00:00.000Z",
-      "source": "OpenAI",
-      "category": "workflow-tools",
-      "language": "en"
-    },
-    {
-      "title": "Top 10 uses for Codex at work",
-      "description": "Explore 10 practical Codex use cases to automate tasks, create deliverables, and turn real inputs into outputs across tools, files, and workflows.",
-      "link": "https://openai.com/academy/top-10-use-cases-codex-for-work",
+      "title": "Plugins and skills",
+      "description": "Learn how to use Codex plugins and skills to connect tools, access data, and follow repeatable workflows to automate tasks and improve results.",
+      "link": "https://openai.com/academy/codex-plugins-and-skills",
       "date": "2026-04-23T10:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
