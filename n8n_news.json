@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-04-28T08:56:32.424Z",
+  "lastUpdated": "2026-04-28T10:45:29.007Z",
   "news": [
+    {
+      "title": "Google unterzeichnet KI-Deal mit dem Pentagon und ignoriert Protest von über 600 Mitarbeitern",
+      "description": "Mehr als 600 Google-Angestellte forderten CEO Sundar Pichai auf, klassifizierte KI-Arbeit für das US-Militär abzulehnen. Am selben Tag unterzeichnete Google den Vertrag. Juristen halten die Sicherheit",
+      "link": "https://the-decoder.de/google-unterzeichnet-ki-deal-mit-dem-pentagon-und-ignoriert-protest-von-ueber-600-mitarbeitern/",
+      "date": "2026-04-28T10:41:05.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "OpenAI verfehlt interne Umsatz- und Nutzerziele im Wettlauf zum Börsengang",
+      "description": "OpenAI hat im ersten Quartal 2026 eigene Umsatzziele verfehlt. Gleichzeitig wächst der Druck durch Konkurrenten wie Anthropic und Google, während intern Spannungen über die massiven Ausgabenverpflicht",
+      "link": "https://the-decoder.de/openai-verfehlt-interne-umsatz-und-nutzerziele-im-wettlauf-zum-boersengang/",
+      "date": "2026-04-28T09:22:03.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "OpenAI und Microsoft strukturieren Partnerschaft um: Exklusivität fällt, AGI-Klausel gestrichen",
       "description": "OpenAI darf seine Produkte künftig über alle Cloud-Anbieter vertreiben, Microsoft verliert die Exklusivlizenz auf OpenAIs Technologie und die umstrittene AGI-Klausel ist ebenfalls Geschichte.\nDer Arti",
@@ -92,33 +110,6 @@
       "language": "de"
     },
     {
-      "title": "OpenAI gibt Prompting-Tipps für GPT-5.5: Besser von Grund auf neu starten",
-      "description": "OpenAI empfiehlt Entwicklern, bei GPT-5.5 alte Prompts nicht einfach zu übernehmen. Stattdessen sollten sie minimalistisch von Grund auf neu beginnen. Rollendefinitionen, die manche schon für überflüs",
-      "link": "https://the-decoder.de/openai-gibt-prompting-tipps-fuer-gpt-5-5-besser-von-grund-auf-neu-starten/",
-      "date": "2026-04-26T10:01:04.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "500 Banker bewerten KI-Ergebnisse und finden sie durchweg unbrauchbar für den Kundenkontakt",
-      "description": "Ein neuer Benchmark prüft, ob Modelle wie GPT-5.4 oder Claude Opus 4.6 die Arbeit von Junior-Investmentbankern übernehmen können. Banker stufen keinen einzigen KI-Output als abgabereif ein; die generi",
-      "link": "https://the-decoder.de/500-banker-bewerten-ki-ergebnisse-und-finden-sie-durchweg-unbrauchbar-fuer-den-kundenkontakt/",
-      "date": "2026-04-26T09:00:16.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Umfrage zeigt: 80 Prozent der Claude-Nutzer leben in Haushalten mit mehr als 100.000 Dollar Jahreseinkommen",
-      "description": "Eine Umfrage zeigt: Claude-Nutzer verdienen im Schnitt deutlich mehr als Nutzer anderer KI-Dienste. So verteilen sich die Einkommen bei ChatGPT, Gemini und Co.\nDer Artikel Umfrage zeigt: 80 Prozent de",
-      "link": "https://the-decoder.de/umfrage-zeigt-80-prozent-der-claude-nutzer-leben-in-haushalten-mit-mehr-als-100-000-dollar-jahreseinkommen/",
-      "date": "2026-04-26T08:41:02.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "GPT-5.5 System Card",
       "description": "",
       "link": "https://openai.com/index/gpt-5-5-system-card",
@@ -132,6 +123,15 @@
       "description": "Introducing GPT-5.5, our smartest model yet—faster, more capable, and built for complex tasks like coding, research, and data analysis across tools.",
       "link": "https://openai.com/index/introducing-gpt-5-5",
       "date": "2026-04-23T11:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
+      "title": "Working with Codex",
+      "description": "Learn how to set up your Codex workspace, create threads and projects, manage files, and start completing tasks with step-by-step guidance.",
+      "link": "https://openai.com/academy/working-with-codex",
+      "date": "2026-04-23T10:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
