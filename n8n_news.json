@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-04-28T16:41:06.605Z",
+  "lastUpdated": "2026-04-28T18:39:27.068Z",
   "news": [
+    {
+      "title": "Was ein Sprachmodell über die Zukunft denkt, das nur mit Texten vor 1931 trainiert wurde",
+      "description": "KI-Entwickler haben ein 13B-Sprachmodell ausschließlich mit Texten von vor 1931 trainiert: \"talkie\" antwortet auf Fragen über den Zweiten Weltkrieg mit viktorianischer Skepsis und malt sich das Jahr 2",
+      "link": "https://the-decoder.de/was-ein-sprachmodell-ueber-die-zukunft-denkt-das-nur-mit-texten-vor-1931-trainiert-wurde/",
+      "date": "2026-04-28T17:26:13.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Mistral AI launcht Workflows als Brücke zwischen KI-Modell und Geschäftsprozess",
       "description": "Mistral AI hat Workflows vorgestellt, eine Orchestrierungsschicht, mit der Unternehmen KI-gestützte Prozesse vom Prototyp in den produktiven Einsatz überführen können.\nDer Artikel Mistral AI launcht W",
@@ -47,6 +56,15 @@
       "language": "de"
     },
     {
+      "title": "OpenAI models, Codex, and Managed Agents come to AWS",
+      "description": "OpenAI GPT models, Codex, and Managed Agents are now available on AWS, enabling enterprises to build secure AI in their AWS environments.",
+      "link": "https://openai.com/index/openai-on-aws",
+      "date": "2026-04-28T00:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
       "title": "OpenAI und Microsoft strukturieren Partnerschaft um: Exklusivität fällt, AGI-Klausel gestrichen",
       "description": "OpenAI darf seine Produkte künftig über alle Cloud-Anbieter vertreiben, Microsoft verliert die Exklusivlizenz auf OpenAIs Technologie und die umstrittene AGI-Klausel ist ebenfalls Geschichte.\nDer Arti",
       "link": "https://the-decoder.de/openai-und-microsoft-strukturieren-partnerschaft-um-exklusivitaet-faellt-agi-klausel-gestrichen/",
@@ -69,15 +87,6 @@
       "description": "Sam Altman hat fünf Prinzipien skizziert, die OpenAIs künftige Arbeit leiten sollen. Sie liefern zugleich eine Begründung für die teils ungewöhnlichen Geschäftsentscheidungen des Unternehmens.\nDer Art",
       "link": "https://the-decoder.de/openai-veroeffentlicht-fuenf-leitprinzipien-und-rechtfertigt-damit-auch-seine-infrastruktur-strategie/",
       "date": "2026-04-27T13:54:05.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Meta will KI-Rechenzentren mit Solarstrom aus dem Weltraum betreiben",
-      "description": "Meta hat sich bis zu 1 Gigawatt weltraumbasierte Solarenergie beim Startup Overview Energy gesichert. Die Technologie existiert allerdings noch nicht.\nDer Artikel Meta will KI-Rechenzentren mit Solars",
-      "link": "https://the-decoder.de/meta-will-ki-rechenzentren-mit-solarstrom-aus-dem-weltraum-betreiben/",
-      "date": "2026-04-27T12:51:10.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
@@ -119,18 +128,9 @@
       "language": "en"
     },
     {
-      "title": "Working with Codex",
-      "description": "Learn how to set up your Codex workspace, create threads and projects, manage files, and start completing tasks with step-by-step guidance.",
-      "link": "https://openai.com/academy/working-with-codex",
-      "date": "2026-04-23T10:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "Codex settings",
-      "description": "Learn how to configure Codex settings, including personalization, detail level, and permissions, to run tasks smoothly and customize your workflow.",
-      "link": "https://openai.com/academy/codex-settings",
+      "title": "Top 10 uses for Codex at work",
+      "description": "Explore 10 practical Codex use cases to automate tasks, create deliverables, and turn real inputs into outputs across tools, files, and workflows.",
+      "link": "https://openai.com/academy/top-10-use-cases-codex-for-work",
       "date": "2026-04-23T10:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
