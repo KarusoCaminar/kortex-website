@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-04-28T10:45:29.007Z",
+  "lastUpdated": "2026-04-28T12:44:17.910Z",
   "news": [
+    {
+      "title": "Studie: 35 Prozent aller neuen Websites sind Mitte 2025 KI-generiert",
+      "description": "Eine groß angelegte Analyse von Websites aus dem Internet Archive zeigt, wie stark KI-Text das Netz bereits durchdringt. Die tatsächlichen Auswirkungen weichen laut den Forschern aber deutlich von der",
+      "link": "https://the-decoder.de/studie-35-prozent-aller-neuen-websites-sind-mitte-2025-ki-generiert/",
+      "date": "2026-04-28T12:38:47.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "YouTube testet Chatbot-Suche \"Ask YouTube\"",
+      "description": "Google testet auf YouTube mit \"Ask YouTube\" eine neue, konversationelle Suchfunktion.\nDer Artikel YouTube testet Chatbot-Suche \"Ask YouTube\" erschien zuerst auf The Decoder.",
+      "link": "https://the-decoder.de/youtube-testet-chatbot-suche-ask-youtube/",
+      "date": "2026-04-28T11:30:41.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Google unterzeichnet KI-Deal mit dem Pentagon und ignoriert Protest von über 600 Mitarbeitern",
       "description": "Mehr als 600 Google-Angestellte forderten CEO Sundar Pichai auf, klassifizierte KI-Arbeit für das US-Militär abzulehnen. Am selben Tag unterzeichnete Google den Vertrag. Juristen halten die Sicherheit",
@@ -74,15 +92,6 @@
       "language": "de"
     },
     {
-      "title": "OpenAI entwickelt angeblich einen eigenen Smartphone-Chip mit MediaTek und Qualcomm",
-      "description": "Laut dem Analysten Ming-Chi Kuo arbeitet OpenAI mit MediaTek und Qualcomm an eigenen Smartphone-Prozessoren, mit Luxshare als exklusivem Partner für Systemdesign und Fertigung.\nDer Artikel OpenAI entw",
-      "link": "https://the-decoder.de/openai-entwickelt-angeblich-einen-eigenen-smartphone-chip-mit-mediatek-und-qualcomm/",
-      "date": "2026-04-27T08:35:45.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "The next phase of the Microsoft OpenAI partnership",
       "description": "OpenAI and Microsoft announce an amended agreement that simplifies the partnership, adds long-term clarity, and supports continued AI innovation at scale.",
       "link": "https://openai.com/index/next-phase-of-microsoft-partnership",
@@ -99,15 +108,6 @@
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
-    },
-    {
-      "title": "OpenAI schafft separates Coding-Modell Codex wieder ab – GPT-5.5 übernimmt",
-      "description": "OpenAI hat Codex erneut als eigenständiges Modell eingestellt und die Coding-Fähigkeiten direkt in das Hauptmodell integriert. GPT-5.5 soll besser programmieren und dabei weniger Tokens verbrauchen.\nD",
-      "link": "https://the-decoder.de/openai-schafft-separates-coding-modell-codex-wieder-ab-gpt-5-5-uebernimmt/",
-      "date": "2026-04-26T12:09:27.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
     },
     {
       "title": "GPT-5.5 System Card",
