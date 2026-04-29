@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-04-29T08:52:50.856Z",
+  "lastUpdated": "2026-04-29T10:40:31.477Z",
   "news": [
+    {
+      "title": "Nvidia veröffentlicht Nemotron-3 Nano Omni samt tiefem Einblick in das Training multimodaler KI",
+      "description": "Nvidia veröffentlicht mit Nemotron 3 Nano Omni ein offenes multimodales Modell für Text, Bild, Video und Audio. Spannend ist nicht nur die Leistung, sondern auch der Blick in die Trainingsdaten: Sie s",
+      "link": "https://the-decoder.de/nvidia-veroeffentlicht-nemotron-3-nano-omni-samt-tiefem-einblick-in-das-training-multimodaler-ki/",
+      "date": "2026-04-29T09:16:29.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Was ein Sprachmodell über die Zukunft denkt, das nur mit Texten vor 1931 trainiert wurde",
       "description": "KI-Entwickler haben ein 13B-Sprachmodell ausschließlich mit Texten von vor 1931 trainiert: \"talkie\" antwortet auf Fragen über den Zweiten Weltkrieg mit viktorianischer Skepsis und malt sich das Jahr 2",
@@ -90,15 +99,6 @@
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
-    },
-    {
-      "title": "OpenAI veröffentlicht fünf Leitprinzipien und rechtfertigt damit auch seine Infrastruktur-Strategie",
-      "description": "Sam Altman hat fünf Prinzipien skizziert, die OpenAIs künftige Arbeit leiten sollen. Sie liefern zugleich eine Begründung für die teils ungewöhnlichen Geschäftsentscheidungen des Unternehmens.\nDer Art",
-      "link": "https://the-decoder.de/openai-veroeffentlicht-fuenf-leitprinzipien-und-rechtfertigt-damit-auch-seine-infrastruktur-strategie/",
-      "date": "2026-04-27T13:54:05.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
     },
     {
       "title": "The next phase of the Microsoft OpenAI partnership",
