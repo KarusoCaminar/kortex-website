@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-04-29T14:50:49.462Z",
+  "lastUpdated": "2026-04-29T16:37:57.821Z",
   "news": [
+    {
+      "title": "OpenAI-Forscher: Warum Mathematik der wichtigste Test auf dem Weg zur AGI ist",
+      "description": "KI-Modelle haben in nur zwei Jahren den Sprung von Grundschulrechnungen zu Olympiade-Niveau und Forschungsmathematik geschafft. OpenAI-Forscher Sebastian Bubeck und Ernest Ryu erklären im OpenAI-Podca",
+      "link": "https://the-decoder.de/openai-forscher-warum-mathematik-der-wichtigste-test-auf-dem-weg-zur-agi-ist/",
+      "date": "2026-04-29T15:18:12.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Weißes Haus sucht Weg zurück zu Anthropic nach Streit mit dem Pentagon",
       "description": "Das Weiße Haus arbeitet laut Axios an einer Regelung, die es Behörden ermöglichen soll, Anthropics KI-Modelle wieder zu nutzen, einschließlich des neuen Modells Mythos, das laut Berichten Cyberangriff",
@@ -78,15 +87,6 @@
       "description": "Eine groß angelegte Analyse von Websites aus dem Internet Archive zeigt, wie stark KI-Text das Netz bereits durchdringt. Die tatsächlichen Auswirkungen weichen laut den Forschern aber deutlich von der",
       "link": "https://the-decoder.de/studie-35-prozent-aller-neuen-websites-sind-mitte-2025-ki-generiert/",
       "date": "2026-04-28T12:38:47.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "YouTube testet Chatbot-Suche \"Ask YouTube\"",
-      "description": "Google testet auf YouTube mit \"Ask YouTube\" eine neue, konversationelle Suchfunktion.\nDer Artikel YouTube testet Chatbot-Suche \"Ask YouTube\" erschien zuerst auf The Decoder.",
-      "link": "https://the-decoder.de/youtube-testet-chatbot-suche-ask-youtube/",
-      "date": "2026-04-28T11:30:41.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
