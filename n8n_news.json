@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-04-29T16:37:57.821Z",
+  "lastUpdated": "2026-04-29T18:37:47.849Z",
   "news": [
+    {
+      "title": "Google Gemini erstellt jetzt Dokumente, Tabellen und Präsentationen direkt im Chat",
+      "description": "Google Gemini erstellt jetzt Dokumente direkt im Chat, von PDFs über Word-Dateien bis zu Excel-Tabellen.\nDer Artikel Google Gemini erstellt jetzt Dokumente, Tabellen und Präsentationen direkt im Chat",
+      "link": "https://the-decoder.de/google-gemini-erstellt-jetzt-dokumente-tabellen-und-praesentationen-direkt-im-chat/",
+      "date": "2026-04-29T16:52:57.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "OpenAI-Forscher: Warum Mathematik der wichtigste Test auf dem Weg zur AGI ist",
       "description": "KI-Modelle haben in nur zwei Jahren den Sprung von Grundschulrechnungen zu Olympiade-Niveau und Forschungsmathematik geschafft. OpenAI-Forscher Sebastian Bubeck und Ernest Ryu erklären im OpenAI-Podca",
@@ -80,15 +89,6 @@
       "date": "2026-04-28T14:58:24.000Z",
       "source": "The Decoder",
       "category": "workflow-tools",
-      "language": "de"
-    },
-    {
-      "title": "Studie: 35 Prozent aller neuen Websites sind Mitte 2025 KI-generiert",
-      "description": "Eine groß angelegte Analyse von Websites aus dem Internet Archive zeigt, wie stark KI-Text das Netz bereits durchdringt. Die tatsächlichen Auswirkungen weichen laut den Forschern aber deutlich von der",
-      "link": "https://the-decoder.de/studie-35-prozent-aller-neuen-websites-sind-mitte-2025-ki-generiert/",
-      "date": "2026-04-28T12:38:47.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
       "language": "de"
     },
     {
