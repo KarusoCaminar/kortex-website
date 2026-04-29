@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-28T22:24:44.289Z",
+  "lastUpdated": "2026-04-29T00:53:34.816Z",
   "news": [
     {
       "title": "Was ein Sprachmodell über die Zukunft denkt, das nur mit Texten vor 1931 trainiert wurde",
@@ -54,6 +54,15 @@
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
+    },
+    {
+      "title": "Our commitment to community safety",
+      "description": "Learn how OpenAI protects community safety in ChatGPT through model safeguards, misuse detection, policy enforcement, and collaboration with safety experts.",
+      "link": "https://openai.com/index/our-commitment-to-community-safety",
+      "date": "2026-04-28T00:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
     },
     {
       "title": "OpenAI models, Codex, and Managed Agents come to AWS",
@@ -123,15 +132,6 @@
       "description": "Introducing GPT-5.5, our smartest model yet—faster, more capable, and built for complex tasks like coding, research, and data analysis across tools.",
       "link": "https://openai.com/index/introducing-gpt-5-5",
       "date": "2026-04-23T11:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "Top 10 uses for Codex at work",
-      "description": "Explore 10 practical Codex use cases to automate tasks, create deliverables, and turn real inputs into outputs across tools, files, and workflows.",
-      "link": "https://openai.com/academy/top-10-use-cases-codex-for-work",
-      "date": "2026-04-23T10:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
