@@ -1,6 +1,42 @@
 {
-  "lastUpdated": "2026-04-29T10:40:31.477Z",
+  "lastUpdated": "2026-04-29T12:41:33.963Z",
   "news": [
+    {
+      "title": "Weißes Haus sucht Weg zurück zu Anthropic nach Streit mit dem Pentagon",
+      "description": "Das Weiße Haus arbeitet laut Axios an einer Regelung, die es Behörden ermöglichen soll, Anthropics KI-Modelle wieder zu nutzen, einschließlich des neuen Modells Mythos, das laut Berichten Cyberangriff",
+      "link": "https://the-decoder.de/weisses-haus-sucht-weg-zurueck-zu-anthropic-nach-streit-mit-dem-pentagon/",
+      "date": "2026-04-29T11:31:39.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "AWS und OpenAI bringen GPT-5.5, Codex und gemeinsame Agenten-Plattform auf Bedrock",
+      "description": "Microsoft und OpenAI haben ihren Exklusivvertrag aufgelöst. Einen Tag später bringt AWS drei neue OpenAI-Angebote auf seine Bedrock-Plattform, darunter einen gemeinsam entwickelten Agenten-Dienst.\nDer",
+      "link": "https://the-decoder.de/aws-und-openai-bringen-gpt-5-5-codex-und-gemeinsame-agenten-plattform-auf-bedrock/",
+      "date": "2026-04-29T11:27:01.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Google Gemini merkt sich jetzt Vorlieben und Details der Nutzer in Europa",
+      "description": "Gemini merkt sich jetzt, was ihr mögt – und lässt euch eure Chats aus anderen KI-Apps mitbringen.\nDer Artikel Google Gemini merkt sich jetzt Vorlieben und Details der Nutzer in Europa erschien zuerst",
+      "link": "https://the-decoder.de/google-gemini-merkt-sich-jetzt-vorlieben-und-details-der-nutzer-in-europa/",
+      "date": "2026-04-29T11:23:10.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Gekränkte Eitelkeit oder gestohlene Stiftung? Der Prozess um OpenAI hat begonnen",
+      "description": "Im Bundesgericht in Oakland hat der mit Spannung erwartete Prozess zwischen Elon Musk und OpenAI-Chef Sam Altman begonnen. Am ersten Verhandlungstag schilderten beide Seiten zwei grundverschiedene Ver",
+      "link": "https://the-decoder.de/gekraenkte-eitelkeit-oder-gestohlene-stiftung-der-prozess-um-openai-hat-begonnen/",
+      "date": "2026-04-29T10:43:56.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Nvidia veröffentlicht Nemotron-3 Nano Omni samt tiefem Einblick in das Training multimodaler KI",
       "description": "Nvidia veröffentlicht mit Nemotron 3 Nano Omni ein offenes multimodales Modell für Text, Bild, Video und Audio. Spannend ist nicht nur die Leistung, sondern auch der Blick in die Trainingsdaten: Sie s",
@@ -9,6 +45,15 @@
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
+    },
+    {
+      "title": "Cybersecurity in the Intelligence Age",
+      "description": "OpenAI outlines a five-part action plan for strengthening cybersecurity in the Intelligence Age, focused on democratizing AI-powered cyber defense and protecting critical systems.",
+      "link": "https://openai.com/index/cybersecurity-in-the-intelligence-age",
+      "date": "2026-04-29T04:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
     },
     {
       "title": "Was ein Sprachmodell über die Zukunft denkt, das nur mit Texten vor 1931 trainiert wurde",
@@ -47,33 +92,6 @@
       "language": "de"
     },
     {
-      "title": "Google unterzeichnet KI-Deal mit dem Pentagon und ignoriert Protest von über 600 Mitarbeitern",
-      "description": "Mehr als 600 Google-Angestellte forderten CEO Sundar Pichai auf, klassifizierte KI-Arbeit für das US-Militär abzulehnen. Am selben Tag unterzeichnete Google den Vertrag. Juristen halten die Sicherheit",
-      "link": "https://the-decoder.de/google-unterzeichnet-ki-deal-mit-dem-pentagon-und-ignoriert-protest-von-ueber-600-mitarbeitern/",
-      "date": "2026-04-28T10:41:05.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "OpenAI verfehlt interne Umsatz- und Nutzerziele im Wettlauf zum Börsengang",
-      "description": "OpenAI hat im ersten Quartal 2026 eigene Umsatzziele verfehlt. Gleichzeitig wächst der Druck durch Konkurrenten wie Anthropic und Google, während intern Spannungen über die massiven Ausgabenverpflicht",
-      "link": "https://the-decoder.de/openai-verfehlt-interne-umsatz-und-nutzerziele-im-wettlauf-zum-boersengang/",
-      "date": "2026-04-28T09:22:03.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "OpenAI models, Codex, and Managed Agents come to AWS",
-      "description": "OpenAI GPT models, Codex, and Managed Agents are now available on AWS, enabling enterprises to build secure AI in their AWS environments.",
-      "link": "https://openai.com/index/openai-on-aws",
-      "date": "2026-04-28T00:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
       "title": "Our commitment to community safety",
       "description": "Learn how OpenAI protects community safety in ChatGPT through model safeguards, misuse detection, policy enforcement, and collaboration with safety experts.",
       "link": "https://openai.com/index/our-commitment-to-community-safety",
@@ -83,13 +101,13 @@
       "language": "en"
     },
     {
-      "title": "OpenAI und Microsoft strukturieren Partnerschaft um: Exklusivität fällt, AGI-Klausel gestrichen",
-      "description": "OpenAI darf seine Produkte künftig über alle Cloud-Anbieter vertreiben, Microsoft verliert die Exklusivlizenz auf OpenAIs Technologie und die umstrittene AGI-Klausel ist ebenfalls Geschichte.\nDer Arti",
-      "link": "https://the-decoder.de/openai-und-microsoft-strukturieren-partnerschaft-um-exklusivitaet-faellt-agi-klausel-gestrichen/",
-      "date": "2026-04-27T14:14:40.000Z",
-      "source": "The Decoder",
+      "title": "OpenAI models, Codex, and Managed Agents come to AWS",
+      "description": "OpenAI GPT models, Codex, and Managed Agents are now available on AWS, enabling enterprises to build secure AI in their AWS environments.",
+      "link": "https://openai.com/index/openai-on-aws",
+      "date": "2026-04-28T00:00:00.000Z",
+      "source": "OpenAI",
       "category": "große-modelle",
-      "language": "de"
+      "language": "en"
     },
     {
       "title": "OpenAI available at FedRAMP Moderate",
@@ -114,24 +132,6 @@
       "description": "How Choco used OpenAI APIs to streamline food distribution, boost productivity, and unlock growth—an in-depth customer story on real-world AI impact.",
       "link": "https://openai.com/index/choco",
       "date": "2026-04-27T00:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "GPT-5.5 System Card",
-      "description": "",
-      "link": "https://openai.com/index/gpt-5-5-system-card",
-      "date": "2026-04-23T11:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "Introducing GPT-5.5",
-      "description": "Introducing GPT-5.5, our smartest model yet—faster, more capable, and built for complex tasks like coding, research, and data analysis across tools.",
-      "link": "https://openai.com/index/introducing-gpt-5-5",
-      "date": "2026-04-23T11:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
