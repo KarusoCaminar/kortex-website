@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-30T00:53:33.539Z",
+  "lastUpdated": "2026-04-30T03:13:58.999Z",
   "news": [
     {
       "title": "Google Gemini erstellt jetzt Dokumente, Tabellen und Präsentationen direkt im Chat",
@@ -101,18 +101,18 @@
       "language": "de"
     },
     {
-      "title": "OpenAI models, Codex, and Managed Agents come to AWS",
-      "description": "OpenAI GPT models, Codex, and Managed Agents are now available on AWS, enabling enterprises to build secure AI in their AWS environments.",
-      "link": "https://openai.com/index/openai-on-aws",
+      "title": "Our commitment to community safety",
+      "description": "Learn how OpenAI protects community safety in ChatGPT through model safeguards, misuse detection, policy enforcement, and collaboration with safety experts.",
+      "link": "https://openai.com/index/our-commitment-to-community-safety",
       "date": "2026-04-28T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
     },
     {
-      "title": "Our commitment to community safety",
-      "description": "Learn how OpenAI protects community safety in ChatGPT through model safeguards, misuse detection, policy enforcement, and collaboration with safety experts.",
-      "link": "https://openai.com/index/our-commitment-to-community-safety",
+      "title": "OpenAI models, Codex, and Managed Agents come to AWS",
+      "description": "OpenAI GPT models, Codex, and Managed Agents are now available on AWS, enabling enterprises to build secure AI in their AWS environments.",
+      "link": "https://openai.com/index/openai-on-aws",
       "date": "2026-04-28T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
