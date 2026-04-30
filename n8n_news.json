@@ -1,6 +1,51 @@
 {
-  "lastUpdated": "2026-04-30T10:39:59.708Z",
+  "lastUpdated": "2026-04-30T12:41:00.149Z",
   "news": [
+    {
+      "title": "Tencents neues Mini-Modell übersetzt 33 Sprachen komplett offline auf dem Smartphone",
+      "description": "Tencent hat ein kompaktes KI-Übersetzungsmodell als Open-Weight-Modell veröffentlicht, das laut eigenen Angaben Google Translate übertrifft und komplett offline auf Smartphones läuft.\nDer Artikel Tenc",
+      "link": "https://the-decoder.de/tencents-neues-mini-modell-uebersetzt-33-sprachen-komplett-offline-auf-dem-smartphone/",
+      "date": "2026-04-30T12:24:34.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "OpenAI erreicht 10-Gigawatt-Ziel für KI-Rechenkapazität Jahre vor dem Plan",
+      "description": "OpenAI hat sein Ziel von 10 Gigawatt an KI-Rechenkapazität in den USA laut eigenen Angaben mehrere Jahre früher als geplant erreicht.\nDer Artikel OpenAI erreicht 10-Gigawatt-Ziel für KI-Rechenkapazitä",
+      "link": "https://the-decoder.de/openai-erreicht-10-gigawatt-ziel-fuer-ki-rechenkapazitaet-jahre-vor-dem-plan/",
+      "date": "2026-04-30T11:57:11.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Claude knackt Bioinformatik-Probleme, die fünf Fachleute nicht lösen konnten",
+      "description": "Mit BioMysteryBench will Anthropic zeigen, dass Claude reale Bioinformatik-Probleme auf Expertenniveau lösen kann. Die Ergebnisse sind interessant, aber nicht ohne Einschränkungen.\nDer Artikel Claude",
+      "link": "https://the-decoder.de/claude-knackt-bioinformatik-probleme-die-fuenf-fachleute-nicht-loesen-konnten/",
+      "date": "2026-04-30T11:45:31.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Alphabet will bis 2026 bis zu 190 Milliarden Dollar in KI- und Cloud-Infrastruktur investieren",
+      "description": "Alphabet investiert bis 2026 bis zu 190 Milliarden US-Dollar in seine KI- und Cloud-Infrastruktur. 2027 soll dieser Betrag noch einmal \"signifikant\" steigen.\nDer Artikel Alphabet will bis 2026 bis zu",
+      "link": "https://the-decoder.de/alphabet-will-bis-2026-bis-zu-190-milliarden-dollar-in-ki-und-cloud-infrastruktur-investieren/",
+      "date": "2026-04-30T11:32:54.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "US-Sicherheitsbedenken bremsen Rollout von Anthropics stärkstem KI-Modell",
+      "description": "Das Weiße Haus lehnt Anthropics Plan ab, den Zugang zu seinem KI-Modell Mythos auf etwa 70 weitere Unternehmen auszuweiten, berichtet das Wall Street Journal.\nDer Artikel US-Sicherheitsbedenken bremse",
+      "link": "https://the-decoder.de/us-sicherheitsbedenken-bremsen-rollout-von-anthropics-staerkstem-ki-modell/",
+      "date": "2026-04-30T10:49:46.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "US-Arzneimittelbehörde will mit KI-Pilotprojekt Zulassungszeit für Medikamente um bis zu 40 Prozent verkürzen",
       "description": "Die US-Arzneimittelbehörde FDA will mit einem Pilotprojekt klinische Studien erstmals in Echtzeit mit KI-Unterstützung über die Cloud überwachen. Die Behörde erhofft sich eine drastische Verkürzung de",
@@ -47,15 +92,6 @@
       "language": "de"
     },
     {
-      "title": "OpenAI-Forscher: Warum Mathematik der wichtigste Test auf dem Weg zur AGI ist",
-      "description": "KI-Modelle haben in nur zwei Jahren den Sprung von Grundschulrechnungen zu Olympiade-Niveau und Forschungsmathematik geschafft. OpenAI-Forscher Sebastian Bubeck und Ernest Ryu erklären im OpenAI-Podca",
-      "link": "https://the-decoder.de/openai-forscher-warum-mathematik-der-wichtigste-test-auf-dem-weg-zur-agi-ist/",
-      "date": "2026-04-29T15:18:12.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "Building the compute infrastructure for the Intelligence Age",
       "description": "OpenAI scales Stargate to build the compute infrastructure powering AGI, adding new data center capacity to meet growing AI demand.",
       "link": "https://openai.com/index/building-the-compute-infrastructure-for-the-intelligence-age",
@@ -63,42 +99,6 @@
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
-    },
-    {
-      "title": "Weißes Haus sucht Weg zurück zu Anthropic nach Streit mit dem Pentagon",
-      "description": "Das Weiße Haus arbeitet laut Axios an einer Regelung, die es Behörden ermöglichen soll, Anthropics KI-Modelle wieder zu nutzen, einschließlich des neuen Modells Mythos, das laut Berichten Cyberangriff",
-      "link": "https://the-decoder.de/weisses-haus-sucht-weg-zurueck-zu-anthropic-nach-streit-mit-dem-pentagon/",
-      "date": "2026-04-29T11:31:39.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "AWS und OpenAI bringen GPT-5.5, Codex und gemeinsame Agenten-Plattform auf Bedrock",
-      "description": "Microsoft und OpenAI haben ihren Exklusivvertrag aufgelöst. Einen Tag später bringt AWS drei neue OpenAI-Angebote auf seine Bedrock-Plattform, darunter einen gemeinsam entwickelten Agenten-Dienst.\nDer",
-      "link": "https://the-decoder.de/aws-und-openai-bringen-gpt-5-5-codex-und-gemeinsame-agenten-plattform-auf-bedrock/",
-      "date": "2026-04-29T11:27:01.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Google Gemini merkt sich jetzt Vorlieben und Details der Nutzer in Europa",
-      "description": "Gemini merkt sich jetzt, was ihr mögt – und lässt euch eure Chats aus anderen KI-Apps mitbringen.\nDer Artikel Google Gemini merkt sich jetzt Vorlieben und Details der Nutzer in Europa erschien zuerst",
-      "link": "https://the-decoder.de/google-gemini-merkt-sich-jetzt-vorlieben-und-details-der-nutzer-in-europa/",
-      "date": "2026-04-29T11:23:10.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Gekränkte Eitelkeit oder gestohlene Stiftung? Der Prozess um OpenAI hat begonnen",
-      "description": "Im Bundesgericht in Oakland hat der mit Spannung erwartete Prozess zwischen Elon Musk und OpenAI-Chef Sam Altman begonnen. Am ersten Verhandlungstag schilderten beide Seiten zwei grundverschiedene Ver",
-      "link": "https://the-decoder.de/gekraenkte-eitelkeit-oder-gestohlene-stiftung-der-prozess-um-openai-hat-begonnen/",
-      "date": "2026-04-29T10:43:56.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
     },
     {
       "title": "Cybersecurity in the Intelligence Age",
