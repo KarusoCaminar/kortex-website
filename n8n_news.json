@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-04-30T16:36:55.648Z",
+  "lastUpdated": "2026-04-30T18:37:04.467Z",
   "news": [
+    {
+      "title": "KI als Verbrauchsgeschäft: Microsoft-CEO Satya Nadella will \"intensive Nutzung durch intensive Anwender\"",
+      "description": "Nach Google berichtet auch Microsoft von Rekordgewinnen und starkem Cloud-Wachstum, kann aber mit Blick auf generative KI keine Sicherheit vermitteln.\nDer Artikel KI als Verbrauchsgeschäft: Microsoft-",
+      "link": "https://the-decoder.de/ki-als-verbrauchsgeschaeft-microsoft-ceo-satya-nadella-will-intensive-nutzung-durch-intensive-anwender/",
+      "date": "2026-04-30T17:32:04.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Tencents neues Mini-Modell übersetzt 33 Sprachen komplett offline auf dem Smartphone",
       "description": "Tencent hat ein kompaktes KI-Übersetzungsmodell als Open-Weight-Modell veröffentlicht, das laut eigenen Angaben Google Translate übertrifft und komplett offline auf Smartphones läuft.\nDer Artikel Tenc",
@@ -83,15 +92,6 @@
       "language": "en"
     },
     {
-      "title": "Google Gemini erstellt jetzt Dokumente, Tabellen und Präsentationen direkt im Chat",
-      "description": "Google Gemini erstellt jetzt Dokumente direkt im Chat, von PDFs über Word-Dateien bis zu Excel-Tabellen.\nDer Artikel Google Gemini erstellt jetzt Dokumente, Tabellen und Präsentationen direkt im Chat",
-      "link": "https://the-decoder.de/google-gemini-erstellt-jetzt-dokumente-tabellen-und-praesentationen-direkt-im-chat/",
-      "date": "2026-04-29T16:52:57.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "Building the compute infrastructure for the Intelligence Age",
       "description": "OpenAI scales Stargate to build the compute infrastructure powering AGI, adding new data center capacity to meet growing AI demand.",
       "link": "https://openai.com/index/building-the-compute-infrastructure-for-the-intelligence-age",
@@ -110,18 +110,18 @@
       "language": "en"
     },
     {
-      "title": "Our commitment to community safety",
-      "description": "Learn how OpenAI protects community safety in ChatGPT through model safeguards, misuse detection, policy enforcement, and collaboration with safety experts.",
-      "link": "https://openai.com/index/our-commitment-to-community-safety",
+      "title": "OpenAI models, Codex, and Managed Agents come to AWS",
+      "description": "OpenAI GPT models, Codex, and Managed Agents are now available on AWS, enabling enterprises to build secure AI in their AWS environments.",
+      "link": "https://openai.com/index/openai-on-aws",
       "date": "2026-04-28T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
     },
     {
-      "title": "OpenAI models, Codex, and Managed Agents come to AWS",
-      "description": "OpenAI GPT models, Codex, and Managed Agents are now available on AWS, enabling enterprises to build secure AI in their AWS environments.",
-      "link": "https://openai.com/index/openai-on-aws",
+      "title": "Our commitment to community safety",
+      "description": "Learn how OpenAI protects community safety in ChatGPT through model safeguards, misuse detection, policy enforcement, and collaboration with safety experts.",
+      "link": "https://openai.com/index/our-commitment-to-community-safety",
       "date": "2026-04-28T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
