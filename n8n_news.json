@@ -1,6 +1,33 @@
 {
-  "lastUpdated": "2026-05-01T14:29:37.304Z",
+  "lastUpdated": "2026-05-01T16:25:47.126Z",
   "news": [
+    {
+      "title": "Acht Tech-Konzerne sollen dem Pentagon zur \"KI-zentrierten Streitkraft\" verhelfen",
+      "description": "Acht Tech-Konzerne liefern KI für geheime US-Militärnetzwerke. Das Ziel: eine \"KI-zentrierte Streitkraft\". Anthropic fehlt auf der Liste, weil das Unternehmen eine Nutzungsklausel ablehnte und dafür a",
+      "link": "https://the-decoder.de/acht-tech-konzerne-sollen-dem-pentagon-zur-ki-zentrierten-streitkraft-verhelfen/",
+      "date": "2026-05-01T16:23:38.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Chinesische KI-Start-ups lösen angeblich ihre Auslandsstrukturen auf und ziehen zurück nach China",
+      "description": "Nach der durch die chinesische Regierung blockierten Manus-Übernahme durch Meta signalisiert die Wertpapieraufsicht: Wer an die Börse will, sollte in China registriert sein. Jetzt erwägen KI-Start-ups",
+      "link": "https://the-decoder.de/chinesische-ki-start-ups-loesen-angeblich-ihre-auslandsstrukturen-auf-und-ziehen-zurueck-nach-china/",
+      "date": "2026-05-01T15:51:04.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Google, Amazon, Microsoft und Meta planen 725 Milliarden Dollar an KI-Investitionen für dieses Jahr",
+      "description": "Big Tech steckt immer mehr Geld in KI-Rechenzentren, Chips und Infrastruktur. Google, Amazon, Microsoft und Meta kommen laut Financial Times für dieses Jahr zusammen auf rund 725 Milliarden Dollar.\nDe",
+      "link": "https://the-decoder.de/google-amazon-microsoft-und-meta-planen-725-milliarden-dollar-an-ki-investitionen-fuer-dieses-jahr/",
+      "date": "2026-05-01T14:36:45.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Was Goblins in ChatGPT mit KI-Training zu tun haben",
       "description": "Ein fehlerhaftes Belohnungssignal im KI-Training führte dazu, dass ChatGPT-Modelle plötzlich auffällig häufig Goblins, Gremlins und andere Fabelwesen in ihren Antworten einsetzten. Für OpenAI ein Beis",
@@ -51,33 +78,6 @@
       "description": "Nach Google berichtet auch Microsoft von Rekordgewinnen und starkem Cloud-Wachstum, kann aber mit Blick auf generative KI keine Sicherheit vermitteln.\nDer Artikel KI als Verbrauchsgeschäft: Microsoft-",
       "link": "https://the-decoder.de/ki-als-verbrauchsgeschaeft-microsoft-ceo-satya-nadella-will-intensive-nutzung-durch-intensive-anwender/",
       "date": "2026-04-30T17:32:04.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Tencents neues Mini-Modell übersetzt 33 Sprachen komplett offline auf dem Smartphone",
-      "description": "Tencent hat ein kompaktes KI-Übersetzungsmodell als Open-Weight-Modell veröffentlicht, das laut eigenen Angaben Google Translate übertrifft und komplett offline auf Smartphones läuft.\nDer Artikel Tenc",
-      "link": "https://the-decoder.de/tencents-neues-mini-modell-uebersetzt-33-sprachen-komplett-offline-auf-dem-smartphone/",
-      "date": "2026-04-30T12:24:34.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "OpenAI erreicht 10-Gigawatt-Ziel für KI-Rechenkapazität Jahre vor dem Plan",
-      "description": "OpenAI hat sein Ziel von 10 Gigawatt an KI-Rechenkapazität in den USA laut eigenen Angaben mehrere Jahre früher als geplant erreicht.\nDer Artikel OpenAI erreicht 10-Gigawatt-Ziel für KI-Rechenkapazitä",
-      "link": "https://the-decoder.de/openai-erreicht-10-gigawatt-ziel-fuer-ki-rechenkapazitaet-jahre-vor-dem-plan/",
-      "date": "2026-04-30T11:57:11.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Claude knackt Bioinformatik-Probleme, die fünf Fachleute nicht lösen konnten",
-      "description": "Mit BioMysteryBench will Anthropic zeigen, dass Claude reale Bioinformatik-Probleme auf Expertenniveau lösen kann. Die Ergebnisse sind interessant, aber nicht ohne Einschränkungen.\nDer Artikel Claude",
-      "link": "https://the-decoder.de/claude-knackt-bioinformatik-probleme-die-fuenf-fachleute-nicht-loesen-konnten/",
-      "date": "2026-04-30T11:45:31.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
