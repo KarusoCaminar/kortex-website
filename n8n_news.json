@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-05-01T08:46:01.441Z",
+  "lastUpdated": "2026-05-01T10:35:22.154Z",
   "news": [
+    {
+      "title": "Cybersecurity: GPT-5.5 und Claude Mythos sind laut britischer Sicherheitsbehörde fast gleichauf",
+      "description": "OpenAIs GPT-5.5 ist laut dem britischen AI Security Institute das zweite KI-Modell, das eine vollständige Netzwerk-Angriffssimulation autonom lösen kann. Die Ergebnisse liegen fast gleichauf mit Anthr",
+      "link": "https://the-decoder.de/cybersecurity-gpt-5-5-und-claude-mythos-sind-laut-britischer-ki-behoerde-fast-gleichauf/",
+      "date": "2026-05-01T10:13:37.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Google Deepmind stellt KI-Assistenten für Ärzte vor, der Patienten per Video untersuchen soll",
+      "description": "Google Deepmind forscht an einem \"AI co-clinician\", der Ärzte bei der Patientenversorgung unterstützen soll. In Simulationsstudien zeigt das System vielversprechende Ergebnisse, bleibt aber hinter erf",
+      "link": "https://the-decoder.de/google-deepmind-stellt-ki-assistenten-fuer-aerzte-vor-der-patienten-per-video-untersuchen-soll/",
+      "date": "2026-05-01T09:08:32.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "KI als Verbrauchsgeschäft: Microsoft-CEO Satya Nadella will \"intensive Nutzung durch intensive Anwender\"",
       "description": "Nach Google berichtet auch Microsoft von Rekordgewinnen und starkem Cloud-Wachstum, kann aber mit Blick auf generative KI keine Sicherheit vermitteln.\nDer Artikel KI als Verbrauchsgeschäft: Microsoft-",
@@ -38,9 +56,9 @@
       "language": "de"
     },
     {
-      "title": "Alphabet will bis 2026 bis zu 190 Milliarden Dollar in KI- und Cloud-Infrastruktur investieren",
-      "description": "Alphabet investiert bis 2026 bis zu 190 Milliarden US-Dollar in seine KI- und Cloud-Infrastruktur. 2027 soll dieser Betrag noch einmal \"signifikant\" steigen.\nDer Artikel Alphabet will bis 2026 bis zu",
-      "link": "https://the-decoder.de/alphabet-will-bis-2026-bis-zu-190-milliarden-dollar-in-ki-und-cloud-infrastruktur-investieren/",
+      "title": "Google-CEO Sundar Pichai: \"Die Leute lieben unsere KI-Erlebnisse wie AI Mode und AI Overviews\"",
+      "description": "Alphabet investiert bis 2026 bis zu 190 Milliarden US-Dollar in seine KI- und Cloud-Infrastruktur. 2027 soll dieser Betrag noch einmal \"signifikant\" steigen.\nDer Artikel Google-CEO Sundar Pichai: \"Die",
+      "link": "https://the-decoder.de/google-ceo-sundar-pichai-die-leute-lieben-unsere-ki-erlebnisse-wie-ai-mode-und-ai-overviews/",
       "date": "2026-04-30T11:32:54.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
@@ -60,24 +78,6 @@
       "description": "Die US-Arzneimittelbehörde FDA will mit einem Pilotprojekt klinische Studien erstmals in Echtzeit mit KI-Unterstützung über die Cloud überwachen. Die Behörde erhofft sich eine drastische Verkürzung de",
       "link": "https://the-decoder.de/us-arzneimittelbehoerde-will-mit-ki-pilotprojekt-zulassungszeit-fuer-medikamente-um-bis-zu-40-prozent-verkuerzen/",
       "date": "2026-04-30T10:31:22.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Anthropic prüft Finanzierungsrunde, die OpenAIs Bewertung übertreffen würde",
-      "description": "Anthropic prüft laut Bloomberg Angebote von Investoren für eine neue Finanzierungsrunde, die das KI-Unternehmen mit über 900 Milliarden Dollar bewerten würde.\nDer Artikel Anthropic prüft Finanzierungs",
-      "link": "https://the-decoder.de/anthropic-prueft-finanzierungsrunde-die-openais-bewertung-uebertreffen-wuerde/",
-      "date": "2026-04-30T10:02:24.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "SoftBank gründet neues KI-Unternehmen Roze und plant Börsengang mit bis zu 100 Milliarden Dollar Bewertung",
-      "description": "Softbank plant laut Financial Times die Gründung und den Börsengang eines neuen KI- und Robotik-Unternehmens namens Roze in den USA.\nDer Artikel SoftBank gründet neues KI-Unternehmen Roze und plant Bö",
-      "link": "https://the-decoder.de/softbank-gruendet-neues-ki-unternehmen-roze-und-plant-boersengang-mit-bis-zu-100-milliarden-dollar-bewertung/",
-      "date": "2026-04-30T09:56:10.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
