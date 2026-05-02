@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-05-02T10:23:05.960Z",
+  "lastUpdated": "2026-05-02T12:25:45.881Z",
   "news": [
+    {
+      "title": "xAI lässt Nutzer ihre eigene Stimme in unter zwei Minuten klonen",
+      "description": "xAI ermöglicht Entwicklern jetzt das Klonen eigener Stimmen für KI-Anwendungen. Die neue Funktion \"Custom Voices\" folgt auf den kürzlich eingeführten Grok Speech-to-Text- und Text-to-Speech-APIs.\nDer",
+      "link": "https://the-decoder.de/xai-laesst-nutzer-ihre-eigene-stimme-in-unter-zwei-minuten-klonen/",
+      "date": "2026-05-02T12:11:46.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Nvidia-CEO Huang warnt vor CEOs mit Gottkomplex, die massive Jobverluste durch KI prophezeien",
+      "description": "KI-Panikmache kostet Jobs, statt sie zu schützen, sagt Nvidia-CEO Jensen Huang. Wer jungen Menschen von Zukunftsberufen abrate, schade der Gesellschaft.\nDer Artikel Nvidia-CEO Huang warnt vor CEOs mit",
+      "link": "https://the-decoder.de/nvidia-ceo-huang-warnt-vor-ceos-mit-gottkomplex-die-massive-jobverluste-durch-ki-prophezeien/",
+      "date": "2026-05-02T10:24:09.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Elon Musk sagt mehr als sieben Stunden vor Gericht aus und warnt vor \"Terminator-Szenario\"",
       "description": "Elon Musk bezeichnete sich vor Gericht als \"Narr\", warnte vor dem Terminator – und gab zu, dass xAI die Modelle von OpenAI fürs eigene KI-Training nutzt. Die erste Woche im Prozess gegen Sam Altman ha",
@@ -69,24 +87,6 @@
       "description": "Ein fehlerhaftes Belohnungssignal im KI-Training führte dazu, dass ChatGPT-Modelle plötzlich auffällig häufig Goblins, Gremlins und andere Fabelwesen in ihren Antworten einsetzten. Für OpenAI ein Beis",
       "link": "https://the-decoder.de/was-goblins-in-chatgpt-mit-ki-training-zu-tun-haben/",
       "date": "2026-05-01T13:39:57.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Microsoft bringt KI-Agenten für Vertragsarbeit direkt in Word – Klauseln, Risiken und Änderungen auf einen Blick",
-      "description": "Microsoft bringt einen KI-Agenten für Juristen direkt in Word. Der \"Legal Agent\" prüft Verträge, erstellt Änderungsvorschläge und gleicht Klauseln mit internen Richtlinien ab.\nDer Artikel Microsoft br",
-      "link": "https://the-decoder.de/microsoft-bringt-ki-agenten-fuer-vertragsarbeit-direkt-in-word-klauseln-risiken-und-aenderungen-auf-einen-blick/",
-      "date": "2026-05-01T13:09:36.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Anthropic öffnet Claude Security: Öffentliche Enterprise-Beta scannt Code und schlägt Patches vor",
-      "description": "Anthropic will mit Claude Security die Cyberabwehr stärken, mit einem Tool, das Code automatisch auf Schwachstellen scannt und Patches vorschlägt.\nDer Artikel Anthropic öffnet Claude Security: Öffentl",
-      "link": "https://the-decoder.de/anthropic-oeffnet-claude-security-oeffentliche-enterprise-beta-scannt-code-und-schlaegt-patches-vor/",
-      "date": "2026-05-01T12:46:10.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
