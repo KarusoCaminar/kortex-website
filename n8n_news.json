@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-05-02T12:25:45.881Z",
+  "lastUpdated": "2026-05-02T14:23:51.718Z",
   "news": [
+    {
+      "title": "Selbst die neuesten KI-Modelle machen drei systematische Denkfehler, zeigt neue Analyse",
+      "description": "Die ARC Prize Foundation hat 160 Spielverläufe von OpenAIs GPT-5.5 und Anthropics Opus 4.7 im Benchmark ARC-AGI-3 ausgewertet. Die Ergebnisse offenbaren drei systematische Fehlermuster, die erklären,",
+      "link": "https://the-decoder.de/selbst-die-neuesten-ki-modelle-machen-drei-systematische-denkfehler-zeigt-neue-analyse/",
+      "date": "2026-05-02T12:59:52.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "xAI lässt Nutzer ihre eigene Stimme in unter zwei Minuten klonen",
       "description": "xAI ermöglicht Entwicklern jetzt das Klonen eigener Stimmen für KI-Anwendungen. Die neue Funktion \"Custom Voices\" folgt auf den kürzlich eingeführten Grok Speech-to-Text- und Text-to-Speech-APIs.\nDer",
@@ -78,15 +87,6 @@
       "description": "Big Tech steckt immer mehr Geld in KI-Rechenzentren, Chips und Infrastruktur. Google, Amazon, Microsoft und Meta kommen laut Financial Times für dieses Jahr zusammen auf rund 725 Milliarden Dollar.\nDe",
       "link": "https://the-decoder.de/google-amazon-microsoft-und-meta-planen-725-milliarden-dollar-an-ki-investitionen-fuer-dieses-jahr/",
       "date": "2026-05-01T14:36:45.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Was Goblins in ChatGPT mit KI-Training zu tun haben",
-      "description": "Ein fehlerhaftes Belohnungssignal im KI-Training führte dazu, dass ChatGPT-Modelle plötzlich auffällig häufig Goblins, Gremlins und andere Fabelwesen in ihren Antworten einsetzten. Für OpenAI ein Beis",
-      "link": "https://the-decoder.de/was-goblins-in-chatgpt-mit-ki-training-zu-tun-haben/",
-      "date": "2026-05-01T13:39:57.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
