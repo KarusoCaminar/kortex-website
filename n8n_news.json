@@ -1,6 +1,33 @@
 {
-  "lastUpdated": "2026-05-02T06:46:39.868Z",
+  "lastUpdated": "2026-05-02T08:37:02.664Z",
   "news": [
+    {
+      "title": "ChatGPT trackt Gratis-Nutzer jetzt standardmäßig für Werbezwecke",
+      "description": "OpenAI aktiviert bei kostenlosen ChatGPT-Nutzern in Ländern mit Werbung Marketing-Cookies standardmäßig. Bei kostenlosen Accounts ist das Tracking automatisch aktiv, bei zahlenden Abonnenten hingegen",
+      "link": "https://the-decoder.de/chatgpt-trackt-gratis-nutzer-jetzt-standardmaessig-fuer-werbezwecke/",
+      "date": "2026-05-02T08:27:15.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Meta übernimmt Robotik-Startup Assured Robot Intelligence für humanoide Roboter",
+      "description": "Meta übernimmt das Robotik-KI-Startup Assured Robot Intelligence, um seine Arbeit an humanoiden Robotern voranzutreiben. Das Ziel: eine offene Plattform für die gesamte Branche, ähnlich wie Android fü",
+      "link": "https://the-decoder.de/meta-uebernimmt-robotik-startup-assured-robot-intelligence-fuer-humanoide-roboter/",
+      "date": "2026-05-02T08:02:06.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Elon Musks xAI veröffentlicht Grok 4.3 und neuen \"Imagine\" Multimedia-Agenten",
+      "description": "xAI setzt mit Grok 4.3 auf niedrige Preise und bessere Werkzeugnutzung. Das Modell verbessert sich bei praktischen Aufgaben deutlich, bleibt aber hinter den Flaggschiffen von OpenAI und Anthropic zurü",
+      "link": "https://the-decoder.de/elon-musks-xai-veroeffentlicht-grok-4-3-und-neuen-imagine-multimedia-agenten/",
+      "date": "2026-05-02T07:21:24.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Acht Tech-Konzerne sollen dem Pentagon zur \"KI-zentrierten Streitkraft\" verhelfen",
       "description": "Acht Tech-Konzerne liefern KI für geheime US-Militärnetzwerke. Das Ziel: eine \"KI-zentrierte Streitkraft\". Anthropic fehlt auf der Liste, weil das Unternehmen eine Nutzungsklausel ablehnte und dafür a",
@@ -65,24 +92,6 @@
       "language": "de"
     },
     {
-      "title": "Google Deepmind stellt KI-Assistenten für Ärzte vor, der Patienten per Video untersuchen soll",
-      "description": "Google Deepmind forscht an einem \"AI co-clinician\", der Ärzte bei der Patientenversorgung unterstützen soll. In Simulationsstudien zeigt das System vielversprechende Ergebnisse, bleibt aber hinter erf",
-      "link": "https://the-decoder.de/google-deepmind-stellt-ki-assistenten-fuer-aerzte-vor-der-patienten-per-video-untersuchen-soll/",
-      "date": "2026-05-01T09:08:32.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "KI als Verbrauchsgeschäft: Microsoft-CEO Satya Nadella will \"intensive Nutzung durch intensive Anwender\"",
-      "description": "Nach Google berichtet auch Microsoft von Rekordgewinnen und starkem Cloud-Wachstum, kann aber mit Blick auf generative KI keine Sicherheit vermitteln.\nDer Artikel KI als Verbrauchsgeschäft: Microsoft-",
-      "link": "https://the-decoder.de/ki-als-verbrauchsgeschaeft-microsoft-ceo-satya-nadella-will-intensive-nutzung-durch-intensive-anwender/",
-      "date": "2026-04-30T17:32:04.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "Where the goblins came from",
       "description": "How goblin outputs spread in AI models: timeline, root cause, and fixes behind personality-driven quirks in GPT-5 behavior.",
       "link": "https://openai.com/index/where-the-goblins-came-from",
@@ -123,15 +132,6 @@
       "description": "OpenAI GPT models, Codex, and Managed Agents are now available on AWS, enabling enterprises to build secure AI in their AWS environments.",
       "link": "https://openai.com/index/openai-on-aws",
       "date": "2026-04-28T00:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "OpenAI available at FedRAMP Moderate",
-      "description": "OpenAI is available at FedRAMP Moderate authorization for ChatGPT Enterprise and the OpenAI API, enabling secure AI adoption for U.S. federal agencies.",
-      "link": "https://openai.com/index/openai-available-at-fedramp-moderate",
-      "date": "2026-04-27T14:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
