@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-05-02T08:37:02.664Z",
+  "lastUpdated": "2026-05-02T10:23:05.960Z",
   "news": [
+    {
+      "title": "Elon Musk sagt mehr als sieben Stunden vor Gericht aus und warnt vor \"Terminator-Szenario\"",
+      "description": "Elon Musk bezeichnete sich vor Gericht als \"Narr\", warnte vor dem Terminator – und gab zu, dass xAI die Modelle von OpenAI fürs eigene KI-Training nutzt. Die erste Woche im Prozess gegen Sam Altman ha",
+      "link": "https://the-decoder.de/elon-musk-sagt-mehr-als-sieben-stunden-vor-gericht-aus-und-warnt-vor-terminator-szenario/",
+      "date": "2026-05-02T09:15:21.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "ChatGPT trackt Gratis-Nutzer jetzt standardmäßig für Werbezwecke",
       "description": "OpenAI aktiviert bei kostenlosen ChatGPT-Nutzern in Ländern mit Werbung Marketing-Cookies standardmäßig. Bei kostenlosen Accounts ist das Tracking automatisch aktiv, bei zahlenden Abonnenten hingegen",
@@ -78,15 +87,6 @@
       "description": "Anthropic will mit Claude Security die Cyberabwehr stärken, mit einem Tool, das Code automatisch auf Schwachstellen scannt und Patches vorschlägt.\nDer Artikel Anthropic öffnet Claude Security: Öffentl",
       "link": "https://the-decoder.de/anthropic-oeffnet-claude-security-oeffentliche-enterprise-beta-scannt-code-und-schlaegt-patches-vor/",
       "date": "2026-05-01T12:46:10.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Cybersecurity: GPT-5.5 und Claude Mythos sind laut britischer Sicherheitsbehörde fast gleichauf",
-      "description": "OpenAIs GPT-5.5 ist laut dem britischen AI Security Institute das zweite KI-Modell, das eine vollständige Netzwerk-Angriffssimulation autonom lösen kann. Die Ergebnisse liegen fast gleichauf mit Anthr",
-      "link": "https://the-decoder.de/cybersecurity-gpt-5-5-und-claude-mythos-sind-laut-britischer-ki-behoerde-fast-gleichauf/",
-      "date": "2026-05-01T10:13:37.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
