@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-05-03T08:39:52.616Z",
+  "lastUpdated": "2026-05-03T10:25:06.464Z",
   "news": [
+    {
+      "title": "Copilot wird ungefragt zum Co-Autor in VS Code",
+      "description": "Microsoft hat in Visual Studio Code heimlich die Zeile \"Co-Authored-by Copilot\" in Git-Commits eingefügt, und zwar auch bei Entwicklern, die die KI-Funktionen komplett abgeschaltet hatten.\nDer Artikel",
+      "link": "https://the-decoder.de/copilot-wird-ungefragt-zum-co-autor-in-vs-code/",
+      "date": "2026-05-03T09:31:15.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Warum größere KI-Modelle besser werden: MIT-Studie führt Skalierungsgesetze auf \"Superposition\" zurück",
       "description": "Forschende des MIT liefern eine mechanistische Erklärung dafür, warum die Leistung großer Sprachmodelle so verlässlich mit ihrer Größe steigt. Der Schlüssel liege in einem Phänomen namens Superpositio",
@@ -78,15 +87,6 @@
       "description": "OpenAI aktiviert bei kostenlosen ChatGPT-Nutzern in Ländern mit Werbung Marketing-Cookies standardmäßig. Bei kostenlosen Accounts ist das Tracking automatisch aktiv, bei zahlenden Abonnenten hingegen",
       "link": "https://the-decoder.de/chatgpt-trackt-gratis-nutzer-jetzt-standardmaessig-fuer-werbezwecke/",
       "date": "2026-05-02T08:27:15.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Meta übernimmt Robotik-Startup Assured Robot Intelligence für humanoide Roboter",
-      "description": "Meta übernimmt das Robotik-KI-Startup Assured Robot Intelligence, um seine Arbeit an humanoiden Robotern voranzutreiben. Das Ziel: eine offene Plattform für die gesamte Branche, ähnlich wie Android fü",
-      "link": "https://the-decoder.de/meta-uebernimmt-robotik-startup-assured-robot-intelligence-fuer-humanoide-roboter/",
-      "date": "2026-05-02T08:02:06.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
