@@ -1,6 +1,33 @@
 {
-  "lastUpdated": "2026-05-03T06:58:17.275Z",
+  "lastUpdated": "2026-05-03T08:39:52.616Z",
   "news": [
+    {
+      "title": "Warum größere KI-Modelle besser werden: MIT-Studie führt Skalierungsgesetze auf \"Superposition\" zurück",
+      "description": "Forschende des MIT liefern eine mechanistische Erklärung dafür, warum die Leistung großer Sprachmodelle so verlässlich mit ihrer Größe steigt. Der Schlüssel liege in einem Phänomen namens Superpositio",
+      "link": "https://the-decoder.de/warum-groessere-ki-modelle-besser-werden-mit-studie-fuehrt-skalierungsgesetze-auf-superposition-zurueck/",
+      "date": "2026-05-03T08:33:24.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "US-Behörde behauptet wachsenden KI-Vorsprung vor China",
+      "description": "Eine US-Behörde sieht China im KI-Rennen acht Monate zurückfallen, doch unabhängige Daten zeichnen ein anderes Bild. Und während die USA auf immer smartere Modelle setzen, könnte der Preisvorteil von",
+      "link": "https://the-decoder.de/us-behoerde-behauptet-wachsenden-ki-vorsprung-vor-china/",
+      "date": "2026-05-03T08:02:00.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Xiaomis neues Open-Weight-Modell MiMo-V2.5-Pro soll stundenlang autonom an Aufgaben arbeiten",
+      "description": "Xiaomi hat mit MiMo-V2.5-Pro ein neues KI-Modell veröffentlicht, das bei Coding-Tests fast an Anthropics Claude Opus 4.6 heranreichen und dabei laut Xiaomi 40 bis 60 Prozent weniger Tokens verbrauchen",
+      "link": "https://the-decoder.de/xiaomis-neues-open-weight-modell-mimo-v2-5-pro-soll-stundenlang-autonom-an-aufgaben-arbeiten/",
+      "date": "2026-05-03T07:11:01.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Gleicher Prompt, andere Moral: Wie KI-Modelle bei ethischen Dilemmata auseinanderdriften",
       "description": "Ein neuer Benchmark konfrontiert die führenden Sprachmodelle mit 100 ethischen Alltagsszenarien, vom Datenmissbrauch im Vertrieb bis zur Protokollverletzung in der Onkologie. Wer entscheidet, was eine",
@@ -60,33 +87,6 @@
       "description": "Meta übernimmt das Robotik-KI-Startup Assured Robot Intelligence, um seine Arbeit an humanoiden Robotern voranzutreiben. Das Ziel: eine offene Plattform für die gesamte Branche, ähnlich wie Android fü",
       "link": "https://the-decoder.de/meta-uebernimmt-robotik-startup-assured-robot-intelligence-fuer-humanoide-roboter/",
       "date": "2026-05-02T08:02:06.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Elon Musks xAI veröffentlicht Grok 4.3 und neuen \"Imagine\" Multimedia-Agenten",
-      "description": "xAI setzt mit Grok 4.3 auf niedrige Preise und bessere Werkzeugnutzung. Das Modell verbessert sich bei praktischen Aufgaben deutlich, bleibt aber hinter den Flaggschiffen von OpenAI und Anthropic zurü",
-      "link": "https://the-decoder.de/elon-musks-xai-veroeffentlicht-grok-4-3-und-neuen-imagine-multimedia-agenten/",
-      "date": "2026-05-02T07:21:24.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Acht Tech-Konzerne sollen dem Pentagon zur \"KI-zentrierten Streitkraft\" verhelfen",
-      "description": "Acht Tech-Konzerne liefern KI für geheime US-Militärnetzwerke. Das Ziel: eine \"KI-zentrierte Streitkraft\". Anthropic fehlt auf der Liste, weil das Unternehmen eine Nutzungsklausel ablehnte und dafür a",
-      "link": "https://the-decoder.de/acht-tech-konzerne-sollen-dem-pentagon-zur-ki-zentrierten-streitkraft-verhelfen/",
-      "date": "2026-05-01T16:23:38.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Chinesische KI-Start-ups lösen angeblich ihre Auslandsstrukturen auf und ziehen zurück nach China",
-      "description": "Nach der durch die chinesische Regierung blockierten Manus-Übernahme durch Meta signalisiert die Wertpapieraufsicht: Wer an die Börse will, sollte in China registriert sein. Jetzt erwägen KI-Start-ups",
-      "link": "https://the-decoder.de/chinesische-ki-start-ups-loesen-angeblich-ihre-auslandsstrukturen-auf-und-ziehen-zurueck-nach-china/",
-      "date": "2026-05-01T15:51:04.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
