@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-05-03T05:13:04.599Z",
+  "lastUpdated": "2026-05-03T06:58:17.275Z",
   "news": [
+    {
+      "title": "Gleicher Prompt, andere Moral: Wie KI-Modelle bei ethischen Dilemmata auseinanderdriften",
+      "description": "Ein neuer Benchmark konfrontiert die führenden Sprachmodelle mit 100 ethischen Alltagsszenarien, vom Datenmissbrauch im Vertrieb bis zur Protokollverletzung in der Onkologie. Wer entscheidet, was eine",
+      "link": "https://the-decoder.de/gleicher-prompt-andere-moral-wie-ki-modelle-bei-ethischen-dilemmata-auseinanderdriften/",
+      "date": "2026-05-03T06:54:01.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Selbst die neuesten KI-Modelle machen drei systematische Denkfehler, zeigt neue Analyse",
       "description": "Die ARC Prize Foundation hat 160 Spielverläufe von OpenAIs GPT-5.5 und Anthropics Opus 4.7 im Benchmark ARC-AGI-3 ausgewertet. Die Ergebnisse offenbaren drei systematische Fehlermuster, die erklären,",
@@ -78,15 +87,6 @@
       "description": "Nach der durch die chinesische Regierung blockierten Manus-Übernahme durch Meta signalisiert die Wertpapieraufsicht: Wer an die Börse will, sollte in China registriert sein. Jetzt erwägen KI-Start-ups",
       "link": "https://the-decoder.de/chinesische-ki-start-ups-loesen-angeblich-ihre-auslandsstrukturen-auf-und-ziehen-zurueck-nach-china/",
       "date": "2026-05-01T15:51:04.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Google, Amazon, Microsoft und Meta planen 725 Milliarden Dollar an KI-Investitionen für dieses Jahr",
-      "description": "Big Tech steckt immer mehr Geld in KI-Rechenzentren, Chips und Infrastruktur. Google, Amazon, Microsoft und Meta kommen laut Financial Times für dieses Jahr zusammen auf rund 725 Milliarden Dollar.\nDe",
-      "link": "https://the-decoder.de/google-amazon-microsoft-und-meta-planen-725-milliarden-dollar-an-ki-investitionen-fuer-dieses-jahr/",
-      "date": "2026-05-01T14:36:45.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
