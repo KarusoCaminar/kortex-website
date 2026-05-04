@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-05-04T08:56:46.894Z",
+  "lastUpdated": "2026-05-04T10:45:24.935Z",
   "news": [
+    {
+      "title": "Nvidia-Konkurrent Cerebras startet zweiten IPO-Anlauf und will bis zu 4 Milliarden Dollar einsammeln",
+      "description": "Der KI-Chiphersteller Cerebras Systems plant seinen Börsengang an der Nasdaq unter dem Kürzel CBRS. Die IPO-Roadshow soll am Montag starten, der Aktienpreis wird zwischen 115 und 125 Dollar angepeilt,",
+      "link": "https://the-decoder.de/nvidia-konkurrent-cerebras-startet-zweiten-ipo-anlauf-und-will-bis-zu-4-milliarden-dollar-einsammeln/",
+      "date": "2026-05-04T10:18:13.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Menschliche Aufmerksamkeit bremst KI-Agenten aus – OpenAI dreht den Workflow um",
+      "description": "OpenAI veröffentlicht mit Symphony eine Open-Source-Spezifikation samt Referenzimplementierung, die Aufgaben-Tracker wie Linear zur Steuerzentrale für Codex-Agenten macht: Die Agenten ziehen sich offe",
+      "link": "https://the-decoder.de/menschliche-aufmerksamkeit-bremst-ki-agenten-aus-openai-dreht-den-workflow-um/",
+      "date": "2026-05-04T09:08:53.000Z",
+      "source": "The Decoder",
+      "category": "workflow-tools",
+      "language": "de"
+    },
     {
       "title": "Copilot wird ungefragt zum Co-Autor in VS Code",
       "description": "Microsoft hat in Visual Studio Code heimlich die Zeile \"Co-Authored-by Copilot\" in Git-Commits eingefügt, und zwar auch bei Entwicklern, die die KI-Funktionen komplett abgeschaltet hatten.\nDer Artikel",
@@ -69,24 +87,6 @@
       "description": "KI-Panikmache kostet Jobs, statt sie zu schützen, sagt Nvidia-CEO Jensen Huang. Wer jungen Menschen von Zukunftsberufen abrate, schade der Gesellschaft.\nDer Artikel Nvidia-CEO Huang warnt vor CEOs mit",
       "link": "https://the-decoder.de/nvidia-ceo-huang-warnt-vor-ceos-mit-gottkomplex-die-massive-jobverluste-durch-ki-prophezeien/",
       "date": "2026-05-02T10:24:09.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Elon Musk sagt mehr als sieben Stunden vor Gericht aus und warnt vor \"Terminator-Szenario\"",
-      "description": "Elon Musk bezeichnete sich vor Gericht als \"Narr\", warnte vor dem Terminator – und gab zu, dass xAI die Modelle von OpenAI fürs eigene KI-Training nutzt. Die erste Woche im Prozess gegen Sam Altman ha",
-      "link": "https://the-decoder.de/elon-musk-sagt-mehr-als-sieben-stunden-vor-gericht-aus-und-warnt-vor-terminator-szenario/",
-      "date": "2026-05-02T09:15:21.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "ChatGPT trackt Gratis-Nutzer jetzt standardmäßig für Werbezwecke",
-      "description": "OpenAI aktiviert bei kostenlosen ChatGPT-Nutzern in Ländern mit Werbung Marketing-Cookies standardmäßig. Bei kostenlosen Accounts ist das Tracking automatisch aktiv, bei zahlenden Abonnenten hingegen",
-      "link": "https://the-decoder.de/chatgpt-trackt-gratis-nutzer-jetzt-standardmaessig-fuer-werbezwecke/",
-      "date": "2026-05-02T08:27:15.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
