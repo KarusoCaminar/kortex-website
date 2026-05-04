@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-05-04T16:39:08.730Z",
+  "lastUpdated": "2026-05-04T18:40:04.180Z",
   "news": [
+    {
+      "title": "Anthropic will mit Partnern und neuem Unternehmen Claude in den Mittelstand bringen",
+      "description": "Anthropic und OpenAI setzen auf Partner, um KI schneller in Unternehmen zu bringen. Das ist auch ein Eingeständnis, dass die Integration komplexer ist als die reine Tool-Bereitstellung.\nDer Artikel An",
+      "link": "https://the-decoder.de/anthropic-will-mit-partnern-und-neuem-unternehmen-claude-in-den-mittelstand-bringen/",
+      "date": "2026-05-04T17:24:35.000Z",
+      "source": "The Decoder",
+      "category": "kmu-relevanz",
+      "language": "de"
+    },
     {
       "title": "Vier Milliarden Dollar für The Deployment Company, OpenAIs neuen Arm für KI-Integration",
       "description": "OpenAI hat laut Bloomberg mehr als vier Milliarden US-Dollar für ein neues Joint Venture namens \"The Deployment Company\" eingesammelt.\nDer Artikel Vier Milliarden Dollar für The Deployment Company, Op",
@@ -78,15 +87,6 @@
       "description": "Ein neuer Benchmark konfrontiert die führenden Sprachmodelle mit 100 ethischen Alltagsszenarien, vom Datenmissbrauch im Vertrieb bis zur Protokollverletzung in der Onkologie. Wer entscheidet, was eine",
       "link": "https://the-decoder.de/gleicher-prompt-andere-moral-wie-ki-modelle-bei-ethischen-dilemmata-auseinanderdriften/",
       "date": "2026-05-03T06:54:01.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Selbst die neuesten KI-Modelle machen drei systematische Denkfehler, zeigt neue Analyse",
-      "description": "Die ARC Prize Foundation hat 160 Spielverläufe von OpenAIs GPT-5.5 und Anthropics Opus 4.7 im Benchmark ARC-AGI-3 ausgewertet. Die Ergebnisse offenbaren drei systematische Fehlermuster, die erklären,",
-      "link": "https://the-decoder.de/selbst-die-neuesten-ki-modelle-machen-drei-systematische-denkfehler-zeigt-neue-analyse/",
-      "date": "2026-05-02T12:59:52.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
