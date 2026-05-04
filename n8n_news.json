@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-04T18:40:04.180Z",
+  "lastUpdated": "2026-05-04T20:34:30.514Z",
   "news": [
     {
       "title": "Anthropic will mit Partnern und neuem Unternehmen Claude in den Mittelstand bringen",
@@ -45,6 +45,15 @@
       "source": "The Decoder",
       "category": "workflow-tools",
       "language": "de"
+    },
+    {
+      "title": "How OpenAI delivers low-latency voice AI at scale",
+      "description": "How OpenAI rebuilt its WebRTC stack to power real-time Voice AI with low latency, global scale, and seamless conversational turn-taking.",
+      "link": "https://openai.com/index/delivering-low-latency-voice-ai-at-scale",
+      "date": "2026-05-04T00:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
     },
     {
       "title": "Copilot wird ungefragt zum Co-Autor in VS Code",
@@ -114,15 +123,6 @@
       "description": "OpenAI outlines a five-part action plan for strengthening cybersecurity in the Intelligence Age, focused on democratizing AI-powered cyber defense and protecting critical systems.",
       "link": "https://openai.com/index/cybersecurity-in-the-intelligence-age",
       "date": "2026-04-29T04:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "Our commitment to community safety",
-      "description": "Learn how OpenAI protects community safety in ChatGPT through model safeguards, misuse detection, policy enforcement, and collaboration with safety experts.",
-      "link": "https://openai.com/index/our-commitment-to-community-safety",
-      "date": "2026-04-28T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
