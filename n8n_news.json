@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-05-04T12:42:59.294Z",
+  "lastUpdated": "2026-05-04T14:50:11.571Z",
   "news": [
+    {
+      "title": "Vier Milliarden Dollar für The Deployment Company, OpenAIs neuen Arm für KI-Integration",
+      "description": "OpenAI hat laut Bloomberg mehr als vier Milliarden US-Dollar für ein neues Joint Venture namens \"The Deployment Company\" eingesammelt.\nDer Artikel Vier Milliarden Dollar für The Deployment Company, Op",
+      "link": "https://the-decoder.de/vier-milliarden-dollar-fuer-the-deployment-company-openais-neuen-arm-fuer-ki-integration/",
+      "date": "2026-05-04T13:56:18.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Großbanken stoßen an Risikogrenzen durch milliardenschwere KI-Rechenzentrum-Kredite",
+      "description": "Der Bau neuer KI-Rechenzentren verschlingt Milliarden an Fremdkapital. Großbanken wie JPMorgan und Morgan Stanley suchen nun nach Wegen, die wachsenden Kreditrisiken an andere Investoren weiterzugeben",
+      "link": "https://the-decoder.de/grossbanken-stossen-an-risikogrenzen-durch-milliardenschwere-ki-rechenzentrum-kredite/",
+      "date": "2026-05-04T13:16:07.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Nvidia-Konkurrent Cerebras startet zweiten IPO-Anlauf und will bis zu 4 Milliarden Dollar einsammeln",
       "description": "Der KI-Chiphersteller Cerebras Systems plant seinen Börsengang an der Nasdaq unter dem Kürzel CBRS. Die IPO-Roadshow soll am Montag starten, der Aktienpreis wird zwischen 115 und 125 Dollar angepeilt,",
@@ -69,24 +87,6 @@
       "description": "Die ARC Prize Foundation hat 160 Spielverläufe von OpenAIs GPT-5.5 und Anthropics Opus 4.7 im Benchmark ARC-AGI-3 ausgewertet. Die Ergebnisse offenbaren drei systematische Fehlermuster, die erklären,",
       "link": "https://the-decoder.de/selbst-die-neuesten-ki-modelle-machen-drei-systematische-denkfehler-zeigt-neue-analyse/",
       "date": "2026-05-02T12:59:52.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "xAI lässt Nutzer ihre eigene Stimme in unter zwei Minuten klonen",
-      "description": "xAI ermöglicht Entwicklern jetzt das Klonen eigener Stimmen für KI-Anwendungen. Die neue Funktion \"Custom Voices\" folgt auf den kürzlich eingeführten Grok Speech-to-Text- und Text-to-Speech-APIs.\nDer",
-      "link": "https://the-decoder.de/xai-laesst-nutzer-ihre-eigene-stimme-in-unter-zwei-minuten-klonen/",
-      "date": "2026-05-02T12:11:46.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Nvidia-CEO Huang warnt vor CEOs mit Gottkomplex, die massive Jobverluste durch KI prophezeien",
-      "description": "KI-Panikmache kostet Jobs, statt sie zu schützen, sagt Nvidia-CEO Jensen Huang. Wer jungen Menschen von Zukunftsberufen abrate, schade der Gesellschaft.\nDer Artikel Nvidia-CEO Huang warnt vor CEOs mit",
-      "link": "https://the-decoder.de/nvidia-ceo-huang-warnt-vor-ceos-mit-gottkomplex-die-massive-jobverluste-durch-ki-prophezeien/",
-      "date": "2026-05-02T10:24:09.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
