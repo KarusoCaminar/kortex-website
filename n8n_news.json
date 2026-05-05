@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-05-05T08:52:13.000Z",
+  "lastUpdated": "2026-05-05T10:38:16.362Z",
   "news": [
+    {
+      "title": "Amazon bringt agentengestütztes Feintuning für Sprachmodelle in SageMaker AI",
+      "description": "Amazon SageMaker AI hat eine neue Funktion, bei der ein KI-Agent Entwicklern beim Anpassen von Sprachmodellen helfen soll.\nDer Artikel Amazon bringt agentengestütztes Feintuning für Sprachmodelle in S",
+      "link": "https://the-decoder.de/amazon-bringt-agentengestuetztes-feintuning-fuer-sprachmodelle-in-sagemaker-ai/",
+      "date": "2026-05-05T10:04:45.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Angst vor KI-Cyberangriffen treibt Trump-Regierung zu neuen Regulierungsplänen",
+      "description": "Nach einem Jahr Deregulierung diskutiert das Weiße Haus nun eine Executive Order, die neue KI-Modelle vor ihrer Freigabe einer staatlichen Prüfung unterziehen könnte. Auslöser soll Anthropics Modell \"",
+      "link": "https://the-decoder.de/trump-regierung-erwaegt-erstmals-sicherheitspruefung-fuer-ki-modelle-vor-veroeffentlichung/",
+      "date": "2026-05-05T09:24:31.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "OpenAI and PwC collaborate to reimagine the office of the CFO",
       "description": "OpenAI and PwC are partnering to help enterprises use AI agents to automate finance workflows, improve forecasting, strengthen controls, and modernize the CFO function.",
@@ -87,24 +105,6 @@
       "description": "Eine US-Behörde sieht China im KI-Rennen acht Monate zurückfallen, doch unabhängige Daten zeichnen ein anderes Bild. Und während die USA auf immer smartere Modelle setzen, könnte der Preisvorteil von",
       "link": "https://the-decoder.de/us-behoerde-behauptet-wachsenden-ki-vorsprung-vor-china/",
       "date": "2026-05-03T08:02:00.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Xiaomis neues Open-Weight-Modell MiMo-V2.5-Pro soll stundenlang autonom an Aufgaben arbeiten",
-      "description": "Xiaomi hat mit MiMo-V2.5-Pro ein neues KI-Modell veröffentlicht, das bei Coding-Tests fast an Anthropics Claude Opus 4.6 heranreichen und dabei laut Xiaomi 40 bis 60 Prozent weniger Tokens verbrauchen",
-      "link": "https://the-decoder.de/xiaomis-neues-open-weight-modell-mimo-v2-5-pro-soll-stundenlang-autonom-an-aufgaben-arbeiten/",
-      "date": "2026-05-03T07:11:01.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Gleicher Prompt, andere Moral: Wie KI-Modelle bei ethischen Dilemmata auseinanderdriften",
-      "description": "Ein neuer Benchmark konfrontiert die führenden Sprachmodelle mit 100 ethischen Alltagsszenarien, vom Datenmissbrauch im Vertrieb bis zur Protokollverletzung in der Onkologie. Wer entscheidet, was eine",
-      "link": "https://the-decoder.de/gleicher-prompt-andere-moral-wie-ki-modelle-bei-ethischen-dilemmata-auseinanderdriften/",
-      "date": "2026-05-03T06:54:01.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
