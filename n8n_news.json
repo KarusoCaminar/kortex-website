@@ -1,6 +1,51 @@
 {
-  "lastUpdated": "2026-05-05T12:33:48.344Z",
+  "lastUpdated": "2026-05-05T16:38:46.583Z",
   "news": [
+    {
+      "title": "OpenAI will mit eigenem Smartphone den vollständigen KI-Agenten in die Hosentasche bringen",
+      "description": "OpenAI plant offenbar den Einstieg in die Smartphone-Hardware: Laut Analyst Ming-Chi Kuo arbeitet das Unternehmen mit MediaTek, Qualcomm und Luxshare an einem eigenen KI-Smartphone, dessen Massenprodu",
+      "link": "https://the-decoder.de/openai-will-mit-eigenem-smartphone-den-vollstaendigen-ki-agenten-in-die-hosentasche-bringen/",
+      "date": "2026-05-05T16:04:51.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Anthropic startet KI-Offensive im Finanzsektor mit vorkonfigurierten Agenten und neuen Datenpartnern",
+      "description": "Anthropic hat zehn vorkonfigurierte KI-Agenten für die Finanzbranche veröffentlicht, die typische Aufgaben von Investmentbanken, Vermögensverwaltern und Versicherern automatisieren sollen. Laut Ankünd",
+      "link": "https://the-decoder.de/anthropic-startet-ki-offensive-im-finanzsektor-mit-vorkonfigurierten-agenten-und-neuen-datenpartnern/",
+      "date": "2026-05-05T15:50:20.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Meta will mit KI das Alter von Nutzern schätzen – anhand von Körpergröße und Knochenstruktur",
+      "description": "Meta setzt KI-gestützte Bildanalyse ein, um Minderjährige auf Instagram und Facebook zu erkennen – anhand visueller Merkmale wie Körpergröße oder Knochenstruktur, nicht per Gesichtserkennung, wie das",
+      "link": "https://the-decoder.de/meta-will-mit-ki-das-alter-von-nutzern-schaetzen-anhand-von-koerpergroesse-und-knochenstruktur/",
+      "date": "2026-05-05T15:39:32.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Digitaler Zwilling statt Wundermolekül: KI zeigt in der Pharmaproduktion bisher mehr Wirkung als in der Forschung",
+      "description": "Eli Lillys Digital-Chef räumt ein: KI bringt in der Pharma bislang vor allem dort Vorteile, wo es nicht um die Wirkstoffsuche geht.\nDer Artikel Digitaler Zwilling statt Wundermolekül: KI zeigt in der",
+      "link": "https://the-decoder.de/digitaler-zwilling-statt-wundermolekuel-ki-zeigt-in-der-pharmaproduktion-bisher-mehr-wirkung-als-in-der-forschung/",
+      "date": "2026-05-05T13:12:50.000Z",
+      "source": "The Decoder",
+      "category": "industrie-4.0",
+      "language": "de"
+    },
+    {
+      "title": "Deutscher Softwareriese SAP versucht mit Milliarden-Investitionen KI-Rückstand aufzuholen",
+      "description": "SAP übernimmt den Open-Data-Lakehouse-Anbieter Dremio und das KI-Unternehmen Prior Labs, um seine Datenplattform auszubauen.\nDer Artikel Deutscher Softwareriese SAP versucht mit Milliarden-Investition",
+      "link": "https://the-decoder.de/deutscher-softwareriese-sap-versucht-mit-milliarden-investitionen-ki-rueckstand-aufzuholen/",
+      "date": "2026-05-05T12:43:39.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Anthropic-Mitgründer hält automatisierte KI-Forschung bis 2028 für wahrscheinlich",
       "description": "Jack Clark sieht in einem ausführlichen Essay die Voraussetzungen für KI-Systeme, die ihre eigenen Nachfolger trainieren, bereits weitgehend gegeben. Er beziffert die Wahrscheinlichkeit auf 60 Prozent",
@@ -56,33 +101,6 @@
       "language": "de"
     },
     {
-      "title": "Großbanken stoßen an Risikogrenzen durch milliardenschwere KI-Rechenzentrum-Kredite",
-      "description": "Der Bau neuer KI-Rechenzentren verschlingt Milliarden an Fremdkapital. Großbanken wie JPMorgan und Morgan Stanley suchen nun nach Wegen, die wachsenden Kreditrisiken an andere Investoren weiterzugeben",
-      "link": "https://the-decoder.de/grossbanken-stossen-an-risikogrenzen-durch-milliardenschwere-ki-rechenzentrum-kredite/",
-      "date": "2026-05-04T13:16:07.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Nvidia-Konkurrent Cerebras startet zweiten IPO-Anlauf und will bis zu 4 Milliarden Dollar einsammeln",
-      "description": "Der KI-Chiphersteller Cerebras Systems plant seinen Börsengang an der Nasdaq unter dem Kürzel CBRS. Die IPO-Roadshow soll am Montag starten, der Aktienpreis wird zwischen 115 und 125 Dollar angepeilt,",
-      "link": "https://the-decoder.de/nvidia-konkurrent-cerebras-startet-zweiten-ipo-anlauf-und-will-bis-zu-4-milliarden-dollar-einsammeln/",
-      "date": "2026-05-04T10:18:13.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Menschliche Aufmerksamkeit bremst KI-Agenten aus – OpenAI dreht den Workflow um",
-      "description": "OpenAI veröffentlicht mit Symphony eine Open-Source-Spezifikation samt Referenzimplementierung, die Aufgaben-Tracker wie Linear zur Steuerzentrale für Codex-Agenten macht: Die Agenten ziehen sich offe",
-      "link": "https://the-decoder.de/menschliche-aufmerksamkeit-bremst-ki-agenten-aus-openai-dreht-den-workflow-um/",
-      "date": "2026-05-04T09:08:53.000Z",
-      "source": "The Decoder",
-      "category": "workflow-tools",
-      "language": "de"
-    },
-    {
       "title": "How OpenAI delivers low-latency voice AI at scale",
       "description": "How OpenAI rebuilt its WebRTC stack to power real-time Voice AI with low latency, global scale, and seamless conversational turn-taking.",
       "link": "https://openai.com/index/delivering-low-latency-voice-ai-at-scale",
@@ -90,24 +108,6 @@
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
-    },
-    {
-      "title": "Copilot wird ungefragt zum Co-Autor in VS Code",
-      "description": "Microsoft hat in Visual Studio Code heimlich die Zeile \"Co-Authored-by Copilot\" in Git-Commits eingefügt, und zwar auch bei Entwicklern, die die KI-Funktionen komplett abgeschaltet hatten.\nDer Artikel",
-      "link": "https://the-decoder.de/copilot-wird-ungefragt-zum-co-autor-in-vs-code/",
-      "date": "2026-05-03T09:31:15.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Warum größere KI-Modelle besser werden: MIT-Studie führt Skalierungsgesetze auf \"Superposition\" zurück",
-      "description": "Forschende des MIT liefern eine mechanistische Erklärung dafür, warum die Leistung großer Sprachmodelle so verlässlich mit ihrer Größe steigt. Der Schlüssel liege in einem Phänomen namens Superpositio",
-      "link": "https://the-decoder.de/warum-groessere-ki-modelle-besser-werden-mit-studie-fuehrt-skalierungsgesetze-auf-superposition-zurueck/",
-      "date": "2026-05-03T08:33:24.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
     },
     {
       "title": "Where the goblins came from",
