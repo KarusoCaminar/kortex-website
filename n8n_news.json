@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-05-05T03:12:30.947Z",
+  "lastUpdated": "2026-05-05T05:08:31.299Z",
   "news": [
+    {
+      "title": "OpenAI and PwC collaborate to reimagine the office of the CFO",
+      "description": "OpenAI and PwC are partnering to help enterprises use AI agents to automate finance workflows, improve forecasting, strengthen controls, and modernize the CFO function.",
+      "link": "https://openai.com/index/openai-pwc-finance-collaboration",
+      "date": "2026-05-04T21:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
     {
       "title": "Anthropic will mit Partnern und neuem Unternehmen Claude in den Mittelstand bringen",
       "description": "Anthropic und OpenAI setzen auf Partner, um KI schneller in Unternehmen zu bringen. Das ist auch ein Eingeständnis, dass die Integration komplexer ist als die reine Tool-Bereitstellung.\nDer Artikel An",
@@ -123,15 +132,6 @@
       "description": "OpenAI outlines a five-part action plan for strengthening cybersecurity in the Intelligence Age, focused on democratizing AI-powered cyber defense and protecting critical systems.",
       "link": "https://openai.com/index/cybersecurity-in-the-intelligence-age",
       "date": "2026-04-29T04:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "OpenAI models, Codex, and Managed Agents come to AWS",
-      "description": "OpenAI GPT models, Codex, and Managed Agents are now available on AWS, enabling enterprises to build secure AI in their AWS environments.",
-      "link": "https://openai.com/index/openai-on-aws",
-      "date": "2026-04-28T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
