@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-06T12:46:33.948Z",
+  "lastUpdated": "2026-05-06T14:59:31.652Z",
   "news": [
     {
       "title": "Google und Meta wollen mit neuen KI-Agenten die Lücke zu OpenAI und Anthropic schließen",
@@ -92,18 +92,18 @@
       "language": "en"
     },
     {
-      "title": "Unlocking large scale AI training networks with MRC (Multipath Reliable Connection)",
-      "description": "OpenAI introduces MRC (Multipath Reliable Connection), a new supercomputer networking protocol released via OCP to improve resilience and performance in large-scale AI training clusters.",
-      "link": "https://openai.com/index/mrc-supercomputer-networking",
+      "title": "GPT-5.5 Instant: smarter, clearer, and more personalized",
+      "description": "GPT-5.5 Instant updates ChatGPT’s default model with smarter, more accurate answers, reduced hallucinations, and improved personalization controls.",
+      "link": "https://openai.com/index/gpt-5-5-instant",
       "date": "2026-05-05T10:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
     },
     {
-      "title": "GPT-5.5 Instant: smarter, clearer, and more personalized",
-      "description": "GPT-5.5 Instant updates ChatGPT’s default model with smarter, more accurate answers, reduced hallucinations, and improved personalization controls.",
-      "link": "https://openai.com/index/gpt-5-5-instant",
+      "title": "Unlocking large scale AI training networks with MRC (Multipath Reliable Connection)",
+      "description": "OpenAI introduces MRC (Multipath Reliable Connection), a new supercomputer networking protocol released via OCP to improve resilience and performance in large-scale AI training clusters.",
+      "link": "https://openai.com/index/mrc-supercomputer-networking",
       "date": "2026-05-05T10:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
