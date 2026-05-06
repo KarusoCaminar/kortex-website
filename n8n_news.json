@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-05-06T08:57:41.782Z",
+  "lastUpdated": "2026-05-06T10:45:55.571Z",
   "news": [
+    {
+      "title": "Chinas \"Big Fund\" will in Deepseek investieren und treibt Bewertung auf 45 Milliarden Dollar",
+      "description": "Deepseek steht laut Financial Times kurz vor einer Finanzierungsrunde, die das chinesische KI-Labor mit rund 45 Milliarden US-Dollar bewerten könnte.\nDer Artikel Chinas \"Big Fund\" will in Deepseek inv",
+      "link": "https://the-decoder.de/chinas-big-fund-will-in-deepseek-investieren-und-treibt-bewertung-auf-45-milliarden-dollar/",
+      "date": "2026-05-06T10:09:12.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "OpenAI öffnet ChatGPT-Werbung per Self-Serve-Tool und führt Klick-Abrechnung ein",
+      "description": "Werbetreibende in den USA können Anzeigen in ChatGPT künftig selbst buchen. Das Mindestbudget von 50.000 US-Dollar entfällt. OpenAI peilt 2,5 Milliarden US-Dollar Werbeumsatz im laufenden Jahr an.\nDer",
+      "link": "https://the-decoder.de/openai-oeffnet-chatgpt-werbung-per-self-serve-tool-und-fuehrt-klick-abrechnung-ein/",
+      "date": "2026-05-06T09:56:38.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "US-Behörde prüft KI-Modelle auf Sicherheitsrisiken, noch bevor sie veröffentlicht werden",
       "description": "Das US-Handelsministerium weitet seine KI-Sicherheitsprüfungen aus: Nach Anthropic und OpenAI haben nun auch Google Deepmind, Microsoft und xAI Vereinbarungen mit dem Center for AI Standards and Innov",
@@ -65,24 +83,6 @@
       "language": "de"
     },
     {
-      "title": "Anthropic-Mitgründer hält automatisierte KI-Forschung bis 2028 für wahrscheinlich",
-      "description": "Jack Clark sieht in einem ausführlichen Essay die Voraussetzungen für KI-Systeme, die ihre eigenen Nachfolger trainieren, bereits weitgehend gegeben. Er beziffert die Wahrscheinlichkeit auf 60 Prozent",
-      "link": "https://the-decoder.de/anthropic-mitgruender-haelt-automatisierte-ki-forschung-bis-2028-fuer-wahrscheinlich/",
-      "date": "2026-05-05T11:57:48.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Amazon bringt agentengestütztes Feintuning für Sprachmodelle in SageMaker AI",
-      "description": "Amazon SageMaker AI hat eine neue Funktion, bei der ein KI-Agent Entwicklern beim Anpassen von Sprachmodellen helfen soll.\nDer Artikel Amazon bringt agentengestütztes Feintuning für Sprachmodelle in S",
-      "link": "https://the-decoder.de/amazon-bringt-agentengestuetztes-feintuning-fuer-sprachmodelle-in-sagemaker-ai/",
-      "date": "2026-05-05T10:04:45.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "GPT-5.5 Instant: smarter, clearer, and more personalized",
       "description": "GPT-5.5 Instant updates ChatGPT’s default model with smarter, more accurate answers, reduced hallucinations, and improved personalization controls.",
       "link": "https://openai.com/index/gpt-5-5-instant",
@@ -99,15 +99,6 @@
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
-    },
-    {
-      "title": "Angst vor KI-Cyberangriffen treibt Trump-Regierung zu neuen Regulierungsplänen",
-      "description": "Nach einem Jahr Deregulierung diskutiert das Weiße Haus nun eine Executive Order, die neue KI-Modelle vor ihrer Freigabe einer staatlichen Prüfung unterziehen könnte. Auslöser soll Anthropics Modell \"",
-      "link": "https://the-decoder.de/trump-regierung-erwaegt-erstmals-sicherheitspruefung-fuer-ki-modelle-vor-veroeffentlichung/",
-      "date": "2026-05-05T09:24:31.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
     },
     {
       "title": "New ways to buy ChatGPT ads",
@@ -132,6 +123,15 @@
       "description": "How OpenAI rebuilt its WebRTC stack to power real-time Voice AI with low latency, global scale, and seamless conversational turn-taking.",
       "link": "https://openai.com/index/delivering-low-latency-voice-ai-at-scale",
       "date": "2026-05-04T00:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
+      "title": "Where the goblins came from",
+      "description": "How goblin outputs spread in AI models: timeline, root cause, and fixes behind personality-driven quirks in GPT-5 behavior.",
+      "link": "https://openai.com/index/where-the-goblins-came-from",
+      "date": "2026-04-29T20:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
