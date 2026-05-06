@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-05-06T18:41:09.231Z",
+  "lastUpdated": "2026-05-06T20:35:36.928Z",
   "news": [
+    {
+      "title": "OpenAI entwickelt mit AMD, Intel, Broadcom, Microsoft und Nvidia ein neues Netzwerkprotokoll für KI-Supercomputer",
+      "description": "OpenAI hat gemeinsam mit AMD, Broadcom, Intel, Microsoft und NVIDIA das Open-Source-Netzwerkprotokoll MRC entwickelt, das Daten über Hunderte Pfade gleichzeitig zwischen GPUs verteilt. Statt drei bis",
+      "link": "https://the-decoder.de/openai-entwickelt-mit-amd-intel-broadcom-microsoft-und-nvidia-ein-neues-netzwerkprotokoll-fuer-ki-supercomputer/",
+      "date": "2026-05-06T19:00:21.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Claude-Entwickler Anthropic sichert sich 300 Megawatt Rechenleistung von SpaceX",
       "description": "Anthropic sichert sich die gesamte Rechenkapazität von SpaceX' Colossus-1-Rechenzentrum – über 220.000 NVIDIA-GPUs und mehr als 300 Megawatt, verfügbar innerhalb eines Monats. Gleichzeitig verdoppelt",
@@ -78,15 +87,6 @@
       "description": "OpenAI plant offenbar den Einstieg in die Smartphone-Hardware: Laut Analyst Ming-Chi Kuo arbeitet das Unternehmen mit MediaTek, Qualcomm und Luxshare an einem eigenen KI-Smartphone, dessen Massenprodu",
       "link": "https://the-decoder.de/openai-will-mit-eigenem-smartphone-den-vollstaendigen-ki-agenten-in-die-hosentasche-bringen/",
       "date": "2026-05-05T16:04:51.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Anthropic startet KI-Offensive im Finanzsektor mit vorkonfigurierten Agenten und neuen Datenpartnern",
-      "description": "Anthropic hat zehn vorkonfigurierte KI-Agenten für die Finanzbranche veröffentlicht, die typische Aufgaben von Investmentbanken, Vermögensverwaltern und Versicherern automatisieren sollen. Laut Ankünd",
-      "link": "https://the-decoder.de/anthropic-startet-ki-offensive-im-finanzsektor-mit-vorkonfigurierten-agenten-und-neuen-datenpartnern/",
-      "date": "2026-05-05T15:50:20.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
