@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-06T07:03:25.139Z",
+  "lastUpdated": "2026-05-06T08:57:41.782Z",
   "news": [
     {
       "title": "US-Behörde prüft KI-Modelle auf Sicherheitsrisiken, noch bevor sie veröffentlicht werden",
@@ -83,18 +83,18 @@
       "language": "de"
     },
     {
-      "title": "GPT-5.5 Instant System Card",
-      "description": "",
-      "link": "https://openai.com/index/gpt-5-5-instant-system-card",
+      "title": "GPT-5.5 Instant: smarter, clearer, and more personalized",
+      "description": "GPT-5.5 Instant updates ChatGPT’s default model with smarter, more accurate answers, reduced hallucinations, and improved personalization controls.",
+      "link": "https://openai.com/index/gpt-5-5-instant",
       "date": "2026-05-05T10:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
     },
     {
-      "title": "GPT-5.5 Instant: smarter, clearer, and more personalized",
-      "description": "GPT-5.5 Instant updates ChatGPT’s default model with smarter, more accurate answers, reduced hallucinations, and improved personalization controls.",
-      "link": "https://openai.com/index/gpt-5-5-instant",
+      "title": "GPT-5.5 Instant System Card",
+      "description": "",
+      "link": "https://openai.com/index/gpt-5-5-instant-system-card",
       "date": "2026-05-05T10:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
