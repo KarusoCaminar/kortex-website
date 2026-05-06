@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-06T14:59:31.652Z",
+  "lastUpdated": "2026-05-06T16:36:52.515Z",
   "news": [
     {
       "title": "Google und Meta wollen mit neuen KI-Agenten die Lücke zu OpenAI und Anthropic schließen",
@@ -27,6 +27,15 @@
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
+    },
+    {
+      "title": "How frontier enterprises are building an AI advantage",
+      "description": "OpenAI’s B2B Signals research shows how frontier enterprises deepen AI adoption, scale Codex-powered agentic workflows, and build durable competitive advantage.",
+      "link": "https://openai.com/index/introducing-b2b-signals",
+      "date": "2026-05-06T00:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
     },
     {
       "title": "US-Behörde prüft KI-Modelle auf Sicherheitsrisiken, noch bevor sie veröffentlicht werden",
@@ -74,13 +83,13 @@
       "language": "de"
     },
     {
-      "title": "Digitaler Zwilling statt Wundermolekül: KI zeigt in der Pharmaproduktion bisher mehr Wirkung als in der Forschung",
-      "description": "Eli Lillys Digital-Chef räumt ein: KI bringt in der Pharma bislang vor allem dort Vorteile, wo es nicht um die Wirkstoffsuche geht.\nDer Artikel Digitaler Zwilling statt Wundermolekül: KI zeigt in der",
-      "link": "https://the-decoder.de/digitaler-zwilling-statt-wundermolekuel-ki-zeigt-in-der-pharmaproduktion-bisher-mehr-wirkung-als-in-der-forschung/",
-      "date": "2026-05-05T13:12:50.000Z",
-      "source": "The Decoder",
-      "category": "industrie-4.0",
-      "language": "de"
+      "title": "Unlocking large scale AI training networks with MRC (Multipath Reliable Connection)",
+      "description": "OpenAI introduces MRC (Multipath Reliable Connection), a new supercomputer networking protocol released via OCP to improve resilience and performance in large-scale AI training clusters.",
+      "link": "https://openai.com/index/mrc-supercomputer-networking",
+      "date": "2026-05-05T10:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
     },
     {
       "title": "GPT-5.5 Instant System Card",
@@ -95,15 +104,6 @@
       "title": "GPT-5.5 Instant: smarter, clearer, and more personalized",
       "description": "GPT-5.5 Instant updates ChatGPT’s default model with smarter, more accurate answers, reduced hallucinations, and improved personalization controls.",
       "link": "https://openai.com/index/gpt-5-5-instant",
-      "date": "2026-05-05T10:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "Unlocking large scale AI training networks with MRC (Multipath Reliable Connection)",
-      "description": "OpenAI introduces MRC (Multipath Reliable Connection), a new supercomputer networking protocol released via OCP to improve resilience and performance in large-scale AI training clusters.",
-      "link": "https://openai.com/index/mrc-supercomputer-networking",
       "date": "2026-05-05T10:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
