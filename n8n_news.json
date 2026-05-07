@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-05-07T10:48:10.953Z",
+  "lastUpdated": "2026-05-07T12:47:15.214Z",
   "news": [
+    {
+      "title": "Sprachmodelle halten sich besser an Werte, wenn sie zuerst verstehen, warum sie sich so verhalten sollen",
+      "description": "Eine Studie aus dem Anthropic Fellows Program zeigt: Trainiert man ein Sprachmodell auf Dokumenten, die seine Werte erklären, bevor es konkretes Verhalten lernt, sinkt agentisches Fehlverhalten drasti",
+      "link": "https://the-decoder.de/sprachmodelle-halten-sich-besser-an-werte-wenn-sie-zuerst-verstehen-warum-sie-sich-so-verhalten-sollen/",
+      "date": "2026-05-07T11:01:25.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Parloa builds service agents customers want to talk to",
+      "description": "Parloa leverages OpenAI models to power scalable, voice-driven AI customer service agents, enabling enterprises to design, simulate, and deploy reliable, real-time interactions.",
+      "link": "https://openai.com/index/parloa",
+      "date": "2026-05-07T11:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
     {
       "title": "Claudes neues \"Dreaming\"-Feature soll KI-Agenten aus Fehlern lernen lassen",
       "description": "Anthropic erweitert \"Claude Managed Agents\" um die Funktion \"Dreaming\": Ein asynchroner Prozess wertet vergangene Agenten-Sitzungen aus, bereinigt doppelte oder veraltete Einträge im Gedächtnis und de",
@@ -83,18 +101,18 @@
       "language": "en"
     },
     {
-      "title": "How frontier enterprises are building an AI advantage",
-      "description": "OpenAI’s B2B Signals research shows how frontier enterprises deepen AI adoption, scale Codex-powered agentic workflows, and build durable competitive advantage.",
-      "link": "https://openai.com/index/introducing-b2b-signals",
+      "title": "Uber uses OpenAI to help people earn smarter and book faster",
+      "description": "Uber uses OpenAI to power AI assistants and voice features that help drivers earn smarter and riders book faster across a global real-time marketplace.",
+      "link": "https://openai.com/index/uber",
       "date": "2026-05-06T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
     },
     {
-      "title": "Uber uses OpenAI to help people earn smarter and book faster",
-      "description": "Uber uses OpenAI to power AI assistants and voice features that help drivers earn smarter and riders book faster across a global real-time marketplace.",
-      "link": "https://openai.com/index/uber",
+      "title": "How frontier enterprises are building an AI advantage",
+      "description": "OpenAI’s B2B Signals research shows how frontier enterprises deepen AI adoption, scale Codex-powered agentic workflows, and build durable competitive advantage.",
+      "link": "https://openai.com/index/introducing-b2b-signals",
       "date": "2026-05-06T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
@@ -110,27 +128,9 @@
       "language": "en"
     },
     {
-      "title": "Unlocking large scale AI training networks with MRC (Multipath Reliable Connection)",
-      "description": "OpenAI introduces MRC (Multipath Reliable Connection), a new supercomputer networking protocol released via OCP to improve resilience and performance in large-scale AI training clusters.",
-      "link": "https://openai.com/index/mrc-supercomputer-networking",
-      "date": "2026-05-05T10:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
       "title": "GPT-5.5 Instant: smarter, clearer, and more personalized",
       "description": "GPT-5.5 Instant updates ChatGPT’s default model with smarter, more accurate answers, reduced hallucinations, and improved personalization controls.",
       "link": "https://openai.com/index/gpt-5-5-instant",
-      "date": "2026-05-05T10:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "GPT-5.5 Instant System Card",
-      "description": "",
-      "link": "https://openai.com/index/gpt-5-5-instant-system-card",
       "date": "2026-05-05T10:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
