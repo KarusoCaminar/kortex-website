@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-07T20:32:31.460Z",
+  "lastUpdated": "2026-05-07T22:27:30.657Z",
   "news": [
     {
       "title": "OpenAIs neue Audio-Sprachmodelle sollen in Live-Gesprächen so schlau sein wie GPT-5",
@@ -27,6 +27,15 @@
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
+    },
+    {
+      "title": "Scaling Trusted Access for Cyber with GPT-5.5 and GPT-5.5-Cyber",
+      "description": "OpenAI expands Trusted Access for Cyber with GPT-5.5 and GPT-5.5-Cyber, helping verified defenders accelerate vulnerability research and protect critical infrastructure.",
+      "link": "https://openai.com/index/gpt-5-5-with-trusted-access-for-cyber",
+      "date": "2026-05-07T13:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
     },
     {
       "title": "Sprachmodelle halten sich besser an Werte, wenn sie zuerst verstehen, warum sie sich so verhalten sollen",
@@ -83,18 +92,18 @@
       "language": "de"
     },
     {
-      "title": "Testing ads in ChatGPT",
-      "description": "OpenAI begins testing ads in ChatGPT to support free access, with clear labeling, answer independence, strong privacy protections, and user control.",
-      "link": "https://openai.com/index/testing-ads-in-chatgpt",
+      "title": "Introducing Trusted Contact in ChatGPT",
+      "description": "Introducing Trusted Contact in ChatGPT, an optional safety feature that notifies someone you trust if serious self-harm concerns are detected.",
+      "link": "https://openai.com/index/introducing-trusted-contact-in-chatgpt",
       "date": "2026-05-07T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
     },
     {
-      "title": "Introducing Trusted Contact in ChatGPT",
-      "description": "Introducing Trusted Contact in ChatGPT, an optional safety feature that notifies someone you trust if serious self-harm concerns are detected.",
-      "link": "https://openai.com/index/introducing-trusted-contact-in-chatgpt",
+      "title": "Testing ads in ChatGPT",
+      "description": "OpenAI begins testing ads in ChatGPT to support free access, with clear labeling, answer independence, strong privacy protections, and user control.",
+      "link": "https://openai.com/index/testing-ads-in-chatgpt",
       "date": "2026-05-07T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
@@ -122,15 +131,6 @@
       "title": "How frontier firms are pulling ahead",
       "description": "OpenAI’s B2B Signals research shows how frontier enterprises deepen AI adoption, scale Codex-powered agentic workflows, and build durable competitive advantage.",
       "link": "https://openai.com/index/introducing-b2b-signals",
-      "date": "2026-05-06T00:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "Introducing ChatGPT Futures: Class of 2026",
-      "description": "Meet the ChatGPT Futures Class of 2026—26 student innovators using AI to build, research, and drive real-world impact. Discover how this generation is redefining learning, creativity, and opportunity",
-      "link": "https://openai.com/index/introducing-chatgpt-futures-class-of-2026",
       "date": "2026-05-06T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
