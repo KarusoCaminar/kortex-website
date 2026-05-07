@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-05-07T12:47:15.214Z",
+  "lastUpdated": "2026-05-07T15:01:16.937Z",
   "news": [
+    {
+      "title": "DeepL streicht 250 Stellen und setzt auf kleinere KI-gestützte Teams",
+      "description": "DeepL streicht rund 250 Stellen, wie CEO und Gründer Jarek Kutylowski auf LinkedIn mitteilte.\nDer Artikel DeepL streicht 250 Stellen und setzt auf kleinere KI-gestützte Teams erschien zuerst auf The D",
+      "link": "https://the-decoder.de/deepl-streicht-250-stellen-und-setzt-auf-kleinere-ki-gestuetzte-teams/",
+      "date": "2026-05-07T14:41:19.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Sprachmodelle halten sich besser an Werte, wenn sie zuerst verstehen, warum sie sich so verhalten sollen",
       "description": "Eine Studie aus dem Anthropic Fellows Program zeigt: Trainiert man ein Sprachmodell auf Dokumenten, die seine Werte erklären, bevor es konkretes Verhalten lernt, sinkt agentisches Fehlverhalten drasti",
@@ -74,24 +83,6 @@
       "language": "de"
     },
     {
-      "title": "Chinas \"Big Fund\" will in Deepseek investieren und treibt Bewertung auf 45 Milliarden Dollar",
-      "description": "Deepseek steht laut Financial Times kurz vor einer Finanzierungsrunde, die das chinesische KI-Labor mit rund 45 Milliarden US-Dollar bewerten könnte.\nDer Artikel Chinas \"Big Fund\" will in Deepseek inv",
-      "link": "https://the-decoder.de/chinas-big-fund-will-in-deepseek-investieren-und-treibt-bewertung-auf-45-milliarden-dollar/",
-      "date": "2026-05-06T10:09:12.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "OpenAI öffnet ChatGPT-Werbung per Self-Serve-Tool und führt Klick-Abrechnung ein",
-      "description": "Werbetreibende in den USA können Anzeigen in ChatGPT künftig selbst buchen. Das Mindestbudget von 50.000 US-Dollar entfällt. OpenAI peilt 2,5 Milliarden US-Dollar Werbeumsatz im laufenden Jahr an.\nDer",
-      "link": "https://the-decoder.de/openai-oeffnet-chatgpt-werbung-per-self-serve-tool-und-fuehrt-klick-abrechnung-ein/",
-      "date": "2026-05-06T09:56:38.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "Introducing ChatGPT Futures: Class of 2026",
       "description": "Meet the ChatGPT Futures Class of 2026—26 student innovators using AI to build, research, and drive real-world impact. Discover how this generation is redefining learning, creativity, and opportunity",
       "link": "https://openai.com/index/introducing-chatgpt-futures-class-of-2026",
@@ -131,6 +122,15 @@
       "title": "GPT-5.5 Instant: smarter, clearer, and more personalized",
       "description": "GPT-5.5 Instant updates ChatGPT’s default model with smarter, more accurate answers, reduced hallucinations, and improved personalization controls.",
       "link": "https://openai.com/index/gpt-5-5-instant",
+      "date": "2026-05-05T10:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
+      "title": "Unlocking large scale AI training networks with MRC (Multipath Reliable Connection)",
+      "description": "OpenAI introduces MRC (Multipath Reliable Connection), a new supercomputer networking protocol released via OCP to improve resilience and performance in large-scale AI training clusters.",
+      "link": "https://openai.com/index/mrc-supercomputer-networking",
       "date": "2026-05-05T10:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
