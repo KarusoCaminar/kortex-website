@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-05-07T09:01:18.182Z",
+  "lastUpdated": "2026-05-07T10:48:10.953Z",
   "news": [
+    {
+      "title": "Claudes neues \"Dreaming\"-Feature soll KI-Agenten aus Fehlern lernen lassen",
+      "description": "Anthropic erweitert \"Claude Managed Agents\" um die Funktion \"Dreaming\": Ein asynchroner Prozess wertet vergangene Agenten-Sitzungen aus, bereinigt doppelte oder veraltete Einträge im Gedächtnis und de",
+      "link": "https://the-decoder.de/claudes-neues-dreaming-feature-soll-ki-agenten-aus-fehlern-lernen-lassen/",
+      "date": "2026-05-07T10:42:37.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Google Deepmind steigt bei EVE Online ein und testet KI-Modelle im Weltraum-MMO",
+      "description": "Google Deepmind erhält eine Minderheitsbeteiligung am Studio hinter dem Weltraum-MMO EVE Online und nutzt das Spiel künftig zum Testen von KI-Modellen.\nDer Artikel Google Deepmind steigt bei EVE Onlin",
+      "link": "https://the-decoder.de/google-deepmind-steigt-bei-eve-online-ein-und-testet-ki-modelle-im-weltraum-mmo/",
+      "date": "2026-05-07T09:25:37.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "USA und China planen offizielle Gespräche über KI-Risiken",
       "description": "Die USA und China erwägen offizielle Gespräche über künstliche Intelligenz, berichtet das Wall Street Journal.\nDer Artikel USA und China planen offizielle Gespräche über KI-Risiken erschien zuerst auf",
@@ -90,24 +108,6 @@
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
-    },
-    {
-      "title": "US-Behörde prüft KI-Modelle auf Sicherheitsrisiken, noch bevor sie veröffentlicht werden",
-      "description": "Das US-Handelsministerium weitet seine KI-Sicherheitsprüfungen aus: Nach Anthropic und OpenAI haben nun auch Google Deepmind, Microsoft und xAI Vereinbarungen mit dem Center for AI Standards and Innov",
-      "link": "https://the-decoder.de/us-behoerde-prueft-ki-modelle-auf-sicherheitsrisiken-noch-bevor-sie-veroeffentlicht-werden/",
-      "date": "2026-05-05T18:22:29.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "ChatGPT-Update: Neues KI-Modell GPT-5.5 Instant soll weniger Fehler machen und persönlicher antworten",
-      "description": "OpenAI ersetzt das ChatGPT-Standardmodell durch GPT-5.5 Instant, das laut internen Tests 52,5 Prozent weniger halluzinierte Aussagen bei Hochrisiko-Themen wie Medizin und Recht produzieren soll. Neu e",
-      "link": "https://the-decoder.de/chatgpt-update-neues-ki-modell-gpt-5-5-instant-soll-weniger-fehler-machen-und-persoenlicher-antworten/",
-      "date": "2026-05-05T17:40:50.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
     },
     {
       "title": "Unlocking large scale AI training networks with MRC (Multipath Reliable Connection)",
