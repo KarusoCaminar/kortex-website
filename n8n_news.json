@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-05-08T08:39:22.802Z",
+  "lastUpdated": "2026-05-08T10:38:21.027Z",
   "news": [
+    {
+      "title": "Mozilla setzt Anthropics Claude Mythos ein und behebt hunderte Sicherheitsprobleme in Firefox",
+      "description": "Anthropics Claude Mythos Preview hat in Firefox 150 insgesamt 271 bislang unbekannte Sicherheitslücken aufgedeckt, darunter Bugs, die bis zu 20 Jahre alt waren. Mozilla beschreibt eine agentische Pipe",
+      "link": "https://the-decoder.de/mozilla-setzt-anthropics-claude-mythos-ein-und-behebt-hunderte-sicherheitsprobleme-in-firefox/",
+      "date": "2026-05-08T09:04:28.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "OpenAIs neue Audio-Sprachmodelle sollen in Live-Gesprächen so schlau sein wie GPT-5",
       "description": "OpenAI stellt mit GPT-Realtime-2, GPT-Realtime-Translate und GPT-Realtime-Whisper drei neue Sprachmodelle vor, die in Echtzeit schlussfolgern, in über 70 Sprachen übersetzen und live transkribieren. G",
@@ -123,15 +132,6 @@
       "description": "OpenAI hat gemeinsam mit AMD, Broadcom, Intel, Microsoft und NVIDIA das Open-Source-Netzwerkprotokoll MRC entwickelt, das Daten über Hunderte Pfade gleichzeitig zwischen GPUs verteilt. Statt drei bis",
       "link": "https://the-decoder.de/openai-entwickelt-mit-amd-intel-broadcom-microsoft-und-nvidia-ein-neues-netzwerkprotokoll-fuer-ki-supercomputer/",
       "date": "2026-05-06T19:00:21.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Claude-Entwickler Anthropic sichert sich 300 Megawatt Rechenleistung von SpaceX",
-      "description": "Anthropic sichert sich die gesamte Rechenkapazität von SpaceX' Colossus-1-Rechenzentrum – über 220.000 NVIDIA-GPUs und mehr als 300 Megawatt, verfügbar innerhalb eines Monats. Gleichzeitig verdoppelt",
-      "link": "https://the-decoder.de/claude-entwickler-anthropic-sichert-sich-300-megawatt-rechenleistung-von-spacex/",
-      "date": "2026-05-06T18:01:24.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
