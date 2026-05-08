@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-05-08T16:36:24.181Z",
+  "lastUpdated": "2026-05-08T18:37:37.748Z",
   "news": [
+    {
+      "title": "Milliarden für KI-Start-ups: Deepseek plant Mega-Runde, Ex-OpenAI-Gründer vervierfacht Bewertung",
+      "description": "Deepseek plant eine Finanzierungsrunde über bis zu 7,35 Milliarden Dollar, die größte eines chinesischen KI‑Unternehmens. Deepseek 4.1 soll bereits im Juni starten. Parallel strebt Core Automation, ge",
+      "link": "https://the-decoder.de/milliarden-fuer-ki-start-ups-deepseek-plant-mega-runde-ex-openai-gruender-vervierfacht-bewertung/",
+      "date": "2026-05-08T17:42:53.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "SoftBank muss OpenAI-Kredit um 40 Prozent kürzen – Kreditgeber zweifeln an Bewertung",
       "description": "SoftBank hat einen durch OpenAI-Anteile besicherten Kredit von 10 auf rund 6 Milliarden Dollar gekürzt. Kreditgeber zögern offenbar, den Wert eines nicht börsennotierten Unternehmens wie OpenAI verläs",
@@ -74,15 +83,6 @@
       "language": "en"
     },
     {
-      "title": "Sprachmodelle halten sich besser an Werte, wenn sie zuerst verstehen, warum sie sich so verhalten sollen",
-      "description": "Eine Studie aus dem Anthropic Fellows Program zeigt: Trainiert man ein Sprachmodell auf Dokumenten, die seine Werte erklären, bevor es konkretes Verhalten lernt, sinkt agentisches Fehlverhalten drasti",
-      "link": "https://the-decoder.de/sprachmodelle-halten-sich-besser-an-werte-wenn-sie-zuerst-verstehen-warum-sie-sich-so-verhalten-sollen/",
-      "date": "2026-05-07T11:01:25.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "Parloa builds service agents customers want to talk to",
       "description": "Parloa leverages OpenAI models to power scalable, voice-driven AI customer service agents, enabling enterprises to design, simulate, and deploy reliable, real-time interactions.",
       "link": "https://openai.com/index/parloa",
@@ -128,10 +128,10 @@
       "language": "en"
     },
     {
-      "title": "Uber uses OpenAI to help people earn smarter and book faster",
-      "description": "Uber uses OpenAI to power AI assistants and voice features that help drivers earn smarter and riders book faster across a global real-time marketplace.",
-      "link": "https://openai.com/index/uber",
-      "date": "2026-05-06T00:00:00.000Z",
+      "title": "How ChatGPT learns about the world while protecting privacy",
+      "description": "Learn how ChatGPT safeguards your privacy, reduces personal data in training, and gives you control over whether your conversations improve AI models.",
+      "link": "https://openai.com/index/how-chatgpt-protects-privacy",
+      "date": "2026-05-06T08:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
