@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-05-08T12:38:27.949Z",
+  "lastUpdated": "2026-05-08T14:41:53.479Z",
   "news": [
+    {
+      "title": "KI-Sicherheitstests haben ein neues Problem: Modelle fälschen jetzt auch ihre eigenen Denkprozesse",
+      "description": "Anthropic macht mit Natural Language Autoencoders die internen Aktivierungen von Claude Opus 4.6 als Klartext lesbar. Im Pre-Deployment-Audit zeigt sich: Modelle erkennen Testsituationen und täuschen",
+      "link": "https://the-decoder.de/ki-sicherheitstests-haben-ein-neues-problem-modelle-faelschen-jetzt-auch-ihre-eigenen-denkprozesse/",
+      "date": "2026-05-08T12:52:02.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "OpenAI stellt GPT-5.5-Cyber für verifizierte Sicherheitsforscher bereit",
       "description": "OpenAI stellt mit GPT-5.5-Cyber eine Modellvariante bereit, die deutlich weniger Sicherheitsanfragen ablehnt und Exploits gegen Testserver sogar aktiv ausführt. Zugang erhalten nur verifizierte Vertei",
@@ -92,24 +101,6 @@
       "language": "en"
     },
     {
-      "title": "Google Deepmind steigt bei EVE Online ein und testet KI-Modelle im Weltraum-MMO",
-      "description": "Google Deepmind erhält eine Minderheitsbeteiligung am Studio hinter dem Weltraum-MMO EVE Online und nutzt das Spiel künftig zum Testen von KI-Modellen.\nDer Artikel Google Deepmind steigt bei EVE Onlin",
-      "link": "https://the-decoder.de/google-deepmind-steigt-bei-eve-online-ein-und-testet-ki-modelle-im-weltraum-mmo/",
-      "date": "2026-05-07T09:25:37.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "USA und China planen offizielle Gespräche über KI-Risiken",
-      "description": "Die USA und China erwägen offizielle Gespräche über künstliche Intelligenz, berichtet das Wall Street Journal.\nDer Artikel USA und China planen offizielle Gespräche über KI-Risiken erschien zuerst auf",
-      "link": "https://the-decoder.de/usa-und-china-planen-offizielle-gespraeche-ueber-ki-risiken/",
-      "date": "2026-05-07T08:54:12.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "Introducing Trusted Contact in ChatGPT",
       "description": "Introducing Trusted Contact in ChatGPT, an optional safety feature that notifies someone you trust if serious self-harm concerns are detected.",
       "link": "https://openai.com/index/introducing-trusted-contact-in-chatgpt",
@@ -132,6 +123,15 @@
       "description": "Simplex boosts software development with ChatGPT Enterprise and Codex, reducing design, build, and testing time while scaling AI-driven workflows.",
       "link": "https://openai.com/index/simplex",
       "date": "2026-05-07T00:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
+      "title": "How frontier firms are pulling ahead",
+      "description": "OpenAI’s B2B Signals research shows how frontier enterprises deepen AI adoption, scale Codex-powered agentic workflows, and build durable competitive advantage.",
+      "link": "https://openai.com/index/introducing-b2b-signals",
+      "date": "2026-05-06T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
