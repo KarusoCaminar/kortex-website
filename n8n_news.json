@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-05-08T10:38:21.027Z",
+  "lastUpdated": "2026-05-08T12:38:27.949Z",
   "news": [
+    {
+      "title": "OpenAI stellt GPT-5.5-Cyber für verifizierte Sicherheitsforscher bereit",
+      "description": "OpenAI stellt mit GPT-5.5-Cyber eine Modellvariante bereit, die deutlich weniger Sicherheitsanfragen ablehnt und Exploits gegen Testserver sogar aktiv ausführt. Zugang erhalten nur verifizierte Vertei",
+      "link": "https://the-decoder.de/openai-stellt-gpt-5-5-cyber-fuer-verifizierte-sicherheitsforscher-bereit/",
+      "date": "2026-05-08T10:44:28.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Mozilla setzt Anthropics Claude Mythos ein und behebt hunderte Sicherheitsprobleme in Firefox",
       "description": "Anthropics Claude Mythos Preview hat in Firefox 150 insgesamt 271 bislang unbekannte Sicherheitslücken aufgedeckt, darunter Bugs, die bis zu 20 Jahre alt waren. Mozilla beschreibt eine agentische Pipe",
@@ -101,18 +110,18 @@
       "language": "de"
     },
     {
-      "title": "Testing ads in ChatGPT",
-      "description": "OpenAI begins testing ads in ChatGPT to support free access, with clear labeling, answer independence, strong privacy protections, and user control.",
-      "link": "https://openai.com/index/testing-ads-in-chatgpt",
+      "title": "Introducing Trusted Contact in ChatGPT",
+      "description": "Introducing Trusted Contact in ChatGPT, an optional safety feature that notifies someone you trust if serious self-harm concerns are detected.",
+      "link": "https://openai.com/index/introducing-trusted-contact-in-chatgpt",
       "date": "2026-05-07T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
     },
     {
-      "title": "Introducing Trusted Contact in ChatGPT",
-      "description": "Introducing Trusted Contact in ChatGPT, an optional safety feature that notifies someone you trust if serious self-harm concerns are detected.",
-      "link": "https://openai.com/index/introducing-trusted-contact-in-chatgpt",
+      "title": "Testing ads in ChatGPT",
+      "description": "OpenAI begins testing ads in ChatGPT to support free access, with clear labeling, answer independence, strong privacy protections, and user control.",
+      "link": "https://openai.com/index/testing-ads-in-chatgpt",
       "date": "2026-05-07T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
@@ -126,15 +135,6 @@
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
-    },
-    {
-      "title": "OpenAI entwickelt mit AMD, Intel, Broadcom, Microsoft und Nvidia ein neues Netzwerkprotokoll für KI-Supercomputer",
-      "description": "OpenAI hat gemeinsam mit AMD, Broadcom, Intel, Microsoft und NVIDIA das Open-Source-Netzwerkprotokoll MRC entwickelt, das Daten über Hunderte Pfade gleichzeitig zwischen GPUs verteilt. Statt drei bis",
-      "link": "https://the-decoder.de/openai-entwickelt-mit-amd-intel-broadcom-microsoft-und-nvidia-ein-neues-netzwerkprotokoll-fuer-ki-supercomputer/",
-      "date": "2026-05-06T19:00:21.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
     }
   ]
 }
