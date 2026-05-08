@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-07T22:27:30.657Z",
+  "lastUpdated": "2026-05-08T00:53:01.681Z",
   "news": [
     {
       "title": "OpenAIs neue Audio-Sprachmodelle sollen in Live-Gesprächen so schlau sein wie GPT-5",
@@ -110,6 +110,15 @@
       "language": "en"
     },
     {
+      "title": "Simplex rethinks software development with Codex",
+      "description": "Simplex boosts software development with ChatGPT Enterprise and Codex, reducing design, build, and testing time while scaling AI-driven workflows.",
+      "link": "https://openai.com/index/simplex",
+      "date": "2026-05-07T00:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
       "title": "OpenAI entwickelt mit AMD, Intel, Broadcom, Microsoft und Nvidia ein neues Netzwerkprotokoll für KI-Supercomputer",
       "description": "OpenAI hat gemeinsam mit AMD, Broadcom, Intel, Microsoft und NVIDIA das Open-Source-Netzwerkprotokoll MRC entwickelt, das Daten über Hunderte Pfade gleichzeitig zwischen GPUs verteilt. Statt drei bis",
       "link": "https://the-decoder.de/openai-entwickelt-mit-amd-intel-broadcom-microsoft-und-nvidia-ein-neues-netzwerkprotokoll-fuer-ki-supercomputer/",
@@ -126,15 +135,6 @@
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
-    },
-    {
-      "title": "How frontier firms are pulling ahead",
-      "description": "OpenAI’s B2B Signals research shows how frontier enterprises deepen AI adoption, scale Codex-powered agentic workflows, and build durable competitive advantage.",
-      "link": "https://openai.com/index/introducing-b2b-signals",
-      "date": "2026-05-06T00:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
     }
   ]
 }
