@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-05-09T06:51:26.507Z",
+  "lastUpdated": "2026-05-09T08:38:27.801Z",
   "news": [
+    {
+      "title": "KI am Arbeitsplatz: Wenn die Software entscheidet, ob du freundlich genug bist",
+      "description": "Eine Reportage der Journalistin Ellen Cushing beschreibt, wie sich Software, die Emotionen per KI auswerten will, im Arbeitsalltag ausbreitet.\nDer Artikel KI am Arbeitsplatz: Wenn die Software entsche",
+      "link": "https://the-decoder.de/ki-am-arbeitsplatz-wenn-die-software-entscheidet-ob-du-freundlich-genug-bist/",
+      "date": "2026-05-09T07:15:11.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Milliarden für KI-Start-ups: Deepseek plant Mega-Runde, Ex-OpenAI-Gründer vervierfacht Bewertung",
       "description": "Deepseek plant eine Finanzierungsrunde über bis zu 7,35 Milliarden Dollar, die größte eines chinesischen KI‑Unternehmens. Deepseek 4.1 soll bereits im Juni starten. Parallel strebt Core Automation, ge",
@@ -122,15 +131,6 @@
       "title": "Introducing Trusted Contact in ChatGPT",
       "description": "Introducing Trusted Contact in ChatGPT, an optional safety feature that notifies someone you trust if serious self-harm concerns are detected.",
       "link": "https://openai.com/index/introducing-trusted-contact-in-chatgpt",
-      "date": "2026-05-07T00:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "Simplex rethinks software development with Codex",
-      "description": "Simplex boosts software development with ChatGPT Enterprise and Codex, reducing design, build, and testing time while scaling AI-driven workflows.",
-      "link": "https://openai.com/index/simplex",
       "date": "2026-05-07T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
