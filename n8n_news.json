@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-05-09T12:27:12.547Z",
+  "lastUpdated": "2026-05-09T14:28:27.701Z",
   "news": [
+    {
+      "title": "Fields-Medaillist: ChatGPT 5.5 Pro liefert Forschungsergebnis auf Promotionsniveau in unter zwei Stunden",
+      "description": "Fields-Medaillist Timothy Gowers ließ ChatGPT 5.5 Pro offene Probleme der Zahlentheorie bearbeiten. Das Modell verbesserte eine exponentielle Schranke auf eine polynomielle, in unter einer Stunde. Ein",
+      "link": "https://the-decoder.de/fields-medaillist-chatgpt-5-5-pro-liefert-forschungsergebnis-auf-promotionsniveau-in-unter-zwei-stunden/",
+      "date": "2026-05-09T14:03:14.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Broadcom verlangt Microsoft-Garantie: OpenAIs Chiptraum hängt an Kreditwürdigkeit des Unternehmens",
       "description": "OpenAIs geplanter KI-Chip mit Broadcom stößt auf ein Finanzierungsproblem: Broadcom verlangt, dass Microsoft 40 Prozent der Chips abnimmt – doch Microsoft hat bisher keine Zusage gemacht. OpenAI-Manag",
@@ -69,15 +78,6 @@
       "description": "Anthropics Claude Mythos Preview hat in Firefox 150 insgesamt 271 bislang unbekannte Sicherheitslücken aufgedeckt, darunter Bugs, die bis zu 20 Jahre alt waren. Mozilla beschreibt eine agentische Pipe",
       "link": "https://the-decoder.de/mozilla-setzt-anthropics-claude-mythos-ein-und-behebt-hunderte-sicherheitsprobleme-in-firefox/",
       "date": "2026-05-08T09:04:28.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "OpenAIs neue Audio-Sprachmodelle sollen in Live-Gesprächen so schlau sein wie GPT-5",
-      "description": "OpenAI stellt mit GPT-Realtime-2, GPT-Realtime-Translate und GPT-Realtime-Whisper drei neue Sprachmodelle vor, die in Echtzeit schlussfolgern, in über 70 Sprachen übersetzen und live transkribieren. G",
-      "link": "https://the-decoder.de/openais-neue-audio-sprachmodelle-sollen-in-live-gespraechen-so-schlau-sein-wie-gpt-5/",
-      "date": "2026-05-07T18:29:08.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
