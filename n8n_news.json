@@ -1,6 +1,33 @@
 {
-  "lastUpdated": "2026-05-10T08:43:25.138Z",
+  "lastUpdated": "2026-05-10T10:31:52.414Z",
   "news": [
+    {
+      "title": "Anthropic und OpenAI holen sich ethischen Rat bei religiösen Führern",
+      "description": "Anthropic und OpenAI suchen den Rat religiöser Führer für ethische KI-Leitlinien: Beim ersten \"Faith-AI Covenant\"-Rundtisch in New York trafen sich Vertreter beider Firmen mit Glaubensführern verschie",
+      "link": "https://the-decoder.de/anthropic-und-openai-holen-sich-ethischen-rat-bei-religioesen-fuehrern/",
+      "date": "2026-05-10T10:30:00.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "TikTok-Konzern ByteDance plant mehr als 30 Milliarden Dollar für KI-Ausbau mit chinesischen Chips",
+      "description": "ByteDance stockt seine geplanten KI-Investitionen für 2026 auf über 200 Milliarden Yuan (rund 30 Milliarden US-Dollar) auf – ein Plus von mindestens 25 Prozent. Der TikTok-Mutterkonzern setzt dabei ve",
+      "link": "https://the-decoder.de/tiktok-konzern-bytedance-plant-mehr-als-30-milliarden-dollar-fuer-ki-ausbau-mit-chinesischen-chips/",
+      "date": "2026-05-10T09:25:02.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "METR kann Claude Mythos kaum noch messen, Palo Alto Networks warnt vor autonomen KI-Angreifern",
+      "description": "METR kann Claude Mythos Preview mit bestehenden Tests kaum noch zuverlässig messen. Nur fünf von 228 Aufgaben decken den relevanten Fähigkeitsbereich ab. Parallel berichtet Palo Alto Networks, dass Fr",
+      "link": "https://the-decoder.de/metr-kann-claude-mythos-kaum-noch-messen-palo-alto-networks-warnt-vor-autonomen-ki-angreifern/",
+      "date": "2026-05-10T08:59:22.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "GPT-5.5 kostet je nach Eingabelänge 49 bis 92 Prozent mehr als der Vorgänger",
       "description": "OpenAI hat den Listenpreis von GPT-5.5 gegenüber GPT-5.4 verdoppelt und verspricht, kürzere Antworten würden das kompensieren. Eine OpenRouter-Analyse realer Nutzungsdaten zeigt: Die tatsächlichen Kos",
@@ -56,24 +83,6 @@
       "language": "de"
     },
     {
-      "title": "SoftBank muss OpenAI-Kredit um 40 Prozent kürzen – Kreditgeber zweifeln an Bewertung",
-      "description": "SoftBank hat einen durch OpenAI-Anteile besicherten Kredit von 10 auf rund 6 Milliarden Dollar gekürzt. Kreditgeber zögern offenbar, den Wert eines nicht börsennotierten Unternehmens wie OpenAI verläs",
-      "link": "https://the-decoder.de/softbank-muss-openai-kredit-um-40-prozent-kuerzen-kreditgeber-zweifeln-an-bewertung/",
-      "date": "2026-05-08T16:18:58.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "KI-Sicherheitstests haben ein neues Problem: Modelle fälschen jetzt auch ihre eigenen Denkprozesse",
-      "description": "Anthropic macht mit Natural Language Autoencoders die internen Aktivierungen von Claude Opus 4.6 als Klartext lesbar. Im Pre-Deployment-Audit zeigt sich: Modelle erkennen Testsituationen und täuschen",
-      "link": "https://the-decoder.de/ki-sicherheitstests-haben-ein-neues-problem-modelle-faelschen-jetzt-auch-ihre-eigenen-denkprozesse/",
-      "date": "2026-05-08T12:52:02.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "Running Codex safely at OpenAI",
       "description": "How OpenAI runs Codex securely with sandboxing, approvals, network policies, and agent-native telemetry to support safe and compliant coding agent adoption.",
       "link": "https://openai.com/index/running-codex-safely",
@@ -122,15 +131,6 @@
       "title": "Introducing Trusted Contact in ChatGPT",
       "description": "Introducing Trusted Contact in ChatGPT, an optional safety feature that notifies someone you trust if serious self-harm concerns are detected.",
       "link": "https://openai.com/index/introducing-trusted-contact-in-chatgpt",
-      "date": "2026-05-07T00:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "Simplex rethinks software development with Codex",
-      "description": "Simplex boosts software development with ChatGPT Enterprise and Codex, reducing design, build, and testing time while scaling AI-driven workflows.",
-      "link": "https://openai.com/index/simplex",
       "date": "2026-05-07T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
