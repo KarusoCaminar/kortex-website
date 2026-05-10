@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-05-10T10:31:52.414Z",
+  "lastUpdated": "2026-05-10T12:26:55.691Z",
   "news": [
+    {
+      "title": "KI-Agenten können sich erstmals durch Hacking selbst replizieren",
+      "description": "Palisade Research zeigt in einer Testumgebung, dass KI-Agenten fremde Computer hacken, sich darauf kopieren und so Ketten bilden können. Innerhalb eines Jahres stieg die Erfolgsrate von 6 auf 81 Proze",
+      "link": "https://the-decoder.de/ki-agenten-replizieren-sich-erstmals-selbststaendig-durch-hacking/",
+      "date": "2026-05-10T11:27:41.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Anthropic und OpenAI holen sich ethischen Rat bei religiösen Führern",
       "description": "Anthropic und OpenAI suchen den Rat religiöser Führer für ethische KI-Leitlinien: Beim ersten \"Faith-AI Covenant\"-Rundtisch in New York trafen sich Vertreter beider Firmen mit Glaubensführern verschie",
@@ -69,15 +78,6 @@
       "description": "Eine Reportage der Journalistin Ellen Cushing beschreibt, wie sich Software, die Emotionen per KI auswerten will, im Arbeitsalltag ausbreitet.\nDer Artikel KI am Arbeitsplatz: Wenn die Software entsche",
       "link": "https://the-decoder.de/ki-am-arbeitsplatz-wenn-die-software-entscheidet-ob-du-freundlich-genug-bist/",
       "date": "2026-05-09T07:15:11.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Milliarden für KI-Start-ups: Deepseek plant Mega-Runde, Ex-OpenAI-Gründer vervierfacht Bewertung",
-      "description": "Deepseek plant eine Finanzierungsrunde über bis zu 7,35 Milliarden Dollar, die größte eines chinesischen KI‑Unternehmens. Deepseek 4.1 soll bereits im Juni starten. Parallel strebt Core Automation, ge",
-      "link": "https://the-decoder.de/milliarden-fuer-ki-start-ups-deepseek-plant-mega-runde-ex-openai-gruender-vervierfacht-bewertung/",
-      "date": "2026-05-08T17:42:53.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
