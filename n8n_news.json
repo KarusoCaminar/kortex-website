@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-05-10T07:02:30.017Z",
+  "lastUpdated": "2026-05-10T08:43:25.138Z",
   "news": [
+    {
+      "title": "GPT-5.5 kostet je nach Eingabelänge 49 bis 92 Prozent mehr als der Vorgänger",
+      "description": "OpenAI hat den Listenpreis von GPT-5.5 gegenüber GPT-5.4 verdoppelt und verspricht, kürzere Antworten würden das kompensieren. Eine OpenRouter-Analyse realer Nutzungsdaten zeigt: Die tatsächlichen Kos",
+      "link": "https://the-decoder.de/gpt-5-5-kostet-je-nach-eingabelaenge-49-bis-92-prozent-mehr-als-der-vorgaenger/",
+      "date": "2026-05-10T07:59:58.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Weil KI-Modelle absichtlich schlecht arbeiten: Forscher suchen Wege aus der Sandbagging-Falle",
+      "description": "Eine Studie von Forschenden aus dem MATS-Programm, Redwood Research und Anthropic untersucht ein Sicherheitsproblem, das mit immer fähigeren KI-Systemen relevanter wird: sogenanntes \"Sandbagging\", bei",
+      "link": "https://the-decoder.de/weil-ki-modelle-absichtlich-schlecht-arbeiten-forscher-suchen-wege-aus-der-sandbagging-falle/",
+      "date": "2026-05-10T07:29:03.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Fields-Medaillist: ChatGPT 5.5 Pro liefert Forschungsergebnis auf Promotionsniveau in unter zwei Stunden",
       "description": "Fields-Medaillist Timothy Gowers ließ ChatGPT 5.5 Pro offene Probleme der Zahlentheorie bearbeiten. Das Modell verbesserte eine exponentielle Schranke auf eine polynomielle, in unter einer Stunde. Ein",
@@ -63,24 +81,6 @@
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
-    },
-    {
-      "title": "OpenAI stellt GPT-5.5-Cyber für verifizierte Sicherheitsforscher bereit",
-      "description": "OpenAI stellt mit GPT-5.5-Cyber eine Modellvariante bereit, die deutlich weniger Sicherheitsanfragen ablehnt und Exploits gegen Testserver sogar aktiv ausführt. Zugang erhalten nur verifizierte Vertei",
-      "link": "https://the-decoder.de/openai-stellt-gpt-5-5-cyber-fuer-verifizierte-sicherheitsforscher-bereit/",
-      "date": "2026-05-08T10:44:28.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Mozilla setzt Anthropics Claude Mythos ein und behebt hunderte Sicherheitsprobleme in Firefox",
-      "description": "Anthropics Claude Mythos Preview hat in Firefox 150 insgesamt 271 bislang unbekannte Sicherheitslücken aufgedeckt, darunter Bugs, die bis zu 20 Jahre alt waren. Mozilla beschreibt eine agentische Pipe",
-      "link": "https://the-decoder.de/mozilla-setzt-anthropics-claude-mythos-ein-und-behebt-hunderte-sicherheitsprobleme-in-firefox/",
-      "date": "2026-05-08T09:04:28.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
     },
     {
       "title": "Scaling Trusted Access for Cyber with GPT-5.5 and GPT-5.5-Cyber",
