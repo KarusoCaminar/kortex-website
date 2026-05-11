@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-05-11T11:09:38.268Z",
+  "lastUpdated": "2026-05-11T13:09:29.284Z",
   "news": [
+    {
+      "title": "ChatGPT soll Amok-Schützen von Florida mit Infos zu Waffen und Tatplanung versorgt haben",
+      "description": "OpenAI wird wegen der Massenschießerei an der Florida State University verklagt: Laut Klageschrift führte der mutmaßliche Schütze monatelang Gespräche mit ChatGPT über Waffen und Schießereien. Florida",
+      "link": "https://the-decoder.de/chatgpt-soll-amok-schuetzen-von-florida-mit-infos-zu-waffen-und-tatplanung-versorgt-haben/",
+      "date": "2026-05-11T13:06:44.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Sicherheitsforscher fordert wegen KI das Ende der 90-Tage-Schonfrist für Softwarehersteller",
+      "description": "Sprachmodelle finden Sicherheitslücken schneller und bauen aus Patches in Minuten funktionierende Angriffe. Ein erfahrener Forscher fordert ein Ende der etablierten Offenlegungspraxis.\nDer Artikel Sic",
+      "link": "https://the-decoder.de/sicherheitsforscher-fordert-wegen-ki-das-ende-der-90-tage-schonfrist-fuer-softwarehersteller/",
+      "date": "2026-05-11T12:23:20.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "ChatGPT-Erfolg zahlt sich aus: OpenAI schafft Dutzende Multimillionäre im Silicon Valley",
       "description": "OpenAI hat im Oktober 2025 einen Anteilsverkauf für über 600 aktuelle und ehemalige Mitarbeiter organisiert – Gesamtvolumen: 6,6 Milliarden Dollar. Rund 75 Personen schöpften die Obergrenze von 30 Mil",
@@ -20,18 +38,18 @@
       "language": "de"
     },
     {
-      "title": "OpenAI Campus Network: Student club interest form",
-      "description": "Join the OpenAI Campus Network—connect student clubs worldwide, access AI tools, host events, and build an AI-powered campus community.",
-      "link": "https://openai.com/index/openai-campus-network-student-club-interest-form",
+      "title": "How enterprises are scaling AI",
+      "description": "How enterprises scale AI: from early experiments to compounding impact through trust, governance, workflow design, and quality at scale.",
+      "link": "https://openai.com/business/guides-and-resources/how-enterprises-are-scaling-ai",
       "date": "2026-05-11T10:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
     },
     {
-      "title": "How enterprises are scaling AI",
-      "description": "How enterprises scale AI: from early experiments to compounding impact through trust, governance, workflow design, and quality at scale.",
-      "link": "https://openai.com/business/guides-and-resources/how-enterprises-are-scaling-ai",
+      "title": "OpenAI Campus Network: Student club interest form",
+      "description": "Join the OpenAI Campus Network—connect student clubs worldwide, access AI tools, host events, and build an AI-powered campus community.",
+      "link": "https://openai.com/index/openai-campus-network-student-club-interest-form",
       "date": "2026-05-11T10:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
@@ -45,6 +63,15 @@
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
+    },
+    {
+      "title": "OpenAI launches DeployCo to help businesses build around intelligence",
+      "description": "OpenAI launches DeployCo, a new enterprise deployment company built to help organizations bring frontier AI into production and turn it into measurable business impact.",
+      "link": "https://openai.com/index/openai-launches-the-deployment-company",
+      "date": "2026-05-11T06:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
     },
     {
       "title": "KI-Agenten können sich erstmals durch Hacking selbst replizieren",
@@ -92,24 +119,6 @@
       "language": "de"
     },
     {
-      "title": "Weil KI-Modelle absichtlich schlecht arbeiten: Forscher suchen Wege aus der Sandbagging-Falle",
-      "description": "Eine Studie von Forschenden aus dem MATS-Programm, Redwood Research und Anthropic untersucht ein Sicherheitsproblem, das mit immer fähigeren KI-Systemen relevanter wird: sogenanntes \"Sandbagging\", bei",
-      "link": "https://the-decoder.de/weil-ki-modelle-absichtlich-schlecht-arbeiten-forscher-suchen-wege-aus-der-sandbagging-falle/",
-      "date": "2026-05-10T07:29:03.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Fields-Medaillist: ChatGPT 5.5 Pro liefert Forschungsergebnis auf Promotionsniveau in unter zwei Stunden",
-      "description": "Fields-Medaillist Timothy Gowers ließ ChatGPT 5.5 Pro offene Probleme der Zahlentheorie bearbeiten. Das Modell verbesserte eine exponentielle Schranke auf eine polynomielle, in unter einer Stunde. Ein",
-      "link": "https://the-decoder.de/fields-medaillist-chatgpt-5-5-pro-liefert-forschungsergebnis-auf-promotionsniveau-in-unter-zwei-stunden/",
-      "date": "2026-05-09T14:03:14.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "Running Codex safely at OpenAI",
       "description": "How OpenAI runs Codex securely with sandboxing, approvals, network policies, and agent-native telemetry to support safe and compliant coding agent adoption.",
       "link": "https://openai.com/index/running-codex-safely",
@@ -123,15 +132,6 @@
       "description": "OpenAI expands Trusted Access for Cyber with GPT-5.5 and GPT-5.5-Cyber, helping verified defenders accelerate vulnerability research and protect critical infrastructure.",
       "link": "https://openai.com/index/gpt-5-5-with-trusted-access-for-cyber",
       "date": "2026-05-07T13:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "Parloa builds service agents customers want to talk to",
-      "description": "Parloa leverages OpenAI models to power scalable, voice-driven AI customer service agents, enabling enterprises to design, simulate, and deploy reliable, real-time interactions.",
-      "link": "https://openai.com/index/parloa",
-      "date": "2026-05-07T11:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
