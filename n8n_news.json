@@ -1,6 +1,33 @@
 {
-  "lastUpdated": "2026-05-11T15:08:20.101Z",
+  "lastUpdated": "2026-05-11T16:58:36.925Z",
   "news": [
+    {
+      "title": "EU verhandelt mit OpenAI und Anthropic über Zugang zu fortschrittlichen KI-Modellen",
+      "description": "OpenAI bietet der EU-Kommission proaktiv Zugang zu seinem neuen Modell GPT-5.5 Cyber an – Anthropic zeigt sich bei Claude Mythos trotz mehrerer Treffen zurückhaltender. Die Gespräche legen ein struktu",
+      "link": "https://the-decoder.de/eu-verhandelt-mit-openai-und-anthropic-ueber-zugang-zu-fortschrittlichen-ki-modellen/",
+      "date": "2026-05-11T16:54:50.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Baidus Ernie 5.1 spart 94 Prozent der Vortrainingskosten und glänzt dennoch in Benchmarks",
+      "description": "Baidu stellt mit Ernie 5.1 ein Sprachmodell vor, das nur ein Drittel der Parameter seines Vorgängers Ernie 5.0 besitzt und dessen Vortrainingskosten bei sechs Prozent vergleichbarer Modelle liegen sol",
+      "link": "https://the-decoder.de/baidus-ernie-5-1-spart-94-prozent-der-vortrainingskosten-und-glaenzt-dennoch-in-benchmarks/",
+      "date": "2026-05-11T16:10:06.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Neue Tochterfirma DeployCo soll OpenAIs Burggraben gegen die KI-Konkurrenz werden",
+      "description": "OpenAI baut ein eigenes Beratungs- und Implementierungsgeschäft auf. Mit der \"OpenAI Deployment Company\", intern DeployCo, soll eine mehrheitlich kontrollierte Tochterfirma Unternehmen dabei helfen, K",
+      "link": "https://the-decoder.de/neue-tochterfirma-deployco-soll-openais-burggraben-gegen-die-ki-konkurrenz-werden/",
+      "date": "2026-05-11T15:16:35.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "ChatGPT soll Amok-Schützen von Florida mit Infos zu Waffen und Tatplanung versorgt haben",
       "description": "OpenAI wird wegen der Massenschießerei an der Florida State University verklagt: Laut Klageschrift führte der mutmaßliche Schütze monatelang Gespräche mit ChatGPT über Waffen und Schießereien. Florida",
@@ -87,33 +114,6 @@
       "description": "Anthropic und OpenAI suchen den Rat religiöser Führer für ethische KI-Leitlinien: Beim ersten \"Faith-AI Covenant\"-Rundtisch in New York trafen sich Vertreter beider Firmen mit Glaubensführern verschie",
       "link": "https://the-decoder.de/anthropic-und-openai-holen-sich-ethischen-rat-bei-religioesen-fuehrern/",
       "date": "2026-05-10T10:30:00.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "TikTok-Konzern ByteDance plant mehr als 30 Milliarden Dollar für KI-Ausbau mit chinesischen Chips",
-      "description": "ByteDance stockt seine geplanten KI-Investitionen für 2026 auf über 200 Milliarden Yuan (rund 30 Milliarden US-Dollar) auf – ein Plus von mindestens 25 Prozent. Der TikTok-Mutterkonzern setzt dabei ve",
-      "link": "https://the-decoder.de/tiktok-konzern-bytedance-plant-mehr-als-30-milliarden-dollar-fuer-ki-ausbau-mit-chinesischen-chips/",
-      "date": "2026-05-10T09:25:02.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "METR kann Claude Mythos kaum noch messen, Palo Alto Networks warnt vor autonomen KI-Angreifern",
-      "description": "METR kann Claude Mythos Preview mit bestehenden Tests kaum noch zuverlässig messen. Nur fünf von 228 Aufgaben decken den relevanten Fähigkeitsbereich ab. Parallel berichtet Palo Alto Networks, dass Fr",
-      "link": "https://the-decoder.de/metr-kann-claude-mythos-kaum-noch-messen-palo-alto-networks-warnt-vor-autonomen-ki-angreifern/",
-      "date": "2026-05-10T08:59:22.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "GPT-5.5 kostet je nach Eingabelänge 49 bis 92 Prozent mehr als der Vorgänger",
-      "description": "OpenAI hat den Listenpreis von GPT-5.5 gegenüber GPT-5.4 verdoppelt und verspricht, kürzere Antworten würden das kompensieren. Eine OpenRouter-Analyse realer Nutzungsdaten zeigt: Die tatsächlichen Kos",
-      "link": "https://the-decoder.de/gpt-5-5-kostet-je-nach-eingabelaenge-49-bis-92-prozent-mehr-als-der-vorgaenger/",
-      "date": "2026-05-10T07:59:58.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
