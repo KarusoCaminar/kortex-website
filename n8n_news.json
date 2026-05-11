@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-11T20:39:52.192Z",
+  "lastUpdated": "2026-05-11T22:27:48.799Z",
   "news": [
     {
       "title": "EU verhandelt mit OpenAI und Anthropic über Zugang zu fortschrittlichen KI-Modellen",
@@ -27,6 +27,15 @@
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
+    },
+    {
+      "title": "How ChatGPT adoption broadened in early 2026",
+      "description": "ChatGPT adoption surged in Q1 2026, with fastest growth among users over 35 and more balanced gender usage, signaling broader mainstream AI adoption.",
+      "link": "https://openai.com/signals/research/2026q1-update",
+      "date": "2026-05-11T15:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
     },
     {
       "title": "ChatGPT soll Amok-Schützen von Florida mit Infos zu Waffen und Tatplanung versorgt haben",
@@ -123,15 +132,6 @@
       "description": "How OpenAI runs Codex securely with sandboxing, approvals, network policies, and agent-native telemetry to support safe and compliant coding agent adoption.",
       "link": "https://openai.com/index/running-codex-safely",
       "date": "2026-05-08T12:30:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "Scaling Trusted Access for Cyber with GPT-5.5 and GPT-5.5-Cyber",
-      "description": "OpenAI expands Trusted Access for Cyber with GPT-5.5 and GPT-5.5-Cyber, helping verified defenders accelerate vulnerability research and protect critical infrastructure.",
-      "link": "https://openai.com/index/gpt-5-5-with-trusted-access-for-cyber",
-      "date": "2026-05-07T13:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
