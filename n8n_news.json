@@ -1,6 +1,42 @@
 {
-  "lastUpdated": "2026-05-12T15:02:20.350Z",
+  "lastUpdated": "2026-05-12T18:43:57.866Z",
   "news": [
+    {
+      "title": "Anthropic erweitert Angebote für die Rechtsbranche um neue Cowork-Plugins",
+      "description": "Anthropic stellt zwölf neue Claude-Plugins für Rechtsgebiete wie Vertragsrecht, Arbeitsrecht und Prozessführung vor und verknüpft den Chatbot mit Diensten wie Thomson Reuters' CoCounsel Legal und Harv",
+      "link": "https://the-decoder.de/anthropic-erweitert-angebote-fuer-die-rechtsbranche-um-neue-plugins/",
+      "date": "2026-05-12T18:37:05.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Google-Bericht: KI-basierte Cybersecurity-Angriffe sind eine wachsende Bedrohung",
+      "description": "Googles Threat Intelligence Group hat erstmals einen Akteur identifiziert, der mithilfe von KI eine Zero-Day-Sicherheitslücke gefunden und als Waffe eingesetzt haben soll. Den Massenangriff konnte Goo",
+      "link": "https://the-decoder.de/google-bericht-ki-basierte-cybersecurity-angriffe-sind-eine-wachsende-bedrohung/",
+      "date": "2026-05-12T18:12:42.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Alphabet-Tochter Isomorphic Labs erhält Milliarden-Funding für KI-Arzneimittelforschung",
+      "description": "Isomorphic Labs, die KI-Arzneimittelforschungsfirma von Deepmind-Mitgründer Demis Hassabis, hat 2,1 Milliarden Dollar in einer Series-B-Runde eingesammelt, angeführt von Thrive Capital. Das Geld fließ",
+      "link": "https://the-decoder.de/alphabet-tochter-isomorphic-labs-erhaelt-milliarden-funding-fuer-ki-arzneimittelforschung/",
+      "date": "2026-05-12T17:44:40.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Microsoft stellt Israel-Niederlassung nach Militär-Skandal vorerst unter französische Führung",
+      "description": "Microsoft Israel verliert seinen Landeschef Alon Haimovich nach einer internen Untersuchung über die Zusammenarbeit mit Israels Verteidigungsministerium. Recherchen der letzten Jahre zeigen, worum es",
+      "link": "https://the-decoder.de/microsoft-stellt-israel-niederlassung-nach-militaer-skandal-vorerst-unter-franzoesische-fuehrung/",
+      "date": "2026-05-12T15:13:29.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "\"Tokenmaxxing\" bei Amazon: Mitarbeiter automatisieren Unsinn, um KI-Vorgaben zu erfüllen",
       "description": "Amazon-Mitarbeiter automatisieren überflüssige Aufgaben, nur um in internen KI-Ranglisten besser dazustehen.\nDer Artikel \"Tokenmaxxing\" bei Amazon: Mitarbeiter automatisieren Unsinn, um KI-Vorgaben zu",
@@ -63,42 +99,6 @@
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
-    },
-    {
-      "title": "ChatGPT soll Amok-Schützen von Florida mit Infos zu Waffen und Tatplanung versorgt haben",
-      "description": "OpenAI wird wegen der Massenschießerei an der Florida State University verklagt: Laut Klageschrift führte der mutmaßliche Schütze monatelang Gespräche mit ChatGPT über Waffen und Schießereien. Florida",
-      "link": "https://the-decoder.de/chatgpt-soll-amok-schuetzen-von-florida-mit-infos-zu-waffen-und-tatplanung-versorgt-haben/",
-      "date": "2026-05-11T13:06:44.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Sicherheitsforscher fordert wegen KI das Ende der 90-Tage-Schonfrist für Softwarehersteller",
-      "description": "Sprachmodelle finden Sicherheitslücken schneller und bauen aus Patches in Minuten funktionierende Angriffe. Ein erfahrener Forscher fordert ein Ende der etablierten Offenlegungspraxis.\nDer Artikel Sic",
-      "link": "https://the-decoder.de/sicherheitsforscher-fordert-wegen-ki-das-ende-der-90-tage-schonfrist-fuer-softwarehersteller/",
-      "date": "2026-05-11T12:23:20.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "ChatGPT-Erfolg zahlt sich aus: OpenAI schafft Dutzende Multimillionäre im Silicon Valley",
-      "description": "OpenAI hat im Oktober 2025 einen Anteilsverkauf für über 600 aktuelle und ehemalige Mitarbeiter organisiert – Gesamtvolumen: 6,6 Milliarden Dollar. Rund 75 Personen schöpften die Obergrenze von 30 Mil",
-      "link": "https://the-decoder.de/chatgpt-erfolg-zahlt-sich-aus-openai-schafft-dutzende-multimillionaere-im-silicon-valley/",
-      "date": "2026-05-11T10:55:44.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "KI-Agenten industrialisieren den Identitätsdiebstahl",
-      "description": "Ein Bloomberg-Bericht zeichnet nach, wie generative KI und autonome Agenten Identitätsdiebstahl in den USA beschleunigen, von der Sozialversicherungsnummer-Suche im Darknet bis zum Deepfake-Führersche",
-      "link": "https://the-decoder.de/ki-agenten-industrialisieren-den-identitaetsdiebstahl/",
-      "date": "2026-05-11T10:33:06.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
     },
     {
       "title": "OpenAI Campus Network: Student club interest form",
