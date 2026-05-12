@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-05-12T12:49:45.597Z",
+  "lastUpdated": "2026-05-12T15:02:20.350Z",
   "news": [
+    {
+      "title": "\"Tokenmaxxing\" bei Amazon: Mitarbeiter automatisieren Unsinn, um KI-Vorgaben zu erfüllen",
+      "description": "Amazon-Mitarbeiter automatisieren überflüssige Aufgaben, nur um in internen KI-Ranglisten besser dazustehen.\nDer Artikel \"Tokenmaxxing\" bei Amazon: Mitarbeiter automatisieren Unsinn, um KI-Vorgaben zu",
+      "link": "https://the-decoder.de/tokenmaxxing-bei-amazon-mitarbeiter-automatisieren-unsinn-um-ki-vorgaben-zu-erfuellen/",
+      "date": "2026-05-12T13:46:12.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Mira Muratis Start-up will mit Interaction Models das größte Problem heutiger Sprach-KI lösen",
       "description": "Mira Muratis Start-up stellt sein erstes KI-Modell vor und will damit Sprach-KI vom Frage-Antwort-Schema lösen. Das Modell verarbeitet Audio, Video und Text in 200-Millisekunden-Häppchen parallel und",
@@ -108,15 +117,6 @@
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
-    },
-    {
-      "title": "Nvidia pumpt 2026 bisher über 40 Milliarden Dollar in KI-Partner",
-      "description": "Nvidia hat alleine in 2026 bereits mehr als 40 Milliarden Dollar in KI-Firmen investiert und baut damit seine Rolle als zentraler Geldgeber der KI-Branche aus.\nDer Artikel Nvidia pumpt 2026 bisher übe",
-      "link": "https://the-decoder.de/nvidia-pumpt-2026-bisher-ueber-40-milliarden-dollar-in-ki-partner/",
-      "date": "2026-05-11T09:33:51.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
     },
     {
       "title": "OpenAI launches DeployCo to help businesses build around intelligence",
