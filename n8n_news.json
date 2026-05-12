@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-05-12T09:05:11.402Z",
+  "lastUpdated": "2026-05-12T10:52:28.797Z",
   "news": [
+    {
+      "title": "Sam Altmans persönliche Investments geraten vor OpenAI-Börsengang unter politischen Druck",
+      "description": "Sam Altmans persönliche Investitionen geraten vor dem geplanten Börsengang von OpenAI unter politischen Druck.\nDer Artikel Sam Altmans persönliche Investments geraten vor OpenAI-Börsengang unter polit",
+      "link": "https://the-decoder.de/sam-altmans-persoenliche-investments-geraten-vor-openai-boersengang-unter-politischen-druck/",
+      "date": "2026-05-12T09:53:23.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "EU verhandelt mit OpenAI und Anthropic über Zugang zu fortschrittlichen KI-Modellen",
       "description": "OpenAI bietet der EU-Kommission proaktiv Zugang zu seinem neuen Modell GPT-5.5 Cyber an – Anthropic zeigt sich bei Claude Mythos trotz mehrerer Treffen zurückhaltender. Die Gespräche legen ein struktu",
@@ -74,18 +83,18 @@
       "language": "de"
     },
     {
-      "title": "How enterprises are scaling AI",
-      "description": "How enterprises scale AI: from early experiments to compounding impact through trust, governance, workflow design, and quality at scale.",
-      "link": "https://openai.com/business/guides-and-resources/how-enterprises-are-scaling-ai",
+      "title": "OpenAI Campus Network: Student club interest form",
+      "description": "Join the OpenAI Campus Network—connect student clubs worldwide, access AI tools, host events, and build an AI-powered campus community.",
+      "link": "https://openai.com/index/openai-campus-network-student-club-interest-form",
       "date": "2026-05-11T10:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
     },
     {
-      "title": "OpenAI Campus Network: Student club interest form",
-      "description": "Join the OpenAI Campus Network—connect student clubs worldwide, access AI tools, host events, and build an AI-powered campus community.",
-      "link": "https://openai.com/index/openai-campus-network-student-club-interest-form",
+      "title": "How enterprises are scaling AI",
+      "description": "How enterprises scale AI: from early experiments to compounding impact through trust, governance, workflow design, and quality at scale.",
+      "link": "https://openai.com/business/guides-and-resources/how-enterprises-are-scaling-ai",
       "date": "2026-05-11T10:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
@@ -114,15 +123,6 @@
       "description": "Palisade Research zeigt in einer Testumgebung, dass KI-Agenten fremde Computer hacken, sich darauf kopieren und so Ketten bilden können. Innerhalb eines Jahres stieg die Erfolgsrate von 6 auf 81 Proze",
       "link": "https://the-decoder.de/ki-agenten-replizieren-sich-erstmals-selbststaendig-durch-hacking/",
       "date": "2026-05-10T11:27:41.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Anthropic und OpenAI holen sich ethischen Rat bei religiösen Führern",
-      "description": "Anthropic und OpenAI suchen den Rat religiöser Führer für ethische KI-Leitlinien: Beim ersten \"Faith-AI Covenant\"-Rundtisch in New York trafen sich Vertreter beider Firmen mit Glaubensführern verschie",
-      "link": "https://the-decoder.de/anthropic-und-openai-holen-sich-ethischen-rat-bei-religioesen-fuehrern/",
-      "date": "2026-05-10T10:30:00.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
