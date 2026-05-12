@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-05-12T10:52:28.797Z",
+  "lastUpdated": "2026-05-12T12:49:45.597Z",
   "news": [
+    {
+      "title": "Mira Muratis Start-up will mit Interaction Models das größte Problem heutiger Sprach-KI lösen",
+      "description": "Mira Muratis Start-up stellt sein erstes KI-Modell vor und will damit Sprach-KI vom Frage-Antwort-Schema lösen. Das Modell verarbeitet Audio, Video und Text in 200-Millisekunden-Häppchen parallel und",
+      "link": "https://the-decoder.de/mira-muratis-start-up-will-mit-interaction-models-das-groesste-problem-heutiger-sprach-ki-loesen/",
+      "date": "2026-05-12T12:17:03.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Sam Altmans persönliche Investments geraten vor OpenAI-Börsengang unter politischen Druck",
       "description": "Sam Altmans persönliche Investitionen geraten vor dem geplanten Börsengang von OpenAI unter politischen Druck.\nDer Artikel Sam Altmans persönliche Investments geraten vor OpenAI-Börsengang unter polit",
@@ -117,15 +126,6 @@
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
-    },
-    {
-      "title": "KI-Agenten können sich erstmals durch Hacking selbst replizieren",
-      "description": "Palisade Research zeigt in einer Testumgebung, dass KI-Agenten fremde Computer hacken, sich darauf kopieren und so Ketten bilden können. Innerhalb eines Jahres stieg die Erfolgsrate von 6 auf 81 Proze",
-      "link": "https://the-decoder.de/ki-agenten-replizieren-sich-erstmals-selbststaendig-durch-hacking/",
-      "date": "2026-05-10T11:27:41.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
     },
     {
       "title": "Running Codex safely at OpenAI",
