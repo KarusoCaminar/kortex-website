@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-05-13T12:52:59.845Z",
+  "lastUpdated": "2026-05-13T15:07:06.220Z",
   "news": [
+    {
+      "title": "Chinas KI-Zulieferer können die Nachfrage nicht bedienen, weil Bauteile knapp werden",
+      "description": "Chinas KI-Hardware-Zulieferer können die hohe Nachfrage nicht bedienen, weil wichtige Bauteile knapp sind und Produktionskapazitäten fehlen, berichtet Bloomberg.\nDer Artikel Chinas KI-Zulieferer könne",
+      "link": "https://the-decoder.de/chinas-ki-zulieferer-koennen-die-nachfrage-nicht-bedienen-weil-bauteile-knapp-werden/",
+      "date": "2026-05-13T13:32:31.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Recursive verlässt den Stealth-Modus: 4,65 Milliarden Dollar Bewertung für selbstverbessernde KI",
       "description": "Das KI-Startup Recursive ist offiziell aus dem Stealth-Modus aufgetaucht und nennt rekursive Selbstverbesserung den \"schnellsten Weg zur Superintelligenz\".\nDer Artikel Recursive verlässt den Stealth-M",
@@ -78,15 +87,6 @@
       "description": "Amazon-Mitarbeiter automatisieren überflüssige Aufgaben, nur um in internen KI-Ranglisten besser dazustehen.\nDer Artikel \"Tokenmaxxing\" bei Amazon: Mitarbeiter automatisieren Unsinn, um KI-Vorgaben zu",
       "link": "https://the-decoder.de/tokenmaxxing-bei-amazon-mitarbeiter-automatisieren-unsinn-um-ki-vorgaben-zu-erfuellen/",
       "date": "2026-05-12T13:46:12.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Mira Muratis Start-up will mit Interaction Models das größte Problem heutiger Sprach-KI lösen",
-      "description": "Mira Muratis Start-up stellt sein erstes KI-Modell vor und will damit Sprach-KI vom Frage-Antwort-Schema lösen. Das Modell verarbeitet Audio, Video und Text in 200-Millisekunden-Häppchen parallel und",
-      "link": "https://the-decoder.de/mira-muratis-start-up-will-mit-interaction-models-das-groesste-problem-heutiger-sprach-ki-loesen/",
-      "date": "2026-05-12T12:17:03.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
