@@ -1,6 +1,51 @@
 {
-  "lastUpdated": "2026-05-13T15:07:06.220Z",
+  "lastUpdated": "2026-05-13T18:45:11.899Z",
   "news": [
+    {
+      "title": "Tencent setzt auf heimische Chips: KI-Investitionen sollen im zweiten Halbjahr 2026 deutlich steigen",
+      "description": "Tencent will seine KI-Infrastrukturausgaben im zweiten Halbjahr 2026 deutlich hochfahren – Chefstratege James Mitchell begründet das mit wachsenden Lieferkapazitäten chinesischer Chiphersteller. Ein a",
+      "link": "https://the-decoder.de/tencent-setzt-auf-heimische-chips-ki-investitionen-sollen-im-zweiten-halbjahr-2026-deutlich-steigen/",
+      "date": "2026-05-13T18:40:46.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Anthropic überholt OpenAI angeblich erstmals bei B2B-Kunden – doch der Vorsprung ist fragil",
+      "description": "Laut dem Ramp-AI-Index nutzen inzwischen 34,4 Prozent der erfassten US-Unternehmen Anthropic, mehr als OpenAI mit 32,3 Prozent. Anthropic vervierfachte seine Verbreitung binnen eines Jahres. Doch der",
+      "link": "https://the-decoder.de/anthropic-ueberholt-openai-angeblich-erstmals-bei-b2b-kunden-doch-der-vorsprung-ist-fragil/",
+      "date": "2026-05-13T18:15:15.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Meta AI bekommt Incognito-Modus: Chats sollen nicht auf Servern gespeichert werden",
+      "description": "Meta rollt einen \"Incognito Chat\" für Meta AI auf WhatsApp und in der Meta‑AI‑App aus. Laut Mark Zuckerberg werden Gespräche in einer geschützten Serverumgebung verarbeitet, auf die selbst Meta keinen",
+      "link": "https://the-decoder.de/meta-ai-bekommt-incognito-modus-chats-sollen-nicht-auf-servern-gespeichert-werden/",
+      "date": "2026-05-13T17:41:02.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Anthropics Claude soll jetzt Buchhaltung, Rechnungen und Marketing für Kleinunternehmen übernehmen",
+      "description": "Anthropic bringt mit \"Claude for Small Business\" ein Paket aus 15 agentenbasierten Workflows und Integrationen für Tools wie QuickBooks, PayPal und HubSpot auf den Markt. Ergänzend starten kostenlose",
+      "link": "https://the-decoder.de/anthropics-claude-soll-jetzt-buchhaltung-rechnungen-und-marketing-fuer-kleinunternehmen-uebernehmen/",
+      "date": "2026-05-13T16:42:42.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Auf Augenhöhe mit Nano Banana und GPT-Image-2: Luma bringt Bildmodell Uni-1.1 als API",
+      "description": "Luma bringt sein Bildmodell Uni-1.1 als API für Entwickler, mit Preisen ab 0,04 Dollar pro Bild und 2048-Pixel-Auflösung. Im Arena-Ranking liegt das Modell auf Platz 3, direkt hinter Google und OpenAI",
+      "link": "https://the-decoder.de/auf-augenhoehe-mit-nano-banana-und-gpt-image-2-luma-bringt-bildmodell-uni-1-1-als-api/",
+      "date": "2026-05-13T15:29:46.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Chinas KI-Zulieferer können die Nachfrage nicht bedienen, weil Bauteile knapp werden",
       "description": "Chinas KI-Hardware-Zulieferer können die hohe Nachfrage nicht bedienen, weil wichtige Bauteile knapp sind und Produktionskapazitäten fehlen, berichtet Bloomberg.\nDer Artikel Chinas KI-Zulieferer könne",
@@ -42,51 +87,6 @@
       "description": "Google führt mit Gemini Intelligence neue KI-Funktionen für Android ein, die mehrstufige Aufgaben automatisieren, Webinhalte zusammenfassen, Formulare ausfüllen und gesprochene Gedanken in klare Textn",
       "link": "https://the-decoder.de/gemini-intelligence-macht-autofill-chrome-und-gboard-auf-android-smarter/",
       "date": "2026-05-12T19:22:49.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Anthropic erweitert Angebote für die Rechtsbranche um neue Cowork-Plugins",
-      "description": "Anthropic stellt zwölf neue Claude-Plugins für Rechtsgebiete wie Vertragsrecht, Arbeitsrecht und Prozessführung vor und verknüpft den Chatbot mit Diensten wie Thomson Reuters' CoCounsel Legal und Harv",
-      "link": "https://the-decoder.de/anthropic-erweitert-angebote-fuer-die-rechtsbranche-um-neue-plugins/",
-      "date": "2026-05-12T18:37:05.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Google-Bericht: KI-basierte Cybersecurity-Angriffe sind eine wachsende Bedrohung",
-      "description": "Googles Threat Intelligence Group hat erstmals einen Akteur identifiziert, der mithilfe von KI eine Zero-Day-Sicherheitslücke gefunden und als Waffe eingesetzt haben soll. Den Massenangriff konnte Goo",
-      "link": "https://the-decoder.de/google-bericht-ki-basierte-cybersecurity-angriffe-sind-eine-wachsende-bedrohung/",
-      "date": "2026-05-12T18:12:42.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Alphabet-Tochter Isomorphic Labs erhält Milliarden-Funding für KI-Arzneimittelforschung",
-      "description": "Isomorphic Labs, die KI-Arzneimittelforschungsfirma von Deepmind-Mitgründer Demis Hassabis, hat 2,1 Milliarden Dollar in einer Series-B-Runde eingesammelt, angeführt von Thrive Capital. Das Geld fließ",
-      "link": "https://the-decoder.de/alphabet-tochter-isomorphic-labs-erhaelt-milliarden-funding-fuer-ki-arzneimittelforschung/",
-      "date": "2026-05-12T17:44:40.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Microsoft stellt Israel-Niederlassung nach Militär-Skandal vorerst unter französische Führung",
-      "description": "Microsoft Israel verliert seinen Landeschef Alon Haimovich nach einer internen Untersuchung über die Zusammenarbeit mit Israels Verteidigungsministerium. Recherchen der letzten Jahre zeigen, worum es",
-      "link": "https://the-decoder.de/microsoft-stellt-israel-niederlassung-nach-militaer-skandal-vorerst-unter-franzoesische-fuehrung/",
-      "date": "2026-05-12T15:13:29.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "\"Tokenmaxxing\" bei Amazon: Mitarbeiter automatisieren Unsinn, um KI-Vorgaben zu erfüllen",
-      "description": "Amazon-Mitarbeiter automatisieren überflüssige Aufgaben, nur um in internen KI-Ranglisten besser dazustehen.\nDer Artikel \"Tokenmaxxing\" bei Amazon: Mitarbeiter automatisieren Unsinn, um KI-Vorgaben zu",
-      "link": "https://the-decoder.de/tokenmaxxing-bei-amazon-mitarbeiter-automatisieren-unsinn-um-ki-vorgaben-zu-erfuellen/",
-      "date": "2026-05-12T13:46:12.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
