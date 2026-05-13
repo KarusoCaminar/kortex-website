@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-13T18:45:11.899Z",
+  "lastUpdated": "2026-05-13T22:31:47.131Z",
   "news": [
     {
       "title": "Tencent setzt auf heimische Chips: KI-Investitionen sollen im zweiten Halbjahr 2026 deutlich steigen",
@@ -56,6 +56,15 @@
       "language": "de"
     },
     {
+      "title": "Building a safe, effective sandbox to enable Codex on Windows",
+      "description": "Learn how OpenAI built a secure sandbox for Codex on Windows, enabling safe, efficient coding agents with controlled file access and network restrictions.",
+      "link": "https://openai.com/index/building-codex-windows-sandbox",
+      "date": "2026-05-13T11:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
       "title": "Recursive verlässt den Stealth-Modus: 4,65 Milliarden Dollar Bewertung für selbstverbessernde KI",
       "description": "Das KI-Startup Recursive ist offiziell aus dem Stealth-Modus aufgetaucht und nennt rekursive Selbstverbesserung den \"schnellsten Weg zur Superintelligenz\".\nDer Artikel Recursive verlässt den Stealth-M",
       "link": "https://the-decoder.de/recursive-verlaesst-den-stealth-modus-465-milliarden-dollar-bewertung-fuer-selbstverbessernde-ki/",
@@ -92,12 +101,12 @@
       "language": "de"
     },
     {
-      "title": "How NVIDIA engineers and researchers build with Codex",
-      "description": "Teams use Codex with GPT-5.5 to ship production systems and turn research ideas into runnable experiments.",
-      "link": "https://openai.com/index/nvidia",
+      "title": "AutoScout24 scales engineering with AI-powered workflows",
+      "description": "Learn how AutoScout24 Group uses Codex and ChatGPT to speed development cycles, improve code quality, and expand AI adoption.",
+      "link": "https://openai.com/index/autoscout24",
       "date": "2026-05-12T00:00:00.000Z",
       "source": "OpenAI",
-      "category": "große-modelle",
+      "category": "workflow-tools",
       "language": "en"
     },
     {
@@ -110,12 +119,12 @@
       "language": "en"
     },
     {
-      "title": "AutoScout24 scales engineering with AI-powered workflows",
-      "description": "Learn how AutoScout24 Group uses Codex and ChatGPT to speed development cycles, improve code quality, and expand AI adoption.",
-      "link": "https://openai.com/index/autoscout24",
+      "title": "How NVIDIA engineers and researchers build with Codex",
+      "description": "Teams use Codex with GPT-5.5 to ship production systems and turn research ideas into runnable experiments.",
+      "link": "https://openai.com/index/nvidia",
       "date": "2026-05-12T00:00:00.000Z",
       "source": "OpenAI",
-      "category": "workflow-tools",
+      "category": "große-modelle",
       "language": "en"
     },
     {
@@ -123,15 +132,6 @@
       "description": "ChatGPT adoption surged in Q1 2026, with fastest growth among users over 35 and more balanced gender usage, signaling broader mainstream AI adoption.",
       "link": "https://openai.com/signals/research/2026q1-update",
       "date": "2026-05-11T15:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "How enterprises are scaling AI",
-      "description": "How enterprises scale AI: from early experiments to compounding impact through trust, governance, workflow design, and quality at scale.",
-      "link": "https://openai.com/business/guides-and-resources/how-enterprises-are-scaling-ai",
-      "date": "2026-05-11T10:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
