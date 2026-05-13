@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-12T20:37:52.461Z",
+  "lastUpdated": "2026-05-13T00:56:13.582Z",
   "news": [
     {
       "title": "Gemini Intelligence macht Autofill, Chrome und Gboard auf Android smarter",
@@ -74,12 +74,30 @@
       "language": "de"
     },
     {
+      "title": "How NVIDIA engineers and researchers build with Codex",
+      "description": "Teams use Codex with GPT-5.5 to ship production systems and turn research ideas into runnable experiments.",
+      "link": "https://openai.com/index/nvidia",
+      "date": "2026-05-12T00:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
       "title": "What Parameter Golf taught us about AI-assisted research",
       "description": "Parameter Golf brought together 1,000+ participants and 2,000+ submissions to explore AI-assisted machine learning research, coding agents, quantization, and novel model design under strict constraint",
       "link": "https://openai.com/index/what-parameter-golf-taught-us",
       "date": "2026-05-12T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
+      "language": "en"
+    },
+    {
+      "title": "AutoScout24 scales engineering with AI-powered workflows",
+      "description": "Learn how AutoScout24 Group uses Codex and ChatGPT to speed development cycles, improve code quality, and expand AI adoption.",
+      "link": "https://openai.com/index/autoscout24",
+      "date": "2026-05-12T00:00:00.000Z",
+      "source": "OpenAI",
+      "category": "workflow-tools",
       "language": "en"
     },
     {
@@ -114,24 +132,6 @@
       "description": "How enterprises scale AI: from early experiments to compounding impact through trust, governance, workflow design, and quality at scale.",
       "link": "https://openai.com/business/guides-and-resources/how-enterprises-are-scaling-ai",
       "date": "2026-05-11T10:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "OpenAI Campus Network: Student club interest form",
-      "description": "Join the OpenAI Campus Network—connect student clubs worldwide, access AI tools, host events, and build an AI-powered campus community.",
-      "link": "https://openai.com/index/openai-campus-network-student-club-interest-form",
-      "date": "2026-05-11T10:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "OpenAI launches DeployCo to help businesses build around intelligence",
-      "description": "OpenAI launches DeployCo, a new enterprise deployment company built to help organizations bring frontier AI into production and turn it into measurable business impact.",
-      "link": "https://openai.com/index/openai-launches-the-deployment-company",
-      "date": "2026-05-11T06:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
