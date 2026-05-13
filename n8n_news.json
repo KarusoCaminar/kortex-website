@@ -1,6 +1,33 @@
 {
-  "lastUpdated": "2026-05-13T09:10:10.062Z",
+  "lastUpdated": "2026-05-13T10:56:22.017Z",
   "news": [
+    {
+      "title": "Recursive verlässt den Stealth-Modus: 4,65 Milliarden Dollar Bewertung für selbstverbessernde KI",
+      "description": "Das KI-Startup Recursive ist offiziell aus dem Stealth-Modus aufgetaucht und nennt rekursive Selbstverbesserung den \"schnellsten Weg zur Superintelligenz\".\nDer Artikel Recursive verlässt den Stealth-M",
+      "link": "https://the-decoder.de/recursive-verlaesst-den-stealth-modus-465-milliarden-dollar-bewertung-fuer-selbstverbessernde-ki/",
+      "date": "2026-05-13T10:29:06.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Google stellt hunderte Ingenieure ein, um Kunden bei der KI-Einführung zu helfen",
+      "description": "Google stellt hunderte Ingenieure ein, um Kunden bei der KI-Einführung zu unterstützen. Ein Eingeständnis, dass die Implementierung weiterhin schwierig ist.\nDer Artikel Google stellt hunderte Ingenieu",
+      "link": "https://the-decoder.de/google-stellt-hunderte-ingenieure-ein-um-kunden-bei-der-ki-einfuehrung-zu-helfen/",
+      "date": "2026-05-13T09:54:12.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Vom Prompt Engineering zum Pointer Engineering: Deepmind macht den Mauszeiger zur KI-Schnittstelle",
+      "description": "Vom Prompt Engineering zum Point Engineering: Deepmind erfindet den Mauszeiger neu.\nDer Artikel Vom Prompt Engineering zum Pointer Engineering: Deepmind macht den Mauszeiger zur KI-Schnittstelle ersch",
+      "link": "https://the-decoder.de/vom-prompt-engineering-zum-point-engineering-deepmind-macht-den-mauszeiger-zur-ki-schnittstelle/",
+      "date": "2026-05-13T09:28:52.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Gemini Intelligence macht Autofill, Chrome und Gboard auf Android smarter",
       "description": "Google führt mit Gemini Intelligence neue KI-Funktionen für Android ein, die mehrstufige Aufgaben automatisieren, Webinhalte zusammenfassen, Formulare ausfüllen und gesprochene Gedanken in klare Textn",
@@ -65,15 +92,6 @@
       "language": "de"
     },
     {
-      "title": "Sam Altmans persönliche Investments geraten vor OpenAI-Börsengang unter politischen Druck",
-      "description": "Sam Altmans persönliche Investitionen geraten vor dem geplanten Börsengang von OpenAI unter politischen Druck.\nDer Artikel Sam Altmans persönliche Investments geraten vor OpenAI-Börsengang unter polit",
-      "link": "https://the-decoder.de/sam-altmans-persoenliche-investments-geraten-vor-openai-boersengang-unter-politischen-druck/",
-      "date": "2026-05-12T09:53:23.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "How NVIDIA engineers and researchers build with Codex",
       "description": "Teams use Codex with GPT-5.5 to ship production systems and turn research ideas into runnable experiments.",
       "link": "https://openai.com/index/nvidia",
@@ -99,24 +117,6 @@
       "source": "OpenAI",
       "category": "workflow-tools",
       "language": "en"
-    },
-    {
-      "title": "EU verhandelt mit OpenAI und Anthropic über Zugang zu fortschrittlichen KI-Modellen",
-      "description": "OpenAI bietet der EU-Kommission proaktiv Zugang zu seinem neuen Modell GPT-5.5 Cyber an – Anthropic zeigt sich bei Claude Mythos trotz mehrerer Treffen zurückhaltender. Die Gespräche legen ein struktu",
-      "link": "https://the-decoder.de/eu-verhandelt-mit-openai-und-anthropic-ueber-zugang-zu-fortschrittlichen-ki-modellen/",
-      "date": "2026-05-11T16:54:50.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Baidus Ernie 5.1 spart 94 Prozent der Vortrainingskosten und glänzt dennoch in Benchmarks",
-      "description": "Baidu stellt mit Ernie 5.1 ein Sprachmodell vor, das nur ein Drittel der Parameter seines Vorgängers Ernie 5.0 besitzt und dessen Vortrainingskosten bei sechs Prozent vergleichbarer Modelle liegen sol",
-      "link": "https://the-decoder.de/baidus-ernie-5-1-spart-94-prozent-der-vortrainingskosten-und-glaenzt-dennoch-in-benchmarks/",
-      "date": "2026-05-11T16:10:06.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
     },
     {
       "title": "How ChatGPT adoption broadened in early 2026",
