@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-05-14T14:57:02.803Z",
+  "lastUpdated": "2026-05-14T16:45:40.989Z",
   "news": [
+    {
+      "title": "Microsoft lässt mehr als 100 KI-Agenten gegeneinander debattieren, um Schwachstellen in Windows aufzuspüren",
+      "description": "Microsoft hat mit MDASH ein Multi-Agenten-System vorgestellt, das über 100 spezialisierte KI-Agenten orchestriert, um Schwachstellen in Software aufzuspüren. Allein zum Patch Tuesday am 12. Mai meldet",
+      "link": "https://the-decoder.de/microsoft-laesst-mehr-als-100-ki-agenten-gegeneinander-debattieren-um-schwachstellen-in-windows-aufzuspueren/",
+      "date": "2026-05-14T15:27:41.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "USA geben Nvidia-H200-Chips für China frei, doch die Regierung blockiert den Kauf",
       "description": "Die USA haben rund zehn chinesische Unternehmen, darunter Alibaba, Tencent und ByteDance, für den Kauf von bis zu 75.000 Nvidia-H200-Chips freigegeben. Geliefert wurde bisher kein einziger Chip. Laut",
@@ -83,15 +92,6 @@
       "language": "de"
     },
     {
-      "title": "Anthropics Claude soll jetzt Buchhaltung, Rechnungen und Marketing für Kleinunternehmen übernehmen",
-      "description": "Anthropic bringt mit \"Claude for Small Business\" ein Paket aus 15 agentenbasierten Workflows und Integrationen für Tools wie QuickBooks, PayPal und HubSpot auf den Markt. Ergänzend starten kostenlose",
-      "link": "https://the-decoder.de/anthropics-claude-soll-jetzt-buchhaltung-rechnungen-und-marketing-fuer-kleinunternehmen-uebernehmen/",
-      "date": "2026-05-13T16:42:42.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "Building a safe, effective sandbox to enable Codex on Windows",
       "description": "Learn how OpenAI built a secure sandbox for Codex on Windows, enabling safe, efficient coding agents with controlled file access and network restrictions.",
       "link": "https://openai.com/index/building-codex-windows-sandbox",
@@ -110,9 +110,9 @@
       "language": "en"
     },
     {
-      "title": "How NVIDIA engineers and researchers build with Codex",
-      "description": "Teams use Codex with GPT-5.5 to ship production systems and turn research ideas into runnable experiments.",
-      "link": "https://openai.com/index/nvidia",
+      "title": "What Parameter Golf taught us about AI-assisted research",
+      "description": "Parameter Golf brought together 1,000+ participants and 2,000+ submissions to explore AI-assisted machine learning research, coding agents, quantization, and novel model design under strict constraint",
+      "link": "https://openai.com/index/what-parameter-golf-taught-us",
       "date": "2026-05-12T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
@@ -128,9 +128,9 @@
       "language": "en"
     },
     {
-      "title": "What Parameter Golf taught us about AI-assisted research",
-      "description": "Parameter Golf brought together 1,000+ participants and 2,000+ submissions to explore AI-assisted machine learning research, coding agents, quantization, and novel model design under strict constraint",
-      "link": "https://openai.com/index/what-parameter-golf-taught-us",
+      "title": "How NVIDIA engineers and researchers build with Codex",
+      "description": "Teams use Codex with GPT-5.5 to ship production systems and turn research ideas into runnable experiments.",
+      "link": "https://openai.com/index/nvidia",
       "date": "2026-05-12T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
