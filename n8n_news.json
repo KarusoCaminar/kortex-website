@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-05-14T16:45:40.989Z",
+  "lastUpdated": "2026-05-14T18:43:26.170Z",
   "news": [
+    {
+      "title": "US-Amerikaner wollen lieber neben einem Atomkraftwerk leben als neben einem KI-Rechenzentrum",
+      "description": "Laut einer Gallup-Umfrage lehnen 71 Prozent der US-Amerikaner den Bau von KI-Rechenzentren in ihrer Nähe ab – deutlich mehr als die 53 Prozent, die gegen ein Atomkraftwerk in der Nachbarschaft sind. H",
+      "link": "https://the-decoder.de/us-amerikaner-wollen-lieber-neben-einem-atomkraftwerk-leben-als-neben-einem-ki-rechenzentrum/",
+      "date": "2026-05-14T17:58:13.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Microsoft lässt mehr als 100 KI-Agenten gegeneinander debattieren, um Schwachstellen in Windows aufzuspüren",
       "description": "Microsoft hat mit MDASH ein Multi-Agenten-System vorgestellt, das über 100 spezialisierte KI-Agenten orchestriert, um Schwachstellen in Software aufzuspüren. Allein zum Patch Tuesday am 12. Mai meldet",
@@ -65,6 +74,15 @@
       "language": "de"
     },
     {
+      "title": "Helping ChatGPT better recognize context in sensitive conversations",
+      "description": "Learn how new ChatGPT safety updates improve context awareness in sensitive conversations, helping detect risk over time and respond more safely.",
+      "link": "https://openai.com/index/chatgpt-recognize-context-in-sensitive-conversations",
+      "date": "2026-05-14T00:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
       "title": "Tencent setzt auf heimische Chips: KI-Investitionen sollen im zweiten Halbjahr 2026 deutlich steigen",
       "description": "Tencent will seine KI-Infrastrukturausgaben im zweiten Halbjahr 2026 deutlich hochfahren – Chefstratege James Mitchell begründet das mit wachsenden Lieferkapazitäten chinesischer Chiphersteller. Ein a",
       "link": "https://the-decoder.de/tencent-setzt-auf-heimische-chips-ki-investitionen-sollen-im-zweiten-halbjahr-2026-deutlich-steigen/",
@@ -83,15 +101,6 @@
       "language": "de"
     },
     {
-      "title": "Meta AI bekommt Incognito-Modus: Chats sollen nicht auf Servern gespeichert werden",
-      "description": "Meta rollt einen \"Incognito Chat\" für Meta AI auf WhatsApp und in der Meta‑AI‑App aus. Laut Mark Zuckerberg werden Gespräche in einer geschützten Serverumgebung verarbeitet, auf die selbst Meta keinen",
-      "link": "https://the-decoder.de/meta-ai-bekommt-incognito-modus-chats-sollen-nicht-auf-servern-gespeichert-werden/",
-      "date": "2026-05-13T17:41:02.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "Building a safe, effective sandbox to enable Codex on Windows",
       "description": "Learn how OpenAI built a secure sandbox for Codex on Windows, enabling safe, efficient coding agents with controlled file access and network restrictions.",
       "link": "https://openai.com/index/building-codex-windows-sandbox",
@@ -105,15 +114,6 @@
       "description": "OpenAI details its response to the TanStack “Mini Shai-Hulud” supply chain attack, outlines protections taken to secure systems and signing certificates, and explains why macOS users must update OpenA",
       "link": "https://openai.com/index/our-response-to-the-tanstack-npm-supply-chain-attack",
       "date": "2026-05-13T00:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "What Parameter Golf taught us about AI-assisted research",
-      "description": "Parameter Golf brought together 1,000+ participants and 2,000+ submissions to explore AI-assisted machine learning research, coding agents, quantization, and novel model design under strict constraint",
-      "link": "https://openai.com/index/what-parameter-golf-taught-us",
-      "date": "2026-05-12T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
