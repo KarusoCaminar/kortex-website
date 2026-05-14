@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-14T00:58:02.030Z",
+  "lastUpdated": "2026-05-14T03:14:38.682Z",
   "news": [
     {
       "title": "Tencent setzt auf heimische Chips: KI-Investitionen sollen im zweiten Halbjahr 2026 deutlich steigen",
@@ -101,6 +101,15 @@
       "language": "de"
     },
     {
+      "title": "How NVIDIA engineers and researchers build with Codex",
+      "description": "Teams use Codex with GPT-5.5 to ship production systems and turn research ideas into runnable experiments.",
+      "link": "https://openai.com/index/nvidia",
+      "date": "2026-05-12T00:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
       "title": "What Parameter Golf taught us about AI-assisted research",
       "description": "Parameter Golf brought together 1,000+ participants and 2,000+ submissions to explore AI-assisted machine learning research, coding agents, quantization, and novel model design under strict constraint",
       "link": "https://openai.com/index/what-parameter-golf-taught-us",
@@ -116,15 +125,6 @@
       "date": "2026-05-12T00:00:00.000Z",
       "source": "OpenAI",
       "category": "workflow-tools",
-      "language": "en"
-    },
-    {
-      "title": "How NVIDIA engineers and researchers build with Codex",
-      "description": "Teams use Codex with GPT-5.5 to ship production systems and turn research ideas into runnable experiments.",
-      "link": "https://openai.com/index/nvidia",
-      "date": "2026-05-12T00:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
       "language": "en"
     },
     {
