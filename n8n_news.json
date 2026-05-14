@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-05-14T10:52:42.866Z",
+  "lastUpdated": "2026-05-14T12:45:51.440Z",
   "news": [
+    {
+      "title": "ChatGPTs Web-Traffic-Anteil fällt in zwölf Monaten von 77 auf 53 Prozent, Gemini holt auf",
+      "description": "ChatGPT hat laut Similarweb binnen zwölf Monaten fast ein Drittel seines Website-Traffic-Anteils verloren: von 77,6 auf 53,7 Prozent. Größter Gewinner ist Google Gemini, das von 7,3 auf 26,7 Prozent z",
+      "link": "https://the-decoder.de/chatgpts-web-traffic-anteil-faellt-in-zwoelf-monaten-von-77-auf-53-prozent-gemini-holt-auf/",
+      "date": "2026-05-14T11:56:25.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Neues Claude Mythos löst erstmals alle Cyber-Angriffssimulationen der britischen KI-Sicherheitsbehörde",
+      "description": "Das britische AI Security Institute korrigiert die Verdopplungszeit von KI-Cyber-Fähigkeiten erneut nach unten – von acht auf 4,7 Monate. Anthropics Claude Mythos Preview löst erstmals alle getesteten",
+      "link": "https://the-decoder.de/neues-claude-mythos-loest-erstmals-alle-cyber-angriffssimulationen-der-britischen-ki-sicherheitsbehoerde/",
+      "date": "2026-05-14T10:58:35.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Microsoft Edge-Copilot bekommt Langzeitgedächtnis und liest auf Wunsch den Browserverlauf mit",
       "description": "Microsoft rüstet den Copilot im Edge-Browser auf: Der KI-Chatbot kann nun alle geöffneten Tabs gleichzeitig auswerten, Produkte vergleichen und Artikel zusammenfassen. Neue Features wie ein Langzeitge",
@@ -83,24 +101,6 @@
       "language": "en"
     },
     {
-      "title": "Recursive verlässt den Stealth-Modus: 4,65 Milliarden Dollar Bewertung für selbstverbessernde KI",
-      "description": "Das KI-Startup Recursive ist offiziell aus dem Stealth-Modus aufgetaucht und nennt rekursive Selbstverbesserung den \"schnellsten Weg zur Superintelligenz\".\nDer Artikel Recursive verlässt den Stealth-M",
-      "link": "https://the-decoder.de/recursive-verlaesst-den-stealth-modus-465-milliarden-dollar-bewertung-fuer-selbstverbessernde-ki/",
-      "date": "2026-05-13T10:29:06.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Google stellt hunderte Ingenieure ein, um Kunden bei der KI-Einführung zu helfen",
-      "description": "Google stellt hunderte Ingenieure ein, um Kunden bei der KI-Einführung zu unterstützen. Ein Eingeständnis, dass die Implementierung weiterhin schwierig ist.\nDer Artikel Google stellt hunderte Ingenieu",
-      "link": "https://the-decoder.de/google-stellt-hunderte-ingenieure-ein-um-kunden-bei-der-ki-einfuehrung-zu-helfen/",
-      "date": "2026-05-13T09:54:12.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "Our response to the TanStack npm supply chain attack",
       "description": "OpenAI details its response to the TanStack “Mini Shai-Hulud” supply chain attack, outlines protections taken to secure systems and signing certificates, and explains why macOS users must update OpenA",
       "link": "https://openai.com/index/our-response-to-the-tanstack-npm-supply-chain-attack",
@@ -119,21 +119,21 @@
       "language": "en"
     },
     {
-      "title": "AutoScout24 scales engineering with AI-powered workflows",
-      "description": "Learn how AutoScout24 Group uses Codex and ChatGPT to speed development cycles, improve code quality, and expand AI adoption.",
-      "link": "https://openai.com/index/autoscout24",
-      "date": "2026-05-12T00:00:00.000Z",
-      "source": "OpenAI",
-      "category": "workflow-tools",
-      "language": "en"
-    },
-    {
       "title": "What Parameter Golf taught us about AI-assisted research",
       "description": "Parameter Golf brought together 1,000+ participants and 2,000+ submissions to explore AI-assisted machine learning research, coding agents, quantization, and novel model design under strict constraint",
       "link": "https://openai.com/index/what-parameter-golf-taught-us",
       "date": "2026-05-12T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
+      "language": "en"
+    },
+    {
+      "title": "AutoScout24 scales engineering with AI-powered workflows",
+      "description": "Learn how AutoScout24 Group uses Codex and ChatGPT to speed development cycles, improve code quality, and expand AI adoption.",
+      "link": "https://openai.com/index/autoscout24",
+      "date": "2026-05-12T00:00:00.000Z",
+      "source": "OpenAI",
+      "category": "workflow-tools",
       "language": "en"
     }
   ]
