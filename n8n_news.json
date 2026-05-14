@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-05-14T07:09:20.203Z",
+  "lastUpdated": "2026-05-14T10:52:42.866Z",
   "news": [
+    {
+      "title": "Microsoft Edge-Copilot bekommt Langzeitgedächtnis und liest auf Wunsch den Browserverlauf mit",
+      "description": "Microsoft rüstet den Copilot im Edge-Browser auf: Der KI-Chatbot kann nun alle geöffneten Tabs gleichzeitig auswerten, Produkte vergleichen und Artikel zusammenfassen. Neue Features wie ein Langzeitge",
+      "link": "https://the-decoder.de/microsoft-edge-copilot-bekommt-langzeitgedaechtnis-und-liest-auf-wunsch-den-browserverlauf-mit/",
+      "date": "2026-05-14T08:12:04.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Neues Claude-Guthaben für Entwickler klingt nach Bonus, ist aber ein versteckter Aufpreis für App-Intensivnutzer",
+      "description": "Anthropic trennt ab dem 15. Juni die programmatische Nutzung von Claude vom bisherigen Abo-Kontingent. Stattdessen führt das Unternehmen ein eigenes monatliches Guthaben ein, das je nach Plan zwischen",
+      "link": "https://the-decoder.de/neues-claude-guthaben-fuer-entwickler-klingt-nach-bonus-ist-aber-ein-versteckter-aufpreis-fuer-app-intensivnutzer/",
+      "date": "2026-05-14T07:36:03.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Tencent setzt auf heimische Chips: KI-Investitionen sollen im zweiten Halbjahr 2026 deutlich steigen",
       "description": "Tencent will seine KI-Infrastrukturausgaben im zweiten Halbjahr 2026 deutlich hochfahren – Chefstratege James Mitchell begründet das mit wachsenden Lieferkapazitäten chinesischer Chiphersteller. Ein a",
@@ -83,15 +101,6 @@
       "language": "de"
     },
     {
-      "title": "Vom Prompt Engineering zum Pointer Engineering: Deepmind macht den Mauszeiger zur KI-Schnittstelle",
-      "description": "Vom Prompt Engineering zum Point Engineering: Deepmind erfindet den Mauszeiger neu.\nDer Artikel Vom Prompt Engineering zum Pointer Engineering: Deepmind macht den Mauszeiger zur KI-Schnittstelle ersch",
-      "link": "https://the-decoder.de/vom-prompt-engineering-zum-point-engineering-deepmind-macht-den-mauszeiger-zur-ki-schnittstelle/",
-      "date": "2026-05-13T09:28:52.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "Our response to the TanStack npm supply chain attack",
       "description": "OpenAI details its response to the TanStack “Mini Shai-Hulud” supply chain attack, outlines protections taken to secure systems and signing certificates, and explains why macOS users must update OpenA",
       "link": "https://openai.com/index/our-response-to-the-tanstack-npm-supply-chain-attack",
@@ -101,18 +110,9 @@
       "language": "en"
     },
     {
-      "title": "Gemini Intelligence macht Autofill, Chrome und Gboard auf Android smarter",
-      "description": "Google führt mit Gemini Intelligence neue KI-Funktionen für Android ein, die mehrstufige Aufgaben automatisieren, Webinhalte zusammenfassen, Formulare ausfüllen und gesprochene Gedanken in klare Textn",
-      "link": "https://the-decoder.de/gemini-intelligence-macht-autofill-chrome-und-gboard-auf-android-smarter/",
-      "date": "2026-05-12T19:22:49.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "What Parameter Golf taught us about AI-assisted research",
-      "description": "Parameter Golf brought together 1,000+ participants and 2,000+ submissions to explore AI-assisted machine learning research, coding agents, quantization, and novel model design under strict constraint",
-      "link": "https://openai.com/index/what-parameter-golf-taught-us",
+      "title": "How NVIDIA engineers and researchers build with Codex",
+      "description": "Teams use Codex with GPT-5.5 to ship production systems and turn research ideas into runnable experiments.",
+      "link": "https://openai.com/index/nvidia",
       "date": "2026-05-12T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
@@ -128,9 +128,9 @@
       "language": "en"
     },
     {
-      "title": "How NVIDIA engineers and researchers build with Codex",
-      "description": "Teams use Codex with GPT-5.5 to ship production systems and turn research ideas into runnable experiments.",
-      "link": "https://openai.com/index/nvidia",
+      "title": "What Parameter Golf taught us about AI-assisted research",
+      "description": "Parameter Golf brought together 1,000+ participants and 2,000+ submissions to explore AI-assisted machine learning research, coding agents, quantization, and novel model design under strict constraint",
+      "link": "https://openai.com/index/what-parameter-golf-taught-us",
       "date": "2026-05-12T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
