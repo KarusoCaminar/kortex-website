@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-05-14T12:45:51.440Z",
+  "lastUpdated": "2026-05-14T14:57:02.803Z",
   "news": [
+    {
+      "title": "USA geben Nvidia-H200-Chips für China frei, doch die Regierung blockiert den Kauf",
+      "description": "Die USA haben rund zehn chinesische Unternehmen, darunter Alibaba, Tencent und ByteDance, für den Kauf von bis zu 75.000 Nvidia-H200-Chips freigegeben. Geliefert wurde bisher kein einziger Chip. Laut",
+      "link": "https://the-decoder.de/usa-geben-nvidia-h200-chips-fuer-china-frei-doch-die-regierung-blockiert-den-kauf/",
+      "date": "2026-05-14T14:50:18.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Qwen-Image-2.0: Weniger Rechenschritte, stärkere Kompression, bessere Prompts",
+      "description": "Alibaba legt den technischen Bericht zu Qwen-Image-2.0 offen: Das Bildmodell komprimiert Bilder doppelt so stark wie üblich, stabilisiert das Training durch einen umgebauten Transformer und nutzt ein",
+      "link": "https://the-decoder.de/qwen-image-2-0-weniger-rechenschritte-staerkere-kompression-bessere-prompts/",
+      "date": "2026-05-14T12:49:44.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "ChatGPTs Web-Traffic-Anteil fällt in zwölf Monaten von 77 auf 53 Prozent, Gemini holt auf",
       "description": "ChatGPT hat laut Similarweb binnen zwölf Monaten fast ein Drittel seines Website-Traffic-Anteils verloren: von 77,6 auf 53,7 Prozent. Größter Gewinner ist Google Gemini, das von 7,3 auf 26,7 Prozent z",
@@ -74,24 +92,6 @@
       "language": "de"
     },
     {
-      "title": "Auf Augenhöhe mit Nano Banana und GPT-Image-2: Luma bringt Bildmodell Uni-1.1 als API",
-      "description": "Luma bringt sein Bildmodell Uni-1.1 als API für Entwickler, mit Preisen ab 0,04 Dollar pro Bild und 2048-Pixel-Auflösung. Im Arena-Ranking liegt das Modell auf Platz 3, direkt hinter Google und OpenAI",
-      "link": "https://the-decoder.de/auf-augenhoehe-mit-nano-banana-und-gpt-image-2-luma-bringt-bildmodell-uni-1-1-als-api/",
-      "date": "2026-05-13T15:29:46.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Chinas KI-Zulieferer können die Nachfrage nicht bedienen, weil Bauteile knapp werden",
-      "description": "Chinas KI-Hardware-Zulieferer können die hohe Nachfrage nicht bedienen, weil wichtige Bauteile knapp sind und Produktionskapazitäten fehlen, berichtet Bloomberg.\nDer Artikel Chinas KI-Zulieferer könne",
-      "link": "https://the-decoder.de/chinas-ki-zulieferer-koennen-die-nachfrage-nicht-bedienen-weil-bauteile-knapp-werden/",
-      "date": "2026-05-13T13:32:31.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "Building a safe, effective sandbox to enable Codex on Windows",
       "description": "Learn how OpenAI built a secure sandbox for Codex on Windows, enabling safe, efficient coding agents with controlled file access and network restrictions.",
       "link": "https://openai.com/index/building-codex-windows-sandbox",
@@ -119,21 +119,21 @@
       "language": "en"
     },
     {
-      "title": "What Parameter Golf taught us about AI-assisted research",
-      "description": "Parameter Golf brought together 1,000+ participants and 2,000+ submissions to explore AI-assisted machine learning research, coding agents, quantization, and novel model design under strict constraint",
-      "link": "https://openai.com/index/what-parameter-golf-taught-us",
-      "date": "2026-05-12T00:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
       "title": "AutoScout24 scales engineering with AI-powered workflows",
       "description": "Learn how AutoScout24 Group uses Codex and ChatGPT to speed development cycles, improve code quality, and expand AI adoption.",
       "link": "https://openai.com/index/autoscout24",
       "date": "2026-05-12T00:00:00.000Z",
       "source": "OpenAI",
       "category": "workflow-tools",
+      "language": "en"
+    },
+    {
+      "title": "What Parameter Golf taught us about AI-assisted research",
+      "description": "Parameter Golf brought together 1,000+ participants and 2,000+ submissions to explore AI-assisted machine learning research, coding agents, quantization, and novel model design under strict constraint",
+      "link": "https://openai.com/index/what-parameter-golf-taught-us",
+      "date": "2026-05-12T00:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
       "language": "en"
     }
   ]
