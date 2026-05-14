@@ -1,77 +1,14 @@
 {
-  "lastUpdated": "2026-05-14T18:43:26.170Z",
+  "lastUpdated": "2026-05-14T20:35:43.997Z",
   "news": [
     {
-      "title": "US-Amerikaner wollen lieber neben einem Atomkraftwerk leben als neben einem KI-Rechenzentrum",
-      "description": "Laut einer Gallup-Umfrage lehnen 71 Prozent der US-Amerikaner den Bau von KI-Rechenzentren in ihrer Nähe ab – deutlich mehr als die 53 Prozent, die gegen ein Atomkraftwerk in der Nachbarschaft sind. H",
-      "link": "https://the-decoder.de/us-amerikaner-wollen-lieber-neben-einem-atomkraftwerk-leben-als-neben-einem-ki-rechenzentrum/",
-      "date": "2026-05-14T17:58:13.000Z",
-      "source": "The Decoder",
+      "title": "Work with Codex from anywhere",
+      "description": "Use Codex anywhere with the ChatGPT mobile app. Monitor, steer, and approve coding tasks in real time across devices and remote environments.",
+      "link": "https://openai.com/index/work-with-codex-from-anywhere",
+      "date": "2026-05-14T13:00:00.000Z",
+      "source": "OpenAI",
       "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Microsoft lässt mehr als 100 KI-Agenten gegeneinander debattieren, um Schwachstellen in Windows aufzuspüren",
-      "description": "Microsoft hat mit MDASH ein Multi-Agenten-System vorgestellt, das über 100 spezialisierte KI-Agenten orchestriert, um Schwachstellen in Software aufzuspüren. Allein zum Patch Tuesday am 12. Mai meldet",
-      "link": "https://the-decoder.de/microsoft-laesst-mehr-als-100-ki-agenten-gegeneinander-debattieren-um-schwachstellen-in-windows-aufzuspueren/",
-      "date": "2026-05-14T15:27:41.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "USA geben Nvidia-H200-Chips für China frei, doch die Regierung blockiert den Kauf",
-      "description": "Die USA haben rund zehn chinesische Unternehmen, darunter Alibaba, Tencent und ByteDance, für den Kauf von bis zu 75.000 Nvidia-H200-Chips freigegeben. Geliefert wurde bisher kein einziger Chip. Laut",
-      "link": "https://the-decoder.de/usa-geben-nvidia-h200-chips-fuer-china-frei-doch-die-regierung-blockiert-den-kauf/",
-      "date": "2026-05-14T14:50:18.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Qwen-Image-2.0: Weniger Rechenschritte, stärkere Kompression, bessere Prompts",
-      "description": "Alibaba legt den technischen Bericht zu Qwen-Image-2.0 offen: Das Bildmodell komprimiert Bilder doppelt so stark wie üblich, stabilisiert das Training durch einen umgebauten Transformer und nutzt ein",
-      "link": "https://the-decoder.de/qwen-image-2-0-weniger-rechenschritte-staerkere-kompression-bessere-prompts/",
-      "date": "2026-05-14T12:49:44.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "ChatGPTs Web-Traffic-Anteil fällt in zwölf Monaten von 77 auf 53 Prozent, Gemini holt auf",
-      "description": "ChatGPT hat laut Similarweb binnen zwölf Monaten fast ein Drittel seines Website-Traffic-Anteils verloren: von 77,6 auf 53,7 Prozent. Größter Gewinner ist Google Gemini, das von 7,3 auf 26,7 Prozent z",
-      "link": "https://the-decoder.de/chatgpts-web-traffic-anteil-faellt-in-zwoelf-monaten-von-77-auf-53-prozent-gemini-holt-auf/",
-      "date": "2026-05-14T11:56:25.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Neues Claude Mythos löst erstmals alle Cyber-Angriffssimulationen der britischen KI-Sicherheitsbehörde",
-      "description": "Das britische AI Security Institute korrigiert die Verdopplungszeit von KI-Cyber-Fähigkeiten erneut nach unten – von acht auf 4,7 Monate. Anthropics Claude Mythos Preview löst erstmals alle getesteten",
-      "link": "https://the-decoder.de/neues-claude-mythos-loest-erstmals-alle-cyber-angriffssimulationen-der-britischen-ki-sicherheitsbehoerde/",
-      "date": "2026-05-14T10:58:35.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Microsoft Edge-Copilot bekommt Langzeitgedächtnis und liest auf Wunsch den Browserverlauf mit",
-      "description": "Microsoft rüstet den Copilot im Edge-Browser auf: Der KI-Chatbot kann nun alle geöffneten Tabs gleichzeitig auswerten, Produkte vergleichen und Artikel zusammenfassen. Neue Features wie ein Langzeitge",
-      "link": "https://the-decoder.de/microsoft-edge-copilot-bekommt-langzeitgedaechtnis-und-liest-auf-wunsch-den-browserverlauf-mit/",
-      "date": "2026-05-14T08:12:04.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Neues Claude-Guthaben für Entwickler klingt nach Bonus, ist aber ein versteckter Aufpreis für App-Intensivnutzer",
-      "description": "Anthropic trennt ab dem 15. Juni die programmatische Nutzung von Claude vom bisherigen Abo-Kontingent. Stattdessen führt das Unternehmen ein eigenes monatliches Guthaben ein, das je nach Plan zwischen",
-      "link": "https://the-decoder.de/neues-claude-guthaben-fuer-entwickler-klingt-nach-bonus-ist-aber-ein-versteckter-aufpreis-fuer-app-intensivnutzer/",
-      "date": "2026-05-14T07:36:03.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
+      "language": "en"
     },
     {
       "title": "Helping ChatGPT better recognize context in sensitive conversations",
@@ -81,24 +18,6 @@
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
-    },
-    {
-      "title": "Tencent setzt auf heimische Chips: KI-Investitionen sollen im zweiten Halbjahr 2026 deutlich steigen",
-      "description": "Tencent will seine KI-Infrastrukturausgaben im zweiten Halbjahr 2026 deutlich hochfahren – Chefstratege James Mitchell begründet das mit wachsenden Lieferkapazitäten chinesischer Chiphersteller. Ein a",
-      "link": "https://the-decoder.de/tencent-setzt-auf-heimische-chips-ki-investitionen-sollen-im-zweiten-halbjahr-2026-deutlich-steigen/",
-      "date": "2026-05-13T18:40:46.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Anthropic überholt OpenAI angeblich erstmals bei B2B-Kunden – doch der Vorsprung ist fragil",
-      "description": "Laut dem Ramp-AI-Index nutzen inzwischen 34,4 Prozent der erfassten US-Unternehmen Anthropic, mehr als OpenAI mit 32,3 Prozent. Anthropic vervierfachte seine Verbreitung binnen eines Jahres. Doch der",
-      "link": "https://the-decoder.de/anthropic-ueberholt-openai-angeblich-erstmals-bei-b2b-kunden-doch-der-vorsprung-ist-fragil/",
-      "date": "2026-05-13T18:15:15.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
     },
     {
       "title": "Building a safe, effective sandbox to enable Codex on Windows",
@@ -119,6 +38,15 @@
       "language": "en"
     },
     {
+      "title": "What Parameter Golf taught us about AI-assisted research",
+      "description": "Parameter Golf brought together 1,000+ participants and 2,000+ submissions to explore AI-assisted machine learning research, coding agents, quantization, and novel model design under strict constraint",
+      "link": "https://openai.com/index/what-parameter-golf-taught-us",
+      "date": "2026-05-12T00:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
       "title": "AutoScout24 scales engineering with AI-powered workflows",
       "description": "Learn how AutoScout24 Group uses Codex and ChatGPT to speed development cycles, improve code quality, and expand AI adoption.",
       "link": "https://openai.com/index/autoscout24",
@@ -132,6 +60,78 @@
       "description": "Teams use Codex with GPT-5.5 to ship production systems and turn research ideas into runnable experiments.",
       "link": "https://openai.com/index/nvidia",
       "date": "2026-05-12T00:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
+      "title": "How ChatGPT adoption broadened in early 2026",
+      "description": "ChatGPT adoption surged in Q1 2026, with fastest growth among users over 35 and more balanced gender usage, signaling broader mainstream AI adoption.",
+      "link": "https://openai.com/signals/research/2026q1-update",
+      "date": "2026-05-11T15:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
+      "title": "OpenAI Campus Network: Student club interest form",
+      "description": "Join the OpenAI Campus Network—connect student clubs worldwide, access AI tools, host events, and build an AI-powered campus community.",
+      "link": "https://openai.com/index/openai-campus-network-student-club-interest-form",
+      "date": "2026-05-11T10:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
+      "title": "How enterprises are scaling AI",
+      "description": "How enterprises scale AI: from early experiments to compounding impact through trust, governance, workflow design, and quality at scale.",
+      "link": "https://openai.com/business/guides-and-resources/how-enterprises-are-scaling-ai",
+      "date": "2026-05-11T10:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
+      "title": "OpenAI launches DeployCo to help businesses build around intelligence",
+      "description": "OpenAI launches DeployCo, a new enterprise deployment company built to help organizations bring frontier AI into production and turn it into measurable business impact.",
+      "link": "https://openai.com/index/openai-launches-the-deployment-company",
+      "date": "2026-05-11T06:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
+      "title": "Running Codex safely at OpenAI",
+      "description": "How OpenAI runs Codex securely with sandboxing, approvals, network policies, and agent-native telemetry to support safe and compliant coding agent adoption.",
+      "link": "https://openai.com/index/running-codex-safely",
+      "date": "2026-05-08T12:30:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
+      "title": "Scaling Trusted Access for Cyber with GPT-5.5 and GPT-5.5-Cyber",
+      "description": "OpenAI expands Trusted Access for Cyber with GPT-5.5 and GPT-5.5-Cyber, helping verified defenders accelerate vulnerability research and protect critical infrastructure.",
+      "link": "https://openai.com/index/gpt-5-5-with-trusted-access-for-cyber",
+      "date": "2026-05-07T13:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
+      "title": "Parloa builds service agents customers want to talk to",
+      "description": "Parloa leverages OpenAI models to power scalable, voice-driven AI customer service agents, enabling enterprises to design, simulate, and deploy reliable, real-time interactions.",
+      "link": "https://openai.com/index/parloa",
+      "date": "2026-05-07T11:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
+      "title": "Advancing voice intelligence with new models in the API",
+      "description": "Explore new realtime voice models in the OpenAI API that can reason, translate, and transcribe speech, enabling more natural and intelligent voice experiences.",
+      "link": "https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api",
+      "date": "2026-05-07T10:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
