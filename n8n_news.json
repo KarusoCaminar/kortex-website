@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-15T05:24:06.341Z",
+  "lastUpdated": "2026-05-15T07:16:09.148Z",
   "news": [
     {
       "title": "Sea's View on the Future of Agentic Software Development with Codex",
@@ -56,21 +56,21 @@
       "language": "en"
     },
     {
-      "title": "How NVIDIA engineers and researchers build with Codex",
-      "description": "Teams use Codex with GPT-5.5 to ship production systems and turn research ideas into runnable experiments.",
-      "link": "https://openai.com/index/nvidia",
-      "date": "2026-05-12T00:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
       "title": "AutoScout24 scales engineering with AI-powered workflows",
       "description": "Learn how AutoScout24 Group uses Codex and ChatGPT to speed development cycles, improve code quality, and expand AI adoption.",
       "link": "https://openai.com/index/autoscout24",
       "date": "2026-05-12T00:00:00.000Z",
       "source": "OpenAI",
       "category": "workflow-tools",
+      "language": "en"
+    },
+    {
+      "title": "How NVIDIA engineers and researchers build with Codex",
+      "description": "Teams use Codex with GPT-5.5 to ship production systems and turn research ideas into runnable experiments.",
+      "link": "https://openai.com/index/nvidia",
+      "date": "2026-05-12T00:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
       "language": "en"
     },
     {
