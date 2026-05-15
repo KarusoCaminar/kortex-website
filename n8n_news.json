@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-14T22:28:27.206Z",
+  "lastUpdated": "2026-05-15T00:55:24.737Z",
   "news": [
     {
       "title": "Work with Codex from anywhere",
@@ -38,15 +38,6 @@
       "language": "en"
     },
     {
-      "title": "AutoScout24 scales engineering with AI-powered workflows",
-      "description": "Learn how AutoScout24 Group uses Codex and ChatGPT to speed development cycles, improve code quality, and expand AI adoption.",
-      "link": "https://openai.com/index/autoscout24",
-      "date": "2026-05-12T00:00:00.000Z",
-      "source": "OpenAI",
-      "category": "workflow-tools",
-      "language": "en"
-    },
-    {
       "title": "How NVIDIA engineers and researchers build with Codex",
       "description": "Teams use Codex with GPT-5.5 to ship production systems and turn research ideas into runnable experiments.",
       "link": "https://openai.com/index/nvidia",
@@ -65,6 +56,15 @@
       "language": "en"
     },
     {
+      "title": "AutoScout24 scales engineering with AI-powered workflows",
+      "description": "Learn how AutoScout24 Group uses Codex and ChatGPT to speed development cycles, improve code quality, and expand AI adoption.",
+      "link": "https://openai.com/index/autoscout24",
+      "date": "2026-05-12T00:00:00.000Z",
+      "source": "OpenAI",
+      "category": "workflow-tools",
+      "language": "en"
+    },
+    {
       "title": "How ChatGPT adoption broadened in early 2026",
       "description": "ChatGPT adoption surged in Q1 2026, with fastest growth among users over 35 and more balanced gender usage, signaling broader mainstream AI adoption.",
       "link": "https://openai.com/signals/research/2026q1-update",
@@ -74,18 +74,18 @@
       "language": "en"
     },
     {
-      "title": "How enterprises are scaling AI",
-      "description": "How enterprises scale AI: from early experiments to compounding impact through trust, governance, workflow design, and quality at scale.",
-      "link": "https://openai.com/business/guides-and-resources/how-enterprises-are-scaling-ai",
+      "title": "OpenAI Campus Network: Student club interest form",
+      "description": "Join the OpenAI Campus Network—connect student clubs worldwide, access AI tools, host events, and build an AI-powered campus community.",
+      "link": "https://openai.com/index/openai-campus-network-student-club-interest-form",
       "date": "2026-05-11T10:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
     },
     {
-      "title": "OpenAI Campus Network: Student club interest form",
-      "description": "Join the OpenAI Campus Network—connect student clubs worldwide, access AI tools, host events, and build an AI-powered campus community.",
-      "link": "https://openai.com/index/openai-campus-network-student-club-interest-form",
+      "title": "How enterprises are scaling AI",
+      "description": "How enterprises scale AI: from early experiments to compounding impact through trust, governance, workflow design, and quality at scale.",
+      "link": "https://openai.com/business/guides-and-resources/how-enterprises-are-scaling-ai",
       "date": "2026-05-11T10:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
