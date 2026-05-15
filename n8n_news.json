@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-05-15T09:11:56.148Z",
+  "lastUpdated": "2026-05-15T10:51:58.606Z",
   "news": [
+    {
+      "title": "Anthropic legt Washington einen Fahrplan zur KI-Vormachtstellung vor",
+      "description": "In einem Policy-Papier entwirft Anthropic zwei Szenarien für 2028: Entweder sichern die USA ihren Compute-Vorsprung gegenüber China, oder autoritäre Regime prägen die Regeln der KI-Ära. Das Timing ist",
+      "link": "https://the-decoder.de/anthropic-legt-washington-einen-fahrplan-zur-ki-vormachtstellung-vor/",
+      "date": "2026-05-15T09:49:51.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "OpenAI bringt Coding-Agent Codex aufs Smartphone",
       "description": "OpenAI macht seinen KI-Coding-Assistenten Codex in der ChatGPT-App für iOS und Android verfügbar.\nDer Artikel OpenAI bringt Coding-Agent Codex aufs Smartphone erschien zuerst auf The Decoder.",
@@ -108,15 +117,6 @@
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
-    },
-    {
-      "title": "Tencent setzt auf heimische Chips: KI-Investitionen sollen im zweiten Halbjahr 2026 deutlich steigen",
-      "description": "Tencent will seine KI-Infrastrukturausgaben im zweiten Halbjahr 2026 deutlich hochfahren – Chefstratege James Mitchell begründet das mit wachsenden Lieferkapazitäten chinesischer Chiphersteller. Ein a",
-      "link": "https://the-decoder.de/tencent-setzt-auf-heimische-chips-ki-investitionen-sollen-im-zweiten-halbjahr-2026-deutlich-steigen/",
-      "date": "2026-05-13T18:40:46.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
     },
     {
       "title": "Building a safe, effective sandbox to enable Codex on Windows",
