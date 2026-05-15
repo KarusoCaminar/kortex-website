@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-05-15T10:51:58.606Z",
+  "lastUpdated": "2026-05-15T12:45:11.413Z",
   "news": [
+    {
+      "title": "Microsoft streicht Claude-Code-Lizenzen und drängt Entwickler zum eigenen KI-Tool",
+      "description": "Tausende Microsoft-Entwickler nutzten Anthropics Claude Code zum Programmieren. Jetzt zieht der Konzern die Lizenzen zurück und setzt auf GitHub Copilot CLI.\nDer Artikel Microsoft streicht Claude-Code",
+      "link": "https://the-decoder.de/microsoft-streicht-claude-code-lizenzen-und-draengt-entwickler-zum-eigenen-ki-tool/",
+      "date": "2026-05-15T12:18:55.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Arxiv verschärft Strafen für KI-Pfusch in wissenschaftlichen Papern",
+      "description": "Der einflussreiche Preprint-Server Arxiv, auf dem Forscher weltweit ihre Arbeiten vor der offiziellen Begutachtung veröffentlichen, verschärft die Regeln für KI-generierte Inhalte.\nDer Artikel Arxiv v",
+      "link": "https://the-decoder.de/arxiv-verschaerft-strafen-fuer-ki-pfusch-in-wissenschaftlichen-papern/",
+      "date": "2026-05-15T12:15:27.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Anthropic legt Washington einen Fahrplan zur KI-Vormachtstellung vor",
       "description": "In einem Policy-Papier entwirft Anthropic zwei Szenarien für 2028: Entweder sichern die USA ihren Compute-Vorsprung gegenüber China, oder autoritäre Regime prägen die Regeln der KI-Ära. Das Timing ist",
@@ -87,24 +105,6 @@
       "description": "Das britische AI Security Institute korrigiert die Verdopplungszeit von KI-Cyber-Fähigkeiten erneut nach unten – von acht auf 4,7 Monate. Anthropics Claude Mythos Preview löst erstmals alle getesteten",
       "link": "https://the-decoder.de/neues-claude-mythos-loest-erstmals-alle-cyber-angriffssimulationen-der-britischen-ki-sicherheitsbehoerde/",
       "date": "2026-05-14T10:58:35.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Microsoft Edge-Copilot bekommt Langzeitgedächtnis und liest auf Wunsch den Browserverlauf mit",
-      "description": "Microsoft rüstet den Copilot im Edge-Browser auf: Der KI-Chatbot kann nun alle geöffneten Tabs gleichzeitig auswerten, Produkte vergleichen und Artikel zusammenfassen. Neue Features wie ein Langzeitge",
-      "link": "https://the-decoder.de/microsoft-edge-copilot-bekommt-langzeitgedaechtnis-und-liest-auf-wunsch-den-browserverlauf-mit/",
-      "date": "2026-05-14T08:12:04.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Neues Claude-Guthaben für Entwickler klingt nach Bonus, ist aber ein versteckter Aufpreis für App-Intensivnutzer",
-      "description": "Anthropic trennt ab dem 15. Juni die programmatische Nutzung von Claude vom bisherigen Abo-Kontingent. Stattdessen führt das Unternehmen ein eigenes monatliches Guthaben ein, das je nach Plan zwischen",
-      "link": "https://the-decoder.de/neues-claude-guthaben-fuer-entwickler-klingt-nach-bonus-ist-aber-ein-versteckter-aufpreis-fuer-app-intensivnutzer/",
-      "date": "2026-05-14T07:36:03.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
