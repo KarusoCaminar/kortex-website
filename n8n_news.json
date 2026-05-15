@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-05-15T12:45:11.413Z",
+  "lastUpdated": "2026-05-15T14:53:24.343Z",
   "news": [
+    {
+      "title": "Grok Build: xAI bringt eigenen Coding-Agenten fürs Terminal",
+      "description": "Elon Musks KI-Firma x.AI zieht mit Grok Build nach und bringt einen eigenen Coding-Agenten fürs Terminal.\nDer Artikel Grok Build: xAI bringt eigenen Coding-Agenten fürs Terminal erschien zuerst auf Th",
+      "link": "https://the-decoder.de/grok-build-xai-bringt-eigenen-coding-agenten-fuers-terminal/",
+      "date": "2026-05-15T13:11:14.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Microsoft streicht Claude-Code-Lizenzen und drängt Entwickler zum eigenen KI-Tool",
       "description": "Tausende Microsoft-Entwickler nutzten Anthropics Claude Code zum Programmieren. Jetzt zieht der Konzern die Lizenzen zurück und setzt auf GitHub Copilot CLI.\nDer Artikel Microsoft streicht Claude-Code",
@@ -96,15 +105,6 @@
       "description": "ChatGPT hat laut Similarweb binnen zwölf Monaten fast ein Drittel seines Website-Traffic-Anteils verloren: von 77,6 auf 53,7 Prozent. Größter Gewinner ist Google Gemini, das von 7,3 auf 26,7 Prozent z",
       "link": "https://the-decoder.de/chatgpts-web-traffic-anteil-faellt-in-zwoelf-monaten-von-77-auf-53-prozent-gemini-holt-auf/",
       "date": "2026-05-14T11:56:25.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Neues Claude Mythos löst erstmals alle Cyber-Angriffssimulationen der britischen KI-Sicherheitsbehörde",
-      "description": "Das britische AI Security Institute korrigiert die Verdopplungszeit von KI-Cyber-Fähigkeiten erneut nach unten – von acht auf 4,7 Monate. Anthropics Claude Mythos Preview löst erstmals alle getesteten",
-      "link": "https://the-decoder.de/neues-claude-mythos-loest-erstmals-alle-cyber-angriffssimulationen-der-britischen-ki-sicherheitsbehoerde/",
-      "date": "2026-05-14T10:58:35.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
