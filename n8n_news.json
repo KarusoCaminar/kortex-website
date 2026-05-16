@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-05-16T06:53:59.352Z",
+  "lastUpdated": "2026-05-16T08:40:06.381Z",
   "news": [
+    {
+      "title": "Zu reich selbst für die Reichen: KI-Boom schafft eine neue Geldelite im Silicon Valley",
+      "description": "Rund 10.000 Menschen im Silicon Valley haben laut Menlo-Ventures-Partner Deedy Das durch den KI-Boom Vermögen von über 20 Millionen Dollar aufgebaut: bei Anthropic, OpenAI, xAI, Meta und Nvidia. Alle",
+      "link": "https://the-decoder.de/zu-reich-selbst-fuer-die-reichen-ki-boom-schafft-eine-neue-geldelite-im-silicon-valley/",
+      "date": "2026-05-16T08:32:55.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Forscher trainieren KI-Modell, das mit 12,5 Prozent seiner Experten fast volle Leistung bringt",
+      "description": "Forscher des Allen Institute for AI und der UC Berkeley haben mit EMO ein Mixture-of-Experts-Modell entwickelt, dessen Experten sich auf inhaltliche Domänen statt auf Wortarten spezialisieren. Das erl",
+      "link": "https://the-decoder.de/forscher-trainieren-ki-modell-das-mit-125-prozent-seiner-experten-fast-volle-leistung-bringt/",
+      "date": "2026-05-16T07:33:11.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Google räumt mit KI-SEO-Mythen auf: Spezielle Optimierung für KI-Suche ist unnötig",
       "description": "Google erklärt die in der SEO-Branche populären Konzepte \"Generative Engine Optimization\" und \"Answer Engine Optimization\" für überflüssig – beides sei schlicht SEO. In einer neuen Dokumentation räumt",
@@ -74,21 +92,21 @@
       "language": "de"
     },
     {
-      "title": "A new personal finance experience in ChatGPT",
-      "description": "Preview a new personal finance experience in ChatGPT for Pro users in the U.S. Securely connect your financial accounts and get AI-powered insights and guidance grounded in your financial context, goa",
-      "link": "https://openai.com/index/personal-finance-chatgpt",
-      "date": "2026-05-15T00:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
       "title": "Databricks brings GPT-5.5 to enterprise agent workflows",
       "description": "Databricks uses GPT-5.5 for enterprise agent workflows after the model set a new state of the art on the OfficeQA Pro benchmark.",
       "link": "https://openai.com/index/databricks",
       "date": "2026-05-15T00:00:00.000Z",
       "source": "OpenAI",
       "category": "workflow-tools",
+      "language": "en"
+    },
+    {
+      "title": "A new personal finance experience in ChatGPT",
+      "description": "Preview a new personal finance experience in ChatGPT for Pro users in the U.S. Securely connect your financial accounts and get AI-powered insights and guidance grounded in your financial context, goa",
+      "link": "https://openai.com/index/personal-finance-chatgpt",
+      "date": "2026-05-15T00:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
       "language": "en"
     },
     {
@@ -99,24 +117,6 @@
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
-    },
-    {
-      "title": "US-Amerikaner wollen lieber neben einem Atomkraftwerk leben als neben einem KI-Rechenzentrum",
-      "description": "Laut einer Gallup-Umfrage lehnen 71 Prozent der US-Amerikaner den Bau von KI-Rechenzentren in ihrer Nähe ab – deutlich mehr als die 53 Prozent, die gegen ein Atomkraftwerk in der Nachbarschaft sind. H",
-      "link": "https://the-decoder.de/us-amerikaner-wollen-lieber-neben-einem-atomkraftwerk-leben-als-neben-einem-ki-rechenzentrum/",
-      "date": "2026-05-14T17:58:13.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Microsoft lässt mehr als 100 KI-Agenten gegeneinander debattieren, um Schwachstellen in Windows aufzuspüren",
-      "description": "Microsoft hat mit MDASH ein Multi-Agenten-System vorgestellt, das über 100 spezialisierte KI-Agenten orchestriert, um Schwachstellen in Software aufzuspüren. Allein zum Patch Tuesday am 12. Mai meldet",
-      "link": "https://the-decoder.de/microsoft-laesst-mehr-als-100-ki-agenten-gegeneinander-debattieren-um-schwachstellen-in-windows-aufzuspueren/",
-      "date": "2026-05-14T15:27:41.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
     },
     {
       "title": "Work with Codex from anywhere",
