@@ -1,6 +1,42 @@
 {
-  "lastUpdated": "2026-05-16T08:40:06.381Z",
+  "lastUpdated": "2026-05-16T12:28:40.466Z",
   "news": [
+    {
+      "title": "YouTube macht sein KI-Deepfake-Erkennungstool jetzt für alle Creator ab 18 Jahren verfügbar",
+      "description": "YouTube öffnet sein Likeness-Detection-Tool für alle Creator ab 18 Jahren. Das System erkennt KI-generierte Gesichtsfälschungen in fremden Videos und ermöglicht direkt über YouTube Studio einen Löscha",
+      "link": "https://the-decoder.de/youtube-macht-sein-ki-deepfake-erkennungstool-jetzt-fuer-alle-creator-ab-18-jahren-verfuegbar/",
+      "date": "2026-05-16T12:13:39.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Neuer Benchmark prüft KI-Videogeneratoren wie Physiklehrer – und gibt schlechte Noten",
+      "description": "Eine neue Benchmark namens WorldReasonBench prüft Videogeneratoren nicht an Bildqualität, sondern an physikalischer und logischer Plausibilität. ByteDances Seedance 2.0 führt das Feld vor Veo 3.1 und",
+      "link": "https://the-decoder.de/neuer-benchmark-prueft-ki-videogeneratoren-wie-physiklehrer-und-gibt-schlechte-noten/",
+      "date": "2026-05-16T10:35:47.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "OpenAI kauft Stimmklon-Start-up, das Prominente wie Taylor Swift und Trump imitieren konnte",
+      "description": "OpenAI hat das Start-up Weights.gg übernommen, eine Plattform zum Teilen von KI-Stimmklonen prominenter Persönlichkeiten wie Taylor Swift oder Donald Trump. Das Team von rund sechs Mitarbeitern arbeit",
+      "link": "https://the-decoder.de/openai-kauft-stimmklon-start-up-das-prominente-wie-taylor-swift-und-trump-imitieren-konnte/",
+      "date": "2026-05-16T10:18:55.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Für 1,3 Millionen Dollar im Monat: OpenClaw-Gründer Peter Steinberger lässt 100 KI-Agenten gleichzeitig coden",
+      "description": "Ein Drei-Personen-Team rund um Peter Steinberger lässt für das Open-Source-Projekt OpenClaw permanent rund 100 Codex-Instanzen laufen und verursacht dadurch monatliche OpenAI-API-Kosten von 1,3 Millio",
+      "link": "https://the-decoder.de/fuer-13-millionen-dollar-im-monat-openclaw-gruender-peter-steinberger-laesst-100-ki-agenten-gleichzeitig-coden/",
+      "date": "2026-05-16T09:46:19.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Zu reich selbst für die Reichen: KI-Boom schafft eine neue Geldelite im Silicon Valley",
       "description": "Rund 10.000 Menschen im Silicon Valley haben laut Menlo-Ventures-Partner Deedy Das durch den KI-Boom Vermögen von über 20 Millionen Dollar aufgebaut: bei Anthropic, OpenAI, xAI, Meta und Nvidia. Alle",
@@ -18,6 +54,15 @@
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
+    },
+    {
+      "title": "OpenAI and Malta partner to bring ChatGPT Plus to all citizens",
+      "description": "OpenAI and Malta partner to expand AI access, offering ChatGPT Plus and training to help citizens build practical AI skills and use AI responsibly.",
+      "link": "https://openai.com/index/malta-chatgpt-plus-partnership",
+      "date": "2026-05-16T00:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
     },
     {
       "title": "Google räumt mit KI-SEO-Mythen auf: Spezielle Optimierung für KI-Suche ist unnötig",
@@ -56,42 +101,6 @@
       "language": "de"
     },
     {
-      "title": "Microsoft streicht Claude-Code-Lizenzen und drängt Entwickler zum eigenen KI-Tool",
-      "description": "Tausende Microsoft-Entwickler nutzten Anthropics Claude Code zum Programmieren. Jetzt zieht der Konzern die Lizenzen zurück und setzt auf GitHub Copilot CLI.\nDer Artikel Microsoft streicht Claude-Code",
-      "link": "https://the-decoder.de/microsoft-streicht-claude-code-lizenzen-und-draengt-entwickler-zum-eigenen-ki-tool/",
-      "date": "2026-05-15T12:18:55.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Arxiv verschärft Strafen für KI-Pfusch in wissenschaftlichen Papern",
-      "description": "Der einflussreiche Preprint-Server Arxiv, auf dem Forscher weltweit ihre Arbeiten vor der offiziellen Begutachtung veröffentlichen, verschärft die Regeln für KI-generierte Inhalte.\nDer Artikel Arxiv v",
-      "link": "https://the-decoder.de/arxiv-verschaerft-strafen-fuer-ki-pfusch-in-wissenschaftlichen-papern/",
-      "date": "2026-05-15T12:15:27.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Anthropic legt Washington einen Fahrplan zur KI-Vormachtstellung vor",
-      "description": "In einem Policy-Papier entwirft Anthropic zwei Szenarien für 2028: Entweder sichern die USA ihren Compute-Vorsprung gegenüber China, oder autoritäre Regime prägen die Regeln der KI-Ära. Das Timing ist",
-      "link": "https://the-decoder.de/anthropic-legt-washington-einen-fahrplan-zur-ki-vormachtstellung-vor/",
-      "date": "2026-05-15T09:49:51.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "OpenAI bringt Coding-Agent Codex aufs Smartphone",
-      "description": "OpenAI macht seinen KI-Coding-Assistenten Codex in der ChatGPT-App für iOS und Android verfügbar.\nDer Artikel OpenAI bringt Coding-Agent Codex aufs Smartphone erschien zuerst auf The Decoder.",
-      "link": "https://the-decoder.de/openai-bringt-coding-agent-codex-aufs-smartphone/",
-      "date": "2026-05-15T08:24:26.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "Databricks brings GPT-5.5 to enterprise agent workflows",
       "description": "Databricks uses GPT-5.5 for enterprise agent workflows after the model set a new state of the art on the OfficeQA Pro benchmark.",
       "link": "https://openai.com/index/databricks",
@@ -123,15 +132,6 @@
       "description": "Use Codex anywhere with the ChatGPT mobile app. Monitor, steer, and approve coding tasks in real time across devices and remote environments.",
       "link": "https://openai.com/index/work-with-codex-from-anywhere",
       "date": "2026-05-14T13:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "Helping ChatGPT better recognize context in sensitive conversations",
-      "description": "Learn how new ChatGPT safety updates improve context awareness in sensitive conversations, helping detect risk over time and respond more safely.",
-      "link": "https://openai.com/index/chatgpt-recognize-context-in-sensitive-conversations",
-      "date": "2026-05-14T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
