@@ -1,6 +1,33 @@
 {
-  "lastUpdated": "2026-05-17T07:05:08.343Z",
+  "lastUpdated": "2026-05-17T08:48:21.913Z",
   "news": [
+    {
+      "title": "Mathe-Benchmark zeigt: KI-Modelle liefern selbstbewusst Antworten auf unlösbare Aufgaben",
+      "description": "Ein Konsortium aus Mathematikern hat mit SOOHAK einen neuen KI-Benchmark aus 439 handgeschriebenen Aufgaben vorgelegt, darunter 99 absichtlich unlösbare Probleme. Googles Gemini 3 Pro führt mit 30 Pro",
+      "link": "https://the-decoder.de/mathe-benchmark-zeigt-ki-modelle-liefern-selbstbewusst-antworten-auf-unloesbare-aufgaben/",
+      "date": "2026-05-17T08:40:52.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Vier KI-Modelle betreiben seit einem halben Jahr jeweils einen eigenen Radiosender, mit sehr unterschiedlichen Ergebnissen",
+      "description": "Andon Labs lässt seit einem halben Jahr vier KI-Modelle – Claude, GPT, Gemini und Grok – jeweils autonom einen Radiosender betreiben. Aus identischen Startbedingungen entstanden völlig unterschiedlich",
+      "link": "https://the-decoder.de/vier-ki-modelle-betreiben-seit-einem-halben-jahr-jeweils-einen-eigenen-radiosender-mit-sehr-unterschiedlichen-ergebnissen/",
+      "date": "2026-05-17T08:13:55.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Oppo zeigt lokalen KI-Agenten X-OmniClaw, der die Smartphone-Sinne bündelt",
+      "description": "Oppos Multi-X-Team veröffentlicht mit X-OmniClaw einen Open-Source-Agenten, der direkt auf Android-Geräten läuft und Kamera, Bildschirm sowie Sprache kombiniert, um Aufgaben in echten Apps zu erledige",
+      "link": "https://the-decoder.de/oppo-zeigt-lokalen-ki-agenten-x-omniclaw-der-die-smartphone-sinne-buendelt/",
+      "date": "2026-05-17T07:18:40.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Neuer Benchmark zeigt: Claude Mythos und GPT-5.5 können echte Browser-Exploits selbstständig entwickeln",
       "description": "Forscher der Carnegie Mellon University haben mit ExploitBench einen neuen Benchmark vorgestellt, der misst, wie weit KI-Agenten bei der Ausnutzung realer Sicherheitslücken in Googles V8-Engine kommen",
@@ -72,33 +99,6 @@
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
-    },
-    {
-      "title": "Google räumt mit KI-SEO-Mythen auf: Spezielle Optimierung für KI-Suche ist unnötig",
-      "description": "Google erklärt die in der SEO-Branche populären Konzepte \"Generative Engine Optimization\" und \"Answer Engine Optimization\" für überflüssig – beides sei schlicht SEO. In einer neuen Dokumentation räumt",
-      "link": "https://the-decoder.de/google-raeumt-mit-ki-seo-mythen-auf-spezielle-optimierung-fuer-ki-suche-ist-unnoetig/",
-      "date": "2026-05-15T18:11:56.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "OpenAI macht ChatGPT zum persönlichen Finanzberater mit direktem Kontozugang",
-      "description": "OpenAI macht ChatGPT zum persönlichen Finanzassistenten: Pro-Nutzer in den USA können ab sofort Bankkonten über Plaid verbinden und erhalten auf Basis realer Transaktionsdaten personalisierte Analysen",
-      "link": "https://the-decoder.de/openai-macht-chatgpt-zum-persoenlichen-finanzberater-mit-direktem-kontozugang/",
-      "date": "2026-05-15T17:20:49.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Anthropic überholt OpenAI: Neue Mega-Finanzierung bringt Bewertung auf 900 Milliarden Dollar",
-      "description": "Anthropic sammelt erneut 30 Milliarden Dollar ein – nur drei Monate nach der letzten Runde in gleicher Höhe. Die Bewertung des KI-Labors steigt damit auf 900 Milliarden Dollar und überholt erstmals Ri",
-      "link": "https://the-decoder.de/anthropic-ueberholt-openai-neue-mega-finanzierung-bringt-bewertung-auf-900-milliarden-dollar/",
-      "date": "2026-05-15T16:49:05.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
     },
     {
       "title": "Databricks brings GPT-5.5 to enterprise agent workflows",
