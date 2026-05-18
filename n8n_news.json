@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-05-18T05:29:30.634Z",
+  "lastUpdated": "2026-05-18T09:20:40.390Z",
   "news": [
+    {
+      "title": "Anthropic und OpenAI kontrollieren 89% der KI-Startup-Umsätze - der Rest teilt sich die Krümel",
+      "description": "Anthropic und OpenAI vereinen laut einer Analyse von The Information inzwischen 89 Prozent der Umsätze unter den führenden KI-Startups auf sich.\nDer Artikel Anthropic und OpenAI kontrollieren 89% der",
+      "link": "https://the-decoder.de/anthropic-und-openai-kontrollieren-89-der-ki-startup-umsaetze-der-rest-teilt-sich-die-kruemel/",
+      "date": "2026-05-18T07:42:38.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "World Action Models: Forscher kartieren das nächste Paradigma der Robotik-KI",
       "description": "World Action Models beschreiben ein neues Forschungsparadigma, das eine Schwäche heutiger Roboter-KI adressieren soll. Die Modelle sollen passende Bewegungen zu Kamerabildern lernen und zusätzlich vor",
@@ -83,19 +92,19 @@
       "language": "de"
     },
     {
-      "title": "OpenAI kauft Stimmklon-Start-up, das Prominente wie Taylor Swift und Trump imitieren konnte",
-      "description": "OpenAI hat das Start-up Weights.gg übernommen, eine Plattform zum Teilen von KI-Stimmklonen prominenter Persönlichkeiten wie Taylor Swift oder Donald Trump. Das Team von rund sechs Mitarbeitern arbeit",
-      "link": "https://the-decoder.de/openai-kauft-stimmklon-start-up-das-prominente-wie-taylor-swift-und-trump-imitieren-konnte/",
-      "date": "2026-05-16T10:18:55.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "OpenAI and Malta partner to bring ChatGPT Plus to all citizens",
       "description": "OpenAI and Malta partner to expand AI access, offering ChatGPT Plus and training to help citizens build practical AI skills and use AI responsibly.",
       "link": "https://openai.com/index/malta-chatgpt-plus-partnership",
       "date": "2026-05-16T00:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
+      "title": "A new personal finance experience in ChatGPT",
+      "description": "Preview a new personal finance experience in ChatGPT for Pro users in the U.S. Securely connect your financial accounts and get AI-powered insights and guidance grounded in your financial context, goa",
+      "link": "https://openai.com/index/personal-finance-chatgpt",
+      "date": "2026-05-15T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
@@ -107,15 +116,6 @@
       "date": "2026-05-15T00:00:00.000Z",
       "source": "OpenAI",
       "category": "workflow-tools",
-      "language": "en"
-    },
-    {
-      "title": "A new personal finance experience in ChatGPT",
-      "description": "Preview a new personal finance experience in ChatGPT for Pro users in the U.S. Securely connect your financial accounts and get AI-powered insights and guidance grounded in your financial context, goa",
-      "link": "https://openai.com/index/personal-finance-chatgpt",
-      "date": "2026-05-15T00:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
       "language": "en"
     },
     {
