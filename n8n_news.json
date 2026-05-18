@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-05-18T17:02:52.473Z",
+  "lastUpdated": "2026-05-18T18:43:13.262Z",
   "news": [
+    {
+      "title": "Elon Musk verliert Gerichtsverfahren gegen CEO Sam Altman und OpenAI",
+      "description": "Elon Musk hat seinen Rechtsstreit gegen Sam Altman und OpenAI verloren. Die Jury in Oakland wies die Klage nach nur zwei Stunden Beratung ab. Musk hatte bis zu 134 Milliarden Dollar gefordert. Die Ric",
+      "link": "https://the-decoder.de/musk-verliert-gerichtsverfahren-gegen-altman-und-openai/",
+      "date": "2026-05-18T18:13:50.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Cursors Composer 2.5 verspricht OpenAI- und Anthropic-Leistung zum Bruchteil des Preises",
+      "description": "Cursor veröffentlicht Composer 2.5, ein auf Kimi K2.5 basierendes KI-Coding-Modell, das mit 25-mal mehr synthetischen Trainingsaufgaben als sein Vorgänger trainiert wurde. In Benchmarks erreicht es da",
+      "link": "https://the-decoder.de/cursors-composer-2-5-verspricht-openai-und-anthropic-leistung-zum-bruchteil-des-preises/",
+      "date": "2026-05-18T17:29:01.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Anthropic-Mitgründer spricht bei Vorstellung der ersten KI-Enzyklika des Papstes",
       "description": "Papst Leo XIV. stellt am 25. Mai seine erste Enzyklika zu künstlicher Intelligenz vor. Anthropic-Mitgründer Christopher Olah ist als Gastredner geladen.\nDer Artikel Anthropic-Mitgründer spricht bei Vo",
@@ -36,6 +54,15 @@
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
+    },
+    {
+      "title": "OpenAI and Dell partner to bring Codex to hybrid and on-premise enterprise environments",
+      "description": "OpenAI and Dell partner to bring Codex to hybrid and on-premise environments, helping enterprises deploy AI coding agents securely across data and workflows.",
+      "link": "https://openai.com/index/dell-codex-enterprise-partnership",
+      "date": "2026-05-18T10:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
     },
     {
       "title": "Anthropic und OpenAI kontrollieren 89% der KI-Startup-Umsätze - der Rest teilt sich die Krümel",
@@ -74,37 +101,10 @@
       "language": "de"
     },
     {
-      "title": "Mathe-Benchmark zeigt: KI-Modelle liefern selbstbewusst Antworten auf unlösbare Aufgaben",
-      "description": "Ein Konsortium aus Mathematikern hat mit SOOHAK einen neuen KI-Benchmark aus 439 handgeschriebenen Aufgaben vorgelegt, darunter 99 absichtlich unlösbare Probleme. Googles Gemini 3 Pro führt mit 30 Pro",
-      "link": "https://the-decoder.de/mathe-benchmark-zeigt-ki-modelle-liefern-selbstbewusst-antworten-auf-unloesbare-aufgaben/",
-      "date": "2026-05-17T08:40:52.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Vier KI-Modelle betreiben seit einem halben Jahr jeweils einen eigenen Radiosender, mit sehr unterschiedlichen Ergebnissen",
-      "description": "Andon Labs lässt seit einem halben Jahr vier KI-Modelle – Claude, GPT, Gemini und Grok – jeweils autonom einen Radiosender betreiben. Aus identischen Startbedingungen entstanden völlig unterschiedlich",
-      "link": "https://the-decoder.de/vier-ki-modelle-betreiben-seit-einem-halben-jahr-jeweils-einen-eigenen-radiosender-mit-sehr-unterschiedlichen-ergebnissen/",
-      "date": "2026-05-17T08:13:55.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "OpenAI and Malta partner to bring ChatGPT Plus to all citizens",
       "description": "OpenAI and Malta partner to expand AI access, offering ChatGPT Plus and training to help citizens build practical AI skills and use AI responsibly.",
       "link": "https://openai.com/index/malta-chatgpt-plus-partnership",
       "date": "2026-05-16T00:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "A new personal finance experience in ChatGPT",
-      "description": "Preview a new personal finance experience in ChatGPT for Pro users in the U.S. Securely connect your financial accounts and get AI-powered insights and guidance grounded in your financial context, goa",
-      "link": "https://openai.com/index/personal-finance-chatgpt",
-      "date": "2026-05-15T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
@@ -119,19 +119,19 @@
       "language": "en"
     },
     {
-      "title": "Sea's View on the Future of Agentic Software Development with Codex",
-      "description": "Sea Limited's CPO explains why the company is deploying Codex across engineering teams to accelerate AI-native software development in Asia.",
-      "link": "https://openai.com/index/sea-david-chen",
-      "date": "2026-05-14T20:30:00.000Z",
+      "title": "A new personal finance experience in ChatGPT",
+      "description": "Preview a new personal finance experience in ChatGPT for Pro users in the U.S. Securely connect your financial accounts and get AI-powered insights and guidance grounded in your financial context, goa",
+      "link": "https://openai.com/index/personal-finance-chatgpt",
+      "date": "2026-05-15T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
     },
     {
-      "title": "Work with Codex from anywhere",
-      "description": "Use Codex anywhere with the ChatGPT mobile app. Monitor, steer, and approve coding tasks in real time across devices and remote environments.",
-      "link": "https://openai.com/index/work-with-codex-from-anywhere",
-      "date": "2026-05-14T13:00:00.000Z",
+      "title": "Sea's View on the Future of Agentic Software Development with Codex",
+      "description": "Sea Limited's CPO explains why the company is deploying Codex across engineering teams to accelerate AI-native software development in Asia.",
+      "link": "https://openai.com/index/sea-david-chen",
+      "date": "2026-05-14T20:30:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
