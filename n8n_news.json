@@ -1,6 +1,33 @@
 {
-  "lastUpdated": "2026-05-18T09:20:40.390Z",
+  "lastUpdated": "2026-05-18T13:24:29.831Z",
   "news": [
+    {
+      "title": "MAGA-Koalition fordert von Trump verpflichtende Sicherheitstests für KI-Modelle",
+      "description": "Eine Koalition konservativer Organisationen unter Führung von Humans First hat US-Präsident Donald Trump in einem offenen Brief aufgefordert, per Executive Order verpflichtende Sicherheitstests für Fr",
+      "link": "https://the-decoder.de/maga-koalition-fordert-von-trump-verpflichtende-sicherheitstests-fuer-ki-modelle/",
+      "date": "2026-05-18T12:30:55.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Anthropic informiert globale Finanzaufseher über Cyberrisiken durch KI-Modell Mythos",
+      "description": "Anthropic wird führende Finanzministerien und Zentralbanken über Schwachstellen in der Cyberabwehr des globalen Finanzsystems informieren, die das neue KI-Modell Claude Mythos Preview aufgedeckt hat.",
+      "link": "https://the-decoder.de/anthropic-informiert-globale-finanzaufseher-ueber-cyberrisiken-durch-ki-modell-mythos/",
+      "date": "2026-05-18T11:41:41.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Stanford-Absolvent über vier Jahre mit ChatGPT: \"Nur ein bisschen Betrug\"",
+      "description": "Der Stanford-Student Theo Baker beschreibt in einem Gastbeitrag für die New York Times, wie ChatGPT seinen kompletten Studienjahrgang geprägt hat. Sein Befund: KI hat eine ohnehin vorhandene Täuschung",
+      "link": "https://the-decoder.de/stanford-absolvent-ueber-vier-jahre-mit-chatgpt-nur-ein-bisschen-betrug/",
+      "date": "2026-05-18T11:27:07.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Anthropic und OpenAI kontrollieren 89% der KI-Startup-Umsätze - der Rest teilt sich die Krümel",
       "description": "Anthropic und OpenAI vereinen laut einer Analyse von The Information inzwischen 89 Prozent der Umsätze unter den führenden KI-Startups auf sich.\nDer Artikel Anthropic und OpenAI kontrollieren 89% der",
@@ -65,46 +92,10 @@
       "language": "de"
     },
     {
-      "title": "Neuer Benchmark zeigt: Claude Mythos und GPT-5.5 können echte Browser-Exploits selbstständig entwickeln",
-      "description": "Forscher der Carnegie Mellon University haben mit ExploitBench einen neuen Benchmark vorgestellt, der misst, wie weit KI-Agenten bei der Ausnutzung realer Sicherheitslücken in Googles V8-Engine kommen",
-      "link": "https://the-decoder.de/neuer-benchmark-zeigt-claude-mythos-und-gpt-5-5-koennen-echte-browser-exploits-selbststaendig-entwickeln/",
-      "date": "2026-05-16T12:54:05.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "YouTube macht sein KI-Deepfake-Erkennungstool jetzt für alle Creator ab 18 Jahren verfügbar",
-      "description": "YouTube öffnet sein Likeness-Detection-Tool für alle Creator ab 18 Jahren. Das System erkennt KI-generierte Gesichtsfälschungen in fremden Videos und ermöglicht direkt über YouTube Studio einen Löscha",
-      "link": "https://the-decoder.de/youtube-macht-sein-ki-deepfake-erkennungstool-jetzt-fuer-alle-creator-ab-18-jahren-verfuegbar/",
-      "date": "2026-05-16T12:13:39.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Neuer Benchmark prüft KI-Videogeneratoren wie Physiklehrer – und gibt schlechte Noten",
-      "description": "Eine neue Benchmark namens WorldReasonBench prüft Videogeneratoren nicht an Bildqualität, sondern an physikalischer und logischer Plausibilität. ByteDances Seedance 2.0 führt das Feld vor Veo 3.1 und",
-      "link": "https://the-decoder.de/neuer-benchmark-prueft-ki-videogeneratoren-wie-physiklehrer-und-gibt-schlechte-noten/",
-      "date": "2026-05-16T10:35:47.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "OpenAI and Malta partner to bring ChatGPT Plus to all citizens",
       "description": "OpenAI and Malta partner to expand AI access, offering ChatGPT Plus and training to help citizens build practical AI skills and use AI responsibly.",
       "link": "https://openai.com/index/malta-chatgpt-plus-partnership",
       "date": "2026-05-16T00:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "A new personal finance experience in ChatGPT",
-      "description": "Preview a new personal finance experience in ChatGPT for Pro users in the U.S. Securely connect your financial accounts and get AI-powered insights and guidance grounded in your financial context, goa",
-      "link": "https://openai.com/index/personal-finance-chatgpt",
-      "date": "2026-05-15T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
@@ -116,6 +107,15 @@
       "date": "2026-05-15T00:00:00.000Z",
       "source": "OpenAI",
       "category": "workflow-tools",
+      "language": "en"
+    },
+    {
+      "title": "A new personal finance experience in ChatGPT",
+      "description": "Preview a new personal finance experience in ChatGPT for Pro users in the U.S. Securely connect your financial accounts and get AI-powered insights and guidance grounded in your financial context, goa",
+      "link": "https://openai.com/index/personal-finance-chatgpt",
+      "date": "2026-05-15T00:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
       "language": "en"
     },
     {
