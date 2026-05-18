@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-05-18T15:10:22.030Z",
+  "lastUpdated": "2026-05-18T17:02:52.473Z",
   "news": [
+    {
+      "title": "Anthropic-Mitgründer spricht bei Vorstellung der ersten KI-Enzyklika des Papstes",
+      "description": "Papst Leo XIV. stellt am 25. Mai seine erste Enzyklika zu künstlicher Intelligenz vor. Anthropic-Mitgründer Christopher Olah ist als Gastredner geladen.\nDer Artikel Anthropic-Mitgründer spricht bei Vo",
+      "link": "https://the-decoder.de/anthropic-mitgruender-spricht-bei-vorstellung-der-ersten-ki-enzyklika-des-papstes/",
+      "date": "2026-05-18T15:23:40.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "MAGA-Koalition fordert von Trump verpflichtende Sicherheitstests für KI-Modelle",
       "description": "Eine Koalition konservativer Organisationen unter Führung von Humans First hat US-Präsident Donald Trump in einem offenen Brief aufgefordert, per Executive Order verpflichtende Sicherheitstests für Fr",
@@ -83,19 +92,19 @@
       "language": "de"
     },
     {
-      "title": "Oppo zeigt lokalen KI-Agenten X-OmniClaw, der die Smartphone-Sinne bündelt",
-      "description": "Oppos Multi-X-Team veröffentlicht mit X-OmniClaw einen Open-Source-Agenten, der direkt auf Android-Geräten läuft und Kamera, Bildschirm sowie Sprache kombiniert, um Aufgaben in echten Apps zu erledige",
-      "link": "https://the-decoder.de/oppo-zeigt-lokalen-ki-agenten-x-omniclaw-der-die-smartphone-sinne-buendelt/",
-      "date": "2026-05-17T07:18:40.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "OpenAI and Malta partner to bring ChatGPT Plus to all citizens",
       "description": "OpenAI and Malta partner to expand AI access, offering ChatGPT Plus and training to help citizens build practical AI skills and use AI responsibly.",
       "link": "https://openai.com/index/malta-chatgpt-plus-partnership",
       "date": "2026-05-16T00:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
+      "title": "A new personal finance experience in ChatGPT",
+      "description": "Preview a new personal finance experience in ChatGPT for Pro users in the U.S. Securely connect your financial accounts and get AI-powered insights and guidance grounded in your financial context, goa",
+      "link": "https://openai.com/index/personal-finance-chatgpt",
+      "date": "2026-05-15T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
@@ -107,15 +116,6 @@
       "date": "2026-05-15T00:00:00.000Z",
       "source": "OpenAI",
       "category": "workflow-tools",
-      "language": "en"
-    },
-    {
-      "title": "A new personal finance experience in ChatGPT",
-      "description": "Preview a new personal finance experience in ChatGPT for Pro users in the U.S. Securely connect your financial accounts and get AI-powered insights and guidance grounded in your financial context, goa",
-      "link": "https://openai.com/index/personal-finance-chatgpt",
-      "date": "2026-05-15T00:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
       "language": "en"
     },
     {
