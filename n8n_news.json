@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-05-19T09:18:31.971Z",
+  "lastUpdated": "2026-05-19T11:09:16.759Z",
   "news": [
+    {
+      "title": "Anthropic bringt mit neuen Infrastruktur-Updates mehr Agenten-Kontrolle direkt in Unternehmen",
+      "description": "Anthropic erweitert Claude Managed Agents um selbst gehostete Sandboxes und MCP Tunnels. Unternehmen können damit die Tool-Ausführung ihrer KI-Agenten in die eigene Infrastruktur verlagern. Die volle",
+      "link": "https://the-decoder.de/anthropic-bringt-mit-neuen-infrastruktur-updates-mehr-agenten-kontrolle-direkt-in-unternehmen/",
+      "date": "2026-05-19T09:42:11.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Zu spät geklagt: Elon Musk verliert Gerichtsverfahren gegen OpenAI",
       "description": "Elon Musk hat seinen Rechtsstreit gegen Sam Altman und OpenAI verloren. Die Jury in Oakland wies die Klage nach nur zwei Stunden Beratung ab. Musk hatte bis zu 134 Milliarden Dollar gefordert. Die Ric",
@@ -92,19 +101,19 @@
       "language": "de"
     },
     {
-      "title": "Mistral-CEO warnt: Europas Cybersicherheit darf nicht von US-KI-Modellen abhänge",
-      "description": "Mistral-CEO Arthur Mensch warnt vor Europas wachsender Cybersecurity-Abhängigkeit: Frankreichs Militär-Codebasen dürften nicht von US-Systemen gescannt werden. Moderne KI-Modelle könnten Angriffe orch",
-      "link": "https://the-decoder.de/mistral-ceo-warnt-europas-cybersicherheit-darf-nicht-von-us-ki-modellen-abhaenge/",
-      "date": "2026-05-17T09:11:30.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "OpenAI and Malta partner to bring ChatGPT Plus to all citizens",
       "description": "OpenAI and Malta partner to expand AI access, offering ChatGPT Plus and training to help citizens build practical AI skills and use AI responsibly.",
       "link": "https://openai.com/index/malta-chatgpt-plus-partnership",
       "date": "2026-05-16T00:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
+      "title": "A new personal finance experience in ChatGPT",
+      "description": "Preview a new personal finance experience in ChatGPT for Pro users in the U.S. Securely connect your financial accounts and get AI-powered insights and guidance grounded in your financial context, goa",
+      "link": "https://openai.com/index/personal-finance-chatgpt",
+      "date": "2026-05-15T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
@@ -116,15 +125,6 @@
       "date": "2026-05-15T00:00:00.000Z",
       "source": "OpenAI",
       "category": "workflow-tools",
-      "language": "en"
-    },
-    {
-      "title": "A new personal finance experience in ChatGPT",
-      "description": "Preview a new personal finance experience in ChatGPT for Pro users in the U.S. Securely connect your financial accounts and get AI-powered insights and guidance grounded in your financial context, goa",
-      "link": "https://openai.com/index/personal-finance-chatgpt",
-      "date": "2026-05-15T00:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
       "language": "en"
     },
     {
