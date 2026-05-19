@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-05-19T15:11:18.325Z",
+  "lastUpdated": "2026-05-19T17:04:14.194Z",
   "news": [
+    {
+      "title": "\"Transformative Jahre\" voraus: Ex-OpenAI-Forscher Andrej Karpathy schließt sich Anthropic an",
+      "description": "Andrej Karpathy, einer der bekanntesten KI-Forscher der Branche, wechselt zu Anthropic. Der frühere OpenAI-Mitgründer und Tesla-Autopilot-Entwickler will zurück in die Forschung – die nächsten Jahre a",
+      "link": "https://the-decoder.de/transformative-jahre-voraus-ex-openai-forscher-andrej-karpathy-schliesst-sich-anthropic-an/",
+      "date": "2026-05-19T15:20:27.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Agora-1 macht den N64-Klassiker GoldenEye zur spielbaren KI-Simulation für vier Personen",
       "description": "Odyssey hat mit Agora-1 ein World-Model veröffentlicht, das erstmals bis zu vier Spieler gleichzeitig in einer KI-generierten Welt agieren lässt – getestet am N64-Klassiker GoldenEye. Zwei getrennte M",
@@ -78,15 +87,6 @@
       "description": "Anthropic wird führende Finanzministerien und Zentralbanken über Schwachstellen in der Cyberabwehr des globalen Finanzsystems informieren, die das neue KI-Modell Claude Mythos Preview aufgedeckt hat.",
       "link": "https://the-decoder.de/anthropic-informiert-globale-finanzaufseher-ueber-cyberrisiken-durch-ki-modell-mythos/",
       "date": "2026-05-18T11:41:41.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Stanford-Absolvent über vier Jahre mit ChatGPT: \"Nur ein bisschen Betrug\"",
-      "description": "Der Stanford-Student Theo Baker beschreibt in einem Gastbeitrag für die New York Times, wie ChatGPT seinen kompletten Studienjahrgang geprägt hat. Sein Befund: KI hat eine ohnehin vorhandene Täuschung",
-      "link": "https://the-decoder.de/stanford-absolvent-ueber-vier-jahre-mit-chatgpt-nur-ein-bisschen-betrug/",
-      "date": "2026-05-18T11:27:07.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
