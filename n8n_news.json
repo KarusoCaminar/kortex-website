@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-05-19T18:44:02.927Z",
+  "lastUpdated": "2026-05-19T20:39:56.748Z",
   "news": [
+    {
+      "title": "Google sortiert seine KI-Abos neu und bietet drei Stufen ab 7,99 Euro im Monat",
+      "description": "Google strukturiert auf der I/O 2026 seine KI-Abos neu: Drei Stufen von 7,99 bis 99,99 Euro monatlich bieten gestaffelte Nutzungslimits, neue Modelle wie Gemini Omni und den KI-Agenten Gemini Spark. S",
+      "link": "https://the-decoder.de/google-sortiert-seine-ki-abos-neu-und-bietet-drei-stufen-ab-799-euro-im-monat/",
+      "date": "2026-05-19T19:19:12.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "\"Transformative Jahre\" voraus: Ex-OpenAI-Forscher Andrej Karpathy schließt sich Anthropic an",
       "description": "Andrej Karpathy, einer der bekanntesten KI-Forscher der Branche, wechselt zu Anthropic. Der frühere OpenAI-Mitgründer und Tesla-Autopilot-Entwickler will zurück in die Forschung – die nächsten Jahre a",
@@ -87,15 +96,6 @@
       "description": "Papst Leo XIV. stellt am 25. Mai seine erste Enzyklika zu künstlicher Intelligenz vor. Anthropic-Mitgründer Christopher Olah ist als Gastredner geladen.\nDer Artikel Anthropic-Mitgründer spricht bei Vo",
       "link": "https://the-decoder.de/anthropic-mitgruender-spricht-bei-vorstellung-der-ersten-ki-enzyklika-des-papstes/",
       "date": "2026-05-18T15:23:40.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "MAGA-Koalition fordert von Trump verpflichtende Sicherheitstests für KI-Modelle",
-      "description": "Eine Koalition konservativer Organisationen unter Führung von Humans First hat US-Präsident Donald Trump in einem offenen Brief aufgefordert, per Executive Order verpflichtende Sicherheitstests für Fr",
-      "link": "https://the-decoder.de/maga-koalition-fordert-von-trump-verpflichtende-sicherheitstests-fuer-ki-modelle/",
-      "date": "2026-05-18T12:30:55.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
