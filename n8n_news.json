@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-05-19T13:16:45.442Z",
+  "lastUpdated": "2026-05-19T15:11:18.325Z",
   "news": [
+    {
+      "title": "Agora-1 macht den N64-Klassiker GoldenEye zur spielbaren KI-Simulation für vier Personen",
+      "description": "Odyssey hat mit Agora-1 ein World-Model veröffentlicht, das erstmals bis zu vier Spieler gleichzeitig in einer KI-generierten Welt agieren lässt – getestet am N64-Klassiker GoldenEye. Zwei getrennte M",
+      "link": "https://the-decoder.de/odyssey-zeigt-mit-agora-1-ein-world-model-in-dem-mehrere-spieler-dieselbe-ki-welt-teilen/",
+      "date": "2026-05-19T13:40:38.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Mistral AI kauft Wiener Physik-Startup Emmi AI",
       "description": "Das französische KI-Unternehmen Mistral AI hat das Wiener Startup Emmi AI übernommen, um sein Angebot für Industriekunden in Europa auszubauen.\nDer Artikel Mistral AI kauft Wiener Physik-Startup Emmi",
@@ -90,15 +99,6 @@
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
-    },
-    {
-      "title": "Anthropic und OpenAI kontrollieren 89% der KI-Startup-Umsätze - der Rest teilt sich die Krümel",
-      "description": "Anthropic und OpenAI vereinen laut einer Analyse von The Information inzwischen 89 Prozent der Umsätze unter den führenden KI-Startups auf sich.\nDer Artikel Anthropic und OpenAI kontrollieren 89% der",
-      "link": "https://the-decoder.de/anthropic-und-openai-kontrollieren-89-der-ki-startup-umsaetze-der-rest-teilt-sich-die-kruemel/",
-      "date": "2026-05-18T07:42:38.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
     },
     {
       "title": "OpenAI and Malta partner to bring ChatGPT Plus to all citizens",
