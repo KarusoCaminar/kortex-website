@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-05-19T11:09:16.759Z",
+  "lastUpdated": "2026-05-19T13:16:45.442Z",
   "news": [
+    {
+      "title": "Mistral AI kauft Wiener Physik-Startup Emmi AI",
+      "description": "Das französische KI-Unternehmen Mistral AI hat das Wiener Startup Emmi AI übernommen, um sein Angebot für Industriekunden in Europa auszubauen.\nDer Artikel Mistral AI kauft Wiener Physik-Startup Emmi",
+      "link": "https://the-decoder.de/mistral-ai-kauft-wiener-physik-startup-emmi-ai/",
+      "date": "2026-05-19T11:25:09.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Im Test von Cloudflare baut Mythos Preview eigenständig Exploitketten aus kleinen Fehlern",
+      "description": "Cloudflare hat Anthropics Sicherheits-KI Mythos Preview im Rahmen von Project Glasswing an über 50 eigenen Code-Repositories getestet.\nDer Artikel Im Test von Cloudflare baut Mythos Preview eigenständ",
+      "link": "https://the-decoder.de/im-test-von-cloudflare-baut-mythos-preview-eigenstaendig-exploitketten-aus-kleinen-fehlern/",
+      "date": "2026-05-19T11:10:48.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Anthropic bringt mit neuen Infrastruktur-Updates mehr Agenten-Kontrolle direkt in Unternehmen",
       "description": "Anthropic erweitert Claude Managed Agents um selbst gehostete Sandboxes und MCP Tunnels. Unternehmen können damit die Tool-Ausführung ihrer KI-Agenten in die eigene Infrastruktur verlagern. Die volle",
@@ -78,24 +96,6 @@
       "description": "Anthropic und OpenAI vereinen laut einer Analyse von The Information inzwischen 89 Prozent der Umsätze unter den führenden KI-Startups auf sich.\nDer Artikel Anthropic und OpenAI kontrollieren 89% der",
       "link": "https://the-decoder.de/anthropic-und-openai-kontrollieren-89-der-ki-startup-umsaetze-der-rest-teilt-sich-die-kruemel/",
       "date": "2026-05-18T07:42:38.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "World Action Models: Forscher kartieren das nächste Paradigma der Robotik-KI",
-      "description": "World Action Models beschreiben ein neues Forschungsparadigma, das eine Schwäche heutiger Roboter-KI adressieren soll. Die Modelle sollen passende Bewegungen zu Kamerabildern lernen und zusätzlich vor",
-      "link": "https://the-decoder.de/world-action-models-forscher-kartieren-das-naechste-paradigma-der-robotik-ki/",
-      "date": "2026-05-17T12:53:25.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "OpenAI vereint ChatGPT, Codex und API in einem Produktteam unter neuem Chef",
-      "description": "OpenAI bündelt ChatGPT, den Coding-Agenten Codex und die Entwickler-API unter einem einzigen Produktteam, geleitet von Codex-Chef Thibault Sottiaux. Ziel ist eine geplante \"Super-App\", die auch den At",
-      "link": "https://the-decoder.de/openai-vereint-chatgpt-codex-und-api-in-einem-produktteam-unter-neuem-chef/",
-      "date": "2026-05-17T09:47:41.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
