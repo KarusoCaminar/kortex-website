@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-05-20T03:15:16.385Z",
+  "lastUpdated": "2026-05-20T05:27:45.117Z",
   "news": [
+    {
+      "title": "Introducing OpenAI for Singapore",
+      "description": "OpenAI for Singapore launches a multi-year AI partnership to expand deployment, build local talent, and support businesses and public services with AI.",
+      "link": "https://openai.com/index/introducing-openai-for-singapore",
+      "date": "2026-05-19T20:30:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
     {
       "title": "Google sortiert seine KI-Abos neu und bietet drei Stufen ab 7,99 Euro im Monat",
       "description": "Google strukturiert auf der I/O 2026 seine KI-Abos neu: Drei Stufen von 7,99 bis 99,99 Euro monatlich bieten gestaffelte Nutzungslimits, neue Modelle wie Gemini Omni und den KI-Agenten Gemini Spark. S",
@@ -114,15 +123,6 @@
       "description": "OpenAI and Malta partner to expand AI access, offering ChatGPT Plus and training to help citizens build practical AI skills and use AI responsibly.",
       "link": "https://openai.com/index/malta-chatgpt-plus-partnership",
       "date": "2026-05-16T00:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "A new personal finance experience in ChatGPT",
-      "description": "Preview a new personal finance experience in ChatGPT for Pro users in the U.S. Securely connect your financial accounts and get AI-powered insights and guidance grounded in your financial context, goa",
-      "link": "https://openai.com/index/personal-finance-chatgpt",
-      "date": "2026-05-15T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
