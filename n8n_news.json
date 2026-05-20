@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-05-20T13:01:57.630Z",
+  "lastUpdated": "2026-05-20T15:10:25.966Z",
   "news": [
+    {
+      "title": "Stable Audio 3.0 erscheint mit offenen Gewichten und voll lizenzierten Trainingsdaten",
+      "description": "Stability AI stellt mit Stable Audio 3.0 vier neue Musikmodelle vor, drei davon mit offenen Gewichten. Das Medium-Modell erzeugt mit 1,4 Milliarden Parametern Tracks von über sechs Minuten – trainiert",
+      "link": "https://the-decoder.de/stable-audio-3-0-erscheint-mit-offenen-gewichten-und-voll-lizenzierten-trainingsdaten/",
+      "date": "2026-05-20T14:59:32.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Street View trifft Weltmodell: Googles Project Genie generiert begehbare Versionen echter Orte",
       "description": "Google Deepmind verknüpft sein Weltmodell Genie 3 mit Street-View-Bildern: Nutzer setzen einen Pin auf der Karte und erhalten eine begehbare, KI-generierte Welt auf Basis realer Orte. Googles jahrelan",
@@ -105,15 +114,6 @@
       "description": "Anthropic erweitert Claude Managed Agents um selbst gehostete Sandboxes und MCP Tunnels. Unternehmen können damit die Tool-Ausführung ihrer KI-Agenten in die eigene Infrastruktur verlagern. Die volle",
       "link": "https://the-decoder.de/anthropic-bringt-mit-neuen-infrastruktur-updates-mehr-agenten-kontrolle-direkt-in-unternehmen/",
       "date": "2026-05-19T09:42:11.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Zu spät geklagt: Elon Musk verliert Gerichtsverfahren gegen OpenAI",
-      "description": "Elon Musk hat seinen Rechtsstreit gegen Sam Altman und OpenAI verloren. Die Jury in Oakland wies die Klage nach nur zwei Stunden Beratung ab. Musk hatte bis zu 134 Milliarden Dollar gefordert. Die Ric",
-      "link": "https://the-decoder.de/zu-spaet-geklagt-elon-musk-verliert-gerichtsverfahren-gegen-openai/",
-      "date": "2026-05-19T08:48:50.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
