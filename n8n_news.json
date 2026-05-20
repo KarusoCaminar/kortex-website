@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-05-20T17:10:57.043Z",
+  "lastUpdated": "2026-05-20T18:54:41.817Z",
   "news": [
+    {
+      "title": "Deepseek will mit \"Deepseek Code\" direkt gegen Claude Code und OpenAIs Codex antreten",
+      "description": "Deepseek baut ein neues Team in Peking auf, das unter dem Arbeitstitel \"Deepseek Code\" einen eigenen KI-Code-Agenten entwickeln soll: in direkter Konkurrenz zu Claude Code, Codex und Cursor. Bewerber",
+      "link": "https://the-decoder.de/deepseek-will-mit-deepseek-code-direkt-gegen-claude-code-und-openais-codex-antreten/",
+      "date": "2026-05-20T18:38:47.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Kampf gegen KI-Spam: LinkedIn will den KI-Geist zurück in die Flasche drängen",
+      "description": "LinkedIn geht mit neuen Erkennungssystemen gegen massenhaft KI-generierte Inhalte vor: sogenannten \"AI Slop\". In ersten Tests will die Plattform generische Beiträge mit 94 Prozent Trefferquote identif",
+      "link": "https://the-decoder.de/kampf-gegen-ki-spam-linkedin-will-den-ki-geist-zurueck-in-die-flasche-draengen/",
+      "date": "2026-05-20T18:05:23.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Google testet die App-Version der \"SaaSpocalypse\"",
       "description": "Google AI Studio kann jetzt native Android-Apps per Prompt erzeugen – gebaut in Kotlin mit Jetpack Compose, testbar im Browser-Emulator. Für einfache Utility-Apps wie Tracker oder Checklisten könnte d",
@@ -87,24 +105,6 @@
       "description": "Odyssey hat mit Agora-1 ein World-Model veröffentlicht, das erstmals bis zu vier Spieler gleichzeitig in einer KI-generierten Welt agieren lässt – getestet am N64-Klassiker GoldenEye. Zwei getrennte M",
       "link": "https://the-decoder.de/odyssey-zeigt-mit-agora-1-ein-world-model-in-dem-mehrere-spieler-dieselbe-ki-welt-teilen/",
       "date": "2026-05-19T13:40:38.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Mistral AI kauft Wiener Physik-Startup Emmi AI",
-      "description": "Das französische KI-Unternehmen Mistral AI hat das Wiener Startup Emmi AI übernommen, um sein Angebot für Industriekunden in Europa auszubauen.\nDer Artikel Mistral AI kauft Wiener Physik-Startup Emmi",
-      "link": "https://the-decoder.de/mistral-ai-kauft-wiener-physik-startup-emmi-ai/",
-      "date": "2026-05-19T11:25:09.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Im Test von Cloudflare baut Mythos Preview eigenständig Exploitketten aus kleinen Fehlern",
-      "description": "Cloudflare hat Anthropics Sicherheits-KI Mythos Preview im Rahmen von Project Glasswing an über 50 eigenen Code-Repositories getestet.\nDer Artikel Im Test von Cloudflare baut Mythos Preview eigenständ",
-      "link": "https://the-decoder.de/im-test-von-cloudflare-baut-mythos-preview-eigenstaendig-exploitketten-aus-kleinen-fehlern/",
-      "date": "2026-05-19T11:10:48.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
