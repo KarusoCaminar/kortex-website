@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-05-20T15:10:25.966Z",
+  "lastUpdated": "2026-05-20T17:10:57.043Z",
   "news": [
+    {
+      "title": "Google testet die App-Version der \"SaaSpocalypse\"",
+      "description": "Google AI Studio kann jetzt native Android-Apps per Prompt erzeugen – gebaut in Kotlin mit Jetpack Compose, testbar im Browser-Emulator. Für einfache Utility-Apps wie Tracker oder Checklisten könnte d",
+      "link": "https://the-decoder.de/google-testet-die-app-version-der-saaspocalypse/",
+      "date": "2026-05-20T15:19:50.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Stable Audio 3.0 erscheint mit offenen Gewichten und voll lizenzierten Trainingsdaten",
       "description": "Stability AI stellt mit Stable Audio 3.0 vier neue Musikmodelle vor, drei davon mit offenen Gewichten. Das Medium-Modell erzeugt mit 1,4 Milliarden Parametern Tracks von über sechs Minuten – trainiert",
@@ -108,15 +117,6 @@
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
-    },
-    {
-      "title": "Anthropic bringt mit neuen Infrastruktur-Updates mehr Agenten-Kontrolle direkt in Unternehmen",
-      "description": "Anthropic erweitert Claude Managed Agents um selbst gehostete Sandboxes und MCP Tunnels. Unternehmen können damit die Tool-Ausführung ihrer KI-Agenten in die eigene Infrastruktur verlagern. Die volle",
-      "link": "https://the-decoder.de/anthropic-bringt-mit-neuen-infrastruktur-updates-mehr-agenten-kontrolle-direkt-in-unternehmen/",
-      "date": "2026-05-19T09:42:11.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
     },
     {
       "title": "OpenAI and Dell partner to bring Codex to hybrid and on-premise enterprise environments",
