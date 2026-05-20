@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-20T01:01:18.980Z",
+  "lastUpdated": "2026-05-20T03:15:16.385Z",
   "news": [
     {
       "title": "Google sortiert seine KI-Abos neu und bietet drei Stufen ab 7,99 Euro im Monat",
@@ -119,21 +119,21 @@
       "language": "en"
     },
     {
-      "title": "Databricks brings GPT-5.5 to enterprise agent workflows",
-      "description": "Databricks uses GPT-5.5 for enterprise agent workflows after the model set a new state of the art on the OfficeQA Pro benchmark.",
-      "link": "https://openai.com/index/databricks",
-      "date": "2026-05-15T00:00:00.000Z",
-      "source": "OpenAI",
-      "category": "workflow-tools",
-      "language": "en"
-    },
-    {
       "title": "A new personal finance experience in ChatGPT",
       "description": "Preview a new personal finance experience in ChatGPT for Pro users in the U.S. Securely connect your financial accounts and get AI-powered insights and guidance grounded in your financial context, goa",
       "link": "https://openai.com/index/personal-finance-chatgpt",
       "date": "2026-05-15T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
+      "language": "en"
+    },
+    {
+      "title": "Databricks brings GPT-5.5 to enterprise agent workflows",
+      "description": "Databricks uses GPT-5.5 for enterprise agent workflows after the model set a new state of the art on the OfficeQA Pro benchmark.",
+      "link": "https://openai.com/index/databricks",
+      "date": "2026-05-15T00:00:00.000Z",
+      "source": "OpenAI",
+      "category": "workflow-tools",
       "language": "en"
     }
   ]
