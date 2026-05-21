@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-21T16:59:05.819Z",
+  "lastUpdated": "2026-05-21T18:44:40.238Z",
   "news": [
     {
       "title": "OpenAI widerlegt Erdős-Vermutung: Was der \"Meilenstein in der KI-Mathematik\" für die Zukunft des Fachs bedeutet",
@@ -27,6 +27,15 @@
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
+    },
+    {
+      "title": "AdventHealth advances whole-person care with OpenAI",
+      "description": "AdventHealth is using ChatGPT for Healthcare to streamline workflows, reduce administrative burden, and return more time to patient care.",
+      "link": "https://openai.com/index/adventhealth",
+      "date": "2026-05-21T12:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
     },
     {
       "title": "Das erste KI-Labor in den schwarzen Zahlen heißt Anthropic",
@@ -101,18 +110,18 @@
       "language": "en"
     },
     {
-      "title": "How Ramp engineers accelerate code review with Codex",
-      "description": "How Ramp engineers use Codex with GPT-5.5 to review code and ship improvements, allowing them to get substantive feedback in minutes instead of hours.",
-      "link": "https://openai.com/index/ramp",
+      "title": "The next phase of OpenAI’s Education for Countries",
+      "description": "OpenAI advances Education for Countries, expanding AI adoption in schools with new partnerships, teacher training, and tools to improve global learning outcomes.",
+      "link": "https://openai.com/index/the-next-phase-of-education-for-countries",
       "date": "2026-05-20T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
     },
     {
-      "title": "The next phase of OpenAI’s Education for Countries",
-      "description": "OpenAI advances Education for Countries, expanding AI adoption in schools with new partnerships, teacher training, and tools to improve global learning outcomes.",
-      "link": "https://openai.com/index/the-next-phase-of-education-for-countries",
+      "title": "How Ramp engineers accelerate code review with Codex",
+      "description": "How Ramp engineers use Codex with GPT-5.5 to review code and ship improvements, allowing them to get substantive feedback in minutes instead of hours.",
+      "link": "https://openai.com/index/ramp",
       "date": "2026-05-20T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
@@ -123,15 +132,6 @@
       "description": "OpenAI for Singapore launches a multi-year AI partnership to expand deployment, build local talent, and support businesses and public services with AI.",
       "link": "https://openai.com/index/introducing-openai-for-singapore",
       "date": "2026-05-19T20:30:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "Advancing content provenance for a safer, more transparent AI ecosystem",
-      "description": "OpenAI advances AI content provenance with Content Credentials, SynthID, and a verification tool to help people identify and trust AI-generated media.",
-      "link": "https://openai.com/index/advancing-content-provenance",
-      "date": "2026-05-19T10:45:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
