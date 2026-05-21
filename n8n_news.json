@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-05-21T18:44:40.238Z",
+  "lastUpdated": "2026-05-21T22:33:08.553Z",
   "news": [
+    {
+      "title": "Google testet Websites auf llms.txt und Agenten-Kompatibilität",
+      "description": "Google prüft mit einer neuen experimentellen Kategorie namens \"Agentic Browsing\" in seinem Analyse-Werkzeug Lighthouse, wie gut Websites auf KI-Agenten vorbereitet sind.\nDer Artikel Google testet Webs",
+      "link": "https://the-decoder.de/google-testet-websites-auf-llms-txt-und-agenten-kompatibilitaet/",
+      "date": "2026-05-21T19:07:33.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "OpenAI widerlegt Erdős-Vermutung: Was der \"Meilenstein in der KI-Mathematik\" für die Zukunft des Fachs bedeutet",
       "description": "Ein Reasoning-Modell von OpenAI hat eine seit 1946 offene Vermutung des Mathematikers Paul Erdős zur Unit-Distance-Geometrie widerlegt – mit Werkzeugen aus der algebraischen Zahlentheorie, die Fachleu",
@@ -92,18 +101,9 @@
       "language": "de"
     },
     {
-      "title": "Google testet die App-Version der \"SaaSpocalypse\"",
-      "description": "Google AI Studio kann jetzt native Android-Apps per Prompt erzeugen – gebaut in Kotlin mit Jetpack Compose, testbar im Browser-Emulator. Für einfache Utility-Apps wie Tracker oder Checklisten könnte d",
-      "link": "https://the-decoder.de/google-testet-die-app-version-der-saaspocalypse/",
-      "date": "2026-05-20T15:19:50.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "An OpenAI model has disproved a central conjecture in discrete geometry",
-      "description": "An OpenAI model solved the 80-year-old unit distance problem, disproving a major conjecture in discrete geometry and marking a milestone in AI-driven mathematics.",
-      "link": "https://openai.com/index/model-disproves-discrete-geometry-conjecture",
+      "title": "How Ramp engineers accelerate code review with Codex",
+      "description": "How Ramp engineers use Codex with GPT-5.5 to review code and ship improvements, allowing them to get substantive feedback in minutes instead of hours.",
+      "link": "https://openai.com/index/ramp",
       "date": "2026-05-20T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
@@ -119,9 +119,9 @@
       "language": "en"
     },
     {
-      "title": "How Ramp engineers accelerate code review with Codex",
-      "description": "How Ramp engineers use Codex with GPT-5.5 to review code and ship improvements, allowing them to get substantive feedback in minutes instead of hours.",
-      "link": "https://openai.com/index/ramp",
+      "title": "An OpenAI model has disproved a central conjecture in discrete geometry",
+      "description": "An OpenAI model solved the 80-year-old unit distance problem, disproving a major conjecture in discrete geometry and marking a milestone in AI-driven mathematics.",
+      "link": "https://openai.com/index/model-disproves-discrete-geometry-conjecture",
       "date": "2026-05-20T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
