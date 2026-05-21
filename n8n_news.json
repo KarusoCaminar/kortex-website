@@ -1,6 +1,33 @@
 {
-  "lastUpdated": "2026-05-21T11:10:25.712Z",
+  "lastUpdated": "2026-05-21T13:17:23.280Z",
   "news": [
+    {
+      "title": "US Cyber Command: Neue Task Force soll KI von Google und OpenAI in US-Geheimdienste integrieren",
+      "description": "Das US Cyber Command hat eine Task Force gegründet, um KI-Modelle von OpenAI, Google und anderen auf den geheimsten Netzwerken von Pentagon und NSA einzusetzen. Auslöser sind KI-Systeme wie Anthropics",
+      "link": "https://the-decoder.de/us-cyber-command-neue-task-force-soll-ki-von-google-und-openai-in-us-geheimdienste-integrieren/",
+      "date": "2026-05-21T12:18:44.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Cohere veröffentlicht Open-Source-Modell Command A+ für Enterprise-Agenten",
+      "description": "Das kanadische KI-Unternehmen Cohere veröffentlicht sein bisher leistungsstärkstes Sprachmodell Command A+ als Open Source unter Apache-2.0-Lizenz.\nDer Artikel Cohere veröffentlicht Open-Source-Modell",
+      "link": "https://the-decoder.de/cohere-veroeffentlicht-open-source-modell-command-a-fuer-enterprise-agenten/",
+      "date": "2026-05-21T12:01:35.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Das erste KI-Labor in den schwarzen Zahlen heißt Anthropic",
+      "description": "Anthropic rechnet laut WSJ für das Juni-Quartal mit einem operativen Gewinn von 559 Millionen Dollar – Jahre früher als geplant. Der Umsatz stieg um 130 Prozent auf 10,9 Milliarden Dollar, getrieben v",
+      "link": "https://the-decoder.de/das-erste-ki-labor-in-den-schwarzen-zahlen-heisst-anthropic/",
+      "date": "2026-05-21T11:26:30.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "OpenAI steht kurz vor dem Börsengang und könnte noch diese Woche Unterlagen einreichen",
       "description": "OpenAI bereitet laut Wall Street Journal einen Börsengang vor und könnte schon in den nächsten Tagen vertrauliche Unterlagen bei der US-Börsenaufsicht einreichen.\nDer Artikel OpenAI steht kurz vor dem",
@@ -65,24 +92,6 @@
       "language": "de"
     },
     {
-      "title": "Street View trifft Weltmodell: Googles Project Genie generiert begehbare Versionen echter Orte",
-      "description": "Google Deepmind verknüpft sein Weltmodell Genie 3 mit Street-View-Bildern: Nutzer setzen einen Pin auf der Karte und erhalten eine begehbare, KI-generierte Welt auf Basis realer Orte. Googles jahrelan",
-      "link": "https://the-decoder.de/street-view-trifft-weltmodell-googles-project-genie-generiert-begehbare-versionen-echter-orte/",
-      "date": "2026-05-20T10:38:28.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "KI wird teurer: Googles neues KI-Modell Gemini 3.5 Flash setzt den Trend fort",
-      "description": "Googles Gemini 3.5 Flash ist deutlich leistungsfähiger als sein Vorgänger, kostet im Betrieb aber 5,5-mal so viel. Bei agentischen Aufgaben übersteigen die Gesamtkosten sogar die des teureren Gemini 3",
-      "link": "https://the-decoder.de/ki-wird-teurer-googles-neues-ki-modell-gemini-3-5-flash-setzt-den-trend-fort/",
-      "date": "2026-05-20T09:20:51.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "The next phase of OpenAI’s Education for Countries",
       "description": "OpenAI advances Education for Countries, expanding AI adoption in schools with new partnerships, teacher training, and tools to improve global learning outcomes.",
       "link": "https://openai.com/index/the-next-phase-of-education-for-countries",
@@ -117,15 +126,6 @@
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
-    },
-    {
-      "title": "Google sortiert seine KI-Abos neu und bietet drei Stufen ab 7,99 Euro im Monat",
-      "description": "Google strukturiert auf der I/O 2026 seine KI-Abos neu: Drei Stufen von 7,99 bis 99,99 Euro monatlich bieten gestaffelte Nutzungslimits, neue Modelle wie Gemini Omni und den KI-Agenten Gemini Spark. S",
-      "link": "https://the-decoder.de/google-sortiert-seine-ki-abos-neu-und-bietet-drei-stufen-ab-799-euro-im-monat/",
-      "date": "2026-05-19T19:19:12.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
     },
     {
       "title": "Advancing content provenance for a safer, more transparent AI ecosystem",
