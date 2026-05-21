@@ -1,6 +1,33 @@
 {
-  "lastUpdated": "2026-05-21T09:16:13.432Z",
+  "lastUpdated": "2026-05-21T11:10:25.712Z",
   "news": [
+    {
+      "title": "OpenAI steht kurz vor dem Börsengang und könnte noch diese Woche Unterlagen einreichen",
+      "description": "OpenAI bereitet laut Wall Street Journal einen Börsengang vor und könnte schon in den nächsten Tagen vertrauliche Unterlagen bei der US-Börsenaufsicht einreichen.\nDer Artikel OpenAI steht kurz vor dem",
+      "link": "https://the-decoder.de/openai-steht-kurz-vor-dem-boersengang-und-koennte-noch-diese-woche-unterlagen-einreichen/",
+      "date": "2026-05-21T10:48:36.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "SpaceX-Börsengang enthüllt Milliardenverluste, massive KI-Ambitionen und drohende Konflikte um xAI-Rechenzentren",
+      "description": "SpaceX hat seinen IPO-Antrag eingereicht und will bis zu 75 Milliarden Dollar einsammeln – bei einer angestrebten Bewertung von 2 Billionen Dollar. Die integrierte xAI-Sparte verursachte 2025 allein 6",
+      "link": "https://the-decoder.de/spacex-boersengang-enthuellt-milliardenverluste-massive-ki-ambitionen-und-drohende-konflikte-um-xai-rechenzentren/",
+      "date": "2026-05-21T10:38:21.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "SAP und Mistral AI bauen KI-Helfer für Firmensoftware",
+      "description": "SAP nutzt KI-Modelle von Mistral AI, um die Migration auf S/4HANA zu vereinfachen.\nDer Artikel SAP und Mistral AI bauen KI-Helfer für Firmensoftware erschien zuerst auf The Decoder.",
+      "link": "https://the-decoder.de/sap-und-mistral-ai-bauen-ki-helfer-fuer-firmensoftware/",
+      "date": "2026-05-21T09:23:18.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Deepseek will mit \"Deepseek Code\" direkt gegen Claude Code und OpenAIs Codex antreten",
       "description": "Deepseek baut ein neues Team in Peking auf, das unter dem Arbeitstitel \"Deepseek Code\" einen eigenen KI-Code-Agenten entwickeln soll: in direkter Konkurrenz zu Claude Code, Codex und Cursor. Bewerber",
@@ -96,33 +123,6 @@
       "description": "Google strukturiert auf der I/O 2026 seine KI-Abos neu: Drei Stufen von 7,99 bis 99,99 Euro monatlich bieten gestaffelte Nutzungslimits, neue Modelle wie Gemini Omni und den KI-Agenten Gemini Spark. S",
       "link": "https://the-decoder.de/google-sortiert-seine-ki-abos-neu-und-bietet-drei-stufen-ab-799-euro-im-monat/",
       "date": "2026-05-19T19:19:12.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "\"Transformative Jahre\" voraus: Ex-OpenAI-Forscher Andrej Karpathy schließt sich Anthropic an",
-      "description": "Andrej Karpathy, einer der bekanntesten KI-Forscher der Branche, wechselt zu Anthropic. Der frühere OpenAI-Mitgründer und Tesla-Autopilot-Entwickler will zurück in die Forschung – die nächsten Jahre a",
-      "link": "https://the-decoder.de/transformative-jahre-voraus-ex-openai-forscher-andrej-karpathy-schliesst-sich-anthropic-an/",
-      "date": "2026-05-19T18:19:27.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Googles I/O KI-News: Neue Modelle, ein Cloud-Agent, der nie schläft, und eine runderneuerte Gemini-App",
-      "description": "Google hat auf seiner Entwicklerkonferenz I/O eine ganze Reihe neuer KI-Produkte angekündigt. Im Mittelpunkt stehen das neue Modell Gemini 3.5 Flash, das neue multimodale Modell Gemini Omni und ein pe",
-      "link": "https://the-decoder.de/googles-i-o-ki-news-neue-modelle-ein-cloud-agent-der-nie-schlaeft-und-eine-runderneuerte-gemini-app/",
-      "date": "2026-05-19T17:44:27.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Agora-1 macht den N64-Klassiker GoldenEye zur spielbaren KI-Simulation für vier Personen",
-      "description": "Odyssey hat mit Agora-1 ein World-Model veröffentlicht, das erstmals bis zu vier Spieler gleichzeitig in einer KI-generierten Welt agieren lässt – getestet am N64-Klassiker GoldenEye. Zwei getrennte M",
-      "link": "https://the-decoder.de/odyssey-zeigt-mit-agora-1-ein-world-model-in-dem-mehrere-spieler-dieselbe-ki-welt-teilen/",
-      "date": "2026-05-19T13:40:38.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
