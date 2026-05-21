@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-05-21T13:17:23.280Z",
+  "lastUpdated": "2026-05-21T15:12:40.139Z",
   "news": [
+    {
+      "title": "OpenAI widerlegt Erdős-Vermutung: Was der \"Meilenstein in der KI-Mathematik\" für die Zukunft des Fachs bedeutet",
+      "description": "Ein Reasoning-Modell von OpenAI hat eine seit 1946 offene Vermutung des Mathematikers Paul Erdős zur Unit-Distance-Geometrie widerlegt – mit Werkzeugen aus der algebraischen Zahlentheorie, die Fachleu",
+      "link": "https://the-decoder.de/openai-widerlegt-erdos-vermutung-was-der-meilenstein-in-der-ki-mathematik-fuer-die-zukunft-des-fachs-bedeutet/",
+      "date": "2026-05-21T14:54:50.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "US Cyber Command: Neue Task Force soll KI von Google und OpenAI in US-Geheimdienste integrieren",
       "description": "Das US Cyber Command hat eine Task Force gegründet, um KI-Modelle von OpenAI, Google und anderen auf den geheimsten Netzwerken von Pentagon und NSA einzusetzen. Auslöser sind KI-Systeme wie Anthropics",
@@ -83,24 +92,6 @@
       "language": "de"
     },
     {
-      "title": "Stable Audio 3.0 erscheint mit offenen Gewichten und voll lizenzierten Trainingsdaten",
-      "description": "Stability AI stellt mit Stable Audio 3.0 vier neue Musikmodelle vor, drei davon mit offenen Gewichten. Das Medium-Modell erzeugt mit 1,4 Milliarden Parametern Tracks von über sechs Minuten – trainiert",
-      "link": "https://the-decoder.de/stable-audio-3-0-erscheint-mit-offenen-gewichten-und-voll-lizenzierten-trainingsdaten/",
-      "date": "2026-05-20T14:59:32.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "The next phase of OpenAI’s Education for Countries",
-      "description": "OpenAI advances Education for Countries, expanding AI adoption in schools with new partnerships, teacher training, and tools to improve global learning outcomes.",
-      "link": "https://openai.com/index/the-next-phase-of-education-for-countries",
-      "date": "2026-05-20T00:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
       "title": "An OpenAI model has disproved a central conjecture in discrete geometry",
       "description": "An OpenAI model solved the 80-year-old unit distance problem, disproving a major conjecture in discrete geometry and marking a milestone in AI-driven mathematics.",
       "link": "https://openai.com/index/model-disproves-discrete-geometry-conjecture",
@@ -113,6 +104,15 @@
       "title": "How Ramp engineers accelerate code review with Codex",
       "description": "How Ramp engineers use Codex with GPT-5.5 to review code and ship improvements, allowing them to get substantive feedback in minutes instead of hours.",
       "link": "https://openai.com/index/ramp",
+      "date": "2026-05-20T00:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
+      "title": "The next phase of OpenAI’s Education for Countries",
+      "description": "OpenAI advances Education for Countries, expanding AI adoption in schools with new partnerships, teacher training, and tools to improve global learning outcomes.",
+      "link": "https://openai.com/index/the-next-phase-of-education-for-countries",
       "date": "2026-05-20T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
