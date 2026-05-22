@@ -1,6 +1,42 @@
 {
-  "lastUpdated": "2026-05-22T16:49:46.923Z",
+  "lastUpdated": "2026-05-22T22:27:00.050Z",
   "news": [
+    {
+      "title": "Cloudflare-CEO erklärt KI-Entlassungen: Wer baut und verkauft, bleibt – wer misst und kontrolliert, geht",
+      "description": "Cloudflare-CEO Matthew Prince entlässt trotz Rekordumsatz über 20 Prozent der Belegschaft, angeblich, weil KI mittleres Management und Compliance-Funktionen ersetze. Belastbare Belege dafür liefert da",
+      "link": "https://the-decoder.de/cloudflare-ceo-erklaert-ki-entlassungen-wer-baut-und-verkauft-bleibt-wer-misst-und-kontrolliert-geht/",
+      "date": "2026-05-22T18:33:55.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "OpenAI veröffentlicht ChatGPT-Plugin, das direkt in PowerPoint arbeitet",
+      "description": "OpenAI bringt ChatGPT direkt in PowerPoint: Ein neues Beta-Plugin erstellt Präsentationen aus Notizen, Dokumenten oder Bildern und bearbeitet bestehende Folien. Das Add-in ist weltweit für alle Tarife",
+      "link": "https://the-decoder.de/openai-veroeffentlicht-chatgpt-plugin-das-direkt-in-powerpoint-arbeitet/",
+      "date": "2026-05-22T17:44:50.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Deepseek will trotz Milliarden-Finanzierung weiter AGI-Forschung über schnelle Gewinne stellen",
+      "description": "Deepseek steht vor einer Finanzierungsrunde von rund 10 Milliarden US-Dollar, die das chinesische KI-Startup mit etwa 45 Milliarden US-Dollar bewerten würde. Gründer Liang Wenfeng betont gegenüber Inv",
+      "link": "https://the-decoder.de/deepseek-will-trotz-milliarden-finanzierung-weiter-agi-forschung-ueber-schnelle-gewinne-stellen/",
+      "date": "2026-05-22T16:56:58.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "OpenAI Codex bekommt Appshots: App-Fenster per Tastendruck an die KI senden",
+      "description": "Mit der neuen Codex-Funktion Appshots können Mac-Nutzer den Inhalt eines beliebigen App-Fensters per Tastendruck an OpenAIs Coding-Assistenten Codex übergeben, damit dieser den nötigen Kontext für ein",
+      "link": "https://the-decoder.de/openai-codex-bekommt-appshots-app-fenster-per-tastendruck-an-die-ki-senden/",
+      "date": "2026-05-22T16:56:20.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Kaliforniens Gouverneur ordnet Prüfung von Subventionen, Umschulungen und Basiskapital gegen KI-Arbeitslosigkeit an",
       "description": "Kaliforniens Gouverneur Gavin Newsom hat eine Exekutivanordnung unterzeichnet, die den Schutz von Arbeitnehmern vor KI-bedingtem Jobverlust zum Ziel hat.\nDer Artikel Kaliforniens Gouverneur ordnet Prü",
@@ -65,15 +101,6 @@
       "language": "de"
     },
     {
-      "title": "Cohere veröffentlicht Open-Source-Modell Command A+ für Enterprise-Agenten",
-      "description": "Das kanadische KI-Unternehmen Cohere veröffentlicht sein bisher leistungsstärkstes Sprachmodell Command A+ als Open Source unter Apache-2.0-Lizenz.\nDer Artikel Cohere veröffentlicht Open-Source-Modell",
-      "link": "https://the-decoder.de/cohere-veroeffentlicht-open-source-modell-command-a-fuer-enterprise-agenten/",
-      "date": "2026-05-21T12:01:35.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "AdventHealth advances whole-person care with OpenAI",
       "description": "AdventHealth is using ChatGPT for Healthcare to streamline workflows, reduce administrative burden, and return more time to patient care.",
       "link": "https://openai.com/index/adventhealth",
@@ -83,45 +110,18 @@
       "language": "en"
     },
     {
-      "title": "Das erste KI-Labor in den schwarzen Zahlen heißt Anthropic",
-      "description": "Anthropic rechnet laut WSJ für das Juni-Quartal mit einem operativen Gewinn von 559 Millionen Dollar – Jahre früher als geplant. Der Umsatz stieg um 130 Prozent auf 10,9 Milliarden Dollar, getrieben v",
-      "link": "https://the-decoder.de/das-erste-ki-labor-in-den-schwarzen-zahlen-heisst-anthropic/",
-      "date": "2026-05-21T11:26:30.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "OpenAI steht kurz vor dem Börsengang und könnte noch diese Woche Unterlagen einreichen",
-      "description": "OpenAI bereitet laut Wall Street Journal einen Börsengang vor und könnte schon in den nächsten Tagen vertrauliche Unterlagen bei der US-Börsenaufsicht einreichen.\nDer Artikel OpenAI steht kurz vor dem",
-      "link": "https://the-decoder.de/openai-steht-kurz-vor-dem-boersengang-und-koennte-noch-diese-woche-unterlagen-einreichen/",
-      "date": "2026-05-21T10:48:36.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "SpaceX-Börsengang enthüllt Milliardenverluste, massive KI-Ambitionen und drohende Konflikte um xAI-Rechenzentren",
-      "description": "SpaceX hat seinen IPO-Antrag eingereicht und will bis zu 75 Milliarden Dollar einsammeln – bei einer angestrebten Bewertung von 2 Billionen Dollar. Die integrierte xAI-Sparte verursachte 2025 allein 6",
-      "link": "https://the-decoder.de/spacex-boersengang-enthuellt-milliardenverluste-massive-ki-ambitionen-und-drohende-konflikte-um-xai-rechenzentren/",
-      "date": "2026-05-21T10:38:21.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "An OpenAI model has disproved a central conjecture in discrete geometry",
-      "description": "An OpenAI model solved the 80-year-old unit distance problem, disproving a major conjecture in discrete geometry and marking a milestone in AI-driven mathematics.",
-      "link": "https://openai.com/index/model-disproves-discrete-geometry-conjecture",
+      "title": "The next phase of OpenAI’s Education for Countries",
+      "description": "OpenAI advances Education for Countries, expanding AI adoption in schools with new partnerships, teacher training, and tools to improve global learning outcomes.",
+      "link": "https://openai.com/index/the-next-phase-of-education-for-countries",
       "date": "2026-05-20T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
     },
     {
-      "title": "The next phase of OpenAI’s Education for Countries",
-      "description": "OpenAI advances Education for Countries, expanding AI adoption in schools with new partnerships, teacher training, and tools to improve global learning outcomes.",
-      "link": "https://openai.com/index/the-next-phase-of-education-for-countries",
+      "title": "An OpenAI model has disproved a central conjecture in discrete geometry",
+      "description": "An OpenAI model solved the 80-year-old unit distance problem, disproving a major conjecture in discrete geometry and marking a milestone in AI-driven mathematics.",
+      "link": "https://openai.com/index/model-disproves-discrete-geometry-conjecture",
       "date": "2026-05-20T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
