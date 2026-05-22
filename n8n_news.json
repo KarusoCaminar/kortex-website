@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-05-22T11:06:58.402Z",
+  "lastUpdated": "2026-05-22T15:08:09.846Z",
   "news": [
+    {
+      "title": "Kaliforniens Gouverneur ordnet Prüfung von Subventionen, Umschulungen und Basiskapital gegen KI-Arbeitslosigkeit an",
+      "description": "Kaliforniens Gouverneur Gavin Newsom hat eine Exekutivanordnung unterzeichnet, die den Schutz von Arbeitnehmern vor KI-bedingtem Jobverlust zum Ziel hat.\nDer Artikel Kaliforniens Gouverneur ordnet Prü",
+      "link": "https://the-decoder.de/kaliforniens-gouverneur-ordnet-pruefung-von-subventionen-umschulungen-und-basiskapital-gegen-ki-arbeitslosigkeit-an/",
+      "date": "2026-05-22T12:01:27.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Trotz Milliardenumsatz: OpenAI verbrennt weiterhin viel mehr Geld, als es einnimmt",
       "description": "OpenAI erzielte im ersten Quartal 2026 rund 5,7 Milliarden Dollar Umsatz, verlor aber pro eingenommenem Dollar noch 1,22 Dollar; die bereinigte operative Marge lag bei minus 122 Prozent.\nDer Artikel T",
@@ -92,18 +101,9 @@
       "language": "de"
     },
     {
-      "title": "SAP und Mistral AI bauen KI-Helfer für Firmensoftware",
-      "description": "SAP nutzt KI-Modelle von Mistral AI, um die Migration auf S/4HANA zu vereinfachen.\nDer Artikel SAP und Mistral AI bauen KI-Helfer für Firmensoftware erschien zuerst auf The Decoder.",
-      "link": "https://the-decoder.de/sap-und-mistral-ai-bauen-ki-helfer-fuer-firmensoftware/",
-      "date": "2026-05-21T09:23:18.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "How Ramp engineers accelerate code review with Codex",
-      "description": "How Ramp engineers use Codex with GPT-5.5 to review code and ship improvements, allowing them to get substantive feedback in minutes instead of hours.",
-      "link": "https://openai.com/index/ramp",
+      "title": "An OpenAI model has disproved a central conjecture in discrete geometry",
+      "description": "An OpenAI model solved the 80-year-old unit distance problem, disproving a major conjecture in discrete geometry and marking a milestone in AI-driven mathematics.",
+      "link": "https://openai.com/index/model-disproves-discrete-geometry-conjecture",
       "date": "2026-05-20T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
@@ -119,9 +119,9 @@
       "language": "en"
     },
     {
-      "title": "An OpenAI model has disproved a central conjecture in discrete geometry",
-      "description": "An OpenAI model solved the 80-year-old unit distance problem, disproving a major conjecture in discrete geometry and marking a milestone in AI-driven mathematics.",
-      "link": "https://openai.com/index/model-disproves-discrete-geometry-conjecture",
+      "title": "How Ramp engineers accelerate code review with Codex",
+      "description": "How Ramp engineers use Codex with GPT-5.5 to review code and ship improvements, allowing them to get substantive feedback in minutes instead of hours.",
+      "link": "https://openai.com/index/ramp",
       "date": "2026-05-20T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
