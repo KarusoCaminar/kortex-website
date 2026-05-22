@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-22T15:08:09.846Z",
+  "lastUpdated": "2026-05-22T16:49:46.923Z",
   "news": [
     {
       "title": "Kaliforniens Gouverneur ordnet Prüfung von Subventionen, Umschulungen und Basiskapital gegen KI-Arbeitslosigkeit an",
@@ -27,6 +27,15 @@
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
+    },
+    {
+      "title": "OpenAI named a Leader in enterprise coding agents by Gartner",
+      "description": "OpenAI is named a leader in the 2026 Gartner Magic Quadrant for Enterprise AI Coding Agents, with Codex recognized for innovation and enterprise-scale deployment.",
+      "link": "https://openai.com/index/gartner-2026-agentic-coding-leader",
+      "date": "2026-05-22T00:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
     },
     {
       "title": "Google testet Websites auf llms.txt und Agenten-Kompatibilität",
@@ -123,15 +132,6 @@
       "description": "How Ramp engineers use Codex with GPT-5.5 to review code and ship improvements, allowing them to get substantive feedback in minutes instead of hours.",
       "link": "https://openai.com/index/ramp",
       "date": "2026-05-20T00:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "Introducing OpenAI for Singapore",
-      "description": "OpenAI for Singapore launches a multi-year AI partnership to expand deployment, build local talent, and support businesses and public services with AI.",
-      "link": "https://openai.com/index/introducing-openai-for-singapore",
-      "date": "2026-05-19T20:30:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
