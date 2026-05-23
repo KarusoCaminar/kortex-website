@@ -1,6 +1,33 @@
 {
-  "lastUpdated": "2026-05-23T08:47:44.936Z",
+  "lastUpdated": "2026-05-23T12:28:03.200Z",
   "news": [
+    {
+      "title": "US-Elite-Uni erlaubt KI nur noch zur Recherche: Denken und Schreiben müssen Studierende selbst",
+      "description": "UC Berkeley Law verbietet ab Sommer 2026 den Einsatz generativer KI bei fast allen bewerteten Arbeiten: vom Konzipieren bis zum Korrigieren. Erlaubt bleibt lediglich die Recherche. Die Begründung der",
+      "link": "https://the-decoder.de/us-elite-uni-erlaubt-ki-nur-noch-zur-recherche-denken-und-schreiben-muessen-studierende-selbst/",
+      "date": "2026-05-23T10:46:03.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Qwen3.7-Max löst komplexe Entwicklungsaufgabe in 1158 autonomen Schritten",
+      "description": "Alibabas Qwen-Team stellt mit Qwen3.7-Max ein proprietäres Modell vor, das auf langfristige autonome Arbeit als KI-Agent ausgelegt ist. In Benchmarks positioniert es sich auf dem Niveau von Claude Opu",
+      "link": "https://the-decoder.de/qwen3-7-max-loest-komplexe-entwicklungsaufgabe-in-1158-autonomen-schritten/",
+      "date": "2026-05-23T09:49:48.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Quellen und Links sind nur noch Teil der Suche: Google rückt weiter vom offenen Web ab",
+      "description": "Google-CEO Sundar Pichai bezeichnet Links und Quellen nur noch als \"Teil\" der Suche – obwohl sie deren Fundament sind. Die Formulierung ist bewusst gewählt: Neue Features halten Nutzer im Google-Ökosy",
+      "link": "https://the-decoder.de/quellen-und-links-sind-nur-noch-teil-der-suche-google-rueckt-weiter-vom-offenen-web-ab/",
+      "date": "2026-05-23T08:51:10.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Anthropic warnt erneut: Claude Mythos Preview findet Bugs schneller, als Entwickler sie beheben",
       "description": "Anthropics KI-Modell Claude Mythos Preview hat im Rahmen von Project Glasswing zusammen mit rund 50 Partnern über 10.000 kritische Schwachstellen in systemrelevanter Software gefunden. Die Bugs werden",
@@ -65,15 +92,6 @@
       "language": "de"
     },
     {
-      "title": "Tech-Lobby kippt Trumps KI-Executive-Order in letzter Minute",
-      "description": "Trump hat eine Executive Order zur KI-Sicherheit kurzfristig gestoppt – nach Anrufen von Elon Musk, Mark Zuckerberg und Ex-Berater David Sacks. Die Verordnung hätte ein freiwilliges Prüfsystem für Fro",
-      "link": "https://the-decoder.de/tech-lobby-kippt-trumps-ki-executive-order-in-letzter-minute/",
-      "date": "2026-05-22T10:35:47.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "OpenAI named a Leader in enterprise coding agents by Gartner",
       "description": "OpenAI is named a leader in the 2026 Gartner Magic Quadrant for Enterprise AI Coding Agents, with Codex recognized for innovation and enterprise-scale deployment.",
       "link": "https://openai.com/index/gartner-2026-agentic-coding-leader",
@@ -81,24 +99,6 @@
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
-    },
-    {
-      "title": "Google testet Websites auf llms.txt und Agenten-Kompatibilität",
-      "description": "Google prüft mit einer neuen experimentellen Kategorie namens \"Agentic Browsing\" in seinem Analyse-Werkzeug Lighthouse, wie gut Websites auf KI-Agenten vorbereitet sind.\nDer Artikel Google testet Webs",
-      "link": "https://the-decoder.de/google-testet-websites-auf-llms-txt-und-agenten-kompatibilitaet/",
-      "date": "2026-05-21T19:07:33.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "OpenAI widerlegt Erdős-Vermutung: Was der \"Meilenstein in der KI-Mathematik\" für die Zukunft des Fachs bedeutet",
-      "description": "Ein Reasoning-Modell von OpenAI hat eine seit 1946 offene Vermutung des Mathematikers Paul Erdős zur Unit-Distance-Geometrie widerlegt – mit Werkzeugen aus der algebraischen Zahlentheorie, die Fachleu",
-      "link": "https://the-decoder.de/openai-widerlegt-erdos-vermutung-was-der-meilenstein-in-der-ki-mathematik-fuer-die-zukunft-des-fachs-bedeutet/",
-      "date": "2026-05-21T14:54:50.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
     },
     {
       "title": "AdventHealth advances whole-person care with OpenAI",
