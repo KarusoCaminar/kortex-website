@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-05-23T16:25:17.107Z",
+  "lastUpdated": "2026-05-23T18:26:55.278Z",
   "news": [
+    {
+      "title": "Deepseek macht v4-Dumpingpreise permanent und setzt OpenAI und Anthropic unter Druck",
+      "description": "Deepseek macht den 75-Prozent-Rabatt auf sein Spitzenmodell V4-Pro dauerhaft. Mit 0,435 Dollar pro Million Input-Tokens ist es rund elfmal günstiger als GPT-5.5 und 29-mal günstiger beim Output. Gerad",
+      "link": "https://the-decoder.de/deepseek-macht-v4-dumpingpreise-permanent-und-setzt-openai-und-anthropic-unter-druck/",
+      "date": "2026-05-23T16:50:59.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Webinar: KI-Barometer 2026 - wo stehen Unternehmen wirklich?",
       "description": "Zwischen den Schlagzeilen zur KI-Revolution und dem, was in Unternehmen tatsächlich passiert, liegen oft Welten. Das KI-Barometer 2026 schaut genauer hin: Sieben deutsche Unternehmen erzählen, wie sie",
@@ -78,15 +87,6 @@
       "description": "Mit der neuen Codex-Funktion Appshots können Mac-Nutzer den Inhalt eines beliebigen App-Fensters per Tastendruck an OpenAIs Coding-Assistenten Codex übergeben, damit dieser den nötigen Kontext für ein",
       "link": "https://the-decoder.de/openai-codex-bekommt-appshots-app-fenster-per-tastendruck-an-die-ki-senden/",
       "date": "2026-05-22T16:56:20.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Kaliforniens Gouverneur ordnet Prüfung von Subventionen, Umschulungen und Basiskapital gegen KI-Arbeitslosigkeit an",
-      "description": "Kaliforniens Gouverneur Gavin Newsom hat eine Exekutivanordnung unterzeichnet, die den Schutz von Arbeitnehmern vor KI-bedingtem Jobverlust zum Ziel hat.\nDer Artikel Kaliforniens Gouverneur ordnet Prü",
-      "link": "https://the-decoder.de/kaliforniens-gouverneur-ordnet-pruefung-von-subventionen-umschulungen-und-basiskapital-gegen-ki-arbeitslosigkeit-an/",
-      "date": "2026-05-22T12:01:27.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
