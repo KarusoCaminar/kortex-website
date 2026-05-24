@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-05-24T08:57:52.409Z",
+  "lastUpdated": "2026-05-24T10:37:27.662Z",
   "news": [
+    {
+      "title": "Warum ihr in Copilot, Gemini und Co. die Modellwahl nicht auf \"Auto\" stellen solltet",
+      "description": "Microsoft Copilot erfindet bei der Datenanalyse Länderunterschiede, wo keine existieren. Autor Adam Kucharski legte dem Tool identische Datensätze mit unterschiedlichen Länderlabels vor – Copilot lief",
+      "link": "https://the-decoder.de/warum-ihr-in-copilot-gemini-und-co-die-modellwahl-nicht-auf-auto-stellen-solltet/",
+      "date": "2026-05-24T09:55:46.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Anthropic darf trotz Einstufung als Lieferkettenrisiko weiter Claude-KI-Modelle an die NSA liefern",
       "description": "Anthropic darf trotz Einstufung als \"Lieferkettenrisiko\" wohl weiter KI-Modelle an die NSA liefern. Den Geheimdiensten fehlen Nvidias neueste Grace-Blackwell-Chips, Anthropics Modell \"Mythos\" läuft an",
@@ -78,15 +87,6 @@
       "description": "Cloudflare-CEO Matthew Prince entlässt trotz Rekordumsatz über 20 Prozent der Belegschaft, angeblich, weil KI mittleres Management und Compliance-Funktionen ersetze. Belastbare Belege dafür liefert da",
       "link": "https://the-decoder.de/cloudflare-ceo-erklaert-ki-entlassungen-wer-baut-und-verkauft-bleibt-wer-misst-und-kontrolliert-geht/",
       "date": "2026-05-22T18:33:55.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "OpenAI veröffentlicht ChatGPT-Plugin, das direkt in PowerPoint arbeitet",
-      "description": "OpenAI bringt ChatGPT direkt in PowerPoint: Ein neues Beta-Plugin erstellt Präsentationen aus Notizen, Dokumenten oder Bildern und bearbeitet bestehende Folien. Das Add-in ist weltweit für alle Tarife",
-      "link": "https://the-decoder.de/openai-veroeffentlicht-chatgpt-plugin-das-direkt-in-powerpoint-arbeitet/",
-      "date": "2026-05-22T17:44:50.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
