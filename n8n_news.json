@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-05-24T12:31:14.389Z",
+  "lastUpdated": "2026-05-24T14:35:27.136Z",
   "news": [
+    {
+      "title": "ByteDance zeigt, was multimodale KI beim Lesen langer Dokumente wirklich lernen muss",
+      "description": "ByteDance Seed zeigt, dass ein vergleichsweise kleines 7B-Modell Fragen zu sehr langen, bildbasierten Dokumenten zuverlässiger beantwortet als deutlich größere Modelle und das selbst bei Dokumenten, d",
+      "link": "https://the-decoder.de/bytedance-zeigt-was-multimodale-ki-beim-lesen-langer-dokumente-wirklich-lernen-muss/",
+      "date": "2026-05-24T13:07:45.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Deepmind-Mitgründer Hassabis sieht die Menschheit \"am Fuße der Singularität\"",
+      "description": "Yann LeCun spricht aktuellen KI-Systemen echte Intelligenz ab, Demis Hassabis sieht die Menschheit dagegen bereits \"am Fuße der Singularität\". Gemini-Co-Leiter Oriol Vinyals wählt den Mittelweg: AGI s",
+      "link": "https://the-decoder.de/deepmind-mitgruender-hassabis-sieht-die-menschheit-am-fusse-der-singularitaet/",
+      "date": "2026-05-24T12:33:07.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Warum ihr in Copilot, Gemini und Co. die Modellwahl nicht auf \"Auto\" stellen solltet",
       "description": "Microsoft Copilot erfindet bei der Datenanalyse Länderunterschiede, wo keine existieren. Autor Adam Kucharski legte dem Tool identische Datensätze mit unterschiedlichen Länderlabels vor – Copilot lief",
@@ -69,24 +87,6 @@
       "description": "Google-CEO Sundar Pichai bezeichnet Links und Quellen nur noch als \"Teil\" der Suche – obwohl sie deren Fundament sind. Die Formulierung ist bewusst gewählt: Neue Features halten Nutzer im Google-Ökosy",
       "link": "https://the-decoder.de/quellen-und-links-sind-nur-noch-teil-der-suche-google-rueckt-weiter-vom-offenen-web-ab/",
       "date": "2026-05-23T08:51:10.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Anthropic warnt erneut: Claude Mythos Preview findet Bugs schneller, als Entwickler sie beheben",
-      "description": "Anthropics KI-Modell Claude Mythos Preview hat im Rahmen von Project Glasswing zusammen mit rund 50 Partnern über 10.000 kritische Schwachstellen in systemrelevanter Software gefunden. Die Bugs werden",
-      "link": "https://the-decoder.de/anthropic-warnt-erneut-claude-mythos-preview-findet-bugs-schneller-als-entwickler-sie-beheben/",
-      "date": "2026-05-23T07:28:10.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Cloudflare-CEO erklärt KI-Entlassungen: Wer baut und verkauft, bleibt – wer misst und kontrolliert, geht",
-      "description": "Cloudflare-CEO Matthew Prince entlässt trotz Rekordumsatz über 20 Prozent der Belegschaft, angeblich, weil KI mittleres Management und Compliance-Funktionen ersetze. Belastbare Belege dafür liefert da",
-      "link": "https://the-decoder.de/cloudflare-ceo-erklaert-ki-entlassungen-wer-baut-und-verkauft-bleibt-wer-misst-und-kontrolliert-geht/",
-      "date": "2026-05-22T18:33:55.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
