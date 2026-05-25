@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-05-25T09:28:50.083Z",
+  "lastUpdated": "2026-05-25T11:27:34.717Z",
   "news": [
     {
-      "title": "George Hotz: KI-Agenten in der Softwareentwicklung werden einer der teuersten Fehler der Branche",
+      "title": "George Hotz: KI-Agenten werden einer der teuersten Fehler der Software-Branche",
       "description": "Programmierer George Hotz sieht KI-Agenten in der Softwareentwicklung als einen der teuersten Fehler der Branche. Nach sechs Monaten Testing lautet sein Fazit: LLMs liefern schnelle Prototypen, scheit",
       "link": "https://the-decoder.de/george-hotz-ki-agenten-in-der-softwareentwicklung-werden-einer-der-teuersten-fehler-der-branche/",
       "date": "2026-05-25T08:27:34.000Z",
@@ -83,15 +83,6 @@
       "language": "de"
     },
     {
-      "title": "US-Elite-Uni erlaubt KI nur noch zur Recherche: Denken und Schreiben müssen Studierende selbst",
-      "description": "UC Berkeley Law verbietet ab Sommer 2026 den Einsatz generativer KI bei fast allen bewerteten Arbeiten: vom Konzipieren bis zum Korrigieren. Erlaubt bleibt lediglich die Recherche. Die Begründung der",
-      "link": "https://the-decoder.de/us-elite-uni-erlaubt-ki-nur-noch-zur-recherche-denken-und-schreiben-muessen-studierende-selbst/",
-      "date": "2026-05-23T10:46:03.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "OpenAI named a Leader in enterprise coding agents by Gartner",
       "description": "OpenAI is named a leader in the 2026 Gartner Magic Quadrant for Enterprise AI Coding Agents, with Codex recognized for innovation and enterprise-scale deployment.",
       "link": "https://openai.com/index/gartner-2026-agentic-coding-leader",
@@ -132,6 +123,15 @@
       "description": "How Ramp engineers use Codex with GPT-5.5 to review code and ship improvements, allowing them to get substantive feedback in minutes instead of hours.",
       "link": "https://openai.com/index/ramp",
       "date": "2026-05-20T00:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
+      "title": "Introducing OpenAI for Singapore",
+      "description": "OpenAI for Singapore launches a multi-year AI partnership to expand deployment, build local talent, and support businesses and public services with AI.",
+      "link": "https://openai.com/index/introducing-openai-for-singapore",
+      "date": "2026-05-19T20:30:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
