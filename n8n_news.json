@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-05-25T07:45:06.242Z",
+  "lastUpdated": "2026-05-25T09:28:50.083Z",
   "news": [
+    {
+      "title": "George Hotz: KI-Agenten in der Softwareentwicklung werden einer der teuersten Fehler der Branche",
+      "description": "Programmierer George Hotz sieht KI-Agenten in der Softwareentwicklung als einen der teuersten Fehler der Branche. Nach sechs Monaten Testing lautet sein Fazit: LLMs liefern schnelle Prototypen, scheit",
+      "link": "https://the-decoder.de/george-hotz-ki-agenten-in-der-softwareentwicklung-werden-einer-der-teuersten-fehler-der-branche/",
+      "date": "2026-05-25T08:27:34.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "KI-Modelle geben oft richtige Antworten aus den falschen Quellen",
       "description": "Führende KI-Modelle wie GPT oder Gemini verweisen bei Dokumentenanalysen routinemäßig auf Textstellen, die ihre Aussagen gar nicht stützen. Auch wenn die Antwort stimmt, ist der angegebene Beleg oft f",
@@ -78,15 +87,6 @@
       "description": "UC Berkeley Law verbietet ab Sommer 2026 den Einsatz generativer KI bei fast allen bewerteten Arbeiten: vom Konzipieren bis zum Korrigieren. Erlaubt bleibt lediglich die Recherche. Die Begründung der",
       "link": "https://the-decoder.de/us-elite-uni-erlaubt-ki-nur-noch-zur-recherche-denken-und-schreiben-muessen-studierende-selbst/",
       "date": "2026-05-23T10:46:03.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Qwen3.7-Max löst komplexe Entwicklungsaufgabe in 1158 autonomen Schritten",
-      "description": "Alibabas Qwen-Team stellt mit Qwen3.7-Max ein proprietäres Modell vor, das auf langfristige autonome Arbeit als KI-Agent ausgelegt ist. In Benchmarks positioniert es sich auf dem Niveau von Claude Opu",
-      "link": "https://the-decoder.de/qwen3-7-max-loest-komplexe-entwicklungsaufgabe-in-1158-autonomen-schritten/",
-      "date": "2026-05-23T09:49:48.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
