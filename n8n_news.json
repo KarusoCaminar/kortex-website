@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-05-25T05:39:05.366Z",
+  "lastUpdated": "2026-05-25T07:45:06.242Z",
   "news": [
+    {
+      "title": "KI-Modelle geben oft richtige Antworten aus den falschen Quellen",
+      "description": "Führende KI-Modelle wie GPT oder Gemini verweisen bei Dokumentenanalysen routinemäßig auf Textstellen, die ihre Aussagen gar nicht stützen. Auch wenn die Antwort stimmt, ist der angegebene Beleg oft f",
+      "link": "https://the-decoder.de/ki-modelle-geben-oft-richtige-antworten-aus-den-falschen-quellen/",
+      "date": "2026-05-25T07:16:35.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "ByteDance zeigt, was multimodale KI beim Lesen langer Dokumente wirklich lernen muss",
       "description": "ByteDance Seed zeigt, dass ein vergleichsweise kleines 7B-Modell Fragen zu sehr langen, bildbasierten Dokumenten zuverlässiger beantwortet als deutlich größere Modelle und das selbst bei Dokumenten, d",
@@ -78,15 +87,6 @@
       "description": "Alibabas Qwen-Team stellt mit Qwen3.7-Max ein proprietäres Modell vor, das auf langfristige autonome Arbeit als KI-Agent ausgelegt ist. In Benchmarks positioniert es sich auf dem Niveau von Claude Opu",
       "link": "https://the-decoder.de/qwen3-7-max-loest-komplexe-entwicklungsaufgabe-in-1158-autonomen-schritten/",
       "date": "2026-05-23T09:49:48.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Quellen und Links sind nur noch Teil der Suche: Google rückt weiter vom offenen Web ab",
-      "description": "Google-CEO Sundar Pichai bezeichnet Links und Quellen nur noch als \"Teil\" der Suche – obwohl sie deren Fundament sind. Die Formulierung ist bewusst gewählt: Neue Features halten Nutzer im Google-Ökosy",
-      "link": "https://the-decoder.de/quellen-und-links-sind-nur-noch-teil-der-suche-google-rueckt-weiter-vom-offenen-web-ab/",
-      "date": "2026-05-23T08:51:10.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
