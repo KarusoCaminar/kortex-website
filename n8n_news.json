@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-25T16:47:56.236Z",
+  "lastUpdated": "2026-05-25T18:40:31.024Z",
   "news": [
     {
       "title": "Anthropic-Mitgründer bei Vorstellung der Papst-Enzyklika: KI-Modelle zeigen Hinweise auf Introspektion",
@@ -27,6 +27,15 @@
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
+    },
+    {
+      "title": "OpenAI, Grupo Folha and Grupo UOL announce strategic content partnership",
+      "description": "OpenAI partners with Grupo Folha and Grupo UOL to bring trusted Brazilian journalism to ChatGPT, expanding access to news with attribution and transparency.",
+      "link": "https://openai.com/index/grupo-folha-grupo-uol-partnership",
+      "date": "2026-05-25T00:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
     },
     {
       "title": "ByteDance zeigt, was multimodale KI beim Lesen langer Dokumente wirklich lernen muss",
@@ -110,15 +119,6 @@
       "language": "en"
     },
     {
-      "title": "The next phase of OpenAI’s Education for Countries",
-      "description": "OpenAI advances Education for Countries, expanding AI adoption in schools with new partnerships, teacher training, and tools to improve global learning outcomes.",
-      "link": "https://openai.com/index/the-next-phase-of-education-for-countries",
-      "date": "2026-05-20T00:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
       "title": "How Ramp engineers accelerate code review with Codex",
       "description": "How Ramp engineers use Codex with GPT-5.5 to review code and ship improvements, allowing them to get substantive feedback in minutes instead of hours.",
       "link": "https://openai.com/index/ramp",
@@ -128,10 +128,10 @@
       "language": "en"
     },
     {
-      "title": "Introducing OpenAI for Singapore",
-      "description": "OpenAI for Singapore launches a multi-year AI partnership to expand deployment, build local talent, and support businesses and public services with AI.",
-      "link": "https://openai.com/index/introducing-openai-for-singapore",
-      "date": "2026-05-19T20:30:00.000Z",
+      "title": "The next phase of OpenAI’s Education for Countries",
+      "description": "OpenAI advances Education for Countries, expanding AI adoption in schools with new partnerships, teacher training, and tools to improve global learning outcomes.",
+      "link": "https://openai.com/index/the-next-phase-of-education-for-countries",
+      "date": "2026-05-20T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
