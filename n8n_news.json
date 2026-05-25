@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-05-25T11:27:34.717Z",
+  "lastUpdated": "2026-05-25T13:18:10.703Z",
   "news": [
+    {
+      "title": "Anthropic-Mitgründer bei Vorstellung der Papst-Enzyklika: KI-Modelle zeigen Hinweise auf Introspektion",
+      "description": "Anthropic-Mitgründer Christopher Olah präsentierte gemeinsam mit Papst Leo XIV. dessen Enzyklika \"Magnifica Humanitas\" – und deutete an, man finde in KI-Modellen Hinweise auf Introspektion und emotion",
+      "link": "https://the-decoder.de/anthropic-mitgruender-bei-vorstellung-der-papst-enzyklika-ki-modelle-zeigen-hinweise-auf-introspektion/",
+      "date": "2026-05-25T13:11:07.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "George Hotz: KI-Agenten werden einer der teuersten Fehler der Software-Branche",
       "description": "Programmierer George Hotz sieht KI-Agenten in der Softwareentwicklung als einen der teuersten Fehler der Branche. Nach sechs Monaten Testing lautet sein Fazit: LLMs liefern schnelle Prototypen, scheit",
@@ -69,15 +78,6 @@
       "description": "Deepseek macht den 75-Prozent-Rabatt auf sein Spitzenmodell V4-Pro dauerhaft. Mit 0,435 Dollar pro Million Input-Tokens ist es rund elfmal günstiger als GPT-5.5 und 29-mal günstiger beim Output. Gerad",
       "link": "https://the-decoder.de/deepseek-macht-v4-dumpingpreise-permanent-und-setzt-openai-und-anthropic-unter-druck/",
       "date": "2026-05-23T16:50:59.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Webinar: KI-Barometer 2026 - wo stehen Unternehmen wirklich?",
-      "description": "Zwischen den Schlagzeilen zur KI-Revolution und dem, was in Unternehmen tatsächlich passiert, liegen oft Welten. Das KI-Barometer 2026 schaut genauer hin: Sieben deutsche Unternehmen erzählen, wie sie",
-      "link": "https://the-decoder.de/webinar-ki-barometer-2026-wo-stehen-unternehmen-wirklich/",
-      "date": "2026-05-23T12:58:41.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
