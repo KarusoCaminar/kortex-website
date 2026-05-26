@@ -1,6 +1,33 @@
 {
-  "lastUpdated": "2026-05-26T09:19:28.196Z",
+  "lastUpdated": "2026-05-26T13:10:03.555Z",
   "news": [
+    {
+      "title": "Forscher finden tausende erfundene KI-Quellen in biomedizinischen Fachartikeln und warnen vor Gefahr für klinische Leitlinien",
+      "description": "Ein Audit der Columbia University und anderer Institutionen über 2,5 Millionen biomedizinische Paper zeigt: Seit 2023 hat sich die Rate erfundener Literaturangaben mehr als verzwölffacht. Die Forscher",
+      "link": "https://the-decoder.de/forscher-finden-tausende-erfundene-ki-quellen-in-biomedizinischen-fachartikeln-und-warnen-vor-gefahr-fuer-klinische-leitlinien/",
+      "date": "2026-05-26T11:48:11.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Investor hinter Airbnb und OpenAI warnt Startups: Wer KI-Mails schickt, wird nicht ernst genommen",
+      "description": "Y-Combinator-Gründer Paul Graham ignoriert E-Mails, die erkennbar mit KI verfasst wurden: Sie fühlten sich an, \"als werde man belogen\". Das kommt ausgerechnet von einem der frühesten OpenAI-Investoren",
+      "link": "https://the-decoder.de/investor-hinter-airbnb-und-openai-warnt-startups-wer-ki-mails-schickt-wird-nicht-ernst-genommen/",
+      "date": "2026-05-26T10:25:57.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Zwischen Systemkollaps und Gerechtigkeit: KI-Klagen stürzen die US-Justiz in ein Dilemma",
+      "description": "Eine neue Studie des MIT und der University of Southern California zeigt, dass die Zahl der Klagen ohne Anwalt an US-Bundesgerichten seit der Verbreitung von ChatGPT fast doppelt so hoch ist wie zuvor",
+      "link": "https://the-decoder.de/zwischen-systemkollaps-und-gerechtigkeit-ki-klagen-stuerzen-die-us-justiz-in-ein-dilemma/",
+      "date": "2026-05-26T09:22:00.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Anthropic-Mitgründer bei Vorstellung der Papst-Enzyklika: KI-Modelle zeigen Hinweise auf Introspektion",
       "description": "Anthropic-Mitgründer Christopher Olah präsentierte gemeinsam mit Papst Leo XIV. dessen Enzyklika \"Magnifica Humanitas\" – und deutete an, man finde in KI-Modellen Hinweise auf Introspektion und emotion",
@@ -60,33 +87,6 @@
       "description": "Microsoft Copilot erfindet bei der Datenanalyse Länderunterschiede, wo keine existieren. Autor Adam Kucharski legte dem Tool identische Datensätze mit unterschiedlichen Länderlabels vor – Copilot lief",
       "link": "https://the-decoder.de/warum-ihr-in-copilot-gemini-und-co-die-modellwahl-nicht-auf-auto-stellen-solltet/",
       "date": "2026-05-24T09:55:46.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Anthropic darf trotz Einstufung als Lieferkettenrisiko weiter Claude-KI-Modelle an die NSA liefern",
-      "description": "Anthropic darf trotz Einstufung als \"Lieferkettenrisiko\" wohl weiter KI-Modelle an die NSA liefern. Den Geheimdiensten fehlen Nvidias neueste Grace-Blackwell-Chips, Anthropics Modell \"Mythos\" läuft an",
-      "link": "https://the-decoder.de/anthropic-darf-trotz-einstufung-als-lieferkettenrisiko-weiter-claude-ki-modelle-an-die-nsa-liefern/",
-      "date": "2026-05-24T08:35:02.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "KI-Agent optimiert, wann Sprachmodelle weiterdenken",
-      "description": "Forscher von UMD, Google, Meta und weiteren Institutionen lassen mit AutoTTS einen Coding-Agenten eigenständig Steuerungsalgorithmen für KI-Reasoning entwickeln. Der gefundene Algorithmus spart rund 7",
-      "link": "https://the-decoder.de/ki-agent-optimiert-wann-sprachmodelle-weiterdenken/",
-      "date": "2026-05-24T07:18:35.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Deepseek macht v4-Dumpingpreise permanent und setzt OpenAI und Anthropic unter Druck",
-      "description": "Deepseek macht den 75-Prozent-Rabatt auf sein Spitzenmodell V4-Pro dauerhaft. Mit 0,435 Dollar pro Million Input-Tokens ist es rund elfmal günstiger als GPT-5.5 und 29-mal günstiger beim Output. Gerad",
-      "link": "https://the-decoder.de/deepseek-macht-v4-dumpingpreise-permanent-und-setzt-openai-und-anthropic-unter-druck/",
-      "date": "2026-05-23T16:50:59.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
