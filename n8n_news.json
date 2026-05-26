@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-05-26T17:12:00.446Z",
+  "lastUpdated": "2026-05-26T20:45:14.455Z",
   "news": [
+    {
+      "title": "Anthropics Claude Mythos löst ebenfalls das Erdős-Problem, das OpenAI gerade noch als KI-Meilenstein feierte",
+      "description": "Kurz nach OpenAIs Widerlegung der Unit-Distance-Vermutung von Erdős zeigt Anthropic: Auch Claude Mythos löst \"übers Wochenende\" das seit 1946 offene Problem, laut Ingenieur Sholto Douglas mit einem \"h",
+      "link": "https://the-decoder.de/anthropics-claude-mythos-loest-ebenfalls-das-erdos-problem-das-openai-gerade-noch-als-ki-meilenstein-feierte/",
+      "date": "2026-05-26T18:21:07.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Aus Angst vor Technologieverlust: China verbietet KI-Forschern freies Reisen ins Ausland",
       "description": "Chinas Regierung weitet Reisebeschränkungen für führende KI-Fachleute auf private Unternehmen wie Alibaba und Deepseek aus. Betroffene müssen vor Auslandsreisen behördliche Genehmigungen einholen. Pek",
@@ -81,15 +90,6 @@
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
-    },
-    {
-      "title": "ByteDance zeigt, was multimodale KI beim Lesen langer Dokumente wirklich lernen muss",
-      "description": "ByteDance Seed zeigt, dass ein vergleichsweise kleines 7B-Modell Fragen zu sehr langen, bildbasierten Dokumenten zuverlässiger beantwortet als deutlich größere Modelle und das selbst bei Dokumenten, d",
-      "link": "https://the-decoder.de/bytedance-zeigt-was-multimodale-ki-beim-lesen-langer-dokumente-wirklich-lernen-muss/",
-      "date": "2026-05-24T13:07:45.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
     },
     {
       "title": "OpenAI named a Leader in enterprise coding agents by Gartner",
