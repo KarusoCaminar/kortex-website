@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-05-26T13:10:03.555Z",
+  "lastUpdated": "2026-05-26T15:07:56.988Z",
   "news": [
+    {
+      "title": "Aus Angst vor Technologieverlust: China verbietet KI-Forschern freies Reisen ins Ausland",
+      "description": "Chinas Regierung weitet Reisebeschränkungen für führende KI-Fachleute auf private Unternehmen wie Alibaba und Deepseek aus. Betroffene müssen vor Auslandsreisen behördliche Genehmigungen einholen. Pek",
+      "link": "https://the-decoder.de/aus-angst-vor-technologieverlust-china-verbietet-ki-forschern-freies-reisen-ins-ausland/",
+      "date": "2026-05-26T14:12:50.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Google Cloud COO: KI-Sicherheit ist Chefsache, nicht nur Aufgabe der IT",
+      "description": "Google Cloud COO Francis de Souza fordert Unternehmen auf, Sicherheit von Anfang an in ihre KI-Strategie einzubauen.\nDer Artikel Google Cloud COO: KI-Sicherheit ist Chefsache, nicht nur Aufgabe der IT",
+      "link": "https://the-decoder.de/google-cloud-coo-ki-sicherheit-ist-chefsache-nicht-nur-aufgabe-der-it/",
+      "date": "2026-05-26T13:20:58.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Forscher finden tausende erfundene KI-Quellen in biomedizinischen Fachartikeln und warnen vor Gefahr für klinische Leitlinien",
       "description": "Ein Audit der Columbia University und anderer Institutionen über 2,5 Millionen biomedizinische Paper zeigt: Seit 2023 hat sich die Rate erfundener Literaturangaben mehr als verzwölffacht. Die Forscher",
@@ -69,24 +87,6 @@
       "description": "ByteDance Seed zeigt, dass ein vergleichsweise kleines 7B-Modell Fragen zu sehr langen, bildbasierten Dokumenten zuverlässiger beantwortet als deutlich größere Modelle und das selbst bei Dokumenten, d",
       "link": "https://the-decoder.de/bytedance-zeigt-was-multimodale-ki-beim-lesen-langer-dokumente-wirklich-lernen-muss/",
       "date": "2026-05-24T13:07:45.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Deepmind-Mitgründer Hassabis sieht die Menschheit \"am Fuße der Singularität\"",
-      "description": "Yann LeCun spricht aktuellen KI-Systemen echte Intelligenz ab, Demis Hassabis sieht die Menschheit dagegen bereits \"am Fuße der Singularität\". Gemini-Co-Leiter Oriol Vinyals wählt den Mittelweg: AGI s",
-      "link": "https://the-decoder.de/deepmind-mitgruender-hassabis-sieht-die-menschheit-am-fusse-der-singularitaet/",
-      "date": "2026-05-24T12:33:07.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Warum ihr in Copilot, Gemini und Co. die Modellwahl nicht auf \"Auto\" stellen solltet",
-      "description": "Microsoft Copilot erfindet bei der Datenanalyse Länderunterschiede, wo keine existieren. Autor Adam Kucharski legte dem Tool identische Datensätze mit unterschiedlichen Länderlabels vor – Copilot lief",
-      "link": "https://the-decoder.de/warum-ihr-in-copilot-gemini-und-co-die-modellwahl-nicht-auf-auto-stellen-solltet/",
-      "date": "2026-05-24T09:55:46.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
