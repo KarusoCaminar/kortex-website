@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-05-27T07:36:06.642Z",
+  "lastUpdated": "2026-05-27T09:17:08.615Z",
   "news": [
+    {
+      "title": "China verwandelt sein altes Kameranetz in einen Apparat für automatisierte Massenüberwachung",
+      "description": "Chinas Polizeibehörden rüsten Millionen bestehender Überwachungskameras mit Computer Vision und Sprachmodellen auf. Hersteller wie Hikvision und Huawei liefern Systeme, die Videomaterial per Text-Prom",
+      "link": "https://the-decoder.de/china-verwandelt-sein-altes-kameranetz-in-einen-apparat-fuer-automatisierte-massenueberwachung/",
+      "date": "2026-05-27T09:13:22.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Vom Job-Killer zum Produktivitäts-Booster: OpenAI- und Anthropic-Chefs kassieren ihre KI-Apokalypse-Warnungen ein",
+      "description": "Sam Altman und Dario Amodei rudern bei ihren Prophezeiungen zur KI-Jobapokalypse zurück, pünktlich zu milliardenschweren Börsengängen.\nDer Artikel Vom Job-Killer zum Produktivitäts-Booster: OpenAI- un",
+      "link": "https://the-decoder.de/vom-job-killer-zum-produktivitaets-booster-openai-und-anthropic-chefs-kassieren-ihre-ki-apokalypse-warnungen-ein/",
+      "date": "2026-05-27T08:22:39.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Anthropics Claude Mythos löst ebenfalls das Erdős-Problem, das OpenAI gerade noch als KI-Meilenstein feierte",
       "description": "Kurz nach OpenAIs Widerlegung der Unit-Distance-Vermutung von Erdős zeigt Anthropic: Auch Claude Mythos löst \"übers Wochenende\" das seit 1946 offene Problem, laut Ingenieur Sholto Douglas mit einem \"h",
@@ -65,24 +83,6 @@
       "language": "de"
     },
     {
-      "title": "George Hotz: KI-Agenten werden einer der teuersten Fehler der Software-Branche",
-      "description": "Programmierer George Hotz sieht KI-Agenten in der Softwareentwicklung als einen der teuersten Fehler der Branche. Nach sechs Monaten Testing lautet sein Fazit: LLMs liefern schnelle Prototypen, scheit",
-      "link": "https://the-decoder.de/george-hotz-ki-agenten-in-der-softwareentwicklung-werden-einer-der-teuersten-fehler-der-branche/",
-      "date": "2026-05-25T08:27:34.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "KI-Modelle geben oft richtige Antworten aus den falschen Quellen",
-      "description": "Führende KI-Modelle wie GPT oder Gemini verweisen bei Dokumentenanalysen routinemäßig auf Textstellen, die ihre Aussagen gar nicht stützen. Auch wenn die Antwort stimmt, ist der angegebene Beleg oft f",
-      "link": "https://the-decoder.de/ki-modelle-geben-oft-richtige-antworten-aus-den-falschen-quellen/",
-      "date": "2026-05-25T07:16:35.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "OpenAI, Grupo Folha and Grupo UOL announce strategic content partnership",
       "description": "OpenAI partners with Grupo Folha and Grupo UOL to bring trusted Brazilian journalism to ChatGPT, expanding access to news with attribution and transparency.",
       "link": "https://openai.com/index/grupo-folha-grupo-uol-partnership",
@@ -119,18 +119,18 @@
       "language": "en"
     },
     {
-      "title": "The next phase of OpenAI’s Education for Countries",
-      "description": "OpenAI advances Education for Countries, expanding AI adoption in schools with new partnerships, teacher training, and tools to improve global learning outcomes.",
-      "link": "https://openai.com/index/the-next-phase-of-education-for-countries",
+      "title": "An OpenAI model has disproved a central conjecture in discrete geometry",
+      "description": "An OpenAI model solved the 80-year-old unit distance problem, disproving a major conjecture in discrete geometry and marking a milestone in AI-driven mathematics.",
+      "link": "https://openai.com/index/model-disproves-discrete-geometry-conjecture",
       "date": "2026-05-20T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
     },
     {
-      "title": "An OpenAI model has disproved a central conjecture in discrete geometry",
-      "description": "An OpenAI model solved the 80-year-old unit distance problem, disproving a major conjecture in discrete geometry and marking a milestone in AI-driven mathematics.",
-      "link": "https://openai.com/index/model-disproves-discrete-geometry-conjecture",
+      "title": "The next phase of OpenAI’s Education for Countries",
+      "description": "OpenAI advances Education for Countries, expanding AI adoption in schools with new partnerships, teacher training, and tools to improve global learning outcomes.",
+      "link": "https://openai.com/index/the-next-phase-of-education-for-countries",
       "date": "2026-05-20T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
