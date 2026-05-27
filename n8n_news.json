@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-27T01:00:42.285Z",
+  "lastUpdated": "2026-05-27T03:17:54.662Z",
   "news": [
     {
       "title": "Anthropics Claude Mythos löst ebenfalls das Erdős-Problem, das OpenAI gerade noch als KI-Meilenstein feierte",
@@ -110,6 +110,15 @@
       "language": "en"
     },
     {
+      "title": "The next phase of OpenAI’s Education for Countries",
+      "description": "OpenAI advances Education for Countries, expanding AI adoption in schools with new partnerships, teacher training, and tools to improve global learning outcomes.",
+      "link": "https://openai.com/index/the-next-phase-of-education-for-countries",
+      "date": "2026-05-20T00:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
       "title": "An OpenAI model has disproved a central conjecture in discrete geometry",
       "description": "An OpenAI model solved the 80-year-old unit distance problem, disproving a major conjecture in discrete geometry and marking a milestone in AI-driven mathematics.",
       "link": "https://openai.com/index/model-disproves-discrete-geometry-conjecture",
@@ -122,15 +131,6 @@
       "title": "How Ramp engineers accelerate code review with Codex",
       "description": "How Ramp engineers use Codex with GPT-5.5 to review code and ship improvements, allowing them to get substantive feedback in minutes instead of hours.",
       "link": "https://openai.com/index/ramp",
-      "date": "2026-05-20T00:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "The next phase of OpenAI’s Education for Countries",
-      "description": "OpenAI advances Education for Countries, expanding AI adoption in schools with new partnerships, teacher training, and tools to improve global learning outcomes.",
-      "link": "https://openai.com/index/the-next-phase-of-education-for-countries",
       "date": "2026-05-20T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
