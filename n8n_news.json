@@ -1,6 +1,42 @@
 {
-  "lastUpdated": "2026-05-27T15:12:06.822Z",
+  "lastUpdated": "2026-05-27T20:47:55.229Z",
   "news": [
+    {
+      "title": "MAI-Image-2.5: Microsofts neues Bildmodell landet auf Augenhöhe mit Googles Nano Banana 2",
+      "description": "Microsoft hat mit MAI-Image-2.5 ein neues Bildmodell veröffentlicht, das auf der Text-zu-Bild-Rangliste von Arena auf Platz drei einsteigt, auf Augenhöhe mit Googles Nano Banana 2, aber noch hinter Op",
+      "link": "https://the-decoder.de/mai-image-2-5-microsofts-neues-bildmodell-landet-auf-augenhoehe-mit-googles-nano-banana-2/",
+      "date": "2026-05-27T18:25:10.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "KI-Softwareentwickler Devin ist Investoren mehr als 26 Milliarden Dollar wert",
+      "description": "Cognition, das Unternehmen hinter dem KI-Softwareentwickler Devin, hat mehr als eine Milliarde Dollar eingesammelt bei einer Bewertung von mehr als 26 Milliarden Dollar. Die Summe unterstreicht das en",
+      "link": "https://the-decoder.de/ki-softwareentwickler-devin-ist-investoren-mehr-als-26-milliarden-dollar-wert/",
+      "date": "2026-05-27T18:00:51.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Neobroker Robinhood lässt KI-Agenten für Kunden Aktien handeln und mit Kreditkarte einkaufen",
+      "description": "Robinhood lässt Kunden KI-Agenten wie Anthropics Claude per MCP-Protokoll mit einem separaten Anlagekonto verknüpfen. Die Agenten können eigenständig Aktien handeln. Die US-Brokeraufsicht FINRA stuft",
+      "link": "https://the-decoder.de/neobroker-robinhood-laesst-ki-agenten-fuer-kunden-aktien-handeln-und-mit-kreditkarte-einkaufen/",
+      "date": "2026-05-27T17:29:57.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "YouTube will KI-Videos ab Mai 2026 automatisch erkennen und kennzeichnen",
+      "description": "YouTube verschärft seine KI-Kennzeichnung: Labels für fotorealistische oder stark KI-veränderte Inhalte werden künftig prominenter platziert – bei Videos unter dem Player, bei Shorts direkt im Clip. A",
+      "link": "https://the-decoder.de/youtube-will-ki-videos-ab-mai-2026-automatisch-erkennen-und-kennzeichnen/",
+      "date": "2026-05-27T16:43:14.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "KI-Boom treibt Nvidias Taiwan-Ausgaben in drei Jahren von 15 auf 150 Milliarden Dollar",
       "description": "Nvidia gibt mittlerweile bis zu 150 Milliarden US-Dollar pro Jahr für seine Zulieferer wie TSMC in Taiwan aus, wie CEO Jensen Huang bei einem Firmentreffen in Taipei laut Nikkei Asia sagte.\nDer Artike",
@@ -38,6 +74,24 @@
       "language": "en"
     },
     {
+      "title": "Election information and safeguards in 2026",
+      "description": "Ahead of global elections, we’re helping people access information, supporting cyber defenders, and increasing AI transparency",
+      "link": "https://openai.com/index/election-safeguards-2026",
+      "date": "2026-05-27T00:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
+      "title": "Warp’s big bet on building open source with GPT-5.5",
+      "description": "Warp uses GPT-5.5 and OpenAI models to coordinate coding agents across local, cloud, and open-source development workflows.",
+      "link": "https://openai.com/index/warp",
+      "date": "2026-05-27T00:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
       "title": "Anthropics Claude Mythos löst ebenfalls das Erdős-Problem, das OpenAI gerade noch als KI-Meilenstein feierte",
       "description": "Kurz nach OpenAIs Widerlegung der Unit-Distance-Vermutung von Erdős zeigt Anthropic: Auch Claude Mythos löst \"übers Wochenende\" das seit 1946 offene Problem, laut Ingenieur Sholto Douglas mit einem \"h",
       "link": "https://the-decoder.de/anthropics-claude-mythos-loest-ebenfalls-das-erdos-problem-das-openai-gerade-noch-als-ki-meilenstein-feierte/",
@@ -65,42 +119,6 @@
       "language": "de"
     },
     {
-      "title": "Forscher finden tausende erfundene KI-Quellen in biomedizinischen Fachartikeln und warnen vor Gefahr für klinische Leitlinien",
-      "description": "Ein Audit der Columbia University und anderer Institutionen über 2,5 Millionen biomedizinische Paper zeigt: Seit 2023 hat sich die Rate erfundener Literaturangaben mehr als verzwölffacht. Die Forscher",
-      "link": "https://the-decoder.de/forscher-finden-tausende-erfundene-ki-quellen-in-biomedizinischen-fachartikeln-und-warnen-vor-gefahr-fuer-klinische-leitlinien/",
-      "date": "2026-05-26T11:48:11.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Investor hinter Airbnb und OpenAI warnt Startups: Wer KI-Mails schickt, wird nicht ernst genommen",
-      "description": "Y-Combinator-Gründer Paul Graham ignoriert E-Mails, die erkennbar mit KI verfasst wurden: Sie fühlten sich an, \"als werde man belogen\". Das kommt ausgerechnet von einem der frühesten OpenAI-Investoren",
-      "link": "https://the-decoder.de/investor-hinter-airbnb-und-openai-warnt-startups-wer-ki-mails-schickt-wird-nicht-ernst-genommen/",
-      "date": "2026-05-26T10:25:57.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Zwischen Systemkollaps und Gerechtigkeit: KI-Klagen stürzen die US-Justiz in ein Dilemma",
-      "description": "Eine neue Studie des MIT und der University of Southern California zeigt, dass die Zahl der Klagen ohne Anwalt an US-Bundesgerichten seit der Verbreitung von ChatGPT fast doppelt so hoch ist wie zuvor",
-      "link": "https://the-decoder.de/zwischen-systemkollaps-und-gerechtigkeit-ki-klagen-stuerzen-die-us-justiz-in-ein-dilemma/",
-      "date": "2026-05-26T09:22:00.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Anthropic-Mitgründer bei Vorstellung der Papst-Enzyklika: KI-Modelle zeigen Hinweise auf Introspektion",
-      "description": "Anthropic-Mitgründer Christopher Olah präsentierte gemeinsam mit Papst Leo XIV. dessen Enzyklika \"Magnifica Humanitas\" – und deutete an, man finde in KI-Modellen Hinweise auf Introspektion und emotion",
-      "link": "https://the-decoder.de/anthropic-mitgruender-bei-vorstellung-der-papst-enzyklika-ki-modelle-zeigen-hinweise-auf-introspektion/",
-      "date": "2026-05-25T13:11:07.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "OpenAI, Grupo Folha and Grupo UOL announce strategic content partnership",
       "description": "OpenAI partners with Grupo Folha and Grupo UOL to bring trusted Brazilian journalism to ChatGPT, expanding access to news with attribution and transparency.",
       "link": "https://openai.com/index/grupo-folha-grupo-uol-partnership",
@@ -114,24 +132,6 @@
       "description": "OpenAI is named a leader in the 2026 Gartner Magic Quadrant for Enterprise AI Coding Agents, with Codex recognized for innovation and enterprise-scale deployment.",
       "link": "https://openai.com/index/gartner-2026-agentic-coding-leader",
       "date": "2026-05-22T00:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "AdventHealth advances whole-person care with OpenAI",
-      "description": "AdventHealth is using ChatGPT for Healthcare to streamline workflows, reduce administrative burden, and return more time to patient care.",
-      "link": "https://openai.com/index/adventhealth",
-      "date": "2026-05-21T12:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "An OpenAI model has disproved a central conjecture in discrete geometry",
-      "description": "An OpenAI model solved the 80-year-old unit distance problem, disproving a major conjecture in discrete geometry and marking a milestone in AI-driven mathematics.",
-      "link": "https://openai.com/index/model-disproves-discrete-geometry-conjecture",
-      "date": "2026-05-20T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
