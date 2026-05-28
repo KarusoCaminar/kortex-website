@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-05-28T13:24:54.655Z",
+  "lastUpdated": "2026-05-28T15:15:16.175Z",
   "news": [
+    {
+      "title": "Coral Board: Googles neuer Mini-Computer für lokale KI",
+      "description": "Google hat auf der Google I/O das neue Coral Board vorgestellt, einen kompakten Einplatinencomputer für KI direkt auf dem Gerät.\nDer Artikel Coral Board: Googles neuer Mini-Computer für lokale KI ersc",
+      "link": "https://the-decoder.de/coral-board-googles-neuer-mini-computer-fuer-lokale-ki/",
+      "date": "2026-05-28T14:29:01.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Le Chat wird zu Vibe: Mistrals Chatbot soll jetzt selbst arbeiten",
       "description": "Mistral AI benennt seinen Chatbot Le Chat in Vibe um und bündelt Chat, Coding-Agenten und einen neuen Work Mode unter einer Marke. Der Work Mode dockt an Google Workspace, Outlook, Slack oder GitHub a",
@@ -90,15 +99,6 @@
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
-    },
-    {
-      "title": "China verwandelt sein altes Kameranetz in einen Apparat für automatisierte Massenüberwachung",
-      "description": "Chinas Polizeibehörden rüsten Millionen bestehender Überwachungskameras mit Computer Vision und Sprachmodellen auf. Hersteller wie Hikvision und Huawei liefern Systeme, die Videomaterial per Text-Prom",
-      "link": "https://the-decoder.de/china-verwandelt-sein-altes-kameranetz-in-einen-apparat-fuer-automatisierte-massenueberwachung/",
-      "date": "2026-05-27T09:13:22.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
     },
     {
       "title": "Building self-improving tax agents with Codex",
