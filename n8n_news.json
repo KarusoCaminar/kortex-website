@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-05-28T20:52:29.294Z",
+  "lastUpdated": "2026-05-28T22:36:14.016Z",
   "news": [
+    {
+      "title": "65-Milliarden-Finanzierung: Claude-Entwickler Anthropic kratzt an der Billionen-Marke",
+      "description": "Anthropic sammelt in einer Serie-H-Runde 65 Milliarden Dollar ein bei einer Bewertung von 965 Milliarden Dollar. Der annualisierte Umsatz liegt laut Finanzchef Krishna Rao bei mehr als 47 Milliarden D",
+      "link": "https://the-decoder.de/65-milliarden-finanzierung-claude-entwickler-anthropic-kratzt-an-der-billionen-marke/",
+      "date": "2026-05-28T21:30:58.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Anthropic veröffentlicht Claude Opus 4.8 als \"bescheidenes, aber spürbares Update\"",
+      "description": "Anthropic veröffentlicht Claude Opus 4.8. Das Modell übertrifft in den meisten Benchmarks GPT-5.5 und Gemini 3.1 Pro. Es soll zudem viermal seltener als sein Vorgänger eigene Fehler unkommentiert durc",
+      "link": "https://the-decoder.de/anthropic-veroeffentlicht-claude-opus-4-8-als-bescheidenes-aber-spuerbares-update/",
+      "date": "2026-05-28T20:57:09.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Google Cloud reagiert auf KI-beschleunigte Cyberangriffe mit einer Plattform, die Lücken in Minuten schließen soll",
       "description": "Google Cloud hat mit \"AI Threat Defense\" eine Plattform vorgestellt, die Schwachstellen in Unternehmenssystemen automatisiert finden, priorisieren und patchen soll. Der Konzern bündelt darin Komponent",
@@ -78,24 +96,6 @@
       "description": "Cognition, das Unternehmen hinter dem KI-Softwareentwickler Devin, hat mehr als eine Milliarde Dollar eingesammelt bei einer Bewertung von mehr als 26 Milliarden Dollar. Die Summe unterstreicht das en",
       "link": "https://the-decoder.de/ki-softwareentwickler-devin-ist-investoren-mehr-als-26-milliarden-dollar-wert/",
       "date": "2026-05-27T18:00:51.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Neobroker Robinhood lässt KI-Agenten für Kunden Aktien handeln und mit Kreditkarte einkaufen",
-      "description": "Robinhood lässt Kunden KI-Agenten wie Anthropics Claude per MCP-Protokoll mit einem separaten Anlagekonto verknüpfen. Die Agenten können eigenständig Aktien handeln. Die US-Brokeraufsicht FINRA stuft",
-      "link": "https://the-decoder.de/neobroker-robinhood-laesst-ki-agenten-fuer-kunden-aktien-handeln-und-mit-kreditkarte-einkaufen/",
-      "date": "2026-05-27T17:29:57.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "YouTube will KI-Videos ab Mai 2026 automatisch erkennen und kennzeichnen",
-      "description": "YouTube verschärft seine KI-Kennzeichnung: Labels für fotorealistische oder stark KI-veränderte Inhalte werden künftig prominenter platziert – bei Videos unter dem Player, bei Shorts direkt im Clip. A",
-      "link": "https://the-decoder.de/youtube-will-ki-videos-ab-mai-2026-automatisch-erkennen-und-kennzeichnen/",
-      "date": "2026-05-27T16:43:14.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
