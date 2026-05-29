@@ -1,6 +1,33 @@
 {
-  "lastUpdated": "2026-05-29T09:18:41.622Z",
+  "lastUpdated": "2026-05-29T11:11:47.161Z",
   "news": [
+    {
+      "title": "Forscher definieren KI-Agenten neu: Code wird vom Ergebnis zur Betriebsschicht",
+      "description": "Eine neue Übersichtsarbeit argumentiert, dass nicht das Sprachmodell selbst, sondern die umgebende Software-Schicht den entscheidenden Engpass autonomer KI-Agenten darstellt. Werkzeuge, Speicher, Prüf",
+      "link": "https://the-decoder.de/forscher-definieren-ki-agenten-neu-code-wird-vom-ergebnis-zur-betriebsschicht/",
+      "date": "2026-05-29T10:30:59.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Amazon schaltet KI-Leaderboard ab, nachdem Beschäftigte per \"Tokenmaxxing\" die Cloud-Rechnung hochtrieben",
+      "description": "Amazon zieht ein internes KI-Ranking aus dem Verkehr, weil Mitarbeitende es durch sinnlose KI-Nutzung in die Höhe trieben und damit die Cloud-Kosten des Konzerns aufblähten.\nDer Artikel Amazon schalte",
+      "link": "https://the-decoder.de/amazon-schaltet-ki-leaderboard-ab-nachdem-beschaeftigte-per-tokenmaxxing-die-cloud-rechnung-hochtrieben/",
+      "date": "2026-05-29T09:24:29.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Strengthening societal resilience with Rosalind Biodefense",
+      "description": "OpenAI launches Rosalind Biodefense, expanding trusted access to GPT-Rosalind for vetted developers and U.S. government partners advancing biodefense, public health, and pandemic preparedness through",
+      "link": "https://openai.com/index/strengthening-societal-resilience-with-rosalind-biodefense",
+      "date": "2026-05-29T03:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
     {
       "title": "65-Milliarden-Finanzierung: Claude-Entwickler Anthropic kratzt an der Billionen-Marke",
       "description": "Anthropic sammelt in einer Serie-H-Runde 65 Milliarden Dollar ein bei einer Bewertung von 965 Milliarden Dollar. Der annualisierte Umsatz liegt laut Finanzchef Krishna Rao bei mehr als 47 Milliarden D",
@@ -74,15 +101,6 @@
       "language": "de"
     },
     {
-      "title": "MUFG aims to become AI-native with OpenAI",
-      "description": "MUFG uses ChatGPT Enterprise to build an AI-native organization, improve workflows, and deliver new AI-powered financial services at scale.",
-      "link": "https://openai.com/index/mufg",
-      "date": "2026-05-28T00:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
       "title": "OpenAI’s Frontier Governance Framework",
       "description": "Explore OpenAI’s Frontier Governance Framework and how our AI safety, security, and risk practices align with emerging EU and California regulations.",
       "link": "https://openai.com/index/openai-frontier-governance-framework",
@@ -92,22 +110,13 @@
       "language": "en"
     },
     {
-      "title": "MAI-Image-2.5: Microsofts neues Bildmodell landet auf Augenhöhe mit Googles Nano Banana 2",
-      "description": "Microsoft hat mit MAI-Image-2.5 ein neues Bildmodell veröffentlicht, das auf der Text-zu-Bild-Rangliste von Arena auf Platz drei einsteigt, auf Augenhöhe mit Googles Nano Banana 2, aber noch hinter Op",
-      "link": "https://the-decoder.de/mai-image-2-5-microsofts-neues-bildmodell-landet-auf-augenhoehe-mit-googles-nano-banana-2/",
-      "date": "2026-05-27T18:25:10.000Z",
-      "source": "The Decoder",
+      "title": "MUFG aims to become AI-native with OpenAI",
+      "description": "MUFG uses ChatGPT Enterprise to build an AI-native organization, improve workflows, and deliver new AI-powered financial services at scale.",
+      "link": "https://openai.com/index/mufg",
+      "date": "2026-05-28T00:00:00.000Z",
+      "source": "OpenAI",
       "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "KI-Softwareentwickler Devin ist Investoren mehr als 26 Milliarden Dollar wert",
-      "description": "Cognition, das Unternehmen hinter dem KI-Softwareentwickler Devin, hat mehr als eine Milliarde Dollar eingesammelt bei einer Bewertung von mehr als 26 Milliarden Dollar. Die Summe unterstreicht das en",
-      "link": "https://the-decoder.de/ki-softwareentwickler-devin-ist-investoren-mehr-als-26-milliarden-dollar-wert/",
-      "date": "2026-05-27T18:00:51.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
+      "language": "en"
     },
     {
       "title": "Cisco and OpenAI redefine enterprise engineering with Codex",
@@ -123,15 +132,6 @@
       "description": "See how OpenAI, Thrive, and Crete built a self-improving tax agent with Codex, automating filings, improving accuracy, and accelerating workflows.",
       "link": "https://openai.com/index/building-self-improving-tax-agents-with-codex",
       "date": "2026-05-27T07:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "Election information and safeguards in 2026",
-      "description": "Ahead of global elections, we’re helping people access information, supporting cyber defenders, and increasing AI transparency",
-      "link": "https://openai.com/index/election-safeguards-2026",
-      "date": "2026-05-27T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
