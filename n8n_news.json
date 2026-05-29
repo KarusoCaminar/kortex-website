@@ -1,6 +1,60 @@
 {
-  "lastUpdated": "2026-05-29T15:12:50.839Z",
+  "lastUpdated": "2026-05-29T20:53:07.367Z",
   "news": [
+    {
+      "title": "OpenAI verbessert GPT-5.5 Instant und stellt ältere ChatGPT-Modelle ein",
+      "description": "OpenAI aktualisiert GPT-5.5 Instant für natürlichere Antworten und entfernt die Canvas-Funktion aus seinen neuesten Modellen: Schreib- und Code-Aufgaben laufen künftig direkt im Chat. Gleichzeitig wer",
+      "link": "https://the-decoder.de/openai-verbessert-gpt-5-5-instant-und-stellt-aeltere-chatgpt-modelle-ein/",
+      "date": "2026-05-29T18:04:34.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Google behebt mehrere Bugs bei Gemini-Nutzungslimits, die Kontingente zu schnell aufbrauchten",
+      "description": "Ein Bug in Googles Gemini-App ließ bereits ein bis zwei Omni-Videos das gesamte Nutzungskontingent aufbrauchen. Google hat den Fehler behoben, Ultra-Mitglieder erhalten nun doppelt so viele Videogener",
+      "link": "https://the-decoder.de/google-behebt-mehrere-bugs-bei-gemini-nutzungslimits-die-kontingente-zu-schnell-aufbrauchten/",
+      "date": "2026-05-29T17:46:46.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "500 Millionen Dollar KI-Rechnung: Firma vergisst angeblich Claude-Code-Limits",
+      "description": "Ein nicht genanntes Unternehmen soll laut Axios in einem einzigen Monat eine halbe Milliarde Dollar für Claude-Lizenzen ausgegeben haben, weil keine Nutzungslimits gesetzt waren. Die Fälle zeigen: Ohn",
+      "link": "https://the-decoder.de/500-millionen-dollar-ki-rechnung-firma-vergisst-angeblich-claude-code-limits/",
+      "date": "2026-05-29T17:22:26.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "OpenAI startet Biodefense-Programm mit GPT-Rosalind zur Abwehr biologischer Bedrohungen",
+      "description": "OpenAI stellt sein Biowissenschafts-Modell GPT-Rosalind über das neue Programm Rosalind Biodefense kostenlos für die Pandemievorsorge und biologische Gefahrenabwehr bereit. Erste Partner sind unter an",
+      "link": "https://the-decoder.de/openai-startet-biodefense-programm-mit-gpt-rosalind-zur-abwehr-biologischer-bedrohungen/",
+      "date": "2026-05-29T16:36:30.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Boston Children’s uses AI to unlock new diagnoses",
+      "description": "Boston Children’s Hospital uses OpenAI technology to improve patient care, reduce operational burden, and help diagnose more than 40 rare disease cases.",
+      "link": "https://openai.com/index/boston-childrens-hospital",
+      "date": "2026-05-29T12:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
+      "title": "How Braintrust turns customer requests into code with Codex",
+      "description": "How Braintrust engineers use Codex with GPT-5.5 to run experiments and code faster.",
+      "link": "https://openai.com/index/braintrust",
+      "date": "2026-05-29T12:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
     {
       "title": "Forscher definieren KI-Agenten neu: Code wird vom Ergebnis zur Betriebsschicht",
       "description": "Eine neue Übersichtsarbeit argumentiert, dass nicht das Sprachmodell selbst, sondern die umgebende Software-Schicht den entscheidenden Engpass autonomer KI-Agenten darstellt. Werkzeuge, Speicher, Prüf",
@@ -24,6 +78,15 @@
       "description": "OpenAI launches Rosalind Biodefense, expanding trusted access to GPT-Rosalind for vetted developers and U.S. government partners advancing biodefense, public health, and pandemic preparedness through",
       "link": "https://openai.com/index/strengthening-societal-resilience-with-rosalind-biodefense",
       "date": "2026-05-29T03:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
+      "title": "A shared playbook for trustworthy third party evaluations",
+      "description": "OpenAI shares guidance on third-party AI evaluations, covering how to assess model capabilities, safeguards, and validity for frontier systems.",
+      "link": "https://openai.com/index/trustworthy-third-party-evaluations-foundations",
+      "date": "2026-05-29T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
@@ -65,73 +128,10 @@
       "language": "de"
     },
     {
-      "title": "Le Chat wird zu Vibe: Mistrals Chatbot soll jetzt selbst arbeiten",
-      "description": "Mistral AI benennt seinen Chatbot Le Chat in Vibe um und bündelt Chat, Coding-Agenten und einen neuen Work Mode unter einer Marke. Der Work Mode dockt an Google Workspace, Outlook, Slack oder GitHub a",
-      "link": "https://the-decoder.de/le-chat-wird-zu-vibe-mistrals-chatbot-soll-jetzt-selbst-arbeiten/",
-      "date": "2026-05-28T12:00:32.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Meta One: Zuckerbergs Antwort auf ausgereizte Apps und teure KI-Rechenzentren",
-      "description": "Meta verlangt künftig weltweit Geld für Zusatzfunktionen in Instagram, Facebook und WhatsApp und baut parallel ein kostenpflichtiges KI-Angebot auf.\nDer Artikel Meta One: Zuckerbergs Antwort auf ausge",
-      "link": "https://the-decoder.de/meta-one-zuckerbergs-antwort-auf-ausgereizte-apps-und-teure-ki-rechenzentren/",
-      "date": "2026-05-28T09:21:20.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Amazon baut eigene KI-Produktionsplattform und greenlightet drei KI-Animationsserien für Prime Video",
-      "description": "Amazon MGM Studios und AWS starten einen \"GenAI Creators' Fund\", der Filmemachern Geld und Zugang zur hauseigenen KI-Plattform \"Project Nara\" gibt. Drei Animationsserien sind bereits in Produktion – d",
-      "link": "https://the-decoder.de/amazon-baut-eigene-ki-produktionsplattform-und-greenlightet-drei-ki-animationsserien-fuer-prime-video/",
-      "date": "2026-05-28T08:46:21.000Z",
-      "source": "The Decoder",
-      "category": "industrie-4.0",
-      "language": "de"
-    },
-    {
-      "title": "ElevenLabs Music v2: KI-Songs, die nahtlos zwischen Oper und Heavy Metal wechseln",
-      "description": "ElevenLabs hat mit Music v2 ein verbessertes Modell zur KI-Musikgenerierung veröffentlicht, das genreübergreifend arbeitet: Ein Song kann etwa zwischen Oper, Heavy Metal und Rap wechseln. Neues Inpain",
-      "link": "https://the-decoder.de/elevenlabs-music-v2-ki-songs-die-nahtlos-zwischen-oper-und-heavy-metal-wechseln/",
-      "date": "2026-05-28T07:08:43.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "OpenAI’s Frontier Governance Framework",
-      "description": "Explore OpenAI’s Frontier Governance Framework and how our AI safety, security, and risk practices align with emerging EU and California regulations.",
-      "link": "https://openai.com/index/openai-frontier-governance-framework",
-      "date": "2026-05-28T00:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
       "title": "MUFG aims to become AI-native with OpenAI",
       "description": "MUFG uses ChatGPT Enterprise to build an AI-native organization, improve workflows, and deliver new AI-powered financial services at scale.",
       "link": "https://openai.com/index/mufg",
       "date": "2026-05-28T00:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "Cisco and OpenAI redefine enterprise engineering with Codex",
-      "description": "Cisco and OpenAI are redefining enterprise engineering with Codex, helping Cisco scale AI-native development, accelerate AI Defense work, and automate defect remediation.",
-      "link": "https://openai.com/index/cisco",
-      "date": "2026-05-27T11:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "Building self-improving tax agents with Codex",
-      "description": "See how OpenAI, Thrive, and Crete built a self-improving tax agent with Codex, automating filings, improving accuracy, and accelerating workflows.",
-      "link": "https://openai.com/index/building-self-improving-tax-agents-with-codex",
-      "date": "2026-05-27T07:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
