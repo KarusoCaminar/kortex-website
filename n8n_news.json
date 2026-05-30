@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-05-30T05:22:45.474Z",
+  "lastUpdated": "2026-05-30T08:54:13.234Z",
   "news": [
+    {
+      "title": "Meta plant neuen KI-Anhänger und erweitert sein Smart-Glasses-Sortiment",
+      "description": "Meta investiert Milliarden in KI, bislang ohne kommerziellen Erfolg. Die Open-Source-Strategie scheint gescheitert, und Forschungsergebnisse konnten bislang nicht in Produkte überführt werden. Der Ret",
+      "link": "https://the-decoder.de/meta-plant-neuen-ki-anhaenger-und-erweitert-sein-smart-glasses-sortiment/",
+      "date": "2026-05-30T08:18:42.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "OpenAI verbessert GPT-5.5 Instant und stellt ältere ChatGPT-Modelle ein",
       "description": "OpenAI aktualisiert GPT-5.5 Instant für natürlichere Antworten und entfernt die Canvas-Funktion aus seinen neuesten Modellen: Schreib- und Code-Aufgaben laufen künftig direkt im Chat. Gleichzeitig wer",
@@ -114,15 +123,6 @@
       "description": "Google Cloud hat mit \"AI Threat Defense\" eine Plattform vorgestellt, die Schwachstellen in Unternehmenssystemen automatisiert finden, priorisieren und patchen soll. Der Konzern bündelt darin Komponent",
       "link": "https://the-decoder.de/google-cloud-reagiert-auf-ki-beschleunigte-cyberangriffe-mit-einer-plattform-die-luecken-in-minuten-schliessen-soll/",
       "date": "2026-05-28T15:16:58.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Coral Board: Googles neuer Mini-Computer für lokale KI",
-      "description": "Google hat auf der Google I/O das neue Coral Board vorgestellt, einen kompakten Einplatinencomputer für KI direkt auf dem Gerät.\nDer Artikel Coral Board: Googles neuer Mini-Computer für lokale KI ersc",
-      "link": "https://the-decoder.de/coral-board-googles-neuer-mini-computer-fuer-lokale-ki/",
-      "date": "2026-05-28T14:29:01.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
