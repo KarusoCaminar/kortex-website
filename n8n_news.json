@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-05-30T10:38:13.766Z",
+  "lastUpdated": "2026-05-30T12:33:14.148Z",
   "news": [
+    {
+      "title": "Wer Sprachmodelle als nützliche Assistenten trainiert, macht sie weniger menschlich",
+      "description": "Eine groß angelegte Studie mit rund 208.000 Versuchspersonen und 26 Millionen Reaktionen zeigt: Ausgerechnet das Training, das Sprachmodelle zu hilfreichen Chatbots macht, verschlechtert ihre Fähigkei",
+      "link": "https://the-decoder.de/wer-sprachmodelle-als-nuetzliche-assistenten-trainiert-macht-sie-weniger-menschlich/",
+      "date": "2026-05-30T12:28:12.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Terence Tao: KI ermöglicht erstmals Arbeitsteilung in der Mathematik",
+      "description": "Mathematiker Terence Tao beschreibt, wie KI die mathematische Forschung durch Arbeitsteilung grundlegend verändern könnte. Bisher mussten Forscher alle Schritte selbst beherrschen – von der Problemfor",
+      "link": "https://the-decoder.de/terence-tao-ki-ermoeglicht-erstmals-arbeitsteilung-in-der-mathematik/",
+      "date": "2026-05-30T11:54:25.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Angreifer missbrauchen geteilte ChatGPT- und Claude-Chats, um Schadsoftware zu verbreiten",
       "description": "Angreifer nutzen die Chat-Sharing-Funktion von ChatGPT und Claude, um über geteilte Konversationen Schadsoftware zu verbreiten. Die Chats enthalten etwa Störungsmeldungen oder Installationsanleitungen",
@@ -90,24 +108,6 @@
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
-    },
-    {
-      "title": "Forscher definieren KI-Agenten neu: Code wird vom Ergebnis zur Betriebsschicht",
-      "description": "Eine neue Übersichtsarbeit argumentiert, dass nicht das Sprachmodell selbst, sondern die umgebende Software-Schicht den entscheidenden Engpass autonomer KI-Agenten darstellt. Werkzeuge, Speicher, Prüf",
-      "link": "https://the-decoder.de/forscher-definieren-ki-agenten-neu-code-wird-vom-ergebnis-zur-betriebsschicht/",
-      "date": "2026-05-29T10:30:59.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Amazon schaltet KI-Leaderboard ab, nachdem Beschäftigte per \"Tokenmaxxing\" die Cloud-Rechnung hochtrieben",
-      "description": "Amazon zieht ein internes KI-Ranking aus dem Verkehr, weil Mitarbeitende es durch sinnlose KI-Nutzung in die Höhe trieben und damit die Cloud-Kosten des Konzerns aufblähten.\nDer Artikel Amazon schalte",
-      "link": "https://the-decoder.de/amazon-schaltet-ki-leaderboard-ab-nachdem-beschaeftigte-per-tokenmaxxing-die-cloud-rechnung-hochtrieben/",
-      "date": "2026-05-29T09:24:29.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
     },
     {
       "title": "Strengthening societal resilience with Rosalind Biodefense",
