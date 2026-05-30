@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-05-30T14:36:26.776Z",
+  "lastUpdated": "2026-05-30T16:26:59.575Z",
   "news": [
+    {
+      "title": "Microsoft plant Windows-PCs mit Nvidia-Chips und KI-Agenten, die Aufgaben lokal erledigen",
+      "description": "Nvidia drängt mit eigenen Chips als Hauptprozessor in den PC-Markt: Auf der Computex und Microsofts Build sollen nächste Woche erste Windows-Rechner von Dell und Microsoft Surface vorgestellt werden.",
+      "link": "https://the-decoder.de/microsoft-plant-windows-pcs-mit-nvidia-chips-und-ki-agenten-die-aufgaben-lokal-erledigen/",
+      "date": "2026-05-30T16:11:56.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Wer Sprachmodelle als nützliche Assistenten trainiert, macht sie weniger menschlich",
       "description": "Eine groß angelegte Studie mit rund 208.000 Versuchspersonen und 26 Millionen Reaktionen zeigt: Ausgerechnet das Training, das Sprachmodelle zu hilfreichen Chatbots macht, verschlechtert ihre Fähigkei",
@@ -78,15 +87,6 @@
       "description": "Ein nicht genanntes Unternehmen soll laut Axios in einem einzigen Monat eine halbe Milliarde Dollar für Claude-Lizenzen ausgegeben haben, weil keine Nutzungslimits gesetzt waren. Die Fälle zeigen: Ohn",
       "link": "https://the-decoder.de/500-millionen-dollar-ki-rechnung-firma-vergisst-angeblich-claude-code-limits/",
       "date": "2026-05-29T17:22:26.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "OpenAI startet Biodefense-Programm mit GPT-Rosalind zur Abwehr biologischer Bedrohungen",
-      "description": "OpenAI stellt sein Biowissenschafts-Modell GPT-Rosalind über das neue Programm Rosalind Biodefense kostenlos für die Pandemievorsorge und biologische Gefahrenabwehr bereit. Erste Partner sind unter an",
-      "link": "https://the-decoder.de/openai-startet-biodefense-programm-mit-gpt-rosalind-zur-abwehr-biologischer-bedrohungen/",
-      "date": "2026-05-29T16:36:30.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
