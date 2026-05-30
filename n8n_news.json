@@ -1,6 +1,33 @@
 {
-  "lastUpdated": "2026-05-30T08:54:13.234Z",
+  "lastUpdated": "2026-05-30T10:38:13.766Z",
   "news": [
+    {
+      "title": "Angreifer missbrauchen geteilte ChatGPT- und Claude-Chats, um Schadsoftware zu verbreiten",
+      "description": "Angreifer nutzen die Chat-Sharing-Funktion von ChatGPT und Claude, um über geteilte Konversationen Schadsoftware zu verbreiten. Die Chats enthalten etwa Störungsmeldungen oder Installationsanleitungen",
+      "link": "https://the-decoder.de/angreifer-missbrauchen-geteilte-chatgpt-und-claude-chats-um-schadsoftware-zu-verbreiten/",
+      "date": "2026-05-30T10:28:22.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "OpenAI bringt Computer Use für Codex auf Windows 11 – die KI steuert jetzt auch den PC",
+      "description": "OpenAI bringt \"Computer Use\" in die Codex-App auf Windows 11: Die KI kann nun eigenständig Programme steuern, Apps testen und Fehler suchen. Und wenn niemand am Rechner sitzt: Per ChatGPT-App lassen s",
+      "link": "https://the-decoder.de/openai-bringt-computer-use-fuer-codex-auf-windows-11-die-ki-steuert-jetzt-auch-den-pc/",
+      "date": "2026-05-30T10:11:39.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "KI-Coding: Salesforce-Entwickler sind dank Claude Code angeblich viel schneller – und noch dazu besser",
+      "description": "Salesforce hat seine gesamte Entwicklungsorganisation ohne Token-Limits auf Anthropics Claude Code umgestellt und meldet für April 2026 massive Produktivitätsgewinne: 79 Prozent mehr Pull-Requests pro",
+      "link": "https://the-decoder.de/ki-coding-salesforce-entwickler-sind-dank-claude-code-angeblich-viel-schneller-und-noch-dazu-besser/",
+      "date": "2026-05-30T09:12:57.000Z",
+      "source": "The Decoder",
+      "category": "sales-tools",
+      "language": "de"
+    },
     {
       "title": "Meta plant neuen KI-Anhänger und erweitert sein Smart-Glasses-Sortiment",
       "description": "Meta investiert Milliarden in KI, bislang ohne kommerziellen Erfolg. Die Open-Source-Strategie scheint gescheitert, und Forschungsergebnisse konnten bislang nicht in Produkte überführt werden. Der Ret",
@@ -99,33 +126,6 @@
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
-    },
-    {
-      "title": "65-Milliarden-Finanzierung: Claude-Entwickler Anthropic kratzt an der Billionen-Marke",
-      "description": "Anthropic sammelt in einer Serie-H-Runde 65 Milliarden Dollar ein bei einer Bewertung von 965 Milliarden Dollar. Der annualisierte Umsatz liegt laut Finanzchef Krishna Rao bei mehr als 47 Milliarden D",
-      "link": "https://the-decoder.de/65-milliarden-finanzierung-claude-entwickler-anthropic-kratzt-an-der-billionen-marke/",
-      "date": "2026-05-28T21:30:58.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Anthropic veröffentlicht Claude Opus 4.8 als \"bescheidenes, aber spürbares Update\"",
-      "description": "Anthropic veröffentlicht Claude Opus 4.8. Das Modell übertrifft in den meisten Benchmarks GPT-5.5 und Gemini 3.1 Pro. Es soll zudem viermal seltener als sein Vorgänger eigene Fehler unkommentiert durc",
-      "link": "https://the-decoder.de/anthropic-veroeffentlicht-claude-opus-4-8-als-bescheidenes-aber-spuerbares-update/",
-      "date": "2026-05-28T20:57:09.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Google Cloud reagiert auf KI-beschleunigte Cyberangriffe mit einer Plattform, die Lücken in Minuten schließen soll",
-      "description": "Google Cloud hat mit \"AI Threat Defense\" eine Plattform vorgestellt, die Schwachstellen in Unternehmenssystemen automatisiert finden, priorisieren und patchen soll. Der Konzern bündelt darin Komponent",
-      "link": "https://the-decoder.de/google-cloud-reagiert-auf-ki-beschleunigte-cyberangriffe-mit-einer-plattform-die-luecken-in-minuten-schliessen-soll/",
-      "date": "2026-05-28T15:16:58.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
     },
     {
       "title": "OpenAI’s Frontier Governance Framework",
