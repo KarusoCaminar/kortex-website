@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-31T03:16:44.222Z",
+  "lastUpdated": "2026-05-31T05:37:02.227Z",
   "news": [
     {
       "title": "Microsoft plant Windows-PCs mit Nvidia-Chips und KI-Agenten, die Aufgaben lokal erledigen",
@@ -128,9 +128,9 @@
       "language": "en"
     },
     {
-      "title": "OpenAI’s Frontier Governance Framework",
-      "description": "Explore OpenAI’s Frontier Governance Framework and how our AI safety, security, and risk practices align with emerging EU and California regulations.",
-      "link": "https://openai.com/index/openai-frontier-governance-framework",
+      "title": "MUFG aims to become AI-native with OpenAI",
+      "description": "MUFG uses ChatGPT Enterprise to build an AI-native organization, improve workflows, and deliver new AI-powered financial services at scale.",
+      "link": "https://openai.com/index/mufg",
       "date": "2026-05-28T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
