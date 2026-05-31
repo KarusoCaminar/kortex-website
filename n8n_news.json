@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-05-31T09:09:09.341Z",
+  "lastUpdated": "2026-05-31T10:43:46.374Z",
   "news": [
+    {
+      "title": "Anthropic verbietet KI-Nutzung im Bewerbungsgespräch",
+      "description": "Anthropic verbietet Bewerbern im Gespräch die Nutzung von KI und prüft in bis zu fünf Runden neben Fachkompetenz auch Werte und ethische Haltung. Gehälter reichen bis 850.000 Dollar. Manche Kandidaten",
+      "link": "https://the-decoder.de/anthropic-verbietet-ki-nutzung-im-bewerbungsgespraech/",
+      "date": "2026-05-31T10:02:14.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Große Gender-Lücke bei KI-Coding-Tools: Männliche Forscher setzen Agenten wie Claude Code weit häufiger ein",
+      "description": "Laut einer Anthropic-Studie nutzen Forscher mit typisch männlichen Namen Coding-Agenten mehr als doppelt so häufig wie solche mit typisch weiblichen Namen, auch bei gleicher Fachrichtung und Karrieres",
+      "link": "https://the-decoder.de/grosse-gender-luecke-bei-ki-coding-tools-maennliche-forscher-setzen-agenten-wie-claude-code-weit-haeufiger-ein/",
+      "date": "2026-05-31T09:34:11.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Bis zu 75 Milliarden Euro: SoftBank macht Frankreich zum größten europäischen Standort für KI-Infrastruktur",
       "description": "SoftBank plant KI-Rechenzentren mit bis zu 5 Gigawatt Kapazität in Frankreich – für bis zu 75 Milliarden Euro die größte KI-Infrastruktur-Investition des Konzerns in Europa. Allein bis 2031 sollen an",
@@ -71,24 +89,6 @@
       "date": "2026-05-30T09:12:57.000Z",
       "source": "The Decoder",
       "category": "sales-tools",
-      "language": "de"
-    },
-    {
-      "title": "Meta plant neuen KI-Anhänger und erweitert sein Smart-Glasses-Sortiment",
-      "description": "Meta investiert Milliarden in KI, bislang ohne kommerziellen Erfolg. Die Open-Source-Strategie scheint gescheitert, und Forschungsergebnisse konnten bislang nicht in Produkte überführt werden. Der Ret",
-      "link": "https://the-decoder.de/meta-plant-neuen-ki-anhaenger-und-erweitert-sein-smart-glasses-sortiment/",
-      "date": "2026-05-30T08:18:42.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "OpenAI verbessert GPT-5.5 Instant und stellt ältere ChatGPT-Modelle ein",
-      "description": "OpenAI aktualisiert GPT-5.5 Instant für natürlichere Antworten und entfernt die Canvas-Funktion aus seinen neuesten Modellen: Schreib- und Code-Aufgaben laufen künftig direkt im Chat. Gleichzeitig wer",
-      "link": "https://the-decoder.de/openai-verbessert-gpt-5-5-instant-und-stellt-aeltere-chatgpt-modelle-ein/",
-      "date": "2026-05-29T18:04:34.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
       "language": "de"
     },
     {
