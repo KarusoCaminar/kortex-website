@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-05-31T10:43:46.374Z",
+  "lastUpdated": "2026-05-31T12:37:22.473Z",
   "news": [
+    {
+      "title": "KI-Modell trennt zwei Arten, wie Köche über Zutaten denken",
+      "description": "Das Londoner Start-up Kaikaku.AI stellt mit \"Epicure\" drei KI-Modelle vor, die erstmals sauber trennen, ob eine Zutat zum Rezept passt oder chemisch verwandt ist. Trainiert auf 4,14 Millionen Rezepten",
+      "link": "https://the-decoder.de/ki-modell-trennt-zwei-arten-wie-koeche-ueber-zutaten-denken/",
+      "date": "2026-05-31T11:24:20.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Anthropic verbietet KI-Nutzung im Bewerbungsgespräch",
       "description": "Anthropic verbietet Bewerbern im Gespräch die Nutzung von KI und prüft in bis zu fünf Runden neben Fachkompetenz auch Werte und ethische Haltung. Gehälter reichen bis 850.000 Dollar. Manche Kandidaten",
@@ -80,15 +89,6 @@
       "date": "2026-05-30T10:11:39.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "KI-Coding: Salesforce-Entwickler sind dank Claude Code angeblich viel schneller – und noch dazu besser",
-      "description": "Salesforce hat seine gesamte Entwicklungsorganisation ohne Token-Limits auf Anthropics Claude Code umgestellt und meldet für April 2026 massive Produktivitätsgewinne: 79 Prozent mehr Pull-Requests pro",
-      "link": "https://the-decoder.de/ki-coding-salesforce-entwickler-sind-dank-claude-code-angeblich-viel-schneller-und-noch-dazu-besser/",
-      "date": "2026-05-30T09:12:57.000Z",
-      "source": "The Decoder",
-      "category": "sales-tools",
       "language": "de"
     },
     {
