@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-05-31T07:26:42.381Z",
+  "lastUpdated": "2026-05-31T09:09:09.341Z",
   "news": [
+    {
+      "title": "Bis zu 75 Milliarden Euro: SoftBank macht Frankreich zum größten europäischen Standort für KI-Infrastruktur",
+      "description": "SoftBank plant KI-Rechenzentren mit bis zu 5 Gigawatt Kapazität in Frankreich – für bis zu 75 Milliarden Euro die größte KI-Infrastruktur-Investition des Konzerns in Europa. Allein bis 2031 sollen an",
+      "link": "https://the-decoder.de/bis-zu-75-milliarden-euro-softbank-macht-frankreich-zum-groessten-europaeischen-standort-fuer-ki-infrastruktur/",
+      "date": "2026-05-31T08:22:46.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "KI-Suchagenten \"googeln\" oft nur, was sie ohnehin schon wissen",
+      "description": "Führende KI-Suchagenten wie GPT-5.4 oder Kimi K2.6 recherchieren auf etablierten Benchmarks offenbar kaum wirklich, sondern nutzen das Web vor allem, um bereits im Training gelerntes Wissen zu bestäti",
+      "link": "https://the-decoder.de/ki-suchagenten-googeln-oft-nur-was-sie-ohnehin-schon-wissen/",
+      "date": "2026-05-31T07:29:41.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Microsoft plant Windows-PCs mit Nvidia-Chips und KI-Agenten, die Aufgaben lokal erledigen",
       "description": "Nvidia drängt mit eigenen Chips als Hauptprozessor in den PC-Markt: Auf der Computex und Microsofts Build sollen nächste Woche erste Windows-Rechner von Dell und Microsoft Surface vorgestellt werden.",
@@ -74,24 +92,6 @@
       "language": "de"
     },
     {
-      "title": "Google behebt mehrere Bugs bei Gemini-Nutzungslimits, die Kontingente zu schnell aufbrauchten",
-      "description": "Ein Bug in Googles Gemini-App ließ bereits ein bis zwei Omni-Videos das gesamte Nutzungskontingent aufbrauchen. Google hat den Fehler behoben, Ultra-Mitglieder erhalten nun doppelt so viele Videogener",
-      "link": "https://the-decoder.de/google-behebt-mehrere-bugs-bei-gemini-nutzungslimits-die-kontingente-zu-schnell-aufbrauchten/",
-      "date": "2026-05-29T17:46:46.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "500 Millionen Dollar KI-Rechnung: Firma vergisst angeblich Claude-Code-Limits",
-      "description": "Ein nicht genanntes Unternehmen soll laut Axios in einem einzigen Monat eine halbe Milliarde Dollar für Claude-Lizenzen ausgegeben haben, weil keine Nutzungslimits gesetzt waren. Die Fälle zeigen: Ohn",
-      "link": "https://the-decoder.de/500-millionen-dollar-ki-rechnung-firma-vergisst-angeblich-claude-code-limits/",
-      "date": "2026-05-29T17:22:26.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "Boston Children’s uses AI to unlock new diagnoses",
       "description": "Boston Children’s Hospital uses OpenAI technology to improve patient care, reduce operational burden, and help diagnose more than 40 rare disease cases.",
       "link": "https://openai.com/index/boston-childrens-hospital",
@@ -128,9 +128,9 @@
       "language": "en"
     },
     {
-      "title": "MUFG aims to become AI-native with OpenAI",
-      "description": "MUFG uses ChatGPT Enterprise to build an AI-native organization, improve workflows, and deliver new AI-powered financial services at scale.",
-      "link": "https://openai.com/index/mufg",
+      "title": "OpenAI’s Frontier Governance Framework",
+      "description": "Explore OpenAI’s Frontier Governance Framework and how our AI safety, security, and risk practices align with emerging EU and California regulations.",
+      "link": "https://openai.com/index/openai-frontier-governance-framework",
       "date": "2026-05-28T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
