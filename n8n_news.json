@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-01T18:07:43.427Z",
+  "lastUpdated": "2026-06-01T21:14:56.891Z",
   "news": [
     {
       "title": "Claude-Macher strebt an die Börse: Anthropic reicht Papiere bei der US-Börsenaufsicht ein",
@@ -18,6 +18,15 @@
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
+    },
+    {
+      "title": "Building the infrastructure for the Intelligence Age in Michigan",
+      "description": "OpenAI breaks ground on a 1GW data center project in Michigan as part of Stargate, building AI infrastructure to expand access, create jobs, and support communities.",
+      "link": "https://openai.com/index/stargate-michigan-data-center",
+      "date": "2026-06-01T12:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
     },
     {
       "title": "Nemotron 3 Ultra: Nvidias neues Open-Source-Modell ist laut Benchmark das stärkste der USA",
@@ -110,15 +119,6 @@
       "language": "en"
     },
     {
-      "title": "OpenAI’s Frontier Governance Framework",
-      "description": "Explore OpenAI’s Frontier Governance Framework and how our AI safety, security, and risk practices align with emerging EU and California regulations.",
-      "link": "https://openai.com/index/openai-frontier-governance-framework",
-      "date": "2026-05-28T00:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
       "title": "MUFG aims to become AI-native with OpenAI",
       "description": "MUFG uses ChatGPT Enterprise to build an AI-native organization, improve workflows, and deliver new AI-powered financial services at scale.",
       "link": "https://openai.com/index/mufg",
@@ -128,10 +128,10 @@
       "language": "en"
     },
     {
-      "title": "Cisco and OpenAI redefine enterprise engineering with Codex",
-      "description": "Cisco and OpenAI are redefining enterprise engineering with Codex, helping Cisco scale AI-native development, accelerate AI Defense work, and automate defect remediation.",
-      "link": "https://openai.com/index/cisco",
-      "date": "2026-05-27T11:00:00.000Z",
+      "title": "OpenAI’s Frontier Governance Framework",
+      "description": "Explore OpenAI’s Frontier Governance Framework and how our AI safety, security, and risk practices align with emerging EU and California regulations.",
+      "link": "https://openai.com/index/openai-frontier-governance-framework",
+      "date": "2026-05-28T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
