@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-01T21:14:56.891Z",
+  "lastUpdated": "2026-06-01T22:46:14.324Z",
   "news": [
     {
       "title": "Claude-Macher strebt an die Börse: Anthropic reicht Papiere bei der US-Börsenaufsicht ein",
@@ -45,6 +45,15 @@
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
+    },
+    {
+      "title": "OpenAI frontier models and Codex are now available on AWS",
+      "description": "OpenAI frontier models and Codex are now generally available on AWS, giving enterprises a new path to build with OpenAI through the AWS environments, controls, and procurement workflows they already u",
+      "link": "https://openai.com/index/openai-frontier-models-and-codex-are-now-available-on-aws",
+      "date": "2026-06-01T10:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
     },
     {
       "title": "OpenAI-Chef Sam Altman träumt von persönlichen Alltagsrobotern",
@@ -114,15 +123,6 @@
       "description": "OpenAI shares guidance on third-party AI evaluations, covering how to assess model capabilities, safeguards, and validity for frontier systems.",
       "link": "https://openai.com/index/trustworthy-third-party-evaluations-foundations",
       "date": "2026-05-29T00:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "MUFG aims to become AI-native with OpenAI",
-      "description": "MUFG uses ChatGPT Enterprise to build an AI-native organization, improve workflows, and deliver new AI-powered financial services at scale.",
-      "link": "https://openai.com/index/mufg",
-      "date": "2026-05-28T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
