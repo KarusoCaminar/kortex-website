@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-06-01T07:58:39.092Z",
+  "lastUpdated": "2026-06-01T10:01:58.328Z",
   "news": [
+    {
+      "title": "OpenAI-Chef Sam Altman träumt von persönlichen Alltagsrobotern",
+      "description": "OpenAI baut erneut ein Robotik-Team auf, fünf Jahre nachdem die Firma die Abteilung geschlossen hatte. Das Team ist aus dem Forschungsprogramm zur Weltsimulation hervorgegangen. CEO Sam Altman formuli",
+      "link": "https://the-decoder.de/openai-chef-sam-altman-traeumt-von-persoenlichen-alltagsrobotern/",
+      "date": "2026-06-01T08:18:33.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "KI PRO Webinar | Die KI-Verordnung der EU (EU AI Act): Was jetzt gilt",
       "description": "Die KI-Verordnung betrifft jedes Unternehmen, das KI-Systeme einsetzt. Wer die Risikokategorien, Dokumentationspflichten und Transparenzanforderungen nicht kennt, riskiert Bußgelder und Reputationssch",
@@ -74,24 +83,6 @@
       "language": "de"
     },
     {
-      "title": "Terence Tao: KI ermöglicht erstmals Arbeitsteilung in der Mathematik",
-      "description": "Mathematiker Terence Tao beschreibt, wie KI die mathematische Forschung durch Arbeitsteilung grundlegend verändern könnte. Bisher mussten Forscher alle Schritte selbst beherrschen – von der Problemfor",
-      "link": "https://the-decoder.de/terence-tao-ki-ermoeglicht-erstmals-arbeitsteilung-in-der-mathematik/",
-      "date": "2026-05-30T11:54:25.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Angreifer missbrauchen geteilte ChatGPT- und Claude-Chats, um Schadsoftware zu verbreiten",
-      "description": "Angreifer nutzen die Chat-Sharing-Funktion von ChatGPT und Claude, um über geteilte Konversationen Schadsoftware zu verbreiten. Die Chats enthalten etwa Störungsmeldungen oder Installationsanleitungen",
-      "link": "https://the-decoder.de/angreifer-missbrauchen-geteilte-chatgpt-und-claude-chats-um-schadsoftware-zu-verbreiten/",
-      "date": "2026-05-30T10:28:22.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "Boston Children’s uses AI to unlock new diagnoses",
       "description": "Boston Children’s Hospital uses OpenAI technology to improve patient care, reduce operational burden, and help diagnose more than 40 rare disease cases.",
       "link": "https://openai.com/index/boston-childrens-hospital",
@@ -131,6 +122,15 @@
       "title": "OpenAI’s Frontier Governance Framework",
       "description": "Explore OpenAI’s Frontier Governance Framework and how our AI safety, security, and risk practices align with emerging EU and California regulations.",
       "link": "https://openai.com/index/openai-frontier-governance-framework",
+      "date": "2026-05-28T00:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
+      "title": "MUFG aims to become AI-native with OpenAI",
+      "description": "MUFG uses ChatGPT Enterprise to build an AI-native organization, improve workflows, and deliver new AI-powered financial services at scale.",
+      "link": "https://openai.com/index/mufg",
       "date": "2026-05-28T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
