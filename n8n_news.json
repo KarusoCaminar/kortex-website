@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-06-01T14:11:14.501Z",
+  "lastUpdated": "2026-06-01T18:07:43.427Z",
   "news": [
+    {
+      "title": "Claude-Macher strebt an die Börse: Anthropic reicht Papiere bei der US-Börsenaufsicht ein",
+      "description": "Anthropic hat vertraulich einen Börsengangs-Entwurf bei der US-Börsenaufsicht SEC eingereicht. Das Unternehmen hinter dem Chatbot Claude wird nach seiner jüngsten Finanzierungsrunde mit knapp einer Bi",
+      "link": "https://the-decoder.de/claude-macher-strebt-an-die-boerse-anthropic-reicht-papiere-bei-der-us-boersenaufsicht-ein/",
+      "date": "2026-06-01T17:20:59.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Turing-Preisträger Sutton: Generative KI ist gut im Nachahmen, aber unfähig zur Entdeckung",
+      "description": "Turing-Preisträger Richard Sutton sieht eine zentrale Schwäche gewöhnlicher generativer KI: Sie kann ihre eigenen Ergebnisse nicht bewerten. Ohne diese Fähigkeit bleibe echte wissenschaftliche Entdeck",
+      "link": "https://the-decoder.de/turing-preistraeger-sutton-generative-ki-ist-gut-im-nachahmen-aber-unfaehig-zur-entdeckung/",
+      "date": "2026-06-01T16:30:26.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Nemotron 3 Ultra: Nvidias neues Open-Source-Modell ist laut Benchmark das stärkste der USA",
       "description": "Laut der Benchmark-Plattform Artificial Analysis ist Nvidias neues Nemotron 3 Ultra das bislang intelligenteste offene KI-Modell aus den USA. Es hat insgesamt rund 550 Milliarden Parameter, von denen",
@@ -51,24 +69,6 @@
       "description": "Anthropic verbietet Bewerbern im Gespräch die Nutzung von KI und prüft in bis zu fünf Runden neben Fachkompetenz auch Werte und ethische Haltung. Gehälter reichen bis 850.000 Dollar. Manche Kandidaten",
       "link": "https://the-decoder.de/anthropic-verbietet-ki-nutzung-im-bewerbungsgespraech/",
       "date": "2026-05-31T10:02:14.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Große Gender-Lücke bei KI-Coding-Tools: Männliche Forscher setzen Agenten wie Claude Code weit häufiger ein",
-      "description": "Laut einer Anthropic-Studie nutzen Forscher mit typisch männlichen Namen Coding-Agenten mehr als doppelt so häufig wie solche mit typisch weiblichen Namen, auch bei gleicher Fachrichtung und Karrieres",
-      "link": "https://the-decoder.de/grosse-gender-luecke-bei-ki-coding-tools-maennliche-forscher-setzen-agenten-wie-claude-code-weit-haeufiger-ein/",
-      "date": "2026-05-31T09:34:11.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Bis zu 75 Milliarden Euro: SoftBank macht Frankreich zum größten europäischen Standort für KI-Infrastruktur",
-      "description": "SoftBank plant KI-Rechenzentren mit bis zu 5 Gigawatt Kapazität in Frankreich – für bis zu 75 Milliarden Euro die größte KI-Infrastruktur-Investition des Konzerns in Europa. Allein bis 2031 sollen an",
-      "link": "https://the-decoder.de/bis-zu-75-milliarden-euro-softbank-macht-frankreich-zum-groessten-europaeischen-standort-fuer-ki-infrastruktur/",
-      "date": "2026-05-31T08:22:46.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
