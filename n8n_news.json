@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-06-01T10:01:58.328Z",
+  "lastUpdated": "2026-06-01T14:11:14.501Z",
   "news": [
+    {
+      "title": "Nemotron 3 Ultra: Nvidias neues Open-Source-Modell ist laut Benchmark das stärkste der USA",
+      "description": "Laut der Benchmark-Plattform Artificial Analysis ist Nvidias neues Nemotron 3 Ultra das bislang intelligenteste offene KI-Modell aus den USA. Es hat insgesamt rund 550 Milliarden Parameter, von denen",
+      "link": "https://the-decoder.de/nemotron-3-ultra-nvidias-neues-open-source-modell-ist-laut-benchmark-das-staerkste-der-usa/",
+      "date": "2026-06-01T11:10:51.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Cosmos 3, Alpamayo 2 Super und ein humanoider Roboter: Nvidias großer Physical-AI-Vorstoß auf der GTC Taipei",
+      "description": "Nvidia hat auf der GTC Taipei das Weltmodell Cosmos 3, das Fahrmodell Alpamayo 2 Super mit 32 Milliarden Parametern und einen offenen Referenz-Humanoiden auf Unitree-Basis vorgestellt. Alle Modelle si",
+      "link": "https://the-decoder.de/cosmos-3-alpamayo-2-super-und-ein-humanoider-roboter-nvidias-grosser-physical-ai-vorstoss-auf-der-gtc-taipei/",
+      "date": "2026-06-01T10:53:35.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "OpenAI-Chef Sam Altman träumt von persönlichen Alltagsrobotern",
       "description": "OpenAI baut erneut ein Robotik-Team auf, fünf Jahre nachdem die Firma die Abteilung geschlossen hatte. Das Team ist aus dem Forschungsprogramm zur Weltsimulation hervorgegangen. CEO Sam Altman formuli",
@@ -56,33 +74,6 @@
       "language": "de"
     },
     {
-      "title": "KI-Suchagenten \"googeln\" oft nur, was sie ohnehin schon wissen",
-      "description": "Führende KI-Suchagenten wie GPT-5.4 oder Kimi K2.6 recherchieren auf etablierten Benchmarks offenbar kaum wirklich, sondern nutzen das Web vor allem, um bereits im Training gelerntes Wissen zu bestäti",
-      "link": "https://the-decoder.de/ki-suchagenten-googeln-oft-nur-was-sie-ohnehin-schon-wissen/",
-      "date": "2026-05-31T07:29:41.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Microsoft plant Windows-PCs mit Nvidia-Chips und KI-Agenten, die Aufgaben lokal erledigen",
-      "description": "Nvidia drängt mit eigenen Chips als Hauptprozessor in den PC-Markt: Auf der Computex und Microsofts Build sollen nächste Woche erste Windows-Rechner von Dell und Microsoft Surface vorgestellt werden.",
-      "link": "https://the-decoder.de/microsoft-plant-windows-pcs-mit-nvidia-chips-und-ki-agenten-die-aufgaben-lokal-erledigen/",
-      "date": "2026-05-30T16:11:56.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Wer Sprachmodelle als nützliche Assistenten trainiert, macht sie weniger menschlich",
-      "description": "Eine groß angelegte Studie mit rund 208.000 Versuchspersonen und 26 Millionen Reaktionen zeigt: Ausgerechnet das Training, das Sprachmodelle zu hilfreichen Chatbots macht, verschlechtert ihre Fähigkei",
-      "link": "https://the-decoder.de/wer-sprachmodelle-als-nuetzliche-assistenten-trainiert-macht-sie-weniger-menschlich/",
-      "date": "2026-05-30T12:28:12.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "Boston Children’s uses AI to unlock new diagnoses",
       "description": "Boston Children’s Hospital uses OpenAI technology to improve patient care, reduce operational burden, and help diagnose more than 40 rare disease cases.",
       "link": "https://openai.com/index/boston-childrens-hospital",
@@ -132,6 +123,15 @@
       "description": "MUFG uses ChatGPT Enterprise to build an AI-native organization, improve workflows, and deliver new AI-powered financial services at scale.",
       "link": "https://openai.com/index/mufg",
       "date": "2026-05-28T00:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
+      "title": "Cisco and OpenAI redefine enterprise engineering with Codex",
+      "description": "Cisco and OpenAI are redefining enterprise engineering with Codex, helping Cisco scale AI-native development, accelerate AI Defense work, and automate defect remediation.",
+      "link": "https://openai.com/index/cisco",
+      "date": "2026-05-27T11:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
