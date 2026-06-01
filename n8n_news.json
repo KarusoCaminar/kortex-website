@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-06-01T05:44:34.343Z",
+  "lastUpdated": "2026-06-01T07:58:39.092Z",
   "news": [
+    {
+      "title": "KI PRO Webinar | Die KI-Verordnung der EU (EU AI Act): Was jetzt gilt",
+      "description": "Die KI-Verordnung betrifft jedes Unternehmen, das KI-Systeme einsetzt. Wer die Risikokategorien, Dokumentationspflichten und Transparenzanforderungen nicht kennt, riskiert Bußgelder und Reputationssch",
+      "link": "https://the-decoder.de/ki-pro-webinar-die-ki-verordnung-der-eu-eu-ai-act-was-jetzt-gilt/",
+      "date": "2026-06-01T07:44:18.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "KI-Modell trennt zwei Arten, wie Köche über Zutaten denken",
       "description": "Das Londoner Start-up Kaikaku.AI stellt mit \"Epicure\" drei KI-Modelle vor, die erstmals sauber trennen, ob eine Zutat zum Rezept passt oder chemisch verwandt ist. Trainiert auf 4,14 Millionen Rezepten",
@@ -78,15 +87,6 @@
       "description": "Angreifer nutzen die Chat-Sharing-Funktion von ChatGPT und Claude, um über geteilte Konversationen Schadsoftware zu verbreiten. Die Chats enthalten etwa Störungsmeldungen oder Installationsanleitungen",
       "link": "https://the-decoder.de/angreifer-missbrauchen-geteilte-chatgpt-und-claude-chats-um-schadsoftware-zu-verbreiten/",
       "date": "2026-05-30T10:28:22.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "OpenAI bringt Computer Use für Codex auf Windows 11 – die KI steuert jetzt auch den PC",
-      "description": "OpenAI bringt \"Computer Use\" in die Codex-App auf Windows 11: Die KI kann nun eigenständig Programme steuern, Apps testen und Fehler suchen. Und wenn niemand am Rechner sitzt: Per ChatGPT-App lassen s",
-      "link": "https://the-decoder.de/openai-bringt-computer-use-fuer-codex-auf-windows-11-die-ki-steuert-jetzt-auch-den-pc/",
-      "date": "2026-05-30T10:11:39.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
