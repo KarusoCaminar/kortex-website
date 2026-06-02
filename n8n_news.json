@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-06-02T09:35:13.203Z",
+  "lastUpdated": "2026-06-02T11:35:14.107Z",
   "news": [
+    {
+      "title": "Hacker kaperten prominente Instagram-Konten, indem sie Metas KI-Chatbot einfach um eine E-Mail-Änderung baten",
+      "description": "Hacker haben prominente Instagram-Konten wie das des Obama White House übernommen, indem sie Metas KI-Support-Chatbot einfach baten, die hinterlegte E-Mail-Adresse zu ändern – die Zwei-Faktor-Authenti",
+      "link": "https://the-decoder.de/hacker-kaperten-prominente-instagram-konten-indem-sie-metas-ki-chatbot-einfach-um-eine-e-mail-aenderung-baten/",
+      "date": "2026-06-02T10:25:29.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "OpenAI macht ChatGPT zur Karriereplattform mit Jobsuche und Lebenslauf-Editor",
       "description": "OpenAI macht ChatGPT zum Karrierehelfer: Eine neue Jobsuche-Funktion zeigt personalisierte Stellenangebote von Indeed, Upwork und Appcast, zunächst nur in den USA. Lebensläufe lassen sich zudem direkt",
@@ -99,15 +108,6 @@
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
-    },
-    {
-      "title": "OpenAI-Chef Sam Altman träumt von persönlichen Alltagsrobotern",
-      "description": "OpenAI baut erneut ein Robotik-Team auf, fünf Jahre nachdem die Firma die Abteilung geschlossen hatte. Das Team ist aus dem Forschungsprogramm zur Weltsimulation hervorgegangen. CEO Sam Altman formuli",
-      "link": "https://the-decoder.de/openai-chef-sam-altman-traeumt-von-persoenlichen-alltagsrobotern/",
-      "date": "2026-06-01T08:18:33.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
     },
     {
       "title": "Boston Children’s uses AI to unlock new diagnoses",
