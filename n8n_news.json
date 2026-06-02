@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-06-02T17:39:25.626Z",
+  "lastUpdated": "2026-06-02T19:22:48.886Z",
   "news": [
+    {
+      "title": "OpenAI baut Codex mit rollenspezifischen Plugins zur Allzweck-App für Nicht-Entwickler aus",
+      "description": "OpenAI baut Codex mit rollenspezifischen Plugins für Datenanalyse, Sales oder Investment Banking aus. Fünf Millionen Menschen nutzen das Tool wöchentlich, ein Fünftel davon sind laut OpenAI keine Entw",
+      "link": "https://the-decoder.de/openai-baut-codex-mit-rollenspezifischen-plugins-zur-allzweck-app-fuer-nicht-entwickler-aus/",
+      "date": "2026-06-02T18:25:15.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Anthropic weitet Project Glasswing auf 200 Partner aus, um kritische Infrastruktur mit KI auf Sicherheitslücken zu scannen",
       "description": "Anthropic erweitert sein Project Glasswing um 150 neue Partner aus über 15 Ländern, die mit Claude Mythos Preview kritische Infrastruktur auf Sicherheitslücken scannen. Bisherige Partner fanden bereit",
@@ -123,15 +132,6 @@
       "description": "Laut der Benchmark-Plattform Artificial Analysis ist Nvidias neues Nemotron 3 Ultra das bislang intelligenteste offene KI-Modell aus den USA. Es hat insgesamt rund 550 Milliarden Parameter, von denen",
       "link": "https://the-decoder.de/nemotron-3-ultra-nvidias-neues-open-source-modell-ist-laut-benchmark-das-staerkste-der-usa/",
       "date": "2026-06-01T11:10:51.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Cosmos 3, Alpamayo 2 Super und ein humanoider Roboter: Nvidias großer Physical-AI-Vorstoß auf der GTC Taipei",
-      "description": "Nvidia hat auf der GTC Taipei das Weltmodell Cosmos 3, das Fahrmodell Alpamayo 2 Super mit 32 Milliarden Parametern und einen offenen Referenz-Humanoiden auf Unitree-Basis vorgestellt. Alle Modelle si",
-      "link": "https://the-decoder.de/cosmos-3-alpamayo-2-super-und-ein-humanoider-roboter-nvidias-grosser-physical-ai-vorstoss-auf-der-gtc-taipei/",
-      "date": "2026-06-01T10:53:35.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
