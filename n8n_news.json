@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-06-02T11:35:14.107Z",
+  "lastUpdated": "2026-06-02T15:30:55.296Z",
   "news": [
+    {
+      "title": "Travelers deploys AI-powered claims countrywide with OpenAI",
+      "description": "Travelers built an AI-powered Claim Assistant with OpenAI to guide customers through filing claims, provide 24/7 support, and scale operations during peak demand.",
+      "link": "https://openai.com/index/travelers",
+      "date": "2026-06-02T12:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
     {
       "title": "Hacker kaperten prominente Instagram-Konten, indem sie Metas KI-Chatbot einfach um eine E-Mail-Änderung baten",
       "description": "Hacker haben prominente Instagram-Konten wie das des Obama White House übernommen, indem sie Metas KI-Support-Chatbot einfach baten, die hinterlegte E-Mail-Adresse zu ändern – die Zwei-Faktor-Authenti",
@@ -36,6 +45,15 @@
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
+    },
+    {
+      "title": "Advancing youth safety and opportunity through global leadership",
+      "description": "OpenAI calls for global action on youth AI safety, proposing an international institute to strengthen safeguards, standards, and opportunities for young people.",
+      "link": "https://openai.com/index/advancing-youth-safety-and-opportunity-through-global-leadership",
+      "date": "2026-06-02T07:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
     },
     {
       "title": "Codex is becoming a productivity tool for everyone",
@@ -114,24 +132,6 @@
       "description": "Boston Children’s Hospital uses OpenAI technology to improve patient care, reduce operational burden, and help diagnose more than 40 rare disease cases.",
       "link": "https://openai.com/index/boston-childrens-hospital",
       "date": "2026-05-29T12:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "How Braintrust turns customer requests into code with Codex",
-      "description": "How Braintrust engineers use Codex with GPT-5.5 to run experiments and code faster.",
-      "link": "https://openai.com/index/braintrust",
-      "date": "2026-05-29T12:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "Strengthening societal resilience with Rosalind Biodefense",
-      "description": "OpenAI launches Rosalind Biodefense, expanding trusted access to GPT-Rosalind for vetted developers and U.S. government partners advancing biodefense, public health, and pandemic preparedness through",
-      "link": "https://openai.com/index/strengthening-societal-resilience-with-rosalind-biodefense",
-      "date": "2026-05-29T03:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
