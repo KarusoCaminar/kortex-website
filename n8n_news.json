@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-06-03T19:27:32.264Z",
+  "lastUpdated": "2026-06-03T21:10:37.817Z",
   "news": [
+    {
+      "title": "Googles Gemma 4 12B bringt multimodale KI mit Text, Bild und Audio auf handelsübliche Laptops",
+      "description": "Google DeepMind veröffentlicht mit Gemma 4 12B ein Open-Source-Modell, das Text, Bild und Audio nativ verarbeitet und dabei auf Laptops mit nur 16 GB RAM läuft. In Benchmarks erreicht es fast die Leis",
+      "link": "https://the-decoder.de/googles-gemma-4-12b-bringt-multimodale-ki-mit-text-bild-und-audio-auf-handelsuebliche-laptops/",
+      "date": "2026-06-03T19:47:13.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Google lässt Website-Betreiber erstmals selbst entscheiden, ob ihre Inhalte in KI-Suchergebnissen erscheinen",
       "description": "Google gibt Website-Betreibern in der Search Console erstmals einen Opt-out-Schalter für KI-Suchfunktionen wie AI Overviews und AI Mode, die zusammen bereits mehr als 3,5 Milliarden monatliche Nutzer",
@@ -38,6 +47,15 @@
       "language": "de"
     },
     {
+      "title": "Introducing new capabilities to GPT-Rosalind",
+      "description": "GPT-Rosalind advances life sciences research with enhanced biological reasoning, medicinal chemistry expertise, genomics analysis, and experimental workflow capabilities.",
+      "link": "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind",
+      "date": "2026-06-03T13:15:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
       "title": "KI-Musik-Startup Suno jetzt 5,4 Milliarden Dollar wert, kämpft aber vor Gericht gegen einige der größten Plattenlabels der Welt",
       "description": "Das KI-Musik-Startup Suno hat 400 Millionen Dollar bei einer Bewertung von 5,4 Milliarden Dollar eingesammelt.\nDer Artikel KI-Musik-Startup Suno jetzt 5,4 Milliarden Dollar wert, kämpft aber vor Geric",
       "link": "https://the-decoder.de/ki-musik-startup-suno-jetzt-54-milliarden-dollar-wert-kaempft-aber-vor-gericht-gegen-einige-der-groessten-plattenlabels-der-welt/",
@@ -47,18 +65,18 @@
       "language": "de"
     },
     {
-      "title": "OpenAI public policy agenda",
-      "description": "OpenAI outlines its public policy agenda for AI, including safety, youth protection, workforce transition, and global standards to ensure AI benefits society.",
-      "link": "https://openai.com/index/public-policy-agenda",
+      "title": "A blueprint for democratic governance of frontier AI",
+      "description": "OpenAI outlines a blueprint for U.S. governance of frontier AI, proposing a federal framework for safety, resilience, and national security.",
+      "link": "https://openai.com/index/frontier-safety-blueprint",
       "date": "2026-06-03T10:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
     },
     {
-      "title": "A blueprint for democratic governance of frontier AI",
-      "description": "OpenAI outlines a blueprint for U.S. governance of frontier AI, proposing a federal framework for safety, resilience, and national security.",
-      "link": "https://openai.com/index/frontier-safety-blueprint",
+      "title": "OpenAI public policy agenda",
+      "description": "OpenAI outlines its public policy agenda for AI, including safety, youth protection, workforce transition, and global standards to ensure AI benefits society.",
+      "link": "https://openai.com/index/public-policy-agenda",
       "date": "2026-06-03T10:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
@@ -110,30 +128,12 @@
       "language": "en"
     },
     {
-      "title": "Hacker kaperten prominente Instagram-Konten, indem sie Metas KI-Chatbot einfach um eine E-Mail-Änderung baten",
-      "description": "Hacker haben prominente Instagram-Konten wie das des Obama White House übernommen, indem sie Metas KI-Support-Chatbot einfach baten, die hinterlegte E-Mail-Adresse zu ändern – die Zwei-Faktor-Authenti",
-      "link": "https://the-decoder.de/hacker-kaperten-prominente-instagram-konten-indem-sie-metas-ki-chatbot-einfach-um-eine-e-mail-aenderung-baten/",
-      "date": "2026-06-02T10:25:29.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "Codex for every role, tool, and workflow",
       "description": "Discover new Codex plugins, sites, and annotations that help analysts, marketers, designers, investors, and other teams get more done with AI.",
       "link": "https://openai.com/index/codex-for-every-role-tool-workflow",
       "date": "2026-06-02T09:00:00.000Z",
       "source": "OpenAI",
       "category": "workflow-tools",
-      "language": "en"
-    },
-    {
-      "title": "Advancing youth safety and opportunity through global leadership",
-      "description": "OpenAI calls for global action on youth AI safety, proposing an international institute to strengthen safeguards, standards, and opportunities for young people.",
-      "link": "https://openai.com/index/advancing-youth-safety-and-opportunity-through-global-leadership",
-      "date": "2026-06-02T07:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
       "language": "en"
     }
   ]
