@@ -1,6 +1,42 @@
 {
-  "lastUpdated": "2026-06-03T07:52:08.375Z",
+  "lastUpdated": "2026-06-03T13:48:43.165Z",
   "news": [
+    {
+      "title": "Perplexity will KI-Aufgaben automatisch zwischen PC und Cloud verteilen",
+      "description": "Perplexity hat einen Orchestrator angekündigt, der KI-Modelle auf dem eigenen Rechner mit leistungsstarken Cloud-Modellen kombiniert und automatisch entscheidet, welche Aufgabe wo verarbeitet wird.\nDe",
+      "link": "https://the-decoder.de/perplexity-will-ki-aufgaben-automatisch-zwischen-pc-und-cloud-verteilen/",
+      "date": "2026-06-03T13:40:16.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "KI-Musik-Startup Suno jetzt 5,4 Milliarden Dollar wert, kämpft aber vor Gericht gegen einige der größten Plattenlabels der Welt",
+      "description": "Das KI-Musik-Startup Suno hat 400 Millionen Dollar bei einer Bewertung von 5,4 Milliarden Dollar eingesammelt.\nDer Artikel KI-Musik-Startup Suno jetzt 5,4 Milliarden Dollar wert, kämpft aber vor Geric",
+      "link": "https://the-decoder.de/ki-musik-startup-suno-jetzt-54-milliarden-dollar-wert-kaempft-aber-vor-gericht-gegen-einige-der-groessten-plattenlabels-der-welt/",
+      "date": "2026-06-03T11:17:11.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Nous Research veröffentlicht Hermes Desktop: Open-Source-KI-Agent für Windows, macOS und Linux",
+      "description": "Nous Research hat Hermes Desktop veröffentlicht, eine Open-Source-KI-Agenten-Software unter MIT-Lizenz.\nDer Artikel Nous Research veröffentlicht Hermes Desktop: Open-Source-KI-Agent für Windows, macOS",
+      "link": "https://the-decoder.de/nous-research-veroeffentlicht-hermes-desktop-open-source-ki-agent-fuer-windows-macos-und-linux/",
+      "date": "2026-06-03T09:51:38.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Build 2026: Microsofts neue KI-Modelle überholen Google bei Bildern, doch das erste Reasoning-Modell ist ein halbes Jahr im Rückstand",
+      "description": "Microsoft hat auf der Build 2026 sieben eigene KI-Modelle vorgestellt, darunter das erste Reasoning-Modell MAI-Thinking-1 mit 35 Milliarden Parametern. Laut Benchmarks liegt es etwa auf dem Niveau von",
+      "link": "https://the-decoder.de/build-2026-microsofts-neue-ki-modelle-ueberholen-google-bei-bildern-doch-das-erste-reasoning-modell-ist-ein-halbes-jahr-im-rueckstand/",
+      "date": "2026-06-03T09:26:19.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "OpenAI baut Codex mit rollenspezifischen Plugins zur Allzweck-App für Nicht-Entwickler aus",
       "description": "OpenAI baut Codex mit rollenspezifischen Plugins für Datenanalyse, Sales oder Investment Banking aus. Fünf Millionen Menschen nutzen das Tool wöchentlich, ein Fünftel davon sind laut OpenAI keine Entw",
@@ -92,15 +128,6 @@
       "language": "en"
     },
     {
-      "title": "Claude-Macher strebt an die Börse: Anthropic reicht Papiere bei der US-Börsenaufsicht ein",
-      "description": "Anthropic hat vertraulich einen Börsengangs-Entwurf bei der US-Börsenaufsicht SEC eingereicht. Das Unternehmen hinter dem Chatbot Claude wird nach seiner jüngsten Finanzierungsrunde mit knapp einer Bi",
-      "link": "https://the-decoder.de/claude-macher-strebt-an-die-boerse-anthropic-reicht-papiere-bei-der-us-boersenaufsicht-ein/",
-      "date": "2026-06-01T17:20:59.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "Our views on AI policy and political advocacy",
       "description": "Our approach to AI policy and political advocacy, transparency, support for thoughtful regulation and AI safety, and that no outside political group speaks on the company’s behalf.",
       "link": "https://openai.com/index/our-views-on-ai-policy-and-political-advocacy",
@@ -108,33 +135,6 @@
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
-    },
-    {
-      "title": "Turing-Preisträger Sutton: Generative KI ist gut im Nachahmen, aber unfähig zur Entdeckung",
-      "description": "Turing-Preisträger Richard Sutton sieht eine zentrale Schwäche gewöhnlicher generativer KI: Sie kann ihre eigenen Ergebnisse nicht bewerten. Ohne diese Fähigkeit bleibe echte wissenschaftliche Entdeck",
-      "link": "https://the-decoder.de/turing-preistraeger-sutton-generative-ki-ist-gut-im-nachahmen-aber-unfaehig-zur-entdeckung/",
-      "date": "2026-06-01T16:30:26.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Building the infrastructure for the Intelligence Age in Michigan",
-      "description": "OpenAI breaks ground on a 1GW data center project in Michigan as part of Stargate, building AI infrastructure to expand access, create jobs, and support communities.",
-      "link": "https://openai.com/index/stargate-michigan-data-center",
-      "date": "2026-06-01T12:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "Nemotron 3 Ultra: Nvidias neues Open-Source-Modell ist laut Benchmark das stärkste der USA",
-      "description": "Laut der Benchmark-Plattform Artificial Analysis ist Nvidias neues Nemotron 3 Ultra das bislang intelligenteste offene KI-Modell aus den USA. Es hat insgesamt rund 550 Milliarden Parameter, von denen",
-      "link": "https://the-decoder.de/nemotron-3-ultra-nvidias-neues-open-source-modell-ist-laut-benchmark-das-staerkste-der-usa/",
-      "date": "2026-06-01T11:10:51.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
     }
   ]
 }
