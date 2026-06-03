@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-06-03T17:46:39.406Z",
+  "lastUpdated": "2026-06-03T19:27:32.264Z",
   "news": [
+    {
+      "title": "Google lässt Website-Betreiber erstmals selbst entscheiden, ob ihre Inhalte in KI-Suchergebnissen erscheinen",
+      "description": "Google gibt Website-Betreibern in der Search Console erstmals einen Opt-out-Schalter für KI-Suchfunktionen wie AI Overviews und AI Mode, die zusammen bereits mehr als 3,5 Milliarden monatliche Nutzer",
+      "link": "https://the-decoder.de/google-laesst-website-betreiber-erstmals-selbst-entscheiden-ob-ihre-inhalte-in-ki-suchergebnissen-erscheinen/",
+      "date": "2026-06-03T19:12:29.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "The next chapter in flood resilience: Open sourcing Google’s hydrology framework",
+      "description": "Climate & Sustainability",
+      "link": "https://research.google/blog/the-next-chapter-in-flood-resilience-open-sourcing-googles-hydrology-framework/",
+      "date": "2026-06-03T18:37:32.000Z",
+      "source": "Google AI",
+      "category": "große-modelle",
+      "language": "en"
+    },
     {
       "title": "Nach Claude-Mythos-Debatte: Weißes Haus reagiert mit Executive Order auf KI-Sicherheitsrisiken",
       "description": "Das Weiße Haus verpflichtet per Executive Order Behörden wie das Pentagon und die CISA, binnen 30 Tagen die Cyberabwehr mit KI-Werkzeugen zu stärken. KI-Entwickler können Modelle freiwillig zur Sicher",
@@ -96,24 +114,6 @@
       "description": "Hacker haben prominente Instagram-Konten wie das des Obama White House übernommen, indem sie Metas KI-Support-Chatbot einfach baten, die hinterlegte E-Mail-Adresse zu ändern – die Zwei-Faktor-Authenti",
       "link": "https://the-decoder.de/hacker-kaperten-prominente-instagram-konten-indem-sie-metas-ki-chatbot-einfach-um-eine-e-mail-aenderung-baten/",
       "date": "2026-06-02T10:25:29.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "OpenAI macht ChatGPT zur Karriereplattform mit Jobsuche und Lebenslauf-Editor",
-      "description": "OpenAI macht ChatGPT zum Karrierehelfer: Eine neue Jobsuche-Funktion zeigt personalisierte Stellenangebote von Indeed, Upwork und Appcast, zunächst nur in den USA. Lebensläufe lassen sich zudem direkt",
-      "link": "https://the-decoder.de/openai-macht-chatgpt-zur-karriereplattform-mit-jobsuche-und-lebenslauf-editor/",
-      "date": "2026-06-02T09:33:22.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Warren Buffett steigt mit 10 Milliarden Dollar bei Alphabets KI-Offensive ein",
-      "description": "Alphabet kündigt eine Kapitalerhöhung von 80 Milliarden Dollar an, um seine KI-Infrastruktur massiv auszubauen. Warren Buffetts Berkshire Hathaway steuert 10 Milliarden per Privatplatzierung bei. Für",
-      "link": "https://the-decoder.de/warren-buffett-steigt-mit-10-milliarden-dollar-bei-alphabets-ki-offensive-ein/",
-      "date": "2026-06-02T09:15:30.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
