@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-06-04T17:09:01.660Z",
+  "lastUpdated": "2026-06-04T18:54:52.327Z",
   "news": [
+    {
+      "title": "KI-Agenten fluten das Netz – laut Cloudflare surfen jetzt mehr Bots als Menschen",
+      "description": "Laut Cloudflare-CEO Matthew Prince hat der Bot-Traffic den menschlichen Internet-Traffic erstmals überholt – angetrieben durch KI-Agenten. Prince hatte diesen Wendepunkt erst für Ende 2027 erwartet. S",
+      "link": "https://the-decoder.de/ki-agenten-fluten-das-netz-laut-cloudflare-surfen-jetzt-mehr-bots-als-menschen/",
+      "date": "2026-06-04T18:46:13.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "ChatGPT erinnert sich jetzt besser an Nutzer und passt veraltete Informationen selbstständig an",
       "description": "OpenAI überarbeitet das Gedächtnissystem von ChatGPT grundlegend: Das aktualisierte \"Dreaming\"-System verarbeitet Gespräche im Hintergrund und hält Nutzerinformationen automatisch aktuell – die Erfolg",
@@ -99,15 +108,6 @@
       "source": "Google AI",
       "category": "große-modelle",
       "language": "en"
-    },
-    {
-      "title": "Nach Claude-Mythos-Debatte: Weißes Haus reagiert mit Executive Order auf KI-Sicherheitsrisiken",
-      "description": "Das Weiße Haus verpflichtet per Executive Order Behörden wie das Pentagon und die CISA, binnen 30 Tagen die Cyberabwehr mit KI-Werkzeugen zu stärken. KI-Entwickler können Modelle freiwillig zur Sicher",
-      "link": "https://the-decoder.de/nach-claude-mythos-debatte-weisses-haus-reagiert-mit-executive-order-auf-ki-sicherheitsrisiken/",
-      "date": "2026-06-03T16:52:21.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
     },
     {
       "title": "Introducing new capabilities to GPT-Rosalind",
