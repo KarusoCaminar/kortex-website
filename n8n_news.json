@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-04T18:54:52.327Z",
+  "lastUpdated": "2026-06-04T20:47:42.077Z",
   "news": [
     {
       "title": "KI-Agenten fluten das Netz – laut Cloudflare surfen jetzt mehr Bots als Menschen",
@@ -128,9 +128,9 @@
       "language": "en"
     },
     {
-      "title": "A blueprint for democratic governance of frontier AI",
-      "description": "OpenAI outlines a blueprint for U.S. governance of frontier AI, proposing a federal framework for safety, resilience, and national security.",
-      "link": "https://openai.com/index/frontier-safety-blueprint",
+      "title": "OpenAI public policy agenda",
+      "description": "OpenAI outlines its public policy agenda for AI, including safety, youth protection, workforce transition, and global standards to ensure AI benefits society.",
+      "link": "https://openai.com/index/public-policy-agenda",
       "date": "2026-06-03T10:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
