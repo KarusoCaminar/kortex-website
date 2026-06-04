@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-06-04T13:16:11.563Z",
+  "lastUpdated": "2026-06-04T17:09:01.660Z",
   "news": [
+    {
+      "title": "ChatGPT erinnert sich jetzt besser an Nutzer und passt veraltete Informationen selbstständig an",
+      "description": "OpenAI überarbeitet das Gedächtnissystem von ChatGPT grundlegend: Das aktualisierte \"Dreaming\"-System verarbeitet Gespräche im Hintergrund und hält Nutzerinformationen automatisch aktuell – die Erfolg",
+      "link": "https://the-decoder.de/chatgpt-erinnert-sich-jetzt-besser-an-nutzer-und-passt-veraltete-informationen-selbststaendig-an/",
+      "date": "2026-06-04T16:32:48.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Bain-Studie: Zu viel menschliche Beteiligung bremst den KI-Spareffekt aus",
+      "description": "Laut einer Bain-Umfrage unter 951 Unternehmen strebten 37 Prozent Kostensenkungen von 11 bis 20 Prozent an, doch fast 40 Prozent landeten bei unter 10 Prozent Einsparung. Ein Grund für die Lücke: Nur",
+      "link": "https://the-decoder.de/bain-studie-zu-viel-menschliche-beteiligung-bremst-den-ki-spareffekt-aus/",
+      "date": "2026-06-04T15:59:50.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "OpenAI-CEO Altman sieht \"proaktive KI\" als nächste große Phase nach Chatbots und Agenten",
       "description": "Nach Chat-Modellen und KI-Agenten soll die nächste Stufe eine ständig im Hintergrund laufende, proaktive KI sein. Doch viele Unternehmen kämpfen noch mit den Grundlagen: zu hohe Kosten, zu viele Produ",
@@ -36,6 +54,15 @@
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
+    },
+    {
+      "title": "Dreaming: Better memory for a more helpful ChatGPT",
+      "description": "ChatGPT introduces a new memory system to better remember preferences, keeping context fresh and relevant across conversations.",
+      "link": "https://openai.com/index/chatgpt-memory-dreaming",
+      "date": "2026-06-04T09:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
     },
     {
       "title": "xAIs Grok Imagine Video 1.5 macht aus einzelnen Bildern filmische Videoclips",
@@ -83,15 +110,6 @@
       "language": "de"
     },
     {
-      "title": "Perplexity will KI-Aufgaben automatisch zwischen PC und Cloud verteilen",
-      "description": "Perplexity hat einen Orchestrator angekündigt, der KI-Modelle auf dem eigenen Rechner mit leistungsstarken Cloud-Modellen kombiniert und automatisch entscheidet, welche Aufgabe wo verarbeitet wird.\nDe",
-      "link": "https://the-decoder.de/perplexity-will-ki-aufgaben-automatisch-zwischen-pc-und-cloud-verteilen/",
-      "date": "2026-06-03T13:40:16.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "Introducing new capabilities to GPT-Rosalind",
       "description": "GPT-Rosalind advances life sciences research with enhanced biological reasoning, medicinal chemistry expertise, genomics analysis, and experimental workflow capabilities.",
       "link": "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind",
@@ -107,24 +125,6 @@
       "date": "2026-06-03T12:00:00.000Z",
       "source": "OpenAI",
       "category": "kmu-relevanz",
-      "language": "en"
-    },
-    {
-      "title": "KI-Musik-Startup Suno jetzt 5,4 Milliarden Dollar wert, kämpft aber vor Gericht gegen einige der größten Plattenlabels der Welt",
-      "description": "Das KI-Musik-Startup Suno hat 400 Millionen Dollar bei einer Bewertung von 5,4 Milliarden Dollar eingesammelt.\nDer Artikel KI-Musik-Startup Suno jetzt 5,4 Milliarden Dollar wert, kämpft aber vor Geric",
-      "link": "https://the-decoder.de/ki-musik-startup-suno-jetzt-54-milliarden-dollar-wert-kaempft-aber-vor-gericht-gegen-einige-der-groessten-plattenlabels-der-welt/",
-      "date": "2026-06-03T11:17:11.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "OpenAI public policy agenda",
-      "description": "OpenAI outlines its public policy agenda for AI, including safety, youth protection, workforce transition, and global standards to ensure AI benefits society.",
-      "link": "https://openai.com/index/public-policy-agenda",
-      "date": "2026-06-03T10:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
       "language": "en"
     },
     {
