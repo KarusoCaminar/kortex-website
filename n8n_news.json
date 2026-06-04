@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-04T20:47:42.077Z",
+  "lastUpdated": "2026-06-04T22:35:22.259Z",
   "news": [
     {
       "title": "KI-Agenten fluten das Netz – laut Cloudflare surfen jetzt mehr Bots als Menschen",
@@ -83,6 +83,15 @@
       "language": "de"
     },
     {
+      "title": "Biodefense in the Intelligence Age",
+      "description": "An action plan for AI-powered biological resilience",
+      "link": "https://openai.com/index/biodefense-in-the-intelligence-age",
+      "date": "2026-06-04T00:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
       "title": "Googles Gemma 4 12B bringt multimodale KI mit Text, Bild und Audio auf handelsübliche Laptops",
       "description": "Google DeepMind veröffentlicht mit Gemma 4 12B ein Open-Source-Modell, das Text, Bild und Audio nativ verarbeitet und dabei auf Laptops mit nur 16 GB RAM läuft. In Benchmarks erreicht es fast die Leis",
       "link": "https://the-decoder.de/googles-gemma-4-12b-bringt-multimodale-ki-mit-text-bild-und-audio-auf-handelsuebliche-laptops/",
@@ -125,15 +134,6 @@
       "date": "2026-06-03T12:00:00.000Z",
       "source": "OpenAI",
       "category": "kmu-relevanz",
-      "language": "en"
-    },
-    {
-      "title": "OpenAI public policy agenda",
-      "description": "OpenAI outlines its public policy agenda for AI, including safety, youth protection, workforce transition, and global standards to ensure AI benefits society.",
-      "link": "https://openai.com/index/public-policy-agenda",
-      "date": "2026-06-03T10:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
       "language": "en"
     }
   ]
