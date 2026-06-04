@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-04T07:46:53.735Z",
+  "lastUpdated": "2026-06-04T09:26:54.949Z",
   "news": [
     {
       "title": "xAIs Grok Imagine Video 1.5 macht aus einzelnen Bildern filmische Videoclips",
@@ -83,18 +83,18 @@
       "language": "de"
     },
     {
-      "title": "A blueprint for democratic governance of frontier AI",
-      "description": "OpenAI outlines a blueprint for U.S. governance of frontier AI, proposing a federal framework for safety, resilience, and national security.",
-      "link": "https://openai.com/index/frontier-safety-blueprint",
+      "title": "OpenAI public policy agenda",
+      "description": "OpenAI outlines its public policy agenda for AI, including safety, youth protection, workforce transition, and global standards to ensure AI benefits society.",
+      "link": "https://openai.com/index/public-policy-agenda",
       "date": "2026-06-03T10:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
     },
     {
-      "title": "OpenAI public policy agenda",
-      "description": "OpenAI outlines its public policy agenda for AI, including safety, youth protection, workforce transition, and global standards to ensure AI benefits society.",
-      "link": "https://openai.com/index/public-policy-agenda",
+      "title": "A blueprint for democratic governance of frontier AI",
+      "description": "OpenAI outlines a blueprint for U.S. governance of frontier AI, proposing a federal framework for safety, resilience, and national security.",
+      "link": "https://openai.com/index/frontier-safety-blueprint",
       "date": "2026-06-03T10:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
