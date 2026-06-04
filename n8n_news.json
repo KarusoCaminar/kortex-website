@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-03T21:10:37.817Z",
+  "lastUpdated": "2026-06-04T01:13:12.730Z",
   "news": [
     {
       "title": "Googles Gemma 4 12B bringt multimodale KI mit Text, Bild und Audio auf handelsübliche Laptops",
@@ -56,6 +56,15 @@
       "language": "en"
     },
     {
+      "title": "How Wasmer used Codex to build a Node.js runtime for the edge",
+      "description": "See how Wasmer used Codex with GPT-5.5 to build a Node.js runtime for the edge, accelerating development 10x to 20x and shipping in weeks instead of months.",
+      "link": "https://openai.com/index/wasmer",
+      "date": "2026-06-03T12:00:00.000Z",
+      "source": "OpenAI",
+      "category": "kmu-relevanz",
+      "language": "en"
+    },
+    {
       "title": "KI-Musik-Startup Suno jetzt 5,4 Milliarden Dollar wert, kämpft aber vor Gericht gegen einige der größten Plattenlabels der Welt",
       "description": "Das KI-Musik-Startup Suno hat 400 Millionen Dollar bei einer Bewertung von 5,4 Milliarden Dollar eingesammelt.\nDer Artikel KI-Musik-Startup Suno jetzt 5,4 Milliarden Dollar wert, kämpft aber vor Geric",
       "link": "https://the-decoder.de/ki-musik-startup-suno-jetzt-54-milliarden-dollar-wert-kaempft-aber-vor-gericht-gegen-einige-der-groessten-plattenlabels-der-welt/",
@@ -65,18 +74,18 @@
       "language": "de"
     },
     {
-      "title": "A blueprint for democratic governance of frontier AI",
-      "description": "OpenAI outlines a blueprint for U.S. governance of frontier AI, proposing a federal framework for safety, resilience, and national security.",
-      "link": "https://openai.com/index/frontier-safety-blueprint",
+      "title": "OpenAI public policy agenda",
+      "description": "OpenAI outlines its public policy agenda for AI, including safety, youth protection, workforce transition, and global standards to ensure AI benefits society.",
+      "link": "https://openai.com/index/public-policy-agenda",
       "date": "2026-06-03T10:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
     },
     {
-      "title": "OpenAI public policy agenda",
-      "description": "OpenAI outlines its public policy agenda for AI, including safety, youth protection, workforce transition, and global standards to ensure AI benefits society.",
-      "link": "https://openai.com/index/public-policy-agenda",
+      "title": "A blueprint for democratic governance of frontier AI",
+      "description": "OpenAI outlines a blueprint for U.S. governance of frontier AI, proposing a federal framework for safety, resilience, and national security.",
+      "link": "https://openai.com/index/frontier-safety-blueprint",
       "date": "2026-06-03T10:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
@@ -125,15 +134,6 @@
       "date": "2026-06-02T12:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "Codex for every role, tool, and workflow",
-      "description": "Discover new Codex plugins, sites, and annotations that help analysts, marketers, designers, investors, and other teams get more done with AI.",
-      "link": "https://openai.com/index/codex-for-every-role-tool-workflow",
-      "date": "2026-06-02T09:00:00.000Z",
-      "source": "OpenAI",
-      "category": "workflow-tools",
       "language": "en"
     }
   ]
