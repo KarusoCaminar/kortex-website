@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-06-04T03:18:09.891Z",
+  "lastUpdated": "2026-06-04T07:46:53.735Z",
   "news": [
+    {
+      "title": "xAIs Grok Imagine Video 1.5 macht aus einzelnen Bildern filmische Videoclips",
+      "description": "xAI hat mit \"grok-imagine-video-1.5-preview\" ein Bild-zu-Video-Modell veröffentlicht, das Standbilder per Textanweisung in filmische Videos mit bis zu 720p animiert. Mehrere Clips lassen sich zu länge",
+      "link": "https://the-decoder.de/xais-grok-imagine-video-1-5-macht-aus-einzelnen-bildern-filmische-videoclips/",
+      "date": "2026-06-04T07:17:48.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Googles Gemma 4 12B bringt multimodale KI mit Text, Bild und Audio auf handelsübliche Laptops",
       "description": "Google DeepMind veröffentlicht mit Gemma 4 12B ein Open-Source-Modell, das Text, Bild und Audio nativ verarbeitet und dabei auf Laptops mit nur 16 GB RAM läuft. In Benchmarks erreicht es fast die Leis",
@@ -114,15 +123,6 @@
       "description": "OpenAI baut Codex mit rollenspezifischen Plugins für Datenanalyse, Sales oder Investment Banking aus. Fünf Millionen Menschen nutzen das Tool wöchentlich, ein Fünftel davon sind laut OpenAI keine Entw",
       "link": "https://the-decoder.de/openai-baut-codex-mit-rollenspezifischen-plugins-zur-allzweck-app-fuer-nicht-entwickler-aus/",
       "date": "2026-06-02T18:25:15.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Anthropic weitet Project Glasswing auf 200 Partner aus, um kritische Infrastruktur mit KI auf Sicherheitslücken zu scannen",
-      "description": "Anthropic erweitert sein Project Glasswing um 150 neue Partner aus über 15 Ländern, die mit Claude Mythos Preview kritische Infrastruktur auf Sicherheitslücken scannen. Bisherige Partner fanden bereit",
-      "link": "https://the-decoder.de/anthropic-weitet-project-glasswing-auf-200-partner-aus-um-kritische-infrastruktur-mit-ki-auf-sicherheitsluecken-zu-scannen/",
-      "date": "2026-06-02T16:17:42.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
