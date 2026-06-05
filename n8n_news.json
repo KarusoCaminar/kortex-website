@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-05T18:46:03.694Z",
+  "lastUpdated": "2026-06-05T20:40:48.947Z",
   "news": [
     {
       "title": "Florida verklagt OpenAI und CEO Altman wegen Gefährdung Minderjähriger durch ChatGPT",
@@ -27,6 +27,15 @@
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
+    },
+    {
+      "title": "Unlocking dependable responses with Gemini Enterprise Agent Platform’s Agentic RAG",
+      "description": "Data Management",
+      "link": "https://research.google/blog/unlocking-dependable-responses-with-gemini-enterprise-agent-platforms-agentic-rag/",
+      "date": "2026-06-05T11:26:00.000Z",
+      "source": "Google AI",
+      "category": "große-modelle",
+      "language": "en"
     },
     {
       "title": "NSA nutzt Anthropics KI-Modell Mythos angeblich für Cyberangriffe gegen China und Iran",
@@ -124,15 +133,6 @@
       "link": "https://research.google/blog/the-next-chapter-in-flood-resilience-open-sourcing-googles-hydrology-framework/",
       "date": "2026-06-03T18:37:32.000Z",
       "source": "Google AI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "Introducing new capabilities to GPT-Rosalind",
-      "description": "GPT-Rosalind advances life sciences research with enhanced biological reasoning, medicinal chemistry expertise, genomics analysis, and experimental workflow capabilities.",
-      "link": "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind",
-      "date": "2026-06-03T13:15:00.000Z",
-      "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
     }
