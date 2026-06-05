@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-06-05T09:16:49.662Z",
+  "lastUpdated": "2026-06-05T11:11:47.095Z",
   "news": [
+    {
+      "title": "NSA nutzt Anthropics KI-Modell Mythos angeblich für Cyberangriffe gegen China und Iran",
+      "description": "Anthropic hat angeblich rund ein halbes Dutzend Ingenieure direkt bei der NSA stationiert, um das KI-Modell Mythos für offensive Cyberoperationen anzupassen. Das Modell könnte etwa zur Infiltration vo",
+      "link": "https://the-decoder.de/nsa-nutzt-anthropics-ki-modell-mythos-angeblich-fuer-cyberangriffe-gegen-china-und-iran/",
+      "date": "2026-06-05T11:07:28.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Sich selbst verbessernde KI: Anthropic zieht globale Entwicklungspause in Betracht",
       "description": "Anthropic legt erstmals interne Daten offen, wie stark Claude die eigene KI-Entwicklung beschleunigt: Über 80 Prozent des Produktionscodes stammen inzwischen von Claude, Ingenieure liefern achtmal so",
@@ -105,15 +114,6 @@
       "description": "Google DeepMind veröffentlicht mit Gemma 4 12B ein Open-Source-Modell, das Text, Bild und Audio nativ verarbeitet und dabei auf Laptops mit nur 16 GB RAM läuft. In Benchmarks erreicht es fast die Leis",
       "link": "https://the-decoder.de/googles-gemma-4-12b-bringt-multimodale-ki-mit-text-bild-und-audio-auf-handelsuebliche-laptops/",
       "date": "2026-06-03T19:47:13.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Google lässt Website-Betreiber erstmals selbst entscheiden, ob ihre Inhalte in KI-Suchergebnissen erscheinen",
-      "description": "Google gibt Website-Betreibern in der Search Console erstmals einen Opt-out-Schalter für KI-Suchfunktionen wie AI Overviews und AI Mode, die zusammen bereits mehr als 3,5 Milliarden monatliche Nutzer",
-      "link": "https://the-decoder.de/google-laesst-website-betreiber-erstmals-selbst-entscheiden-ob-ihre-inhalte-in-ki-suchergebnissen-erscheinen/",
-      "date": "2026-06-03T19:12:29.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
