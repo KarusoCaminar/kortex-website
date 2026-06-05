@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-06-05T16:53:18.268Z",
+  "lastUpdated": "2026-06-05T18:46:03.694Z",
   "news": [
+    {
+      "title": "Florida verklagt OpenAI und CEO Altman wegen Gefährdung Minderjähriger durch ChatGPT",
+      "description": "Florida verklagt als erster US-Bundesstaat OpenAI und CEO Sam Altman persönlich wegen Gefährdung Minderjähriger, fehlender Alterskontrollen und mangelnder Sicherheitsinvestitionen. Die 83-seitige Klag",
+      "link": "https://the-decoder.de/florida-verklagt-openai-und-ceo-altman-wegen-gefaehrdung-minderjaehriger-durch-chatgpt/",
+      "date": "2026-06-05T18:08:31.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Microsoft-Chef Nadella zu KI-Sucht-Plan: \"Wer diesen Unsinn schreibt, sollte woanders arbeiten\"",
       "description": "Microsoft-CEO Satya Nadella hat ein internes Memo scharf zurückgewiesen, das vorschlug, Nutzer \"süchtig\" nach dem KI-Agenten Scout zu machen. \"Ich bin mir nicht sicher, wer diesen Unsinn schreibt\", sc",
@@ -87,15 +96,6 @@
       "description": "Monatsabo, Chat öffnen, Frage stellen: So funktionierte generative KI bisher. Agentische Workflows sprengen dieses Modell. Sie verbrauchen ein Vielfaches an Token, laufen autonom über Stunden und mach",
       "link": "https://the-decoder.de/ki-radar-3-wie-der-token-zur-betriebswirtschaftlichen-groesse-wird/",
       "date": "2026-06-04T11:51:16.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "KI übertrifft Virologen bei Laborwissen: Tech-Branche fordert strengere DNA-Sicherheitsregeln",
-      "description": "Sam Altman, Dario Amodei, Demis Hassabis und weitere Tech-Größen fordern die US-Regierung in einem offenen Brief auf, das Screening synthetischer DNA-Bestellungen gesetzlich vorzuschreiben. KI-Systeme",
-      "link": "https://the-decoder.de/ki-uebertrifft-virologen-bei-laborwissen-tech-branche-fordert-strengere-dna-sicherheitsregeln/",
-      "date": "2026-06-04T09:58:51.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
