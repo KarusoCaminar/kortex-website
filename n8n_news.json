@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-06-05T15:06:54.439Z",
+  "lastUpdated": "2026-06-05T16:53:18.268Z",
   "news": [
+    {
+      "title": "Microsoft-Chef Nadella zu KI-Sucht-Plan: \"Wer diesen Unsinn schreibt, sollte woanders arbeiten\"",
+      "description": "Microsoft-CEO Satya Nadella hat ein internes Memo scharf zurückgewiesen, das vorschlug, Nutzer \"süchtig\" nach dem KI-Agenten Scout zu machen. \"Ich bin mir nicht sicher, wer diesen Unsinn schreibt\", sc",
+      "link": "https://the-decoder.de/microsoft-chef-nadella-zu-ki-sucht-plan-wer-diesen-unsinn-schreibt-sollte-woanders-arbeiten/",
+      "date": "2026-06-05T15:16:56.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Microsoft trainiert neue KI-Modelle mit unlizenzierten Webdaten trotz gegenteiliger Versprechen",
       "description": "Microsoft hat seine neuen MAI-Modelle entgegen früherer Aussagen teilweise mit unlizenzierten Webdaten wie Common Crawl trainiert. Das Unternehmen beruft sich offenbar auf Fair Use und verlagert die V",
@@ -99,15 +108,6 @@
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
-    },
-    {
-      "title": "xAIs Grok Imagine Video 1.5 macht aus einzelnen Bildern filmische Videoclips",
-      "description": "xAI hat mit \"grok-imagine-video-1.5-preview\" ein Bild-zu-Video-Modell veröffentlicht, das Standbilder per Textanweisung in filmische Videos mit bis zu 720p animiert. Mehrere Clips lassen sich zu länge",
-      "link": "https://the-decoder.de/xais-grok-imagine-video-1-5-macht-aus-einzelnen-bildern-filmische-videoclips/",
-      "date": "2026-06-04T07:17:48.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
     },
     {
       "title": "Biodefense in the Intelligence Age",
