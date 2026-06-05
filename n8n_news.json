@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-06-05T11:11:47.095Z",
+  "lastUpdated": "2026-06-05T13:11:03.025Z",
   "news": [
+    {
+      "title": "Microsoft trainiert neue KI-Modelle mit unlizenzierten Webdaten trotz gegenteiliger Versprechen",
+      "description": "Microsoft hat seine neuen MAI-Modelle entgegen früherer Aussagen teilweise mit unlizenzierten Webdaten wie Common Crawl trainiert. Das Unternehmen beruft sich offenbar auf Fair Use und verlagert die V",
+      "link": "https://the-decoder.de/microsoft-trainiert-neue-ki-modelle-mit-unlizenzierten-webdaten-trotz-gegenteiliger-versprechen/",
+      "date": "2026-06-05T11:53:26.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "NSA nutzt Anthropics KI-Modell Mythos angeblich für Cyberangriffe gegen China und Iran",
       "description": "Anthropic hat angeblich rund ein halbes Dutzend Ingenieure direkt bei der NSA stationiert, um das KI-Modell Mythos für offensive Cyberoperationen anzupassen. Das Modell könnte etwa zur Infiltration vo",
@@ -108,15 +117,6 @@
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
-    },
-    {
-      "title": "Googles Gemma 4 12B bringt multimodale KI mit Text, Bild und Audio auf handelsübliche Laptops",
-      "description": "Google DeepMind veröffentlicht mit Gemma 4 12B ein Open-Source-Modell, das Text, Bild und Audio nativ verarbeitet und dabei auf Laptops mit nur 16 GB RAM läuft. In Benchmarks erreicht es fast die Leis",
-      "link": "https://the-decoder.de/googles-gemma-4-12b-bringt-multimodale-ki-mit-text-bild-und-audio-auf-handelsuebliche-laptops/",
-      "date": "2026-06-03T19:47:13.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
     },
     {
       "title": "The next chapter in flood resilience: Open sourcing Google’s hydrology framework",
