@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-06-05T07:38:57.050Z",
+  "lastUpdated": "2026-06-05T09:16:49.662Z",
   "news": [
+    {
+      "title": "Sich selbst verbessernde KI: Anthropic zieht globale Entwicklungspause in Betracht",
+      "description": "Anthropic legt erstmals interne Daten offen, wie stark Claude die eigene KI-Entwicklung beschleunigt: Über 80 Prozent des Produktionscodes stammen inzwischen von Claude, Ingenieure liefern achtmal so",
+      "link": "https://the-decoder.de/sich-selbst-verbessernde-ki-anthropic-zieht-globale-entwicklungspause-in-betracht/",
+      "date": "2026-06-05T08:43:29.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "KI-Agenten fluten das Netz – laut Cloudflare surfen jetzt mehr Bots als Menschen",
       "description": "Laut Cloudflare-CEO Matthew Prince hat der Bot-Traffic den menschlichen Internet-Traffic erstmals überholt – angetrieben durch KI-Agenten. Prince hatte diesen Wendepunkt erst für Ende 2027 erwartet. S",
@@ -125,15 +134,6 @@
       "date": "2026-06-03T13:15:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "How Wasmer used Codex to build a Node.js runtime for the edge",
-      "description": "See how Wasmer used Codex with GPT-5.5 to build a Node.js runtime for the edge, accelerating development 10x to 20x and shipping in weeks instead of months.",
-      "link": "https://openai.com/index/wasmer",
-      "date": "2026-06-03T12:00:00.000Z",
-      "source": "OpenAI",
-      "category": "kmu-relevanz",
       "language": "en"
     }
   ]
