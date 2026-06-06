@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-06-06T10:42:39.839Z",
+  "lastUpdated": "2026-06-06T12:36:02.744Z",
   "news": [
+    {
+      "title": "Meta plant kostenpflichtigen KI-Agenten \"Hatch\" für bis zu 200 Dollar im Monat",
+      "description": "Meta plant mit \"Hatch\" ein eigenes KI-Agenten-Produkt, das bis zu 200 Dollar pro Monat kosten soll. Nutzer beschreiben in einfacher Sprache, was sie brauchen, und Hatch baut daraus funktionierende Too",
+      "link": "https://the-decoder.de/meta-plant-kostenpflichtigen-ki-agenten-hatch-fuer-bis-zu-200-dollar-im-monat/",
+      "date": "2026-06-06T11:38:08.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Elon Musks xAI nutzte heimlich Anthropics Claude, um eigene Coding-Modelle zu trainieren",
+      "description": "Elon Musks xAI hat laut The Information über Monate Anthropics Claude destilliert und nach der Zugangssperre über private Accounts und den Dienst Blackbox AI weiter darauf zugegriffen. Intern schrumpf",
+      "link": "https://the-decoder.de/elon-musks-xai-nutzte-heimlich-anthropics-claude-um-eigene-coding-modelle-zu-trainieren/",
+      "date": "2026-06-06T11:15:28.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Streaming-Sprachmodell hört dauerhaft mit und entscheidet selbst, wann es spricht",
       "description": "Das KI-Modell \"Audio-Interaction\" hört permanent mit und entscheidet alle 0,4 Sekunden, ob es schweigt oder spricht. Anders als GPT-4o oder Qwen3.5-Omni wartet es nicht auf das Ende einer Aufnahme, so",
@@ -69,24 +87,6 @@
       "description": "Anthropic hat angeblich rund ein halbes Dutzend Ingenieure direkt bei der NSA stationiert, um das KI-Modell Mythos für offensive Cyberoperationen anzupassen. Das Modell könnte etwa zur Infiltration vo",
       "link": "https://the-decoder.de/nsa-nutzt-anthropics-ki-modell-mythos-angeblich-fuer-cyberangriffe-gegen-china-und-iran/",
       "date": "2026-06-05T11:07:28.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Sich selbst verbessernde KI: Anthropic zieht globale Entwicklungspause in Betracht",
-      "description": "Anthropic legt erstmals interne Daten offen, wie stark Claude die eigene KI-Entwicklung beschleunigt: Über 80 Prozent des Produktionscodes stammen inzwischen von Claude, Ingenieure liefern achtmal so",
-      "link": "https://the-decoder.de/sich-selbst-verbessernde-ki-anthropic-zieht-globale-entwicklungspause-in-betracht/",
-      "date": "2026-06-05T08:43:29.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "KI-Agenten fluten das Netz – laut Cloudflare surfen jetzt mehr Bots als Menschen",
-      "description": "Laut Cloudflare-CEO Matthew Prince hat der Bot-Traffic den menschlichen Internet-Traffic erstmals überholt – angetrieben durch KI-Agenten. Prince hatte diesen Wendepunkt erst für Ende 2027 erwartet. S",
-      "link": "https://the-decoder.de/ki-agenten-fluten-das-netz-laut-cloudflare-surfen-jetzt-mehr-bots-als-menschen/",
-      "date": "2026-06-04T18:46:13.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
