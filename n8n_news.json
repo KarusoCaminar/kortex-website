@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-06-06T08:59:37.250Z",
+  "lastUpdated": "2026-06-06T10:42:39.839Z",
   "news": [
+    {
+      "title": "Streaming-Sprachmodell hört dauerhaft mit und entscheidet selbst, wann es spricht",
+      "description": "Das KI-Modell \"Audio-Interaction\" hört permanent mit und entscheidet alle 0,4 Sekunden, ob es schweigt oder spricht. Anders als GPT-4o oder Qwen3.5-Omni wartet es nicht auf das Ende einer Aufnahme, so",
+      "link": "https://the-decoder.de/streaming-sprachmodell-hoert-dauerhaft-mit-und-entscheidet-selbst-wann-es-spricht/",
+      "date": "2026-06-06T10:29:21.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Google mietet 110.000 Nvidia-KI-Chips von SpaceX für 920 Millionen Dollar im Monat",
       "description": "SpaceX vermietet laut einer SEC-Einreichung KI-Rechenkapazität an Google – für 920 Millionen Dollar monatlich. Der Deal verschafft Google Zugang zu rund 110.000 Nvidia-Chips, um die Nachfrage nach sei",
@@ -78,15 +87,6 @@
       "description": "Laut Cloudflare-CEO Matthew Prince hat der Bot-Traffic den menschlichen Internet-Traffic erstmals überholt – angetrieben durch KI-Agenten. Prince hatte diesen Wendepunkt erst für Ende 2027 erwartet. S",
       "link": "https://the-decoder.de/ki-agenten-fluten-das-netz-laut-cloudflare-surfen-jetzt-mehr-bots-als-menschen/",
       "date": "2026-06-04T18:46:13.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "ChatGPT erinnert sich jetzt besser an Nutzer und passt veraltete Informationen selbstständig an",
-      "description": "OpenAI überarbeitet das Gedächtnissystem von ChatGPT grundlegend: Das aktualisierte \"Dreaming\"-System verarbeitet Gespräche im Hintergrund und hält Nutzerinformationen automatisch aktuell – die Erfolg",
-      "link": "https://the-decoder.de/chatgpt-erinnert-sich-jetzt-besser-an-nutzer-und-passt-veraltete-informationen-selbststaendig-an/",
-      "date": "2026-06-04T16:32:48.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
