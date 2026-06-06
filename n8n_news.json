@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-06T05:23:37.509Z",
+  "lastUpdated": "2026-06-06T07:12:01.975Z",
   "news": [
     {
       "title": "Florida verklagt OpenAI und CEO Altman wegen Gefährdung Minderjähriger durch ChatGPT",
@@ -101,15 +101,6 @@
       "language": "en"
     },
     {
-      "title": "KI-Radar #3: Wie der Token zur betriebswirtschaftlichen Größe wird",
-      "description": "Monatsabo, Chat öffnen, Frage stellen: So funktionierte generative KI bisher. Agentische Workflows sprengen dieses Modell. Sie verbrauchen ein Vielfaches an Token, laufen autonom über Stunden und mach",
-      "link": "https://the-decoder.de/ki-radar-3-wie-der-token-zur-betriebswirtschaftlichen-groesse-wird/",
-      "date": "2026-06-04T11:51:16.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "Dreaming: Better memory for a more helpful ChatGPT",
       "description": "ChatGPT introduces a new memory system to better remember preferences, keeping context fresh and relevant across conversations.",
       "link": "https://openai.com/index/chatgpt-memory-dreaming",
@@ -133,6 +124,15 @@
       "link": "https://research.google/blog/the-next-chapter-in-flood-resilience-open-sourcing-googles-hydrology-framework/",
       "date": "2026-06-03T18:37:32.000Z",
       "source": "Google AI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
+      "title": "Introducing new capabilities to GPT-Rosalind",
+      "description": "GPT-Rosalind advances life sciences research with enhanced biological reasoning, medicinal chemistry expertise, genomics analysis, and experimental workflow capabilities.",
+      "link": "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind",
+      "date": "2026-06-03T13:15:00.000Z",
+      "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
     }
