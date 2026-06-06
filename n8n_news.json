@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-06-06T12:36:02.744Z",
+  "lastUpdated": "2026-06-06T14:36:35.261Z",
   "news": [
+    {
+      "title": "KI soll KI verbessern: Japanisches KI-Start-up Sakana AI gründet Forschungslabor für rekursive Selbstverbesserung",
+      "description": "Sakana AI gründet ein eigenes Forschungslabor für rekursive Selbstverbesserung: KI, die sich selbst weiterentwickelt. Das japanische Start-up, mitgegründet von Transformer-Mitautor Llion Jones, sieht",
+      "link": "https://the-decoder.de/ki-soll-ki-verbessern-japanisches-ki-start-up-sakana-ai-gruendet-forschungslabor-fuer-rekursive-selbstverbesserung/",
+      "date": "2026-06-06T13:39:52.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Meta plant kostenpflichtigen KI-Agenten \"Hatch\" für bis zu 200 Dollar im Monat",
       "description": "Meta plant mit \"Hatch\" ein eigenes KI-Agenten-Produkt, das bis zu 200 Dollar pro Monat kosten soll. Nutzer beschreiben in einfacher Sprache, was sie brauchen, und Hatch baut daraus funktionierende Too",
@@ -81,15 +90,6 @@
       "source": "Google AI",
       "category": "große-modelle",
       "language": "en"
-    },
-    {
-      "title": "NSA nutzt Anthropics KI-Modell Mythos angeblich für Cyberangriffe gegen China und Iran",
-      "description": "Anthropic hat angeblich rund ein halbes Dutzend Ingenieure direkt bei der NSA stationiert, um das KI-Modell Mythos für offensive Cyberoperationen anzupassen. Das Modell könnte etwa zur Infiltration vo",
-      "link": "https://the-decoder.de/nsa-nutzt-anthropics-ki-modell-mythos-angeblich-fuer-cyberangriffe-gegen-china-und-iran/",
-      "date": "2026-06-05T11:07:28.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
     },
     {
       "title": "How Endava is redesigning software delivery around AI agents",
