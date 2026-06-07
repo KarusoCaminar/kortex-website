@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-06-07T09:09:17.066Z",
+  "lastUpdated": "2026-06-07T10:49:44.765Z",
   "news": [
+    {
+      "title": "Perplexity lässt KI-Agenten ihre eigene Websuche programmieren, um Tokens zu sparen und Präzision zu erhöhen",
+      "description": "Perplexity stellt mit \"Search as Code\" eine neue Architektur vor, bei der KI-Modelle ihre Suchabläufe als Python-Code schreiben, statt eine fertige Such-API aufzurufen. Das Modell orchestriert Filteru",
+      "link": "https://the-decoder.de/perplexity-laesst-ki-agenten-ihre-websuche-programmieren-um-tokens-zu-sparen-und-praezision-zu-erhoehen/",
+      "date": "2026-06-07T10:05:33.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "OpenAIs \"Lockdown Mode\" in ChatGPT soll vor Prompt-Angriffen schützen",
+      "description": "OpenAI führt einen Lockdown-Mode für ChatGPT ein, der Webzugriff, Deep Research und Agent-Mode deaktiviert, um Datendiebstahl durch Prompt-Injection-Angriffe zu erschweren. Vollständig verhindern kann",
+      "link": "https://the-decoder.de/openais-lockdown-mode-in-chatgpt-soll-vor-prompt-angriffen-schuetzen/",
+      "date": "2026-06-07T09:29:05.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "OpenAI KI-Chipentwickler der ersten Stunde geht zu Konkurrent Anthropic",
       "description": "Clive Chan, nach eigenen Angaben zweiter Hardware-Mitarbeiter in OpenAIs Custom-Chip-Programm, wechselt zu Anthropic. Chan bringt Erfahrung von Teslas Autopilot-ASIC und der OpenAI-Broadcom-Kooperatio",
@@ -74,15 +92,6 @@
       "language": "de"
     },
     {
-      "title": "Florida verklagt OpenAI und CEO Altman wegen Gefährdung Minderjähriger durch ChatGPT",
-      "description": "Florida verklagt als erster US-Bundesstaat OpenAI und CEO Sam Altman persönlich wegen Gefährdung Minderjähriger, fehlender Alterskontrollen und mangelnder Sicherheitsinvestitionen. Die 83-seitige Klag",
-      "link": "https://the-decoder.de/florida-verklagt-openai-und-ceo-altman-wegen-gefaehrdung-minderjaehriger-durch-chatgpt/",
-      "date": "2026-06-05T18:08:31.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "Unlocking dependable responses with Gemini Enterprise Agent Platform’s Agentic RAG",
       "description": "Data Management",
       "link": "https://research.google/blog/unlocking-dependable-responses-with-gemini-enterprise-agent-platforms-agentic-rag/",
@@ -124,15 +133,6 @@
       "link": "https://research.google/blog/the-next-chapter-in-flood-resilience-open-sourcing-googles-hydrology-framework/",
       "date": "2026-06-03T18:37:32.000Z",
       "source": "Google AI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "Introducing new capabilities to GPT-Rosalind",
-      "description": "GPT-Rosalind advances life sciences research with enhanced biological reasoning, medicinal chemistry expertise, genomics analysis, and experimental workflow capabilities.",
-      "link": "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind",
-      "date": "2026-06-03T13:15:00.000Z",
-      "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
     }
