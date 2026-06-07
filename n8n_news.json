@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-06-07T05:38:07.179Z",
+  "lastUpdated": "2026-06-07T07:32:08.144Z",
   "news": [
+    {
+      "title": "Warum große KI-Modelle bestimmte Aufgaben lernen und kleine nicht",
+      "description": "Kleine Sprachmodelle scheitern an seltenen Aufgaben, weil häufige Aufgaben das Gelernte ständig wieder überschreiben. Eine neue Studie mit Modellen von 4 Millionen bis 4 Milliarden Parametern zeigt di",
+      "link": "https://the-decoder.de/warum-grosse-ki-modelle-bestimmte-aufgaben-lernen-und-kleine-nicht/",
+      "date": "2026-06-07T07:29:09.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "KI soll KI verbessern: Japanisches KI-Start-up Sakana AI gründet Forschungslabor für rekursive Selbstverbesserung",
       "description": "Sakana AI gründet ein eigenes Forschungslabor für rekursive Selbstverbesserung: KI, die sich selbst weiterentwickelt. Das japanische Start-up, mitgegründet von Transformer-Mitautor Llion Jones, sieht",
@@ -69,15 +78,6 @@
       "description": "Microsoft-CEO Satya Nadella hat ein internes Memo scharf zurückgewiesen, das vorschlug, Nutzer \"süchtig\" nach dem KI-Agenten Scout zu machen. \"Ich bin mir nicht sicher, wer diesen Unsinn schreibt\", sc",
       "link": "https://the-decoder.de/microsoft-chef-nadella-zu-ki-sucht-plan-wer-diesen-unsinn-schreibt-sollte-woanders-arbeiten/",
       "date": "2026-06-05T15:16:56.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Microsoft trainiert neue KI-Modelle mit unlizenzierten Webdaten trotz gegenteiliger Versprechen",
-      "description": "Microsoft hat seine neuen MAI-Modelle entgegen früherer Aussagen teilweise mit unlizenzierten Webdaten wie Common Crawl trainiert. Das Unternehmen beruft sich offenbar auf Fair Use und verlagert die V",
-      "link": "https://the-decoder.de/microsoft-trainiert-neue-ki-modelle-mit-unlizenzierten-webdaten-trotz-gegenteiliger-versprechen/",
-      "date": "2026-06-05T11:53:26.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
