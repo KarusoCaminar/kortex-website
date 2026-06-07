@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-06-07T10:49:44.765Z",
+  "lastUpdated": "2026-06-07T12:40:48.145Z",
   "news": [
+    {
+      "title": "\"Chat ist tot\": OpenAI will ChatGPT vom Chatbot zum persönlichen Agenten machen",
+      "description": "OpenAI plant den größten Umbau von ChatGPT seit dem Launch: Der Chatbot soll zur \"Superapp\" mit Coding-Tools, KI-Agenten und Partner-Apps wie Canva und Booking.com werden. \"Chat ist tot\", heißt es int",
+      "link": "https://the-decoder.de/chat-ist-tot-openai-will-chatgpt-vom-chatbot-zum-persoenlichen-agenten-machen/",
+      "date": "2026-06-07T10:56:28.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Perplexity lässt KI-Agenten ihre eigene Websuche programmieren, um Tokens zu sparen und Präzision zu erhöhen",
       "description": "Perplexity stellt mit \"Search as Code\" eine neue Architektur vor, bei der KI-Modelle ihre Suchabläufe als Python-Code schreiben, statt eine fertige Such-API aufzurufen. Das Modell orchestriert Filteru",
@@ -78,15 +87,6 @@
       "description": "SpaceX vermietet laut einer SEC-Einreichung KI-Rechenkapazität an Google – für 920 Millionen Dollar monatlich. Der Deal verschafft Google Zugang zu rund 110.000 Nvidia-Chips, um die Nachfrage nach sei",
       "link": "https://the-decoder.de/google-mietet-110-000-nvidia-ki-chips-von-spacex-fuer-920-millionen-dollar-im-monat/",
       "date": "2026-06-06T07:49:41.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Trump und Altman verhandeln über US-Staatsbeteiligung an OpenAI – kurz vor dem Börsengang",
-      "description": "OpenAI und die Trump-Regierung verhandeln über eine direkte Staatsbeteiligung am KI-Startup. Die Idee: ein \"Public Wealth Fund\", von dem US-Bürger profitieren sollen. Senator Bernie Sanders will dafür",
-      "link": "https://the-decoder.de/trump-und-altman-verhandeln-ueber-staatsbeteiligung-an-openai-kurz-vor-dem-boersengang/",
-      "date": "2026-06-06T07:15:43.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
