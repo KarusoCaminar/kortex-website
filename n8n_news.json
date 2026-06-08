@@ -1,6 +1,33 @@
 {
-  "lastUpdated": "2026-06-08T09:44:15.851Z",
+  "lastUpdated": "2026-06-08T11:41:39.710Z",
   "news": [
+    {
+      "title": "Drei Viertel der Unternehmen fliegen bei ihren KI-Kosten blind, zeigt eine neue KPMG-Umfrage",
+      "description": "Nur 26 Prozent der Unternehmen haben laut einer KPMG-Umfrage einen vollständigen Überblick über ihre KI-Kosten.\nDer Artikel Drei Viertel der Unternehmen fliegen bei ihren KI-Kosten blind, zeigt eine n",
+      "link": "https://the-decoder.de/drei-viertel-der-unternehmen-fliegen-bei-ihren-ki-kosten-blind-zeigt-eine-neue-kpmg-umfrage/",
+      "date": "2026-06-08T11:31:03.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Kimi-Macher Moonshot AI peilt 30-Milliarden-Bewertung an",
+      "description": "Moonshot AI, das chinesische Unternehmen hinter dem Chatbot Kimi, sucht in einer neuen Finanzierungsrunde nach einer Bewertung von bis zu 30 Milliarden US-Dollar.\nDer Artikel Kimi-Macher Moonshot AI p",
+      "link": "https://the-decoder.de/kimi-macher-moonshot-ai-peilt-30-milliarden-bewertung-an/",
+      "date": "2026-06-08T11:22:10.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Meta bestätigt: Über 20.000 Instagram-Konten durch KI-Chatbot-Lücke gehackt",
+      "description": "Meta beziffert erstmals das Ausmaß der Sicherheitslücke in seinem KI-Support-Chatbot für Instagram: Mindestens 20.225 Konten wurden kompromittiert. Fast sieben Wochen lang verschickte das System Passw",
+      "link": "https://the-decoder.de/meta-bestaetigt-ueber-20-000-instagram-konten-durch-ki-chatbot-luecke-gehackt/",
+      "date": "2026-06-08T11:06:03.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "\"Chat ist tot\": OpenAI will ChatGPT vom Chatbot zum persönlichen Agenten machen",
       "description": "OpenAI plant den größten Umbau von ChatGPT seit dem Launch: Der Chatbot soll zur \"Superapp\" mit Coding-Tools, KI-Agenten und Partner-Apps wie Canva und Booking.com werden. \"Chat ist tot\", heißt es int",
@@ -42,42 +69,6 @@
       "description": "Kleine Sprachmodelle scheitern an seltenen Aufgaben, weil häufige Aufgaben das Gelernte ständig wieder überschreiben. Eine neue Studie mit Modellen von 4 Millionen bis 4 Milliarden Parametern zeigt di",
       "link": "https://the-decoder.de/warum-grosse-ki-modelle-bestimmte-aufgaben-lernen-und-kleine-nicht/",
       "date": "2026-06-07T07:29:09.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "KI soll KI verbessern: Japanisches KI-Start-up Sakana AI gründet Forschungslabor für rekursive Selbstverbesserung",
-      "description": "Sakana AI gründet ein eigenes Forschungslabor für rekursive Selbstverbesserung: KI, die sich selbst weiterentwickelt. Das japanische Start-up, mitgegründet von Transformer-Mitautor Llion Jones, sieht",
-      "link": "https://the-decoder.de/ki-soll-ki-verbessern-japanisches-ki-start-up-sakana-ai-gruendet-forschungslabor-fuer-rekursive-selbstverbesserung/",
-      "date": "2026-06-06T13:39:52.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Meta plant kostenpflichtigen KI-Agenten \"Hatch\" für bis zu 200 Dollar im Monat",
-      "description": "Meta plant mit \"Hatch\" ein eigenes KI-Agenten-Produkt, das bis zu 200 Dollar pro Monat kosten soll. Nutzer beschreiben in einfacher Sprache, was sie brauchen, und Hatch baut daraus funktionierende Too",
-      "link": "https://the-decoder.de/meta-plant-kostenpflichtigen-ki-agenten-hatch-fuer-bis-zu-200-dollar-im-monat/",
-      "date": "2026-06-06T11:38:08.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Elon Musks xAI nutzte heimlich Anthropics Claude, um eigene Coding-Modelle zu trainieren",
-      "description": "Elon Musks xAI hat laut The Information über Monate Anthropics Claude destilliert und nach der Zugangssperre über private Accounts und den Dienst Blackbox AI weiter darauf zugegriffen. Intern schrumpf",
-      "link": "https://the-decoder.de/elon-musks-xai-nutzte-heimlich-anthropics-claude-um-eigene-coding-modelle-zu-trainieren/",
-      "date": "2026-06-06T11:15:28.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Streaming-Sprachmodell hört dauerhaft mit und entscheidet selbst, wann es spricht",
-      "description": "Das KI-Modell \"Audio-Interaction\" hört permanent mit und entscheidet alle 0,4 Sekunden, ob es schweigt oder spricht. Anders als GPT-4o oder Qwen3.5-Omni wartet es nicht auf das Ende einer Aufnahme, so",
-      "link": "https://the-decoder.de/streaming-sprachmodell-hoert-dauerhaft-mit-und-entscheidet-selbst-wann-es-spricht/",
-      "date": "2026-06-06T10:29:21.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
@@ -134,6 +125,15 @@
       "date": "2026-06-03T13:15:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
+      "language": "en"
+    },
+    {
+      "title": "How Wasmer used Codex to build a Node.js runtime for the edge",
+      "description": "See how Wasmer used Codex with GPT-5.5 to build a Node.js runtime for the edge, accelerating development 10x to 20x and shipping in weeks instead of months.",
+      "link": "https://openai.com/index/wasmer",
+      "date": "2026-06-03T12:00:00.000Z",
+      "source": "OpenAI",
+      "category": "kmu-relevanz",
       "language": "en"
     }
   ]
