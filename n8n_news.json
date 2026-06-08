@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-08T20:57:27.409Z",
+  "lastUpdated": "2026-06-08T22:36:08.836Z",
   "news": [
     {
       "title": "Microsoft Research zeigt mit Lens, wie sich Bildmodelle effizienter trainieren lassen",
@@ -18,6 +18,15 @@
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
+    },
+    {
+      "title": "Confidential submission of draft S-1 to the SEC",
+      "description": "OpenAI confirms a confidential S-1 submission to the SEC and has not yet determined timing for further action.",
+      "link": "https://openai.com/index/openai-submits-confidential-s-1",
+      "date": "2026-06-08T14:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
     },
     {
       "title": "Drei Viertel der Unternehmen fliegen bei ihren KI-Kosten blind, zeigt eine neue KPMG-Umfrage",
@@ -124,15 +133,6 @@
       "link": "https://openai.com/index/biodefense-in-the-intelligence-age",
       "date": "2026-06-04T00:00:00.000Z",
       "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "The next chapter in flood resilience: Open sourcing Google’s hydrology framework",
-      "description": "Climate & Sustainability",
-      "link": "https://research.google/blog/the-next-chapter-in-flood-resilience-open-sourcing-googles-hydrology-framework/",
-      "date": "2026-06-03T18:37:32.000Z",
-      "source": "Google AI",
       "category": "große-modelle",
       "language": "en"
     }
