@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-06-08T15:13:33.206Z",
+  "lastUpdated": "2026-06-08T20:57:27.409Z",
   "news": [
+    {
+      "title": "Microsoft Research zeigt mit Lens, wie sich Bildmodelle effizienter trainieren lassen",
+      "description": "Microsoft Research stellt mit Lens ein Text-zu-Bild-Modell mit nur 3,8 Milliarden Parametern vor. In Benchmarks schlägt es deutlich größere Konkurrenten mit 80 Milliarden Parametern, bei einem Fünftel",
+      "link": "https://the-decoder.de/microsoft-research-zeigt-mit-lens-wie-sich-bildmodelle-effizienter-trainieren-lassen/",
+      "date": "2026-06-08T17:42:40.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "TSMC am Limit: Google und Nvidia ziehen Intel als alternativen Chiphersteller in Betracht",
+      "description": "Google hat bei Intel die Fertigung von über drei Millionen KI-Chips für 2028 bestellt, auch Nvidia testet Intels Fertigungstechnik für seine kommende Feynman-Architektur. Der Grund: TSMC kommt mit der",
+      "link": "https://the-decoder.de/tsmc-am-limit-google-und-nvidia-ziehen-intel-als-alternativen-chiphersteller-in-betracht/",
+      "date": "2026-06-08T17:27:50.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Drei Viertel der Unternehmen fliegen bei ihren KI-Kosten blind, zeigt eine neue KPMG-Umfrage",
       "description": "Nur 26 Prozent der Unternehmen haben laut einer KPMG-Umfrage einen vollständigen Überblick über ihre KI-Kosten.\nDer Artikel Drei Viertel der Unternehmen fliegen bei ihren KI-Kosten blind, zeigt eine n",
@@ -29,6 +47,24 @@
       "language": "de"
     },
     {
+      "title": "Built to benefit everyone: our plan",
+      "description": "A vision for the future of AI, focusing on access, safety, and shared prosperity as OpenAI works to ensure AGI benefits everyone.",
+      "link": "https://openai.com/index/built-to-benefit-everyone-our-plan",
+      "date": "2026-06-08T01:30:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
+      "title": "Introducing the OpenAI Economic Research Exchange",
+      "description": "OpenAI launches the Economic Research Exchange to study AI’s impact on jobs, productivity, and the economy. Applications are now open for selected research projects.",
+      "link": "https://openai.com/index/economic-research-exchange",
+      "date": "2026-06-08T00:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
       "title": "\"Chat ist tot\": OpenAI will ChatGPT vom Chatbot zum persönlichen Agenten machen",
       "description": "OpenAI plant den größten Umbau von ChatGPT seit dem Launch: Der Chatbot soll zur \"Superapp\" mit Coding-Tools, KI-Agenten und Partner-Apps wie Canva und Booking.com werden. \"Chat ist tot\", heißt es int",
       "link": "https://the-decoder.de/chat-ist-tot-openai-will-chatgpt-vom-chatbot-zum-persoenlichen-agenten-machen/",
@@ -51,24 +87,6 @@
       "description": "OpenAI führt einen Lockdown-Mode für ChatGPT ein, der Webzugriff, Deep Research und Agent-Mode deaktiviert, um Datendiebstahl durch Prompt-Injection-Angriffe zu erschweren. Vollständig verhindern kann",
       "link": "https://the-decoder.de/openais-lockdown-mode-in-chatgpt-soll-vor-prompt-angriffen-schuetzen/",
       "date": "2026-06-07T09:29:05.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "OpenAI KI-Chipentwickler der ersten Stunde geht zu Konkurrent Anthropic",
-      "description": "Clive Chan, nach eigenen Angaben zweiter Hardware-Mitarbeiter in OpenAIs Custom-Chip-Programm, wechselt zu Anthropic. Chan bringt Erfahrung von Teslas Autopilot-ASIC und der OpenAI-Broadcom-Kooperatio",
-      "link": "https://the-decoder.de/openai-ki-chipentwickler-der-ersten-stunde-geht-zu-konkurrent-anthropic/",
-      "date": "2026-06-07T08:22:06.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Warum große KI-Modelle bestimmte Aufgaben lernen und kleine nicht",
-      "description": "Kleine Sprachmodelle scheitern an seltenen Aufgaben, weil häufige Aufgaben das Gelernte ständig wieder überschreiben. Eine neue Studie mit Modellen von 4 Millionen bis 4 Milliarden Parametern zeigt di",
-      "link": "https://the-decoder.de/warum-grosse-ki-modelle-bestimmte-aufgaben-lernen-und-kleine-nicht/",
-      "date": "2026-06-07T07:29:09.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
@@ -116,24 +134,6 @@
       "date": "2026-06-03T18:37:32.000Z",
       "source": "Google AI",
       "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "Introducing new capabilities to GPT-Rosalind",
-      "description": "GPT-Rosalind advances life sciences research with enhanced biological reasoning, medicinal chemistry expertise, genomics analysis, and experimental workflow capabilities.",
-      "link": "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind",
-      "date": "2026-06-03T13:15:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "How Wasmer used Codex to build a Node.js runtime for the edge",
-      "description": "See how Wasmer used Codex with GPT-5.5 to build a Node.js runtime for the edge, accelerating development 10x to 20x and shipping in weeks instead of months.",
-      "link": "https://openai.com/index/wasmer",
-      "date": "2026-06-03T12:00:00.000Z",
-      "source": "OpenAI",
-      "category": "kmu-relevanz",
       "language": "en"
     }
   ]
