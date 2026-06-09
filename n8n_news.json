@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-06-09T11:08:34.518Z",
+  "lastUpdated": "2026-06-09T13:08:37.367Z",
   "news": [
+    {
+      "title": "Deutsches Gericht rasiert Googles \"AI Overviews\": Google haftet für unwahre KI-Antworten",
+      "description": "Das Landgericht München I stuft Google als unmittelbaren Störer für Inhalte seiner KI-Suchübersichten ein: Die bisherige eingeschränkte Haftung für Suchmaschinenbetreiber sei nicht übertragbar. Die KI",
+      "link": "https://the-decoder.de/deutsches-gericht-rasiert-googles-ai-overviews-google-haftet-fuer-unwahre-ki-antworten/",
+      "date": "2026-06-09T11:57:53.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "OpenAI macht ersten Schritt Richtung Börsengang, spricht aber von einer \"komplizierten Abwägung\"",
       "description": "OpenAI hat vertraulich einen S-1-Antrag bei der SEC eingereicht und damit den ersten Schritt Richtung Börsengang gemacht. Einen konkreten Zeitplan gibt es nicht, das Unternehmen spricht von einer komp",
@@ -124,15 +133,6 @@
       "link": "https://openai.com/index/biodefense-in-the-intelligence-age",
       "date": "2026-06-04T00:00:00.000Z",
       "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "The next chapter in flood resilience: Open sourcing Google’s hydrology framework",
-      "description": "Climate & Sustainability",
-      "link": "https://research.google/blog/the-next-chapter-in-flood-resilience-open-sourcing-googles-hydrology-framework/",
-      "date": "2026-06-03T18:37:00.000Z",
-      "source": "Google AI",
       "category": "große-modelle",
       "language": "en"
     }
