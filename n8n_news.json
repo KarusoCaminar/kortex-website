@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-06-09T07:24:37.219Z",
+  "lastUpdated": "2026-06-09T11:08:34.518Z",
   "news": [
+    {
+      "title": "OpenAI macht ersten Schritt Richtung Börsengang, spricht aber von einer \"komplizierten Abwägung\"",
+      "description": "OpenAI hat vertraulich einen S-1-Antrag bei der SEC eingereicht und damit den ersten Schritt Richtung Börsengang gemacht. Einen konkreten Zeitplan gibt es nicht, das Unternehmen spricht von einer komp",
+      "link": "https://the-decoder.de/openai-macht-ersten-schritt-richtung-boersengang-spricht-aber-von-einer-komplizierten-abwaegung/",
+      "date": "2026-06-09T09:12:05.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "OpenAI: \"Alles vollständig zu automatisieren, ist nicht die Zukunft, die wir wollen\"",
+      "description": "OpenAI rückt vom Ziel einer vollautonomen KI-Forschung bis 2028 ab und spricht nun von einem \"Tandem\" zwischen Mensch und Maschine. Altman und Pachocki fordern zudem eine internationale Organisation,",
+      "link": "https://the-decoder.de/openai-alles-vollstaendig-zu-automatisieren-ist-nicht-die-zukunft-die-wir-wollen/",
+      "date": "2026-06-09T08:52:44.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Microsoft Research zeigt mit Lens, wie sich Bildmodelle effizienter trainieren lassen",
       "description": "Microsoft Research stellt mit Lens ein Text-zu-Bild-Modell mit nur 3,8 Milliarden Parametern vor. In Benchmarks schlägt es deutlich größere Konkurrenten mit 80 Milliarden Parametern, bei einem Fünftel",
@@ -74,33 +92,6 @@
       "language": "en"
     },
     {
-      "title": "\"Chat ist tot\": OpenAI will ChatGPT vom Chatbot zum persönlichen Agenten machen",
-      "description": "OpenAI plant den größten Umbau von ChatGPT seit dem Launch: Der Chatbot soll zur \"Superapp\" mit Coding-Tools, KI-Agenten und Partner-Apps wie Canva und Booking.com werden. \"Chat ist tot\", heißt es int",
-      "link": "https://the-decoder.de/chat-ist-tot-openai-will-chatgpt-vom-chatbot-zum-persoenlichen-agenten-machen/",
-      "date": "2026-06-07T10:56:28.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Perplexity lässt KI-Agenten ihre eigene Websuche programmieren, um Tokens zu sparen und Präzision zu erhöhen",
-      "description": "Perplexity stellt mit \"Search as Code\" eine neue Architektur vor, bei der KI-Modelle ihre Suchabläufe als Python-Code schreiben, statt eine fertige Such-API aufzurufen. Das Modell orchestriert Filteru",
-      "link": "https://the-decoder.de/perplexity-laesst-ki-agenten-ihre-websuche-programmieren-um-tokens-zu-sparen-und-praezision-zu-erhoehen/",
-      "date": "2026-06-07T10:05:33.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "OpenAIs \"Lockdown Mode\" in ChatGPT soll vor Prompt-Angriffen schützen",
-      "description": "OpenAI führt einen Lockdown-Mode für ChatGPT ein, der Webzugriff, Deep Research und Agent-Mode deaktiviert, um Datendiebstahl durch Prompt-Injection-Angriffe zu erschweren. Vollständig verhindern kann",
-      "link": "https://the-decoder.de/openais-lockdown-mode-in-chatgpt-soll-vor-prompt-angriffen-schuetzen/",
-      "date": "2026-06-07T09:29:05.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "Unlocking dependable responses with Gemini Enterprise Agent Platform’s Agentic RAG",
       "description": "Data Management",
       "link": "https://research.google/blog/unlocking-dependable-responses-with-gemini-enterprise-agent-platforms-agentic-rag/",
@@ -133,6 +124,15 @@
       "link": "https://openai.com/index/biodefense-in-the-intelligence-age",
       "date": "2026-06-04T00:00:00.000Z",
       "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
+      "title": "The next chapter in flood resilience: Open sourcing Google’s hydrology framework",
+      "description": "Climate & Sustainability",
+      "link": "https://research.google/blog/the-next-chapter-in-flood-resilience-open-sourcing-googles-hydrology-framework/",
+      "date": "2026-06-03T18:37:00.000Z",
+      "source": "Google AI",
       "category": "große-modelle",
       "language": "en"
     }
