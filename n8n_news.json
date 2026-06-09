@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-06-09T13:08:37.367Z",
+  "lastUpdated": "2026-06-09T17:00:48.429Z",
   "news": [
+    {
+      "title": "Musk vor dem SpaceX-IPO: KI-Rechenzentren im Orbit sind \"kein besonders schwieriges Problem\"",
+      "description": "SpaceX will Rechenzentren ins All bringen – Elon Musk nennt das vor dem Börsengang ein \"nicht besonders schwieriges Problem\". Ein erster KI-Satellit soll die Leistung eines einzelnen Nvidia-GB300-Rack",
+      "link": "https://the-decoder.de/musk-vor-dem-spacex-ipo-ki-rechenzentren-im-orbit-sind-kein-besonders-schwieriges-problem/",
+      "date": "2026-06-09T15:00:18.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "China plant 295 Milliarden Dollar für landesweites KI-Rechenzentrumsnetz, Nvidia und AMD bleiben außen vor",
+      "description": "China plant laut Bloomberg in den nächsten fünf Jahren rund 295 Milliarden US-Dollar in ein landesweites KI-Rechenzentrumsnetz zu investieren – mindestens 80 Prozent der Technik soll von heimischen An",
+      "link": "https://the-decoder.de/china-plant-295-milliarden-dollar-fuer-landesweites-ki-rechenzentrumsnetz-nvidia-und-amd-bleiben-aussen-vor/",
+      "date": "2026-06-09T13:21:49.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Deutsches Gericht rasiert Googles \"AI Overviews\": Google haftet für unwahre KI-Antworten",
       "description": "Das Landgericht München I stuft Google als unmittelbaren Störer für Inhalte seiner KI-Suchübersichten ein: Die bisherige eingeschränkte Haftung für Suchmaschinenbetreiber sei nicht übertragbar. Die KI",
@@ -74,15 +92,6 @@
       "language": "de"
     },
     {
-      "title": "Meta bestätigt: Über 20.000 Instagram-Konten durch KI-Chatbot-Lücke gehackt",
-      "description": "Meta beziffert erstmals das Ausmaß der Sicherheitslücke in seinem KI-Support-Chatbot für Instagram: Mindestens 20.225 Konten wurden kompromittiert. Fast sieben Wochen lang verschickte das System Passw",
-      "link": "https://the-decoder.de/meta-bestaetigt-ueber-20-000-instagram-konten-durch-ki-chatbot-luecke-gehackt/",
-      "date": "2026-06-08T11:06:03.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "Built to benefit everyone: our plan",
       "description": "A vision for the future of AI, focusing on access, safety, and shared prosperity as OpenAI works to ensure AGI benefits everyone.",
       "link": "https://openai.com/index/built-to-benefit-everyone-our-plan",
@@ -123,15 +132,6 @@
       "description": "ChatGPT introduces a new memory system to better remember preferences, keeping context fresh and relevant across conversations.",
       "link": "https://openai.com/index/chatgpt-memory-dreaming",
       "date": "2026-06-04T09:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "Biodefense in the Intelligence Age",
-      "description": "An action plan for AI-powered biological resilience",
-      "link": "https://openai.com/index/biodefense-in-the-intelligence-age",
-      "date": "2026-06-04T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
