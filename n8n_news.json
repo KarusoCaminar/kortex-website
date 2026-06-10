@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-06-10T20:58:24.431Z",
+  "lastUpdated": "2026-06-10T22:40:26.346Z",
   "news": [
+    {
+      "title": "Access OpenAI models and Codex through your Oracle cloud commitment",
+      "description": "Access OpenAI models and Codex through Oracle Cloud, using existing commitments to build and deploy AI with enterprise security and governance.",
+      "link": "https://openai.com/index/openai-on-oracle-cloud",
+      "date": "2026-06-10T20:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
     {
       "title": "DiffusionGemma: Googles offenes Sprachmodell generiert Text in Blöcken",
       "description": "Google veröffentlicht DiffusionGemma, ein 26-Milliarden-Parameter-Modell, das Text nicht Token für Token, sondern per Diffusion erzeugt, ähnlich wie Bild-KI aus Rauschen ein Bild zieht. Auf einer einz",
@@ -123,15 +132,6 @@
       "description": "How Notion uses Codex to one-shot specs, build AI Voice Input for the web, and multiply engineering power across small teams.",
       "link": "https://openai.com/index/notion",
       "date": "2026-06-09T10:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "Industrial policy for the Intelligence Age",
-      "description": "Explore our ambitious, people-first industrial policy ideas for the AI era—focused on expanding opportunity, sharing prosperity, and building resilient institutions as advanced intelligence evolves.",
-      "link": "https://openai.com/index/industrial-policy-for-the-intelligence-age",
-      "date": "2026-06-09T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
