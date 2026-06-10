@@ -1,6 +1,69 @@
 {
-  "lastUpdated": "2026-06-10T11:20:33.683Z",
+  "lastUpdated": "2026-06-10T20:58:24.431Z",
   "news": [
+    {
+      "title": "DiffusionGemma: Googles offenes Sprachmodell generiert Text in Blöcken",
+      "description": "Google veröffentlicht DiffusionGemma, ein 26-Milliarden-Parameter-Modell, das Text nicht Token für Token, sondern per Diffusion erzeugt, ähnlich wie Bild-KI aus Rauschen ein Bild zieht. Auf einer einz",
+      "link": "https://the-decoder.de/diffusiongemma-googles-offenes-sprachmodell-generiert-text-in-bloecken/",
+      "date": "2026-06-10T19:02:46.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Sam Altman bremst beim IPO: OpenAI könnte erst 2027 an die Börse gehen",
+      "description": "Sam Altman erwartet einen OpenAI-Börsengang \"innerhalb des nächsten Jahres\", hält sich aber ein Hintertürchen offen: Fortschritte bei sich selbst verbessernder KI könnten den IPO bis 2027 verzögern. I",
+      "link": "https://the-decoder.de/sam-altman-bremst-beim-ipo-openai-koennte-erst-2027-an-die-boerse-gehen/",
+      "date": "2026-06-10T18:13:00.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Anthropic-Studie zeigt: KI braucht nur Stunden statt Wochen, um aus einem Sicherheitspatch einen Angriff zu bauen",
+      "description": "Anthropics Sicherheitsteam zeigt, dass das KI-Modell Mythos Preview aus Sicherheitspatches innerhalb von Stunden funktionierende Exploits für Firefox und den Windows-Kernel erzeugen kann, für wenige t",
+      "link": "https://the-decoder.de/anthropic-studie-zeigt-ki-braucht-nur-stunden-statt-wochen-um-aus-einem-sicherheitspatch-einen-angriff-zu-bauen/",
+      "date": "2026-06-10T17:02:24.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "500-Milliarden-Projekt: OpenAI plant Mega-Rechenzentrum in Ohio mit Nvidia-Rückendeckung",
+      "description": "OpenAI verhandelt laut The Information über die Anmietung eines geplanten Rechenzentrums mit 10 Gigawatt Leistung in Ohio, das von Nvidia finanziell abgesichert werden könnte.\nDer Artikel 500-Milliard",
+      "link": "https://the-decoder.de/500-milliarden-projekt-openai-plant-mega-rechenzentrum-in-ohio-mit-nvidia-rueckendeckung/",
+      "date": "2026-06-10T13:53:48.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Claude Fable 5: Was das erste öffentliche \"Mythos\"-Modell kann und wo es scheitert",
+      "description": "Anthropic hat mit Claude Fable 5 das erste Modell seiner neuen Mythos-Klasse veröffentlicht. Es führt nahezu alle Benchmarks an, etwa SWE-bench Verified mit 95 Prozent, kostet aber mit 10 bzw. 50 Doll",
+      "link": "https://the-decoder.de/claude-fable-5-was-das-erste-oeffentliche-mythos-modell-kann-und-wo-es-scheitert/",
+      "date": "2026-06-10T12:49:40.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "PRC-linked influence operations are targeting AI debates in the US",
+      "description": "A new report from OpenAI details PRC-linked influence operations using AI to target U.S. tech debates, data center narratives, tariffs, and false claims  about ChatGPT.",
+      "link": "https://openai.com/index/prc-linked-influence-operations-ai-debates",
+      "date": "2026-06-10T12:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
+      "title": "Nationaler Sicherheitsrat beschließt Gründung eines deutschen KI-Sicherheitsinstituts",
+      "description": "Der Nationale Sicherheitsrat hat unter Vorsitz des Bundeskanzlers die Gründung eines KI-Sicherheitsinstituts beschlossen. Das \"DE-AISI\" soll nach britischem Vorbild Frontier-Modelle von Anthropic oder",
+      "link": "https://the-decoder.de/nationaler-sicherheitsrat-beschliesst-gruendung-eines-deutschen-ki-sicherheitsinstituts/",
+      "date": "2026-06-10T11:36:43.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Google NotebookLM bekommt Gemini 3.5 und agentische Fähigkeiten für komplexe Recherchen",
       "description": "Google rüstet NotebookLM umfassend auf: Das Recherche-Tool läuft jetzt auf Gemini 3.5, erhält einen eigenen Cloud-Computer für Code-Ausführung und kann eigenständig per Google Search Quellen finden. I",
@@ -47,24 +110,6 @@
       "language": "de"
     },
     {
-      "title": "Musk vor dem SpaceX-IPO: KI-Rechenzentren im Orbit sind \"kein besonders schwieriges Problem\"",
-      "description": "SpaceX will Rechenzentren ins All bringen – Elon Musk nennt das vor dem Börsengang ein \"nicht besonders schwieriges Problem\". Ein erster KI-Satellit soll die Leistung eines einzelnen Nvidia-GB300-Rack",
-      "link": "https://the-decoder.de/musk-vor-dem-spacex-ipo-ki-rechenzentren-im-orbit-sind-kein-besonders-schwieriges-problem/",
-      "date": "2026-06-09T15:00:18.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "China plant 295 Milliarden Dollar für landesweites KI-Rechenzentrumsnetz, Nvidia und AMD bleiben außen vor",
-      "description": "China plant laut Bloomberg in den nächsten fünf Jahren rund 295 Milliarden US-Dollar in ein landesweites KI-Rechenzentrumsnetz zu investieren – mindestens 80 Prozent der Technik soll von heimischen An",
-      "link": "https://the-decoder.de/china-plant-295-milliarden-dollar-fuer-landesweites-ki-rechenzentrumsnetz-nvidia-und-amd-bleiben-aussen-vor/",
-      "date": "2026-06-09T13:21:49.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "How engineers at Nextdoor use Codex to build without limits",
       "description": "How engineers at Nextdoor use Codex with GPT-5.5 to investigate hard-to-reproduce issues, build across platforms, and focus on product outcomes.",
       "link": "https://openai.com/index/nextdoor",
@@ -72,15 +117,6 @@
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
-    },
-    {
-      "title": "Deutsches Gericht rasiert Googles \"AI Overviews\": Google haftet für unwahre KI-Antworten",
-      "description": "Das Landgericht München I stuft Google als unmittelbaren Störer für Inhalte seiner KI-Suchübersichten ein: Die bisherige eingeschränkte Haftung für Suchmaschinenbetreiber sei nicht übertragbar. Die KI",
-      "link": "https://the-decoder.de/deutsches-gericht-rasiert-googles-ai-overviews-google-haftet-fuer-unwahre-ki-antworten/",
-      "date": "2026-06-09T11:57:53.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
     },
     {
       "title": "What Codex unlocks for Notion",
@@ -92,46 +128,10 @@
       "language": "en"
     },
     {
-      "title": "OpenAI macht ersten Schritt Richtung Börsengang, spricht aber von einer \"komplizierten Abwägung\"",
-      "description": "OpenAI hat vertraulich einen S-1-Antrag bei der SEC eingereicht und damit den ersten Schritt Richtung Börsengang gemacht. Einen konkreten Zeitplan gibt es nicht, das Unternehmen spricht von einer komp",
-      "link": "https://the-decoder.de/openai-macht-ersten-schritt-richtung-boersengang-spricht-aber-von-einer-komplizierten-abwaegung/",
-      "date": "2026-06-09T09:12:05.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "OpenAI: \"Alles vollständig zu automatisieren, ist nicht die Zukunft, die wir wollen\"",
-      "description": "OpenAI rückt vom Ziel einer vollautonomen KI-Forschung bis 2028 ab und spricht nun von einem \"Tandem\" zwischen Mensch und Maschine. Altman und Pachocki fordern zudem eine internationale Organisation,",
-      "link": "https://the-decoder.de/openai-alles-vollstaendig-zu-automatisieren-ist-nicht-die-zukunft-die-wir-wollen/",
-      "date": "2026-06-09T08:52:44.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "Industrial policy for the Intelligence Age",
       "description": "Explore our ambitious, people-first industrial policy ideas for the AI era—focused on expanding opportunity, sharing prosperity, and building resilient institutions as advanced intelligence evolves.",
       "link": "https://openai.com/index/industrial-policy-for-the-intelligence-age",
       "date": "2026-06-09T00:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "Confidential submission of draft S-1 to the SEC",
-      "description": "OpenAI confirms a confidential S-1 submission to the SEC and has not yet determined timing for further action.",
-      "link": "https://openai.com/index/openai-submits-confidential-s-1",
-      "date": "2026-06-08T14:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "Built to benefit everyone: our plan",
-      "description": "A vision for the future of AI, focusing on access, safety, and shared prosperity as OpenAI works to ensure AGI benefits everyone.",
-      "link": "https://openai.com/index/built-to-benefit-everyone-our-plan",
-      "date": "2026-06-08T01:30:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
