@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-06-10T09:22:21.424Z",
+  "lastUpdated": "2026-06-10T11:20:33.683Z",
   "news": [
+    {
+      "title": "Google NotebookLM bekommt Gemini 3.5 und agentische Fähigkeiten für komplexe Recherchen",
+      "description": "Google rüstet NotebookLM umfassend auf: Das Recherche-Tool läuft jetzt auf Gemini 3.5, erhält einen eigenen Cloud-Computer für Code-Ausführung und kann eigenständig per Google Search Quellen finden. I",
+      "link": "https://the-decoder.de/google-notebooklm-bekommt-gemini-3-5-und-agentische-faehigkeiten-fuer-komplexe-recherchen/",
+      "date": "2026-06-10T10:55:19.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Chefin der EU-Drogenagentur sieht KI als neuen Treiber des illegalen Drogenmarkts",
+      "description": "Die EU-Drogenagentur EUDA warnt: Europäische Kartelle nutzen zunehmend KI, um neue Vorläuferchemikalien zu designen, die bestehende Verbotslisten umgehen. \"Es ist auf der illegalen Seite genau dasselb",
+      "link": "https://the-decoder.de/chefin-der-eu-drogenagentur-sieht-ki-als-neuen-treiber-des-illegalen-drogenmarkts/",
+      "date": "2026-06-10T09:36:13.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "From data to decisions: how LSEG is scaling trusted AI",
       "description": "See how LSEG uses OpenAI to scale trusted AI across its global business, accelerating insights, shrinking release cycles, and empowering 4,000 employees.",
@@ -99,24 +117,6 @@
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
-    },
-    {
-      "title": "Microsoft Research zeigt mit Lens, wie sich Bildmodelle effizienter trainieren lassen",
-      "description": "Microsoft Research stellt mit Lens ein Text-zu-Bild-Modell mit nur 3,8 Milliarden Parametern vor. In Benchmarks schlägt es deutlich größere Konkurrenten mit 80 Milliarden Parametern, bei einem Fünftel",
-      "link": "https://the-decoder.de/microsoft-research-zeigt-mit-lens-wie-sich-bildmodelle-effizienter-trainieren-lassen/",
-      "date": "2026-06-08T17:42:40.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "TSMC am Limit: Google und Nvidia ziehen Intel als alternativen Chiphersteller in Betracht",
-      "description": "Google hat bei Intel die Fertigung von über drei Millionen KI-Chips für 2028 bestellt, auch Nvidia testet Intels Fertigungstechnik für seine kommende Feynman-Architektur. Der Grund: TSMC kommt mit der",
-      "link": "https://the-decoder.de/tsmc-am-limit-google-und-nvidia-ziehen-intel-als-alternativen-chiphersteller-in-betracht/",
-      "date": "2026-06-08T17:27:50.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
     },
     {
       "title": "Confidential submission of draft S-1 to the SEC",
