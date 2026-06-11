@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-06-11T05:41:50.750Z",
+  "lastUpdated": "2026-06-11T09:37:40.720Z",
   "news": [
+    {
+      "title": "Claude Fable 5: Anthropic gesteht \"falschen Kompromiss\" bei unsichtbarer Modell-Drosselung ein",
+      "description": "Anthropic rudert bei einer Maßnahme zurück, die KI-Forscher heimlich sabotiert hätte, doch ein zweiter Streitpunkt bleibt bestehen.\nDer Artikel Claude Fable 5: Anthropic gesteht \"falschen Kompromiss\"",
+      "link": "https://the-decoder.de/claude-fable-5-anthropic-gesteht-falschen-kompromiss-bei-unsichtbarer-modell-drosselung-ein/",
+      "date": "2026-06-11T08:06:54.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Supporting Europe’s work in ensuring a trustworthy AI ecosystem",
+      "description": "OpenAI supports the EU Code of Practice on AI content transparency, advancing provenance standards and tools to help people understand AI-generated content.",
+      "link": "https://openai.com/index/supporting-eu-trustworthy-ai-ecosystem",
+      "date": "2026-06-11T00:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
     {
       "title": "Access OpenAI models and Codex through your Oracle cloud commitment",
       "description": "Access OpenAI models and Codex through Oracle Cloud, using existing commitments to build and deploy AI with enterprise security and governance.",
@@ -110,28 +128,10 @@
       "language": "de"
     },
     {
-      "title": "Googles Gemini 3.5 Live Translate übersetzt Sprache in Echtzeit in mehr als 70 Sprachen",
-      "description": "Google veröffentlicht mit Gemini 3.5 Live Translate ein Audio-Modell für Echtzeit-Sprachübersetzung in über 70 Sprachen. Das System übersetzt fortlaufend, ohne auf Satzenden zu warten, und soll Tonfal",
-      "link": "https://the-decoder.de/googles-gemini-3-5-live-translate-uebersetzt-sprache-in-echtzeit-in-mehr-als-70-sprachen/",
-      "date": "2026-06-09T17:10:59.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "How engineers at Nextdoor use Codex to build without limits",
       "description": "How engineers at Nextdoor use Codex with GPT-5.5 to investigate hard-to-reproduce issues, build across platforms, and focus on product outcomes.",
       "link": "https://openai.com/index/nextdoor",
       "date": "2026-06-09T12:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "What Codex unlocks for Notion",
-      "description": "How Notion uses Codex to one-shot specs, build AI Voice Input for the web, and multiply engineering power across small teams.",
-      "link": "https://openai.com/index/notion",
-      "date": "2026-06-09T10:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
