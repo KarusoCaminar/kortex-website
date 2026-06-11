@@ -1,6 +1,51 @@
 {
-  "lastUpdated": "2026-06-11T11:37:40.812Z",
+  "lastUpdated": "2026-06-11T19:06:37.391Z",
   "news": [
+    {
+      "title": "Deutsches Gericht rasiert Googles \"AI Overviews\": Google haftet für unwahre KI-Antworten",
+      "description": "Das Landgericht München I stuft Google als unmittelbaren Störer für Inhalte seiner KI-Suchübersichten ein: Die bisherige eingeschränkte Haftung für Suchmaschinenbetreiber sei nicht übertragbar. Die KI",
+      "link": "https://the-decoder.de/deutsches-gericht-rasiert-googles-ai-overviews-google-haftet-fuer-unwahre-ki-antworten/",
+      "date": "2026-06-11T16:48:53.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Jeff Bezos' KI-Startup Prometheus sammelt 12 Milliarden Dollar ein",
+      "description": "Jeff Bezos' KI-Startup Prometheus schließt eine Finanzierungsrunde über 12 Milliarden Dollar ab bei einer Bewertung von 41 Milliarden Dollar. Erst im November war das Unternehmen mit 6,2 Milliarden St",
+      "link": "https://the-decoder.de/jeff-bezos-ki-startup-prometheus-sammelt-12-milliarden-dollar-ein/",
+      "date": "2026-06-11T16:24:20.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Kostenloses Deezer-Tool lässt Nutzer aller Streamingdienste ihre Playlists auf KI-Musik prüfen",
+      "description": "Deezer bietet ab sofort einen kostenlosen KI-Musik-Detektor an, mit dem Nutzer aller großen Streamingplattformen prüfen können, ob sich KI-generierte Songs in ihren Playlists verstecken.\nDer Artikel K",
+      "link": "https://the-decoder.de/kostenloses-deezer-tool-laesst-nutzer-aller-streamingdienste-ihre-playlists-auf-ki-musik-pruefen/",
+      "date": "2026-06-11T16:00:22.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Preiskampf zwischen OpenAI und Anthropic: Tokens könnten günstiger werden",
+      "description": "OpenAI erwägt drastische Preissenkungen im API-Segment, um im Wettbewerb mit Anthropic Kunden zu gewinnen, berichtet das Wall Street Journal.\nDer Artikel Preiskampf zwischen OpenAI und Anthropic: Toke",
+      "link": "https://the-decoder.de/preiskampf-zwischen-openai-und-anthropic-tokens-koennten-guenstiger-werden/",
+      "date": "2026-06-11T14:17:50.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Anthropic entwirft Sicherheitsregeln für KI und ein Bündnis, das Gegner technologisch aushungert",
+      "description": "Anthropic-CEO Dario Amodei fordert in einem Grundsatzessay verpflichtende Drittprüfungen für Frontier-KI-Modelle und vergleicht deren Bedrohungspotenzial mit Atomwaffen. Das begleitende Regulierungsfr",
+      "link": "https://the-decoder.de/anthropic-entwirft-sicherheitsregeln-fuer-ki-und-ein-buendnis-das-gegner-technologisch-aushungert/",
+      "date": "2026-06-11T11:39:10.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Claude Fable 5: Anthropic gesteht \"falschen Kompromiss\" bei unsichtbarer Modell-Drosselung ein",
       "description": "Anthropic rudert bei einer Maßnahme zurück, die KI-Forscher heimlich sabotiert hätte, doch ein zweiter Streitpunkt bleibt bestehen.\nDer Artikel Claude Fable 5: Anthropic gesteht \"falschen Kompromiss\"",
@@ -11,9 +56,27 @@
       "language": "de"
     },
     {
+      "title": "OpenAI to acquire Ona",
+      "description": "OpenAI plans to acquire Ona to expand Codex with secure, persistent cloud environments, enabling long-running AI agents across enterprise workflows.",
+      "link": "https://openai.com/index/openai-to-acquire-ona",
+      "date": "2026-06-11T00:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
       "title": "Supporting Europe’s work in ensuring a trustworthy AI ecosystem",
       "description": "OpenAI supports the EU Code of Practice on AI content transparency, advancing provenance standards and tools to help people understand AI-generated content.",
       "link": "https://openai.com/index/supporting-eu-trustworthy-ai-ecosystem",
+      "date": "2026-06-11T00:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
+      "title": "BBVA puts AI at the core of banking with OpenAI",
+      "description": "Learn how BBVA scaled ChatGPT Enterprise to 100,000 employees and partnered with OpenAI to accelerate AI-powered banking transformation worldwide.",
+      "link": "https://openai.com/index/bbva",
       "date": "2026-06-11T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
@@ -65,73 +128,10 @@
       "language": "de"
     },
     {
-      "title": "Claude Fable 5: Was das erste öffentliche \"Mythos\"-Modell kann und wo es scheitert",
-      "description": "Anthropic hat mit Claude Fable 5 das erste Modell seiner neuen Mythos-Klasse veröffentlicht. Es führt nahezu alle Benchmarks an, etwa SWE-bench Verified mit 95 Prozent, kostet aber mit 10 bzw. 50 Doll",
-      "link": "https://the-decoder.de/claude-fable-5-was-das-erste-oeffentliche-mythos-modell-kann-und-wo-es-scheitert/",
-      "date": "2026-06-10T12:49:40.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "PRC-linked influence operations are targeting AI debates in the US",
       "description": "A new report from OpenAI details PRC-linked influence operations using AI to target U.S. tech debates, data center narratives, tariffs, and false claims  about ChatGPT.",
       "link": "https://openai.com/index/prc-linked-influence-operations-ai-debates",
       "date": "2026-06-10T12:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "Nationaler Sicherheitsrat beschließt Gründung eines deutschen KI-Sicherheitsinstituts",
-      "description": "Der Nationale Sicherheitsrat hat unter Vorsitz des Bundeskanzlers die Gründung eines KI-Sicherheitsinstituts beschlossen. Das \"DE-AISI\" soll nach britischem Vorbild Frontier-Modelle von Anthropic oder",
-      "link": "https://the-decoder.de/nationaler-sicherheitsrat-beschliesst-gruendung-eines-deutschen-ki-sicherheitsinstituts/",
-      "date": "2026-06-10T11:36:43.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Google NotebookLM bekommt Gemini 3.5 und agentische Fähigkeiten für komplexe Recherchen",
-      "description": "Google rüstet NotebookLM umfassend auf: Das Recherche-Tool läuft jetzt auf Gemini 3.5, erhält einen eigenen Cloud-Computer für Code-Ausführung und kann eigenständig per Google Search Quellen finden. I",
-      "link": "https://the-decoder.de/google-notebooklm-bekommt-gemini-3-5-und-agentische-faehigkeiten-fuer-komplexe-recherchen/",
-      "date": "2026-06-10T10:55:19.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Chefin der EU-Drogenagentur sieht KI als neuen Treiber des illegalen Drogenmarkts",
-      "description": "Die EU-Drogenagentur EUDA warnt: Europäische Kartelle nutzen zunehmend KI, um neue Vorläuferchemikalien zu designen, die bestehende Verbotslisten umgehen. \"Es ist auf der illegalen Seite genau dasselb",
-      "link": "https://the-decoder.de/chefin-der-eu-drogenagentur-sieht-ki-als-neuen-treiber-des-illegalen-drogenmarkts/",
-      "date": "2026-06-10T09:36:13.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "From data to decisions: how LSEG is scaling trusted AI",
-      "description": "See how LSEG uses OpenAI to scale trusted AI across its global business, accelerating insights, shrinking release cycles, and empowering 4,000 employees.",
-      "link": "https://openai.com/index/lseg",
-      "date": "2026-06-10T00:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "Anthropic veröffentlicht Claude Fable 5 und Mythos 5 mit großem Sprung bei Coding und Wissenschaft",
-      "description": "Anthropic stellt mit Claude Fable 5 und Mythos 5 zwei neue Modelle vor, die die aktuelle Opus-Generation speziell bei Code und Forschung deutlich übertreffen sollen. Fable 5 erledigte für Stripe eine",
-      "link": "https://the-decoder.de/anthropic-veroeffentlicht-claude-fable-5-und-mythos-5-mit-grossem-sprung-bei-coding-und-wissenschaft/",
-      "date": "2026-06-09T18:01:19.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "How engineers at Nextdoor use Codex to build without limits",
-      "description": "How engineers at Nextdoor use Codex with GPT-5.5 to investigate hard-to-reproduce issues, build across platforms, and focus on product outcomes.",
-      "link": "https://openai.com/index/nextdoor",
-      "date": "2026-06-09T12:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
