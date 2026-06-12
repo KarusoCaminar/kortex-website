@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-06-12T07:47:05.744Z",
+  "lastUpdated": "2026-06-12T09:32:27.646Z",
   "news": [
+    {
+      "title": "How Preply combines AI and human tutors to personalize learning",
+      "description": "Preply uses OpenAI to launch AI-generated lesson summaries, providing personalised feedback and language learning exercises.",
+      "link": "https://openai.com/index/preply",
+      "date": "2026-06-12T00:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
     {
       "title": "Deutsches Gericht rasiert Googles \"AI Overviews\": Google haftet für unwahre KI-Antworten",
       "description": "Das Landgericht München I stuft Google als unmittelbaren Störer für Inhalte seiner KI-Suchübersichten ein: Die bisherige eingeschränkte Haftung für Suchmaschinenbetreiber sei nicht übertragbar. Die KI",
@@ -56,6 +65,15 @@
       "language": "de"
     },
     {
+      "title": "Supporting Europe’s work in ensuring a trustworthy AI ecosystem",
+      "description": "OpenAI supports the EU Code of Practice on AI content transparency, advancing provenance standards and tools to help people understand AI-generated content.",
+      "link": "https://openai.com/index/supporting-eu-trustworthy-ai-ecosystem",
+      "date": "2026-06-11T00:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
       "title": "BBVA puts AI at the core of banking with OpenAI",
       "description": "Learn how BBVA scaled ChatGPT Enterprise to 100,000 employees and partnered with OpenAI to accelerate AI-powered banking transformation worldwide.",
       "link": "https://openai.com/index/bbva",
@@ -68,15 +86,6 @@
       "title": "OpenAI to acquire Ona",
       "description": "OpenAI plans to acquire Ona to expand Codex with secure, persistent cloud environments, enabling long-running AI agents across enterprise workflows.",
       "link": "https://openai.com/index/openai-to-acquire-ona",
-      "date": "2026-06-11T00:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "Supporting Europe’s work in ensuring a trustworthy AI ecosystem",
-      "description": "OpenAI supports the EU Code of Practice on AI content transparency, advancing provenance standards and tools to help people understand AI-generated content.",
-      "link": "https://openai.com/index/supporting-eu-trustworthy-ai-ecosystem",
       "date": "2026-06-11T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
@@ -126,15 +135,6 @@
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
-    },
-    {
-      "title": "PRC-linked influence operations are targeting AI debates in the US",
-      "description": "A new report from OpenAI details PRC-linked influence operations using AI to target U.S. tech debates, data center narratives, tariffs, and false claims  about ChatGPT.",
-      "link": "https://openai.com/index/prc-linked-influence-operations-ai-debates",
-      "date": "2026-06-10T12:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
     }
   ]
 }
