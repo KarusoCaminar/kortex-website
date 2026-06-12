@@ -1,6 +1,33 @@
 {
-  "lastUpdated": "2026-06-12T11:21:51.304Z",
+  "lastUpdated": "2026-06-12T17:05:50.507Z",
   "news": [
+    {
+      "title": "Anthropic Claude Fable 5: 100 Prozent mehr Kosten für 5 Prozent mehr Leistung",
+      "description": "Claude Fable 5 setzt sich mit 64,9 Punkten an die Spitze des Artificial Analysis Intelligence Index und erzielt in fünf von zehn Benchmarks neue Bestwerte. Der Leistungssprung gegenüber Opus 4.8 beträ",
+      "link": "https://the-decoder.de/anthropic-claude-fable-5-100-prozent-mehr-kosten-fuer-5-prozent-mehr-leistung/",
+      "date": "2026-06-12T16:01:34.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Mistral AI verhandelt über 3 Milliarden Euro bei 20-Milliarden-Bewertung",
+      "description": "Das französische KI-Startup Mistral AI verhandelt über eine neue Finanzierungsrunde von rund 3 Milliarden Euro bei einer Bewertung von etwa 20 Milliarden Euro.\nDer Artikel Mistral AI verhandelt über 3",
+      "link": "https://the-decoder.de/mistral-ai-verhandelt-ueber-3-milliarden-euro-bei-20-milliarden-bewertung/",
+      "date": "2026-06-12T13:48:31.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Google verklagt erstmals chinesisches Netzwerk wegen KI-Scams, OpenAI bannt PRC-Konten",
+      "description": "Google klagt gemeinsam mit dem FBI gegen ein chinesisches Cybercrime-Netzwerk, das Gemini für massenhaften Finanzbetrug nutzte – 2,5 Millionen Nachrichten in zwei Wochen. Parallel sperrte OpenAI zwei",
+      "link": "https://the-decoder.de/google-verklagt-erstmals-chinesisches-netzwerk-wegen-ki-scams-openai-bannt-prc-konten/",
+      "date": "2026-06-12T13:48:02.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Das Plattformdilemma der KI-Branche: Modellhersteller konkurrieren mehr und mehr mit eigenen Kunden",
       "description": "Anthropic drosselt sein neues Mythos-Modell für bestimmte Aufgaben und baut gleichzeitig eigene Anwendungen, die direkte Konkurrenten seiner größten Kunden sind. Kunden, Partner und Investoren äußern",
@@ -18,6 +45,15 @@
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
+    },
+    {
+      "title": "New OpenAI Academy courses for the next era of work",
+      "description": "OpenAI introduces three Academy courses that help people build practical AI skills, create repeatable workflows, and apply agents in everyday work.",
+      "link": "https://openai.com/index/academy-courses-applying-ai-at-work",
+      "date": "2026-06-12T10:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
     },
     {
       "title": "How Preply combines AI and human tutors to personalize learning",
@@ -74,27 +110,9 @@
       "language": "de"
     },
     {
-      "title": "Claude Fable 5: Anthropic gesteht \"falschen Kompromiss\" bei unsichtbarer Modell-Drosselung ein",
-      "description": "Anthropic rudert bei einer Maßnahme zurück, die KI-Forscher heimlich sabotiert hätte, doch ein zweiter Streitpunkt bleibt bestehen.\nDer Artikel Claude Fable 5: Anthropic gesteht \"falschen Kompromiss\"",
-      "link": "https://the-decoder.de/claude-fable-5-anthropic-gesteht-falschen-kompromiss-bei-unsichtbarer-modell-drosselung-ein/",
-      "date": "2026-06-11T08:06:54.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "Supporting Europe’s work in ensuring a trustworthy AI ecosystem",
       "description": "OpenAI supports the EU Code of Practice on AI content transparency, advancing provenance standards and tools to help people understand AI-generated content.",
       "link": "https://openai.com/index/supporting-eu-trustworthy-ai-ecosystem",
-      "date": "2026-06-11T00:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "OpenAI to acquire Ona",
-      "description": "OpenAI plans to acquire Ona to expand Codex with secure, persistent cloud environments, enabling long-running AI agents across enterprise workflows.",
-      "link": "https://openai.com/index/openai-to-acquire-ona",
       "date": "2026-06-11T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
@@ -110,31 +128,13 @@
       "language": "en"
     },
     {
-      "title": "Access OpenAI models and Codex through your Oracle cloud commitment",
-      "description": "Access OpenAI models and Codex through Oracle Cloud, using existing commitments to build and deploy AI with enterprise security and governance.",
-      "link": "https://openai.com/index/openai-on-oracle-cloud",
-      "date": "2026-06-10T20:00:00.000Z",
+      "title": "OpenAI to acquire Ona",
+      "description": "OpenAI plans to acquire Ona to expand Codex with secure, persistent cloud environments, enabling long-running AI agents across enterprise workflows.",
+      "link": "https://openai.com/index/openai-to-acquire-ona",
+      "date": "2026-06-11T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
-    },
-    {
-      "title": "DiffusionGemma: Googles offenes Sprachmodell generiert Text in Blöcken",
-      "description": "Google veröffentlicht DiffusionGemma, ein 26-Milliarden-Parameter-Modell, das Text nicht Token für Token, sondern per Diffusion erzeugt, ähnlich wie Bild-KI aus Rauschen ein Bild zieht. Auf einer einz",
-      "link": "https://the-decoder.de/diffusiongemma-googles-offenes-sprachmodell-generiert-text-in-bloecken/",
-      "date": "2026-06-10T19:02:46.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Sam Altman bremst beim IPO: OpenAI könnte erst 2027 an die Börse gehen",
-      "description": "Sam Altman erwartet einen OpenAI-Börsengang \"innerhalb des nächsten Jahres\", hält sich aber ein Hintertürchen offen: Fortschritte bei sich selbst verbessernder KI könnten den IPO bis 2027 verzögern. I",
-      "link": "https://the-decoder.de/sam-altman-bremst-beim-ipo-openai-koennte-erst-2027-an-die-boerse-gehen/",
-      "date": "2026-06-10T18:13:00.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
     }
   ]
 }
