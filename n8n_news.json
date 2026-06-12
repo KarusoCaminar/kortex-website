@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-06-12T09:32:27.646Z",
+  "lastUpdated": "2026-06-12T11:21:51.304Z",
   "news": [
+    {
+      "title": "Das Plattformdilemma der KI-Branche: Modellhersteller konkurrieren mehr und mehr mit eigenen Kunden",
+      "description": "Anthropic drosselt sein neues Mythos-Modell für bestimmte Aufgaben und baut gleichzeitig eigene Anwendungen, die direkte Konkurrenten seiner größten Kunden sind. Kunden, Partner und Investoren äußern",
+      "link": "https://the-decoder.de/das-plattformdilemma-der-ki-branche-modellhersteller-konkurrieren-mehr-und-mehr-mit-eigenen-kunden/",
+      "date": "2026-06-12T11:07:14.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "OpenAI kauft deutsches KI-Startup Ona, damit Codex-Agenten auch bei geschlossenem Laptop weitercoden",
+      "description": "OpenAI übernimmt Ona, vormals Gitpod, ein 2020 in Kiel gegründetes Startup für KI-Agenten und sichere Cloud-Entwicklungsumgebungen in der Softwareentwicklung.\nDer Artikel OpenAI kauft deutsches KI-Sta",
+      "link": "https://the-decoder.de/openai-kauft-deutsches-ki-startup-ona-damit-codex-agenten-auch-bei-geschlossenem-laptop-weitercoden/",
+      "date": "2026-06-12T10:13:55.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "How Preply combines AI and human tutors to personalize learning",
       "description": "Preply uses OpenAI to launch AI-generated lesson summaries, providing personalised feedback and language learning exercises.",
@@ -74,18 +92,18 @@
       "language": "en"
     },
     {
-      "title": "BBVA puts AI at the core of banking with OpenAI",
-      "description": "Learn how BBVA scaled ChatGPT Enterprise to 100,000 employees and partnered with OpenAI to accelerate AI-powered banking transformation worldwide.",
-      "link": "https://openai.com/index/bbva",
+      "title": "OpenAI to acquire Ona",
+      "description": "OpenAI plans to acquire Ona to expand Codex with secure, persistent cloud environments, enabling long-running AI agents across enterprise workflows.",
+      "link": "https://openai.com/index/openai-to-acquire-ona",
       "date": "2026-06-11T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
     },
     {
-      "title": "OpenAI to acquire Ona",
-      "description": "OpenAI plans to acquire Ona to expand Codex with secure, persistent cloud environments, enabling long-running AI agents across enterprise workflows.",
-      "link": "https://openai.com/index/openai-to-acquire-ona",
+      "title": "BBVA puts AI at the core of banking with OpenAI",
+      "description": "Learn how BBVA scaled ChatGPT Enterprise to 100,000 employees and partnered with OpenAI to accelerate AI-powered banking transformation worldwide.",
+      "link": "https://openai.com/index/bbva",
       "date": "2026-06-11T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
@@ -114,24 +132,6 @@
       "description": "Sam Altman erwartet einen OpenAI-Börsengang \"innerhalb des nächsten Jahres\", hält sich aber ein Hintertürchen offen: Fortschritte bei sich selbst verbessernder KI könnten den IPO bis 2027 verzögern. I",
       "link": "https://the-decoder.de/sam-altman-bremst-beim-ipo-openai-koennte-erst-2027-an-die-boerse-gehen/",
       "date": "2026-06-10T18:13:00.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Anthropic-Studie zeigt: KI braucht nur Stunden statt Wochen, um aus einem Sicherheitspatch einen Angriff zu bauen",
-      "description": "Anthropics Sicherheitsteam zeigt, dass das KI-Modell Mythos Preview aus Sicherheitspatches innerhalb von Stunden funktionierende Exploits für Firefox und den Windows-Kernel erzeugen kann, für wenige t",
-      "link": "https://the-decoder.de/anthropic-studie-zeigt-ki-braucht-nur-stunden-statt-wochen-um-aus-einem-sicherheitspatch-einen-angriff-zu-bauen/",
-      "date": "2026-06-10T17:02:24.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "500-Milliarden-Projekt: OpenAI plant Mega-Rechenzentrum in Ohio mit Nvidia-Rückendeckung",
-      "description": "OpenAI verhandelt laut The Information über die Anmietung eines geplanten Rechenzentrums mit 10 Gigawatt Leistung in Ohio, das von Nvidia finanziell abgesichert werden könnte.\nDer Artikel 500-Milliard",
-      "link": "https://the-decoder.de/500-milliarden-projekt-openai-plant-mega-rechenzentrum-in-ohio-mit-nvidia-rueckendeckung/",
-      "date": "2026-06-10T13:53:48.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
