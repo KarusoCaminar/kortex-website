@@ -1,6 +1,42 @@
 {
-  "lastUpdated": "2026-06-12T17:05:50.507Z",
+  "lastUpdated": "2026-06-12T18:47:34.229Z",
   "news": [
+    {
+      "title": "Mehrzahl der US-Bürger hat Angst, den Job und das Gehirn an KI zu verlieren",
+      "description": "Anthropic hat fast 52.000 US-Amerikaner zu ihren KI-Hoffnungen und -Ängsten befragt. 64 Prozent fürchten Jobverluste, 56 Prozent sorgen sich vor kognitiver Abhängigkeit; doch wer KI täglich nutzt, ist",
+      "link": "https://the-decoder.de/mehrzahl-der-us-buerger-hat-angst-den-job-und-das-gehirn-an-ki-zu-verlieren/",
+      "date": "2026-06-12T18:14:26.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Research into how AI can help users understand skin conditions",
+      "description": "Health & Bioscience",
+      "link": "https://research.google/blog/research-into-how-ai-can-help-users-understand-skin-conditions/",
+      "date": "2026-06-12T17:52:00.000Z",
+      "source": "Google AI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
+      "title": "A low-carbon computing platform from your retired phones",
+      "description": "Climate & Sustainability",
+      "link": "https://research.google/blog/a-low-carbon-computing-platform-from-your-retired-phones/",
+      "date": "2026-06-12T17:37:00.000Z",
+      "source": "Google AI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
+      "title": "OpenAI eröffnet die KI-Preiskämpfe mit flexiblen Rate-Limit-Resets für Codex",
+      "description": "OpenAI lässt Codex-Nutzer ihre Rate-Limit-Resets jetzt aufsparen und gezielt einlösen, statt sie automatisch verfallen zu lassen. Nutzer der Tarife Go, Plus, Pro und Business erhalten jeweils einen ko",
+      "link": "https://the-decoder.de/openai-eroeffnet-die-ki-preiskaempfe-mit-flexiblen-rate-limit-resets-fuer-codex/",
+      "date": "2026-06-12T17:26:23.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Anthropic Claude Fable 5: 100 Prozent mehr Kosten für 5 Prozent mehr Leistung",
       "description": "Claude Fable 5 setzt sich mit 64,9 Punkten an die Spitze des Artificial Analysis Intelligence Index und erzielt in fünf von zehn Benchmarks neue Bestwerte. Der Leistungssprung gegenüber Opus 4.8 beträ",
@@ -90,42 +126,6 @@
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
-    },
-    {
-      "title": "Preiskampf zwischen OpenAI und Anthropic: Tokens könnten günstiger werden",
-      "description": "OpenAI erwägt drastische Preissenkungen im API-Segment, um im Wettbewerb mit Anthropic Kunden zu gewinnen, berichtet das Wall Street Journal.\nDer Artikel Preiskampf zwischen OpenAI und Anthropic: Toke",
-      "link": "https://the-decoder.de/preiskampf-zwischen-openai-und-anthropic-tokens-koennten-guenstiger-werden/",
-      "date": "2026-06-11T14:17:50.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Anthropic entwirft Sicherheitsregeln für KI und ein Bündnis, das Gegner technologisch aushungert",
-      "description": "Anthropic-CEO Dario Amodei fordert in einem Grundsatzessay verpflichtende Drittprüfungen für Frontier-KI-Modelle und vergleicht deren Bedrohungspotenzial mit Atomwaffen. Das begleitende Regulierungsfr",
-      "link": "https://the-decoder.de/anthropic-entwirft-sicherheitsregeln-fuer-ki-und-ein-buendnis-das-gegner-technologisch-aushungert/",
-      "date": "2026-06-11T11:39:10.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Supporting Europe’s work in ensuring a trustworthy AI ecosystem",
-      "description": "OpenAI supports the EU Code of Practice on AI content transparency, advancing provenance standards and tools to help people understand AI-generated content.",
-      "link": "https://openai.com/index/supporting-eu-trustworthy-ai-ecosystem",
-      "date": "2026-06-11T00:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "BBVA puts AI at the core of banking with OpenAI",
-      "description": "Learn how BBVA scaled ChatGPT Enterprise to 100,000 employees and partnered with OpenAI to accelerate AI-powered banking transformation worldwide.",
-      "link": "https://openai.com/index/bbva",
-      "date": "2026-06-11T00:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
     },
     {
       "title": "OpenAI to acquire Ona",
