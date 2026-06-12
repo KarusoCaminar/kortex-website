@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-12T01:09:18.249Z",
+  "lastUpdated": "2026-06-12T05:40:59.523Z",
   "news": [
     {
       "title": "Deutsches Gericht rasiert Googles \"AI Overviews\": Google haftet für unwahre KI-Antworten",
@@ -56,6 +56,15 @@
       "language": "de"
     },
     {
+      "title": "BBVA puts AI at the core of banking with OpenAI",
+      "description": "Learn how BBVA scaled ChatGPT Enterprise to 100,000 employees and partnered with OpenAI to accelerate AI-powered banking transformation worldwide.",
+      "link": "https://openai.com/index/bbva",
+      "date": "2026-06-11T00:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
       "title": "OpenAI to acquire Ona",
       "description": "OpenAI plans to acquire Ona to expand Codex with secure, persistent cloud environments, enabling long-running AI agents across enterprise workflows.",
       "link": "https://openai.com/index/openai-to-acquire-ona",
@@ -68,15 +77,6 @@
       "title": "Supporting Europe’s work in ensuring a trustworthy AI ecosystem",
       "description": "OpenAI supports the EU Code of Practice on AI content transparency, advancing provenance standards and tools to help people understand AI-generated content.",
       "link": "https://openai.com/index/supporting-eu-trustworthy-ai-ecosystem",
-      "date": "2026-06-11T00:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "BBVA puts AI at the core of banking with OpenAI",
-      "description": "Learn how BBVA scaled ChatGPT Enterprise to 100,000 employees and partnered with OpenAI to accelerate AI-powered banking transformation worldwide.",
-      "link": "https://openai.com/index/bbva",
       "date": "2026-06-11T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
