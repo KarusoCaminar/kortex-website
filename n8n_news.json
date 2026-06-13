@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-06-13T09:10:59.656Z",
+  "lastUpdated": "2026-06-13T10:52:33.931Z",
   "news": [
+    {
+      "title": "Anthropic setzt mit Fable 5 neue Bestmarke im Mathematik-Benchmark FrontierMath",
+      "description": "Anthropics Claude Fable 5 erreicht 88 % Genauigkeit auf der schwierigsten Stufe des FrontierMath-Benchmarks, ein massiver Sprung gegenüber dem Vorgänger Opus 4.5, der Anfang 2026 noch unter 10 % lag.",
+      "link": "https://the-decoder.de/anthropic-setzt-mit-fable-5-neue-bestmarke-im-mathematik-benchmark-frontiermath/",
+      "date": "2026-06-13T10:10:26.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Nach \"Tokenmaxxing\"-Exzessen: Meta führt KI-Budgets und zentrale Dashboards für Mitarbeiter ein",
+      "description": "Meta steuert laut einem internen Memo an 6000 Mitarbeiter auf Milliardenkosten allein durch interne KI-Nutzung zu und zieht die Bremse. Ab 2027 sollen Budgets, Zuteilungen und ein zentrales Dashboard",
+      "link": "https://the-decoder.de/nach-tokenmaxxing-exzessen-meta-fuehrt-ki-budgets-und-zentrale-dashboards-fuer-mitarbeiter-ein/",
+      "date": "2026-06-13T09:37:28.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Kimi K2.7 Code: Neues offenes Modell will mit Kampfpreisen gegen OpenAI und Anthropic punkten",
       "description": "Moonshot AI veröffentlicht Kimi K2.7 Code, ein auf Programmierung spezialisiertes Open-Source-Modell mit einer Billion Parametern. In Coding-Benchmarks liegt es noch hinter GPT-5.5 und Claude Opus 4.8",
@@ -92,15 +110,6 @@
       "language": "de"
     },
     {
-      "title": "OpenAI kauft deutsches KI-Startup Ona, damit Codex-Agenten auch bei geschlossenem Laptop weitercoden",
-      "description": "OpenAI übernimmt Ona, vormals Gitpod, ein 2020 in Kiel gegründetes Startup für KI-Agenten und sichere Cloud-Entwicklungsumgebungen in der Softwareentwicklung.\nDer Artikel OpenAI kauft deutsches KI-Sta",
-      "link": "https://the-decoder.de/openai-kauft-deutsches-ki-startup-ona-damit-codex-agenten-auch-bei-geschlossenem-laptop-weitercoden/",
-      "date": "2026-06-12T10:13:55.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "New OpenAI Academy courses for the next era of work",
       "description": "OpenAI introduces three Academy courses that help people build practical AI skills, create repeatable workflows, and apply agents in everyday work.",
       "link": "https://openai.com/index/academy-courses-applying-ai-at-work",
@@ -117,15 +126,6 @@
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
-    },
-    {
-      "title": "Deutsches Gericht rasiert Googles \"AI Overviews\": Google haftet für unwahre KI-Antworten",
-      "description": "Das Landgericht München I stuft Google als unmittelbaren Störer für Inhalte seiner KI-Suchübersichten ein: Die bisherige eingeschränkte Haftung für Suchmaschinenbetreiber sei nicht übertragbar. Die KI",
-      "link": "https://the-decoder.de/deutsches-gericht-rasiert-googles-ai-overviews-google-haftet-fuer-unwahre-ki-antworten/",
-      "date": "2026-06-11T16:48:53.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
     },
     {
       "title": "Supporting Europe’s work in ensuring a trustworthy AI ecosystem",
