@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-06-13T10:52:33.931Z",
+  "lastUpdated": "2026-06-13T12:44:48.583Z",
   "news": [
+    {
+      "title": "Googles Gemini-SQL2 übersetzt natürliche Sprache in SQL-Abfragen",
+      "description": "Google Research hat mit Gemini-SQL2 eine Funktion vorgestellt, die natürliche Sprache in ausführbare SQL-Datenbankabfragen übersetzt. Das auf Gemini 3.1 Pro basierende System führt derzeit einschlägig",
+      "link": "https://the-decoder.de/googles-gemini-sql2-uebersetzt-natuerliche-sprache-in-sql-abfragen/",
+      "date": "2026-06-13T12:29:11.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Microsoft-Forscher trainieren KI-Agenten wie neuronale Netze, ohne Gewichte zu ändern",
+      "description": "Microsoft und drei chinesische Universitäten stellen mit SkillOpt eine Methode vor, die Handlungsanleitungen für KI-Agenten nach dem Vorbild klassischen Modelltrainings optimiert. Eine simple Markdown",
+      "link": "https://the-decoder.de/microsoft-forscher-trainieren-ki-agenten-wie-neuronale-netze-ohne-gewichte-zu-aendern/",
+      "date": "2026-06-13T12:04:39.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Anthropic setzt mit Fable 5 neue Bestmarke im Mathematik-Benchmark FrontierMath",
       "description": "Anthropics Claude Fable 5 erreicht 88 % Genauigkeit auf der schwierigsten Stufe des FrontierMath-Benchmarks, ein massiver Sprung gegenüber dem Vorgänger Opus 4.5, der Anfang 2026 noch unter 10 % lag.",
@@ -87,24 +105,6 @@
       "description": "Das französische KI-Startup Mistral AI verhandelt über eine neue Finanzierungsrunde von rund 3 Milliarden Euro bei einer Bewertung von etwa 20 Milliarden Euro.\nDer Artikel Mistral AI verhandelt über 3",
       "link": "https://the-decoder.de/mistral-ai-verhandelt-ueber-3-milliarden-euro-bei-20-milliarden-bewertung/",
       "date": "2026-06-12T13:48:31.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Google verklagt erstmals chinesisches Netzwerk wegen KI-Scams, OpenAI bannt PRC-Konten",
-      "description": "Google klagt gemeinsam mit dem FBI gegen ein chinesisches Cybercrime-Netzwerk, das Gemini für massenhaften Finanzbetrug nutzte – 2,5 Millionen Nachrichten in zwei Wochen. Parallel sperrte OpenAI zwei",
-      "link": "https://the-decoder.de/google-verklagt-erstmals-chinesisches-netzwerk-wegen-ki-scams-openai-bannt-prc-konten/",
-      "date": "2026-06-12T13:48:02.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Das Plattformdilemma der KI-Branche: Modellhersteller konkurrieren mehr und mehr mit eigenen Kunden",
-      "description": "Anthropic drosselt sein neues Mythos-Modell für bestimmte Aufgaben und baut gleichzeitig eigene Anwendungen, die direkte Konkurrenten seiner größten Kunden sind. Kunden, Partner und Investoren äußern",
-      "link": "https://the-decoder.de/das-plattformdilemma-der-ki-branche-modellhersteller-konkurrieren-mehr-und-mehr-mit-eigenen-kunden/",
-      "date": "2026-06-12T11:07:14.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
