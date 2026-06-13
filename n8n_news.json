@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-12T22:36:53.552Z",
+  "lastUpdated": "2026-06-13T01:07:38.174Z",
   "news": [
     {
       "title": "Mehrzahl der US-Bürger hat Angst, den Job und das Gehirn an KI zu verlieren",
@@ -128,9 +128,9 @@
       "language": "de"
     },
     {
-      "title": "OpenAI to acquire Ona",
-      "description": "OpenAI plans to acquire Ona to expand Codex with secure, persistent cloud environments, enabling long-running AI agents across enterprise workflows.",
-      "link": "https://openai.com/index/openai-to-acquire-ona",
+      "title": "Supporting Europe’s work in ensuring a trustworthy AI ecosystem",
+      "description": "OpenAI supports the EU Code of Practice on AI content transparency, advancing provenance standards and tools to help people understand AI-generated content.",
+      "link": "https://openai.com/index/supporting-eu-trustworthy-ai-ecosystem",
       "date": "2026-06-11T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
