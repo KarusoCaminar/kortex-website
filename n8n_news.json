@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-06-14T05:40:48.311Z",
+  "lastUpdated": "2026-06-14T07:44:32.935Z",
   "news": [
+    {
+      "title": "KI-Coding-Agenten finden die richtige Datei, aber nicht die richtige Zeile",
+      "description": "Der Benchmark SWE-Explore eines internationalen Forschungsteams prüft erstmals isoliert, wie gut KI-Coding-Agenten relevanten Code finden, getrennt von der eigentlichen Reparatur. Agenten wie Claude C",
+      "link": "https://the-decoder.de/ki-coding-agenten-finden-die-richtige-datei-aber-nicht-die-richtige-zeile/",
+      "date": "2026-06-14T07:07:47.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "KI-Modell \"Count Anything\" löst ein Problem, an dem multimodale KI-Modelle bisher scheitern",
       "description": "\"Count Anything\" soll als erstes KI-Modell per Texteingabe Objekte in beliebigen Bildtypen zählen können, von Menschenmengen bis zu Zellproben unter dem Mikroskop. Im Vergleichstest halbiert es die Fe",
@@ -90,15 +99,6 @@
       "source": "Google AI",
       "category": "große-modelle",
       "language": "en"
-    },
-    {
-      "title": "OpenAI eröffnet die KI-Preiskämpfe mit flexiblen Rate-Limit-Resets für Codex",
-      "description": "OpenAI lässt Codex-Nutzer ihre Rate-Limit-Resets jetzt aufsparen und gezielt einlösen, statt sie automatisch verfallen zu lassen. Nutzer der Tarife Go, Plus, Pro und Business erhalten jeweils einen ko",
-      "link": "https://the-decoder.de/openai-eroeffnet-die-ki-preiskaempfe-mit-flexiblen-rate-limit-resets-fuer-codex/",
-      "date": "2026-06-12T17:26:23.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
     },
     {
       "title": "New OpenAI Academy courses for the next era of work",
