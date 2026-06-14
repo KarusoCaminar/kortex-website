@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-06-14T09:12:18.312Z",
+  "lastUpdated": "2026-06-14T12:47:43.802Z",
   "news": [
+    {
+      "title": "Mirage zeigt, wie Video-KI ein räumliches Langzeitgedächtnis bekommt",
+      "description": "Mirage, ein von Microsoft Research und mehreren Universitäten entwickeltes Video-Weltmodell, speichert Szeneninformationen direkt im latenten Raum statt in pixelbasierten Punktwolken. Das spart massiv",
+      "link": "https://the-decoder.de/mirage-zeigt-wie-video-ki-ein-raeumliches-langzeitgedaechtnis-bekommt/",
+      "date": "2026-06-14T09:51:17.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Blamage für KPMG: Bericht über KI in Unternehmen enthielt erfundene Fallstudien",
+      "description": "KPMG hat einen Bericht über KI in Unternehmen veröffentlicht, der erfundene KI-Fallstudien zu UBS, NHS und anderen Organisationen enthielt. Der an der Analyse beteiligte GPTZero-Chef Edward Tian warnt",
+      "link": "https://the-decoder.de/blamage-fuer-kpmg-bericht-ueber-ki-in-unternehmen-enthielt-erfundene-fallstudien/",
+      "date": "2026-06-14T09:33:37.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Fable-5-Verbot: Angeblich warnte Amazon die US-Regierung vor Anthropics KI-Modell",
       "description": "Amazon-CEO Andy Jassy und andere Tech-Unternehmen hatten offenbar die Trump-Regierung auf Sicherheitslücken in Anthropics Fable-Modell hingewiesen, obwohl Amazon einer der größten Investoren von Anthr",
@@ -60,24 +78,6 @@
       "description": "Meta steuert laut einem internen Memo an 6000 Mitarbeiter auf Milliardenkosten allein durch interne KI-Nutzung zu und zieht die Bremse. Ab 2027 sollen Budgets, Zuteilungen und ein zentrales Dashboard",
       "link": "https://the-decoder.de/nach-tokenmaxxing-exzessen-meta-fuehrt-ki-budgets-und-zentrale-dashboards-fuer-mitarbeiter-ein/",
       "date": "2026-06-13T09:37:28.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Kimi K2.7 Code: Neues offenes Modell will mit Kampfpreisen gegen OpenAI und Anthropic punkten",
-      "description": "Moonshot AI veröffentlicht Kimi K2.7 Code, ein auf Programmierung spezialisiertes Open-Source-Modell mit einer Billion Parametern. In Coding-Benchmarks liegt es noch hinter GPT-5.5 und Claude Opus 4.8",
-      "link": "https://the-decoder.de/kimi-k2-7-code-neues-offenes-modell-will-mit-kampfpreisen-gegen-openai-und-anthropic-punkten/",
-      "date": "2026-06-13T08:20:41.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Auf Anweisung der US-Regierung: Anthropic sperrt Fable 5 und Mythos 5 weltweit",
-      "description": "Die US-Regierung hat Anthropic angewiesen, den weltweiten Zugang zu Fable 5 und Mythos 5 wegen angeblicher Jailbreak-Risiken zu sperren. Anthropic befolgt die Anordnung, widerspricht aber öffentlich:",
-      "link": "https://the-decoder.de/auf-anweisung-der-us-regierung-anthropic-sperrt-fable-5-und-mythos-5-weltweit/",
-      "date": "2026-06-13T07:18:44.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
