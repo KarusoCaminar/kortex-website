@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-06-14T07:44:32.935Z",
+  "lastUpdated": "2026-06-14T09:12:18.312Z",
   "news": [
+    {
+      "title": "Fable-5-Verbot: Angeblich warnte Amazon die US-Regierung vor Anthropics KI-Modell",
+      "description": "Amazon-CEO Andy Jassy und andere Tech-Unternehmen hatten offenbar die Trump-Regierung auf Sicherheitslücken in Anthropics Fable-Modell hingewiesen, obwohl Amazon einer der größten Investoren von Anthr",
+      "link": "https://the-decoder.de/fable-5-verbot-angeblich-warnte-amazon-die-us-regierung-vor-anthropics-ki-modell/",
+      "date": "2026-06-14T08:11:02.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "KI-Coding-Agenten finden die richtige Datei, aber nicht die richtige Zeile",
       "description": "Der Benchmark SWE-Explore eines internationalen Forschungsteams prüft erstmals isoliert, wie gut KI-Coding-Agenten relevanten Code finden, getrennt von der eigentlichen Reparatur. Agenten wie Claude C",
@@ -69,15 +78,6 @@
       "description": "Die US-Regierung hat Anthropic angewiesen, den weltweiten Zugang zu Fable 5 und Mythos 5 wegen angeblicher Jailbreak-Risiken zu sperren. Anthropic befolgt die Anordnung, widerspricht aber öffentlich:",
       "link": "https://the-decoder.de/auf-anweisung-der-us-regierung-anthropic-sperrt-fable-5-und-mythos-5-weltweit/",
       "date": "2026-06-13T07:18:44.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Mehrzahl der US-Bürger hat Angst, den Job und das Gehirn an KI zu verlieren",
-      "description": "Anthropic hat fast 52.000 US-Amerikaner zu ihren KI-Hoffnungen und -Ängsten befragt. 64 Prozent fürchten Jobverluste, 56 Prozent sorgen sich vor kognitiver Abhängigkeit; doch wer KI täglich nutzt, ist",
-      "link": "https://the-decoder.de/mehrzahl-der-us-buerger-hat-angst-den-job-und-das-gehirn-an-ki-zu-verlieren/",
-      "date": "2026-06-12T18:14:26.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
