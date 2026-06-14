@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-06-14T12:47:43.802Z",
+  "lastUpdated": "2026-06-14T14:50:18.305Z",
   "news": [
+    {
+      "title": "Google Cloud will mit offenem Markdown-Format das Kontextproblem von KI-Agenten lösen",
+      "description": "Google Cloud will mit dem Open Knowledge Format (OKF) das verstreute Wissen in Organisationen für KI-Agenten nutzbar machen. Die minimalistische Spezifikation standardisiert Wissen als Markdown-Dateie",
+      "link": "https://the-decoder.de/google-cloud-will-mit-offenem-markdown-format-das-kontextproblem-von-ki-agenten-loesen/",
+      "date": "2026-06-14T13:20:52.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Mirage zeigt, wie Video-KI ein räumliches Langzeitgedächtnis bekommt",
       "description": "Mirage, ein von Microsoft Research und mehreren Universitäten entwickeltes Video-Weltmodell, speichert Szeneninformationen direkt im latenten Raum statt in pixelbasierten Punktwolken. Das spart massiv",
@@ -74,15 +83,6 @@
       "language": "de"
     },
     {
-      "title": "Nach \"Tokenmaxxing\"-Exzessen: Meta führt KI-Budgets und zentrale Dashboards für Mitarbeiter ein",
-      "description": "Meta steuert laut einem internen Memo an 6000 Mitarbeiter auf Milliardenkosten allein durch interne KI-Nutzung zu und zieht die Bremse. Ab 2027 sollen Budgets, Zuteilungen und ein zentrales Dashboard",
-      "link": "https://the-decoder.de/nach-tokenmaxxing-exzessen-meta-fuehrt-ki-budgets-und-zentrale-dashboards-fuer-mitarbeiter-ein/",
-      "date": "2026-06-13T09:37:28.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "Research into how AI can help users understand skin conditions",
       "description": "Health & Bioscience",
       "link": "https://research.google/blog/research-into-how-ai-can-help-users-understand-skin-conditions/",
@@ -119,18 +119,18 @@
       "language": "en"
     },
     {
-      "title": "Supporting Europe’s work in ensuring a trustworthy AI ecosystem",
-      "description": "OpenAI supports the EU Code of Practice on AI content transparency, advancing provenance standards and tools to help people understand AI-generated content.",
-      "link": "https://openai.com/index/supporting-eu-trustworthy-ai-ecosystem",
+      "title": "OpenAI to acquire Ona",
+      "description": "OpenAI plans to acquire Ona to expand Codex with secure, persistent cloud environments, enabling long-running AI agents across enterprise workflows.",
+      "link": "https://openai.com/index/openai-to-acquire-ona",
       "date": "2026-06-11T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
     },
     {
-      "title": "BBVA puts AI at the core of banking with OpenAI",
-      "description": "Learn how BBVA scaled ChatGPT Enterprise to 100,000 employees and partnered with OpenAI to accelerate AI-powered banking transformation worldwide.",
-      "link": "https://openai.com/index/bbva",
+      "title": "Supporting Europe’s work in ensuring a trustworthy AI ecosystem",
+      "description": "OpenAI supports the EU Code of Practice on AI content transparency, advancing provenance standards and tools to help people understand AI-generated content.",
+      "link": "https://openai.com/index/supporting-eu-trustworthy-ai-ecosystem",
       "date": "2026-06-11T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
