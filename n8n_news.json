@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-06-15T16:01:44.020Z",
+  "lastUpdated": "2026-06-15T19:24:58.390Z",
   "news": [
+    {
+      "title": "\"Sie haben uns über den Tisch gezogen\": US-Regierung und Anthropic streiten über KI-Kontrolle",
+      "description": "Regierungsvertreter werfen Anthropic vor, Trumps Cyber-Verfügung übergangen und Fable 5 ohne explizite Freigabe veröffentlicht zu haben. \"Sie haben uns über den Tisch gezogen\", heißt es. Gespräche mit",
+      "link": "https://the-decoder.de/sie-haben-uns-ueber-den-tisch-gezogen-us-regierung-und-anthropic-streiten-ueber-ki-kontrolle/",
+      "date": "2026-06-15T17:39:33.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "KI-Boom treibt Schuldenwelle: Nvidia nimmt mindestens 20 Milliarden Dollar auf",
       "description": "Nvidia will mit seinem ersten Anleihenverkauf seit 2021 mindestens 20 Milliarden Dollar einnehmen, berichtet Bloomberg unter Berufung auf Personen mit direkter Kenntnis der Sache.\nDer Artikel KI-Boom",
@@ -87,15 +96,6 @@
       "description": "Der Benchmark SWE-Explore eines internationalen Forschungsteams prüft erstmals isoliert, wie gut KI-Coding-Agenten relevanten Code finden, getrennt von der eigentlichen Reparatur. Agenten wie Claude C",
       "link": "https://the-decoder.de/ki-coding-agenten-finden-die-richtige-datei-aber-nicht-die-richtige-zeile/",
       "date": "2026-06-14T07:07:47.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "KI-Modell \"Count Anything\" löst ein Problem, an dem multimodale KI-Modelle bisher scheitern",
-      "description": "\"Count Anything\" soll als erstes KI-Modell per Texteingabe Objekte in beliebigen Bildtypen zählen können, von Menschenmengen bis zu Zellproben unter dem Mikroskop. Im Vergleichstest halbiert es die Fe",
-      "link": "https://the-decoder.de/ki-modell-count-anything-loest-ein-problem-an-dem-multimodale-ki-modelle-bisher-scheitern/",
-      "date": "2026-06-13T16:42:19.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
