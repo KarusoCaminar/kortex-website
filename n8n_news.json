@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-06-15T05:55:31.305Z",
+  "lastUpdated": "2026-06-15T12:05:51.895Z",
   "news": [
+    {
+      "title": "EU prüft Folgen der Anthropic-Sperre, Forscher fordern \"Airbus-Moment\" für KI",
+      "description": "Die EU-Kommission prüft die Folgen der US-Anordnung, die Anthropic zur weltweiten Abschaltung von Fable 5 und Mythos 5 zwang. Europäische Forscher streiten über die richtige Antwort: eigene Foundation",
+      "link": "https://the-decoder.de/eu-prueft-folgen-der-anthropic-sperre-forscher-fordern-airbus-moment-fuer-ki/",
+      "date": "2026-06-15T09:35:07.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Microsoft-CEO Satya Nadella warnt: Wenige KI-Modelle könnten den Wert ganzer Branchen absorbieren",
+      "description": "Microsoft-CEO Satya Nadella fordert Unternehmen auf, neben Humankapital auch \"Token-Kapital\" aufzubauen, eigene KI-Fähigkeiten mit internen Daten und firmeneigenen Lernschleifen. Ohne solche Kontrolle",
+      "link": "https://the-decoder.de/microsoft-ceo-satya-nadella-warnt-wenige-ki-modelle-koennten-den-wert-ganzer-branchen-absorbieren/",
+      "date": "2026-06-15T08:22:14.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Introducing the OpenAI Partner Network",
       "description": "OpenAI launches the Partner Network, investing $150M to help global partners accelerate enterprise AI adoption, deployment, and transformation.",
@@ -69,24 +87,6 @@
       "description": "Google Research hat mit Gemini-SQL2 eine Funktion vorgestellt, die natürliche Sprache in ausführbare SQL-Datenbankabfragen übersetzt. Das auf Gemini 3.1 Pro basierende System führt derzeit einschlägig",
       "link": "https://the-decoder.de/googles-gemini-sql2-uebersetzt-natuerliche-sprache-in-sql-abfragen/",
       "date": "2026-06-13T12:29:11.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Microsoft-Forscher trainieren KI-Agenten wie neuronale Netze, ohne Gewichte zu ändern",
-      "description": "Microsoft und drei chinesische Universitäten stellen mit SkillOpt eine Methode vor, die Handlungsanleitungen für KI-Agenten nach dem Vorbild klassischen Modelltrainings optimiert. Eine simple Markdown",
-      "link": "https://the-decoder.de/microsoft-forscher-trainieren-ki-agenten-wie-neuronale-netze-ohne-gewichte-zu-aendern/",
-      "date": "2026-06-13T12:04:39.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Anthropic setzt mit Fable 5 neue Bestmarke im Mathematik-Benchmark FrontierMath",
-      "description": "Anthropics Claude Fable 5 erreicht 88 % Genauigkeit auf der schwierigsten Stufe des FrontierMath-Benchmarks, ein massiver Sprung gegenüber dem Vorgänger Opus 4.5, der Anfang 2026 noch unter 10 % lag.",
-      "link": "https://the-decoder.de/anthropic-setzt-mit-fable-5-neue-bestmarke-im-mathematik-benchmark-frontiermath/",
-      "date": "2026-06-13T10:10:26.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
