@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-06-14T22:30:33.693Z",
+  "lastUpdated": "2026-06-15T03:18:23.452Z",
   "news": [
+    {
+      "title": "Introducing the OpenAI Partner Network",
+      "description": "OpenAI launches the Partner Network, investing $150M to help global partners accelerate enterprise AI adoption, deployment, and transformation.",
+      "link": "https://openai.com/index/introducing-openai-partner-network",
+      "date": "2026-06-14T17:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
     {
       "title": "Google Cloud will mit offenem Markdown-Format das Kontextproblem von KI-Agenten lösen",
       "description": "Google Cloud will mit dem Open Knowledge Format (OKF) das verstreute Wissen in Organisationen für KI-Agenten nutzbar machen. Die minimalistische Spezifikation standardisiert Wissen als Markdown-Dateie",
@@ -122,15 +131,6 @@
       "title": "Supporting Europe’s work in ensuring a trustworthy AI ecosystem",
       "description": "OpenAI supports the EU Code of Practice on AI content transparency, advancing provenance standards and tools to help people understand AI-generated content.",
       "link": "https://openai.com/index/supporting-eu-trustworthy-ai-ecosystem",
-      "date": "2026-06-11T00:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "BBVA puts AI at the core of banking with OpenAI",
-      "description": "Learn how BBVA scaled ChatGPT Enterprise to 100,000 employees and partnered with OpenAI to accelerate AI-powered banking transformation worldwide.",
-      "link": "https://openai.com/index/bbva",
       "date": "2026-06-11T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
