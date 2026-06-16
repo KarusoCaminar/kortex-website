@@ -1,6 +1,51 @@
 {
-  "lastUpdated": "2026-06-16T01:14:19.474Z",
+  "lastUpdated": "2026-06-16T13:57:08.875Z",
   "news": [
+    {
+      "title": "US-Justizministerium will Klage gegen xAIs ungenehmigte Gasturbinen mit Sicherheitsargument stoppen",
+      "description": "Das US-Justizministerium stuft xAIs Chatbot Grok als unverzichtbar für militärische Operationen ein und verteidigt damit dessen umstrittene Gasturbinen.\nDer Artikel US-Justizministerium will Klage geg",
+      "link": "https://the-decoder.de/us-justizministerium-will-klage-gegen-xais-ungenehmigte-gasturbinen-mit-sicherheitsargument-stoppen/",
+      "date": "2026-06-16T13:02:33.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Wie gut widerstehen KI-Modelle russischer Propaganda? Ein neuer Benchmark liefert Antworten",
+      "description": "Das estnische Sprachinstitut hat einen Benchmark veröffentlicht, der misst, wie anfällig KI-Sprachmodelle für russische Propaganda sind.\nDer Artikel Wie gut widerstehen KI-Modelle russischer Propagand",
+      "link": "https://the-decoder.de/wie-gut-widerstehen-ki-modelle-russischer-propaganda-ein-neuer-benchmark-liefert-antworten/",
+      "date": "2026-06-16T11:28:13.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "DeepSeek jetzt über 50 Milliarden Dollar wert, aber Investoren haben kein Stimmrecht",
+      "description": "Das chinesische KI-Startup DeepSeek hat in seiner ersten externen Finanzierungsrunde mehr als 50 Milliarden Yuan, rund 7,4 Milliarden Dollar, eingesammelt.\nDer Artikel DeepSeek jetzt über 50 Milliarde",
+      "link": "https://the-decoder.de/deepseek-jetzt-ueber-50-milliarden-dollar-wert-aber-investoren-haben-kein-stimmrecht/",
+      "date": "2026-06-16T09:40:48.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Anthropic rudert bei Claude-Abrechnung zurück und lässt Drittanbieter-Nutzung vorerst im Abo",
+      "description": "Anthropic stoppt die geplante Abrechnungsumstellung für das Claude Agent SDK kurz vor dem Start. Statt separater Guthaben ziehen SDK und Drittanbieter-Apps weiterhin aus den regulären Abo-Limits. Der",
+      "link": "https://the-decoder.de/anthropic-rudert-bei-claude-abrechnung-zurueck-und-laesst-drittanbieter-nutzung-vorerst-im-abo/",
+      "date": "2026-06-16T09:12:48.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "OpenAI hatte 2025 Ausgaben von 34 Milliarden Dollar bei 13 Milliarden Umsatz",
+      "description": "OpenAI hat im vergangenen Jahr 34 Milliarden Dollar ausgegeben und damit deutlich mehr als noch im Vorjahr.\nDer Artikel OpenAI hatte 2025 Ausgaben von 34 Milliarden Dollar bei 13 Milliarden Umsatz ers",
+      "link": "https://the-decoder.de/openai-hatte-2025-ausgaben-von-34-milliarden-dollar-bei-13-milliarden-umsatz/",
+      "date": "2026-06-16T08:10:39.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "\"Sie haben uns über den Tisch gezogen\": US-Regierung und Anthropic streiten über KI-Kontrolle",
       "description": "Regierungsvertreter werfen Anthropic vor, Trumps Cyber-Verfügung übergangen und Fable 5 ohne explizite Freigabe veröffentlicht zu haben. \"Sie haben uns über den Tisch gezogen\", heißt es. Gespräche mit",
@@ -54,51 +99,6 @@
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
-    },
-    {
-      "title": "Google Cloud will mit offenem Markdown-Format das Kontextproblem von KI-Agenten lösen",
-      "description": "Google Cloud will mit dem Open Knowledge Format (OKF) das verstreute Wissen in Organisationen für KI-Agenten nutzbar machen. Die minimalistische Spezifikation standardisiert Wissen als Markdown-Dateie",
-      "link": "https://the-decoder.de/google-cloud-will-mit-offenem-markdown-format-das-kontextproblem-von-ki-agenten-loesen/",
-      "date": "2026-06-14T13:20:52.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Mirage zeigt, wie Video-KI ein räumliches Langzeitgedächtnis bekommt",
-      "description": "Mirage, ein von Microsoft Research und mehreren Universitäten entwickeltes Video-Weltmodell, speichert Szeneninformationen direkt im latenten Raum statt in pixelbasierten Punktwolken. Das spart massiv",
-      "link": "https://the-decoder.de/mirage-zeigt-wie-video-ki-ein-raeumliches-langzeitgedaechtnis-bekommt/",
-      "date": "2026-06-14T09:51:17.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Blamage für KPMG: Bericht über KI in Unternehmen enthielt erfundene Fallstudien",
-      "description": "KPMG hat einen Bericht über KI in Unternehmen veröffentlicht, der erfundene KI-Fallstudien zu UBS, NHS und anderen Organisationen enthielt. Der an der Analyse beteiligte GPTZero-Chef Edward Tian warnt",
-      "link": "https://the-decoder.de/blamage-fuer-kpmg-bericht-ueber-ki-in-unternehmen-enthielt-erfundene-fallstudien/",
-      "date": "2026-06-14T09:33:37.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Fable-5-Verbot: Angeblich warnte Amazon die US-Regierung vor Anthropics KI-Modell",
-      "description": "Amazon-CEO Andy Jassy und andere Tech-Unternehmen hatten offenbar die Trump-Regierung auf Sicherheitslücken in Anthropics Fable-Modell hingewiesen, obwohl Amazon einer der größten Investoren von Anthr",
-      "link": "https://the-decoder.de/fable-5-verbot-angeblich-warnte-amazon-die-us-regierung-vor-anthropics-ki-modell/",
-      "date": "2026-06-14T08:11:02.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "KI-Coding-Agenten finden die richtige Datei, aber nicht die richtige Zeile",
-      "description": "Der Benchmark SWE-Explore eines internationalen Forschungsteams prüft erstmals isoliert, wie gut KI-Coding-Agenten relevanten Code finden, getrennt von der eigentlichen Reparatur. Agenten wie Claude C",
-      "link": "https://the-decoder.de/ki-coding-agenten-finden-die-richtige-datei-aber-nicht-die-richtige-zeile/",
-      "date": "2026-06-14T07:07:47.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
     },
     {
       "title": "Research into how AI can help users understand skin conditions",
