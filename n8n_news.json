@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-06-16T19:18:19.055Z",
+  "lastUpdated": "2026-06-16T22:41:47.278Z",
   "news": [
+    {
+      "title": "Microsofts Copilot Cowork wird nach Nutzung abgerechnet und könnte Deepseek nutzen",
+      "description": "Microsoft erwägt, eine angepasste Version von DeepSeek V4 als günstigere Alternative in seinem KI-Tool Copilot Cowork anzubieten. Gleichzeitig stellt das Unternehmen auf verbrauchsbasierte Abrechnung",
+      "link": "https://the-decoder.de/microsofts-copilot-cowork-wird-nach-nutzung-abgerechnet-und-koennte-deepseek-nutzen/",
+      "date": "2026-06-16T19:18:38.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Berliner Gericht stuft Googles KI-Antworten nur als neues Suchergebnisformat ein",
       "description": "Ein Berliner Gericht stuft Googles KI-Übersichten lediglich als \"neues Suchergebnisformat\" ein: Google habe keinen bestimmenden Einfluss auf die Inhalte. Ein Parfumkonzern hatte geklagt, weil die KI-S",
@@ -74,6 +83,15 @@
       "language": "de"
     },
     {
+      "title": "Predicting model behavior before release by simulating deployment",
+      "description": "OpenAI introduces Deployment Simulation, a method to predict AI model behavior before deployment using real conversation data to improve safety and evaluation accuracy.",
+      "link": "https://openai.com/index/deployment-simulation",
+      "date": "2026-06-16T00:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
       "title": "\"Sie haben uns über den Tisch gezogen\": US-Regierung und Anthropic streiten über KI-Kontrolle",
       "description": "Regierungsvertreter werfen Anthropic vor, Trumps Cyber-Verfügung übergangen und Fable 5 ohne explizite Freigabe veröffentlicht zu haben. \"Sie haben uns über den Tisch gezogen\", heißt es. Gespräche mit",
       "link": "https://the-decoder.de/sie-haben-uns-ueber-den-tisch-gezogen-us-regierung-und-anthropic-streiten-ueber-ki-kontrolle/",
@@ -87,15 +105,6 @@
       "description": "Nvidia will mit seinem ersten Anleihenverkauf seit 2021 mindestens 20 Milliarden Dollar einnehmen, berichtet Bloomberg unter Berufung auf Personen mit direkter Kenntnis der Sache.\nDer Artikel KI-Boom",
       "link": "https://the-decoder.de/ki-boom-treibt-schuldenwelle-nvidia-nimmt-mindestens-20-milliarden-dollar-auf/",
       "date": "2026-06-15T15:24:04.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "AR-Scans aus Pokémon Go fließen in räumliche KI-Modelle für das Militär",
-      "description": "Freiwillige AR-Scans von Pokémon-Go-Spielern flossen in Niantics räumliche KI-Modelle. Diese Technik wird nun mit einem US-Rüstungsdienstleister für GPS-unabhängige Navigation kombiniert.\nDer Artikel",
-      "link": "https://the-decoder.de/ar-scans-aus-pokemon-go-fliessen-in-raeumliche-ki-modelle-fuer-das-militaer/",
-      "date": "2026-06-15T12:48:50.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
@@ -124,15 +133,6 @@
       "link": "https://research.google/blog/a-low-carbon-computing-platform-from-your-retired-phones/",
       "date": "2026-06-12T17:37:00.000Z",
       "source": "Google AI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "New OpenAI Academy courses for the next era of work",
-      "description": "OpenAI introduces three Academy courses that help people build practical AI skills, create repeatable workflows, and apply agents in everyday work.",
-      "link": "https://openai.com/index/academy-courses-applying-ai-at-work",
-      "date": "2026-06-12T10:00:00.000Z",
-      "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
     }
