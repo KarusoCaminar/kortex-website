@@ -1,11 +1,20 @@
 {
-  "lastUpdated": "2026-06-16T17:45:55.447Z",
+  "lastUpdated": "2026-06-16T19:18:19.055Z",
   "news": [
+    {
+      "title": "Berliner Gericht stuft Googles KI-Antworten nur als neues Suchergebnisformat ein",
+      "description": "Ein Berliner Gericht stuft Googles KI-Übersichten lediglich als \"neues Suchergebnisformat\" ein: Google habe keinen bestimmenden Einfluss auf die Inhalte. Ein Parfumkonzern hatte geklagt, weil die KI-S",
+      "link": "https://the-decoder.de/wann-wird-aus-einer-suchmaschine-ein-eigenstaendig-aeussernder-akteur/",
+      "date": "2026-06-16T17:46:40.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "From pixels to planning: Earth AI for nature restoration",
       "description": "Climate & Sustainability",
       "link": "https://research.google/blog/from-pixels-to-planning-earth-ai-for-nature-restoration/",
-      "date": "2026-06-16T17:30:14.000Z",
+      "date": "2026-06-16T17:30:00.000Z",
       "source": "Google AI",
       "category": "große-modelle",
       "language": "en"
@@ -87,15 +96,6 @@
       "description": "Freiwillige AR-Scans von Pokémon-Go-Spielern flossen in Niantics räumliche KI-Modelle. Diese Technik wird nun mit einem US-Rüstungsdienstleister für GPS-unabhängige Navigation kombiniert.\nDer Artikel",
       "link": "https://the-decoder.de/ar-scans-aus-pokemon-go-fliessen-in-raeumliche-ki-modelle-fuer-das-militaer/",
       "date": "2026-06-15T12:48:50.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "EU prüft Folgen der Anthropic-Sperre, Forscher fordern \"Airbus-Moment\" für KI",
-      "description": "Die EU-Kommission prüft die Folgen der US-Anordnung, die Anthropic zur weltweiten Abschaltung von Fable 5 und Mythos 5 zwang. Europäische Forscher streiten über die richtige Antwort: eigene Foundation",
-      "link": "https://the-decoder.de/eu-prueft-folgen-der-anthropic-sperre-forscher-fordern-airbus-moment-fuer-ki/",
-      "date": "2026-06-15T09:35:07.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
