@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-06-17T17:07:50.337Z",
+  "lastUpdated": "2026-06-17T18:57:28.325Z",
   "news": [
+    {
+      "title": "Amazon, Nvidia und AMD investieren 310 Millionen Dollar in KI-Start-up für Weltmodelle",
+      "description": "Amazon, Nvidia und AMD investieren gemeinsam 310 Millionen Dollar in das Weltmodell-Start-up Odyssey ML, das nun mit 1,45 Milliarden Dollar bewertet wird. Auch der CIA-nahe Fonds IQT und Google-Chefwi",
+      "link": "https://the-decoder.de/amazon-nvidia-und-amd-investieren-310-millionen-dollar-in-ki-start-up-fuer-weltmodelle/",
+      "date": "2026-06-17T18:18:23.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Nvidia-Forschung zeigt Roboterflotte, die sich selbst neue Handgriffe beibringt",
       "description": "Nvidia, Carnegie Mellon und UC Berkeley lassen KI-Coding-Agenten Robotern eigenständig das Greifen beibringen – ganz ohne menschliches Eingreifen im Trainingsprozess. Eine Flotte aus acht Robotern err",
@@ -27,6 +36,15 @@
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
+    },
+    {
+      "title": "A near-autonomous AI chemist improves a challenging reaction in medicinal chemistry",
+      "description": "OpenAI and Molecule.one show how a near-autonomous AI chemist using GPT-5.4 improved a key drug-making reaction, advancing medicinal chemistry research.",
+      "link": "https://openai.com/index/ai-chemist-improves-reaction",
+      "date": "2026-06-17T10:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
     },
     {
       "title": "Deployment Simulation: OpenAIs Methode gegen unrealistische KI-Sicherheitstests",
@@ -78,24 +96,6 @@
       "description": "Das US-Justizministerium stuft xAIs Chatbot Grok als unverzichtbar für militärische Operationen ein und verteidigt damit dessen umstrittene Gasturbinen.\nDer Artikel US-Justizministerium will Klage geg",
       "link": "https://the-decoder.de/us-justizministerium-will-klage-gegen-xais-ungenehmigte-gasturbinen-mit-sicherheitsargument-stoppen/",
       "date": "2026-06-16T13:02:33.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Wie gut widerstehen KI-Modelle russischer Propaganda? Ein neuer Benchmark liefert Antworten",
-      "description": "Das estnische Sprachinstitut hat einen Benchmark veröffentlicht, der misst, wie anfällig KI-Sprachmodelle für russische Propaganda sind.\nDer Artikel Wie gut widerstehen KI-Modelle russischer Propagand",
-      "link": "https://the-decoder.de/wie-gut-widerstehen-ki-modelle-russischer-propaganda-ein-neuer-benchmark-liefert-antworten/",
-      "date": "2026-06-16T11:28:13.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "DeepSeek jetzt über 50 Milliarden Dollar wert, aber Investoren haben kein Stimmrecht",
-      "description": "Das chinesische KI-Startup DeepSeek hat in seiner ersten externen Finanzierungsrunde mehr als 50 Milliarden Yuan, rund 7,4 Milliarden Dollar, eingesammelt.\nDer Artikel DeepSeek jetzt über 50 Milliarde",
-      "link": "https://the-decoder.de/deepseek-jetzt-ueber-50-milliarden-dollar-wert-aber-investoren-haben-kein-stimmrecht/",
-      "date": "2026-06-16T09:40:48.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
