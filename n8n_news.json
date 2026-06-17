@@ -1,6 +1,42 @@
 {
-  "lastUpdated": "2026-06-17T05:46:25.638Z",
+  "lastUpdated": "2026-06-17T15:09:47.662Z",
   "news": [
+    {
+      "title": "Nvidia-Forschung zeigt Roboterflotte, die sich selbst neue Handgriffe beibringt",
+      "description": "Nvidia, Carnegie Mellon und UC Berkeley lassen KI-Coding-Agenten Robotern eigenständig das Greifen beibringen – ganz ohne menschliches Eingreifen im Trainingsprozess. Eine Flotte aus acht Robotern err",
+      "link": "https://the-decoder.de/nvidia-forschung-zeigt-roboterflotte-die-sich-selbst-neue-handgriffe-beibringt/",
+      "date": "2026-06-17T14:07:28.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Zhipu AIs GLM-5.2 schließt bei Coding-Marathons zur Closed-Source-Spitze auf",
+      "description": "Zhipu AI veröffentlicht GLM-5.2 als Open-Source-Modell mit 1-Million-Token-Kontext unter MIT-Lizenz. Auf dem FrontierSWE-Benchmark für stundenlange Programmieraufgaben trennt das Modell nur ein Prozen",
+      "link": "https://the-decoder.de/zhipu-ais-glm-5-2-schliesst-bei-coding-marathons-zur-closed-source-spitze-auf/",
+      "date": "2026-06-17T11:07:00.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Analyse: Hyperscaler könnten KI-Ausbau bald nicht mehr aus dem laufenden Geschäft finanzieren",
+      "description": "Microsoft, Amazon, Alphabet, Meta und Oracle investieren laut einer Epoch-AI-Analyse rund 70 Prozent mehr pro Jahr in KI-Infrastruktur, während ihre operativen Einnahmen nur um 23 Prozent wachsen. Häl",
+      "link": "https://the-decoder.de/analyse-hyperscaler-koennten-ki-ausbau-bald-nicht-mehr-aus-dem-laufenden-geschaeft-finanzieren/",
+      "date": "2026-06-17T10:44:41.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Deployment Simulation: OpenAIs Methode gegen unrealistische KI-Sicherheitstests",
+      "description": "OpenAI-Forscher stellen mit „Deployment Simulation\" eine Methode vor, die anhand echter, anonymisierter Nutzergespräche vorhersagt, wie oft ein neues Modell nach Release Fehler macht. Bei GPT-5.4 sagt",
+      "link": "https://the-decoder.de/deployment-simulation-openais-methode-gegen-unrealistische-ki-sicherheitstests/",
+      "date": "2026-06-17T09:37:22.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Microsofts Copilot Cowork wird nach Nutzung abgerechnet und könnte Deepseek nutzen",
       "description": "Microsoft erwägt, eine angepasste Version von DeepSeek V4 als günstigere Alternative in seinem KI-Tool Copilot Cowork anzubieten. Gleichzeitig stellt das Unternehmen auf verbrauchsbasierte Abrechnung",
@@ -65,24 +101,6 @@
       "language": "de"
     },
     {
-      "title": "Anthropic rudert bei Claude-Abrechnung zurück und lässt Drittanbieter-Nutzung vorerst im Abo",
-      "description": "Anthropic stoppt die geplante Abrechnungsumstellung für das Claude Agent SDK kurz vor dem Start. Statt separater Guthaben ziehen SDK und Drittanbieter-Apps weiterhin aus den regulären Abo-Limits. Der",
-      "link": "https://the-decoder.de/anthropic-rudert-bei-claude-abrechnung-zurueck-und-laesst-drittanbieter-nutzung-vorerst-im-abo/",
-      "date": "2026-06-16T09:12:48.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "OpenAI hatte 2025 Ausgaben von 34 Milliarden Dollar bei 13 Milliarden Umsatz",
-      "description": "OpenAI hat im vergangenen Jahr 34 Milliarden Dollar ausgegeben und damit deutlich mehr als noch im Vorjahr.\nDer Artikel OpenAI hatte 2025 Ausgaben von 34 Milliarden Dollar bei 13 Milliarden Umsatz ers",
-      "link": "https://the-decoder.de/openai-hatte-2025-ausgaben-von-34-milliarden-dollar-bei-13-milliarden-umsatz/",
-      "date": "2026-06-16T08:10:39.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "Predicting model behavior before release by simulating deployment",
       "description": "OpenAI introduces Deployment Simulation, a method to predict AI model behavior before deployment using real conversation data to improve safety and evaluation accuracy.",
       "link": "https://openai.com/index/deployment-simulation",
@@ -90,24 +108,6 @@
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
-    },
-    {
-      "title": "\"Sie haben uns über den Tisch gezogen\": US-Regierung und Anthropic streiten über KI-Kontrolle",
-      "description": "Regierungsvertreter werfen Anthropic vor, Trumps Cyber-Verfügung übergangen und Fable 5 ohne explizite Freigabe veröffentlicht zu haben. \"Sie haben uns über den Tisch gezogen\", heißt es. Gespräche mit",
-      "link": "https://the-decoder.de/sie-haben-uns-ueber-den-tisch-gezogen-us-regierung-und-anthropic-streiten-ueber-ki-kontrolle/",
-      "date": "2026-06-15T17:39:33.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "KI-Boom treibt Schuldenwelle: Nvidia nimmt mindestens 20 Milliarden Dollar auf",
-      "description": "Nvidia will mit seinem ersten Anleihenverkauf seit 2021 mindestens 20 Milliarden Dollar einnehmen, berichtet Bloomberg unter Berufung auf Personen mit direkter Kenntnis der Sache.\nDer Artikel KI-Boom",
-      "link": "https://the-decoder.de/ki-boom-treibt-schuldenwelle-nvidia-nimmt-mindestens-20-milliarden-dollar-auf/",
-      "date": "2026-06-15T15:24:04.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
     },
     {
       "title": "Introducing the OpenAI Partner Network",
