@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-17T18:57:28.325Z",
+  "lastUpdated": "2026-06-17T22:37:52.402Z",
   "news": [
     {
       "title": "Amazon, Nvidia und AMD investieren 310 Millionen Dollar in KI-Start-up für Weltmodelle",
@@ -54,6 +54,15 @@
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
+    },
+    {
+      "title": "Introducing LifeSciBench",
+      "description": "Introducing LifeSciBench, an expert-authored, expert-reviewed benchmark for evaluating how AI systems handle real-world life science research tasks and decisions.",
+      "link": "https://openai.com/index/introducing-life-sci-bench",
+      "date": "2026-06-17T00:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
     },
     {
       "title": "Microsofts Copilot Cowork wird nach Nutzung abgerechnet und könnte Deepseek nutzen",
@@ -123,15 +132,6 @@
       "description": "Health & Bioscience",
       "link": "https://research.google/blog/research-into-how-ai-can-help-users-understand-skin-conditions/",
       "date": "2026-06-12T17:52:00.000Z",
-      "source": "Google AI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "A low-carbon computing platform from your retired phones",
-      "description": "Climate & Sustainability",
-      "link": "https://research.google/blog/a-low-carbon-computing-platform-from-your-retired-phones/",
-      "date": "2026-06-12T17:37:00.000Z",
       "source": "Google AI",
       "category": "große-modelle",
       "language": "en"
