@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-06-18T01:07:19.594Z",
+  "lastUpdated": "2026-06-18T07:51:36.990Z",
   "news": [
+    {
+      "title": "Google verliert Gemini-Lead Noam Shazeer an OpenAI",
+      "description": "Noam Shazeer, Co-Autor des einflussreichen \"Attention Is All You Need\"-Papers und bisheriger Co-Leiter von Googles Gemini-Modellen, wechselt zu OpenAI. Erst 2024 war er im Rahmen eines 2,7-Milliarden-",
+      "link": "https://the-decoder.de/google-verliert-gemini-lead-noam-shazeer-an-openai/",
+      "date": "2026-06-18T06:55:29.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Amazon, Nvidia und AMD investieren 310 Millionen Dollar in KI-Start-up für Weltmodelle",
       "description": "Amazon, Nvidia und AMD investieren gemeinsam 310 Millionen Dollar in das Weltmodell-Start-up Odyssey ML, das nun mit 1,45 Milliarden Dollar bewertet wird. Auch der CIA-nahe Fonds IQT und Google-Chefwi",
@@ -96,15 +105,6 @@
       "description": "Nur zwei Handelstage nach dem Börsengang von SpaceX übernimmt Elon Musks Konzern den KI-Coding-Anbieter Anysphere. Der Deal soll die schwächelnde KI-Sparte xAI im Wettbewerb mit Anthropic und OpenAI a",
       "link": "https://the-decoder.de/spacex-schluckt-cursor-entwickler-anysphere-fuer-60-milliarden-dollar/",
       "date": "2026-06-16T15:02:08.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "US-Justizministerium will Klage gegen xAIs ungenehmigte Gasturbinen mit Sicherheitsargument stoppen",
-      "description": "Das US-Justizministerium stuft xAIs Chatbot Grok als unverzichtbar für militärische Operationen ein und verteidigt damit dessen umstrittene Gasturbinen.\nDer Artikel US-Justizministerium will Klage geg",
-      "link": "https://the-decoder.de/us-justizministerium-will-klage-gegen-xais-ungenehmigte-gasturbinen-mit-sicherheitsargument-stoppen/",
-      "date": "2026-06-16T13:02:33.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
