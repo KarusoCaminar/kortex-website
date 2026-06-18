@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-06-18T18:55:03.130Z",
+  "lastUpdated": "2026-06-18T20:55:05.150Z",
   "news": [
+    {
+      "title": "ChatGPT beantwortet Gesundheitsfragen jetzt besser als Ärzte, behauptet OpenAI",
+      "description": "OpenAI hat die Gesundheitsfunktionen von ChatGPT mit GPT-5.5 Instant aufgerüstet: Das Modell übertrifft jetzt laut OpenAIs Messungen in Vergleichstests von Ärzten verfasste Antworten bei Genauigkeit,",
+      "link": "https://the-decoder.de/chatgpt-beantwortet-gesundheitsfragen-jetzt-besser-als-aerzte-behauptet-openai/",
+      "date": "2026-06-18T19:13:00.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Claude Code kann jetzt Artifacts: Arbeitsergebnisse werden zu teilbaren, interaktiven Webseiten",
+      "description": "Claude Code kann Arbeitsergebnisse jetzt als interaktive Webseiten – sogenannte Artifacts – darstellen und im Team teilen. Die Seiten werden aus dem gesamten Sitzungskontext generiert, aktualisieren s",
+      "link": "https://the-decoder.de/claude-code-kann-jetzt-artifacts-arbeitsergebnisse-werden-zu-teilbaren-interaktiven-webseiten/",
+      "date": "2026-06-18T19:01:14.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Angebliche China-Verbindungen von SK Telecom alarmierten US-Beamte und lösten Anthropic-Krise aus",
       "description": "SK Telecom erhielt über Anthropics Partnerprogramm Project Glasswing Zugang zum KI-Modell Claude Mythos, bis das Weiße Haus intervenierte. US-Beamte sahen Verbindungen des südkoreanischen Konzerns zu",
@@ -18,6 +36,15 @@
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
+    },
+    {
+      "title": "New usage analytics and updated spend controls for enterprises",
+      "description": "OpenAI introduces new spend controls and usage analytics for ChatGPT Enterprise, helping organizations manage costs and scale AI with confidence.",
+      "link": "https://openai.com/index/chatgpt-enterprise-spend-controls",
+      "date": "2026-06-18T17:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
     },
     {
       "title": "KI-Forscher Yann LeCun warnt vor \"großer Blasenexplosion\" in der KI-Branche",
@@ -83,24 +110,6 @@
       "language": "de"
     },
     {
-      "title": "Amazon, Nvidia und AMD investieren 310 Millionen Dollar in KI-Start-up für Weltmodelle",
-      "description": "Amazon, Nvidia und AMD investieren gemeinsam 310 Millionen Dollar in das Weltmodell-Start-up Odyssey ML, das nun mit 1,45 Milliarden Dollar bewertet wird. Auch der CIA-nahe Fonds IQT und Google-Chefwi",
-      "link": "https://the-decoder.de/amazon-nvidia-und-amd-investieren-310-millionen-dollar-in-ki-start-up-fuer-weltmodelle/",
-      "date": "2026-06-17T18:18:23.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Nvidia-Forschung zeigt Roboterflotte, die sich selbst neue Handgriffe beibringt",
-      "description": "Nvidia, Carnegie Mellon und UC Berkeley lassen KI-Coding-Agenten Robotern eigenständig das Greifen beibringen – ganz ohne menschliches Eingreifen im Trainingsprozess. Eine Flotte aus acht Robotern err",
-      "link": "https://the-decoder.de/nvidia-forschung-zeigt-roboterflotte-die-sich-selbst-neue-handgriffe-beibringt/",
-      "date": "2026-06-17T14:07:28.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "A near-autonomous AI chemist improves a challenging reaction in medicinal chemistry",
       "description": "OpenAI and Molecule.one show how a near-autonomous AI chemist using GPT-5.4 improved a key drug-making reaction, advancing medicinal chemistry research.",
       "link": "https://openai.com/index/ai-chemist-improves-reaction",
@@ -124,15 +133,6 @@
       "link": "https://research.google/blog/from-pixels-to-planning-earth-ai-for-nature-restoration/",
       "date": "2026-06-16T17:30:00.000Z",
       "source": "Google AI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "Predicting model behavior before release by simulating deployment",
-      "description": "OpenAI introduces Deployment Simulation, a method to predict AI model behavior before deployment using real conversation data to improve safety and evaluation accuracy.",
-      "link": "https://openai.com/index/deployment-simulation",
-      "date": "2026-06-16T00:00:00.000Z",
-      "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
     }
