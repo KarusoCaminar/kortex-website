@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-06-18T07:51:36.990Z",
+  "lastUpdated": "2026-06-18T09:37:07.230Z",
   "news": [
+    {
+      "title": "Vom Katzenbild zum Körperscan: Midjourney steigt überraschend in die Medizintechnik ein",
+      "description": "Midjourney, bekannt für KI-generierte Bilder, baut jetzt einen Ganzkörper-Ultraschallscanner und plant ein eigenes Spa in San Francisco.\nDer Artikel Vom Katzenbild zum Körperscan: Midjourney steigt üb",
+      "link": "https://the-decoder.de/vom-katzenbild-zum-koerperscan-midjourney-steigt-ueberraschend-in-die-medizintechnik-ein/",
+      "date": "2026-06-18T09:15:52.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Google verliert Gemini-Lead Noam Shazeer an OpenAI",
       "description": "Noam Shazeer, Co-Autor des einflussreichen \"Attention Is All You Need\"-Papers und bisheriger Co-Leiter von Googles Gemini-Modellen, wechselt zu OpenAI. Erst 2024 war er im Rahmen eines 2,7-Milliarden-",
@@ -99,15 +108,6 @@
       "source": "Google AI",
       "category": "große-modelle",
       "language": "en"
-    },
-    {
-      "title": "SpaceX schluckt Cursor-Entwickler Anysphere für 60 Milliarden Dollar",
-      "description": "Nur zwei Handelstage nach dem Börsengang von SpaceX übernimmt Elon Musks Konzern den KI-Coding-Anbieter Anysphere. Der Deal soll die schwächelnde KI-Sparte xAI im Wettbewerb mit Anthropic und OpenAI a",
-      "link": "https://the-decoder.de/spacex-schluckt-cursor-entwickler-anysphere-fuer-60-milliarden-dollar/",
-      "date": "2026-06-16T15:02:08.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
     },
     {
       "title": "Predicting model behavior before release by simulating deployment",
