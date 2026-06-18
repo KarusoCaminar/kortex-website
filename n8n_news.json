@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-06-18T15:09:08.500Z",
+  "lastUpdated": "2026-06-18T17:09:42.107Z",
   "news": [
+    {
+      "title": "Google Deepmind behandelt eigene KI-Agenten wie abtrünnige Mitarbeiter mit Büroschlüssel",
+      "description": "Google Deepmind behandelt die eigenen KI-Agenten wie potenzielle Insider-Bedrohungen und hat eine \"AI Control Roadmap\" veröffentlicht, die Sicherheitsmaßnahmen an messbare KI-Fähigkeiten koppelt. Eine",
+      "link": "https://the-decoder.de/google-deepmind-behandelt-eigene-ki-agenten-wie-abtruennige-mitarbeiter-mit-bueroschluessel/",
+      "date": "2026-06-18T17:06:01.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "KI-Forscher Yann LeCun warnt vor \"großer Blasenexplosion\" in der KI-Branche",
       "description": "Yann LeCun warnt vor einer \"großen Blasenexplosion\" bei KI-Laboren wie OpenAI und Anthropic: Die Nutzung werde faktisch von Investoren subventioniert, die Betriebskosten sänken nicht schnell genug. Le",
@@ -78,15 +87,6 @@
       "description": "Zhipu AI veröffentlicht GLM-5.2 als Open-Source-Modell mit 1-Million-Token-Kontext unter MIT-Lizenz. Auf dem FrontierSWE-Benchmark für stundenlange Programmieraufgaben trennt das Modell nur ein Prozen",
       "link": "https://the-decoder.de/zhipu-ais-glm-5-2-schliesst-bei-coding-marathons-zur-closed-source-spitze-auf/",
       "date": "2026-06-17T11:07:00.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Analyse: Hyperscaler könnten KI-Ausbau bald nicht mehr aus dem laufenden Geschäft finanzieren",
-      "description": "Microsoft, Amazon, Alphabet, Meta und Oracle investieren laut einer Epoch-AI-Analyse rund 70 Prozent mehr pro Jahr in KI-Infrastruktur, während ihre operativen Einnahmen nur um 23 Prozent wachsen. Häl",
-      "link": "https://the-decoder.de/analyse-hyperscaler-koennten-ki-ausbau-bald-nicht-mehr-aus-dem-laufenden-geschaeft-finanzieren/",
-      "date": "2026-06-17T10:44:41.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
