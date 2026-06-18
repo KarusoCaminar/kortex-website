@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-06-18T11:28:08.689Z",
+  "lastUpdated": "2026-06-18T13:19:55.613Z",
   "news": [
+    {
+      "title": "Adobe baut KI-Agenten in Photoshop, Premiere und weitere Creative-Cloud-Apps ein",
+      "description": "Adobe weitet seinen \"Creative Agent\" auf die wichtigsten Creative-Cloud-Programme und externe KI-Plattformen wie ChatGPT und Claude aus. Nutzer sollen ein Ergebnis beschreiben, die Software erledigt d",
+      "link": "https://the-decoder.de/adobe-baut-ki-agenten-in-photoshop-premiere-und-weitere-creative-cloud-apps-ein/",
+      "date": "2026-06-18T12:59:00.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "MIRA und AMIE: Zwei KI-Systeme diagnostizieren so gut wie Ärzte, doch ein Ergebnis wirft unbequeme Fragen auf",
+      "description": "Zwei neue Studien in der Fachzeitschrift Nature zeigen: In simulierten Patientenfällen treffen spezialisierte KI-Programme Diagnosen und Behandlungsentscheidungen so gut wie Ärztinnen und Ärzte, teils",
+      "link": "https://the-decoder.de/mira-und-amie-zwei-ki-systeme-diagnostizieren-so-gut-wie-aerzte-doch-ein-ergebnis-wirft-unbequeme-fragen-auf/",
+      "date": "2026-06-18T11:28:06.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Vom Katzenbild zum Körperscan: Midjourney steigt überraschend in die Medizintechnik ein",
       "description": "Midjourney, bekannt für KI-generierte Bilder, baut jetzt einen Ganzkörper-Ultraschallscanner und plant ein eigenes Spa in San Francisco.\nDer Artikel Vom Katzenbild zum Körperscan: Midjourney steigt üb",
@@ -81,24 +99,6 @@
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
-    },
-    {
-      "title": "Microsofts Copilot Cowork wird nach Nutzung abgerechnet und könnte Deepseek nutzen",
-      "description": "Microsoft erwägt, eine angepasste Version von DeepSeek V4 als günstigere Alternative in seinem KI-Tool Copilot Cowork anzubieten. Gleichzeitig stellt das Unternehmen auf verbrauchsbasierte Abrechnung",
-      "link": "https://the-decoder.de/microsofts-copilot-cowork-wird-nach-nutzung-abgerechnet-und-koennte-deepseek-nutzen/",
-      "date": "2026-06-16T19:18:38.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Berliner Gericht stuft Googles KI-Antworten nur als neues Suchergebnisformat ein",
-      "description": "Ein Berliner Gericht stuft Googles KI-Übersichten lediglich als \"neues Suchergebnisformat\" ein: Google habe keinen bestimmenden Einfluss auf die Inhalte. Ein Parfumkonzern hatte geklagt, weil die KI-S",
-      "link": "https://the-decoder.de/wann-wird-aus-einer-suchmaschine-ein-eigenstaendig-aeussernder-akteur/",
-      "date": "2026-06-16T17:46:40.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
     },
     {
       "title": "From pixels to planning: Earth AI for nature restoration",
