@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-06-18T13:19:55.613Z",
+  "lastUpdated": "2026-06-18T15:09:08.500Z",
   "news": [
+    {
+      "title": "KI-Forscher Yann LeCun warnt vor \"großer Blasenexplosion\" in der KI-Branche",
+      "description": "Yann LeCun warnt vor einer \"großen Blasenexplosion\" bei KI-Laboren wie OpenAI und Anthropic: Die Nutzung werde faktisch von Investoren subventioniert, die Betriebskosten sänken nicht schnell genug. Le",
+      "link": "https://the-decoder.de/ki-forscher-yann-lecun-warnt-vor-grosser-blasenexplosion-in-der-ki-branche/",
+      "date": "2026-06-18T13:23:47.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Adobe baut KI-Agenten in Photoshop, Premiere und weitere Creative-Cloud-Apps ein",
       "description": "Adobe weitet seinen \"Creative Agent\" auf die wichtigsten Creative-Cloud-Programme und externe KI-Plattformen wie ChatGPT und Claude aus. Nutzer sollen ein Ergebnis beschreiben, die Software erledigt d",
@@ -27,6 +36,15 @@
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
+    },
+    {
+      "title": "Using AI to help physicians diagnose rare genetic diseases affecting children",
+      "description": "Researchers used an OpenAI reasoning model to help diagnose rare diseases, identifying 18 new diagnoses in previously unsolved cases.",
+      "link": "https://openai.com/index/diagnose-rare-childhood-diseases",
+      "date": "2026-06-18T08:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
     },
     {
       "title": "Google verliert Gemini-Lead Noam Shazeer an OpenAI",
@@ -83,15 +101,6 @@
       "language": "en"
     },
     {
-      "title": "Deployment Simulation: OpenAIs Methode gegen unrealistische KI-Sicherheitstests",
-      "description": "OpenAI-Forscher stellen mit „Deployment Simulation\" eine Methode vor, die anhand echter, anonymisierter Nutzergespräche vorhersagt, wie oft ein neues Modell nach Release Fehler macht. Bei GPT-5.4 sagt",
-      "link": "https://the-decoder.de/deployment-simulation-openais-methode-gegen-unrealistische-ki-sicherheitstests/",
-      "date": "2026-06-17T09:37:22.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "Introducing LifeSciBench",
       "description": "Introducing LifeSciBench, an expert-authored, expert-reviewed benchmark for evaluating how AI systems handle real-world life science research tasks and decisions.",
       "link": "https://openai.com/index/introducing-life-sci-bench",
@@ -124,15 +133,6 @@
       "link": "https://openai.com/index/introducing-openai-partner-network",
       "date": "2026-06-14T17:00:00.000Z",
       "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "Research into how AI can help users understand skin conditions",
-      "description": "Health & Bioscience",
-      "link": "https://research.google/blog/research-into-how-ai-can-help-users-understand-skin-conditions/",
-      "date": "2026-06-12T17:52:00.000Z",
-      "source": "Google AI",
       "category": "große-modelle",
       "language": "en"
     }
