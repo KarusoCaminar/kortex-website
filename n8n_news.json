@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-06-18T17:09:42.107Z",
+  "lastUpdated": "2026-06-18T18:55:03.130Z",
   "news": [
+    {
+      "title": "Angebliche China-Verbindungen von SK Telecom alarmierten US-Beamte und lösten Anthropic-Krise aus",
+      "description": "SK Telecom erhielt über Anthropics Partnerprogramm Project Glasswing Zugang zum KI-Modell Claude Mythos, bis das Weiße Haus intervenierte. US-Beamte sahen Verbindungen des südkoreanischen Konzerns zu",
+      "link": "https://the-decoder.de/angebliche-china-verbindungen-von-sk-telecom-alarmierten-us-beamte-und-loesten-anthropic-krise-aus/",
+      "date": "2026-06-18T18:51:09.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Google Deepmind behandelt eigene KI-Agenten wie abtrünnige Mitarbeiter mit Büroschlüssel",
       "description": "Google Deepmind behandelt die eigenen KI-Agenten wie potenzielle Insider-Bedrohungen und hat eine \"AI Control Roadmap\" veröffentlicht, die Sicherheitsmaßnahmen an messbare KI-Fähigkeiten koppelt. Eine",
@@ -36,6 +45,15 @@
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
+    },
+    {
+      "title": "Improving health intelligence in ChatGPT",
+      "description": "Learn how GPT-5.5 Instant improves ChatGPT’s health and wellness responses with stronger reasoning, better context, clearer communication, and physician-informed evaluations.",
+      "link": "https://openai.com/index/improving-health-intelligence-in-chatgpt",
+      "date": "2026-06-18T11:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
     },
     {
       "title": "Vom Katzenbild zum Körperscan: Midjourney steigt überraschend in die Medizintechnik ein",
@@ -83,15 +101,6 @@
       "language": "de"
     },
     {
-      "title": "Zhipu AIs GLM-5.2 schließt bei Coding-Marathons zur Closed-Source-Spitze auf",
-      "description": "Zhipu AI veröffentlicht GLM-5.2 als Open-Source-Modell mit 1-Million-Token-Kontext unter MIT-Lizenz. Auf dem FrontierSWE-Benchmark für stundenlange Programmieraufgaben trennt das Modell nur ein Prozen",
-      "link": "https://the-decoder.de/zhipu-ais-glm-5-2-schliesst-bei-coding-marathons-zur-closed-source-spitze-auf/",
-      "date": "2026-06-17T11:07:00.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "A near-autonomous AI chemist improves a challenging reaction in medicinal chemistry",
       "description": "OpenAI and Molecule.one show how a near-autonomous AI chemist using GPT-5.4 improved a key drug-making reaction, advancing medicinal chemistry research.",
       "link": "https://openai.com/index/ai-chemist-improves-reaction",
@@ -123,15 +132,6 @@
       "description": "OpenAI introduces Deployment Simulation, a method to predict AI model behavior before deployment using real conversation data to improve safety and evaluation accuracy.",
       "link": "https://openai.com/index/deployment-simulation",
       "date": "2026-06-16T00:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "Introducing the OpenAI Partner Network",
-      "description": "OpenAI launches the Partner Network, investing $150M to help global partners accelerate enterprise AI adoption, deployment, and transformation.",
-      "link": "https://openai.com/index/introducing-openai-partner-network",
-      "date": "2026-06-14T17:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
