@@ -1,6 +1,33 @@
 {
-  "lastUpdated": "2026-06-19T03:17:40.684Z",
+  "lastUpdated": "2026-06-19T13:19:09.917Z",
   "news": [
+    {
+      "title": "OpenAI will mit \"Beneficial RL\" KI-Modelle breit und dauerhaft auf gutes Verhalten trimmen",
+      "description": "OpenAI-Forscher zeigen, dass Reinforcement Learning auf erwünschte Verhaltenseigenschaften wie Wahrhaftigkeit und Korrigierbarkeit domänenübergreifend wirkt. Training auf Gesundheitsdaten verbesserte",
+      "link": "https://the-decoder.de/openai-will-mit-beneficial-rl-ki-modelle-breit-und-dauerhaft-auf-gutes-verhalten-trimmen/",
+      "date": "2026-06-19T09:48:27.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Münchner Gericht macht Google für KI-Suchübersichten haftbar – Google geht in Berufung",
+      "description": "Google legt Berufung gegen das Urteil des Landgerichts München I ein, das den Konzern für fehlerhafte KI-Suchübersichten direkt haftbar machte. Die KI hatte zwei Münchner Verlage fälschlich mit Betrug",
+      "link": "https://the-decoder.de/muenchner-gericht-macht-google-fuer-ki-suchuebersichten-haftbar-google-geht-in-berufung/",
+      "date": "2026-06-19T09:41:22.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Neue Website \"In the Weights\" verrät, ob KI-Modelle wissen, wer du bist",
+      "description": "Zwei ehemalige OpenAI-Mitarbeiter haben mit \"In the Weights\" eine Website entwickelt, die zeigt, welche Personen in den Gewichten großer Sprachmodelle gespeichert sind. Ein Stärke-Score von bis zu 996",
+      "link": "https://the-decoder.de/neue-website-in-the-weights-verraet-ob-ki-modelle-wissen-wer-du-bist/",
+      "date": "2026-06-19T08:18:50.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "ChatGPT beantwortet Gesundheitsfragen jetzt besser als Ärzte, behauptet OpenAI",
       "description": "OpenAI hat die Gesundheitsfunktionen von ChatGPT mit GPT-5.5 Instant aufgerüstet: Das Modell übertrifft jetzt laut OpenAIs Messungen in Vergleichstests von Ärzten verfasste Antworten bei Genauigkeit,",
@@ -83,15 +110,6 @@
       "language": "en"
     },
     {
-      "title": "Vom Katzenbild zum Körperscan: Midjourney steigt überraschend in die Medizintechnik ein",
-      "description": "Midjourney, bekannt für KI-generierte Bilder, baut jetzt einen Ganzkörper-Ultraschallscanner und plant ein eigenes Spa in San Francisco.\nDer Artikel Vom Katzenbild zum Körperscan: Midjourney steigt üb",
-      "link": "https://the-decoder.de/vom-katzenbild-zum-koerperscan-midjourney-steigt-ueberraschend-in-die-medizintechnik-ein/",
-      "date": "2026-06-18T09:15:52.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "Using AI to help physicians diagnose rare genetic diseases affecting children",
       "description": "Researchers used an OpenAI reasoning model to help diagnose rare diseases, identifying 18 new diagnoses in previously unsolved cases.",
       "link": "https://openai.com/index/diagnose-rare-childhood-diseases",
@@ -99,15 +117,6 @@
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
-    },
-    {
-      "title": "Google verliert Gemini-Lead Noam Shazeer an OpenAI",
-      "description": "Noam Shazeer, Co-Autor des einflussreichen \"Attention Is All You Need\"-Papers und bisheriger Co-Leiter von Googles Gemini-Modellen, wechselt zu OpenAI. Erst 2024 war er im Rahmen eines 2,7-Milliarden-",
-      "link": "https://the-decoder.de/google-verliert-gemini-lead-noam-shazeer-an-openai/",
-      "date": "2026-06-18T06:55:29.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
     },
     {
       "title": "A near-autonomous AI chemist improves a challenging reaction in medicinal chemistry",
@@ -124,15 +133,6 @@
       "link": "https://openai.com/index/introducing-life-sci-bench",
       "date": "2026-06-17T00:00:00.000Z",
       "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "From pixels to planning: Earth AI for nature restoration",
-      "description": "Climate & Sustainability",
-      "link": "https://research.google/blog/from-pixels-to-planning-earth-ai-for-nature-restoration/",
-      "date": "2026-06-16T17:30:00.000Z",
-      "source": "Google AI",
       "category": "große-modelle",
       "language": "en"
     }
