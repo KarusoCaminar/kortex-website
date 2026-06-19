@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-06-19T13:19:09.917Z",
+  "lastUpdated": "2026-06-19T16:53:33.628Z",
   "news": [
+    {
+      "title": "KI-Chatbots werden häufiger für Nachrichten genutzt, doch das Vertrauen bleibt gering",
+      "description": "Laut dem Digital News Report 2026 des Reuters Institute nutzen weltweit bereits 10 Prozent der Befragten KI-Chatbots wöchentlich für Nachrichten, ein Anstieg von 7 Prozent im Vorjahr. Nur 4 Prozent kl",
+      "link": "https://the-decoder.de/ki-chatbots-werden-haeufiger-fuer-nachrichten-genutzt-doch-das-vertrauen-bleibt-gering/",
+      "date": "2026-06-19T14:27:25.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Bestes KI-Modell löst nur 3 Prozent realistischer Wissensarbeit vollständig korrekt",
+      "description": "Selbst das beste KI-Modell scheitert an realistischer Wissensarbeit: Es löst nur 3 Prozent der Aufgaben vollständig korrekt.\nDer Artikel Bestes KI-Modell löst nur 3 Prozent realistischer Wissensarbeit",
+      "link": "https://the-decoder.de/bestes-ki-modell-loest-nur-3-prozent-realistischer-wissensarbeit-vollstaendig-korrekt/",
+      "date": "2026-06-19T13:21:55.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "OpenAI will mit \"Beneficial RL\" KI-Modelle breit und dauerhaft auf gutes Verhalten trimmen",
       "description": "OpenAI-Forscher zeigen, dass Reinforcement Learning auf erwünschte Verhaltenseigenschaften wie Wahrhaftigkeit und Korrigierbarkeit domänenübergreifend wirkt. Training auf Gesundheitsdaten verbesserte",
@@ -78,24 +96,6 @@
       "description": "Yann LeCun warnt vor einer \"großen Blasenexplosion\" bei KI-Laboren wie OpenAI und Anthropic: Die Nutzung werde faktisch von Investoren subventioniert, die Betriebskosten sänken nicht schnell genug. Le",
       "link": "https://the-decoder.de/ki-forscher-yann-lecun-warnt-vor-grosser-blasenexplosion-in-der-ki-branche/",
       "date": "2026-06-18T13:23:47.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Adobe baut KI-Agenten in Photoshop, Premiere und weitere Creative-Cloud-Apps ein",
-      "description": "Adobe weitet seinen \"Creative Agent\" auf die wichtigsten Creative-Cloud-Programme und externe KI-Plattformen wie ChatGPT und Claude aus. Nutzer sollen ein Ergebnis beschreiben, die Software erledigt d",
-      "link": "https://the-decoder.de/adobe-baut-ki-agenten-in-photoshop-premiere-und-weitere-creative-cloud-apps-ein/",
-      "date": "2026-06-18T12:59:00.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "MIRA und AMIE: Zwei KI-Systeme diagnostizieren so gut wie Ärzte, doch ein Ergebnis wirft unbequeme Fragen auf",
-      "description": "Zwei neue Studien in der Fachzeitschrift Nature zeigen: In simulierten Patientenfällen treffen spezialisierte KI-Programme Diagnosen und Behandlungsentscheidungen so gut wie Ärztinnen und Ärzte, teils",
-      "link": "https://the-decoder.de/mira-und-amie-zwei-ki-systeme-diagnostizieren-so-gut-wie-aerzte-doch-ein-ergebnis-wirft-unbequeme-fragen-auf/",
-      "date": "2026-06-18T11:28:06.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
