@@ -1,6 +1,33 @@
 {
-  "lastUpdated": "2026-06-19T16:53:33.628Z",
+  "lastUpdated": "2026-06-19T18:43:49.133Z",
   "news": [
+    {
+      "title": "Norwegen verbietet KI an Grundschulen: \"Unkritische KI-Nutzung lässt Schüler wichtige Lernschritte überspringen\"",
+      "description": "Norwegen verbietet generative KI-Tools ab Ende August weitgehend an Grundschulen. Kinder der Klassen 1 bis 7 sollen ohne KI lernen, in der Sekundarstufe ist nur beaufsichtigter Einsatz erlaubt. Premie",
+      "link": "https://the-decoder.de/norwegen-verbietet-ki-an-grundschulen-unkritische-ki-nutzung-laesst-schueler-wichtige-lernschritte-ueberspringen/",
+      "date": "2026-06-19T18:34:10.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "AlphaFold-Nobelpreisträger wechselt zu Anthropic: Google Deepmind verliert nächsten Top-Forscher",
+      "description": "Nobelpreisträger John Jumper, Leiter des AlphaFold-Teams, verlässt Google Deepmind nach fast neun Jahren und wechselt zu Anthropic. Kurz zuvor ging Gemini-Co-Leiter Noam Shazeer zu OpenAI, davor gründ",
+      "link": "https://the-decoder.de/alphafold-nobelpreistraeger-wechselt-zu-anthropic-google-deepmind-verliert-naechsten-top-forscher/",
+      "date": "2026-06-19T17:46:14.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Amazon stoppt fast fertigen OpenAI-Film kurz nach 50-Milliarden-Deal mit Altmans Unternehmen",
+      "description": "Amazon MGM Studios hat den fast fertigen OpenAI-Film \"Artificial\" von Regisseur Luca Guadagnino mit Andrew Garfield als Sam Altman fallen gelassen. Amazon hatte im Februar eine 50-Milliarden-Dollar-Pa",
+      "link": "https://the-decoder.de/amazon-stoppt-fast-fertigen-openai-film-kurz-nach-50-milliarden-deal-mit-altmans-unternehmen/",
+      "date": "2026-06-19T17:06:33.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "KI-Chatbots werden häufiger für Nachrichten genutzt, doch das Vertrauen bleibt gering",
       "description": "Laut dem Digital News Report 2026 des Reuters Institute nutzen weltweit bereits 10 Prozent der Befragten KI-Chatbots wöchentlich für Nachrichten, ein Anstieg von 7 Prozent im Vorjahr. Nur 4 Prozent kl",
@@ -65,24 +92,6 @@
       "language": "de"
     },
     {
-      "title": "Angebliche China-Verbindungen von SK Telecom alarmierten US-Beamte und lösten Anthropic-Krise aus",
-      "description": "SK Telecom erhielt über Anthropics Partnerprogramm Project Glasswing Zugang zum KI-Modell Claude Mythos, bis das Weiße Haus intervenierte. US-Beamte sahen Verbindungen des südkoreanischen Konzerns zu",
-      "link": "https://the-decoder.de/angebliche-china-verbindungen-von-sk-telecom-alarmierten-us-beamte-und-loesten-anthropic-krise-aus/",
-      "date": "2026-06-18T18:51:09.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Google Deepmind behandelt eigene KI-Agenten wie abtrünnige Mitarbeiter mit Büroschlüssel",
-      "description": "Google Deepmind behandelt die eigenen KI-Agenten wie potenzielle Insider-Bedrohungen und hat eine \"AI Control Roadmap\" veröffentlicht, die Sicherheitsmaßnahmen an messbare KI-Fähigkeiten koppelt. Eine",
-      "link": "https://the-decoder.de/google-deepmind-behandelt-eigene-ki-agenten-wie-abtruennige-mitarbeiter-mit-bueroschluessel/",
-      "date": "2026-06-18T17:06:01.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "New usage analytics and updated spend controls for enterprises",
       "description": "OpenAI introduces new spend controls and usage analytics for ChatGPT Enterprise, helping organizations manage costs and scale AI with confidence.",
       "link": "https://openai.com/index/chatgpt-enterprise-spend-controls",
@@ -90,15 +99,6 @@
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
-    },
-    {
-      "title": "KI-Forscher Yann LeCun warnt vor \"großer Blasenexplosion\" in der KI-Branche",
-      "description": "Yann LeCun warnt vor einer \"großen Blasenexplosion\" bei KI-Laboren wie OpenAI und Anthropic: Die Nutzung werde faktisch von Investoren subventioniert, die Betriebskosten sänken nicht schnell genug. Le",
-      "link": "https://the-decoder.de/ki-forscher-yann-lecun-warnt-vor-grosser-blasenexplosion-in-der-ki-branche/",
-      "date": "2026-06-18T13:23:47.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
     },
     {
       "title": "Improving health intelligence in ChatGPT",
