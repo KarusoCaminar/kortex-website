@@ -1,6 +1,33 @@
 {
-  "lastUpdated": "2026-06-20T07:28:31.863Z",
+  "lastUpdated": "2026-06-20T09:10:02.220Z",
   "news": [
+    {
+      "title": "Sieben KI-Agenten automatisieren Datenjournalismus – und Leser bevorzugen das Ergebnis",
+      "description": "Sieben KI-Agenten, die wie eine Redaktion zusammenarbeiten: Der \"Data Journalist Agent\" von Oxford und Stanford verwandelt eine CSV-Datei in einen fertigen interaktiven Artikel mit Grafiken, Webrecher",
+      "link": "https://the-decoder.de/sieben-ki-agenten-automatisieren-datenjournalismus-und-leser-bevorzugen-das-ergebnis/",
+      "date": "2026-06-20T09:05:55.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "OpenAI macht ChatGPTs Aufgabenplanung schneller und übersichtlicher",
+      "description": "OpenAI baut die Planungsfunktion von ChatGPT aus: Eine neue \"Geplant\"-Seite in der Seitenleiste bündelt alle aktiven Aufgaben zentral: zum Einsehen, Pausieren oder Löschen. Rechercheaufgaben durchsuch",
+      "link": "https://the-decoder.de/openai-macht-chatgpts-aufgabenplanung-schneller-und-uebersichtlicher/",
+      "date": "2026-06-20T08:44:19.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Verdreifachter Umsatz, verdreifachter Cashburn: OpenAIs verliert 9,3 Milliarden US-Dollar im ersten Quartal",
+      "description": "OpenAI hat im ersten Quartal 2026 bei 5,7 Milliarden Dollar Umsatz rund 3,7 Milliarden Dollar verbrannt – beide Werte haben sich gegenüber dem Vorjahr verdreifacht. Allein die aktienbasierte Mitarbeit",
+      "link": "https://the-decoder.de/verdreifachter-umsatz-verdreifachter-cashburn-openais-verliert-93-milliarden-us-dollar-im-ersten-quartal/",
+      "date": "2026-06-20T07:52:07.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Norwegen verbietet KI an Grundschulen: \"Unkritische KI-Nutzung lässt Schüler wichtige Lernschritte überspringen\"",
       "description": "Norwegen verbietet generative KI-Tools ab Ende August weitgehend an Grundschulen. Kinder der Klassen 1 bis 7 sollen ohne KI lernen, in der Sekundarstufe ist nur beaufsichtigter Einsatz erlaubt. Premie",
@@ -60,33 +87,6 @@
       "description": "Google legt Berufung gegen das Urteil des Landgerichts München I ein, das den Konzern für fehlerhafte KI-Suchübersichten direkt haftbar machte. Die KI hatte zwei Münchner Verlage fälschlich mit Betrug",
       "link": "https://the-decoder.de/muenchner-gericht-macht-google-fuer-ki-suchuebersichten-haftbar-google-geht-in-berufung/",
       "date": "2026-06-19T09:41:22.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Neue Website \"In the Weights\" verrät, ob KI-Modelle wissen, wer du bist",
-      "description": "Zwei ehemalige OpenAI-Mitarbeiter haben mit \"In the Weights\" eine Website entwickelt, die zeigt, welche Personen in den Gewichten großer Sprachmodelle gespeichert sind. Ein Stärke-Score von bis zu 996",
-      "link": "https://the-decoder.de/neue-website-in-the-weights-verraet-ob-ki-modelle-wissen-wer-du-bist/",
-      "date": "2026-06-19T08:18:50.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "ChatGPT beantwortet Gesundheitsfragen jetzt besser als Ärzte, behauptet OpenAI",
-      "description": "OpenAI hat die Gesundheitsfunktionen von ChatGPT mit GPT-5.5 Instant aufgerüstet: Das Modell übertrifft jetzt laut OpenAIs Messungen in Vergleichstests von Ärzten verfasste Antworten bei Genauigkeit,",
-      "link": "https://the-decoder.de/chatgpt-beantwortet-gesundheitsfragen-jetzt-besser-als-aerzte-behauptet-openai/",
-      "date": "2026-06-18T19:13:00.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Claude Code kann jetzt Artifacts: Arbeitsergebnisse werden zu teilbaren, interaktiven Webseiten",
-      "description": "Claude Code kann Arbeitsergebnisse jetzt als interaktive Webseiten – sogenannte Artifacts – darstellen und im Team teilen. Die Seiten werden aus dem gesamten Sitzungskontext generiert, aktualisieren s",
-      "link": "https://the-decoder.de/claude-code-kann-jetzt-artifacts-arbeitsergebnisse-werden-zu-teilbaren-interaktiven-webseiten/",
-      "date": "2026-06-18T19:01:14.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
