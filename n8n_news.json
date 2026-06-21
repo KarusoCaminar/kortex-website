@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-06-21T11:08:03.097Z",
+  "lastUpdated": "2026-06-21T12:48:19.607Z",
   "news": [
+    {
+      "title": "Bessere Noten dank KI: US-Studie zeigt Einsen-Inflation an Universitäten seit ChatGPT",
+      "description": "Eine UC-Berkeley-Studie mit mehr als 500.000 Noten zeigt, dass Kurse mit Schreib- und Programmieraufgaben nach ChatGPTs Veröffentlichung deutlich bessere Noten vergeben. Der Effekt konzentriert sich a",
+      "link": "https://the-decoder.de/bessere-noten-dank-ki-us-studie-zeigt-einsen-inflation-an-universitaeten-seit-chatgpt/",
+      "date": "2026-06-21T11:19:46.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "OpenAI-Chef Sam Altman hält Skalierung großer Sprachmodelle für lange nicht ausgereizt",
       "description": "Sam Altman verteidigt bei einem Auftritt in Stanford die Skalierung großer Sprachmodelle und wehrt sich gegen LLM-Kritiker: Eine ganze Forschergeneration habe das Feld gebremst, weil sie zu sicher gew",
@@ -78,15 +87,6 @@
       "description": "Norwegen verbietet generative KI-Tools ab Ende August weitgehend an Grundschulen. Kinder der Klassen 1 bis 7 sollen ohne KI lernen, in der Sekundarstufe ist nur beaufsichtigter Einsatz erlaubt. Premie",
       "link": "https://the-decoder.de/norwegen-verbietet-ki-an-grundschulen-unkritische-ki-nutzung-laesst-schueler-wichtige-lernschritte-ueberspringen/",
       "date": "2026-06-19T18:34:10.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "AlphaFold-Nobelpreisträger wechselt zu Anthropic: Google Deepmind verliert nächsten Top-Forscher",
-      "description": "Nobelpreisträger John Jumper, Leiter des AlphaFold-Teams, verlässt Google Deepmind nach fast neun Jahren und wechselt zu Anthropic. Kurz zuvor ging Gemini-Co-Leiter Noam Shazeer zu OpenAI, davor gründ",
-      "link": "https://the-decoder.de/alphafold-nobelpreistraeger-wechselt-zu-anthropic-google-deepmind-verliert-naechsten-top-forscher/",
-      "date": "2026-06-19T17:46:14.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
