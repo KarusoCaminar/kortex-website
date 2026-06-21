@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-06-21T07:47:23.365Z",
+  "lastUpdated": "2026-06-21T09:22:12.490Z",
   "news": [
+    {
+      "title": "OpenAI-Chef Sam Altman hält Skalierung großer Sprachmodelle für lange nicht ausgereizt",
+      "description": "Sam Altman verteidigt bei einem Auftritt in Stanford die Skalierung großer Sprachmodelle und wehrt sich gegen LLM-Kritiker: Eine ganze Forschergeneration habe das Feld gebremst, weil sie zu sicher gew",
+      "link": "https://the-decoder.de/openai-chef-sam-altman-haelt-skalierung-grosser-sprachmodelle-fuer-lange-nicht-ausgereizt/",
+      "date": "2026-06-21T09:06:01.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "AWS rüstet KI-Agenten mit Wissensgraph und automatischer Sicherheitsprüfung aus",
+      "description": "AWS hat auf dem hauseigenen Summit in New York zwei neue Dienste vorgestellt: Continuum soll Code-Schwachstellen automatisiert erkennen, priorisieren und beheben, Context liefert KI-Agenten über einen",
+      "link": "https://the-decoder.de/aws-ruestet-ki-agenten-mit-wissensgraph-und-automatischer-sicherheitspruefung-aus/",
+      "date": "2026-06-21T07:57:41.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Handelsriesen wollen KI-Werbung von Deepfake-Kennzeichnung des EU AI Act befreien",
       "description": "Eurocommerce, der Handelsverband hinter Amazon, H&M und Ikea, will KI-generierte Werbung von den Transparenzpflichten des EU-AI-Act ausnehmen lassen. Das Argument: Ein KI-generiertes Wohnzimmerbild fü",
@@ -69,24 +87,6 @@
       "description": "Nobelpreisträger John Jumper, Leiter des AlphaFold-Teams, verlässt Google Deepmind nach fast neun Jahren und wechselt zu Anthropic. Kurz zuvor ging Gemini-Co-Leiter Noam Shazeer zu OpenAI, davor gründ",
       "link": "https://the-decoder.de/alphafold-nobelpreistraeger-wechselt-zu-anthropic-google-deepmind-verliert-naechsten-top-forscher/",
       "date": "2026-06-19T17:46:14.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Amazon stoppt fast fertigen OpenAI-Film kurz nach 50-Milliarden-Deal mit Altmans Unternehmen",
-      "description": "Amazon MGM Studios hat den fast fertigen OpenAI-Film \"Artificial\" von Regisseur Luca Guadagnino mit Andrew Garfield als Sam Altman fallen gelassen. Amazon hatte im Februar eine 50-Milliarden-Dollar-Pa",
-      "link": "https://the-decoder.de/amazon-stoppt-fast-fertigen-openai-film-kurz-nach-50-milliarden-deal-mit-altmans-unternehmen/",
-      "date": "2026-06-19T17:06:33.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "KI-Chatbots werden häufiger für Nachrichten genutzt, doch das Vertrauen bleibt gering",
-      "description": "Laut dem Digital News Report 2026 des Reuters Institute nutzen weltweit bereits 10 Prozent der Befragten KI-Chatbots wöchentlich für Nachrichten, ein Anstieg von 7 Prozent im Vorjahr. Nur 4 Prozent kl",
-      "link": "https://the-decoder.de/ki-chatbots-werden-haeufiger-fuer-nachrichten-genutzt-doch-das-vertrauen-bleibt-gering/",
-      "date": "2026-06-19T14:27:25.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
