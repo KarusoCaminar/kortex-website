@@ -1,6 +1,33 @@
 {
-  "lastUpdated": "2026-06-20T10:52:39.891Z",
+  "lastUpdated": "2026-06-21T01:10:37.423Z",
   "news": [
+    {
+      "title": "Handelsriesen wollen KI-Werbung von Deepfake-Kennzeichnung des EU AI Act befreien",
+      "description": "Eurocommerce, der Handelsverband hinter Amazon, H&M und Ikea, will KI-generierte Werbung von den Transparenzpflichten des EU-AI-Act ausnehmen lassen. Das Argument: Ein KI-generiertes Wohnzimmerbild fü",
+      "link": "https://the-decoder.de/handelsriesen-wollen-ki-werbung-von-deepfake-kennzeichnung-des-eu-ai-act-befreien/",
+      "date": "2026-06-20T17:08:38.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "OpenAIs Codex kann jetzt Arbeitsabläufe aufzeichnen und als wiederverwendbare Skills selbstständig wiederholen",
+      "description": "OpenAI hat für seine Codex-App auf macOS die Funktion „Record & Replay\" veröffentlicht: Nutzer führen einen Arbeitsablauf einmal vor, Codex wandelt ihn in einen wiederverwendbaren \"Skill\" um und wiede",
+      "link": "https://the-decoder.de/openais-codex-kann-jetzt-arbeitsablaeufe-aufzeichnen-und-als-wiederverwendbare-skills-selbststaendig-wiederholen/",
+      "date": "2026-06-20T13:13:08.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "NYU-Finanzprofessor warnt: KI-Crash könnte schmerzhafter werden als das Platzen der Dotcom-Blase",
+      "description": "NYU-Finanzprofessor Aswath Damodaran hält einen möglichen KI-Crash für schmerzhafter als das Platzen der Dotcom-Blase, weil die Branche massiv schuldenfinanzierte physische Infrastruktur aufbaue statt",
+      "link": "https://the-decoder.de/nyu-finanzprofessor-warnt-ki-crash-koennte-schmerzhafter-werden-als-das-platzen-der-dotcom-blase/",
+      "date": "2026-06-20T12:10:57.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "KI-Pipeline Data2Story baut aus CSV-Dateien verifizierbare Datenartikel mit Grafiken und Quellenbelegen",
       "description": "Sieben KI-Agenten, die wie eine Redaktion zusammenarbeiten: Der \"Data Journalist Agent\" von Oxford und Stanford verwandelt eine CSV-Datei in einen fertigen interaktiven Artikel mit Grafiken, Webrecher",
@@ -60,33 +87,6 @@
       "description": "Laut dem Digital News Report 2026 des Reuters Institute nutzen weltweit bereits 10 Prozent der Befragten KI-Chatbots wöchentlich für Nachrichten, ein Anstieg von 7 Prozent im Vorjahr. Nur 4 Prozent kl",
       "link": "https://the-decoder.de/ki-chatbots-werden-haeufiger-fuer-nachrichten-genutzt-doch-das-vertrauen-bleibt-gering/",
       "date": "2026-06-19T14:27:25.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Bestes KI-Modell löst nur 3 Prozent realistischer Wissensarbeit vollständig korrekt",
-      "description": "Selbst das beste KI-Modell scheitert an realistischer Wissensarbeit: Es löst nur 3 Prozent der Aufgaben vollständig korrekt.\nDer Artikel Bestes KI-Modell löst nur 3 Prozent realistischer Wissensarbeit",
-      "link": "https://the-decoder.de/bestes-ki-modell-loest-nur-3-prozent-realistischer-wissensarbeit-vollstaendig-korrekt/",
-      "date": "2026-06-19T13:21:55.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "OpenAI will mit \"Beneficial RL\" KI-Modelle breit und dauerhaft auf gutes Verhalten trimmen",
-      "description": "OpenAI-Forscher zeigen, dass Reinforcement Learning auf erwünschte Verhaltenseigenschaften wie Wahrhaftigkeit und Korrigierbarkeit domänenübergreifend wirkt. Training auf Gesundheitsdaten verbesserte",
-      "link": "https://the-decoder.de/openai-will-mit-beneficial-rl-ki-modelle-breit-und-dauerhaft-auf-gutes-verhalten-trimmen/",
-      "date": "2026-06-19T09:48:27.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Münchner Gericht macht Google für KI-Suchübersichten haftbar – Google geht in Berufung",
-      "description": "Google legt Berufung gegen das Urteil des Landgerichts München I ein, das den Konzern für fehlerhafte KI-Suchübersichten direkt haftbar machte. Die KI hatte zwei Münchner Verlage fälschlich mit Betrug",
-      "link": "https://the-decoder.de/muenchner-gericht-macht-google-fuer-ki-suchuebersichten-haftbar-google-geht-in-berufung/",
-      "date": "2026-06-19T09:41:22.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
