@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-06-21T22:31:07.665Z",
+  "lastUpdated": "2026-06-22T01:10:41.249Z",
   "news": [
+    {
+      "title": "Samsung Electronics brings ChatGPT and Codex to employees",
+      "description": "Samsung Electronics deploys ChatGPT Enterprise and Codex to employees worldwide, marking one of OpenAI’s largest enterprise AI rollouts.",
+      "link": "https://openai.com/index/samsung-electronics-chatgpt-codex-deployment",
+      "date": "2026-06-21T23:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
     {
       "title": "Bessere Noten dank KI: US-Studie zeigt Einsen-Inflation an Universitäten seit ChatGPT",
       "description": "Eine UC-Berkeley-Studie mit mehr als 500.000 Noten zeigt, dass Kurse mit Schreib- und Programmieraufgaben nach ChatGPTs Veröffentlichung deutlich bessere Noten vergeben. Der Effekt konzentriert sich a",
@@ -123,15 +132,6 @@
       "description": "OpenAI and Molecule.one show how a near-autonomous AI chemist using GPT-5.4 improved a key drug-making reaction, advancing medicinal chemistry research.",
       "link": "https://openai.com/index/ai-chemist-improves-reaction",
       "date": "2026-06-17T10:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "Introducing LifeSciBench",
-      "description": "Introducing LifeSciBench, an expert-authored, expert-reviewed benchmark for evaluating how AI systems handle real-world life science research tasks and decisions.",
-      "link": "https://openai.com/index/introducing-life-sci-bench",
-      "date": "2026-06-17T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
