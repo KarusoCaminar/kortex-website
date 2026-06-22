@@ -1,6 +1,69 @@
 {
-  "lastUpdated": "2026-06-22T12:05:03.425Z",
+  "lastUpdated": "2026-06-22T17:36:12.877Z",
   "news": [
+    {
+      "title": "Anthropic und Micron vereinbaren gemeinsame Entwicklung von Speicherarchitekturen für KI",
+      "description": "Micron beteiligt sich an Anthropics Serie-H-Finanzierungsrunde und wird im Gegenzug mehrjähriger Speicherlieferant für die Claude-Infrastruktur. Anthropic-Mitgründer Tom Brown bezeichnet Speicher als",
+      "link": "https://the-decoder.de/anthropic-und-micron-vereinbaren-gemeinsame-entwicklung-von-speicherarchitekturen-fuer-ki/",
+      "date": "2026-06-22T17:02:59.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "2 Gigawatt für KI: Microsoft plant einen seiner größten Rechenzentrums-Standorte in Texas",
+      "description": "Microsoft errichtet in Pecos, Texas, einen Rechenzentrums-Campus mit rund 2 Gigawatt Kapazität, eine der größten Einzelerweiterungen der Firmengeschichte. In einem offenen Brief verspricht Microsoft d",
+      "link": "https://the-decoder.de/2-gigawatt-fuer-ki-microsoft-plant-einen-seiner-groessten-rechenzentrums-standorte-in-texas/",
+      "date": "2026-06-22T16:22:54.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "ChatGPT zeigt künftig lizenzierte Getty-Bilder in der Suche an",
+      "description": "Getty Images hat eine mehrjährige Lizenzvereinbarung mit OpenAI geschlossen.\nDer Artikel ChatGPT zeigt künftig lizenzierte Getty-Bilder in der Suche an erschien zuerst auf The Decoder.",
+      "link": "https://the-decoder.de/chatgpt-zeigt-kuenftig-lizenzierte-getty-bilder-in-der-suche-an/",
+      "date": "2026-06-22T15:11:12.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Geheimdienste schlagen Alarm: KI, die Staaten lahmlegt, ist nur Monate entfernt",
+      "description": "Die Geheimdienste der Five Eyes warnen: KI-Modelle, die Regierungen und Unternehmen lahmlegen können, sind nur noch Monate entfernt.\nDer Artikel Geheimdienste schlagen Alarm: KI, die Staaten lahmlegt,",
+      "link": "https://the-decoder.de/geheimdienste-schlagen-alarm-ki-die-staaten-lahmlegt-ist-nur-monate-entfernt/",
+      "date": "2026-06-22T14:24:39.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Vibecoding wird zum neuen Stresstest für Softwarefirmen bei Übernahmen",
+      "description": "Um den Wettbewerbsvorteil von Übernahmekandidaten zu prüfen, lässt Bain & Company deren Software per Vibecoding nachbauen. Die KI-Repliken beeinflussen bereits konkrete Kaufentscheidungen.\nDer Artikel",
+      "link": "https://the-decoder.de/vibecoding-wird-zum-neuen-stresstest-fuer-softwarefirmen-bei-uebernahmen/",
+      "date": "2026-06-22T13:29:53.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Patch the Planet: a Daybreak initiative to support open source maintainers",
+      "description": "OpenAI introduces Patch the Planet, a Daybreak initiative helping open-source maintainers find, validate, and fix vulnerabilities with AI and expert review.",
+      "link": "https://openai.com/index/patch-the-planet",
+      "date": "2026-06-22T10:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
+      "title": "Daybreak: Tools for securing every organization in the world",
+      "description": "OpenAI introduces new Daybreak tools, including Codex Security and GPT-5.5-Cyber, to help organizations find, validate, and patch vulnerabilities at scale.",
+      "link": "https://openai.com/index/daybreak-securing-the-world",
+      "date": "2026-06-22T10:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
     {
       "title": "Samsung rollt ChatGPT und Codex für Mitarbeiter weltweit aus",
       "description": "Samsung Electronics rollt ChatGPT Enterprise und Codex für alle Mitarbeiter in Südkorea sowie alle Beschäftigten der Device-eXperience-Sparte (DX) weltweit aus.\nDer Artikel Samsung rollt ChatGPT und C",
@@ -47,60 +110,6 @@
       "language": "de"
     },
     {
-      "title": "AWS rüstet KI-Agenten mit Wissensgraph und automatischer Sicherheitsprüfung aus",
-      "description": "AWS hat auf dem hauseigenen Summit in New York zwei neue Dienste vorgestellt: Continuum soll Code-Schwachstellen automatisiert erkennen, priorisieren und beheben, Context liefert KI-Agenten über einen",
-      "link": "https://the-decoder.de/aws-ruestet-ki-agenten-mit-wissensgraph-und-automatischer-sicherheitspruefung-aus/",
-      "date": "2026-06-21T07:57:41.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Handelsriesen wollen KI-Werbung von Deepfake-Kennzeichnung des EU AI Act befreien",
-      "description": "Eurocommerce, der Handelsverband hinter Amazon, H&M und Ikea, will KI-generierte Werbung von den Transparenzpflichten des EU-AI-Act ausnehmen lassen. Das Argument: Ein KI-generiertes Wohnzimmerbild fü",
-      "link": "https://the-decoder.de/handelsriesen-wollen-ki-werbung-von-deepfake-kennzeichnung-des-eu-ai-act-befreien/",
-      "date": "2026-06-20T17:08:38.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "OpenAIs Codex kann jetzt Arbeitsabläufe aufzeichnen und als wiederverwendbare Skills selbstständig wiederholen",
-      "description": "OpenAI hat für seine Codex-App auf macOS die Funktion „Record & Replay\" veröffentlicht: Nutzer führen einen Arbeitsablauf einmal vor, Codex wandelt ihn in einen wiederverwendbaren \"Skill\" um und wiede",
-      "link": "https://the-decoder.de/openais-codex-kann-jetzt-arbeitsablaeufe-aufzeichnen-und-als-wiederverwendbare-skills-selbststaendig-wiederholen/",
-      "date": "2026-06-20T13:13:08.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "NYU-Finanzprofessor warnt: KI-Crash könnte schmerzhafter werden als das Platzen der Dotcom-Blase",
-      "description": "NYU-Finanzprofessor Aswath Damodaran hält einen möglichen KI-Crash für schmerzhafter als das Platzen der Dotcom-Blase, weil die Branche massiv schuldenfinanzierte physische Infrastruktur aufbaue statt",
-      "link": "https://the-decoder.de/nyu-finanzprofessor-warnt-ki-crash-koennte-schmerzhafter-werden-als-das-platzen-der-dotcom-blase/",
-      "date": "2026-06-20T12:10:57.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "KI-Pipeline Data2Story baut aus CSV-Dateien verifizierbare Datenartikel mit Grafiken und Quellenbelegen",
-      "description": "Sieben KI-Agenten, die wie eine Redaktion zusammenarbeiten: Der \"Data Journalist Agent\" von Oxford und Stanford verwandelt eine CSV-Datei in einen fertigen interaktiven Artikel mit Grafiken, Webrecher",
-      "link": "https://the-decoder.de/sieben-ki-agenten-automatisieren-datenjournalismus-und-leser-bevorzugen-das-ergebnis/",
-      "date": "2026-06-20T09:05:55.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "OpenAI macht ChatGPTs Aufgabenplanung schneller und übersichtlicher",
-      "description": "OpenAI baut die Planungsfunktion von ChatGPT aus: Eine neue \"Geplant\"-Seite in der Seitenleiste bündelt alle aktiven Aufgaben zentral: zum Einsehen, Pausieren oder Löschen. Rechercheaufgaben durchsuch",
-      "link": "https://the-decoder.de/openai-macht-chatgpts-aufgabenplanung-schneller-und-uebersichtlicher/",
-      "date": "2026-06-20T08:44:19.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "New usage analytics and updated spend controls for enterprises",
       "description": "OpenAI introduces new spend controls and usage analytics for ChatGPT Enterprise, helping organizations manage costs and scale AI with confidence.",
       "link": "https://openai.com/index/chatgpt-enterprise-spend-controls",
@@ -123,15 +132,6 @@
       "description": "Researchers used an OpenAI reasoning model to help diagnose rare diseases, identifying 18 new diagnoses in previously unsolved cases.",
       "link": "https://openai.com/index/diagnose-rare-childhood-diseases",
       "date": "2026-06-18T08:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "A near-autonomous AI chemist improves a challenging reaction in medicinal chemistry",
-      "description": "OpenAI and Molecule.one show how a near-autonomous AI chemist using GPT-5.4 improved a key drug-making reaction, advancing medicinal chemistry research.",
-      "link": "https://openai.com/index/ai-chemist-improves-reaction",
-      "date": "2026-06-17T10:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
