@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-06-22T05:57:00.467Z",
+  "lastUpdated": "2026-06-22T08:22:18.042Z",
   "news": [
+    {
+      "title": "KI-Schwarmintelligenz: Orchestrator Sakana Fugu soll Claude Mythos und Fable übertreffen",
+      "description": "Das japanische KI-Start-up Sakana AI stellt mit Fugu ein System vor, das mehrere KI-Modelle dynamisch koordiniert. Damit soll es mit führenden Modellen wie Anthropics Fable 5 mithalten können. Das Kon",
+      "link": "https://the-decoder.de/ki-schwarmintelligenz-orchestrator-sakana-fugu-soll-claude-mythos-und-fable-uebertreffen/",
+      "date": "2026-06-22T07:43:59.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Samsung Electronics brings ChatGPT and Codex to employees",
       "description": "Samsung Electronics deploys ChatGPT Enterprise and Codex to employees worldwide, marking one of OpenAI’s largest enterprise AI rollouts.",
@@ -87,15 +96,6 @@
       "description": "OpenAI hat im ersten Quartal 2026 bei 5,7 Milliarden Dollar Umsatz rund 3,7 Milliarden Dollar verbrannt – beide Werte haben sich gegenüber dem Vorjahr verdreifacht. Allein die aktienbasierte Mitarbeit",
       "link": "https://the-decoder.de/verdreifachter-umsatz-verdreifachter-cashburn-openais-verliert-93-milliarden-us-dollar-im-ersten-quartal/",
       "date": "2026-06-20T07:52:07.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Norwegen verbietet KI an Grundschulen: \"Unkritische KI-Nutzung lässt Schüler wichtige Lernschritte überspringen\"",
-      "description": "Norwegen verbietet generative KI-Tools ab Ende August weitgehend an Grundschulen. Kinder der Klassen 1 bis 7 sollen ohne KI lernen, in der Sekundarstufe ist nur beaufsichtigter Einsatz erlaubt. Premie",
-      "link": "https://the-decoder.de/norwegen-verbietet-ki-an-grundschulen-unkritische-ki-nutzung-laesst-schueler-wichtige-lernschritte-ueberspringen/",
-      "date": "2026-06-19T18:34:10.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
