@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-06-22T17:36:12.877Z",
+  "lastUpdated": "2026-06-22T19:12:40.180Z",
   "news": [
+    {
+      "title": "Google Deepmind macht Interactions API zum neuen Standard für Gemini-Modelle und Agenten",
+      "description": "Google Deepmind hat die Interactions-API als neuen Standard für Gemini-Modelle freigegeben. Sie ersetzt die bisherige generateContent-Schnittstelle und bringt ein vereinfachtes Schema mit typisierten",
+      "link": "https://the-decoder.de/google-deepmind-macht-interactions-api-zum-neuen-standard-fuer-gemini-modelle-und-agenten/",
+      "date": "2026-06-22T18:07:34.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Anthropic und Micron vereinbaren gemeinsame Entwicklung von Speicherarchitekturen für KI",
       "description": "Micron beteiligt sich an Anthropics Serie-H-Finanzierungsrunde und wird im Gegenzug mehrjähriger Speicherlieferant für die Claude-Infrastruktur. Anthropic-Mitgründer Tom Brown bezeichnet Speicher als",
@@ -47,18 +56,18 @@
       "language": "de"
     },
     {
-      "title": "Patch the Planet: a Daybreak initiative to support open source maintainers",
-      "description": "OpenAI introduces Patch the Planet, a Daybreak initiative helping open-source maintainers find, validate, and fix vulnerabilities with AI and expert review.",
-      "link": "https://openai.com/index/patch-the-planet",
+      "title": "Daybreak: Tools for securing every organization in the world",
+      "description": "OpenAI introduces new Daybreak tools, including Codex Security and GPT-5.5-Cyber, to help organizations find, validate, and patch vulnerabilities at scale.",
+      "link": "https://openai.com/index/daybreak-securing-the-world",
       "date": "2026-06-22T10:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
     },
     {
-      "title": "Daybreak: Tools for securing every organization in the world",
-      "description": "OpenAI introduces new Daybreak tools, including Codex Security and GPT-5.5-Cyber, to help organizations find, validate, and patch vulnerabilities at scale.",
-      "link": "https://openai.com/index/daybreak-securing-the-world",
+      "title": "Patch the Planet: a Daybreak initiative to support open source maintainers",
+      "description": "OpenAI introduces Patch the Planet, a Daybreak initiative helping open-source maintainers find, validate, and fix vulnerabilities with AI and expert review.",
+      "link": "https://openai.com/index/patch-the-planet",
       "date": "2026-06-22T10:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
@@ -96,15 +105,6 @@
       "description": "Eine UC-Berkeley-Studie mit mehr als 500.000 Noten zeigt, dass Kurse mit Schreib- und Programmieraufgaben nach ChatGPTs Veröffentlichung deutlich bessere Noten vergeben. Der Effekt konzentriert sich a",
       "link": "https://the-decoder.de/bessere-noten-dank-ki-us-studie-zeigt-einsen-inflation-an-universitaeten-seit-chatgpt/",
       "date": "2026-06-21T11:19:46.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "OpenAI-Chef Sam Altman hält Skalierung großer Sprachmodelle für lange nicht ausgereizt",
-      "description": "Sam Altman verteidigt bei einem Auftritt in Stanford die Skalierung großer Sprachmodelle und wehrt sich gegen LLM-Kritiker: Eine ganze Forschergeneration habe das Feld gebremst, weil sie zu sicher gew",
-      "link": "https://the-decoder.de/openai-chef-sam-altman-haelt-skalierung-grosser-sprachmodelle-fuer-lange-nicht-ausgereizt/",
-      "date": "2026-06-21T09:06:01.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
