@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-06-22T08:22:18.042Z",
+  "lastUpdated": "2026-06-22T12:05:03.425Z",
   "news": [
+    {
+      "title": "Samsung rollt ChatGPT und Codex für Mitarbeiter weltweit aus",
+      "description": "Samsung Electronics rollt ChatGPT Enterprise und Codex für alle Mitarbeiter in Südkorea sowie alle Beschäftigten der Device-eXperience-Sparte (DX) weltweit aus.\nDer Artikel Samsung rollt ChatGPT und C",
+      "link": "https://the-decoder.de/samsung-rollt-chatgpt-und-codex-fuer-mitarbeiter-weltweit-aus/",
+      "date": "2026-06-22T09:16:29.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "KI-Schwarmintelligenz: Orchestrator Sakana Fugu soll Claude Mythos und Fable übertreffen",
       "description": "Das japanische KI-Start-up Sakana AI stellt mit Fugu ein System vor, das mehrere KI-Modelle dynamisch koordiniert. Damit soll es mit führenden Modellen wie Anthropics Fable 5 mithalten können. Das Kon",
@@ -87,15 +96,6 @@
       "description": "OpenAI baut die Planungsfunktion von ChatGPT aus: Eine neue \"Geplant\"-Seite in der Seitenleiste bündelt alle aktiven Aufgaben zentral: zum Einsehen, Pausieren oder Löschen. Rechercheaufgaben durchsuch",
       "link": "https://the-decoder.de/openai-macht-chatgpts-aufgabenplanung-schneller-und-uebersichtlicher/",
       "date": "2026-06-20T08:44:19.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Verdreifachter Umsatz, verdreifachter Cashburn: OpenAIs verliert 9,3 Milliarden US-Dollar im ersten Quartal",
-      "description": "OpenAI hat im ersten Quartal 2026 bei 5,7 Milliarden Dollar Umsatz rund 3,7 Milliarden Dollar verbrannt – beide Werte haben sich gegenüber dem Vorjahr verdreifacht. Allein die aktienbasierte Mitarbeit",
-      "link": "https://the-decoder.de/verdreifachter-umsatz-verdreifachter-cashburn-openais-verliert-93-milliarden-us-dollar-im-ersten-quartal/",
-      "date": "2026-06-20T07:52:07.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
