@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-23T15:06:36.201Z",
+  "lastUpdated": "2026-06-23T16:54:31.411Z",
   "news": [
     {
       "title": "ByteDance knackt mit Videomodell Seedance 2.5 erstmals die 30-Sekunden-Marke",
@@ -92,18 +92,18 @@
       "language": "de"
     },
     {
-      "title": "Daybreak: Tools for securing every organization in the world",
-      "description": "OpenAI introduces new Daybreak tools, including Codex Security and GPT-5.5-Cyber, to help organizations find, validate, and patch vulnerabilities at scale.",
-      "link": "https://openai.com/index/daybreak-securing-the-world",
+      "title": "Patch the Planet: a Daybreak initiative to support open source maintainers",
+      "description": "OpenAI introduces Patch the Planet, a Daybreak initiative helping open-source maintainers find, validate, and fix vulnerabilities with AI and expert review.",
+      "link": "https://openai.com/index/patch-the-planet",
       "date": "2026-06-22T10:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
     },
     {
-      "title": "Patch the Planet: a Daybreak initiative to support open source maintainers",
-      "description": "OpenAI introduces Patch the Planet, a Daybreak initiative helping open-source maintainers find, validate, and fix vulnerabilities with AI and expert review.",
-      "link": "https://openai.com/index/patch-the-planet",
+      "title": "Daybreak: Tools for securing every organization in the world",
+      "description": "OpenAI introduces new Daybreak tools, including Codex Security and GPT-5.5-Cyber, to help organizations find, validate, and patch vulnerabilities at scale.",
+      "link": "https://openai.com/index/daybreak-securing-the-world",
       "date": "2026-06-22T10:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
