@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-06-23T16:54:31.411Z",
+  "lastUpdated": "2026-06-23T20:49:17.084Z",
   "news": [
+    {
+      "title": "How GPT-5 helped immunologist Derya Unutmaz solve a 3-year-old mystery",
+      "description": "GPT-5 Pro helped solve a 3-year-old immunology mystery, offering insights into T cell behavior. The breakthrough could support cancer and autoimmune research.",
+      "link": "https://openai.com/index/gpt-5-immunology-mystery",
+      "date": "2026-06-23T17:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
+      "title": "Helping build shared standards for advanced AI",
+      "description": "OpenAI helps build shared standards for advanced AI, supporting evaluation frameworks, safety practices, and global cooperation through the Appia Foundation.",
+      "link": "https://openai.com/index/helping-build-shared-standards-for-advanced-ai",
+      "date": "2026-06-23T13:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
     {
       "title": "ByteDance knackt mit Videomodell Seedance 2.5 erstmals die 30-Sekunden-Marke",
       "description": "Bei der FORCE-Konferenz von Volcano Engine stellte Bytedance fünf neue KI-Modelle vor. Im Mittelpunkt steht das Videomodell Seedance 2.5, das Anfang Juli starten soll.\nDer Artikel ByteDance knackt mit",
@@ -114,24 +132,6 @@
       "description": "Samsung Electronics deploys ChatGPT Enterprise and Codex to employees worldwide, marking one of OpenAI’s largest enterprise AI rollouts.",
       "link": "https://openai.com/index/samsung-electronics-chatgpt-codex-deployment",
       "date": "2026-06-21T23:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "New usage analytics and updated spend controls for enterprises",
-      "description": "OpenAI introduces new spend controls and usage analytics for ChatGPT Enterprise, helping organizations manage costs and scale AI with confidence.",
-      "link": "https://openai.com/index/chatgpt-enterprise-spend-controls",
-      "date": "2026-06-18T17:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "Improving health intelligence in ChatGPT",
-      "description": "Learn how GPT-5.5 Instant improves ChatGPT’s health and wellness responses with stronger reasoning, better context, clearer communication, and physician-informed evaluations.",
-      "link": "https://openai.com/index/improving-health-intelligence-in-chatgpt",
-      "date": "2026-06-18T11:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
