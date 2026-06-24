@@ -1,6 +1,33 @@
 {
-  "lastUpdated": "2026-06-24T07:20:26.230Z",
+  "lastUpdated": "2026-06-24T12:53:36.320Z",
   "news": [
+    {
+      "title": "KI-Text-Detektion durch Pangram: Sprachmodelle verraten sich durch uniforme Argumente",
+      "description": "Sprachmodelle schreiben grammatikalisch sauber und argumentieren oft schlüssiger als viele Menschen. Doch bittet man sie um 100 Argumente zu einem Thema, ähneln sich die Ergebnisse stark. Menschliche",
+      "link": "https://the-decoder.de/ki-text-detektion-durch-pangram-sprachmodelle-verraten-sich-durch-uniforme-argumente/",
+      "date": "2026-06-24T10:20:31.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Claude Tag: Anthropic lässt seine KI per @Claude in Slack mitarbeiten",
+      "description": "Mit Claude Tag lässt sich Anthropics KI per @Claude in Slack-Channels einbinden und mit Aufgaben betrauen. Intern erstellt das Werkzeug nach Unternehmensangaben bereits 65 Prozent des Codes im Produkt",
+      "link": "https://the-decoder.de/claude-tag-anthropic-laesst-seine-ki-per-claude-in-slack-mitarbeiten/",
+      "date": "2026-06-24T09:22:01.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Neue Dokumentenerkennung von Mistral soll die Konkurrenz in 72 Prozent der Fälle schlagen",
+      "description": "Mistral AI hat OCR 4 vorgestellt, ein neues Modell, das Text aus Dokumenten wie PDFs, Word- und PowerPoint-Dateien ausliest.\nDer Artikel Neue Dokumentenerkennung von Mistral soll die Konkurrenz in 72",
+      "link": "https://the-decoder.de/neue-dokumentenerkennung-von-mistral-soll-die-konkurrenz-in-72-prozent-der-faelle-schlagen/",
+      "date": "2026-06-24T09:06:40.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "How GPT-5 helped immunologist Derya Unutmaz solve a 3-year-old mystery",
       "description": "GPT-5 Pro helped solve a 3-year-old immunology mystery, offering insights into T cell behavior. The breakthrough could support cancer and autoimmune research.",
@@ -92,24 +119,6 @@
       "language": "de"
     },
     {
-      "title": "ChatGPT zeigt künftig lizenzierte Getty-Bilder in der Suche an",
-      "description": "Getty Images hat eine mehrjährige Lizenzvereinbarung mit OpenAI geschlossen.\nDer Artikel ChatGPT zeigt künftig lizenzierte Getty-Bilder in der Suche an erschien zuerst auf The Decoder.",
-      "link": "https://the-decoder.de/chatgpt-zeigt-kuenftig-lizenzierte-getty-bilder-in-der-suche-an/",
-      "date": "2026-06-22T15:11:12.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Geheimdienste schlagen Alarm: KI, die Staaten lahmlegt, ist nur Monate entfernt",
-      "description": "Die Geheimdienste der Five Eyes warnen: KI-Modelle, die Regierungen und Unternehmen lahmlegen können, sind nur noch Monate entfernt.\nDer Artikel Geheimdienste schlagen Alarm: KI, die Staaten lahmlegt,",
-      "link": "https://the-decoder.de/geheimdienste-schlagen-alarm-ki-die-staaten-lahmlegt-ist-nur-monate-entfernt/",
-      "date": "2026-06-22T14:24:39.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "Daybreak: Tools for securing every organization in the world",
       "description": "OpenAI introduces new Daybreak tools, including Codex Security and GPT-5.5-Cyber, to help organizations find, validate, and patch vulnerabilities at scale.",
       "link": "https://openai.com/index/daybreak-securing-the-world",
@@ -123,15 +132,6 @@
       "description": "OpenAI introduces Patch the Planet, a Daybreak initiative helping open-source maintainers find, validate, and fix vulnerabilities with AI and expert review.",
       "link": "https://openai.com/index/patch-the-planet",
       "date": "2026-06-22T10:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "Samsung Electronics brings ChatGPT and Codex to employees",
-      "description": "Samsung Electronics deploys ChatGPT Enterprise and Codex to employees worldwide, marking one of OpenAI’s largest enterprise AI rollouts.",
-      "link": "https://openai.com/index/samsung-electronics-chatgpt-codex-deployment",
-      "date": "2026-06-21T23:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
