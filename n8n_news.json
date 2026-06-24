@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-06-24T18:41:28.337Z",
+  "lastUpdated": "2026-06-24T22:32:12.786Z",
   "news": [
+    {
+      "title": "OpenAI verbessert ChatGPT für natürlichere Gespräche und bessere Kontexterkennung",
+      "description": "OpenAI aktualisiert GPT-5.5 Instant, das meistgenutzte Modell in ChatGPT, mit Fokus auf bessere Gesprächsqualität. Das Modell soll nun Ziele hinter Fragen besser erkennen, Kontext über mehrere Runden",
+      "link": "https://the-decoder.de/openai-verbessert-chatgpt-fuer-natuerlichere-gespraeche-und-bessere-kontexterkennung/",
+      "date": "2026-06-24T19:47:23.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Thinking to recall: How reasoning unlocks parametric knowledge in LLMs",
       "description": "Generative AI",
@@ -114,15 +123,6 @@
       "description": "Cursor hat neue Details zu seinem ersten komplett selbst trainierten KI-Modell genannt und zwei neue Produkte angekündigt.\nDer Artikel Neues Modell, eigene Git-Plattform und Mobile-App von Cursor ange",
       "link": "https://the-decoder.de/neues-modell-eigene-git-plattform-und-mobile-app-von-cursor-angekuendigt/",
       "date": "2026-06-23T11:42:40.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "KI-Schwarmintelligenz: Orchestrator Sakana Fugu soll Claude Mythos und Fable übertreffen",
-      "description": "Das japanische KI-Start-up Sakana AI stellt mit Fugu ein System vor, das mehrere KI-Modelle dynamisch koordiniert. Damit soll es mit führenden Modellen wie Anthropics Fable 5 mithalten können. Das Kon",
-      "link": "https://the-decoder.de/ki-schwarmintelligenz-orchestrator-sakana-fugu-soll-claude-mythos-und-fable-uebertreffen/",
-      "date": "2026-06-23T09:50:59.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
