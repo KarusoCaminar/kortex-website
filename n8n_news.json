@@ -1,6 +1,33 @@
 {
-  "lastUpdated": "2026-06-25T12:54:55.006Z",
+  "lastUpdated": "2026-06-25T16:51:30.730Z",
   "news": [
+    {
+      "title": "KI-Chatbots wie ChatGPT antworten bei politischen Fragen weiterhin deutlich linkslastig",
+      "description": "Eine systematische Untersuchung der Washington Post zeigt: Die meisten großen KI-Chatbots antworten bei politischen Fragen überwiegend linkslastig. OpenAIs GPT-5.5 lieferte in 80 Prozent der Fälle aus",
+      "link": "https://the-decoder.de/ki-chatbots-wie-chatgpt-antworten-bei-politischen-fragen-weiterhin-deutlich-linkslastig/",
+      "date": "2026-06-25T15:26:32.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Wie generative KI die Katastrophenmodellierung der Versicherer umkrempelt",
+      "description": "Diffusionsmodelle erzeugen Zehntausende plausibler Wetterereignisse, für die historische Daten fehlen. Versicherer hoffen auf präzisere Risikobewertung, Forscher warnen vor Halluzinationen.\nDer Artike",
+      "link": "https://the-decoder.de/wie-generative-ki-die-katastrophenmodellierung-der-versicherer-umkrempelt/",
+      "date": "2026-06-25T13:42:14.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Elon Musks Grok: Mehr als die Hälfte des Traffics geht angeblich auf Pornografie zurück",
+      "description": "Laut zwei ehemaligen xAI-Mitarbeitern entfällt weit mehr als die Hälfte des gesamten Grok-Traffics auf pornografische Inhalte. xAI baut diese Nische gezielt aus, während OpenAI, Anthropic und Google E",
+      "link": "https://the-decoder.de/elon-musks-grok-mehr-als-die-haelfte-des-traffics-geht-angeblich-auf-pornografie-zurueck/",
+      "date": "2026-06-25T13:30:46.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Authors-Guild-Test zeigt: Pangram und Grammarly erkennen menschliche Texte zuverlässig als solche",
       "description": "Die Authors Guild hat fünf KI-Detektoren mit menschlich verfassten Texten getestet: Pangram und Grammarly erkannten alle korrekt, während Sidekicker.ai jeden Artikel fälschlich als KI-generiert einstu",
@@ -78,33 +105,6 @@
       "description": "Figma baut seinen Design-Canvas auf der Config 2026 mit Code, Animation, Shadern und KI-Agenten zur Komplettumgebung aus. Die Intelligenz dahinter stammt von externen API-Anbietern und drückt die Brut",
       "link": "https://the-decoder.de/figma-config-2026-der-canvas-kann-jetzt-alles-die-ki-dahinter-ist-aber-weiter-gemietet/",
       "date": "2026-06-24T16:16:08.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Chinas offene Günstig-KI könnte zur größten Gefahr für die westliche KI-Blase werden",
-      "description": "GLM-5.2 von Zhipu AI erreicht in einem Snowflake-Praxisbenchmark mit 103 Coding-Aufgaben nahezu das Niveau von Claude Opus 4.7 bei einem Fünftel der Kosten pro Output-Token. Das chinesische Modell ver",
-      "link": "https://the-decoder.de/chinas-offene-guenstig-ki-koennte-zur-groessten-gefahr-fuer-die-westliche-ki-blase-werden/",
-      "date": "2026-06-24T15:37:37.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "OpenAI und Broadcom stellen eigenen Inferenz-Chip \"Jalapeño\" vor",
-      "description": "OpenAI erweitert seinen Tech-Stack um eigene Hardware. Der gemeinsam mit Broadcom entwickelte Chip \"Jalapeño\" ist auf die Inferenz großer Sprachmodelle zugeschnitten und soll Ende 2026 in großem Maßst",
-      "link": "https://the-decoder.de/openai-und-broadcom-stellen-eigenen-inferenz-chip-jalapeno-vor/",
-      "date": "2026-06-24T13:41:56.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Im Gespräch mit OpenAIs DeployCo-CTO: Wie die Konzerntochter den globalen B2B-Markt für sich gewinnen will",
-      "description": "OpenAI-Deployment-Chef Arnaud Fournier erklärt im Interview, wie DeployCo mit eigenen Ingenieuren KI tief in Konzerne einbauen will. Er spricht über explosives Codex-Wachstum, den Rückkanal von Kunden",
-      "link": "https://the-decoder.de/im-gespraech-mit-openais-deployco-cto-wie-die-konzerntochter-den-globalen-b2b-markt-fuer-sich-gewinnen-will/",
-      "date": "2026-06-24T13:00:13.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
