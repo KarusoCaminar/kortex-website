@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-06-25T09:13:31.120Z",
+  "lastUpdated": "2026-06-25T11:02:20.556Z",
   "news": [
+    {
+      "title": "Authors-Guild-Test zeigt: Pangram und Grammarly erkennen menschliche Texte zuverlässig als solche",
+      "description": "Die Authors Guild hat fünf KI-Detektoren mit menschlich verfassten Texten getestet: Pangram und Grammarly erkannten alle korrekt, während Sidekicker.ai jeden Artikel fälschlich als KI-generiert einstu",
+      "link": "https://the-decoder.de/authors-guild-test-zeigt-pangram-und-grammarly-erkennen-menschliche-texte-zuverlaessig-als-solche/",
+      "date": "2026-06-25T10:47:37.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Mitarbeiter warnen: Metas KI-Moderation kommt zu schnell",
       "description": "Meta hat 2025 bereits rund die Hälfte aller menschlichen Moderationsanfragen durch große Sprachmodelle ersetzt und will diese Quote für manche Inhaltsarten bis Jahresende auf über 90 Prozent drücken.",
@@ -96,15 +105,6 @@
       "description": "OpenAI-Deployment-Chef Arnaud Fournier erklärt im Interview, wie DeployCo mit eigenen Ingenieuren KI tief in Konzerne einbauen will. Er spricht über explosives Codex-Wachstum, den Rückkanal von Kunden",
       "link": "https://the-decoder.de/im-gespraech-mit-openais-deployco-cto-wie-die-konzerntochter-den-globalen-b2b-markt-fuer-sich-gewinnen-will/",
       "date": "2026-06-24T13:00:13.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "KI-Text-Detektion durch Pangram: Sprachmodelle verraten sich durch uniforme Argumente",
-      "description": "Sprachmodelle schreiben grammatikalisch sauber und argumentieren oft schlüssiger als viele Menschen. Doch bittet man sie um 100 Argumente zu einem Thema, ähneln sich die Ergebnisse stark. Menschliche",
-      "link": "https://the-decoder.de/ki-text-detektion-durch-pangram-sprachmodelle-verraten-sich-durch-uniforme-argumente/",
-      "date": "2026-06-24T10:20:31.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
