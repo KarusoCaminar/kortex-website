@@ -1,6 +1,51 @@
 {
-  "lastUpdated": "2026-06-25T05:27:12.285Z",
+  "lastUpdated": "2026-06-25T09:13:31.120Z",
   "news": [
+    {
+      "title": "Mitarbeiter warnen: Metas KI-Moderation kommt zu schnell",
+      "description": "Meta hat 2025 bereits rund die Hälfte aller menschlichen Moderationsanfragen durch große Sprachmodelle ersetzt und will diese Quote für manche Inhaltsarten bis Jahresende auf über 90 Prozent drücken.",
+      "link": "https://the-decoder.de/mitarbeiter-warnen-metas-ki-moderation-kommt-zu-schnell/",
+      "date": "2026-06-25T09:11:19.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Gemini 3.5 Flash kann jetzt Computer, Browser und Smartphones selbstständig steuern",
+      "description": "Google integriert \"Computer Use\" direkt in Gemini 3.5 Flash: Das Modell kann nun eigenständig Computer, Browser und mobile Geräte bedienen. Im OSWorld-Benchmark erreicht es 78,4 Punkte und liegt damit",
+      "link": "https://the-decoder.de/gemini-3-5-flash-kann-jetzt-computer-browser-und-smartphones-selbststaendig-steuern/",
+      "date": "2026-06-25T08:55:46.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Weitere Gemini-Mitentwickler wollen Google in Richtung Anthropic verlassen",
+      "description": "Google verliert wohl weiter wichtige KI-Forscher an Konkurrenten.\nDer Artikel Weitere Gemini-Mitentwickler wollen Google in Richtung Anthropic verlassen erschien zuerst auf The Decoder.",
+      "link": "https://the-decoder.de/weitere-gemini-mitentwickler-wollen-google-in-richtung-anthropic-verlassen/",
+      "date": "2026-06-25T08:41:32.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Dragonfly C1000: Qualcomms neuer Prozessor für KI-Agenten soll ab 2028 bei Meta laufen",
+      "description": "Qualcomm steigt mit einem eigenen Prozessor namens Dragonfly C1000 in den Rechenzentrumsmarkt ein.\nDer Artikel Dragonfly C1000: Qualcomms neuer Prozessor für KI-Agenten soll ab 2028 bei Meta laufen er",
+      "link": "https://the-decoder.de/dragonfly-c1000-qualcomms-neuer-prozessor-fuer-ki-agenten-soll-ab-2028-bei-meta-laufen/",
+      "date": "2026-06-25T08:31:21.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "How agents are transforming work",
+      "description": "A new OpenAI research paper shows how AI agents are transforming work, enabling longer, more complex tasks and expanding productivity across roles.",
+      "link": "https://openai.com/index/how-agents-are-transforming-work",
+      "date": "2026-06-25T02:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
     {
       "title": "OpenAI verbessert ChatGPT für natürlichere Gespräche und bessere Kontexterkennung",
       "description": "OpenAI aktualisiert GPT-5.5 Instant, das meistgenutzte Modell in ChatGPT, mit Fokus auf bessere Gesprächsqualität. Das Modell soll nun Ziele hinter Fragen besser erkennen, Kontext über mehrere Runden",
@@ -65,24 +110,6 @@
       "language": "de"
     },
     {
-      "title": "Claude Tag: Anthropic lässt seine KI per @Claude in Slack mitarbeiten",
-      "description": "Mit Claude Tag lässt sich Anthropics KI per @Claude in Slack-Channels einbinden und mit Aufgaben betrauen. Intern erstellt das Werkzeug nach Unternehmensangaben bereits 65 Prozent des Codes im Produkt",
-      "link": "https://the-decoder.de/claude-tag-anthropic-laesst-seine-ki-per-claude-in-slack-mitarbeiten/",
-      "date": "2026-06-24T09:22:01.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Neue Dokumentenerkennung von Mistral soll die Konkurrenz in 72 Prozent der Fälle schlagen",
-      "description": "Mistral AI hat OCR 4 vorgestellt, ein neues Modell, das Text aus Dokumenten wie PDFs, Word- und PowerPoint-Dateien ausliest.\nDer Artikel Neue Dokumentenerkennung von Mistral soll die Konkurrenz in 72",
-      "link": "https://the-decoder.de/neue-dokumentenerkennung-von-mistral-soll-die-konkurrenz-in-72-prozent-der-faelle-schlagen/",
-      "date": "2026-06-24T09:06:40.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "OpenAI and Broadcom unveil LLM-optimized inference chip",
       "description": "OpenAI and Broadcom introduce Jalapeño, a custom AI chip built for LLM inference to improve performance, efficiency, and scale across AI systems.",
       "link": "https://openai.com/index/openai-broadcom-jalapeno-inference-chip",
@@ -105,33 +132,6 @@
       "description": "OpenAI helps build shared standards for advanced AI, supporting evaluation frameworks, safety practices, and global cooperation through the Appia Foundation.",
       "link": "https://openai.com/index/helping-build-shared-standards-for-advanced-ai",
       "date": "2026-06-23T13:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "ByteDance knackt mit Videomodell Seedance 2.5 erstmals die 30-Sekunden-Marke",
-      "description": "Bei der FORCE-Konferenz von Volcano Engine stellte Bytedance fünf neue KI-Modelle vor. Im Mittelpunkt steht das Videomodell Seedance 2.5, das Anfang Juli starten soll.\nDer Artikel ByteDance knackt mit",
-      "link": "https://the-decoder.de/bytedance-knackt-mit-videomodell-seedance-2-5-erstmals-die-30-sekunden-marke/",
-      "date": "2026-06-23T12:08:35.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Neues Modell, eigene Git-Plattform und Mobile-App von Cursor angekündigt",
-      "description": "Cursor hat neue Details zu seinem ersten komplett selbst trainierten KI-Modell genannt und zwei neue Produkte angekündigt.\nDer Artikel Neues Modell, eigene Git-Plattform und Mobile-App von Cursor ange",
-      "link": "https://the-decoder.de/neues-modell-eigene-git-plattform-und-mobile-app-von-cursor-angekuendigt/",
-      "date": "2026-06-23T11:42:40.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "How Omio is building the future of conversational travel",
-      "description": "Discover how Omio uses OpenAI to power conversational travel experiences, accelerate product development, and transform into an AI-native company.",
-      "link": "https://openai.com/index/omio",
-      "date": "2026-06-23T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
