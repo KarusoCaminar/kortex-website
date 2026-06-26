@@ -1,6 +1,42 @@
 {
-  "lastUpdated": "2026-06-26T12:51:58.667Z",
+  "lastUpdated": "2026-06-26T20:39:09.482Z",
   "news": [
+    {
+      "title": "Accelerating Gemini Nano models on Pixel with frozen Multi-Token Prediction",
+      "description": "Machine Intelligence",
+      "link": "https://research.google/blog/accelerating-gemini-nano-models-on-pixel-with-frozen-multi-token-prediction/",
+      "date": "2026-06-26T18:30:00.000Z",
+      "source": "Google AI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
+      "title": "Antwort auf Claude Mythos: OpenAI startet GPT-5.6 Sol, doch die US-Regierung bremst den Zugang",
+      "description": "OpenAI stellt mit GPT-5.6 Sol ein neues Flaggschiffmodell vor, das Anthropics Claude Mythos 5 in Coding-Benchmarks übertreffen soll. Der Zugang bleibt auf Druck der US-Regierung vorerst auf ausgewählt",
+      "link": "https://the-decoder.de/openai-stellt-gpt-5-6-sol-vor-und-uebertrifft-claude-mythos-in-zentralen-benchmarks/",
+      "date": "2026-06-26T18:03:01.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "19 Tage ohne menschliche Hilfe: KI-Benchmark MirrorCode lässt Modelle tagelang autonom programmieren",
+      "description": "Epoch AI testet mit dem Benchmark MirrorCode, ob KI-Modelle komplette Programme ohne Zugang zum Originalcode nachbauen können. Claude Opus 4.7 führt mit 56 Prozent Lösungsrate und reimplementierte ein",
+      "link": "https://the-decoder.de/19-tage-ohne-menschliche-hilfe-ki-benchmark-mirrorcode-laesst-modelle-tagelang-autonom-programmieren/",
+      "date": "2026-06-26T17:07:27.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "KI-Startup spart Millionen: Lindy wechselt komplett von Claude zu Deepseek",
+      "description": "Das KI-Startup Lindy wechselte komplett von Claude zu Deepseek, weil die KI-Kosten die Personalkosten überstiegen. CEO Flo Crivello nennt es \"eine Frage des Überlebens\".\nDer Artikel KI-Startup spart M",
+      "link": "https://the-decoder.de/ki-startup-spart-millionen-lindy-wechselt-komplett-von-claude-zu-deepseek/",
+      "date": "2026-06-26T14:50:26.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "OpenAI verschiebt Börsengang offenbar auf 2027, SoftBank-Aktie stürzt ab",
       "description": "Berater raten OpenAI, mit dem IPO bis nächstes Jahr zu warten. Auslöser sind volatile Tech-Märkte und die schwache Performance von SpaceX nach dessen Rekord-Börsengang. SoftBank, einer der größten Gel",
@@ -18,6 +54,15 @@
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
+    },
+    {
+      "title": "Previewing GPT-5.6 Sol: a next-generation model",
+      "description": "OpenAI previews GPT-5.6 Sol, a next-generation model with stronger capabilities in coding, science, and cybersecurity, paired with its most advanced safety stack.",
+      "link": "https://openai.com/index/previewing-gpt-5-6-sol",
+      "date": "2026-06-26T10:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
     },
     {
       "title": "Linux Foundation startet Industrieallianz gegen KI-gestützte Angriffe auf Open Source",
@@ -65,33 +110,6 @@
       "language": "de"
     },
     {
-      "title": "Authors-Guild-Test zeigt: Pangram und Grammarly erkennen menschliche Texte zuverlässig als solche",
-      "description": "Die Authors Guild hat fünf KI-Detektoren mit menschlich verfassten Texten getestet: Pangram und Grammarly erkannten alle korrekt, während Sidekicker.ai jeden Artikel fälschlich als KI-generiert einstu",
-      "link": "https://the-decoder.de/authors-guild-test-zeigt-pangram-und-grammarly-erkennen-menschliche-texte-zuverlaessig-als-solche/",
-      "date": "2026-06-25T10:47:37.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Mitarbeiter warnen: Metas KI-Moderation kommt zu schnell",
-      "description": "Meta hat 2025 bereits rund die Hälfte aller menschlichen Moderationsanfragen durch große Sprachmodelle ersetzt und will diese Quote für manche Inhaltsarten bis Jahresende auf über 90 Prozent drücken.",
-      "link": "https://the-decoder.de/mitarbeiter-warnen-metas-ki-moderation-kommt-zu-schnell/",
-      "date": "2026-06-25T09:11:19.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Gemini 3.5 Flash kann jetzt Computer, Browser und Smartphones selbstständig steuern",
-      "description": "Google integriert \"Computer Use\" direkt in Gemini 3.5 Flash: Das Modell kann nun eigenständig Computer, Browser und mobile Geräte bedienen. Im OSWorld-Benchmark erreicht es 78,4 Punkte und liegt damit",
-      "link": "https://the-decoder.de/gemini-3-5-flash-kann-jetzt-computer-browser-und-smartphones-selbststaendig-steuern/",
-      "date": "2026-06-25T08:55:46.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "How agents are transforming work",
       "description": "A new OpenAI research paper shows how AI agents are transforming work, enabling longer, more complex tasks and expanding productivity across roles.",
       "link": "https://openai.com/index/how-agents-are-transforming-work",
@@ -114,24 +132,6 @@
       "description": "OpenAI and Broadcom introduce Jalapeño, a custom AI chip built for LLM inference to improve performance, efficiency, and scale across AI systems.",
       "link": "https://openai.com/index/openai-broadcom-jalapeno-inference-chip",
       "date": "2026-06-24T06:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "How GPT-5 helped immunologist Derya Unutmaz solve a 3-year-old mystery",
-      "description": "GPT-5 Pro helped solve a 3-year-old immunology mystery, offering insights into T cell behavior. The breakthrough could support cancer and autoimmune research.",
-      "link": "https://openai.com/index/gpt-5-immunology-mystery",
-      "date": "2026-06-23T17:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "Helping build shared standards for advanced AI",
-      "description": "OpenAI helps build shared standards for advanced AI, supporting evaluation frameworks, safety practices, and global cooperation through the Appia Foundation.",
-      "link": "https://openai.com/index/helping-build-shared-standards-for-advanced-ai",
-      "date": "2026-06-23T13:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
