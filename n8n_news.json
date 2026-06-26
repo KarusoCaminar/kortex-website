@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-06-26T09:13:42.610Z",
+  "lastUpdated": "2026-06-26T11:05:40.714Z",
   "news": [
+    {
+      "title": "Linux Foundation startet Industrieallianz gegen KI-gestützte Angriffe auf Open Source",
+      "description": "Mit Akrites bündeln rund zwanzig Tech-Konzerne, KI-Labore und Banken ihre Kräfte, um Schwachstellen in kritischer Open-Source-Software zu schließen, bevor KI-Werkzeuge sie ausnutzen.\nDer Artikel Linux",
+      "link": "https://the-decoder.de/linux-foundation-startet-industrieallianz-gegen-ki-gestuetzte-angriffe-auf-open-source/",
+      "date": "2026-06-26T09:23:05.000Z",
+      "source": "The Decoder",
+      "category": "industrie-4.0",
+      "language": "de"
+    },
     {
       "title": "US-Regierung lässt OpenAI GPT 5.6 nur mit Genehmigung \"Kunde für Kunde\" veröffentlichen",
       "description": "OpenAI wird sein neues Modell GPT 5.6 auf Wunsch der US-Regierung zunächst nur ausgewählten Partnern zugänglich machen: Der Zugang wird \"Kunde für Kunde\" genehmigt. CEO Sam Altman nannte das Vorgehen",
@@ -90,15 +99,6 @@
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
-    },
-    {
-      "title": "OpenAI verbessert ChatGPT für natürlichere Gespräche und bessere Kontexterkennung",
-      "description": "OpenAI aktualisiert GPT-5.5 Instant, das meistgenutzte Modell in ChatGPT, mit Fokus auf bessere Gesprächsqualität. Das Modell soll nun Ziele hinter Fragen besser erkennen, Kontext über mehrere Runden",
-      "link": "https://the-decoder.de/openai-verbessert-chatgpt-fuer-natuerlichere-gespraeche-und-bessere-kontexterkennung/",
-      "date": "2026-06-24T19:47:23.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
     },
     {
       "title": "Thinking to recall: How reasoning unlocks parametric knowledge in LLMs",
