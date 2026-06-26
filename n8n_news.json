@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-06-26T11:05:40.714Z",
+  "lastUpdated": "2026-06-26T12:51:58.667Z",
   "news": [
+    {
+      "title": "OpenAI verschiebt Börsengang offenbar auf 2027, SoftBank-Aktie stürzt ab",
+      "description": "Berater raten OpenAI, mit dem IPO bis nächstes Jahr zu warten. Auslöser sind volatile Tech-Märkte und die schwache Performance von SpaceX nach dessen Rekord-Börsengang. SoftBank, einer der größten Gel",
+      "link": "https://the-decoder.de/openai-verschiebt-boersengang-offenbar-auf-2027-softbank-aktie-stuerzt-ab/",
+      "date": "2026-06-26T12:23:53.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Anthropic braucht dank KI keine Junioren mehr und warnt vor einem Wirtschaftsschock, wenn andere Branchen folgen",
+      "description": "\"Rendite von Intuition\": Warum Anthropic keine Junior-Ingenieure mehr braucht und vor einem Wirtschaftsschock warnt.\nDer Artikel Anthropic braucht dank KI keine Junioren mehr und warnt vor einem Wirts",
+      "link": "https://the-decoder.de/anthropic-braucht-dank-ki-keine-junioren-mehr-und-warnt-vor-einem-wirtschaftsschock-wenn-andere-branchen-folgen/",
+      "date": "2026-06-26T11:10:07.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Linux Foundation startet Industrieallianz gegen KI-gestützte Angriffe auf Open Source",
       "description": "Mit Akrites bündeln rund zwanzig Tech-Konzerne, KI-Labore und Banken ihre Kräfte, um Schwachstellen in kritischer Open-Source-Software zu schließen, bevor KI-Werkzeuge sie ausnutzen.\nDer Artikel Linux",
@@ -69,24 +87,6 @@
       "description": "Google integriert \"Computer Use\" direkt in Gemini 3.5 Flash: Das Modell kann nun eigenständig Computer, Browser und mobile Geräte bedienen. Im OSWorld-Benchmark erreicht es 78,4 Punkte und liegt damit",
       "link": "https://the-decoder.de/gemini-3-5-flash-kann-jetzt-computer-browser-und-smartphones-selbststaendig-steuern/",
       "date": "2026-06-25T08:55:46.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Weitere Gemini-Mitentwickler wollen Google in Richtung Anthropic verlassen",
-      "description": "Google verliert wohl weiter wichtige KI-Forscher an Konkurrenten.\nDer Artikel Weitere Gemini-Mitentwickler wollen Google in Richtung Anthropic verlassen erschien zuerst auf The Decoder.",
-      "link": "https://the-decoder.de/weitere-gemini-mitentwickler-wollen-google-in-richtung-anthropic-verlassen/",
-      "date": "2026-06-25T08:41:32.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Dragonfly C1000: Qualcomms neuer Prozessor für KI-Agenten soll ab 2028 bei Meta laufen",
-      "description": "Qualcomm steigt mit einem eigenen Prozessor namens Dragonfly C1000 in den Rechenzentrumsmarkt ein.\nDer Artikel Dragonfly C1000: Qualcomms neuer Prozessor für KI-Agenten soll ab 2028 bei Meta laufen er",
-      "link": "https://the-decoder.de/dragonfly-c1000-qualcomms-neuer-prozessor-fuer-ki-agenten-soll-ab-2028-bei-meta-laufen/",
-      "date": "2026-06-25T08:31:21.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
