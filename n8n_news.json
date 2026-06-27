@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-06-27T14:36:54.392Z",
+  "lastUpdated": "2026-06-27T16:28:51.121Z",
   "news": [
+    {
+      "title": "Anthropic-Umfrage: Jeder zweite Claude-Nutzer sagt, dass KI schon die Hälfte seiner Arbeit erledigen kann",
+      "description": "Laut einer Anthropic-Umfrage unter rund 9.700 Claude-Nutzern sieht knapp die Hälfte die KI bereits heute bei mindestens 50 Prozent ihrer Arbeitsaufgaben als einsetzbar. In zwölf Monaten erwarten 26 Pr",
+      "link": "https://the-decoder.de/anthropic-umfrage-jeder-zweite-claude-nutzer-sagt-dass-ki-schon-die-haelfte-seiner-arbeit-erledigen-kann/",
+      "date": "2026-06-27T15:15:59.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "US-Bank J.P. Morgan sieht eine Menge roter Flaggen am KI-Finanzmarkt",
       "description": "J.P. Morgan warnt vor wachsenden Risiken am KI-Finanzmarkt: 42 KI-Unternehmen im S&P 500 treiben 65 bis 80 Prozent der Gewinne des gesamten Index. Die Halbleiter-Rallye zeige technische Muster wie wäh",
@@ -87,15 +96,6 @@
       "description": "Berater raten OpenAI, mit dem IPO bis nächstes Jahr zu warten. Auslöser sind volatile Tech-Märkte und die schwache Performance von SpaceX nach dessen Rekord-Börsengang. SoftBank, einer der größten Gel",
       "link": "https://the-decoder.de/openai-verschiebt-boersengang-offenbar-auf-2027-softbank-aktie-stuerzt-ab/",
       "date": "2026-06-26T12:23:53.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Anthropic braucht dank KI keine Junioren mehr und warnt vor einem Wirtschaftsschock, wenn andere Branchen folgen",
-      "description": "\"Rendite von Intuition\": Warum Anthropic keine Junior-Ingenieure mehr braucht und vor einem Wirtschaftsschock warnt.\nDer Artikel Anthropic braucht dank KI keine Junioren mehr und warnt vor einem Wirts",
-      "link": "https://the-decoder.de/anthropic-braucht-dank-ki-keine-junioren-mehr-und-warnt-vor-einem-wirtschaftsschock-wenn-andere-branchen-folgen/",
-      "date": "2026-06-26T11:10:07.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
