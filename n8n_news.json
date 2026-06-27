@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-06-27T16:28:51.121Z",
+  "lastUpdated": "2026-06-27T18:31:12.381Z",
   "news": [
+    {
+      "title": "Anthropics Fable 5 soll zeitnah wieder online gehen",
+      "description": "Anthropics KI-Modell Fable 5 könnte laut Axios in wenigen Tagen wieder verfügbar sein: Die Trump-Regierung steht offenbar kurz vor der Aufhebung der Beschränkungen. Das Modell war am 12. Juni wegen Si",
+      "link": "https://the-decoder.de/anthropics-fable-5-soll-zeitnah-wieder-online-gehen/",
+      "date": "2026-06-27T16:59:06.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Anthropic-Umfrage: Jeder zweite Claude-Nutzer sagt, dass KI schon die Hälfte seiner Arbeit erledigen kann",
       "description": "Laut einer Anthropic-Umfrage unter rund 9.700 Claude-Nutzern sieht knapp die Hälfte die KI bereits heute bei mindestens 50 Prozent ihrer Arbeitsaufgaben als einsetzbar. In zwölf Monaten erwarten 26 Pr",
@@ -87,15 +96,6 @@
       "description": "Das KI-Startup Lindy wechselte komplett von Claude zu Deepseek, weil die KI-Kosten die Personalkosten überstiegen. CEO Flo Crivello nennt es \"eine Frage des Überlebens\".\nDer Artikel KI-Startup spart M",
       "link": "https://the-decoder.de/ki-startup-spart-millionen-lindy-wechselt-komplett-von-claude-zu-deepseek/",
       "date": "2026-06-26T14:50:26.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "OpenAI verschiebt Börsengang offenbar auf 2027, SoftBank-Aktie stürzt ab",
-      "description": "Berater raten OpenAI, mit dem IPO bis nächstes Jahr zu warten. Auslöser sind volatile Tech-Märkte und die schwache Performance von SpaceX nach dessen Rekord-Börsengang. SoftBank, einer der größten Gel",
-      "link": "https://the-decoder.de/openai-verschiebt-boersengang-offenbar-auf-2027-softbank-aktie-stuerzt-ab/",
-      "date": "2026-06-26T12:23:53.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
