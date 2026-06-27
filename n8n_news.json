@@ -1,6 +1,42 @@
 {
-  "lastUpdated": "2026-06-27T09:01:23.013Z",
+  "lastUpdated": "2026-06-27T14:36:54.392Z",
   "news": [
+    {
+      "title": "US-Bank J.P. Morgan sieht eine Menge roter Flaggen am KI-Finanzmarkt",
+      "description": "J.P. Morgan warnt vor wachsenden Risiken am KI-Finanzmarkt: 42 KI-Unternehmen im S&P 500 treiben 65 bis 80 Prozent der Gewinne des gesamten Index. Die Halbleiter-Rallye zeige technische Muster wie wäh",
+      "link": "https://the-decoder.de/us-bank-j-p-morgan-sieht-eine-menge-roter-flaggen-am-ki-finanzmarkt/",
+      "date": "2026-06-27T13:01:44.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Führende KI-Unternehmen unterstützen Initiative gegen KI-bedingte Jobverluste",
+      "description": "Gina Raimondo, ehemalige US-Handelsministerin, gründet mit \"Raise Us\" eine überparteiliche Organisation, die amerikanische Arbeitskräfte auf den KI-Wandel vorbereiten soll. Amazon, Anthropic, Microsof",
+      "link": "https://the-decoder.de/fuehrende-ki-unternehmen-unterstuetzen-initiative-gegen-ki-bedingte-jobverluste/",
+      "date": "2026-06-27T12:04:21.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "US-Regierung gibt Anthropics Claude Mythos 5 für kritische Infrastruktur wieder frei",
+      "description": "Anthropic darf Claude Mythos 5 nach US-Regierungsgenehmigung wieder für Organisationen bereitstellen, die kritische Infrastruktur betreiben. Parallel verhandelt Anthropic über die Freigabe von Fable 5",
+      "link": "https://the-decoder.de/us-regierung-gibt-anthropics-claude-mythos-5-fuer-kritische-infrastruktur-wieder-frei/",
+      "date": "2026-06-27T09:37:39.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "GPT-5.6 Sol schummelt bei Software-Tests so viel wie kein anderes KI-Modell zuvor",
+      "description": "Die unabhängige Prüforganisation METR bescheinigt OpenAIs GPT-5.6 Sol die höchste je gemessene Rate an Schummelversuchen unter allen öffentlich getesteten Modellen: Das System nutzte Fehler in der Tes",
+      "link": "https://the-decoder.de/gpt-5-6-sol-schummelt-bei-software-tests-so-viel-wie-kein-anderes-ki-modell-zuvor/",
+      "date": "2026-06-27T09:08:42.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Diffusionsmodell iLLaDA: Bytedance-Forscher fordern die Wort-für-Wort-Logik von Sprach-KI heraus",
       "description": "Forscher der Renmin University und von ByteDance haben mit iLLaDA ein 8B-Sprachmodell vorgestellt, das anders funktioniert als ChatGPT. Es schließt auf der Basisebene zu Qwen2.5 auf, bleibt im Feintun",
@@ -72,42 +108,6 @@
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
-    },
-    {
-      "title": "Linux Foundation startet Industrieallianz gegen KI-gestützte Angriffe auf Open Source",
-      "description": "Mit Akrites bündeln rund zwanzig Tech-Konzerne, KI-Labore und Banken ihre Kräfte, um Schwachstellen in kritischer Open-Source-Software zu schließen, bevor KI-Werkzeuge sie ausnutzen.\nDer Artikel Linux",
-      "link": "https://the-decoder.de/linux-foundation-startet-industrieallianz-gegen-ki-gestuetzte-angriffe-auf-open-source/",
-      "date": "2026-06-26T09:23:05.000Z",
-      "source": "The Decoder",
-      "category": "industrie-4.0",
-      "language": "de"
-    },
-    {
-      "title": "US-Regierung lässt OpenAI GPT 5.6 nur mit Genehmigung \"Kunde für Kunde\" veröffentlichen",
-      "description": "OpenAI wird sein neues Modell GPT 5.6 auf Wunsch der US-Regierung zunächst nur ausgewählten Partnern zugänglich machen: Der Zugang wird \"Kunde für Kunde\" genehmigt. CEO Sam Altman nannte das Vorgehen",
-      "link": "https://the-decoder.de/us-regierung-laesst-openai-gpt-5-6-nur-mit-genehmigung-kunde-fuer-kunde-veroeffentlichen/",
-      "date": "2026-06-26T07:28:35.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "KI-Chatbots wie ChatGPT antworten bei politischen Fragen weiterhin deutlich linkslastig",
-      "description": "Eine systematische Untersuchung der Washington Post zeigt: Die meisten großen KI-Chatbots antworten bei politischen Fragen überwiegend linkslastig. OpenAIs GPT-5.5 lieferte in 80 Prozent der Fälle aus",
-      "link": "https://the-decoder.de/ki-chatbots-wie-chatgpt-antworten-bei-politischen-fragen-weiterhin-deutlich-linkslastig/",
-      "date": "2026-06-25T15:26:32.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Wie generative KI die Katastrophenmodellierung der Versicherer umkrempelt",
-      "description": "Diffusionsmodelle erzeugen Zehntausende plausibler Wetterereignisse, für die historische Daten fehlen. Versicherer hoffen auf präzisere Risikobewertung, Forscher warnen vor Halluzinationen.\nDer Artike",
-      "link": "https://the-decoder.de/wie-generative-ki-die-katastrophenmodellierung-der-versicherer-umkrempelt/",
-      "date": "2026-06-25T13:42:14.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
     },
     {
       "title": "How agents are transforming work",
