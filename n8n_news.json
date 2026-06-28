@@ -1,9 +1,36 @@
 {
-  "lastUpdated": "2026-06-28T09:09:14.055Z",
+  "lastUpdated": "2026-06-28T12:36:25.542Z",
   "news": [
     {
+      "title": "Forschende skizzieren Übergang vom KI-Chatbot zum \"digitalen Kollegen\"",
+      "description": "Ein umfangreiches Übersichtspaper von Tencent und mehreren chinesischen Universitäten zeichnet den Weg vom Chatbot zum \"digitalen Kollegen\" nach und benennt den entscheidenden Sprung: KI-Systeme müsst",
+      "link": "https://the-decoder.de/forschende-skizzieren-uebergang-vom-ki-chatbot-zum-digitalen-kollegen/",
+      "date": "2026-06-28T12:28:22.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Coinbase wechselt zu chinesischen KI-Modellen und halbiert seine KI-Ausgaben",
+      "description": "Coinbase-CEO Brian Armstrong stellt sein Unternehmen auf chinesische KI-Modelle wie GLM 5.2 und Kimi 2.7 als Default-Modelle um. Ein automatisches Routing-System verteilt Anfragen nach Aufgabe und Pre",
+      "link": "https://the-decoder.de/coinbase-wechselt-zu-chinesischen-ki-modellen-und-halbiert-seine-ki-ausgaben/",
+      "date": "2026-06-28T11:57:38.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "KI-Agenten als Start-up-Chef: Neuer Benchmark lässt Sprachmodelle 500 Tage ein Unternehmen führen",
+      "description": "Forscher der Princeton University haben mit CEO-Bench einen Test gebaut, in dem KI-Agenten ein fiktives Software-Unternehmen über 500 simulierte Tage leiten müssen. Die meisten aktuellen Modelle gehen",
+      "link": "https://the-decoder.de/ki-agenten-als-start-up-chef-neuer-benchmark-laesst-sprachmodelle-500-tage-ein-unternehmen-fuehren/",
+      "date": "2026-06-28T10:09:17.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
       "title": "\"Cyber-Atomwaffen des KI-Zeitalters\": Neue chinesische Tools sollen Gegengewicht zu Anthropics Mythos bilden",
-      "description": "360-Gründer Zhou Hongyi präsentiert zwei KI-Sicherheitswerkzeuge, die mit Anthropics Mythos konkurrieren sollen – eines davon habe bereits 3.432 Schwachstellen gefunden. Zhou räumt einen Rückstand chi",
+      "description": "Qihoo 360-Gründer Zhou Hongyi präsentiert zwei KI-Sicherheitswerkzeuge, die mit Anthropics Mythos konkurrieren sollen – eines davon habe bereits 3.432 Schwachstellen gefunden. Zhou räumt einen Rücksta",
       "link": "https://the-decoder.de/cyber-atomwaffen-des-ki-zeitalters-neue-chinesische-tools-sollen-gegengewicht-zu-anthropics-mythos-bilden/",
       "date": "2026-06-28T09:05:18.000Z",
       "source": "The Decoder",
@@ -65,24 +92,6 @@
       "language": "de"
     },
     {
-      "title": "GPT-5.6 Sol schummelt bei Software-Tests so viel wie kein anderes KI-Modell zuvor",
-      "description": "Die unabhängige Prüforganisation METR bescheinigt OpenAIs GPT-5.6 Sol die höchste je gemessene Rate an Schummelversuchen unter allen öffentlich getesteten Modellen: Das System nutzte Fehler in der Tes",
-      "link": "https://the-decoder.de/gpt-5-6-sol-schummelt-bei-software-tests-so-viel-wie-kein-anderes-ki-modell-zuvor/",
-      "date": "2026-06-27T09:08:42.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Diffusionsmodell iLLaDA: Bytedance-Forscher fordern die Wort-für-Wort-Logik von Sprach-KI heraus",
-      "description": "Forscher der Renmin University und von ByteDance haben mit iLLaDA ein 8B-Sprachmodell vorgestellt, das anders funktioniert als ChatGPT. Es schließt auf der Basisebene zu Qwen2.5 auf, bleibt im Feintun",
-      "link": "https://the-decoder.de/diffusionsmodell-illada-bytedance-forscher-fordern-die-wort-fuer-wort-logik-von-sprach-ki-heraus/",
-      "date": "2026-06-27T07:27:24.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "Accelerating Gemini Nano models on Pixel with frozen Multi-Token Prediction",
       "description": "Machine Intelligence",
       "link": "https://research.google/blog/accelerating-gemini-nano-models-on-pixel-with-frozen-multi-token-prediction/",
@@ -90,15 +99,6 @@
       "source": "Google AI",
       "category": "große-modelle",
       "language": "en"
-    },
-    {
-      "title": "Antwort auf Claude Mythos: OpenAI startet GPT-5.6 Sol, doch die US-Regierung bremst den Zugang",
-      "description": "OpenAI stellt mit GPT-5.6 Sol ein neues Flaggschiffmodell vor, das Anthropics Claude Mythos 5 in Coding-Benchmarks übertreffen soll. Der Zugang bleibt auf Druck der US-Regierung vorerst auf ausgewählt",
-      "link": "https://the-decoder.de/openai-stellt-gpt-5-6-sol-vor-und-uebertrifft-claude-mythos-in-zentralen-benchmarks/",
-      "date": "2026-06-26T18:03:01.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
     },
     {
       "title": "Previewing GPT-5.6 Sol: a next-generation model",
