@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-06-27T18:31:12.381Z",
+  "lastUpdated": "2026-06-28T09:09:14.055Z",
   "news": [
+    {
+      "title": "\"Cyber-Atomwaffen des KI-Zeitalters\": Neue chinesische Tools sollen Gegengewicht zu Anthropics Mythos bilden",
+      "description": "360-Gründer Zhou Hongyi präsentiert zwei KI-Sicherheitswerkzeuge, die mit Anthropics Mythos konkurrieren sollen – eines davon habe bereits 3.432 Schwachstellen gefunden. Zhou räumt einen Rückstand chi",
+      "link": "https://the-decoder.de/cyber-atomwaffen-des-ki-zeitalters-neue-chinesische-tools-sollen-gegengewicht-zu-anthropics-mythos-bilden/",
+      "date": "2026-06-28T09:05:18.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Kleines Mathe-Modell soll zeigen, dass sich Reasoning auf wenige Parameter verdichten lässt",
+      "description": "Sina Weibos VibeThinker-3B erreicht mit nur drei Milliarden Parametern bei Mathematik- und Coding-Benchmarks das Niveau von Modellen wie DeepSeek V3.2 oder Kimi K2.5, die bis zu 333-mal größer sind. D",
+      "link": "https://the-decoder.de/kleines-mathe-modell-soll-zeigen-dass-sich-reasoning-auf-wenige-parameter-verdichten-laesst/",
+      "date": "2026-06-28T07:11:41.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Anthropics Fable 5 soll zeitnah wieder online gehen",
       "description": "Anthropics KI-Modell Fable 5 könnte laut Axios in wenigen Tagen wieder verfügbar sein: Die Trump-Regierung steht offenbar kurz vor der Aufhebung der Beschränkungen. Das Modell war am 12. Juni wegen Si",
@@ -78,24 +96,6 @@
       "description": "OpenAI stellt mit GPT-5.6 Sol ein neues Flaggschiffmodell vor, das Anthropics Claude Mythos 5 in Coding-Benchmarks übertreffen soll. Der Zugang bleibt auf Druck der US-Regierung vorerst auf ausgewählt",
       "link": "https://the-decoder.de/openai-stellt-gpt-5-6-sol-vor-und-uebertrifft-claude-mythos-in-zentralen-benchmarks/",
       "date": "2026-06-26T18:03:01.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "19 Tage ohne menschliche Hilfe: KI-Benchmark MirrorCode lässt Modelle tagelang autonom programmieren",
-      "description": "Epoch AI testet mit dem Benchmark MirrorCode, ob KI-Modelle komplette Programme ohne Zugang zum Originalcode nachbauen können. Claude Opus 4.7 führt mit 56 Prozent Lösungsrate und reimplementierte ein",
-      "link": "https://the-decoder.de/19-tage-ohne-menschliche-hilfe-ki-benchmark-mirrorcode-laesst-modelle-tagelang-autonom-programmieren/",
-      "date": "2026-06-26T17:07:27.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "KI-Startup spart Millionen: Lindy wechselt komplett von Claude zu Deepseek",
-      "description": "Das KI-Startup Lindy wechselte komplett von Claude zu Deepseek, weil die KI-Kosten die Personalkosten überstiegen. CEO Flo Crivello nennt es \"eine Frage des Überlebens\".\nDer Artikel KI-Startup spart M",
-      "link": "https://the-decoder.de/ki-startup-spart-millionen-lindy-wechselt-komplett-von-claude-zu-deepseek/",
-      "date": "2026-06-26T14:50:26.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
