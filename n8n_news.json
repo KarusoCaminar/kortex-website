@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-06-29T07:55:49.600Z",
+  "lastUpdated": "2026-06-29T09:44:27.466Z",
   "news": [
+    {
+      "title": "Samsung und SK Hynix investieren 590 Milliarden Dollar in den Ausbau der Chipproduktion für KI",
+      "description": "Samsung und SK Hynix investieren gemeinsam mit Südkoreas Regierung 590 Milliarden Dollar in neue Chipfabriken und Packaging-Zentren. Hintergrund ist die explodierende Nachfrage durch KI-Rechenzentren.",
+      "link": "https://the-decoder.de/samsung-und-sk-hynix-investieren-590-milliarden-dollar-in-den-ausbau-der-chipproduktion-fuer-ki/",
+      "date": "2026-06-29T08:10:41.000Z",
+      "source": "The Decoder",
+      "category": "industrie-4.0",
+      "language": "de"
+    },
     {
       "title": "HP Inc. launches Frontier strategic partnership with OpenAI",
       "description": "HP Inc. scales its OpenAI Frontier partnership to deploy AI across customer experiences, software development, and enterprise operations.",
@@ -87,15 +96,6 @@
       "description": "Gina Raimondo, ehemalige US-Handelsministerin, gründet mit \"Raise Us\" eine überparteiliche Organisation, die amerikanische Arbeitskräfte auf den KI-Wandel vorbereiten soll. Amazon, Anthropic, Microsof",
       "link": "https://the-decoder.de/fuehrende-ki-unternehmen-unterstuetzen-initiative-gegen-ki-bedingte-jobverluste/",
       "date": "2026-06-27T12:04:21.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "US-Regierung gibt Anthropics Claude Mythos 5 für kritische Infrastruktur wieder frei",
-      "description": "Anthropic darf Claude Mythos 5 nach US-Regierungsgenehmigung wieder für Organisationen bereitstellen, die kritische Infrastruktur betreiben. Parallel verhandelt Anthropic über die Freigabe von Fable 5",
-      "link": "https://the-decoder.de/us-regierung-gibt-anthropics-claude-mythos-5-fuer-kritische-infrastruktur-wieder-frei/",
-      "date": "2026-06-27T09:37:39.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
