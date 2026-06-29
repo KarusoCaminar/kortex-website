@@ -1,6 +1,33 @@
 {
-  "lastUpdated": "2026-06-29T11:45:05.954Z",
+  "lastUpdated": "2026-06-29T17:06:37.187Z",
   "news": [
+    {
+      "title": "Nach US-KI-Sperre: Österreich will KI-Gigant Anthropic nach Europa holen",
+      "description": "Österreichs Digitalisierungs-Staatssekretär Alexander Pröll fordert die EU-Kommission auf, eine strategische Ansiedlung von Anthropic in Europa zu prüfen. Er reagiert damit auf die US-Sperre fortschri",
+      "link": "https://the-decoder.de/nach-us-ki-sperre-oesterreich-will-ki-gigant-anthropic-nach-europa-holen/",
+      "date": "2026-06-29T16:47:42.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Angst vor Destillationsvorwürfen: Meta setzt Ingenieuren Grenzen bei externen KI-Tools",
+      "description": "Meta schränkt die Nutzung von Anthropics Claude Code und OpenAIs Codex durch seine Ingenieure ein, um zu verhindern, dass Ausgaben dieser KI-Tools in eigene Trainingsdaten einfließen.\nDer Artikel Angs",
+      "link": "https://the-decoder.de/angst-vor-destillationsvorwuerfen-meta-setzt-ingenieuren-grenzen-bei-externen-ki-tools/",
+      "date": "2026-06-29T15:45:43.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Deloitte-Berater nach interner Town Hall: \"Unser Modell ist am Ende, wir werden durch Roboter ersetzt\"",
+      "description": "Eine interne Deloitte-Präsentation prognostiziert, dass das klassische Stundenabrechnungsmodell der Beratungsbranche bis 2035 auf einen schmalen Streifen des Gesamtmarktes schrumpft – ersetzt durch KI",
+      "link": "https://the-decoder.de/deloitte-berater-nach-interner-town-hall-unser-modell-ist-am-ende-wir-werden-durch-roboter-ersetzt/",
+      "date": "2026-06-29T14:52:44.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Veraltete Datenbank und getrennte Systeme: Wie das Pentagon eine iranische Schule für eine Militäranlage hielt",
       "description": "Die Untersuchung zum Raketenangriff auf eine iranische Schule legt gravierende Mängel im Zielerfassungssystem des US-Militärs offen. KI soll diese Lücken künftig schließen.\nDer Artikel Veraltete Daten",
@@ -78,33 +105,6 @@
       "description": "Qihoo 360-Gründer Zhou Hongyi präsentiert zwei KI-Sicherheitswerkzeuge, die mit Anthropics Mythos konkurrieren sollen – eines davon habe bereits 3.432 Schwachstellen gefunden. Zhou räumt einen Rücksta",
       "link": "https://the-decoder.de/cyber-atomwaffen-des-ki-zeitalters-neue-chinesische-tools-sollen-gegengewicht-zu-anthropics-mythos-bilden/",
       "date": "2026-06-28T09:05:18.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Kleines Mathe-Modell soll zeigen, dass sich Reasoning auf wenige Parameter verdichten lässt",
-      "description": "Sina Weibos VibeThinker-3B erreicht mit nur drei Milliarden Parametern bei Mathematik- und Coding-Benchmarks das Niveau von Modellen wie DeepSeek V3.2 oder Kimi K2.5, die bis zu 333-mal größer sind. D",
-      "link": "https://the-decoder.de/kleines-mathe-modell-soll-zeigen-dass-sich-reasoning-auf-wenige-parameter-verdichten-laesst/",
-      "date": "2026-06-28T07:11:41.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Anthropics Fable 5 soll zeitnah wieder online gehen",
-      "description": "Anthropics KI-Modell Fable 5 könnte laut Axios in wenigen Tagen wieder verfügbar sein: Die Trump-Regierung steht offenbar kurz vor der Aufhebung der Beschränkungen. Das Modell war am 12. Juni wegen Si",
-      "link": "https://the-decoder.de/anthropics-fable-5-soll-zeitnah-wieder-online-gehen/",
-      "date": "2026-06-27T16:59:06.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Anthropic-Umfrage: Jeder zweite Claude-Nutzer sagt, dass KI schon die Hälfte seiner Arbeit erledigen kann",
-      "description": "Laut einer Anthropic-Umfrage unter rund 9.700 Claude-Nutzern sieht knapp die Hälfte die KI bereits heute bei mindestens 50 Prozent ihrer Arbeitsaufgaben als einsetzbar. In zwölf Monaten erwarten 26 Pr",
-      "link": "https://the-decoder.de/anthropic-umfrage-jeder-zweite-claude-nutzer-sagt-dass-ki-schon-die-haelfte-seiner-arbeit-erledigen-kann/",
-      "date": "2026-06-27T15:15:59.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
