@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-06-29T17:06:37.187Z",
+  "lastUpdated": "2026-06-29T20:41:02.237Z",
   "news": [
+    {
+      "title": "Amazon baut aus Anthropics großen KI-Modellen kleinere Versionen – aus Angst vor steigenden Kosten",
+      "description": "Amazon-Ingenieure destillieren offenbar vorsorglich Anthropic-Modelle zu kleineren, günstigeren Varianten für den internen Gebrauch. Hintergrund: Ab nächstem Jahr zahlt Amazon nicht mehr nach Rechenst",
+      "link": "https://the-decoder.de/amazon-baut-aus-anthropics-grossen-ki-modellen-kleinere-versionen-aus-angst-vor-steigenden-kosten/",
+      "date": "2026-06-29T17:58:37.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Nach US-KI-Sperre: Österreich will KI-Gigant Anthropic nach Europa holen",
       "description": "Österreichs Digitalisierungs-Staatssekretär Alexander Pröll fordert die EU-Kommission auf, eine strategische Ansiedlung von Anthropic in Europa zu prüfen. Er reagiert damit auf die US-Sperre fortschri",
@@ -96,15 +105,6 @@
       "description": "Forscher der Princeton University haben mit CEO-Bench einen Test gebaut, in dem KI-Agenten ein fiktives Software-Unternehmen über 500 simulierte Tage leiten müssen. Die meisten aktuellen Modelle gehen",
       "link": "https://the-decoder.de/ki-agenten-als-start-up-chef-neuer-benchmark-laesst-sprachmodelle-500-tage-ein-unternehmen-fuehren/",
       "date": "2026-06-28T10:09:17.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "\"Cyber-Atomwaffen des KI-Zeitalters\": Neue chinesische Tools sollen Gegengewicht zu Anthropics Mythos bilden",
-      "description": "Qihoo 360-Gründer Zhou Hongyi präsentiert zwei KI-Sicherheitswerkzeuge, die mit Anthropics Mythos konkurrieren sollen – eines davon habe bereits 3.432 Schwachstellen gefunden. Zhou räumt einen Rücksta",
-      "link": "https://the-decoder.de/cyber-atomwaffen-des-ki-zeitalters-neue-chinesische-tools-sollen-gegengewicht-zu-anthropics-mythos-bilden/",
-      "date": "2026-06-28T09:05:18.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
