@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-06-29T09:44:27.466Z",
+  "lastUpdated": "2026-06-29T11:45:05.954Z",
   "news": [
+    {
+      "title": "Veraltete Datenbank und getrennte Systeme: Wie das Pentagon eine iranische Schule für eine Militäranlage hielt",
+      "description": "Die Untersuchung zum Raketenangriff auf eine iranische Schule legt gravierende Mängel im Zielerfassungssystem des US-Militärs offen. KI soll diese Lücken künftig schließen.\nDer Artikel Veraltete Daten",
+      "link": "https://the-decoder.de/veraltete-datenbank-und-getrennte-systeme-wie-das-pentagon-eine-iranische-schule-fuer-eine-militaeranlage-hielt/",
+      "date": "2026-06-29T10:52:21.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Harmloser GitHub-Link wird zur Falle: Claude Code führt versteckten Schadcode ohne Prüfung aus",
+      "description": "Sicherheitsforscher von Mozillas 0DIN-Plattform haben gezeigt, wie ein manipuliertes GitHub-Repository über ein Setup-Skript die Kontrolle über Entwicklerrechner übernehmen kann, sobald KI-Coding-Tool",
+      "link": "https://the-decoder.de/harmloser-github-link-wird-zur-falle-claude-code-fuehrt-versteckten-schadcode-ohne-pruefung-aus/",
+      "date": "2026-06-29T09:55:32.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Samsung und SK Hynix investieren 590 Milliarden Dollar in den Ausbau der Chipproduktion für KI",
       "description": "Samsung und SK Hynix investieren gemeinsam mit Südkoreas Regierung 590 Milliarden Dollar in neue Chipfabriken und Packaging-Zentren. Hintergrund ist die explodierende Nachfrage durch KI-Rechenzentren.",
@@ -9,6 +27,15 @@
       "source": "The Decoder",
       "category": "industrie-4.0",
       "language": "de"
+    },
+    {
+      "title": "Mapping Europe’s AI Workforce Opportunity",
+      "description": "A new OpenAI report maps how AI could reshape jobs across the EU, highlighting which occupations may face automation, growth, or workflow changes.",
+      "link": "https://openai.com/index/mapping-ai-jobs-transition-eu",
+      "date": "2026-06-29T07:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
     },
     {
       "title": "HP Inc. launches Frontier strategic partnership with OpenAI",
@@ -83,24 +110,6 @@
       "language": "de"
     },
     {
-      "title": "US-Bank J.P. Morgan sieht eine Menge roter Flaggen am KI-Finanzmarkt",
-      "description": "J.P. Morgan warnt vor wachsenden Risiken am KI-Finanzmarkt: 42 KI-Unternehmen im S&P 500 treiben 65 bis 80 Prozent der Gewinne des gesamten Index. Die Halbleiter-Rallye zeige technische Muster wie wäh",
-      "link": "https://the-decoder.de/us-bank-j-p-morgan-sieht-eine-menge-roter-flaggen-am-ki-finanzmarkt/",
-      "date": "2026-06-27T13:01:44.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Führende KI-Unternehmen unterstützen Initiative gegen KI-bedingte Jobverluste",
-      "description": "Gina Raimondo, ehemalige US-Handelsministerin, gründet mit \"Raise Us\" eine überparteiliche Organisation, die amerikanische Arbeitskräfte auf den KI-Wandel vorbereiten soll. Amazon, Anthropic, Microsof",
-      "link": "https://the-decoder.de/fuehrende-ki-unternehmen-unterstuetzen-initiative-gegen-ki-bedingte-jobverluste/",
-      "date": "2026-06-27T12:04:21.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "Accelerating Gemini Nano models on Pixel with frozen Multi-Token Prediction",
       "description": "Machine Intelligence",
       "link": "https://research.google/blog/accelerating-gemini-nano-models-on-pixel-with-frozen-multi-token-prediction/",
@@ -124,15 +133,6 @@
       "link": "https://openai.com/index/how-agents-are-transforming-work",
       "date": "2026-06-25T02:00:00.000Z",
       "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "Thinking to recall: How reasoning unlocks parametric knowledge in LLMs",
-      "description": "Generative AI",
-      "link": "https://research.google/blog/thinking-to-recall-how-reasoning-unlocks-parametric-knowledge-in-llms/",
-      "date": "2026-06-24T16:51:52.000Z",
-      "source": "Google AI",
       "category": "große-modelle",
       "language": "en"
     }
