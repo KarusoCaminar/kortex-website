@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-06-28T20:31:19.670Z",
+  "lastUpdated": "2026-06-29T01:04:47.575Z",
   "news": [
+    {
+      "title": "HP Inc. launches Frontier strategic partnership with OpenAI",
+      "description": "HP Inc. scales its OpenAI Frontier partnership to deploy AI across customer experiences, software development, and enterprise operations.",
+      "link": "https://openai.com/index/hp-frontier-partnership",
+      "date": "2026-06-28T17:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
     {
       "title": "Forschende skizzieren Übergang vom KI-Chatbot zum \"digitalen Kollegen\"",
       "description": "Ein umfangreiches Übersichtspaper von Tencent und mehreren chinesischen Universitäten zeichnet den Weg vom Chatbot zum \"digitalen Kollegen\" nach und benennt den entscheidenden Sprung: KI-Systeme müsst",
@@ -124,15 +133,6 @@
       "link": "https://research.google/blog/thinking-to-recall-how-reasoning-unlocks-parametric-knowledge-in-llms/",
       "date": "2026-06-24T16:51:52.000Z",
       "source": "Google AI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "OpenAI and Broadcom unveil LLM-optimized inference chip",
-      "description": "OpenAI and Broadcom introduce Jalapeño, a custom AI chip built for LLM inference to improve performance, efficiency, and scale across AI systems.",
-      "link": "https://openai.com/index/openai-broadcom-jalapeno-inference-chip",
-      "date": "2026-06-24T06:00:00.000Z",
-      "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
     }
