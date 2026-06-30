@@ -1,6 +1,51 @@
 {
-  "lastUpdated": "2026-06-30T16:47:41.854Z",
+  "lastUpdated": "2026-06-30T18:44:11.393Z",
   "news": [
+    {
+      "title": "Anthropics neues Claude Sonnet 5 soll die Preis-Leistungs-Lücke zum teureren Opus-Modell schließen",
+      "description": "Anthropic veröffentlicht Claude Sonnet 5, das seinen Vorgänger Sonnet 4.6 in allen Benchmarks übertrifft und beim Wissensarbeit-Test GDPval-AA v2 mit 1618 Punkten sogar das größere Opus 4.8 schlägt. A",
+      "link": "https://the-decoder.de/anthropics-neues-claude-sonnet-5-soll-die-preis-leistungs-luecke-zum-teureren-opus-modell-schliessen/",
+      "date": "2026-06-30T18:31:10.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Anthropics neues Claude Science ist eine KI-Arbeitsumgebung speziell für die Wissenschaft",
+      "description": "Anthropic hat mit Claude Science eine KI-Arbeitsumgebung für Forscher gestartet. Über 60 vorkonfigurierte Skills decken Bereiche wie Genomik und Chemieinformatik ab, ein Prüf-Agent kontrolliert Zitate",
+      "link": "https://the-decoder.de/anthropics-neues-claude-science-ist-eine-ki-arbeitsumgebung-speziell-fuer-die-wissenschaft/",
+      "date": "2026-06-30T17:57:48.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "OpenAI soll Antwort-Kosten für ChatGPT-Gast-Nutzer um mehr als die Hälfte gesenkt haben",
+      "description": "OpenAI hat die Inferenzkosten für seine KI-Modelle laut einem Bericht von The Information um mehr als die Hälfte gesenkt. Die Optimierungen wurden unter anderem bei ChatGPT angewendet, wo die Zahl ben",
+      "link": "https://the-decoder.de/openai-soll-inferenz-kosten-fuer-chatgpt-gast-nutzer-um-mehr-als-die-haelfte-gesenkt-haben/",
+      "date": "2026-06-30T17:38:27.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Google bringt mit Nano Banana 2 Lite sein bisher schnellstes KI-Bildmodell und Gemini Omni Flash in die API",
+      "description": "Google erweitert seine generative KI-Modellfamilie um zwei Neuzugänge: Nano Banana 2 Lite erzeugt Bilder in vier Sekunden für 0,034 US-Dollar pro Bild, Gemini Omni Flash bringt erstmals Videogenerieru",
+      "link": "https://the-decoder.de/google-bringt-mit-nano-banana-2-lite-sein-bisher-schnellstes-ki-bildmodell-und-oeffnet-gemini-omni-flash-fuer-entwickler/",
+      "date": "2026-06-30T17:03:33.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Expanding our Heat Resilience data to 50+ global cities",
+      "description": "Climate & Sustainability",
+      "link": "https://research.google/blog/expanding-our-heat-resilience-data-to-50-global-cities/",
+      "date": "2026-06-30T17:03:10.000Z",
+      "source": "Google AI",
+      "category": "große-modelle",
+      "language": "en"
+    },
     {
       "title": "Meituan trainiert konkurrenzfähiges Billionen-Parameter-Modell komplett auf chinesischen Chips",
       "description": "Meituan trainiert ein KI-Modell mit 1,6 Billionen Parametern komplett auf chinesischen Chips, ganz ohne Nvidia.\nDer Artikel Meituan trainiert konkurrenzfähiges Billionen-Parameter-Modell komplett auf",
@@ -65,6 +110,15 @@
       "language": "de"
     },
     {
+      "title": "Introducing GeneBench-Pro",
+      "description": "Introducing GeneBench-Pro, a new benchmark testing AI performance in genomics, biology, and scientific research using complex, real-world datasets.",
+      "link": "https://openai.com/index/introducing-genebench-pro",
+      "date": "2026-06-30T00:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
       "title": "Core dump epidemiology: fixing an 18-year-old bug",
       "description": "OpenAI engineers used large-scale core dump analysis to debug rare infrastructure crashes, uncovering both a hardware fault and a long-standing software bug.",
       "link": "https://openai.com/index/core-dump-epidemiology-data-infrastructure-bug",
@@ -74,65 +128,11 @@
       "language": "en"
     },
     {
-      "title": "Amazon baut aus Anthropics großen KI-Modellen kleinere Versionen – aus Angst vor steigenden Kosten",
-      "description": "Amazon-Ingenieure destillieren offenbar vorsorglich Anthropic-Modelle zu kleineren, günstigeren Varianten für den internen Gebrauch. Hintergrund: Ab nächstem Jahr zahlt Amazon nicht mehr nach Rechenst",
-      "link": "https://the-decoder.de/amazon-baut-aus-anthropics-grossen-ki-modellen-kleinere-versionen-aus-angst-vor-steigenden-kosten/",
-      "date": "2026-06-29T17:58:37.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Nach US-KI-Sperre: Österreich will KI-Gigant Anthropic nach Europa holen",
-      "description": "Österreichs Digitalisierungs-Staatssekretär Alexander Pröll fordert die EU-Kommission auf, eine strategische Ansiedlung von Anthropic in Europa zu prüfen. Er reagiert damit auf die US-Sperre fortschri",
-      "link": "https://the-decoder.de/nach-us-ki-sperre-oesterreich-will-ki-gigant-anthropic-nach-europa-holen/",
-      "date": "2026-06-29T16:47:42.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Angst vor Destillationsvorwürfen: Meta setzt Ingenieuren Grenzen bei externen KI-Tools",
-      "description": "Meta schränkt die Nutzung von Anthropics Claude Code und OpenAIs Codex durch seine Ingenieure ein, um zu verhindern, dass Ausgaben dieser KI-Tools in eigene Trainingsdaten einfließen.\nDer Artikel Angs",
-      "link": "https://the-decoder.de/angst-vor-destillationsvorwuerfen-meta-setzt-ingenieuren-grenzen-bei-externen-ki-tools/",
-      "date": "2026-06-29T15:45:43.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Deloitte-Berater nach interner Town Hall: \"Unser Modell ist am Ende, wir werden durch Roboter ersetzt\"",
-      "description": "Eine interne Deloitte-Präsentation prognostiziert, dass das klassische Stundenabrechnungsmodell der Beratungsbranche bis 2035 auf einen schmalen Streifen des Gesamtmarktes schrumpft – ersetzt durch KI",
-      "link": "https://the-decoder.de/deloitte-berater-nach-interner-town-hall-unser-modell-ist-am-ende-wir-werden-durch-roboter-ersetzt/",
-      "date": "2026-06-29T14:52:44.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "Mapping Europe’s AI Workforce Opportunity",
       "description": "A new OpenAI report maps how AI could reshape jobs across the EU, highlighting which occupations may face automation, growth, or workflow changes.",
       "link": "https://openai.com/index/mapping-ai-jobs-transition-eu",
       "date": "2026-06-29T07:00:00.000Z",
       "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "HP Inc. launches Frontier strategic partnership with OpenAI",
-      "description": "HP Inc. scales its OpenAI Frontier partnership to deploy AI across customer experiences, software development, and enterprise operations.",
-      "link": "https://openai.com/index/hp-frontier-partnership",
-      "date": "2026-06-28T17:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "Accelerating Gemini Nano models on Pixel with frozen Multi-Token Prediction",
-      "description": "Machine Intelligence",
-      "link": "https://research.google/blog/accelerating-gemini-nano-models-on-pixel-with-frozen-multi-token-prediction/",
-      "date": "2026-06-26T18:30:00.000Z",
-      "source": "Google AI",
       "category": "große-modelle",
       "language": "en"
     }
