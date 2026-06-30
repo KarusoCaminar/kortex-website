@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-06-30T14:58:18.763Z",
+  "lastUpdated": "2026-06-30T16:47:41.854Z",
   "news": [
+    {
+      "title": "Meituan trainiert konkurrenzfähiges Billionen-Parameter-Modell komplett auf chinesischen Chips",
+      "description": "Meituan trainiert ein KI-Modell mit 1,6 Billionen Parametern komplett auf chinesischen Chips, ganz ohne Nvidia.\nDer Artikel Meituan trainiert konkurrenzfähiges Billionen-Parameter-Modell komplett auf",
+      "link": "https://the-decoder.de/meituan-trainiert-konkurrenzfaehiges-billionen-parameter-modell-komplett-auf-chinesischen-chips/",
+      "date": "2026-06-30T15:11:46.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "KI-Boom in San Francisco treibt Mieten so hoch, dass selbst Topverdiener keine Wohnung finden",
+      "description": "San Franciscos KI-Boom treibt die Lebenshaltungskosten auf ein Niveau, bei dem selbst Paare mit zusammen 365.000 Dollar Jahresgehalt keine bezahlbare Wohnung finden. Die Medianmiete liegt bei 3.827 Do",
+      "link": "https://the-decoder.de/ki-boom-in-san-francisco-treibt-mieten-so-hoch-dass-selbst-topverdiener-keine-wohnung-finden/",
+      "date": "2026-06-30T15:04:55.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "US-Kampagnen integrieren KI in jeden Arbeitsschritt, in Europa gelten strengere Spielregeln",
       "description": "Laut einem Bericht der New York Times integrieren republikanische und demokratische Kampagnen KI in nahezu jeden Arbeitsschritt. Doch die Technologie bleibt ein politisches Minenfeld.\nDer Artikel US-K",
@@ -20,6 +38,15 @@
       "language": "de"
     },
     {
+      "title": "How ChatGPT adoption has expanded",
+      "description": "New OpenAI Signals data shows how ChatGPT adoption is growing globally, with users increasing usage, exploring more capabilities, and driving growth across regions and languages.",
+      "link": "https://openai.com/index/how-chatgpt-adoption-has-expanded",
+      "date": "2026-06-30T09:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
       "title": "Taiwan weitet Untersuchung zu Chip-Schmuggel nach China aus",
       "description": "Taiwanesische Behörden haben Büros von Super Micro Computer und mehrerer lokaler Partnerfirmen durchsucht.\nDer Artikel Taiwan weitet Untersuchung zu Chip-Schmuggel nach China aus erschien zuerst auf T",
       "link": "https://the-decoder.de/taiwan-weitet-untersuchung-zu-chip-schmuggel-nach-china-aus/",
@@ -36,6 +63,15 @@
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
+    },
+    {
+      "title": "Core dump epidemiology: fixing an 18-year-old bug",
+      "description": "OpenAI engineers used large-scale core dump analysis to debug rare infrastructure crashes, uncovering both a hardware fault and a long-standing software bug.",
+      "link": "https://openai.com/index/core-dump-epidemiology-data-infrastructure-bug",
+      "date": "2026-06-30T00:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
     },
     {
       "title": "Amazon baut aus Anthropics großen KI-Modellen kleinere Versionen – aus Angst vor steigenden Kosten",
@@ -74,24 +110,6 @@
       "language": "de"
     },
     {
-      "title": "Veraltete Datenbank und getrennte Systeme: Wie das Pentagon eine iranische Schule für eine Militäranlage hielt",
-      "description": "Die Untersuchung zum Raketenangriff auf eine iranische Schule legt gravierende Mängel im Zielerfassungssystem des US-Militärs offen. KI soll diese Lücken künftig schließen.\nDer Artikel Veraltete Daten",
-      "link": "https://the-decoder.de/veraltete-datenbank-und-getrennte-systeme-wie-das-pentagon-eine-iranische-schule-fuer-eine-militaeranlage-hielt/",
-      "date": "2026-06-29T10:52:21.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Harmloser GitHub-Link wird zur Falle: Claude Code führt versteckten Schadcode ohne Prüfung aus",
-      "description": "Sicherheitsforscher von Mozillas 0DIN-Plattform haben gezeigt, wie ein manipuliertes GitHub-Repository über ein Setup-Skript die Kontrolle über Entwicklerrechner übernehmen kann, sobald KI-Coding-Tool",
-      "link": "https://the-decoder.de/harmloser-github-link-wird-zur-falle-claude-code-fuehrt-versteckten-schadcode-ohne-pruefung-aus/",
-      "date": "2026-06-29T09:55:32.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "Mapping Europe’s AI Workforce Opportunity",
       "description": "A new OpenAI report maps how AI could reshape jobs across the EU, highlighting which occupations may face automation, growth, or workflow changes.",
       "link": "https://openai.com/index/mapping-ai-jobs-transition-eu",
@@ -115,24 +133,6 @@
       "link": "https://research.google/blog/accelerating-gemini-nano-models-on-pixel-with-frozen-multi-token-prediction/",
       "date": "2026-06-26T18:30:00.000Z",
       "source": "Google AI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "Previewing GPT-5.6 Sol: a next-generation model",
-      "description": "OpenAI previews GPT-5.6 Sol, a next-generation model with stronger capabilities in coding, science, and cybersecurity, paired with its most advanced safety stack.",
-      "link": "https://openai.com/index/previewing-gpt-5-6-sol",
-      "date": "2026-06-26T10:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "How agents are transforming work",
-      "description": "A new OpenAI research paper shows how AI agents are transforming work, enabling longer, more complex tasks and expanding productivity across roles.",
-      "link": "https://openai.com/index/how-agents-are-transforming-work",
-      "date": "2026-06-25T02:00:00.000Z",
-      "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
     }
