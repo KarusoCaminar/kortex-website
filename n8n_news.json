@@ -1,6 +1,42 @@
 {
-  "lastUpdated": "2026-06-30T07:27:11.394Z",
+  "lastUpdated": "2026-06-30T12:49:41.030Z",
   "news": [
+    {
+      "title": "US-Kampagnen integrieren KI in jeden Arbeitsschritt, in Europa gelten strengere Spielregeln",
+      "description": "Laut einem Bericht der New York Times integrieren republikanische und demokratische Kampagnen KI in nahezu jeden Arbeitsschritt. Doch die Technologie bleibt ein politisches Minenfeld.\nDer Artikel US-K",
+      "link": "https://the-decoder.de/us-kampagnen-integrieren-ki-in-jeden-arbeitsschritt-in-europa-gelten-strengere-spielregeln/",
+      "date": "2026-06-30T12:11:40.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Meta testete Konkurrenz-Chatbots mit Suizid-, Sex- und Drogen-Prompts aus Sicht von Minderjährigen",
+      "description": "Meta hat angeblich Hunderte Auftragnehmer eingesetzt, um Chatbots von OpenAI, Google und Character.AI mit heiklen Prompts zu testen, darunter Suizid-, Sex- und Drogenanfragen aus der Perspektive Minde",
+      "link": "https://the-decoder.de/meta-testete-konkurrenz-chatbots-mit-suizid-sex-und-drogen-prompts-aus-sicht-von-minderjaehrigen/",
+      "date": "2026-06-30T10:58:52.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Taiwan weitet Untersuchung zu Chip-Schmuggel nach China aus",
+      "description": "Taiwanesische Behörden haben Büros von Super Micro Computer und mehrerer lokaler Partnerfirmen durchsucht.\nDer Artikel Taiwan weitet Untersuchung zu Chip-Schmuggel nach China aus erschien zuerst auf T",
+      "link": "https://the-decoder.de/taiwan-weitet-untersuchung-zu-chip-schmuggel-nach-china-aus/",
+      "date": "2026-06-30T08:55:41.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Deepseeks DSpark beschleunigt KI-Antworten pro Nutzer um bis zu 85 Prozent",
+      "description": "Deepseek steigert mit DSpark die Antwortgeschwindigkeit seiner KI-Modelle pro Nutzer um 60 bis 85 Prozent. Das Verfahren nutzt Speculative Decoding: Ein kleines Modell schlägt Token-Kandidaten vor, di",
+      "link": "https://the-decoder.de/deepseeks-dspark-beschleunigt-ki-antworten-pro-nutzer-um-bis-zu-85-prozent/",
+      "date": "2026-06-30T08:12:02.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Amazon baut aus Anthropics großen KI-Modellen kleinere Versionen – aus Angst vor steigenden Kosten",
       "description": "Amazon-Ingenieure destillieren offenbar vorsorglich Anthropic-Modelle zu kleineren, günstigeren Varianten für den internen Gebrauch. Hintergrund: Ab nächstem Jahr zahlt Amazon nicht mehr nach Rechenst",
@@ -56,15 +92,6 @@
       "language": "de"
     },
     {
-      "title": "Samsung und SK Hynix investieren 590 Milliarden Dollar in den Ausbau der Chipproduktion für KI",
-      "description": "Samsung und SK Hynix investieren gemeinsam mit Südkoreas Regierung 590 Milliarden Dollar in neue Chipfabriken und Packaging-Zentren. Hintergrund ist die explodierende Nachfrage durch KI-Rechenzentren.",
-      "link": "https://the-decoder.de/samsung-und-sk-hynix-investieren-590-milliarden-dollar-in-den-ausbau-der-chipproduktion-fuer-ki/",
-      "date": "2026-06-29T08:10:41.000Z",
-      "source": "The Decoder",
-      "category": "industrie-4.0",
-      "language": "de"
-    },
-    {
       "title": "Mapping Europe’s AI Workforce Opportunity",
       "description": "A new OpenAI report maps how AI could reshape jobs across the EU, highlighting which occupations may face automation, growth, or workflow changes.",
       "link": "https://openai.com/index/mapping-ai-jobs-transition-eu",
@@ -81,33 +108,6 @@
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
-    },
-    {
-      "title": "Forschende skizzieren Übergang vom KI-Chatbot zum \"digitalen Kollegen\"",
-      "description": "Ein umfangreiches Übersichtspaper von Tencent und mehreren chinesischen Universitäten zeichnet den Weg vom Chatbot zum \"digitalen Kollegen\" nach und benennt den entscheidenden Sprung: KI-Systeme müsst",
-      "link": "https://the-decoder.de/forschende-skizzieren-uebergang-vom-ki-chatbot-zum-digitalen-kollegen/",
-      "date": "2026-06-28T12:28:22.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Coinbase wechselt zu chinesischen KI-Modellen und halbiert seine KI-Ausgaben",
-      "description": "Coinbase-CEO Brian Armstrong stellt sein Unternehmen auf chinesische KI-Modelle wie GLM 5.2 und Kimi 2.7 als Default-Modelle um. Ein automatisches Routing-System verteilt Anfragen nach Aufgabe und Pre",
-      "link": "https://the-decoder.de/coinbase-wechselt-zu-chinesischen-ki-modellen-und-halbiert-seine-ki-ausgaben/",
-      "date": "2026-06-28T11:57:38.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "KI-Agenten als Start-up-Chef: Neuer Benchmark lässt Sprachmodelle 500 Tage ein Unternehmen führen",
-      "description": "Forscher der Princeton University haben mit CEO-Bench einen Test gebaut, in dem KI-Agenten ein fiktives Software-Unternehmen über 500 simulierte Tage leiten müssen. Die meisten aktuellen Modelle gehen",
-      "link": "https://the-decoder.de/ki-agenten-als-start-up-chef-neuer-benchmark-laesst-sprachmodelle-500-tage-ein-unternehmen-fuehren/",
-      "date": "2026-06-28T10:09:17.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
     },
     {
       "title": "Accelerating Gemini Nano models on Pixel with frozen Multi-Token Prediction",
