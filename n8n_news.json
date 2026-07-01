@@ -1,6 +1,33 @@
 {
-  "lastUpdated": "2026-07-01T07:39:33.986Z",
+  "lastUpdated": "2026-07-01T11:10:58.256Z",
   "news": [
+    {
+      "title": "Getarnte Signale im System-Prompt: Wie Claude Code chinesische Nutzer markierte",
+      "description": "Anthropic zieht eine verdeckte Überwachungsfunktion in seinem Programmierwerkzeug Claude Code zurück, nachdem sie auf Social Media für Empörung gesorgt hatte.\nDer Artikel Getarnte Signale im System-Pr",
+      "link": "https://the-decoder.de/getarnte-signale-im-system-prompt-wie-claude-code-chinesische-nutzer-markierte/",
+      "date": "2026-07-01T11:06:06.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Sol Pro, Terra Pro, Luna Pro: OpenAI-Paper zeigt eine neue Pro-Staffelung für GPT-5.6",
+      "description": "Ein OpenAI-Benchmark-Paper deutet an, dass die Pro-Stufe von GPT-5.6 künftig in drei Ausführungen erscheinen könnte. Das wäre die erste grundlegende Änderung am Zuschnitt des Angebots seit der Einführ",
+      "link": "https://the-decoder.de/sol-pro-terra-pro-luna-pro-openai-paper-zeigt-eine-neue-pro-staffelung-fuer-gpt-5-6/",
+      "date": "2026-07-01T09:40:41.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Auch Anthropics Sonnet 5 kommt mit versteckten Kosten und ist deutlich teurer als der Vorgänger",
+      "description": "Claude Sonnet 5 erreicht im Artificial Analysis Intelligence Index mit 53 Punkten Platz fünf und übertrifft bei agentischen Aufgaben teils sogar das teurere Opus 4.8. Doch das Modell verbraucht pro Au",
+      "link": "https://the-decoder.de/auch-anthropics-sonnet-5-kommt-mit-versteckten-kosten-und-ist-deutlich-teurer-als-der-vorgaenger/",
+      "date": "2026-07-01T08:49:09.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "US-Regierung gibt KI-Modell Fable 5 von Anthropic wieder frei",
       "description": "Nach gut zwei Wochen Sperre gibt die US-Regierung Anthropics Fable 5 wieder für den weltweiten Zugang frei. Auslöser war ein Jailbreak-Fund von Amazon-Forschern, den laut Anthropic aber auch deutlich",
@@ -11,7 +38,7 @@
       "language": "de"
     },
     {
-      "title": "Anthropics neues Claude Sonnet 5 soll die Preis-Leistungs-Lücke zum teureren Opus-Modell schließen",
+      "title": "Anthropics neues Claude Sonnet 5 soll die Preis-Leistungs-Lücke zum Opus-Modell schließen",
       "description": "Anthropic veröffentlicht Claude Sonnet 5, das seinen Vorgänger Sonnet 4.6 in allen Benchmarks übertrifft und beim Wissensarbeit-Test GDPval-AA v2 mit 1618 Punkten sogar das größere Opus 4.8 schlägt. A",
       "link": "https://the-decoder.de/anthropics-neues-claude-sonnet-5-soll-die-preis-leistungs-luecke-zum-teureren-opus-modell-schliessen/",
       "date": "2026-06-30T18:31:10.000Z",
@@ -74,24 +101,6 @@
       "language": "de"
     },
     {
-      "title": "US-Kampagnen integrieren KI in jeden Arbeitsschritt, in Europa gelten strengere Spielregeln",
-      "description": "Laut einem Bericht der New York Times integrieren republikanische und demokratische Kampagnen KI in nahezu jeden Arbeitsschritt. Doch die Technologie bleibt ein politisches Minenfeld.\nDer Artikel US-K",
-      "link": "https://the-decoder.de/us-kampagnen-integrieren-ki-in-jeden-arbeitsschritt-in-europa-gelten-strengere-spielregeln/",
-      "date": "2026-06-30T12:11:40.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Meta testete Konkurrenz-Chatbots mit Suizid-, Sex- und Drogen-Prompts aus Sicht von Minderjährigen",
-      "description": "Meta hat angeblich Hunderte Auftragnehmer eingesetzt, um Chatbots von OpenAI, Google und Character.AI mit heiklen Prompts zu testen, darunter Suizid-, Sex- und Drogenanfragen aus der Perspektive Minde",
-      "link": "https://the-decoder.de/meta-testete-konkurrenz-chatbots-mit-suizid-sex-und-drogen-prompts-aus-sicht-von-minderjaehrigen/",
-      "date": "2026-06-30T10:58:52.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "How ChatGPT adoption has expanded",
       "description": "New OpenAI Signals data shows how ChatGPT adoption is growing globally, with users increasing usage, exploring more capabilities, and driving growth across regions and languages.",
       "link": "https://openai.com/index/how-chatgpt-adoption-has-expanded",
@@ -99,15 +108,6 @@
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
-    },
-    {
-      "title": "Taiwan weitet Untersuchung zu Chip-Schmuggel nach China aus",
-      "description": "Taiwanesische Behörden haben Büros von Super Micro Computer und mehrerer lokaler Partnerfirmen durchsucht.\nDer Artikel Taiwan weitet Untersuchung zu Chip-Schmuggel nach China aus erschien zuerst auf T",
-      "link": "https://the-decoder.de/taiwan-weitet-untersuchung-zu-chip-schmuggel-nach-china-aus/",
-      "date": "2026-06-30T08:55:41.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
     },
     {
       "title": "Introducing GeneBench-Pro",
