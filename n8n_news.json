@@ -1,6 +1,33 @@
 {
-  "lastUpdated": "2026-07-02T07:15:21.790Z",
+  "lastUpdated": "2026-07-02T12:45:18.109Z",
   "news": [
+    {
+      "title": "Angriff auf die Tech-Giganten: Nvidia fördert junge Cloud-Anbieter mit finanziellen Absicherungen",
+      "description": "Nvidia agiert zunehmend wie eine Zentralbank für KI-Start-ups, um den Markt für Rechenleistung aktiv zu formen.\nDer Artikel Angriff auf die Tech-Giganten: Nvidia fördert junge Cloud-Anbieter mit finan",
+      "link": "https://the-decoder.de/angriff-auf-die-tech-giganten-nvidia-foerdert-junge-cloud-anbieter-mit-finanziellen-absicherungen/",
+      "date": "2026-07-02T11:30:05.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Freelance-Benchmark zeigt: KI-Agenten erledigen viermal mehr Profi-Aufträge als noch vor acht Monaten",
+      "description": "Der Remote Labor Index misst, wie oft KI-Agenten bezahlte Freelance-Projekte in Profiqualität abliefern. Innerhalb von acht Monaten hat sich die Spitzenrate mehr als vervierfacht.\nDer Artikel Freelanc",
+      "link": "https://the-decoder.de/freelance-benchmark-zeigt-ki-agenten-erledigen-viermal-mehr-profi-auftraege-als-noch-vor-acht-monaten/",
+      "date": "2026-07-02T11:04:49.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "OpenAI bietet der Trump-Regierung offenbar fünf Prozent des Unternehmens an",
+      "description": "OpenAI bietet der Trump-Regierung offenbar eine Beteiligung von fünf Prozent am Unternehmen an. Details zu möglichen Gegenleistungen oder Bedingungen des Deals sind noch nicht bekannt. Der Vorstoß unt",
+      "link": "https://the-decoder.de/openai-bietet-der-trump-regierung-offenbar-fuenf-prozent-des-unternehmens-an/",
+      "date": "2026-07-02T10:37:16.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "SpaceX zeigt Investoren Prototyp eines KI-Smartphones mit xAI-Technologie von Musk",
       "description": "SpaceX hat Investoren einen Prototyp eines KI-Smartphones gezeigt, das dünner als ein iPhone sein soll und xAI-Technologie integriert. Das Gerät läuft auf einem Qualcomm-Snapdragon-Chip mit eigenem Be",
@@ -56,42 +83,6 @@
       "language": "de"
     },
     {
-      "title": "US-Regierung gibt KI-Modell Fable 5 von Anthropic wieder frei",
-      "description": "Nach gut zwei Wochen Sperre gibt die US-Regierung Anthropics Fable 5 wieder für den weltweiten Zugang frei. Auslöser war ein Jailbreak-Fund von Amazon-Forschern, den laut Anthropic aber auch deutlich",
-      "link": "https://the-decoder.de/us-regierung-gibt-ki-modell-fable-5-von-anthropic-wieder-frei/",
-      "date": "2026-07-01T07:23:29.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Anthropics neues Claude Sonnet 5 soll die Preis-Leistungs-Lücke zum Opus-Modell schließen",
-      "description": "Anthropic veröffentlicht Claude Sonnet 5, das seinen Vorgänger Sonnet 4.6 in allen Benchmarks übertrifft und beim Wissensarbeit-Test GDPval-AA v2 mit 1618 Punkten sogar das größere Opus 4.8 schlägt. A",
-      "link": "https://the-decoder.de/anthropics-neues-claude-sonnet-5-soll-die-preis-leistungs-luecke-zum-teureren-opus-modell-schliessen/",
-      "date": "2026-06-30T18:31:10.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Anthropics neues Claude Science ist eine KI-Arbeitsumgebung speziell für die Wissenschaft",
-      "description": "Anthropic hat mit Claude Science eine KI-Arbeitsumgebung für Forscher gestartet. Über 60 vorkonfigurierte Skills decken Bereiche wie Genomik und Chemieinformatik ab, ein Prüf-Agent kontrolliert Zitate",
-      "link": "https://the-decoder.de/anthropics-neues-claude-science-ist-eine-ki-arbeitsumgebung-speziell-fuer-die-wissenschaft/",
-      "date": "2026-06-30T17:57:48.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "OpenAI soll Antwort-Kosten für ChatGPT-Gast-Nutzer um mehr als die Hälfte gesenkt haben",
-      "description": "OpenAI hat die Inferenzkosten für seine KI-Modelle laut einem Bericht von The Information um mehr als die Hälfte gesenkt. Die Optimierungen wurden unter anderem bei ChatGPT angewendet, wo die Zahl ben",
-      "link": "https://the-decoder.de/openai-soll-inferenz-kosten-fuer-chatgpt-gast-nutzer-um-mehr-als-die-haelfte-gesenkt-haben/",
-      "date": "2026-06-30T17:38:27.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "Expanding our Heat Resilience data to 50+ global cities",
       "description": "Climate & Sustainability",
       "link": "https://research.google/blog/expanding-our-heat-resilience-data-to-50-global-cities/",
@@ -132,6 +123,15 @@
       "description": "A new OpenAI report maps how AI could reshape jobs across the EU, highlighting which occupations may face automation, growth, or workflow changes.",
       "link": "https://openai.com/index/mapping-ai-jobs-transition-eu",
       "date": "2026-06-29T07:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
+      "title": "HP Inc. launches Frontier strategic partnership with OpenAI",
+      "description": "HP Inc. scales its OpenAI Frontier partnership to deploy AI across customer experiences, software development, and enterprise operations.",
+      "link": "https://openai.com/index/hp-frontier-partnership",
+      "date": "2026-06-28T17:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
