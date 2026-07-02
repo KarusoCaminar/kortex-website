@@ -1,6 +1,33 @@
 {
-  "lastUpdated": "2026-07-01T13:04:28.848Z",
+  "lastUpdated": "2026-07-02T03:13:17.627Z",
   "news": [
+    {
+      "title": "SpaceX zeigt Investoren Prototyp eines KI-Smartphones mit xAI-Technologie von Musk",
+      "description": "SpaceX hat Investoren einen Prototyp eines KI-Smartphones gezeigt, das dünner als ein iPhone sein soll und xAI-Technologie integriert. Das Gerät läuft auf einem Qualcomm-Snapdragon-Chip mit eigenem Be",
+      "link": "https://the-decoder.de/spacex-zeigt-investoren-prototyp-eines-ki-smartphones-mit-xai-technologie-von-musk/",
+      "date": "2026-07-01T19:41:31.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Meta will überschüssige KI-Rechenkapazität als Cloud-Geschäft an externe Kunden verkaufen",
+      "description": "Meta baut ein eigenes Cloud-Geschäft auf, um überschüssige KI-Rechenkapazität an externe Kunden zu verkaufen. Bei geplanten KI-Investitionen von bis zu 145 Milliarden Dollar allein in diesem Jahr stel",
+      "link": "https://the-decoder.de/meta-will-ueberschuessige-ki-rechenkapazitaet-als-cloud-geschaeft-an-externe-kunden-verkaufen/",
+      "date": "2026-07-01T15:50:43.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Nicht-invasive Hirn-zu-Text-KI von Meta nähert sich der Leistung von Implantaten",
+      "description": "Metas KI-Team FAIR übersetzt mit Brain2Qwerty v2 Hirnaktivität in geschriebene Sätze – ganz ohne Implantate oder Operation. Das System liest magnetische Signale außerhalb des Kopfes und rekonstruiert",
+      "link": "https://the-decoder.de/nicht-invasive-hirn-zu-text-ki-von-meta-naehert-sich-der-leistung-von-implantaten/",
+      "date": "2026-07-01T14:44:09.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Getarnte Signale im System-Prompt: Wie Claude Code chinesische Nutzer markierte",
       "description": "Anthropic zieht eine verdeckte Überwachungsfunktion in seinem Programmierwerkzeug Claude Code zurück, nachdem sie auf Social Media für Empörung gesorgt hatte.\nDer Artikel Getarnte Signale im System-Pr",
@@ -65,40 +92,13 @@
       "language": "de"
     },
     {
-      "title": "Google bringt mit Nano Banana 2 Lite sein bisher schnellstes KI-Bildmodell und Gemini Omni Flash in die API",
-      "description": "Google erweitert seine generative KI-Modellfamilie um zwei Neuzugänge: Nano Banana 2 Lite erzeugt Bilder in vier Sekunden für 0,034 US-Dollar pro Bild, Gemini Omni Flash bringt erstmals Videogenerieru",
-      "link": "https://the-decoder.de/google-bringt-mit-nano-banana-2-lite-sein-bisher-schnellstes-ki-bildmodell-und-oeffnet-gemini-omni-flash-fuer-entwickler/",
-      "date": "2026-06-30T17:03:33.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "Expanding our Heat Resilience data to 50+ global cities",
       "description": "Climate & Sustainability",
       "link": "https://research.google/blog/expanding-our-heat-resilience-data-to-50-global-cities/",
-      "date": "2026-06-30T17:03:10.000Z",
+      "date": "2026-06-30T17:03:00.000Z",
       "source": "Google AI",
       "category": "große-modelle",
       "language": "en"
-    },
-    {
-      "title": "Meituan trainiert konkurrenzfähiges Billionen-Parameter-Modell komplett auf chinesischen Chips",
-      "description": "Meituan trainiert ein KI-Modell mit 1,6 Billionen Parametern komplett auf chinesischen Chips, ganz ohne Nvidia.\nDer Artikel Meituan trainiert konkurrenzfähiges Billionen-Parameter-Modell komplett auf",
-      "link": "https://the-decoder.de/meituan-trainiert-konkurrenzfaehiges-billionen-parameter-modell-komplett-auf-chinesischen-chips/",
-      "date": "2026-06-30T15:11:46.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "KI-Boom in San Francisco treibt Mieten so hoch, dass selbst Topverdiener keine Wohnung finden",
-      "description": "San Franciscos KI-Boom treibt die Lebenshaltungskosten auf ein Niveau, bei dem selbst Paare mit zusammen 365.000 Dollar Jahresgehalt keine bezahlbare Wohnung finden. Die Medianmiete liegt bei 3.827 Do",
-      "link": "https://the-decoder.de/ki-boom-in-san-francisco-treibt-mieten-so-hoch-dass-selbst-topverdiener-keine-wohnung-finden/",
-      "date": "2026-06-30T15:04:55.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
     },
     {
       "title": "How ChatGPT adoption has expanded",
