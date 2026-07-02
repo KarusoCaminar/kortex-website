@@ -1,6 +1,33 @@
 {
-  "lastUpdated": "2026-07-02T12:45:18.109Z",
+  "lastUpdated": "2026-07-02T22:26:06.655Z",
   "news": [
+    {
+      "title": "Microsoft gründet \"Frontier Company\" mit 6.000 Ingenieuren für KI-Integration bei Unternehmenskunden",
+      "description": "Microsoft investiert 2,5 Milliarden US-Dollar in eine neue Einheit namens \"Frontier Company\", die 6.000 Ingenieure direkt bei Unternehmenskunden platzieren soll. Ziel ist die Integration von KI in Ker",
+      "link": "https://the-decoder.de/microsoft-gruendet-frontier-company-mit-6-000-ingenieuren-fuer-ki-integration-bei-unternehmenskunden/",
+      "date": "2026-07-02T19:02:29.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Anthropic arbeitet offenbar an eigenem KI-Chip und spricht mit Samsung über die Fertigung",
+      "description": "Anthropic führt laut Berichten Gespräche mit Samsung Electronics über die Fertigung eines eigenen KI-Chips. Das Projekt ist noch in einem frühen Stadium. Nach OpenAIs \"Jalapeño\" drängt damit ein weite",
+      "link": "https://the-decoder.de/anthropic-arbeitet-offenbar-an-eigenem-ki-chip-und-spricht-mit-samsung-ueber-die-fertigung/",
+      "date": "2026-07-02T17:18:57.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Weniger ist mehr: Anthropic steuert Mythos-Klasse mit Kontext statt mit Verboten",
+      "description": "Anthropic hat den System-Prompt für Claude Code um 80 Prozent gekürzt. Laut Mitarbeiter Tariq Shihipar benötigen die neuen Fable-5-Modelle weniger Anweisungen und Beispiele – Vorgaben könnten die Mode",
+      "link": "https://the-decoder.de/weniger-ist-mehr-anthropic-steuert-mythos-klasse-mit-kontext-statt-mit-verboten/",
+      "date": "2026-07-02T16:06:29.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Angriff auf die Tech-Giganten: Nvidia fördert junge Cloud-Anbieter mit finanziellen Absicherungen",
       "description": "Nvidia agiert zunehmend wie eine Zentralbank für KI-Start-ups, um den Markt für Rechenleistung aktiv zu formen.\nDer Artikel Angriff auf die Tech-Giganten: Nvidia fördert junge Cloud-Anbieter mit finan",
@@ -51,33 +78,6 @@
       "description": "Metas KI-Team FAIR übersetzt mit Brain2Qwerty v2 Hirnaktivität in geschriebene Sätze – ganz ohne Implantate oder Operation. Das System liest magnetische Signale außerhalb des Kopfes und rekonstruiert",
       "link": "https://the-decoder.de/nicht-invasive-hirn-zu-text-ki-von-meta-naehert-sich-der-leistung-von-implantaten/",
       "date": "2026-07-01T14:44:09.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Getarnte Signale im System-Prompt: Wie Claude Code chinesische Nutzer markierte",
-      "description": "Anthropic zieht eine verdeckte Überwachungsfunktion in seinem Programmierwerkzeug Claude Code zurück, nachdem sie auf Social Media für Empörung gesorgt hatte.\nDer Artikel Getarnte Signale im System-Pr",
-      "link": "https://the-decoder.de/getarnte-signale-im-system-prompt-wie-claude-code-chinesische-nutzer-markierte/",
-      "date": "2026-07-01T11:06:06.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Sol Pro, Terra Pro, Luna Pro: OpenAI-Paper zeigt eine neue Pro-Staffelung für GPT-5.6",
-      "description": "Ein OpenAI-Benchmark-Paper deutet an, dass die Pro-Stufe von GPT-5.6 künftig in drei Ausführungen erscheinen könnte. Das wäre die erste grundlegende Änderung am Zuschnitt des Angebots seit der Einführ",
-      "link": "https://the-decoder.de/sol-pro-terra-pro-luna-pro-openai-paper-zeigt-eine-neue-pro-staffelung-fuer-gpt-5-6/",
-      "date": "2026-07-01T09:40:41.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Auch Anthropics Sonnet 5 kommt mit versteckten Kosten und ist deutlich teurer als der Vorgänger",
-      "description": "Claude Sonnet 5 erreicht im Artificial Analysis Intelligence Index mit 53 Punkten Platz fünf und übertrifft bei agentischen Aufgaben teils sogar das teurere Opus 4.8. Doch das Modell verbraucht pro Au",
-      "link": "https://the-decoder.de/auch-anthropics-sonnet-5-kommt-mit-versteckten-kosten-und-ist-deutlich-teurer-als-der-vorgaenger/",
-      "date": "2026-07-01T08:49:09.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
