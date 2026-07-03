@@ -1,6 +1,33 @@
 {
-  "lastUpdated": "2026-07-03T12:44:22.638Z",
+  "lastUpdated": "2026-07-03T18:32:36.177Z",
   "news": [
+    {
+      "title": "Claude Code in China: Anthropic kämpft gegen Schlupflöcher, Alibaba verbannt das Tool",
+      "description": "Anthropic versucht, chinesischen Firmen wie ByteDance und Ant Financial den Zugang zu Claude Code zu verwehren – die greifen über VPNs und Auslandstöchter trotzdem darauf zu. Alibaba wiederum verbiete",
+      "link": "https://the-decoder.de/claude-code-in-china-anthropic-kaempft-gegen-schlupfloecher-alibaba-verbannt-das-tool/",
+      "date": "2026-07-03T16:58:33.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Seit KI-Modelle Schwachstellen aufspüren, explodiert die Zahl gemeldeter Sicherheitslücken",
+      "description": "Epoch AI dokumentiert einen drastischen Anstieg gemeldeter Sicherheitslücken: Im Juni 2026 meldeten 21 Organisationen rund 1.500 schwere und kritische CVEs, mehr als 3,5-mal so viele wie der bisherige",
+      "link": "https://the-decoder.de/seit-ki-modelle-schwachstellen-aufspueren-explodiert-die-zahl-gemeldeter-sicherheitsluecken/",
+      "date": "2026-07-03T16:43:47.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Britisches KI-Sicherheitsinstitut warnt: Standard-Benchmarks unterschätzen KI-Agenten systematisch",
+      "description": "Das britische AI Security Institute zeigt in einer Studie über sieben Benchmarks: Gängige KI-Evaluierungen unterschätzen die Fähigkeiten von Agenten-Modellen systematisch, weil sie das Rechenbudget be",
+      "link": "https://the-decoder.de/britisches-ki-sicherheitsinstitut-warnt-standard-benchmarks-unterschaetzen-ki-agenten-systematisch/",
+      "date": "2026-07-03T15:46:44.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Webinar KI-Sicherheit im Unternehmen: Worauf jetzt alle achten sollten",
       "description": "Prompt Injection, Data Poisoning und unbeabsichtigte Datenlecks zählen zu den drängendsten Sicherheitsrisiken beim KI-Einsatz in Unternehmen. Klassische IT-Sicherheitskonzepte decken diese Angriffssze",
@@ -12,7 +39,7 @@
     },
     {
       "title": "Der blinde Fleck der Frontier-Modelle: Hedgefonds zeigt Wert von nicht eintrainiertem Expertenwissen",
-      "description": "Der Hedgefonds Bridgewater und Thinking Machines Lab berichten, dass ein feinabgestimmtes Open-Weight-Modell bei der Bewertung von Finanzdokumenten die stärksten KI-Modelle schlägt, bei einem Bruchtei",
+      "description": "Bridgewater und Thinking Machines Lab, das Start-up von Ex-OpenAI-CTO Mira Murati, haben ein feinabgestimmtes Qwen3-235B-Modell auf Finanzaufgaben trainiert. Es erreicht laut eigener Auswertung 84,7 P",
       "link": "https://the-decoder.de/der-blinde-fleck-der-frontier-modelle-hedgefonds-zeigt-wert-von-nicht-eintrainiertem-expertenwissen/",
       "date": "2026-07-03T10:38:42.000Z",
       "source": "The Decoder",
@@ -60,33 +87,6 @@
       "description": "Anthropic führt laut Berichten Gespräche mit Samsung Electronics über die Fertigung eines eigenen KI-Chips. Das Projekt ist noch in einem frühen Stadium. Nach OpenAIs \"Jalapeño\" drängt damit ein weite",
       "link": "https://the-decoder.de/anthropic-arbeitet-offenbar-an-eigenem-ki-chip-und-spricht-mit-samsung-ueber-die-fertigung/",
       "date": "2026-07-02T17:18:57.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Weniger ist mehr: Anthropic steuert Mythos-Klasse mit Kontext statt mit Verboten",
-      "description": "Anthropic hat den System-Prompt für Claude Code um 80 Prozent gekürzt. Laut Mitarbeiter Tariq Shihipar benötigen die neuen Fable-5-Modelle weniger Anweisungen und Beispiele – Vorgaben könnten die Mode",
-      "link": "https://the-decoder.de/weniger-ist-mehr-anthropic-steuert-mythos-klasse-mit-kontext-statt-mit-verboten/",
-      "date": "2026-07-02T16:06:29.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Angriff auf die Tech-Giganten: Nvidia fördert junge Cloud-Anbieter mit finanziellen Absicherungen",
-      "description": "Nvidia agiert zunehmend wie eine Zentralbank für KI-Start-ups, um den Markt für Rechenleistung aktiv zu formen.\nDer Artikel Angriff auf die Tech-Giganten: Nvidia fördert junge Cloud-Anbieter mit finan",
-      "link": "https://the-decoder.de/angriff-auf-die-tech-giganten-nvidia-foerdert-junge-cloud-anbieter-mit-finanziellen-absicherungen/",
-      "date": "2026-07-02T11:30:05.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Freelance-Benchmark zeigt: KI-Agenten erledigen viermal mehr Profi-Aufträge als noch vor acht Monaten",
-      "description": "Der Remote Labor Index misst, wie oft KI-Agenten bezahlte Freelance-Projekte in Profiqualität abliefern. Innerhalb von acht Monaten hat sich die Spitzenrate mehr als vervierfacht.\nDer Artikel Freelanc",
-      "link": "https://the-decoder.de/freelance-benchmark-zeigt-ki-agenten-erledigen-viermal-mehr-profi-auftraege-als-noch-vor-acht-monaten/",
-      "date": "2026-07-02T11:04:49.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
