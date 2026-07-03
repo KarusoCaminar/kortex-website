@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-07-03T18:32:36.177Z",
+  "lastUpdated": "2026-07-03T22:25:35.560Z",
   "news": [
+    {
+      "title": "Microsofts kommender Copilot soll mit KI-Agenten im Hintergrund \"echte Arbeit\" erledigen",
+      "description": "Microsoft will im August seine Consumer- und Enterprise-Copilot-Apps zu einer einzigen App zusammenführen. Wenig genutzte Features wie Copilot-Podcasts werden gestrichen, neue KI-Agenten namens \"AutoP",
+      "link": "https://the-decoder.de/microsofts-kommender-copilot-soll-mit-ki-agenten-im-hintergrund-echte-arbeit-erledigen/",
+      "date": "2026-07-03T19:12:40.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Claude Code in China: Anthropic kämpft gegen Schlupflöcher, Alibaba verbannt das Tool",
       "description": "Anthropic versucht, chinesischen Firmen wie ByteDance und Ant Financial den Zugang zu Claude Code zu verwehren – die greifen über VPNs und Auslandstöchter trotzdem darauf zu. Alibaba wiederum verbiete",
@@ -78,15 +87,6 @@
       "description": "Microsoft investiert 2,5 Milliarden US-Dollar in eine neue Einheit namens \"Frontier Company\", die 6.000 Ingenieure direkt bei Unternehmenskunden platzieren soll. Ziel ist die Integration von KI in Ker",
       "link": "https://the-decoder.de/microsoft-gruendet-frontier-company-mit-6-000-ingenieuren-fuer-ki-integration-bei-unternehmenskunden/",
       "date": "2026-07-02T19:02:29.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Anthropic arbeitet offenbar an eigenem KI-Chip und spricht mit Samsung über die Fertigung",
-      "description": "Anthropic führt laut Berichten Gespräche mit Samsung Electronics über die Fertigung eines eigenen KI-Chips. Das Projekt ist noch in einem frühen Stadium. Nach OpenAIs \"Jalapeño\" drängt damit ein weite",
-      "link": "https://the-decoder.de/anthropic-arbeitet-offenbar-an-eigenem-ki-chip-und-spricht-mit-samsung-ueber-die-fertigung/",
-      "date": "2026-07-02T17:18:57.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
