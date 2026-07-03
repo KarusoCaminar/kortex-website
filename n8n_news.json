@@ -1,6 +1,42 @@
 {
-  "lastUpdated": "2026-07-03T05:21:19.600Z",
+  "lastUpdated": "2026-07-03T10:57:51.347Z",
   "news": [
+    {
+      "title": "Der blinde Fleck der Frontier-Modelle: Hedgefonds zeigt Wert von nicht eintrainiertem Expertenwissen",
+      "description": "Der Hedgefonds Bridgewater und Thinking Machines Lab berichten, dass ein feinabgestimmtes Open-Weight-Modell bei der Bewertung von Finanzdokumenten die stärksten KI-Modelle schlägt, bei einem Bruchtei",
+      "link": "https://the-decoder.de/der-blinde-fleck-der-frontier-modelle-hedgefonds-zeigt-wert-von-nicht-eintrainiertem-expertenwissen/",
+      "date": "2026-07-03T10:38:42.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Zuckerberg gesteht Schwächen im KI-Umbau von Meta ein",
+      "description": "Auf einem internen Townhall gestand Mark Zuckerberg Schwächen im Konzernumbau ein. Ausgerechnet die KI-Agenten, für die Meta massiv umstrukturiert hat, entwickeln sich laut Zuckerberg langsamer als ge",
+      "link": "https://the-decoder.de/zuckerberg-gesteht-schwaechen-im-ki-umbau-von-meta-ein/",
+      "date": "2026-07-03T09:48:22.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Video-KI Kling sammelt 2 Milliarden Dollar und macht sich bereit für die Börse",
+      "description": "Kuaishou hat für seine KI-Videoeinheit Kling rund zwei Milliarden Dollar von Investoren eingesammelt.\nDer Artikel Video-KI Kling sammelt 2 Milliarden Dollar und macht sich bereit für die Börse erschie",
+      "link": "https://the-decoder.de/video-ki-kling-sammelt-2-milliarden-dollar-und-macht-sich-bereit-fuer-die-boerse/",
+      "date": "2026-07-03T08:53:16.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Tesla deckelt KI-Ausgaben seiner Mitarbeiter auf 200 Dollar pro Woche",
+      "description": "Tesla begrenzt die KI-Ausgaben seiner Mitarbeiter ab dem 6. Juli auf 200 Dollar pro Woche, berichtet The Information.\nDer Artikel Tesla deckelt KI-Ausgaben seiner Mitarbeiter auf 200 Dollar pro Woche",
+      "link": "https://the-decoder.de/tesla-deckelt-ki-ausgaben-seiner-mitarbeiter-auf-200-dollar-pro-woche/",
+      "date": "2026-07-03T08:24:51.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Microsoft gründet \"Frontier Company\" mit 6.000 Ingenieuren für KI-Integration bei Unternehmenskunden",
       "description": "Microsoft investiert 2,5 Milliarden US-Dollar in eine neue Einheit namens \"Frontier Company\", die 6.000 Ingenieure direkt bei Unternehmenskunden platzieren soll. Ziel ist die Integration von KI in Ker",
@@ -56,33 +92,6 @@
       "language": "de"
     },
     {
-      "title": "SpaceX zeigt Investoren Prototyp eines KI-Smartphones mit xAI-Technologie von Musk",
-      "description": "SpaceX hat Investoren einen Prototyp eines KI-Smartphones gezeigt, das dünner als ein iPhone sein soll und xAI-Technologie integriert. Das Gerät läuft auf einem Qualcomm-Snapdragon-Chip mit eigenem Be",
-      "link": "https://the-decoder.de/spacex-zeigt-investoren-prototyp-eines-ki-smartphones-mit-xai-technologie-von-musk/",
-      "date": "2026-07-01T19:41:31.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Meta will überschüssige KI-Rechenkapazität als Cloud-Geschäft an externe Kunden verkaufen",
-      "description": "Meta baut ein eigenes Cloud-Geschäft auf, um überschüssige KI-Rechenkapazität an externe Kunden zu verkaufen. Bei geplanten KI-Investitionen von bis zu 145 Milliarden Dollar allein in diesem Jahr stel",
-      "link": "https://the-decoder.de/meta-will-ueberschuessige-ki-rechenkapazitaet-als-cloud-geschaeft-an-externe-kunden-verkaufen/",
-      "date": "2026-07-01T15:50:43.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Nicht-invasive Hirn-zu-Text-KI von Meta nähert sich der Leistung von Implantaten",
-      "description": "Metas KI-Team FAIR übersetzt mit Brain2Qwerty v2 Hirnaktivität in geschriebene Sätze – ganz ohne Implantate oder Operation. Das System liest magnetische Signale außerhalb des Kopfes und rekonstruiert",
-      "link": "https://the-decoder.de/nicht-invasive-hirn-zu-text-ki-von-meta-naehert-sich-der-leistung-von-implantaten/",
-      "date": "2026-07-01T14:44:09.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "Expanding our Heat Resilience data to 50+ global cities",
       "description": "Climate & Sustainability",
       "link": "https://research.google/blog/expanding-our-heat-resilience-data-to-50-global-cities/",
@@ -123,15 +132,6 @@
       "description": "A new OpenAI report maps how AI could reshape jobs across the EU, highlighting which occupations may face automation, growth, or workflow changes.",
       "link": "https://openai.com/index/mapping-ai-jobs-transition-eu",
       "date": "2026-06-29T07:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "HP Inc. launches Frontier strategic partnership with OpenAI",
-      "description": "HP Inc. scales its OpenAI Frontier partnership to deploy AI across customer experiences, software development, and enterprise operations.",
-      "link": "https://openai.com/index/hp-frontier-partnership",
-      "date": "2026-06-28T17:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
