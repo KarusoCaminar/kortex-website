@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-07-03T10:57:51.347Z",
+  "lastUpdated": "2026-07-03T12:44:22.638Z",
   "news": [
+    {
+      "title": "Webinar KI-Sicherheit im Unternehmen: Worauf jetzt alle achten sollten",
+      "description": "Prompt Injection, Data Poisoning und unbeabsichtigte Datenlecks zählen zu den drängendsten Sicherheitsrisiken beim KI-Einsatz in Unternehmen. Klassische IT-Sicherheitskonzepte decken diese Angriffssze",
+      "link": "https://the-decoder.de/webinar-ki-sicherheit-im-unternehmen-worauf-jetzt-alle-achten-sollten/",
+      "date": "2026-07-03T11:14:17.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Der blinde Fleck der Frontier-Modelle: Hedgefonds zeigt Wert von nicht eintrainiertem Expertenwissen",
       "description": "Der Hedgefonds Bridgewater und Thinking Machines Lab berichten, dass ein feinabgestimmtes Open-Weight-Modell bei der Bewertung von Finanzdokumenten die stärksten KI-Modelle schlägt, bei einem Bruchtei",
@@ -78,15 +87,6 @@
       "description": "Der Remote Labor Index misst, wie oft KI-Agenten bezahlte Freelance-Projekte in Profiqualität abliefern. Innerhalb von acht Monaten hat sich die Spitzenrate mehr als vervierfacht.\nDer Artikel Freelanc",
       "link": "https://the-decoder.de/freelance-benchmark-zeigt-ki-agenten-erledigen-viermal-mehr-profi-auftraege-als-noch-vor-acht-monaten/",
       "date": "2026-07-02T11:04:49.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "OpenAI bietet der Trump-Regierung offenbar fünf Prozent des Unternehmens an",
-      "description": "OpenAI bietet der Trump-Regierung offenbar eine Beteiligung von fünf Prozent am Unternehmen an. Details zu möglichen Gegenleistungen oder Bedingungen des Deals sind noch nicht bekannt. Der Vorstoß unt",
-      "link": "https://the-decoder.de/openai-bietet-der-trump-regierung-offenbar-fuenf-prozent-des-unternehmens-an/",
-      "date": "2026-07-02T10:37:16.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
