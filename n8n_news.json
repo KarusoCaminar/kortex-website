@@ -1,6 +1,51 @@
 {
-  "lastUpdated": "2026-07-03T22:25:35.560Z",
+  "lastUpdated": "2026-07-04T14:34:04.692Z",
   "news": [
+    {
+      "title": "Prompting-Tipps für Fable 5: Zuerst die \"unbekannten Unbekannten\" finden",
+      "description": "Anthropic-Entwickler Thariq Shihipar argumentiert, dass bei Claudes neuem Modell Fable 5 erstmals nicht mehr das Modell der Flaschenhals sei, sondern die blinden Flecken der Nutzer. Er beschreibt Tech",
+      "link": "https://the-decoder.de/prompting-tipps-fuer-fable-5-zuerst-die-unbekannten-unbekannten-finden/",
+      "date": "2026-07-04T12:18:51.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "\"Fast kein Interface, fast kein Produkt\": OpenAI-Mitgründer skizziert ChatGPT-Vision",
+      "description": "Greg Brockman nennt den Grund für das Scheitern der 2023 groß vermarkteten ChatGPT-Plugins: \"Die Modelle waren damals nicht ansatzweise gut genug.\" Statt App-Erweiterungen sieht er die Zukunft in eine",
+      "link": "https://the-decoder.de/fast-kein-interface-fast-kein-produkt-openai-mitgruender-skizziert-chatgpt-vision/",
+      "date": "2026-07-04T09:38:21.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Bessere Hausaufgaben, schlechtere Prüfungen: Generative KI verursacht Lernverlust bei Schülern",
+      "description": "Eine Studie mit über 26.000 chinesischen Schülern zeigt: Wer generative KI für Hausaufgaben nutzt, erledigt sie schneller und mit besseren Noten, schneidet aber in Klausuren bis zu 24 Prozent schlecht",
+      "link": "https://the-decoder.de/bessere-hausaufgaben-schlechtere-pruefungen-generative-ki-verursacht-lernverlust-bei-schuelern/",
+      "date": "2026-07-04T08:42:41.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Anthropic will mit KI Wirkstoffe gegen Krankheiten erforschen, die für Pharmakonzerne unattraktiv sind",
+      "description": "Anthropic startet eigene Medikamentenentwicklung für vernachlässigte Krankheiten, die für die Pharmabranche wirtschaftlich unattraktiv sind. Novartis-CEO Vas Narasimhan schätzt das Potenzial: KI könnt",
+      "link": "https://the-decoder.de/anthropic-will-mit-ki-wirkstoffe-gegen-krankheiten-erforschen-die-fuer-pharmakonzerne-unattraktiv-sind/",
+      "date": "2026-07-04T08:04:18.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Mistral veröffentlicht Open-Source-Modell für formale Mathematik und Code-Verifikation",
+      "description": "Mistral AI veröffentlicht mit Leanstral 1.5 ein Open-Source-Modell für formale Verifikation in Lean 4. Über reine Mathematik hinaus fand das Modell beim Scan von 57 Open-Source-Repositories fünf bishe",
+      "link": "https://the-decoder.de/mistral-veroeffentlicht-open-source-modell-fuer-formale-mathematik-und-code-verifikation/",
+      "date": "2026-07-04T07:06:47.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Microsofts kommender Copilot soll mit KI-Agenten im Hintergrund \"echte Arbeit\" erledigen",
       "description": "Microsoft will im August seine Consumer- und Enterprise-Copilot-Apps zu einer einzigen App zusammenführen. Wenig genutzte Features wie Copilot-Podcasts werden gestrichen, neue KI-Agenten namens \"AutoP",
@@ -42,51 +87,6 @@
       "description": "Prompt Injection, Data Poisoning und unbeabsichtigte Datenlecks zählen zu den drängendsten Sicherheitsrisiken beim KI-Einsatz in Unternehmen. Klassische IT-Sicherheitskonzepte decken diese Angriffssze",
       "link": "https://the-decoder.de/webinar-ki-sicherheit-im-unternehmen-worauf-jetzt-alle-achten-sollten/",
       "date": "2026-07-03T11:14:17.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Der blinde Fleck der Frontier-Modelle: Hedgefonds zeigt Wert von nicht eintrainiertem Expertenwissen",
-      "description": "Bridgewater und Thinking Machines Lab, das Start-up von Ex-OpenAI-CTO Mira Murati, haben ein feinabgestimmtes Qwen3-235B-Modell auf Finanzaufgaben trainiert. Es erreicht laut eigener Auswertung 84,7 P",
-      "link": "https://the-decoder.de/der-blinde-fleck-der-frontier-modelle-hedgefonds-zeigt-wert-von-nicht-eintrainiertem-expertenwissen/",
-      "date": "2026-07-03T10:38:42.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Zuckerberg gesteht Schwächen im KI-Umbau von Meta ein",
-      "description": "Auf einem internen Townhall gestand Mark Zuckerberg Schwächen im Konzernumbau ein. Ausgerechnet die KI-Agenten, für die Meta massiv umstrukturiert hat, entwickeln sich laut Zuckerberg langsamer als ge",
-      "link": "https://the-decoder.de/zuckerberg-gesteht-schwaechen-im-ki-umbau-von-meta-ein/",
-      "date": "2026-07-03T09:48:22.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Video-KI Kling sammelt 2 Milliarden Dollar und macht sich bereit für die Börse",
-      "description": "Kuaishou hat für seine KI-Videoeinheit Kling rund zwei Milliarden Dollar von Investoren eingesammelt.\nDer Artikel Video-KI Kling sammelt 2 Milliarden Dollar und macht sich bereit für die Börse erschie",
-      "link": "https://the-decoder.de/video-ki-kling-sammelt-2-milliarden-dollar-und-macht-sich-bereit-fuer-die-boerse/",
-      "date": "2026-07-03T08:53:16.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Tesla deckelt KI-Ausgaben seiner Mitarbeiter auf 200 Dollar pro Woche",
-      "description": "Tesla begrenzt die KI-Ausgaben seiner Mitarbeiter ab dem 6. Juli auf 200 Dollar pro Woche, berichtet The Information.\nDer Artikel Tesla deckelt KI-Ausgaben seiner Mitarbeiter auf 200 Dollar pro Woche",
-      "link": "https://the-decoder.de/tesla-deckelt-ki-ausgaben-seiner-mitarbeiter-auf-200-dollar-pro-woche/",
-      "date": "2026-07-03T08:24:51.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Microsoft gründet \"Frontier Company\" mit 6.000 Ingenieuren für KI-Integration bei Unternehmenskunden",
-      "description": "Microsoft investiert 2,5 Milliarden US-Dollar in eine neue Einheit namens \"Frontier Company\", die 6.000 Ingenieure direkt bei Unternehmenskunden platzieren soll. Ziel ist die Integration von KI in Ker",
-      "link": "https://the-decoder.de/microsoft-gruendet-frontier-company-mit-6-000-ingenieuren-fuer-ki-integration-bei-unternehmenskunden/",
-      "date": "2026-07-02T19:02:29.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
