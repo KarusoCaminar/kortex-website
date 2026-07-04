@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-07-04T14:34:04.692Z",
+  "lastUpdated": "2026-07-04T20:23:46.118Z",
   "news": [
+    {
+      "title": "pxpipe: Token-Kosten für Claude Code durch Bild-Rendering senken",
+      "description": "Das Open-Source-Tool pxpipe wandelt umfangreiche Texteingaben für Claude Code in kompakte PNG-Bilder um und nutzt dabei aus, dass Anthropic Bilder nach Pixelgröße statt Textinhalt berechnet. Entwickle",
+      "link": "https://the-decoder.de/pxpipe-token-kosten-fuer-claude-code-durch-bild-rendering-senken/",
+      "date": "2026-07-04T17:52:33.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Prompting-Tipps für Fable 5: Zuerst die \"unbekannten Unbekannten\" finden",
       "description": "Anthropic-Entwickler Thariq Shihipar argumentiert, dass bei Claudes neuem Modell Fable 5 erstmals nicht mehr das Modell der Flaschenhals sei, sondern die blinden Flecken der Nutzer. Er beschreibt Tech",
@@ -78,15 +87,6 @@
       "description": "Das britische AI Security Institute zeigt in einer Studie über sieben Benchmarks: Gängige KI-Evaluierungen unterschätzen die Fähigkeiten von Agenten-Modellen systematisch, weil sie das Rechenbudget be",
       "link": "https://the-decoder.de/britisches-ki-sicherheitsinstitut-warnt-standard-benchmarks-unterschaetzen-ki-agenten-systematisch/",
       "date": "2026-07-03T15:46:44.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Webinar KI-Sicherheit im Unternehmen: Worauf jetzt alle achten sollten",
-      "description": "Prompt Injection, Data Poisoning und unbeabsichtigte Datenlecks zählen zu den drängendsten Sicherheitsrisiken beim KI-Einsatz in Unternehmen. Klassische IT-Sicherheitskonzepte decken diese Angriffssze",
-      "link": "https://the-decoder.de/webinar-ki-sicherheit-im-unternehmen-worauf-jetzt-alle-achten-sollten/",
-      "date": "2026-07-03T11:14:17.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
