@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-05T16:26:07.539Z",
+  "lastUpdated": "2026-07-05T18:27:28.290Z",
   "news": [
     {
       "title": "Erster Build in 40 Minuten: Claude Code mit Fable 5 portiert \"Command & Conquer Generals\" auf iOS",
@@ -92,6 +92,15 @@
       "language": "de"
     },
     {
+      "title": "Expanding our Heat Resilience data to 50+ global cities",
+      "description": "Climate & Sustainability",
+      "link": "https://research.google/blog/expanding-our-heat-resilience-data-to-50-global-cities/",
+      "date": "2026-06-30T17:03:00.000Z",
+      "source": "Google AI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
       "title": "How ChatGPT adoption has expanded",
       "description": "New OpenAI Signals data shows how ChatGPT adoption is growing globally, with users increasing usage, exploring more capabilities, and driving growth across regions and languages.",
       "link": "https://openai.com/index/how-chatgpt-adoption-has-expanded",
@@ -123,15 +132,6 @@
       "description": "A new OpenAI report maps how AI could reshape jobs across the EU, highlighting which occupations may face automation, growth, or workflow changes.",
       "link": "https://openai.com/index/mapping-ai-jobs-transition-eu",
       "date": "2026-06-29T07:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "HP Inc. launches Frontier strategic partnership with OpenAI",
-      "description": "HP Inc. scales its OpenAI Frontier partnership to deploy AI across customer experiences, software development, and enterprise operations.",
-      "link": "https://openai.com/index/hp-frontier-partnership",
-      "date": "2026-06-28T17:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
