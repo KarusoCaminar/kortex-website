@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-07-05T09:06:44.811Z",
+  "lastUpdated": "2026-07-05T10:45:48.345Z",
   "news": [
+    {
+      "title": "KI-Privatschulen punkten bei der US-Geldelite mit personalisiertem Lernen statt klassischem Unterricht",
+      "description": "Wohlhabende US-Familien schicken ihre Kinder zunehmend an KI-Schulen wie die Alpha School, die zwei Stunden KI-Tutoring mit projektbasierten Workshops kombiniert: für bis zu 75.000 Dollar Schulgeld pr",
+      "link": "https://the-decoder.de/ki-privatschulen-punkten-bei-der-us-geldelite-mit-personalisiertem-lernen-statt-klassischem-unterricht/",
+      "date": "2026-07-05T10:35:46.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Mistral-Gründer Mensch: Wer auf proprietäre KI-Modelle setzt, riskiert sein Geschäftsgeheimnis",
+      "description": "Mistral-Gründer Arthur Mensch warnt Unternehmen davor, sich auf geschlossene KI-Modelle zu verlassen – Anbieter speicherten zunehmend Kundendaten und hätten diese teils genutzt, um Kunden als Konkurre",
+      "link": "https://the-decoder.de/mistral-gruender-mensch-wer-auf-geschlossene-ki-setzt-riskiert-sein-geschaeftsgeheimnis/",
+      "date": "2026-07-05T09:30:06.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Bytedances Videomodell \"Seedance\" empört Hollywood – und wird dort trotzdem heimlich genutzt",
       "description": "Bytedances KI-Videotool Seedance spaltet Hollywood: Ein viraler Clip mit KI-generierten Brad Pitt und Tom Cruise provozierte ein Unterlassungsschreiben der Motion Picture Association. Doch hinter den",
@@ -69,24 +87,6 @@
       "description": "Mistral AI veröffentlicht mit Leanstral 1.5 ein Open-Source-Modell für formale Verifikation in Lean 4. Über reine Mathematik hinaus fand das Modell beim Scan von 57 Open-Source-Repositories fünf bishe",
       "link": "https://the-decoder.de/mistral-veroeffentlicht-open-source-modell-fuer-formale-mathematik-und-code-verifikation/",
       "date": "2026-07-04T07:06:47.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Microsofts kommender Copilot soll mit KI-Agenten im Hintergrund \"echte Arbeit\" erledigen",
-      "description": "Microsoft will im August seine Consumer- und Enterprise-Copilot-Apps zu einer einzigen App zusammenführen. Wenig genutzte Features wie Copilot-Podcasts werden gestrichen, neue KI-Agenten namens \"AutoP",
-      "link": "https://the-decoder.de/microsofts-kommender-copilot-soll-mit-ki-agenten-im-hintergrund-echte-arbeit-erledigen/",
-      "date": "2026-07-03T19:12:40.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Claude Code in China: Anthropic kämpft gegen Schlupflöcher, Alibaba verbannt das Tool",
-      "description": "Anthropic versucht, chinesischen Firmen wie ByteDance und Ant Financial den Zugang zu Claude Code zu verwehren – die greifen über VPNs und Auslandstöchter trotzdem darauf zu. Alibaba wiederum verbiete",
-      "link": "https://the-decoder.de/claude-code-in-china-anthropic-kaempft-gegen-schlupfloecher-alibaba-verbannt-das-tool/",
-      "date": "2026-07-03T16:58:33.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
