@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-07-05T07:12:26.551Z",
+  "lastUpdated": "2026-07-05T09:06:44.811Z",
   "news": [
+    {
+      "title": "Bytedances Videomodell \"Seedance\" empört Hollywood – und wird dort trotzdem heimlich genutzt",
+      "description": "Bytedances KI-Videotool Seedance spaltet Hollywood: Ein viraler Clip mit KI-generierten Brad Pitt und Tom Cruise provozierte ein Unterlassungsschreiben der Motion Picture Association. Doch hinter den",
+      "link": "https://the-decoder.de/bytedances-videomodell-seedance-empoert-hollywood-und-wird-dort-trotzdem-heimlich-genutzt/",
+      "date": "2026-07-05T08:55:36.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Mehr Suchen hilft nicht: KI-Agenten brauchen bessere Rückfrage-Strategien",
+      "description": "KI-Suchagenten scheitern bei mehrstufigen Recherchen selten an der Suche selbst. Ihr eigentliches Problem liegt darin, bei mehrdeutigen Anfragen rechtzeitig beim Nutzer nachzufragen. Der neue Benchmar",
+      "link": "https://the-decoder.de/mehr-suchen-hilft-nicht-ki-agenten-brauchen-bessere-rueckfrage-strategien/",
+      "date": "2026-07-05T07:30:17.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "pxpipe: Token-Kosten für Claude Code durch Bild-Rendering senken",
       "description": "Das Open-Source-Tool pxpipe wandelt umfangreiche Texteingaben für Claude Code in kompakte PNG-Bilder um und nutzt dabei aus, dass Anthropic Bilder nach Pixelgröße statt Textinhalt berechnet. Entwickle",
@@ -69,24 +87,6 @@
       "description": "Anthropic versucht, chinesischen Firmen wie ByteDance und Ant Financial den Zugang zu Claude Code zu verwehren – die greifen über VPNs und Auslandstöchter trotzdem darauf zu. Alibaba wiederum verbiete",
       "link": "https://the-decoder.de/claude-code-in-china-anthropic-kaempft-gegen-schlupfloecher-alibaba-verbannt-das-tool/",
       "date": "2026-07-03T16:58:33.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Seit KI-Modelle Schwachstellen aufspüren, explodiert die Zahl gemeldeter Sicherheitslücken",
-      "description": "Epoch AI dokumentiert einen drastischen Anstieg gemeldeter Sicherheitslücken: Im Juni 2026 meldeten 21 Organisationen rund 1.500 schwere und kritische CVEs, mehr als 3,5-mal so viele wie der bisherige",
-      "link": "https://the-decoder.de/seit-ki-modelle-schwachstellen-aufspueren-explodiert-die-zahl-gemeldeter-sicherheitsluecken/",
-      "date": "2026-07-03T16:43:47.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Britisches KI-Sicherheitsinstitut warnt: Standard-Benchmarks unterschätzen KI-Agenten systematisch",
-      "description": "Das britische AI Security Institute zeigt in einer Studie über sieben Benchmarks: Gängige KI-Evaluierungen unterschätzen die Fähigkeiten von Agenten-Modellen systematisch, weil sie das Rechenbudget be",
-      "link": "https://the-decoder.de/britisches-ki-sicherheitsinstitut-warnt-standard-benchmarks-unterschaetzen-ki-agenten-systematisch/",
-      "date": "2026-07-03T15:46:44.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
