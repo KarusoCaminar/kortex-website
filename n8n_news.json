@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-07-05T10:45:48.345Z",
+  "lastUpdated": "2026-07-05T16:26:07.539Z",
   "news": [
+    {
+      "title": "Erster Build in 40 Minuten: Claude Code mit Fable 5 portiert \"Command & Conquer Generals\" auf iOS",
+      "description": "Ein Google-Deepmind-Entwickler hat das Echtzeit-Strategiespiel \"Command & Conquer: Generals Zero Hour\" von 2003 mit Anthropics Claude Code auf iPhone und iPad portiert. Der erste Build stand nach 40 M",
+      "link": "https://the-decoder.de/erster-build-in-40-minuten-claude-code-mit-fable-5-portiert-command-conquer-generals-auf-ios/",
+      "date": "2026-07-05T15:45:56.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Baidus \"Unlimited OCR\" transkribiert ganze Bücher in einem Durchgang",
+      "description": "Baidu stellt mit Unlimited OCR ein Modell vor, das dutzende Dokumentseiten in einem einzigen Durchlauf lesen kann; bisherige Systeme schaffen kaum mehr als zehn. Ein umgebauter Aufmerksamkeitsmechanis",
+      "link": "https://the-decoder.de/baidus-unlimited-ocr-transkribiert-ganze-buecher-in-einem-durchgang/",
+      "date": "2026-07-05T11:57:07.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "KI-Privatschulen punkten bei der US-Geldelite mit personalisiertem Lernen statt klassischem Unterricht",
       "description": "Wohlhabende US-Familien schicken ihre Kinder zunehmend an KI-Schulen wie die Alpha School, die zwei Stunden KI-Tutoring mit projektbasierten Workshops kombiniert: für bis zu 75.000 Dollar Schulgeld pr",
@@ -74,33 +92,6 @@
       "language": "de"
     },
     {
-      "title": "Anthropic will mit KI Wirkstoffe gegen Krankheiten erforschen, die für Pharmakonzerne unattraktiv sind",
-      "description": "Anthropic startet eigene Medikamentenentwicklung für vernachlässigte Krankheiten, die für die Pharmabranche wirtschaftlich unattraktiv sind. Novartis-CEO Vas Narasimhan schätzt das Potenzial: KI könnt",
-      "link": "https://the-decoder.de/anthropic-will-mit-ki-wirkstoffe-gegen-krankheiten-erforschen-die-fuer-pharmakonzerne-unattraktiv-sind/",
-      "date": "2026-07-04T08:04:18.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Mistral veröffentlicht Open-Source-Modell für formale Mathematik und Code-Verifikation",
-      "description": "Mistral AI veröffentlicht mit Leanstral 1.5 ein Open-Source-Modell für formale Verifikation in Lean 4. Über reine Mathematik hinaus fand das Modell beim Scan von 57 Open-Source-Repositories fünf bishe",
-      "link": "https://the-decoder.de/mistral-veroeffentlicht-open-source-modell-fuer-formale-mathematik-und-code-verifikation/",
-      "date": "2026-07-04T07:06:47.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Expanding our Heat Resilience data to 50+ global cities",
-      "description": "Climate & Sustainability",
-      "link": "https://research.google/blog/expanding-our-heat-resilience-data-to-50-global-cities/",
-      "date": "2026-06-30T17:03:00.000Z",
-      "source": "Google AI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
       "title": "How ChatGPT adoption has expanded",
       "description": "New OpenAI Signals data shows how ChatGPT adoption is growing globally, with users increasing usage, exploring more capabilities, and driving growth across regions and languages.",
       "link": "https://openai.com/index/how-chatgpt-adoption-has-expanded",
@@ -132,6 +123,15 @@
       "description": "A new OpenAI report maps how AI could reshape jobs across the EU, highlighting which occupations may face automation, growth, or workflow changes.",
       "link": "https://openai.com/index/mapping-ai-jobs-transition-eu",
       "date": "2026-06-29T07:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
+      "title": "HP Inc. launches Frontier strategic partnership with OpenAI",
+      "description": "HP Inc. scales its OpenAI Frontier partnership to deploy AI across customer experiences, software development, and enterprise operations.",
+      "link": "https://openai.com/index/hp-frontier-partnership",
+      "date": "2026-06-28T17:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
