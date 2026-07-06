@@ -1,6 +1,42 @@
 {
-  "lastUpdated": "2026-07-06T09:28:12.705Z",
+  "lastUpdated": "2026-07-06T13:21:37.863Z",
   "news": [
+    {
+      "title": "KI-Companions unter Aufsicht: China zieht als Erstes die Reißleine",
+      "description": "ByteDance und Alibaba schalten die Funktionen ab, mit denen Nutzer ihre eigene KI-Begleiter bauen und mit ihnen chatten konnten, und reagieren damit auf eine neue Regulierung aus Peking.\nDer Artikel K",
+      "link": "https://the-decoder.de/ki-companions-unter-aufsicht-china-zieht-als-erstes-die-reissleine/",
+      "date": "2026-07-06T12:26:09.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Bericht über verzögertes Nvidia-KI-Rack lässt asiatische Tech-Aktien fallen",
+      "description": "Laut Analysefirma SemiAnalysis verzögert sich Nvidias nächstes KI-Server-Rack Kyber NVL144 wegen Fertigungsproblemen bei Leiterplatten um über ein Jahr auf 2028. Asiatische Zulieferer verloren teils z",
+      "link": "https://the-decoder.de/bericht-ueber-verzoegertes-nvidia-ki-rack-laesst-asiatische-tech-aktien-fallen/",
+      "date": "2026-07-06T12:10:11.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Amazon läutet das Ende seiner \"Artificial Artificial Intelligence\" ein",
+      "description": "Amazon Web Services schließt seinen Crowdsourcing-Dienst Mechanical Turk ab dem 30. Juli 2026 für Neukunden.\nDer Artikel Amazon läutet das Ende seiner \"Artificial Artificial Intelligence\" ein erschien",
+      "link": "https://the-decoder.de/amazon-laeutet-das-ende-seiner-artificial-artificial-intelligence-ein/",
+      "date": "2026-07-06T10:58:29.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Erstmals führt ein KI-Agent einen kompletten Ransomware-Angriff ohne menschliche Steuerung durch",
+      "description": "Die Sicherheitsfirma Sysdig beschreibt einen Erpressungsangriff, bei dem ein Sprachmodell selbstständig einbrach, Zugangsdaten stahl und Datenbanken zerstörte. Ein Mensch saß dabei offenbar nicht mehr",
+      "link": "https://the-decoder.de/erstmals-fuehrt-ein-ki-agent-einen-kompletten-ransomware-angriff-ohne-menschliche-steuerung-durch/",
+      "date": "2026-07-06T09:36:02.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Erster Build in 40 Minuten: Claude Code mit Fable 5 portiert \"Command & Conquer Generals\" auf iOS",
       "description": "Ein Google-Deepmind-Entwickler hat das Echtzeit-Strategiespiel \"Command & Conquer: Generals Zero Hour\" von 2003 mit Anthropics Claude Code auf iPhone und iPad portiert. Der erste Build stand nach 40 M",
@@ -51,42 +87,6 @@
       "description": "KI-Suchagenten scheitern bei mehrstufigen Recherchen selten an der Suche selbst. Ihr eigentliches Problem liegt darin, bei mehrdeutigen Anfragen rechtzeitig beim Nutzer nachzufragen. Der neue Benchmar",
       "link": "https://the-decoder.de/mehr-suchen-hilft-nicht-ki-agenten-brauchen-bessere-rueckfrage-strategien/",
       "date": "2026-07-05T07:30:17.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "pxpipe: Token-Kosten für Claude Code durch Bild-Rendering senken",
-      "description": "Das Open-Source-Tool pxpipe wandelt umfangreiche Texteingaben für Claude Code in kompakte PNG-Bilder um und nutzt dabei aus, dass Anthropic Bilder nach Pixelgröße statt Textinhalt berechnet. Entwickle",
-      "link": "https://the-decoder.de/pxpipe-token-kosten-fuer-claude-code-durch-bild-rendering-senken/",
-      "date": "2026-07-04T17:52:33.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Prompting-Tipps für Fable 5: Zuerst die \"unbekannten Unbekannten\" finden",
-      "description": "Anthropic-Entwickler Thariq Shihipar argumentiert, dass bei Claudes neuem Modell Fable 5 erstmals nicht mehr das Modell der Flaschenhals sei, sondern die blinden Flecken der Nutzer. Er beschreibt Tech",
-      "link": "https://the-decoder.de/prompting-tipps-fuer-fable-5-zuerst-die-unbekannten-unbekannten-finden/",
-      "date": "2026-07-04T12:18:51.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "\"Fast kein Interface, fast kein Produkt\": OpenAI-Mitgründer skizziert ChatGPT-Vision",
-      "description": "Greg Brockman nennt den Grund für das Scheitern der 2023 groß vermarkteten ChatGPT-Plugins: \"Die Modelle waren damals nicht ansatzweise gut genug.\" Statt App-Erweiterungen sieht er die Zukunft in eine",
-      "link": "https://the-decoder.de/fast-kein-interface-fast-kein-produkt-openai-mitgruender-skizziert-chatgpt-vision/",
-      "date": "2026-07-04T09:38:21.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Bessere Hausaufgaben, schlechtere Prüfungen: Generative KI verursacht Lernverlust bei Schülern",
-      "description": "Eine Studie mit über 26.000 chinesischen Schülern zeigt: Wer generative KI für Hausaufgaben nutzt, erledigt sie schneller und mit besseren Noten, schneidet aber in Klausuren bis zu 24 Prozent schlecht",
-      "link": "https://the-decoder.de/bessere-hausaufgaben-schlechtere-pruefungen-generative-ki-verursacht-lernverlust-bei-schuelern/",
-      "date": "2026-07-04T08:42:41.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
