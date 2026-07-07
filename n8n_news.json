@@ -1,6 +1,33 @@
 {
-  "lastUpdated": "2026-07-07T09:13:06.148Z",
+  "lastUpdated": "2026-07-07T11:04:36.938Z",
   "news": [
+    {
+      "title": "Deepseek arbeitet an eigenem KI-Chip für Inferenz",
+      "description": "Das chinesische Start-up Deepseek entwickelt laut Reuters einen eigenen KI-Chip.\nDer Artikel Deepseek arbeitet an eigenem KI-Chip für Inferenz erschien zuerst auf The Decoder.",
+      "link": "https://the-decoder.de/deepseek-arbeitet-an-eigenem-ki-chip-fuer-inferenz/",
+      "date": "2026-07-07T11:01:34.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "OpenAI und Anthropic verschenken Millionen an Rechenleistung, um Startups zu binden",
+      "description": "OpenAI, Anthropic und große Cloud-Anbieter überbieten sich mit kostenlosen Rechen-Guthaben, um Start-ups in ihre Ökosysteme zu ziehen – einzelne Angebote übersteigen drei Millionen Dollar. Allein bei",
+      "link": "https://the-decoder.de/openai-und-anthropic-verschenken-millionen-an-rechenleistung-um-startups-zu-binden/",
+      "date": "2026-07-07T10:11:35.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Apollo-Chefökonom: Außerhalb der Tech-Branche gibt es bisher keine Anzeichen für steigende Gewinnmargen durch KI",
+      "description": "Apollo-Chefökonom Torsten Slok sieht außerhalb des Techsektors bisher keine steigenden Gewinnmargen durch KI. In regulierten Branchen wie Gesundheitswesen, Banken oder Pharma könnten Prozessumstellung",
+      "link": "https://the-decoder.de/apollo-chefoekonom-ausserhalb-der-tech-branche-gibt-es-bisher-keine-anzeichen-fuer-steigende-gewinnmargen-durch-ki/",
+      "date": "2026-07-07T09:52:57.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Cloudflare lässt Seitenbetreiber KI-Bots jetzt gezielt nach Zweck blockieren oder erlauben",
       "description": "Cloudflare führt für alle Kunden differenzierte KI-Bot-Kontrollen ein: Statt pauschal zu blockieren, können Seitenbetreiber nun zwischen Search-, Training- und Agent-Bots unterscheiden. Ab dem 15. Sep",
@@ -60,33 +87,6 @@
       "description": "Amazon Web Services schließt seinen Crowdsourcing-Dienst Mechanical Turk ab dem 30. Juli 2026 für Neukunden.\nDer Artikel Amazon läutet das Ende seiner \"Artificial Artificial Intelligence\" ein erschien",
       "link": "https://the-decoder.de/amazon-laeutet-das-ende-seiner-artificial-artificial-intelligence-ein/",
       "date": "2026-07-06T10:58:29.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Erstmals führt ein KI-Agent einen kompletten Ransomware-Angriff ohne menschliche Steuerung durch",
-      "description": "Die Sicherheitsfirma Sysdig beschreibt einen Erpressungsangriff, bei dem ein Sprachmodell selbstständig einbrach, Zugangsdaten stahl und Datenbanken zerstörte. Ein Mensch saß dabei offenbar nicht mehr",
-      "link": "https://the-decoder.de/erstmals-fuehrt-ein-ki-agent-einen-kompletten-ransomware-angriff-ohne-menschliche-steuerung-durch/",
-      "date": "2026-07-06T09:36:02.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Erster Build in 40 Minuten: Claude Code mit Fable 5 portiert \"Command & Conquer Generals\" auf iOS",
-      "description": "Ein Google-Deepmind-Entwickler hat das Echtzeit-Strategiespiel \"Command & Conquer: Generals Zero Hour\" von 2003 mit Anthropics Claude Code auf iPhone und iPad portiert. Der erste Build stand nach 40 M",
-      "link": "https://the-decoder.de/erster-build-in-40-minuten-claude-code-mit-fable-5-portiert-command-conquer-generals-auf-ios/",
-      "date": "2026-07-05T15:45:56.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Baidus \"Unlimited OCR\" transkribiert ganze Bücher in einem Durchgang",
-      "description": "Baidu stellt mit Unlimited OCR ein Modell vor, das dutzende Dokumentseiten in einem einzigen Durchlauf lesen kann; bisherige Systeme schaffen kaum mehr als zehn. Ein umgebauter Aufmerksamkeitsmechanis",
-      "link": "https://the-decoder.de/baidus-unlimited-ocr-transkribiert-ganze-buecher-in-einem-durchgang/",
-      "date": "2026-07-05T11:57:07.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
