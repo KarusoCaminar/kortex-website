@@ -1,6 +1,42 @@
 {
-  "lastUpdated": "2026-07-06T15:08:19.768Z",
+  "lastUpdated": "2026-07-07T07:18:12.796Z",
   "news": [
+    {
+      "title": "Cloudflare lässt Seitenbetreiber KI-Bots jetzt gezielt nach Zweck blockieren oder erlauben",
+      "description": "Cloudflare führt für alle Kunden differenzierte KI-Bot-Kontrollen ein: Statt pauschal zu blockieren, können Seitenbetreiber nun zwischen Search-, Training- und Agent-Bots unterscheiden. Ab dem 15. Sep",
+      "link": "https://the-decoder.de/cloudflare-laesst-seitenbetreiber-ki-bots-jetzt-gezielt-nach-zweck-blockieren-oder-erlauben/",
+      "date": "2026-07-06T18:43:45.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Zhipu AIs ZCode positioniert sich mit GLM-5.2 als günstige Alternative zu Claude Code und OpenAI Codex",
+      "description": "Zhipu AI stellt GLM-5.2 in seiner Entwicklungsumgebung ZCode bereit und bewirbt das Modell mit starker Long-Context-Fähigkeit für komplexe Coding-Aufgaben. Abonnenten erhalten bis Juli 2026 rund 1,5-f",
+      "link": "https://the-decoder.de/zhipu-ais-zcode-positioniert-sich-mit-glm-5-2-als-guenstige-alternative-zu-claude-code-und-openai-codex/",
+      "date": "2026-07-06T18:23:26.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Tencent veröffentlicht Hy3: Open-Source-KI-Modell mit 295 Milliarden Parametern soll deutlich größere Modelle schlagen",
+      "description": "Tencent veröffentlicht mit Hy3 ein Open-Source-Sprachmodell mit 295 Milliarden Parametern in Mixture-of-Experts-Architektur, von denen nur 21 Milliarden gleichzeitig aktiv sind. Laut Tencent erreicht",
+      "link": "https://the-decoder.de/tencent-veroeffentlicht-hy3-open-source-ki-modell-mit-295-milliarden-parametern-soll-deutlich-groessere-modelle-schlagen/",
+      "date": "2026-07-06T18:03:15.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Nach GPT-4s Rekord-Dominanz wechselt die KI-Spitze inzwischen alle paar Wochen",
+      "description": "OpenAIs GPT-4 hielt die Spitze im Epoch-Capabilities-Index rund ein Jahr, deutlich länger als jedes Nachfolgemodell. Seit Claude 3 Opus im Februar 2024 GPT-4 ablöste, wechselte die Führung 17 Mal mit",
+      "link": "https://the-decoder.de/nach-gpt-4s-rekord-dominanz-wechselt-die-ki-spitze-inzwischen-alle-paar-wochen/",
+      "date": "2026-07-06T17:01:11.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "KI-Companions unter Aufsicht: China zieht als Erstes die Reißleine",
       "description": "ByteDance und Alibaba schalten die Funktionen ab, mit denen Nutzer ihre eigene KI-Begleiter bauen und mit ihnen chatten konnten, und reagieren damit auf eine neue Regulierung aus Peking.\nDer Artikel K",
@@ -56,42 +92,6 @@
       "language": "de"
     },
     {
-      "title": "KI-Privatschulen punkten bei der US-Geldelite mit personalisiertem Lernen statt klassischem Unterricht",
-      "description": "Wohlhabende US-Familien schicken ihre Kinder zunehmend an KI-Schulen wie die Alpha School, die zwei Stunden KI-Tutoring mit projektbasierten Workshops kombiniert: für bis zu 75.000 Dollar Schulgeld pr",
-      "link": "https://the-decoder.de/ki-privatschulen-punkten-bei-der-us-geldelite-mit-personalisiertem-lernen-statt-klassischem-unterricht/",
-      "date": "2026-07-05T10:35:46.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Mistral-Gründer Mensch: Wer auf proprietäre KI-Modelle setzt, riskiert sein Geschäftsgeheimnis",
-      "description": "Mistral-Gründer Arthur Mensch warnt Unternehmen davor, sich auf geschlossene KI-Modelle zu verlassen – Anbieter speicherten zunehmend Kundendaten und hätten diese teils genutzt, um Kunden als Konkurre",
-      "link": "https://the-decoder.de/mistral-gruender-mensch-wer-auf-geschlossene-ki-setzt-riskiert-sein-geschaeftsgeheimnis/",
-      "date": "2026-07-05T09:30:06.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Bytedances Videomodell \"Seedance\" empört Hollywood – und wird dort trotzdem heimlich genutzt",
-      "description": "Bytedances KI-Videotool Seedance spaltet Hollywood: Ein viraler Clip mit KI-generierten Brad Pitt und Tom Cruise provozierte ein Unterlassungsschreiben der Motion Picture Association. Doch hinter den",
-      "link": "https://the-decoder.de/bytedances-videomodell-seedance-empoert-hollywood-und-wird-dort-trotzdem-heimlich-genutzt/",
-      "date": "2026-07-05T08:55:36.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Mehr Suchen hilft nicht: KI-Agenten brauchen bessere Rückfrage-Strategien",
-      "description": "KI-Suchagenten scheitern bei mehrstufigen Recherchen selten an der Suche selbst. Ihr eigentliches Problem liegt darin, bei mehrdeutigen Anfragen rechtzeitig beim Nutzer nachzufragen. Der neue Benchmar",
-      "link": "https://the-decoder.de/mehr-suchen-hilft-nicht-ki-agenten-brauchen-bessere-rueckfrage-strategien/",
-      "date": "2026-07-05T07:30:17.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "Expanding our Heat Resilience data to 50+ global cities",
       "description": "Climate & Sustainability",
       "link": "https://research.google/blog/expanding-our-heat-resilience-data-to-50-global-cities/",
@@ -110,18 +110,18 @@
       "language": "en"
     },
     {
-      "title": "Introducing GeneBench-Pro",
-      "description": "Introducing GeneBench-Pro, a new benchmark testing AI performance in genomics, biology, and scientific research using complex, real-world datasets.",
-      "link": "https://openai.com/index/introducing-genebench-pro",
+      "title": "Core dump epidemiology: fixing an 18-year-old bug",
+      "description": "OpenAI engineers used large-scale core dump analysis to debug rare infrastructure crashes, uncovering both a hardware fault and a long-standing software bug.",
+      "link": "https://openai.com/index/core-dump-epidemiology-data-infrastructure-bug",
       "date": "2026-06-30T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
     },
     {
-      "title": "Core dump epidemiology: fixing an 18-year-old bug",
-      "description": "OpenAI engineers used large-scale core dump analysis to debug rare infrastructure crashes, uncovering both a hardware fault and a long-standing software bug.",
-      "link": "https://openai.com/index/core-dump-epidemiology-data-infrastructure-bug",
+      "title": "Introducing GeneBench-Pro",
+      "description": "Introducing GeneBench-Pro, a new benchmark testing AI performance in genomics, biology, and scientific research using complex, real-world datasets.",
+      "link": "https://openai.com/index/introducing-genebench-pro",
       "date": "2026-06-30T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
