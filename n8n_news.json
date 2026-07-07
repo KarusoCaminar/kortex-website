@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-07-07T16:51:16.650Z",
+  "lastUpdated": "2026-07-07T18:45:22.859Z",
   "news": [
+    {
+      "title": "Copilot auf Sparkurs: Microsoft ersetzt OpenAI- und Anthropic-Modelle durch eigene KI",
+      "description": "Microsoft ersetzt in Excel und Outlook zunehmend KI-Modelle von OpenAI und Anthropic durch eigene MAI‑Modelle: Zehntausende Anfragen pro Woche laufen bereits darüber. KI-Chef Mustafa Suleyman will die",
+      "link": "https://the-decoder.de/copilot-auf-sparkurs-microsoft-ersetzt-openai-und-anthropic-modelle-durch-eigene-ki/",
+      "date": "2026-07-07T18:23:58.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Anthropic bringt KI-Agent \"Claude Cowork\" ins Web und aufs Smartphone",
       "description": "Anthropic macht seinen KI-Agenten Claude Cowork für Mobile und Web verfügbar; bisher war die Funktion auf die Desktop-App beschränkt. Der Agent arbeitet im Hintergrund weiter, auch bei geschlossenem L",
@@ -65,28 +74,19 @@
       "language": "de"
     },
     {
+      "title": "Australian Payments Plus moves faster with ChatGPT and Codex",
+      "description": "See how Australian Payments Plus uses ChatGPT Enterprise and Codex to move faster through payments complexity. AP+ saves time, improves quality, and keeps human judgment central.",
+      "link": "https://openai.com/index/australian-payments-plus",
+      "date": "2026-07-07T00:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
       "title": "Cloudflare lässt Seitenbetreiber KI-Bots jetzt gezielt nach Zweck blockieren oder erlauben",
       "description": "Cloudflare führt für alle Kunden differenzierte KI-Bot-Kontrollen ein: Statt pauschal zu blockieren, können Seitenbetreiber nun zwischen Search-, Training- und Agent-Bots unterscheiden. Ab dem 15. Sep",
       "link": "https://the-decoder.de/cloudflare-laesst-seitenbetreiber-ki-bots-jetzt-gezielt-nach-zweck-blockieren-oder-erlauben/",
       "date": "2026-07-06T18:43:45.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Zhipu AIs ZCode positioniert sich mit GLM-5.2 als günstige Alternative zu Claude Code und OpenAI Codex",
-      "description": "Zhipu AI stellt GLM-5.2 in seiner Entwicklungsumgebung ZCode bereit und bewirbt das Modell mit starker Long-Context-Fähigkeit für komplexe Coding-Aufgaben. Abonnenten erhalten bis Juli 2026 rund 1,5-f",
-      "link": "https://the-decoder.de/zhipu-ais-zcode-positioniert-sich-mit-glm-5-2-als-guenstige-alternative-zu-claude-code-und-openai-codex/",
-      "date": "2026-07-06T18:23:26.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Tencent veröffentlicht Hy3: Open-Source-KI-Modell mit 295 Milliarden Parametern soll deutlich größere Modelle schlagen",
-      "description": "Tencent veröffentlicht mit Hy3 ein Open-Source-Sprachmodell mit 295 Milliarden Parametern in Mixture-of-Experts-Architektur, von denen nur 21 Milliarden gleichzeitig aktiv sind. Laut Tencent erreicht",
-      "link": "https://the-decoder.de/tencent-veroeffentlicht-hy3-open-source-ki-modell-mit-295-milliarden-parametern-soll-deutlich-groessere-modelle-schlagen/",
-      "date": "2026-07-06T18:03:15.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
