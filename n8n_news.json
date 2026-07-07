@@ -1,6 +1,42 @@
 {
-  "lastUpdated": "2026-07-07T11:04:36.938Z",
+  "lastUpdated": "2026-07-07T16:51:16.650Z",
   "news": [
+    {
+      "title": "Anthropic bringt KI-Agent \"Claude Cowork\" ins Web und aufs Smartphone",
+      "description": "Anthropic macht seinen KI-Agenten Claude Cowork für Mobile und Web verfügbar; bisher war die Funktion auf die Desktop-App beschränkt. Der Agent arbeitet im Hintergrund weiter, auch bei geschlossenem L",
+      "link": "https://the-decoder.de/anthropic-bringt-ki-agent-claude-cowork-ins-web-und-aufs-smartphone/",
+      "date": "2026-07-07T16:39:30.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "China erwägt Exportbremse für seine besten KI-Modelle, und Europa gerät weiter in die Zange",
+      "description": "Chinas Behörden prüfen laut Reuters, den Auslandszugang zu den stärksten heimischen KI-Modellen einzuschränken – betroffen wären Alibaba, Bytedance und Z.ai. Damit behandeln beide Supermächte KI als s",
+      "link": "https://the-decoder.de/china-erwaegt-exportbremse-fuer-seine-besten-ki-modelle-und-europa-geraet-weiter-in-die-zange/",
+      "date": "2026-07-07T15:56:45.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Anthropic zeigt, wie Claude intern in Worten denkt, ohne sie auszugeben",
+      "description": "Anthropic hat in Claude einen internen Arbeitsspeicher namens \"J-Space\" entdeckt, der sich während des Trainings von selbst gebildet hat. Über ihn erkennt das Modell konstruierte Testszenarien noch vo",
+      "link": "https://the-decoder.de/anthropic-zeigt-wie-claude-intern-in-worten-denkt-ohne-sie-auszugeben/",
+      "date": "2026-07-07T14:23:29.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Steigende Kosten treiben US-Firmen zu chinesischen KI-Modellen",
+      "description": "Chinesische KI-Modelle gewinnen bei US-Firmen an Boden, weil sie deutlich billiger sind als die Systeme von OpenAI und Anthropic, berichtet CNBC.\nDer Artikel Steigende Kosten treiben US-Firmen zu chin",
+      "link": "https://the-decoder.de/steigende-kosten-treiben-us-firmen-zu-chinesischen-ki-modellen/",
+      "date": "2026-07-07T11:28:52.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Deepseek arbeitet an eigenem KI-Chip für Inferenz",
       "description": "Das chinesische Start-up Deepseek entwickelt laut Reuters einen eigenen KI-Chip.\nDer Artikel Deepseek arbeitet an eigenem KI-Chip für Inferenz erschien zuerst auf The Decoder.",
@@ -51,42 +87,6 @@
       "description": "Tencent veröffentlicht mit Hy3 ein Open-Source-Sprachmodell mit 295 Milliarden Parametern in Mixture-of-Experts-Architektur, von denen nur 21 Milliarden gleichzeitig aktiv sind. Laut Tencent erreicht",
       "link": "https://the-decoder.de/tencent-veroeffentlicht-hy3-open-source-ki-modell-mit-295-milliarden-parametern-soll-deutlich-groessere-modelle-schlagen/",
       "date": "2026-07-06T18:03:15.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Nach GPT-4s Rekord-Dominanz wechselt die KI-Spitze inzwischen alle paar Wochen",
-      "description": "OpenAIs GPT-4 hielt die Spitze im Epoch-Capabilities-Index rund ein Jahr, deutlich länger als jedes Nachfolgemodell. Seit Claude 3 Opus im Februar 2024 GPT-4 ablöste, wechselte die Führung 17 Mal mit",
-      "link": "https://the-decoder.de/nach-gpt-4s-rekord-dominanz-wechselt-die-ki-spitze-inzwischen-alle-paar-wochen/",
-      "date": "2026-07-06T17:01:11.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "KI-Companions unter Aufsicht: China zieht als Erstes die Reißleine",
-      "description": "ByteDance und Alibaba schalten die Funktionen ab, mit denen Nutzer ihre eigene KI-Begleiter bauen und mit ihnen chatten konnten, und reagieren damit auf eine neue Regulierung aus Peking.\nDer Artikel K",
-      "link": "https://the-decoder.de/ki-companions-unter-aufsicht-china-zieht-als-erstes-die-reissleine/",
-      "date": "2026-07-06T12:26:09.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Bericht über verzögertes Nvidia-KI-Rack lässt asiatische Tech-Aktien fallen",
-      "description": "Laut Analysefirma SemiAnalysis verzögert sich Nvidias nächstes KI-Server-Rack Kyber NVL144 wegen Fertigungsproblemen bei Leiterplatten um über ein Jahr auf 2028. Asiatische Zulieferer verloren teils z",
-      "link": "https://the-decoder.de/bericht-ueber-verzoegertes-nvidia-ki-rack-laesst-asiatische-tech-aktien-fallen/",
-      "date": "2026-07-06T12:10:11.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Amazon läutet das Ende seiner \"Artificial Artificial Intelligence\" ein",
-      "description": "Amazon Web Services schließt seinen Crowdsourcing-Dienst Mechanical Turk ab dem 30. Juli 2026 für Neukunden.\nDer Artikel Amazon läutet das Ende seiner \"Artificial Artificial Intelligence\" ein erschien",
-      "link": "https://the-decoder.de/amazon-laeutet-das-ende-seiner-artificial-artificial-intelligence-ein/",
-      "date": "2026-07-06T10:58:29.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
