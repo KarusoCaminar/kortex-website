@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-07-08T14:50:48.219Z",
+  "lastUpdated": "2026-07-08T16:35:09.591Z",
   "news": [
+    {
+      "title": "Claude Fable 5 ist zu teuer: Anthropic zeigt zwei Strategien, um die Kosten deutlich zu senken",
+      "description": "Anthropic empfiehlt, das teure Claude Fable 5 nicht direkt für alle Aufgaben einzusetzen, sondern als Planer für kleinere Modelle. In Kombination mit Sonnet 5 erreicht das \"Advisor\"-Muster laut Anthro",
+      "link": "https://the-decoder.de/claude-fable-5-ist-zu-teuer-anthropic-zeigt-zwei-strategien-um-die-kosten-deutlich-zu-senken/",
+      "date": "2026-07-08T16:20:07.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Anthropics Fable 5 dominiert in allen Benchmarks, kostet aber ein Vielfaches",
+      "description": "Anthropics Claude Fable 5 führt alle sechs neuen branchenspezifischen Leistungsindizes von Artificial Analysis an, von Finanzwesen über Recht bis Medizin. Doch der Vorsprung ist teuer: Im Strategy-&-O",
+      "link": "https://the-decoder.de/anthropics-fable-5-dominiert-in-allen-benchmarks-kostet-aber-ein-vielfaches/",
+      "date": "2026-07-08T15:16:12.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Google Deepmind erweitert Gemini API um vier neue Funktionen für managed Agents",
       "description": "Google Deepmind erweitert die Managed Agents in der Gemini-API um vier neue Funktionen: Agenten können nun asynchron im Hintergrund laufen, Remote-MCP-Server direkt anbinden, eigene Funktionen neben S",
@@ -51,24 +69,6 @@
       "description": "Microsoft ersetzt in Excel und Outlook zunehmend KI-Modelle von OpenAI und Anthropic durch eigene MAI‑Modelle: Zehntausende Anfragen pro Woche laufen bereits darüber. KI-Chef Mustafa Suleyman will die",
       "link": "https://the-decoder.de/copilot-auf-sparkurs-microsoft-ersetzt-openai-und-anthropic-modelle-durch-eigene-ki/",
       "date": "2026-07-07T18:23:58.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Anthropic bringt KI-Agent \"Claude Cowork\" ins Web und aufs Smartphone",
-      "description": "Anthropic macht seinen KI-Agenten Claude Cowork für Mobile und Web verfügbar; bisher war die Funktion auf die Desktop-App beschränkt. Der Agent arbeitet im Hintergrund weiter, auch bei geschlossenem L",
-      "link": "https://the-decoder.de/anthropic-bringt-ki-agent-claude-cowork-ins-web-und-aufs-smartphone/",
-      "date": "2026-07-07T16:39:30.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "China erwägt Exportbremse für seine besten KI-Modelle, und Europa gerät weiter in die Zange",
-      "description": "Chinas Behörden prüfen laut Reuters, den Auslandszugang zu den stärksten heimischen KI-Modellen einzuschränken – betroffen wären Alibaba, Bytedance und Z.ai. Damit behandeln beide Supermächte KI als s",
-      "link": "https://the-decoder.de/china-erwaegt-exportbremse-fuer-seine-besten-ki-modelle-und-europa-geraet-weiter-in-die-zange/",
-      "date": "2026-07-07T15:56:45.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
