@@ -1,6 +1,51 @@
 {
-  "lastUpdated": "2026-07-07T20:38:32.464Z",
+  "lastUpdated": "2026-07-08T14:50:48.219Z",
   "news": [
+    {
+      "title": "Google Deepmind erweitert Gemini API um vier neue Funktionen für managed Agents",
+      "description": "Google Deepmind erweitert die Managed Agents in der Gemini-API um vier neue Funktionen: Agenten können nun asynchron im Hintergrund laufen, Remote-MCP-Server direkt anbinden, eigene Funktionen neben S",
+      "link": "https://the-decoder.de/google-deepmind-erweitert-gemini-api-um-vier-neue-funktionen-fuer-managed-agents/",
+      "date": "2026-07-08T14:36:35.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Chinas MiniMax arbeitet an bislang größtem Open-Source-Modell des Landes",
+      "description": "Der chinesische KI-Entwickler MiniMax arbeitet an einem neuen großen Sprachmodell mit 2,7 Billionen Parametern. MiniMax plant, das Modell quelloffen anzubieten.\nDer Artikel Chinas MiniMax arbeitet an",
+      "link": "https://the-decoder.de/chinas-minimax-arbeitet-an-bislang-groesstem-open-source-modell-des-landes/",
+      "date": "2026-07-08T12:41:52.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Super-Sensing-Brille: Meta will alles hören und sehen, was der Träger erlebt",
+      "description": "Meta testet einen Prototyp von KI-Brillen mit \"Super Sensing\", die per Kamera und Mikrofon jeden Moment des Trägers aufzeichnen.\nDer Artikel Super-Sensing-Brille: Meta will alles hören und sehen, was",
+      "link": "https://the-decoder.de/super-sensing-brille-meta-will-alles-hoeren-und-sehen-was-der-traeger-erlebt/",
+      "date": "2026-07-08T11:42:30.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Muse Image überzeugt technisch, doch Metas Umgang mit Instagram-Fotos wirft Fragen auf",
+      "description": "Meta stellt mit Muse Image das erste Bildmodell seiner Superintelligence Labs vor. Wie OpenAIs GPT Image 2 arbeitet es agentenbasiert, nutzt Werkzeuge wie Code-Ausführung und Websuche und verfeinert E",
+      "link": "https://the-decoder.de/muse-image-ueberzeugt-technisch-doch-metas-umgang-mit-instagram-fotos-wirft-fragen-auf/",
+      "date": "2026-07-08T11:11:37.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "OpenAIs GPT-5.6 startet am Donnerstag nach erzwungener Verzögerung durch US-Regierung",
+      "description": "OpenAI bringt GPT-5.6 am Donnerstag auf den Markt, nachdem die US-Regierung die zunächst verhängte Freigabesperre nach zusätzlichen Tests aufgehoben hat. Das Modell Sol übertrifft laut OpenAI Anthropi",
+      "link": "https://the-decoder.de/openais-gpt-5-6-startet-am-donnerstag-nach-erzwungener-verzoegerung-durch-us-regierung/",
+      "date": "2026-07-08T07:47:30.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Copilot auf Sparkurs: Microsoft ersetzt OpenAI- und Anthropic-Modelle durch eigene KI",
       "description": "Microsoft ersetzt in Excel und Outlook zunehmend KI-Modelle von OpenAI und Anthropic durch eigene MAI‑Modelle: Zehntausende Anfragen pro Woche laufen bereits darüber. KI-Chef Mustafa Suleyman will die",
@@ -29,51 +74,6 @@
       "language": "de"
     },
     {
-      "title": "Anthropic zeigt, wie Claude intern in Worten denkt, ohne sie auszugeben",
-      "description": "Anthropic hat in Claude einen internen Arbeitsspeicher namens \"J-Space\" entdeckt, der sich während des Trainings von selbst gebildet hat. Über ihn erkennt das Modell konstruierte Testszenarien noch vo",
-      "link": "https://the-decoder.de/anthropic-zeigt-wie-claude-intern-in-worten-denkt-ohne-sie-auszugeben/",
-      "date": "2026-07-07T14:23:29.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Steigende Kosten treiben US-Firmen zu chinesischen KI-Modellen",
-      "description": "Chinesische KI-Modelle gewinnen bei US-Firmen an Boden, weil sie deutlich billiger sind als die Systeme von OpenAI und Anthropic, berichtet CNBC.\nDer Artikel Steigende Kosten treiben US-Firmen zu chin",
-      "link": "https://the-decoder.de/steigende-kosten-treiben-us-firmen-zu-chinesischen-ki-modellen/",
-      "date": "2026-07-07T11:28:52.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Deepseek arbeitet an eigenem KI-Chip für Inferenz",
-      "description": "Das chinesische Start-up Deepseek entwickelt laut Reuters einen eigenen KI-Chip.\nDer Artikel Deepseek arbeitet an eigenem KI-Chip für Inferenz erschien zuerst auf The Decoder.",
-      "link": "https://the-decoder.de/deepseek-arbeitet-an-eigenem-ki-chip-fuer-inferenz/",
-      "date": "2026-07-07T11:01:34.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "OpenAI und Anthropic verschenken Millionen an Rechenleistung, um Startups zu binden",
-      "description": "OpenAI, Anthropic und große Cloud-Anbieter überbieten sich mit kostenlosen Rechen-Guthaben, um Start-ups in ihre Ökosysteme zu ziehen – einzelne Angebote übersteigen drei Millionen Dollar. Allein bei",
-      "link": "https://the-decoder.de/openai-und-anthropic-verschenken-millionen-an-rechenleistung-um-startups-zu-binden/",
-      "date": "2026-07-07T10:11:35.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Apollo-Chefökonom: Außerhalb der Tech-Branche gibt es bisher keine Anzeichen für steigende Gewinnmargen durch KI",
-      "description": "Apollo-Chefökonom Torsten Slok sieht außerhalb des Techsektors bisher keine steigenden Gewinnmargen durch KI. In regulierten Branchen wie Gesundheitswesen, Banken oder Pharma könnten Prozessumstellung",
-      "link": "https://the-decoder.de/apollo-chefoekonom-ausserhalb-der-tech-branche-gibt-es-bisher-keine-anzeichen-fuer-steigende-gewinnmargen-durch-ki/",
-      "date": "2026-07-07T09:52:57.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "Australian Payments Plus moves faster with ChatGPT and Codex",
       "description": "See how Australian Payments Plus uses ChatGPT Enterprise and Codex to move faster through payments complexity. AP+ saves time, improves quality, and keeps human judgment central.",
       "link": "https://openai.com/index/australian-payments-plus",
@@ -83,13 +83,13 @@
       "language": "en"
     },
     {
-      "title": "Cloudflare lässt Seitenbetreiber KI-Bots jetzt gezielt nach Zweck blockieren oder erlauben",
-      "description": "Cloudflare führt für alle Kunden differenzierte KI-Bot-Kontrollen ein: Statt pauschal zu blockieren, können Seitenbetreiber nun zwischen Search-, Training- und Agent-Bots unterscheiden. Ab dem 15. Sep",
-      "link": "https://the-decoder.de/cloudflare-laesst-seitenbetreiber-ki-bots-jetzt-gezielt-nach-zweck-blockieren-oder-erlauben/",
-      "date": "2026-07-06T18:43:45.000Z",
-      "source": "The Decoder",
+      "title": "MUFG aims to become AI-native with OpenAI",
+      "description": "MUFG uses ChatGPT Enterprise to build an AI-native organization, improve workflows, and deliver new AI-powered financial services at scale.",
+      "link": "https://openai.com/index/mufg",
+      "date": "2026-07-07T00:00:00.000Z",
+      "source": "OpenAI",
       "category": "große-modelle",
-      "language": "de"
+      "language": "en"
     },
     {
       "title": "Expanding our Heat Resilience data to 50+ global cities",
