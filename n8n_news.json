@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-07-09T09:21:28.021Z",
+  "lastUpdated": "2026-07-09T13:05:20.424Z",
   "news": [
+    {
+      "title": "Wenn ein Leerzeichen über Bestehen entscheidet: OpenAI deckt Mängel in KI-Programmiertest auf",
+      "description": "OpenAI hat den Test SWE-Bench Pro geprüft, mit dem die Programmierfähigkeiten von KI-Modellen gemessen werden. Rund 30 Prozent der Aufgaben sind demnach fehlerhaft. Das Unternehmen zieht seine frühere",
+      "link": "https://the-decoder.de/wenn-ein-leerzeichen-ueber-bestehen-entscheidet-openai-deckt-maengel-in-ki-programmiertest-auf/",
+      "date": "2026-07-09T11:50:57.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Kein Mensch hatte eine Chance: OpenAI-KI gewinnt prestigeträchtigen Programmierwettbewerb deutlich",
+      "description": "Bei den AtCoder World Tour Finals 2026 hat ein System von OpenAI in einem Ausstellungsmatch alle menschlichen Teilnehmer deutlich hinter sich gelassen und alle fünf Aufgaben der Algorithm-Division gel",
+      "link": "https://the-decoder.de/openai-ki-schlaegt-einige-der-besten-wettkampfprogrammierer-der-welt-bei-internationalem-coding-wettbewerb-deutlich/",
+      "date": "2026-07-09T09:39:57.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "xAI veröffentlicht Grok 4.5: Fast auf Frontier-Niveau, aber deutlich günstiger als die Konkurrenz",
       "description": "xAI veröffentlicht Grok 4.5, trainiert auf zehntausenden Nvidia GB300 GPUs. In Coding-Benchmarks liegt das Modell noch deutlich hinter Fable 5 und teils knapp hinter GPT-5.5, benötigt aber 4,2-mal wen",
@@ -74,33 +92,6 @@
       "language": "en"
     },
     {
-      "title": "Chinas MiniMax arbeitet an bislang größtem Open-Source-Modell des Landes",
-      "description": "Der chinesische KI-Entwickler MiniMax arbeitet an einem neuen großen Sprachmodell mit 2,7 Billionen Parametern. MiniMax plant, das Modell quelloffen anzubieten.\nDer Artikel Chinas MiniMax arbeitet an",
-      "link": "https://the-decoder.de/chinas-minimax-arbeitet-an-bislang-groesstem-open-source-modell-des-landes/",
-      "date": "2026-07-08T12:41:52.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Super-Sensing-Brille: Meta will alles hören und sehen, was der Träger erlebt",
-      "description": "Meta testet einen Prototyp von KI-Brillen mit \"Super Sensing\", die per Kamera und Mikrofon jeden Moment des Trägers aufzeichnen.\nDer Artikel Super-Sensing-Brille: Meta will alles hören und sehen, was",
-      "link": "https://the-decoder.de/super-sensing-brille-meta-will-alles-hoeren-und-sehen-was-der-traeger-erlebt/",
-      "date": "2026-07-08T11:42:30.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Muse Image überzeugt technisch, doch Metas Umgang mit Instagram-Fotos wirft Fragen auf",
-      "description": "Meta stellt mit Muse Image das erste Bildmodell seiner Superintelligence Labs vor. Wie OpenAIs GPT Image 2 arbeitet es agentenbasiert, nutzt Werkzeuge wie Code-Ausführung und Websuche und verfeinert E",
-      "link": "https://the-decoder.de/muse-image-ueberzeugt-technisch-doch-metas-umgang-mit-instagram-fotos-wirft-fragen-auf/",
-      "date": "2026-07-08T11:11:37.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "Helping K–12 educators build practical AI skills",
       "description": "OpenAI Academy and the Walton Family Foundation are bringing hands-on AI Skills Jams to help K–12 educators build practical AI skills for the classroom.",
       "link": "https://openai.com/index/k-12-educators-practical-skills",
@@ -133,6 +124,15 @@
       "link": "https://openai.com/index/mufg",
       "date": "2026-07-07T00:00:00.000Z",
       "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
+      "title": "Expanding our Heat Resilience data to 50+ global cities",
+      "description": "Climate & Sustainability",
+      "link": "https://research.google/blog/expanding-our-heat-resilience-data-to-50-global-cities/",
+      "date": "2026-06-30T17:03:00.000Z",
+      "source": "Google AI",
       "category": "große-modelle",
       "language": "en"
     }
