@@ -1,6 +1,33 @@
 {
-  "lastUpdated": "2026-07-08T16:35:09.591Z",
+  "lastUpdated": "2026-07-09T00:47:01.001Z",
   "news": [
+    {
+      "title": "xAI veröffentlicht Grok 4.5: Fast auf Frontier-Niveau, aber deutlich günstiger als die Konkurrenz",
+      "description": "xAI veröffentlicht Grok 4.5, trainiert auf zehntausenden Nvidia GB300 GPUs. In Coding-Benchmarks liegt das Modell noch deutlich hinter Fable 5 und teils knapp hinter GPT-5.5, benötigt aber 4,2-mal wen",
+      "link": "https://the-decoder.de/xai-veroeffentlicht-grok-4-5-fast-auf-frontier-niveau-aber-deutlich-guenstiger-als-die-konkurrenz/",
+      "date": "2026-07-08T18:44:44.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "ChatGPT bekommt eine natürlichere KI-Stimme mit flexibler Interaktion",
+      "description": "OpenAI stellt mit GPT-Live eine neue Sprachmodell-Generation vor, die dank Full-Duplex-Architektur gleichzeitig hören und sprechen kann. Komplexe Fragen delegiert das System im Hintergrund an GPT-5.5,",
+      "link": "https://the-decoder.de/chatgpt-bekommt-eine-natuerlichere-ki-stimme-mit-flexibler-interaktion/",
+      "date": "2026-07-08T17:59:55.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Robostral Navigate: Mistrals neues 8B-Modell steuert Roboter nur mit einer Kamera durch komplexe Umgebungen",
+      "description": "Mistral steigt mit Robostral Navigate in die Robotik ein: Das 8B-Modell navigiert Roboter allein per RGB-Kamera durch unbekannte Umgebungen. Trainiert in Simulation und per Reinforcement Learning (CIS",
+      "link": "https://the-decoder.de/robostral-navigate-mistrals-neues-8b-modell-steuert-roboter-nur-mit-einer-kamera-durch-komplexe-umgebungen/",
+      "date": "2026-07-08T17:14:17.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Claude Fable 5 ist zu teuer: Anthropic zeigt zwei Strategien, um die Kosten deutlich zu senken",
       "description": "Anthropic empfiehlt, das teure Claude Fable 5 nicht direkt für alle Aufgaben einzusetzen, sondern als Planer für kleinere Modelle. In Kombination mit Sonnet 5 erreicht das \"Advisor\"-Muster laut Anthro",
@@ -27,6 +54,24 @@
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
+    },
+    {
+      "title": "Our approach to government and national security partnerships",
+      "description": "Learn how OpenAI approaches government and national security partnerships, with principles for responsible AI use, democratic accountability, and public safety.",
+      "link": "https://openai.com/index/government-national-security-partnerships",
+      "date": "2026-07-08T13:30:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
+      "title": "Separating signal from noise in coding evaluations",
+      "description": "A new analysis from OpenAI reveals issues in SWE-Bench Pro, a popular coding benchmark, raising concerns about reliability and accuracy in evaluating AI models.",
+      "link": "https://openai.com/index/separating-signal-from-noise-coding-evaluations",
+      "date": "2026-07-08T13:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
     },
     {
       "title": "Chinas MiniMax arbeitet an bislang größtem Open-Source-Modell des Landes",
@@ -56,22 +101,22 @@
       "language": "de"
     },
     {
-      "title": "OpenAIs GPT-5.6 startet am Donnerstag nach erzwungener Verzögerung durch US-Regierung",
-      "description": "OpenAI bringt GPT-5.6 am Donnerstag auf den Markt, nachdem die US-Regierung die zunächst verhängte Freigabesperre nach zusätzlichen Tests aufgehoben hat. Das Modell Sol übertrifft laut OpenAI Anthropi",
-      "link": "https://the-decoder.de/openais-gpt-5-6-startet-am-donnerstag-nach-erzwungener-verzoegerung-durch-us-regierung/",
-      "date": "2026-07-08T07:47:30.000Z",
-      "source": "The Decoder",
+      "title": "Helping K–12 educators build practical AI skills",
+      "description": "OpenAI Academy and the Walton Family Foundation are bringing hands-on AI Skills Jams to help K–12 educators build practical AI skills for the classroom.",
+      "link": "https://openai.com/index/k-12-educators-practical-skills",
+      "date": "2026-07-08T10:00:00.000Z",
+      "source": "OpenAI",
       "category": "große-modelle",
-      "language": "de"
+      "language": "en"
     },
     {
-      "title": "Copilot auf Sparkurs: Microsoft ersetzt OpenAI- und Anthropic-Modelle durch eigene KI",
-      "description": "Microsoft ersetzt in Excel und Outlook zunehmend KI-Modelle von OpenAI und Anthropic durch eigene MAI‑Modelle: Zehntausende Anfragen pro Woche laufen bereits darüber. KI-Chef Mustafa Suleyman will die",
-      "link": "https://the-decoder.de/copilot-auf-sparkurs-microsoft-ersetzt-openai-und-anthropic-modelle-durch-eigene-ki/",
-      "date": "2026-07-07T18:23:58.000Z",
-      "source": "The Decoder",
+      "title": "Introducing GPT-Live",
+      "description": "A new generation of voice models for natural human-AI interaction, now powering ChatGPT Voice.",
+      "link": "https://openai.com/index/introducing-gpt-live",
+      "date": "2026-07-08T00:00:00.000Z",
+      "source": "OpenAI",
       "category": "große-modelle",
-      "language": "de"
+      "language": "en"
     },
     {
       "title": "Australian Payments Plus moves faster with ChatGPT and Codex",
@@ -87,51 +132,6 @@
       "description": "MUFG uses ChatGPT Enterprise to build an AI-native organization, improve workflows, and deliver new AI-powered financial services at scale.",
       "link": "https://openai.com/index/mufg",
       "date": "2026-07-07T00:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "Expanding our Heat Resilience data to 50+ global cities",
-      "description": "Climate & Sustainability",
-      "link": "https://research.google/blog/expanding-our-heat-resilience-data-to-50-global-cities/",
-      "date": "2026-06-30T17:03:00.000Z",
-      "source": "Google AI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "How ChatGPT adoption has expanded",
-      "description": "New OpenAI Signals data shows how ChatGPT adoption is growing globally, with users increasing usage, exploring more capabilities, and driving growth across regions and languages.",
-      "link": "https://openai.com/index/how-chatgpt-adoption-has-expanded",
-      "date": "2026-06-30T09:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "Core dump epidemiology: fixing an 18-year-old bug",
-      "description": "OpenAI engineers used large-scale core dump analysis to debug rare infrastructure crashes, uncovering both a hardware fault and a long-standing software bug.",
-      "link": "https://openai.com/index/core-dump-epidemiology-data-infrastructure-bug",
-      "date": "2026-06-30T00:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "Introducing GeneBench-Pro",
-      "description": "Introducing GeneBench-Pro, a new benchmark testing AI performance in genomics, biology, and scientific research using complex, real-world datasets.",
-      "link": "https://openai.com/index/introducing-genebench-pro",
-      "date": "2026-06-30T00:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "Mapping Europe’s AI Workforce Opportunity",
-      "description": "A new OpenAI report maps how AI could reshape jobs across the EU, highlighting which occupations may face automation, growth, or workflow changes.",
-      "link": "https://openai.com/index/mapping-ai-jobs-transition-eu",
-      "date": "2026-06-29T07:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
