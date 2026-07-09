@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-09T18:40:19.642Z",
+  "lastUpdated": "2026-07-09T20:38:09.184Z",
   "news": [
     {
       "title": "OpenAIs GPT-5.6 Sol erreicht in Benchmarks fast das Niveau von Claude Fable 5, kostet aber nur ein Drittel",
@@ -27,6 +27,15 @@
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
+    },
+    {
+      "title": "GPT-5.6 is now the preferred model in Microsoft 365 Copilot",
+      "description": "Learn how GPT-5.6 powers Microsoft 365 Copilot with stronger AI capabilities across Word, Excel, PowerPoint, Chat, and Cowork for faster, higher-quality work.",
+      "link": "https://openai.com/index/gpt-5-6-preferred-model-microsoft-365-copilot",
+      "date": "2026-07-09T13:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
     },
     {
       "title": "Wenn ein Leerzeichen über Bestehen entscheidet: OpenAI deckt Mängel in KI-Programmiertest auf",
@@ -123,15 +132,6 @@
       "description": "Learn how OpenAI approaches government and national security partnerships, with principles for responsible AI use, democratic accountability, and public safety.",
       "link": "https://openai.com/index/government-national-security-partnerships",
       "date": "2026-07-08T13:30:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "Separating signal from noise in coding evaluations",
-      "description": "A new analysis from OpenAI reveals issues in SWE-Bench Pro, a popular coding benchmark, raising concerns about reliability and accuracy in evaluating AI models.",
-      "link": "https://openai.com/index/separating-signal-from-noise-coding-evaluations",
-      "date": "2026-07-08T13:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
