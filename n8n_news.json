@@ -1,33 +1,6 @@
 {
-  "lastUpdated": "2026-07-09T20:38:09.184Z",
+  "lastUpdated": "2026-07-09T22:33:19.506Z",
   "news": [
-    {
-      "title": "OpenAIs GPT-5.6 Sol erreicht in Benchmarks fast das Niveau von Claude Fable 5, kostet aber nur ein Drittel",
-      "description": "OpenAIs GPT-5.6 Sol kommt im Artificial Analysis Intelligence Index auf 59 Punkte und liegt damit nur knapp hinter Claude Fable 5 – kostet mit 1,04 Dollar pro Aufgabe aber nur ein Drittel so viel wie",
-      "link": "https://the-decoder.de/openais-gpt-5-6-sol-erreicht-in-benchmarks-fast-das-niveau-von-claude-fable-5-kostet-aber-nur-ein-drittel/",
-      "date": "2026-07-09T18:26:51.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "OpenAI startet \"ChatGPT Work\" und gibt GPT-5.6 für alle frei",
-      "description": "OpenAI startet ChatGPT Work, eine agentische Software auf Basis von Codex und dem nun öffentlich verfügbaren GPT-5.6. Der Agent soll eigenständig über Apps wie Google Drive, Slack oder Salesforce hinw",
-      "link": "https://the-decoder.de/openai-startet-chatgpt-work-und-gibt-gpt-5-6-fuer-alle-frei/",
-      "date": "2026-07-09T17:41:22.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Neues Modell und API: Meta kickt mit Muse Spark 1.1 die KI-Preiskämpfe aufs nächste Level",
-      "description": "Meta steigt mit Muse Spark 1.1 und einer eigenen Entwickler-API ins kommerzielle Modellgeschäft ein, zu Preisen, die selbst das erst gestern erschienene Grok 4.5 unterbieten. Bei 4,25 Dollar pro Milli",
-      "link": "https://the-decoder.de/neues-modell-und-api-meta-kickt-mit-muse-spark-1-1-die-ki-preiskaempfe-aufs-naechste-level/",
-      "date": "2026-07-09T16:38:44.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
     {
       "title": "GPT-5.6 is now the preferred model in Microsoft 365 Copilot",
       "description": "Learn how GPT-5.6 powers Microsoft 365 Copilot with stronger AI capabilities across Word, Excel, PowerPoint, Chat, and Cowork for faster, higher-quality work.",
@@ -36,15 +9,6 @@
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
-    },
-    {
-      "title": "Wenn ein Leerzeichen über Bestehen entscheidet: OpenAI deckt Mängel in KI-Programmiertest auf",
-      "description": "OpenAI hat den Test SWE-Bench Pro geprüft, mit dem die Programmierfähigkeiten von KI-Modellen gemessen werden. Rund 30 Prozent der Aufgaben sind demnach fehlerhaft. Das Unternehmen zieht seine frühere",
-      "link": "https://the-decoder.de/wenn-ein-leerzeichen-ueber-bestehen-entscheidet-openai-deckt-maengel-in-ki-programmiertest-auf/",
-      "date": "2026-07-09T11:50:57.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
     },
     {
       "title": "ChatGPT is now a partner for your most ambitious work",
@@ -83,55 +47,91 @@
       "language": "en"
     },
     {
-      "title": "Kein Mensch hatte eine Chance: OpenAI-KI gewinnt prestigeträchtigen Programmierwettbewerb deutlich",
-      "description": "Bei den AtCoder World Tour Finals 2026 hat ein System von OpenAI in einem Ausstellungsmatch alle menschlichen Teilnehmer deutlich hinter sich gelassen und alle fünf Aufgaben der Algorithm-Division gel",
-      "link": "https://the-decoder.de/openai-ki-schlaegt-einige-der-besten-wettkampfprogrammierer-der-welt-bei-internationalem-coding-wettbewerb-deutlich/",
-      "date": "2026-07-09T09:39:57.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "xAI veröffentlicht Grok 4.5: Fast auf Frontier-Niveau, aber deutlich günstiger als die Konkurrenz",
-      "description": "xAI veröffentlicht Grok 4.5, trainiert auf zehntausenden Nvidia GB300 GPUs. In Coding-Benchmarks liegt das Modell noch deutlich hinter Fable 5 und teils knapp hinter GPT-5.5, benötigt aber 4,2-mal wen",
-      "link": "https://the-decoder.de/xai-veroeffentlicht-grok-4-5-fast-auf-frontier-niveau-aber-deutlich-guenstiger-als-die-konkurrenz/",
-      "date": "2026-07-09T07:30:44.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "ChatGPT bekommt eine natürlichere KI-Stimme mit flexibler Interaktion",
-      "description": "OpenAI stellt mit GPT-Live eine neue Sprachmodell-Generation vor, die dank Full-Duplex-Architektur gleichzeitig hören und sprechen kann. Komplexe Fragen delegiert das System im Hintergrund an GPT-5.5,",
-      "link": "https://the-decoder.de/chatgpt-bekommt-eine-natuerlichere-ki-stimme-mit-flexibler-interaktion/",
-      "date": "2026-07-08T17:59:55.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Robostral Navigate: Mistrals neues 8B-Modell steuert Roboter nur mit einer Kamera durch komplexe Umgebungen",
-      "description": "Mistral steigt mit Robostral Navigate in die Robotik ein: Das 8B-Modell navigiert Roboter allein per RGB-Kamera durch unbekannte Umgebungen. Trainiert in Simulation und per Reinforcement Learning (CIS",
-      "link": "https://the-decoder.de/robostral-navigate-mistrals-neues-8b-modell-steuert-roboter-nur-mit-einer-kamera-durch-komplexe-umgebungen/",
-      "date": "2026-07-08T17:14:17.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Claude Fable 5 ist zu teuer: Anthropic zeigt zwei Strategien, um die Kosten deutlich zu senken",
-      "description": "Anthropic empfiehlt, das teure Claude Fable 5 nicht direkt für alle Aufgaben einzusetzen, sondern als Planer für kleinere Modelle. In Kombination mit Sonnet 5 erreicht das \"Advisor\"-Muster laut Anthro",
-      "link": "https://the-decoder.de/claude-fable-5-ist-zu-teuer-anthropic-zeigt-zwei-strategien-um-die-kosten-deutlich-zu-senken/",
-      "date": "2026-07-08T16:20:07.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "Our approach to government and national security partnerships",
       "description": "Learn how OpenAI approaches government and national security partnerships, with principles for responsible AI use, democratic accountability, and public safety.",
       "link": "https://openai.com/index/government-national-security-partnerships",
       "date": "2026-07-08T13:30:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
+      "title": "Separating signal from noise in coding evaluations",
+      "description": "A new analysis from OpenAI reveals issues in SWE-Bench Pro, a popular coding benchmark, raising concerns about reliability and accuracy in evaluating AI models.",
+      "link": "https://openai.com/index/separating-signal-from-noise-coding-evaluations",
+      "date": "2026-07-08T13:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
+      "title": "Helping K–12 educators build practical AI skills",
+      "description": "OpenAI Academy and the Walton Family Foundation are bringing hands-on AI Skills Jams to help K–12 educators build practical AI skills for the classroom.",
+      "link": "https://openai.com/index/k-12-educators-practical-skills",
+      "date": "2026-07-08T10:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
+      "title": "Introducing GPT-Live",
+      "description": "A new generation of voice models for natural human-AI interaction, now powering ChatGPT Voice.",
+      "link": "https://openai.com/index/introducing-gpt-live",
+      "date": "2026-07-08T00:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
+      "title": "MUFG aims to become AI-native with OpenAI",
+      "description": "MUFG uses ChatGPT Enterprise to build an AI-native organization, improve workflows, and deliver new AI-powered financial services at scale.",
+      "link": "https://openai.com/index/mufg",
+      "date": "2026-07-07T00:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
+      "title": "Australian Payments Plus moves faster with ChatGPT and Codex",
+      "description": "See how Australian Payments Plus uses ChatGPT Enterprise and Codex to move faster through payments complexity. AP+ saves time, improves quality, and keeps human judgment central.",
+      "link": "https://openai.com/index/australian-payments-plus",
+      "date": "2026-07-07T00:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
+      "title": "Expanding our Heat Resilience data to 50+ global cities",
+      "description": "Climate & Sustainability",
+      "link": "https://research.google/blog/expanding-our-heat-resilience-data-to-50-global-cities/",
+      "date": "2026-06-30T17:03:00.000Z",
+      "source": "Google AI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
+      "title": "How ChatGPT adoption has expanded",
+      "description": "New OpenAI Signals data shows how ChatGPT adoption is growing globally, with users increasing usage, exploring more capabilities, and driving growth across regions and languages.",
+      "link": "https://openai.com/index/how-chatgpt-adoption-has-expanded",
+      "date": "2026-06-30T09:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
+      "title": "Introducing GeneBench-Pro",
+      "description": "Introducing GeneBench-Pro, a new benchmark testing AI performance in genomics, biology, and scientific research using complex, real-world datasets.",
+      "link": "https://openai.com/index/introducing-genebench-pro",
+      "date": "2026-06-30T00:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
+      "title": "Core dump epidemiology: fixing an 18-year-old bug",
+      "description": "OpenAI engineers used large-scale core dump analysis to debug rare infrastructure crashes, uncovering both a hardware fault and a long-standing software bug.",
+      "link": "https://openai.com/index/core-dump-epidemiology-data-infrastructure-bug",
+      "date": "2026-06-30T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
