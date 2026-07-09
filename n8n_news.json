@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-07-09T13:05:20.424Z",
+  "lastUpdated": "2026-07-09T16:54:30.328Z",
   "news": [
+    {
+      "title": "Neues Modell und API: Meta kickt mit Muse Spark 1.1 die KI-Preiskämpfe aufs nächste Level",
+      "description": "Meta steigt mit Muse Spark 1.1 und einer eigenen Entwickler-API ins kommerzielle Modellgeschäft ein, zu Preisen, die selbst das erst gestern erschienene Grok 4.5 unterbieten. Bei 4,25 Dollar pro Milli",
+      "link": "https://the-decoder.de/neues-modell-und-api-meta-kickt-mit-muse-spark-1-1-die-ki-preiskaempfe-aufs-naechste-level/",
+      "date": "2026-07-09T16:38:44.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Wenn ein Leerzeichen über Bestehen entscheidet: OpenAI deckt Mängel in KI-Programmiertest auf",
       "description": "OpenAI hat den Test SWE-Bench Pro geprüft, mit dem die Programmierfähigkeiten von KI-Modellen gemessen werden. Rund 30 Prozent der Aufgaben sind demnach fehlerhaft. Das Unternehmen zieht seine frühere",
@@ -124,15 +133,6 @@
       "link": "https://openai.com/index/mufg",
       "date": "2026-07-07T00:00:00.000Z",
       "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "Expanding our Heat Resilience data to 50+ global cities",
-      "description": "Climate & Sustainability",
-      "link": "https://research.google/blog/expanding-our-heat-resilience-data-to-50-global-cities/",
-      "date": "2026-06-30T17:03:00.000Z",
-      "source": "Google AI",
       "category": "große-modelle",
       "language": "en"
     }
