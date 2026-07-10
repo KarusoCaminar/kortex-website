@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-10T09:11:16.243Z",
+  "lastUpdated": "2026-07-10T11:04:43.320Z",
   "news": [
     {
       "title": "How Deutsche Telekom is rewiring telecommunications with AI",
@@ -128,13 +128,13 @@
       "language": "de"
     },
     {
-      "title": "Claude Fable 5 ist zu teuer: Anthropic zeigt zwei Strategien, um die Kosten deutlich zu senken",
-      "description": "Anthropic empfiehlt, das teure Claude Fable 5 nicht direkt für alle Aufgaben einzusetzen, sondern als Planer für kleinere Modelle. In Kombination mit Sonnet 5 erreicht das \"Advisor\"-Muster laut Anthro",
-      "link": "https://the-decoder.de/claude-fable-5-ist-zu-teuer-anthropic-zeigt-zwei-strategien-um-die-kosten-deutlich-zu-senken/",
-      "date": "2026-07-08T16:20:07.000Z",
-      "source": "The Decoder",
+      "title": "Our approach to government and national security partnerships",
+      "description": "Learn how OpenAI approaches government and national security partnerships, with principles for responsible AI use, democratic accountability, and public safety.",
+      "link": "https://openai.com/index/government-national-security-partnerships",
+      "date": "2026-07-08T13:30:00.000Z",
+      "source": "OpenAI",
       "category": "große-modelle",
-      "language": "de"
+      "language": "en"
     }
   ]
 }
