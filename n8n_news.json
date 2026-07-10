@@ -1,6 +1,51 @@
 {
-  "lastUpdated": "2026-07-10T11:04:43.320Z",
+  "lastUpdated": "2026-07-10T18:34:34.212Z",
   "news": [
+    {
+      "title": "KI, die KI verbessert: OpenAIs GPT-5.6 Sol trainierte angeblich kleineres Modell Luna",
+      "description": "OpenAIs GPT-5.6 Sol hat laut dem Unternehmen eigenständig das kleinere Modell Luna posttrainiert – angestoßen durch einen einzigen, „ziemlich unterspezifizierten Prompt\". Im internen RSI-Benchmark für",
+      "link": "https://the-decoder.de/ki-die-ki-verbessert-openais-gpt-5-6-sol-trainierte-angeblich-kleineres-modell-luna/",
+      "date": "2026-07-10T18:22:47.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Von \"Light\" bis \"Ultra\": OpenAI-Mitarbeiter erklärt die Reasoning-Stufe von GPT-5.6 Sol",
+      "description": "GPT-5.6 Sol bietet fünf Reasoning-Stufen von \"Light\" bis \"xhigh\", dazu die Modi \"Max\" und \"Ultra\", bei dem mehrere Subagenten parallel arbeiten. OpenAI-Mitarbeiter Vaibhav Srivastav empfiehlt, niedrig",
+      "link": "https://the-decoder.de/von-light-bis-ultra-openai-mitarbeiter-erklaert-die-reasoning-stufe-von-gpt-5-6-sol/",
+      "date": "2026-07-10T17:38:06.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Nach Pekings Veto gegen Meta: Tencent verhandelt über größte Beteiligung an KI-Startup Manus",
+      "description": "Tencent verhandelt laut Financial Times über den Kauf der größten Beteiligung am KI-Agenten-Startup Manus – zur gleichen Bewertung von zwei Milliarden Dollar, nachdem Peking Metas Übernahme blockiert",
+      "link": "https://the-decoder.de/nach-pekings-veto-gegen-meta-tencent-verhandelt-ueber-groesste-beteiligung-an-ki-startup-manus/",
+      "date": "2026-07-10T16:42:05.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "US-Notenbank holt sich KI-Investor Andreessen als Berater",
+      "description": "Fed-Chef Kevin Warsh hat Risikokapitalgeber Marc Andreessen berufen, um die US-Notenbank bei der Einschätzung von KI-Folgen für die Wirtschaft zu beraten. Warsh sieht KI als \"bedeutende disinflationär",
+      "link": "https://the-decoder.de/us-notenbank-holt-sich-ki-investor-andreessen-als-berater/",
+      "date": "2026-07-10T12:09:32.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "OpenAI stellt KI-Browser Atlas nach nur acht Monaten wieder ein",
+      "description": "OpenAI stellt seinen erst im Oktober 2025 gestarteten KI-Browser Atlas nach weniger als acht Monaten wieder ein. Die Funktionen wandern stattdessen direkt in ChatGPT, das per \"Computer Use\" künftig ei",
+      "link": "https://the-decoder.de/openai-stellt-ki-browser-atlas-nach-nur-acht-monaten-wieder-ein/",
+      "date": "2026-07-10T12:09:21.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "How Deutsche Telekom is rewiring telecommunications with AI",
       "description": "How Deutsche Telekom is becoming an AI-native telco with OpenAI-transforming customer service, employee workflows, network operations, and the future of voice.",
@@ -47,15 +92,6 @@
       "language": "en"
     },
     {
-      "title": "Wenn ein Leerzeichen über Bestehen entscheidet: OpenAI deckt Mängel in KI-Programmiertest auf",
-      "description": "OpenAI hat den Test SWE-Bench Pro geprüft, mit dem die Programmierfähigkeiten von KI-Modellen gemessen werden. Rund 30 Prozent der Aufgaben sind demnach fehlerhaft. Das Unternehmen zieht seine frühere",
-      "link": "https://the-decoder.de/wenn-ein-leerzeichen-ueber-bestehen-entscheidet-openai-deckt-maengel-in-ki-programmiertest-auf/",
-      "date": "2026-07-09T11:50:57.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "GPT-5.6: Frontier intelligence that scales with your ambition",
       "description": "More intelligence from every token, stronger performance per dollar, and more capability on demand for your hardest work.",
       "link": "https://openai.com/index/gpt-5-6",
@@ -90,42 +126,6 @@
       "source": "Google AI",
       "category": "große-modelle",
       "language": "en"
-    },
-    {
-      "title": "Kein Mensch hatte eine Chance: OpenAI-KI gewinnt prestigeträchtigen Programmierwettbewerb deutlich",
-      "description": "Bei den AtCoder World Tour Finals 2026 hat ein System von OpenAI in einem Ausstellungsmatch alle menschlichen Teilnehmer deutlich hinter sich gelassen und alle fünf Aufgaben der Algorithm-Division gel",
-      "link": "https://the-decoder.de/openai-ki-schlaegt-einige-der-besten-wettkampfprogrammierer-der-welt-bei-internationalem-coding-wettbewerb-deutlich/",
-      "date": "2026-07-09T09:39:57.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "xAI veröffentlicht Grok 4.5: Fast auf Frontier-Niveau, aber deutlich günstiger als die Konkurrenz",
-      "description": "xAI veröffentlicht Grok 4.5, trainiert auf zehntausenden Nvidia GB300 GPUs. In Coding-Benchmarks liegt das Modell noch deutlich hinter Fable 5 und teils knapp hinter GPT-5.5, benötigt aber 4,2-mal wen",
-      "link": "https://the-decoder.de/xai-veroeffentlicht-grok-4-5-fast-auf-frontier-niveau-aber-deutlich-guenstiger-als-die-konkurrenz/",
-      "date": "2026-07-09T07:30:44.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "ChatGPT bekommt eine natürlichere KI-Stimme mit flexibler Interaktion",
-      "description": "OpenAI stellt mit GPT-Live eine neue Sprachmodell-Generation vor, die dank Full-Duplex-Architektur gleichzeitig hören und sprechen kann. Komplexe Fragen delegiert das System im Hintergrund an GPT-5.5,",
-      "link": "https://the-decoder.de/chatgpt-bekommt-eine-natuerlichere-ki-stimme-mit-flexibler-interaktion/",
-      "date": "2026-07-08T17:59:55.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Robostral Navigate: Mistrals neues 8B-Modell steuert Roboter nur mit einer Kamera durch komplexe Umgebungen",
-      "description": "Mistral steigt mit Robostral Navigate in die Robotik ein: Das 8B-Modell navigiert Roboter allein per RGB-Kamera durch unbekannte Umgebungen. Trainiert in Simulation und per Reinforcement Learning (CIS",
-      "link": "https://the-decoder.de/robostral-navigate-mistrals-neues-8b-modell-steuert-roboter-nur-mit-einer-kamera-durch-komplexe-umgebungen/",
-      "date": "2026-07-08T17:14:17.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
     },
     {
       "title": "Our approach to government and national security partnerships",
