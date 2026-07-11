@@ -1,6 +1,33 @@
 {
-  "lastUpdated": "2026-07-11T03:07:56.188Z",
+  "lastUpdated": "2026-07-11T14:29:37.967Z",
   "news": [
+    {
+      "title": "Chinesisches KI-Labor stellt \"Orca\" vor: Weltmodell sagt Zustände statt Tokens vorher",
+      "description": "Das chinesische Forschungsinstitut BAAI stellt mit Orca ein Weltmodell vor, das nicht Tokens oder Pixel, sondern abstrakte Weltzustände vorhersagt. Trainiert mit 125.000 Stunden Video ohne ein einzige",
+      "link": "https://the-decoder.de/chinesisches-ki-labor-stellt-orca-vor-weltmodell-sagt-zustaende-statt-tokens-vorher/",
+      "date": "2026-07-11T08:41:26.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Kritik an ChatGPT Work: OpenAI will Kosten transparenter machen und Desktop-App nachbessern",
+      "description": "OpenAI räumt nach dem Launch von ChatGPT Work und GPT-5.6 Sol erhebliche Probleme ein: zu hoher Compute-Verbrauch, eine verwirrende Desktop-Umstellung bei Chats und Projekten, eine unklare Aufteilung",
+      "link": "https://the-decoder.de/kritik-an-chatgpt-work-openai-will-kosten-transparenter-machen-und-desktop-app-nachbessern/",
+      "date": "2026-07-11T07:37:09.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Apple verklagt OpenAI wegen systematischen Diebstahls von Geschäftsgeheimnissen",
+      "description": "Apple verklagt OpenAI vor einem Bundesgericht in Kalifornien wegen systematischen Diebstahls von Hardware-Geschäftsgeheimnissen über abgeworbene Mitarbeiter. Im Zentrum steht Ex-Apple-VP Tang Tan, heu",
+      "link": "https://the-decoder.de/apple-verklagt-openai-wegen-systematischen-diebstahls-von-geschaeftsgeheimnissen/",
+      "date": "2026-07-11T06:27:20.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "KI, die KI verbessert: OpenAIs GPT-5.6 Sol trainierte angeblich kleineres Modell Luna",
       "description": "OpenAIs GPT-5.6 Sol hat laut dem Unternehmen eigenständig das kleinere Modell Luna posttrainiert – angestoßen durch einen einzigen, „ziemlich unterspezifizierten Prompt\". Im internen RSI-Benchmark für",
@@ -54,33 +81,6 @@
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
-    },
-    {
-      "title": "OpenAIs GPT-5.6 Sol erreicht in Benchmarks fast das Niveau von Claude Fable 5, kostet aber nur ein Drittel",
-      "description": "OpenAIs GPT-5.6 Sol kommt im Artificial Analysis Intelligence Index auf 59 Punkte und liegt damit nur knapp hinter Claude Fable 5 – kostet mit 1,04 Dollar pro Aufgabe aber nur ein Drittel so viel wie",
-      "link": "https://the-decoder.de/openais-gpt-5-6-sol-erreicht-in-benchmarks-fast-das-niveau-von-claude-fable-5-kostet-aber-nur-ein-drittel/",
-      "date": "2026-07-09T18:26:51.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "OpenAI startet \"ChatGPT Work\" und gibt GPT-5.6 für alle frei",
-      "description": "OpenAI startet ChatGPT Work, eine agentische Software auf Basis von Codex und dem nun öffentlich verfügbaren GPT-5.6. Der Agent soll eigenständig über Apps wie Google Drive, Slack oder Salesforce hinw",
-      "link": "https://the-decoder.de/openai-startet-chatgpt-work-und-gibt-gpt-5-6-fuer-alle-frei/",
-      "date": "2026-07-09T17:41:22.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Neues Modell und API: Meta kickt mit Muse Spark 1.1 die KI-Preiskämpfe aufs nächste Level",
-      "description": "Meta steigt mit Muse Spark 1.1 und einer eigenen Entwickler-API ins kommerzielle Modellgeschäft ein, zu Preisen, die selbst das erst gestern erschienene Grok 4.5 unterbieten. Bei 4,25 Dollar pro Milli",
-      "link": "https://the-decoder.de/neues-modell-und-api-meta-kickt-mit-muse-spark-1-1-die-ki-preiskaempfe-aufs-naechste-level/",
-      "date": "2026-07-09T16:38:44.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
     },
     {
       "title": "GPT-5.6 is now the preferred model in Microsoft 365 Copilot",
