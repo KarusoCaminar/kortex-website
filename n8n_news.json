@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-07-11T14:29:37.967Z",
+  "lastUpdated": "2026-07-11T22:19:34.853Z",
   "news": [
+    {
+      "title": "OpenAIs GPT-5.6 Sol Ultra löst angeblich 50 Jahre altes Mathe-Problem in unter einer Stunde",
+      "description": "GPT-5.6 Sol Ultra von OpenAI hat mit 64 parallel arbeitenden Subagenten in knapp einer Stunde einen Beweis der seit 50 Jahren offenen Cycle Double Cover Conjecture produziert. Mathematiker Thomas Bloo",
+      "link": "https://the-decoder.de/openais-gpt-5-6-sol-ultra-loest-angeblich-50-jahre-altes-mathe-problem-in-unter-einer-stunde/",
+      "date": "2026-07-11T17:14:35.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Terrorgruppen nutzen laut Studie gängige KI-Chatbots für Angriffsplanung und Waffenbau",
+      "description": "Laut einer Cambridge-Studie nutzt die Terrorgruppe Boko Haram KI-Chatbots wie ChatGPT, Claude und Gemini für Angriffsplanung, Sprengstoffbau und Waffenwartung. ISIS-Verbindungsleute schulten Kommandeu",
+      "link": "https://the-decoder.de/terrorgruppen-nutzen-laut-studie-gaengige-ki-chatbots-fuer-angriffsplanung-und-waffenbau/",
+      "date": "2026-07-11T16:42:28.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Chinesisches KI-Labor stellt \"Orca\" vor: Weltmodell sagt Zustände statt Tokens vorher",
       "description": "Das chinesische Forschungsinstitut BAAI stellt mit Orca ein Weltmodell vor, das nicht Tokens oder Pixel, sondern abstrakte Weltzustände vorhersagt. Trainiert mit 125.000 Stunden Video ohne ein einzige",
@@ -51,24 +69,6 @@
       "description": "Tencent verhandelt laut Financial Times über den Kauf der größten Beteiligung am KI-Agenten-Startup Manus – zur gleichen Bewertung von zwei Milliarden Dollar, nachdem Peking Metas Übernahme blockiert",
       "link": "https://the-decoder.de/nach-pekings-veto-gegen-meta-tencent-verhandelt-ueber-groesste-beteiligung-an-ki-startup-manus/",
       "date": "2026-07-10T16:42:05.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "US-Notenbank holt sich KI-Investor Andreessen als Berater",
-      "description": "Fed-Chef Kevin Warsh hat Risikokapitalgeber Marc Andreessen berufen, um die US-Notenbank bei der Einschätzung von KI-Folgen für die Wirtschaft zu beraten. Warsh sieht KI als \"bedeutende disinflationär",
-      "link": "https://the-decoder.de/us-notenbank-holt-sich-ki-investor-andreessen-als-berater/",
-      "date": "2026-07-10T12:09:32.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "OpenAI stellt KI-Browser Atlas nach nur acht Monaten wieder ein",
-      "description": "OpenAI stellt seinen erst im Oktober 2025 gestarteten KI-Browser Atlas nach weniger als acht Monaten wieder ein. Die Funktionen wandern stattdessen direkt in ChatGPT, das per \"Computer Use\" künftig ei",
-      "link": "https://the-decoder.de/openai-stellt-ki-browser-atlas-nach-nur-acht-monaten-wieder-ein/",
-      "date": "2026-07-10T12:09:21.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
