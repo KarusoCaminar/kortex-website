@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-07-12T08:48:30.504Z",
+  "lastUpdated": "2026-07-12T10:32:49.757Z",
   "news": [
+    {
+      "title": "Claude Cowork: Nutzer greifen zur KI vor allem für die Arbeit neben ihrer Arbeit",
+      "description": "Anthropic hat 1,2 Millionen Claude-Cowork-Sitzungen aus über 600.000 Organisationen ausgewertet. Rund die Hälfte der Nutzung entfällt auf Geschäftsprozesse und Texterstellung, also das, was Anthropic",
+      "link": "https://the-decoder.de/claude-cowork-nutzer-greifen-zur-ki-vor-allem-fuer-die-arbeit-neben-ihrer-arbeit/",
+      "date": "2026-07-12T09:22:39.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "OpenAI-Chef Altman rudert zurück: KI könnte mehr Jobs schaffen als vernichten",
+      "description": "OpenAI-Chef Sam Altman ist sich \"ziemlich sicher\", dass KI bisher netto Jobs geschaffen hat; das Gegenteil seiner früheren Warnungen vor dem Wegfall ganzer Berufsgruppen. Auch Anthropic-CEO Dario Amod",
+      "link": "https://the-decoder.de/openai-chef-altman-rudert-zurueck-ki-koennte-mehr-jobs-schaffen-als-vernichten/",
+      "date": "2026-07-12T09:05:49.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Slay the Spire 2 als Härtetest: Forscher zerlegen das Gedächtnis von LLM-Agenten in fünf Schichten",
       "description": "Das Projekt AgenticSTS ersetzt das wachsende Chat-Protokoll von KI-Agenten durch fünf getrennte Speicherschichten. Getestet am Kartenspiel Slay the Spire 2 bleibt der Prompt konstant bei rund 5.000 To",
@@ -51,24 +69,6 @@
       "description": "Apple verklagt OpenAI vor einem Bundesgericht in Kalifornien wegen systematischen Diebstahls von Hardware-Geschäftsgeheimnissen über abgeworbene Mitarbeiter. Im Zentrum steht Ex-Apple-VP Tang Tan, heu",
       "link": "https://the-decoder.de/apple-verklagt-openai-wegen-systematischen-diebstahls-von-geschaeftsgeheimnissen/",
       "date": "2026-07-11T06:27:20.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "KI, die KI verbessert: OpenAIs GPT-5.6 Sol trainierte angeblich kleineres Modell Luna",
-      "description": "OpenAIs GPT-5.6 Sol hat laut dem Unternehmen eigenständig das kleinere Modell Luna posttrainiert – angestoßen durch einen einzigen, „ziemlich unterspezifizierten Prompt\". Im internen RSI-Benchmark für",
-      "link": "https://the-decoder.de/ki-die-ki-verbessert-openais-gpt-5-6-sol-trainierte-angeblich-kleineres-modell-luna/",
-      "date": "2026-07-10T21:07:47.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Von \"Light\" bis \"Ultra\": OpenAI-Mitarbeiter erklärt die Reasoning-Stufe von GPT-5.6 Sol",
-      "description": "GPT-5.6 Sol bietet fünf Reasoning-Stufen von \"Light\" bis \"xhigh\", dazu die Modi \"Max\" und \"Ultra\", bei dem mehrere Subagenten parallel arbeiten. OpenAI-Mitarbeiter Vaibhav Srivastav empfiehlt, niedrig",
-      "link": "https://the-decoder.de/von-light-bis-ultra-openai-mitarbeiter-erklaert-die-reasoning-stufe-von-gpt-5-6-sol/",
-      "date": "2026-07-10T17:38:06.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
