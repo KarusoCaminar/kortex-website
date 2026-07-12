@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-07-12T06:58:54.038Z",
+  "lastUpdated": "2026-07-12T08:48:30.504Z",
   "news": [
+    {
+      "title": "Slay the Spire 2 als Härtetest: Forscher zerlegen das Gedächtnis von LLM-Agenten in fünf Schichten",
+      "description": "Das Projekt AgenticSTS ersetzt das wachsende Chat-Protokoll von KI-Agenten durch fünf getrennte Speicherschichten. Getestet am Kartenspiel Slay the Spire 2 bleibt der Prompt konstant bei rund 5.000 To",
+      "link": "https://the-decoder.de/slay-the-spire-2-als-haertetest-forscher-zerlegen-das-gedaechtnis-von-llm-agenten-in-fuenf-schichten/",
+      "date": "2026-07-12T07:24:35.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "OpenAIs GPT-5.6 Sol Ultra löst angeblich 50 Jahre altes Mathe-Problem in unter einer Stunde",
       "description": "GPT-5.6 Sol Ultra von OpenAI hat mit 64 parallel arbeitenden Subagenten in knapp einer Stunde einen Beweis der seit 50 Jahren offenen Cycle Double Cover Conjecture produziert. Mathematiker Thomas Bloo",
@@ -60,15 +69,6 @@
       "description": "GPT-5.6 Sol bietet fünf Reasoning-Stufen von \"Light\" bis \"xhigh\", dazu die Modi \"Max\" und \"Ultra\", bei dem mehrere Subagenten parallel arbeiten. OpenAI-Mitarbeiter Vaibhav Srivastav empfiehlt, niedrig",
       "link": "https://the-decoder.de/von-light-bis-ultra-openai-mitarbeiter-erklaert-die-reasoning-stufe-von-gpt-5-6-sol/",
       "date": "2026-07-10T17:38:06.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Nach Pekings Veto gegen Meta: Tencent verhandelt über größte Beteiligung an KI-Startup Manus",
-      "description": "Tencent verhandelt laut Financial Times über den Kauf der größten Beteiligung am KI-Agenten-Startup Manus – zur gleichen Bewertung von zwei Milliarden Dollar, nachdem Peking Metas Übernahme blockiert",
-      "link": "https://the-decoder.de/nach-pekings-veto-gegen-meta-tencent-verhandelt-ueber-groesste-beteiligung-an-ki-startup-manus/",
-      "date": "2026-07-10T16:42:05.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
