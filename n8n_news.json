@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-07-12T14:33:02.439Z",
+  "lastUpdated": "2026-07-12T18:22:46.578Z",
   "news": [
+    {
+      "title": "LinkedIn ist laut Analyse die KI-Slop-Schleuder unter den Social-Media-Plattformen",
+      "description": "Laut einer Pangram-Analyse ist jeder vierte längere Social-Media-Beitrag vollständig KI-generiert. LinkedIn führt mit 41 Prozent bei Langform-Posts. Obwohl die Plattform nur ein Drittel der gescannten",
+      "link": "https://the-decoder.de/linkedin-ist-laut-analyse-die-ki-slop-schleuder-unter-den-social-media-plattformen/",
+      "date": "2026-07-12T15:14:47.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Claude Code bekommt integrierten Browser direkt in der Desktop-App",
+      "description": "Claude Code erhält einen integrierten Browser, mit dem die KI direkt in der Entwicklungsumgebung Webseiten aufrufen, lesen und bedienen kann. Schreibaktionen auf externen Seiten werden durch Klassifiz",
+      "link": "https://the-decoder.de/claude-code-bekommt-integrierten-browser-direkt-in-der-desktop-app/",
+      "date": "2026-07-12T15:00:06.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "S&P sieht OpenAI als zentrales Risiko für Oracle und senkt Kreditbewertung",
       "description": "S&P Global hat Oracles Kreditrating auf \"BBB-\" herabgestuft. Der Grund: OpenAI macht rund die Hälfte von Oracles 638 Milliarden Dollar an Vertragsverbindlichkeiten aus. Fällt OpenAI als Kunde weg, sit",
@@ -65,15 +83,6 @@
       "language": "de"
     },
     {
-      "title": "Chinesisches KI-Labor stellt \"Orca\" vor: Weltmodell sagt Zustände statt Tokens vorher",
-      "description": "Das chinesische Forschungsinstitut BAAI stellt mit Orca ein Weltmodell vor, das nicht Tokens oder Pixel, sondern abstrakte Weltzustände vorhersagt. Trainiert mit 125.000 Stunden Video ohne ein einzige",
-      "link": "https://the-decoder.de/chinesisches-ki-labor-stellt-orca-vor-weltmodell-sagt-zustaende-statt-tokens-vorher/",
-      "date": "2026-07-11T08:41:26.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "How Deutsche Telekom is rewiring telecommunications with AI",
       "description": "How Deutsche Telekom is becoming an AI-native telco with OpenAI-transforming customer service, employee workflows, network operations, and the future of voice.",
       "link": "https://openai.com/index/deutsche-telekom",
@@ -124,15 +133,6 @@
       "link": "https://research.google/blog/sensorfm-towards-a-general-intelligence-and-interface-for-wearable-health-data/",
       "date": "2026-07-09T09:56:00.000Z",
       "source": "Google AI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "Our approach to government and national security partnerships",
-      "description": "Learn how OpenAI approaches government and national security partnerships, with principles for responsible AI use, democratic accountability, and public safety.",
-      "link": "https://openai.com/index/government-national-security-partnerships",
-      "date": "2026-07-08T13:30:00.000Z",
-      "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
     }
