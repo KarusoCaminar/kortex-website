@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-07-13T16:50:37.658Z",
+  "lastUpdated": "2026-07-13T18:37:18.393Z",
   "news": [
+    {
+      "title": "Neuer Prompting-Guide: OpenAI empfiehlt Prompts, die sich am Ergebnis statt am Prozess orientieren",
+      "description": "OpenAI hat einen neuen Prompting-Leitfaden veröffentlicht, der sich gezielt an Endnutzer statt an Entwickler richtet. Statt starrer Prompt-Formeln empfiehlt das Dokument vier optionale Bausteine – Zie",
+      "link": "https://the-decoder.de/neuer-prompting-guide-openai-empfiehlt-prompts-die-sich-am-ergebnis-statt-am-prozess-orientieren/",
+      "date": "2026-07-13T17:23:39.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Turing-Preisträger Sutton gründet Oak Lab und will KI-Agenten bauen, die wirklich selbst lernen",
+      "description": "Richard Sutton, Turing-Preisträger 2024 und Mitbegründer des modernen Reinforcement Learning, hat mit Oak Lab ein neues Startup in Toronto gegründet. Sutton kritisiert aktuelle Deep-Learning-Methoden",
+      "link": "https://the-decoder.de/turing-preistraeger-sutton-gruendet-oak-lab-und-will-ki-agenten-bauen-die-wirklich-selbst-lernen/",
+      "date": "2026-07-13T17:08:58.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "16 Nobelpreisträger warnen: KI-Umbruch könnte größer als Industrielle Revolution werden",
       "description": "Mehr als 200 Ökonomen und KI-Forscher, darunter Nobelpreisträger und Vertreter von Google, OpenAI und Anthropic, fordern in einem koordinierten Statement sofortiges Handeln: Die KI-Transformation könn",
@@ -69,24 +87,6 @@
       "description": "S&P Global hat Oracles Kreditrating auf \"BBB-\" herabgestuft. Der Grund: OpenAI macht rund die Hälfte von Oracles 638 Milliarden Dollar an Vertragsverbindlichkeiten aus. Fällt OpenAI als Kunde weg, sit",
       "link": "https://the-decoder.de/sp-sieht-openai-als-zentrales-risiko-fuer-oracle-und-senkt-kreditbewertung/",
       "date": "2026-07-12T11:36:36.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Meta zieht KI-Bildfunktion zurück, die ohne Zustimmung Fotos von Instagram-Nutzern generierte",
-      "description": "Meta hat seine neue Muse-Image-Funktion zurückgezogen, die es erlaubte, per @-Erwähnung KI-Bilder von beliebigen öffentlichen Instagram-Konten zu erzeugen, ohne deren Zustimmung. Das Feature war stand",
-      "link": "https://the-decoder.de/meta-zieht-ki-bildfunktion-zurueck-die-ohne-zustimmung-fotos-von-instagram-nutzern-generierte/",
-      "date": "2026-07-12T11:08:30.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Claude Cowork: Nutzer greifen zur KI vor allem für die Arbeit neben ihrer Arbeit",
-      "description": "Anthropic hat 1,2 Millionen Claude-Cowork-Sitzungen aus über 600.000 Organisationen ausgewertet. Rund die Hälfte der Nutzung entfällt auf Geschäftsprozesse und Texterstellung, also das, was Anthropic",
-      "link": "https://the-decoder.de/claude-cowork-nutzer-greifen-zur-ki-vor-allem-fuer-die-arbeit-neben-ihrer-arbeit/",
-      "date": "2026-07-12T09:22:39.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
