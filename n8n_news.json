@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-07-13T15:05:08.812Z",
+  "lastUpdated": "2026-07-13T16:50:37.658Z",
   "news": [
+    {
+      "title": "16 Nobelpreisträger warnen: KI-Umbruch könnte größer als Industrielle Revolution werden",
+      "description": "Mehr als 200 Ökonomen und KI-Forscher, darunter Nobelpreisträger und Vertreter von Google, OpenAI und Anthropic, fordern in einem koordinierten Statement sofortiges Handeln: Die KI-Transformation könn",
+      "link": "https://the-decoder.de/16-nobelpreistraeger-warnen-ki-umbruch-koennte-groesser-als-industrielle-revolution-werden/",
+      "date": "2026-07-13T15:29:24.000Z",
+      "source": "The Decoder",
+      "category": "industrie-4.0",
+      "language": "de"
+    },
     {
       "title": "\"Ironisch\": Microsoft-Chef wirft großen KI-Anbietern Doppelmoral bei Trainingsdaten vor",
       "description": "Microsoft-CEO Satya Nadella kritisiert OpenAI und Anthropic für ein \"umgekehrtes Informationsparadoxon\": Sie nutzen öffentliche Daten per Fair Use, verbieten aber Destillation ihrer Modelle – und lern",
@@ -78,15 +87,6 @@
       "description": "Anthropic hat 1,2 Millionen Claude-Cowork-Sitzungen aus über 600.000 Organisationen ausgewertet. Rund die Hälfte der Nutzung entfällt auf Geschäftsprozesse und Texterstellung, also das, was Anthropic",
       "link": "https://the-decoder.de/claude-cowork-nutzer-greifen-zur-ki-vor-allem-fuer-die-arbeit-neben-ihrer-arbeit/",
       "date": "2026-07-12T09:22:39.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "OpenAI-Chef Altman rudert zurück: KI könnte mehr Jobs schaffen als vernichten",
-      "description": "OpenAI-Chef Sam Altman ist sich \"ziemlich sicher\", dass KI bisher netto Jobs geschaffen hat; das Gegenteil seiner früheren Warnungen vor dem Wegfall ganzer Berufsgruppen. Auch Anthropic-CEO Dario Amod",
-      "link": "https://the-decoder.de/openai-chef-altman-rudert-zurueck-ki-koennte-mehr-jobs-schaffen-als-vernichten/",
-      "date": "2026-07-12T09:05:49.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
