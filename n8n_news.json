@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-07-13T07:15:47.490Z",
+  "lastUpdated": "2026-07-13T09:11:26.301Z",
   "news": [
+    {
+      "title": "Claude Fable 5 bleibt doch im Abo: Anthropic gibt Abo-Nutzern mehr Zeit",
+      "description": "Anthropic verlängert den Flatrate-Zugang zu Claude Fable 5 bis zum 19. Juli 2026, eigentlich sollte das Modell ab heute nur noch per Direktbezahlung nutzbar sein. Bis zu 50 Prozent des wöchentlichen L",
+      "link": "https://the-decoder.de/claude-fable-5-bleibt-doch-im-abo-anthropic-gibt-abo-nutzern-mehr-zeit/",
+      "date": "2026-07-13T07:28:34.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "LinkedIn ist laut Analyse die KI-Slop-Schleuder unter den Social-Media-Plattformen",
       "description": "Laut einer Pangram-Analyse ist jeder vierte längere Social-Media-Beitrag vollständig KI-generiert. LinkedIn führt mit 41 Prozent bei Langform-Posts. Obwohl die Plattform nur ein Drittel der gescannten",
@@ -69,15 +78,6 @@
       "description": "GPT-5.6 Sol Ultra von OpenAI hat mit 64 parallel arbeitenden Subagenten in knapp einer Stunde einen Beweis der seit 50 Jahren offenen Cycle Double Cover Conjecture produziert. Mathematiker Thomas Bloo",
       "link": "https://the-decoder.de/openais-gpt-5-6-sol-ultra-loest-angeblich-50-jahre-altes-mathe-problem-in-unter-einer-stunde/",
       "date": "2026-07-11T17:14:35.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Terrorgruppen nutzen laut Studie gängige KI-Chatbots für Angriffsplanung und Waffenbau",
-      "description": "Laut einer Cambridge-Studie nutzt die Terrorgruppe Boko Haram KI-Chatbots wie ChatGPT, Claude und Gemini für Angriffsplanung, Sprengstoffbau und Waffenwartung. ISIS-Verbindungsleute schulten Kommandeu",
-      "link": "https://the-decoder.de/terrorgruppen-nutzen-laut-studie-gaengige-ki-chatbots-fuer-angriffsplanung-und-waffenbau/",
-      "date": "2026-07-11T16:42:28.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
