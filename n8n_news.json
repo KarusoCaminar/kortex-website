@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-07-13T11:05:30.521Z",
+  "lastUpdated": "2026-07-13T15:05:08.812Z",
   "news": [
+    {
+      "title": "\"Ironisch\": Microsoft-Chef wirft großen KI-Anbietern Doppelmoral bei Trainingsdaten vor",
+      "description": "Microsoft-CEO Satya Nadella kritisiert OpenAI und Anthropic für ein \"umgekehrtes Informationsparadoxon\": Sie nutzen öffentliche Daten per Fair Use, verbieten aber Destillation ihrer Modelle – und lern",
+      "link": "https://the-decoder.de/ironisch-microsoft-chef-wirft-grossen-ki-anbietern-doppelmoral-bei-trainingsdaten-vor/",
+      "date": "2026-07-13T14:20:50.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Deutsches Konsortium veröffentlicht offenes KI-Modell Soofi S für Deutsch und Englisch",
       "description": "Ein deutsches Forschungskonsortium hat mit Soofi S 30B-A3B ein offenes Sprachmodell veröffentlicht, das komplett auf der Telekom-Cloud in München trainiert wurde und einen bewussten Fokus auf deutsche",
@@ -92,28 +101,19 @@
       "language": "en"
     },
     {
+      "title": "Getting started with ChatGPT",
+      "description": "Learn how to use ChatGPT, start your first conversation, and discover simple ways to write, brainstorm, and solve problems with AI.",
+      "link": "https://openai.com/academy/getting-started",
+      "date": "2026-07-10T00:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
       "title": "GPT-5.6 is now the preferred model in Microsoft 365 Copilot",
       "description": "Learn how GPT-5.6 powers Microsoft 365 Copilot with stronger AI capabilities across Word, Excel, PowerPoint, Chat, and Cowork for faster, higher-quality work.",
       "link": "https://openai.com/index/gpt-5-6-preferred-model-microsoft-365-copilot",
       "date": "2026-07-09T13:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "GPT-5.6: Frontier intelligence that scales with your ambition",
-      "description": "More intelligence from every token, stronger performance per dollar, and more capability on demand for your hardest work.",
-      "link": "https://openai.com/index/gpt-5-6",
-      "date": "2026-07-09T10:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "ChatGPT is now a partner for your most ambitious work",
-      "description": "ChatGPT Work is an agent that can take action across your apps and files, stay with a project for hours if needed, and turn a goal into finished work.",
-      "link": "https://openai.com/index/chatgpt-for-your-most-ambitious-work",
-      "date": "2026-07-09T10:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
@@ -128,11 +128,11 @@
       "language": "en"
     },
     {
-      "title": "SensorFM: Towards a general intelligence and interface for wearable health data",
-      "description": "Generative AI",
-      "link": "https://research.google/blog/sensorfm-towards-a-general-intelligence-and-interface-for-wearable-health-data/",
-      "date": "2026-07-09T09:56:00.000Z",
-      "source": "Google AI",
+      "title": "GPT-5.6: Frontier intelligence that scales with your ambition",
+      "description": "More intelligence from every token, stronger performance per dollar, and more capability on demand for your hardest work.",
+      "link": "https://openai.com/index/gpt-5-6",
+      "date": "2026-07-09T10:00:00.000Z",
+      "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
     }
