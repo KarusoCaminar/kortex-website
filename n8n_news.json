@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-07-14T14:37:57.282Z",
+  "lastUpdated": "2026-07-14T16:31:15.083Z",
   "news": [
+    {
+      "title": "Google-Suche erstellt künftig eigene KI-Bilder, wenn das Web keine passenden liefert",
+      "description": "Google baut KI-Bildgenerierung direkt in die AI-Overviews der Suche ein. Das neue Modell Nano Banana 2 Lite erzeugt Bilder aus Suchanfragen, wenn keine passenden Ergebnisse im Web existieren. Der Roll",
+      "link": "https://the-decoder.de/google-suche-erstellt-kuenftig-eigene-ki-bilder-wenn-das-web-keine-passenden-liefert/",
+      "date": "2026-07-14T16:13:58.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "ChatGPT auf WhatsApp nutzen: OpenAI bietet wieder Texte, Bilder und Spracheingabe ohne eigenes Konto",
       "description": "OpenAI hat ChatGPT wieder auf WhatsApp freigeschaltet, allerdings nur im Europäischen Wirtschaftsraum, also den 27 EU-Staaten plus Liechtenstein, Island und Norwegen.\nDer Artikel ChatGPT auf WhatsApp",
@@ -92,24 +101,6 @@
       "language": "de"
     },
     {
-      "title": "Deutsches Konsortium veröffentlicht offenes KI-Modell Soofi S für Deutsch und Englisch",
-      "description": "Ein deutsches Forschungskonsortium hat mit Soofi S 30B-A3B ein offenes Sprachmodell veröffentlicht, das komplett auf der Telekom-Cloud in München trainiert wurde und einen bewussten Fokus auf deutsche",
-      "link": "https://the-decoder.de/deutsches-konsortium-veroeffentlicht-offenes-ki-modell-soofi-s-fuer-deutsch-und-englisch/",
-      "date": "2026-07-13T10:52:01.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Google trainiert KI-Gesundheitsmodell mit mehr als einer Billion Minuten Wearable-Daten",
-      "description": "Google Research stellt mit SensorFM ein Foundation Model vor, das aus mehr als einer Billion Minuten Wearable-Daten von fünf Millionen Fitbit- und Pixel-Watch-Nutzern lernt. Bei 34 von 35 Gesundheits-",
-      "link": "https://the-decoder.de/google-trainiert-ki-gesundheitsmodell-mit-mehr-als-einer-billion-minuten-wearable-daten/",
-      "date": "2026-07-13T09:11:48.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "How Deutsche Telekom is rewiring telecommunications with AI",
       "description": "How Deutsche Telekom is becoming an AI-native telco with OpenAI-transforming customer service, employee workflows, network operations, and the future of voice.",
       "link": "https://openai.com/index/deutsche-telekom",
@@ -132,6 +123,15 @@
       "description": "Learn how GPT-5.6 powers Microsoft 365 Copilot with stronger AI capabilities across Word, Excel, PowerPoint, Chat, and Cowork for faster, higher-quality work.",
       "link": "https://openai.com/index/gpt-5-6-preferred-model-microsoft-365-copilot",
       "date": "2026-07-09T13:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
+      "title": "GPT-5.5 Bio Bug Bounty",
+      "description": "Details about the OpenAI Bio Bounty program",
+      "link": "https://openai.com/index/bio-bug-bounty",
+      "date": "2026-07-09T10:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
