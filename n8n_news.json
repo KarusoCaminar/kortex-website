@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-14T12:33:01.737Z",
+  "lastUpdated": "2026-07-14T14:37:57.282Z",
   "news": [
     {
       "title": "ChatGPT auf WhatsApp nutzen: OpenAI bietet wieder Texte, Bilder und Spracheingabe ohne eigenes Konto",
@@ -38,21 +38,21 @@
       "language": "de"
     },
     {
-      "title": "How data science teams use ChatGPT Work",
-      "description": "See how data science teams can use ChatGPT Work to build root-cause briefs, impact readouts, KPI memos, scoped analyses, and dashboard specs from real work inputs.",
-      "link": "https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex",
-      "date": "2026-07-14T00:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
       "title": "How sales teams use ChatGPT Work",
       "description": "See how sales teams can use ChatGPT Work to create pipeline briefs, meeting prep packets, forecast reviews, account plans, and stalled-deal diagnoses from real work inputs.",
       "link": "https://openai.com/academy/codex-for-work/how-sales-teams-use-codex",
       "date": "2026-07-14T00:00:00.000Z",
       "source": "OpenAI",
       "category": "sales-tools",
+      "language": "en"
+    },
+    {
+      "title": "How data science teams use ChatGPT Work",
+      "description": "See how data science teams can use ChatGPT Work to build root-cause briefs, impact readouts, KPI memos, scoped analyses, and dashboard specs from real work inputs.",
+      "link": "https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex",
+      "date": "2026-07-14T00:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
       "language": "en"
     },
     {
