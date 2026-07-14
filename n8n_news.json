@@ -1,6 +1,60 @@
 {
-  "lastUpdated": "2026-07-14T06:50:27.820Z",
+  "lastUpdated": "2026-07-14T12:33:01.737Z",
   "news": [
+    {
+      "title": "ChatGPT auf WhatsApp nutzen: OpenAI bietet wieder Texte, Bilder und Spracheingabe ohne eigenes Konto",
+      "description": "OpenAI hat ChatGPT wieder auf WhatsApp freigeschaltet, allerdings nur im Europäischen Wirtschaftsraum, also den 27 EU-Staaten plus Liechtenstein, Island und Norwegen.\nDer Artikel ChatGPT auf WhatsApp",
+      "link": "https://the-decoder.de/nach-metas-chatbot-verbot-chatgpt-laeuft-wieder-ueber-whatsapp-im-europaeischen-wirtschaftsraum/",
+      "date": "2026-07-14T12:02:06.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "\"Niemand weiß, was passiert\": Deepmind-Chef Hassabis fordert neue US-Aufsichtsbehörde für KI-Spitzenmodelle",
+      "description": "Deepmind-Chef Demis Hassabis schlägt eine neue US-Standardisierungsbehörde nach dem Vorbild der Finanzaufsicht FINRA vor, die Bewertungsprotokolle für Spitzenmodelle entwickeln und bei Bedarf eine koo",
+      "link": "https://the-decoder.de/niemand-weiss-was-passiert-deepmind-chef-hassabis-fordert-neue-us-aufsichtsbehoerde-fuer-ki-spitzenmodelle/",
+      "date": "2026-07-14T11:29:03.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "PixVerse: Erfahrung mit TikTok-Algorithmus stützen Erfolg von KI-Video-Startup – Bewertung von 2 Milliarden Dollar",
+      "description": "Das in Singapur ansässige KI-Video-Startup PixVerse wird nach einer erweiterten Series-C-Runde mit über zwei Milliarden Dollar bewertet.\nDer Artikel PixVerse: Erfahrung mit TikTok-Algorithmus stützen",
+      "link": "https://the-decoder.de/pixverse-erfahrung-mit-tiktok-algorithmus-stuetzen-erfolg-von-ki-video-startup-bewertung-von-2-milliarden-dollar/",
+      "date": "2026-07-14T11:13:39.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Claude antwortet auf Hindi besonders warm, auf Russisch besonders streng: Sprache beeinflusst KI-Antworten stärker als erwartet",
+      "description": "Eine neue Untersuchung von Anthropic ordnet Hunderte aus Tausenden Einzelbegriffen abgeleitete Wertkonzepte entlang vier grundlegender Dimensionen. Sie zeigt systematische Unterschiede zwischen Claude",
+      "link": "https://the-decoder.de/claude-values-studie/",
+      "date": "2026-07-14T11:00:12.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "How data science teams use ChatGPT Work",
+      "description": "See how data science teams can use ChatGPT Work to build root-cause briefs, impact readouts, KPI memos, scoped analyses, and dashboard specs from real work inputs.",
+      "link": "https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex",
+      "date": "2026-07-14T00:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
+      "title": "How sales teams use ChatGPT Work",
+      "description": "See how sales teams can use ChatGPT Work to create pipeline briefs, meeting prep packets, forecast reviews, account plans, and stalled-deal diagnoses from real work inputs.",
+      "link": "https://openai.com/academy/codex-for-work/how-sales-teams-use-codex",
+      "date": "2026-07-14T00:00:00.000Z",
+      "source": "OpenAI",
+      "category": "sales-tools",
+      "language": "en"
+    },
     {
       "title": "Neuer Prompting-Guide: OpenAI empfiehlt Prompts, die sich am Ergebnis statt am Prozess orientieren",
       "description": "OpenAI hat einen neuen Prompting-Leitfaden veröffentlicht, der sich gezielt an Endnutzer statt an Entwickler richtet. Statt starrer Prompt-Formeln empfiehlt das Dokument vier optionale Bausteine – Zie",
@@ -56,42 +110,6 @@
       "language": "de"
     },
     {
-      "title": "Claude Fable 5 bleibt doch im Abo: Anthropic gibt Abo-Nutzern mehr Zeit",
-      "description": "Anthropic verlängert den Flatrate-Zugang zu Claude Fable 5 bis zum 19. Juli 2026, eigentlich sollte das Modell ab heute nur noch per Direktbezahlung nutzbar sein. Bis zu 50 Prozent des wöchentlichen L",
-      "link": "https://the-decoder.de/claude-fable-5-bleibt-doch-im-abo-anthropic-gibt-abo-nutzern-mehr-zeit/",
-      "date": "2026-07-13T07:28:34.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "LinkedIn ist laut Analyse die KI-Slop-Schleuder unter den Social-Media-Plattformen",
-      "description": "Laut einer Pangram-Analyse ist jeder vierte längere Social-Media-Beitrag vollständig KI-generiert. LinkedIn führt mit 41 Prozent bei Langform-Posts. Obwohl die Plattform nur ein Drittel der gescannten",
-      "link": "https://the-decoder.de/linkedin-ist-laut-analyse-die-ki-slop-schleuder-unter-den-social-media-plattformen/",
-      "date": "2026-07-12T15:14:47.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Claude Code bekommt integrierten Browser direkt in der Desktop-App",
-      "description": "Claude Code erhält einen integrierten Browser, mit dem die KI direkt in der Entwicklungsumgebung Webseiten aufrufen, lesen und bedienen kann. Schreibaktionen auf externen Seiten werden durch Klassifiz",
-      "link": "https://the-decoder.de/claude-code-bekommt-integrierten-browser-direkt-in-der-desktop-app/",
-      "date": "2026-07-12T15:00:06.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "S&P sieht OpenAI als zentrales Risiko für Oracle und senkt Kreditbewertung",
-      "description": "S&P Global hat Oracles Kreditrating auf \"BBB-\" herabgestuft. Der Grund: OpenAI macht rund die Hälfte von Oracles 638 Milliarden Dollar an Vertragsverbindlichkeiten aus. Fällt OpenAI als Kunde weg, sit",
-      "link": "https://the-decoder.de/sp-sieht-openai-als-zentrales-risiko-fuer-oracle-und-senkt-kreditbewertung/",
-      "date": "2026-07-12T11:36:36.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "How Deutsche Telekom is rewiring telecommunications with AI",
       "description": "How Deutsche Telekom is becoming an AI-native telco with OpenAI-transforming customer service, employee workflows, network operations, and the future of voice.",
       "link": "https://openai.com/index/deutsche-telekom",
@@ -114,24 +132,6 @@
       "description": "Learn how GPT-5.6 powers Microsoft 365 Copilot with stronger AI capabilities across Word, Excel, PowerPoint, Chat, and Cowork for faster, higher-quality work.",
       "link": "https://openai.com/index/gpt-5-6-preferred-model-microsoft-365-copilot",
       "date": "2026-07-09T13:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "GPT-5.5 Bio Bug Bounty",
-      "description": "Details about the OpenAI Bio Bounty program",
-      "link": "https://openai.com/index/bio-bug-bounty",
-      "date": "2026-07-09T10:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "GPT-5.6: Frontier intelligence that scales with your ambition",
-      "description": "More intelligence from every token, stronger performance per dollar, and more capability on demand for your hardest work.",
-      "link": "https://openai.com/index/gpt-5-6",
-      "date": "2026-07-09T10:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
