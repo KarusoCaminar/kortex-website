@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-07-14T16:31:15.083Z",
+  "lastUpdated": "2026-07-15T00:36:20.318Z",
   "news": [
+    {
+      "title": "Claude for Teachers: Anthropic bringt kostenloses KI-Paket an US-Schulen",
+      "description": "Anthropic stellt Claude for Teachers vor, ein kostenloses Angebot für verifizierte Lehrkräfte an US-Schulen von der Grundschule bis zur Oberstufe.\nDer Artikel Claude for Teachers: Anthropic bringt kos",
+      "link": "https://the-decoder.de/claude-for-teachers-anthropic-bringt-kostenloses-ki-paket-an-us-schulen/",
+      "date": "2026-07-14T17:24:27.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Google-Suche erstellt künftig eigene KI-Bilder, wenn das Web keine passenden liefert",
       "description": "Google baut KI-Bildgenerierung direkt in die AI-Overviews der Suche ein. Das neue Modell Nano Banana 2 Lite erzeugt Bilder aus Suchanfragen, wenn keine passenden Ergebnisse im Web existieren. Der Roll",
@@ -29,8 +38,8 @@
       "language": "de"
     },
     {
-      "title": "PixVerse: Erfahrung mit TikTok-Algorithmus stützen Erfolg von KI-Video-Startup – Bewertung von 2 Milliarden Dollar",
-      "description": "Das in Singapur ansässige KI-Video-Startup PixVerse wird nach einer erweiterten Series-C-Runde mit über zwei Milliarden Dollar bewertet.\nDer Artikel PixVerse: Erfahrung mit TikTok-Algorithmus stützen",
+      "title": "PixVerse: Erfahrung mit TikTok-Algorithmus stützt Erfolg von KI-Video-Startup – Bewertung von 2 Milliarden Dollar",
+      "description": "Das in Singapur ansässige KI-Video-Startup PixVerse wird nach einer erweiterten Series-C-Runde mit über zwei Milliarden Dollar bewertet.\nDer Artikel PixVerse: Erfahrung mit TikTok-Algorithmus stützt E",
       "link": "https://the-decoder.de/pixverse-erfahrung-mit-tiktok-algorithmus-stuetzen-erfolg-von-ki-video-startup-bewertung-von-2-milliarden-dollar/",
       "date": "2026-07-14T11:13:39.000Z",
       "source": "The Decoder",
@@ -47,12 +56,12 @@
       "language": "de"
     },
     {
-      "title": "How sales teams use ChatGPT Work",
-      "description": "See how sales teams can use ChatGPT Work to create pipeline briefs, meeting prep packets, forecast reviews, account plans, and stalled-deal diagnoses from real work inputs.",
-      "link": "https://openai.com/academy/codex-for-work/how-sales-teams-use-codex",
-      "date": "2026-07-14T00:00:00.000Z",
+      "title": "How to manage AI investments in the agentic era",
+      "description": "Learn how enterprises can manage AI investments in the agentic era by measuring useful work per dollar, improving efficiency, and scaling high-value workflows.",
+      "link": "https://openai.com/index/managing-ai-investments-in-agentic-era",
+      "date": "2026-07-14T10:00:00.000Z",
       "source": "OpenAI",
-      "category": "sales-tools",
+      "category": "große-modelle",
       "language": "en"
     },
     {
@@ -62,6 +71,15 @@
       "date": "2026-07-14T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
+      "language": "en"
+    },
+    {
+      "title": "How sales teams use ChatGPT Work",
+      "description": "See how sales teams can use ChatGPT Work to create pipeline briefs, meeting prep packets, forecast reviews, account plans, and stalled-deal diagnoses from real work inputs.",
+      "link": "https://openai.com/academy/codex-for-work/how-sales-teams-use-codex",
+      "date": "2026-07-14T00:00:00.000Z",
+      "source": "OpenAI",
+      "category": "sales-tools",
       "language": "en"
     },
     {
@@ -92,15 +110,6 @@
       "language": "de"
     },
     {
-      "title": "\"Ironisch\": Microsoft-Chef wirft großen KI-Anbietern Doppelmoral bei Trainingsdaten vor",
-      "description": "Microsoft-CEO Satya Nadella kritisiert OpenAI und Anthropic für ein \"umgekehrtes Informationsparadoxon\": Sie nutzen öffentliche Daten per Fair Use, verbieten aber Destillation ihrer Modelle – und lern",
-      "link": "https://the-decoder.de/ironisch-microsoft-chef-wirft-grossen-ki-anbietern-doppelmoral-bei-trainingsdaten-vor/",
-      "date": "2026-07-13T14:20:50.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "How Deutsche Telekom is rewiring telecommunications with AI",
       "description": "How Deutsche Telekom is becoming an AI-native telco with OpenAI-transforming customer service, employee workflows, network operations, and the future of voice.",
       "link": "https://openai.com/index/deutsche-telekom",
@@ -123,15 +132,6 @@
       "description": "Learn how GPT-5.6 powers Microsoft 365 Copilot with stronger AI capabilities across Word, Excel, PowerPoint, Chat, and Cowork for faster, higher-quality work.",
       "link": "https://openai.com/index/gpt-5-6-preferred-model-microsoft-365-copilot",
       "date": "2026-07-09T13:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "GPT-5.5 Bio Bug Bounty",
-      "description": "Details about the OpenAI Bio Bounty program",
-      "link": "https://openai.com/index/bio-bug-bounty",
-      "date": "2026-07-09T10:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
