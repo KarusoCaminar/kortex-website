@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-07-15T06:51:32.186Z",
+  "lastUpdated": "2026-07-15T10:36:49.569Z",
   "news": [
+    {
+      "title": "OpenAI Codex verschlüsselt interne Agenten-Kommunikation – Entwickler können Aufträge nicht mehr nachvollziehen",
+      "description": "OpenAIs Coding-Tool Codex verschlüsselt seit Anfang Juni die Anweisungen, die ein Hauptagent an seine Unteragenten delegiert. Entwickler können die interne Aufgabenverteilung nicht mehr einsehen. Bei",
+      "link": "https://the-decoder.de/openai-codex-verschluesselt-interne-agenten-kommunikation-entwickler-koennen-auftraege-nicht-mehr-nachvollziehen/",
+      "date": "2026-07-15T08:13:48.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Meta-Mitarbeiter verklagen Konzern: KI soll bei Massenentlassung diskriminiert haben",
+      "description": "Ehemalige und aktuelle Meta-Mitarbeiter klagen vor einem Bundesgericht in Kalifornien gegen KI-gestützte Massenentlassungen. Das Unternehmen soll bei der Kündigung von 8000 Beschäftigten interne KI-Sy",
+      "link": "https://the-decoder.de/meta-mitarbeiter-verklagen-konzern-ki-soll-bei-massenentlassung-diskriminiert-haben/",
+      "date": "2026-07-15T07:55:01.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "OpenAIs erstes KI-Hardware soll ein mobiler Lautsprecher ohne Bildschirm werden",
       "description": "OpenAI will mit einem bildschirmlosen Smart Speaker in den Hardware-Markt einsteigen. Das mobile Gerät soll mit Kamera, Sensoren und mechanischen Elementen als KI-Begleiter fungieren, der \"lebendig\" w",
@@ -90,24 +108,6 @@
       "source": "OpenAI",
       "category": "sales-tools",
       "language": "en"
-    },
-    {
-      "title": "Neuer Prompting-Guide: OpenAI empfiehlt Prompts, die sich am Ergebnis statt am Prozess orientieren",
-      "description": "OpenAI hat einen neuen Prompting-Leitfaden veröffentlicht, der sich gezielt an Endnutzer statt an Entwickler richtet. Statt starrer Prompt-Formeln empfiehlt das Dokument vier optionale Bausteine – Zie",
-      "link": "https://the-decoder.de/neuer-prompting-guide-openai-empfiehlt-prompts-die-sich-am-ergebnis-statt-am-prozess-orientieren/",
-      "date": "2026-07-13T17:23:39.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Turing-Preisträger Sutton gründet Oak Lab und will KI-Agenten bauen, die wirklich selbst lernen",
-      "description": "Richard Sutton, Turing-Preisträger 2024 und Mitbegründer des modernen Reinforcement Learning, hat mit Oak Lab ein neues Startup in Toronto gegründet. Sutton kritisiert aktuelle Deep-Learning-Methoden",
-      "link": "https://the-decoder.de/turing-preistraeger-sutton-gruendet-oak-lab-und-will-ki-agenten-bauen-die-wirklich-selbst-lernen/",
-      "date": "2026-07-13T17:08:58.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
     },
     {
       "title": "How Deutsche Telekom is rewiring telecommunications with AI",
