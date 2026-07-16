@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-07-16T16:32:55.929Z",
+  "lastUpdated": "2026-07-16T18:29:26.521Z",
   "news": [
+    {
+      "title": "Gemini Notebook und verknüpfte Apps: Google baut KI-Ökosystem weiter aus",
+      "description": "Google benennt NotebookLM in Gemini Notebook um und integriert das Tool tiefer in sein Ökosystem. Neu ist ein Cloud-Computer pro Notebook, der Code schreiben und ausführen kann, zunächst für AI-Ultra-",
+      "link": "https://the-decoder.de/gemini-notebook-und-verknuepfte-apps-google-baut-ki-oekosystem-weiter-aus/",
+      "date": "2026-07-16T17:13:18.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Why teens deserve access to safe AI",
       "description": "Learn how OpenAI is making ChatGPT safer for teens with age-appropriate protections, learning tools, parental controls, and expert partnerships.",
@@ -96,15 +105,6 @@
       "description": "Spotify baut seine KI-Sprachschnittstelle weiter aus: Premium-Nutzer können nun per Sprache oder Text direkt in der App mit dem Dienst kommunizieren.\nDer Artikel Spotifys neue KI-Funktion lässt Nutzer",
       "link": "https://the-decoder.de/spotifys-neue-ki-funktion-laesst-nutzer-per-sprache-musik-steuern-und-fragen-beantworten/",
       "date": "2026-07-15T15:33:26.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Offenes 27-Milliarden-Parameter-Modell \"Bonsai\" läuft auf einem iPhone",
-      "description": "PrismML hat mit Bonsai 27B ein 27-Milliarden-Parameter-Modell auf unter 4 GB komprimiert, sodass es direkt auf einem iPhone laufen kann. Laut eigenen Benchmarks behält die kleinste Variante 90 Prozent",
-      "link": "https://the-decoder.de/offenes-27-milliarden-parameter-modell-bonsai-laeuft-auf-einem-iphone/",
-      "date": "2026-07-15T15:25:14.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
