@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-07-15T18:29:09.734Z",
+  "lastUpdated": "2026-07-16T06:55:24.107Z",
   "news": [
+    {
+      "title": "OpenAIs GPT-Red findet Sicherheitslücken in KI-Modellen besser als menschliche Red-Teamer",
+      "description": "OpenAI setzt mit GPT-Red ein internes KI-Modell ein, das per Self-Play-Training automatisiert Sicherheitslücken in eigenen Modellen aufspürt und dabei in 84 Prozent der Testszenarien erfolgreiche Angr",
+      "link": "https://the-decoder.de/openais-gpt-red-findet-sicherheitsluecken-in-ki-modellen-besser-als-menschliche-red-teamer/",
+      "date": "2026-07-15T19:38:53.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "OpenAIs GPT-5.6 Sol widerlegt angeblich 25 Jahre alte Vermutung der Statistik",
       "description": "Ein Statistikprofessor der University of Pennsylvania hat mit OpenAIs GPT-5.6 Sol Pro eine zentrale offene Vermutung zum Benjamini-Hochberg-Verfahren widerlegt – in rund 90 Minuten. Mit dem Vorgängerm",
@@ -87,15 +96,6 @@
       "description": "Google baut KI-Bildgenerierung direkt in die AI-Overviews der Suche ein. Das neue Modell Nano Banana 2 Lite erzeugt Bilder aus Suchanfragen, wenn keine passenden Ergebnisse im Web existieren. Der Roll",
       "link": "https://the-decoder.de/google-suche-erstellt-kuenftig-eigene-ki-bilder-wenn-das-web-keine-passenden-liefert/",
       "date": "2026-07-14T16:13:58.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "ChatGPT auf WhatsApp nutzen: OpenAI bietet wieder Texte, Bilder und Spracheingabe ohne eigenes Konto",
-      "description": "OpenAI hat ChatGPT wieder auf WhatsApp freigeschaltet, allerdings nur im Europäischen Wirtschaftsraum, also den 27 EU-Staaten plus Liechtenstein, Island und Norwegen.\nDer Artikel ChatGPT auf WhatsApp",
-      "link": "https://the-decoder.de/nach-metas-chatbot-verbot-chatgpt-laeuft-wieder-ueber-whatsapp-im-europaeischen-wirtschaftsraum/",
-      "date": "2026-07-14T12:02:06.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
