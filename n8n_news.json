@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-07-16T14:43:29.786Z",
+  "lastUpdated": "2026-07-16T16:32:55.929Z",
   "news": [
+    {
+      "title": "Why teens deserve access to safe AI",
+      "description": "Learn how OpenAI is making ChatGPT safer for teens with age-appropriate protections, learning tools, parental controls, and expert partnerships.",
+      "link": "https://openai.com/index/why-teens-deserve-access-safe-ai",
+      "date": "2026-07-16T16:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
+      "title": "Medienaufsicht stuft Googles KI-Suche als Inhalteanbieter ein und wendet Medienrecht an",
+      "description": "Die deutschen Medienanstalten stufen KI-Suchmaschinen erstmals als Inhalteanbieter ein und erlassen Bescheide gegen Google und Perplexity. Googles KI-Übersichten sollen journalistische Links unzulässi",
+      "link": "https://the-decoder.de/medienaufsicht-stuft-googles-ki-suche-als-inhalteanbieter-ein-und-wendet-medienrecht-an/",
+      "date": "2026-07-16T14:45:26.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Codex Micro: OpenAI baut Vibecoding-Controller mit Drehregler für die Denktiefe der KI",
       "description": "OpenAI und der Tastaturhersteller Work Louder haben gemeinsam das Codex Micro vorgestellt, ein kompaktes Hardware-Steuergerät für die Arbeit mit KI-Agenten.\nDer Artikel Codex Micro: OpenAI baut Vibeco",
@@ -45,6 +63,15 @@
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
+    },
+    {
+      "title": "How Cars24 scales conversations and builds faster with OpenAI",
+      "description": "Cars24 uses OpenAI-powered voice and chat agents to handle 1M+ monthly conversation minutes, recover 12% of lost leads, and bring agentic workflows to teams across the company.",
+      "link": "https://openai.com/index/cars24",
+      "date": "2026-07-16T00:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
     },
     {
       "title": "OpenAIs GPT-Red findet Sicherheitslücken in KI-Modellen besser als menschliche Red-Teamer",
@@ -101,37 +128,10 @@
       "language": "en"
     },
     {
-      "title": "OpenAI Codex verschlüsselt interne Agenten-Kommunikation – Entwickler können Aufträge nicht mehr nachvollziehen",
-      "description": "OpenAIs Coding-Tool Codex verschlüsselt seit Anfang Juni die Anweisungen, die ein Hauptagent an seine Unteragenten delegiert. Entwickler können die interne Aufgabenverteilung nicht mehr einsehen. Bei",
-      "link": "https://the-decoder.de/openai-codex-verschluesselt-interne-agenten-kommunikation-entwickler-koennen-auftraege-nicht-mehr-nachvollziehen/",
-      "date": "2026-07-15T08:13:48.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "How to manage AI investments in the agentic era",
       "description": "Learn how enterprises can manage AI investments in the agentic era by measuring useful work per dollar, improving efficiency, and scaling high-value workflows.",
       "link": "https://openai.com/index/managing-ai-investments-in-agentic-era",
       "date": "2026-07-14T10:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "How sales teams use ChatGPT Work",
-      "description": "See how sales teams can use ChatGPT Work to create pipeline briefs, meeting prep packets, forecast reviews, account plans, and stalled-deal diagnoses from real work inputs.",
-      "link": "https://openai.com/academy/codex-for-work/how-sales-teams-use-codex",
-      "date": "2026-07-14T00:00:00.000Z",
-      "source": "OpenAI",
-      "category": "sales-tools",
-      "language": "en"
-    },
-    {
-      "title": "How data science teams use ChatGPT Work",
-      "description": "See how data science teams can use ChatGPT Work to build root-cause briefs, impact readouts, KPI memos, scoped analyses, and dashboard specs from real work inputs.",
-      "link": "https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex",
-      "date": "2026-07-14T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
