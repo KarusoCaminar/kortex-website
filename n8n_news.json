@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-07-16T08:51:31.933Z",
+  "lastUpdated": "2026-07-16T10:42:19.719Z",
   "news": [
+    {
+      "title": "Googles offenes KI-Modell Gemma 4 wird schneller, vollständiger und besser bei Werkzeugaufrufen",
+      "description": "Google hat ein Update für sein offenes KI-Modell Gemma 4 veröffentlicht, das unter anderem die Geschwindigkeit auf Nvidia-Hopper-GPUs deutlich erhöht und Probleme bei Antworten und Werkzeugaufrufen be",
+      "link": "https://the-decoder.de/googles-offenes-ki-modell-gemma-4-wird-schneller-vollstaendiger-und-besser-bei-werkzeugaufrufen/",
+      "date": "2026-07-16T09:07:58.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Inkling: Ex-OpenAI-CTO Mira Murati bringt erstes eigenes offenes KI-Modell heraus",
+      "description": "Thinking Machines Lab, das Start-up von Ex-OpenAI-CTO Mira Murati, veröffentlicht mit Inkling ein multimodales Open-Weights-Modell mit 975 Milliarden Parametern. Es führt den Artificial Analysis Intel",
+      "link": "https://the-decoder.de/inkling-ex-openai-cto-mira-murati-bringt-erstes-eigenes-offenes-ki-modell-heraus/",
+      "date": "2026-07-16T09:05:28.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "xAI stellt KI-Agen \"Grok-Build\" nach massivem Datenleck als Open Source auf GitHub",
       "description": "xAIs Kommandozeilen-Tool \"grok\" hat ungefragt sämtliche Dateien eines Verzeichnisses auf Google-Cloud-Server hochgeladen, darunter SSH-Schlüssel und Passwort-Datenbanken.  Als Reaktion kündigte Elon M",
@@ -92,15 +110,6 @@
       "language": "de"
     },
     {
-      "title": "Claude for Teachers: Anthropic bringt kostenloses KI-Paket an US-Schulen",
-      "description": "Anthropic stellt Claude for Teachers vor, ein kostenloses Angebot für verifizierte Lehrkräfte an US-Schulen von der Grundschule bis zur Oberstufe.\nDer Artikel Claude for Teachers: Anthropic bringt kos",
-      "link": "https://the-decoder.de/claude-for-teachers-anthropic-bringt-kostenloses-ki-paket-an-us-schulen/",
-      "date": "2026-07-14T17:24:27.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "How to manage AI investments in the agentic era",
       "description": "Learn how enterprises can manage AI investments in the agentic era by measuring useful work per dollar, improving efficiency, and scaling high-value workflows.",
       "link": "https://openai.com/index/managing-ai-investments-in-agentic-era",
@@ -123,15 +132,6 @@
       "description": "See how data science teams can use ChatGPT Work to build root-cause briefs, impact readouts, KPI memos, scoped analyses, and dashboard specs from real work inputs.",
       "link": "https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex",
       "date": "2026-07-14T00:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "How Deutsche Telekom is rewiring telecommunications with AI",
-      "description": "How Deutsche Telekom is becoming an AI-native telco with OpenAI-transforming customer service, employee workflows, network operations, and the future of voice.",
-      "link": "https://openai.com/index/deutsche-telekom",
-      "date": "2026-07-10T07:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
