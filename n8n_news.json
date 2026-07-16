@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-07-16T12:39:12.427Z",
+  "lastUpdated": "2026-07-16T14:43:29.786Z",
   "news": [
+    {
+      "title": "Codex Micro: OpenAI baut Vibecoding-Controller mit Drehregler für die Denktiefe der KI",
+      "description": "OpenAI und der Tastaturhersteller Work Louder haben gemeinsam das Codex Micro vorgestellt, ein kompaktes Hardware-Steuergerät für die Arbeit mit KI-Agenten.\nDer Artikel Codex Micro: OpenAI baut Vibeco",
+      "link": "https://the-decoder.de/codex-micro-openai-baut-vibecoding-controller-mit-drehregler-fuer-die-denktiefe-der-ki/",
+      "date": "2026-07-16T14:31:34.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Sakana AI und Nvidia: Orchestrierte Open-Weight-Modelle sollen geschlossene Systeme herausfordern",
+      "description": "Sakana AI integriert Nvidias offene Nemotron-Modelle in seinen Orchestrator Fugu, der mehrere Sprachmodelle dynamisch für einzelne Aufgaben kombiniert. Die Kernthese: Offene Modelle werden erst durch",
+      "link": "https://the-decoder.de/sakana-ai-und-nvidia-orchestrierte-open-weight-modelle-sollen-geschlossene-systeme-herausfordern/",
+      "date": "2026-07-16T14:02:13.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Googles offenes KI-Modell Gemma 4 wird schneller, vollständiger und besser bei Werkzeugaufrufen",
       "description": "Google hat ein Update für sein offenes KI-Modell Gemma 4 veröffentlicht, das unter anderem die Geschwindigkeit auf Nvidia-Hopper-GPUs deutlich erhöht und Probleme bei Antworten und Werkzeugaufrufen be",
@@ -87,24 +105,6 @@
       "description": "OpenAIs Coding-Tool Codex verschlüsselt seit Anfang Juni die Anweisungen, die ein Hauptagent an seine Unteragenten delegiert. Entwickler können die interne Aufgabenverteilung nicht mehr einsehen. Bei",
       "link": "https://the-decoder.de/openai-codex-verschluesselt-interne-agenten-kommunikation-entwickler-koennen-auftraege-nicht-mehr-nachvollziehen/",
       "date": "2026-07-15T08:13:48.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Meta-Mitarbeiter verklagen Konzern: KI soll bei Massenentlassung diskriminiert haben",
-      "description": "Ehemalige und aktuelle Meta-Mitarbeiter klagen vor einem Bundesgericht in Kalifornien gegen KI-gestützte Massenentlassungen. Das Unternehmen soll bei der Kündigung von 8000 Beschäftigten interne KI-Sy",
-      "link": "https://the-decoder.de/meta-mitarbeiter-verklagen-konzern-ki-soll-bei-massenentlassung-diskriminiert-haben/",
-      "date": "2026-07-15T07:55:01.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "OpenAIs erstes KI-Hardware soll ein mobiler Lautsprecher ohne Bildschirm werden",
-      "description": "OpenAI will mit einem bildschirmlosen Smart Speaker in den Hardware-Markt einsteigen. Das mobile Gerät soll mit Kamera, Sensoren und mechanischen Elementen als KI-Begleiter fungieren, der \"lebendig\" w",
-      "link": "https://the-decoder.de/openais-erstes-ki-hardware-soll-ein-mobiler-lautsprecher-ohne-bildschirm-werden/",
-      "date": "2026-07-15T06:24:56.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
