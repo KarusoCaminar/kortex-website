@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-07-16T06:55:24.107Z",
+  "lastUpdated": "2026-07-16T08:51:31.933Z",
   "news": [
+    {
+      "title": "xAI stellt KI-Agen \"Grok-Build\" nach massivem Datenleck als Open Source auf GitHub",
+      "description": "xAIs Kommandozeilen-Tool \"grok\" hat ungefragt sämtliche Dateien eines Verzeichnisses auf Google-Cloud-Server hochgeladen, darunter SSH-Schlüssel und Passwort-Datenbanken.  Als Reaktion kündigte Elon M",
+      "link": "https://the-decoder.de/xai-stellt-ki-agen-grok-build-nach-massivem-datenleck-als-open-source-auf-github/",
+      "date": "2026-07-16T07:39:21.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "OpenAIs GPT-Red findet Sicherheitslücken in KI-Modellen besser als menschliche Red-Teamer",
       "description": "OpenAI setzt mit GPT-Red ein internes KI-Modell ein, das per Self-Play-Training automatisiert Sicherheitslücken in eigenen Modellen aufspürt und dabei in 84 Prozent der Testszenarien erfolgreiche Angr",
@@ -87,15 +96,6 @@
       "description": "Anthropic stellt Claude for Teachers vor, ein kostenloses Angebot für verifizierte Lehrkräfte an US-Schulen von der Grundschule bis zur Oberstufe.\nDer Artikel Claude for Teachers: Anthropic bringt kos",
       "link": "https://the-decoder.de/claude-for-teachers-anthropic-bringt-kostenloses-ki-paket-an-us-schulen/",
       "date": "2026-07-14T17:24:27.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Google-Suche erstellt künftig eigene KI-Bilder, wenn das Web keine passenden liefert",
-      "description": "Google baut KI-Bildgenerierung direkt in die AI-Overviews der Suche ein. Das neue Modell Nano Banana 2 Lite erzeugt Bilder aus Suchanfragen, wenn keine passenden Ergebnisse im Web existieren. Der Roll",
-      "link": "https://the-decoder.de/google-suche-erstellt-kuenftig-eigene-ki-bilder-wenn-das-web-keine-passenden-liefert/",
-      "date": "2026-07-14T16:13:58.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
