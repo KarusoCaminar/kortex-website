@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-17T20:22:46.416Z",
+  "lastUpdated": "2026-07-17T22:18:45.324Z",
   "news": [
     {
       "title": "OpenAIs GPT-5.6 hat in einer Handvoll Fälle ungewollt eigenständig Dateien gelöscht",
@@ -101,15 +101,6 @@
       "language": "de"
     },
     {
-      "title": "Googles offenes KI-Modell Gemma 4 wird schneller, vollständiger und besser bei Werkzeugaufrufen",
-      "description": "Google hat ein Update für sein offenes KI-Modell Gemma 4 veröffentlicht, das unter anderem die Geschwindigkeit auf Nvidia-Hopper-GPUs deutlich erhöht und Probleme bei Antworten und Werkzeugaufrufen be",
-      "link": "https://the-decoder.de/googles-offenes-ki-modell-gemma-4-wird-schneller-vollstaendiger-und-besser-bei-werkzeugaufrufen/",
-      "date": "2026-07-16T09:07:58.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "How Cars24 scales conversations and builds faster with OpenAI",
       "description": "Cars24 uses OpenAI-powered voice and chat agents to handle 1M+ monthly conversation minutes, recover 12% of lost leads, and bring agentic workflows to teams across the company.",
       "link": "https://openai.com/index/cars24",
@@ -132,6 +123,15 @@
       "description": "Explore GPT-Red, OpenAI’s automated red teaming system that uses self-play to improve AI safety, alignment, and prompt injection robustness.",
       "link": "https://openai.com/index/unlocking-self-improvement-gpt-red",
       "date": "2026-07-15T10:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
+      "title": "How to manage AI investments in the agentic era",
+      "description": "Learn how enterprises can manage AI investments in the agentic era by measuring useful work per dollar, improving efficiency, and scaling high-value workflows.",
+      "link": "https://openai.com/index/managing-ai-investments-in-agentic-era",
+      "date": "2026-07-14T10:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
