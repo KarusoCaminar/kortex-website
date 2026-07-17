@@ -1,6 +1,42 @@
 {
-  "lastUpdated": "2026-07-17T08:48:33.812Z",
+  "lastUpdated": "2026-07-17T20:22:46.416Z",
   "news": [
+    {
+      "title": "OpenAIs GPT-5.6 hat in einer Handvoll Fälle ungewollt eigenständig Dateien gelöscht",
+      "description": "OpenAIs GPT-5.6 hat in mehreren Fällen unbeabsichtigt komplette Home-Verzeichnisse von Nutzern gelöscht, besonders im ungeschützten \"Full Access Mode\". Das Modell überschreibt dabei eine temporäre Ver",
+      "link": "https://the-decoder.de/openais-gpt-5-6-hat-in-einer-handvoll-faelle-ungewollt-eigenstaendig-dateien-geloescht/",
+      "date": "2026-07-17T19:30:52.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Wie schon bei Deepseek: Chinas Kimi K3 erschüttert den westlichen KI-Konsens",
+      "description": "Moonshot AI hat mit Kimi K3 ein Modell veröffentlicht, das laut ersten Einschätzungen auf dem Niveau von Anthropics Opus 4.8 liegt – mit einem Team von nur 300 Leuten. Selbst OpenAI-Stratege Dean W. B",
+      "link": "https://the-decoder.de/wie-schon-bei-deepseek-chinas-kimi-k3-erschuettert-den-westlichen-ki-konsens/",
+      "date": "2026-07-17T17:27:07.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Linux-Schöpfer Torvalds an KI-Kritiker: Wer ein Problem hat, kann das Projekt forken oder gehen",
+      "description": "Der Linux-Entwickler Linus Torvalds hat sich unmissverständlich für KI-Werkzeuge in der Linux-Entwicklung ausgesprochen: \"Linux ist keines dieser Anti-KI-Projekte.\" Anlass ist eine Debatte um das agen",
+      "link": "https://the-decoder.de/linux-schoepfer-torvalds-an-ki-kritiker-wer-ein-problem-hat-kann-das-projekt-forken-oder-gehen/",
+      "date": "2026-07-17T10:57:47.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "A scorecard for the AI age",
+      "description": "Sarah Friar, CFO of OpenAI, introduces a practical AI scorecard to measure ROI through useful work, cost per successful task, dependability, and return on compute.",
+      "link": "https://openai.com/index/a-scorecard-for-the-ai-age",
+      "date": "2026-07-17T10:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
     {
       "title": "Doppelt so schnell, halbe Kosten: Netflix setzt KI bei 300 Produktionen ein",
       "description": "Netflix setzt generative KI bereits in rund 300 Produktionen ein, vor allem in der Postproduktion. Co-CEO Ted Sarandos nennt konkrete Zahlen: Die Doku-Serie \"The American Experiment\" enthält 17 Minute",
@@ -74,24 +110,6 @@
       "language": "de"
     },
     {
-      "title": "Inkling: Ex-OpenAI-CTO Mira Murati bringt erstes eigenes offenes KI-Modell heraus",
-      "description": "Thinking Machines Lab, das Start-up von Ex-OpenAI-CTO Mira Murati, veröffentlicht mit Inkling ein multimodales Open-Weights-Modell mit 975 Milliarden Parametern. Es führt den Artificial Analysis Intel",
-      "link": "https://the-decoder.de/inkling-ex-openai-cto-mira-murati-bringt-erstes-eigenes-offenes-ki-modell-heraus/",
-      "date": "2026-07-16T09:05:28.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "xAI stellt KI-Agen \"Grok-Build\" nach massivem Datenleck als Open Source auf GitHub",
-      "description": "xAIs Kommandozeilen-Tool \"grok\" hat ungefragt sämtliche Dateien eines Verzeichnisses auf Google-Cloud-Server hochgeladen, darunter SSH-Schlüssel und Passwort-Datenbanken.  Als Reaktion kündigte Elon M",
-      "link": "https://the-decoder.de/xai-stellt-ki-agen-grok-build-nach-massivem-datenleck-als-open-source-auf-github/",
-      "date": "2026-07-16T07:39:21.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "How Cars24 scales conversations and builds faster with OpenAI",
       "description": "Cars24 uses OpenAI-powered voice and chat agents to handle 1M+ monthly conversation minutes, recover 12% of lost leads, and bring agentic workflows to teams across the company.",
       "link": "https://openai.com/index/cars24",
@@ -99,15 +117,6 @@
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
-    },
-    {
-      "title": "OpenAIs GPT-Red findet Sicherheitslücken in KI-Modellen besser als menschliche Red-Teamer",
-      "description": "OpenAI setzt mit GPT-Red ein internes KI-Modell ein, das per Self-Play-Training automatisiert Sicherheitslücken in eigenen Modellen aufspürt und dabei in 84 Prozent der Testszenarien erfolgreiche Angr",
-      "link": "https://the-decoder.de/openais-gpt-red-findet-sicherheitsluecken-in-ki-modellen-besser-als-menschliche-red-teamer/",
-      "date": "2026-07-15T19:38:53.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
     },
     {
       "title": "The US is advancing AI safety through state and federal action",
@@ -123,15 +132,6 @@
       "description": "Explore GPT-Red, OpenAI’s automated red teaming system that uses self-play to improve AI safety, alignment, and prompt injection robustness.",
       "link": "https://openai.com/index/unlocking-self-improvement-gpt-red",
       "date": "2026-07-15T10:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "How to manage AI investments in the agentic era",
-      "description": "Learn how enterprises can manage AI investments in the agentic era by measuring useful work per dollar, improving efficiency, and scaling high-value workflows.",
-      "link": "https://openai.com/index/managing-ai-investments-in-agentic-era",
-      "date": "2026-07-14T10:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
