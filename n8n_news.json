@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-07-17T06:53:29.737Z",
+  "lastUpdated": "2026-07-17T08:48:33.812Z",
   "news": [
+    {
+      "title": "Doppelt so schnell, halbe Kosten: Netflix setzt KI bei 300 Produktionen ein",
+      "description": "Netflix setzt generative KI bereits in rund 300 Produktionen ein, vor allem in der Postproduktion. Co-CEO Ted Sarandos nennt konkrete Zahlen: Die Doku-Serie \"The American Experiment\" enthält 17 Minute",
+      "link": "https://the-decoder.de/doppelt-so-schnell-halbe-kosten-netflix-setzt-ki-bei-300-produktionen-ein/",
+      "date": "2026-07-17T08:20:31.000Z",
+      "source": "The Decoder",
+      "category": "industrie-4.0",
+      "language": "de"
+    },
     {
       "title": "Kimi K3 rückt an Fable 5 und GPT-5.6 Sol heran, doch die Zeit der Billig-KI aus China ist vorbei",
       "description": "Kimi stellt mit K3 ein multimodales Open-Weight-Modell mit 2,8 Billionen Parametern und einer Million Token Kontext vor. In eigenen Benchmarks nähert es sich Claude Fable 5 und GPT 5.6 Sol, übertrifft",
@@ -96,15 +105,6 @@
       "description": "OpenAI setzt mit GPT-Red ein internes KI-Modell ein, das per Self-Play-Training automatisiert Sicherheitslücken in eigenen Modellen aufspürt und dabei in 84 Prozent der Testszenarien erfolgreiche Angr",
       "link": "https://the-decoder.de/openais-gpt-red-findet-sicherheitsluecken-in-ki-modellen-besser-als-menschliche-red-teamer/",
       "date": "2026-07-15T19:38:53.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "OpenAIs GPT-5.6 Sol widerlegt angeblich 25 Jahre alte Vermutung der Statistik",
-      "description": "Ein Statistikprofessor der University of Pennsylvania hat mit OpenAIs GPT-5.6 Sol Pro eine zentrale offene Vermutung zum Benjamini-Hochberg-Verfahren widerlegt – in rund 90 Minuten. Mit dem Vorgängerm",
-      "link": "https://the-decoder.de/openais-gpt-5-6-sol-widerlegt-angeblich-25-jahre-alte-vermutung-der-statistik/",
-      "date": "2026-07-15T17:17:12.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
