@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-07-18T08:37:53.678Z",
+  "lastUpdated": "2026-07-18T10:31:26.047Z",
   "news": [
+    {
+      "title": "Offene KI-Modelle werden billiger und gefährlicher: Zeitfenster für Cyber-Verteidiger schrumpft",
+      "description": "Das britische AI Security Institute zeigt: Open-Weight-Modelle wie GLM-5.2 und DeepSeek V4-Pro liegen bei Cyber-Fähigkeiten nur noch vier bis sieben Monate hinter geschlossenen Frontier-Modellen. Anfa",
+      "link": "https://the-decoder.de/offene-ki-modelle-werden-billiger-und-gefaehrlicher-zeitfenster-fuer-cyber-verteidiger-schrumpft/",
+      "date": "2026-07-18T09:51:02.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Wer schneller lernt, gewinnt: US-Militär will bei KI lieber sofort handeln als auf perfekte Systeme warten",
       "description": "Das US-Marineministerium hat eine Strategie zur \"Weaponization\" von Daten und KI unterzeichnet, um eine \"AI-First\"-Flotte aufzubauen. Große Sprachmodelle sollen direkt auf Kriegsschiffen laufen, ein K",
@@ -90,15 +99,6 @@
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
-    },
-    {
-      "title": "Medienaufsicht stuft Googles KI-Suche als Inhalteanbieter ein und wendet Medienrecht an",
-      "description": "Die deutschen Medienanstalten stufen KI-Suchmaschinen erstmals als Inhalteanbieter ein und erlassen Bescheide gegen Google und Perplexity. Googles KI-Übersichten sollen journalistische Links unzulässi",
-      "link": "https://the-decoder.de/medienaufsicht-stuft-googles-ki-suche-als-inhalteanbieter-ein-und-wendet-medienrecht-an/",
-      "date": "2026-07-16T14:45:26.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
     },
     {
       "title": "How Cars24 scales conversations and builds faster with OpenAI",
