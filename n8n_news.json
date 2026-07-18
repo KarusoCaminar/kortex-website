@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-07-18T10:31:26.047Z",
+  "lastUpdated": "2026-07-18T12:22:51.720Z",
   "news": [
+    {
+      "title": "China positioniert sich mit massiver KI-Initiative als Gegenpol zum Westen",
+      "description": "Xi Jinping hat auf der World AI Conference in Shanghai 5000 KI-Trainingsplätze für Länder des Globalen Südens angekündigt und die Gründung der \"World Artificial Intelligence Cooperation Organization\"",
+      "link": "https://the-decoder.de/china-positioniert-sich-mit-massiver-ki-initiative-als-gegenpol-zum-westen/",
+      "date": "2026-07-18T10:41:04.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Offene KI-Modelle werden billiger und gefährlicher: Zeitfenster für Cyber-Verteidiger schrumpft",
       "description": "Das britische AI Security Institute zeigt: Open-Weight-Modelle wie GLM-5.2 und DeepSeek V4-Pro liegen bei Cyber-Fähigkeiten nur noch vier bis sieben Monate hinter geschlossenen Frontier-Modellen. Anfa",
@@ -78,15 +87,6 @@
       "description": "Kimi stellt mit K3 ein multimodales Open-Weight-Modell mit 2,8 Billionen Parametern und einer Million Token Kontext vor. In eigenen Benchmarks nähert es sich Claude Fable 5 und GPT 5.6 Sol, übertrifft",
       "link": "https://the-decoder.de/kimi-k3-neues-offenes-china-modell-schliesst-zu-westlichen-frontier-modellen-auf/",
       "date": "2026-07-16T19:23:39.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Gemini Notebook und verknüpfte Apps: Google baut KI-Ökosystem weiter aus",
-      "description": "Google benennt NotebookLM in Gemini Notebook um und integriert das Tool tiefer in sein Ökosystem. Neu ist ein Cloud-Computer pro Notebook, der Code schreiben und ausführen kann, zunächst für AI-Ultra-",
-      "link": "https://the-decoder.de/gemini-notebook-und-verknuepfte-apps-google-baut-ki-oekosystem-weiter-aus/",
-      "date": "2026-07-16T17:13:18.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
