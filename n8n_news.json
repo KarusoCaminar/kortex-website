@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-07-18T06:44:22.961Z",
+  "lastUpdated": "2026-07-18T08:37:53.678Z",
   "news": [
+    {
+      "title": "Wer schneller lernt, gewinnt: US-Militär will bei KI lieber sofort handeln als auf perfekte Systeme warten",
+      "description": "Das US-Marineministerium hat eine Strategie zur \"Weaponization\" von Daten und KI unterzeichnet, um eine \"AI-First\"-Flotte aufzubauen. Große Sprachmodelle sollen direkt auf Kriegsschiffen laufen, ein K",
+      "link": "https://the-decoder.de/wer-schneller-lernt-gewinnt-us-militaer-will-bei-ki-lieber-sofort-handeln-als-auf-perfekte-systeme-warten/",
+      "date": "2026-07-18T07:43:40.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Anthropic kürzt Claude-Fable-5-Limits drastisch, Pro-Nutzer müssen bald API-Preise zahlen",
+      "description": "Anthropic macht Claude Fable 5 ab dem 20. Juli für Max- und Team-Premium-Nutzer verfügbar, allerdings mit drastisch reduzierten Limits: 50 Prozent der ohnehin um ein Drittel gesenkten regulären Kontin",
+      "link": "https://the-decoder.de/anthropic-kuerzt-claude-fable-5-limits-drastisch-pro-nutzer-muessen-bald-api-preise-zahlen/",
+      "date": "2026-07-18T07:09:11.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "OpenAIs GPT-5.6 hat in einer Handvoll Fälle ungewollt eigenständig Dateien gelöscht",
       "description": "OpenAIs GPT-5.6 hat in mehreren Fällen unbeabsichtigt komplette Home-Verzeichnisse von Nutzern gelöscht, besonders im ungeschützten \"Full Access Mode\". Das Modell überschreibt dabei eine temporäre Ver",
@@ -78,24 +96,6 @@
       "description": "Die deutschen Medienanstalten stufen KI-Suchmaschinen erstmals als Inhalteanbieter ein und erlassen Bescheide gegen Google und Perplexity. Googles KI-Übersichten sollen journalistische Links unzulässi",
       "link": "https://the-decoder.de/medienaufsicht-stuft-googles-ki-suche-als-inhalteanbieter-ein-und-wendet-medienrecht-an/",
       "date": "2026-07-16T14:45:26.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Codex Micro: OpenAI baut Vibecoding-Controller mit Drehregler für die Denktiefe der KI",
-      "description": "OpenAI und der Tastaturhersteller Work Louder haben gemeinsam das Codex Micro vorgestellt, ein kompaktes Hardware-Steuergerät für die Arbeit mit KI-Agenten.\nDer Artikel Codex Micro: OpenAI baut Vibeco",
-      "link": "https://the-decoder.de/codex-micro-openai-baut-vibecoding-controller-mit-drehregler-fuer-die-denktiefe-der-ki/",
-      "date": "2026-07-16T14:31:34.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Sakana AI und Nvidia: Orchestrierte Open-Weight-Modelle sollen geschlossene Systeme herausfordern",
-      "description": "Sakana AI integriert Nvidias offene Nemotron-Modelle in seinen Orchestrator Fugu, der mehrere Sprachmodelle dynamisch für einzelne Aufgaben kombiniert. Die Kernthese: Offene Modelle werden erst durch",
-      "link": "https://the-decoder.de/sakana-ai-und-nvidia-orchestrierte-open-weight-modelle-sollen-geschlossene-systeme-herausfordern/",
-      "date": "2026-07-16T14:02:13.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
