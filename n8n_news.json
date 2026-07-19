@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-07-19T10:32:50.353Z",
+  "lastUpdated": "2026-07-19T12:23:03.238Z",
   "news": [
+    {
+      "title": "\"Nur Fable 5 ist besser\": Alibabas Qwen-Team kontert Kimi K3 mit offenem Qwen3.8-Modell",
+      "description": "Alibaba stellt mit Qwen3.8 ein multimodales KI-Modell mit 2,4 Billionen Parametern vor, laut dem Team vergleichbar mit führenden Modellen und nur hinter Fable 5. Eine Vorschauversion ist bereits verfü",
+      "link": "https://the-decoder.de/nur-fable-5-ist-besser-alibabas-qwen-team-kontert-kimi-k3-mit-offenem-qwen3-8-modell/",
+      "date": "2026-07-19T11:58:06.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Google Deepmind sieht in KI-Videogeneratoren mächtige Bildverarbeitungswerkzeuge",
       "description": "Google Deepmind zeigt mit GenCeption, dass ein umgebautes Video-Generierungsmodell klassische Bildverarbeitungsaufgaben wie Tiefenschätzung und Segmentierung auf State-of-the-Art-Niveau lösen kann. Tr",
@@ -11,9 +20,9 @@
       "language": "de"
     },
     {
-      "title": "Moonshot's Kimi K3 beats Fable 5 at frontend code but falls far behind in advanced math",
+      "title": "Moonshots Kimi K3 schlägt Claude und GPT bei Frontend, bleibt bei komplexer Mathematik aber weit zurück",
       "description": "Moonshots Kimi K3 erreicht als erstes chinesisches Modell die Spitze der Code Arena: Frontend und schlägt Claude Fable 5 sowie GPT-5.6 Sol deutlich. Bei anspruchsvoller Mathematik zeigt sich jedoch ei",
-      "link": "https://the-decoder.de/moonshots-kimi-k3-beats-fable-5-at-frontend-code-but-falls-far-behind-in-advanced-math/",
+      "link": "https://the-decoder.de/moonshots-kimi-k3-schlaegt-claude-und-gpt-bei-frontend-bleibt-bei-komplexer-mathematik-aber-weit-zurueck/",
       "date": "2026-07-19T09:20:19.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
@@ -69,15 +78,6 @@
       "description": "Anthropic macht Claude Fable 5 ab dem 20. Juli für Max- und Team-Premium-Nutzer verfügbar, allerdings mit drastisch reduzierten Limits: 50 Prozent der ohnehin um ein Drittel gesenkten regulären Kontin",
       "link": "https://the-decoder.de/anthropic-kuerzt-claude-fable-5-limits-drastisch-pro-nutzer-muessen-bald-api-preise-zahlen/",
       "date": "2026-07-18T07:09:11.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "OpenAIs GPT-5.6 hat in einer Handvoll Fälle ungewollt eigenständig Dateien gelöscht",
-      "description": "OpenAIs GPT-5.6 hat in mehreren Fällen unbeabsichtigt komplette Home-Verzeichnisse von Nutzern gelöscht, besonders im ungeschützten \"Full Access Mode\". Das Modell überschreibt dabei eine temporäre Ver",
-      "link": "https://the-decoder.de/openais-gpt-5-6-hat-in-einer-handvoll-faelle-ungewollt-eigenstaendig-dateien-geloescht/",
-      "date": "2026-07-17T19:30:52.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
