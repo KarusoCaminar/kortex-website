@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-07-19T08:51:02.684Z",
+  "lastUpdated": "2026-07-19T10:32:50.353Z",
   "news": [
+    {
+      "title": "Google Deepmind sieht in KI-Videogeneratoren mächtige Bildverarbeitungswerkzeuge",
+      "description": "Google Deepmind zeigt mit GenCeption, dass ein umgebautes Video-Generierungsmodell klassische Bildverarbeitungsaufgaben wie Tiefenschätzung und Segmentierung auf State-of-the-Art-Niveau lösen kann. Tr",
+      "link": "https://the-decoder.de/google-deepmind-sieht-in-ki-videogeneratoren-maechtige-bildverarbeitungswerkzeuge/",
+      "date": "2026-07-19T09:55:49.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Moonshot's Kimi K3 beats Fable 5 at frontend code but falls far behind in advanced math",
+      "description": "Moonshots Kimi K3 erreicht als erstes chinesisches Modell die Spitze der Code Arena: Frontend und schlägt Claude Fable 5 sowie GPT-5.6 Sol deutlich. Bei anspruchsvoller Mathematik zeigt sich jedoch ei",
+      "link": "https://the-decoder.de/moonshots-kimi-k3-beats-fable-5-at-frontend-code-but-falls-far-behind-in-advanced-math/",
+      "date": "2026-07-19T09:20:19.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "KI-Textdetektoren schwächeln, wenn Sprachmodelle den Stil eines Autors imitieren",
       "description": "Epoch AI hat drei führende KI-Textdetektoren – Pangram, GPTZero und Originality.ai – mit stilimitierten Texten konfrontiert. Ergebnis: Bis zu 18 Prozent der KI-Texte blieben unerkannt. Bei wissenschaf",
@@ -60,24 +78,6 @@
       "description": "OpenAIs GPT-5.6 hat in mehreren Fällen unbeabsichtigt komplette Home-Verzeichnisse von Nutzern gelöscht, besonders im ungeschützten \"Full Access Mode\". Das Modell überschreibt dabei eine temporäre Ver",
       "link": "https://the-decoder.de/openais-gpt-5-6-hat-in-einer-handvoll-faelle-ungewollt-eigenstaendig-dateien-geloescht/",
       "date": "2026-07-17T19:30:52.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Wie schon bei Deepseek: Chinas Kimi K3 erschüttert den westlichen KI-Konsens",
-      "description": "Moonshot AI hat mit Kimi K3 ein Modell veröffentlicht, das laut ersten Einschätzungen auf dem Niveau von Anthropics Opus 4.8 liegt – mit einem Team von nur 300 Leuten. Selbst OpenAI-Stratege Dean W. B",
-      "link": "https://the-decoder.de/wie-schon-bei-deepseek-chinas-kimi-k3-erschuettert-den-westlichen-ki-konsens/",
-      "date": "2026-07-17T17:27:07.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Linux-Schöpfer Torvalds an KI-Kritiker: Wer ein Problem hat, kann das Projekt forken oder gehen",
-      "description": "Der Linux-Entwickler Linus Torvalds hat sich unmissverständlich für KI-Werkzeuge in der Linux-Entwicklung ausgesprochen: \"Linux ist keines dieser Anti-KI-Projekte.\" Anlass ist eine Debatte um das agen",
-      "link": "https://the-decoder.de/linux-schoepfer-torvalds-an-ki-kritiker-wer-ein-problem-hat-kann-das-projekt-forken-oder-gehen/",
-      "date": "2026-07-17T10:57:47.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
