@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-07-18T22:19:22.639Z",
+  "lastUpdated": "2026-07-19T08:51:02.684Z",
   "news": [
+    {
+      "title": "KI-Textdetektoren schwächeln, wenn Sprachmodelle den Stil eines Autors imitieren",
+      "description": "Epoch AI hat drei führende KI-Textdetektoren – Pangram, GPTZero und Originality.ai – mit stilimitierten Texten konfrontiert. Ergebnis: Bis zu 18 Prozent der KI-Texte blieben unerkannt. Bei wissenschaf",
+      "link": "https://the-decoder.de/ki-textdetektoren-schwaecheln-wenn-sprachmodelle-den-stil-eines-autors-imitieren/",
+      "date": "2026-07-19T08:18:26.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Wer Röntgenbilder von Chatbots auswerten lässt, riskiert selbstbewusste Fehldiagnosen",
+      "description": "Der Benchmark RadLE 2.0 prüft, ob KI-Modelle in der Radiologie erkennen, wann sie eine Diagnose besser einem Menschen überlassen. Viele Modelle liefern falsche Befunde mit voller Überzeugung, menschli",
+      "link": "https://the-decoder.de/wer-roentgenbilder-von-chatbots-auswerten-laesst-riskiert-selbstbewusste-fehldiagnosen/",
+      "date": "2026-07-19T07:11:20.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "China positioniert sich mit massiver KI-Initiative als Gegenpol zum Westen",
       "description": "Xi Jinping hat auf der World AI Conference in Shanghai 5000 KI-Trainingsplätze für Länder des Globalen Südens angekündigt und die Gründung der \"World Artificial Intelligence Cooperation Organization\"",
@@ -72,24 +90,6 @@
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
-    },
-    {
-      "title": "Doppelt so schnell, halbe Kosten: Netflix setzt KI bei 300 Produktionen ein",
-      "description": "Netflix setzt generative KI bereits in rund 300 Produktionen ein, vor allem in der Postproduktion. Co-CEO Ted Sarandos nennt konkrete Zahlen: Die Doku-Serie \"The American Experiment\" enthält 17 Minute",
-      "link": "https://the-decoder.de/doppelt-so-schnell-halbe-kosten-netflix-setzt-ki-bei-300-produktionen-ein/",
-      "date": "2026-07-17T08:20:31.000Z",
-      "source": "The Decoder",
-      "category": "industrie-4.0",
-      "language": "de"
-    },
-    {
-      "title": "Kimi K3 rückt an Fable 5 und GPT-5.6 Sol heran, doch die Zeit der Billig-KI aus China ist vorbei",
-      "description": "Kimi stellt mit K3 ein multimodales Open-Weight-Modell mit 2,8 Billionen Parametern und einer Million Token Kontext vor. In eigenen Benchmarks nähert es sich Claude Fable 5 und GPT 5.6 Sol, übertrifft",
-      "link": "https://the-decoder.de/kimi-k3-neues-offenes-china-modell-schliesst-zu-westlichen-frontier-modellen-auf/",
-      "date": "2026-07-16T19:23:39.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
     },
     {
       "title": "Why teens deserve access to safe AI",
