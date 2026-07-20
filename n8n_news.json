@@ -1,6 +1,33 @@
 {
-  "lastUpdated": "2026-07-20T16:32:49.123Z",
+  "lastUpdated": "2026-07-20T18:41:38.132Z",
   "news": [
+    {
+      "title": "Googles \"Frozen v2\"-Chip soll Gemini-KI fest in die Hardware\"einfrieren\" und KI-Antworten effzienter machen",
+      "description": "Google entwickelt mit \"Frozen v2\" einen Serverchip, der die Gemini-Architektur direkt in die Hardware einbettet – laut internen Quellen mit 6- bis 10-facher Effizienz gegenüber aktuellen TPUs. Der ab",
+      "link": "https://the-decoder.de/googles-frozen-v2-chip-soll-gemini-ki-fest-in-die-hardwareeinfrieren-und-ki-antworten-effzienter-machen/",
+      "date": "2026-07-20T17:58:33.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "\"District 9\"-Regisseur Neill Blomkamp dreht ersten komplett KI-generierten Kurzfilm",
+      "description": "Neill Blomkamp hat mit \"Nightborne\" einen 13-minütigen Sci-Fi-Horrorfilm veröffentlicht, der vollständig mit dem Videogenerierungsmodell Seedance 2.0 erstellt wurde. Der \"District 9\"-Regisseur inszeni",
+      "link": "https://the-decoder.de/district-9-regisseur-neill-blomkamp-dreht-ersten-komplett-ki-generierten-kurzfilm/",
+      "date": "2026-07-20T17:26:41.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Nvidias KI-Chip-Dominanz bröckelt: Microsoft und womöglich Anthropic setzen auf AMD",
+      "description": "Microsoft baut seine Azure-KI-Infrastruktur mit AMDs neuer Helios-Plattform aus, die ab der zweiten Jahreshälfte 2026 eine Alternative zu Nvidias GPU-Systemen bieten soll. Laut einem öffentlichen GitH",
+      "link": "https://the-decoder.de/nvidias-ki-chip-dominanz-broeckelt-microsoft-und-womoeglich-anthropic-setzen-auf-amd/",
+      "date": "2026-07-20T16:40:30.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Maximale Abschreckung statt Verbot: USA wollen angeblich chinesische KI-Modelle ausbremsen",
       "description": "Die Trump-Regierung prüft laut Axios Maßnahmen gegen chinesische KI-Modelle, von Sanktionslisten bis zur Haftung für US-Firmen bei Sicherheitslücken. Statt eines direkten Verbots setzt Washington auf",
@@ -18,6 +45,15 @@
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
+    },
+    {
+      "title": "Safety and alignment in an era of long-horizon models",
+      "description": "OpenAI shares lessons from deploying long-running AI models, highlighting new safety risks, observed failures, and improved safeguards through iterative deployment.",
+      "link": "https://openai.com/index/safety-alignment-long-horizon-models",
+      "date": "2026-07-20T10:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
     },
     {
       "title": "Weil die GPUs nicht reichen: Chinas KI-Modell Kimi K3 nimmt keine neuen Abonnenten mehr an",
@@ -65,33 +101,6 @@
       "language": "de"
     },
     {
-      "title": "Wer Röntgenbilder von Chatbots auswerten lässt, riskiert selbstbewusste Fehldiagnosen",
-      "description": "Der Benchmark RadLE 2.0 prüft, ob KI-Modelle in der Radiologie erkennen, wann sie eine Diagnose besser einem Menschen überlassen. Viele Modelle liefern falsche Befunde mit voller Überzeugung, menschli",
-      "link": "https://the-decoder.de/wer-roentgenbilder-von-chatbots-auswerten-laesst-riskiert-selbstbewusste-fehldiagnosen/",
-      "date": "2026-07-19T07:11:20.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "China positioniert sich mit massiver KI-Initiative als Gegenpol zum Westen",
-      "description": "Xi Jinping hat auf der World AI Conference in Shanghai 5000 KI-Trainingsplätze für Länder des Globalen Südens angekündigt und die Gründung der \"World Artificial Intelligence Cooperation Organization\"",
-      "link": "https://the-decoder.de/china-positioniert-sich-mit-massiver-ki-initiative-als-gegenpol-zum-westen/",
-      "date": "2026-07-18T10:41:04.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Offene KI-Modelle werden billiger und gefährlicher: Zeitfenster für Cyber-Verteidiger schrumpft",
-      "description": "Das britische AI Security Institute zeigt: Open-Weight-Modelle wie GLM-5.2 und DeepSeek V4-Pro liegen bei Cyber-Fähigkeiten nur noch vier bis sieben Monate hinter geschlossenen Frontier-Modellen. Anfa",
-      "link": "https://the-decoder.de/offene-ki-modelle-werden-billiger-und-gefaehrlicher-zeitfenster-fuer-cyber-verteidiger-schrumpft/",
-      "date": "2026-07-18T09:51:02.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "A scorecard for the AI age",
       "description": "Sarah Friar, CFO of OpenAI, introduces a practical AI scorecard to measure ROI through useful work, cost per successful task, dependability, and return on compute.",
       "link": "https://openai.com/index/a-scorecard-for-the-ai-age",
@@ -123,15 +132,6 @@
       "description": "OpenAI outlines a “reverse federalism” approach to AI governance, where state laws help build a national framework for safe, democratic AI.",
       "link": "https://openai.com/index/advancing-ai-safety-through-state-and-federal-action",
       "date": "2026-07-15T12:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "GPT-Red: Unlocking Self-Improvement for Robustness",
-      "description": "Explore GPT-Red, OpenAI’s automated red teaming system that uses self-play to improve AI safety, alignment, and prompt injection robustness.",
-      "link": "https://openai.com/index/unlocking-self-improvement-gpt-red",
-      "date": "2026-07-15T10:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
