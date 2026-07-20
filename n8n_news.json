@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-07-20T07:13:05.925Z",
+  "lastUpdated": "2026-07-20T12:48:27.314Z",
   "news": [
+    {
+      "title": "KI-Agent hackt KI-Plattform Hugging Face angeblich autonom und wird von KI-Verteidigung gestoppt",
+      "description": "Hugging Face meldet einen Angriff auf Teile seiner Produktionsinfrastruktur, der vollständig von einem autonomen KI-Agentensystem ausgeführt worden sein soll: über tausende Aktionen hinweg, gesteuert",
+      "link": "https://the-decoder.de/hugging-face-meldet-ersten-vollstaendig-ki-gesteuerten-hackerangriff-auf-eigene-infrastruktur/",
+      "date": "2026-07-20T11:46:47.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Weil die GPUs nicht reichen: Chinas KI-Modell Kimi K3 nimmt keine neuen Abonnenten mehr an",
+      "description": "Moonshot hat den Verkauf neuer Abonnements für sein KI-Modell Kimi K3 vorübergehend gestoppt, die Nachfrage hat binnen 48 Stunden die GPU-Kapazitäten nahezu ausgeschöpft. Das Unternehmen plant eine Au",
+      "link": "https://the-decoder.de/weil-die-gpus-nicht-reichen-chinas-ki-modell-kimi-k3-nimmt-keine-neuen-abonnenten-mehr-an/",
+      "date": "2026-07-20T07:33:09.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "\"Nur Fable 5 ist besser\": Alibabas Qwen-Team kontert Kimi K3 mit offenem Qwen3.8-Modell",
       "description": "Alibaba stellt mit Qwen3.8 ein multimodales KI-Modell mit 2,4 Billionen Parametern vor, laut dem Team vergleichbar mit führenden Modellen und nur hinter Fable 5. Eine Vorschauversion ist bereits verfü",
@@ -74,15 +92,6 @@
       "language": "de"
     },
     {
-      "title": "Anthropic kürzt Claude-Fable-5-Limits drastisch, Pro-Nutzer müssen bald API-Preise zahlen",
-      "description": "Anthropic macht Claude Fable 5 ab dem 20. Juli für Max- und Team-Premium-Nutzer verfügbar, allerdings mit drastisch reduzierten Limits: 50 Prozent der ohnehin um ein Drittel gesenkten regulären Kontin",
-      "link": "https://the-decoder.de/anthropic-kuerzt-claude-fable-5-limits-drastisch-pro-nutzer-muessen-bald-api-preise-zahlen/",
-      "date": "2026-07-18T07:09:11.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "A scorecard for the AI age",
       "description": "Sarah Friar, CFO of OpenAI, introduces a practical AI scorecard to measure ROI through useful work, cost per successful task, dependability, and return on compute.",
       "link": "https://openai.com/index/a-scorecard-for-the-ai-age",
@@ -123,15 +132,6 @@
       "description": "Explore GPT-Red, OpenAI’s automated red teaming system that uses self-play to improve AI safety, alignment, and prompt injection robustness.",
       "link": "https://openai.com/index/unlocking-self-improvement-gpt-red",
       "date": "2026-07-15T10:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "How to manage AI investments in the agentic era",
-      "description": "Learn how enterprises can manage AI investments in the agentic era by measuring useful work per dollar, improving efficiency, and scaling high-value workflows.",
-      "link": "https://openai.com/index/managing-ai-investments-in-agentic-era",
-      "date": "2026-07-14T10:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
