@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-07-20T12:48:27.314Z",
+  "lastUpdated": "2026-07-20T14:47:48.916Z",
   "news": [
+    {
+      "title": "Maximale Abschreckung statt Verbot: USA wollen angeblich chinesische KI-Modelle ausbremsen",
+      "description": "Die Trump-Regierung prüft laut Axios Maßnahmen gegen chinesische KI-Modelle, von Sanktionslisten bis zur Haftung für US-Firmen bei Sicherheitslücken. Statt eines direkten Verbots setzt Washington auf",
+      "link": "https://the-decoder.de/maximale-abschreckung-statt-verbot-usa-wollen-angeblich-chinesische-ki-modelle-ausbremsen/",
+      "date": "2026-07-20T13:49:53.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "KI-Agent hackt KI-Plattform Hugging Face angeblich autonom und wird von KI-Verteidigung gestoppt",
       "description": "Hugging Face meldet einen Angriff auf Teile seiner Produktionsinfrastruktur, der vollständig von einem autonomen KI-Agentensystem ausgeführt worden sein soll: über tausende Aktionen hinweg, gesteuert",
@@ -78,15 +87,6 @@
       "description": "Das britische AI Security Institute zeigt: Open-Weight-Modelle wie GLM-5.2 und DeepSeek V4-Pro liegen bei Cyber-Fähigkeiten nur noch vier bis sieben Monate hinter geschlossenen Frontier-Modellen. Anfa",
       "link": "https://the-decoder.de/offene-ki-modelle-werden-billiger-und-gefaehrlicher-zeitfenster-fuer-cyber-verteidiger-schrumpft/",
       "date": "2026-07-18T09:51:02.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Wer schneller lernt, gewinnt: US-Militär will bei KI lieber sofort handeln als auf perfekte Systeme warten",
-      "description": "Das US-Marineministerium hat eine Strategie zur \"Weaponization\" von Daten und KI unterzeichnet, um eine \"AI-First\"-Flotte aufzubauen. Große Sprachmodelle sollen direkt auf Kriegsschiffen laufen, ein K",
-      "link": "https://the-decoder.de/wer-schneller-lernt-gewinnt-us-militaer-will-bei-ki-lieber-sofort-handeln-als-auf-perfekte-systeme-warten/",
-      "date": "2026-07-18T07:43:40.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
