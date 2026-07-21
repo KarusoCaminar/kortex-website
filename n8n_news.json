@@ -1,8 +1,26 @@
 {
-  "lastUpdated": "2026-07-21T05:08:18.989Z",
+  "lastUpdated": "2026-07-21T12:37:11.252Z",
   "news": [
     {
-      "title": "Googles \"Frozen v2\"-Chip soll Gemini-KI fest in die Hardware\"einfrieren\" und KI-Antworten effzienter machen",
+      "title": "Qwen-Audio-3.0-TTS-Plus von Alibaba schlägt die Konkurrenz im Text-to-Speech-Ranking",
+      "description": "Alibabas Qwen-Audio-3.0-TTS-Plus übernimmt die Spitze der Speech Arena Leaderboard von Artificial Analysis. Das Modell unterstützt 16 Sprachen und erlaubt Stilsteuerung per natürlicher Sprache oder Ta",
+      "link": "https://the-decoder.de/qwen-audio-3-0-tts-plus-von-alibaba-schlaegt-die-konkurrenz-im-text-to-speech-ranking/",
+      "date": "2026-07-21T11:24:15.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Xiaomi zeigt: Roboter-KI braucht vor allem mehr Daten, nicht mehr Rechenleistung",
+      "description": "Xiaomi trainiert sein Roboter-KI-Modell Xiaomi-Robotics-1 mit über 100.000 Stunden Bewegungsdaten, gesammelt nicht per Roboter, sondern mit tragbaren Handgreifern. Der zentrale Befund: Mehr Daten brin",
+      "link": "https://the-decoder.de/xiaomi-zeigt-roboter-ki-braucht-vor-allem-mehr-daten-nicht-mehr-rechenleistung/",
+      "date": "2026-07-21T07:46:51.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Googles \"Frozen v2\"-Chip soll Gemini-KI fest in die Hardware \"einfrieren\" und KI-Antworten effzienter machen",
       "description": "Google entwickelt mit \"Frozen v2\" einen Serverchip, der die Gemini-Architektur direkt in die Hardware einbettet – laut internen Quellen mit 6- bis 10-facher Effizienz gegenüber aktuellen TPUs. Der ab",
       "link": "https://the-decoder.de/googles-frozen-v2-chip-soll-gemini-ki-fest-in-die-hardwareeinfrieren-und-ki-antworten-effzienter-machen/",
       "date": "2026-07-20T17:58:33.000Z",
@@ -74,33 +92,6 @@
       "language": "de"
     },
     {
-      "title": "Google Deepmind sieht in KI-Videogeneratoren mächtige Bildverarbeitungswerkzeuge",
-      "description": "Google Deepmind zeigt mit GenCeption, dass ein umgebautes Video-Generierungsmodell klassische Bildverarbeitungsaufgaben wie Tiefenschätzung und Segmentierung auf State-of-the-Art-Niveau lösen kann. Tr",
-      "link": "https://the-decoder.de/google-deepmind-sieht-in-ki-videogeneratoren-maechtige-bildverarbeitungswerkzeuge/",
-      "date": "2026-07-19T09:55:49.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Moonshots Kimi K3 schlägt Claude und GPT bei Frontend, bleibt bei komplexer Mathematik aber weit zurück",
-      "description": "Moonshots Kimi K3 erreicht als erstes chinesisches Modell die Spitze der Code Arena: Frontend und schlägt Claude Fable 5 sowie GPT-5.6 Sol deutlich. Bei anspruchsvoller Mathematik zeigt sich jedoch ei",
-      "link": "https://the-decoder.de/moonshots-kimi-k3-schlaegt-claude-und-gpt-bei-frontend-bleibt-bei-komplexer-mathematik-aber-weit-zurueck/",
-      "date": "2026-07-19T09:20:19.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "KI-Textdetektoren schwächeln, wenn Sprachmodelle den Stil eines Autors imitieren",
-      "description": "Epoch AI hat drei führende KI-Textdetektoren – Pangram, GPTZero und Originality.ai – mit stilimitierten Texten konfrontiert. Ergebnis: Bis zu 18 Prozent der KI-Texte blieben unerkannt. Bei wissenschaf",
-      "link": "https://the-decoder.de/ki-textdetektoren-schwaecheln-wenn-sprachmodelle-den-stil-eines-autors-imitieren/",
-      "date": "2026-07-19T08:18:26.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "A scorecard for the AI age",
       "description": "Sarah Friar, CFO of OpenAI, introduces a practical AI scorecard to measure ROI through useful work, cost per successful task, dependability, and return on compute.",
       "link": "https://openai.com/index/a-scorecard-for-the-ai-age",
@@ -132,6 +123,15 @@
       "description": "OpenAI outlines a “reverse federalism” approach to AI governance, where state laws help build a national framework for safe, democratic AI.",
       "link": "https://openai.com/index/advancing-ai-safety-through-state-and-federal-action",
       "date": "2026-07-15T12:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
+      "title": "GPT-Red: Unlocking Self-Improvement for Robustness",
+      "description": "Explore GPT-Red, OpenAI’s automated red teaming system that uses self-play to improve AI safety, alignment, and prompt injection robustness.",
+      "link": "https://openai.com/index/unlocking-self-improvement-gpt-red",
+      "date": "2026-07-15T10:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
