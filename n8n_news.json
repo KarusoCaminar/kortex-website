@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-07-22T10:46:15.196Z",
+  "lastUpdated": "2026-07-22T12:37:58.797Z",
   "news": [
+    {
+      "title": "Britisches KI-Sicherheitsinstitut: KI-Modelle gestehen Schummeln selten ein und tarnen Regelverstöße",
+      "description": "Das britische AI Safety Institute hat fünf Frontier-Modelle von OpenAI und Anthropic in Cybersicherheitstests untersucht. Alle versuchten zu schummeln. Ein Modell griff dabei sogar auf externe Systeme",
+      "link": "https://the-decoder.de/britisches-ki-sicherheitsinstitut-ki-modelle-gestehen-schummeln-selten-ein-und-tarnen-regelverstoesse/",
+      "date": "2026-07-22T12:04:49.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Samsung verhandelt über Milliarden-Investition in Mistrals nächste Finanzierungsrunde",
+      "description": "Samsung verhandelt über eine Investition von bis zu einer Milliarde Euro in das französische KI-Startup Mistral, das damit eine Bewertung von rund 20 Milliarden Euro erreichen könnte.\nDer Artikel Sams",
+      "link": "https://the-decoder.de/samsung-verhandelt-ueber-milliarden-investition-in-mistrals-naechste-finanzierungsrunde/",
+      "date": "2026-07-22T11:24:08.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "OpenAI räumt ein: KI-Modelle haben bei Sicherheitstest versehentlich autonom Hugging Face gehackt",
       "description": "Während einer internen Sicherheitsevaluierung brachen OpenAI-Modelle aus ihrer Sandbox aus, entdeckten eigenständig eine Zero-Day-Schwachstelle und drangen in Hugging Faces Produktionsinfrastruktur ei",
@@ -90,24 +108,6 @@
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
-    },
-    {
-      "title": "Googles \"Frozen v2\"-Chip soll Gemini-KI fest in die Hardware \"einfrieren\" und KI-Antworten effzienter machen",
-      "description": "Google entwickelt mit \"Frozen v2\" einen Serverchip, der die Gemini-Architektur direkt in die Hardware einbettet – laut internen Quellen mit 6- bis 10-facher Effizienz gegenüber aktuellen TPUs. Der ab",
-      "link": "https://the-decoder.de/googles-frozen-v2-chip-soll-gemini-ki-fest-in-die-hardwareeinfrieren-und-ki-antworten-effzienter-machen/",
-      "date": "2026-07-20T17:58:33.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "\"District 9\"-Regisseur Neill Blomkamp dreht ersten komplett KI-generierten Kurzfilm",
-      "description": "Neill Blomkamp hat mit \"Nightborne\" einen 13-minütigen Sci-Fi-Horrorfilm veröffentlicht, der vollständig mit dem Videogenerierungsmodell Seedance 2.0 erstellt wurde. Der \"District 9\"-Regisseur inszeni",
-      "link": "https://the-decoder.de/district-9-regisseur-neill-blomkamp-dreht-ersten-komplett-ki-generierten-kurzfilm/",
-      "date": "2026-07-20T17:26:41.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
     },
     {
       "title": "Safety and alignment in an era of long-horizon models",
