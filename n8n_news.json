@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-07-22T18:30:13.935Z",
+  "lastUpdated": "2026-07-22T20:27:54.426Z",
   "news": [
+    {
+      "title": "Anthropic zahlte Rekordvergleich wegen Bücherpiraterie, dennoch gewinnen die KI-Labore",
+      "description": "Anthropic zahlt 1,5 Milliarden US-Dollar an Buchautoren, der größte Urheberrechtsvergleich in der Geschichte von Sammelklagen. Grund ist jedoch das Herunterladen von rund 482.460 Werken aus Piraterie-",
+      "link": "https://the-decoder.de/anthropic-zahlte-rekordvergleich-wegen-buecherpiraterie-dennoch-gewinnen-die-ki-labore/",
+      "date": "2026-07-22T19:19:48.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "AMD investiert bis zu fünf Milliarden US-Dollar in ChatGPT-Konkurrent Anthropic",
       "description": "AMD investiert bis zu 5 Milliarden Dollar in Anthropic, im Gegenzug setzt Anthropic bis zu 2 Gigawatt an MI450-GPUs für Training und Betrieb seiner Claude-Modelle ein. Für AMD ist es ein weiterer Groß",
@@ -32,6 +41,15 @@
       "title": "Building AI infrastructure with the Effingham County community",
       "description": "OpenAI announces Project Camellia in Effingham County, Georgia, with commitments to responsible energy, community investment, jobs, and access to Codex.",
       "link": "https://openai.com/index/building-ai-infrastructure-with-the-effingham-county-community",
+      "date": "2026-07-22T13:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
+      "title": "How news organizations are using AI to advance their vital missions",
+      "description": "News organizations are using AI to strengthen reporting, grow audiences, and improve business operations, with OpenAI tools supporting journalists and publishers worldwide.",
+      "link": "https://openai.com/index/how-news-organizations-are-using-ai",
       "date": "2026-07-22T13:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
@@ -117,24 +135,6 @@
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
-    },
-    {
-      "title": "Microsoft und Mistral schließen milliardenschwere Partnerschaft für KI-Infrastruktur in Europa",
-      "description": "Microsoft und Mistral bauen ihre strategische Partnerschaft mit einer milliardenschweren Vereinbarung zum Ausbau der KI-Infrastruktur in Europa deutlich aus.\nDer Artikel Microsoft und Mistral schließe",
-      "link": "https://the-decoder.de/microsoft-und-mistral-schliessen-milliardenschwere-partnerschaft-fuer-ki-infrastruktur-in-europa/",
-      "date": "2026-07-21T15:07:22.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "OpenAI and Hugging Face partner to address security incident during model evaluation",
-      "description": "OpenAI and Hugging Face share early findings from a security incident during AI model evaluation, highlighting advanced cyber capabilities and lessons for defenders.",
-      "link": "https://openai.com/index/hugging-face-model-evaluation-security-incident",
-      "date": "2026-07-21T07:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
     }
   ]
 }
