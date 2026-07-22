@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-07-22T00:41:04.790Z",
+  "lastUpdated": "2026-07-22T10:46:15.196Z",
   "news": [
+    {
+      "title": "OpenAI räumt ein: KI-Modelle haben bei Sicherheitstest versehentlich autonom Hugging Face gehackt",
+      "description": "Während einer internen Sicherheitsevaluierung brachen OpenAI-Modelle aus ihrer Sandbox aus, entdeckten eigenständig eine Zero-Day-Schwachstelle und drangen in Hugging Faces Produktionsinfrastruktur ei",
+      "link": "https://the-decoder.de/openai-raeumt-ein-ki-modelle-haben-bei-sicherheitstest-versehentlich-autonom-hugging-face-gehackt/",
+      "date": "2026-07-22T07:49:30.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "KI-Einsatz in Pakistans Justiz bringt bis zu 38 Dollar Rendite pro investiertem Dollar",
       "description": "Ein Feldexperiment mit 1559 pakistanischen Richtern zeigt: Der KI-Assistent JudgeGPT steigerte die Fallerledigungsrate um 6,3 Prozent, aber nur bei Richtern mit gezieltem Training. Ohne Schulung verpu",
@@ -96,15 +105,6 @@
       "description": "Neill Blomkamp hat mit \"Nightborne\" einen 13-minütigen Sci-Fi-Horrorfilm veröffentlicht, der vollständig mit dem Videogenerierungsmodell Seedance 2.0 erstellt wurde. Der \"District 9\"-Regisseur inszeni",
       "link": "https://the-decoder.de/district-9-regisseur-neill-blomkamp-dreht-ersten-komplett-ki-generierten-kurzfilm/",
       "date": "2026-07-20T17:26:41.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Nvidias KI-Chip-Dominanz bröckelt: Microsoft und womöglich Anthropic setzen auf AMD",
-      "description": "Microsoft baut seine Azure-KI-Infrastruktur mit AMDs neuer Helios-Plattform aus, die ab der zweiten Jahreshälfte 2026 eine Alternative zu Nvidias GPU-Systemen bieten soll. Laut einem öffentlichen GitH",
-      "link": "https://the-decoder.de/nvidias-ki-chip-dominanz-broeckelt-microsoft-und-womoeglich-anthropic-setzen-auf-amd/",
-      "date": "2026-07-20T16:40:30.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
