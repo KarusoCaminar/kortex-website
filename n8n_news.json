@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-07-22T20:27:54.426Z",
+  "lastUpdated": "2026-07-22T22:24:58.565Z",
   "news": [
+    {
+      "title": "SymptomAI: Towards a conversational AI agent for everyday symptom assessment",
+      "description": "General Science",
+      "link": "https://research.google/blog/symptomai-towards-a-conversational-ai-agent-for-everyday-symptom-assessment/",
+      "date": "2026-07-22T21:32:00.000Z",
+      "source": "Google AI",
+      "category": "kmu-relevanz",
+      "language": "en"
+    },
     {
       "title": "Anthropic zahlte Rekordvergleich wegen Bücherpiraterie, dennoch gewinnen die KI-Labore",
       "description": "Anthropic zahlt 1,5 Milliarden US-Dollar an Buchautoren, der größte Urheberrechtsvergleich in der Geschichte von Sammelklagen. Grund ist jedoch das Herunterladen von rund 482.460 Werken aus Piraterie-",
@@ -126,15 +135,6 @@
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
-    },
-    {
-      "title": "Google veröffentlicht drei neue Gemini-Flash-Modelle, während 3.5 Pro weiter fehlt",
-      "description": "Google stellt drei neue Flash-Modelle der Gemini-Reihe vor. Darunter ist das effizientere 3.6 Flash, das bis zu 65 Prozent weniger Token verbraucht, sowie ein Cybersecurity-Spezialmodell, das ausschli",
-      "link": "https://the-decoder.de/google-veroeffentlicht-drei-neue-gemini-flash-modelle-waehrend-3-5-pro-weiter-fehlt/",
-      "date": "2026-07-21T16:20:51.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
     }
   ]
 }
