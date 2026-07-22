@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-07-22T16:33:57.254Z",
+  "lastUpdated": "2026-07-22T18:30:13.935Z",
   "news": [
+    {
+      "title": "AMD investiert bis zu fünf Milliarden US-Dollar in ChatGPT-Konkurrent Anthropic",
+      "description": "AMD investiert bis zu 5 Milliarden Dollar in Anthropic, im Gegenzug setzt Anthropic bis zu 2 Gigawatt an MI450-GPUs für Training und Betrieb seiner Claude-Modelle ein. Für AMD ist es ein weiterer Groß",
+      "link": "https://the-decoder.de/amd-investiert-bis-zu-fuenf-milliarden-us-dollar-in-chatgpt-konkurrent-anthropic/",
+      "date": "2026-07-22T16:52:26.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Cisco veröffentlicht kleine offene KI-Modelle, die Sicherheitslücken in Code aufspüren",
       "description": "Cisco veröffentlicht zwei kleine, offene KI-Modelle für Cybersecurity, die laut eigenen Tests bei einem Bruchteil der Kosten rund 150-mal mehr Schwachstellen pro Dollar finden als große KI-Agenten.\nDe",
@@ -123,15 +132,6 @@
       "description": "OpenAI and Hugging Face share early findings from a security incident during AI model evaluation, highlighting advanced cyber capabilities and lessons for defenders.",
       "link": "https://openai.com/index/hugging-face-model-evaluation-security-incident",
       "date": "2026-07-21T07:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "David Vélez and Robin Vince join the boards of the OpenAI Foundation and OpenAI Group PBC",
-      "description": "David Vélez and Robin Vince join the boards of the OpenAI Foundation and OpenAI Group PBC, bringing global leadership in finance, technology, and governance.",
-      "link": "https://openai.com/index/david-velez-robin-vince-join-openai-boards",
-      "date": "2026-07-21T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
