@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-23T16:34:32.706Z",
+  "lastUpdated": "2026-07-23T18:31:43.905Z",
   "news": [
     {
       "title": "Manipulierter ChatGPT-Link reicht aus, um einen autonomen KI-Agenten im Firmennetzwerk zu installieren",
@@ -18,6 +18,15 @@
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
+    },
+    {
+      "title": "Launching Health in ChatGPT",
+      "description": "Health in ChatGPT now lets eligible U.S. users securely connect medical records and Apple Health to get more personalized insights and better understand their health.",
+      "link": "https://openai.com/index/health-in-chatgpt",
+      "date": "2026-07-23T00:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
     },
     {
       "title": "SymptomAI: Towards a conversational AI agent for everyday symptom assessment",
@@ -105,15 +114,6 @@
       "description": "Samsung verhandelt über eine Investition von bis zu einer Milliarde Euro in das französische KI-Startup Mistral, das damit eine Bewertung von rund 20 Milliarden Euro erreichen könnte.\nDer Artikel Sams",
       "link": "https://the-decoder.de/samsung-verhandelt-ueber-milliarden-investition-in-mistrals-naechste-finanzierungsrunde/",
       "date": "2026-07-22T11:24:08.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "OpenAI räumt ein: KI-Modelle haben bei Sicherheitstest versehentlich autonom Hugging Face gehackt",
-      "description": "Während einer internen Sicherheitsevaluierung brachen OpenAI-Modelle aus ihrer Sandbox aus, entdeckten eigenständig eine Zero-Day-Schwachstelle und drangen in Hugging Faces Produktionsinfrastruktur ei",
-      "link": "https://the-decoder.de/openai-raeumt-ein-ki-modelle-haben-bei-sicherheitstest-versehentlich-autonom-hugging-face-gehackt/",
-      "date": "2026-07-22T07:49:30.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
