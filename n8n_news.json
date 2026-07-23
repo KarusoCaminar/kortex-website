@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-07-23T08:57:46.957Z",
+  "lastUpdated": "2026-07-23T12:38:20.530Z",
   "news": [
+    {
+      "title": "Mehr Geld für KI: Google erhöht Infrastrukturausgaben auf 205 Milliarden US-Dollar",
+      "description": "Alphabet hebt seine Investitionsplanung für 2026 auf bis zu 205 Milliarden Dollar an – die Nachfrage übersteige weiterhin die Ausgaben. Google Cloud wuchs im zweiten Quartal um 82 Prozent. CEO Sundar",
+      "link": "https://the-decoder.de/mehr-geld-fuer-ki-google-erhoeht-infrastrukturausgaben-auf-205-milliarden-us-dollar/",
+      "date": "2026-07-23T11:01:57.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "SymptomAI: Towards a conversational AI agent for everyday symptom assessment",
       "description": "General Science",
@@ -123,15 +132,6 @@
       "description": "Ein Feldexperiment mit 1559 pakistanischen Richtern zeigt: Der KI-Assistent JudgeGPT steigerte die Fallerledigungsrate um 6,3 Prozent, aber nur bei Richtern mit gezieltem Training. Ohne Schulung verpu",
       "link": "https://the-decoder.de/ki-einsatz-in-pakistans-justiz-bringt-bis-zu-38-dollar-rendite-pro-investiertem-dollar/",
       "date": "2026-07-21T18:45:20.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Claude Cowork lernt neue Skills per Bildschirmaufnahme und Spracherklärung",
-      "description": "Anthropic erweitert seine Desktop-App Claude Cowork um eine Skill-Aufzeichnung: Nutzer filmen ihren Bildschirm bei einer Aufgabe, kommentieren per Sprache und Claude wandelt das Gezeigte in einen wied",
-      "link": "https://the-decoder.de/claude-cowork-lernt-neue-skills-per-bildschirmaufnahme-und-spracherklaerung/",
-      "date": "2026-07-21T17:02:21.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
