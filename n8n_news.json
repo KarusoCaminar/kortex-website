@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-22T22:24:58.565Z",
+  "lastUpdated": "2026-07-23T03:08:19.126Z",
   "news": [
     {
       "title": "SymptomAI: Towards a conversational AI agent for everyday symptom assessment",
@@ -110,6 +110,15 @@
       "language": "en"
     },
     {
+      "title": "NTT DATA Group cuts incident analysis to 30 minutes with Codex",
+      "description": "NTT DATA Group uses ChatGPT Enterprise and Codex to help 9,000 employees automate work, cut incident analysis to 30 minutes, and scale secure AI adoption.",
+      "link": "https://openai.com/index/ntt-data",
+      "date": "2026-07-22T00:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
       "title": "KI-Einsatz in Pakistans Justiz bringt bis zu 38 Dollar Rendite pro investiertem Dollar",
       "description": "Ein Feldexperiment mit 1559 pakistanischen Richtern zeigt: Der KI-Assistent JudgeGPT steigerte die Fallerledigungsrate um 6,3 Prozent, aber nur bei Richtern mit gezieltem Training. Ohne Schulung verpu",
       "link": "https://the-decoder.de/ki-einsatz-in-pakistans-justiz-bringt-bis-zu-38-dollar-rendite-pro-investiertem-dollar/",
@@ -126,15 +135,6 @@
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
-    },
-    {
-      "title": "Introducing the ChatGPT for small business program",
-      "description": "OpenAI launches the ChatGPT for Small Businesses program, helping entrepreneurs build AI skills, automate work, and grow with ChatGPT Work.",
-      "link": "https://openai.com/index/introducing-chatgpt-small-business-program",
-      "date": "2026-07-21T17:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
     }
   ]
 }
