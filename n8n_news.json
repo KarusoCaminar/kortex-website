@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-07-23T18:31:43.905Z",
+  "lastUpdated": "2026-07-23T20:27:08.743Z",
   "news": [
+    {
+      "title": "ChatGPT wird zum Gesundheitsberater: OpenAI verbindet Apple Health und Patientenakten",
+      "description": "OpenAI rollt \"Health in ChatGPT\" breit für US‑Nutzer aus, mit Anbindung an Apple Health, medizinische Akten und Wellness-Apps. Über 300 Millionen Menschen stellen wöchentlich Gesundheitsfragen an Chat",
+      "link": "https://the-decoder.de/chatgpt-wird-zum-gesundheitsberater-openai-verbindet-apple-health-und-patientenakten/",
+      "date": "2026-07-23T19:00:51.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Manipulierter ChatGPT-Link reicht aus, um einen autonomen KI-Agenten im Firmennetzwerk zu installieren",
       "description": "Zenity Labs hat mit \"AgentForger\" eine Schwachstelle in OpenAIs Agent Builder aufgedeckt. Ein einziger manipulierter ChatGPT-Link genügte, um im Namen eines Mitarbeitenden einen autonomen Agenten zu e",
@@ -108,15 +117,6 @@
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
-    },
-    {
-      "title": "Samsung verhandelt über Milliarden-Investition in Mistrals nächste Finanzierungsrunde",
-      "description": "Samsung verhandelt über eine Investition von bis zu einer Milliarde Euro in das französische KI-Startup Mistral, das damit eine Bewertung von rund 20 Milliarden Euro erreichen könnte.\nDer Artikel Sams",
-      "link": "https://the-decoder.de/samsung-verhandelt-ueber-milliarden-investition-in-mistrals-naechste-finanzierungsrunde/",
-      "date": "2026-07-22T11:24:08.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
     },
     {
       "title": "Introducing OpenAI Presence",
