@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-07-24T16:35:42.695Z",
+  "lastUpdated": "2026-07-24T18:35:22.798Z",
   "news": [
+    {
+      "title": "Anthropic stellt Claude Opus 5 vor, das \"günstige Fable 5\"",
+      "description": "Anthropic bringt mit Claude Opus 5 ein neues Spitzenmodell, das beim agentischen Coding Fable 5 und GPT-5.6 Sol übertrifft – zum halben Fable-Preis. Beim ARC-AGI-3-Benchmark für neuartiges Problemlöse",
+      "link": "https://the-decoder.de/anthropic-stellt-claude-opus-5-vor-das-guenstige-fable-5/",
+      "date": "2026-07-24T18:15:42.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "So offensichtlich, dass es wehtut: Microsoft kämpft für Open-Weight-KI und meint damit vor allem Azure",
       "description": "Microsoft lobbyiert gemeinsam mit Meta, Nvidia und mehr als 20 weiteren Unternehmen in einem offenen Brief für Open-Weight-KI-Modelle. Dahinter steckt Kalkül: Je mehr Modelle auf Azure laufen, desto w",
@@ -60,15 +69,6 @@
       "description": "Zenity Labs hat mit \"AgentForger\" eine Schwachstelle in OpenAIs Agent Builder aufgedeckt. Ein einziger manipulierter ChatGPT-Link genügte, um im Namen eines Mitarbeitenden einen autonomen Agenten zu e",
       "link": "https://the-decoder.de/manipulierter-chatgpt-link-reicht-aus-um-einen-autonomen-ki-agenten-im-firmennetzwerk-zu-installieren/",
       "date": "2026-07-23T15:36:30.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Mehr Geld für KI: Google erhöht Infrastrukturausgaben auf 205 Milliarden US-Dollar",
-      "description": "Alphabet hebt seine Investitionsplanung für 2026 auf bis zu 205 Milliarden Dollar an – die Nachfrage übersteige weiterhin die Ausgaben. Google Cloud wuchs im zweiten Quartal um 82 Prozent. CEO Sundar",
-      "link": "https://the-decoder.de/mehr-geld-fuer-ki-google-erhoeht-infrastrukturausgaben-auf-205-milliarden-us-dollar/",
-      "date": "2026-07-23T11:01:57.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
