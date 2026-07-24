@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-07-24T10:43:52.717Z",
+  "lastUpdated": "2026-07-24T12:35:57.153Z",
   "news": [
+    {
+      "title": "Claude bekommt Sprachmodus-Update: Opus, Sonnet und Tool-Anbindung per Stimme",
+      "description": "Sprachen und Tool-Zugriff auf Gmail, Google Calendar oder Slack. Als einziger Anbieter kann Claude direkt aus dem Audiomodus heraus etwa E-Mails verfassen und ablegen, ein Vorteil gegenüber OpenAI und",
+      "link": "https://the-decoder.de/claude-sprachmodus-update/",
+      "date": "2026-07-24T11:01:49.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Kimi K3 im Cyber-Test: Chinesisches KI-Modell liegt deutlich hinter US-Spitzenmodellen",
       "description": "Das britische AI Security Institute und das US-amerikanische CAISI haben Moonshot AIs Modell Kimi K3 auf offensive Cyber-Fähigkeiten getestet. Ergebnis: Kimi K3 erreicht auf dem ExploitBench nur 32 Pr",
@@ -78,15 +87,6 @@
       "description": "Cisco veröffentlicht zwei kleine, offene KI-Modelle für Cybersecurity, die laut eigenen Tests bei einem Bruchteil der Kosten rund 150-mal mehr Schwachstellen pro Dollar finden als große KI-Agenten.\nDe",
       "link": "https://the-decoder.de/cisco-veroeffentlicht-kleine-offene-ki-modelle-die-sicherheitsluecken-in-code-aufspueren/",
       "date": "2026-07-22T16:20:08.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "OpenAI plant riesiges Rechenzentrum in Georgia mit 3,2 Gigawatt Leistung",
-      "description": "OpenAI plant unter dem Namen \"Project Camellia\" ein Rechenzentrum in Georgia und hat mit Georgia Power einen Stromvertrag über 3,2 Gigawatt abgeschlossen. Dazu fließen 80 Millionen Dollar in die Gemei",
-      "link": "https://the-decoder.de/openai-plant-riesiges-rechenzentrum-in-georgia-mit-32-gigawatt-leistung/",
-      "date": "2026-07-22T15:34:51.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
