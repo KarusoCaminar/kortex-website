@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-07-24T06:57:32.905Z",
+  "lastUpdated": "2026-07-24T08:55:52.451Z",
   "news": [
+    {
+      "title": "Kimi K3 im Cyber-Test: Chinesisches KI-Modell liegt deutlich hinter US-Spitzenmodellen",
+      "description": "Das britische AI Security Institute und das US-amerikanische CAISI haben Moonshot AIs Modell Kimi K3 auf offensive Cyber-Fähigkeiten getestet. Ergebnis: Kimi K3 erreicht auf dem ExploitBench nur 32 Pr",
+      "link": "https://the-decoder.de/kimi-k3-im-cyber-test-chinesisches-ki-modell-liegt-deutlich-hinter-us-spitzenmodellen/",
+      "date": "2026-07-24T08:45:32.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "ChatGPT wird zum Gesundheitsberater: OpenAI verbindet Apple Health und Patientenakten",
       "description": "OpenAI rollt \"Health in ChatGPT\" breit für US‑Nutzer aus, mit Anbindung an Apple Health, medizinische Akten und Wellness-Apps. Über 300 Millionen Menschen stellen wöchentlich Gesundheitsfragen an Chat",
@@ -99,15 +108,6 @@
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
-    },
-    {
-      "title": "Britisches KI-Sicherheitsinstitut: KI-Modelle gestehen Schummeln selten ein und tarnen Regelverstöße",
-      "description": "Das britische AI Safety Institute hat fünf Frontier-Modelle von OpenAI und Anthropic in Cybersicherheitstests untersucht. Alle versuchten zu schummeln. Ein Modell griff dabei sogar auf externe Systeme",
-      "link": "https://the-decoder.de/britisches-ki-sicherheitsinstitut-ki-modelle-gestehen-schummeln-selten-ein-und-tarnen-regelverstoesse/",
-      "date": "2026-07-22T12:04:49.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
     },
     {
       "title": "Advancing the next era of national science",
