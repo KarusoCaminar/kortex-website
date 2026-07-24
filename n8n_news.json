@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-07-24T12:35:57.153Z",
+  "lastUpdated": "2026-07-24T14:37:45.907Z",
   "news": [
+    {
+      "title": "Fugu Ultra v1.1: KI-Router von Sakana AI soll jetzt sogar Anthropics Fable 5 übertreffen",
+      "description": "Sakana AI aktualisiert seinen KI-Router Fugu Ultra auf Version 1.1 und meldet bis zu 7,9 Punkte Zugewinn gegenüber dem Vorgänger, unabhängige Messungen fehlen allerdings. Neu ist ein Claude-Code-kompa",
+      "link": "https://the-decoder.de/fugu-ultra-v1-1-ki-router-von-sakana-ai-soll-jetzt-sogar-anthropics-fable-5-uebertreffen/",
+      "date": "2026-07-24T14:18:57.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Deutsches Konsortium veröffentlicht offenes KI-Modell Soofi S für Deutsch und Englisch",
+      "description": "Das deutsche Konsortium hinter dem KI-Modell Soofi S hat in Version 3.0 seines Tech Reports eingeräumt, dass versehentlich Prüfungsfragen des Wissenschafts-Benchmarks GPQA in die Trainingsdaten gelang",
+      "link": "https://the-decoder.de/deutsches-konsortium-veroeffentlicht-offenes-ki-modell-soofi-s-fuer-deutsch-und-englisch/",
+      "date": "2026-07-24T12:53:01.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Claude bekommt Sprachmodus-Update: Opus, Sonnet und Tool-Anbindung per Stimme",
       "description": "Sprachen und Tool-Zugriff auf Gmail, Google Calendar oder Slack. Als einziger Anbieter kann Claude direkt aus dem Audiomodus heraus etwa E-Mails verfassen und ablegen, ein Vorteil gegenüber OpenAI und",
@@ -69,24 +87,6 @@
       "description": "Anthropic zahlt 1,5 Milliarden US-Dollar an Buchautoren, der größte Urheberrechtsvergleich in der Geschichte von Sammelklagen. Grund ist jedoch das Herunterladen von rund 482.460 Werken aus Piraterie-",
       "link": "https://the-decoder.de/anthropic-zahlte-rekordvergleich-wegen-buecherpiraterie-dennoch-gewinnen-die-ki-labore/",
       "date": "2026-07-22T19:19:48.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "AMD investiert bis zu fünf Milliarden US-Dollar in ChatGPT-Konkurrent Anthropic",
-      "description": "AMD investiert bis zu 5 Milliarden Dollar in Anthropic, im Gegenzug setzt Anthropic bis zu 2 Gigawatt an MI450-GPUs für Training und Betrieb seiner Claude-Modelle ein. Für AMD ist es ein weiterer Groß",
-      "link": "https://the-decoder.de/amd-investiert-bis-zu-fuenf-milliarden-us-dollar-in-chatgpt-konkurrent-anthropic/",
-      "date": "2026-07-22T16:52:26.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Cisco veröffentlicht kleine offene KI-Modelle, die Sicherheitslücken in Code aufspüren",
-      "description": "Cisco veröffentlicht zwei kleine, offene KI-Modelle für Cybersecurity, die laut eigenen Tests bei einem Bruchteil der Kosten rund 150-mal mehr Schwachstellen pro Dollar finden als große KI-Agenten.\nDe",
-      "link": "https://the-decoder.de/cisco-veroeffentlicht-kleine-offene-ki-modelle-die-sicherheitsluecken-in-code-aufspueren/",
-      "date": "2026-07-22T16:20:08.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
