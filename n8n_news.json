@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-07-24T14:37:45.907Z",
+  "lastUpdated": "2026-07-24T16:35:42.695Z",
   "news": [
+    {
+      "title": "So offensichtlich, dass es wehtut: Microsoft kämpft für Open-Weight-KI und meint damit vor allem Azure",
+      "description": "Microsoft lobbyiert gemeinsam mit Meta, Nvidia und mehr als 20 weiteren Unternehmen in einem offenen Brief für Open-Weight-KI-Modelle. Dahinter steckt Kalkül: Je mehr Modelle auf Azure laufen, desto w",
+      "link": "https://the-decoder.de/so-offensichtlich-dass-es-wehtut-microsoft-kaempft-fuer-open-weight-ki-und-meint-damit-vor-allem-azure/",
+      "date": "2026-07-24T15:47:02.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Fugu Ultra v1.1: KI-Router von Sakana AI soll jetzt sogar Anthropics Fable 5 übertreffen",
       "description": "Sakana AI aktualisiert seinen KI-Router Fugu Ultra auf Version 1.1 und meldet bis zu 7,9 Punkte Zugewinn gegenüber dem Vorgänger, unabhängige Messungen fehlen allerdings. Neu ist ein Claude-Code-kompa",
@@ -81,15 +90,6 @@
       "source": "Google AI",
       "category": "kmu-relevanz",
       "language": "en"
-    },
-    {
-      "title": "Anthropic zahlte Rekordvergleich wegen Bücherpiraterie, dennoch gewinnen die KI-Labore",
-      "description": "Anthropic zahlt 1,5 Milliarden US-Dollar an Buchautoren, der größte Urheberrechtsvergleich in der Geschichte von Sammelklagen. Grund ist jedoch das Herunterladen von rund 482.460 Werken aus Piraterie-",
-      "link": "https://the-decoder.de/anthropic-zahlte-rekordvergleich-wegen-buecherpiraterie-dennoch-gewinnen-die-ki-labore/",
-      "date": "2026-07-22T19:19:48.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
     },
     {
       "title": "Building AI infrastructure with the Effingham County community",
