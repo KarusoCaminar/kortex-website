@@ -1,11 +1,20 @@
 {
-  "lastUpdated": "2026-07-25T05:06:49.274Z",
+  "lastUpdated": "2026-07-25T10:33:14.166Z",
   "news": [
     {
       "title": "Anthropic stellt Claude Opus 5 vor, das \"günstige Fable 5\"",
       "description": "Anthropic bringt mit Claude Opus 5 ein neues Spitzenmodell, das beim agentischen Coding Fable 5 und GPT-5.6 Sol übertrifft – zum halben Fable-Preis. Beim ARC-AGI-3-Benchmark für neuartiges Problemlöse",
       "link": "https://the-decoder.de/anthropic-stellt-claude-opus-5-vor-das-guenstige-fable-5/",
-      "date": "2026-07-24T18:15:42.000Z",
+      "date": "2026-07-25T09:55:42.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Anthropics neues Topmodell Claude Opus 5 liefert mehr KI-Leistung für weniger Geld",
+      "description": "Anthropics Claude Opus 5 führt den Artificial Analysis Intelligence Index mit 61 Punkten an, knapp vor Claude Fable 5 und GPT-5.6 Sol. Besonders bei analytischer Qualität und Coding dominiert das Mode",
+      "link": "https://the-decoder.de/anthropics-neues-topmodell-claude-opus-5-liefert-mehr-ki-leistung-fuer-weniger-geld/",
+      "date": "2026-07-25T08:37:00.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
@@ -123,15 +132,6 @@
       "description": "Introducing OpenAI Presence, a proven enterprise AI agent platform that helps organizations deploy trusted voice and chat agents for customer and internal workflows.",
       "link": "https://openai.com/index/introducing-openai-presence",
       "date": "2026-07-22T05:30:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "NTT DATA Group cuts incident analysis to 30 minutes with Codex",
-      "description": "NTT DATA Group uses ChatGPT Enterprise and Codex to help 9,000 employees automate work, cut incident analysis to 30 minutes, and scale secure AI adoption.",
-      "link": "https://openai.com/index/ntt-data",
-      "date": "2026-07-22T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
