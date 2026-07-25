@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-07-25T10:33:14.166Z",
+  "lastUpdated": "2026-07-25T14:33:53.820Z",
   "news": [
+    {
+      "title": "Neue Berichte offenbaren das Ausmaß von OpenAIs Kontrollverlust beim autonomen Hack auf Hugging Face",
+      "description": "OpenAIs fortschrittlichste Modelle überwanden bei einem Cybersicherheitstest die Grenzen ihrer isolierten Testumgebung, erreichten das offene Internet und hackten eigenständig die KI-Plattform Hugging",
+      "link": "https://the-decoder.de/neue-berichte-offenbaren-das-ausmass-von-openais-kontrollverlust-beim-autonomen-hack-auf-hugging-face/",
+      "date": "2026-07-25T13:22:50.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Anthropic stellt Claude Opus 5 vor, das \"günstige Fable 5\"",
       "description": "Anthropic bringt mit Claude Opus 5 ein neues Spitzenmodell, das beim agentischen Coding Fable 5 und GPT-5.6 Sol übertrifft – zum halben Fable-Preis. Beim ARC-AGI-3-Benchmark für neuartiges Problemlöse",
@@ -69,15 +78,6 @@
       "description": "OpenAI rollt \"Health in ChatGPT\" breit für US‑Nutzer aus, mit Anbindung an Apple Health, medizinische Akten und Wellness-Apps. Über 300 Millionen Menschen stellen wöchentlich Gesundheitsfragen an Chat",
       "link": "https://the-decoder.de/chatgpt-wird-zum-gesundheitsberater-openai-verbindet-apple-health-und-patientenakten/",
       "date": "2026-07-23T19:00:51.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Manipulierter ChatGPT-Link reicht aus, um einen autonomen KI-Agenten im Firmennetzwerk zu installieren",
-      "description": "Zenity Labs hat mit \"AgentForger\" eine Schwachstelle in OpenAIs Agent Builder aufgedeckt. Ein einziger manipulierter ChatGPT-Link genügte, um im Namen eines Mitarbeitenden einen autonomen Agenten zu e",
-      "link": "https://the-decoder.de/manipulierter-chatgpt-link-reicht-aus-um-einen-autonomen-ki-agenten-im-firmennetzwerk-zu-installieren/",
-      "date": "2026-07-23T15:36:30.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
