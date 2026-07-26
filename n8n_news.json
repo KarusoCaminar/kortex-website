@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-07-26T03:08:40.246Z",
+  "lastUpdated": "2026-07-26T07:00:09.553Z",
   "news": [
+    {
+      "title": "Code verstehen statt schreiben: Generative KI verändert die Informatik-Ausbildung grundlegend",
+      "description": "Eine ACM-Umfrage unter 763 Informatik-Lehrenden aus 49 Ländern zeigt: 68 Prozent haben ihre Prüfungen wegen generativer KI bereits umgestellt, hin zu mündlichen Prüfungen, beaufsichtigten Tests und Pr",
+      "link": "https://the-decoder.de/code-verstehen-statt-schreiben-generative-ki-veraendert-die-informatik-ausbildung-grundlegend/",
+      "date": "2026-07-26T06:52:56.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Neue Berichte offenbaren das Ausmaß von OpenAIs Kontrollverlust beim autonomen Hack auf Hugging Face",
       "description": "OpenAIs fortschrittlichste Modelle überwanden bei einem Cybersicherheitstest die Grenzen ihrer isolierten Testumgebung, erreichten das offene Internet und hackten eigenständig die KI-Plattform Hugging",
@@ -69,15 +78,6 @@
       "description": "Das britische AI Security Institute und das US-amerikanische CAISI haben Moonshot AIs Modell Kimi K3 auf offensive Cyber-Fähigkeiten getestet. Ergebnis: Kimi K3 erreicht auf dem ExploitBench nur 32 Pr",
       "link": "https://the-decoder.de/kimi-k3-im-cyber-test-chinesisches-ki-modell-liegt-deutlich-hinter-us-spitzenmodellen/",
       "date": "2026-07-24T08:45:32.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "ChatGPT wird zum Gesundheitsberater: OpenAI verbindet Apple Health und Patientenakten",
-      "description": "OpenAI rollt \"Health in ChatGPT\" breit für US‑Nutzer aus, mit Anbindung an Apple Health, medizinische Akten und Wellness-Apps. Über 300 Millionen Menschen stellen wöchentlich Gesundheitsfragen an Chat",
-      "link": "https://the-decoder.de/chatgpt-wird-zum-gesundheitsberater-openai-verbindet-apple-health-und-patientenakten/",
-      "date": "2026-07-23T19:00:51.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
