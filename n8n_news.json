@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-07-26T08:51:58.791Z",
+  "lastUpdated": "2026-07-26T10:34:46.767Z",
   "news": [
+    {
+      "title": "Claude Opus 5 vervierfacht den Bestwert im härtesten KI-Logik-Benchmark",
+      "description": "Anthropics Claude Opus 5 erreicht 30,2 Prozent auf dem ARC-AGI-3-Benchmark, fast viermal so viel wie der bisherige Bestwert von 7,8 Prozent (GPT-5.6 Sol). Laut den Benchmark-Machern formulierte das Mo",
+      "link": "https://the-decoder.de/claude-opus-5-vervierfacht-den-bestwert-im-haertesten-ki-logik-benchmark/",
+      "date": "2026-07-26T09:03:02.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Hunderte Nutzer fragten ChatGPT nach der Erstellung biologischer Waffen und Gifte",
       "description": "OpenAI stufte GPT-5 im Sommer 2025 intern als hochriskant ein, weil es Nutzern bei der Erzeugung biologischer Gefahren half, bewertete das Modell im Herbst aber als weniger gefährlich. Laut Wall Stree",
@@ -69,15 +78,6 @@
       "description": "Sakana AI aktualisiert seinen KI-Router Fugu Ultra auf Version 1.1 und meldet bis zu 7,9 Punkte Zugewinn gegenüber dem Vorgänger, unabhängige Messungen fehlen allerdings. Neu ist ein Claude-Code-kompa",
       "link": "https://the-decoder.de/fugu-ultra-v1-1-ki-router-von-sakana-ai-soll-jetzt-sogar-anthropics-fable-5-uebertreffen/",
       "date": "2026-07-24T14:18:57.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Deutsches Konsortium veröffentlicht offenes KI-Modell Soofi S für Deutsch und Englisch",
-      "description": "Das deutsche Konsortium hinter dem KI-Modell Soofi S hat in Version 3.0 seines Tech Reports eingeräumt, dass versehentlich Prüfungsfragen des Wissenschafts-Benchmarks GPQA in die Trainingsdaten gelang",
-      "link": "https://the-decoder.de/deutsches-konsortium-veroeffentlicht-offenes-ki-modell-soofi-s-fuer-deutsch-und-englisch/",
-      "date": "2026-07-24T12:53:01.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
