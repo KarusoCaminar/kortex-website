@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-07-26T07:00:09.553Z",
+  "lastUpdated": "2026-07-26T08:51:58.791Z",
   "news": [
+    {
+      "title": "Hunderte Nutzer fragten ChatGPT nach der Erstellung biologischer Waffen und Gifte",
+      "description": "OpenAI stufte GPT-5 im Sommer 2025 intern als hochriskant ein, weil es Nutzern bei der Erzeugung biologischer Gefahren half, bewertete das Modell im Herbst aber als weniger gefährlich. Laut Wall Stree",
+      "link": "https://the-decoder.de/hunderte-nutzer-fragten-chatgpt-nach-der-erstellung-biologischer-waffen-und-gifte/",
+      "date": "2026-07-26T08:23:49.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Offene KI-Modelle aus China im Visier: US-Regierung plant gezielte Verbote statt Komplettverbot",
+      "description": "OpenAI und Google Deepmind haben einen offenen Brief gegen die Regulierung von Open-Weight-KI-Modellen unterzeichnet, während die Trump-Regierung Pläne für Einschränkungen chinesischer Modelle vorantr",
+      "link": "https://the-decoder.de/offene-ki-modelle-aus-china-im-visier-us-regierung-plant-gezielte-verbote-statt-komplettverbot/",
+      "date": "2026-07-26T07:42:24.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Code verstehen statt schreiben: Generative KI verändert die Informatik-Ausbildung grundlegend",
       "description": "Eine ACM-Umfrage unter 763 Informatik-Lehrenden aus 49 Ländern zeigt: 68 Prozent haben ihre Prüfungen wegen generativer KI bereits umgestellt, hin zu mündlichen Prüfungen, beaufsichtigten Tests und Pr",
@@ -60,24 +78,6 @@
       "description": "Das deutsche Konsortium hinter dem KI-Modell Soofi S hat in Version 3.0 seines Tech Reports eingeräumt, dass versehentlich Prüfungsfragen des Wissenschafts-Benchmarks GPQA in die Trainingsdaten gelang",
       "link": "https://the-decoder.de/deutsches-konsortium-veroeffentlicht-offenes-ki-modell-soofi-s-fuer-deutsch-und-englisch/",
       "date": "2026-07-24T12:53:01.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Claude bekommt Sprachmodus-Update: Opus, Sonnet und Tool-Anbindung per Stimme",
-      "description": "Sprachen und Tool-Zugriff auf Gmail, Google Calendar oder Slack. Als einziger Anbieter kann Claude direkt aus dem Audiomodus heraus etwa E-Mails verfassen und ablegen, ein Vorteil gegenüber OpenAI und",
-      "link": "https://the-decoder.de/claude-sprachmodus-update/",
-      "date": "2026-07-24T11:01:49.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Kimi K3 im Cyber-Test: Chinesisches KI-Modell liegt deutlich hinter US-Spitzenmodellen",
-      "description": "Das britische AI Security Institute und das US-amerikanische CAISI haben Moonshot AIs Modell Kimi K3 auf offensive Cyber-Fähigkeiten getestet. Ergebnis: Kimi K3 erreicht auf dem ExploitBench nur 32 Pr",
-      "link": "https://the-decoder.de/kimi-k3-im-cyber-test-chinesisches-ki-modell-liegt-deutlich-hinter-us-spitzenmodellen/",
-      "date": "2026-07-24T08:45:32.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
