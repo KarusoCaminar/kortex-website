@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-07-27T00:46:14.505Z",
+  "lastUpdated": "2026-07-27T09:12:58.646Z",
   "news": [
+    {
+      "title": "Datenpanne bei Claude: Geteilte Chats tauchten in Suchmaschinen auf",
+      "description": "Geteilte Gespräche mit Anthropics KI-Chatbot Claude waren kurzzeitig über Google auffindbar, ein fehlender noindex-Tag machte sie öffentlich. Unter den indexierten Chats fanden sich laut Nutzern auch",
+      "link": "https://the-decoder.de/datenpanne-bei-claude-geteilte-chats-tauchten-in-suchmaschinen-auf/",
+      "date": "2026-07-27T07:51:16.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Claude Opus 5 vervierfacht den Bestwert im härtesten KI-Logik-Benchmark",
       "description": "Anthropics Claude Opus 5 erreicht 30,2 Prozent auf dem ARC-AGI-3-Benchmark, fast viermal so viel wie der bisherige Bestwert von 7,8 Prozent (GPT-5.6 Sol). Laut den Benchmark-Machern formulierte das Mo",
@@ -60,15 +69,6 @@
       "description": "Anthropics Claude Opus 5 führt den Artificial Analysis Intelligence Index mit 61 Punkten an, knapp vor Claude Fable 5 und GPT-5.6 Sol. Besonders bei analytischer Qualität und Coding dominiert das Mode",
       "link": "https://the-decoder.de/anthropics-neues-topmodell-claude-opus-5-liefert-mehr-ki-leistung-fuer-weniger-geld/",
       "date": "2026-07-25T08:37:00.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "So offensichtlich, dass es wehtut: Microsoft kämpft für Open-Weight-KI und meint damit vor allem Azure",
-      "description": "Microsoft lobbyiert gemeinsam mit Meta, Nvidia und mehr als 20 weiteren Unternehmen in einem offenen Brief für Open-Weight-KI-Modelle. Dahinter steckt Kalkül: Je mehr Modelle auf Azure laufen, desto w",
-      "link": "https://the-decoder.de/so-offensichtlich-dass-es-wehtut-microsoft-kaempft-fuer-open-weight-ki-und-meint-damit-vor-allem-azure/",
-      "date": "2026-07-24T15:47:02.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
