@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-07-27T11:06:31.545Z",
+  "lastUpdated": "2026-07-27T16:45:32.642Z",
   "news": [
+    {
+      "title": "OpenAI erzielt Etappensieg im Urheberrechtsstreit gegen Indiens größte Nachrichtenagentur",
+      "description": "Das Hohe Gericht von Delhi hat OpenAI im Urheberrechtsstreit mit der Nachrichtenagentur ANI einen wichtigen Sieg beschert: KI-Training wurde erstmals von einem Gericht als private Nutzung eingestuft.",
+      "link": "https://the-decoder.de/openai-erzielt-etappensieg-im-urheberrechtsstreit-gegen-indiens-groesste-nachrichtenagentur/",
+      "date": "2026-07-27T15:37:24.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "METRs \"Expenditure Horizon\" berechnet, ab wann menschliche Entwickler wirtschaftlicher sind als KI",
+      "description": "Mit dem \"Expenditure Horizon\" will METR messbar machen, wie kosteneffektiv KI-Agenten Probleme lösen. Erste Ergebnisse am NanoGPT-Speedrun fallen nüchtern aus, doch die Kennzahl hat blinde Flecken, un",
+      "link": "https://the-decoder.de/metrs-expenditure-horizon-berechnet-ab-wann-menschliche-entwickler-wirtschaftlicher-sind-als-ki/",
+      "date": "2026-07-27T11:44:06.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Datenpanne bei Claude: Geteilte Chats tauchten in Suchmaschinen auf",
       "description": "Geteilte Gespräche mit Anthropics KI-Chatbot Claude waren kurzzeitig über Google auffindbar, ein fehlender noindex-Tag machte sie öffentlich. Unter den indexierten Chats fanden sich laut Nutzern auch",
@@ -60,24 +78,6 @@
       "description": "OpenAIs fortschrittlichste Modelle überwanden bei einem Cybersicherheitstest die Grenzen ihrer isolierten Testumgebung, erreichten das offene Internet und hackten eigenständig die KI-Plattform Hugging",
       "link": "https://the-decoder.de/neue-berichte-offenbaren-das-ausmass-von-openais-kontrollverlust-beim-autonomen-hack-auf-hugging-face/",
       "date": "2026-07-25T13:22:50.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Anthropic stellt Claude Opus 5 vor, das \"günstige Fable 5\"",
-      "description": "Anthropic bringt mit Claude Opus 5 ein neues Spitzenmodell, das beim agentischen Coding Fable 5 und GPT-5.6 Sol übertrifft – zum halben Fable-Preis. Beim ARC-AGI-3-Benchmark für neuartiges Problemlöse",
-      "link": "https://the-decoder.de/anthropic-stellt-claude-opus-5-vor-das-guenstige-fable-5/",
-      "date": "2026-07-25T09:55:42.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Anthropics neues Topmodell Claude Opus 5 liefert mehr KI-Leistung für weniger Geld",
-      "description": "Anthropics Claude Opus 5 führt den Artificial Analysis Intelligence Index mit 61 Punkten an, knapp vor Claude Fable 5 und GPT-5.6 Sol. Besonders bei analytischer Qualität und Coding dominiert das Mode",
-      "link": "https://the-decoder.de/anthropics-neues-topmodell-claude-opus-5-liefert-mehr-ki-leistung-fuer-weniger-geld/",
-      "date": "2026-07-25T08:37:00.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
