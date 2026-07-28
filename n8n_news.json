@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-07-28T09:00:08.980Z",
+  "lastUpdated": "2026-07-28T10:51:55.825Z",
   "news": [
+    {
+      "title": "Anthropic-CEO Amodei warnt erneut vor Open-Weight-Modellen und weist Verbotsvorwürfe zurück",
+      "description": "Anthropic-CEO Dario Amodei warnt erneut vor Risiken offener KI-Modelle, betont aber, nie ein Verbot gefordert zu haben. Seine Sorgen: autoritäre Staaten wie China könnten die USA überholen, offene Mod",
+      "link": "https://the-decoder.de/anthropic-ceo-amodei-warnt-erneut-vor-open-weight-modellen-und-weist-verbotsvorwuerfe-zurueck/",
+      "date": "2026-07-28T10:12:42.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Kimi K3 ab sofort auf Hugging Face: Chinesisches Open-Weight-Modell rückt an westliche Frontier-Modelle heran",
       "description": "Moonshot AI hat die Modellgewichte und Teile seiner Infrastruktur zu Kimi K3 als Open Source veröffentlicht. Das chinesische Modell erreicht in Benchmarks fast das Niveau westlicher Frontier-Modelle w",
@@ -78,15 +87,6 @@
       "description": "OpenAI stufte GPT-5 im Sommer 2025 intern als hochriskant ein, weil es Nutzern bei der Erzeugung biologischer Gefahren half, bewertete das Modell im Herbst aber als weniger gefährlich. Laut Wall Stree",
       "link": "https://the-decoder.de/hunderte-nutzer-fragten-chatgpt-nach-der-erstellung-biologischer-waffen-und-gifte/",
       "date": "2026-07-26T08:23:49.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Offene KI-Modelle aus China im Visier: US-Regierung plant gezielte Verbote statt Komplettverbot",
-      "description": "OpenAI und Google Deepmind haben einen offenen Brief gegen die Regulierung von Open-Weight-KI-Modellen unterzeichnet, während die Trump-Regierung Pläne für Einschränkungen chinesischer Modelle vorantr",
-      "link": "https://the-decoder.de/offene-ki-modelle-aus-china-im-visier-us-regierung-plant-gezielte-verbote-statt-komplettverbot/",
-      "date": "2026-07-26T07:42:24.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
