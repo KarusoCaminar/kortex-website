@@ -1,6 +1,33 @@
 {
-  "lastUpdated": "2026-07-28T12:42:43.772Z",
+  "lastUpdated": "2026-07-28T18:33:39.374Z",
   "news": [
+    {
+      "title": "Scientific computing in the age of agentic AI",
+      "description": "A new field report shows how scientists use AI coding agents to modernize scientific computing, accelerating software development and discovery in genomics and beyond.",
+      "link": "https://openai.com/index/scientific-computing-agentic-ai",
+      "date": "2026-07-28T17:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
+      "title": "Amazon fährt eigene Nova-KI-Modelle zurück und setzt auf neues Frontier-Forschungsteam",
+      "description": "Amazon fährt einen Großteil seiner eigenen Nova-KI-Modelle zurück, darunter Nova Premier, Omni, Reel und Canvas. Intern gilt das Motto \"keep the lights on\": Wartung ja, Weiterentwicklung nein. Stattde",
+      "link": "https://the-decoder.de/amazon-faehrt-eigene-nova-ki-modelle-zurueck-und-setzt-auf-neues-frontier-forschungsteam/",
+      "date": "2026-07-28T15:54:39.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Taiwan nimmt Nvidia-Mitarbeiter in Chip-Schmuggel-Ermittlung fest",
+      "description": "Taiwans Staatsanwaltschaft hat einen Nvidia-Mitarbeiter festgenommen. Es geht um den mutmaßlich illegalen Export von KI-Servern von Super Micro nach China. Das berichten Bloomberg und Reuters.\nDer Art",
+      "link": "https://the-decoder.de/taiwan-nimmt-nvidia-mitarbeiter-in-chip-schmuggel-ermittlung-fest/",
+      "date": "2026-07-28T12:54:43.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Nvidia investiert in Ilya Sutskevers KI-Labor Safe Superintelligence",
       "description": "Nvidia investiert eine nach eigenen Angaben \"substanzielle\" Summe in Safe Superintelligence (SSI), das KI-Labor von Ilya Sutskever, dem früheren Chefwissenschaftler von OpenAI.\nDer Artikel Nvidia inve",
@@ -83,15 +110,6 @@
       "language": "en"
     },
     {
-      "title": "Claude Opus 5 vervierfacht den Bestwert im härtesten KI-Logik-Benchmark",
-      "description": "Anthropics Claude Opus 5 erreicht 30,2 Prozent auf dem ARC-AGI-3-Benchmark, fast viermal so viel wie der bisherige Bestwert von 7,8 Prozent (GPT-5.6 Sol). Laut den Benchmark-Machern formulierte das Mo",
-      "link": "https://the-decoder.de/claude-opus-5-vervierfacht-den-bestwert-im-haertesten-ki-logik-benchmark/",
-      "date": "2026-07-26T09:03:02.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "Launching Health in ChatGPT",
       "description": "Health in ChatGPT now lets eligible U.S. users securely connect medical records and Apple Health to get more personalized insights and better understand their health.",
       "link": "https://openai.com/index/health-in-chatgpt",
@@ -114,24 +132,6 @@
       "description": "OpenAI announces Project Camellia in Effingham County, Georgia, with commitments to responsible energy, community investment, jobs, and access to Codex.",
       "link": "https://openai.com/index/building-ai-infrastructure-with-the-effingham-county-community",
       "date": "2026-07-22T13:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "How news organizations are using AI to advance their vital missions",
-      "description": "News organizations are using AI to strengthen reporting, grow audiences, and improve business operations, with OpenAI tools supporting journalists and publishers worldwide.",
-      "link": "https://openai.com/index/how-news-organizations-are-using-ai",
-      "date": "2026-07-22T13:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "Advancing the next era of national science",
-      "description": "OpenAI outlines its commitment to advancing American science working with the U.S. Department of Energy and national labs to use frontier AI to accelerate discovery.",
-      "link": "https://openai.com/index/advancing-the-next-era-of-national-science",
-      "date": "2026-07-22T12:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
