@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-07-28T10:51:55.825Z",
+  "lastUpdated": "2026-07-28T12:42:43.772Z",
   "news": [
+    {
+      "title": "Nvidia investiert in Ilya Sutskevers KI-Labor Safe Superintelligence",
+      "description": "Nvidia investiert eine nach eigenen Angaben \"substanzielle\" Summe in Safe Superintelligence (SSI), das KI-Labor von Ilya Sutskever, dem früheren Chefwissenschaftler von OpenAI.\nDer Artikel Nvidia inve",
+      "link": "https://the-decoder.de/nvidia-investiert-in-ilya-sutskevers-ki-labor-safe-superintelligence/",
+      "date": "2026-07-28T12:37:35.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Anthropic-CEO Amodei warnt erneut vor Open-Weight-Modellen und weist Verbotsvorwürfe zurück",
       "description": "Anthropic-CEO Dario Amodei warnt erneut vor Risiken offener KI-Modelle, betont aber, nie ein Verbot gefordert zu haben. Seine Sorgen: autoritäre Staaten wie China könnten die USA überholen, offene Mod",
@@ -78,15 +87,6 @@
       "description": "Anthropics Claude Opus 5 erreicht 30,2 Prozent auf dem ARC-AGI-3-Benchmark, fast viermal so viel wie der bisherige Bestwert von 7,8 Prozent (GPT-5.6 Sol). Laut den Benchmark-Machern formulierte das Mo",
       "link": "https://the-decoder.de/claude-opus-5-vervierfacht-den-bestwert-im-haertesten-ki-logik-benchmark/",
       "date": "2026-07-26T09:03:02.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Hunderte Nutzer fragten ChatGPT nach der Erstellung biologischer Waffen und Gifte",
-      "description": "OpenAI stufte GPT-5 im Sommer 2025 intern als hochriskant ein, weil es Nutzern bei der Erzeugung biologischer Gefahren half, bewertete das Modell im Herbst aber als weniger gefährlich. Laut Wall Stree",
-      "link": "https://the-decoder.de/hunderte-nutzer-fragten-chatgpt-nach-der-erstellung-biologischer-waffen-und-gifte/",
-      "date": "2026-07-26T08:23:49.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
