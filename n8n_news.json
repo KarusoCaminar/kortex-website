@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-07-28T18:33:39.374Z",
+  "lastUpdated": "2026-07-28T20:29:44.111Z",
   "news": [
+    {
+      "title": "Anthropics KI-Modell Mythos Preview findet Schwachstellen in kryptografischen Algorithmen, die das Internet absichern",
+      "description": "Anthropics KI-Modell Mythos Preview hat Schwachstellen in kryptografischen Verfahren gefunden, darunter einen verbesserten Angriff auf das Post-Quanten-Verfahren HAWK, das menschliche Experten zwei Ja",
+      "link": "https://the-decoder.de/anthropics-ki-modell-mythos-preview-findet-schwachstellen-in-kryptografischen-algorithmen-die-das-internet-absichern/",
+      "date": "2026-07-28T18:56:27.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Scientific computing in the age of agentic AI",
       "description": "A new field report shows how scientists use AI coding agents to modernize scientific computing, accelerating software development and discovery in genomics and beyond.",
@@ -87,15 +96,6 @@
       "description": "Mit dem \"Expenditure Horizon\" will METR messbar machen, wie kosteneffektiv KI-Agenten Probleme lösen. Erste Ergebnisse am NanoGPT-Speedrun fallen nüchtern aus, doch die Kennzahl hat blinde Flecken, un",
       "link": "https://the-decoder.de/metrs-expenditure-horizon-berechnet-ab-wann-menschliche-entwickler-wirtschaftlicher-sind-als-ki/",
       "date": "2026-07-27T11:44:06.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Datenpanne bei Claude: Geteilte Chats tauchten in Suchmaschinen auf",
-      "description": "Geteilte Gespräche mit Anthropics KI-Chatbot Claude waren kurzzeitig über Google auffindbar, ein fehlender noindex-Tag machte sie öffentlich. Unter den indexierten Chats fanden sich laut Nutzern auch",
-      "link": "https://the-decoder.de/datenpanne-bei-claude-geteilte-chats-tauchten-in-suchmaschinen-auf/",
-      "date": "2026-07-27T07:51:16.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
