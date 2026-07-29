@@ -1,6 +1,33 @@
 {
-  "lastUpdated": "2026-07-29T07:01:07.078Z",
+  "lastUpdated": "2026-07-29T12:46:39.087Z",
   "news": [
+    {
+      "title": "OpenAIs neue Transkriptionsmodelle senken Fehlerrate und Preis, liegen aber weiter hinter ElevenLabs und Google",
+      "description": "OpenAI hat mit GPT Transcribe und GPT Live Transcribe zwei neue Spracherkennungsmodelle per API veröffentlicht.\nDer Artikel OpenAIs neue Transkriptionsmodelle senken Fehlerrate und Preis, liegen aber",
+      "link": "https://the-decoder.de/openais-neue-transkriptionsmodelle-senken-fehlerrate-und-preis-liegen-aber-weiter-hinter-elevenlabs-und-google/",
+      "date": "2026-07-29T12:45:33.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "OpenAI veröffentlicht Codex Security CLI als Open-Source-Tool zur automatischen Schwachstellenerkennung",
+      "description": "OpenAI veröffentlicht Codex Security CLI als Open-Source-Tool, das Schwachstellen in Code-Repositories automatisch aufspürt und behebt. Das zuvor intern als \"Aardvark\" bekannte System hat laut OpenAI",
+      "link": "https://the-decoder.de/openai-veroeffentlicht-codex-security-cli-als-open-source-tool-zur-automatischen-schwachstellenerkennung/",
+      "date": "2026-07-29T11:39:56.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Über 1.200 KI-Forscher fordern eine globale Notbremse für die Entwicklung von Frontier-Modellen",
+      "description": "In einer gemeinsamen Erklärung bitten Mitarbeitende der führenden KI-Labore die US-Regierung um internationale Koordination. Der Grund: Kein Unternehmen und kein Land könne allein langsamer machen.\nDe",
+      "link": "https://the-decoder.de/ueber-1-200-beschaeftigte-von-openai-anthropic-google-und-meta-fordern-werkzeuge-zum-ausbremsen-der-ki-entwicklung/",
+      "date": "2026-07-29T11:30:16.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Anthropics KI-Modell Mythos Preview findet Schwachstellen in kryptografischen Algorithmen, die das Internet absichern",
       "description": "Anthropics KI-Modell Mythos Preview hat Schwachstellen in kryptografischen Verfahren gefunden, darunter einen verbesserten Angriff auf das Post-Quanten-Verfahren HAWK, das menschliche Experten zwei Ja",
@@ -69,33 +96,6 @@
       "description": "OpenAI hat über 800.000 arbeitsbezogene ChatGPT-Nachrichten ausgewertet und einen \"Task Crossover\"-Effekt identifiziert: 43,5 Prozent der berufsspezifischen Anfragen betreffen Aufgaben aus fremden Ber",
       "link": "https://the-decoder.de/marketing-datenanalyse-webdesign-chatgpt-nutzer-uebernehmen-immer-mehr-aufgaben-anderer-berufe/",
       "date": "2026-07-27T19:00:51.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Microsoft stellt Cybersecurity-Modell MAI-Cyber-1-Flash vor und nutzt OpenAI nur noch für die schwierigen Fälle",
-      "description": "Microsoft stellt MAI-Cyber-1-Flash vor, ein kompaktes Sicherheitsmodell, das, eingebettet in das Multi-Agenten-System MDASH, auf dem Benchmark CyberGym 96 Prozent erreicht. Die Kosten sollen gegenüber",
-      "link": "https://the-decoder.de/microsoft-stellt-cybersecurity-modell-mai-cyber-1-flash-vor-und-nutzt-openai-nur-noch-fuer-die-schwierigen-faelle/",
-      "date": "2026-07-27T18:40:07.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "OpenAI erzielt Etappensieg im Urheberrechtsstreit gegen Indiens größte Nachrichtenagentur",
-      "description": "Das Hohe Gericht von Delhi hat OpenAI im Urheberrechtsstreit mit der Nachrichtenagentur ANI einen wichtigen Sieg beschert: KI-Training wurde erstmals von einem Gericht als private Nutzung eingestuft.",
-      "link": "https://the-decoder.de/openai-erzielt-etappensieg-im-urheberrechtsstreit-gegen-indiens-groesste-nachrichtenagentur/",
-      "date": "2026-07-27T15:37:24.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "METRs \"Expenditure Horizon\" berechnet, ab wann menschliche Entwickler wirtschaftlicher sind als KI",
-      "description": "Mit dem \"Expenditure Horizon\" will METR messbar machen, wie kosteneffektiv KI-Agenten Probleme lösen. Erste Ergebnisse am NanoGPT-Speedrun fallen nüchtern aus, doch die Kennzahl hat blinde Flecken, un",
-      "link": "https://the-decoder.de/metrs-expenditure-horizon-berechnet-ab-wann-menschliche-entwickler-wirtschaftlicher-sind-als-ki/",
-      "date": "2026-07-27T11:44:06.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
