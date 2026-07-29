@@ -1,6 +1,33 @@
 {
-  "lastUpdated": "2026-07-29T16:32:51.216Z",
+  "lastUpdated": "2026-07-29T20:24:00.946Z",
   "news": [
+    {
+      "title": "Google veröffentlicht Lyria 3.5: Neues KI-Modell soll natürlichere Musik mit besserem Gesang erzeugen",
+      "description": "Google hat mit Lyria 3.5 ein neues Musikgenerierungsmodell vorgestellt und in die Plattform Google Flow Music integriert. Das Modell erzeugt Tracks von 30 Sekunden bis 3 Minuten, eine neue Funktion na",
+      "link": "https://the-decoder.de/google-veroeffentlicht-lyria-3-5-neues-ki-modell-soll-natuerlichere-musik-mit-besserem-gesang-erzeugen/",
+      "date": "2026-07-29T18:33:49.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "PwC hat angeblich KI-generierte Berichte mit falschen oder erfundenen Quellen publiziert",
+      "description": "Nach KPMG, Deloitte und Ernst & Young hat GPTZero nun auch bei PwC Middle East erfundene Quellen und falsche Behauptungen in vier Berichten nachgewiesen. Ein Report über Governance sei zu 84 Prozent K",
+      "link": "https://the-decoder.de/pwc-hat-angeblich-ki-generierte-berichte-mit-falschen-oder-erfundenen-quellen-publiziert/",
+      "date": "2026-07-29T17:40:18.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Pangrams neuer KI-Text-Detektor funktioniert angeblich fast perfekt",
+      "description": "Pangram stellt mit Pangram 4 ein neues Modell zur Erkennung von KI-Texten vor, das laut eigenen Benchmarks 99,66 Prozent aller KI-Texte erkennt bei nur einem Fehlalarm pro 24 000 Dokumente. Auch gegen",
+      "link": "https://the-decoder.de/pangrams-neuer-ki-text-detektor-funktioniert-angeblich-fast-perfekt/",
+      "date": "2026-07-29T16:48:53.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "OpenAI räumt ein: Autonome KI-Modelle hackten sich über Hugging Face hinaus auf weitere Plattformen",
       "description": "OpenAIs autonome Hack-Modelle hatten bei einer Sicherheitsevaluierung offenbar nicht nur Hugging Face kompromittiert, sondern auch Zugangsdaten auf vier weiteren Plattformen genutzt. Hugging Face dire",
@@ -47,6 +74,24 @@
       "language": "de"
     },
     {
+      "title": "Accelerating scientific discovery with ChatGPT for Academic Researchers",
+      "description": "OpenAI is giving 100,000 academic researchers free access to ChatGPT's most advanced AI models to accelerate scientific research, collaboration, and discovery.",
+      "link": "https://openai.com/index/chatgpt-for-academic-researchers",
+      "date": "2026-07-29T10:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
+      "title": "How GPT-5.6 fuses frontier intelligence with frontier efficiency",
+      "description": "GPT-5.6 improves AI efficiency across models, inference, and agentic workflows, helping deliver more useful intelligence per dollar.",
+      "link": "https://openai.com/index/gpt-5-6-frontier-intelligence-efficiency",
+      "date": "2026-07-29T00:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
       "title": "Anthropics KI-Modell Mythos Preview findet Schwachstellen in kryptografischen Algorithmen, die das Internet absichern",
       "description": "Anthropics KI-Modell Mythos Preview hat Schwachstellen in kryptografischen Verfahren gefunden, darunter einen verbesserten Angriff auf das Post-Quanten-Verfahren HAWK, das menschliche Experten zwei Ja",
       "link": "https://the-decoder.de/anthropics-ki-modell-mythos-preview-findet-schwachstellen-in-kryptografischen-algorithmen-die-das-internet-absichern/",
@@ -74,33 +119,6 @@
       "language": "de"
     },
     {
-      "title": "Taiwan nimmt Nvidia-Mitarbeiter in Chip-Schmuggel-Ermittlung fest",
-      "description": "Taiwans Staatsanwaltschaft hat einen Nvidia-Mitarbeiter festgenommen. Es geht um den mutmaßlich illegalen Export von KI-Servern von Super Micro nach China. Das berichten Bloomberg und Reuters.\nDer Art",
-      "link": "https://the-decoder.de/taiwan-nimmt-nvidia-mitarbeiter-in-chip-schmuggel-ermittlung-fest/",
-      "date": "2026-07-28T12:54:43.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Nvidia investiert in Ilya Sutskevers KI-Labor Safe Superintelligence",
-      "description": "Nvidia investiert eine nach eigenen Angaben \"substanzielle\" Summe in Safe Superintelligence (SSI), das KI-Labor von Ilya Sutskever, dem früheren Chefwissenschaftler von OpenAI.\nDer Artikel Nvidia inve",
-      "link": "https://the-decoder.de/nvidia-investiert-in-ilya-sutskevers-ki-labor-safe-superintelligence/",
-      "date": "2026-07-28T12:37:35.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Anthropic-CEO Amodei warnt erneut vor Open-Weight-Modellen und weist Verbotsvorwürfe zurück",
-      "description": "Anthropic-CEO Dario Amodei warnt erneut vor Risiken offener KI-Modelle, betont aber, nie ein Verbot gefordert zu haben. Seine Sorgen: autoritäre Staaten wie China könnten die USA überholen, offene Mod",
-      "link": "https://the-decoder.de/anthropic-ceo-amodei-warnt-erneut-vor-open-weight-modellen-und-weist-verbotsvorwuerfe-zurueck/",
-      "date": "2026-07-28T10:12:42.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "How AI is expanding what people do at work",
       "description": "New OpenAI research shows how AI is expanding what workers do, with ChatGPT users taking on tasks across roles and reshaping job boundaries.",
       "link": "https://openai.com/index/how-ai-is-expanding-what-people-do-at-work",
@@ -114,24 +132,6 @@
       "description": "Health in ChatGPT now lets eligible U.S. users securely connect medical records and Apple Health to get more personalized insights and better understand their health.",
       "link": "https://openai.com/index/health-in-chatgpt",
       "date": "2026-07-23T00:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "SymptomAI: Towards a conversational AI agent for everyday symptom assessment",
-      "description": "General Science",
-      "link": "https://research.google/blog/symptomai-towards-a-conversational-ai-agent-for-everyday-symptom-assessment/",
-      "date": "2026-07-22T21:32:00.000Z",
-      "source": "Google AI",
-      "category": "kmu-relevanz",
-      "language": "en"
-    },
-    {
-      "title": "Building AI infrastructure with the Effingham County community",
-      "description": "OpenAI announces Project Camellia in Effingham County, Georgia, with commitments to responsible energy, community investment, jobs, and access to Codex.",
-      "link": "https://openai.com/index/building-ai-infrastructure-with-the-effingham-county-community",
-      "date": "2026-07-22T13:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
