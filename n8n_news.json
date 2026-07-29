@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-07-29T12:46:39.087Z",
+  "lastUpdated": "2026-07-29T14:49:24.359Z",
   "news": [
+    {
+      "title": "Nobelpreis-Team zerfällt: Fast ein Viertel der AlphaFold-Autoren hat Google Deepmind verlassen",
+      "description": "Die Mehrheit der ursprünglichen AlphaFold-Autoren arbeitet inzwischen an anderen Projekten, fast ein Viertel hat Google Deepmind ganz verlassen. Der Umbau markiert eine Abkehr von der Strategie, die d",
+      "link": "https://the-decoder.de/nobelpreis-team-zerfaellt-fast-ein-viertel-der-alphafold-autoren-hat-google-deepmind-verlassen/",
+      "date": "2026-07-29T13:21:11.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "OpenAIs neue Transkriptionsmodelle senken Fehlerrate und Preis, liegen aber weiter hinter ElevenLabs und Google",
       "description": "OpenAI hat mit GPT Transcribe und GPT Live Transcribe zwei neue Spracherkennungsmodelle per API veröffentlicht.\nDer Artikel OpenAIs neue Transkriptionsmodelle senken Fehlerrate und Preis, liegen aber",
@@ -87,15 +96,6 @@
       "description": "Moonshot AI hat die Modellgewichte und Teile seiner Infrastruktur zu Kimi K3 als Open Source veröffentlicht. Das chinesische Modell erreicht in Benchmarks fast das Niveau westlicher Frontier-Modelle w",
       "link": "https://the-decoder.de/kimi-k3-ab-sofort-auf-hugging-face-chinesisches-open-weight-modell-rueckt-an-westliche-frontier-modelle-heran/",
       "date": "2026-07-27T19:30:08.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Marketing, Datenanalyse, Webdesign: ChatGPT-Nutzer übernehmen immer mehr Aufgaben anderer Berufe",
-      "description": "OpenAI hat über 800.000 arbeitsbezogene ChatGPT-Nachrichten ausgewertet und einen \"Task Crossover\"-Effekt identifiziert: 43,5 Prozent der berufsspezifischen Anfragen betreffen Aufgaben aus fremden Ber",
-      "link": "https://the-decoder.de/marketing-datenanalyse-webdesign-chatgpt-nutzer-uebernehmen-immer-mehr-aufgaben-anderer-berufe/",
-      "date": "2026-07-27T19:00:51.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
