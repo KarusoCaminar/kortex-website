@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-07-29T14:49:24.359Z",
+  "lastUpdated": "2026-07-29T16:32:51.216Z",
   "news": [
+    {
+      "title": "OpenAI räumt ein: Autonome KI-Modelle hackten sich über Hugging Face hinaus auf weitere Plattformen",
+      "description": "OpenAIs autonome Hack-Modelle hatten bei einer Sicherheitsevaluierung offenbar nicht nur Hugging Face kompromittiert, sondern auch Zugangsdaten auf vier weiteren Plattformen genutzt. Hugging Face dire",
+      "link": "https://the-decoder.de/openai-raeumt-ein-autonome-ki-modelle-hackten-sich-ueber-hugging-face-hinaus-auf-weitere-plattformen/",
+      "date": "2026-07-29T15:55:56.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Nobelpreis-Team zerfällt: Fast ein Viertel der AlphaFold-Autoren hat Google Deepmind verlassen",
       "description": "Die Mehrheit der ursprünglichen AlphaFold-Autoren arbeitet inzwischen an anderen Projekten, fast ein Viertel hat Google Deepmind ganz verlassen. Der Umbau markiert eine Abkehr von der Strategie, die d",
@@ -87,15 +96,6 @@
       "description": "Anthropic-CEO Dario Amodei warnt erneut vor Risiken offener KI-Modelle, betont aber, nie ein Verbot gefordert zu haben. Seine Sorgen: autoritäre Staaten wie China könnten die USA überholen, offene Mod",
       "link": "https://the-decoder.de/anthropic-ceo-amodei-warnt-erneut-vor-open-weight-modellen-und-weist-verbotsvorwuerfe-zurueck/",
       "date": "2026-07-28T10:12:42.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Kimi K3 ab sofort auf Hugging Face: Chinesisches Open-Weight-Modell rückt an westliche Frontier-Modelle heran",
-      "description": "Moonshot AI hat die Modellgewichte und Teile seiner Infrastruktur zu Kimi K3 als Open Source veröffentlicht. Das chinesische Modell erreicht in Benchmarks fast das Niveau westlicher Frontier-Modelle w",
-      "link": "https://the-decoder.de/kimi-k3-ab-sofort-auf-hugging-face-chinesisches-open-weight-modell-rueckt-an-westliche-frontier-modelle-heran/",
-      "date": "2026-07-27T19:30:08.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
