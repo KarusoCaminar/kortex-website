@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-30T10:46:02.808Z",
+  "lastUpdated": "2026-07-30T12:39:51.698Z",
   "news": [
     {
       "title": "GPT-5.6 Sol schlägt Claude Opus 5 bei ARC-AGI-3 mit zwei zusätzlichen API-Einstellungen",
@@ -110,15 +110,6 @@
       "language": "en"
     },
     {
-      "title": "Anthropics KI-Modell Mythos Preview findet Schwachstellen in kryptografischen Algorithmen, die das Internet absichern",
-      "description": "Anthropics KI-Modell Mythos Preview hat Schwachstellen in kryptografischen Verfahren gefunden, darunter einen verbesserten Angriff auf das Post-Quanten-Verfahren HAWK, das menschliche Experten zwei Ja",
-      "link": "https://the-decoder.de/anthropics-ki-modell-mythos-preview-findet-schwachstellen-in-kryptografischen-algorithmen-die-das-internet-absichern/",
-      "date": "2026-07-28T18:56:27.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "Scientific computing in the age of agentic AI",
       "description": "A new field report shows how scientists use AI coding agents to modernize scientific computing, accelerating software development and discovery in genomics and beyond.",
       "link": "https://openai.com/index/scientific-computing-agentic-ai",
@@ -132,6 +123,15 @@
       "description": "New OpenAI research shows how AI is expanding what workers do, with ChatGPT users taking on tasks across roles and reshaping job boundaries.",
       "link": "https://openai.com/index/how-ai-is-expanding-what-people-do-at-work",
       "date": "2026-07-27T03:30:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
+      "title": "Launching Health in ChatGPT",
+      "description": "Health in ChatGPT now lets eligible U.S. users securely connect medical records and Apple Health to get more personalized insights and better understand their health.",
+      "link": "https://openai.com/index/health-in-chatgpt",
+      "date": "2026-07-23T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
