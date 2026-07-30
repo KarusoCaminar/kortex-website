@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-07-30T06:59:22.546Z",
+  "lastUpdated": "2026-07-30T08:59:08.298Z",
   "news": [
+    {
+      "title": "GPT-5.6 Sol schlägt Claude Opus 5 bei ARC-AGI-3 mit zwei zusätzlichen API-Einstellungen",
+      "description": "OpenAI kontert Anthropics ARC-AGI-3-Rekord: GPT-5.6 Sol erreicht 38,3 Prozent, allerdings nur mit eigener API-Infrastruktur statt der offiziellen Testumgebung, in der das Modell bei 7,8 Prozent landet",
+      "link": "https://the-decoder.de/gpt-5-6-sol-schlaegt-claude-opus-5-bei-arc-agi-3-mit-zwei-zusaetzlichen-api-einstellungen/",
+      "date": "2026-07-30T07:31:11.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Google veröffentlicht Lyria 3.5: Neues KI-Modell soll natürlichere Musik mit besserem Gesang erzeugen",
       "description": "Google hat mit Lyria 3.5 ein neues Musikgenerierungsmodell vorgestellt und in die Plattform Google Flow Music integriert. Das Modell erzeugt Tracks von 30 Sekunden bis 3 Minuten, eine neue Funktion na",
@@ -117,15 +126,6 @@
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
-    },
-    {
-      "title": "Amazon fährt eigene Nova-KI-Modelle zurück und setzt auf neues Frontier-Forschungsteam",
-      "description": "Amazon fährt einen Großteil seiner eigenen Nova-KI-Modelle zurück, darunter Nova Premier, Omni, Reel und Canvas. Intern gilt das Motto \"keep the lights on\": Wartung ja, Weiterentwicklung nein. Stattde",
-      "link": "https://the-decoder.de/amazon-faehrt-eigene-nova-ki-modelle-zurueck-und-setzt-auf-neues-frontier-forschungsteam/",
-      "date": "2026-07-28T15:54:39.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
     },
     {
       "title": "How AI is expanding what people do at work",
