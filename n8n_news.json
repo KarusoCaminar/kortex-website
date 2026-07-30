@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-07-30T18:34:38.115Z",
+  "lastUpdated": "2026-07-30T20:29:44.932Z",
   "news": [
+    {
+      "title": "OpenAI senkt Preise: Günstige GPT-5.6-Modelle werden noch viel günstiger",
+      "description": "OpenAI senkt die Preise für GPT-5.6 Luna um 80 Prozent und für GPT-5.6 Terra um 20 Prozent ab dem 30. Juli. Laut OpenAI hat das Spitzenmodell Sol selbst dazu beigetragen, die Infrastruktur effizienter",
+      "link": "https://the-decoder.de/openai-senkt-preise-guenstige-gpt-5-6-modelle-werden-noch-viel-guenstiger/",
+      "date": "2026-07-30T18:35:24.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Debatte um große Sprachmodelle: Werden LLMs vielseitiger – oder nur spezieller?",
       "description": "Ex-OpenAI-Mitarbeiter Andrew Ho und Cambridge-Forscher Adam Hunt sehen ein wachsendes Problem: Große Sprachmodelle werden nicht vielseitiger, sondern spezialisierter: stark bei Code und Mathematik, sc",
@@ -90,15 +99,6 @@
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
-    },
-    {
-      "title": "Nobelpreis-Team zerfällt: Fast ein Viertel der AlphaFold-Autoren hat Google Deepmind verlassen",
-      "description": "Die Mehrheit der ursprünglichen AlphaFold-Autoren arbeitet inzwischen an anderen Projekten, fast ein Viertel hat Google Deepmind ganz verlassen. Der Umbau markiert eine Abkehr von der Strategie, die d",
-      "link": "https://the-decoder.de/nobelpreis-team-zerfaellt-fast-ein-viertel-der-alphafold-autoren-hat-google-deepmind-verlassen/",
-      "date": "2026-07-29T13:21:11.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
     },
     {
       "title": "Accelerating scientific discovery with ChatGPT for Academic Researchers",
