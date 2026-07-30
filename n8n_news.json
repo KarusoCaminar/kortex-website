@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-07-30T12:39:51.698Z",
+  "lastUpdated": "2026-07-30T14:48:54.694Z",
   "news": [
+    {
+      "title": "Sprachmodelle können keine wissenschaftlichen Revolutionen auslösen, Weltmodelle vielleicht schon",
+      "description": "Können Sprachmodelle eine wissenschaftliche Revolution auslösen? In einem Positionspapier mit dem Titel \"LLMs can't jump\" argumentiert Tom Zahavy von Google Deepmind: nein. Ihnen fehle der entscheiden",
+      "link": "https://the-decoder.de/sprachmodelle-koennen-keine-wissenschaftlichen-revolutionen-ausloesen-weltmodelle-vielleicht-schon/",
+      "date": "2026-07-30T13:37:33.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Microsoft AI erklärt Tokeneffizienz zum nächsten Wettbewerbsfeld",
+      "description": "Microsoft AI setzt laut KI-CEO Mustafa Suleyman auf kleine Spezialmodelle statt teurer Universalmodelle. MAI-Cyber-1-Flash führt, eingebettet in einen Orchestrator, den CyberGym-Benchmark an und koste",
+      "link": "https://the-decoder.de/microsoft-ai-erklaert-tokeneffizienz-zum-naechsten-wettbewerbsfeld/",
+      "date": "2026-07-30T12:59:07.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "GPT-5.6 Sol schlägt Claude Opus 5 bei ARC-AGI-3 mit zwei zusätzlichen API-Einstellungen",
       "description": "OpenAI kontert Anthropics ARC-AGI-3-Rekord: GPT-5.6 Sol erreicht 38,3 Prozent, allerdings nur mit eigener API-Infrastruktur statt der offiziellen Testumgebung, in der das Modell bei 7,8 Prozent landet",
@@ -69,24 +87,6 @@
       "description": "OpenAI hat mit GPT Transcribe und GPT Live Transcribe zwei neue Spracherkennungsmodelle per API veröffentlicht.\nDer Artikel OpenAIs neue Transkriptionsmodelle senken Fehlerrate und Preis, liegen aber",
       "link": "https://the-decoder.de/openais-neue-transkriptionsmodelle-senken-fehlerrate-und-preis-liegen-aber-weiter-hinter-elevenlabs-und-google/",
       "date": "2026-07-29T12:45:33.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "OpenAI veröffentlicht Codex Security CLI als Open-Source-Tool zur automatischen Schwachstellenerkennung",
-      "description": "OpenAI veröffentlicht Codex Security CLI als Open-Source-Tool, das Schwachstellen in Code-Repositories automatisch aufspürt und behebt. Das zuvor intern als \"Aardvark\" bekannte System hat laut OpenAI",
-      "link": "https://the-decoder.de/openai-veroeffentlicht-codex-security-cli-als-open-source-tool-zur-automatischen-schwachstellenerkennung/",
-      "date": "2026-07-29T11:39:56.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Über 1.200 KI-Forscher fordern eine globale Notbremse für die Entwicklung von Frontier-Modellen",
-      "description": "In einer gemeinsamen Erklärung bitten Mitarbeitende der führenden KI-Labore die US-Regierung um internationale Koordination. Der Grund: Kein Unternehmen und kein Land könne allein langsamer machen.\nDe",
-      "link": "https://the-decoder.de/ueber-1-200-beschaeftigte-von-openai-anthropic-google-und-meta-fordern-werkzeuge-zum-ausbremsen-der-ki-entwicklung/",
-      "date": "2026-07-29T11:30:16.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
