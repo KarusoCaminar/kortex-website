@@ -1,6 +1,33 @@
 {
-  "lastUpdated": "2026-07-31T00:43:58.510Z",
+  "lastUpdated": "2026-07-31T10:56:35.385Z",
   "news": [
+    {
+      "title": "Ex-OpenAI-Mitarbeiter scheitert mit riskantem KI-Hedgefonds an fallenden Techaktien",
+      "description": "Der KI-Hedgefonds Situational Awareness des in Deutschland geborenen Leopold Aschenbrenner musste nach hohen Verlusten fast sein gesamtes börsennotiertes Aktienportfolio an Ken Griffins Firma Citadel",
+      "link": "https://the-decoder.de/ex-openai-mitarbeiter-scheitert-mit-riskantem-ki-hedgefonds-an-fallenden-techaktien/",
+      "date": "2026-07-31T10:33:05.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Auch Anthropics Claude hackte bei Sicherheitstests versehentlich echte Unternehmen übers Internet",
+      "description": "Drei Claude-Modelle haben bei Cybersecurity-Tests reale Unternehmen im Internet angegriffen, weil eine Fehlkonfiguration ihnen unbeabsichtigt Zugang gab. Ein Modell veröffentlichte sogar Malware auf P",
+      "link": "https://the-decoder.de/auch-anthropics-claude-hackte-bei-sicherheitstests-versehentlich-echte-unternehmen-uebers-internet/",
+      "date": "2026-07-31T10:28:37.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Univé builds an AI-ready workforce",
+      "description": "See how Univé built an AI-ready workforce with ChatGPT Enterprise by combining leadership, responsible governance, and employee-led innovation to transform work at scale.",
+      "link": "https://openai.com/index/unive",
+      "date": "2026-07-31T07:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
     {
       "title": "Science One Framework: A verifiable autonomous research framework via Chain-of-Evidence",
       "description": "General Science",
@@ -65,6 +92,15 @@
       "language": "de"
     },
     {
+      "title": "How avatarin built a 24/7 retail agent with GPT-Realtime",
+      "description": "avatarin uses OpenAI’s GPT-Realtime to give Yamada Denki shoppers 24/7 multilingual support. In two weeks, 30,000 people used the agent and 92% of survey responses were positive.",
+      "link": "https://openai.com/index/avatarin",
+      "date": "2026-07-30T00:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
       "title": "Google veröffentlicht Lyria 3.5: Neues KI-Modell soll natürlichere Musik mit besserem Gesang erzeugen",
       "description": "Google hat mit Lyria 3.5 ein neues Musikgenerierungsmodell vorgestellt und in die Plattform Google Flow Music integriert. Das Modell erzeugt Tracks von 30 Sekunden bis 3 Minuten, eine neue Funktion na",
       "link": "https://the-decoder.de/google-veroeffentlicht-lyria-3-5-neues-ki-modell-soll-natuerlichere-musik-mit-besserem-gesang-erzeugen/",
@@ -83,24 +119,6 @@
       "language": "de"
     },
     {
-      "title": "Pangrams neuer KI-Text-Detektor funktioniert angeblich fast perfekt",
-      "description": "Pangram stellt mit Pangram 4 ein neues Modell zur Erkennung von KI-Texten vor, das laut eigenen Benchmarks 99,66 Prozent aller KI-Texte erkennt bei nur einem Fehlalarm pro 24 000 Dokumente. Auch gegen",
-      "link": "https://the-decoder.de/pangrams-neuer-ki-text-detektor-funktioniert-angeblich-fast-perfekt/",
-      "date": "2026-07-29T16:48:53.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "OpenAI räumt ein: Autonome KI-Modelle hackten sich über Hugging Face hinaus auf weitere Plattformen",
-      "description": "OpenAIs autonome Hack-Modelle hatten bei einer Sicherheitsevaluierung offenbar nicht nur Hugging Face kompromittiert, sondern auch Zugangsdaten auf vier weiteren Plattformen genutzt. Hugging Face dire",
-      "link": "https://the-decoder.de/openai-raeumt-ein-autonome-ki-modelle-hackten-sich-ueber-hugging-face-hinaus-auf-weitere-plattformen/",
-      "date": "2026-07-29T15:55:56.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "How enabling two settings tripled our scores on the ARC-AGI-3 benchmark",
       "description": "How two API settings improved GPT-5.6 performance on ARC-AGI-3, boosting scores and efficiency by retaining reasoning and enabling compaction.",
       "link": "https://openai.com/index/how-two-settings-tripled-our-arc-agi-3-scores",
@@ -114,24 +132,6 @@
       "description": "OpenAI is giving 100,000 academic researchers free access to ChatGPT's most advanced AI models to accelerate scientific research, collaboration, and discovery.",
       "link": "https://openai.com/index/chatgpt-for-academic-researchers",
       "date": "2026-07-29T10:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "How GPT-5.6 fuses frontier intelligence with frontier efficiency",
-      "description": "GPT-5.6 improves AI efficiency across models, inference, and agentic workflows, helping deliver more useful intelligence per dollar.",
-      "link": "https://openai.com/index/gpt-5-6-frontier-intelligence-efficiency",
-      "date": "2026-07-29T00:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "Scientific computing in the age of agentic AI",
-      "description": "A new field report shows how scientists use AI coding agents to modernize scientific computing, accelerating software development and discovery in genomics and beyond.",
-      "link": "https://openai.com/index/scientific-computing-agentic-ai",
-      "date": "2026-07-28T17:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
