@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-31T18:36:54.193Z",
+  "lastUpdated": "2026-07-31T20:32:06.977Z",
   "news": [
     {
       "title": "Gemini Robotics 2: Googles neues KI-Modell steuert Roboter jeder Form und Größe",
@@ -92,6 +92,15 @@
       "language": "en"
     },
     {
+      "title": "Disrupting a Criminal Scam Operation",
+      "description": "OpenAI disrupted a Cambodia-based scam operation using ChatGPT to support investment, romance, gambling, and impersonation schemes.",
+      "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-criminal-scam-operation",
+      "date": "2026-07-31T00:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
       "title": "Science One Framework: A verifiable autonomous research framework via Chain-of-Evidence",
       "description": "General Science",
       "link": "https://research.google/blog/science-one-framework-a-verifiable-autonomous-research-framework-via-chain-of-evidence/",
@@ -126,15 +135,6 @@
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
-    },
-    {
-      "title": "Advancing the price-performance frontier with GPT-5.6",
-      "description": "Explore lower GPT‑5.6 pricing for Luna and Terra—and how OpenAI’s more efficient models help enterprises deploy AI workflows at scale.",
-      "link": "https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6",
-      "date": "2026-07-30T10:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
     }
   ]
 }
