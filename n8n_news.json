@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-07-30T20:29:44.932Z",
+  "lastUpdated": "2026-07-31T00:43:58.510Z",
   "news": [
+    {
+      "title": "Science One Framework: A verifiable autonomous research framework via Chain-of-Evidence",
+      "description": "General Science",
+      "link": "https://research.google/blog/science-one-framework-a-verifiable-autonomous-research-framework-via-chain-of-evidence/",
+      "date": "2026-07-30T20:36:36.000Z",
+      "source": "Google AI",
+      "category": "große-modelle",
+      "language": "en"
+    },
     {
       "title": "OpenAI senkt Preise: Günstige GPT-5.6-Modelle werden noch viel günstiger",
       "description": "OpenAI senkt die Preise für GPT-5.6 Luna um 80 Prozent und für GPT-5.6 Terra um 20 Prozent ab dem 30. Juli. Laut OpenAI hat das Spitzenmodell Sol selbst dazu beigetragen, die Infrastruktur effizienter",
@@ -123,15 +132,6 @@
       "description": "A new field report shows how scientists use AI coding agents to modernize scientific computing, accelerating software development and discovery in genomics and beyond.",
       "link": "https://openai.com/index/scientific-computing-agentic-ai",
       "date": "2026-07-28T17:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "How AI is expanding what people do at work",
-      "description": "New OpenAI research shows how AI is expanding what workers do, with ChatGPT users taking on tasks across roles and reshaping job boundaries.",
-      "link": "https://openai.com/index/how-ai-is-expanding-what-people-do-at-work",
-      "date": "2026-07-27T03:30:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
