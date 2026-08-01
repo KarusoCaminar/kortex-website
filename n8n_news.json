@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-08-01T14:33:21.475Z",
+  "lastUpdated": "2026-08-01T16:23:33.017Z",
   "news": [
+    {
+      "title": "KI in der Mathematik: KI macht was für Menschen, aber auch mit ihnen",
+      "description": "OpenAIs Widerlegung der Unit Distance Conjecture hat eine Welle KI-gestützter Mathematik-Durchbrüche ausgelöst. Fields-Medaillenträger Timothy Gowers beschreibt, wie GPT 5.6 Pro Probleme in einem Anla",
+      "link": "https://the-decoder.de/ki-in-der-mathematik-ki-macht-was-fuer-menschen-aber-auch-mit-ihnen/",
+      "date": "2026-08-01T14:54:31.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "OpenAI-Feldbericht: KI-Agenten schreiben marode Forschungssoftware neu, doch Forscher müssen aufwendig prüfen",
       "description": "Ein Feldbericht von OpenAI und akademischen Partnern zeigt, wie Coding-Agenten vernachlässigte Forschungssoftware modernisieren könnten, mit Beschleunigungen um das 60-Fache. Doch die Systeme treten l",
@@ -78,15 +87,6 @@
       "description": "Viele Unternehmen investieren in KI, können deren wirtschaftlichen Nutzen jedoch kaum verlässlich beziffern. Das Webinar zeigt dir praxisnahe Ansätze, mit denen du Produktivitätsgewinne und betriebswi",
       "link": "https://the-decoder.de/webinar-ki-roi-messen-was-bringt-der-ki-einsatz-wirtschaftlich-wirklich/",
       "date": "2026-07-31T17:07:23.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Neues Deepseek Flash-Modell gleichauf mit OpenAIs GPT-5.6 Luna bei rund 60 Prozent weniger Kosten",
-      "description": "Deepseek hat sein Budget-Modell V4 Flash mit dem Update \"0731\" deutlich verbessert: Im Artificial Analysis Intelligence Index springt es um zehn Punkte auf 50 und liegt damit nur einen Punkt hinter Op",
-      "link": "https://the-decoder.de/neues-deepseek-flash-modell-gleichauf-mit-openais-gpt-5-6-luna-bei-rund-60-prozent-weniger-kosten/",
-      "date": "2026-07-31T16:20:45.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
