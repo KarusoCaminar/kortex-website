@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-08-01T05:08:21.184Z",
+  "lastUpdated": "2026-08-01T08:50:26.863Z",
   "news": [
+    {
+      "title": "OpenAI arbeitet an neuer Modellfamilie \"Astra\", die stunden- oder tagelang an Problemen arbeiten soll",
+      "description": "OpenAI arbeitet an einer neuen Modellfamilie namens \"Astra\", die mehrere Agenten über längere Zeiträume an komplexen Problemen zusammenarbeiten lassen soll. CEO Sam Altman stellte Astra bereits Politi",
+      "link": "https://the-decoder.de/openai-arbeitet-an-neuer-modellfamilie-astra-die-stunden-oder-tagelang-an-problemen-arbeiten-soll/",
+      "date": "2026-08-01T08:13:49.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Ten advances in mathematics and theoretical computer science",
+      "description": "OpenAI shares new results on long-standing open problems in mathematics and theoretical computer science, including advances in geometry, cryptography, and complexity.",
+      "link": "https://openai.com/index/ten-advances-in-mathematics",
+      "date": "2026-08-01T00:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
     {
       "title": "Gemini Robotics 2: Googles neues KI-Modell steuert Roboter jeder Form und Größe",
       "description": "Google Deepmind stellt mit Gemini Robotics 2 sein bisher fortschrittlichstes Vision-Language-Action-Modell vor, das Roboter aller Bauarten steuern kann: von Tischrobotern bis zu humanoiden Ganzkörperr",
@@ -114,24 +132,6 @@
       "description": "OpenAI senkt die Preise für GPT-5.6 Luna um 80 Prozent und für GPT-5.6 Terra um 20 Prozent ab dem 30. Juli. Laut OpenAI hat das Spitzenmodell Sol selbst dazu beigetragen, die Infrastruktur effizienter",
       "link": "https://the-decoder.de/openai-senkt-preise-guenstige-gpt-5-6-modelle-werden-noch-viel-guenstiger/",
       "date": "2026-07-30T18:35:24.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Debatte um große Sprachmodelle: Werden LLMs vielseitiger – oder nur spezieller?",
-      "description": "Ex-OpenAI-Mitarbeiter Andrew Ho und Cambridge-Forscher Adam Hunt sehen ein wachsendes Problem: Große Sprachmodelle werden nicht vielseitiger, sondern spezialisierter: stark bei Code und Mathematik, sc",
-      "link": "https://the-decoder.de/debatte-um-grosse-sprachmodelle-werden-llms-vielseitiger-oder-nur-spezieller/",
-      "date": "2026-07-30T17:47:17.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Sprachmodelle können keine wissenschaftlichen Revolutionen auslösen, Weltmodelle vielleicht schon",
-      "description": "Können Sprachmodelle eine wissenschaftliche Revolution auslösen? In einem Positionspapier mit dem Titel \"LLMs can't jump\" argumentiert Tom Zahavy von Google Deepmind: nein. Ihnen fehle der entscheiden",
-      "link": "https://the-decoder.de/sprachmodelle-koennen-keine-wissenschaftlichen-revolutionen-ausloesen-weltmodelle-vielleicht-schon/",
-      "date": "2026-07-30T13:37:33.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
