@@ -1,11 +1,47 @@
 {
-  "lastUpdated": "2026-08-01T08:50:26.863Z",
+  "lastUpdated": "2026-08-01T14:33:21.475Z",
   "news": [
     {
-      "title": "OpenAI arbeitet an neuer Modellfamilie \"Astra\", die stunden- oder tagelang an Problemen arbeiten soll",
+      "title": "OpenAI-Feldbericht: KI-Agenten schreiben marode Forschungssoftware neu, doch Forscher müssen aufwendig prüfen",
+      "description": "Ein Feldbericht von OpenAI und akademischen Partnern zeigt, wie Coding-Agenten vernachlässigte Forschungssoftware modernisieren könnten, mit Beschleunigungen um das 60-Fache. Doch die Systeme treten l",
+      "link": "https://the-decoder.de/openai-feldbericht-ki-agenten-schreiben-marode-forschungssoftware-neu-doch-forscher-muessen-aufwendig-pruefen/",
+      "date": "2026-08-01T14:00:28.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Seedance 2.5: ByteDances neues Videomodell liefert 30-Sekunden-Clips mit integriertem Audio",
+      "description": "ByteDance veröffentlicht mit Seedance 2.5 ein KI-Videomodell, das Video und Audio in einem Durchgang erzeugt, mit bis zu 30 Sekunden pro Clip, dreimal so viel wie Googles Gemini Omni Flash. Nutzer kön",
+      "link": "https://the-decoder.de/seedance-2-5-bytedances-neues-videomodell-liefert-30-sekunden-clips-mit-integriertem-audio/",
+      "date": "2026-08-01T13:22:30.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Landgericht München verurteilt KI-Musikgenerator Suno wegen Urheberrechtsverletzung",
+      "description": "Das Landgericht München hat den KI-Musikgenerator Suno wegen Urheberrechtsverletzung verurteilt. Das Gericht stellte fest, dass sechs Musikwerke reproduzierbar in Sunos Modellen gespeichert sind, und",
+      "link": "https://the-decoder.de/landgericht-muenchen-verurteilt-ki-musikgenerator-suno-wegen-urheberrechtsverletzung/",
+      "date": "2026-08-01T10:21:50.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "OpenAI bestätigt \"nächste große Modellfamilie\" Astra und löst damit zehn offene Mathe-Probleme auf einen Schlag",
       "description": "OpenAI arbeitet an einer neuen Modellfamilie namens \"Astra\", die mehrere Agenten über längere Zeiträume an komplexen Problemen zusammenarbeiten lassen soll. CEO Sam Altman stellte Astra bereits Politi",
-      "link": "https://the-decoder.de/openai-arbeitet-an-neuer-modellfamilie-astra-die-stunden-oder-tagelang-an-problemen-arbeiten-soll/",
-      "date": "2026-08-01T08:13:49.000Z",
+      "link": "https://the-decoder.de/openai-bestaetigt-naechste-grosse-modellfamilie-astra-und-loest-damit-zehn-offene-mathe-probleme-auf-einen-schlag/",
+      "date": "2026-08-01T09:19:49.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Google Earth mit KI-Bildgenerator war eine schlechte Idee: Nutzer fälschten Satellitenbilder",
+      "description": "Google musste die Integration seines Bildmodells Nano Banana 2 in Google Earth nur zwei Tage nach dem Launch zurückziehen. Nutzer zeigten, wie leicht sich damit täuschend echte Fake-Satellitenbilder e",
+      "link": "https://the-decoder.de/google-earth-mit-ki-bildgenerator-war-eine-schlechte-idee-nutzer-faelschten-satellitenbilder/",
+      "date": "2026-08-01T08:52:04.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
@@ -56,15 +92,6 @@
       "language": "de"
     },
     {
-      "title": "Bis zu 30 Milliarden Euro für KI-Rechenzentren: EU bleibt im KI-Wettrennen chancenlos gegen die USA",
-      "description": "Die EU-Kommission hat eine Ausschreibung für bis zu sieben KI-Gigafabriken gestartet, die rund 30 Milliarden Euro aus öffentlichen und privaten Mitteln mobilisieren sollen. Zum Vergleich: Allein die g",
-      "link": "https://the-decoder.de/bis-zu-30-milliarden-euro-fuer-ki-rechenzentren-eu-bleibt-im-ki-wettrennen-chancenlos-gegen-die-usa/",
-      "date": "2026-07-31T15:22:08.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "Advancing responsible AI across Europe",
       "description": "OpenAI shares how its safety, security, transparency, and provenance practices support responsible AI governance in Europe. The work will continue as the EU AI Act advances.",
       "link": "https://openai.com/index/advancing-responsible-ai-across-europe",
@@ -81,24 +108,6 @@
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
-    },
-    {
-      "title": "Ex-OpenAI-Mitarbeiter scheitert mit riskantem KI-Hedgefonds an fallenden Techaktien",
-      "description": "Leopold Aschenbrenners KI-Hedgefonds Situational Awareness musste nach hohen Verlusten durch gehebelte Positionen in KI-Aktien fast sein gesamtes börsennotiertes Portfolio an Ken Griffins Citadel verk",
-      "link": "https://the-decoder.de/ex-openai-mitarbeiter-scheitert-mit-riskantem-ki-hedgefonds-an-fallenden-techaktien/",
-      "date": "2026-07-31T10:33:05.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Auch Anthropics Claude hackte bei Sicherheitstests versehentlich echte Unternehmen übers Internet",
-      "description": "Drei Claude-Modelle haben bei Cybersecurity-Tests reale Unternehmen im Internet angegriffen, weil eine Fehlkonfiguration ihnen unbeabsichtigt Zugang gab. Ein Modell veröffentlichte sogar Malware auf P",
-      "link": "https://the-decoder.de/auch-anthropics-claude-hackte-bei-sicherheitstests-versehentlich-echte-unternehmen-uebers-internet/",
-      "date": "2026-07-31T10:28:37.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
     },
     {
       "title": "Univé builds an AI-ready workforce",
@@ -126,15 +135,6 @@
       "source": "Google AI",
       "category": "große-modelle",
       "language": "en"
-    },
-    {
-      "title": "OpenAI senkt Preise: Günstige GPT-5.6-Modelle werden noch viel günstiger",
-      "description": "OpenAI senkt die Preise für GPT-5.6 Luna um 80 Prozent und für GPT-5.6 Terra um 20 Prozent ab dem 30. Juli. Laut OpenAI hat das Spitzenmodell Sol selbst dazu beigetragen, die Infrastruktur effizienter",
-      "link": "https://the-decoder.de/openai-senkt-preise-guenstige-gpt-5-6-modelle-werden-noch-viel-guenstiger/",
-      "date": "2026-07-30T18:35:24.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
     }
   ]
 }
