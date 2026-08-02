@@ -1,6 +1,51 @@
 {
-  "lastUpdated": "2026-08-02T05:08:04.649Z",
+  "lastUpdated": "2026-08-02T12:27:24.890Z",
   "news": [
+    {
+      "title": "Meta AI lässt einen zweiten KI-Agenten mitschreiben, damit lange Aufgaben nicht entgleisen",
+      "description": "Meta AI will ein häufiges Problem von KI-Agenten lösen: Bei komplexen Aufgaben vergessen sie bereits erkannte Fehler und wiederholen sich. Ein separater Memory-Agent läuft nebenher, pflegt eine strukt",
+      "link": "https://the-decoder.de/meta-ai-laesst-einen-zweiten-ki-agenten-mitschreiben-damit-lange-aufgaben-nicht-entgleisen/",
+      "date": "2026-08-02T10:19:38.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Kaum eine der von KI gefundenen Sicherheitslücken wird wirklich angegriffen, zeigt eine Auswertung von VulnCheck",
+      "description": "VulnCheck hat ausgewertet, wie oft von KI entdeckte Sicherheitslücken tatsächlich angegriffen werden: Nur 14 von 1.061 Funden, also 1,3 Prozent, dieselbe Quote wie bei herkömmlich gemeldeten Schwachst",
+      "link": "https://the-decoder.de/ki-gefundene-sicherheitsluecken-werden-kaum-angegriffen-vulncheck/",
+      "date": "2026-08-02T10:03:27.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Ego-Shooter, U-Boot-Spiel, Kart-Racer: Claude Opus 5 generiert spielbare Browser-Games nur per Prompt",
+      "description": "Anthropics Claude Opus 5 erzeugt komplette 3D-Spiele aus einzelnen Prompts – Ego-Shooter, Kart-Racer, Minecraft-Nachbau – ohne ein einziges externes Asset. Geometrie, Texturen, Physik und teils Musik",
+      "link": "https://the-decoder.de/ego-shooter-u-boot-spiel-kart-racer-claude-opus-5-generiert-spielbare-browser-games-nur-per-prompt/",
+      "date": "2026-08-02T08:22:23.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Nach Hugging-Face-Angriff: METR fordert systematische Untersuchungen bei KI-Fehlverhalten",
+      "description": "Die Forschungsorganisation METR fordert systematische, unabhängig geleitete Untersuchungen, wenn KI-Agenten autonom gegen die Absichten ihrer Entwickler handeln. Anlass ist unter anderem der Hugging-F",
+      "link": "https://the-decoder.de/nach-hugging-face-angriff-metr-fordert-systematische-untersuchungen-bei-ki-fehlverhalten/",
+      "date": "2026-08-02T07:27:17.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Snap und LinkedIn wehren sich gegen Flut minderwertiger KI-Inhalte",
+      "description": "Snap verbannt vollständig KI-generierte Videos aus den Spotlight-Empfehlungen, um die Plattform für menschliche Kreativität zu reservieren. Mit eigenen KI-Tools bearbeitete Inhalte bleiben erlaubt. Au",
+      "link": "https://the-decoder.de/snap-und-linkedin-wehren-sich-gegen-flut-minderwertiger-ki-inhalte/",
+      "date": "2026-08-02T06:36:28.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "KI in der Mathematik: KI macht was für Menschen, aber auch mit ihnen",
       "description": "OpenAIs Widerlegung der Unit Distance Conjecture hat eine Welle KI-gestützter Mathematik-Durchbrüche ausgelöst. Fields-Medaillenträger Timothy Gowers beschreibt, wie GPT 5.6 Pro Probleme in einem Anla",
@@ -38,24 +83,6 @@
       "language": "de"
     },
     {
-      "title": "OpenAI bestätigt \"nächste große Modellfamilie\" Astra und löst damit zehn offene Mathe-Probleme auf einen Schlag",
-      "description": "OpenAI arbeitet an einer neuen Modellfamilie namens \"Astra\", die mehrere Agenten über längere Zeiträume an komplexen Problemen zusammenarbeiten lassen soll. CEO Sam Altman stellte Astra bereits Politi",
-      "link": "https://the-decoder.de/openai-bestaetigt-naechste-grosse-modellfamilie-astra-und-loest-damit-zehn-offene-mathe-probleme-auf-einen-schlag/",
-      "date": "2026-08-01T09:19:49.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Google Earth mit KI-Bildgenerator war eine schlechte Idee: Nutzer fälschten Satellitenbilder",
-      "description": "Google musste die Integration seines Bildmodells Nano Banana 2 in Google Earth nur zwei Tage nach dem Launch zurückziehen. Nutzer zeigten, wie leicht sich damit täuschend echte Fake-Satellitenbilder e",
-      "link": "https://the-decoder.de/google-earth-mit-ki-bildgenerator-war-eine-schlechte-idee-nutzer-faelschten-satellitenbilder/",
-      "date": "2026-08-01T08:52:04.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "Ten advances in mathematics and theoretical computer science",
       "description": "OpenAI shares new results on long-standing open problems in mathematics and theoretical computer science, including advances in geometry, cryptography, and complexity.",
       "link": "https://openai.com/index/ten-advances-in-mathematics",
@@ -63,33 +90,6 @@
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
-    },
-    {
-      "title": "Gemini Robotics 2: Googles neues KI-Modell steuert Roboter jeder Form und Größe",
-      "description": "Google Deepmind stellt mit Gemini Robotics 2 sein bisher fortschrittlichstes Vision-Language-Action-Modell vor, das Roboter aller Bauarten steuern kann: von Tischrobotern bis zu humanoiden Ganzkörperr",
-      "link": "https://the-decoder.de/gemini-robotics-2-googles-neues-ki-modell-steuert-roboter-jeder-form-und-groesse/",
-      "date": "2026-07-31T17:58:08.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Thinking Machines setzt mit zweitem Modell Inkling Small auf Effizienz statt Größe",
-      "description": "Thinking Machines, das KI-Labor von Ex-OpenAI-CTO Mira Murati, veröffentlicht Inkling Small. Das Open-Weights-Reasoning-Modell ist weniger als ein Drittel so groß wie sein Vorgänger Inkling, schneidet",
-      "link": "https://the-decoder.de/thinking-machines-setzt-mit-zweitem-modell-inkling-small-auf-effizienz-statt-groesse/",
-      "date": "2026-07-31T17:29:50.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Webinar | KI-ROI messen: Was bringt der KI-Einsatz wirtschaftlich wirklich?",
-      "description": "Viele Unternehmen investieren in KI, können deren wirtschaftlichen Nutzen jedoch kaum verlässlich beziffern. Das Webinar zeigt dir praxisnahe Ansätze, mit denen du Produktivitätsgewinne und betriebswi",
-      "link": "https://the-decoder.de/webinar-ki-roi-messen-was-bringt-der-ki-einsatz-wirtschaftlich-wirklich/",
-      "date": "2026-07-31T17:07:23.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
     },
     {
       "title": "Advancing responsible AI across Europe",
