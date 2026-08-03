@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-08-03T16:52:01.460Z",
+  "lastUpdated": "2026-08-03T18:38:59.338Z",
   "news": [
+    {
+      "title": "Statt Angst vor Jobverlust: Alibaba verkauft Qwen-KI als Ticket zu mehr Freizeit",
+      "description": "Alibaba bewirbt sein neues KI-Modell Qwen 3.8 mit einem Video, in dem die KI arbeitet und der Mensch seinen Hobbys nachgeht, ein Gegenentwurf zur Jobverlust-Rhetorik von OpenAI oder Anthropic. Am Ende",
+      "link": "https://the-decoder.de/statt-angst-vor-jobverlust-alibaba-verkauft-qwen-ki-als-ticket-zu-mehr-freizeit/",
+      "date": "2026-08-03T17:04:23.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Bei KI-Sicherheitsvorfällen fehlt fast immer die Zugriffskontrollen",
       "description": "Laut IBMs Cost of a Data Breach Report 2026 fehlten bei 92 Prozent der Unternehmen mit KI-bezogenem Sicherheitsvorfall ausreichende Zugriffskontrollen für ihre KI-Systeme. Das Einfallstor sind meist k",
@@ -69,15 +78,6 @@
       "description": "Apples Bug-Bounty-Programm erstickt an KI-generierten Fehlerberichten: Der Konzern hat die Zahl der Einreichungen pro Forscher begrenzt, weil halluzinierte Meldungen das Prüfsystem verstopfen. Das ita",
       "link": "https://the-decoder.de/apple-kann-mit-ki-generierten-fehlerberichten-nicht-mehr-schritt-halten-und-begrenzt-einreichungen/",
       "date": "2026-08-02T12:34:49.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Meta AI lässt einen zweiten KI-Agenten mitschreiben, damit lange Aufgaben nicht entgleisen",
-      "description": "Meta AI will ein häufiges Problem von KI-Agenten lösen: Bei komplexen Aufgaben vergessen sie bereits erkannte Fehler und wiederholen sich. Ein separater Memory-Agent läuft nebenher, pflegt eine strukt",
-      "link": "https://the-decoder.de/meta-ai-laesst-einen-zweiten-ki-agenten-mitschreiben-damit-lange-aufgaben-nicht-entgleisen/",
-      "date": "2026-08-02T10:19:38.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
