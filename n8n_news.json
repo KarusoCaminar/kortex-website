@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-08-02T16:23:36.673Z",
+  "lastUpdated": "2026-08-03T03:09:37.065Z",
   "news": [
+    {
+      "title": "Webinar | KI-ROI messen: Was bringt der KI-Einsatz wirtschaftlich wirklich?",
+      "description": "Viele Unternehmen investieren in KI, können deren wirtschaftlichen Nutzen jedoch kaum verlässlich beziffern. Das Webinar zeigt dir praxisnahe Ansätze, mit denen du Produktivitätsgewinne und betriebswi",
+      "link": "https://the-decoder.de/webinar-ki-roi-messen-was-bringt-der-ki-einsatz-wirtschaftlich-wirklich/",
+      "date": "2026-08-02T17:07:23.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "OpenAI Presence soll KI-Agenten für Unternehmen produktionsreif machen",
       "description": "OpenAI stellt mit Presence ein neues Angebot für Enterprise-Kunden vor, das KI-Agenten für Kundenservice und interne Workflows produktionsreif machen soll. Anders als die bisherigen Workspace-Agents z",
@@ -124,15 +133,6 @@
       "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-criminal-scam-operation",
       "date": "2026-07-31T00:00:00.000Z",
       "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "Science One Framework: A verifiable autonomous research framework via Chain-of-Evidence",
-      "description": "General Science",
-      "link": "https://research.google/blog/science-one-framework-a-verifiable-autonomous-research-framework-via-chain-of-evidence/",
-      "date": "2026-07-30T20:36:36.000Z",
-      "source": "Google AI",
       "category": "große-modelle",
       "language": "en"
     }
