@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-08-03T09:12:46.437Z",
+  "lastUpdated": "2026-08-03T13:08:36.668Z",
   "news": [
+    {
+      "title": "Einhorn, Pelikan, Mittelerde: OpenAI-Mitgründer Karpathy sucht den nächsten KI-Vibe-Test",
+      "description": "Ein Absatz \"Herr der Ringe\" rein, 5.500 Zeilen Code raus: Andrej Karpathy hat Claude Opus 5 die Tolkien-Eröffnung als 3D-Szene für den Browser bauen lassen.\nDer Artikel Einhorn, Pelikan, Mittelerde: O",
+      "link": "https://the-decoder.de/einhorn-pelikan-mittelerde-openai-mitgruender-karpathy-sucht-den-naechsten-ki-vibe-test/",
+      "date": "2026-08-03T11:52:31.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Zwei unabhängige Beweise für dasselbe Krypto-Problem zeigen, wie KI die Wissenschaft umkrempelt",
+      "description": "Zwei Forscherteams haben unabhängig voneinander dasselbe offene Problem der Quantenkryptografie gelöst, im Abstand von nur drei Stunden, beide mithilfe von OpenAIs GPT-5.6 Sol Ultra. \"Wenn jemand ein",
+      "link": "https://the-decoder.de/zwei-unabhaengige-beweise-fuer-dasselbe-krypto-problem-zeigen-wie-ki-die-wissenschaft-umkrempelt/",
+      "date": "2026-08-03T10:43:58.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Webinar | KI-ROI messen: Was bringt der KI-Einsatz wirtschaftlich wirklich?",
       "description": "Viele Unternehmen investieren in KI, können deren wirtschaftlichen Nutzen jedoch kaum verlässlich beziffern. Das Webinar zeigt dir praxisnahe Ansätze, mit denen du Produktivitätsgewinne und betriebswi",
@@ -65,33 +83,6 @@
       "language": "de"
     },
     {
-      "title": "Snap und LinkedIn wehren sich gegen Flut minderwertiger KI-Inhalte",
-      "description": "Snap verbannt vollständig KI-generierte Videos aus den Spotlight-Empfehlungen, um die Plattform für menschliche Kreativität zu reservieren. Mit eigenen KI-Tools bearbeitete Inhalte bleiben erlaubt. Au",
-      "link": "https://the-decoder.de/snap-und-linkedin-wehren-sich-gegen-flut-minderwertiger-ki-inhalte/",
-      "date": "2026-08-02T06:36:28.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "KI in der Mathematik: KI macht was für Menschen, aber auch mit ihnen",
-      "description": "OpenAIs Widerlegung der Unit Distance Conjecture hat eine Welle KI-gestützter Mathematik-Durchbrüche ausgelöst. Fields-Medaillenträger Timothy Gowers beschreibt, wie GPT 5.6 Pro Probleme in einem Anla",
-      "link": "https://the-decoder.de/ki-in-der-mathematik-ki-macht-was-fuer-menschen-aber-auch-mit-ihnen/",
-      "date": "2026-08-01T14:54:31.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "OpenAI-Feldbericht: KI-Agenten schreiben marode Forschungssoftware neu, doch Forscher müssen aufwendig prüfen",
-      "description": "Ein Feldbericht von OpenAI und akademischen Partnern zeigt, wie Coding-Agenten vernachlässigte Forschungssoftware modernisieren könnten, mit Beschleunigungen um das 60-Fache. Doch die Systeme treten l",
-      "link": "https://the-decoder.de/openai-feldbericht-ki-agenten-schreiben-marode-forschungssoftware-neu-doch-forscher-muessen-aufwendig-pruefen/",
-      "date": "2026-08-01T14:00:28.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "Ten advances in mathematics and theoretical computer science",
       "description": "OpenAI shares new results on long-standing open problems in mathematics and theoretical computer science, including advances in geometry, cryptography, and complexity.",
       "link": "https://openai.com/index/ten-advances-in-mathematics",
@@ -133,6 +124,15 @@
       "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-criminal-scam-operation",
       "date": "2026-07-31T00:00:00.000Z",
       "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
+      "title": "Science One Framework: A verifiable autonomous research framework via Chain-of-Evidence",
+      "description": "General Science",
+      "link": "https://research.google/blog/science-one-framework-a-verifiable-autonomous-research-framework-via-chain-of-evidence/",
+      "date": "2026-07-30T20:36:36.000Z",
+      "source": "Google AI",
       "category": "große-modelle",
       "language": "en"
     }
