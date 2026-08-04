@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-08-04T03:08:06.970Z",
+  "lastUpdated": "2026-08-04T06:58:31.947Z",
   "news": [
+    {
+      "title": "Apple is getting this wrong",
+      "description": "OpenAI addresses Apple’s baseless lawsuit, corrects claims about its employees, and shares messages documenting what happened.",
+      "link": "https://openai.com/index/apple-is-getting-this-wrong",
+      "date": "2026-08-03T22:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
     {
       "title": "Statt Angst vor Jobverlust: Alibaba verkauft Qwen-KI als Ticket zu mehr Freizeit",
       "description": "Alibaba bewirbt sein neues KI-Modell Qwen 3.8 mit einem Video, in dem die KI arbeitet und der Mensch seinen Hobbys nachgeht, ein Gegenentwurf zur Jobverlust-Rhetorik von OpenAI oder Anthropic. Am Ende",
@@ -123,15 +132,6 @@
       "description": "A full-stack approach to making advanced AI more capable, more affordable, and more widely useful.",
       "link": "https://openai.com/index/building-abundant-intelligence",
       "date": "2026-07-31T15:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "Univé builds an AI-ready workforce",
-      "description": "See how Univé built an AI-ready workforce with ChatGPT Enterprise by combining leadership, responsible governance, and employee-led innovation to transform work at scale.",
-      "link": "https://openai.com/index/unive",
-      "date": "2026-07-31T07:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
