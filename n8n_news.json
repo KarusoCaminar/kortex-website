@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-08-04T10:55:03.904Z",
+  "lastUpdated": "2026-08-04T12:44:12.770Z",
   "news": [
+    {
+      "title": "Machtkampf im Silicon Valley stoppt vorerst US-Verbote für Chinas KI-Modelle",
+      "description": "Die Trump-Regierung diskutierte laut der New York Times Sanktionen und Cloud-Sperren gegen chinesische Open-Source-KI-Modelle. OpenAI und Anthropic drängten auf Beschränkungen, Nvidia, Google und Meta",
+      "link": "https://the-decoder.de/machtkampf-im-silicon-valley-stoppt-vorerst-us-verbote-fuer-chinas-ki-modelle/",
+      "date": "2026-08-04T12:06:43.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "OpenAI wehrt sich gegen Apple-Klage und veröffentlicht Chatnachrichten als Beweis",
       "description": "OpenAI wehrt sich gegen Apples Klage wegen Geschäftsgeheimnisdiebstahls und veröffentlicht iMessage-Verläufe des Ex-Apple-Ingenieurs Chang Liu. Die Nachrichten zeigen, wie Apple-Mitarbeiter ihren ehem",
@@ -98,15 +107,6 @@
       "date": "2026-08-02T17:07:23.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "OpenAI Presence soll KI-Agenten für Unternehmen produktionsreif machen",
-      "description": "OpenAI stellt mit Presence ein neues Angebot für Enterprise-Kunden vor, das KI-Agenten für Kundenservice und interne Workflows produktionsreif machen soll. Anders als die bisherigen Workspace-Agents z",
-      "link": "https://the-decoder.de/openai-presence-soll-ki-agenten-fuer-unternehmen-produktionsreif-machen/",
-      "date": "2026-08-02T13:08:21.000Z",
-      "source": "The Decoder",
-      "category": "industrie-4.0",
       "language": "de"
     },
     {
