@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-08-04T06:58:31.947Z",
+  "lastUpdated": "2026-08-04T09:01:12.606Z",
   "news": [
+    {
+      "title": "OpenAI wehrt sich gegen Apple-Klage und veröffentlicht Chatnachrichten als Beweis",
+      "description": "OpenAI wehrt sich gegen Apples Klage wegen Geschäftsgeheimnisdiebstahls und veröffentlicht iMessage-Verläufe des Ex-Apple-Ingenieurs Chang Liu. Die Nachrichten zeigen, wie Apple-Mitarbeiter ihren ehem",
+      "link": "https://the-decoder.de/openai-wehrt-sich-gegen-apple-klage-und-veroeffentlicht-chatnachrichten-als-beweis/",
+      "date": "2026-08-04T08:23:53.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Apple is getting this wrong",
       "description": "OpenAI addresses Apple’s baseless lawsuit, corrects claims about its employees, and shares messages documenting what happened.",
@@ -98,15 +107,6 @@
       "date": "2026-08-02T13:08:21.000Z",
       "source": "The Decoder",
       "category": "industrie-4.0",
-      "language": "de"
-    },
-    {
-      "title": "Apple kann mit KI-generierten Fehlerberichten nicht mehr Schritt halten und begrenzt Einreichungen",
-      "description": "Apples Bug-Bounty-Programm erstickt an KI-generierten Fehlerberichten: Der Konzern hat die Zahl der Einreichungen pro Forscher begrenzt, weil halluzinierte Meldungen das Prüfsystem verstopfen. Das ita",
-      "link": "https://the-decoder.de/apple-kann-mit-ki-generierten-fehlerberichten-nicht-mehr-schritt-halten-und-begrenzt-einreichungen/",
-      "date": "2026-08-02T12:34:49.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
       "language": "de"
     },
     {
