@@ -1,6 +1,42 @@
 {
-  "lastUpdated": "2026-08-05T14:50:32.484Z",
+  "lastUpdated": "2026-08-05T20:32:47.628Z",
   "news": [
+    {
+      "title": "KI-Beben bei Google Deepmind: CEO Demis Hassabis tritt zurück, Chefforscher Jeff Dean geht",
+      "description": "Google Deepmind erlebt einen doppelten Umbruch: Demis Hassabis gibt die operative Leitung ab und wird Chief Scientist von Alphabet, während Chefforscher Jeff Dean nach 27 Jahren geht, um mit Discovery",
+      "link": "https://the-decoder.de/ki-beben-bei-google-deepmind-ceo-demis-hassabis-tritt-zurueck-chefforscher-jeff-dean-geht/",
+      "date": "2026-08-05T18:11:53.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Google stellt den Google Assistant ab September 2026 ein: Gemini übernimmt auf Android und Wear OS",
+      "description": "Google stellt den Google Assistant auf Android und Wear OS ab dem 4. September 2026 ein. Gemini übernimmt als KI-gestützter Nachfolger auf Smartphones, Tablets, Uhren und in Autos mit Android Auto. Ob",
+      "link": "https://the-decoder.de/google-stellt-den-google-assistant-ab-september-2026-ein-gemini-uebernimmt-auf-android-und-wear-os/",
+      "date": "2026-08-05T17:36:38.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Shieldstral: Mistrals kleines Open-Weight-Modell schlägt deutlich rechenintensivere Safety-Klassifikatoren",
+      "description": "Mistrals neues 3B-Modell Shieldstral prüft KI-Eingaben und -Ausgaben auf Sicherheitsverstöße und ersetzt dabei feste Kategorien durch einfache Ja/Nein-Fragen in natürlicher Sprache. Mit nur drei Milli",
+      "link": "https://the-decoder.de/mistrals-shieldstral-ersetzt-fixe-safety-kategorien-durch-einfache-ja-nein-fragen/",
+      "date": "2026-08-05T16:07:07.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "UK-Arbeitsmarkt: Wer KI kann, wird gesucht – der Rest schaut zu",
+      "description": "Laut einer Indeed-Analyse erwähnen bereits 9,4 Prozent aller britischen Stellenanzeigen KI – 2023 waren es noch rund 2 Prozent. Während die Gesamtnachfrage in Wissensarbeitsbranchen wie Marketing oder",
+      "link": "https://the-decoder.de/uk-arbeitsmarkt-wer-ki-kann-wird-gesucht-der-rest-schaut-zu/",
+      "date": "2026-08-05T15:21:52.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "SpaceX will seine KI-Rechenleistung bis Ende 2027 mit Nvidia mehr als verfünffachen",
       "description": "SpaceX will seine Rechenleistung bis Ende 2027 mehr als verfünffachen und setzt dabei ausschließlich auf Nvidias Vera-Rubin-Plattform. Dafür könnten rechnerisch über eine Million neuer GPUs nötig werd",
@@ -56,24 +92,6 @@
       "language": "de"
     },
     {
-      "title": "Machtkampf im Silicon Valley stoppt vorerst US-Verbote für Chinas KI-Modelle",
-      "description": "Die Trump-Regierung diskutierte laut der New York Times Sanktionen und Cloud-Sperren gegen chinesische Open-Weight-KI-Modelle. OpenAI und Anthropic drängten auf Beschränkungen, Nvidia, Google und Meta",
-      "link": "https://the-decoder.de/machtkampf-im-silicon-valley-stoppt-vorerst-us-verbote-fuer-chinas-ki-modelle/",
-      "date": "2026-08-04T12:06:43.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "OpenAI wehrt sich gegen Apple-Klage und veröffentlicht Chatnachrichten als Beweis",
-      "description": "OpenAI wehrt sich gegen Apples Klage wegen Geschäftsgeheimnisdiebstahls und veröffentlicht iMessage-Verläufe des Ex-Apple-Ingenieurs Chang Liu. Die Nachrichten zeigen, wie Apple-Mitarbeiter ihren ehem",
-      "link": "https://the-decoder.de/openai-wehrt-sich-gegen-apple-klage-und-veroeffentlicht-chatnachrichten-als-beweis/",
-      "date": "2026-08-04T08:23:53.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "New ways to learn and teach with ChatGPT Work and Codex",
       "description": "Explore new education plugins for ChatGPT Work and Codex that help K–12 teachers, college educators, and students learn, teach, research, and build.",
       "link": "https://openai.com/index/learn-teach-chatgpt-work-codex",
@@ -90,15 +108,6 @@
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
-    },
-    {
-      "title": "Statt Angst vor Jobverlust: Alibaba verkauft Qwen-KI als Ticket zu mehr Freizeit",
-      "description": "Alibaba bewirbt sein neues KI-Modell Qwen 3.8 mit einem Video, in dem die KI arbeitet und der Mensch seinen Hobbys nachgeht, ein Gegenentwurf zur Jobverlust-Rhetorik von OpenAI oder Anthropic. Am Ende",
-      "link": "https://the-decoder.de/statt-angst-vor-jobverlust-alibaba-verkauft-qwen-ki-als-ticket-zu-mehr-freizeit/",
-      "date": "2026-08-03T17:04:23.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
     },
     {
       "title": "How we built a realtime system for responsive voice AI in six months",
@@ -123,15 +132,6 @@
       "description": "OpenAI shares new results on long-standing open problems in mathematics and theoretical computer science, including advances in geometry, cryptography, and complexity.",
       "link": "https://openai.com/index/ten-advances-in-mathematics",
       "date": "2026-08-01T00:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "Advancing responsible AI across Europe",
-      "description": "OpenAI shares how its safety, security, transparency, and provenance practices support responsible AI governance in Europe. The work will continue as the EU AI Act advances.",
-      "link": "https://openai.com/index/advancing-responsible-ai-across-europe",
-      "date": "2026-07-31T15:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
