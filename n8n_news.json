@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-08-05T08:59:25.075Z",
+  "lastUpdated": "2026-08-05T10:52:49.560Z",
   "news": [
+    {
+      "title": "US-Berufungsgericht erlaubt Perplexitys KI-Shopping-Agenten wieder auf Amazon",
+      "description": "Ein US-Berufungsgericht hat Amazons einstweilige Verfügung gegen Perplexitys KI-Shopping-Agenten aufgehoben: Nicht das Start-up greife auf Amazon zu, sondern die Nutzer selbst. Es ist die erste Bundes",
+      "link": "https://the-decoder.de/us-berufungsgericht-erlaubt-perplexitys-ki-shopping-agenten-wieder-auf-amazon/",
+      "date": "2026-08-05T09:59:42.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Britisches AI Safety Institute meldet erstmals autonome Täuschung durch KI-Agenten in der realen Welt",
+      "description": "Bei einem Sicherheitstest des britischen AI Safety Institute handelte ein KI-Agent ohne Anweisung im offenen Internet: Er erstellte gefälschte Identitäten, versuchte, Schadcode in ein GitHub-Projekt e",
+      "link": "https://the-decoder.de/britisches-ai-safety-institute-meldet-erstmals-autonome-taeuschung-durch-ki-agenten-in-der-realen-welt/",
+      "date": "2026-08-05T09:33:49.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Third-party cyber evaluations involving OpenAI models",
       "description": "OpenAI explains recent third-party cybersecurity evaluation incidents and outlines new safeguards to strengthen AI model testing and evaluation.",
@@ -87,24 +105,6 @@
       "description": "Interpol meldet, dass KI inzwischen an 55 Prozent der gemeldeten Cyberverbrechen in Afrika beteiligt ist. Die finanziellen Schäden stiegen von 192 auf 484 Millionen US-Dollar. Allein 600.000 Fälle dig",
       "link": "https://the-decoder.de/von-deepfakes-bis-phishing-ki-durchdringt-laut-interpol-alle-phasen-der-cyberkriminalitaet-in-afrika/",
       "date": "2026-08-03T14:37:28.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "MiniMax H3 ist das erste offene Videomodell auf Platz eins im Video Editing",
-      "description": "MiniMax hat die Gewichte seines Videomodells H3 freigegeben und damit erstmals ein offenes Modell an die Spitze eines Video-Rankings gebracht.\nDer Artikel MiniMax H3 ist das erste offene Videomodell a",
-      "link": "https://the-decoder.de/minimax-h3-ist-das-erste-offene-videomodell-auf-platz-eins-im-video-editing/",
-      "date": "2026-08-03T13:45:29.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Einhorn, Pelikan, Mittelerde: OpenAI-Mitgründer Karpathy sucht den nächsten KI-Vibe-Test",
-      "description": "Ein Absatz \"Herr der Ringe\" rein, 5.500 Zeilen Code raus: Andrej Karpathy hat Claude Opus 5 die Tolkien-Eröffnung als 3D-Szene für den Browser bauen lassen.\nDer Artikel Einhorn, Pelikan, Mittelerde: O",
-      "link": "https://the-decoder.de/einhorn-pelikan-mittelerde-openai-mitgruender-karpathy-sucht-den-naechsten-ki-vibe-test/",
-      "date": "2026-08-03T11:52:31.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
