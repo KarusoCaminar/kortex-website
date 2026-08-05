@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-08-05T10:52:49.560Z",
+  "lastUpdated": "2026-08-05T14:50:32.484Z",
   "news": [
+    {
+      "title": "SpaceX will seine KI-Rechenleistung bis Ende 2027 mit Nvidia mehr als verfünffachen",
+      "description": "SpaceX will seine Rechenleistung bis Ende 2027 mehr als verfünffachen und setzt dabei ausschließlich auf Nvidias Vera-Rubin-Plattform. Dafür könnten rechnerisch über eine Million neuer GPUs nötig werd",
+      "link": "https://the-decoder.de/spacex-will-seine-ki-rechenleistung-bis-ende-2027-mit-nvidia-mehr-als-verfuenffachen/",
+      "date": "2026-08-05T13:43:50.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "US-Berufungsgericht erlaubt Perplexitys KI-Shopping-Agenten wieder auf Amazon",
       "description": "Ein US-Berufungsgericht hat Amazons einstweilige Verfügung gegen Perplexitys KI-Shopping-Agenten aufgehoben: Nicht das Start-up greife auf Amazon zu, sondern die Nutzer selbst. Es ist die erste Bundes",
@@ -92,24 +101,6 @@
       "language": "de"
     },
     {
-      "title": "Bei KI-Sicherheitsvorfällen fehlt fast immer die Zugriffskontrollen",
-      "description": "Laut IBMs Cost of a Data Breach Report 2026 fehlten bei 92 Prozent der Unternehmen mit KI-bezogenem Sicherheitsvorfall ausreichende Zugriffskontrollen für ihre KI-Systeme. Das Einfallstor sind meist k",
-      "link": "https://the-decoder.de/bei-ki-sicherheitsvorfaellen-fehlt-fast-immer-die-zugriffskontrollen/",
-      "date": "2026-08-03T15:37:01.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Von Deepfakes bis Phishing: KI durchdringt laut Interpol alle Phasen der Cyberkriminalität in Afrika",
-      "description": "Interpol meldet, dass KI inzwischen an 55 Prozent der gemeldeten Cyberverbrechen in Afrika beteiligt ist. Die finanziellen Schäden stiegen von 192 auf 484 Millionen US-Dollar. Allein 600.000 Fälle dig",
-      "link": "https://the-decoder.de/von-deepfakes-bis-phishing-ki-durchdringt-laut-interpol-alle-phasen-der-cyberkriminalitaet-in-afrika/",
-      "date": "2026-08-03T14:37:28.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "How we built a realtime system for responsive voice AI in six months",
       "description": "GPT-Live enables continuous voice interaction with AI, using a turnless speech model and low-latency architecture for faster, more natural conversations.",
       "link": "https://openai.com/index/continuous-voice-interaction-with-gpt-live",
@@ -132,6 +123,15 @@
       "description": "OpenAI shares new results on long-standing open problems in mathematics and theoretical computer science, including advances in geometry, cryptography, and complexity.",
       "link": "https://openai.com/index/ten-advances-in-mathematics",
       "date": "2026-08-01T00:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
+      "title": "Advancing responsible AI across Europe",
+      "description": "OpenAI shares how its safety, security, transparency, and provenance practices support responsible AI governance in Europe. The work will continue as the EU AI Act advances.",
+      "link": "https://openai.com/index/advancing-responsible-ai-across-europe",
+      "date": "2026-07-31T15:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
