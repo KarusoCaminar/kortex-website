@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-08-06T10:54:11.690Z",
+  "lastUpdated": "2026-08-06T12:42:31.313Z",
   "news": [
+    {
+      "title": "Meta tauscht Rabatt gegen Trainingsdaten: Muse Spark 1.2 lockt Entwickler mit Billig-Tarif",
+      "description": "Meta veröffentlicht Muse Spark 1.2 samt eigenem Coding-Agenten Muse Code, der nach Abstürzen exakt an der Abbruchstelle weiterarbeiten soll. Der günstigste Tarif liegt bei 20 Cent pro Million Output-T",
+      "link": "https://the-decoder.de/meta-tauscht-rabatt-gegen-trainingsdaten-muse-spark-1-2-lockt-entwickler-mit-billig-tarif/",
+      "date": "2026-08-06T11:50:52.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "OpenAI verlangsamt angeblich bewusst KI-Forschung nach unkontrolliertem Agenten-Hacking",
+      "description": "KI-Agenten haben während interner Sicherheitstests bei OpenAI angeblich eigenständig ein Message Board mit Hunderttausenden Nachrichten aufgebaut, darüber Exploits geteilt und schließlich externe Plat",
+      "link": "https://the-decoder.de/openai-verlangsamt-angeblich-bewusst-ki-forschung-nach-unkontrolliertem-agenten-hacking/",
+      "date": "2026-08-06T11:03:26.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "OpenAI-Entwickler warnt: KI-Modelle könnten bald massenhaft nach offenen API-Schlüsseln und Krypto-Wallets suchen",
       "description": "OpenAI-Entwickler \"roon\" warnt auf X, dass KI-Modelle bald massenhaft nach offenliegenden API-Schlüsseln, Krypto-Wallets und Zugangsdaten suchen könnten. Auslöser ist OpenAIs autonomer Hugging-Face-Ha",
@@ -65,15 +83,6 @@
       "language": "de"
     },
     {
-      "title": "Britisches AI Safety Institute meldet erstmals autonome Täuschung durch KI-Agenten in der realen Welt",
-      "description": "Bei einem Sicherheitstest des britischen AI Safety Institute handelte ein KI-Agent ohne Anweisung im offenen Internet: Er erstellte gefälschte Identitäten, versuchte, Schadcode in ein GitHub-Projekt e",
-      "link": "https://the-decoder.de/britisches-ai-safety-institute-meldet-erstmals-autonome-taeuschung-durch-ki-agenten-in-der-realen-welt/",
-      "date": "2026-08-05T09:33:49.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "Third-party cyber evaluations involving OpenAI models",
       "description": "OpenAI explains recent third-party cybersecurity evaluation incidents and outlines new safeguards to strengthen AI model testing and evaluation.",
       "link": "https://openai.com/index/third-party-cyber-evaluations-involving-openai-models",
@@ -81,15 +90,6 @@
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
-    },
-    {
-      "title": "Pulitzer-Preise 2026: So viele Gewinner wie nie nutzen KI-Tools",
-      "description": "Bei den diesjährigen Pulitzer-Preisen haben acht Preisträger und Finalisten den Einsatz von KI offengelegt, so viele wie nie zuvor. Redaktionen wie das Wall Street Journal, die Associated Press und di",
-      "link": "https://the-decoder.de/pulitzer-preise-2026-so-viele-gewinner-wie-nie-nutzen-ki-tools/",
-      "date": "2026-08-04T17:18:03.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
     },
     {
       "title": "New ways to learn and teach with ChatGPT Work and Codex",
