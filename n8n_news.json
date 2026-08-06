@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-08-06T07:00:08.445Z",
+  "lastUpdated": "2026-08-06T10:54:11.690Z",
   "news": [
+    {
+      "title": "OpenAI-Entwickler warnt: KI-Modelle könnten bald massenhaft nach offenen API-Schlüsseln und Krypto-Wallets suchen",
+      "description": "OpenAI-Entwickler \"roon\" warnt auf X, dass KI-Modelle bald massenhaft nach offenliegenden API-Schlüsseln, Krypto-Wallets und Zugangsdaten suchen könnten. Auslöser ist OpenAIs autonomer Hugging-Face-Ha",
+      "link": "https://the-decoder.de/openai-entwickler-warnt-ki-modelle-koennten-bald-massenhaft-nach-offenen-api-schluesseln-und-krypto-wallets-suchen/",
+      "date": "2026-08-06T10:03:02.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "KI-Beben bei Google Deepmind: CEO Demis Hassabis tritt zurück, Chefforscher Jeff Dean geht",
       "description": "Google Deepmind erlebt einen doppelten Umbruch: Demis Hassabis gibt die operative Leitung ab und wird Chief Scientist von Alphabet, während Chefforscher Jeff Dean nach 27 Jahren geht, um mit Discovery",
@@ -78,15 +87,6 @@
       "description": "Bei den diesjährigen Pulitzer-Preisen haben acht Preisträger und Finalisten den Einsatz von KI offengelegt, so viele wie nie zuvor. Redaktionen wie das Wall Street Journal, die Associated Press und di",
       "link": "https://the-decoder.de/pulitzer-preise-2026-so-viele-gewinner-wie-nie-nutzen-ki-tools/",
       "date": "2026-08-04T17:18:03.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Google lagert Milliardenrisiken aus der Bilanz aus, um Anthropic mit KI-Hardware zu versorgen",
-      "description": "Google hat mit Broadcom, Apollo, Blackstone und Morgan Stanley ein milliardenschweres Finanzierungskonstrukt aufgebaut, um KI-Chips und Rechenzentren für Anthropic bereitzustellen, ohne sie selbst in",
-      "link": "https://the-decoder.de/google-lagert-milliardenrisiken-aus-der-bilanz-aus-um-anthropic-mit-ki-hardware-zu-versorgen/",
-      "date": "2026-08-04T16:14:58.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
