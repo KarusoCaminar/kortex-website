@@ -1,6 +1,60 @@
 {
-  "lastUpdated": "2026-08-07T06:28:44.941Z",
+  "lastUpdated": "2026-08-07T12:20:09.205Z",
   "news": [
+    {
+      "title": "Chinas größtes KI-Modell entsteht bei Bytedance",
+      "description": "ByteDance trainiert laut Financial Times ein KI-Modell mit bis zu zehn Billionen Parametern – dreimal so groß wie Moonshots Kimi K3, das bislang größte chinesische Modell.\nDer Artikel Chinas größtes K",
+      "link": "https://the-decoder.de/chinas-groesstes-ki-modell-entsteht-bei-bytedance/",
+      "date": "2026-08-07T11:47:17.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Stanford-Forscher haben mit KI künstliche Viren für den gezielten Einsatz gegen Bakterien erschaffen",
+      "description": "Einem Forschungsteam aus Kalifornien ist es laut einem Bericht gelungen, mit künstlicher Intelligenz neue Viren zu erschaffen, die Bakterien töten können. Die Arbeit gilt als erster Schritt in Richtun",
+      "link": "https://the-decoder.de/stanford-forscher-haben-mit-ki-kuenstliche-viren-fuer-den-gezielten-einsatz-gegen-bakterien-erschaffen/",
+      "date": "2026-08-07T10:33:56.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "OpenAIs erstes Gerät: Donutförmiger KI-Lautsprecher soll über 300 Dollar kosten",
+      "description": "OpenAIs geplanter smarter Lautsprecher nimmt konkretere Formen an: Das erste Hardwaregerät des Unternehmens wird donutförmig, etwa so groß wie ein Eishockey-Puck und soll über 300 Dollar kosten, beric",
+      "link": "https://the-decoder.de/openais-erstes-geraet-donutfoermiger-ki-lautsprecher-soll-ueber-300-dollar-kosten/",
+      "date": "2026-08-07T10:03:32.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "OpenAI verlangsamt angeblich bewusst KI-Forschung nach unkontrolliertem Agenten-Hacking",
+      "description": "KI-Agenten haben während interner Sicherheitstests bei OpenAI angeblich eigenständig ein Message Board mit Hunderttausenden Nachrichten aufgebaut, darüber Exploits geteilt und schließlich externe Plat",
+      "link": "https://the-decoder.de/openai-verlangsamt-angeblich-bewusst-ki-forschung-nach-unkontrolliertem-agenten-hacking/",
+      "date": "2026-08-07T09:20:26.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "How HSP GRUPPE builds AI capabilities for tax advisory",
+      "description": "Discover how HSP GRUPPE uses ChatGPT Enterprise to boost productivity, improve work quality, and create more capacity for tax advisory and client service.",
+      "link": "https://openai.com/index/hsp-gruppe",
+      "date": "2026-08-07T09:00:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
+    {
+      "title": "Neuer offener Standard soll das Chaos bei KI-Agenten-Erweiterungen beenden",
+      "description": "Amazon, Cursor, Microsoft, OpenAI und Vercel haben mit Agent Plugins einen offenen Standard vorgestellt, der ein einheitliches Paketformat für Erweiterungen von KI-Agenten definiert. Version 1.0.0 set",
+      "link": "https://the-decoder.de/neuer-offener-standard-soll-das-chaos-bei-ki-agenten-erweiterungen-beenden/",
+      "date": "2026-08-07T07:27:45.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "OpenAI verbessert GPT-5.6 Sol in ChatGPT und beschränkt Free-Nutzer auf das schwächste Modell",
       "description": "OpenAI aktualisiert GPT-5.6 Sol mit fokussierteren Antworten und einem neuen Reasoning-Slider, der die Denktiefe stufenlos regeln lässt. Kostenlose Nutzer erhalten ab nächster Woche unbegrenzte Text-C",
@@ -38,33 +92,6 @@
       "language": "de"
     },
     {
-      "title": "Meta tauscht Rabatt gegen Trainingsdaten: Muse Spark 1.2 lockt Entwickler mit Billig-Tarif",
-      "description": "Meta veröffentlicht Muse Spark 1.2 samt eigenem Coding-Agenten Muse Code, der nach Abstürzen exakt an der Abbruchstelle weiterarbeiten soll. Der günstigste Tarif liegt bei 20 Cent pro Million Output-T",
-      "link": "https://the-decoder.de/meta-tauscht-rabatt-gegen-trainingsdaten-muse-spark-1-2-lockt-entwickler-mit-billig-tarif/",
-      "date": "2026-08-06T11:50:52.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "OpenAI verlangsamt angeblich bewusst KI-Forschung nach unkontrolliertem Agenten-Hacking",
-      "description": "KI-Agenten haben während interner Sicherheitstests bei OpenAI angeblich eigenständig ein Message Board mit Hunderttausenden Nachrichten aufgebaut, darüber Exploits geteilt und schließlich externe Plat",
-      "link": "https://the-decoder.de/openai-verlangsamt-angeblich-bewusst-ki-forschung-nach-unkontrolliertem-agenten-hacking/",
-      "date": "2026-08-06T11:03:26.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "OpenAI-Entwickler warnt: KI-Modelle könnten bald massenhaft nach offenen API-Schlüsseln und Krypto-Wallets suchen",
-      "description": "OpenAI-Entwickler \"roon\" warnt auf X, dass KI-Modelle bald massenhaft nach offenliegenden API-Schlüsseln, Krypto-Wallets und Zugangsdaten suchen könnten. Auslöser ist OpenAIs autonomer Hugging-Face-Ha",
-      "link": "https://the-decoder.de/openai-entwickler-warnt-ki-modelle-koennten-bald-massenhaft-nach-offenen-api-schluesseln-und-krypto-wallets-suchen/",
-      "date": "2026-08-06T10:03:02.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "Improving GPT‑5.6 Sol in ChatGPT—and expanding access to GPT-5.6 Luna for free users",
       "description": "ChatGPT introduces improved GPT-5.6 Sol with better accuracy and consistency, plus expanded access for free users and unlimited everyday chats with GPT-5.6 Luna.",
       "link": "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt",
@@ -92,24 +119,6 @@
       "language": "en"
     },
     {
-      "title": "KI-Beben bei Google Deepmind: CEO Demis Hassabis tritt zurück, Chefforscher Jeff Dean geht",
-      "description": "Google Deepmind erlebt einen doppelten Umbruch: Demis Hassabis gibt die operative Leitung ab und wird Chief Scientist von Alphabet, während Chefforscher Jeff Dean nach 27 Jahren geht, um mit Discovery",
-      "link": "https://the-decoder.de/ki-beben-bei-google-deepmind-ceo-demis-hassabis-tritt-zurueck-chefforscher-jeff-dean-geht/",
-      "date": "2026-08-05T18:11:53.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Google stellt den Google Assistant ab September 2026 ein: Gemini übernimmt auf Android und Wear OS",
-      "description": "Google stellt den Google Assistant auf Android und Wear OS ab dem 4. September 2026 ein. Gemini übernimmt als KI-gestützter Nachfolger auf Smartphones, Tablets, Uhren und in Autos mit Android Auto. Ob",
-      "link": "https://the-decoder.de/google-stellt-den-google-assistant-ab-september-2026-ein-gemini-uebernimmt-auf-android-und-wear-os/",
-      "date": "2026-08-05T17:36:38.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "Third-party cyber evaluations involving OpenAI models",
       "description": "OpenAI explains recent third-party cybersecurity evaluation incidents and outlines new safeguards to strengthen AI model testing and evaluation.",
       "link": "https://openai.com/index/third-party-cyber-evaluations-involving-openai-models",
@@ -123,15 +132,6 @@
       "description": "Explore new education plugins for ChatGPT Work and Codex that help K–12 teachers, college educators, and students learn, teach, research, and build.",
       "link": "https://openai.com/index/learn-teach-chatgpt-work-codex",
       "date": "2026-08-04T00:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "Apple is getting this wrong",
-      "description": "OpenAI addresses Apple’s baseless lawsuit, corrects claims about its employees, and shares messages documenting what happened.",
-      "link": "https://openai.com/index/apple-is-getting-this-wrong",
-      "date": "2026-08-03T22:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
