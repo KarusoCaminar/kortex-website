@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-08-07T18:19:46.892Z",
+  "lastUpdated": "2026-08-07T20:15:13.886Z",
   "news": [
+    {
+      "title": "OpenAI stuft neues KI-Modell Astra erstmals potenziell auf höchste Cybersecurity-Risikostufe ein",
+      "description": "OpenAI stuft sein kommendes Modell Astra erstmals potenziell auf die höchste Risikostufe \"Critical\" seines eigenen Sicherheits-Frameworks ein. Die Cybersecurity-Fähigkeiten seien so stark, dass das Un",
+      "link": "https://the-decoder.de/openai-stuft-neues-ki-modell-astra-erstmals-potenziell-auf-hoechste-cybersecurity-risikostufe-ein/",
+      "date": "2026-08-07T19:30:06.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Musikgenerator Suno will den KI-Musik-Spam eindämmen und Copyright-Schutz verbessern",
+      "description": "Suno-CEO Mikey Shulman kündigt neue Prinzipien und strengere Download-Regeln an, um Massenverteilung generierter Songs auf Streaming-Plattformen einzudämmen. Das Unternehmen steht unter Druck: Ein deu",
+      "link": "https://the-decoder.de/musikgenerator-suno-will-den-ki-musik-spam-eindaemmen-und-copyright-schutz-verbessern/",
+      "date": "2026-08-07T18:22:42.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "AMD kauft Taalas: Startup brennt KI-Modelle fest in Chips ein für schnelle Inferenz",
       "description": "AMD übernimmt das kanadische Startup Taalas, das Modellgewichte fest in Inferenz-Chips einbrennt: extrem schnell, aber nur für ein einziges Modell nutzbar. Ein Demo-Chip erreichte über 16.000 Tokens p",
@@ -92,15 +110,6 @@
       "language": "de"
     },
     {
-      "title": "OpenAI verbessert GPT-5.6 Sol in ChatGPT und beschränkt Free-Nutzer auf das schwächste Modell",
-      "description": "OpenAI aktualisiert GPT-5.6 Sol mit fokussierteren Antworten und einem neuen Reasoning-Slider, der die Denktiefe stufenlos regeln lässt. Kostenlose Nutzer erhalten ab nächster Woche unbegrenzte Text-C",
-      "link": "https://the-decoder.de/openai-verbessert-gpt-5-6-sol-in-chatgpt-und-beschraenkt-free-nutzer-auf-das-schwaechste-modell/",
-      "date": "2026-08-06T18:25:27.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "Improving GPT‑5.6 Sol in ChatGPT—and expanding access to GPT-5.6 Luna for free users",
       "description": "ChatGPT introduces improved GPT-5.6 Sol with better accuracy and consistency, plus expanded access for free users and unlimited everyday chats with GPT-5.6 Luna.",
       "link": "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt",
@@ -123,15 +132,6 @@
       "description": "New OpenAI Signals data shows how people use ChatGPT worldwide, with country-level insights on adoption, usage trends, and evolving behavior.",
       "link": "https://openai.com/index/how-the-world-is-putting-chatgpt-to-work",
       "date": "2026-08-06T00:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "Third-party cyber evaluations involving OpenAI models",
-      "description": "OpenAI explains recent third-party cybersecurity evaluation incidents and outlines new safeguards to strengthen AI model testing and evaluation.",
-      "link": "https://openai.com/index/third-party-cyber-evaluations-involving-openai-models",
-      "date": "2026-08-04T19:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
