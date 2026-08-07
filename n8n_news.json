@@ -1,6 +1,42 @@
 {
-  "lastUpdated": "2026-08-07T16:19:58.723Z",
+  "lastUpdated": "2026-08-07T18:19:46.892Z",
   "news": [
+    {
+      "title": "AMD kauft Taalas: Startup brennt KI-Modelle fest in Chips ein für schnelle Inferenz",
+      "description": "AMD übernimmt das kanadische Startup Taalas, das Modellgewichte fest in Inferenz-Chips einbrennt: extrem schnell, aber nur für ein einziges Modell nutzbar. Ein Demo-Chip erreichte über 16.000 Tokens p",
+      "link": "https://the-decoder.de/amd-kauft-taalas-startup-brennt-ki-modelle-fest-in-chips-ein-fuer-schnelle-inferenz/",
+      "date": "2026-08-07T17:58:32.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Fable 5 darf wieder Biologie: Anthropic lockert übereifrige Sicherheitsfilter deutlich",
+      "description": "Anthropic hat die Fehlalarmrate seiner Biologie-Sicherheitsfilter für Fable 5 um rund 85 Prozent gesenkt. Zuvor wurden fast alle biologiebezogenen Anfragen blockiert und an das schwächere Modell Opus",
+      "link": "https://the-decoder.de/fable-5-darf-wieder-biologie-anthropic-lockert-uebereifrige-sicherheitsfilter-deutlich/",
+      "date": "2026-08-07T17:27:45.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "OpenAIs erster smarter Lautsprecher soll 2027 kommen und mehr als 300 Dollar kosten",
+      "description": "OpenAI plant für 2027 ein KI-Hardwaregerät in Donut-Form: ein smarter Lautsprecher ohne Display mit Kamera, Mikrofonen und beweglichen Teilen für mehr als 300 US-Dollar. Das Gerät soll lernen und sich",
+      "link": "https://the-decoder.de/openais-erster-smarter-lautsprecher-soll-2027-kommen-und-mehr-als-300-dollar-kosten/",
+      "date": "2026-08-07T16:38:16.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Responding to the next frontier of critical cyber capabilities",
+      "description": "OpenAI is sharing preliminary cybersecurity evaluations for Astra and the steps we’re taking to strengthen safeguards and security controls.",
+      "link": "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities",
+      "date": "2026-08-07T15:20:00.000Z",
+      "source": "OpenAI",
+      "category": "große-modelle",
+      "language": "en"
+    },
     {
       "title": "Chinas größtes KI-Modell entsteht bei Bytedance",
       "description": "ByteDance trainiert laut Financial Times ein KI-Modell mit bis zu zehn Billionen Parametern – dreimal so groß wie Moonshots Kimi K3, das bislang größte chinesische Modell.\nDer Artikel Chinas größtes K",
@@ -65,33 +101,6 @@
       "language": "de"
     },
     {
-      "title": "Deepminds KI-Talentschwund geht wohl auf Chip-Engpässe, einen grundlegenden Interessenkonflikt und Googles Bürokratie zurück",
-      "description": "Google Deepmind verliert reihenweise prominente KI-Köpfe und nun werden erste Gründe sichtbar: CEO Demis Hassabis hat sich angeblich seit rund einem Jahr aus dem Tagesgeschäft zurückgezogen, da er sic",
-      "link": "https://the-decoder.de/deepminds-ki-talentschwund-geht-wohl-auf-chip-engpaesse-einen-grundlegenden-interessenkonflikt-und-googles-buerokratie-zurueck/",
-      "date": "2026-08-06T17:56:54.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Microsofts KI-Umsatz hängt angeblich zu 70 Prozent von OpenAI ab",
-      "description": "Microsoft erzielte im Geschäftsjahr bis Juni 24,1 Milliarden Dollar KI-Umsatz über OpenAI, laut Bloomberg-Analyse rund 70 Prozent des gesamten KI-Geschäfts. Die starke Abhängigkeit erklärt, warum sich",
-      "link": "https://the-decoder.de/microsofts-ki-umsatz-haengt-angeblich-zu-70-prozent-von-openai-ab/",
-      "date": "2026-08-06T17:31:33.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Gleiche KI, unterschiedliche Kosten: Framework-Wahl verändert den Preis um fast das Dreifache",
-      "description": "Composio hat Deepseek V4 Flash in vier Agenten-Frameworks getestet. Bei 30 Praxisaufgaben lagen die Erfolgsquoten meist nah beieinander, doch die Kosten variierten um fast das Dreifache: OpenCode war",
-      "link": "https://the-decoder.de/gleiche-ki-unterschiedliche-kosten-framework-wahl-veraendert-den-preis-um-fast-das-dreifache/",
-      "date": "2026-08-06T16:24:59.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "Improving GPT‑5.6 Sol in ChatGPT—and expanding access to GPT-5.6 Luna for free users",
       "description": "ChatGPT introduces improved GPT-5.6 Sol with better accuracy and consistency, plus expanded access for free users and unlimited everyday chats with GPT-5.6 Luna.",
       "link": "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt",
@@ -123,15 +132,6 @@
       "description": "OpenAI explains recent third-party cybersecurity evaluation incidents and outlines new safeguards to strengthen AI model testing and evaluation.",
       "link": "https://openai.com/index/third-party-cyber-evaluations-involving-openai-models",
       "date": "2026-08-04T19:00:00.000Z",
-      "source": "OpenAI",
-      "category": "große-modelle",
-      "language": "en"
-    },
-    {
-      "title": "New ways to learn and teach with ChatGPT Work and Codex",
-      "description": "Explore new education plugins for ChatGPT Work and Codex that help K–12 teachers, college educators, and students learn, teach, research, and build.",
-      "link": "https://openai.com/index/learn-teach-chatgpt-work-codex",
-      "date": "2026-08-04T00:00:00.000Z",
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
