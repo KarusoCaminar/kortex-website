@@ -1,11 +1,20 @@
 {
-  "lastUpdated": "2026-08-07T20:15:13.886Z",
+  "lastUpdated": "2026-08-08T08:15:39.437Z",
   "news": [
+    {
+      "title": "xAIs neuer Bildgenerator \"Imagine Image 2.0\" landet auf Platz 2 hinter OpenAI",
+      "description": "xAI hat Imagine Image 2.0 als neuen Bildgenerator für Grok veröffentlicht. Das Modell erreicht in den Arena-Benchmarks jeweils den zweiten Platz hinter OpenAIs GPT-Image-2. Neue Bearbeitungswerkzeuge",
+      "link": "https://the-decoder.de/xais-neuer-bildgenerator-imagine-image-2-0-landet-auf-platz-2-hinter-openai/",
+      "date": "2026-08-08T08:04:39.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "OpenAI stuft neues KI-Modell Astra erstmals potenziell auf höchste Cybersecurity-Risikostufe ein",
       "description": "OpenAI stuft sein kommendes Modell Astra erstmals potenziell auf die höchste Risikostufe \"Critical\" seines eigenen Sicherheits-Frameworks ein. Die Cybersecurity-Fähigkeiten seien so stark, dass das Un",
       "link": "https://the-decoder.de/openai-stuft-neues-ki-modell-astra-erstmals-potenziell-auf-hoechste-cybersecurity-risikostufe-ein/",
-      "date": "2026-08-07T19:30:06.000Z",
+      "date": "2026-08-08T07:16:06.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
@@ -69,15 +78,6 @@
       "description": "Einem Forschungsteam aus Kalifornien ist es laut einem Bericht gelungen, mit künstlicher Intelligenz neue Viren zu erschaffen, die Bakterien töten können. Die Arbeit gilt als erster Schritt in Richtun",
       "link": "https://the-decoder.de/stanford-forscher-haben-mit-ki-kuenstliche-viren-fuer-den-gezielten-einsatz-gegen-bakterien-erschaffen/",
       "date": "2026-08-07T10:33:56.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "OpenAIs erstes Gerät: Donutförmiger KI-Lautsprecher soll über 300 Dollar kosten",
-      "description": "OpenAIs geplanter smarter Lautsprecher nimmt konkretere Formen an: Das erste Hardwaregerät des Unternehmens wird donutförmig, etwa so groß wie ein Eishockey-Puck und soll über 300 Dollar kosten, beric",
-      "link": "https://the-decoder.de/openais-erstes-geraet-donutfoermiger-ki-lautsprecher-soll-ueber-300-dollar-kosten/",
-      "date": "2026-08-07T10:03:32.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
