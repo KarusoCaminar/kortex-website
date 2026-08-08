@@ -1,6 +1,60 @@
 {
-  "lastUpdated": "2026-08-08T08:15:39.437Z",
+  "lastUpdated": "2026-08-08T16:09:06.782Z",
   "news": [
+    {
+      "title": "Anthropic schaltet Claude Code standardmäßig auf Auto-Mode – zum Schutz der Entwickler",
+      "description": "Anthropic macht den Auto-Mode in Claude Code ab dem 14. August zum Standard für Pro-, Max- und Team-Tarife. Der Grund: die Sicherheit von IT-Projekten. Denn in Tests erkannte der Klassifikator 89 Proz",
+      "link": "https://the-decoder.de/anthropic-schaltet-claude-code-standardmaessig-auf-auto-mode-zum-schutz-der-entwickler/",
+      "date": "2026-08-08T14:45:57.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Claude-Code-Sessions können ab sofort miteinander kommunizieren und Informationen austauschen",
+      "description": "Claude Code ermöglicht die direkte Kommunikation zwischen Sessions: Auf macOS und Linux können parallel laufende Instanzen einander Nachrichten schicken, Erkenntnisse teilen und Statusabfragen stellen",
+      "link": "https://the-decoder.de/claude-code-sessions-koennen-ab-sofort-miteinander-kommunizieren-und-informationen-austauschen/",
+      "date": "2026-08-08T12:26:36.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Leser bewerten ChatGPT-Geschichten höher als menschliche, bis sie die KI-Herkunft erfahren",
+      "description": "Laut einer Studie können Menschen von ChatGPT generierte Kurzgeschichten nicht von menschlich verfassten unterscheiden. Mehr als 2500 Probanden lagen nicht besser als der Zufall. Die KI-Texte wurden s",
+      "link": "https://the-decoder.de/leser-bewerten-chatgpt-geschichten-hoeher-als-menschliche-bis-sie-die-ki-herkunft-erfahren/",
+      "date": "2026-08-08T12:17:55.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Backflip AI verwandelt 3D-Scans in wenigen Minuten in bearbeitbare CAD-Modelle",
+      "description": "Backflip AI veröffentlicht ein KI-Modell, das 3D-Scans in vollständig bearbeitbare, parametrische CAD-Modelle umwandelt, ein Prozess, der sonst viel Zeit und Expertise erfordert. Laut CEO Greg Mark ha",
+      "link": "https://the-decoder.de/backflip-ai-verwandelt-3d-scans-in-wenigen-minuten-in-bearbeitbare-cad-modelle/",
+      "date": "2026-08-08T11:23:53.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Fields-Medaillen-Gewinner warnt vor \"omniziden Ereignissen\" durch KI und wechselt zu OpenAI",
+      "description": "Ein frisch gekürter Fields-Medaillen-Gewinner wechselt in die KI-Branche: Der Mathematiker Jacob Tsimerman verlässt die University of Toronto und geht zu OpenAI, um an KI-Sicherheit zu arbeiten. In ei",
+      "link": "https://the-decoder.de/fields-medaillen-gewinner-warnt-vor-omniziden-ereignissen-durch-ki-und-wechselt-zu-openai/",
+      "date": "2026-08-08T10:38:48.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "KI-Agenten verbrauchen etwa 600-mal mehr Energie als ein einfacher Chat-Prompt",
+      "description": "Der Klimawissenschaftler Zeke Hausfather hat seinen Claude-Code-Verbrauch über acht Wochen gemessen: 3,2 Milliarden Token, rund 170 kWh Rechenzentrumsstrom, pro Prompt etwa 600-mal so viel wie ein nor",
+      "link": "https://the-decoder.de/ki-agenten-verbrauchen-etwa-600-mal-mehr-energie-als-ein-einfacher-chat-prompt/",
+      "date": "2026-08-08T09:03:06.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "xAIs neuer Bildgenerator \"Imagine Image 2.0\" landet auf Platz 2 hinter OpenAI",
       "description": "xAI hat Imagine Image 2.0 als neuen Bildgenerator für Grok veröffentlicht. Das Modell erreicht in den Arena-Benchmarks jeweils den zweiten Platz hinter OpenAIs GPT-Image-2. Neue Bearbeitungswerkzeuge",
@@ -38,24 +92,6 @@
       "language": "de"
     },
     {
-      "title": "Fable 5 darf wieder Biologie: Anthropic lockert übereifrige Sicherheitsfilter deutlich",
-      "description": "Anthropic hat die Fehlalarmrate seiner Biologie-Sicherheitsfilter für Fable 5 um rund 85 Prozent gesenkt. Zuvor wurden fast alle biologiebezogenen Anfragen blockiert und an das schwächere Modell Opus",
-      "link": "https://the-decoder.de/fable-5-darf-wieder-biologie-anthropic-lockert-uebereifrige-sicherheitsfilter-deutlich/",
-      "date": "2026-08-07T17:27:45.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "OpenAIs erster smarter Lautsprecher soll 2027 kommen und mehr als 300 Dollar kosten",
-      "description": "OpenAI plant für 2027 ein KI-Hardwaregerät in Donut-Form: ein smarter Lautsprecher ohne Display mit Kamera, Mikrofonen und beweglichen Teilen für mehr als 300 US-Dollar. Das Gerät soll lernen und sich",
-      "link": "https://the-decoder.de/openais-erster-smarter-lautsprecher-soll-2027-kommen-und-mehr-als-300-dollar-kosten/",
-      "date": "2026-08-07T16:38:16.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "Responding to the next frontier of critical cyber capabilities",
       "description": "OpenAI is sharing preliminary cybersecurity evaluations for Astra and the steps we’re taking to strengthen safeguards and security controls.",
       "link": "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities",
@@ -65,33 +101,6 @@
       "language": "en"
     },
     {
-      "title": "Chinas größtes KI-Modell entsteht bei Bytedance",
-      "description": "ByteDance trainiert laut Financial Times ein KI-Modell mit bis zu zehn Billionen Parametern – dreimal so groß wie Moonshots Kimi K3, das bislang größte chinesische Modell.\nDer Artikel Chinas größtes K",
-      "link": "https://the-decoder.de/chinas-groesstes-ki-modell-entsteht-bei-bytedance/",
-      "date": "2026-08-07T11:47:17.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Stanford-Forscher haben mit KI künstliche Viren für den gezielten Einsatz gegen Bakterien erschaffen",
-      "description": "Einem Forschungsteam aus Kalifornien ist es laut einem Bericht gelungen, mit künstlicher Intelligenz neue Viren zu erschaffen, die Bakterien töten können. Die Arbeit gilt als erster Schritt in Richtun",
-      "link": "https://the-decoder.de/stanford-forscher-haben-mit-ki-kuenstliche-viren-fuer-den-gezielten-einsatz-gegen-bakterien-erschaffen/",
-      "date": "2026-08-07T10:33:56.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "OpenAI verlangsamt angeblich bewusst KI-Forschung nach unkontrolliertem Agenten-Hacking",
-      "description": "KI-Agenten haben während interner Sicherheitstests bei OpenAI angeblich eigenständig ein Message Board mit Hunderttausenden Nachrichten aufgebaut, darüber Exploits geteilt und schließlich externe Plat",
-      "link": "https://the-decoder.de/openai-verlangsamt-angeblich-bewusst-ki-forschung-nach-unkontrolliertem-agenten-hacking/",
-      "date": "2026-08-07T09:20:26.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
       "title": "How HSP GRUPPE builds AI capabilities for tax advisory",
       "description": "Discover how HSP GRUPPE uses ChatGPT Enterprise to boost productivity, improve work quality, and create more capacity for tax advisory and client service.",
       "link": "https://openai.com/index/hsp-gruppe",
@@ -99,15 +108,6 @@
       "source": "OpenAI",
       "category": "große-modelle",
       "language": "en"
-    },
-    {
-      "title": "Neuer offener Standard soll das Chaos bei KI-Agenten-Erweiterungen beenden",
-      "description": "Amazon, Cursor, Microsoft, OpenAI und Vercel haben mit Agent Plugins einen offenen Standard vorgestellt, der ein einheitliches Paketformat für Erweiterungen von KI-Agenten definiert. Version 1.0.0 set",
-      "link": "https://the-decoder.de/neuer-offener-standard-soll-das-chaos-bei-ki-agenten-erweiterungen-beenden/",
-      "date": "2026-08-07T07:27:45.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
     },
     {
       "title": "Improving GPT‑5.6 Sol in ChatGPT—and expanding access to GPT-5.6 Luna for free users",
