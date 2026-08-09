@@ -1,6 +1,33 @@
 {
-  "lastUpdated": "2026-08-09T10:12:41.726Z",
+  "lastUpdated": "2026-08-09T14:14:56.392Z",
   "news": [
+    {
+      "title": "KI-Betrug an US-Colleges: Falsche Studierende erschleichen mit KI Studienbeihilfen",
+      "description": "KI-gestützter Betrug breitet sich an US-Community-Colleges aus: Laut einem Bericht des New Yorker schreiben sich falsche Studierende in Kurse ein, lassen Aufgaben von KI erledigen und erschleichen Stu",
+      "link": "https://the-decoder.de/ki-betrug-an-us-colleges-falsche-studierende-erschleichen-mit-ki-studienbeihilfen/",
+      "date": "2026-08-09T12:50:59.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Google Deepminds WeatherNext sagt Zugbahn und Intensität von Zyklonen gleichzeitig vorher",
+      "description": "Google Deepmind stellt mit WeatherNext Cyclones ein KI-Modell vor, das tropische Wirbelstürme rund einen Tag weiter voraus prognostizieren kann als führende operative Systeme. Den Forschern zufolge en",
+      "link": "https://the-decoder.de/google-deepminds-weathernext-sagt-zugbahn-und-intensitaet-von-zyklonen-gleichzeitig-vorher/",
+      "date": "2026-08-09T11:48:06.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Britische Beschäftigte nutzen ChatGPT statt Anwälte und überlasten damit die Justiz",
+      "description": "Britische Arbeitsgerichte verzeichnen 39 Prozent mehr Klagen bis März 2026 – viele davon mit ChatGPT oder Grok verfasst. Der Rückstau ungelöster Fälle stieg um 55 Prozent auf 64.000, die KI-generierte",
+      "link": "https://the-decoder.de/britische-beschaeftigte-nutzen-chatgpt-statt-anwaelte-und-ueberlasten-damit-die-justiz/",
+      "date": "2026-08-09T10:23:43.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Google DiffusionGemma: So funktioniert das schnelle Text-Diffusionsmodell",
       "description": "Google Deepmind zeigt im technischen Bericht zu DiffusionGemma, wie sich das bestehende Gemma-4-Modell mit unter zehn Prozent des ursprünglichen Trainingsbudgets in ein Diffusionsmodell umwandeln läss",
@@ -60,33 +87,6 @@
       "description": "Backflip AI veröffentlicht ein KI-Modell, das 3D-Scans in vollständig bearbeitbare, parametrische CAD-Modelle umwandelt, ein Prozess, der sonst viel Zeit und Expertise erfordert. Laut CEO Greg Mark ha",
       "link": "https://the-decoder.de/backflip-ai-verwandelt-3d-scans-in-wenigen-minuten-in-bearbeitbare-cad-modelle/",
       "date": "2026-08-08T11:23:53.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Fields-Medaillen-Gewinner warnt vor \"omniziden Ereignissen\" durch KI und wechselt zu OpenAI",
-      "description": "Ein frisch gekürter Fields-Medaillen-Gewinner wechselt in die KI-Branche: Der Mathematiker Jacob Tsimerman verlässt die University of Toronto und geht zu OpenAI, um an KI-Sicherheit zu arbeiten. In ei",
-      "link": "https://the-decoder.de/fields-medaillen-gewinner-warnt-vor-omniziden-ereignissen-durch-ki-und-wechselt-zu-openai/",
-      "date": "2026-08-08T10:38:48.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "KI-Agenten verbrauchen etwa 600-mal mehr Energie als ein einfacher Chat-Prompt",
-      "description": "Der Klimawissenschaftler Zeke Hausfather hat seinen Claude-Code-Verbrauch über acht Wochen gemessen: 3,2 Milliarden Token, rund 170 kWh Rechenzentrumsstrom, pro Prompt etwa 600-mal so viel wie ein nor",
-      "link": "https://the-decoder.de/ki-agenten-verbrauchen-etwa-600-mal-mehr-energie-als-ein-einfacher-chat-prompt/",
-      "date": "2026-08-08T09:03:06.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "xAIs neuer Bildgenerator \"Imagine Image 2.0\" landet auf Platz 2 hinter OpenAI",
-      "description": "xAI hat Imagine Image 2.0 als neuen Bildgenerator für Grok veröffentlicht. Das Modell erreicht in den Arena-Benchmarks jeweils den zweiten Platz hinter OpenAIs GPT-Image-2. Neue Bearbeitungswerkzeuge",
-      "link": "https://the-decoder.de/xais-neuer-bildgenerator-imagine-image-2-0-landet-auf-platz-2-hinter-openai/",
-      "date": "2026-08-08T08:04:39.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
