@@ -1,6 +1,33 @@
 {
-  "lastUpdated": "2026-08-09T02:45:47.076Z",
+  "lastUpdated": "2026-08-09T10:12:41.726Z",
   "news": [
+    {
+      "title": "Google DiffusionGemma: So funktioniert das schnelle Text-Diffusionsmodell",
+      "description": "Google Deepmind zeigt im technischen Bericht zu DiffusionGemma, wie sich das bestehende Gemma-4-Modell mit unter zehn Prozent des ursprünglichen Trainingsbudgets in ein Diffusionsmodell umwandeln läss",
+      "link": "https://the-decoder.de/google-diffusiongemma-technischer-bericht-erklaert-das-schnelle-text-diffusionsmodell/",
+      "date": "2026-08-09T09:51:26.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "KI-Energiehunger treibt Amazon und Nvidia zu Milliarden-Investitionen in Strominfrastruktur",
+      "description": "Der Energiehunger der KI-Branche lässt nicht nach: Nvidia investiert bis zu drei Milliarden Dollar in den Strominfrastruktur-Entwickler Lancium, der bereits 4 Gigawatt in Texas unter Vertrag hat. Amaz",
+      "link": "https://the-decoder.de/ki-energiehunger-treibt-amazon-und-nvidia-zu-milliarden-investitionen-in-strominfrastruktur/",
+      "date": "2026-08-09T09:23:28.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
+    {
+      "title": "Googles KI-Krise: Deepmind verliert Unabhängigkeit und Hassabis ist so gut wie weg",
+      "description": "Google Deepmind verliert seine Eigenständigkeit und Gründer Demis Hassabis könnte das KI-Labor in den kommenden Monaten endgültig verlassen. Die operative Führung übernimmt der KI-Forscher Koray Kavuk",
+      "link": "https://the-decoder.de/googles-ki-krise-deepmind-verliert-unabhaengigkeit-und-hassabis-ist-so-gut-wie-weg/",
+      "date": "2026-08-09T08:24:12.000Z",
+      "source": "The Decoder",
+      "category": "große-modelle",
+      "language": "de"
+    },
     {
       "title": "Anthropic schaltet Claude Code standardmäßig auf Auto-Mode – zum Schutz der Entwickler",
       "description": "Anthropic macht den Auto-Mode in Claude Code ab dem 14. August zum Standard für Pro-, Max- und Team-Tarife. Der Grund: die Sicherheit von IT-Projekten. Denn in Tests erkannte der Klassifikator 89 Proz",
@@ -60,33 +87,6 @@
       "description": "xAI hat Imagine Image 2.0 als neuen Bildgenerator für Grok veröffentlicht. Das Modell erreicht in den Arena-Benchmarks jeweils den zweiten Platz hinter OpenAIs GPT-Image-2. Neue Bearbeitungswerkzeuge",
       "link": "https://the-decoder.de/xais-neuer-bildgenerator-imagine-image-2-0-landet-auf-platz-2-hinter-openai/",
       "date": "2026-08-08T08:04:39.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "OpenAI stuft neues KI-Modell Astra erstmals potenziell auf höchste Cybersecurity-Risikostufe ein",
-      "description": "OpenAI stuft sein kommendes Modell Astra erstmals potenziell auf die höchste Risikostufe \"Critical\" seines eigenen Sicherheits-Frameworks ein. Die Cybersecurity-Fähigkeiten seien so stark, dass das Un",
-      "link": "https://the-decoder.de/openai-stuft-neues-ki-modell-astra-erstmals-potenziell-auf-hoechste-cybersecurity-risikostufe-ein/",
-      "date": "2026-08-08T07:16:06.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "Musikgenerator Suno will den KI-Musik-Spam eindämmen und Copyright-Schutz verbessern",
-      "description": "Suno-CEO Mikey Shulman kündigt neue Prinzipien und strengere Download-Regeln an, um Massenverteilung generierter Songs auf Streaming-Plattformen einzudämmen. Das Unternehmen steht unter Druck: Ein deu",
-      "link": "https://the-decoder.de/musikgenerator-suno-will-den-ki-musik-spam-eindaemmen-und-copyright-schutz-verbessern/",
-      "date": "2026-08-07T18:22:42.000Z",
-      "source": "The Decoder",
-      "category": "große-modelle",
-      "language": "de"
-    },
-    {
-      "title": "AMD kauft Taalas: Startup brennt KI-Modelle fest in Chips ein für schnelle Inferenz",
-      "description": "AMD übernimmt das kanadische Startup Taalas, das Modellgewichte fest in Inferenz-Chips einbrennt: extrem schnell, aber nur für ein einziges Modell nutzbar. Ein Demo-Chip erreichte über 16.000 Tokens p",
-      "link": "https://the-decoder.de/amd-kauft-taalas-startup-brennt-ki-modelle-fest-in-chips-ein-fuer-schnelle-inferenz/",
-      "date": "2026-08-07T17:58:32.000Z",
       "source": "The Decoder",
       "category": "große-modelle",
       "language": "de"
