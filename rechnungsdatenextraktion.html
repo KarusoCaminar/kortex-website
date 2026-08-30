@@ -340,6 +340,7 @@
       box-shadow: 0 12px 36px rgba(0,0,0,0.6);
       max-height: calc(100vh - 40px);
       overflow: auto; /* scroll inside modal rather than the whole page when content overflows */
+      word-break: break-word; /* Stellt sicher, dass lange Zeichenketten ohne Leerzeichen umgebrochen werden */
     }
     
     .invoice-detail-close {
@@ -796,6 +797,7 @@
       color: #e2e8f0;
       font-weight: 500;
       line-height: 1.6;
+      word-break: break-word; /* Stellt sicher, dass lange Zeichenketten umgebrochen werden */
     }
     
     .invoice-info-value.vat-value {
@@ -1028,7 +1030,7 @@
       
       .pdf-preview-container {
         min-height: 300px;
-        aspect-ratio: 210 / 297;
+        aspect-ratio: auto; /* Allow flexible aspect ratio on small screens */
       }
       
       .invoice-preview img {
@@ -1044,6 +1046,7 @@
       .invoice-line-items td {
         padding: 8px 10px;
         font-size: 0.8rem;
+        white-space: nowrap; /* Stellt sicher, dass Tabelleninhalte nicht umbrechen und stattdessen scrollen */
       }
     }
     
@@ -1224,6 +1227,7 @@
     @media (max-width: 768px) {
       h1 {
         font-size: 2rem;
+        word-break: break-all;
       }
       
       .content-section {
@@ -1259,6 +1263,7 @@
       #results-table th,
       #results-table td {
         padding: 8px 12px;
+        white-space: nowrap; /* Verhindert unschönen Zeilenumbruch in Tabellenzellen */
       }
     }
   </style>
