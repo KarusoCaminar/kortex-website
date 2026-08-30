@@ -30,7 +30,7 @@
     <!-- Kontakt-Formular -->
     <section id="kontakt" style="max-width: 900px; margin: 0 auto;">
       <div class="question-widget">
-        <form action="/api/contact" method="post" style="display:grid;gap:0.9rem">
+        <form id="contact-form" action="/api/contact" method="post" style="display:grid;gap:0.9rem">
           <input type="hidden" name="formType" value="kontaktseite-direkter-kontakt">
           <input type="hidden" name="formLocation" value="Kontaktseite - Direkter Kontakt">
           <label class="sr-only" for="process-kontakt">Prozessbeschreibung</label>
@@ -42,6 +42,7 @@
           </div>
           <small style="color:rgba(30,41,59,.6)"><span data-i18n="contact.email">Oder direkt per E-Mail:</span> <a href="mailto:info@kortex-system.com" style="color:var(--primary);font-weight:600">info@kortex-system.com</a></small>
         </form>
+        <div id="form-message-container" style="margin-top: 1rem;"></div>
       </div>
     </section>
   </main>
@@ -51,8 +52,8 @@
   <script src="./components/navbar.js"></script>
   <script src="./components/footer.js"></script>
   <script src="./components/cookie-banner.js"></script>
+  <script src="config.js"></script>
   <script src="script.js"></script>
   
 </body>
 </html>
-

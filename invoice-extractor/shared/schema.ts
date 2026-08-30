@@ -45,6 +45,7 @@ export interface Invoice {
 }
 
 export interface InsertInvoice {
+  id?: string;
   fileName: string;
   fileType: string;
   fileData: string;
@@ -65,6 +66,7 @@ export interface InsertInvoice {
   vatValidated?: string | null;
   status?: string;
   errorMessage?: string | null;
+  createdAt?: Date;
 }
 
 // User schema (keep existing for compatibility)

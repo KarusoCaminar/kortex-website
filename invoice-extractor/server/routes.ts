@@ -1,10 +1,12 @@
 import type { Express } from "express";
 import { createServer, type Server } from "http";
 import multer from "multer";
-import { storage } from "./storage";
+import { storage } from "./postgres-storage";
 import { extractInvoiceData, validateGermanVatId } from "./gemini-vertex";
-import type { InsertInvoice } from "@shared/schema";
-import pdfParse from "pdf-parse";
+import type { InsertInvoice, Invoice } from "@shared/schema";
+import { v4 as uuidv4 } from "uuid";
+import { lineItems } from "./db/schema";
+import { db } from "./db";
 
 const upload = multer({
   storage: multer.memoryStorage(),
@@ -22,19 +24,16 @@ const upload = multer({
 });
 
 export async function registerRoutes(app: Express): Promise<Server> {
-  // Lightweight health check endpoint with no side effects
   app.get("/healthz", (_req: any, res: any) => {
     res.type("text/plain").send("OK");
   });
 
-  // Export invoices - MUST be before /:id route!
   app.get("/api/invoices/export", async (req, res) => {
     try {
       const format = req.query.format as string;
       const invoices = await storage.getAllInvoices();
 
       if (format === "csv") {
-        // Generate CSV with UTF-8 BOM for Excel compatibility
         const headers = [
           "Rechnungsnummer",
           "Datum",
@@ -48,10 +47,8 @@ export async function registerRoutes(app: Express): Promise<Server> {
         ];
 
         const csvRows = [
-          // Header row with proper escaping
           headers.map((h) => `"${h.replace(/"/g, '""')}"`).join(","),
-          // Data rows with proper escaping
-          ...invoices.map((inv) => {
+          ...invoices.map((inv: Invoice) => {
             const row = [
               inv.invoiceNumber || "",
               inv.invoiceDate || "",
@@ -63,23 +60,26 @@ export async function registerRoutes(app: Express): Promise<Server> {
               inv.totalAmount || "",
               inv.status || "",
             ];
-            return row.map((cell) => {
-              const val = String(cell || "").replace(/"/g, '""');
-              return `"${val}"`;
-            }).join(",");
+            return row
+              .map((cell) => {
+                const val = String(cell || "").replace(/"/g, '""');
+                return `"${val}"`;
+              })
+              .join(",");
           }),
         ];
 
-        // UTF-8 BOM for Excel compatibility (korrekte Darstellung von Umlauten)
         const BOM = "\uFEFF";
         const csv = BOM + csvRows.join("\n");
 
         res.setHeader("Content-Type", "text/csv; charset=utf-8");
-        res.setHeader("Content-Disposition", "attachment; filename=rechnungen-export.csv");
+        res.setHeader(
+          "Content-Disposition",
+          "attachment; filename=rechnungen-export.csv"
+        );
         res.send(csv);
       } else if (format === "json") {
-        // Generate JSON (exclude file data for smaller file size)
-        const exportData = invoices.map((inv) => ({
+        const exportData = invoices.map((inv: Invoice) => ({
           id: inv.id,
           fileName: inv.fileName,
           invoiceNumber: inv.invoiceNumber,
@@ -98,7 +98,10 @@ export async function registerRoutes(app: Express): Promise<Server> {
         }));
 
         res.setHeader("Content-Type", "application/json");
-        res.setHeader("Content-Disposition", "attachment; filename=rechnungen-export.json");
+        res.setHeader(
+          "Content-Disposition",
+          "attachment; filename=rechnungen-export.json"
+        );
         res.json(exportData);
       } else {
         res.status(400).send("Ungültiges Format. Verwenden Sie 'csv' oder 'json'.");
@@ -108,8 +111,7 @@ export async function registerRoutes(app: Express): Promise<Server> {
       res.status(500).send("Fehler beim Exportieren der Rechnungen");
     }
   });
-  
-  // Get all invoices
+
   app.get("/api/invoices", async (req, res) => {
     try {
       const invoices = await storage.getAllInvoices();
@@ -120,7 +122,6 @@ export async function registerRoutes(app: Express): Promise<Server> {
     }
   });
 
-  // Get single invoice
   app.get("/api/invoices/:id", async (req, res) => {
     try {
       const invoice = await storage.getInvoice(req.params.id);
@@ -128,87 +129,97 @@ export async function registerRoutes(app: Express): Promise<Server> {
         return res.status(404).send("Rechnung nicht gefunden");
       }
 
-      // LAZY PROCESSING: Wenn Status "processing" ist, starte die KI-Extraktion jetzt
       if (invoice.status === "processing") {
         console.log(`⏳ Invoice ${invoice.id} is processing, attempting extraction...`);
-        
+
         try {
-          const extractedData = await extractInvoiceData(invoice.fileData, invoice.fileType);
+          const extractedData = await extractInvoiceData(
+            invoice.fileData,
+            invoice.fileType
+          );
 
-          // Validate that extraction was successful - check if we got at least SOME data
-          const hasAnyData = extractedData.invoiceNumber || 
-                            extractedData.supplierName || 
-                            extractedData.totalAmount || 
-                            extractedData.subtotal ||
-                            (extractedData.lineItems && extractedData.lineItems.length > 0);
-          
+          const hasAnyData =
+            extractedData.invoiceNumber ||
+            extractedData.supplierName ||
+            extractedData.totalAmount ||
+            extractedData.subtotal ||
+            (extractedData.lineItems && extractedData.lineItems.length > 0);
+
           if (!hasAnyData) {
-            console.warn(`⚠️ Invoice ${invoice.id}: AI extraction returned no data - all fields are null/empty`);
-            throw new Error("KI-Extraktion war nicht erfolgreich: Keine Rechnungsdaten konnten aus dem Dokument extrahiert werden. Bitte stellen Sie sicher, dass die Datei eine gültige, lesbare Rechnung ist.");
+            console.warn(
+              `⚠️ Invoice ${invoice.id}: AI extraction returned no data - all fields are null/empty`
+            );
+            throw new Error(
+              "KI-Extraktion war nicht erfolgreich: Keine Rechnungsdaten konnten aus dem Dokument extrahiert werden. Bitte stellen Sie sicher, dass die Datei eine gültige, lesbare Rechnung ist."
+            );
           }
 
-          // Validate German VAT ID if present
-          let vatValidated = null;
+          let vatValidated: string | null = null;
           if (extractedData.supplierVatId) {
-            vatValidated = validateGermanVatId(extractedData.supplierVatId) ? "valid" : "invalid";
+            vatValidated = validateGermanVatId(extractedData.supplierVatId)
+              ? "valid"
+              : "invalid";
           }
 
-          // Update invoice with extracted data
+          const { lineItems: itemsToInsert, ...invoiceData } = extractedData;
+
           const updatedInvoice = await storage.updateInvoice(invoice.id, {
             status: "completed",
-            invoiceNumber: extractedData.invoiceNumber || null,
-            invoiceDate: extractedData.invoiceDate || null,
-            supplierName: extractedData.supplierName || null,
-            supplierAddress: extractedData.supplierAddress || null,
-            supplierVatId: extractedData.supplierVatId || null,
-            subtotal: extractedData.subtotal || null,
-            vatRate: extractedData.vatRate || null,
-            vatAmount: extractedData.vatAmount || null,
-            totalAmount: extractedData.totalAmount || null,
-            lineItems: extractedData.lineItems || null,
+            ...invoiceData,
             vatValidated: vatValidated,
           });
+
+          if (itemsToInsert && itemsToInsert.length > 0) {
+            const lineItemsToInsert = itemsToInsert.map((item) => ({
+              id: `li-${uuidv4()}`,
+              invoiceId: invoice.id,
+              ...item,
+            }));
+            await db.insert(lineItems).values(lineItemsToInsert);
+          }
 
           console.log(`✅ Invoice ${invoice.id} processed successfully:`, {
             invoiceNumber: extractedData.invoiceNumber,
             supplierName: extractedData.supplierName,
             totalAmount: extractedData.totalAmount,
-            lineItemsCount: extractedData.lineItems?.length || 0
+            lineItemsCount: extractedData.lineItems?.length || 0,
           });
-          
-          // Return final invoice with completed status
-          return res.json(updatedInvoice || invoice);
 
+          return res.json(updatedInvoice || invoice);
         } catch (error) {
           console.error(`❌ Error processing invoice ${invoice.id}:`, error);
-          
-          // Provide user-friendly error messages
+
           let userMessage = "Unbekannter Fehler bei der Verarbeitung";
           if (error instanceof Error) {
             if (error.message.includes("quota") || error.message.includes("limit")) {
               userMessage = "API-Limit erreicht. Bitte versuchen Sie es später erneut.";
-            } else if (error.message.includes("credentials") || error.message.includes("authentication")) {
-              userMessage = "Authentifizierung fehlgeschlagen. Bitte kontaktieren Sie den Support.";
+            } else if (
+              error.message.includes("credentials") ||
+              error.message.includes("authentication")
+            ) {
+              userMessage =
+                "Authentifizierung fehlgeschlagen. Bitte kontaktieren Sie den Support.";
             } else if (error.message.includes("timeout")) {
               userMessage = "Zeitüberschreitung. Bitte versuchen Sie es erneut.";
-            } else if (error.message.includes("network") || error.message.includes("ECONNREFUSED")) {
+            } else if (
+              error.message.includes("network") ||
+              error.message.includes("ECONNREFUSED")
+            ) {
               userMessage = "Netzwerkfehler. Bitte überprüfen Sie Ihre Verbindung.";
             } else {
               userMessage = `Verarbeitung fehlgeschlagen: ${error.message}`;
             }
           }
-          
+
           const errorInvoice = await storage.updateInvoice(invoice.id, {
             status: "error",
             errorMessage: userMessage,
           });
 
-          // Return error invoice
           return res.json(errorInvoice || invoice);
         }
       }
 
-      // Wenn Status nicht "processing" war (z.B. schon completed/error), sende ihn einfach
       res.json(invoice);
     } catch (error) {
       console.error("Error fetching invoice:", error);
@@ -216,8 +227,6 @@ export async function registerRoutes(app: Express): Promise<Server> {
     }
   });
 
-  // Upload invoice (ASYNCHRONOUS - returns immediately with "processing" status)
-  // Processing happens lazily when GET /api/invoices/:id is called
   app.post("/api/invoices/upload", upload.single("file"), async (req, res) => {
     try {
       if (!req.file) {
@@ -225,75 +234,63 @@ export async function registerRoutes(app: Express): Promise<Server> {
       }
 
       const file = req.file;
-      const fileData = `data:${file.mimetype};base64,${file.buffer.toString("base64")}`;
+      const fileData = `data:${file.mimetype};base64,${file.buffer.toString(
+        "base64"
+      )}`;
 
-      // Create initial invoice record
       const invoiceData: InsertInvoice = {
         fileName: file.originalname,
         fileType: file.mimetype,
         fileData: fileData,
         status: "processing",
-        invoiceNumber: null,
-        invoiceDate: null,
-        supplierName: null,
-        supplierAddress: null,
-        supplierVatId: null,
-        subtotal: null,
-        vatRate: null,
-        vatAmount: null,
-        totalAmount: null,
-        lineItems: null,
-        vatValidated: null,
-        errorMessage: null,
       };
 
       const invoice = await storage.createInvoice(invoiceData);
 
-      // SOFORT ANTWORTEN - keine KI-Verarbeitung hier!
-      // Die KI-Extraktion wird asynchron beim ersten Polling (GET /api/invoices/:id) durchgeführt
-      console.log(`📤 Invoice ${invoice.id} uploaded, status: processing (will be processed on first poll)`);
-      
+      console.log(
+        `📤 Invoice ${invoice.id} uploaded, status: processing (will be processed on first poll)`
+      );
+
       res.json(invoice);
     } catch (error) {
       console.error("Error uploading invoice:", error);
-      res.status(500).send(error instanceof Error ? error.message : "Fehler beim Hochladen");
+      res
+        .status(500)
+        .send(error instanceof Error ? error.message : "Fehler beim Hochladen");
     }
   });
 
-  // Delete invoice
   app.delete("/api/invoices/:id", async (req, res) => {
     try {
       const id = req.params.id;
-      
-      // Check if it's a demo invoice
+
       if (id.startsWith("demo-")) {
-        return res.status(403).json({ 
-          success: false, 
+        return res.status(403).json({
+          success: false,
           error: "DEMO_INVOICE",
-          message: "Demo-Rechnungen können nicht gelöscht werden"
+          message: "Demo-Rechnungen können nicht gelöscht werden",
         });
       }
-      
+
       const deleted = await storage.deleteInvoice(id);
       if (!deleted) {
-        return res.status(404).json({ 
-          success: false, 
+        return res.status(404).json({
+          success: false,
           error: "NOT_FOUND",
-          message: "Rechnung nicht gefunden" 
+          message: "Rechnung nicht gefunden",
         });
       }
       res.json({ success: true });
     } catch (error) {
       console.error("Error deleting invoice:", error);
-      res.status(500).json({ 
-        success: false, 
+      res.status(500).json({
+        success: false,
         error: "SERVER_ERROR",
-        message: "Fehler beim Löschen der Rechnung" 
+        message: "Fehler beim Löschen der Rechnung",
       });
     }
   });
 
-  // Delete all invoices
   app.delete("/api/invoices", async (req, res) => {
     try {
       const deletedCount = await storage.deleteAllInvoices();
